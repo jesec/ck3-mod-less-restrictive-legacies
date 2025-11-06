@@ -302,6 +302,25 @@
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp2_iberian_muslim_war_nob_01_hi: "이베리아 이슬람 갑옷 높음"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp2_iberian_christian_war_nob_01_lo: "이베리아 기독교 갑옷 낮음"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp2_iberian_christian_war_nob_01_hi: "이베리아 기독교 갑옷 높음"
+ ############################
+ ### FP3 - Sands of Time ###
+ ############################
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_lo: "이란 하층 귀족 복장 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_lo: "이란 하층 귀족 복장 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_lo: "이란 하층 귀족 복장 3"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_hi: "이란 고위 귀족 복장 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_hi: "이란 고위 귀족 복장 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_hi: "이란 고위 귀족 복장 3"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_war_nob_01: "이란 귀족 갑옷"
+ ### Female ###
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_01_lo: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_lo$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_02_lo: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_lo$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_03_lo: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_lo$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_01_hi: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_hi$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_02_hi: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_hi$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_03_hi: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_hi$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_war_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_war_nob_01$"
  ####################################
  ### SP2 - Elegance of the Empire ###
  ####################################
@@ -538,6 +557,24 @@
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp2_iberian_christian_war_nob_01_hi: "체르벨레라 투구 높음"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp2_iberian_muslim_war_nob_01_lo: "안달루시아 무장식 투구"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp2_iberian_muslim_war_nob_01_hi: "안달루시아 장식 투구"
+ ###########
+ ### FP3 ###
+ ###########
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_imp_01: "이란 제국 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_roy_01: "이란 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_nob_01: "콜라 나마디"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_nob_02: "칼란수와 타윌라"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_war_nob_01: "공작 투구"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_turkic_nob_01: "양털 모자"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_turkic_nob_02: "샤르부쉬"
+ PORTRAIT_MODIFIER_custom_special_m_headgear_fp3_iranian_face_mask_01: "투르크 페르시아 가면"
+ ### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_imp_01: "이란 제국 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_roy_01: "날개 왕관"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_nob_01: "리본 달린 레이스 모자"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_nob_02: "장식 달린 둥근 모자"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_war_nob_01: "공작 투구"
  ####################################
  ### SP2 - Elegance of the Empire ###
  ####################################
@@ -661,6 +698,17 @@
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_01_common: "프레이밍 곱슬머리"
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_02_common: "섬세한 곱슬머리"
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_03_common: "네 갈래 땋은 머리"
+ ### Male FP3 Hair ###
+ PORTRAIT_MODIFIER_custom_hair_m_hair_fp3_iranian_01: "긴 갈래 머리"
+ PORTRAIT_MODIFIER_custom_hair_m_hair_fp3_iranian_02: "셀주크 땋은 머리"
+ PORTRAIT_MODIFIER_custom_hair_m_hair_fp3_iranian_03: "끝이 물결치는 적당한 머리"
+ ### Female FP3 Hair ###
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_01: "귀걸이와 적당한 곱슬머리"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_01_common: "적당한 곱슬머리"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_02: "귀걸이와 긴 갈래 머리"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_02_common: "긴 갈래 머리"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_03: "귀걸이와 적당한 올린 머리"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_03_common: "적당한 올린 머리"
  ### Male Special ###
  PORTRAIT_MODIFIER_custom_hair_male_hair_special_01: "레게머리"
  #######################################
@@ -709,6 +757,10 @@
  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_03: "카바예로의 수염"
  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_muslim_03: "갈래 수염"
  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_04: "늘어진 콧수염"
+ ### FP3 Beards ###
+ PORTRAIT_MODIFIER_custom_beards_m_beard_fp3_iranian_01: "매듭과 적당한 올린 머리"
+ PORTRAIT_MODIFIER_custom_beards_m_beard_fp3_iranian_02: "길고 뾰족한 수염"
+ PORTRAIT_MODIFIER_custom_beards_m_beard_fp3_iranian_03: "바빌로니아 수염"
  ### SP2 Beards ###
  PORTRAIT_MODIFIER_custom_beards_m_beard_sp2_western_01: "왕의 콧수염"
  #######################################
@@ -1119,9 +1171,9 @@
  throne_room_bow_1: "인사, 버전 1"
  throne_room_bow_2: "인사, 버전 2"
  throne_room_bow_3: "인사, 버전 3"
- throne_room_one_handed_passive_1: "한손 무기 패시브, 버전 1"
- throne_room_one_handed_passive_2: "한손 무기 패시브, 버전 2"
- throne_room_two_handed_passive_1: "한손 무기 패시브, 버전 3"
+ throne_room_one_handed_passive_1: "검 패시브"
+ throne_room_one_handed_passive_2: "도끼 패시브"
+ throne_room_two_handed_passive_1: "창 패시브"
  throne_room_writer: "책과 깃펜"
  crossbow: "쇠뇌"
  hunting_shortbow_rest_arrow_default: "단궁 유휴 상태, 기본 화살"

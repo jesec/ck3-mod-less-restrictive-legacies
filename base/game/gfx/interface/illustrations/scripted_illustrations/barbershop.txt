@@ -4,6 +4,15 @@ barbershop_background = {
 	##########################################
 
 	texture = {
+		reference = "main_menu/fp3_frontend_iranian.dds"
+	}
+	environment = {
+		reference = "environment_fp3_frontend_iranian_main"
+	}
+
+	##########################################
+
+	texture = {
 		reference = "main_menu/fp2_frontend_iberian.dds"
 	}
 	environment = {
@@ -1110,7 +1119,7 @@ barbershop_background = {
 
 	##########################################
 
-		texture = {
+	texture = {
 		reference = "event_scenes/bp2_nursery.dds"
 	}
 	environment = {
@@ -1119,11 +1128,56 @@ barbershop_background = {
 
 	##########################################
 
-		texture = {
+	texture = {
 		reference = "event_scenes/bp2_university_mena.dds"
 	}
 	environment = {
 		reference = "environment_bp2_university_mena"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp3_bathhouse.dds"
+	}
+	environment = {
+		reference = "environment_event_fp3_bathhouse"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp3_cave.dds"
+	}
+	environment = {
+		reference = "environment_event_sittingroom"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp3_temple.dds"
+	}
+	environment = {
+		reference = "environment_event_fp3_temple"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp3_docks.dds"
+	}
+	environment = {
+		reference = "environment_event_fp3_docks"
+	}
+
+	##########################################
+
+	texture = {
+		reference = "event_scenes/fp3_courtyard_night.dds"
+	}
+	environment = {
+		reference = "environment_event_fp3_courtyard_night"
 	}
 
 	##########################################

@@ -26,3 +26,7 @@
  rf_eastern_opinion: "Мнение восточных религий"
  rf_pagan_opinion: "$pagan_adherent$ое мнение"
  rf_abrahamic_opinion: "Мнение авраамических религий"
+ ashari_opinion: "[GetFaithByKey('ashari').GetAdherentName] — мнение"
+ muwalladi_opinion: "[GetFaithByKey('muwalladi').GetAdherentName] — мнение"
+ maturidi_opinion: "[GetFaithByKey('maturidi').GetAdherentName] — мнение"
+ mutazila_opinion: "[GetFaithByKey('mutazila').GetAdherentName] — мнение"

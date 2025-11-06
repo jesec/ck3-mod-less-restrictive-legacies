@@ -302,6 +302,25 @@
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp2_iberian_muslim_war_nob_01_hi: "Armadura mayor musulmana ibérica"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp2_iberian_christian_war_nob_01_lo: "Armadura menor cristiana ibérica"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp2_iberian_christian_war_nob_01_hi: "Armadura mayor cristiana ibérica"
+ ############################
+ ### FP3 - Sands of Time ###
+ ############################
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_lo: "Noble menor iranio 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_lo: "Noble menor iranio 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_lo: "Noble menor iranio 3"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_hi: "Noble alto iranio 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_hi: "Noble alto iranio 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_hi: "Noble alto iranio 3"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_war_nob_01: "Armadura de nobleza irania"
+ ### Female ###
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_01_lo: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_lo$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_02_lo: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_lo$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_03_lo: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_lo$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_01_hi: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_hi$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_02_hi: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_hi$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_03_hi: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_hi$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_war_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_war_nob_01$"
  ####################################
  ### SP2 - Elegance of the Empire ###
  ####################################
@@ -538,6 +557,24 @@
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp2_iberian_christian_war_nob_01_hi: "Casco capacete mayor"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp2_iberian_muslim_war_nob_01_lo: "Casco andalusí no adornado"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp2_iberian_muslim_war_nob_01_hi: "Casco andalusí adornado"
+ ###########
+ ### FP3 ###
+ ###########
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_imp_01: "Corona imperial irania"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_roy_01: "Corona irania"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_nob_01: "Kolah namadi"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_nob_02: "Qalansuwa tawila"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_war_nob_01: "Yelmo de pavo real"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_turkic_nob_01: "Gorro de lana"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_turkic_nob_02: "Sharbush"
+ PORTRAIT_MODIFIER_custom_special_m_headgear_fp3_iranian_face_mask_01: "Máscara turcopersa"
+ ### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_imp_01: "Corona imperial irania"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_roy_01: "Corona alada"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_nob_01: "Gorro con cordones y lazo"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_nob_02: "Gorro redondo con adornos"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_war_nob_01: "Yelmo de pavo real"
  ####################################
  ### SP2 - Elegance of the Empire ###
  ####################################
@@ -661,6 +698,17 @@
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_01_common: "Rizos marcados"
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_02_common: "Rizos finos"
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_03_common: "Cuatro trenzas"
+ ### Male FP3 Hair ###
+ PORTRAIT_MODIFIER_custom_hair_m_hair_fp3_iranian_01: "Largo dividido en mechones"
+ PORTRAIT_MODIFIER_custom_hair_m_hair_fp3_iranian_02: "Trenzas selyúcidas"
+ PORTRAIT_MODIFIER_custom_hair_m_hair_fp3_iranian_03: "Medio con puntas onduladas"
+ ### Female FP3 Hair ###
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_01: "Rizos medios con pendiente"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_01_common: "Rizos medios"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_02: "Largo dividido en mechones con pendiente"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_02_common: "Largo dividido en mechones"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_03: "Moños medios con pendiente"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_03_common: "Moños medios"
  ### Male Special ###
  PORTRAIT_MODIFIER_custom_hair_male_hair_special_01: "Rastas épicas"
  #######################################
@@ -709,6 +757,10 @@
  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_03: "Barba de caballero"
  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_muslim_03: "Barba bifurcada"
  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_04: "Mostacho lacio"
+ ### FP3 Beards ###
+ PORTRAIT_MODIFIER_custom_beards_m_beard_fp3_iranian_01: "Barba media con nudo"
+ PORTRAIT_MODIFIER_custom_beards_m_beard_fp3_iranian_02: "Barba larga y puntiaguda"
+ PORTRAIT_MODIFIER_custom_beards_m_beard_fp3_iranian_03: "Barba babilónica"
  ### SP2 Beards ###
  PORTRAIT_MODIFIER_custom_beards_m_beard_sp2_western_01: "Mostacho regio"
  #######################################
@@ -1119,9 +1171,9 @@
  throne_room_bow_1: "Inclinación, versión uno"
  throne_room_bow_2: "Inclinación, versión dos"
  throne_room_bow_3: "Inclinación, versión tres"
- throne_room_one_handed_passive_1: "Arma a una mano pasiva, versión uno"
- throne_room_one_handed_passive_2: "Arma a una mano pasiva, versión dos"
- throne_room_two_handed_passive_1: "Arma a una mano pasiva, versión tres"
+ throne_room_one_handed_passive_1: "Pasivo con espada"
+ throne_room_one_handed_passive_2: "Pasivo con hacha"
+ throne_room_two_handed_passive_1: "Pasivo con lanza"
  throne_room_writer: "Libro y pluma"
  crossbow: "Ballesta"
  hunting_shortbow_rest_arrow_default: "Arco corto inactivo, flecha por defecto"

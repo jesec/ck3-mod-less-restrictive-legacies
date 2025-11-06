@@ -54,7 +54,7 @@
  contest_events.0505.third_maydan: "#EMP Mujalli#! … Glaub mir: Ich könnte zufriedener sein …"
  contest_events.0505.contestant_horse: "#EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#! konnte sich nicht einmal platzieren … Nächstes Mal muss ich besser vorbereitet sein …"
  contest_events.0505.spectator: "Ein erhebendes Ereignis."
- contest_events.0505.a.winner: "Ich, [ROOT.Char.Custom('DE_PRO_POS_P_2P_N')] [ROOT.Char.GetTitleAsNameNoTooltip], habe gewonnen!"
+ contest_events.0505.a.winner: "Ich, [ROOT.Char.Custom('DE_PRO_POS_P_2P_N')|U] [ROOT.Char.GetTitleAsNameNoTooltip], habe gewonnen!"
  contest_events.0505.a.marriage: "Ich glaube, dieser Preis wird reichen."
  contest_events.0505.a: "Gut gemacht, [contest_winner.GetTitledFirstNameNoTooltip]."
  contest_events.0505.b: "[ROOT.Char.GetIntentTarget.GetTitledFirstNameNoTooltip], ich habe für Euch gewonnen!"
@@ -296,7 +296,7 @@
  #END
  contest_events.0805.t.board_game: "$tournament_phase_board_game$: $contest_events.0505.t$"
  contest_events.0805.t.duel: "$tournament_phase_duel$: $contest_events.0505.t$"
- contest_events.0805.t.wrestling: "$tournament_phase_wresting$: $contest_events.0505.t$"
+ contest_events.0805.t.wrestling: "$tournament_phase_wrestling$: $contest_events.0505.t$"
  contest_events.0805.t.joust: "$tournament_phase_joust$: $contest_events.0505.t$"
  contest_events.0805.desc: "Fanfaren erschallen, die Menge lärmt, die Teilnehmer versammeln sich. Der Wettbewerb ist vorbei, und es wird alles dafür vorbereitet, dass jemand sich im Glanz des Sieges sonnen kann. Ein Herold tritt vor, dessen Stimme alles übertönt.\n\n„Nach zahlreichen Prüfungen, einigen Beschwernissen und noch vor allem anderem einem mit viel Herz geführten Wettstreit hat [contest_winner.GetTitledFirstName] [contest_loser.GetTitledFirstName] im Finale geschlagen! [contest_winner.GetTitledFirstName] ist [Select_CString(contest_winner.IsFemale, 'unsere Siegerin', 'unser Sieger')]!“\n\n"
  contest_events.0805.first: "Es gibt wahrlich niemanden in [host.GetPrimaryTitle.GetBaseNameNoTierNoTooltip], der sich mit meinem Können messen kann!"

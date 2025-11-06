@@ -53,6 +53,8 @@
  smith_inspiration_desc: "Ce personnage a l’[inspiration|El] pour forger quelque chose de plus luxueux et de plus petit qu’une épée ou une armure. Ce sont les artistes qui fabriquent des couronnes et des verres à pied, brillants et incrustés de joyaux."
  alchemy_inspiration: "Inspiration d’alchimie"
  alchemy_inspiration_desc: "Ce personnage a l’[inspiration|El] pour explorer, purifier et créer des substances et des métaux, créer des élixirs, et parfaire en fin de compte le corps et l’âme humains."
+ research_inspiration: "Inspiration de recherche"
+ research_inspiration_desc: "Un personnage qui a une Inspiration de recherche est [inspired|El] à découvrir de nouvelles connaissances au profit de son [sponsor|El]. S’il réussit, il améliorera l’érudition au sein de la [dynasty|El] de son commanditaire, voire découvrira une [innovation|El] pour sa culture."
  weapon_inspiration_cost_tt: "Les inspirations pour une arme reposent sur la [martial|El] et la [prowess|El]"
  armor_inspiration_cost_tt: "Les inspirations pour une armure reposent sur la [martial|El] et la [prowess|El]"
  book_inspiration_cost_tt: "Les inspirations pour un livre reposent sur l’[learning|El]"

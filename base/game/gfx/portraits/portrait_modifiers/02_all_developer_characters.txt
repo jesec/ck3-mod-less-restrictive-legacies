@@ -1370,6 +1370,45 @@
         }
     }
 
+    nikola_stokic = { 
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                accessory = male_hair_fp1_09
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:easteregg_nikola_stokic
+                this = character:easteregg_nikola_stokic
+            }
+        }
+    }
+
+    tamara_stokic = { 
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.8
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:easteregg_tamara_stokic
+                this = character:easteregg_tamara_stokic
+            }
+        }
+    }
     sandra_runge_moller = { 
         dna_modifiers = {
             accessory = {
@@ -1783,8 +1822,8 @@
             }
         }
     }
-
-    david_drake = {
+    
+        david_drake = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -1833,6 +1872,423 @@
                 exists = character:easteregg_ernesto_lopez
                 this = character:easteregg_ernesto_lopez
             }
+        }
+    }
+
+    lucas_ribeiro = { 
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = fp3_hairstyles_iranian_straight
+                value = 0.1
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = no_beard
+                value = 0.11 # Please replace with accessory = accessory_name
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:easteregg_lucas_ribeiro
+                this = character:easteregg_lucas_ribeiro
+            }
+        }
+    }
+
+    daniel_velasquez = { 
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = all_hairstyles
+                accessory = male_hair_fp2_iberian_muslim_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = all_beards
+                accessory = male_beard_fp2_iberian_christian_01
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:easteregg_daniel_velasquez
+                this = character:easteregg_daniel_velasquez
+            }
+        }
+    }
+
+    female_hair_steppe_01 = { # Twin braids with ribbons and earrings
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                value = 0.76 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+        }
+    }
+
+    female_hair_steppe_02 = { # Tight with twin braids rolled up into two balls, earrings
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                value = 0.79 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+        }
+    }
+
+    ### FP2 Hair ###
+
+
+
+    female_hair_fp2_iberian_muslim_01 = { # Let out but with smaller braids braided in
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.1 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+				exists = this
+                exists = character:easteregg_ida_hedberg
+                this = character:easteregg_ida_hedberg
+            }
+            modifier = {
+                add = 999
+				exists = this
+                exists = character:easteregg_francesca_passoni
+                this = character:easteregg_francesca_passoni
+            }
+        }
+    }
+
+    female_hair_fp2_iberian_muslim_02 = { # Let out but with smaller braids braided in
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.2 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+        }
+    }
+
+    female_hair_fp2_iberian_muslim_03 = { # Let out but with smaller braids braided in
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.4 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+
+             modifier = {
+                add = 999
+                exists = this
+                exists = character:73683
+                this = character:73683
+            }
+        }
+    }
+
+    female_hair_fp2_iberian_christian_01 = { # Let out but with smaller braids braided in
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.6 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+
+             modifier = {
+                add = 999
+                exists = this
+                exists = character:73759
+                this = character:73759
+            }
+        }
+    }
+
+    female_hair_fp2_iberian_christian_02 = { # Let out but with smaller braids braided in
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.83 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+
+             modifier = {
+                add = 999
+				exists = this
+				exists = character:73857
+				this = character:73857
+            }
+
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:70292
+                this = character:70292
+            }
+        }
+    }
+
+    female_hair_fp2_iberian_christian_03 = { # Let out but with smaller braids braided in
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 1 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+
+             modifier = {
+                add = 999
+                exists = this
+                exists = character:73783
+                this = character:73783
+            }
+        }
+    }
+
+
+
+    ### FP1 Hair ###
+
+    female_hair_fp1_01 = { # Let out but with smaller braids braided in
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                value = 0.83 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+        }
+    }
+
+    female_hair_fp1_02 = { # Very big loose braid on one shoulder
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                value = 0.86 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:easteregg_elisabeth_gangenes
+                this = character:easteregg_elisabeth_gangenes
+            }
+        }
+    }
+
+    female_hair_fp1_03 = { # Pigtail braids
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                value = 0.90 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+        }
+    }
+
+    female_hair_fp1_04 = { # Crown braid with ribbon
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                value = 0.92 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+        }
+    }
+
+    female_hair_fp1_05 = { # Twin tails on chest, let out in back
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                value = 0.95 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+        }
+    }
+
+    female_hair_fp1_06 = { # Let out fluffy straight
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                value = 0.98 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:easteregg_alva_granholm
+                this = character:easteregg_alva_granholm
+            }
+        }
+    }
+
+    ### FP3 Hair
+
+    m_hair_fp3_iranian_01 = { # Long split strands
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_05
+                value = 0.1 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:163157 #Ismail Samani
+                this = character:163157 #Ismail Samani
+            }
+        }
+    }
+
+    m_hair_fp3_iranian_02 = { # Seljuk Braids
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_05
+                value = 0.6 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+        }
+    }
+
+    m_hair_fp3_iranian_03 = { # Medium wavy ends
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_05
+                value = 0.9 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:1230316 #Suri of Mandesh
+                this = character:1230316 #Suri of Mandesh
+            }
+        }
+    }
+
+    f_hair_fp3_iranian_01 = { #  Medium Curls with Earrings
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_05
+                value = 0.6 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+        }
+    }
+
+    f_hair_fp3_iranian_02 = { # Long Split with Earrings
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_05
+                value = 0.75 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+        }
+    }
+
+    f_hair_fp3_iranian_03 = { # Medium buns with earrings
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_05
+                value = 0.9 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
         }
     }
 }

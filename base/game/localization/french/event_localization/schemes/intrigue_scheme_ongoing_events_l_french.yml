@@ -166,6 +166,7 @@
  intrigue_scheme_ongoing.5013.a: "... TADA ! Maintenant, enlevez-la. #EMP Enlevez-la#! !"
  intrigue_scheme_ongoing.5013.a.tt: "J’ai perdu la créature, mais au moins je n’ai pas perdu la vie..."
  intrigue_scheme_ongoing.5014.t: "Somptueux tapis exotique"
+ intrigue_scheme_ongoing.5014.t_persian: "$persian_has_plush_carpet_modifier$"
  intrigue_scheme_ongoing.5014.desc: "Somptueux, éclatant et doux comme les premières lueurs de l’aube, tel est le tapis qu’un marchand me présente. En m’émerveillant de la finesse du tissage, une pensée me vient à l’esprit. Un tapis comme celui-ci ne pourrait-il pas atténuer le bruit de pas ? Et même dissimuler les pas d’un agent maladroit ?"
  intrigue_scheme_ongoing.5014.a: "[target.Custom('FR_le_Char_Pi')|U][target.GetTitledFirstNameNoTooltip] sera ravi[target.Custom('FR_E')] d’un tel cadeau."
  intrigue_scheme_ongoing.5014.a.success: "[target.GetSheHe|U] accepte le cadeau"

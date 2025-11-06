@@ -87,3 +87,7 @@
  sacrificed_my_dog_memory_desc: "내 봉토에서 다른 개를 살려주는 대가로 개를 혐오하는 주군 [liege.GetName]에게 내 멋진 개 [owner.Custom('DogStoryName')](을)를 바침"
  sacrificed_my_dog_memory_desc_second_perspective: "당신의 봉토에서 다른 개를 살려주는 대가로 개를 혐오하는 주군 [liege.GetName]에게 당신의 멋진 개 [owner.Custom('DogStoryName')](을)를 바침"
  sacrificed_my_dog_memory_desc_third_perspective: "[owner.GetName](은)는 자신의 봉토에서 다른 개를 살려주는 대가로 개를 혐오하는 주군 [liege.GetName]에게 [owner.GetNamePossessive] 멋진 개 [owner.Custom('DogStoryName')](을)를 바침"
+ abandoned_crypto_faith_memory: "내 은밀한 [ROOT.Var('old_faith_to_reminisce').Faith.GetName] 신앙을 버림"
+ abandoned_crypto_faith_memory_desc: "[ROOT.Var('old_faith_to_reminisce').Faith.GetName]에 대한 미련을 영원히 버림"
+ abandoned_crypto_faith_memory_desc_second_perspective: "당신은 [ROOT.Var('old_faith_to_reminisce').Faith.GetName]에 대한 미련을 영원히 버림"
+ abandoned_crypto_faith_memory_desc_third_perspective: "[owner.GetName](은)는 [ROOT.Var('old_faith_to_reminisce').Faith.GetName]에 대한 미련을 영원히 버림"

@@ -18,6 +18,6 @@
  ACHIEVEMENT_fp2_iberian_compromise: "Compromis Ibérique"
  ACHIEVEMENT_DESC_fp2_iberian_compromise: "Mettez fin à la [iberian_struggle|El] par un dénouement de status quo."
  ACHIEVEMENT_fp2_holiday_in_iberia: "Vacances dans la péninsule ibérique"
- ACHIEVEMENT_DESC_fp2_holiday_in_iberia: "Commencez en tant que personnage [struggle_uninvolved|El], devenez [struggle_involved|El] et mettez fin à la [iberian_struggle|El]."
+ ACHIEVEMENT_DESC_fp2_holiday_in_iberia: "Commencez en tant que personnage [struggle_uninvolved|El], devenez [struggle_involved|El] et mettez fin à la [struggle|El] ibérique."
  ACHIEVEMENT_fp2_el_cid_achievement: "L’héritage des campéadors"
  ACHIEVEMENT_DESC_fp2_el_cid_achievement: "Créez et gouvernez $k_valencia$ en tant qu’héritier d’El Cid. $rd_character_blocked_from_achievement$"

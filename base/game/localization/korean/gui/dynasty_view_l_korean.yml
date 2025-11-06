@@ -54,3 +54,6 @@
  DYNASTY_VIEW_SHOW_LEGACY_COST: "비용: [dynasty_prestige_i][Dynasty.GetNextPerkCost|V0]"
  DYNASTY_HOUSE_VIEW_PROGRESS_TOOLTIP: "진행도: 다음 [dynasty_perk|E]까지 [dynasty_prestige_i][Dynasty.GetPrestige|V0]/[Dynasty.GetNextPerkCost|0]"
  DYNASTY_HOUSE_VIEW_PROGRESS_LABEL: "다음 [dynasty_perk|E]"
+ DYNASTY_SPLENDOR: "가문 장엄:"
+ DYNASTY_LEGACIES: "가문 유산"
+ DYNASTY_HOUSE_VIEW_LEGACY_COST: "다음 유산 비용: [dynasty_prestige_i][Dynasty.GetNextPerkCost|V0]"

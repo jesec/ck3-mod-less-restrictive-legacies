@@ -120,5 +120,5 @@
  TRAIT_CATEGORY_HEALTH: "[health_trait|E]"
  TRAIT_CATEGORY_COURT_TYPE: "[court_type_trait|E]"
  TRAIT_CATEGORY_BASE: "[trait|E]"
- ANY_OPPOSITE_TRAIT_ALL: "N’a pas de traits opposés"
- NOT_ANY_OPPOSITE_TRAIT_ALL: "A déjà le trait opposé"
+ ANY_OPPOSITE_TRAIT_ALL: "N’a pas de [personality_traits|El] opposés"
+ NOT_ANY_OPPOSITE_TRAIT_ALL: "A déjà le [personality_trait|El] opposé"

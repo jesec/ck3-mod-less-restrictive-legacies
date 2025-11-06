@@ -2,7 +2,7 @@
  ep2_accolade_events.0100.t: "L’art de la chasse"
  ep2_accolade_events.0100.desc: "Poursuivre aveuglément une créature sauvage, en l’accablant de flèches ou en fatiguant sa monture ?\n\n« Futile ! » s’amuse [huntsmaster.GetName], mon célèbre [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')].\n\nLes bêtes peuvent être rusées. Elles sentent le traqueur approcher, se dispersent devant les chasseurs et enragent quand on les accule. Pour abattre du gibier, il faut connaître ses habitudes et son territoire, et, une fois que la corne a retenti, ne jamais se décourager.\n\n[huntsmaster.GetFirstNameNoTooltip] est le plus habile des chasseurs. En sa compagnie,"
  ep2_accolade_events.0100.desc.both: "m[ROOT.Char.Custom2('FR_RelationToMeShort_OnA', new_hunter_2)] [new_hunter_2.GetFirstName] et moi apprenons à connaître les habitudes des créatures [ROOT.Char.GetFaith.HighGodNamePossessive] et comment les prendre au piège."
- ep2_accolade_events.0100.desc.heir: "m[ROOT.Char.Custom2('FR_RelationToMeShort_OnA', new_hunter_2)] [new_hunter_2.GetFirstName] apprend à connaître les habitudes des créatures [ROOT.Char.GetFaith.HighGodNamePossessive] et comment les prendre au piège."
+ ep2_accolade_events.0100.desc.heir: "m[ROOT.Char.Custom2('FR_RelationToMeShort_OnA', new_hunter)] [new_hunter.GetFirstName] apprend à connaître les habitudes des créatures [ROOT.Char.GetFaith.HighGodNamePossessive] et comment les prendre au piège."
  ep2_accolade_events.0100.desc.liege: "j’apprends à connaître les habitudes des créatures [ROOT.Char.GetFaith.HighGodNamePossessive] et comment les prendre au piège."
  ep2_accolade_events.0100.a: "En chasse !"
  ep2_accolade_events.0200.t: "Affûté comme le tranchant d’une lame"

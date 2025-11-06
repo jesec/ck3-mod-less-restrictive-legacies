@@ -155,7 +155,7 @@
  gallant_perk_name: "侠义骑士"
  #Other
  groomed_to_rule_msg_title: "培养治才"
- LOYALTY_AND_RESPECT_PERK_STATS_EFFECT: "[spouse|E][councillor_tasks|E]得到的[skills|E]：#p +25%#!"
+ LOYALTY_AND_RESPECT_PERK_STATS_EFFECT: "[spouse|E]或[vizier|E][councillor_tasks|E]得到的[skills|E]：#p +25%#!"
  dark_insight_gain_stats_tt: "可能获得一些[GetPerk('dark_insights_perk').GetName(GetPlayer)]"
  dark_insights_maximum_insight_tt: "已获得所有可能的[GetPerk('dark_insights_perk').GetName(GetPlayer)]"
  dark_insights_gain_message: "黑暗洞察"

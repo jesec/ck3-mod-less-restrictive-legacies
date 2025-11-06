@@ -7,6 +7,8 @@
  ACTIVITY_SHORT_NAME: "[ActivityType.GetNameNoTooltip]"
  ACTIVITY_TYPE_DESC: "[AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]"
  ACTIVITY_OPTION_TOOLTIP: "#T [ActivityOption.GetName]#![AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]"
+ #Ugly hack, ActivityPlanner needs to be used before ActivityOption for the contexts to work properly, for some reason.
+ ACTIVITY_OPTION_DESC: "[ActivityPlanner.NoOp][ActivityOption.GetDescription]"
  activity_special_type: "[Activity.Custom('GetActivitySpecialType')]"
  activity_special_type_desc: "[Activity.Custom('GetActivitySpecialTypeDesc')]"
  #Debug Strings

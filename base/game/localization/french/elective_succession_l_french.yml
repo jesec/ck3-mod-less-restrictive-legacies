@@ -175,3 +175,9 @@
  tooltip_scandinavian_elective_capital_opinion: "[county_opinion|E] de la capitale : $VALUE|=+0$"
  tooltip_scandinavian_elective_capital_development: "[county_development|E] de la capitale : $VALUE|=+0$"
  tooltip_scandinavian_elector_vote_prowess: "[candidate.GetSheHe|U] est un[candidate.Custom('FR_E')] guerri[candidate.Custom('FR_ErEre')] avec une grande [prowess|El] : $VALUE|=+0$"
+ #Tribal Elective
+ tooltip_tribal_elective_development: "« [development|El] total, modifié par la [faith|El] et le [heritage|El] : $VALUE|=+0$"
+ tooltip_tribal_elective_capital_opinion: "[county_opinion|E] de la capitale : $VALUE|=+0$"
+ tooltip_tribal_elector_vote_elder: "C’est [Select_CString(candidate.IsFemale, 'un ancien', 'une ancienne')] vénérable : $VALUE|=+0$"
+ tooltip_tribal_elector_vote_stranger: "[candidate.GetSheHe|U] n’est pas de ma tribu : $VALUE|=+0$"
+ tooltip_tribal_elector_vote_relative: "[candidate.GetSheHe|U] fait partie de mon clan : $VALUE|=+0$"

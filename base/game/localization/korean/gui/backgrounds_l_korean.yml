@@ -1,4 +1,5 @@
 ﻿l_korean:
+ fp3_frontend_iranian: "이란 알현실"
  fp2_frontend_iberian: "이베리아 알현실"
  frontend_tribal: "부족 알현실"
  fp1_frontend_tribal: "노르드 부족 알현실"
@@ -107,3 +108,9 @@
  bp2_university: "서방 대학"
  bp2_nursery: "탁아소"
  bp2_university_mena: "마드라사"
+ fp3_bathhouse: "아랍 목욕탕"
+ fp3_temple: "이란 사원"
+ fp3_docks: "이란 부두"
+ fp3_throneroom: "이란 알현실"
+ fp3_courtyard_night: "어두운 이란 골목"
+ fp3_cave: "동굴 실내"

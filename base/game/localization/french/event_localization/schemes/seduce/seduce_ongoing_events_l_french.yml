@@ -25,7 +25,7 @@
  seduce_ongoing.1003.a: "J’ai passé une très bonne soirée !"
  seduce_ongoing.1004.dance: "[owner.Custom('FR_IlElle')|U] n’a pas réussi à entendre que danser ne m’intéressait pas, et après quelques pas de danse à contrecœur, j’ai dû lui demander de me laisser partir."
  seduce_ongoing.1004.walk: "Bien que la promenade dans les jardins fût vivifiante, son bavardage m’a énormément ennuyé. Je me suis rapidement excusé[ROOT.Char.Custom('FR_E')] et suis retourné[ROOT.Char.Custom('FR_E')] au bal."
- seduce_ongoing.1004.food: "Bien que je n’aie pas été opposé[ROOT.Char.Custom('FR_E')] à sa présence, [owner.Custom('FR_IlElle')] a envoyé tout au long de la soirée des serviteurs chercher de plus en plus de plats. J’ai vite été rassasié[ROOT.Char.Custom('FR_E')], et me suis excusé[owner.Custom('FR_E')] pour aller danser."
+ seduce_ongoing.1004.food: "Bien que je n’aie pas été opposé[ROOT.Char.Custom('FR_E')] à sa présence, [owner.Custom('FR_IlElle')] a envoyé tout au long de la soirée des serviteurs chercher de plus en plus de plats. J’ai vite été rassasié[ROOT.Char.Custom('FR_E')], et me suis excusé[ROOT.Char.Custom('FR_E')] pour aller danser."
  seduce_ongoing.1004.mockery: "[owner.Custom('FR_IlElle')|U] s’est assis[owner.Custom('FR_E')] à côté de moi et a critiqué les autres invités. Non seulement c’était inutilement méchant, mais c’était aussi grossier et sans finesse."
  seduce_ongoing.1004.fallback: "[owner.Custom('FR_IlElle')|U] n’a pas cessé de suggérer des façons de passer du temps ensemble, mais il n’y a pas grand-chose de faisable quand on est d’aussi mauvaise compagnie qu[owner.Custom('FR_EluiElle')]."
  seduce_ongoing.1004.a: "À quoi pensait-[owner.Custom('FR_IlElle')] ?!"

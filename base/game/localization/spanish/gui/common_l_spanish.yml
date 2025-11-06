@@ -46,7 +46,7 @@
  COA_DEFAULT_TOOLTIP: "$COA_HOLDER$"
  COA_DE_JURE_TOOLTIP: "$COA_TITLE$$COA_DE_JURE_TITLE$$COA_HOLDER$$COA_CLICK_INFO$"
  CHARACTER_TOOLTIP_PORTRAIT: "$CHARACTER_TOOLTIP$\n\n$CHARACTER_TOOLTIP_INSTRUCTION$"
- CHARACTER_TOOLTIP_INSTRUCTION: "#I [Select_CString(CHARACTER.IsShownInCharacterWindow,'Haz clic para ir allí', 'Haz clic para ver')]\nClic secundario para interactuar#!"
+ CHARACTER_TOOLTIP_INSTRUCTION: "#I [Select_CString(Character.IsShownInCharacterWindow,'Haz clic para ir allí', 'Haz clic para ver')]\nClic secundario para interactuar#!"
  CHARACTER_TOOLTIP_INSTRUCTION_CODE: "#I [Select_CString(CHARACTER.IsShownInCharacterWindow,'Haz clic para ir allí', 'Haz clic para ver')]\nClic secundario para interactuar#!"
  CHARACTER_TOOLTIP_INSTRUCTION_COURT_SCENE: "#I Clic para ver\nClic secundario para interactuar#!"
  CHARACTER_TOOLTIP_NO_PORTRAIT: "#T Sin personaje#!"

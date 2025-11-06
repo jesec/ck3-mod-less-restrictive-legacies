@@ -8,3 +8,5 @@
  denounced_trait_crime: "[dynast|E] отвергает этого человека"
  forgave_denounced_opinion: "Этого человека отвергли"
  forgave_house_member_opinion: "Прощен член дома"
+ accused_of_decadence_opinion: "[Select_CString( CHARACTER.IsFemale, 'Обвиняла', 'Обвинял' )] меня в упадничестве"
+ extolled_virtue_opinion: "[Select_CString( CHARACTER.IsFemale, 'Восхваляла', 'Восхвалял' )] мои добродетели"

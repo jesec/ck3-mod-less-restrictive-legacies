@@ -4,3 +4,4 @@
  poi_mausoleum_at_halicarnassus.visit: "Mausoleum von Halikarnassos besucht"
  poi_lighthouse_of_alexandria.visit: "Leuchtturm von Alexandria besucht"
  poi_grand_city.visit: "Die große Stadt von [province.GetName] besucht"
+ poi_natural_feature.visit: "Besuchte [province.GetHolding.GetSpecialBuildingType.GetName]"

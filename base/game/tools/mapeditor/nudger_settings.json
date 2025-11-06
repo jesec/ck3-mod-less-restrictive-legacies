@@ -1503,6 +1503,21 @@
 			"instances":	[]
 		}, {
 			"object_ref":	{
+				"type":	"mesh",
+				"key":	"wall_of_gurgan"
+			},
+			"entry_state":	{
+				"locked":	false,
+				"base_type":	{
+					"type":	"mesh",
+					"key":	"wall_of_gurgan"
+				}
+			},
+			"instances":	[{
+					"locked":	false
+				}]
+		}, {
+			"object_ref":	{
 				"type":	"entity",
 				"key":	"env_coast_foam_l"
 			},

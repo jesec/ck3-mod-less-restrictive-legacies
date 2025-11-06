@@ -296,7 +296,7 @@
  #END
  contest_events.0805.t.board_game: "$tournament_phase_board_game$：$contest_events.0505.t$"
  contest_events.0805.t.duel: "$tournament_phase_duel$：$contest_events.0505.t$"
- contest_events.0805.t.wrestling: "$tournament_phase_wresting$：$contest_events.0505.t$"
+ contest_events.0805.t.wrestling: "$tournament_phase_wrestling$：$contest_events.0505.t$"
  contest_events.0805.t.joust: "$tournament_phase_joust$：$contest_events.0505.t$"
  contest_events.0805.desc: "号角响起，人潮涌动，比赛选手开始集合。比赛结束了，某人即将迎来光辉的一刻。一位传令官走上前，声音响彻整个现场。\n\n“经过许多试炼，一些磨难，以及最重要的是——真正激烈的竞争，[contest_winner.GetTitledFirstName]最终击败了[second_place.GetTitledFirstName]！[contest_winner.GetFirstNameNoTooltip]是我们的胜利者！”\n\n"
  contest_events.0805.first: "[host.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]没人能比得上我的能力，这是事实！"

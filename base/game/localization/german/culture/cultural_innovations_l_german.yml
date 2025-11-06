@@ -220,3 +220,9 @@
  innovation_deccan_unity: "Dekkan-Einheit"
  innovation_deccan_unity_desc: "Der Zustrom neuer Glaubensinhalte und Religionen in unsere Gesellschaft hat uns klar vor Augen geführt, dass unser früherer Fokus auf die Kleinstaaterei ein Fehler gewesen ist. Wir sollten uns mit anderen Anhängern unseres Glaubens zusammentun und für einen starken und robusten Staat sorgen, der Druck von außen standhalten kann."
  students_of_knighthood: "Kinder, die ihre [education|E] mit einem [Concept('martial', 'Kriegsführungs')|E]-[education_focus|E] abschließen, erhalten eine $trait_education_martial_prowess$-[trait|E]."
+ #Sponsor Research Related
+ fp3_innovation_mural_sextant: "Mauerquadrant"
+ fp3_innovation_mural_sextant_desc: "Mit diesen großen Mauerquadranten lässt sich die Position von Himmelskörpern genau ablesen und messen."
+ fp3_innovation_fritware: "Frittenporzellan"
+ fp3_innovation_fritware_desc: "Diese wunderschöne Steinkeramik nach dem Vorbild des östlichen Porzellans entsteht durch die Beimischung von Quarz oder Glas. Es handelt sich um eine wertvolle Handelsware oder ein eindrucksvolles Geschenk."
+ fp3_innovation_fritware_tooltip: "[Concept('opinion', 'Meinungszuwachs')|E] durch „[send_gift|E]“: #P +20 %#!"

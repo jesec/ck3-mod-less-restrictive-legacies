@@ -42,7 +42,7 @@
  childhood.7100.b: "…#DIE1 ha#!haHA! Habt Ihr das alle gesehen!"
  childhood.7100.c: "Pah."
  childhood.7100.d: "K… Könntet Ihr mich eine Weile in den Arm nehmen, [friend_to_comfort.GetFirstNameNoTooltip]?"
- childhood.7100.d.friend: "[friend_to_comfort.Custom('DE_PRO_POS_P_2P_N')] Freund[friend_to_comfort.Custom('DE_END_NOU_S_GS_N')] [friend_to_comfort.GetFirstNameNoTooltip] tut [friend_to_comfort.Custom('DE_PRO_POS_S_3P')] Bestes, um Euch zu trösten."
+ childhood.7100.d.friend: "[friend_to_comfort.Custom('DE_PRO_POS_P_2P_N')|U] Freund[friend_to_comfort.Custom('DE_END_NOU_S_GS_N')] [friend_to_comfort.GetFirstNameNoTooltip] tut [friend_to_comfort.Custom('DE_PRO_POS_S_3P')] Bestes, um Euch zu trösten."
  childhood.7200.t: "Sprachbarriere"
  childhood.7200.desc: "Ich genieße es wirklich, mit [language_friend.GetFirstName] zu spielen, aber manchmal ist es schwer zu verstehen, was [language_friend.Custom('DE_PRO_PER_S_3P_N')] sagt …\n\nMan kann sich natürlich auch nur mit Gesten und Grimassen austauschen, doch ich habe das Gefühl, es würde mehr Spaß machen, wenn ich [language_friend.GetCulture.GetLanguage.GetNameNoTooltip|U] mit [language_friend.Custom('DE_PRO_PER_S_3P_D')] sprechen würde!\n\nVielleicht sollte ich für [language_friend.GetFirstNameNoTooltip] schwer büffeln?"
  childhood.7200.a: "Ich werde Tag und Nacht lernen!"

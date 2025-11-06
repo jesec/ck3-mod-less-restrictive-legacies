@@ -419,7 +419,6 @@
  fp2_struggle.3001.c: "等等！家里又不是只有我戴冠冕。"
  fp2_struggle.3001.c_flavour: "你的配偶会失去冠冕。"
  fp2_struggle.3001.d: "这顶冠冕只有我死了才能摘下来！"
- nick_the_crownless: "无冕者"
  struggle_3001_spouse_crown_modifier: "出售冠冕"
  fp2_struggle.3011.t: "落难女子"
  fp2_struggle.3011.desc: "“[ROOT.GetCharacter.GetLadyLord]！无法想象的事情发生了！”[struggle_3011_marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U]花了一秒钟平稳[struggle_3011_marshal.GetHerHis]的呼吸，汗水打湿了[struggle_3011_marshal.GetHerHis]的额头。“[struggle_3011_county_town.GetNameNoTier]的女士们拿起武器自己保卫城市了。”"

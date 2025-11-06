@@ -135,7 +135,7 @@
  travel_danger_events.6040.war: "Las/los [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTypePlural')] tienen las marcas de la guerra, con sus víctimas y los campamentos de sus agentes esparcidos por doquier. Las condiciones son horribles y nuestros encuentros con soldados, frecuentes."
  travel_danger_events.6040.desc: "\n\nEmpiezo a sentirme débil. Me voy rezagando respecto al grupo cuando normalmente marco el ritmo… Algo va mal…"
  travel_danger_events.6040.a: "Debo regresar."
- travel_danger_events.6040.b: "Gracias a [ROOT.Char.GetFaith.HealthGodName], mi $court_physician_court_position|l$ está aquí."
+ travel_danger_events.6040.b: "Gracias a [ROOT.Char.GetFaith.HealthGodName], mi $court_physician_court_position$ está aquí."
  travel_danger_events.6040.c: "Debemos seguir adelante…"
  travel_stealing_food_modifier: "Provisiones hurtadas"
  travel_stealing_food_modifier_desc: "Los nobles que recorrían este condado han echado mano de la producción de sus súbditos."

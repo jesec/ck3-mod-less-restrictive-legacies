@@ -30,6 +30,13 @@
  COUNCILLOR_MISSING_SPOUSE: "No tengo [available_spouse|lE]"
  COUNCILLOR_LIEGE_MISSING_SPOUSE: "[CouncilWindow.GetCharacter.GetShortUIName] no tiene [available_spouse|lE]"
  COUNCILLOR_WILL_BE_ASSIGNED: "Se asignará el [councillor|lE]"
+ COUNCILLOR_MISSING_VIZIER: "No tienes [vizier|lE] o [spouse|lE]"
+ COUNCILLOR_LIEGE_MISSING_VIZIER: "[CouncilWindow.GetCharacter.GetShortUIName] no tiene [vizier|lE] ni [spouse|lE]"
+ COUNCILLOR_MISSING_CHANCELLOR: "No tienes [chancellor|lE]"
+ COUNCILLOR_MISSING_MARSHAL: "No tienes [marshal|lE]"
+ COUNCILLOR_MISSING_STEWARD: "No tienes [steward|lE]"
+ COUNCILLOR_MISSING_SPYMASTER: "No tienes [spymaster|lE]"
+ COUNCILLOR_MISSING_COURT_CHAPLAIN: "No tienes [court_chaplain|lE]"
  learn_on_the_job_modifier: "$learn_on_the_job_perk_name$"
  councillor_coregent: "Corregente"
  councillor_coregent_possessive: "del corregente"
@@ -43,6 +50,9 @@
  councillor_spymaster_possessive: "del jefe de espías"
  councillor_court_chaplain: "Capellán de la corte"
  councillor_court_chaplain_possessive: "del capellán de la corte"
+ councillor_vizier: "Confidente"
+ councillor_vizier_desc: "Como gobernante de un [clan_government|lE] puedes decidir si nombrar a tu [vizier|lE] o alguno de tus [spouses|lE] como tu confidente. Elijas a quien elijas, te apoyará en tus tareas diarias."
+ councillor_vizier_possessive: "del confidente"
  #Flavor localization for Court Chaplains, sorted by Religion.
  #Fallback
  councillor_court_chaplain_theocrat_county: "Obispo sufragáneo"

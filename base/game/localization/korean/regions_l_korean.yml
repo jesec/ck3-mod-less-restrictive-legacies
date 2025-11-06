@@ -121,6 +121,9 @@
  dlc_fp2_old_vasconia: "옛 바스코니아"
  dlc_fp2_old_vasconia_pushed: "옛 바스코니아"
  dlc_fp2_dlc_fp2_caucasian_iberia: "코카서스 이베리아"
+ #FP3
+ dlc_fp3_eastern_persian_frontier_regions: "동부 변경"
+ dlc_fp3_greater_persian_frontier_regions: "대페르시아 변경"
  #EP1
  dlc_ep1_achievement_rise_of_the_ghurids: "역사 기반 구르 제국"
  #Seazones

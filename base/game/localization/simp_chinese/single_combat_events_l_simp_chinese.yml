@@ -87,6 +87,7 @@
  ## Combat Move Option Copy
  single_combat.0001.wait_and_hope: "也许只要我等着，[my_foe.GetSheHe]自己就会失误？"
  single_combat.0001.unsure_attack: "呃，看招！去#EMP 死#!！"
+ single_combat.0001.unsure_attack_non_fatal: "嘿！看招！#EMP 投降#!吧！"
  single_combat.0001.enthusiastic_onslaught.banned_house: "#EMP [myself.GetFullNameNoTooltip]！#!"
  single_combat.0001.enthusiastic_onslaught.own_house: "你丢尽了[myself.GetHouse.GetNameNoTooltip]家族的脸！"
  single_combat.0001.enthusiastic_onslaught.motto: "#EMP [myself.GetHouse.GetMotto]#!，败类！"

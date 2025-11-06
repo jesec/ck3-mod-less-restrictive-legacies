@@ -120,5 +120,5 @@
  TRAIT_CATEGORY_HEALTH: "[health_trait|E]"
  TRAIT_CATEGORY_COURT_TYPE: "[court_type_trait|E]"
  TRAIT_CATEGORY_BASE: "[trait|E]"
- ANY_OPPOSITE_TRAIT_ALL: "반대 특성을 보유하고 있지 않음"
- NOT_ANY_OPPOSITE_TRAIT_ALL: "이미 반대 특성을 보유하고 있음"
+ ANY_OPPOSITE_TRAIT_ALL: "반대 [personality_traits|E]을 보유하고 있지 않음"
+ NOT_ANY_OPPOSITE_TRAIT_ALL: "이미 반대 [personality_trait|E]을 보유하고 있음"

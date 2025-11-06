@@ -601,7 +601,7 @@
  culture_parameter_no_limit_to_kingdom_level_holy_wars: "Pas de limite au nombre de [holy_wars|El] de niveau [kingdom|El] qui peuvent être déclarées par n’importe quel [ruler|El]"
  culture_parameter_cb_lower_piety_level_requirement: "Tous les [casus_bellis|El] qui nécessitent un certain [piety_level|El] en nécessitent un de moins"
  culture_parameter_can_host_joust_contests: "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'can_host_joust_contests_custom_effect_description_TOTO_DLC', 'can_host_joust_contests_custom_effect_description_NO_TOTO_DLC' )]"
- can_host_joust_contests_custom_effect_description_TOTO_DLC: "Peut organiser des [contests|El] de joute lors d’un [GetActivityType( 'activity_tournament' ).GetName|l]"
+ can_host_joust_contests_custom_effect_description_TOTO_DLC: "Peut organiser une [contest|El] de joute lors d’un [GetActivityType( 'activity_tournament' ).GetName|l]"
  can_host_joust_contests_custom_effect_description_NO_TOTO_DLC: ""
  culture_parameter_just_trait_gives_bonuses: "Le [trait|El] [GetTrait('just').GetName( GetNullCharacter )|l] a des bonus supplémentaires"
  culture_parameter_trade_port_building_bonuses: "La série de [buildings|El] #V $building_type_common_tradeport_01$#! fournit plus d’impôt dans les [counties|El] de cette [culture|El]"
@@ -712,7 +712,7 @@
  ACCEPTANCE_BASELINE_CLOSE_PLURALISTS: "Les [cultures|El] sont géographiquement proches et ont des [faiths|El] majoritaires [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName|l]s"
  ACCEPTANCE_BASELINE_FAITH: "Les [cultures|El] ont la même [faith|El] majoritaire"
  TRADITION_ASTUTE_DIPLOMATS_ACCEPTANCE_MODIFIER: "[tradition|E] de $tradition_astute_diplomats_name$ : $VALUE|=+0$"
- CULTURE_HARD_TO_CONVERT_REASON: "[culture_tradition|E] de $tradition_zealous_people_name$"
+ CULTURE_HARD_TO_CONVERT_REASON: "[culture_tradition|E] de $tradition_zealous_people_name$ : $VALUE|=+0$"
  TRADITION_RELIGION_BLENDING_CONVERSION_MODIFIER: "[culture_tradition|E] de $tradition_religion_blending_name$"
  TRADITION_HARDER_TO_CONVERT_CONVERSION_MODIFIER: "$CULTURE_HARD_TO_CONVERT_REASON$"
  TRADITION_BREAKDOWN_LAW_REALM_SIZE_COST: "$KEY$ : $VALUE|=-0$ #weak (des [traditions|El] : #P -50%#!)#!"
@@ -727,6 +727,8 @@
  20_percent_churches: "La [culture|El] n’a pas de [temple|El] dans #V 20%#! de ses [counties|El]"
  must_be_feudal_or_clan: "Vous devez avoir le [government|El] [feudal|El] ou [Concept('clan','clanique')|E]"
  only_one_marriage_tradition_allowed: "Seule une [tradition|El] du [marriage|El] est possible et les éléments suivants ne peuvent pas être combinés : $tradition_monogamous_name$, $tradition_polygamous_name$ et $tradition_concubines_name$"
+ no_warrior_culture: "$tradition_fp3_beacon_of_learning_name$ est incompatible avec $tradition_warrior_culture$"
+ no_philosopher_culture: "$tradition_fp3_beacon_of_learning_name$ est incompatible avec $tradition_philosopher_culture_name$"
  culture_in_winter_geographical_region_trigger_desc: "La [culture|El] n’est pas présente dans une [region|El] avec l’hiver"
  culture_in_non_sedentary_geographical_region_trigger_desc: "La [culture|El] n’est pas présente dans la [GetGeographicalRegion('world_steppe').GetName]"
  #culture_in_britannia_region_trigger_desc: "The [culture|E] is not present in [GetGeographicalRegion('world_europe_west_britannia').GetName]"
@@ -799,6 +801,7 @@
  ## Bureaucratic.
  not_bureaucratic_courtly_or_egalitarian_desc: "La [culture|El] n’a pas la [ethos|El] $ethos_bureaucratic_name$, $ethos_courtly_name$ ou $ethos_egalitarian_name$"
  not_bureaucratic_spiritual_or_egalitarian_desc: "La [culture|El] n’a pas la [ethos|El] $ethos_bureaucratic_name$, $ethos_spiritual_name$ ou $ethos_egalitarian_name$"
+ not_bureaucratic_courtly_or_spiritual_desc: "La [culture|El] n’a pas la [ethos|El] $ethos_bureaucratic_name$ ou $ethos_spiritual_name$"
  ## Spiritual.
  ## Courtly.
  not_courtly_communal_or_spiritual_desc: "La [culture|El] n’a pas la [ethos|El] $ethos_courtly_name$, $ethos_communal_name$ ou $ethos_spiritual_name$"
@@ -1021,7 +1024,7 @@
  culture_tradition_events.0101.t: "Le savoir d’un[mendicant_mystic.Custom('FR_E')] mystique"
  culture_tradition_events.0101.desc: "Il est assez rare que j’aie l’occasion de prendre un repas tranquille sans que des flagorneurs ou des affaires d’État ne viennent m’interrompre, mais ce soir, j’y suis parvenu. Un dîner agréable et calme, et une chance de me reposer.\n\nEn un instant, la porte sort de ses gonds avec une fatalité tragique, et un[mendicant_mystic.Custom('FR_E')] religieu[mendicant_mystic.Custom('FR_XSe')] fait irruption dans la pièce. [mendicant_mystic.Custom('FR_IlElle')|U] tient un bâton de marche noueux, encore couvert d’échardes après avoir enfoncé la porte d’un seul coup.\n\n« Noble [ROOT.Char.GetTitleAsNameNoTooltip|l], je viens vous proposer que pour un petit salaire, moi, [mendicant_mystic.GetFirstName], j’enseigne les anciennes coutumes de notre peuple aux enfants de votre Cour ! »"
  culture_tradition_events.0101.a: "Bien sûr, noble religieu[mendicant_mystic.Custom('FR_XSe')]. S’il vous plaît, posez votre bâton."
- culture_tradition_events.0101.a.tt: "Tout [child|El] disponible à la [court|E] reçoit un coup de pouce à son [education|El] en cours"
+ culture_tradition_events.0101.a.tt: "Tous les [children|El] disponibles et présents à la [court|E] bénéficient d’une amélioration de leur [education|El] en cours"
  culture_tradition_events.0101.b: "N’est-ce pas un peu trop pour un travail [mendicant_mystic.GetFaith.HighGodNamePossessive] ?"
  culture_tradition_events.0101.b.tt.success: "Vous faites baisser le prix demandé par [mendicant_mystic.Custom('FR_LeLa')] mystique"
  culture_tradition_events.0101.b.tt.failure: "[mendicant_mystic.Custom('FR_LeLa')|U] mystique quitte votre Cour dégoûté[mendicant_mystic.Custom('FR_E')]"
@@ -1067,6 +1070,7 @@
  culture_parameter_drylands_hunt_success_chance: "Augmentation de la [hunt_success_chance|El] en [GetTerrain( 'drylands' ).GetName] et en [GetTerrain( 'desert' ).GetName]"
  culture_parameter_jungle_hunt_success_chance: "Augmentation de la [hunt_success_chance|El] en [GetTerrain( 'jungle' ).GetName]"
  culture_parameter_wetlands_hunt_success_chance: "Augmentation de la [hunt_success_chance|El] en [GetTerrain( 'wetlands' ).GetName] et en [GetTerrain( 'floodplains' ).GetName]"
+ can_host_joust_contests_name: "[GetCultureTradition('tradition_chanson_de_geste').GetName] ou [GetCultureTradition('tradition_chivalry').GetName|l]"
  #BP2 Traditions
  tradition_noble_adoption_name: "Adoption noble"
  tradition_noble_adoption_desc: "L’adoption d’enfants orphelins par des Maisons nobles est monnaie courante dans cette société."

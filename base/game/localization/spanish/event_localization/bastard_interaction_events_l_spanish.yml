@@ -5,7 +5,7 @@
  legitimize_bastard_interaction_desc_not_house_head: "Solicita que [recipient.GetShortUINameNoTooltip] reconozca a tu descendiente [bastard|lE] como [legitimate|lE]\n#weak ([recipient.GetShortUINameNoTooltip] es el [house_head_head|lE] de tu [house|lE])#!"
  legitimize_bastard_interaction_notification: "Bastardo legitimado"
  legitimize_bastard_interaction_decline_notification: "Bastardo no legitimado"
- I_AM_HOUSE_HEAD_MODIFIER: "Como cabeza de la casa, la decisión es mía"
+ I_AM_HOUSE_HEAD_MODIFIER: "Como jefe de la casa, la decisión es mía"
  PRESTIGOUS_IN_OUR_HOUSE: "Nivel de fama: $VALUE|+0$"
  house_bastard_was_legitimized: "Bastardo de la casa legitimado"
  dynasty_bastard_was_legitimized: "Bastardo de la dinastía legitimado"

@@ -5,6 +5,7 @@
  PIN_TT: "#T [Select_CString(Character.IsPinned, 'Lösen', 'Anheften')]\n#!Behaltet diesen Charakter im Auge, indem Ihr [Character.Custom('DE_PRO_PER_S_3P_A')] an die Pinnwand auf der rechten Seite anheftet"
  interaction_category_diplomacy: "Diplomatie"
  interaction_category_friendly: "Persönlich"
+ interaction_category_clan: "Clan"
  interaction_category_hostile: "Feindselig"
  interaction_category_vassal: "Vasallentum & Hof"
  interaction_category_religion: "Religion"

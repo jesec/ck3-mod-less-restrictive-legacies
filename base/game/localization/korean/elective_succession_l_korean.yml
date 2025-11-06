@@ -175,3 +175,9 @@
  tooltip_scandinavian_elective_capital_opinion: "수도 [county_opinion|E]: $VALUE|=+0$"
  tooltip_scandinavian_elective_capital_development: "수도 [county_development|E]: $VALUE|=+0$"
  tooltip_scandinavian_elector_vote_prowess: "[candidate.GetSheHe|U]는 [prowess|E]이 뛰어난 전사임: $VALUE|=+0$"
+ #Tribal Elective
+ tooltip_tribal_elective_development: "총 [development|E], [faith|E]과 [heritage|E]에 따른 변화 요소: $VALUE|=+0$"
+ tooltip_tribal_elective_capital_opinion: "수도 [county_opinion|E]: $VALUE|=+0$"
+ tooltip_tribal_elector_vote_elder: "후보가 존경받는 장로임: $VALUE|=+0$"
+ tooltip_tribal_elector_vote_stranger: "후보가 내 부족 소속이 아님: $VALUE|=+0$"
+ tooltip_tribal_elector_vote_relative: "후보가 내 씨족 소속임: $VALUE|=+0$"

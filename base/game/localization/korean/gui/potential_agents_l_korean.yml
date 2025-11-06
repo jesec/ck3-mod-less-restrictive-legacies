@@ -43,5 +43,6 @@
  RESPECTED_HOST: "[target.GetShortUINameNoTooltip](은)는 존경받는 주최자임: $VALUE|+0$"
  IS_POLITICKER: "나의 [accolade|E]이 초윤리적인 정치적 간계를 장려함: $VALUE|+0$"
  SCHEME_TAUGHT_TO_SCHEME: "당신이 내게 계책을 가르쳐줌: $VALUE|+0$"
+ IS_PART_OF_STRUGGLE: "[target.GetShortUINameNoTooltip](이)가 [struggle|E]에 속함: $VALUE|+0$"
  INTRIGUE_EDUCATION_5_BONUS: "[GetTrait('education_intrigue_5').GetName( GetNullCharacter )]: $VALUE|+0$"
  SCHEME_DUTIOUS_FAMILY: "당신 가문의 의무가 엄격함: $VALUE|+0$"

@@ -116,6 +116,7 @@
  every_parochial_vassal: "Chaque [vassal|El] à l’[GetVassalStance( 'parochial' ).GetName|l][GetVassalStance( 'parochial' ).GetTextIcon] ([root_scope.MakeScope.ScriptValue('number_of_parochial_vassals')|V0])"
  every_parochial_vassal_no_count: "Chaque [vassal|El] à l’[GetVassalStance( 'parochial' ).GetName|l][GetVassalStance( 'parochial' ).GetTextIcon]"
  every_zealot_vassal: "Chaque [vassal|El] [GetVassalStance( 'zealot' ).GetName|l][GetVassalStance( 'zealot' ).GetTextIcon] ([root_scope.MakeScope.ScriptValue('number_of_zealot_vassals')|V0])"
+ every_minority_vassal: "Chaque $minority_vassal$ ([root_scope.MakeScope.ScriptValue('number_of_minority_vassals')|V0])"
  every_participating_glory_hound_vassal: "Chaque [vassal|El] [GetVassalStance( 'glory_hound' ).GetName|l][GetVassalStance( 'glory_hound' ).GetTextIcon] qui participe ([THIS.Char.MakeScope.ScriptValue('number_of_participating_glory_hound_vassals')|V0])"
  every_participating_courtly_vassal: "Chaque [vassal|El] [GetVassalStance( 'courtly' ).GetName|l][GetVassalStance( 'courtly' ).GetTextIcon] qui participe ([THIS.Char.MakeScope.ScriptValue('number_of_participating_courtly_vassals')|V0])"
  every_participating_parochial_vassal: "Chaque [vassal|El] à l’[GetVassalStance( 'parochial' ).GetName|l][GetVassalStance( 'parochial' ).GetTextIcon] qui participe ([THIS.Char.MakeScope.ScriptValue('number_of_participating_parochial_vassals')|V0])"

@@ -41,3 +41,4 @@
  has_pledged_attacker: "공격 측에 서약함"
  they_have_pledged_as_attacker: "상대가 당신의 신앙이 벌이는 [GREAT_HOLY_WAR.GetName]의 공격 측에 서약함"
  has_pledged_defender: "방어 측에 서약함"
+ ANY_FAITH_RULER_GLOBAL: "임의의 [FAITH.GetAdjectiveNoTooltip] [ruler|E]"

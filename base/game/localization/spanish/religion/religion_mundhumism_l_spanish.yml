@@ -64,7 +64,7 @@
  kiratism_adherent_plural: "kiratitas"
  kiratism_desc: "El kiratismo es la práctica del mundhumismo que es común entre la mayoría del pueblo kirati. Se centra en la adoración de Tagera Ningwaphuma como Ser Supremo y en rendir tributo a los antepasados."
  kiratism_old: "Antiguo kiratismo"
- kiratism_old_adj: "antigua kiratista"
+ kiratism_old_adj: "kiratista antigua"
  kiratism_old_adherent: "kiratita viejo"
  kiratism_old_adherent_plural: "kiratitas viejos"
  #Yumaism
@@ -74,7 +74,7 @@
  yumaism_adherent_plural: "yumaítas"
  yumaism_desc: "Los yumaítas centran su culto en Yuma Sammang, personificación femenina de Tagera Ningwaphuma, como Diosa Suprema, a la que veneran como Madre de la Naturaleza."
  yumaism_old: "Antiguo yumaísmo"
- yumaism_old_adj: "antigua yumaísta"
+ yumaism_old_adj: "yumaísta antigua"
  yumaism_old_adherent: "yumaíta viejo"
  yumaism_old_adherent_plural: "yumaítas viejos"
  yumaism_high_god_name: "$mundhumism_health_god_name$"

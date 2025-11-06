@@ -23,6 +23,7 @@
  clan.1101.t: "权力平衡"
  clan.1101.desc: "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U]满腹怨言地来找我。“您的亲戚在[ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]拥有太多权力了。像我这样的封臣无论如何努力，都无法与他们相提并论！\n\n我恳求您纠正这种不公。毕竟这种裙带关系的一丝苗头就能引发封臣们的怨恨……”"
  clan.1101.a: "我知道了，我会慎重考虑的。"
+ clan.1101.a.flavor: "你一边让[vassal.GetFirstNameNoTooltip]放心，一边说服自己不采取任何有意义的行动"
  clan.1101.b: "你是对的。我会立即采取措施！"
  clan.1101.b.custom: "所有[dynasty|E]成员[vassal|E]"
  clan.1101.b.tt: "获得一个[revoke_title_reason|E]"

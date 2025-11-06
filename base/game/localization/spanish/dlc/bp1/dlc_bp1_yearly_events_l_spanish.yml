@@ -197,7 +197,7 @@
  bp1_yearly.5709.a.tt.success: "Ganas la pelea"
  bp1_yearly.5709.a.tt.failure: "Pierdes la pelea"
  bp1_yearly.5709.b: "¡[rival_on_sight.GetFirstNameNoTooltip], so [rival_on_sight.Custom('InsultNoun')]! ¡Te desafío!"
- bp1_yearly.5709.b.tt: "Comienza un $game_concept_single_combat_duel$ con [rival_on_sight.GetFirstNameNoTooltip]"
+ bp1_yearly.5709.b.tt: "Comienza un [Concept( 'single_combat_duel', 'duelo' )|E] con [rival_on_sight.GetFirstNameNoTooltip]"
  bp1_yearly.5709.c: "No me dejaré arrastrar a una pelea infantil."
  bp1_yearly.5709.c.tt: "Les dejas con su comportamiento infantil."
  bp1_yearly.5711.t: "… y caña"

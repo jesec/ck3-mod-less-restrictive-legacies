@@ -53,6 +53,8 @@
  smith_inspiration_desc: "有金属匠[inspired|E]的角色会想打造比武器和盔甲更奢侈，更小的东西。他们会制作冠冕和高脚杯，明珠和宝石。"
  alchemy_inspiration: "炼金灵感"
  alchemy_inspiration_desc: "有炼金[inspired|E]的角色想要探索、净化以及创造物质和金属，制作仙药，最终让人的肉体和灵魂归于完美。"
+ research_inspiration: "研究灵感"
+ research_inspiration_desc: "具有研究[inspired|E]的角色被激励去为他们的[sponsor|E]的利益而发现新知识。如果成功，他们将改善赞助者[dynasty|E]的学识，甚至为他们的文化发现新的[innovation|E]。"
  weapon_inspiration_cost_tt: "武器灵感以[martial|E]和[prowess|E]为基础"
  armor_inspiration_cost_tt: "护甲灵感以[martial|E]和[prowess|E]为基础"
  book_inspiration_cost_tt: "书籍灵感以[learning|E]为基础"

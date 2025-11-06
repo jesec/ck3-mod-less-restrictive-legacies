@@ -3,7 +3,7 @@
  ep2_wedding.0101.t: "Jusqu’à ce que la mort..."
  ep2_wedding.0101.desc.intro: "Tous les invités sont réunis dans la cour. C’est une journée magnifique et ensoleillée. Je regarde les gardes que j’ai promis de fournir en tant qu’hôte. Ils sont lourdement armés. Bientôt, mes préparatifs porteront leurs fruits.\n\nJe vois arriver [spouse_2.Custom('FR_le_Char_Pi')][spouse_2.GetTitledFirstName] et sa suite"
  ep2_wedding.0101.desc.spouse: ". Mariés pour un seul jour."
- ep2_wedding.0101.desc.bad: ": bientôt, cette présence répugnante sera de l’histoire ancienne."
+ ep2_wedding.0101.desc.bad: " : bientôt, cette présence répugnante sera de l’histoire ancienne."
  ep2_wedding.0101.desc.good: "... Je regrette, [Select_CString(spouse_2.IsFemale, 'ma chère', 'mon cher')]."
  ep2_wedding.0101.a: "Tous les membres de la maison [spouse_2.GetHouse.GetNameNoTooltip] doivent être exterminés, jusqu’au dernier."
  ep2_wedding.0101.a_lowborn: "Tous les membres de sa famille doivent être tués."

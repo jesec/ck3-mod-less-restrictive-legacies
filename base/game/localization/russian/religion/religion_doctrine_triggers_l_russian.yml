@@ -38,6 +38,7 @@
  INCOMPATIBLE_WITH_ALL_CRIMINAL_DOCTRINES: "Несовместимо с любыми [Concept( 'doctrines', 'доктринами' )|E], называющими определенные действия [Concept( 'criminal', 'преступными' )|E]"
  ADULTERY_MUST_BE_FULLY_ACCEPTED: "Несовместимо с любыми [Concept( 'doctrine', 'доктринами' )|E], для которых измены — [shunned|El] или [Concept( 'criminal', 'преступления' )|E]"
  REQUIRES_EXALTATION: "Требуется [core_tenet|El] «$tenet_carnal_exaltation_name$»"
+ FEDAYEEN_REQUIRED_DOCTRINES_TRIGGER: "Требуется один из следующих [Concept( 'core_tenets', 'догматов' )|E]:\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_warmonger').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_unrelenting_faith').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_consolamentum').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_armed_pilgrimages').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_struggle_submission').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_pursuit_of_power').GetName( GetPlayer.GetFaith )]"
  HAS_DOCTRINE: "Есть доктрина «[FAITH_DOCTRINE.GetName(FAITH.Self)]»"
  NOT_HAS_DOCTRINE: "#bold Нет#! доктрины «[FAITH_DOCTRINE.GetName(FAITH.Self)]»"
  I_HAVE_DOCTRINE: "У вашей [faiths|El] есть доктрина «[FAITH_DOCTRINE.GetName(FAITH.Self)]»"

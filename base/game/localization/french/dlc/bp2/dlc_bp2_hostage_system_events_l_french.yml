@@ -136,7 +136,7 @@
  bp2_hostage_system.0500.t: "Un nouveau foyer"
  bp2_hostage_system.0500.desc: "J’ai été informé[ROOT.Char.Custom('FR_E')] que mon otage, [hostage.GetFirstName], est enfin arrivé[hostage.Custom('FR_E')] de [hostage_home_court.GetPrimaryTitle.GetNameNoTierNoTooltip]."
  bp2_hostage_system.0500.anxious: "[hostage_home_court.Custom2('FR_RelationToMe_Le', SCOPE.sC('hostage'))|U] [hostage_home_court.Custom('FR_du_Char_Pi')][hostage_home_court.GetTitledFirstName] sera sans doute inqui[hostage.Custom('FR_EtEte')] de sa nouvelle vie dans mon pays."
- bp2_hostage_system.0500.home: "\n\n« Ayez confiance en votre [hostage.Custom2('RelationToMe', SCOPE.sC('hostage_home_court'))], dis-je pour [hostage_home_court.Custom('FR_LeLa')] rassurer. Vous serez bien traité[hostage.Custom('FR_E')]. »"
+ bp2_hostage_system.0500.home: "\n\n« Ayez confiance en votre [hostage.Custom2('RelationToMe', SCOPE.sC('hostage_home_court'))], dis-je pour [hostage.Custom('FR_LeLa')] rassurer. Vous serez bien traité[hostage.Custom('FR_E')]. »"
  bp2_hostage_system.0500.away: "\n\nJe ne doute pas que mes domestiques feront en sorte qu’[hostage.Custom('FR_IlElle')] se sente comme chez [hostage.Custom('FR_LuiElle')]."
  bp2_hostage_system.0500.a.home: "Je vais vous montrer votre chambre."
  bp2_hostage_system.0500.a: "Le pacte est en place."

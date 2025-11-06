@@ -30,7 +30,7 @@
  east_europe.0031.a: "Nun, ich traue ihnen nicht!"
  east_europe.0031.b: "Ich verstehe …"
  east_europe.0032.t: "Die alten Rituale"
- east_europe.0032.desc: "Meine Vorgänger nahmen den Glauben [old_faith.GetNameNoTooltip] in einem fehlgeleiteten Versuch an, [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] in die moderne Epoche zu zerren, doch es brachte uns nur Rebellion, Elend und Streit.\n\nMit meinem ungeheuren weltlichen wie klerikalen Einfluss, den ich in meinem Reich habe, werde ich dieses Unrecht richtigstellen und uns zum wahren Glauben $magyar_pagan$ zurückführen.\n\nDoch das ist eine Wasserscheide, und auch wenn die Rückkehr zu den Alten Wegen dringend nötig ist, sollte ihre genaue Auslegung vielleicht ein wenig angepasst werden?"
+ east_europe.0032.desc: "Meine Vorgänger nahmen den Glauben [old_faith.GetNameNoTooltip] in einem fehlgeleiteten Versuch an, [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] in die moderne Epoche zu zerren, doch es brachte uns nur Aufstände, Elend und Streit.\n\nMit meinem ungeheuren weltlichen wie klerikalen Einfluss, den ich in meinem Reich habe, werde ich dieses Unrecht richtigstellen und uns zum wahren Glauben $magyar_pagan$ zurückführen.\n\nDoch das ist eine Wasserscheide, und auch wenn die Rückkehr zu den Alten Wegen dringend nötig ist, sollte ihre genaue Auslegung vielleicht ein wenig angepasst werden?"
  east_europe.0032.a: "Wir kehren zu den Alten Wegen zurück. Unbefleckt."
  east_europe.0032.b: "Vielleicht … Vielleicht können wir ein paar der neuen Lehren behalten …"
  east_europe.0032.c: "Schädel für [ROOT.Char.GetFaith.WarGodName]!"

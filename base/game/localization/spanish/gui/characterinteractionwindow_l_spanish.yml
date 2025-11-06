@@ -5,6 +5,7 @@
  PIN_TT: "#T [Select_CString( Character.IsPinned, 'Quitar', 'Fijar' )]\n#!Sigue de cerca a este personaje fijándolo a la barra lateral a la derecha de la pantalla."
  interaction_category_diplomacy: "Diplomacia"
  interaction_category_friendly: "Personal"
+ interaction_category_clan: "Clan"
  interaction_category_hostile: "Hostil"
  interaction_category_vassal: "Vasallaje"
  interaction_category_religion: "Religión"

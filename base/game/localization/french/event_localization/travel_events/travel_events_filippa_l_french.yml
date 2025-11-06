@@ -362,7 +362,7 @@
  travel_events.2028.c: "C’est... bien... Continuez à faire du bon travail."
  #Visit a cereal field - Encounter a heathen
  travel_events.2029.t: "$travel_event_prefix$ éveil"
- travel_events.2029.desc: "La nuit est tombée et [crop_circler.GetFirstName] est au travail lorsque nous arrivons dans les champs de céréales au sud de [ROOT.Char.GetCurrentLocation.GetName]. [crop_circler.Custom('FR_IlElle')|U] semble coucher les cultures à un rythme rapide, en utilisant un grand morceau de bois plat et de lourdes pierres.\n\nJe fronce les sourcils en [crop_circler.Custom('FR_LeLa')] regardant travailler, puis je demande ce qu’[crop_circler.Custom('FR_IlElle')] fait exactement.\n\n[crop_circler.Custom('FR_IlElle')|U] grimace, puis se lance dans un long discours sur le fait que nous devons tous nous réveiller et rencontrer nos vrais maîtres au lieu de nous cacher derrière les faux enseignements de la religion [crop_circler.GetFaith.GetReligion.GetAdjectiveNoTooltip]. Je fais quelques pas en arrière, surpris[ROOT.Char.Custom('FR_E')]."
+ travel_events.2029.desc: "La nuit est tombée et un[crop_circler.Custom('FR_E')] [crop_circler.GetWomanMan] est au travail lorsque nous arrivons dans les champs de céréales au sud de [ROOT.Char.GetCurrentLocation.GetName]. [crop_circler.Custom('FR_IlElle')|U] semble coucher les cultures à un rythme rapide, en utilisant un grand morceau de bois plat et de lourdes pierres.\n\nJe fronce les sourcils en [crop_circler.Custom('FR_LeLa')] regardant travailler, puis je demande ce qu’[crop_circler.Custom('FR_IlElle')] fait exactement.\n\n[crop_circler.Custom('FR_IlElle')|U] grimace, avant de se lancer dans un long discours sur le fait que nous devons tous nous réveiller et rencontrer nos vrais maîtres au lieu de nous cacher derrière les faux enseignements de la religion [crop_circler.GetFaith.GetReligion.GetAdjectiveNoTooltip]. Je fais quelques pas en arrière, surpris[ROOT.Char.Custom('FR_E')]."
  travel_events.2029.a: "Cessez ! Hérétique !"
  travel_events.2029.b: "Comment osez-vous profaner la religion [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] ?!"
  travel_events.2029.c: "Dites-m’en plus sur ces vrais maîtres."
@@ -399,7 +399,7 @@
  travel_events.2033.a_cannibal: "Ah oui, les prisonniers, l’autre viande blanche."
  travel_events.2033.a_manhunt_tt: "Quelqu’un qui échappe à une chasse à l’homme peut revenir se venger"
  travel_events.2033.a_manhunt.tt: "Chasse à l’homme réussie"
- travel_events.2033.a_manhunt.desc: "[prisoner.Custom('FR_le_Char_Pi')|U][prisoner.GetShortUIName] est chassé[prisoner.Custom('FR_E')] et tué[prisoner.Custom('FR_E')]"
+ travel_events.2033.a_manhunt.desc: "[prisoner.Custom('FR_le_Char_U_Pi')|U][prisoner.GetShortUIName] est chassé[prisoner.Custom('FR_E')] et tué[prisoner.Custom('FR_E')]"
  travel_events.2033.a_caught_trophy.desc: "[prisoner.Custom('FR_le_Char_Pi')|U][prisoner.GetTitledFirstName] est chassé[prisoner.Custom('FR_E')] et transformé[prisoner.Custom('FR_E')] en trophée"
  travel_events.2033.a_caught_eaten.tt: "[Select_CString(prisoner.IsFemale,'Prisonnière mangée','Prisonnier mangé')]"
  travel_events.2033.a_caught_eaten.desc: "[prisoner.Custom('FR_le_Char_Pi')|U][prisoner.GetTitledFirstName] est attrapé[prisoner.Custom('FR_E')] et mangé[prisoner.Custom('FR_E')]"

@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
  #bp1_yearly_events_chad
  bp1_yearly.3001.t: "真正的朋友"
- bp1_yearly.3001.desc: "最近[ROOT.Char.Custom( 'FortifiedBuilding' )]的财务有点紧张。不管收了多少税，我就是入不敷出！\n\n我永远忠实的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))][friend.GetTitledFirstNameNoTooltip]在这倒霉的时刻来拜访我。当讨论到我目前的困难时，他提出要用大量的金钱来充实我的金库。\n\n[friend.GetFirstNameNoTooltip]握住我的手，柔声说道：“让我来帮你，[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))]。我知道你也会为我做同样的事。”"
+ bp1_yearly.3001.desc: "最近[ROOT.Char.Custom( 'FortifiedBuilding' )]的财务有点紧张。不管收了多少税，我就是入不敷出！\n\n我永远忠实的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))][friend.GetTitledFirstNameNoTooltip]在这倒霉的时刻来拜访我。当讨论到我目前的困难时，[friend.GetSheHe]提出要用大量的金钱来充实我的金库。\n\n[friend.GetFirstNameNoTooltip]握住我的手，柔声说道：“让我来帮你，[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))]。我知道你也会为我做同样的事。”"
  bp1_yearly.3001.a: "为这意外之喜赞美[ROOT.Char.GetFaith.WealthGodName]！"
  bp1_yearly.3001.b: "我永远不会麻烦朋友。"
  bp1_yearly.3001.c: "我真正需要的是喝上几杯……"

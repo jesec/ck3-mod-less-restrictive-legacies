@@ -2562,3 +2562,11 @@
  cn_lanzarote: "Lanzarote"
  #Guanche collective name for the Canaries (translated from the word people/state)
  cn_guanac: "Al-Guañac"
+ cn_krain: "Carniole"
+ cn_krain_adj: "carniolienne"
+ cn_krainburg: "Krainburg"
+ cn_krainburg_adj: "krainburgeoise"
+ cn_lower_lorraine: "Basse-Lorraine"
+ cn_lower_lorraine_adj: "basse-lorraine"
+ cn_upper_lorraine: "Haute-Lorraine"
+ cn_upper_lorraine_adj: "haute-lorraine"

@@ -30,7 +30,7 @@
  islam_religious_symbol_2: "$islam_religious_symbol$" #Optional translation alt
  islam_religious_symbol_3: "$islam_religious_symbol$" #Optional translation alt
  islam_religious_text: "Koran"
- islam_religious_text_2: "$islam_religious_text$" #Optional translation alt
+ islam_religious_text_2: "Hadithe"
  islam_religious_text_3: "$islam_religious_text$" #Optional translation alt
  islam_religious_head_title: "Kalif"
  islam_religious_head_title_name: "Kalifat"
@@ -42,10 +42,10 @@
  islam_bishop: "Ulema"
  islam_bishop_plural: "Ulemas"
  islam_positive_afterlife: "Himmel"
- islam_positive_afterlife_2: "$islam_positive_afterlife$" #Optional translation alt
- islam_positive_afterlife_3: "$islam_positive_afterlife$" #Optional translation alt
- islam_negative_afterlife: "Hölle"
- islam_negative_afterlife_2: "$islam_negative_afterlife$" #Optional translation alt
+ islam_positive_afterlife_2: "Dschanna"
+ islam_positive_afterlife_3: "Paradies"
+ islam_negative_afterlife: "Dschahannam"
+ islam_negative_afterlife_2: "Hölle"
  islam_negative_afterlife_3: "$islam_negative_afterlife$" #Optional translation alt
  christianity_witchgodname_iblis: "Iblis"
  christianity_witchgodname_iblis_possessive: "Iblis’"
@@ -78,9 +78,9 @@
  islam_shia_religious_head_title_name: "Imamat"
  #Ash'ari
  ashari: "Ash’ariya"
- ashari_adj: "Ash’aritisch"
- ashari_adherent: "Ash’arit"
- ashari_adherent_plural: "Ash’ariten"
+ ashari_adj: "Asch’aritisch"
+ ashari_adherent: "Asch’arit"
+ ashari_adherent_plural: "Asch’ariten"
  ashari_desc: "Eine orthodoxe theologische Schule, die die Auffassung vertritt, Allah habe jeden einzelnen Augenblick der Zeit erschaffen, aber dass den Menschen trotzdem der freie Wille bleibt, sich zwischen dem Guten – dem, was Gott geboten hat – und dem Bösen – dem, was Gott verbietet – zu entscheiden."
  #Muwalladism
  muwalladi: "Muwalladismus"
@@ -207,4 +207,4 @@
  hafizi_adj: "Hafizisch"
  hafizi_adherent: "Hafizit"
  hafizi_adherent_plural: "Hafiziten"
- hafizi_desc: "Hafiziten legen ihren Schwerpunkt auf die Unterstützung jener Person, die sie vor allen anderen für den wahren Kalifen halten. Sie werden sich jedem Versuch entgegenstellen, ihn abzusetzen oder vom Thron zu stoßen. In Niederlagen betrachten sie die Rebellion als ein würdiges Anliegen. Im Sieg sind sie stolze Anhänger des Willens ihres Anführers."
+ hafizi_desc: "Hafiziten legen ihren Schwerpunkt auf die Unterstützung jener Person, die sie vor allen anderen für den wahren Kalifen halten. Sie werden sich jedem Versuch entgegenstellen, ihn abzusetzen oder vom Thron zu stoßen. In Niederlagen betrachten sie den Aufstand als ein würdiges Anliegen. Im Sieg sind sie stolze Anhänger des Willens ihres Anführers."

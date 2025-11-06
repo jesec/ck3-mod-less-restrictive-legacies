@@ -60,6 +60,7 @@
  ASK_FOR_PARDON_NOTIFICATION: "我恭顺地请求您赦免我的罪行。"
  pardon_interaction: "赐予赦免"
  pardon_interaction_desc: "你认为[recipient.GetName]犯下了[criminal|E]（[recipient.GetImprisonmentReasons( actor.Self )]），因此可以随时[imprison|E]该角色并且不会获得[tyranny|E]。\n\n如果你更想让其保持自由，也可以选择赦免。这将移除所有[imprison|E]理由，并提高此人对你的[opinion|E]。"
+ pardon_interaction_has_jirga_desc: "你认为[recipient.GetName]犯下了[criminal|E]（[recipient.GetImprisonmentReasons( actor.Self )]），因此可以随时[imprison|E]该角色并且不会获得[tyranny|E]。\n\n如果你更想让其保持自由，也可以选择赦免。这将移除所有[imprison|E]理由，并提高此人对你的[opinion|E]，由于你的$tradition_fp3_jirga_name$#!传统，也会给予你威望。"
  pardon_interaction_toast: "你仁慈的领主[actor.GetFirstName]赦免了你的罪行！"
  county_must_have_city_tt: "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip]必须拥有一座[city|E]，或是[development|E]大于20。"
  county_must_have_culture_tt: "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip]的[culture|E]必须拥有$tradition_republican_legacy_name$传统。"

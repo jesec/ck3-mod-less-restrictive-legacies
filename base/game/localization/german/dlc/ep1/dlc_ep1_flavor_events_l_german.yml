@@ -87,7 +87,7 @@
  ep1_flavor.2000.cavalry: "„Holt die Zeltstangen! Die [ROOT.Char.Custom('GetRegionalCavalryMAA')] reiten los!“"
  ep1_flavor.2000.cavalry_joust: "„Das Tjosten braucht eine gute Technik.“"
  ep1_flavor.2000.cavalry_tzykanion: "„Die Reiter werden Tzykanion spielen!“"
- ep1_flavor.2000.cavalry_chovgan: "„Sollen Sie Chovgan spielen!“"
+ ep1_flavor.2000.cavalry_chovgan: "„Sollen Sie Chovkan spielen!“"
  ep1_flavor.2000.archer_cavalry: "„Die Pferdefürsten werden sich in der Kaninchenjagd üben.“"
  ep1_flavor.2000.skirmishers: "„Meine [ROOT.Char.Custom('GetRegionalInfantryMAA')|l] treffen nie daneben.“"
  ep1_flavor.2000.elephant_cavalry: "„Die Mahuts werden um Ruhm ringen!\""

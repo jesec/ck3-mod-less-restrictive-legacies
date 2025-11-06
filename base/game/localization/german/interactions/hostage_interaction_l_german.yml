@@ -166,6 +166,7 @@
  HOSTAGE_LIEGE_OF_WARDEN: "[liege|E] von [warden|E]: $VALUE|=+0$"
  HOSTAGE_DYNASTY_PRESTIGE_LEVEL_DIFFERENCES: "Unterschiede in der [dynasty_prestige_level|E]: $VALUE|=+0$"
  HOSTAGE_RECIPIENT_SEX_REASON: "Geschlecht der [hostage|E] für die [succession|E]: $VALUE|=+0$"
+ HOSTAGE_RETAINED_ADULTHOOD_REASON: "Hat beim Erwachsenwerden eine [hostage|E] nicht zurückgegeben: $VALUE|=+0$"
  #EVENTS
  char_interaction.0300.desc: "Ich sehe keinen Nutzen darin, [secondary_actor.GetFirstName], [Select_CString(secondary_actor.IsFemale, 'die Eure', 'der Euer')] [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))] ist, als meine Geisel zu nehmen."
  char_interaction.0300.a: "So ist es also, nicht wahr?"
@@ -227,3 +228,4 @@
  action_can_recall_hostage_combined_group_label: "@hostage! Ihr könnt Geiseln zurückrufen"
  action_can_recall_hostage_combined_group_description: "Mehrere [hostages|E] können von ihrem [warden|E] zurückgerufen werden."
  action_can_recall_hostage_combined_label: "[recipient.GetUINameNoTooltip]"
+ halved_hostage_prestige_tt: "[prestige_i|E][prestige|E]-Einkommen von [THIS.Char.GetShortUIName] durch [hostages|E] wird für [SCOPE.ScriptValue('hostage_adulthood_retained_halved_prestige_duration_value')|0V] Jahre verringert"

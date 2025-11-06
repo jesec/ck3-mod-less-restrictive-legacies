@@ -127,6 +127,7 @@
  CANT_SET_REALM_CAPITAL_ALREADY: "#X Это и так ваша [realm_capital|El]#!"
  CANT_SET_REALM_CAPITAL_MOVED: "#X Вы уже перемещали [Concept( 'realm_capital', 'столицу' )|E] вашего графства#!"
  CANT_SET_REALM_CAPITAL_IN_WAR: "#X [realm_capital|E] не может меняться во время [wars|E]#!"
+ CANT_SET_REALM_CAPITAL_WHILE_TRAVELING: "#X Вы не можете изменить [Concept( 'realm_capital', 'столицу державы' )|E] во время [Concept( 'traveling', 'путешествия' )|E]#!"
  CHURCH_PROPERTY_TOOLTIP: "#T [church_property|E]#!\n[lessee|E]: [Title.GetLessee.GetUIName]\n[holder|E]: [Title.GetHolder.GetUIName]"
  HOLDING_VIEW_NO_HOLDER_EFFECTS_FROM_BUILDINGS: "$NO_EFFECTS$"
  HOLDING_TERRAIN_TOOLTIP: "#T [Terrain.GetNameNoTooltip]#!\n[Terrain.GetEffects]"

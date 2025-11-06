@@ -203,6 +203,9 @@
  afar: "Афары"
  afar_prefix: "Афаро"
  afar_collective_noun: "Афарск"
+ east_bantu: "Восточные Банту"
+ east_bantu_prefix: "Восточнобантуско"
+ east_bantu_collective_noun: "Восточнобантуск"
  #East African group
  east_african_group: "Восточноафриканские народы"
  east_african_group_collective_noun: "Восточноафриканск"
@@ -734,3 +737,10 @@
  galician: "Галисийцы"
  galician_prefix: "Галисийско"
  galician_collective_noun: "Галисийск"
+ #FP3 additions
+ brahui: "Брагуи"
+ brahui_prefix: "Брагуйско"
+ brahui_collective_noun: "Брагуйск"
+ bactrian: "Бактрийцы"
+ bactrian_prefix: "Бактрийско"
+ bactrian_collective_noun: "Бактрийск"

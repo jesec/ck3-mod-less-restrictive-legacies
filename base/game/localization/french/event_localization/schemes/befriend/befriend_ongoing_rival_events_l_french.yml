@@ -7,7 +7,7 @@
  befriend_ongoing_rival.0002.desc: "J’ai suffisamment côtoyé [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName] pour savoir qu’[target.Custom('FR_IlElle')] peut parler [target.Custom('herhis_subject_of_interest')] pendant des heures. J’ai fait des recherches et ai préparé une poignée de questions pour ce que j’espère être une discussion fructueuse.\n\nHélas, je me suis totalement trompé[ROOT.Char.Custom('FR_E')]. En quelques minutes, nous avons trouvé un sujet de désaccord et avons été entraînés dans une dispute énergique."
  befriend_ongoing_rival_0002.a: "Je vais ravaler ma fierté et soutenir son point de vue."
  befriend_ongoing_rival_0002.b: "Si seulement je pouvais lui faire comprendre..."
- befriend_ongoing_rival_0002.b.tt: "The progress of my scheme will be affected positively or negatively depending on the outcome."
+ befriend_ongoing_rival_0002.b.tt: "La progression de mon complot sera affectée positivement ou négativement selon le résultat"
  befriend_ongoing_rival_0002.c: "Je ne pourrais jamais être d’accord avec une opinion aussi ridicule !"
  befriend_ongoing_rival.0003.t: "Nouer une amitié : voir du même œil"
  befriend_ongoing_rival.0003.desc: "Il nous a fallu passer par des querelles et des jurons avant d’arriver là où nous sommes, mais [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName] et moi avons finalement trouvé un terrain d’entente.\n\nNous ne nous sommes peut-être pas quittés en bons amis, mais j’estime que nous progressons."

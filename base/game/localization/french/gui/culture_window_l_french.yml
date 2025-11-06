@@ -39,7 +39,7 @@
  INNOVATION_UNLOCK_DECISION: "Peut prendre la [decision|El] « $NAME$ »"
  INNOVATION_UNLOCK_CASUS_BELLI: "Peut utiliser le [casus_belli|El] « $NAME$ »"
  INNOVATION_UNLOCK_MAA: "Peut recruter des [men_at_arms|El] « $NAME$ »"
- INNOVATION_UNLOCK_LAW: "Peut promulguer la [Concept( 'succession_law', 'loi' )|E] « $NAME$ »"
+ INNOVATION_UNLOCK_LAW: "Peut promulguer la [Concept( 'law', 'loi' )|E] « $NAME$ »"
  INNOVATION_MEN_AT_ARMS_TYPE_BONUS: "Bonus de $NAME$ :"
  INNOVATION_TOOLTIP_PROGRESS: "Progression : [CultureInnovation.GetProgress|0V]/100"
  INNOVATION_STATE_DISCOVERED: "Connue des [CULTURE.GetCollectiveNoun]"

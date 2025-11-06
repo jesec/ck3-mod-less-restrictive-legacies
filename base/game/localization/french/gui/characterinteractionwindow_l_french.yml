@@ -5,6 +5,7 @@
  PIN_TT: "#T [Select_CString( Character.IsPinned, 'Détacher', 'Épingler' )]\n#!Gardez un oeil sur ce personnage en l’épinglant dans le tableau de bord sur le côté droit de l’écran"
  interaction_category_diplomacy: "Diplomatie"
  interaction_category_friendly: "Personnel"
+ interaction_category_clan: "Clan"
  interaction_category_hostile: "Hostile"
  interaction_category_vassal: "Vassalité & Cour"
  interaction_category_religion: "Religion"

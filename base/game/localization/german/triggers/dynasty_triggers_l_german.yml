@@ -10,4 +10,6 @@
  DYNASTY_PRESTIGE_LEVEL_TRIGGER: "[dynasty_prestige_level|E]: $NUM|V0$"
  HAS_DYNASTY_TRIGGER: "Ist Mitglied einer [dynasty|E]"
  DYNASTY_NUM_UNLOCKED_PERKS: "Anzahl freigeschalteter Vorzüge: $NUM|V0$"
- HAS_DYNASTY_PERK_NONE: "[dynasty|E] hat das Vermächtnis „[DYNASTY_PERK.GetName]“"
+ HAS_DYNASTY_PERK_NONE: "Die [dynasty|E] hat das Vermächtnis „[DYNASTY_PERK.GetName]“"
+ NOT_HAS_DYNASTY_PERK: "Die [dynasty|E] „[DYNASTY.GetBaseName]“ hat nicht das Vermächtnis „[DYNASTY_PERK.GetName]“"
+ HAS_DYNASTY_PERK: "Die [dynasty|E] „[DYNASTY.GetBaseName]“ hat das Vermächtnis „[DYNASTY_PERK.GetName]“"

@@ -166,6 +166,7 @@
  intrigue_scheme_ongoing.5013.a: "...ТАДАМ! А теперь снимите это с меня. #EMP Снимите#!!"
  intrigue_scheme_ongoing.5013.a.tt: "Существа со мной больше нет, зато жизнь осталась при мне..."
  intrigue_scheme_ongoing.5014.t: "Роскошный ковер из дальних краев"
+ intrigue_scheme_ongoing.5014.t_persian: "$persian_has_plush_carpet_modifier$"
  intrigue_scheme_ongoing.5014.desc: "Роскошный, яркий и мягкий, словно первые лучи зари, — торговец дарит мне изысканный ковер в надежде на хорошие отношения в будущем.\n\nВосхищаясь тонкой работой, я внезапно задумываюсь над тем, не сможет ли такой ковер приглушить поступь? Или вовсе заглушить шаги неумелого заговорщика?.."
  intrigue_scheme_ongoing.5014.a: "[target.GetTitledFirstNameNoTooltip] почтет за честь получить такой дар."
  intrigue_scheme_ongoing.5014.a.success: "[target.GetSheHe|U] принимает подарок"

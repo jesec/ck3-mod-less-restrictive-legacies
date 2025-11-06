@@ -20,3 +20,4 @@
  CHARACTER_CANNOT_BE_IN_FACTION_DUE_TO_MODIFIER: "Ihr habt einen [modifier|E], der Euch daran hindert, Teil einer [faction|E] zu sein"
  IS_A_FACTION_MEMBER_TRIGGER: "Ist ein Fraktionsmitglied"
  FACTION_CAN_PRESS_DEMANDS_TRIGGER: "Fraktion kann Forderungen durchsetzen"
+ nation_fracturing_faction.can_character_create_ui.blocked_by_struggle: "Euer [liege|E] hält einen oder mehrere [title|E], die aufgrund eines laufenden [Concept('struggle', 'Ringens')|E] nicht [dissolution_faction_dissolved|E] werden können"

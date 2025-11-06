@@ -175,3 +175,9 @@
  tooltip_scandinavian_elective_capital_opinion: "[county_opinion|E] (столица): $VALUE|=+0$"
  tooltip_scandinavian_elective_capital_development: "[county_development|E] (столица): $VALUE|=+0$"
  tooltip_scandinavian_elector_vote_prowess: "[candidate.GetSheHe|U] — великий воин, [prowess|El] которого не вызывает сомнений: $VALUE|=+0$"
+ #Tribal Elective
+ tooltip_tribal_elective_development: "Общее [development|El] с модификаторами [Concept( 'faith', 'конфессии' )|E] и [Concept( 'heritage', 'наследия' )|E]: $VALUE|=+0$"
+ tooltip_tribal_elective_capital_opinion: "[county_opinion|E] (столица): $VALUE|=+0$"
+ tooltip_tribal_elector_vote_elder: "[Select_CString(candidate.IsFemale, 'Она', 'Он' )] — почтенный старый человек: $VALUE|=+0$"
+ tooltip_tribal_elector_vote_stranger: "[Select_CString(candidate.IsFemale, 'Она', 'Он' )] не из моего племени: $VALUE|=+0$"
+ tooltip_tribal_elector_vote_relative: "[Select_CString(candidate.IsFemale, 'Она', 'Он' )] принадлежит к моему клану: $VALUE|=+0$"

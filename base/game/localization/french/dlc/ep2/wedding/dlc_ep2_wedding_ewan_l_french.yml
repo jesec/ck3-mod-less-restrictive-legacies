@@ -324,7 +324,7 @@
  ep2_wedding_ewan.0061.c: "Souriez et endurez."
  ep2_wedding_ewan.0061.d: "Applaudissez et demandez-en encore."
  ep2_wedding_ewan.0061.d.tt.crit_success: "[oldling.GetFirstNameNoTooltip] commence une très longue histoire"
- ep2_wedding_ewan.0061.d.tt.success: "[rival.GetFirstNameNoTooltip] s’enhardit"
+ ep2_wedding_ewan.0061.d.tt.success: "[oldling.GetFirstNameNoTooltip] s’enhardit"
  ep2_wedding_ewan.0061.e: "Vous poussez [oldling.GetFirstNameNoTooltip] à continuer"
  ep2_wedding_ewan.0061.e.tt.crit_success: "$ep2_wedding_ewan.0061.d.tt.crit_success$"
  ep2_wedding_ewan.0061.e.tt.success: "$ep2_wedding_ewan.0061.d.tt.success$"

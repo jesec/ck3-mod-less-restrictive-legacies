@@ -87,6 +87,7 @@
  ## Combat Move Option Copy
  single_combat.0001.wait_and_hope: "Wenn ich abwarte, stolpert [my_foe.Custom('DE_PRO_PER_S_3P_N')] vielleicht über die eigene Waffe?"
  single_combat.0001.unsure_attack: "Äh, da habt Ihr! #EMP Sterbt#! einfach!"
+ single_combat.0001.unsure_attack_non_fatal: "Äh, nehmt das! #EMP Gebt einfach auf#!!"
  single_combat.0001.enthusiastic_onslaught.banned_house: "#EMP [myself.GetFullNameNoTooltip]!#!"
  single_combat.0001.enthusiastic_onslaught.own_house: "Ihr seid eine Schande für den Namen [myself.GetHouse.GetNameNoTooltip]!"
  single_combat.0001.enthusiastic_onslaught.motto: "#EMP [myself.GetHouse.GetMotto]#!, Abschaum!"

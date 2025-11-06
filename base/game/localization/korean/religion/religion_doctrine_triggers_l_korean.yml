@@ -38,6 +38,7 @@
  INCOMPATIBLE_WITH_ALL_CRIMINAL_DOCTRINES: "[criminal|E]로 치부될 수 있는 특정 행동의 [doctrines|E]와는 양립할 수 없음"
  ADULTERY_MUST_BE_FULLY_ACCEPTED: "간통을 [shunned|E] 혹은 [criminal|E]로 치부하는 [doctrine|E]와는 양립할 수 없음"
  REQUIRES_EXALTATION: "$tenet_carnal_exaltation_name$ [core_tenet|E] 필요"
+ FEDAYEEN_REQUIRED_DOCTRINES_TRIGGER: "다음 [core_tenets|E] 중 하나 필요:\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_warmonger').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_unrelenting_faith').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_consolamentum').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_armed_pilgrimages').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_struggle_submission').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_pursuit_of_power').GetName( GetPlayer.GetFaith )]"
  HAS_DOCTRINE: "[FAITH_DOCTRINE.GetName(FAITH.Self)] 교리를 도입함"
  NOT_HAS_DOCTRINE: "[FAITH_DOCTRINE.GetName(FAITH.Self)] 교리를 도입하지 #bold 않음#!"
  I_HAVE_DOCTRINE: "당신의 [faith|E]이 [FAITH_DOCTRINE.GetName(FAITH.Self)] 교리를 도입함"

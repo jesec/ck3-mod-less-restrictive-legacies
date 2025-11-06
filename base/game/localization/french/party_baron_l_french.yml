@@ -56,7 +56,7 @@
  party_baron.2003.a: "« Merci de... m’avoir sauvé la vie ? »"
  party_baron.2003.repentant_cannot_scheme: "Tant que [owner.Custom('FR_le_Char_U_Pi')][owner.GetShortUIName] est repentant[owner.Custom('FR_E')], [owner.Custom('FR_IlElle')] ne peut pas commencer des [hostile_schemes|El] contre vous"
  party_baron.2003.b: "« [owner.GetSheHe|U] a comploté pour faire quoi ?! »"
- party_baron.2003.c: "Comment a-t-[owner.Custom('FR_IlElle')] appris l’existence de ce complot ?"
+ party_baron.2003.c: "Comment a-t-[party_baron.Custom('FR_IlElle')] appris l’existence de ce complot ?"
  party_baron.2004.t: "$party_baron_header$"
  party_baron.2004.desc: "Il m’est impossible de dire si [party_baron.Custom('FR_le_Char_Pi')][party_baron.GetTitledFirstName] est ivre ou simplement enivré[party_baron.Custom('FR_E')] par les festivités. Soudain, [party_baron.Custom('FR_IlElle')] me prend dans ses bras et me dit : « Vous savez, je pense vraiment que vous êtes l’un[ROOT.Char.Custom('FR_E')] de mes meilleur[ROOT.Char.Custom('FR_E')]s ami[ROOT.Char.Custom('FR_E')]s ».\n\nLe reste de la soirée, je l’observe surtout en train de se divertir. Je pense que je pourrais [party_baron.Custom('FR_LeLa')] comprendre mieux que n’importe laquelle des personnes en train de boire à sa santé."
  party_baron.2004.a: "C’est réciproque, [party_baron.GetFirstNameNoTooltip]."

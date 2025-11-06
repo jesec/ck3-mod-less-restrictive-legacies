@@ -5,7 +5,7 @@
  become_greatest_of_khans_decision_tooltip: "Forma el Imperio mongol y conviértete en Gengis Kan, el gobernante universal"
  become_greatest_of_khans_decision_confirm: "Convoca el Gran kurultai"
  become_greatest_of_khans_decision_gain_mongol_empire: "Mi señorío se convierte en el [mongol_empire|lE]"
- become_greatest_of_khans_decision_enable_mongol_invasion_cb: "Accedo al [mongol_invasion_casus_belli|llE]"
+ become_greatest_of_khans_decision_enable_mongol_invasion_cb: "Accedes al [mongol_invasion_casus_belli|lE]"
  GREATEST_OF_KHANS_TITLE_REQUIREMENT: "Debo tener rango de [Concept( 'king', '' )|E][ROOT.Char.Custom('ES_ReyReina')] o [Concept( 'emperor', 'empera' )|E][ROOT.Char.Custom('ES_DorTriz')]"
  #Establish Bactrian Supremacy
  establish_bactrian_supremacy_decision: "Impón la supremacía de Bactria"

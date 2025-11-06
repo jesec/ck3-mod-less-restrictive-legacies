@@ -17,6 +17,7 @@
  DLC007_EP2: "Tours and Tournaments"
  DLC008_SP2: "Elegance of the Empire"
  DLC009_BP2: "Wards & Wardens"
+ DLC010_FP3: "Legacy of Persia"
  dlc_001: "$DLC001_PREORDER$"
  dlc_001_desc: "Taucht ein in das Heilige Römische Reich mit einer Sammlung von Gewandungen für Gemeine, Krieger und Herrscher Zentraleuropas."
  dlc_002: "$DLC002_SP_DAY1$"
@@ -35,3 +36,5 @@
  dlc_008_desc: "Kleidet Euren Herrscher in die edelsten Gewandungen. Beruhend auf den Gewändern und Insignien von Kaiser Heinrich II. und Kaiserin Kunigunde enthält dieses Paket nicht nur neue Roben und Kleider, sondern auch historisch passende Kronen und andere Gegenstände. Exklusiv erhältlich für Besitzer von Chapter II."
  dlc_009: "$DLC009_BP2$"
  dlc_009_desc: "In Wards & Wardens stehen Herrscherkinder und deren Vormunde im Mittelpunkt. Erzieht junge Prinzen und Adlige in einer Welt, in der der ewige Ruhm nur eine Schlacht entfernt ist und die Gefahr in jedem Schatten lauert."
+ dlc_010: "$DLC010_FP3$"
+ dlc_010_desc: "Das Reich der Sassaniden ist längst untergegangen und das Abbasiden-Kalifat zwingt die verbliebenen iranischen Dynastien in die Knie. Werdet Ihr Euch fügen oder ein neues Reich gründen? Die Zukunft Persiens liegt in Euren Händen!"

@@ -203,6 +203,9 @@
  afar: "Afarisch"
  afar_prefix: "Afaro"
  afar_collective_noun: "Afar"
+ east_bantu: "Ost-Bantuisch"
+ east_bantu_prefix: "Ost-Bantu"
+ east_bantu_collective_noun: "Ost-Bantus"
  #East African group
  east_african_group: "Ostafrikanisch"
  east_african_group_collective_noun: "Ostafrikaner"
@@ -734,3 +737,10 @@
  galician: "Galizisch"
  galician_prefix: "Galiko"
  galician_collective_noun: "Galizier"
+ #FP3 additions
+ brahui: "Brahuisch"
+ brahui_prefix: "Brahui"
+ brahui_collective_noun: "Brahui"
+ bactrian: "Baktrisch"
+ bactrian_prefix: "Baktria"
+ bactrian_collective_noun: "Baktrier"

@@ -17,6 +17,7 @@
  DLC007_EP2: "Giras y torneos"
  DLC008_SP2: "Elegancia del imperio"
  DLC009_BP2: "Wards & Wardens"
+ DLC010_FP3: "Legacy of Persia"
  dlc_001: "$DLC001_PREORDER$"
  dlc_001_desc: "Sumérgete en el Sacro Imperio Romano con una colección de trajes para plebeyos, guerreros y gobernantes de Europa Central."
  dlc_002: "$DLC002_SP_DAY1$"
@@ -35,3 +36,5 @@
  dlc_008_desc: "Viste a tus gobernantes con las mejores galas con este paquete de vestidos. Basados en las prendas y vestimentas del emperador Enrique II y la emperatriz Cunigunde, este paquete incluye nuevos ropajes y vestidos, además de coronas apropiadas a la historia y otros objetos. Disponible exclusivamente para quienes tengan el Capítulo II."
  dlc_009: "$DLC009_BP2$"
  dlc_009_desc: "En Wards & Wardens, los gobernantes niños y sus tutores son los protagonistas. Educa a jóvenes príncipes y nobles en un mundo donde la gloria eterna está a una batalla de distancia y el peligro acecha en cada sombra."
+ dlc_010: "$DLC010_FP3$"
+ dlc_010_desc: "El Imperio sasánida desapareció hace mucho y el califato abasida presiona para someter a lo que queda de las dinastías iranias. ¿Te resignarás o forjarás un nuevo imperio? ¡El futuro de Persia está en tus manos!"

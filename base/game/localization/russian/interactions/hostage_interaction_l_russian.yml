@@ -166,6 +166,7 @@
  HOSTAGE_LIEGE_OF_WARDEN: "[Concept( 'liege', 'сюзерен' )|E] [Concept( 'warden', 'принимающей стороны' )|E]: $VALUE|=+0$"
  HOSTAGE_DYNASTY_PRESTIGE_LEVEL_DIFFERENCES: "Различия в [Concept( 'dynasty_prestige_level', 'уровне величия' )|E]: $VALUE|=+0$"
  HOSTAGE_RECIPIENT_SEX_REASON: "Пол [Concept( 'hostage', 'заложника' )|E] для [Concept( 'succession', 'наследования' )|E]: $VALUE|=+0$"
+ HOSTAGE_RETAINED_ADULTHOOD_REASON: "Отказ вернуть повзрослевшего [Concept( 'hostage', 'заложника' )|E]: $VALUE|=+0$"
  #EVENTS
  char_interaction.0300.desc: "Я не понимаю, какую выгоду получу, если [Select_CString(secondary_actor.IsFemale, 'ваша', 'ваш' )] [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))], [secondary_actor.GetFirstName], станет моим заложником."
  char_interaction.0300.a: "Вот, значит, как?"
@@ -227,3 +228,4 @@
  action_can_recall_hostage_combined_group_label: "@hostage! Вы можете отозвать заложников"
  action_can_recall_hostage_combined_group_description: "Нескольких [Concept( 'hostages_possessive', 'заложников' )|E] можно отозвать у [Concept( 'warden', 'принимающей стороны' )|E]."
  action_can_recall_hostage_combined_label: "[recipient.GetUINameNoTooltip]"
+ halved_hostage_prestige_tt: "[THIS.Char.GetShortUIName|U] [Select_CString(THIS.Char.IsLocalPlayer, 'будете', 'будет' )] получать меньше [prestige_i|E][Concept( 'prestige', 'престижа' )|E] от [Concept( 'hostages', 'заложников' )|E] следующие [SCOPE.ScriptValue('hostage_adulthood_retained_halved_prestige_duration_value')|0V] лет"

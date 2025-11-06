@@ -712,7 +712,7 @@
  ACCEPTANCE_BASELINE_CLOSE_PLURALISTS: "[cultures|E] haben eine gemeinsame vorherrschende [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName]-[religion|E]."
  ACCEPTANCE_BASELINE_FAITH: "[cultures|E] haben einen gemeinsamen vorherrschenden [Concept('faith', 'Glauben')|E]."
  TRADITION_ASTUTE_DIPLOMATS_ACCEPTANCE_MODIFIER: "$tradition_astute_diplomats_name$-[tradition|E]: $VALUE|=+0$"
- CULTURE_HARD_TO_CONVERT_REASON: "[culture_tradition|E] $tradition_zealous_people_name$"
+ CULTURE_HARD_TO_CONVERT_REASON: "$tradition_zealous_people_name$-[culture_tradition|E]: $VALUE|=+0$"
  TRADITION_RELIGION_BLENDING_CONVERSION_MODIFIER: "[culture_tradition|E] $tradition_religion_blending_name$"
  TRADITION_HARDER_TO_CONVERT_CONVERSION_MODIFIER: "$CULTURE_HARD_TO_CONVERT_REASON$"
  TRADITION_BREAKDOWN_LAW_REALM_SIZE_COST: "$KEY$: $VALUE|=-0$ #Weak (durch [traditions|E]: #P -50 %#!)#!"
@@ -727,6 +727,8 @@
  20_percent_churches: "Die [culture|E] hat nicht [temple|E] in #V 20 %#! ihrer [counties|E]."
  must_be_feudal_or_clan: "Ihr müsst eine [feudal|E]- or [clan|E]-[government|E] haben."
  only_one_marriage_tradition_allowed: "Es ist nur eine [marriage|E]-[tradition|E] erlaubt, und die folgenden lassen sich nicht kombinieren: $tradition_monogamous_name$, $tradition_polygamous_name$ und $tradition_concubines_name$"
+ no_warrior_culture: "„$tradition_fp3_beacon_of_learning_name$“ ist unvereinbar mit „$tradition_warrior_culture$“"
+ no_philosopher_culture: "„$tradition_fp3_beacon_of_learning_name$“ ist unvereinbar mit „$tradition_philosopher_culture_name$“"
  culture_in_winter_geographical_region_trigger_desc: "Die [culture|E] ist nicht in einer [region|E] mit Winter präsent."
  culture_in_non_sedentary_geographical_region_trigger_desc: "Die [culture|E] ist nicht in der [GetGeographicalRegion('world_steppe').GetName] präsent."
  #culture_in_britannia_region_trigger_desc: "The [culture|E] is not present in [GetGeographicalRegion('world_europe_west_britannia').GetName]"
@@ -799,6 +801,7 @@
  ## Bureaucratic.
  not_bureaucratic_courtly_or_egalitarian_desc: "Die [culture|E] hat nicht das [ethos|E] $ethos_bureaucratic_name$, $ethos_courtly_name$ oder $ethos_egalitarian_name$."
  not_bureaucratic_spiritual_or_egalitarian_desc: "Die [culture|E] hat nicht das [ethos|E] $ethos_bureaucratic_name$, $ethos_spiritual_name$ oder $ethos_egalitarian_name$."
+ not_bureaucratic_courtly_or_spiritual_desc: "Die [culture|E] hat nicht das [ethos|E] „$ethos_bureaucratic_name$“, „$ethos_courtly_name$“ oder „$ethos_spiritual_name$“"
  ## Spiritual.
  ## Courtly.
  not_courtly_communal_or_spiritual_desc: "Die [culture|E] hat nicht das [ethos|E] $ethos_courtly_name$, $ethos_communal_name$ oder $ethos_spiritual_name$."
@@ -1021,7 +1024,7 @@
  culture_tradition_events.0101.t: "Der Geist eines Mystikers"
  culture_tradition_events.0101.desc: "Es ist selten genug, dass ich einmal ohne Unterbrechungen von Speichelleckern oder Staatsangelegenheiten speisen kann, doch heute Abend ist mir dies gelungen. Ein schönes, ruhiges Essen und die Gelegenheit, meine gesellschaftlichen Muskeln zu entspannen.\n\nBinnen weniger Wimpernschläge wird mit tragischer Unausweichlichkeit die Tür aufgerissen und ein [mendicant_mystic.GetFaith.PriestNeuter] stürmt ins Zimmer. [mendicant_mystic.Custom('DE_PRO_PER_S_3P_N')|U] hat einen knorrigen Wanderstecken, der ganz zersplittert davon ist, dass er die Tür mit einem Schlag aufspringen ließ.\n\n„Edl[ROOT.Char.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], ich habe ein Angebot für Euch! Für eine kleine Entlohnung werde ich, #EMP [mendicant_mystic.GetFirstName]#!, mein Wissen um die alten Wege unseres Volks mit den Kindern Eures Hofs teilen!“"
  culture_tradition_events.0101.a: "Natürlich, [mendicant_mystic.GetFaith.PriestNeuter]. Bitte legt aber lieber diesen Prügel beiseite."
- culture_tradition_events.0101.a.tt: "Alle verfügbaren [children|E] am [court|E] erhalten eine Verbesserung ihrer [education|E]."
+ culture_tradition_events.0101.a.tt: "Die laufende [education|E] aller verfügbaren [children|E] am [court|E] wird verbessert"
  culture_tradition_events.0101.b: "Ist das nicht ein bisschen viel, um das Werk von [mendicant_mystic.GetFaith.HighGodName] zu verrichten?"
  culture_tradition_events.0101.b.tt.success: "Ihr argumentiert den Mystiker in Grund und Boden."
  culture_tradition_events.0101.b.tt.failure: "Voller Abscheu verlässt der Mystiker Euren Hof."
@@ -1067,6 +1070,7 @@
  culture_parameter_drylands_hunt_success_chance: "Erhöhte [hunt_success_chance|E] in [GetTerrain('drylands').GetName] und [GetTerrain('desert').GetName]."
  culture_parameter_jungle_hunt_success_chance: "Erhöhte [hunt_success_chance|E] in [GetTerrain('jungle').GetName]."
  culture_parameter_wetlands_hunt_success_chance: "Erhöhte [hunt_success_chance|E] in [GetTerrain('wetlands').GetName] und [GetTerrain('wetlands').floodplains]."
+ can_host_joust_contests_name: "[GetCultureTradition('tradition_chanson_de_geste').GetName] oder [GetCultureTradition('tradition_chivalry').GetName]"
  #BP2 Traditions
  tradition_noble_adoption_name: "Adelige Adoption"
  tradition_noble_adoption_desc: "Die Adoption von Waisenkindern in Adelshäuser ist in dieser Gesellschaft gang und gäbe. Das Blut des Bundes ist dicker als das Wasser des Mutterleibs."

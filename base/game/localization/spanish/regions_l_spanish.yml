@@ -121,6 +121,9 @@
  dlc_fp2_old_vasconia: "Vasconia antigua"
  dlc_fp2_old_vasconia_pushed: "Vasconia antigua"
  dlc_fp2_dlc_fp2_caucasian_iberia: "Iberia del Cáucaso"
+ #FP3
+ dlc_fp3_eastern_persian_frontier_regions: "Frontera oriental"
+ dlc_fp3_greater_persian_frontier_regions: "Gran frontera persa"
  #EP1
  dlc_ep1_achievement_rise_of_the_ghurids: "Imperio gúrida histórico"
  #Seazones

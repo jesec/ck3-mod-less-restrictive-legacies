@@ -120,5 +120,5 @@
  TRAIT_CATEGORY_HEALTH: "[Concept('health_trait', 'Gesundheitseigenschaft')|E]"
  TRAIT_CATEGORY_COURT_TYPE: "[court_type_trait|E]"
  TRAIT_CATEGORY_BASE: "[trait|E]"
- ANY_OPPOSITE_TRAIT_ALL: "Hat keine gegensätzlichen Eigenschaften"
- NOT_ANY_OPPOSITE_TRAIT_ALL: "Hat bereits die gegensätzliche Eigenschaft"
+ ANY_OPPOSITE_TRAIT_ALL: "Hat keine gegensätzlichen [personality_traits|E]"
+ NOT_ANY_OPPOSITE_TRAIT_ALL: "Hat bereits die gegensätzliche [personality_trait|E]"

@@ -18,7 +18,7 @@
  british_isles.1002.b: "¡Una victoria para la [restorer.GetCulture.GetNameNoTooltip]!"
  british_isles.1002.c: "Mm, ¿así que [restorer.GetCulture.GetNameNoTooltip]? ¡Apuntadme!"
  #Embrace English Culture, by Linnéa Thimrén
- british_isles.2001.t: "Basta de [embracer.GetCulture.GetNameNoTooltip]"
+ british_isles.2001.t: "Basta de actuar a la [embracer_former_culture.GetNameNoTooltip]"
  british_isles.2001.desc: "Los tiempos en que la nación [embracer.GetCulture.GetNameNoTooltip] consideraba Francia su hogar pasaron hace mucho. Nuestros hijos nacieron aquí, rodeados por sajones, y para ellos, Normandía no es más que una línea borrosa al otro lado de las brumosas costas de Britania.\n\nY según hacemos propias algunas de las costumbres locales, también se extiende por tierras sajonas el legado de nuestra cultura, dando nacimiento a una nueva identidad inglesa."
  british_isles.2001.a: "¡Vivan los ingleses!"
  british_isles.2002.desc: "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('embracer'))] [embracer.GetName], sus vasallos y toda su familia han respondido a la llamada de Albión y abrazado la cultura inglesa."

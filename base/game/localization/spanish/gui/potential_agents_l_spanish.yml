@@ -43,5 +43,6 @@
  RESPECTED_HOST: "[target.GetShortUINameNoTooltip] es un[target.Custom('ES_XA')] anfitri[target.Custom('ES_OnOna')] apreciad[target.Custom('ES_OA')]: $VALUE|+0$"
  IS_POLITICKER: "Mi [accolade|lE] alienta la astucia política amoral: $VALUE|+0$"
  SCHEME_TAUGHT_TO_SCHEME: "Me enseñaste a intrigar por ti: $VALUE|+0$"
+ IS_PART_OF_STRUGGLE: "[target.GetShortUINameNoTooltip] parte de la [struggle|lE]: $VALUE|+0$"
  INTRIGUE_EDUCATION_5_BONUS: "[GetTrait('education_intrigue_5').GetName( GetNullCharacter )]: $VALUE|+0$"
  SCHEME_DUTIOUS_FAMILY: "Eres inflexible en el deber familiar: $VALUE|+0$"

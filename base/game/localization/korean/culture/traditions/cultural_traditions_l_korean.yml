@@ -601,7 +601,7 @@
  culture_parameter_no_limit_to_kingdom_level_holy_wars: "한 명의 [ruler|E]가 선포할 수 있는 [kingdom|E] 수준의 [holy_wars|E]에 제한이 없어짐"
  culture_parameter_cb_lower_piety_level_requirement: "특정한 [piety_level|E]를 요구하는 모든 [casus_bellis|E]의 조건이 한 단계 감소함"
  culture_parameter_can_host_joust_contests: "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'can_host_joust_contests_custom_effect_description_TOTO_DLC', 'can_host_joust_contests_custom_effect_description_NO_TOTO_DLC' )]"
- can_host_joust_contests_custom_effect_description_TOTO_DLC: "[GetActivityType( 'activity_tournament' ).GetName]에서 마상 시합 [contests|E] 주최 가능"
+ can_host_joust_contests_custom_effect_description_TOTO_DLC: "[GetActivityType( 'activity_tournament' ).GetName]에서 마상 시합 [contest|E] 주최 가능"
  can_host_joust_contests_custom_effect_description_NO_TOTO_DLC: ""
  culture_parameter_just_trait_gives_bonuses: "[GetTrait('just').GetName( GetNullCharacter )] [trait|E]에 추가 보너스 부여됨"
  culture_parameter_trade_port_building_bonuses: "해당 [culture|E]의 [Concept( 'county', '영지' )|E]에서는 #V $building_type_common_tradeport_01$#! 계열 [buildings|E]에 추가 보너스 부여됨"
@@ -712,7 +712,7 @@
  ACCEPTANCE_BASELINE_CLOSE_PLURALISTS: "[cultures|E]가 지리적으로 밀접해 [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName] 주요 [faiths|E]을 공유함"
  ACCEPTANCE_BASELINE_FAITH: "[cultures|E]가 주요 [faith|E]을 공유함"
  TRADITION_ASTUTE_DIPLOMATS_ACCEPTANCE_MODIFIER: "$tradition_astute_diplomats_name$ [tradition|E]: $VALUE|=+0$"
- CULTURE_HARD_TO_CONVERT_REASON: "$tradition_zealous_people_name$ [culture_tradition|E]"
+ CULTURE_HARD_TO_CONVERT_REASON: "$tradition_zealous_people_name$ [culture_tradition|E]: $VALUE|=+0$"
  TRADITION_RELIGION_BLENDING_CONVERSION_MODIFIER: "$tradition_religion_blending_name$ [culture_tradition|E]"
  TRADITION_HARDER_TO_CONVERT_CONVERSION_MODIFIER: "$CULTURE_HARD_TO_CONVERT_REASON$"
  TRADITION_BREAKDOWN_LAW_REALM_SIZE_COST: "$KEY$: $VALUE|=-0$ #Weak ([traditions|E]으로 인한 효과: #P -50%#!)#!"
@@ -727,6 +727,8 @@
  20_percent_churches: "[culture|E]에 속한 [Concept( 'county', '영지' )|E]의 #V 20%#!가 [temple|E]을 보유하지 않음"
  must_be_feudal_or_clan: "[feudal|E] 또는 [clan|E] [government|E]를 보유해야 함"
  only_one_marriage_tradition_allowed: "오직 하나의 [marriage|E] [tradition|E]만이 허용되며, 다음은 혼합될 수 없습니다: $tradition_monogamous_name$, $tradition_polygamous_name$, $tradition_concubines_name$"
+ no_warrior_culture: "$tradition_fp3_beacon_of_learning_name$(은)는 $tradition_warrior_culture$(와)과 양립할 수 없음"
+ no_philosopher_culture: "$tradition_fp3_beacon_of_learning_name$(은)는 $tradition_philosopher_culture_name$(와)과 양립할 수 없음"
  culture_in_winter_geographical_region_trigger_desc: "[culture|E]가 겨울이 존재하는 [region|E]에 존재하지 않음"
  culture_in_non_sedentary_geographical_region_trigger_desc: "[culture|E]가 [GetGeographicalRegion('world_steppe').GetName]에 존재하지 않음"
  #culture_in_britannia_region_trigger_desc: "The [culture|E] is not present in [GetGeographicalRegion('world_europe_west_britannia').GetName]"
@@ -799,6 +801,7 @@
  ## Bureaucratic.
  not_bureaucratic_courtly_or_egalitarian_desc: "[culture|E]가 $ethos_bureaucratic_name$, $ethos_courtly_name$, 또는 $ethos_egalitarian_name$ [ethos|E]을 보유하고 있지 않음"
  not_bureaucratic_spiritual_or_egalitarian_desc: "[culture|E]가 $ethos_bureaucratic_name$, $ethos_spiritual_name$, 또는 $ethos_egalitarian_name$ [ethos|E]을 보유하고 있지 않음"
+ not_bureaucratic_courtly_or_spiritual_desc: "[culture|E]가 $ethos_bureaucratic_name$, $ethos_courtly_name$, 또는 $ethos_spiritual_name$ [ethos|E]을 보유하고 있지 않음"
  ## Spiritual.
  ## Courtly.
  not_courtly_communal_or_spiritual_desc: "[culture|E]가 $ethos_courtly_name$, $ethos_communal_name$, 또는 $ethos_spiritual_name$ [ethos|E]을 보유하고 있지 않음"
@@ -1067,6 +1070,7 @@
  culture_parameter_drylands_hunt_success_chance: "[GetTerrain( 'drylands' ).GetName] 및 [GetTerrain( 'desert' ).GetName]에서 [hunt_success_chance|E] 증가"
  culture_parameter_jungle_hunt_success_chance: "[GetTerrain( 'jungle' ).GetName]에서 [hunt_success_chance|E] 증가"
  culture_parameter_wetlands_hunt_success_chance: "[GetTerrain( 'wetlands' ).GetName] 및 [GetTerrain( 'wetlands' ).floodplains]에서 [hunt_success_chance|E] 증가"
+ can_host_joust_contests_name: "[GetCultureTradition('tradition_chanson_de_geste').GetName] 또는 [GetCultureTradition('tradition_chivalry').GetName]"
  #BP2 Traditions
  tradition_noble_adoption_name: "귀족 입양"
  tradition_noble_adoption_desc: "이 사회에서는 고아가 된 아이를 귀족 가문으로 입양하는 사례가 흔한 편입니다. 계약으로 맺어진 혈연이 배 아파서 낳은 인연보다 훨씬 강하게 작용합니다."

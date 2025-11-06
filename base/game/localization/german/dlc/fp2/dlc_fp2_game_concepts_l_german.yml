@@ -46,6 +46,7 @@
  game_concept_dissolution_faction: "Auflösungsfraktion"
  game_concept_dissolution_factions: "Auflösungsfraktionen"
  game_concept_faction_dissolution: "Auflösung"
+ game_concept_dissolution_faction_dissolved: "aufgelöst"
  game_concept_dissolution_faction_desc: "Die [dissolution_faction|E] will das [realm|E] ihres [Concept('liege', 'Lehnsherrn')|E] vernichten. Ist sie erfolgreich, werden alle Vasallen im Reich [independent|E] und ihr Lehnsherr verliert seinen [primary_title|E]."
  game_concept_improve_city_province_decision: "„$improve_city_province_decision_name$“-Entscheidung"
  game_concept_improve_city_province_decision_desc: "Eine [decision|E], die es Euch erlaubt, die Zahl der [buildings|E], die in einem [city_holding|E] verfügbar sind, zu erhöhen."

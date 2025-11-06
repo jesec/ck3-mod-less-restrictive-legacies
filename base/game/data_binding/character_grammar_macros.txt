@@ -89,6 +89,27 @@ macro = {
 	replace_with = "Select_CString( CHARACTER.IsLocalPlayer, 'yourself', CHARACTER.GetHerselfHimself )"
 }
 
+# CharYouThem
+macro = {
+	description = "Has only brought you closer / Has only brought them closer "
+	definition = "CharYouThem(CHARACTER)"
+	replace_with = "Select_CString( CHARACTER.IsLocalPlayer, 'you', 'them' )"
+}
+
+# CharYouThey
+macro = {
+	description = "And you have / And they have"
+	definition = "CharYouThey(CHARACTER)"
+	replace_with = "Select_CString( CHARACTER.IsLocalPlayer, 'you', 'they' )"
+}
+
+# CharYourTheir
+macro = {
+	description = "Your mutual interests have / Their mutual interests have"
+	definition = "CharYourTheir(CHARACTER)"
+	replace_with = "Select_CString( CHARACTER.IsLocalPlayer, 'your', 'their' )"
+}
+
 
 
 
@@ -167,3 +188,32 @@ macro = {
 	definition = "CharTryTries(CHARACTER)"
 	replace_with = "Select_CString( CHARACTER.IsLocalPlayer, 'try', 'tries' )"
 }
+
+
+
+
+
+
+
+
+
+
+##################################################
+# Name Hacks
+
+# For when we've gotta do weird stuff with names that doesn't have code functionality atm.
+
+# CharYouFirstName
+macro = {
+	description = "You / Geoff"
+	definition = "CharYouFirstName(CHARACTER)"
+	replace_with = "Select_CString( CHARACTER.IsLocalPlayer, 'you', CHARACTER.GetFirstNameNoTooltip )"
+}
+
+# CharYourFirstNames (possessive)
+macro = {
+	description = "Your / Geoff's"
+	definition = "CharYourFirstNames(CHARACTER)"
+	replace_with = "Select_CString( CHARACTER.IsLocalPlayer, 'your', CHARACTER.GetFirstNamePossessiveNoTooltip )"
+}
+

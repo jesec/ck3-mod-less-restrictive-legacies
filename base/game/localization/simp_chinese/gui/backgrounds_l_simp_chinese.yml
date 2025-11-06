@@ -1,4 +1,5 @@
 ﻿l_simp_chinese:
+ fp3_frontend_iranian: "伊朗御座厅"
  fp2_frontend_iberian: "伊比利亚御座厅"
  frontend_tribal: "部落御座厅"
  fp1_frontend_tribal: "诺斯部落御座厅"
@@ -107,3 +108,9 @@
  bp2_university: "西方大学"
  bp2_nursery: "婴儿室"
  bp2_university_mena: "宗教学校"
+ fp3_bathhouse: "阿拉伯澡堂"
+ fp3_temple: "伊朗神庙"
+ fp3_docks: "伊朗码头"
+ fp3_throneroom: "伊朗御座厅"
+ fp3_courtyard_night: "伊朗黑暗走廊"
+ fp3_cave: "洞穴内部"

@@ -362,7 +362,7 @@
  travel_events.2028.c: "거참... 훌륭하군... 계속 잘해주게."
  #Visit a cereal field - Encounter a heathen
  travel_events.2029.t: "$travel_event_prefix$ 각성"
- travel_events.2029.desc: "어둠이 내리고 [ROOT.Char.GetCurrentLocation.GetName] 남쪽 곡물 밭에 도착했을 때였다. [crop_circler.GetFirstName](은)는 농사일에 여념이 없었는데, 크고 넓적한 나무와 무거운 돌을 사용해 빠른 속도로 작물을 납작하게 누르고 있었다.\n\n나는 눈을 찌푸리고 [crop_circler.GetHerHis] 작업 현장을 지켜보다 정확히 뭘 하고 있는 건지 물었다.\n\n[crop_circler.GetSheHe|U]는 미간을 찌푸리더니, 우리 모두 거짓된 [crop_circler.GetFaith.GetReligion.GetAdjectiveNoTooltip]의 가르침에 숨지 말고 정신 차리고 진정한 주인을 맞이해야 한다고 일장 연설을 늘어놓기 시작했다. 나는 놀라움에 몇 걸음 뒤로 물러섰다."
+ travel_events.2029.desc: "어둠이 내리고 [ROOT.Char.GetCurrentLocation.GetName] 남쪽 곡물 밭에 도착했을 때였다. [crop_circler.GetWomanMan](은)는 농사일에 여념이 없었는데, 크고 넓적한 나무와 무거운 돌을 사용해 빠른 속도로 작물을 납작하게 누르고 있었다.\n\n나는 눈을 찌푸리고 [crop_circler.GetHerHis] 작업 현장을 지켜보다 정확히 뭘 하고 있는 건지 물었다.\n\n[crop_circler.GetSheHe|U]는 미간을 찌푸리더니, 우리 모두 거짓된 [crop_circler.GetFaith.GetReligion.GetAdjectiveNoTooltip]의 가르침에 숨지 말고 정신 차리고 진정한 주인을 맞이해야 한다고 일장 연설을 늘어놓기 시작했다. 나는 놀라움에 몇 걸음 뒤로 물러섰다."
  travel_events.2029.a: "입 다물어라, 이단자야."
  travel_events.2029.b: "감히 [ROOT.Char.GetFaith.GetReligion.GetNameNoTooltip](을)를 욕보이다니!"
  travel_events.2029.c: "그 #EMP 진정한 주인#!에 대해 좀 더 자세히 듣고 싶은데."

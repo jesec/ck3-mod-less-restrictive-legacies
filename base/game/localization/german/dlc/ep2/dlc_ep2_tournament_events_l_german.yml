@@ -99,7 +99,7 @@
  ep2_tournament_events.0021.t: "$tournament_versus_header$ Angespannt"
  ep2_tournament_events.0021.desc: "Das Schwert von [versus_contestant.GetFirstName] schabt an der Klinge meines Schwerts entlang, Funken sprühen, während ich zurücktaumle. [versus_contestant.Custom('DE_PRO_PER_S_3P_N')|U] lächelt grimmig, als ich mit dem Rücken an den Rand der Arena stoße. [versus_contestant.Custom('DE_PRO_PER_S_3P_N')|U] umkreist mich, um mich so in die Ecke zu drängen. Ich brauche dringend irgendeinen Vorteil.\n\nPlötzlich taucht ein Gedanke in den Tiefen meines Hirns auf: Wie töricht ich doch war! Das ausgerechnet jetzt zu vergessen! Vielleicht ist es an der Zeit, diese Sache für mich zu nutzen …\n\n„Seid Ihr erledigt, [ROOT.Char.GetFirstName]?“, grunzt [versus_contestant.GetSheHe] und schwingt die Waffe hin und her. „Ihr seht erledigt für mich aus.“"
  ep2_tournament_events.0021.a: "„Wahrlich, Ihr redet sogar noch mehr, als [family.GetFirstNameNoTooltip] es tat.“"
- ep2_tournament_events.0021.b: "„[versus_contestant.Custom('InsultNoun')|U], [versus_contestant.Custom('DE_PRO_POS_P_2P_N')] [versus_contestant.Custom2('RelationToMeShort', SCOPE.sC('family'))] fiel #EMP mir#! zum Opfer!“"
+ ep2_tournament_events.0021.b: "„[versus_contestant.Custom('InsultNoun')|U], [versus_contestant.Custom('DE_PRO_POS_P_2P_N')|U] [versus_contestant.Custom2('RelationToMeShort', SCOPE.sC('family'))] fiel #EMP mir#! zum Opfer!“"
  ep2_tournament_events.0021.c: "Es dürfte besser sein, [versus_contestant.Custom('DE_PRO_PER_S_3P_A')] nicht zu provozieren …"
  #Melee
  ep2_tournament_events.1001.t: "$tournament_contest_header$ Brennende Gebäude"

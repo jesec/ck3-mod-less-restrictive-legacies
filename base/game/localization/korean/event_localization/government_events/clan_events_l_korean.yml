@@ -23,6 +23,7 @@
  clan.1101.t: "힘의 균형"
  clan.1101.desc: "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U](이)가 불만스러운 표정으로 내게 다가온다. \"가족분들께서 [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]에 너무 막강한 권력을 행사하고 계십니다. 그래서 신하들은 아무리 열심히 일해도 권력을 손에 넣을 수가 없는 상태가 되어버렸습니다.\n\n제발 이 부당한 작태를 해결해 주십시오. 그렇지 않으면 신하들 사이에 불만이 점점 쌓이게 될 것입니다...\""
  clan.1101.a: "잘 알겠네. 생각을 좀 해 봐야겠어."
+ clan.1101.a.flavor: "의미 있는 행동에 나서지 않으면서도 [vassal.GetFirstNameNoTooltip]의 마음을 달래는 방법을 알아냄"
  clan.1101.b: "자네 말이 맞는 것 같군. 즉시 이 문제를 해결하도록 하지!"
  clan.1101.b.custom: "모든 [vassal|E] [dynasty|E] 구성원들"
  clan.1101.b.tt: "[revoke_title_reason|E](을)를 획득함"

@@ -127,6 +127,7 @@
  CANT_SET_REALM_CAPITAL_ALREADY: "#X 这里已经是你的[realm_capital|E]#!"
  CANT_SET_REALM_CAPITAL_MOVED: "#X 你已经移动过一次你的[realm_capital|E]#!"
  CANT_SET_REALM_CAPITAL_IN_WAR: "#X [war|E]期间，你无法迁移你的[realm_capital|E]#!"
+ CANT_SET_REALM_CAPITAL_WHILE_TRAVELING: "#X [traveling|E]期间你无法迁移你的[realm_capital|E]#!"
  CHURCH_PROPERTY_TOOLTIP: "#T [church_property|E]#!\n[lessee|E]：[Title.GetLessee.GetUIName]\n[holder|E]：[Title.GetHolder.GetUIName]"
  HOLDING_VIEW_NO_HOLDER_EFFECTS_FROM_BUILDINGS: "$NO_EFFECTS$"
  HOLDING_TERRAIN_TOOLTIP: "#T [Terrain.GetNameNoTooltip]#!\n[Terrain.GetEffects]"

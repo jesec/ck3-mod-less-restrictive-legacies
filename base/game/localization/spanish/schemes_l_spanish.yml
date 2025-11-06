@@ -115,7 +115,7 @@
  sway_my_diplomacy: "Tu diplomacia: $VALUE|=+0$"
  sway_my_rival: "Tu rival: $VALUE|=+0$"
  sway_invalidated_war: "Debido a la guerra entre vosotros, es imposible influir sobre [target.GetShortUIName]"
- sway_invalidated_dead: "Es imposible \"influir\" sobre [target.GetShortUIName], porque ha muerto"
+ sway_invalidated_dead: "Es imposible «influir» sobre [target.GetShortUIName], porque ha muerto"
  sway_complete: "Has influido sobre [target.GetShortUIName] todo lo que podías"
  sway_invalidated_title: "@personal_scheme_icon! Fin de la conjura de influencia"
  YOU_SPEAK_THE_LANGUAGE: "Hablas [target.GetCulture.GetLanguage.GetName]: $VALUE|=+0$"

@@ -5,7 +5,7 @@
  pay_homage_decision_tooltip: "Formell Eurem [Concept('liege', 'Lehnsherrn')|E] [Concept('pay_homage', 'Huldigen')|E]"
  pay_homage_decision_effects: "Ihr reist an den Hof von [THIS.Char.GetLiege.GetTitledFirstName], um zu huldigen."
  pay_homage_decision_confirm: "$pay_homage_decision$"
- pay_homage_decision_second_tooltip: "$DESC$\n$pay_homage_grace_tt$\n\n$IS_VALID_BLOCKER$"
+ pay_homage_decision_second_tooltip: "$DESC$\n$pay_homage_grace_tt$"
  pay_homage_grace_tt: "#weak Ihr könnt demselben Lehnsherrn nur einmal huldigen#!"
  pay_homage_gift_warning_effect: "#weak Geschenke verbessern die Belohnungen, wenn man huldigt#!\n$pay_homage_grace_tt$"
  pay_homage_grace_valid_tt: "Hat [THIS.Char.GetLiege.GetTitledFirstName] noch nicht gehuldigt"

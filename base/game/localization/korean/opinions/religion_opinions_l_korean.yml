@@ -26,3 +26,7 @@
  rf_eastern_opinion: "$rf_eastern_adherent$의 의견"
  rf_pagan_opinion: "$pagan_adherent$의 의견"
  rf_abrahamic_opinion: "[GetReligionFamily('rf_abrahamic').GetName]의 의견"
+ ashari_opinion: "[GetFaithByKey('ashari').GetAdherentName] 의견"
+ muwalladi_opinion: "[GetFaithByKey('muwalladi').GetAdherentName] 의견"
+ maturidi_opinion: "[GetFaithByKey('maturidi').GetAdherentName] 의견"
+ mutazila_opinion: "[GetFaithByKey('mutazila').GetAdherentName] 의견"

@@ -32,7 +32,7 @@
  bp1_yearly.7003.c: "Je me suis trompé de chemin."
  bp1_orgy_tapestry: "Tapisserie d’une orgie"
  bp1_orgy_tapestry_desc: "Cette tapisserie représente [orgy_participant_1.GetFirstName], [ROOT.Char.GetName], [orgy_participant_2.GetName], [orgy_participant_3.GetName] et [orgy_tapestry_maker.GetName] en pleine orgie. [ROOT.Char.GetFaith.DevilName] y prend aussi part."
- bp1_yearly.7004.t: "Le réconfort d’un[friend.Custom('FR_E')] ami[friend.Custom('FR_E')]"
+ bp1_yearly.7004.t: "Le réconfort d’un[concerned_friend.Custom('FR_E')] ami[concerned_friend.Custom('FR_E')]"
  bp1_yearly.7004.desc: "M[ROOT.Char.Custom2('FR_RelationToMeShort_OnA', concerned_friend)] [concerned_friend.GetFirstName] vient me voir, alors que je suis assis[ROOT.Char.Custom('FR_E')] à la fenêtre : « Vous avez changé, depuis… Depuis ces événements. »\n\n[concerned_friend.Custom('FR_IlElle')|U] n’en dit rien, mais je sais de quoi [concerned_friend.Custom('FR_IlElle')] parle au moment où [bad_memory.GetDescription].\n\n « Peut-être devriez-vous parler à quelqu’un ? Je pourrais être cette personne, » propose-t-[concerned_friend.Custom('FR_IlElle')] gentiment."
  bp1_yearly.7004.a: "C’est une bonne idée."
  bp1_yearly.7004.b: "Mes problèmes ne regardent que moi."

@@ -184,7 +184,7 @@
  diplomacy_foreign.1101.court_visit.well: "La visite de la cour se passe #P bien#!"
  diplomacy_foreign.1101.a.tooltip: "Être l’hôte vous permettra d’influencer la rencontre"
  diplomacy_foreign.1101.b: "[main_heir.Custom('FR_le_Char_Pi')|U][main_heir.GetTitledFirstNameNoTooltip] visitera la cour [other_ruler.Custom('FR_du_Char_Pi')][other_ruler.GetTitledFirstNameNoTooltip]."
- diplomacy_foreign.1101.b.tooltip: "Vous ne pourrez pas influencer la rencontre"
+ diplomacy_foreign.1101.b.tooltip: "Vous #N ne pourrez pas#! influencer la rencontre"
  diplomacy_foreign.1102.desc: "[other_heir.Custom('FR_le_Char_Pi')|U][other_heir.GetTitledFirstName] est reçu[other_heir.Custom('FR_E')] dans les circonstances appropriées pour un[other_heir.Custom('FR_E')] invité[other_heir.Custom('FR_E')] aussi prestigieu[other_heir.Custom('FR_XSe')]. [other_heir.Custom('FR_IlElle')|U] restera à [scoped_capital.GetNameNoTooltip] pour quelques semaines, durant lesquelles [other_heir.Custom('FR_LuiElle')] et [main_heir.GetFirstName] apprendront à mieux se connaître."
  diplomacy_foreign.1102.a: "Je veillerai à aider m[ROOT.GetCharacter.Custom2('FR_RelationToMe_OnA' , SCOPE.sC('main_heir') )]."
  diplomacy_foreign.1102.a.duel_success: "[other_heir.Custom('FR_le_Char_Pi')|U][other_heir.GetTitledFirstNameNoTooltip] est impressionné[other_heir.Custom('FR_E')] par mon hospitalité"

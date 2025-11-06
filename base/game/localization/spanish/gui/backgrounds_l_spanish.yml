@@ -1,4 +1,5 @@
 ﻿l_spanish:
+ fp3_frontend_iranian: "Salón del trono iranio"
  fp2_frontend_iberian: "Salón del trono ibérico"
  frontend_tribal: "Salón del trono tribal"
  fp1_frontend_tribal: "Salón del trono nórdico tribal"
@@ -107,3 +108,9 @@
  bp2_university: "Universidad occidental"
  bp2_nursery: "Guardería"
  bp2_university_mena: "Madrasa"
+ fp3_bathhouse: "Casa de baños árabe"
+ fp3_temple: "Templo iranio"
+ fp3_docks: "Muelles iranios"
+ fp3_throneroom: "Salón del trono iranio"
+ fp3_courtyard_night: "Corredor oscuro iranio"
+ fp3_cave: "Interior de cueva"

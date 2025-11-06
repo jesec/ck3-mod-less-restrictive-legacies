@@ -60,6 +60,7 @@
  ASK_FOR_PARDON_NOTIFICATION: "저의 범죄를 드넓은 마음으로 용서해주시기를 이렇게 간청합니다."
  pardon_interaction: "사면 승인"
  pardon_interaction_desc: "[recipient.GetName](을)를 [criminal|E]([recipient.GetImprisonmentReasons( actor.Self )]) 로 치부하고 있으므로, 해당 인물을 언제 [imprison|E]하더라도 [tyranny|E](으)로 간주되지 않습니다.\n\n범죄자에게 자유를 선사하고 싶다면, 사면을 승인하는 방법도 있습니다. 그럴 경우에는 해당 인물을 [imprison|E]해야 할 사유가 전부 사라지게 되며, 해당 인물이 당신에게 가지는 [opinion|E]이 향상됩니다."
+ pardon_interaction_has_jirga_desc: "[recipient.GetName](을)를 [criminal|E]([recipient.GetImprisonmentReasons( actor.Self )]) 로 치부하고 있으므로, 해당 인물을 언제 [imprison|E]하더라도 [tyranny|E](으)로 간주되지 않습니다.\n\n범죄자에게 자유를 선사하고 싶다면, 사면을 승인하는 방법도 있습니다. 그럴 경우에는 해당 인물을 [imprison|E]해야 할 사유가 전부 사라지게 되며, 당신을 향한 해당 인물의 [opinion|E]이 개선되고 $tradition_fp3_jirga_name$#! 전통이 위신을 얻습니다."
  pardon_interaction_toast: "자애로운 주군, [actor.GetFirstName](이)가 당신의 죄를 사함"
  county_must_have_city_tt: "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip](이)가 하나의 [city|E]를 포함하거나 20 이상의 개발도를 달성한 상태여야 함"
  county_must_have_culture_tt: "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip](이)가 $tradition_republican_legacy_name$ 전통을 가진 [culture|E]에 속해야 함"

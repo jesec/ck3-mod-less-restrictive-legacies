@@ -419,7 +419,6 @@
  fp2_struggle.3001.c: "¡Un momento! ¡No soy la única persona de esta casa con una corona!"
  fp2_struggle.3001.c_flavour: "Tu cónyuge pierde su corona."
  fp2_struggle.3001.d: "¡Solo me quitarán esta corona cuando haya muerto!"
- nick_the_crownless: "el/la Descoronad[CHARACTER.Custom('ES_OA')]"
  struggle_3001_spouse_crown_modifier: "Corona vendida"
  fp2_struggle.3011.t: "Damiselas en apuros"
  fp2_struggle.3011.desc: "«¡Mi [ROOT.GetCharacter.GetLadyLord]! ¡Ha sucedido lo impensable!» [struggle_3011_marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se toma un segundo para recobrar el aliento, su frente está húmeda de sudor. «Las mozas de [struggle_3011_county_town.GetNameNoTier] han tomado las armas para defender la ciudad ellas mismas»."

@@ -5,6 +5,7 @@
  PIN_TT: "#T [Select_CString( Character.IsPinned, 'Открепить', 'Закрепить' )]\n#!Отслеживайте этого персонажа, закрепив [Character.GetHerHis] в планировщике в правой части экрана"
  interaction_category_diplomacy: "Дипломатия"
  interaction_category_friendly: "Личные"
+ interaction_category_clan: "Клан"
  interaction_category_hostile: "Вражда"
  interaction_category_vassal: "Вассалитет и двор"
  interaction_category_religion: "Религия"

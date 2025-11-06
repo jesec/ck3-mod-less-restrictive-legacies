@@ -121,6 +121,9 @@
  dlc_fp2_old_vasconia: "Alt-Vasconia"
  dlc_fp2_old_vasconia_pushed: "Alt-Vasconia"
  dlc_fp2_dlc_fp2_caucasian_iberia: "Kaukasisch-Iberien"
+ #FP3
+ dlc_fp3_eastern_persian_frontier_regions: "Östliche Front"
+ dlc_fp3_greater_persian_frontier_regions: "Großpersische Front"
  #EP1
  dlc_ep1_achievement_rise_of_the_ghurids: "Historisches Ghuridenreich"
  #Seazones

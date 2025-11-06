@@ -58,7 +58,7 @@
  ACTIVITY_PLANNER_CHANGE_LOCATION_TT: "#T 장소 변경#!"
  ACTIVITY_PLANNER_CHANGE_SPECIAL_GUEST_TT: "#I 클릭하여 특별한 문객 변경하기\n우클릭하여 특별한 문객 제거하기#!"
  ACTIVITY_PLANNER_CHANGE_REQUIRED_SPECIAL_GUEST_TT: "#T 특별한 문객 필요\n#!@warning_icon! #X 해당 활동은 [ActivitySpecialGuest.GetType.GetNameForHost](이)가 필요합니다.#!"
- ACTIVITY_PLANNER_OPTION_TT: "#T [ActiveActivityOption.GetOption.GetName] #weak ([ActiveActivityOption.GetCategory.GetName] 단계 [Add_int32( ActiveActivityOption.GetOption.GetIndexInCategory, '(int32)1' )])#!#!\n[ActiveActivityOption.GetOption.GetDescription]"
+ ACTIVITY_PLANNER_OPTION_TT: "#T [ActivityOption.GetName] #weak ([ActiveActivityOption.GetCategory.GetName] 단계 [Add_int32( ActivityOption.GetIndexInCategory, '(int32)1' )])#!#!\n$ACTIVITY_OPTION_DESC$"
  ACTIVITY_DESTINATION_HEADER: "목적지"
  ACTIVITY_DESTINATION_TRAVEL_TIME: "여행 시간: @time_icon![TravelPlanData.GetNextDestination.GetEstimatedArrivalDate.GetTimeDiffFromNow]"
  ACTIVITY_DESTINATION_TOTAL_TRAVEL_TIME: "총 이동 시간: @time_icon![TravelPlanData.GetFinalDestination.GetEstimatedArrivalDate.GetTimeDiffFromNow]"

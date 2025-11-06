@@ -231,8 +231,16 @@
  FACTION_REASON_STRUGGLE_PHASE: "현재 [struggle_phase|E]: $VALUE|0+=$"
  FACTION_REASON_ELECTIVE_PRIMARY: "[liege|E]의 [primary_title|E]가 선거제 [succession_law|E] 보유: $VALUE|0+=$"
  FACTION_REASON_BYZANTINE_RELIGION: "비잔틴 [liege|E]과 [religion|E]가 같음: $VALUE|0+=$"
+ FACTION_REASON_PERSIAN_STRUGGLE: "[persian_struggle|E]에 속함: $VALUE|0+=$"
  #populist_faction
  FACTION_REASON_POWER_MINIMAL: "약한 [faction_military_power|E]: $FACTOR|0%+=$"
  FACTION_REASON_FACTION_LEADER: "내가 [faction|E]의 지도자임: $VALUE|0+=$"
  FACTION_REASON_REGENT_CULTURAL_REASONS: "[regent_possessive|E] [culture|E]: $VALUE|0+=$"
  FACTION_REASON_REGENT_FAITH_REASONS: "[regent_possessive|E] [faith|E]: $VALUE|0+=$"
+ #struggle faction modifiers
+ FACTION_FP3_STRUGGLE_FRICTION: "진행 중인 [struggle|E]: $VALUE|0+=$"
+ FACTION_FP3_STRUGGLE_FRICTION_CALIPHAL: "[liege|E]의 [struggle|E] 입장: $VALUE|0+=$"
+ FACTION_REASON_unity_more_likely_claimant_factions: "$competitive$ [house_unity_level|E]: $VALUE|0+=$"
+ FACTION_REASON_unity_significantly_more_likely_claimant_factions: "$antagonistic$ [house_unity_level|E]: $VALUE|0+=$"
+ FACTION_REASON_unity_less_likely_claimant_factions: "$friendly$ [house_unity_level|E]: $VALUE|0+=$"
+ FACTION_REASON_unity_significantly_less_likely_claimant_factions: "$harmonious$ [house_unity_level|E]: $VALUE|0+=$"

@@ -30,7 +30,7 @@
  islam_religious_symbol_2: "$islam_religious_symbol$" #Optional translation alt
  islam_religious_symbol_3: "$islam_religious_symbol$" #Optional translation alt
  islam_religious_text: "《古兰经》"
- islam_religious_text_2: "$islam_religious_text$" #Optional translation alt
+ islam_religious_text_2: "圣训"
  islam_religious_text_3: "$islam_religious_text$" #Optional translation alt
  islam_religious_head_title: "哈里发"
  islam_religious_head_title_name: "哈里发国"
@@ -42,10 +42,10 @@
  islam_bishop: "乌里玛"
  islam_bishop_plural: "乌里玛"
  islam_positive_afterlife: "天园"
- islam_positive_afterlife_2: "$islam_positive_afterlife$" #Optional translation alt
- islam_positive_afterlife_3: "$islam_positive_afterlife$" #Optional translation alt
+ islam_positive_afterlife_2: "天园"
+ islam_positive_afterlife_3: "天堂"
  islam_negative_afterlife: "火狱"
- islam_negative_afterlife_2: "$islam_negative_afterlife$" #Optional translation alt
+ islam_negative_afterlife_2: "地狱"
  islam_negative_afterlife_3: "$islam_negative_afterlife$" #Optional translation alt
  christianity_witchgodname_iblis: "易卜劣厮"
  christianity_witchgodname_iblis_possessive: "易卜劣厮"

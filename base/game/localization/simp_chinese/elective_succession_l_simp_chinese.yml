@@ -175,3 +175,9 @@
  tooltip_scandinavian_elective_capital_opinion: "首都[county_opinion|E]：$VALUE|=+0$"
  tooltip_scandinavian_elective_capital_development: "首都[county_development|E]：$VALUE|=+0$"
  tooltip_scandinavian_elector_vote_prowess: "[candidate.GetSheHe|U]是个高[prowess|E]的战士：$VALUE|=+0$"
+ #Tribal Elective
+ tooltip_tribal_elective_development: "整体[development|E]，受到[faith|E]和[heritage|E]的修正：$VALUE|=+0$"
+ tooltip_tribal_elective_capital_opinion: "首府[county_opinion|E]：$VALUE|=+0$"
+ tooltip_tribal_elector_vote_elder: "[candidate.GetSheHe|U]是可敬的长者：$VALUE|=+0$"
+ tooltip_tribal_elector_vote_stranger: "[candidate.GetSheHe|U]不是出自我的部落：$VALUE|=+0$"
+ tooltip_tribal_elector_vote_relative: "[candidate.GetSheHe|U]属于我的氏族：$VALUE|=+0$"

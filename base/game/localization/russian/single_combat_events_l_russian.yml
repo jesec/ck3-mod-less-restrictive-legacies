@@ -87,6 +87,7 @@
  ## Combat Move Option Copy
  single_combat.0001.wait_and_hope: "Может быть, если я подожду, [my_foe.GetSheHe] споткнется и [my_foe.GetHerHis] пронзит [my_foe.GetHerHis] же [my_foe.Custom('signature_weapon')]?"
  single_combat.0001.unsure_attack: "Получай! #EMP Умри#! уже!"
+ single_combat.0001.unsure_attack_non_fatal: "Получай! #EMP Сдавайся#! уже!"
  single_combat.0001.enthusiastic_onslaught.banned_house: "#EMP [myself.GetFullNameNoTooltip]!#!"
  single_combat.0001.enthusiastic_onslaught.own_house: "Вы позорите имя [myself.GetHouse.GetNameNoTooltip]!"
  single_combat.0001.enthusiastic_onslaught.motto: "#EMP [myself.GetHouse.GetMotto]#!, отродье!"

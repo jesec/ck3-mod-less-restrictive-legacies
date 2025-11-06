@@ -127,6 +127,7 @@
  CANT_SET_REALM_CAPITAL_ALREADY: "#X 이곳은 이미 [realm_capital|E]입니다.#!"
  CANT_SET_REALM_CAPITAL_MOVED: "#X [realm_capital|E]를 이미 한 번 이전했습니다.#!"
  CANT_SET_REALM_CAPITAL_IN_WAR: "#X [war|E] 중에는 [realm_capital|E]를 변경할 수 없습니다.#!"
+ CANT_SET_REALM_CAPITAL_WHILE_TRAVELING: "#X [traveling|E] 도중 [realm_capital|E]를 변경할 수 없음#!"
  CHURCH_PROPERTY_TOOLTIP: "#T [church_property|E]#!\n[lessee|E]: [Title.GetLessee.GetUIName]\n[holder|E]: [Title.GetHolder.GetUIName]"
  HOLDING_VIEW_NO_HOLDER_EFFECTS_FROM_BUILDINGS: "$NO_EFFECTS$"
  HOLDING_TERRAIN_TOOLTIP: "#T [Terrain.GetNameNoTooltip]#!\n[Terrain.GetEffects]"

@@ -177,12 +177,18 @@
 		},
 		{
 			"category": "Game",
-			"always_flush_level": "error",
+			"always_flush_level": "debug",
 			"sinks": [
 				{
 					"type": "file",
 					"log_level": "info",
 					"file_name": "game",
+					"format_pattern": "[%T][%s:%#]: %v"
+				},
+				{
+					"type": "file",
+					"log_level": "debug",
+					"file_name": "debug",
 					"format_pattern": "[%T][%s:%#]: %v"
 				},
 				{

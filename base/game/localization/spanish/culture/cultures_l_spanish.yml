@@ -203,6 +203,9 @@
  afar: "afar"
  afar_prefix: "afaro"
  afar_collective_noun: "afares"
+ east_bantu: "bantú oriental"
+ east_bantu_prefix: "estebantú"
+ east_bantu_collective_noun: "bantús orientales"
  #East African group
  east_african_group: "africano oriental"
  east_african_group_collective_noun: "africanos orientales"
@@ -734,3 +737,10 @@
  galician: "gallega"
  galician_prefix: "gallego"
  galician_collective_noun: "gallegos"
+ #FP3 additions
+ brahui: "brahui"
+ brahui_prefix: "brahui"
+ brahui_collective_noun: "brahuis"
+ bactrian: "bactriana"
+ bactrian_prefix: "bactrio"
+ bactrian_collective_noun: "bactrianos"

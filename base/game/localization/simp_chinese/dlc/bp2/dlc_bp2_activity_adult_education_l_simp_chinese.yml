@@ -16,7 +16,7 @@
  adult_education_books_normal: "书本与笔记"
  adult_education_books_normal_desc: "$EFFECT_LIST_BULLET$略微提高活动成功进度\n$EFFECT_LIST_BULLET$随机[skill|E]点\n\n#weak 成功毕业所需的一切规定工具。#!"
  adult_education_books_good: "知识图书馆"
- adult_education_books_good_desc: "$EFFECT_LIST_BULLET$提高活动成功进度\n$EFFECT_LIST_BULLET$卓越级书籍[artifact|E]\n$EFFECT_LIST_BULLET$随机[skill|E]点\n\n#weak 研学中心拥有活跃的知识交换市场；你绝对不能错过交换书籍和买更多新书的好机会！#!"
+ adult_education_books_good_desc: "$EFFECT_LIST_BULLET$提高活动成功进度\n$EFFECT_LIST_BULLET$卓越级书籍[artifact|E]\n$EFFECT_LIST_BULLET$随机[skill|E]点数\n\n#weak 研学中心拥有活跃的知识交换市场；你绝对不能错过交换书籍和买更多新书的好机会！#!"
  education_study_phase: "$activity_adult_education$"
  education_study_phase_desc: "在这个学期专注于上课、参加辩论以及像学生一样生活。"
  study_hard_intent: "努力学习"

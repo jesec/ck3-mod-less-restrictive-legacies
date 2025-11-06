@@ -6,7 +6,7 @@
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER_FIRST: "Erfordert, dass Eure $FLAG$"
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER_THIRD: "Erfordert, dass die $FLAG$ von [CHARACTER.GetShortUIName]"
  GOVERNMENT_ALLOWS_TRIGGER: "[government|E] erlaubt: $RULE|V$"
- THEIR_GOVERNMENT_ALLOWS_TRIGGER: "[government|E] von [CHARACTER.GetShortUIName|V] erlaubt: $RULE|V$"
+ THEIR_GOVERNMENT_ALLOWS_TRIGGER: "Die [government|E] von [CHARACTER.GetShortUIName|VU] erlaubt: $RULE|V$"
  GOVERNMENT_DISALLOWS_TRIGGER: "[government|E] verbietet: $RULE|V$"
  HAS_GOVERNMENT_TRIGGER_GLOBAL: "Hat eine Regierung vom Typ $GOVERNMENT|V$"
  NOT_HAS_GOVERNMENT_TRIGGER_GLOBAL: "Hat #bold keine#! Regierung vom Typ $GOVERNMENT|V$"

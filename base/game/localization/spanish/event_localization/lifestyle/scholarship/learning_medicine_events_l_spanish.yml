@@ -186,7 +186,7 @@
  learning_medicine_special.1003.b: "Creo que he aprendido bastante."
  learning_medicine_special.1004.desc: "A [scoped_physician.GetTitledFirstName|l] no le hacen mucha gracia mis experimentos. Se niega a proporcionarme ayuda y me reprende porque esta clase de proyectos no entran en las competencias de un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleTierName]."
  learning_medicine_special.1004.unavailable.desc: "Dado que [scoped_physician.GetTitledFirstName|l] ya no puede proporcionarme ayuda, no he podido continuar mis experimentos con la anatomía humana."
- learning_medicine_special.1004.a: "Puede que tentáis razón…"
+ learning_medicine_special.1004.a: "Puede que tengáis razón…"
  learning_medicine_special.1004.unavailable.a: "Lástima."
  learning_medicine_special.1004.unavailable.tt: "Dejas de estudiar cadáveres humanos"
  learning_medicine_special.1005.desc: "Afortunadamente, el uso apropiado de parches florales, incienso y aireación parece haber ayudado a disminuir los efectos que los malos vapores emanados por los cadáveres estaban teniendo en mi cuerpo.\n\nAl fin puedo concentrarme en mis estudios sin miedo a las repercusiones sobre mi propio equilibrio humoral."

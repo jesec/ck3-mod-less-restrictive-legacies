@@ -87,6 +87,7 @@
  ## Combat Move Option Copy
  single_combat.0001.wait_and_hope: "이대로 기다린다면, 제풀에 지쳐서 나가떨어지지 않을까?"
  single_combat.0001.unsure_attack: "그러니까... 이것도 버텨보시지! #EMP 죽어라#!!"
+ single_combat.0001.unsure_attack_non_fatal: "그러니까... 이것도 버텨보시지! #EMP 항복해라#!!"
  single_combat.0001.enthusiastic_onslaught.banned_house: "#EMP [myself.GetFullNameNoTooltip]!#!"
  single_combat.0001.enthusiastic_onslaught.own_house: "네놈은 [myself.GetHouse.GetNameNoTooltip] 가문의 수치다!"
  single_combat.0001.enthusiastic_onslaught.motto: "#EMP [myself.GetHouse.GetMotto]#!"

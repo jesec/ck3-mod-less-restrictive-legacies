@@ -212,7 +212,7 @@
  court_ongoing.1111.a.poison_failure: "[owner.Custom('FR_le_Char_Pi')|U][owner.GetTitledFirstNameNoTooltip] n’utiliserait jamais de telles ruses méprisables !"
  court_ongoing.1111.b.poison_success: "Laissez-moi tranquille ! Je peux me débrouiller tout[ROOT.Char.Custom('FR_E')] seul[ROOT.Char.Custom('FR_E')] !"
  court_ongoing.1111.b.poison_failure: "Comment avez-vous pu, [owner.GetTitledFirstNameNoTooltip] ?!"
- court_ongoing.1111.b.duel_success: "Childish squabble does #EMP not#! impress me."
+ court_ongoing.1111.b.duel_success: "Les querelles infantiles ne sont pas à mon goût"
  court_ongoing.1111.b: "La jalousie ne vous sied guère, [owner.GetTitledFirstNameNoTooltip]."
  court_ongoing.1111.c.duel_failure: "Oh, [competitor.GetTitledFirstNameNoTooltip] ! Comme vous êtes courageu[competitor.Custom('FR_XSe')] !"
  court_ongoing.1111.c: "Pauvre [competitor.GetTitledFirstNameNoTooltip] ! Je souffre avec vous !"

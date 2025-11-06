@@ -49,3 +49,5 @@
  not_in_realm_alliance_current_situation: "[second.GetSheHe|U] имеет в распоряжении @soldier_icon![second.GetMilitaryStrengthText] [Concept( 'soldiers', 'солдат' )|E], которые могут помочь вам в ваших [Concept( 'wars', 'войнах' )|E]."
  in_realm_alliance_current_situation: "Союз с вассалом помешает ему вступать во [Concept( 'factions', 'фракции' )|E], но вы не сможете призвать его на помощь в случае [Concept( 'war', 'войны' )|E]."
  current_situation_blank: ""
+ GetIncumbentOrNone.holder: "[ROOT.Title.GetHolder.GetShortUIName]"
+ GetIncumbentOrNone.uncreated: "[ROOT.Title.GetBaseName]"

@@ -49,3 +49,5 @@
  not_in_realm_alliance_current_situation: "[second.Custom('FR_IlElle')|U] a [second.GetMilitaryStrengthText]@soldier_icon! [soldiers|El] qui pourraient vous aider dans vos [wars|El]."
  in_realm_alliance_current_situation: "S’allier à un vassal l’empêche de rejoindre des [factions|El], mais vous ne pouvez pas l’appeler à la [war|El]."
  current_situation_blank: ""
+ GetIncumbentOrNone.holder: "[ROOT.Title.GetHolder.GetFirstName]"
+ GetIncumbentOrNone.uncreated: "[ROOT.Title.GetBaseName]"

@@ -656,7 +656,7 @@
  ###Jewish
  #Mount Sinai
  pilgrimage.5101.t: "Sinaï et Horeb"
- pilgrimage.5101.desc: "[ROOT.Char.GetFaith.HighGodName|U] a d’abord parlé à Moïse au sommet du mont Sinaï sous la forme d’un buisson ardent. Plus tard, sur la même montagne, [ROOT.Char.GetFaith.HighGodNameSheHe|U] lui a remis les dix commandements qui constituent le fondement des doctrines abrahamiques.\n\nIl ne fait aucun doute que [ROOT.Char.GetFaith.HighGodName] favorise cet endroit et je me demande si [ROOT.Char.GetFaith.HighGodNameSheHe|U] me regarde depuis le ciel alors que je me tiens sur ces hauteurs sacrées..."
+ pilgrimage.5101.desc: "[ROOT.Char.GetFaith.HighGodName|U] a d’abord parlé à Moïse au sommet du mont Sinaï sous la forme d’un buisson ardent. Plus tard, sur la même montagne, [ROOT.Char.GetFaith.HighGodNameSheHe|U] lui a remis les dix commandements qui constituent le fondement des doctrines abrahamiques.\n\nIl ne fait aucun doute que cet endroit a les faveurs [ROOT.Char.GetFaith.HighGodNamePossessive] favorise et peut-être suis-je regardé[ROOT.Char.Custom('FR_E')] depuis le ciel alors que je me tiens sur ces hauteurs sacrées..."
  ###Muslim
  #Medina
  pilgrimage.5201.t: "L’hégire"
@@ -813,7 +813,7 @@
  pilgrimage.6750.a: "« Ici, je renais. »"
  pilgrimage.6750.b: "« Autant en profiter. »"
  #Theological Debate
- pilgrimage.6760.t: "La controverse de [ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]"
+ pilgrimage.6760.t: "La controverse de [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]"
  pilgrimage.6760.desc.intro: "Alors que nous écoutons les prières du matin, [bishop_pilgrim.Custom('FR_le_Char_Pi')][bishop_pilgrim.GetTitledFirstName] et moi avons une discussion animée qui dévie rapidement sur des questions théologiques.\n\n"
  pilgrimage.6760.desc.christian: "« Il serait insensé de dire que 's’être fait chair' signifie que le Christ s’est inexplicablement fait homme à partir du Verbe, s’étant uni hypostatiquement. »\n\n« Mais, comme Nestorius lui-même l’a dit », rétorque [bishop_pilgrim.Custom('FR_le_Char_Pi')][bishop_pilgrim.GetTitledFirstName], « le Christ homme pourrait aussi être rendu divin, fils par la grâce et non par la nature »."
  pilgrimage.6760.a: "« Je n’écouterai pas ces absurdités blasphématoires ! »"
@@ -891,8 +891,8 @@
  pilgrimage.6840.a: "« S’il vous plaît, rendez mon [blessed_artifact.GetNameNoTooltip] plus pieux ! »"
  pilgrimage.6840.b: "« Que tout le monde voie la renommée de mon [blessed_artifact.GetNameNoTooltip] ! »"
  pilgrimage.6840.c: "J’ai mieux à faire avec mon or."
- pilgrimage.6840.a.tt: "Gagnez #positive_value +2 %#! de [piety|El] mensuelle"
- pilgrimage.6840.b.tt: "Gagnez [prestige_i|E]#positive_value +0,5 %#! de [prestige|El] mensuel"
+ pilgrimage.6840.a.tt: "Gagnez #positive_value +2 %#![piety_i|E] de [piety|El] mensuelle"
+ pilgrimage.6840.b.tt: "Gagnez [prestige_i|E]#positive_value +0,5 %#![prestige_i|E] de [prestige|El] mensuel"
  blessed_artifact_desc: "[blessed_artifact.GetDesc]\n\nL’objet brille d’une aura immaculée après avoir été béni dans le lieu saint de [holy_site_scope.GetNameNoTooltip]."
  ###Conclusion events
  #Summarizing our activity

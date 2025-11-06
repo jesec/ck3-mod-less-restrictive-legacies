@@ -35,7 +35,7 @@
  siege.0103.message: "La propriété est maintenant [occupied|El] par mon ennemi[occupant.Custom('FR_E')] [occupant.Custom('FR_le_Char_Pi')][occupant.GetTitledFirstName] dans la [war.GetName|l]"
  siege.1005.pow_toast.t: "Capture d’un prisonnier de valeur"
  siege.1005.pow_toast.desc: "J’ai fait prisonni[valuable_prisoner.Custom('FR_ErEre')] [valuable_prisoner.Custom2('NamePossessiveCharacterIntroduction', primary_siege_defender)] pendant le siège de [barony.GetNameNoTier]"
- siege.1005.pow_toast.desc.primary: "J’ai fait prisonni[valuable_prisoner.Custom('FR_ErEre')] mon ennemi[important_hostage.Custom('FR_E')] [valuable_prisoner.Custom('FR_le_Char_Pi')][valuable_prisoner.GetTitledFirstName] pendant le siège de [barony.GetNameNoTier]"
+ siege.1005.pow_toast.desc.primary: "J’ai fait prisonni[valuable_prisoner.Custom('FR_ErEre')] mon ennemi[valuable_prisoner.Custom('FR_E')] [valuable_prisoner.Custom('FR_le_Char_Pi')][valuable_prisoner.GetTitledFirstName] pendant le siège de [barony.GetNameNoTier]"
  siege.1006.pow_toast.t: "Perte d’un prisonnier de valeur"
  siege.1006.pow_toast.desc: "[occupant.Custom('FR_le_Char_Pi')|U][occupant.GetTitledFirstName] a fait prisonni[valuable_prisoner.Custom('FR_ErEre')] [valuable_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] après le siège de [barony.GetNameNoTier]"
  siege.1007.pow_toast.t: "$siege.1005.pow_toast.t$"

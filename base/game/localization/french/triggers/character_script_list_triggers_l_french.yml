@@ -4,6 +4,7 @@
  ALL_POOL_CHARACTERS: "Tous les personnages vagabonds :"
  ANY_POOL_CHARACTER: "N’importe quel personnage vagabond :"
  ANY_OF_CHARACTERS_VASSALS: "N’importe lequel [CHARACTER.LocalPlayerString( 'de vos', 'des' )] [vassals|El][CHARACTER.LocalPlayerString( '', 'Loc_FR_du_GetShortUIName' )] :"
+ ANY_OF_CHARACTERS_VASSALS_OR_BELOW: "N’importe lequel [CHARACTER.LocalPlayerString( 'de vos', 'des' )] [vassals|El][CHARACTER.LocalPlayerString( '', 'Loc_FR_du_GetShortUIName' )] ou des détenteurs de [Concept('landed', 'terres')] sous leurs ordres :"
  ALL_OF_CHARACTERS_VASSALS: "Tous [CHARACTER.LocalPlayerString( 'vos', 'les' )] [vassals|El][CHARACTER.LocalPlayerString( '', 'Loc_FR_du_GetShortUIName' )] :"
  ANY_OF_CHARACTERS_VASSALS_PERCENT: "$PARAMETERS$ des [vassals|El] [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUIName] :"
  ANY_OF_CHARACTERS_VASSALS_COUNT: "$PARAMETERS$ des [vassals|El] [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUIName] :"

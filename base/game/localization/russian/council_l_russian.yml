@@ -30,6 +30,13 @@
  COUNCILLOR_MISSING_SPOUSE: "Нет [Concept('available_spouse', 'доступного супруга' )|E]"
  COUNCILLOR_LIEGE_MISSING_SPOUSE: "У персонажа [CouncilWindow.GetCharacter.GetShortUIName] отсутствует [available_spouse|E]"
  COUNCILLOR_WILL_BE_ASSIGNED: "Будет назначен [councillor|El]"
+ COUNCILLOR_MISSING_VIZIER: "У вас нет [Concept( 'vizier', 'визиря' )|E] или [Concept( 'spouse', 'супруга' )|E]"
+ COUNCILLOR_LIEGE_MISSING_VIZIER: "У персонажа [CouncilWindow.GetCharacter.GetShortUIName] отсутствует [vizier|El] или [spouse|El]"
+ COUNCILLOR_MISSING_CHANCELLOR: "У вас отсутствует [chancellor|El]"
+ COUNCILLOR_MISSING_MARSHAL: "У вас отсутствует [marshal|El]"
+ COUNCILLOR_MISSING_STEWARD: "У вас отсутствует [steward|El]"
+ COUNCILLOR_MISSING_SPYMASTER: "У вас отсутствует [spymaster|El]"
+ COUNCILLOR_MISSING_COURT_CHAPLAIN: "У вас отсутствует [court_chaplain|El]"
  learn_on_the_job_modifier: "$learn_on_the_job_perk_name$"
  councillor_coregent: "Сорегент"
  councillor_coregent_possessive: "Сорегент"
@@ -43,6 +50,9 @@
  councillor_spymaster_possessive: "Тайный советник"
  councillor_court_chaplain: "Придворный капеллан"
  councillor_court_chaplain_possessive: "Придворный капеллан"
+ councillor_vizier: "Наперсник"
+ councillor_vizier_desc: "Вы как правитель с [Concept( 'clan_government', 'клановым строем' )|E] можете назначить [Concept( 'vizier', 'визиря' )|E] или любую из своих [Concept( 'spouses', 'супруг' )|E] своим наперсником. Выбранный вами персонаж будет поддерживать вас в рутинных делах."
+ councillor_vizier_possessive: "Наперсник"
  #Flavor localization for Court Chaplains, sorted by Religion.
  #Fallback
  councillor_court_chaplain_theocrat_county: "Викарный епископ"

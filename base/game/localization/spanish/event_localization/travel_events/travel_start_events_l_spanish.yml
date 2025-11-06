@@ -128,8 +128,8 @@
  playdate_depart_tt: "[THIS.Char.Custom('ES_ElLa')|U] [THIS.Char.GetTitledFirstName|l] parte a [host.GetInvolvedActivity.GetName|l]"
  playdate_blocked_tt: "Todo niño invitado a [host.GetInvolvedActivity.GetName|l]"
  playdate_forbidden_title: "No se permite $activity_playdate$"
- playdate_forbidden_tt: "[carer.GetTitledFirstName] prohibió a [child_1.GetFirstName] y a otros acudir a tu $activity_playdate|l$"
- playdate_forbidden_single_tt: "[carer.GetTitledFirstName] prohibió a [child_1.GetFirstName] acudir a tu $activity_playdate|l$"
+ playdate_forbidden_tt: "[carer.GetTitledFirstName] prohibió a [child_1.GetFirstName] y a otros acudir a tu encuentro con rapaces"
+ playdate_forbidden_single_tt: "[carer.GetTitledFirstName] prohibió a [child_1.GetFirstName] acudir a tu encuentro con rapaces"
  #Going on a Pilgrimage
  travel_start_event.1060.t_sick_pilgrimage: "$activity_pilgrimage$: $travel_start_event.1000.t_sick$"
  travel_start_event.1060.t_hajj: "El hach"

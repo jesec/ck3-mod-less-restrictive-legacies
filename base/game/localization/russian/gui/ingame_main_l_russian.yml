@@ -9,6 +9,7 @@
  FACTION_BUTTON: "#T Фракции#!"
  PRISON_BUTTON: "#T Узники#!"
  COURT_BUTTON: "#T Придворные#!"
+ TAX_JURISDICTIONS_BUTTON: "#T Налоговые юрисдикции#!"
  IM_TT_FIND_TITLE: "#T Поиск титула#!\nНайти любой [title|El] в игре."
  IM_TT_SHOW_LEGACY: "#T Показать родословную#!\nВсе персонажи, за которых вы играли."
  IM_TT_FIND_CHARACTER: "#T Поиск персонажа#!\nНайти любого живого персонажа в игре."
@@ -210,3 +211,4 @@
  DE_JURE_HIERARCHY: "[de_jure|E] иерархия"
  TT_AWAY_FROM_CAPITAL_WIDGET: "#T Не в столице#!\nВы находитесь во владении [Character.GetCurrentLocation.GetName], а не в [Concept( 'realm_capital', 'столице державы' )|E] ([Character.GetCapitalLocation.GetName])\n\n#I Нажмите, чтобы открыть планировщик [Concept( 'travel', 'путешествия' )|E]#!"
  ACTIVITY_VIEW_TRAVEL: "Смотреть путешествие"
+ SELECT_VALID_OPTION: "Выберите подходящий вариант"

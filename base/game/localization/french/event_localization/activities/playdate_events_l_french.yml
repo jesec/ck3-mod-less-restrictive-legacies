@@ -127,7 +127,7 @@
  playdate.3012.t: "$knight_culture_player_plural_no_tooltip$ courageux"
  playdate.3012.desc_knight: "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] et moi regardons les $knight_culture_player_plural_no_tooltip_lowercase$ s’entraîner dans la cour quand [knight.Custom2('MyCharacterIntroduction', ROOT.Char)] nous aborde en souriant."
  playdate.3012.desc_no_knight: "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] et moi regardons des paysans s’entraîner quand l’un d’eux s’approche de nous en souriant."
- playdate.3012.desc: "\n\n« Qu’en dites-vous, vous pensez pouvoir maîtriser les bases ? », demande-t-[knight.Custom('FR_IlElle')]."
+ playdate.3012.desc: "\n\n« Qu’en dites-vous, les [participant.Custom('GirlsBoysChildren')], vous pensez pouvoir maîtriser les bases ? »."
  playdate.3012.a: "#EMP Oui !#!"
  playdate.3012.a.success: "Vous saisissez les bases"
  playdate.3012.a.neutral: "Peu importe à quel point vous essayez, vous n’y arrivez pas"

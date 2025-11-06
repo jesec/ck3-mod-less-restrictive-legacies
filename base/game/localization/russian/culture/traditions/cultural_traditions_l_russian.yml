@@ -601,7 +601,7 @@
  culture_parameter_no_limit_to_kingdom_level_holy_wars: "[ruler|E] может объявлять сколько угодно [Concept( 'holy_wars', 'священных войн' )|E] за [Concept( 'kingdom', 'королевства' )|E]"
  culture_parameter_cb_lower_piety_level_requirement: "Требования к [Concept( 'piety_level', 'уровню набожности' )|E] для [Concept( 'casus_bellis', 'казус белли' )|E] снижены на единицу"
  culture_parameter_can_host_joust_contests: "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'can_host_joust_contests_custom_effect_description_TOTO_DLC', 'can_host_joust_contests_custom_effect_description_NO_TOTO_DLC' )]"
- can_host_joust_contests_custom_effect_description_TOTO_DLC: "Позволяет устраивать рыцарские [contests|El]-поединки на таких мероприятиях, как [GetActivityType( 'activity_tournament' ).GetName]"
+ can_host_joust_contests_custom_effect_description_TOTO_DLC: "Позволяет устраивать рыцарское [contest|El]-поединок на таких мероприятиях, как [GetActivityType( 'activity_tournament' ).GetName]"
  can_host_joust_contests_custom_effect_description_NO_TOTO_DLC: ""
  culture_parameter_just_trait_gives_bonuses: "[trait|E] «[GetTrait('just').GetName( GetNullCharacter )]» дает дополнительные бонусы"
  culture_parameter_trade_port_building_bonuses: "Цепочка [Concept( 'buildings', 'зданий' )|E] #V $building_type_common_tradeport_01$#! увеличивает налоги с [Concept( 'counties', 'графств' )|E] этой [Concept( 'culture', 'культуры' )|E]"
@@ -712,7 +712,7 @@
  ACCEPTANCE_BASELINE_CLOSE_PLURALISTS: "[cultures|E] близки географически и в большинстве следуют [Concept( 'faiths', 'конфессиям' )|E] с доктриной [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName]"
  ACCEPTANCE_BASELINE_FAITH: "[cultures|E] с общей преобладающей [Concept( 'faith', 'конфессией' )|E]"
  TRADITION_ASTUTE_DIPLOMATS_ACCEPTANCE_MODIFIER: "[tradition|E] «$tradition_astute_diplomats_name$»: $VALUE|=+0$"
- CULTURE_HARD_TO_CONVERT_REASON: "[culture_tradition|E] «$tradition_zealous_people_name$»"
+ CULTURE_HARD_TO_CONVERT_REASON: "$tradition_zealous_people_name$ [culture_tradition|E]: $VALUE|=+0$"
  TRADITION_RELIGION_BLENDING_CONVERSION_MODIFIER: "[culture_tradition|E] «$tradition_religion_blending_name$»"
  TRADITION_HARDER_TO_CONVERT_CONVERSION_MODIFIER: "$CULTURE_HARD_TO_CONVERT_REASON$"
  TRADITION_BREAKDOWN_LAW_REALM_SIZE_COST: "$KEY$: $VALUE|=-0$ #Weak ([traditions|E]: от #P -50%#!)#!"
@@ -727,6 +727,8 @@
  20_percent_churches: "[culture|E] не имеет [Concept( 'temple', 'храмов' )|E] в #V 20%#! своих [Concept( 'counties', 'графств' )|E]"
  must_be_feudal_or_clan: "Ваше [government|El] должно быть [Concept( 'feudal', 'феодальным' )|E] или [Concept( 'clan', 'клановым' )|E]"
  only_one_marriage_tradition_allowed: "Допустим только один [Concept( 'marriage', 'брачный' )|E] [Concept( 'tradition', 'обычай' )|E]. Следующие варианты несовместимы: $tradition_monogamous_name$, $tradition_polygamous_name$ и $tradition_concubines_name$"
+ no_warrior_culture: "«Маяк знаний» несовместим с традицией «$tradition_warrior_culture$»"
+ no_philosopher_culture: "«Маяк знаний» несовместим с традицией «Культура философов»"
  culture_in_winter_geographical_region_trigger_desc: "[culture|E] не распространена в [Concept( 'region', 'регионах' )|E], подверженных зимам"
  culture_in_non_sedentary_geographical_region_trigger_desc: "[culture|E] не распространена в регионе [GetGeographicalRegion('world_steppe').GetName]"
  #culture_in_britannia_region_trigger_desc: "The [culture|E] is not present in [GetGeographicalRegion('world_europe_west_britannia').GetName]"
@@ -799,6 +801,7 @@
  ## Bureaucratic.
  not_bureaucratic_courtly_or_egalitarian_desc: "[culture|E] не обладает [Concept( 'ethos', 'моральным принципом' )|E] $ethos_bureaucratic_name$, $ethos_courtly_name$ или $ethos_egalitarian_name$"
  not_bureaucratic_spiritual_or_egalitarian_desc: "[culture|E] не обладает [Concept( 'ethos', 'моральным принципом' )|E] $ethos_bureaucratic_name$, $ethos_spiritual_name$ или $ethos_egalitarian_name$"
+ not_bureaucratic_courtly_or_spiritual_desc: "[culture|E] не обладает [Concept( 'ethos', 'моральным принципом' )|E] $ethos_bureaucratic_name$, $ethos_courtly_name$ или $ethos_spiritual_name$"
  ## Spiritual.
  ## Courtly.
  not_courtly_communal_or_spiritual_desc: "[culture|E] не обладает [Concept( 'ethos', 'моральным принципом' )|E] $ethos_courtly_name$, $ethos_communal_name$ или $ethos_spiritual_name$"
@@ -1067,6 +1070,7 @@
  culture_parameter_drylands_hunt_success_chance: "Повышенный [Concept( 'hunt_success_chance', 'шанс успеха охоты' )|E] на такой местности, как [GetTerrain( 'drylands' ).GetName] и [GetTerrain( 'desert' ).GetName]"
  culture_parameter_jungle_hunt_success_chance: "Повышенный [Concept( 'hunt_success_chance', 'шанс успеха охоты' )|E] на такой местности, как [GetTerrain( 'jungle' ).GetName]"
  culture_parameter_wetlands_hunt_success_chance: "Повышенный [Concept( 'hunt_success_chance', 'шанс успеха охоты' )|E] на такой местности, как [GetTerrain( 'wetlands' ).GetName] и [GetTerrain( 'wetlands' ).floodplains]"
+ can_host_joust_contests_name: "[GetCultureTradition('tradition_chanson_de_geste').GetName] или [GetCultureTradition('tradition_chivalry').GetName]"
  #BP2 Traditions
  tradition_noble_adoption_name: "Благородное усыновление"
  tradition_noble_adoption_desc: "В этом обществе распространена практика принятия сирот в благородные дома. Кровь соглашения для них важнее кровного родства."

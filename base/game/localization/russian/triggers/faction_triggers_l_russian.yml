@@ -20,3 +20,4 @@
  CHARACTER_CANNOT_BE_IN_FACTION_DUE_TO_MODIFIER: "У вас есть [Concept( 'modifier', 'модификатор' )|E], препятствующий вступлению во [Concept( 'faction', 'фракцию' )|E]"
  IS_A_FACTION_MEMBER_TRIGGER: "Является членом фракции"
  FACTION_CAN_PRESS_DEMANDS_TRIGGER: "Фракция может выдвинуть требования"
+ nation_fracturing_faction.can_character_create_ui.blocked_by_struggle: "Ваш [Concept( 'liege', 'сюзерен' )|E] имеет один или несколько [Concept( 'titles', 'титулов' )|E], которые нельзя [Concept( 'dissolution_faction_dissolved', 'разделить' )|E] из-за продолжающейся [Concept( 'struggle', 'борьбы' )|E]"

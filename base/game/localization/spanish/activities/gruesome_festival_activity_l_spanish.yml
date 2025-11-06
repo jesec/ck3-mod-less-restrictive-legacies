@@ -10,7 +10,7 @@
  gf_medium_option_valid: "No posees al menos 2 títulos de [rank|El] condado"
  gruesome_festival_size_large: "Festival grande"
  gruesome_festival_size_large_desc: "$EFFECT_LIST_BULLET$ Los cambios de [opinion|lE] ocurrirán con frecuencia.\n\n#weak ¡Se invitará a cualquier [GetPlayer.Custom('LadyLordNoble_GenderPreference')] y plebeyo de nuestro [GetPlayer.GetPrimaryTitle.GetTierAsNameNoTooltip|l]!#!"
- activity_gruesome_festival_destination_selection: "Solo puedes celebrar un $activity_gruesome_festival|l$ en provincias con la [doctrine|lE] $gruesome_festivals_active_name|l$"
+ activity_gruesome_festival_destination_selection: "Solo puedes celebrar un $activity_gruesome_festival$ en provincias con la [doctrine|lE] $gruesome_festivals_active_name$"
  activity_gruesome_festival_conclusion_desc: "La [GetActivityType( 'activity_gruesome_festival' ).GetName|l] ha terminado"
  activity_gruesome_festival_guest_desc: "$BULLET_WITH_TAB$ Los participantes pueden ganar [piety|lE]\n$BULLET_WITH_TAB$ Los participantes pueden ganar [opinion|lE] sobre otros participantes\n$BULLET_WITH_TAB$ Los participantes pueden perder [stress|lE] [stress_loss_i]"
  gruesome_festival_option_sacrifice: "Provisión para el sacrificio"

@@ -54,3 +54,6 @@
  DYNASTY_VIEW_SHOW_LEGACY_COST: "Coût : [Dynasty.GetNextPerkCost|V0][dynasty_prestige_i]"
  DYNASTY_HOUSE_VIEW_PROGRESS_TOOLTIP: "Progression : [Dynasty.GetPrestige|V0]/[Dynasty.GetNextPerkCost|0][dynasty_prestige_i] jusqu’au prochain [dynasty_perk|El]"
  DYNASTY_HOUSE_VIEW_PROGRESS_LABEL: "Prochain [dynasty_perk|El]"
+ DYNASTY_SPLENDOR: "Splendeur de la dynastie :"
+ DYNASTY_LEGACIES: "Héritages de la dynastie"
+ DYNASTY_HOUSE_VIEW_LEGACY_COST: "Coût du prochain héritage : [Dynasty.GetNextPerkCost|V0][dynasty_prestige_i]"

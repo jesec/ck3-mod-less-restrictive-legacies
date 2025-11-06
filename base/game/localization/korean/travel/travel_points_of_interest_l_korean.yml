@@ -4,3 +4,4 @@
  poi_mausoleum_at_halicarnassus.visit: "할리카르나소스 영묘를 방문함"
  poi_lighthouse_of_alexandria.visit: "알렉산드리아 등대를 방문함"
  poi_grand_city.visit: "위대한 도시 [province.GetName](을)를 방문함"
+ poi_natural_feature.visit: "[province.GetHolding.GetSpecialBuildingType.GetName](을)를 방문함"

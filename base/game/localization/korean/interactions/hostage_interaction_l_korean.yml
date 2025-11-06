@@ -166,6 +166,7 @@
  HOSTAGE_LIEGE_OF_WARDEN: "[warden|E]의 [liege|E]: $VALUE|=+0$"
  HOSTAGE_DYNASTY_PRESTIGE_LEVEL_DIFFERENCES: "[dynasty_prestige_level|E] 차이: $VALUE|=+0$"
  HOSTAGE_RECIPIENT_SEX_REASON: "[succession|E]를 위한 [hostage|E]의 성별: $VALUE|=+0$"
+ HOSTAGE_RETAINED_ADULTHOOD_REASON: "성인이 되어도 [hostage|E]을 돌려주지 않음: $VALUE|=+0$"
  #EVENTS
  char_interaction.0300.desc: "이번에 그대의 [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))] [secondary_actor.GetFirstName](을)를 볼모로 받아들여서 얻을 게 있을 것 같진 않군."
  char_interaction.0300.a: "그렇게 나오시겠다?"
@@ -227,3 +228,4 @@
  action_can_recall_hostage_combined_group_label: "@hostage! 볼모 송환 가능"
  action_can_recall_hostage_combined_group_description: "여러 [hostage|E]를 [warden|E]에게서 회수할 수 있습니다."
  action_can_recall_hostage_combined_label: "[recipient.GetUINameNoTooltip]"
+ halved_hostage_prestige_tt: "[hostages|E]로부터 들어오는 [THIS.Char.GetShortUINamePossessive|U] [prestige_i|E][prestige|E] 수입이 [SCOPE.ScriptValue('hostage_adulthood_retained_halved_prestige_duration_value')|0V]년 동안 감소"

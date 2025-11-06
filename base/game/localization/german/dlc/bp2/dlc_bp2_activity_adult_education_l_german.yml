@@ -16,7 +16,7 @@
  adult_education_books_normal: "Bücher und Notizen"
  adult_education_books_normal_desc: "$EFFECT_LIST_BULLET$Leicht erhöhter Aktivitäts-Erfolgsfortschritt\n$EFFECT_LIST_BULLET$Zufälliger Punkt auf einen [skill|E]\n\n#weak Alle vorgesehenen Hilfsmittel für einen erfolgreichen Abschluss.#!"
  adult_education_books_good: "Bibliothek des Wissens"
- adult_education_books_good_desc: "$EFFECT_LIST_BULLET$Erhöhter Aktivitäts-Erfolgsfortschritt\n$EFFECT_LIST_BULLET$Illustres Buch-[artifact|E]\n$EFFECT_LIST_BULLET$Zufälliger Punkt auf einen [skill|E]\n\n#weak In Zentren des Lernens gibt es einen emsigen Markt für Wissen. Ihr könnt Euch die Gelegenheit nicht entgehen lassen, Eure Bücher zu tauschen und viele neue zu kaufen!#!"
+ adult_education_books_good_desc: "$EFFECT_LIST_BULLET$Erhöhter Aktivitäts-Erfolgsfortschritt\n$EFFECT_LIST_BULLET$Illustres Buch-[artifact|E]\n$EFFECT_LIST_BULLET$Punkt in einem zufälligen [skill|E]\n\n#weak In Zentren des Lernens gibt es einen emsigen Markt für Wissen. Ihr könnt Euch die Gelegenheit nicht entgehen lassen, Eure Bücher zu tauschen und viele neue zu kaufen!#!"
  education_study_phase: "$activity_adult_education$"
  education_study_phase_desc: "Ein Semester, das ganz dem Besuch von Lehrveranstaltungen, der Teilnahme an Debatten und dem Studentenleben gewidmet ist."
  study_hard_intent: "Hartes Lernen"

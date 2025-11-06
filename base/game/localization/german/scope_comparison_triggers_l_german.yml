@@ -17,6 +17,8 @@
  NOT_LIEGE_EQUAL_FIRST: "Ihr seid #bold kein#! [vassal|E] von [TARGET_CHARACTER.GetShortUIName]"
  LIEGE_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] ist Vasall von [TARGET_CHARACTER.GetShortUIName]"
  NOT_LIEGE_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] ist #bold nicht#! Vasall von [TARGET_CHARACTER.GetShortUIName]"
+ TOP_LIEGE_EQUAL_FIRST: "Ihr seid der [Concept('top_liege', 'Oberste Lehnsherr')|E]"
+ NOT_TOP_LIEGE_EQUAL_FIRST: "Ihr seid #bold nicht#! der [Concept('top_liege', 'Oberste Lehnsherr')|E]"
  KILLER_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] wurde von [TARGET_CHARACTER.GetShortUIName] getötet"
  NOT_KILLER_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] wurde #bold nicht#! von [TARGET_CHARACTER.GetShortUIName] getötet"
  IMPRISONER_EQUAL_FIRST: "Ihr seid ein Gefangener von [TARGET_CHARACTER.GetShortUIName]"

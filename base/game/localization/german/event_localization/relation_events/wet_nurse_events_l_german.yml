@@ -96,7 +96,7 @@
  bp2_yearly.7009.desc_step: "[ROOT.Var('nursed_child_parent_var').Char.Custom('DE_PRO_PER_S_3P_N')|U] half mir bei meinen ersten Schritten."
  bp2_yearly.7009.desc_tooth: "[ROOT.Var('nursed_child_parent_var').Char.Custom('DE_PRO_PER_S_3P_N')|U] nahm sogar meinen Milchzahn in die Hand."
  bp2_yearly.7009.desc_dress: "[ROOT.Var('nursed_child_parent_var').Char.Custom('DE_PRO_PER_S_3P_N')|U] ermunterte meinen Schabernack und meinen Hang zum Verkleiden."
- bp2_yearly.7009.desc_end: "\n\nVielleicht sollte ich [ROOT.Var('nursed_child_parent_var').Char.('DE_PRO_POS_S_3P')]e Zuneigung vergelten?"
+ bp2_yearly.7009.desc_end: "\n\nVielleicht sollte ich [ROOT.Var('nursed_child_parent_var').Char.Custom('DE_PRO_POS_S_3P')]e Zuneigung vergelten?"
  bp2_yearly.7009.desc_end_dead_parent: "\n\nFür einen Dank an [ROOT.Var('nursed_child_parent_var').Char.Custom('DE_PRO_PER_S_3P_A')] ist es allerdings zu spät. Mein[reflecting_parent.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', reflecting_parent)] ist es, [reflecting_parent.Custom('DE_ART_DEF_S_N')] meine Dankbarkeit nun einzig gilt."
  bp2_yearly.7009.a: "„Ich liebe Euch so sehr, [nursed_child.Custom2('RelationToMeShort', reflecting_parent)].“"
  bp2_yearly.7009.a.tt_good: "$bp2_yearly.7008.a.tt_good$"

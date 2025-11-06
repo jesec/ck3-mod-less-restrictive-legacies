@@ -5,7 +5,7 @@
  pay_homage_decision_tooltip: "[pay_homage|E] à votre [liege|El]"
  pay_homage_decision_effects: "Vous voyagez à la Cour [THIS.Char.GetLiege.Custom('FR_du_Char_Pi')][THIS.Char.GetLiege.GetTitledFirstName] pour lui rendre hommage"
  pay_homage_decision_confirm: "$pay_homage_decision$"
- pay_homage_decision_second_tooltip: "$DESC$\n$pay_homage_grace_tt$\n\n$IS_VALID_BLOCKER$"
+ pay_homage_decision_second_tooltip: "$DESC$\n$pay_homage_grace_tt$"
  pay_homage_grace_tt: "#weak Vous ne pouvez rendre hommage au même seigneur qu’une seule fois#!"
  pay_homage_gift_warning_effect: "#weak Les cadeaux augmentent les récompenses de l’hommage rendu#!\n$pay_homage_grace_tt$"
  pay_homage_grace_valid_tt: "N’a pas déjà [Concept('pay_homage','rendu hommage')|E] [THIS.Char.GetLiege.Custom('FR_au_Char_Pi')][THIS.Char.GetLiege.GetTitledFirstName]"
@@ -24,7 +24,7 @@
  pay_homage_gold_tt: "#X Vous n’avez pas assez d’[gold|El]#!"
  #Hook
  pay_homage_decision_option_hook: "... et promettre une faveur\n#low Donner un [hook|El]#!"
- pay_homage_hook_desc: "[ROOT.Char.GetLiege.GetTitledFirstName] recevra un [weak_hook|El] contre vous"
+ pay_homage_hook_desc: "Le [ROOT.Char.GetLiege.GetTitledFirstName] recevra un [weak_hook|El] contre vous"
  pay_homage_hook_tooltip: "$pay_homage_decision_second_tooltip$"
  pay_homage_decision_effects_hook: "Votre [liege|El] recevra un [strong_hook|El] contre vous"
  pay_homage_hook_tt: "#X Votre [liege|El] a déjà un [hook|El] contre vous#!"

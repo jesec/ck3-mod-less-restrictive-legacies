@@ -5,7 +5,7 @@
  pay_homage_decision_tooltip: "正式[pay_homage|E]你的[liege|E]并宣誓效忠"
  pay_homage_decision_effects: "你前去[THIS.Char.GetLiege.GetTitledFirstNamePossessive]的宫廷觐见"
  pay_homage_decision_confirm: "$pay_homage_decision$"
- pay_homage_decision_second_tooltip: "$DESC$\n$pay_homage_grace_tt$\n\n$IS_VALID_BLOCKER$"
+ pay_homage_decision_second_tooltip: "$DESC$\n$pay_homage_grace_tt$"
  pay_homage_grace_tt: "#weak 你只能向同一位领主觐见一次#!"
  pay_homage_gift_warning_effect: "#weak 礼物会增加觐见的回报#!\n$pay_homage_grace_tt$"
  pay_homage_grace_valid_tt: "之前没有[pay_homage|E]过[THIS.Char.GetLiege.GetTitledFirstName]"

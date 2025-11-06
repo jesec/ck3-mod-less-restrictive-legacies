@@ -30,7 +30,7 @@
  islam_religious_symbol_2: "$islam_religious_symbol$" #Optional translation alt
  islam_religious_symbol_3: "$islam_religious_symbol$" #Optional translation alt
  islam_religious_text: "꾸란"
- islam_religious_text_2: "$islam_religious_text$" #Optional translation alt
+ islam_religious_text_2: "하디스"
  islam_religious_text_3: "$islam_religious_text$" #Optional translation alt
  islam_religious_head_title: "칼리프"
  islam_religious_head_title_name: "칼리프국"
@@ -42,10 +42,10 @@
  islam_bishop: "울라마"
  islam_bishop_plural: "울라마"
  islam_positive_afterlife: "천국"
- islam_positive_afterlife_2: "$islam_positive_afterlife$" #Optional translation alt
- islam_positive_afterlife_3: "$islam_positive_afterlife$" #Optional translation alt
- islam_negative_afterlife: "지옥"
- islam_negative_afterlife_2: "$islam_negative_afterlife$" #Optional translation alt
+ islam_positive_afterlife_2: "잔나"
+ islam_positive_afterlife_3: "낙원"
+ islam_negative_afterlife: "자하남"
+ islam_negative_afterlife_2: "지옥"
  islam_negative_afterlife_3: "$islam_negative_afterlife$" #Optional translation alt
  christianity_witchgodname_iblis: "이블리스"
  christianity_witchgodname_iblis_possessive: "이블리스의"

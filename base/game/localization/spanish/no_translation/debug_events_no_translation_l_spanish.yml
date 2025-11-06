@@ -13,7 +13,7 @@
  enter_text_save_in_death_title: "Guarda algún texto"
  enter_text_save_in_death_desc: "Guarda un texto chulo y mira cómo se prolonga tras tu muerte"
  enter_text_save_in_death_opt: "¡Sí! ¡Vamos!"
- enter_text_save_in_death_retreive_desc: "Has guardado el texto \"[text_character.GetLocalizedText( 'test_saved_text' )]\" en \"[text_character.GetUIName]\""
+ enter_text_save_in_death_retreive_desc: "Has guardado el texto «[text_character.GetLocalizedText( 'test_saved_text' )]» en «[text_character.GetUIName]»"
  enter_text_save_in_death_retreive_opt: "Seguro que no se usará mal en absoluto…"
  enter_text_save_in_death_clear_opt: "Borrar textos guardados"
  debug.322.title: ""

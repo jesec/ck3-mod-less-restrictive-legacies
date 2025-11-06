@@ -11,3 +11,5 @@
  HAS_DYNASTY_TRIGGER: "Est un membre d’une [dynasty|El]"
  DYNASTY_NUM_UNLOCKED_PERKS: "Nombre d’atouts débloqués : $NUM|V0$"
  HAS_DYNASTY_PERK_NONE: "La [dynasty|El] a l’héritage [DYNASTY_PERK.GetName]"
+ NOT_HAS_DYNASTY_PERK: "La [dynasty|El] [DYNASTY.GetBaseName] n’a pas l’héritage [DYNASTY_PERK.GetName]"
+ HAS_DYNASTY_PERK: "La [dynasty|El] [DYNASTY.GetBaseName] a l’héritage [DYNASTY_PERK.GetName]"

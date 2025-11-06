@@ -53,6 +53,8 @@
  smith_inspiration_desc: "Ein Charakter, der eine Metallschmiede-Inspiration hat, ist [inspired|E] etwas Extravaganteres – und Kleineres – als ein Schwert oder eine Rüstung zu schmieden. Dies sind die Kunsthandwerker, die strahlende, juwelenbesetzte Kronen und Trinkkelche schaffen."
  alchemy_inspiration: "Alchemie-Inspiration"
  alchemy_inspiration_desc: "Ein Charakter, der eine Alchemie-Inspiration hat, ist [inspired|E], Substanzen und Metalle zu erforschen, zu reinigen und zu erschaffen, woraus er Elixiere herstellen kann, um schlussendlich den Menschen körperlich wie seelisch zu vervollkommnen."
+ research_inspiration: "Forschungs-Inspiration"
+ research_inspiration_desc: "Ein Charakter, der eine Forschungsinspiration hat, ist dazu [inspired|El], neues Wissen zum Wohl seines [Concept('sponsor', 'Gönners')|E] zu entdecken. Ist er erfolgreich, wird er die Bildung innerhalb der [dynasty|E] seines Gönners verbessern oder sogar eine neue [innovation|E] für dessen Kultur entdecken."
  weapon_inspiration_cost_tt: "Waffen-Inspirationen beruhen auf [martial|E] und [prowess|E]"
  armor_inspiration_cost_tt: "Rüstungs-Inspirationen beruhen auf [martial|E] und [prowess|E]"
  book_inspiration_cost_tt: "Buch-Inspirationen beruhen auf [learning|E]"

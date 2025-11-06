@@ -220,3 +220,9 @@
  innovation_deccan_unity: "达嚫统一"
  innovation_deccan_unity_desc: "新的信仰与宗教涌入我们的社会，显然这表明了我们过去专注于地区主义是错误的。我们应该联合我们信仰的其他人，建立长治久安的强大国家，在外部压力中安然屹立。"
  students_of_knighthood: "以[martial|E][education_focus|E]结束[education|E]的儿童获得一个$trait_education_martial_prowess$[trait|E]"
+ #Sponsor Research Related
+ fp3_innovation_mural_sextant: "装在墙上的六分仪"
+ fp3_innovation_mural_sextant_desc: "这些装在墙上的大型仪器可以用来精确地读取和测量天体的位置。"
+ fp3_innovation_fritware: "砂玻器"
+ fp3_innovation_fritware_desc: "用石英或玻璃等材料混合而成的美丽的东方瓷器。它们是有价值的商品或令人赞叹的礼物。"
+ fp3_innovation_fritware_tooltip: "[send_gift|E]获得的[opinion|E]：#P +20%#!"

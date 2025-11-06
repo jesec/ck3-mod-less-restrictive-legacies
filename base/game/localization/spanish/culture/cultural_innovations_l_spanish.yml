@@ -220,3 +220,9 @@
  innovation_deccan_unity: "Unidad del Decán"
  innovation_deccan_unity_desc: "El influjo de nuevas creencias y religiones en nuestra sociedad ha dejado claro que fue un error centrarnos en el regionalismo anteriormente. Debemos sumarnos a otros de nuestra fe y garantizar un estado fuerte y duradero que pueda resistir las presiones externas."
  students_of_knighthood: "Los niños que terminan su [education|lE] con un [education_focus|lE] [martial|lE] ganan el [trait|lE] de $trait_education_martial_prowess$"
+ #Sponsor Research Related
+ fp3_innovation_mural_sextant: "Sextante de pared"
+ fp3_innovation_mural_sextant_desc: "Estos inmensos instrumentos de pared se pueden usar para leer y medir con precisión la posición de objetos celestiales."
+ fp3_innovation_fritware: "Cerámica vítrea"
+ fp3_innovation_fritware_desc: "Preciosa cerámica de piedra a imagen de la porcelana oriental que mezcla materiales como cuarzo o vidrio. Constituye una mercancía valiosa o un regalo impresionante."
+ fp3_innovation_fritware_tooltip: "Ganancia de [opinion|lE] por [send_gift|lE]: #P +20 %#!"

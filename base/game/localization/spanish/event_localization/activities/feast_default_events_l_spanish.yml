@@ -217,7 +217,7 @@
  feast_default.2008.d: "Oh, [homosexual_character.GetFirstNameNoTooltip], si lo hubiera sabido."
  feast_default.2008.d.unlock_text: "Está opción está disponible por tu [sexuality|lE]"
  feast_default.2009.t: "Seguid, por favor"
- feast_default.2009.desc: "Escucho atentamente a [secret_holder.GetTitledFirstName|l] revelar descuidadamente toda clase de cosas mientras intenta vaciar la última gota de su jarra. Sus ojos se abren como platos cuando se da cuenta de que estoy prestando demasiada atención.\n\n«No sé qué estaba diciendo»\", farfulla mientras se levanta. «¡En todo caso, nada de eso es verdad!»"
+ feast_default.2009.desc: "Escucho atentamente a [secret_holder.GetTitledFirstName|l] revelar descuidadamente toda clase de cosas mientras intenta vaciar la última gota de su jarra. Sus ojos se abren como platos cuando se da cuenta de que estoy prestando demasiada atención.\n\n«No sé qué estaba diciendo», farfulla mientras se levanta. «¡En todo caso, nada de eso es verdad!»."
  feast_default.2009.a: "Vaya, resultan ser unas divagaciones #EMP muy#! interesantes."
  feast_default.2011.t: "Una promesa es una promesa"
  feast_default.2011.desc: "Ignorando toda etiqueta, [favor_character.Custom2('MyCharacterIntroduction', ROOT.Char )] me golpea en la espalda. «¡Hablo en serio», exclama. «¡Lo que queráis. ¡Pedidlo y está hecho!»\n\nHuelo la cerveza en el aliento de [favor_character.GetFirstName], pero todos los demás invitados que nos rodean han oído la promesa."

@@ -166,6 +166,7 @@
  HOSTAGE_LIEGE_OF_WARDEN: "对[warden|E]的[liege|E]：$VALUE|=+0$"
  HOSTAGE_DYNASTY_PRESTIGE_LEVEL_DIFFERENCES: "[dynasty_prestige_level|E]的差异：$VALUE|=+0$"
  HOSTAGE_RECIPIENT_SEX_REASON: "[hostage|E][succession|E]的性别：$VALUE|=+0$"
+ HOSTAGE_RETAINED_ADULTHOOD_REASON: "没有在成年时送还[hostage|E]：$VALUE|=+0$"
  #EVENTS
  char_interaction.0300.desc: "我看不出在此时将你的[actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))][secondary_actor.GetFirstName]收为人质有何好处。"
  char_interaction.0300.a: "就这样？"
@@ -227,3 +228,4 @@
  action_can_recall_hostage_combined_group_label: "@hostage!你可以召回人质"
  action_can_recall_hostage_combined_group_description: "数个[hostages_possessive|E]可以从[warden|E]处召回。"
  action_can_recall_hostage_combined_label: "[recipient.GetUINameNoTooltip]"
+ halved_hostage_prestige_tt: "[THIS.Char.GetShortUINamePossessive|U]来自[hostages|E]的[prestige_i|E][prestige|E]减少，持续[SCOPE.ScriptValue('hostage_adulthood_retained_halved_prestige_duration_value')|0V]年"

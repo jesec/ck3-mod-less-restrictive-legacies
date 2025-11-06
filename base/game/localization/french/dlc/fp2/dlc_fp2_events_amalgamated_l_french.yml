@@ -419,7 +419,6 @@
  fp2_struggle.3001.c: "Je ne suis pas [ROOT.Char.Custom('FR_LeLa')] seul[ROOT.Char.Custom('FR_E')] à avoir une couronne dans ce foyer !"
  fp2_struggle.3001.c_flavour: "Votre conjoint perdra sa couronne."
  fp2_struggle.3001.d: "Cette couronne ne s’enlèvera qu’une fois que je serai mort[ROOT.Char.Custom('FR_E')] !"
- nick_the_crownless: "[CHARACTER.Custom('FR_LeLa')] Sans couronne"
  struggle_3001_spouse_crown_modifier: "Couronne vendue"
  fp2_struggle.3011.t: "Demoiselles en détresse"
  fp2_struggle.3011.desc: "« [ROOT.GetCharacter.Custom('FR_MonseigneurMadame')|U] ! L’impensable est arrivé ! », s’écrie [struggle_3011_marshal.Custom2('MyCharacterIntroduction', ROOT.Char)] avant de reprendre son souffle, le front mouillé de sueur. « Les dames de [struggle_3011_county_town.GetNameNoTier] ont pris les armes pour défendre elles-mêmes la ville. »"

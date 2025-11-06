@@ -296,7 +296,7 @@
  #END
  contest_events.0805.t.board_game: "$tournament_phase_board_game$: $contest_events.0505.t$"
  contest_events.0805.t.duel: "$tournament_phase_duel$: $contest_events.0505.t$"
- contest_events.0805.t.wrestling: "$tournament_phase_wresting$: $contest_events.0505.t$"
+ contest_events.0805.t.wrestling: "$tournament_phase_wrestling$: $contest_events.0505.t$"
  contest_events.0805.t.joust: "$tournament_phase_joust$: $contest_events.0505.t$"
  contest_events.0805.desc: "Resuenan las trompetas, la multitud grita, los competidores comienzan a reunirse. La competición ha terminado, y alguien se está preparando para atraer toda la atención. Un heraldo se adelanta y su voz retumba por todo el lugar.\n\n«Tras muchas pruebas, algunas tribulaciones y, sobre todo, una competencia verdaderamente animada, ¡[contest_winner.Custom('ES_ElLa')] [contest_winner.GetTitledFirstName|l] venció [second_place.Custom('ES_AlAla')] [second_place.GetTitledFirstName|l] en la final! ¡[contest_winner.Custom('ES_ElLa')|U] [contest_winner.GetTitledFirstName|l] es nuestr[contest_winner.Custom('ES_OA')] ganador[contest_winner.Custom('ES_XA')]!».\n\n"
  contest_events.0805.first: "¡En verdad, no hay nadie en [host.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] que iguale mi habilidad!"
@@ -986,9 +986,9 @@
  contest_horse_race_passing_maneuver_log_title: "Maniobra de adelantamiento"
  contest_horse_race_passing_maneuver_log: "El caballo [CHARACTER.Custom('ES_DelDela')] [CHARACTER.GetTitledFirstName|l] tomó una curva a toda velocidad, adelantando ajustadamente a la competencia."
  contest_horse_race_riot_broken_log_title: "Estallan disturbios"
- contest_horse_race_riot_broken_log: "Los servidores [CHARACTER.Custom('ES_DelDela')] [CHARACTER.GetTitledFirstName|l] llevaron a cabo una brutal represión de disturbios en la $tournament_phase_horse_race|l$"
+ contest_horse_race_riot_broken_log: "Los servidores [CHARACTER.Custom('ES_DelDela')] [CHARACTER.GetTitledFirstName|l] llevaron a cabo una brutal represión de disturbios en la carrera de caballos"
  contest_horse_race_riot_speech_log_title: "Discurso en las carreras"
- contest_horse_race_riot_speech_log: "El discurso [CHARACTER.Custom('ES_DelDela')] [CHARACTER.GetTitledFirstName|l] calmó a una muchedumbre peligrosamente revoltosa en la $tournament_phase_horse_race|l$"
+ contest_horse_race_riot_speech_log: "El discurso [CHARACTER.Custom('ES_DelDela')] [CHARACTER.GetTitledFirstName|l] calmó a una muchedumbre peligrosamente revoltosa en la carrera de caballos"
  #OTHER
  contest_mysterious_stranger_log_title: "Ha aparecido un aspirante"
  contest_mysterious_stranger_log: "[CHARACTER.Custom('ES_ElLa')|U] [CHARACTER.GetTitledFirstName|l], un[CHARACTER.Custom('ES_XA')] desconocid[CHARACTER.Custom('ES_OA')], entró en la competición de [CHARACTER.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName|l]"

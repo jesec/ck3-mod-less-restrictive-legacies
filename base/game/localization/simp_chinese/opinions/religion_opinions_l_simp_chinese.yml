@@ -26,3 +26,7 @@
  rf_eastern_opinion: "$rf_eastern_adherent$好感"
  rf_pagan_opinion: "$pagan_adherent$好感"
  rf_abrahamic_opinion: "[GetReligionFamily('rf_abrahamic').GetName]好感"
+ ashari_opinion: "[GetFaithByKey('ashari').GetAdherentName]好感"
+ muwalladi_opinion: "[GetFaithByKey('muwalladi').GetAdherentName]好感"
+ maturidi_opinion: "[GetFaithByKey('maturidi').GetAdherentName]好感"
+ mutazila_opinion: "[GetFaithByKey('mutazila').GetAdherentName]好感"

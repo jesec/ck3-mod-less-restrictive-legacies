@@ -203,6 +203,9 @@
  afar: "아파르"
  afar_prefix: "아파르계"
  afar_collective_noun: "아파르"
+ east_bantu: "동 반투"
+ east_bantu_prefix: "동 반투"
+ east_bantu_collective_noun: "동 반투"
  #East African group
  east_african_group: "동아프리카"
  east_african_group_collective_noun: "동아프리카"
@@ -734,3 +737,10 @@
  galician: "갈리시아"
  galician_prefix: "갈리시아계"
  galician_collective_noun: "갈리시아"
+ #FP3 additions
+ brahui: "브라후이"
+ brahui_prefix: "브라후이계"
+ brahui_collective_noun: "브라후이"
+ bactrian: "박트리아"
+ bactrian_prefix: "박트리아계"
+ bactrian_collective_noun: "박트리아"

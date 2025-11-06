@@ -1,6 +1,7 @@
 ﻿l_russian:
  DIPLOMACY_ACTIONS: "дипломатические действия"
  FRIENDLY_ACTIONS: "дружественные действия"
+ CLAN_ACTIONS: "клановые действия"
  HOSTILE_ACTIONS: "враждебные действия"
  DIARCH_ACTIONS: "диарх"
  VASSAL_ACTIONS: "действия с вассалами"

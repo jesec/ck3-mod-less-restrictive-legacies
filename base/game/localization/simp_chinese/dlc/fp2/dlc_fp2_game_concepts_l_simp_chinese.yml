@@ -46,6 +46,7 @@
  game_concept_dissolution_faction: "解体派系"
  game_concept_dissolution_factions: "解体派系"
  game_concept_faction_dissolution: "解体"
+ game_concept_dissolution_faction_dissolved: "解体"
  game_concept_dissolution_faction_desc: "[dissolution_faction|E]谋求摧毁他们[liege|E]的[realm|E]。如果他们成功，领地内的所有封臣都会[independent|E]，而领主则失去[primary_title|E]。"
  game_concept_improve_city_province_decision: "$improve_city_province_decision_name$决议"
  game_concept_improve_city_province_decision_desc: "一种[decision|E]，使你可以提升[city_holding|E]中可用[buildings|E]的数量。"

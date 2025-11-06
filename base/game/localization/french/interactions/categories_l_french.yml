@@ -1,6 +1,7 @@
 ﻿l_french:
  DIPLOMACY_ACTIONS: "actions diplomatiques"
  FRIENDLY_ACTIONS: "actions amicales"
+ CLAN_ACTIONS: "actions de clan"
  HOSTILE_ACTIONS: "actions hostiles"
  DIARCH_ACTIONS: "dyarque"
  VASSAL_ACTIONS: "actions vassales"

@@ -30,6 +30,13 @@
  COUNCILLOR_MISSING_SPOUSE: "Ihr habt keinen [available_spouse|E]"
  COUNCILLOR_LIEGE_MISSING_SPOUSE: "[CouncilWindow.GetCharacter.GetShortUIName] hat keinen [Concept('available_spouse', 'verfügbaren Ehepartner')|E]"
  COUNCILLOR_WILL_BE_ASSIGNED: "Das [councillor|E] wird eingesetzt"
+ COUNCILLOR_MISSING_VIZIER: "Ihr habt keinen [vizier|E] oder [spouse|E]"
+ COUNCILLOR_LIEGE_MISSING_VIZIER: "[CouncilWindow.GetCharacter.GetShortUIName] hat keinen [vizier|E] oder [spouse|E]"
+ COUNCILLOR_MISSING_CHANCELLOR: "Ihr habt keinen [chancellor|E]"
+ COUNCILLOR_MISSING_MARSHAL: "Ihr habt keinen [marshal|E]"
+ COUNCILLOR_MISSING_STEWARD: "Ihr habt keinen [steward|E]"
+ COUNCILLOR_MISSING_SPYMASTER: "Ihr habt keinen [spymaster|E]"
+ COUNCILLOR_MISSING_COURT_CHAPLAIN: "Ihr habt keinen [court_chaplain|E]"
  learn_on_the_job_modifier: "$learn_on_the_job_perk_name$"
  councillor_coregent: "Mitregent"
  councillor_coregent_possessive: "des Mitregenten"
@@ -43,6 +50,9 @@
  councillor_spymaster_possessive: "des Ratsspitzels"
  councillor_court_chaplain: "Ratsprediger"
  councillor_court_chaplain_possessive: "des Ratspredigers"
+ councillor_vizier: "Vertrauter"
+ councillor_vizier_desc: "Als Herrscher über einen Clan könnt Ihr entscheiden, ob Ihr Euren [vizier|E] oder einen Eurer [spouses|E] zu Eurem Vertrauten machen wollt. Wenn auch immer Ihr auswählt, wird Euch bei Euren täglichen Aufgaben unterstützen."
+ councillor_vizier_possessive: "des Vertrauten"
  #Flavor localization for Court Chaplains, sorted by Religion.
  #Fallback
  councillor_court_chaplain_theocrat_county: "Suffraganbischof"

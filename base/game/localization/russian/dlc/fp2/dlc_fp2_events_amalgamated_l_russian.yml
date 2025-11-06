@@ -419,7 +419,6 @@
  fp2_struggle.3001.c: "Постойте! Ведь не только же у меня в этом доме есть корона."
  fp2_struggle.3001.c_flavour: "Ваша супруга или супруг потеряет свою корону."
  fp2_struggle.3001.d: "Я не сниму этой короны, пока живу!"
- nick_the_crownless: "Без короны"
  struggle_3001_spouse_crown_modifier: "Корона продана"
  fp2_struggle.3011.t: "Девы в беде"
  fp2_struggle.3011.desc: "«[ROOT.GetCharacter.GetLadyLord|U]! Случилось немыслимое!» [struggle_3011_marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] на секунду замолкает, чтобы перевести дух. На [Select_CString(struggle_3011_marshal.IsFemale, 'ее', 'его' )] лбу блестят капли пота. «В городе [struggle_3011_county_town.GetNameNoTier] девушки взяли в руки оружие, чтобы самостоятельно защищать свои дома»."

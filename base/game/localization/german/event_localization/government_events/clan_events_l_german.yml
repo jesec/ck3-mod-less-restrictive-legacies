@@ -23,6 +23,7 @@
  clan.1101.t: "Gleichgewicht der Macht"
  clan.1101.desc: "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] kommt mit einer Beschwerde zu mir. „Eure Familienmitglieder haben zu viel Macht in [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]. Ganz gleich, wie sehr Vasallen wie ich uns bemühen: Wir werden nie so gut behandelt!\n\nIch ersuche Euch: Setzt dieser Ungerechtigkeit ein Ende. Schließlich kann es zu bösem Blut unter Euren Vasallen führen, wenn Eure Entscheidungen zu sehr nach Vetternwirtschaft riechen …“"
  clan.1101.a: "Ich höre Eure Bedenken, und ich werde sie berücksichtigen."
+ clan.1101.a.flavor: "Ihr redet Euch um eine sinnvolle Maßnahme herum, während Ihr gleichzeitig [vassal.GetFirstNameNoTooltip] beruhigt"
  clan.1101.b: "Ihr habt recht. Ich werde auf der Stelle Schritte einleiten, um dies zu beheben!"
  clan.1101.b.custom: "Jeder [vassal|E], der Mitglied der [dynasty|E] ist"
  clan.1101.b.tt: "Erhält [revoke_title_reason|E]"

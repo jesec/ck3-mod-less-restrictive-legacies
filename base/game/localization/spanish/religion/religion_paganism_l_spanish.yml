@@ -293,7 +293,7 @@
  slavic_pagan_adherent: "slovianska"
  slavic_pagan_adherent_plural: "slovianskas"
  slavic_pagan_old: "Antiguo Slovianska Pravda"
- slavic_pagan_old_adj: "antigua slovianska"
+ slavic_pagan_old_adj: "slovianska antigua"
  slavic_pagan_old_adherent: "slovianska viejo"
  slavic_pagan_old_adherent_plural: "slovianskas viejos"
  #Finno-Ugric
@@ -517,8 +517,8 @@
  bori_water_god_name_possessive: "de los espíritus del agua"
  west_african_bori_pagan: "Bori"
  west_african_bori_pagan_adj: "bori"
- west_african_bori_pagan_adherent: "Bori"
- west_african_bori_pagan_adherent_plural: "Boris"
+ west_african_bori_pagan_adherent: "bori"
+ west_african_bori_pagan_adherent_plural: "boris"
  west_african_bori_pagan_old: "Antiguo Bori"
  west_african_bori_pagan_old_adj: "bori antigua"
  west_african_bori_pagan_old_adherent: "bori viejo"
@@ -587,8 +587,8 @@
  #Waaqism
  waaqism_religion: "Oromo-somalí"
  waaqism_religion_adj: "oromo-somalí"
- waaqism_religion_adherent: "Oromo-somalí"
- waaqism_religion_adherent_plural: "Oromo-somalíes"
+ waaqism_religion_adherent: "oromo-somalí"
+ waaqism_religion_adherent_plural: "oromo-somalíes"
  waaqism_religion_desc: "El mundo está gobernado por muchas deidades, pero todas ellas están sujetas a la más alta, Waaq, el dios del cielo. La lluvia y la vida nos vienen a nosotros desde arriba."
  waaqism_high_god_name: "Waaq"
  waaqism_high_god_name_2: "$waaqism_high_god_name$" #Optional translation alt
@@ -634,8 +634,8 @@
  waaqism_afterlife_3: "$waaqism_afterlife$" #Optional translation alt
  waaqism_pagan: "Waaqismo"
  waaqism_pagan_adj: "Waaqi"
- waaqism_pagan_adherent: "Waaqista"
- waaqism_pagan_adherent_plural: "Waaqists"
+ waaqism_pagan_adherent: "waaqista"
+ waaqism_pagan_adherent_plural: "waaqistas"
  waaqism_pagan_old: "antigua waaqismo"
  waaqism_pagan_old_adj: "waaqi antigua"
  waaqism_pagan_old_adherent: "waaqista viejo"
@@ -686,7 +686,7 @@
  akom_pagan_adherent: "akomista"
  akom_pagan_adherent_plural: "akomistas"
  akom_pagan_old: "antigua Akom"
- akom_pagan_old_adj: "Akom antigua"
+ akom_pagan_old_adj: "akom antigua"
  akom_pagan_old_adherent: "akomista viejo"
  akom_pagan_old_adherent_plural: "akomistas viejos"
  #Yoruba
@@ -871,7 +871,7 @@
  tengri_pagan_adherent: "tengrista"
  tengri_pagan_adherent_plural: "tengristas"
  tengri_pagan_old: "Antiguo tengrismo"
- tengri_pagan_old_adj: "antigua tengri"
+ tengri_pagan_old_adj: "tengri antigua"
  tengri_pagan_old_adherent: "tengrista viejo"
  tengri_pagan_old_adherent_plural: "tengristas viejos"
  #Magyarism
@@ -1097,7 +1097,7 @@
  #Hellenism
  hellenism_religion: "Helenismo"
  hellenism_religion_adj: "helénica"
- hellenism_religion_adherent: "Helenista"
+ hellenism_religion_adherent: "helenista"
  hellenism_religion_adherent_plural: "helenistas"
  hellenism_religion_desc: "Los helenistas adoran a los antiguos dioses griegos y romanos de quienes se dice que residen en el monte Olimpo. Cada dios tiene sus propios aspectos y es venerado de un modo propio por sus adoradores."
  hellenism_high_god_name: "Zeus"

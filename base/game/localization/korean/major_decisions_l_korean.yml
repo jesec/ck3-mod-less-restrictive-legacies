@@ -66,3 +66,4 @@
  major_decisions.3100.tt_opinion_witengamot: "$tradition_the_witenagemot_name$ [culture_tradition|E]을 가진 [cultures|E]에 속한 봉신"
  major_decisions.3100.tt_opinion_thing: "$heritage_north_germanic_name$ [heritage|E]을 가진 [cultures|E]에 속한 봉신"
  major_decisions.3100.tt_opinion_tanistry: "$heritage_goidelic_name$ [heritage|E]을 가진 [cultures|E]에 속한 봉신"
+ major_decisions.3100.tt_opinion_jirga: "$tradition_fp3_jirga_name$ [culture_tradition|E]을 가진 [cultures|E]에 속한 봉신"

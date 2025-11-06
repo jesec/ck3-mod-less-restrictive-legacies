@@ -220,7 +220,7 @@
  bp1_yearly.5714.a.catharsis: "#weak Вы переживаете катарсис#!"
  bp1_yearly.5714.a.sad: "#weak Вы страдаете#!"
  bp1_yearly.5714.a.reallysad: "#weak Горе переполняет вас#!"
- bp1_yearly.5714.a.depressed: "#weak Вы впадаете в депрессию#!"
+ bp1_yearly.5714.a.depressed: "#weak Вы впадаете в уныние#!"
  bp1_yearly.5714.b: "Нужно крепиться и жить дальше."
  bp1_yearly.5715.t: "Говорить научись, тупица"
  bp1_yearly.5715.desc: "«Нет! Так произносить нельзя! Почтенный ученый, который #EMP придумал#! это слово, говорил, что оно произносится именно так, как его произношу я...»\n\n[Select_CString(gibbet_friend.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('gibbet_friend'))] [gibbet_friend.GetFirstName] и я с головой ушли в яростный спор, который и не думает стихать. Проходя мимо шибеницы, [gibbet_friend.GetSheHe] делает какое-то замечание. Но я весьма хорошо знаю [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip|l] язык и потому мягко поправляю [gibbet_friend.GetHerHis] — в начале слова согласная твердая, а не мягкая, и это ясно любому #EMP разумному#! человеку! Но [gibbet_friend.GetSheHe], упорствуя в своих заблуждениях, громогласно выдвигает контраргументы, к тому же на повышенных тонах!\n\n«Поверить не могу, что ты так цепляешься за очевидный [ROOT.Char.Custom('InsultAdjective')|l] лингвистический казус!» — блажит [gibbet_friend.GetSheHe]."

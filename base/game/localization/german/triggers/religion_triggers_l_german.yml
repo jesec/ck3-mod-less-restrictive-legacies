@@ -41,3 +41,4 @@
  has_pledged_attacker: "Ihr seid ein eingeschworener Angreifer"
  they_have_pledged_as_attacker: "Sie sind ein eingeschworener Angreifer im [GREAT_HOLY_WAR.GetName] Eures Glaubens"
  has_pledged_defender: "Ihr seid ein eingeschworener Verteidiger"
+ ANY_FAITH_RULER_GLOBAL: "Ein beliebiger [FAITH.GetAdjectiveNoTooltip|l]er [ruler|E]"

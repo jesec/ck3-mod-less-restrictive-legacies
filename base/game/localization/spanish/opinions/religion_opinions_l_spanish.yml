@@ -26,3 +26,7 @@
  rf_eastern_opinion: "Opinión de $rf_eastern_adherent$"
  rf_pagan_opinion: "Opinión de $pagan_adherent$"
  rf_abrahamic_opinion: "Opinión de [GetReligionFamily('rf_abrahamic').GetName]"
+ ashari_opinion: "Opinión de los [GetFaithByKey('ashari').GetAdherentNamePlural]"
+ muwalladi_opinion: "Opinión de los [GetFaithByKey('muwalladi').GetAdherentNamePlural]"
+ maturidi_opinion: "Opinión de los [GetFaithByKey('maturidi').GetAdherentNamePlural]"
+ mutazila_opinion: "Opinión de los [GetFaithByKey('mutazila').GetAdherentNamePlural]"

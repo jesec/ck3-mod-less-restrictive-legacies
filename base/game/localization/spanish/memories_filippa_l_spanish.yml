@@ -87,3 +87,7 @@
  sacrificed_my_dog_memory_desc: "ofrecí mi maravilloso perro [owner.Custom('DogStoryName')] a mi [liege.GetLadyLord] odiaperros, [liege.GetName], a cambio de las vidas del resto de los perros de mi posesión"
  sacrificed_my_dog_memory_desc_second_perspective: "ofreciste tu maravilloso perro [owner.Custom('DogStoryName')] a tu [liege.GetLadyLord] odiaperros, [liege.GetName], a cambio de las vidas del resto de los perros de tu posesión"
  sacrificed_my_dog_memory_desc_third_perspective: "[owner.GetName] ofreció su maravilloso perro [owner.Custom('DogStoryName')] a su [liege.GetLadyLord] odiaperros, [liege.GetName], a cambio de las vidas del resto de los perros de su posesión"
+ abandoned_crypto_faith_memory: "abandoné mi fe oculta en el [ROOT.Var('old_faith_to_reminisce').Faith.GetName|l]"
+ abandoned_crypto_faith_memory_desc: "abandoné de una vez y para siempre mi persistente fe en el [ROOT.Var('old_faith_to_reminisce').Faith.GetName|l]"
+ abandoned_crypto_faith_memory_desc_second_perspective: "abandonaste de una vez y para siempre tu persistente fe en el [ROOT.Var('old_faith_to_reminisce').Faith.GetName|l]"
+ abandoned_crypto_faith_memory_desc_third_perspective: "[owner.GetName] abandonó de una vez y para siempre su persistente fe en el [ROOT.Var('old_faith_to_reminisce').Faith.GetName|l]"

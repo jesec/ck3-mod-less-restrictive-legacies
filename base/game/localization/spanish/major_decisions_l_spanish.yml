@@ -66,3 +66,4 @@
  major_decisions.3100.tt_opinion_witengamot: "Vasallos de [cultures|lE] con [culture_tradition|lE] $tradition_the_witenagemot_name$"
  major_decisions.3100.tt_opinion_thing: "Vasallos de [cultures|lE] con [heritage|lE] $heritage_north_germanic_name$"
  major_decisions.3100.tt_opinion_tanistry: "Vasallos cuyas [cultures|lE] son de [heritage|lE] $heritage_goidelic_name$"
+ major_decisions.3100.tt_opinion_jirga: "Vasallos de [cultures|lE] con [culture_tradition|lE] $tradition_fp3_jirga_name$"

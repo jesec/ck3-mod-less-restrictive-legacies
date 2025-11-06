@@ -166,6 +166,7 @@
  intrigue_scheme_ongoing.5013.a: "……卧槽！快把它弄下来！把它#EMP 弄下来#!！"
  intrigue_scheme_ongoing.5013.a.tt: "我失去了那畜生，好在我没丢了自己的命……"
  intrigue_scheme_ongoing.5014.t: "珍宝之毯"
+ intrigue_scheme_ongoing.5014.t_persian: "$persian_has_plush_carpet_modifier$"
  intrigue_scheme_ongoing.5014.desc: "豪华、鲜艳、如同黎明的第一道光般柔和——一个商人送我一条精致的地毯，以期在将来建立良好的关系。\n\n当我惊叹于这精美的编织时，一个想法打动了我。这样一条地毯不是能掩盖脚步声吗？哪怕是最蹩脚同谋的脚步声……？"
  intrigue_scheme_ongoing.5014.a: "这样的礼物会让[target.GetTitledFirstNameNoTooltip]感到荣幸。"
  intrigue_scheme_ongoing.5014.a.success: "[target.GetSheHe|U]接受了礼物"

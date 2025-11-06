@@ -1,25 +1,25 @@
 {
-  "version": "1.10.2",
-  "version_name": "Quill",
-  "updated": "2023-09-08T10:33:51.000Z",
+  "version": "1.11.0.1",
+  "version_name": "Peacock",
+  "updated": "2023-11-10T11:04:55.000Z",
   "release_notes": {
-    "title": "1.10.2",
-    "date": "2023-09-12",
-    "file": "release-notes/1_10_2_0_2023-09-12.md",
-    "url": "https://store.steampowered.com/news/app/1158310/view/3655289207398170266"
+    "title": "1.11.0.1 Hotfix Update",
+    "date": "2023-11-10",
+    "file": "release-notes/1_11_0_1_2023-11-10.md",
+    "url": "https://store.steampowered.com/news/app/1158310/view/3784773318627593868"
   },
   "depots": {
     "1158311": {
-      "manifest": "5483121434460621958",
-      "updated": "2023-09-08T10:31:53.000Z"
+      "manifest": "2594563895425310099",
+      "updated": "2023-11-10T11:03:17.000Z"
     },
     "1158314": {
-      "manifest": "3216298686373706598",
-      "updated": "2023-09-08T10:33:42.000Z"
+      "manifest": "3816373436083357346",
+      "updated": "2023-11-10T11:04:44.000Z"
     },
     "1158317": {
-      "manifest": "458036845822743048",
-      "updated": "2023-09-08T10:33:51.000Z"
+      "manifest": "3169644725791208949",
+      "updated": "2023-11-10T11:04:55.000Z"
     },
     "1296730": {
       "manifest": "4673314442703562503",
@@ -59,6 +59,11 @@
       "manifest": "6473405525877152548",
       "updated": "2023-06-27T07:26:57.000Z",
       "name": "Elegance of the Empire"
+    },
+    "2313540": {
+      "manifest": "6243759417825332917",
+      "updated": "2023-10-31T10:00:53.000Z",
+      "name": "Legacy of Persia"
     },
     "2313541": {
       "manifest": "2229978864125579090",

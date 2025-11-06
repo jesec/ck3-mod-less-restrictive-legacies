@@ -53,6 +53,8 @@
  smith_inspiration_desc: "[inspired|E]의 일종인 금속세공사 영감을 보유한 인물은 검이나 갑옷보단 작지만 훨씬 휘황찬란한 작품을 만들고 싶어 합니다. 이들 금속세공사는 왕관과 술잔, 패물, 보석을 만드는 예술가입니다."
  alchemy_inspiration: "연금술 영감"
  alchemy_inspiration_desc: "[inspired|E]의 일종인 연금술 영감을 보유한 인물은 탐험과 정화, 물질 및 금속 창조, 영약 조제를 통해 궁극적으로 인간의 육신과 영혼을 완벽하게 만들고 싶어 합니다."
+ research_inspiration: "연구 영감"
+ research_inspiration_desc: "연구 영감이 있는 인물은 [sponsor|E]에게 득이 될 새로운 지식을 찾고자 하는 [inspired|E]을 따릅니다. 성공 시 후원자의 [dynasty|E] 내 학습력을 향상시키거나, 후원자의 문화에 속한 새로운 [innovation|E]을 발견하기도 합니다."
  weapon_inspiration_cost_tt: "무기 영감은 [Concept( 'martial', '전투력' )|E] 및 [Concept( 'prowess', '기량' )|E]에 따라 결정됩니다."
  armor_inspiration_cost_tt: "갑옷 영감은 [Concept( 'martial', '전투력' )|E] 및 [Concept( 'prowess', '기량' )|E]에 따라 결정됩니다."
  book_inspiration_cost_tt: "책 영감은 [Concept( 'learning', '학습력' )|E]에 따라 결정됩니다."

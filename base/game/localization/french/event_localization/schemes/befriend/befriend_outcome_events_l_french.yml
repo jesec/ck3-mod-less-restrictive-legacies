@@ -130,5 +130,5 @@
  befriend_outcome.6007.a.b: "Peut-être a-t-[target.Custom('FR_IlElle')] raison..."
  #Travel Befriend Success Outcome
  befriend_outcome.2007.opening_travel: "Pour mon plus grand plaisir, un des courriers [target.Custom('FR_du_Char_Pi')][target.GetTitledFirstName] est venu me trouver ici, en [current_location.GetName], alors que ma suite et moi faisons route vers [next_destination.GetName].\n\n"
- befriend_outcome.2007.opening_no_travel: "Pour mon plus grand plaisir, un des courriers [target.Custom('FR_du_Char_Pi')][target.GetTitledFirstName] est venu me trouver ici, à mon [ROOT.Char.Custom('FortifiedBuilding')] de [ROOT.Char.GetLocation.GetName].\n\n"
+ befriend_outcome.2007.opening_no_travel: "Pour mon plus grand plaisir, un des courriers [target.Custom('FR_du_Char_Pi')][target.GetTitledFirstName] est venu me trouver ici, à mon [ROOT.Char.Custom('FortifiedBuilding')] de [ROOT.Char.GetCurrentLocation.GetName].\n\n"
  befriend_outcome.2007.desc: "[courier.GetSheHe|U] apporte de bonnes nouvelles, car [target.GetFirstNameNoTooltip] souhaite officialiser notre amitié ! Je ne m’attendais pas à ce que nous devenions si proches, mais [target.GetSheHe] a prouvé sa fiabilité et son honnêteté, et [target.GetSheHe] ne pense qu’à mes intérêts."

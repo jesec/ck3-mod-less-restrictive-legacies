@@ -1,7 +1,7 @@
 ﻿l_korean:
  #bp1_yearly_events_chad
  bp1_yearly.3001.t: "진정한 친구"
- bp1_yearly.3001.desc: "요즘 [ROOT.Char.Custom( 'FortifiedBuilding' )] 주변 상황이 그리 여유롭지 않다. 세금을 아무리 걷어도 입에 풀칠조차 하기 힘들 지경이라니!\n\n한바탕 골머리를 앓고 있는데, 나의 순후한 [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))] [friend.GetTitledFirstNameNoTooltip](이)가 때마침 찾아왔다. 우리는 지금 상황에 대해 한참 얘기를 나눴고, 그는 격려의 의미로 내 금고를 채워주겠노라 제안했다.\n\n[friend.GetFirstNameNoTooltip](은)는 내 손을 움켜쥔 채 부드럽게 말을 건넸다. \"[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))], 내가 도와주겠네. 상황이 반대였으면 자네도 나에게 그리했을 것 아닌가.\""
+ bp1_yearly.3001.desc: "요즘 [ROOT.Char.Custom( 'FortifiedBuilding' )] 주변 상황이 그리 여유롭지 않다. 세금을 아무리 걷어도 입에 풀칠조차 하기 힘들 지경이라니!\n한바탕 골머리를 앓고 있는데, 나의 순후한 [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))] \n[friend.GetTitledFirstNameNoTooltip](이)가 때마침 찾아왔다. 우리는 지금 상황에 대해 한참 얘기를 나눴고, 그는 격려의 의미로 내 금고를 채워주겠노라 제안했다.\n\n[friend.GetFirstNameNoTooltip](은)는 내 손을 움켜쥔 채 부드럽게 말을 건넸다. \"[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))], 내가 도와주겠네. 상황이 반대였으면 자네도 나에게 그리했을 것 아닌가.\""
  bp1_yearly.3001.a: "이 영광스러운 놀라움을 선사하신 [ROOT.Char.GetFaith.WealthGodName]께 찬양을!"
  bp1_yearly.3001.b: "친구에게 부담을 줄 수는 없어."
  bp1_yearly.3001.c: "지금 나한테 진짜 필요한 건 술 몇 잔이야..."

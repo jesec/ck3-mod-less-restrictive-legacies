@@ -296,7 +296,7 @@
  #END
  contest_events.0805.t.board_game: "$tournament_phase_board_game$: $contest_events.0505.t$"
  contest_events.0805.t.duel: "$tournament_phase_duel$: $contest_events.0505.t$"
- contest_events.0805.t.wrestling: "$tournament_phase_wresting$: $contest_events.0505.t$"
+ contest_events.0805.t.wrestling: "$tournament_phase_wrestling$: $contest_events.0505.t$"
  contest_events.0805.t.joust: "$tournament_phase_joust$: $contest_events.0505.t$"
  contest_events.0805.desc: "Трубы гудят, толпа ликует, и участники начинают собираться. Состязание окончено, и для кого-то настал звездный час. Герольд выступает вперед, и его голос разносится над сценой.\n\n«После множества испытаний, трудностей, но, главное, здорового состязания, [contest_winner.GetTitledFirstName] побеждает в финальной игре, [second_place.GetTitledFirstName] терпит поражение! [contest_winner.GetFirstNameNoTooltip] победитель!»\n\n"
  contest_events.0805.first: "Воистину, никто в державе [host.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] не может сравниться со мной!"

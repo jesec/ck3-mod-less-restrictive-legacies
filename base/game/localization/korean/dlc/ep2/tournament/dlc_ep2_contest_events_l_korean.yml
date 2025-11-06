@@ -296,7 +296,7 @@
  #END
  contest_events.0805.t.board_game: "$tournament_phase_board_game$: $contest_events.0505.t$"
  contest_events.0805.t.duel: "$tournament_phase_duel$: $contest_events.0505.t$"
- contest_events.0805.t.wrestling: "$tournament_phase_wresting$: $contest_events.0505.t$"
+ contest_events.0805.t.wrestling: "$tournament_phase_wrestling$: $contest_events.0505.t$"
  contest_events.0805.t.joust: "$tournament_phase_joust$: $contest_events.0505.t$"
  contest_events.0805.desc: "트럼펫이 울리고 관중의 연호가 떠들썩하게 터져 나오는 가운데 참가자들이 삼삼오오 모이기 시작한다. 경연 대회는 끝났고 누군가는 명예를 안을 차례가 되었다. 이윽고 포고꾼이 앞으로 나와 쩌렁쩌렁한 목소리로 외친다.\n\n\"숱한 시련과 적잖은 우여곡절이 있었습니다. 무엇보다 진정으로 열정적인 경쟁이 있었죠. 결승전에서 [contest_winner.GetTitledFirstName] 님이 [second_place.GetTitledFirstName] 님을 꺾었음을 선언합니다. 우승자는 바로 [contest_winner.GetFirstNameNoTooltip] 님입니다!\"\n\n"
  contest_events.0805.first: "정말이지, [host.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] 중에는 내 실력을 따라올 사람이 아무도 없군!"

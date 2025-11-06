@@ -155,7 +155,7 @@
  gallant_perk_name: "Galante"
  #Other
  groomed_to_rule_msg_title: "Educado para gobernar"
- LOYALTY_AND_RESPECT_PERK_STATS_EFFECT: "[skills|E] por [Concept( 'councillor_tasks', 'tareas como consejero' )|E] de [spouse|lE]: #p +25%#!"
+ LOYALTY_AND_RESPECT_PERK_STATS_EFFECT: "[skills|E] por [Concept( 'councillor_tasks', 'tareas como consejero' )|E] de [spouse|lE] o [vizier|lE]: #p +25 %#!"
  dark_insight_gain_stats_tt: "Podría ganar algunos [GetPerk('dark_insights_perk').GetName(GetPlayer)]"
  dark_insights_maximum_insight_tt: "Ya ha aprendido todos los [GetPerk('dark_insights_perk').GetName(GetPlayer)] posibles"
  dark_insights_gain_message: "Conocimientos oscuros"

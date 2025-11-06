@@ -41,3 +41,4 @@
  has_pledged_attacker: "Te has comprometido como atacante"
  they_have_pledged_as_attacker: "Se ha comprometido como atacante en la [GREAT_HOLY_WAR.GetName] de tu fe"
  has_pledged_defender: "Te has comprometido como defensor"
+ ANY_FAITH_RULER_GLOBAL: "Cualquier [ruler|lE] de la fe [FAITH.GetAdjectiveNoTooltip]"

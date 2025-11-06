@@ -87,3 +87,7 @@
  sacrificed_my_dog_memory_desc: "我牺牲了我那条很棒的狗[owner.Custom('DogStoryName')]，换取我那恨狗的领主[liege.GetName]放过我地产中的其他狗"
  sacrificed_my_dog_memory_desc_second_perspective: "你牺牲了你那条很棒的狗[owner.Custom('DogStoryName')]，换取你那恨狗的领主[liege.GetName]放过你地产中的其他狗"
  sacrificed_my_dog_memory_desc_third_perspective: "[owner.GetName]牺牲了[owner.GetNamePossessive]那条很棒的狗[owner.Custom('DogStoryName')]，换取[owner.GetHerHis]那恨狗的领主[liege.GetName]放过[owner.GetHerHis]地产中的其他狗"
+ abandoned_crypto_faith_memory: "放弃了我秘密的[ROOT.Var('old_faith_to_reminisce').Faith.GetName]信仰"
+ abandoned_crypto_faith_memory_desc: "我彻底放弃了我对[ROOT.Var('old_faith_to_reminisce').Faith.GetName]的挥之不去的信仰"
+ abandoned_crypto_faith_memory_desc_second_perspective: "你永远地放弃了你对[ROOT.Var('old_faith_to_reminisce').Faith.GetName]挥之不去的信仰"
+ abandoned_crypto_faith_memory_desc_third_perspective: "[owner.GetName]永远地放弃了[owner.GetHerHis]对[ROOT.Var('old_faith_to_reminisce').Faith.GetName]挥之不去的信仰"

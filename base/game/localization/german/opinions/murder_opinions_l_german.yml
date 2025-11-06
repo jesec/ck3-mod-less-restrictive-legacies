@@ -17,6 +17,7 @@
  executed_close_relation_opinion: "Hat engen Verwandten hingerichtet"
  executed_my_countryman_modifier: "Hat meinen Untertan hingerichtet"
  executed_guest_modifier: "Hat einen anderen Gast hingerichtet"
+ executed_valuable_prisoner_modifier: "Wertvoller Gefangener hingerichtet"
  tortured_family_member: "Hat einen Verwandten gefoltert"
  tortured_me: "Hat mich gefoltert"
  blinded_family_member: "Hat einen Verwandten geblendet"

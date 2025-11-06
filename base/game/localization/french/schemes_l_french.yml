@@ -97,7 +97,7 @@
  courting_action: "Courtiser"
  courting_desc: "Je vais déclarer mon amour éternel pour [SCHEME.GetTarget.Custom('FR_le_Char_U_Pi')][SCHEME.GetTarget.GetShortUINameNoTooltip] et gagner son cœur par de nobles actes de chevalerie."
  courting_desc_general: "[personal_scheme|E] dans lequel l’[scheme_owner|El] cherche à améliorer son [prestige|El] et trouver potentiellement une [soulmate|El] en lui faisant la cour."
- scheme_interaction_tt_courtship_approved: "Tenter de faire la cour [recipient.Custom('FR_au_Char_U_Pi')][recipient.GetShortUINameNoTooltip] afin de gagner en [prestige|El], d’améliorer son [opinion|El] à votre égard, et que vous deveniez des [Concept( 'lover', 'âmes sœurs' )|E] !"
+ scheme_interaction_tt_courtship_approved: "Tenter de faire la cour [recipient.Custom('FR_au_Char_U_Pi')][recipient.GetShortUINameNoTooltip] afin de gagner en [prestige|El], d’améliorer son [opinion|El] à votre égard, et que vous deveniez des [soulmates|El] !"
  courting_invalid: "Je cesse de faire la cour [target.Custom('FR_au_Char_U_Pi')][target.GetShortUIName] puisque nous ne pouvons plus être des [soulmates|El]."
  court_scheme_invalidated_title: "@personal_scheme_icon! Fin du complot visant à courtiser"
  sway: "Complot d’influence"

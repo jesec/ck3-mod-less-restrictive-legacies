@@ -195,7 +195,7 @@
  ##################################################
  #Counter Content
  board_games.0001.desc.i_have_countered: "Ma technique #color_blue_gray déjoue#! astucieusement le plan de mon adversaire.\n\n"
- board_games.0001.desc.i_am_countered: "Bon sang, c[bg_opponent.Custom('FR_EtEtte')] [bg_opponent.GetWomanMan] semble pouvoir contrer tous mes stratagèmes.\n\n"
+ board_games.0001.desc.i_am_countered: "Bon sang, c[bg_opponent.Custom('FR_EtEtte')] [bg_opponent.GetWomanMan] semble pouvoir #color_blue_gray contrer#! tous mes stratagèmes.\n\n"
  board_games.0001.desc.no_counters: "\n\n"
  ##################################################
  #Closeness to Victory

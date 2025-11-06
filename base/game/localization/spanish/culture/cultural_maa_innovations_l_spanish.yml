@@ -79,7 +79,7 @@
  tradition_mubarizuns_name: "$innovation_mubarizuns$"
  tradition_mubarizuns_desc: "$innovation_mubarizuns_desc$"
  innovation_mubarizuns: "Mubarizun"
- innovation_mubarizuns_desc: "Basados en los campeones legendarios del ejército Rashidun, nuestros soldados mubarizun están formados para la lucha en formación y a nivel individual."
+ innovation_mubarizuns_desc: "Basados en los campeones legendarios del ejército rashidun, nuestros soldados mubarizun están formados para la lucha en formación y a nivel individual."
  tradition_hussar_name: "$innovation_hussar_raids$"
  tradition_hussar_desc: "$innovation_hussar_raids_desc$"
  innovation_hussar_raids: "Incursiones $hussar$"

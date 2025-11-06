@@ -2122,7 +2122,8 @@ c_purushapura = {
 		holder = 144132
 	}
 	1059.1.1 = {
-		holder = 144133
+		holder = extra_ghaznavids_12 #Izedyar, not attested, but seems plausible
+		liege = k_kabulistan
 	}
 	1099.1.1 = {
 		holder = 144134

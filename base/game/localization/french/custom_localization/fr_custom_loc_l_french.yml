@@ -144,8 +144,8 @@
  signature_weapon_dagger_FR_Un: "une dague"
 
  daughter_in_law_FR_OnA: "a belle-fille"
- relation_acquaintance_female_FR_OnA:1 "a connaissance"
- relation_acquaintance_male_FR_OnA:1 "a connaissance"
+ relation_acquaintance_female_FR_OnA: "a connaissance"
+ relation_acquaintance_male_FR_OnA: "a connaissance"
  relation_agent_FR_OnA: "on agent"
  relation_aunt_FR_OnA: "a tante"
  relation_brother_bully_FR_OnA: "on frère et petite brute"
@@ -326,8 +326,8 @@
  relation_wet_nurse_male_FR_OnA: "on nourricier"
 
  daughter_in_law_FR_Le: "la belle-fille"
- relation_acquaintance_female_FR_Le:1 "la connaissance"
- relation_acquaintance_male_FR_Le:1 "la connaissance"
+ relation_acquaintance_female_FR_Le: "la connaissance"
+ relation_acquaintance_male_FR_Le: "la connaissance"
  relation_agent_FR_Le: "l’agent"
  relation_aunt_FR_Le: "la tante"
  relation_brother_FR_Le: "le frère"
@@ -824,7 +824,7 @@
  world_middle_east_persia_FR_en: "en " # Perse
  world_india_deccan_FR_en: "au " # Deccan
  world_india_bengal_FR_en: "au " # Bengale
- world_india_rajastan_FR_en:1 "au " # Rajasthan
+ world_india_rajastan_FR_en: "au " # Rajasthan
  world_africa_north_FR_en: "en " # Afrique du Nord
  world_africa_west_FR_en: "en " # Afrique de l’Ouest
  world_africa_east_FR_en: "en " # Afrique de l’Est
@@ -839,7 +839,7 @@
  world_tibet_FR_en: "au " # Tibet
  world_burma_FR_en: "en " # Birmanie
  # FR_GetFaithGrandTemple_Au
- building_holy_site_cathedral_01_FR_au:1 "à la grande cathédrale"
+ building_holy_site_cathedral_01_FR_au: "à la grande cathédrale"
  building_holy_site_mosque_01_FR_au: "à la grande mosquée"
  building_type_holy_site_other_grand_temple_01_FR_au: "au grand temple"
  # FR_GetYoungMiddleAgedOld_Un
@@ -895,6 +895,7 @@
  inspiration_owner_type_metalsmith_FR_On: "on " # orfèvre
  inspiration_owner_type_alchemist_FR_On: "on " # alchimiste
  inspiration_owner_type_fallback_FR_On: "[ROOT.Char.Custom('FR_OnA')] " # bénéficiaire
+ inspiration_owner_type_researcher_FR_On: "[ROOT.Char.Custom('FR_OnA')] " # chercheu[ROOT.Char.Custom('FR_RSe')]
  # FR_GetInspirationTypeRoom_OnA
  inspiration_type_room_study_FR_On: "on "
  inspiration_type_room_smithy_FR_On: "a "
@@ -933,6 +934,7 @@
  inspiration_type_verb_create_FR_Inf: "créer"
  inspiration_type_verb_make_FR_Inf: "créer"
  inspiration_type_verb_study_FR_Inf: "étudier"
+ inspiration_type_verb_research_FR_Inf: "faire de la recherche"
  # FR_GetInspirationMaterialType_Du
  inspiration_type_material_writing_FR_Du: "des "
  inspiration_type_material_metal_FR_Du: "du "
@@ -1032,7 +1034,7 @@
  artifact_armor_scale_lowercase_FR_Le: "l’" # armure en écailles
  artifact_armor_lamellar_lowercase_FR_Le: "l’" # armure lamellaire
  artifact_armor_laminar_lowercase_FR_Le: "l’" # armure laminaire
- artifact_armor_brigandine_lowercase_FR_Le:1 "l’" # armure segmentée
+ artifact_armor_brigandine_lowercase_FR_Le: "l’" # armure segmentée
  artifact_armor_shield_lowercase_FR_Le: "le " # bouclier
  # FR_ArtifactArmorTypeLowercase_E
  artifact_armor_mail_lowercase_FR_E: "e" # cotte de mailles
@@ -1040,7 +1042,7 @@
  artifact_armor_scale_lowercase_FR_E: "e" # armure en écailles
  artifact_armor_lamellar_lowercase_FR_E: "e" # armure lamellaire
  artifact_armor_laminar_lowercase_FR_E: "e" # armure laminaire
- artifact_armor_brigandine_lowercase_FR_E:1 "e" # armure segmentée
+ artifact_armor_brigandine_lowercase_FR_E: "e" # armure segmentée
  artifact_armor_shield_lowercase_FR_E: "" # bouclier
  # FR_ArtifactArmorTypeLowercase_OnA
  artifact_armor_mail_lowercase_FR_On: "a " # cotte de mailles
@@ -1048,7 +1050,7 @@
  artifact_armor_scale_lowercase_FR_On: "on " # armure en écailles
  artifact_armor_lamellar_lowercase_FR_On: "on " # armure lamellaire
  artifact_armor_laminar_lowercase_FR_On: "on " # armure laminaire
- artifact_armor_brigandine_lowercase_FR_On:1 "on " # armure segmentée
+ artifact_armor_brigandine_lowercase_FR_On: "on " # armure segmentée
  artifact_armor_shield_lowercase_FR_On: "on " # bouclier
  # FR_ArtifactWeaponBaseType_Le
  weapon_axe_inspiration_name_FR_Le: "la " # hache
@@ -1069,14 +1071,14 @@
  book_subject_inspiration_description_FR_Inf: "écrire sur [ROOT.Char.Custom('ArtifactBookSubject')]"
  weapon_inspiration_description_FR_Inf: "forger une arme magnifique"
  weapon_set_type_inspiration_description_FR_Inf: "forger [ROOT.Char.Custom('ArtifactWeaponType')]"
- armor_inspiration_description_FR_Inf:1 "fabriquer une grande armure"
- armor_set_type_inspiration_description_FR_Inf:1 "fabriquer un[ROOT.Char.Custom('FR_ArtifactArmorTypeLowercase_E')] [ROOT.Char.Custom('ArtifactArmorTypeLowercase')]"
+ armor_inspiration_description_FR_Inf: "fabriquer une grande armure"
+ armor_set_type_inspiration_description_FR_Inf: "fabriquer un[ROOT.Char.Custom('FR_ArtifactArmorTypeLowercase_E')] [ROOT.Char.Custom('ArtifactArmorTypeLowercase')]"
  weaver_inspiration_description_FR_Inf: "tisser quelque chose de glorieux"
- weaver_inspiration_description_set_scene_FR_Inf:1 "tisser [ROOT.Char.Custom('InspirationTapestryScene')]"
+ weaver_inspiration_description_set_scene_FR_Inf: "tisser [ROOT.Char.Custom('InspirationTapestryScene')]"
  adventure_inspiration_description_FR_Inf: "partir à l’aventure"
  adventure_inspiration_description_destination_FR_Inf: "aller [ROOT.Char.Custom('FR_InspirationAdventureDestination_En')][ROOT.Char.Custom('InspirationAdventureDestination')]"
  artisan_inspiration_description_set_type_FR_Inf: "fabriquer [ROOT.Char.Custom('InspirationArtisanType')]"
- artisan_inspiration_description_FR_Inf:1 "fabriquer quelque chose de merveilleux"
+ artisan_inspiration_description_FR_Inf: "fabriquer quelque chose de merveilleux"
  smith_inspiration_description_set_type_FR_Inf: "forger [ROOT.Char.Custom('InspirationSmithType')]"
  smith_inspiration_description_FR_Inf: "forger quelque chose de merveilleux"
  alchemy_inspiration_description_FR_Inf: "étudier l’alchimie"
@@ -1085,6 +1087,7 @@
  inspiration_alchemy_type_panacea_FR_Inf: "créer un remède contre toutes les maladies"
  inspiration_alchemy_type_immortality_FR_Inf: "étudier l’immortalité"
  weaver_inspiration_description_banner_FR_Inf: "tisser [ROOT.Char.Custom('InspirationBannerType')]"
+ research_inspiration_description_FR_Inf: "consulter les bibliothèques et les vieux livres"
  # FR_GetRandomPositiveTrait_OnA
  trait_beauty_good_1_FR_On: "on physique avenant"
  trait_beauty_good_male_2_FR_On: "a beauté"

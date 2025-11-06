@@ -49,7 +49,7 @@
  practicing_with_palfrey_desc: "Este personaje no nació sobre la silla, pero ha practicado la equitación con una montura adecuada"
  ## Court Event 7620
  peregrine_falcon: "Rapaz de caza"
- peregrine_falcon_desc: "Este personaje posee un halcón o un gavilán, un ave de presa prestigiosa que emplea para cazar y lucirse.\n#weak Mejora la [hunt_success_chance|lE] de $hunt_type_falconry|l$#!"
+ peregrine_falcon_desc: "Este personaje posee un halcón o un gavilán, un ave de presa prestigiosa que emplea para cazar y lucirse.\n#weak Mejora la [hunt_success_chance|lE] de $hunt_type_falconry$#!"
  ## Court Event 7630
  master_of_horse_cavalry_bonus: "$master_of_horse_court_position$ motivado"
  master_of_horse_cavalry_bonus_desc: "El [GetCourtPositionType('master_of_horse_court_position').GetName()] de este personaje tiene motivos para esforzarse más en la ardua labor de instruir a otra gente a cuidar bien de los caballos."

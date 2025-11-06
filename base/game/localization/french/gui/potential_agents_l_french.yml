@@ -43,5 +43,6 @@
  RESPECTED_HOST: "[target.Custom('FR_le_Char_U_Pi')|U][target.GetShortUINameNoTooltip] est un[target.Custom('FR_E')] hôt[target.Custom('FR_EEsse')] estimé[target.Custom('FR_E')] : $VALUE|+0$"
  IS_POLITICKER: "Ma [accolade|El] encourage la ruse politique amorale : $VALUE|+0$"
  SCHEME_TAUGHT_TO_SCHEME: "Vous m’avez appris à intriguer pour vous : $VALUE|+0$"
+ IS_PART_OF_STRUGGLE: "[Select_CString(target.IsLocalPlayer,'Votre participation','Participation')][target.LocalPlayerString('', 'Loc_FR_du_GetShortUINameNoTooltip')] à la [struggle|El] : $VALUE|+0$"
  INTRIGUE_EDUCATION_5_BONUS: "[GetTrait('education_intrigue_5').GetName( GetNullCharacter )] : $VALUE|+0$"
  SCHEME_DUTIOUS_FAMILY: "Vous êtes inflexible quant au devoir familial : $VALUE|+0$"

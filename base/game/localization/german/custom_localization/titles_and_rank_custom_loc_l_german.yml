@@ -49,3 +49,5 @@
  not_in_realm_alliance_current_situation: "[second.Custom('DE_PRO_PER_S_3P_N')|U] hat @soldier_icon![second.GetMilitaryStrengthText] [soldiers|E], die in Euren [Concept('wars','Kriegen')|E] helfen könnten."
  in_realm_alliance_current_situation: "Bündnisse mit Vasallen verhindern, dass diese sich [factions|E] anschließen können; sie können allerdings nicht in den [war|E] gerufen werden."
  current_situation_blank: ""
+ GetIncumbentOrNone.holder: "[ROOT.Title.GetHolder.GetShortUIName]"
+ GetIncumbentOrNone.uncreated: "[ROOT.Title.GetBaseName]"

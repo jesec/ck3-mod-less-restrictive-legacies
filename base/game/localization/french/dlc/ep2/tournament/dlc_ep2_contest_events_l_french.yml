@@ -373,7 +373,7 @@
  contest_events.0810.a.good_win: "Des hourras pour [contest_winner.GetFirstNameNoTooltip] !"
  contest_events.0810.a.good_lose: "Ce n’était pas votre jour, [contest_loser.GetFirstNameNoTooltip] !"
  contest_events.0810.a.house: "Belle prestation de la Maison [contest_winner.GetHouse.GetBaseNameNoTooltip] !"
- contest_events.0810.a.house_won: "La Maison [contest_winner.GetCulture.GetNameNoTooltip] est victorieuse !"
+ contest_events.0810.a.house_won: "La Maison [contest_winner.GetHouse.GetBaseNameNoTooltip] est victorieuse !"
  contest_events.0810.a.house_lost: "Ce n’est pas un grand jour pour la Maison [contest_loser.GetHouse.GetBaseNameNoTooltip]..."
  contest_events.0810.a: "Quelle belle épreuve !"
  contest_events.0810.b: "Saisissez c[contest_winner.Custom('FR_EEtte')] crimine[contest_winner.Custom('FR_LLle')] !"
@@ -881,12 +881,12 @@
  contest_events.5570.c: "Je ne me déshonorerai pas en trichant."
  ### TOOLTIPS ###
  #VERSUS
- contestant_score_increase_massive_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Votre','Le')] score[THIS.Char.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')] #positive_value augmente très considérablement#!#!"
+ contestant_score_increase_massive_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Votre','Le')] score[THIS.Char.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')] #positive_value augmente énormément#!"
  contestant_score_increase_major_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Votre','Le')] score[THIS.Char.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')] #positive_value augmente fortement#!"
  contestant_score_increase_medium_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Votre','Le')] score[THIS.Char.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')] #positive_value augmente modérément#!"
  contestant_score_increase_minor_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Votre','Le')] score[THIS.Char.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')] #positive_value augmente légèrement#!"
  contestant_score_increase_miniscule_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Votre','Le')] score[THIS.Char.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')] #positive_value augmente un tout petit peu#!"
- contestant_score_decrease_massive_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Votre','Le')] score[THIS.Char.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')] #negative_value diminue très considérablement#!#!"
+ contestant_score_decrease_massive_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Votre','Le')] score[THIS.Char.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')] #negative_value diminue très considérablement#!"
  contestant_score_decrease_major_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Votre','Le')] score[THIS.Char.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')] #negative_value diminue fortement#!"
  contestant_score_decrease_medium_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Votre','Le')] score[THIS.Char.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')] #negative_value diminue modérément#!"
  contestant_score_decrease_minor_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Votre','Le')] score[THIS.Char.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')] #negative_value diminue légèrement#!"

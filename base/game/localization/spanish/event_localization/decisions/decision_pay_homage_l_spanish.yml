@@ -5,7 +5,7 @@
  pay_homage_decision_tooltip: "[Concept( 'pay_homage', 'Rendir homenaje' )|E] formal a tu [liege|lE]"
  pay_homage_decision_effects: "Viajas a la corte [THIS.Char.GetLiege.Custom('ES_DelDela')] [THIS.Char.GetLiege.GetTitledFirstName|l] para rendir homenaje"
  pay_homage_decision_confirm: "$pay_homage_decision$"
- pay_homage_decision_second_tooltip: "$DESC$\n$pay_homage_grace_tt$\n\n$IS_VALID_BLOCKER$"
+ pay_homage_decision_second_tooltip: "$DESC$\n$pay_homage_grace_tt$"
  pay_homage_grace_tt: "#weak Solo se puede rendir homenaje al mismo señor una vez#!"
  pay_homage_gift_warning_effect: "#weak Los regalos aumentan las recompensas por rendir homenaje#!\n$pay_homage_grace_tt$"
  pay_homage_grace_valid_tt: "No ha rendido [Concept( 'pay_homage', 'homenaje' )|E] a [THIS.Char.GetLiege.GetTitledFirstName|l] antes"

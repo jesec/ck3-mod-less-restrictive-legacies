@@ -4,6 +4,7 @@
  ALL_POOL_CHARACTERS: "所有在池内的角色："
  ANY_POOL_CHARACTER: "任一在池内的角色："
  ANY_OF_CHARACTERS_VASSALS: "[CHARACTER.GetShortUINamePossessive]的任一[vassals|E]："
+ ANY_OF_CHARACTERS_VASSALS_OR_BELOW: "任意[CHARACTER.GetShortUINamePossessive]的[vassals|E]或其下的[landed|E]角色："
  ALL_OF_CHARACTERS_VASSALS: "[CHARACTER.GetShortUINamePossessive]的所有[vassals|E]："
  ANY_OF_CHARACTERS_VASSALS_PERCENT: "[CHARACTER.GetShortUINamePossessive][vassals|E]中的$PARAMETERS$："
  ANY_OF_CHARACTERS_VASSALS_COUNT: "[CHARACTER.GetShortUINamePossessive][vassals|E]中的$PARAMETERS$："

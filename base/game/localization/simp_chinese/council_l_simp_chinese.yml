@@ -30,6 +30,13 @@
  COUNCILLOR_MISSING_SPOUSE: "你没有[available_spouse|E]"
  COUNCILLOR_LIEGE_MISSING_SPOUSE: "[CouncilWindow.GetCharacter.GetShortUIName]没有[available_spouse|E]"
  COUNCILLOR_WILL_BE_ASSIGNED: "该[councillor|E]将被委派"
+ COUNCILLOR_MISSING_VIZIER: "你没有[vizier|E]或[spouse|E]"
+ COUNCILLOR_LIEGE_MISSING_VIZIER: "[CouncilWindow.GetCharacter.GetShortUIName]没有[vizier|E]或[spouse|E]"
+ COUNCILLOR_MISSING_CHANCELLOR: "你没有[chancellor|E]"
+ COUNCILLOR_MISSING_MARSHAL: "你没有[marshal|E]"
+ COUNCILLOR_MISSING_STEWARD: "你没有[steward|E]"
+ COUNCILLOR_MISSING_SPYMASTER: "你没有[spymaster|E]"
+ COUNCILLOR_MISSING_COURT_CHAPLAIN: "你没有[court_chaplain|E]"
  learn_on_the_job_modifier: "$learn_on_the_job_perk_name$"
  councillor_coregent: "共治者"
  councillor_coregent_possessive: "共治者"
@@ -43,6 +50,9 @@
  councillor_spymaster_possessive: "间谍首脑"
  councillor_court_chaplain: "宫廷司祭"
  councillor_court_chaplain_possessive: "宫廷司祭"
+ councillor_vizier: "心腹"
+ councillor_vizier_desc: "作为[clan_government|E]统治者，你可以决定将你的[vizier|E]或任意[spouses|E]任命为心腹。无论你选择谁，都会在你的日常任务中支持你。"
+ councillor_vizier_possessive: "心腹"
  #Flavor localization for Court Chaplains, sorted by Religion.
  #Fallback
  councillor_court_chaplain_theocrat_county: "隶属主教"

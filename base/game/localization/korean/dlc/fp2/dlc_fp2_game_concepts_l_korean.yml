@@ -46,6 +46,7 @@
  game_concept_dissolution_faction: "해체 파벌"
  game_concept_dissolution_factions: "해체 파벌"
  game_concept_faction_dissolution: "해체 파벌"
+ game_concept_dissolution_faction_dissolved: "해체"
  game_concept_dissolution_faction_desc: "[dissolution_faction|E]은 [liege|E]의 [realm|E]을 파괴하는 것이 목적인 집단입니다. 이들이 목적을 달성하면 봉역 내 모든 봉신은 [independent|E] 상태가 되고, 봉신들의 주군은 [primary_title|E]을 잃습니다."
  game_concept_improve_city_province_decision: "$improve_city_province_decision_name$ 결단"
  game_concept_improve_city_province_decision_desc: "[city_holding|E]에서 이용할 수 있는 [buildings|E]의 수를 늘리는 [decision|E]입니다."

@@ -49,3 +49,5 @@
  not_in_realm_alliance_current_situation: "대상은 @soldier_icon![second.GetMilitaryStrengthText]의 [soldiers|E]를 보유 중입니다. 당신의 [wars|E] 수행에 도움이 될 것입니다."
  in_realm_alliance_current_situation: "봉신과 동맹을 체결하면 [factions|E] 가담을 방지할 수 있으나 [war|E]에 부를 수는 없습니다."
  current_situation_blank: ""
+ GetIncumbentOrNone.holder: "[ROOT.Title.GetHolder.GetShortUIName]"
+ GetIncumbentOrNone.uncreated: "[ROOT.Title.GetBaseName]"

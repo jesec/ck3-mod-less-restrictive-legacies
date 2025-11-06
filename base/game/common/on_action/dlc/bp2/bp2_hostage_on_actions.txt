@@ -481,6 +481,7 @@ on_hostage_arrive_at_warden = {
 								cancel_travel_plan = yes
 							}
 						}
+						set_location_to_default = yes
 					}
 				}
 			}

@@ -601,7 +601,7 @@
  culture_parameter_no_limit_to_kingdom_level_holy_wars: "任何[ruler|E]能发动的[kingdom|E]级[holy_wars|E]的数量没有限制"
  culture_parameter_cb_lower_piety_level_requirement: "所有对[piety_level|E]有需求的[casus_bellis|E]，需要的虔诚等级减少1"
  culture_parameter_can_host_joust_contests: "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'can_host_joust_contests_custom_effect_description_TOTO_DLC', 'can_host_joust_contests_custom_effect_description_NO_TOTO_DLC' )]"
- can_host_joust_contests_custom_effect_description_TOTO_DLC: "可以在[GetActivityType( 'activity_tournament' ).GetName]中举行马上比武[contests|E]"
+ can_host_joust_contests_custom_effect_description_TOTO_DLC: "可以在[GetActivityType( 'activity_tournament' ).GetName]中举行马上比武[contest|E]"
  can_host_joust_contests_custom_effect_description_NO_TOTO_DLC: ""
  culture_parameter_just_trait_gives_bonuses: "[GetTrait('just').GetName( GetNullCharacter )][trait|E]拥有额外增益"
  culture_parameter_trade_port_building_bonuses: "该[culture|E]的[counties|E]中的#V $building_type_common_tradeport_01$#!线[buildings|E]产出额外税收"
@@ -712,7 +712,7 @@
  ACCEPTANCE_BASELINE_CLOSE_PLURALISTS: "[cultures|E]间地理位置接近，且主流[faiths|E]都有[GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName]教义"
  ACCEPTANCE_BASELINE_FAITH: "[cultures|E]的主流[faith|E]相同"
  TRADITION_ASTUTE_DIPLOMATS_ACCEPTANCE_MODIFIER: "$tradition_astute_diplomats_name$[tradition|E]：$VALUE|=+0$"
- CULTURE_HARD_TO_CONVERT_REASON: "$tradition_zealous_people_name$[culture_tradition|E]"
+ CULTURE_HARD_TO_CONVERT_REASON: "$tradition_zealous_people_name$[culture_tradition|E]：$VALUE|=+0$"
  TRADITION_RELIGION_BLENDING_CONVERSION_MODIFIER: "$tradition_religion_blending_name$[culture_tradition|E]"
  TRADITION_HARDER_TO_CONVERT_CONVERSION_MODIFIER: "$CULTURE_HARD_TO_CONVERT_REASON$"
  TRADITION_BREAKDOWN_LAW_REALM_SIZE_COST: "$KEY$：$VALUE|=-0$#Weak （来自[traditions|E]：#P -50%#!）#!"
@@ -727,6 +727,8 @@
  20_percent_churches: "该[culture|E]中拥有[temple|E]的[counties|E]比例低于#V 20%#!"
  must_be_feudal_or_clan: "你必须拥有[feudal|E]或[clan|E][government|E]"
  only_one_marriage_tradition_allowed: "只能拥有一种[marriage|E][tradition|E]，以下传统不能合并：$tradition_monogamous_name$、$tradition_polygamous_name$和$tradition_concubines_name$"
+ no_warrior_culture: "$tradition_fp3_beacon_of_learning_name$与$tradition_warrior_culture$不相容"
+ no_philosopher_culture: "$tradition_fp3_beacon_of_learning_name$与$tradition_philosopher_culture_name$不相容"
  culture_in_winter_geographical_region_trigger_desc: "该[culture|E]未处于会经历冬季的[region|E]"
  culture_in_non_sedentary_geographical_region_trigger_desc: "该[culture|E]在[GetGeographicalRegion('world_steppe').GetName]不存在"
  #culture_in_britannia_region_trigger_desc: "The [culture|E] is not present in [GetGeographicalRegion('world_europe_west_britannia').GetName]"
@@ -799,6 +801,7 @@
  ## Bureaucratic.
  not_bureaucratic_courtly_or_egalitarian_desc: "该[culture|E]没有$ethos_bureaucratic_name$、$ethos_courtly_name$或$ethos_egalitarian_name$的[ethos|E]"
  not_bureaucratic_spiritual_or_egalitarian_desc: "该[culture|E]没有$ethos_bureaucratic_name$、$ethos_spiritual_name$或$ethos_egalitarian_name$的[ethos|E]"
+ not_bureaucratic_courtly_or_spiritual_desc: "[culture|E]没有$ethos_bureaucratic_name$，$ethos_courtly_name$或$ethos_spiritual_name$[ethos|E]"
  ## Spiritual.
  ## Courtly.
  not_courtly_communal_or_spiritual_desc: "该[culture|E]没有$ethos_courtly_name$、$ethos_communal_name$或$ethos_spiritual_name$的[ethos|E]"
@@ -1067,6 +1070,7 @@
  culture_parameter_drylands_hunt_success_chance: "提高[GetTerrain( 'drylands' ).GetName]和[GetTerrain( 'desert' ).GetName]中的[hunt_success_chance|E]"
  culture_parameter_jungle_hunt_success_chance: "提高[GetTerrain( 'jungle' ).GetName]中的[hunt_success_chance|E]"
  culture_parameter_wetlands_hunt_success_chance: "提高[GetTerrain( 'wetlands' ).GetName]和[GetTerrain( 'wetlands' ).floodplains]中的[hunt_success_chance|E]"
+ can_host_joust_contests_name: "[GetCultureTradition('tradition_chanson_de_geste').GetName]或[GetCultureTradition('tradition_chivalry').GetName]"
  #BP2 Traditions
  tradition_noble_adoption_name: "贵族收养"
  tradition_noble_adoption_desc: "在这个社会中，贵胄收养孤儿是司空见惯的事情。契约之血浓于羊水。"

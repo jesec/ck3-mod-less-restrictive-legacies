@@ -9,6 +9,7 @@
  FACTION_BUTTON: "#T 파벌#!"
  PRISON_BUTTON: "#T 죄수#!"
  COURT_BUTTON: "#T 궁정 신하#!"
+ TAX_JURISDICTIONS_BUTTON: "#T 조세 관할권#!"
  IM_TT_FIND_TITLE: "#T 작위 찾기#!\n게임 내의 모든 [title|E]를 검색합니다."
  IM_TT_SHOW_LEGACY: "#T 혈통 표시#!\n플레이한 모든 인물을 표시합니다."
  IM_TT_FIND_CHARACTER: "#T 인물 찾기#!\n게임 내에 살아있는 인물들을 검색합니다."
@@ -210,3 +211,4 @@
  DE_JURE_HIERARCHY: "[de_jure|E] 계통"
  TT_AWAY_FROM_CAPITAL_WIDGET: "#T 수도에서 부재중#!\n현재 [Character.GetCurrentLocation.GetName]에 있는 [realm_capital|E] [Character.GetCapitalLocation.GetName]에서 부재중인 상태입니다.\n\n#I 클릭하여 [travel|E] 계획서 보기#!"
  ACTIVITY_VIEW_TRAVEL: "여행 보기"
+ SELECT_VALID_OPTION: "유효한 옵션 선택"

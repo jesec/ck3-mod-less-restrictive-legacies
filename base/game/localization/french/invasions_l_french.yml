@@ -16,7 +16,7 @@
  almohad.1003.a: "Ces fanatiques reviennent sans cesse !"
  almohad.1003.a.tt: "Les Almohades sont de retour, plus forts que jamais."
  almohad.1004.t: "Contrôle de Marrakech"
- almohad.1004.desc: "Jadis capitale impériale, [marrakesh.GetTitle] est maintenant sous mon contrôle, comme il se doit. Cependant, l’influence [old_faith.GetAdjective] y est encore forte, et les [masmudi.GetAdherentNamePlural] sont impatients de la voir refaite à mon image.\n\nIl semble dommage de détruire autant de palais et de temples en parfait état, mais cela pourrait être nécessaire pour réaliser mon ambition d’amener le Maghreb dans la lumière."
+ almohad.1004.desc: "Jadis capitale impériale, [marrakesh.GetNameNoTier] est maintenant sous mon contrôle, comme il se doit. Cependant, l’influence [old_faith.GetAdjective] y est encore forte, et les [masmudi.GetAdherentNamePlural] sont impatients de la voir refaite à mon image.\n\nIl semble dommage de détruire autant de palais et de temples en parfait état, mais cela pourrait être nécessaire pour réaliser mon ambition d’amener le Maghreb dans la lumière."
  almohad.1004.a: "Nous en ferons notre nouvelle capitale [masmudi.GetAdjective] !"
  almohad.1004.b: "Construisons une nouvelle ville, encore plus grande !"
  almohad.1004.c: "Ce n’est peut-être pas la ligne de conduite la plus sage..."

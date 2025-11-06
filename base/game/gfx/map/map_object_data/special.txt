@@ -173,3 +173,13 @@ object={
 	pdxmesh="building_special_tower_of_london_mesh"
 	count=0
 }
+object={
+	name="wall_of_gurgan"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp3_building_special_great_wall_of_gorgan_01_a_mesh"
+	count=1
+	transform="3809.242188 0.000000 1819.354614 0.000000 -0.077906 0.000000 0.464339 0.663744 0.663744 0.663744
+"}

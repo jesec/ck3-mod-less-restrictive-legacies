@@ -11,3 +11,5 @@
  HAS_DYNASTY_TRIGGER: "Pertenece a una [dynasty|lE]"
  DYNASTY_NUM_UNLOCKED_PERKS: "Dones desbloqueados: $NUM|V0$"
  HAS_DYNASTY_PERK_NONE: "La [dynasty|lE] tiene el legado [DYNASTY_PERK.GetName|l]"
+ NOT_HAS_DYNASTY_PERK: "La [dynasty|lE] [DYNASTY.GetBaseName] no tiene el legado [DYNASTY_PERK.GetName]"
+ HAS_DYNASTY_PERK: "La [dynasty|lE] [DYNASTY.GetBaseName] tiene el legado [DYNASTY_PERK.GetName]"

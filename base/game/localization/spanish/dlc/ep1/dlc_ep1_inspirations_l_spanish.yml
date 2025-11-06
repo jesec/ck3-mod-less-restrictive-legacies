@@ -53,6 +53,8 @@
  smith_inspiration_desc: "Un personaje con una inspiración metalera se sentirá [inspired|lE] a forjar algo más extravagante y pequeño que una espada o una armadura. Son artistas que hacen coronas o cálices, relucientes y enjoyados."
  alchemy_inspiration: "Inspiración alquímica"
  alchemy_inspiration_desc: "Un personaje que tiene una Inspiración alquímica está [inspired|lE] para explorar, purificar y crear sustancias y metales, crear elixires y, en última instancia, perfeccionar el cuerpo y el alma humanos."
+ research_inspiration: "Inspiración de investigación"
+ research_inspiration_desc: "Un personaje que tenga una inspiración de investigación se siente [inspired|lE] para descubrir un nuevo conocimiento que beneficie a su [sponsor|lE]. Si tiene éxito, mejorará el aprendizaje en la [dynasty|lE] de su mecenas, o incluso descubrirá una nueva [innovation|lE] para su cultura."
  weapon_inspiration_cost_tt: "Las inspiraciones de arma se basan en [martial|lE] y [prowess|lE]"
  armor_inspiration_cost_tt: "Las inspiraciones de armadura se basan en [martial|lE] y [prowess|lE]"
  book_inspiration_cost_tt: "Las inspiraciones literarias se basan en [learning|lE]"

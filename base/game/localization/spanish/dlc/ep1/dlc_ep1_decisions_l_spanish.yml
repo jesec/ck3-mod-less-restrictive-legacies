@@ -6,7 +6,7 @@
  order_mass_eviction_decision_confirm: "¡El espacio está muy cotizado!"
  AT_LEAST_ONE_GUEST_TRIGGER: "Tienes al menos 1 [guest|lE]"
  AT_LEAST_ONE_UNIMPORTANT_COURTIER_TRIGGER: "Tienes al menos 1 [courtier|lE] sin importancia"
- exoticise_a_grand_hall_decision: "Dar una aspecto exótico a una gran sala"
+ exoticise_a_grand_hall_decision: "Dar aspecto exótico a una gran sala"
  exoticise_a_grand_hall_decision_desc: "Mi corte está llena de una sala tras otra, lo suficiente como para que incluso algunas de nuestras salas más impresionantes no se utilicen durante gran parte del año.\n\nCon tanta arquitectura para estilizar y decorar, seguro que podemos permitirnos gastar en algo modelado en un estilo radicalmente diferente."
  exoticise_a_grand_hall_decision_tooltip: "Redecorar parte de tu palacio al estilo de otra [royal_court|lE]"
  exoticise_a_grand_hall_decision.tt.you_ponder: "Consideras otros [kingdoms|lE] y [empires|lE]…"

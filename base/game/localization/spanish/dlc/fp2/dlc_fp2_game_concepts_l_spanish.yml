@@ -46,6 +46,7 @@
  game_concept_dissolution_faction: "Facción disgregadora"
  game_concept_dissolution_factions: "Facciones disgregradoras"
  game_concept_faction_dissolution: "Disgregación"
+ game_concept_dissolution_faction_dissolved: "Disuelta"
  game_concept_dissolution_faction_desc: "Una [dissolution_faction|lE] busca destruir el [realm|lE] de su [liege|lE]. Si tiene éxito, todos los vasallos del señorío serán [Concept( 'independent', 'independientes' )|E] y su señor perderá su [primary_title|lE]."
  game_concept_improve_city_province_decision: "Decisión $improve_city_province_decision_name$"
  game_concept_improve_city_province_decision_desc: "Una [decision|lE] que te permite aumentar el número de [buildings|lE] disponibles en una [city_holding|lE]."

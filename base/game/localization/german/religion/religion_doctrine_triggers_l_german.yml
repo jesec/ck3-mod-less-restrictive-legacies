@@ -38,6 +38,7 @@
  INCOMPATIBLE_WITH_ALL_CRIMINAL_DOCTRINES: "Unvereinbar mit allen [doctrines|E], die bestimmte Handlungen als [criminal|E] erachten"
  ADULTERY_MUST_BE_FULLY_ACCEPTED: "Unvereinbar mit allen [Concept('doctrine', 'Doktrinen')|E], die Ehebruch als [shunned|E] oder [criminal|E] erachten"
  REQUIRES_EXALTATION: "Erfordert den [core_tenet|E] „$tenet_carnal_exaltation_name$“"
+ FEDAYEEN_REQUIRED_DOCTRINES_TRIGGER: "Erfordert einen der folgenden [core_tenets|E]:\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_warmonger').GetName(GetPlayer.GetFaith)]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_unrelenting_faith').GetName(GetPlayer.GetFaith)]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_consolamentum').GetName(GetPlayer.GetFaith)]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_armed_pilgrimages').GetName(GetPlayer.GetFaith)]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_struggle_submission').GetName(GetPlayer.GetFaith)]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_pursuit_of_power').GetName(GetPlayer.GetFaith)]"
  HAS_DOCTRINE: "Hat die Doktrin [FAITH_DOCTRINE.GetName(FAITH.Self)]"
  NOT_HAS_DOCTRINE: "Hat die Doktrin [FAITH_DOCTRINE.GetName(FAITH.Self)] #bold nicht#!"
  I_HAVE_DOCTRINE: "Euer [faith|E] hat die Doktrin [FAITH_DOCTRINE.GetName(FAITH.Self)]"

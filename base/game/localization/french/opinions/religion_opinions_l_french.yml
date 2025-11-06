@@ -26,3 +26,7 @@
  rf_eastern_opinion: "Opinion orientale"
  rf_pagan_opinion: "Opinion païenne"
  rf_abrahamic_opinion: "Opinion [GetReligionFamily('rf_abrahamic').GetName|l]"
+ ashari_opinion: "Opinion [GetFaithByKey('ashari').GetAdjective]"
+ muwalladi_opinion: "Opinion [GetFaithByKey('muwalladi').GetAdjective]"
+ maturidi_opinion: "Opinion [GetFaithByKey('maturidi').GetAdjective]"
+ mutazila_opinion: "Opinion [GetFaithByKey('mutazila').GetAdjective]"

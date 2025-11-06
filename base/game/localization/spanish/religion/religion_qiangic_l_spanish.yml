@@ -89,9 +89,9 @@
  rrmeaism_adherent_plural: "vvluphim"
  rrmeaism_desc: "La religión de los rrmea (o qiang) concentra mucho de su culto en la veneración a piedras de pedernal blanco, o vvluphi. Los sacerdotes-chamanes conocidos como xbi llevan un sombrero de piel de mono y tocan un tambor de piel de oveja en la celebración de los rituales."
  rrmeaism_old: "Antiguo vvluphixje"
- rrmeaism_old_adj: "antigua vvluphixje"
+ rrmeaism_old_adj: "vvluphixje antigua"
  rrmeaism_old_adherent: "vvluphim viejo"
- rrmeaism_old_adherent_plural: "Vvluphim viejos"
+ rrmeaism_old_adherent_plural: "vvluphim viejos"
  #Melieism (Tangut Root West)
  melieism: "Melie" #lit. Root West
  melieism_adj: "melie"
@@ -99,7 +99,7 @@
  melieism_adherent_plural: "melieístas"
  melieism_desc: "Las creencias nativas de los tanguts se centran en que la Grulla Blanca es el aspecto celestial masculino de lo divino, mientras que se entiende que el Mono Rojo es el aspecto terrenal femenino. Así, la sociedad tangut no budista se dividía en dos clases según estos principios: los «cabezas negras» sacerdotales y los plebeyos «caras rojas»."
  melieism_old: "Antiguo melie"
- melieism_old_adj: "antigua melie"
+ melieism_old_adj: "melie antigua"
  melieism_old_adherent: "melieísta viejo"
  melieism_old_adherent_plural: "melieístas viejos"
  tangut_high_god_name: "Mewn" #lit. Crane

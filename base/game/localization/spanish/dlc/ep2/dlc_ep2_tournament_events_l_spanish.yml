@@ -377,7 +377,7 @@
  ep2_tournament_events.3502.b: "Qué vergüenza continua es este torneo."
  ep2_tournament_events.3502.c: "Pagaré su reparación."
  ep2_tournament_events.3502.d: "¡Un golpe impresionante, [competitor.GetFirstNameNoTooltip]!"
- ep2_tournament_events.3503.t: "$tournament_header$ El $knight_culture_player_no_tooltip|l$ desdichado"
+ ep2_tournament_events.3503.t: "$tournament_header$ El $knight_culture_player_no_tooltip_lowercase$ desdichado"
  ep2_tournament_events.3503.desc: "El público truena de forma extraña, una mitad gime y la otra… ¿está eufórica? Miro entre las filas de competidores y suspiro involuntariamente. [hapless_knight.GetFirstName] se ha pasado todo el entrenamiento hasta ahora fallando estrepitosamente y en estos momentos se prepara para otra tentativa.\n\nCuando se acerca, se le cae la lanza por completo. [hapless_knight.GetFirstNameNoTooltip], presa del pánico, levanta la vista a tiempo para que el estafermo le #EMP golpee#! en el pecho. Sus brazos salen disparados y se aferran salvajemente al poste, pero el impulso [hapless_knight.Custom('ES_LoLa')] desplaza. Unos segundos más tarde, [hapless_knight.GetFirstNameNoTooltip] se balancea indefens[hapless_knight.Custom('ES_OA')] en el extremo del poste, varad[hapless_knight.Custom('ES_OA')] en el aire."
  ep2_tournament_events.3503.a: "¡Qué don para la comedia física!"
  ep2_tournament_events.3503.a.tt.success: "[hapless_knight.GetFirstNameNoTooltip] acepta tu oferta de empleo"

@@ -220,3 +220,9 @@
  innovation_deccan_unity: "Unité du deccan"
  innovation_deccan_unity_desc: "L’afflux de nouvelles croyances et religions dans notre société a clairement montré que notre focalisation passée sur le régionalisme était une erreur. Nous devrions nous unir aux autres croyants et assurer un État fort et durable capable de résister aux pressions extérieures."
  students_of_knighthood: "Les enfants qui terminent leur [education|El] avec un [education_focus|El] en [martial|El] obtiennent un [trait|El] $trait_education_martial_prowess$"
+ #Sponsor Research Related
+ fp3_innovation_mural_sextant: "Sextant mural"
+ fp3_innovation_mural_sextant_desc: "Ces grands instruments muraux permettent de lire et de mesurer avec précision la position des objets célestes."
+ fp3_innovation_fritware: "Porcelaine tendre"
+ fp3_innovation_fritware_desc: "De belles poteries en pierre qui sont à l’image de la porcelaine orientale, car on y ajoute des matériaux tels que le quartz ou le verre. Elles constituent des objets de valeur ou des cadeaux impressionnants."
+ fp3_innovation_fritware_tooltip: "Gain d’[opinion|El] de l’[interaction|El] [send_gift|El] : #P +20%#!"

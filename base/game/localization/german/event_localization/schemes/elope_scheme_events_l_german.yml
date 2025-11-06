@@ -19,7 +19,7 @@
  elope.1001.a: "Schnell, mein Liebling! Der [ROOT.Char.Custom('DefaultPriestTitle')] wartet!"
  #Success for target liege
  elope.1002.t: "In der Nacht verschwunden"
- elope.1002.start.desc: "Ich werde von einem lauten Klopfen an meiner Tür geweckt. „Mein[target.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip]! Eine Wache wurde tot aufgefunden und [target.Custom('DE_PRO_POS_P_2P_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] ist verschwunden!“"
+ elope.1002.start.desc: "Ich werde von einem lauten Klopfen an meiner Tür geweckt. „Mein[target.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip]! Eine Wache wurde tot aufgefunden und [target.Custom('DE_PRO_POS_P_2P_N')|U] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] ist verschwunden!“"
  elope.1002.desc_naked: "Ich erhebe mich schleunigst aus dem Bett und rufe schon Befehle, noch ehe ich zur Tür hinaus bin."
  elope.1002.desc_not_naked: "Ich erhebe mich schleunigst aus dem Bett und rufe schon Befehle, während ich mich noch ankleide."
  elope.1002.desc: "\n\nDie Suche dauert Stunden. Erst mittags findet man einen Brief, der von [target.GetTitledFirstName] unterzeichnet ist. Das ist eindeutig [target.Custom('DE_PRO_POS_S_3P')]e Handschrift.\n\n"

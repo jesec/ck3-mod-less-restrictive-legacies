@@ -155,7 +155,7 @@
  gallant_perk_name: "용감무쌍"
  #Other
  groomed_to_rule_msg_title: "조기 교육"
- LOYALTY_AND_RESPECT_PERK_STATS_EFFECT: "[spouse|E] [councillor_tasks|E]의 [skills|E] 효과: #p +25%#!"
+ LOYALTY_AND_RESPECT_PERK_STATS_EFFECT: "[spouse|E] 또는 [vizier|E] [councillor_tasks|E]로 인한 [skills|E]: #p +25%#!"
  dark_insight_gain_stats_tt: "[GetPerk('dark_insights_perk').GetName(GetPlayer)] 중 무언가를 획득 가능"
  dark_insights_maximum_insight_tt: "이미 가능한 모든 [GetPerk('dark_insights_perk').GetName(GetPlayer)] 습득"
  dark_insights_gain_message: "어두운 통찰"

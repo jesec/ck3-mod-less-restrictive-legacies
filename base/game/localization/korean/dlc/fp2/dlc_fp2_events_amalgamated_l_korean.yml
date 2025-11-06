@@ -419,7 +419,6 @@
  fp2_struggle.3001.c: "잠깐! 이 집구석에서 나만 왕관이 있는 건 아니잖아?"
  fp2_struggle.3001.c_flavour: "배우자가 왕관을 잃음"
  fp2_struggle.3001.d: "내가 이 왕관을 벗는 그날이 죽는 날일 거다!"
- nick_the_crownless: "무관의 왕"
  struggle_3001_spouse_crown_modifier: "왕관을 판매함"
  fp2_struggle.3011.t: "위기의 여인들"
  fp2_struggle.3011.desc: "\"영주님! 상상도 못 할 일이 일어났습니다!\" [struggle_3011_marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U](이)가 잠시 숨을 돌렸다. [struggle_3011_marshal.GetHerHis] 이마에는 땀방울이 송골송골 맺혀 있었다. \"[struggle_3011_county_town.GetNameNoTier] 여인들이 직접 도시를 지키겠다며 무기를 들고 일어났습니다.\""

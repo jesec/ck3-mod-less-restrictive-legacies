@@ -49,3 +49,5 @@
  not_in_realm_alliance_current_situation: "[second.GetSheHe|U]拥有@soldier_icon![second.GetMilitaryStrengthText][soldiers|E]可以加入你的[wars|E]。"
  in_realm_alliance_current_situation: "与封臣结盟可以阻止他们加入[factions|E]，但你无法召唤他们加入[war|E]。"
  current_situation_blank: ""
+ GetIncumbentOrNone.holder: "[ROOT.Title.GetHolder.GetShortUIName]"
+ GetIncumbentOrNone.uncreated: "[ROOT.Title.GetBaseName]"

@@ -121,6 +121,9 @@
  dlc_fp2_old_vasconia: "Старая Васкония"
  dlc_fp2_old_vasconia_pushed: "Старая Васкония"
  dlc_fp2_dlc_fp2_caucasian_iberia: "Кавказская Иберия"
+ #FP3
+ dlc_fp3_eastern_persian_frontier_regions: "Восточная Граница"
+ dlc_fp3_greater_persian_frontier_regions: "Великая Персидская Граница"
  #EP1
  dlc_ep1_achievement_rise_of_the_ghurids: "Исторический Гуридский султанат"
  #Seazones

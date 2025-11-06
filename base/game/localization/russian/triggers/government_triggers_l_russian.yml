@@ -6,7 +6,7 @@
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER_FIRST: "Требуется, чтобы $FLAG$ у вас"
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER_THIRD: "Требуется, чтобы $FLAG$ у [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
  GOVERNMENT_ALLOWS_TRIGGER: "[government|E] позволяет: $RULE|V$"
- THEIR_GOVERNMENT_ALLOWS_TRIGGER: "[government|E], которым управляет [CHARACTER.GetShortUINamePossessive|V], позволяет: $RULE|V$"
+ THEIR_GOVERNMENT_ALLOWS_TRIGGER: "[government|E], которым управляет [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонаж' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )], позволяет: $RULE|V$"
  GOVERNMENT_DISALLOWS_TRIGGER: "[government|E] запрещает: $RULE|V$"
  HAS_GOVERNMENT_TRIGGER_GLOBAL: "Тип правления — $GOVERNMENT|V$"
  NOT_HAS_GOVERNMENT_TRIGGER_GLOBAL: "#bold Не#! имеет форму правления «$GOVERNMENT|V$»"

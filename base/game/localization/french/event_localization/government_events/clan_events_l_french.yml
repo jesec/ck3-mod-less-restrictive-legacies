@@ -23,6 +23,7 @@
  clan.1101.t: "Équilibre des pouvoirs"
  clan.1101.desc: "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] vient se plaindre auprès de moi : « Les membres de votre famille ont trop de pouvoir. Quelle que soit l’ardeur avec laquelle nous les vassaux travaillons, nous sommes loin d’en avoir autant ! Je vous implore de remédier à cette injustice. Même une apparence de népotisme peut engendrer du ressentiment chez vos vassaux... »"
  clan.1101.a: "Je vais prendre vos préoccupations en considération."
+ clan.1101.a.flavor: "À force de palabres, vous parvenez à éviter de prendre la moindre mesure significative, tout en rassurant [vassal.GetFirstNameNoTooltip]"
  clan.1101.b: "Je vais immédiatement prendre des mesures pour régler ce problème !"
  clan.1101.b.custom: "Chaque [vassal|El] membre de votre [dynasty|El]"
  clan.1101.b.tt: "Obtient un [revoke_title_reason|El]"

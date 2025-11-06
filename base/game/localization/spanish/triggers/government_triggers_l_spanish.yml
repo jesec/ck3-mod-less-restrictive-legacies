@@ -6,7 +6,7 @@
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER_FIRST: "Requiere que tu $FLAG$"
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER_THIRD: "Requiere que $FLAG$ de [CHARACTER.GetShortUIName]"
  GOVERNMENT_ALLOWS_TRIGGER: "El [government|lE] permite: $RULE|V$"
- THEIR_GOVERNMENT_ALLOWS_TRIGGER: "El [government|lE] de [CHARACTER.GetShortUIName|V] permite: $RULE|V$"
+ THEIR_GOVERNMENT_ALLOWS_TRIGGER: "El [government|lE] de [Select_CString( CHARACTER.IsLocalPlayer, 'tu señorío', CHARACTER.GetShortUIName )|V] permite: $RULE|V$"
  GOVERNMENT_DISALLOWS_TRIGGER: "El [government|lE] no permite: $RULE|V$"
  HAS_GOVERNMENT_TRIGGER_GLOBAL: "Tiene un gobierno $GOVERNMENT|V$"
  NOT_HAS_GOVERNMENT_TRIGGER_GLOBAL: "#bold No#! tiene un gobierno $GOVERNMENT|V$"

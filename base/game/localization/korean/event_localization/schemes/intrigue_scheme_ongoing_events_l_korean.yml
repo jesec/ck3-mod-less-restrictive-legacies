@@ -166,6 +166,7 @@
  intrigue_scheme_ongoing.5013.a: "...짜잔! 이제 이놈을 떼어줘. 얼른 #EMP 떼라고#!!"
  intrigue_scheme_ongoing.5013.a.tt: "녀석을 놓쳐 버리긴 했지만, 목숨을 부지하긴 했으니..."
  intrigue_scheme_ongoing.5014.t: "호화롭고 이국적인 양탄자"
+ intrigue_scheme_ongoing.5014.t_persian: "$persian_has_plush_carpet_modifier$"
  intrigue_scheme_ongoing.5014.desc: "무늬는 호화롭고, 색상은 강렬하며, 촉감은 마치 새벽의 첫 햇살처럼 부드럽구나. 상인 하나가 나의 환심을 살 목적으로 아주 아름다운 양탄자를 선물했다.\n\n이 아름다운 작품을 감상하던 중에 번뜩 떠오르는 생각이 있었다. 이런 양탄자라면 발소리를 완전히 죽일 수 있지 않을까? 내 공모자가 여기저기를 돌아다니는 발소리까지..."
  intrigue_scheme_ongoing.5014.a: "[target.GetTitledFirstNameNoTooltip]에게 이걸 선물하면 기뻐할 테지."
  intrigue_scheme_ongoing.5014.a.success: "[target.GetSheHe|U](이)가 선물을 받음"

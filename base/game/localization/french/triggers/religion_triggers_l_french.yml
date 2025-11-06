@@ -41,3 +41,4 @@
  has_pledged_attacker: "Vous vous êtes engagé comme attaquant"
  they_have_pledged_as_attacker: "Est un attaquant engagé dans la [GREAT_HOLY_WAR.GetName|l] de votre foi"
  has_pledged_defender: "Vous vous êtes engagé comme défenseur"
+ ANY_FAITH_RULER_GLOBAL: "N’importe quel [ruler|El] [FAITH.GetAdherentName]"

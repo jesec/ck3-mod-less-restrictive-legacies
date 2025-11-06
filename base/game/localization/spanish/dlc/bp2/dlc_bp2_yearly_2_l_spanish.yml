@@ -39,7 +39,7 @@
  bp2_yearly.2011.a: "¡No hables de [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip] como si no existiera!"
  bp2_yearly.2011.b: "¿No tienes nada mejor que hacer?"
  bp2_yearly.2011.c: "Solo estoy practicando…"
- bp2_yearly.2011.bully.toast: "Conseguido $relation_bully|l$"
+ bp2_yearly.2011.bully.toast: "Conseguido $relation_bully$"
  bp2_yearly.2012.t: "Reafirmar mi autoridad"
  bp2_yearly.2012.desc: "Mi [ROOT.Char.Custom2( 'RelationToMe', regent_scope )], [regent_scope.GetFirstName], no deja de fastidiarme en todo momento. Me estoy empezando a cansar de sus complots para arrebatarme el poder que me corresponde por derecho. Por desgracia, tiene en el bolsillo a muchos de mis consejeros.\n\n«Tienes que hacerle frente», dice [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip], de repente junto a mí. «O, al menos, organizar una situación que [regent_scope.GetHerHim] deje en ridículo»."
  bp2_yearly.2012.a: "Es hora de dirigirse a la corte y afirmar mi competencia."

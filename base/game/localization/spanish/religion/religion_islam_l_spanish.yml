@@ -30,7 +30,7 @@
  islam_religious_symbol_2: "$islam_religious_symbol$" #Optional translation alt
  islam_religious_symbol_3: "$islam_religious_symbol$" #Optional translation alt
  islam_religious_text: "Corán"
- islam_religious_text_2: "$islam_religious_text$" #Optional translation alt
+ islam_religious_text_2: "hadices"
  islam_religious_text_3: "$islam_religious_text$" #Optional translation alt
  islam_religious_head_title: "Califa"
  islam_religious_head_title_name: "califato"
@@ -42,10 +42,10 @@
  islam_bishop: "ulema"
  islam_bishop_plural: "ulemas"
  islam_positive_afterlife: "Cielo"
- islam_positive_afterlife_2: "$islam_positive_afterlife$" #Optional translation alt
- islam_positive_afterlife_3: "$islam_positive_afterlife$" #Optional translation alt
- islam_negative_afterlife: "Infierno"
- islam_negative_afterlife_2: "$islam_negative_afterlife$" #Optional translation alt
+ islam_positive_afterlife_2: "Yanna"
+ islam_positive_afterlife_3: "paraíso"
+ islam_negative_afterlife: "Yahannam"
+ islam_negative_afterlife_2: "infierno"
  islam_negative_afterlife_3: "$islam_negative_afterlife$" #Optional translation alt
  christianity_witchgodname_iblis: "Iblis"
  christianity_witchgodname_iblis_possessive: "de Iblis"

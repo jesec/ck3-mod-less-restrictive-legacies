@@ -203,6 +203,9 @@
  afar: "阿法尔"
  afar_prefix: "阿法尔"
  afar_collective_noun: "阿法尔"
+ east_bantu: "东班图"
+ east_bantu_prefix: "东班图"
+ east_bantu_collective_noun: "东班图"
  #East African group
  east_african_group: "东非"
  east_african_group_collective_noun: "东非"
@@ -734,3 +737,10 @@
  galician: "加利西亚"
  galician_prefix: "加利西亚"
  galician_collective_noun: "加利西亚"
+ #FP3 additions
+ brahui: "布拉灰"
+ brahui_prefix: "布拉灰"
+ brahui_collective_noun: "布拉灰"
+ bactrian: "巴克特里亚"
+ bactrian_prefix: "巴克特里亚"
+ bactrian_collective_noun: "巴克特里亚"

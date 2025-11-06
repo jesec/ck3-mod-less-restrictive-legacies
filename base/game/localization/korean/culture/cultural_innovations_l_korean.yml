@@ -220,3 +220,9 @@
  innovation_deccan_unity: "데칸 통합"
  innovation_deccan_unity_desc: "새로운 종교와 믿음의 파도가 우리 사회에 밀려들면서 지역주의에 경도됐던 과거는 잘못됐다는 사실을 깨닫게 됐습니다. 이제 우리는 같은 신앙을 믿는 이들과 똘똘 뭉쳐 강하고 굳건한 나라를 만들어 외압에 굴하지 않아야 합니다."
  students_of_knighthood: "[Concept( 'martial', '전투력' )|E] [education_focus|E]을 보유한 상태로 [education|E]을 완료하는 자녀는 $trait_education_martial_prowess$ [trait|E]을 얻음"
+ #Sponsor Research Related
+ fp3_innovation_mural_sextant: "벽면 육분의"
+ fp3_innovation_mural_sextant_desc: "이 대형 벽면 기구를 통해 천체의 위치를 정확하게 읽고 측정할 수 있습니다."
+ fp3_innovation_fritware: "프릿 도자기"
+ fp3_innovation_fritware_desc: "석영이나 유리와 같은 재료를 혼합하여 동양의 도자기와 유사한 모습을 구현한 돌 도자기입니다. 값비싼 상품 또는 인상적인 선물로 사용될 수 있습니다."
+ fp3_innovation_fritware_tooltip: "[send_gift|E]로 받는 [opinion|E] 증가 효과: #P +20%#!"

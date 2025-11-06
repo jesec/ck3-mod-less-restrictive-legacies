@@ -5,7 +5,7 @@
  pay_homage_decision_tooltip: "Официально [Concept( 'pay_homage', 'воздать почести' )|E] [Concept( 'liege', 'сюзерену' )|E]"
  pay_homage_decision_effects: "Вы отправляетесь ко двору сюзерена, чтобы воздать почести. [THIS.Char.GetLiege.GetTitledFirstNamePossessive] примет вас"
  pay_homage_decision_confirm: "$pay_homage_decision$"
- pay_homage_decision_second_tooltip: "$DESC$\n$pay_homage_grace_tt$\n\n$IS_VALID_BLOCKER$"
+ pay_homage_decision_second_tooltip: "$DESC$\n$pay_homage_grace_tt$"
  pay_homage_grace_tt: "#weak Воздать почести одному и тому же сюзерену можно только один раз#!"
  pay_homage_gift_warning_effect: "#weak Подарки увеличивают награду за воздание почетей#!\n$pay_homage_grace_tt$"
  pay_homage_grace_valid_tt: "[THIS.Char.GetLiege.GetTitledFirstName] до сих пор не получает [Concept( 'pay_homage', 'почестей' )|E] от этого персонажа"

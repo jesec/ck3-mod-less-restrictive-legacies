@@ -66,3 +66,4 @@
  major_decisions.3100.tt_opinion_witengamot: "[cultures|E]有$tradition_the_witenagemot_name$[culture_tradition|E]的封臣"
  major_decisions.3100.tt_opinion_thing: "[cultures|E]属于$heritage_north_germanic_name$[heritage|E]的封臣"
  major_decisions.3100.tt_opinion_tanistry: "[cultures|E]属于$heritage_goidelic_name$[heritage|E]的封臣"
+ major_decisions.3100.tt_opinion_jirga: "[cultures|E]拥有$tradition_fp3_jirga_name$[culture_tradition|E]的封臣"

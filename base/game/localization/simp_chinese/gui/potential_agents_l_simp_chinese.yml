@@ -43,5 +43,6 @@
  RESPECTED_HOST: "[target.GetShortUINameNoTooltip]是令人敬仰的东道主：$VALUE|+0$"
  IS_POLITICKER: "我的[accolade|E]鼓励下三滥的政治勾当：$VALUE|+0$"
  SCHEME_TAUGHT_TO_SCHEME: "你教导我为你密谋：$VALUE|+0$"
+ IS_PART_OF_STRUGGLE: "[target.GetShortUINameNoTooltip]是[struggle|E]的一员：$VALUE|+0$"
  INTRIGUE_EDUCATION_5_BONUS: "[GetTrait('education_intrigue_5').GetName( GetNullCharacter )]：$VALUE|+0$"
  SCHEME_DUTIOUS_FAMILY: "你对于家族责任非常坚定：$VALUE|+0$"

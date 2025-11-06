@@ -16,7 +16,7 @@
  adult_education_books_normal: "Livres et notes"
  adult_education_books_normal_desc: "$EFFECT_LIST_BULLET$Progression de la réussite de l’activité légèrement augmentée\n$EFFECT_LIST_BULLET$Point d’[skill|El] aléatoire\n\n#weak Tous les outils recommandés pour réussir.#!"
  adult_education_books_good: "Bibliothèque"
- adult_education_books_good_desc: "$EFFECT_LIST_BULLET$Augmentation de la progression de la réussite de l’activité\n$EFFECT_LIST_BULLET$[Concept('artifact','Livre')|E] illustre\n$EFFECT_LIST_BULLET$Point d’[skill|El] aléatoire\n\n#weak Les centres d’études ont un marché du savoir actif ; vous ne pouvez pas manquer l’occasion d’échanger vos livres et d’en acheter beaucoup d’autres !#!"
+ adult_education_books_good_desc: "$EFFECT_LIST_BULLET$Augmentation de la progression de la réussite de l’activité\n$EFFECT_LIST_BULLET$[Concept('artifact','Livre')|E] illustre\n$EFFECT_LIST_BULLET$Un point d’une [skill|El] aléatoire\n\n#weak Les centres d’études ont un marché du savoir actif ; vous ne pouvez pas manquer l’occasion d’échanger vos livres et d’en acheter beaucoup d’autres !#!"
  education_study_phase: "$activity_adult_education$"
  education_study_phase_desc: "Un semestre consacré à assister aux cours, à participer aux débats et à vivre comme un étudiant."
  study_hard_intent: "Étudier durement"

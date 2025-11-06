@@ -5,7 +5,7 @@
  pay_homage_decision_tooltip: "당신의 [liege|E]에게 정식으로 [pay_homage|E] 하기"
  pay_homage_decision_effects: "충성의 맹세를 위해 [THIS.Char.GetLiege.GetTitledFirstNamePossessive] 궁정 방문"
  pay_homage_decision_confirm: "$pay_homage_decision$"
- pay_homage_decision_second_tooltip: "$DESC$\n$pay_homage_grace_tt$\n\n$IS_VALID_BLOCKER$"
+ pay_homage_decision_second_tooltip: "$DESC$\n$pay_homage_grace_tt$"
  pay_homage_grace_tt: "#weak 같은 주군에게는 충성의 맹세를 한 번만 할 수 있습니다.#!"
  pay_homage_gift_warning_effect: "#weak 선물은 충성의 맹세로 받는 보상을 증가시킵니다.#!\n$pay_homage_grace_tt$"
  pay_homage_grace_valid_tt: "이전에 [THIS.Char.GetLiege.GetTitledFirstName]에게 [pay_homage|E]를 하지 않음"

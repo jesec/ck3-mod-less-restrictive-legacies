@@ -302,6 +302,25 @@
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp2_iberian_muslim_war_nob_01_hi: "Доспехи иберийского мусульманина — дворянина"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp2_iberian_christian_war_nob_01_lo: "Доспехи иберийского христианина — мелкого дворянина"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp2_iberian_christian_war_nob_01_hi: "Доспехи иберийского христианина — дворянина"
+ ############################
+ ### FP3 - Sands of Time ###
+ ############################
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_lo: "Иранский мелкий дворянин 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_lo: "Иранский мелкий дворянин 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_lo: "Иранский мелкий дворянин 3"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_hi: "Иранский дворянин 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_hi: "Иранский дворянин 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_hi: "Иранский дворянин 3"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_war_nob_01: "Иранские доспехи дворянина"
+ ### Female ###
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_01_lo: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_lo$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_02_lo: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_lo$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_03_lo: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_lo$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_01_hi: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_hi$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_02_hi: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_hi$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_03_hi: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_hi$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_war_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_war_nob_01$"
  ####################################
  ### SP2 - Elegance of the Empire ###
  ####################################
@@ -538,6 +557,24 @@
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp2_iberian_christian_war_nob_01_hi: "Цервельер дворянина"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp2_iberian_muslim_war_nob_01_lo: "Андалусский шлем без отделки"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp2_iberian_muslim_war_nob_01_hi: "Андалусский шлем с отделкой"
+ ###########
+ ### FP3 ###
+ ###########
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_imp_01: "Иранская имперская корона"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_roy_01: "Иранская корона"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_nob_01: "Колах намади"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_nob_02: "Калансува тавила"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_war_nob_01: "Павлиний шлем"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_turkic_nob_01: "Шерстяной колпак"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_turkic_nob_02: "Шарбуш"
+ PORTRAIT_MODIFIER_custom_special_m_headgear_fp3_iranian_face_mask_01: "Турко-персидская маска"
+ ### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_imp_01: "Иранская имперская корона"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_roy_01: "Крылатая корона"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_nob_01: "Стеганый колпак с петлей"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_nob_02: "Круглый колпак с узором"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_war_nob_01: "Павлиний шлем"
  ####################################
  ### SP2 - Elegance of the Empire ###
  ####################################
@@ -661,6 +698,17 @@
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_01_common: "Уложенные кудри"
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_02_common: "Мелко завитые кудри"
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_03_common: "Четыре косы"
+ ### Male FP3 Hair ###
+ PORTRAIT_MODIFIER_custom_hair_m_hair_fp3_iranian_01: "Длинный пробор с прядями"
+ PORTRAIT_MODIFIER_custom_hair_m_hair_fp3_iranian_02: "Сельджукские косы"
+ PORTRAIT_MODIFIER_custom_hair_m_hair_fp3_iranian_03: "Средние с завитыми кончиками"
+ ### Female FP3 Hair ###
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_01: "Средние кудри с серьгами"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_01_common: "Кудрявые средней длины"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_02: "Длинный пробор с прядями с серьгами"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_02_common: "Длинный пробор с прядями"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_03: "Средние пучки с серьгами"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_03_common: "Средние пучки"
  ### Male Special ###
  PORTRAIT_MODIFIER_custom_hair_male_hair_special_01: "Эпические дреды"
  #######################################
@@ -709,6 +757,10 @@
  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_03: "Борода кабальеро"
  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_muslim_03: "Раздвоенная борода"
  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_04: "Поникшие усы"
+ ### FP3 Beards ###
+ PORTRAIT_MODIFIER_custom_beards_m_beard_fp3_iranian_01: "Средняя борода с узлом"
+ PORTRAIT_MODIFIER_custom_beards_m_beard_fp3_iranian_02: "Длинная борода-клин"
+ PORTRAIT_MODIFIER_custom_beards_m_beard_fp3_iranian_03: "Вавилонская борода"
  ### SP2 Beards ###
  PORTRAIT_MODIFIER_custom_beards_m_beard_sp2_western_01: "Монаршие усы"
  #######################################
@@ -841,17 +893,17 @@
  ## Western Clothing ##
  ## Male ##
  #Carolingian #
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_com_01: "Одежда: каролингский простолюдин 1"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_nob_01_lo: "Одежда: каролингский мелкий дворянин 1"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_nob_01_hi: "Одежда: каролингский дворянин 1"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_com_02: "Одежда: каролингский простолюдин 2"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_nob_02_lo: "Одежда: каролингский мелкий дворянин 2"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_nob_02_hi: "Одежда: каролингский дворянин 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_com_01: "Каролингский простолюдин 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_nob_01_lo: "Каролингский мелкий дворянин 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_nob_01_hi: "Каролингский дворянин 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_com_02: "Каролингский простолюдин 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_nob_02_lo: "Каролингский мелкий дворянин 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era1_nob_02_hi: "Каролингский дворянин 2"
  #High #
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era3_nob_01_lo: "Одежда: мелкий дворянин Высокого Средневековья 1"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era3_nob_01_hi: "Одежда: дворянин Высокого Средневековья 1"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era3_nob_02_lo: "Одежда: мелкий дворянин Высокого Средневековья 2"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era3_nob_02_hi: "Одежда: дворянин Высокого Средневековья 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era3_nob_01_lo: "Мелкий дворянин Высокого Средневековья 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era3_nob_01_hi: "Дворянин Высокого Средневековья 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era3_nob_02_lo: "Мелкий дворянин Высокого Средневековья 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep2_western_era3_nob_02_hi: "Дворянин Высокого Средневековья 2"
  PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ep2_western_era1_nob_01_lo: "Каролингский плащ"
  PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ep2_western_era1_nob_01_hi: "Каролингский плащ знати"
  ## Female ##
@@ -1119,9 +1171,9 @@
  throne_room_bow_1: "Поклон, 1-я версия"
  throne_room_bow_2: "Поклон, 2-я версия"
  throne_room_bow_3: "Поклон, 3-я версия"
- throne_room_one_handed_passive_1: "Одноручное оружие, пассивно, 1-я версия"
- throne_room_one_handed_passive_2: "Одноручное оружие, пассивно, 2-я версия"
- throne_room_two_handed_passive_1: "Одноручное оружие, пассивно, 3-я версия"
+ throne_room_one_handed_passive_1: "Бездействует с мечом"
+ throne_room_one_handed_passive_2: "Бездействует с топором"
+ throne_room_two_handed_passive_1: "Бездействует с копьем"
  throne_room_writer: "Книга и перо"
  crossbow: "Арбалет"
  hunting_shortbow_rest_arrow_default: "Бездействие с коротким луком, стандартная стрела"

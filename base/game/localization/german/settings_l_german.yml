@@ -84,6 +84,7 @@
  default: "Standard"
  iberian: "Iberisch"
  Norse: "Nordisch"
+ iranian: "$e_persia_adj$"
  SETTING_HUD_SKIN_TOOLTIP: "#T $SETTING_HUD_SKIN$#!\nLegt das visuelle Thema des Interfaces (2-D-Interface) fest, das auf dem Hauptbildschirm des Spiels angezeigt wird.\n\nFalls „$hud_skin_auto$“ ausgewählt wurde, ändert sich das Aussehen des Interfaces beruhend auf der Kultur, dem Glauben und dem Reichssitz des Spielers."
  SETTING_RICH_PRESENCE: "Angereicherte Anzeige"
  SETTING_RICH_PRESENCE_TOOLTIP: "#T $SETTING_RICH_PRESENCE$#!\nZeigt Euren Freunden Informationen über Eure aktuelle Spielsitzung, sofern Eure Plattform dies unterstützt."

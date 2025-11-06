@@ -3079,7 +3079,7 @@ bp2_yearly.0641 = {
 				# Weight up if they aren't endorsing you.
 				modifier = {
 					add = 10
-					cp:councillor_court_chaplain = {
+					cp:councillor_court_chaplain ?= {
 						opinion = {
 							target = root
 							value <= -1

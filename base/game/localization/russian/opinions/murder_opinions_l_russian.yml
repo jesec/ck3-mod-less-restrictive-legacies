@@ -17,6 +17,7 @@
  executed_close_relation_opinion: "Казнь близкого родственника"
  executed_my_countryman_modifier: "Казнил моего вассала"
  executed_guest_modifier: "Казнил другого гостя"
+ executed_valuable_prisoner_modifier: "[Select_CString( CHARACTER.IsFemale, 'Казнила', 'Казнил' )] ценного пленника"
  tortured_family_member: "Пытки члена семьи"
  tortured_me: "Этот человек пытал меня"
  blinded_family_member: "Ослепление члена семьи"

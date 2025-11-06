@@ -302,6 +302,25 @@
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp2_iberian_muslim_war_nob_01_hi: "伊比利亚穆斯林高等贵族铠甲"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp2_iberian_christian_war_nob_01_lo: "伊比利亚基督徒低等贵族铠甲"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp2_iberian_christian_war_nob_01_hi: "伊比利亚基督徒高等贵族铠甲"
+ ############################
+ ### FP3 - Sands of Time ###
+ ############################
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_lo: "伊朗低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_lo: "伊朗低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_lo: "伊朗低等贵族着装 3"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_hi: "伊朗高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_hi: "伊朗高等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_hi: "伊朗高等贵族着装 3"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_war_nob_01: "伊朗贵族铠甲"
+ ### Female ###
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_01_lo: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_lo$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_02_lo: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_lo$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_03_lo: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_lo$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_01_hi: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_01_hi$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_02_hi: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_hi$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_03_hi: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_hi$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_war_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_war_nob_01$"
  ####################################
  ### SP2 - Elegance of the Empire ###
  ####################################
@@ -538,6 +557,24 @@
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp2_iberian_christian_war_nob_01_hi: "高等贵族无檐帽盔"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp2_iberian_muslim_war_nob_01_lo: "安达卢西亚无装饰盔"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp2_iberian_muslim_war_nob_01_hi: "安达卢西亚装饰盔"
+ ###########
+ ### FP3 ###
+ ###########
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_imp_01: "伊朗皇冠"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_roy_01: "伊朗冠冕"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_nob_01: "纳马迪毡帽"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_nob_02: "加兰苏瓦高帽"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_war_nob_01: "孔雀头盔"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_turkic_nob_01: "毛皮便帽"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_turkic_nob_02: "沙尔布什帽"
+ PORTRAIT_MODIFIER_custom_special_m_headgear_fp3_iranian_face_mask_01: "突厥-波斯面具"
+ ### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_imp_01: "伊朗皇冠"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_roy_01: "鸟翼冠"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_nob_01: "蝴蝶结束带帽"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_nob_02: "加饰圆帽"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_war_nob_01: "孔雀头盔"
  ####################################
  ### SP2 - Elegance of the Empire ###
  ####################################
@@ -661,6 +698,17 @@
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_01_common: "有框架卷发"
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_02_common: "微卷发"
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_03_common: "四股辫"
+ ### Male FP3 Hair ###
+ PORTRAIT_MODIFIER_custom_hair_m_hair_fp3_iranian_01: "分缕长发"
+ PORTRAIT_MODIFIER_custom_hair_m_hair_fp3_iranian_02: "塞尔柱发辫"
+ PORTRAIT_MODIFIER_custom_hair_m_hair_fp3_iranian_03: "发末波浪卷中长发"
+ ### Female FP3 Hair ###
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_01: "中等卷发配耳环"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_01_common: "中短卷发"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_02: "分缕长发配耳饰"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_02_common: "分缕长发"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_03: "中等发髻配耳饰"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_03_common: "中等发髻"
  ### Male Special ###
  PORTRAIT_MODIFIER_custom_hair_male_hair_special_01: "史诗脏辫"
  #######################################
@@ -709,6 +757,10 @@
  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_03: "伊比利亚骑手胡"
  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_muslim_03: "叉形胡"
  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_04: "下垂八字胡"
+ ### FP3 Beards ###
+ PORTRAIT_MODIFIER_custom_beards_m_beard_fp3_iranian_01: "带结中等胡子"
+ PORTRAIT_MODIFIER_custom_beards_m_beard_fp3_iranian_02: "长尖角胡"
+ PORTRAIT_MODIFIER_custom_beards_m_beard_fp3_iranian_03: "巴比伦胡须"
  ### SP2 Beards ###
  PORTRAIT_MODIFIER_custom_beards_m_beard_sp2_western_01: "华贵八字胡"
  #######################################
@@ -1119,9 +1171,9 @@
  throne_room_bow_1: "欠身，变体一"
  throne_room_bow_2: "欠身，变体二"
  throne_room_bow_3: "欠身，变体三"
- throne_room_one_handed_passive_1: "单手持武器等待，变体一"
- throne_room_one_handed_passive_2: "单手持武器等待，变体二"
- throne_room_two_handed_passive_1: "单手持武器等待，变体三"
+ throne_room_one_handed_passive_1: "手持长剑等待"
+ throne_room_one_handed_passive_2: "手持斧头等待"
+ throne_room_two_handed_passive_1: "手持长矛等待"
  throne_room_writer: "书与笔"
  crossbow: "弩"
  hunting_shortbow_rest_arrow_default: "短弓控弦，默认箭矢"

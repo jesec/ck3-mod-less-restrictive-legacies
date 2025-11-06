@@ -10,7 +10,7 @@
  faith_conversion.1001.desc.cynical: "Auch wenn ich nicht an das Gefasel glaube, dass der [new_faith.PriestNeuter] von sich gibt, hatte eine Konvertierung doch genug politische Vorteile zu bieten, sodass mir nun klar wird, dass ich schon viel früher hätte konvertieren sollen.\n\nUngeachtet meiner Gründe "
  faith_conversion.1001.end.is_vassal.convert_away: "sind meine drängendsten Sorgen doch weltlicher Natur: Wie wird [my_liege.Custom2('MyCharacterIntroduction', ROOT.Char)] reagieren, wenn [my_liege.Custom('DE_PRO_PER_S_3P_N')] erfährt, dass ich [my_liege.Custom('DE_PRO_POS_S_3P')]en Glauben abgelehnt habe?"
  faith_conversion.1001.end.is_vassal.convert_to: "kann ich erleichtert in dem Wissen aufatmen, dass [my_liege.Custom2('MyCharacterIntroduction', ROOT.Char)] meinen Glauben nicht mehr gegen mich verwenden kann."
- faith_conversion.1001.end.is_top_liege.convert_away: "sind meine drängendsten Sorgen weltlicher Natur: Die meisten meiner Vasallen folgen einem anderen Glauben. Werde ich mein Reich gegen interne Rebellionen oder fremde Opportunisten geeint halten können?"
+ faith_conversion.1001.end.is_top_liege.convert_away: "sind meine drängendsten Sorgen weltlicher Natur: Die meisten meiner Vasallen folgen einem anderen Glauben. Werde ich mein Reich gegen interne Aufstände oder fremde Opportunisten geeint halten können?"
  faith_conversion.1001.end.is_top_liege.convert_to: "kann ich beruhigt in dem Wissen sein, dass der Großteil meines Reichs im Glauben geeint als wahrlich [new_faith.GetAdjectiveNoTooltip]es Land hinter mir steht."
  faith_conversion.1001.a: "Gelobt sei [ROOT.Char.GetFaith.HighGodName]!"
  faith_conversion.1001.b: "Wenigstens habe ich [template_priest.GetFirstNameNoTooltip], um mich anzuleiten …"

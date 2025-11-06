@@ -32,7 +32,7 @@
  feast_events_ewan.0001.d.tt.success: "Vous [intent_target.Custom('FR_LeLa')] touchez en pleine tempe"
  feast_events_ewan.0001.d.tt.failure: "Vous ratez"
  feast_events_ewan.0001.e: "Peut-être ferais-je mieux d’observer ?"
- feast_events_ewan.0001.e.tt.bonus_to_murder_scheme.overwrite: "Cela remplacera votre éventuel bonus pour le complot visant à [GetScheme('murder').GetActionName|l] [ROOT.Char.Var('feast_events_ewan_0001_bonus_value').Custom('FR_le_Char_Pi')][ROOT.Char.Var('feast_events_ewan_0001_bonus_value').GetTitledFirstName]"
+ feast_events_ewan.0001.e.tt.bonus_to_murder_scheme.overwrite: "Cela remplacera votre éventuel bonus pour le complot visant à [GetScheme('murder').GetActionName|l] [ROOT.Char.Var('feast_events_ewan_0001_bonus_value').Char.Custom('FR_le_Char_Pi')][ROOT.Char.Var('feast_events_ewan_0001_bonus_value').Char.GetTitledFirstName]"
  feast_events_ewan.0001.e.tt.bonus_to_murder_scheme: "Vous aurez #P [EmptyScope.ScriptValue('feast_events_ewan_0001_murder_scheme_bonus_added_base_success_value')|=+0]%#! de chances de succès à tout [scheme|El] visant à [GetScheme('murder').GetTypeName|l] lancés contre [intent_target.Custom('FR_le_Char_Pi')][intent_target.GetTitledFirstName], dans les [EmptyScope.ScriptValue('feast_events_ewan_0001_murder_scheme_bonus_time_to_use_value')|0] prochaines années"
  feast_events_ewan.0001.f: "C’était une idée idiote."
  ##################################################

@@ -11,3 +11,5 @@
  HAS_DYNASTY_TRIGGER: "Является членом [Concept( 'dynasty', 'династии' )|E]"
  DYNASTY_NUM_UNLOCKED_PERKS: "Количество открытых достоинств: $NUM|V0$"
  HAS_DYNASTY_PERK_NONE: "[Concept( 'dynasty', 'Династия' )|E] открыла наследие «[DYNASTY_PERK.GetName]»"
+ NOT_HAS_DYNASTY_PERK: "[Concept( 'dynasty', 'Династия' )] [DYNASTY.GetBaseName] не имеет наследия «[DYNASTY_PERK.GetName]»"
+ HAS_DYNASTY_PERK: "[Concept( 'dynasty', 'Династия' )] [DYNASTY.GetBaseName] имеет наследие «[DYNASTY_PERK.GetName]»"

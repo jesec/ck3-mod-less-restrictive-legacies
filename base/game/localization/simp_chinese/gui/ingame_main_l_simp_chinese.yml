@@ -9,6 +9,7 @@
  FACTION_BUTTON: "#T 派系#!"
  PRISON_BUTTON: "#T 囚犯#!"
  COURT_BUTTON: "#T 廷臣#!"
+ TAX_JURISDICTIONS_BUTTON: "#T 税务管辖区#!"
  IM_TT_FIND_TITLE: "#T 查找头衔#!\n查找游戏中的任一[title|E]。"
  IM_TT_SHOW_LEGACY: "#T 显示世系#!\n查看你曾经扮演过的所有角色。"
  IM_TT_FIND_CHARACTER: "#T 查找角色#!\n查找游戏中的任一存活角色。"
@@ -210,3 +211,4 @@
  DE_JURE_HIERARCHY: "[de_jure|E]层级"
  TT_AWAY_FROM_CAPITAL_WIDGET: "#T 离开首都#!\n你目前位于[Character.GetCurrentLocation.GetName]，离开了你的[realm_capital|E][Character.GetCapitalLocation.GetName]\n\n#I 点击查看[travel|E]规划#!"
  ACTIVITY_VIEW_TRAVEL: "查看旅行"
+ SELECT_VALID_OPTION: "选择一个有效的选项"

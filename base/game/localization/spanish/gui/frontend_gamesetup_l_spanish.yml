@@ -2,7 +2,7 @@
  SELECT_CHARACTER_ON_MAP: "Elegir un personaje del mapa."
  PICK_ANY_CHARACTER: "Juega como cualquier gobernante de #light_background;bold [GameSetup.GetSelectedBookmark.GetDate.GetYear]#!, ¡o #bold crea uno propio!#!"
  BOOKMARK_DISABLED: "Este marcador está desactivado"
- BOOKMARK_NOT_PICKED_CHARACTER: "Elige un personaje del marcador antes de empezar la partida. O elige libremente haciendo clic en \"Elegir cualquier personaje\"."
+ BOOKMARK_NOT_PICKED_CHARACTER: "Elige un personaje del marcador antes de empezar la partida. O elige libremente haciendo clic en «Elegir cualquier personaje»."
  SINGLEPLAYER: "Jugador individual"
  GAMESETUP_TUTORIAL_PROMPT_HEADER: "Te damos la bienvenida a Crusader Kings III"
  GAMESETUP_TUTORIAL_PROMPT_INTRO: "¡Crusader Kings III es un juego de estrategia profunda de dinastías e intriga!"

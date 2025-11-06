@@ -25,7 +25,7 @@
  stress_smelling_of_sweat: "Запах пота"
  stress_smelling_of_sweat_desc: "Запах пота всюду преследует этого персонажа."
  stress_busy_writing: "Занятия письмом"
- stress_busy_writing_desc: "Этот персонаж тратит большую часть своего времени на написание текстов"
+ stress_busy_writing_desc: "Этот персонаж тратит большую часть своего времени на написание текстов."
  irritating_everyone_modifier: "Срывается"
  irritating_everyone_modifier_desc: "Этот персонаж не пытается обуздывать раздражение и гнев."
  irritating_everyone_courtier_modifier: "$irritating_everyone_modifier$"

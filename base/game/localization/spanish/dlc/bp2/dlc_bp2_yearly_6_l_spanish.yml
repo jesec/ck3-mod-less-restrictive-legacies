@@ -177,7 +177,7 @@
  bp2_yearly.6060.c: "El aprendizaje es la fuente de toda la fuerza."
  bp2_yearly.6060.c.tt: "Y si soy [ROOT.Char.Custom('ES_ElLa')] más cultivad[ROOT.Char.Custom('ES_OA')] y sabi[ROOT.Char.Custom('ES_OA')] de todos, si soy puramente devot[ROOT.Char.Custom('ES_OA')], ¡seguramente mi señorío prospere!"
  bp2_yearly.6060.c.nerd: "Reduces todas las habilidades en #negative_value 2#! salvo [learning|lE]"
- bp2_yearly.6060.c.tribal_warning: "@warning_icon! #X Solo podrás construir una $building_type_generic_university|l$ cuando no tengas un [tribal_government|lE]#!"
+ bp2_yearly.6060.c.tribal_warning: "@warning_icon! #X Solo podrás construir una $building_type_generic_university$ cuando no tengas un [tribal_government|lE]#!"
  bp2_yearly.6060.d: "Y, no obstante, creo que… ¡#EMP nosotros#! somos los verdaderos creyentes!"
  bp2_yearly.6060.d.tt: "No hay nada ostentoso, ni enrevesado en nuestra verdad. Esto es la virtud."
  fervor_gain_reformer_converts: "Un famoso reformador convertido"

@@ -70,7 +70,7 @@
  hold_court.4500.t: "Endlose Poesie"
  hold_court.4500.desc.intro: "Eine prächtige Gestalt, die etwas Verheißungsvolles umflort, nähert sich: „Ich bin [demanding_poet.Custom('DE_ART_IND_N')] Dichter[demanding_poet.Custom('DE_END_NOU_S_GS_N')]."
  hold_court.4500.council: "Ernennt mich zu Eurem [secondary_character.GetCouncilTitle]!“"
- hold_court.4500.romance: "Ich muss sofort [demanding_poet.Custom('DE_PRO_POS_P_2P_N')] Liebhaber[demanding_poet.Custom('DE_END_NOU_S_GS_N')] werden!“"
+ hold_court.4500.romance: "Ich muss sofort [demanding_poet.Custom('DE_PRO_POS_P_2P_N')|U] Liebhaber[demanding_poet.Custom('DE_END_NOU_S_GS_N')] werden!“"
  hold_court.4500.titles: "Ihr müsst mir alle Ländereien gewähren, die [secondary_character.GetTitledFirstNameNoTooltip] derzeit hält.“"
  hold_court.4500.realm: "Überlasst mir Euer Reich!“"
  hold_court.4500.desc.middle: "\n\nEin paar Wimpernschläge lang herrscht gespenstische Stille im gesamten Hof. [secondary_character.GetTitledFirstNameNoTooltip], zuvor noch im Halbschlaf, schreckt auf: „Was?“\n\n„Ich habe die größte Ballade des Kosmos komponiert. Sie handelt von"
@@ -90,7 +90,7 @@
  hold_court.4500.c.titles.tt: "[demanding_poet.GetTitledFirstName] erhält alle Ländereien und Vasallen, die [secondary_character.GetTitledFirstName] derzeit hält"
  ### Peasants are convinced you're a literal monster by Isabella Welch
  hold_court.4600.t: "[ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')|U], [ROOT.GetCharacter.Custom('DE_ART_DEF_S_N')] eine Bestie aus sich macht …"
- hold_court.4600.desc: "Eine Schar Bauern erscheint vor meinem Thron. Sie sind mit den bösartigsten landwirtschaftlichen Gerätschaften bewaffnet, die ich in meiner gesamten Laufbahn bei der Niederschlagung von Rebellionen gesehen habe.\n\nEiner stößt eine Mistgabel durch mein Lieblingsthronkissen.\n\n„Dieses Wesen, das uns beherrscht, ist ein echter, fleischgewordener Dämon. K[ROOT.GetCharacter.Custom('DE_ART_IND_N')] echt[ROOT.GetCharacter.Custom('DE_END_ADJ_NUL_S_N')] [ROOT.GetCharacter.GetWomanMan] könnte zu solch gewalttätigen Taten fähig sein, wie wir sie erlebt haben. Ergreift die Waffen! Helft uns, die Bestie zu töten, bevor sie sich verwandelt!“"
+ hold_court.4600.desc: "Eine Schar Bauern erscheint vor meinem Thron. Sie sind mit den bösartigsten landwirtschaftlichen Gerätschaften bewaffnet, die ich in meiner gesamten Laufbahn bei der Niederschlagung von Aufständen gesehen habe.\n\nEiner stößt eine Mistgabel durch mein Lieblingsthronkissen.\n\n„Dieses Wesen, das uns beherrscht, ist ein echter, fleischgewordener Dämon. K[ROOT.GetCharacter.Custom('DE_ART_IND_N')] echt[ROOT.GetCharacter.Custom('DE_END_ADJ_NUL_S_N')] [ROOT.GetCharacter.GetWomanMan] könnte zu solch gewalttätigen Taten fähig sein, wie wir sie erlebt haben. Ergreift die Waffen! Helft uns, die Bestie zu töten, bevor sie sich verwandelt!“"
  hold_court.4600.a: "Ich bin kein Dämon. Ich bin [ROOT.Char.Custom('DE_ART_IND_N')] [ROOT.Char.GetTitleAsNameNoTooltip], was viel, #EMP viel#! schlimmer ist."
  hold_court.4600.b: "Welch geniale Idee! [chancellor.GetCouncilTitle], verbreitet die Nachricht, dass ich ein Dämon bin."
  hold_court.4600.b.tt: "Zum Guten wie zum Schlechten: Eure tiefe Verbundenheit zum leibhaftigen Bösen wird überall bekannt."

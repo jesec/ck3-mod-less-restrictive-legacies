@@ -71,8 +71,8 @@
  meshefaresism_holy_text_3: "$meshefaresism_holy_text$" #Optional translation alt
  kitebacilweism: "Kitêbacilweismo"
  kitebacilweism_adj: "kitêbacilweista"
- kitebacilweism_adherent: "Kitêbacilweista"
- kitebacilweism_adherent_plural: "Kitêbacilweistas"
+ kitebacilweism_adherent: "kitêbacilweista"
+ kitebacilweism_adherent_plural: "kitêbacilweistas"
  kitebacilweism_desc: "Seguidores del Libro de las Revelaciones, que habla de la grandeza de Xwedê."
  kitebacilweism_holy_text: "Kitêba Cilwe"
  kitebacilweism_holy_text_2: "$kitebacilweism_holy_text$" #Optional translation alt
