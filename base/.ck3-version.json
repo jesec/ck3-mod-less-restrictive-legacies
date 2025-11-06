@@ -1,25 +1,25 @@
 {
-  "version": "1.10.1",
+  "version": "1.10.2",
   "version_name": "Quill",
-  "updated": "2023-08-30T07:30:50.000Z",
+  "updated": "2023-09-08T10:33:51.000Z",
   "release_notes": {
-    "title": "1.10.1",
-    "date": "2023-08-31",
-    "file": "release-notes/1_10_1_0_2023-08-31.md",
-    "url": "https://store.steampowered.com/news/app/1158310/view/3655288478639588453"
+    "title": "1.10.2",
+    "date": "2023-09-12",
+    "file": "release-notes/1_10_2_0_2023-09-12.md",
+    "url": "https://store.steampowered.com/news/app/1158310/view/3655289207398170266"
   },
   "depots": {
     "1158311": {
-      "manifest": "6626061403098630989",
-      "updated": "2023-08-30T07:27:14.000Z"
+      "manifest": "5483121434460621958",
+      "updated": "2023-09-08T10:31:53.000Z"
     },
     "1158314": {
-      "manifest": "3188901079797200522",
-      "updated": "2023-08-30T07:29:18.000Z"
+      "manifest": "3216298686373706598",
+      "updated": "2023-09-08T10:33:42.000Z"
     },
     "1158317": {
-      "manifest": "2515679164265422369",
-      "updated": "2023-08-30T07:30:50.000Z"
+      "manifest": "458036845822743048",
+      "updated": "2023-09-08T10:33:51.000Z"
     },
     "1296730": {
       "manifest": "4673314442703562503",

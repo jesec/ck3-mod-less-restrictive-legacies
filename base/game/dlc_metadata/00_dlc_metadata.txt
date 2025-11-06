@@ -1,7 +1,7 @@
 ﻿dlc_001 = {
 	key = "Garments of the Holy Roman Empire"
 	steam_id = "1296730"
-	msgr_id = "9NMFCFSZSHQT"
+	msgr_id = "9NSL78KTTM4X"
 	type = minor
 	priority = 0
 }
@@ -9,7 +9,7 @@
 dlc_002 = {
 	key = "Fashion of the Abbasid Court"
 	steam_id = "1296731"
-	msgr_id = "9NSL78KTTM4X"
+	msgr_id = "9NMFCFSZSHQT"
 	type = minor
 	priority = 1
 }

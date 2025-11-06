@@ -16,7 +16,7 @@
  adult_education_books_normal: "책과 공책"
  adult_education_books_normal_desc: "$EFFECT_LIST_BULLET$활동 성공 진행도 다소 증가\n$EFFECT_LIST_BULLET$무작위 [skill|E] 점수\n\n#weak 무사 졸업을 노린다면 필요한 모든 것입니다.#!"
  adult_education_books_good: "지식의 서재"
- adult_education_books_good_desc: "$EFFECT_LIST_BULLET$활동 성공 진행도 증가\n$EFFECT_LIST_BULLET$저명한 책 [artifact|E]\n\n#weak 배움의 중심지에는 지식을 교환할 수 있는 시장이 존재합니다. 책을 교환하고 새로운 책을 살 기회를 놓치고 싶지는 않을 것입니다!#!"
+ adult_education_books_good_desc: "$EFFECT_LIST_BULLET$활동 성공 진행도 증가\n$EFFECT_LIST_BULLET$저명한 책 [artifact|E]\n$EFFECT_LIST_BULLET$무작위 [skill|E] 점수\n\n#weak 배움의 중심지에는 지식을 교환할 수 있는 시장이 존재합니다. 책을 교환하고 새로운 책을 살 기회를 놓치고 싶지는 않을 것입니다!#!"
  education_study_phase: "$activity_adult_education$"
  education_study_phase_desc: "수업을 듣고 토론에 참여하며 학생으로서 지내는 데 열중하는 한 학기입니다."
  study_hard_intent: "치열한 학습"

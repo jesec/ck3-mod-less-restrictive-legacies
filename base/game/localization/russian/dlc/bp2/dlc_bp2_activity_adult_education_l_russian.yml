@@ -16,7 +16,7 @@
  adult_education_books_normal: "Книги и заметки"
  adult_education_books_normal_desc: "$EFFECT_LIST_BULLET$Немного увеличен прогресс успеха занятия\n$EFFECT_LIST_BULLET$Случайное очко [Concept( 'skill', 'навыка' )|E]\n\n#weak Все необходимые инструменты для успешного выпуска.#!"
  adult_education_books_good: "Библиотека знаний"
- adult_education_books_good_desc: "$EFFECT_LIST_BULLET$Увеличен прогресс успеха занятия\n$EFFECT_LIST_BULLET$Великолепный [artifact|El]-книга\n\n#weak В образовательных центрах идет активная торговля знаниями. Не стоит упускать возможности обменять свои книги и купить множество новых!#!"
+ adult_education_books_good_desc: "$EFFECT_LIST_BULLET$Увеличен прогресс успеха занятия\n$EFFECT_LIST_BULLET$Великолепный [artifact|El]-книга\n$EFFECT_LIST_BULLET$Случайное очко [Concept( 'skill', 'навыка' )|E]\n\n#weak В образовательных центрах идет активная торговля знаниями. Не стоит упускать возможности обменять свои книги и купить множество новых!#!"
  education_study_phase: "$activity_adult_education$"
  education_study_phase_desc: "Семестр, посвященный посещению занятий, участию в дебатах и студенческой жизни."
  study_hard_intent: "Прилежно учиться"

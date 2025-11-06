@@ -16,7 +16,7 @@
  adult_education_books_normal: "Libros y cuadernos"
  adult_education_books_normal_desc: "$EFFECT_LIST_BULLET$Progreso de éxito de la actividad aumentado ligeramente\n$EFFECT_LIST_BULLET$Punto de [skill|lE] al azar\n\n#weak Todas las herramientas prescritas para graduarse con éxito.#!"
  adult_education_books_good: "Biblioteca de conocimiento"
- adult_education_books_good_desc: "$EFFECT_LIST_BULLET$Progreso de éxito de la actividad aumentado\n$EFFECT_LIST_BULLET$[artifact|UE] de libro ilustre\n\n#weak Los centros de estudios tienen un mercado activo de conocimientos; ¡no puedes perderte la oportunidad de intercambiar tus libros y comprar muchos nuevos!#!"
+ adult_education_books_good_desc: "$EFFECT_LIST_BULLET$Progreso de éxito de la actividad aumentado\n$EFFECT_LIST_BULLET$[artifact|UE] de libro ilustre\n$EFFECT_LIST_BULLET$Punto de [skill|lE] al azar\n\n#weak Los centros de estudios tienen un mercado activo de conocimientos; ¡no puedes perderte la oportunidad de intercambiar tus libros y comprar muchos nuevos!#!"
  education_study_phase: "$activity_adult_education$"
  education_study_phase_desc: "Un semestre dedicado a acudir a clase, tomar parte en debates y vivir como un estudiante cualquiera."
  study_hard_intent: "Estudiar duro"
