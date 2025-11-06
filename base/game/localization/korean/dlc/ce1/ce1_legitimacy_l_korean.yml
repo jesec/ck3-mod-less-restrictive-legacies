@@ -53,3 +53,4 @@
  reduced_title_creation_cost: "[title|E] 생성에 필요한 [de_jure|E] [Concept( 'counties', '영지' )|E]의 수 소폭 #positive_value 감소#!"
  very_reduced_title_creation_cost: "[title|E] 생성에 필요한 [de_jure|E] [Concept( 'counties', '영지' )|E]의 수 #positive_value 감소#!"
  extra_reduced_title_creation_cost: "[title|E] 생성에 필요한 [de_jure|E] [Concept( 'counties', '영지' )|E]의 수 대폭 #positive_value 감소#!"
+ married_lowborn_toast: "[lowborn|E]과 결혼함"

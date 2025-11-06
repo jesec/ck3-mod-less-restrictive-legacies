@@ -62,7 +62,7 @@
  artifact_wall_banner_dynasty_name: "Знамя династии [target.GetBaseNameNoTooltip]"
  artifact_wall_banner_dynasty_description: "Это знамя династии [target.GetBaseName], символ власти представителей этой родословной, и за его создание отвечает [newly_created_artifact.MakeScope.Var('banner_commissioner').Char.GetNameRegnal]."
  artifact_wall_banner_name: "[target.GetAdjectiveNoTooltip]ое знамя"
- artifact_wall_banner_description: "[target.GetAdjective]ое знамя, символ власти, которой обладает [target.GetHolder.GetTitleAsName|l]."
+ artifact_wall_banner_description: "#L [target.GetAdjective]ое#! знамя, символ власти, которой обладает [target.GetHolder.GetTitleAsName|l]."
  artifact_wall_banner_kaviani_name: "Деравш Кавиани"
  artifact_wall_banner_kaviani: "Легендарный Деравш Кавиани — штандарт правителей павшей Сасанидской империи. Символ и гордость наследников Персидской империи."
  artifact_wall_big_edessa_name: "Спас Нерукотворный"

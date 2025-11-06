@@ -1,5 +1,5 @@
 ﻿l_russian:
- locale_window_your_intent: "Ваше [intent|El]"
+ locale_window_your_intent: "Ваш [Concept( 'intent', 'замысел' )|E]"
  locale_window_guests_header: "Гости"
  locale_window_all_guests_button: "Все гости ([GetDataModelSize(Activity.GetAttendingCharacters)])"
  locale_window_all_guests_button_tooltip: "Показать всех присутствующих [Concept( 'guests', 'гостей' )|E]"

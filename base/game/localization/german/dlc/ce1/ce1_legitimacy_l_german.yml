@@ -53,3 +53,4 @@
  reduced_title_creation_cost: "Geringfügig #positive_value weniger#! [de_jure|E]-[counties|E] nötig für Erschaffung eines [Concept('title', 'Titels')|E]"
  very_reduced_title_creation_cost: "#positive_value Weniger#! [de_jure|E]-[counties|E] nötig für Erschaffung eines [Concept('title', 'Titels')|E]"
  extra_reduced_title_creation_cost: "Deutlich #positive_value weniger#! [de_jure|E]-[counties|E] nötig für Erschaffung eines [Concept('title', 'Titels')|E]"
+ married_lowborn_toast: "Hat jemanden von [Concept('lowborn', 'niederer Geburt')|E] geheiratet"

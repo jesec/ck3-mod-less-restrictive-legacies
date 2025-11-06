@@ -250,7 +250,7 @@
  health.3001.d.tt: "Никого из них на должность «[GetCourtPositionType('court_physician_court_position').GetName()]» я нанимать не стану."
  #Disease treatment, by Mathilda Bjarnehed & Milla Isaksson
  health.3101.t: "[SCOPE.Custom('EventTitleDisease')]: время для лечения"
- health.3101.start.desc: "Жутковатый запах кипящих отваров и перетертых мазей обрушивается на меня, едва я вхожу в комнату, где работает [physician.GetFirstName]. [Select_CString(physician.IsFemale, 'Она', 'Он' )] переводит взгляд с мази, над которой работает, на меня.\n\n«Время пришло, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetLadyLord]. Я знаю несколько процедур, которым может подвергнуться "
+ health.3101.start.desc: "Жутковатый запах кипящих отваров и перетертых мазей обрушивается на меня, едва я вхожу в комнату, где работает [physician.GetFirstName]. [Select_CString(physician.IsFemale, 'Она', 'Он' )] переводит взгляд с мази, над которой работает, на меня.\n\n«Время пришло, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetLadyLord]. Я знаю несколько процедур, которым может подвергнуться больной "
  health.3101.safe_recommendation.desc: "И хотя я не сомневаюсь, что хватит простой настойки,"
  health.3101.risky_recommendation.desc: "Я советую более радикальные методы, но"
  health.3101.mystic_recommendation.desc: "Не сочтите за дерзость, мне бы хотелось порекомендовать вам... альтернативное лечение. Но"
@@ -422,7 +422,7 @@
  ########################
  #Notification messages
  ########################
- disease_contraction_feed_message.t: "[message_receiver.Custom2( 'RelationToMeShort', CHARACTER.Self )|U] заболевает"
+ disease_contraction_feed_message.t: "[message_receiver.Custom2( 'RelationToMeShort', CHARACTER.Self )|U] [Select_CString(message_receiver.IsLocalPlayer, 'заболеваете', 'заболевает' )]"
  disease_contraction_feed_message.d_1: "[LEFT_CHARACTER.GetShortUIName|U] [Select_CString(LEFT_CHARACTER.IsFemale, 'получила', 'получил' )] [Concept( 'trait', 'свойство' )|E] «[disease_trait.GetName( CHARACTER.Self )|LV]»"
  disease_contraction_feed_message.d_2: "[LEFT_CHARACTER.GetShortUIName|U] и [RIGHT_CHARACTER.GetShortUIName] получили [Concept( 'trait', 'свойство' )|E] «[disease_trait.GetName( CHARACTER.Self )|LV]»"
  disease_contraction_feed_message.d: "[LEFT_CHARACTER.GetShortUIName|U], [RIGHT_CHARACTER.GetShortUIName] и $message_consolidation_others$ получили [Concept( 'trait', 'свойство' )|E] «[disease_trait.GetName( LEFT_CHARACTER.Self )|LV]»"

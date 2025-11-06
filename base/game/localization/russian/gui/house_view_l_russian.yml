@@ -49,7 +49,7 @@
  dynasty_level_8_c: "@dynasty_prestige_icon_4! [dynasty_prestige_level_8|L]"
  dynasty_level_9_c: "@dynasty_prestige_icon_4! [dynasty_prestige_level_9|L]"
  dynasty_level_10_c: "@dynasty_prestige_icon_5! [dynasty_prestige_level_10|L]"
- dynasty_level_11_c: "#weak Достигнут наивысший уровень#!"
+ dynasty_level_11_c: "#weak Наивысший уровень#!"
  CUSTOMIZE_HOUSE_HEADER: "Настроить дом [DynastyHouse.GetBaseNameNoTooltip]"
  HOUSE_NAME_FIELD: "Название"
  HOUSE_MOTTO_FIELD: "Девиз"

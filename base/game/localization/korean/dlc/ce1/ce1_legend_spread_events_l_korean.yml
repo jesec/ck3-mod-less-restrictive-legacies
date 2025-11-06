@@ -723,7 +723,7 @@
  legend_spread_events.5405.b.success: "즉석에서 새로운 괴수를 성공적으로 만들어 냄"
  legend_spread_events.5405.b.failure: "[chronicler.GetFirstNameNoTooltip](이)가 당신을 믿지 않음"
  legend_spread_events.5405.c: "\"누가 알겠나? 내가 본 경이로운 것들이 워낙 많아야지...\""
- legend_chapter_discovery_mythical_beast: "[ROOT.Legend.GetProtagonist.GetFirstName](은)는 여정 도중 [ROOT.LegendGetProtagonist.GetHerHis] 영혼마저 뒤흔드는 대단한 발견을 해낼 수 있었다. 사납기 그지없으면서도 경이로운 한 괴물에 대한 오래된 신화가 사실이었음을 밝혀낸 것이다. 그동안의 의혹까지 일소해 버리는 철저한 증거까지 더해진 덕분에 모든 사람이 [ROOT.Legend.GetProtagonist.GetFirstName]의 용맹과 탐구심에 찬사를 보냈다."
+ legend_chapter_discovery_mythical_beast: "[ROOT.Legend.GetProtagonist.GetFirstName](은)는 여정 도중 [ROOT.Legend.GetProtagonist.GetHerHis] 영혼마저 뒤흔드는 대단한 발견을 해낼 수 있었다. 사납기 그지없으면서도 경이로운 한 괴물에 대한 오래된 신화가 사실이었음을 밝혀낸 것이다. 그동안의 의혹까지 일소해 버리는 철저한 증거까지 더해진 덕분에 모든 사람이 [ROOT.Legend.GetProtagonist.GetFirstName]의 용맹과 탐구심에 찬사를 보냈다."
  legend_chapter_discovery_new_myth: "한동안 방랑하던 [ROOT.Legend.GetProtagonist.GetFirstName](은)는 엄청난 것을 발견했다. 처음 여정을 떠날 때 남몰래 기대했던 상상조차 [ROOT.Legend.GetProtagonist.GetHerHis] 현실 앞에서는 흐려질 정도였다. 희귀하고 비범한 그 괴물은 사람보다 두 배는 큰 몸집에 다리 6개와 팔 1개가 몸통에서 자라난 모습이었다! 그리고 이 정도로 독특한 괴물에 관한 이야기는 세간에 전혀 알려진 바가 없었다. 덕분에 [ROOT.Legend.GetProtagonist.GetFirstName](은)는 점차 풍성해지는 [ROOT.Legend.GetName] 이야기에 살을 덧붙일 수 있었다."
  legend_spread_events.5410.t: "인식의 경계 너머"
  legend_spread_events.5410.desc: "[chronicler.GetFirstName](이)가 내 진술을 기록할수록 점점 더 많은 [ROOT.Char.Custom('GetWritingMaterialPlural')]가 채워지고 있다. 언덕을 넘고 협곡을 지나, 거센 강을 건너며 심지어...\n\n\"그렇게 멀리까지 가셨단 말씀입니까?\" [chronicler.GetFirstNamePossessiveNoTooltip] 두 눈이 놀라움이란 감정으로 가득 찼다. \"사나운 바다까지 들어가셨을 정도로?\"\n\n안전하다고 알려진 근해 너머에 무엇이 있는지는 누구도 알지 못한다. 대강이나마 합의된 추측이 일부 있을지는 모르나, 나만의 이야기를 만들어 낼 좋은 기회가 아닐까?"

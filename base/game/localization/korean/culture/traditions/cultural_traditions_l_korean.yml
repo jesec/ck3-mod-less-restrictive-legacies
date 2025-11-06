@@ -1080,6 +1080,9 @@
  doesnt_employ_court_physician_desc: "[culture|E]가 [GetCourtPositionType('court_physician_court_position').GetName()](을)를 고용 중인 [rulers|E] #high 5#!명을 보유하고 있지 않음"
  cheaper_tradition_physician_or_whole_of_body: "당신이 [GetTrait('lifestyle_physician').GetName( GetNullCharacter )] 또는 [GetTrait('whole_of_body').GetName( GetNullCharacter )] [traits|E]을 보유함"
  cheaper_tradition_norse_washing: "$heritage_north_germanic_name$ [heritage|E]"
+ culture_parameter_always_unlock_legendary_hunting_lodge: "[SelectLocalization( HasDlcFeature( 'legends' ), 'culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC', 'culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC' )]"
+ culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC: ""
+ culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC: "해당 [culture|E]에 속한 [rulers|E]는 언제나 [legend|E] 완성 후 $building_type_legendary_hunting_lodge$ 건설 가능"
  #BP2 Traditions
  tradition_noble_adoption_name: "귀족 입양"
  tradition_noble_adoption_desc: "이 사회에서는 고아가 된 아이를 귀족 가문으로 입양하는 사례가 흔한 편입니다. 계약으로 맺어진 혈연이 배 아파서 낳은 인연보다 훨씬 강하게 작용합니다."

@@ -467,7 +467,7 @@
  epidemic_events.5905.c: "De todas maneras, debatir con [peasant.GetSheHe] no hará que me crea."
  epidemic_events.5906.t: "Vagando, deambulando"
  epidemic_events.5906.desc: "Los guardias no suelen ser tan directos a la hora de interrumpirme en las estancias del consejo, pero hoy irrumpen con presteza, con mi mariscal [marshal.GetFirstName] al frente. Tras ellos, arrastrada sin miramientos, hay una figura patética con los ojos muy abiertos y lo que parece ser un látigo fuertemente agarrado en sus manos.\n\n«[flagellant.GetHerHim|U] encontramos en [doomsday_province.GetName], vagando por las calles, mientras se flagelaba con esa cosa». [marshal.GetFirstNameNoTooltip|U] señala el látigo. «Está asustando de muerte a los lugareños con sus diatribas de cómo la poderosa peste viene a por nosotros y que todos debemos arrepentirnos»."
- epidemic_events.5906.a: "«¡Los de vuestra ralea estáis destrozando el [ROOT.Char.GetFaith.GetNameNoTooltip|l]!»."
+ epidemic_events.5906.a: "«¡Los de vuestra ralea estáis destrozando la fe [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|l]!»."
  epidemic_events.5906.a.tt.success: "Consigues argumentar tu opinión"
  epidemic_events.5906.a.tt.failure: "[flagellant.Custom('ES_ElLa')|U] flagelante se mantiene firme"
  epidemic_events.5906.b: "Puede que tenga algo de razón…"

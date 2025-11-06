@@ -41,3 +41,4 @@
  hunt_invite_flavor_dangerous: "$invite_to_activity_flavor_hunt$我们将一起拿下一只危险的野兽！\n"
  hunt_invite_flavor_falconry: "$invite_to_activity_flavor_hunt$我们的猎鹰将一起干净利落地解决它们的猎物！\n"
  NOT_activity_invite_max_num_guests: "无法将[CHARACTER.GetShortUIName]添加进活动，人数已满！"
+ REASON_NOT_A_WITCH: "你不是巫师"

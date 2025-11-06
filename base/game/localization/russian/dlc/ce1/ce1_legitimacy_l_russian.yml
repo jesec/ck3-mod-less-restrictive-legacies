@@ -53,3 +53,4 @@
  reduced_title_creation_cost: "Немного #positive_value снижены#! требования к количеству [Concept( 'de_jure', 'де-юре' )|E] [Concept( 'counties', 'графств' )|E] для создания [Concept( 'title', 'титула' )|E]"
  very_reduced_title_creation_cost: "#positive_value Снижены#! требования к количеству [Concept( 'de_jure', 'де-юре' )|E] [Concept( 'counties', 'графств' )|E] для создания [Concept( 'title', 'титула' )|E]"
  extra_reduced_title_creation_cost: "Значительно #positive_value снижены#! требования к количеству [Concept( 'de_jure', 'де-юре' )|E] [Concept( 'counties', 'графств' )|E] для создания [Concept( 'title', 'титула' )|E]"
+ married_lowborn_toast: "Брак с [Concept( 'lowborn', 'простолюдином' )|E]"

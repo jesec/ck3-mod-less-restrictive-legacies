@@ -21,7 +21,7 @@
  LEGACY_FOUNDED_FAITH: "#T Основание [Concept( 'faith', 'конфессии' )|E]\n#!Основатель конфессии [LegacyItem.GetFoundedFaith.GetAdjective|l]"
  LEGACY_CULTURAL_HEAD: "#T [cultural_head|E]\n#!Идеолог #L [LegacyItem.GetCharacter.GetCulture.GetCollectiveNoun|l]ой#! культуры"
  LEGACY_CULTURAL_HEAD_DEAD: "#T [cultural_head|E]\n#!На момент смерти — идеолог #L [LegacyItem.GetCharacter.GetCulture.GetCollectiveNoun|l]ой#! культуры"
- LEGACY_DREADED: "#T Внушение [Concept( 'dreadful', 'ужаса' )|E] в прошлом#!"
+ LEGACY_DREADED: "#T [Select_CString(LegacyItem.GetCharacter.IsFemale, 'Внушала', 'Внушал' )] [Concept( 'dreadful', 'ужас' )|E]#!"
  LEGACY_RENOWNED: "#T [prestige_level|E]: [GetPrestigeLevelName(LegacyItem.GetPrestigeLevel)]#!"
  LEGACY_PIOUS: "#T [piety_level|E]: [GetPietyLevelName(LegacyItem.GetPietyLevel)]#!"
  LEGACY_LIFESTYLE: "#T [lifestyle|E] — [LegacyItem.GetLifestyle.GetName]\n#![LegacyItem.GetFinisherPerksList]"

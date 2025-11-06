@@ -486,7 +486,7 @@
  MOD_MONTHLY_PRESTIGE_GAIN_PER_KNIGHT_MULT: "Monatliches [prestige|E] pro [knight|E]"
  MOD_MONTHLY_PRESTIGE_GAIN_PER_LEGITIMACY_LEVEL_ADD: "[prestige|E] pro [legitimacy_level|E]"
  MOD_MONTHLY_PRESTIGE_GAIN_PER_LEGITIMACY_LEVEL_MULT: "Monatliches [prestige|E] pro [legitimacy_level|E]"
- MOD_MONTHLY_PIETY_FROM_BUILDINGS_MULT: "Monatliches [piety|E] durch [Concept('buildings', 'Gebäuden')|E]"
+ MOD_MONTHLY_PIETY_FROM_BUILDINGS_MULT: "Monatliche [piety|E] durch [buildings|E]"
  MOD_MONTHLY_PRESTIGE_FROM_BUILDINGS_MULT: "Monatliches [prestige|E] von [Concept('buildings', 'Gebäuden')|E]"
  MOD_STRESS_GAIN_MULT: "[Concept('stress', 'Anspannungs')|E]-Zuwachs"
  MOD_STRESS_LOSS_MULT: "[Concept('stress', 'Anspannungs')|E]-Verlust"

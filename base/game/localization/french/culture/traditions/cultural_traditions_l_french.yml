@@ -1080,6 +1080,9 @@
  doesnt_employ_court_physician_desc: "La [culture|El] n’a pas #high 5#! [rulers|E] qui emploient un [GetCourtPositionType('court_physician_court_position').GetName()|l]"
  cheaper_tradition_physician_or_whole_of_body: "Vous avez le [trait|El] [GetTrait('lifestyle_physician').GetName( GetNullCharacter )] ou [GetTrait('whole_of_body').GetName( GetNullCharacter )]"
  cheaper_tradition_norse_washing: "[heritage|E] $heritage_north_germanic_name$"
+ culture_parameter_always_unlock_legendary_hunting_lodge: "[SelectLocalization( HasDlcFeature( 'legends' ), 'culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC', 'culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC' )]"
+ culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC: ""
+ culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC: "Les [rulers|El] ayant cette [culture|El] peuvent toujours construire un $building_type_legendary_hunting_lodge$ après avoir terminé une [legend|El]"
  #BP2 Traditions
  tradition_noble_adoption_name: "Adoption noble"
  tradition_noble_adoption_desc: "L’adoption d’enfants orphelins par des Maisons nobles est monnaie courante dans cette société."

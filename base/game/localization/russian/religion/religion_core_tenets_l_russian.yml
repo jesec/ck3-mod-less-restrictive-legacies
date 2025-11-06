@@ -10,7 +10,7 @@
  tenet_excommunicated: "[GetTrait('excommunicated').GetName( GetNullCharacter )]"
  tenet_armed_pilgrimages_name: "Вооруженные паломники"
  tenet_armed_pilgrimages_desc: "Наши пилигримы путешествуют по миру, чтобы посетить святые места, и мы с радостью возьмем в руки меч, чтобы защитить наших единоверцев."
- doctrine_parameter_cheaper_holy_wars_active: "[rulers|E] этой [faiths|El] тратят на #P -20%#! меньше [Concept( 'piety', 'благочестия' )|El], чтобы объявить [holy_wars|El]."
+ doctrine_parameter_cheaper_holy_wars_active: "[rulers|E] этой [faiths|El] тратят на #P 20%#! меньше [Concept( 'piety', 'благочестия' )|El], чтобы объявить [holy_wars|El]."
  doctrine_parameter_great_holy_wars_active: "[head_of_faith|E] может развязать [Concept( 'great_holy_war', 'Великую священную войну' )|El], если у [faiths|El] достаточно высокое [fervor|El]."
  doctrine_parameter_ghw_no_hof_conversion_buffs_active: "Если [Concept( 'head_of_faith', 'главы конфессии' )|El] нет, ее последователи получают бонус к эффективности [Concept( 'councillor_task', 'задания советника' )|El] «[convert_county|El]» за каждое [holy_site|El] под контролем"
  doctrine_parameter_pilgrimage_decision_active: "Персонажи этой [faiths|El] получают дополнительный бонус при успешном завершении [Concept( 'pilgrimage', 'паломничества' )|E]"

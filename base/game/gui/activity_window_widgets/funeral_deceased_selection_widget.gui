@@ -59,16 +59,20 @@ widget = {
 				blockoverride "scrollbox_content" {
 					vbox = {
 						name = "character_grid"
-						datamodel = "[GetPlayer.GetDeadRelatives]"
+						datamodel = "[GetPlayer.MakeScope.GetList('funeral_activity_targets')]"
 
 						item = {
 							potential_selectable_target_portrait_widget = {
+								datacontext = "[Scope.Char]"
+
 								size = { 475 100 }
-								visible = [FuneralIsBodyAvailable]
+								visible = "[FuneralIsBodyAvailable]"
 
 								blockoverride "onclick"
 								{
 									onclick = "[ActivityPlanner.AddOrSetOnCreationObject( 'body_to_bury', Character.MakeScope )]"
+
+									onclick = "[ToggleFuneralDeceasedSelection]"
 									down = "[ObjectsEqual( GetFuneralDeceasedToHonorPlannerContext, Character.Self )]"
 								}
 							}

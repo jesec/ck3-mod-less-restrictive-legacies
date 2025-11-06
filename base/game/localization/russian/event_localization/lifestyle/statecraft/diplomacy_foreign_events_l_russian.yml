@@ -192,7 +192,7 @@
  diplomacy_foreign.1102.a.duel_failure: "Мое присутствие прерывает встречу двух наследников"
  tooltip.diplomacy_foreign.1102.a.duel_failure: "Мое присутствие прервало встречу двух наследников"
  diplomacy_foreign.1102.b: "Думаю, [other_heir.GetFirstNameNoTooltip] польстится на богатые дары!"
- diplomacy_foreign.1102.c: "Надеюсь, [main_heir.GetFirstNameNoTooltip] справится [main_heir.GetHerselfHimself]."
+ diplomacy_foreign.1102.c: "Надеюсь, [main_heir.GetFirstNameNoTooltip] справится [Select_CString(main_heir.IsFemale, 'сама', 'сам' )]."
  diplomacy_foreign.1102.c.tooltip.high: "[main_heir.GetTitledFirstName] проявит себя #P хорошо#!"
  diplomacy_foreign.1102.c.tooltip.medium: "[main_heir.GetTitledFirstName] проявит себя #P подобающе#!"
  diplomacy_foreign.1102.c.tooltip.low: "[main_heir.GetTitledFirstName] проявит себя #N неважно#!"

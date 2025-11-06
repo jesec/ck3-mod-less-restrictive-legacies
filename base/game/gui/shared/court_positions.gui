@@ -1761,7 +1761,7 @@ types CourtPositionItems
 				gfxtype = togglepushbuttongfx
 				shaderfile = "gfx/FX/pdxgui_pushbutton.shader"
 				block "button_icon" {
-					texture = "gfx/interface/icons/court_position_task_types/_default.dds"
+					texture = "gfx/interface/icons/court_position_task_types/_no_task.dds"
 				}
 				alwaystransparent = yes
 				size = { 38 38 }

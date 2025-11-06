@@ -24,7 +24,7 @@
  hostile_scheme_discovery.1002.fallback: "плетет интриги, цель которых —"
  hostile_scheme_discovery.1002.a: "[owner.Custom('InsultAdjective')|U] [Select_CString(owner.IsFemale, 'тварь', 'монстр' )]!"
  hostile_scheme_discovery.2001.intro: "[Select_CString(spymaster.IsFemale, 'Моя', 'Мой' )] [spymaster.GetCouncilTitle|l] приносит печальные новости. Кто-то"
- hostile_scheme_discovery.2001.intro_no_spymaster: "До меня дошли страшные известия. Пока не известно, кто именно,"
+ hostile_scheme_discovery.2001.intro_no_spymaster: "До меня дошли страшные известия. Кто-то - пока не известно, кто именно, - "
  hostile_scheme_discovery.2001.murder: "задумал убийство! И его цель —"
  hostile_scheme_discovery.2001.abduction: "готовит похищение! И его цель —"
  hostile_scheme_discovery.2001.fallback: "строит козни! Их цель —"

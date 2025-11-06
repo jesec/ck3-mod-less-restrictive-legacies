@@ -13,7 +13,7 @@
  start_independence_faction_interaction_desc: "Основать [Concept( 'independence_faction', 'фракцию за независимость' )|E] от персонажа [recipient.GetShortUINameNoTooltip]"
  start_independence_faction_interaction_notification: "Основание фракции сепаратистов"
  join_independence_faction_interaction: "Присоединиться к фракции сепаратистов"
- join_independence_faction_interaction_desc: "Присоединяется к происками [independence_faction|El] против персонажа [recipient.GetShortUINameNoTooltip]"
+ join_independence_faction_interaction_desc: "Присоединяется к происками [Concept( 'independence_faction', 'фракции сепаратистов' )|E] против [Select_CString(recipient.IsLocalPlayer, '', 'персонажа ' )][recipient.GetShortUINamePossessiveNoTooltip][Select_CString(recipient.IsLocalPlayer, 'его персонажа', '' )]"
  join_independence_faction_interaction_notification: "Присоединение к фракции сепаратистов"
  create_claimant_faction_against_interaction: "Основать фракцию в поддержку претендента"
  create_claimant_faction_against_interaction_desc: "Основать [Concept( 'claimant_faction', 'фракцию поддержки претендента' )|E] против персонажа [secondary_actor.GetShortUINameNoTooltip]"

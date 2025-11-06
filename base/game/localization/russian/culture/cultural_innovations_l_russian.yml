@@ -1,5 +1,5 @@
 ﻿l_russian:
- cb_discount_prestige_10: "Затраты [Concept( 'prestige', 'престижа' )|E] на [casus_belli|E]: [prestige_i]#P −10%#!"
+ cb_discount_prestige_10: "Затраты [Concept( 'prestige', 'престижа' )|E] на [casus_belli|El]: [prestige_i]#P −10%#!"
  cb_discount_piety_10: "Затраты [Concept('piety', 'благочестия' )|E] на [casus_belli|El]: [piety_i]#P −10%#!"
  individual_county_de_jure_cb: "Отдельное [de_jure|El] [county|El]"
  individual_duchy_de_jure_cb: "Отдельное [de_jure|El] [duchy|El]"

@@ -41,3 +41,4 @@
  hunt_invite_flavor_dangerous: "$invite_to_activity_flavor_hunt$ 우리 함께 위험천만한 야수를 쓰러뜨려 봅시다!\n"
  hunt_invite_flavor_falconry: "$invite_to_activity_flavor_hunt$ 우리의 매는 사냥감을 순식간에 처리할 것이오!\n"
  NOT_activity_invite_max_num_guests: "[CHARACTER.GetShortUIName](을)를 활동에 추가할 수 없습니다. 정원이 가득 찼습니다!"
+ REASON_NOT_A_WITCH: "당신은 마녀가 아님"

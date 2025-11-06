@@ -46,7 +46,7 @@
  false_conversion.2000.desc_descriptor_grief: "скорбь."
  false_conversion.2000.desc_descriptor_depression: "уныние."
  false_conversion.2000.desc_descriptor_stress: "стресс."
- false_conversion.2000.desc_bridge: "\n"
+ false_conversion.2000.desc_bridge: "\n\n"
  false_conversion.2000.desc_quote_grief: "«Достаточно малейшего пустяка, и перед глазами у меня встает [deceased_character.GetFirstName], — жалуется [vulnerable_relation.GetTitledFirstNameNoTooltip]. — Как я могу пережить такую утрату?»"
  false_conversion.2000.desc_quote_depression: "«Каждый новый день тяжелее предыдущего, — признается [vulnerable_relation.GetTitledFirstNameNoTooltip]. — Я так больше не могу. Жизнь словно утекает из меня»."
  false_conversion.2000.desc_quote_stress: "«Тяготы каждодневной жизни меня измучили, — жалуется [vulnerable_relation.GetTitledFirstNameNoTooltip]. — Каждый день я молюсь об избавлении от своей участи»."

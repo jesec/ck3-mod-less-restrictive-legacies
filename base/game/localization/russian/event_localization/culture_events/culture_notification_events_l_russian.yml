@@ -4,7 +4,7 @@
  culture_notification.0011.t: "Традиция принята"
  culture_notification.0011.desc: "Традиция «[tradition.GetName]» принята [this_player.GetCulture.GetCollectiveNounNoTooltip|l]ой культурой"
  culture_notification.1001.t: "Формирование гибридной культуры"
- culture_notification.1001.desc: "Из культур «[parent_1.GetNameNoTooltip]» и «[parent_2.GetNameNoTooltip]» [founder.GetTitledFirstName] создает новую [Concept( 'hybrid_culture', 'гибридную культуру' )|E] — [new_culture.GetCollectiveNoun|l]ую."
+ culture_notification.1001.desc: "Из культур «[parent_1.GetNameNoTooltip]» и «[parent_2.GetNameNoTooltip]» [founder.GetTitledFirstName] создает новую [Concept( 'hybrid_culture', 'гибридную культуру' )|E] — #L [new_culture.GetCollectiveNoun|l]ую#!."
  culture_notification.1011.t: "[new_culture.GetCollectiveNounNoTooltip]ая гибридизация"
  culture_notification.1011.intro: "За долгие годы хороших отношений и интенсивного культурного обмена [parent_1.GetName|l] и [parent_2.GetName|l] заметно сблизились. Сейчас их представители все чаще относят себя не к тому или другому сообществу, но сразу к обоим — это рождение новой, #L [new_culture.GetCollectiveNoun|l]ой#! культуры.\n\n"
  culture_notification.1011.hybrid_primary_1: "[parent_1.GetCollectiveNounNoTooltip]ие традиции и ценности стали хребтом новой культуры, в то время как [parent_2.GetCollectiveNounNoTooltip|l]ие особенности прочно укрепились и адаптировались в новом обществе."

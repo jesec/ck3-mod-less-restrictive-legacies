@@ -86,7 +86,7 @@
  commission_epic.1004.devotee_female: "[ROOT.Char.GetFaith.DevoteeFemale]"
  commission_epic.1004.ending: "известный иллюминатор, находится во владении [barony.GetNameNoTier]. Учитывая, как продвигается написание семейного эпоса, самое время подумать о том, как будут выглядеть страницы в окончательном виде."
  commission_epic.1004.a: "Нанять иллюминатора, чего бы это ни стоило!"
- commission_epic.1004.b: "[composer.GetTitledFirstNameNoTooltip] и [composer.GetHerselfHimself] с этим справится"
+ commission_epic.1004.b: "[composer.GetTitledFirstNameNoTooltip] и [Select_CString(composer.IsFemale, 'сама', 'сам' )] с этим справится"
  commission_epic.1004.b_scribes: "Мои [ROOT.Char.Custom('CommissionEpicScribes')] сами с этим справятся"
  commission_epic.1004.success: "Великолепная иллюминация"
  commission_epic.1004.failure: "Плохие картинки"

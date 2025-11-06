@@ -1611,8 +1611,6 @@ types ActivityPlannerNewTypes
 				vbox = {
 					name = "activity_options_plugins"
 					layoutpolicy_vertical = expanding
-					margin_top = 8
-					margin_bottom = 16
 				}
 
 				# Activity Options

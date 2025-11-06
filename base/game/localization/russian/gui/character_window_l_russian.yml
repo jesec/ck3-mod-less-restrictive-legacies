@@ -111,7 +111,7 @@
  CHARACTER_WINDOW_VIEW_LIFESTYLE_FOCUS: "#I Щелкните, чтобы посмотреть образ жизни#!"
  CHARACTER_WINDOW_VIEW_EDUCATION_FOCUS: "#I Щелкните, чтобы посмотреть фокус образования#!"
  LIFESTYLE_FOCUS_ICON_HEADER: "#T [lifestyle|E]: [CHARACTER.GetFocus.GetName]#!"
- LIFESTYLE_FOCUS_ICON_HEADER_NO_FOCUS: "#T [lifestyle|E]:Отсутствует#!"
+ LIFESTYLE_FOCUS_ICON_HEADER_NO_FOCUS: "#T [lifestyle|E]: Отсутствует#!"
  EDUCATION_FOCUS_ICON_HEADER: "#T Фокус образования: [CHARACTER.GetFocus.GetNameNoTooltip]#!"
  EDUCATION_FOCUS_ICON_HEADER_NO_FOCUS: "#T Фокус образования: нет#!"
  SKILL_ITEM_TOOLTIP: "[SkillItem.GetSkillBreakdownTooltip]\n\n#S Эффекты:#!\n[SkillItem.GetSkillEffects]"

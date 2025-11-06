@@ -723,7 +723,7 @@
  legend_spread_events.5405.b.success: "你当场成功发明了一种新的野兽"
  legend_spread_events.5405.b.failure: "[chronicler.GetFirstNameNoTooltip]不相信你"
  legend_spread_events.5405.c: "“谁能说得清呢？我看到的奇观实在太多……”"
- legend_chapter_discovery_mythical_beast: "在[ROOT.LegendGetProtagonist.GetHerHis]的旅途中，[ROOT.Legend.GetProtagonist.GetFirstName]发现了令[ROOT.Legend.GetProtagonist.GetHerHim]震撼的事物。关于野生奇妙生物的古老神话被证明是真实的，毫无疑问，并且所有人都为[ROOT.Legend.GetProtagonist.GetFirstName]的勇敢和好奇心而欢呼。"
+ legend_chapter_discovery_mythical_beast: "在[ROOT.Legend.GetProtagonist.GetHerHis]的旅途中，[ROOT.Legend.GetProtagonist.GetFirstName]发现了令[ROOT.Legend.GetProtagonist.GetHerHim]震撼的事物。关于野生奇妙生物的古老神话被证明是真实的，毫无疑问，并且所有人都为[ROOT.Legend.GetProtagonist.GetFirstName]的勇敢和好奇心而欢呼。"
  legend_chapter_discovery_new_myth: "当[ROOT.Legend.GetProtagonist.GetFirstName]漫游时，[ROOT.Legend.GetProtagonist.GetSheHe]发现了在[ROOT.Legend.GetProtagonist.GetHerHis]踏上旅程后超出[ROOT.Legend.GetProtagonist.GetSheHe]想象的东西。这是一种罕见且非凡的生物，比人类大两倍，有六条腿和一个从躯干上长出的手臂！从未有人听说过这样的野兽，因此[ROOT.Legend.GetProtagonist.GetFirstName]为[ROOT.Legend.GetName]增添了新的故事。"
  legend_spread_events.5410.t: "何物在远方？"
  legend_spread_events.5410.desc: "随着[chronicler.GetFirstName]记录下我的故事，越来越多的[ROOT.Char.Custom('GetWritingMaterialPlural')]被写满。穿越山丘和山谷，跨越宽阔的河流，甚至是……\n\n“[ROOT.Char.GetLadyLord]，你真的去到了那么远吗？”[chronicler.GetFirstNamePossessiveNoTooltip]眼中充满惊奇。“远到深入狂暴的海洋？”\n\n没人知道我们安全的已知水域之外的东西。或许有一些共识上的猜测，但这是我编织自己故事的机会吗？"

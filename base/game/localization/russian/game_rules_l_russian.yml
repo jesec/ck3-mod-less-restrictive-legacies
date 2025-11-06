@@ -233,7 +233,7 @@
  rule_casus_belli_costs: "Стоимость казус белли"
  setting_default_casus_belli_costs: "По умолчанию"
  setting_default_casus_belli_costs_desc: "Для использования казус белли требуются ресурсы, такие как престиж или благочестие."
- setting_no_cost_casus_belli_costs: "#high Бесплатные#!"
+ setting_no_cost_casus_belli_costs: "#high Бесплатно#!"
  setting_no_cost_casus_belli_costs_desc: "Для использования казус белли никакие расходы не требуются."
  rule_end_date: "Дата окончания"
  setting_1453_end_date: "1453"

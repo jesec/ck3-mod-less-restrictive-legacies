@@ -12,6 +12,6 @@ mourn_intent = {
 	}
 
 	scripted_animation = {
-		animation = scheme
+		animation = crying
 	}
 }

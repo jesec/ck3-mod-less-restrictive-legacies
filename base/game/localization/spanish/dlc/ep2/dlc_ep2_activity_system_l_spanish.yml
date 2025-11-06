@@ -41,3 +41,4 @@
  hunt_invite_flavor_dangerous: "$invite_to_activity_flavor_hunt$ ¡Juntos abatiremos a una bestia traicionera!\n"
  hunt_invite_flavor_falconry: "$invite_to_activity_flavor_hunt$ ¡Juntos, nuestros halcones darán cuenta de sus presas!\n"
  NOT_activity_invite_max_num_guests: "No se puede añadir a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] a la actividad, ¡está llena!"
+ REASON_NOT_A_WITCH: "No practicas la brujería"

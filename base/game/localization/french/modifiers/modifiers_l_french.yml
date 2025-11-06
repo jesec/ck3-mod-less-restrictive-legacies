@@ -486,7 +486,7 @@
  MOD_MONTHLY_PRESTIGE_GAIN_PER_KNIGHT_MULT: "[prestige|E] mensuel par [knight|El]"
  MOD_MONTHLY_PRESTIGE_GAIN_PER_LEGITIMACY_LEVEL_ADD: "[prestige|E] par [legitimacy_level|El]"
  MOD_MONTHLY_PRESTIGE_GAIN_PER_LEGITIMACY_LEVEL_MULT: "[prestige|E] mensuel par [legitimacy_level|El]"
- MOD_MONTHLY_PIETY_FROM_BUILDINGS_MULT: "[piety|E] mensuelle du [buildings|El]"
+ MOD_MONTHLY_PIETY_FROM_BUILDINGS_MULT: "[piety|E] mensuelle des [buildings|El]"
  MOD_MONTHLY_PRESTIGE_FROM_BUILDINGS_MULT: "[prestige|E] mensuel des [buildings|El]"
  MOD_STRESS_GAIN_MULT: "Gain de [stress|El]"
  MOD_STRESS_LOSS_MULT: "Perte de [stress|El]"

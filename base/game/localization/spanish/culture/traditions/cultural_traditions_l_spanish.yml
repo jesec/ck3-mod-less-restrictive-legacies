@@ -1080,6 +1080,9 @@
  doesnt_employ_court_physician_desc: "La [culture|lE] no tiene #high 5#! [rulers|lE] que empleen un [GetCourtPositionType('court_physician_court_position').GetName()|l]"
  cheaper_tradition_physician_or_whole_of_body: "Tienes los [traits|lE] [GetTrait('lifestyle_physician').GetName( GetNullCharacter )|l] o [GetTrait('whole_of_body').GetName( GetNullCharacter )|l]"
  cheaper_tradition_norse_washing: "[heritage|E] $heritage_north_germanic_name$"
+ culture_parameter_always_unlock_legendary_hunting_lodge: "[SelectLocalization( HasDlcFeature( 'legends' ), 'culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC', 'culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC' )]"
+ culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC: ""
+ culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC: "Los [rulers|lE] de esta [culture|lE] siempre pueden construir un $building_type_legendary_hunting_lodge$ tras completar una [legend|lE]"
  #BP2 Traditions
  tradition_noble_adoption_name: "Adopción en casas nobles"
  tradition_noble_adoption_desc: "Adoptar niños huérfanos en casas nobles es habitual en esta sociedad. La sangre del pacto es más espesa que el agua del vientre."

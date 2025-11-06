@@ -60,7 +60,7 @@
  travel_danger_type_occupation: "Оккупация"
  travel_danger_type_occupation_desc: "В этом [Concept( 'barony', 'баронстве' )|E] недавно велась война."
  travel_danger_type_epidemic: "Мор"
- travel_danger_type_epidemic_desc: "В этом [Concept( 'barony', 'баронстве' )|E] свирепствует [Concept( 'epidemic', 'эпидемия' )|E]."
+ travel_danger_type_epidemic_desc: "В этом [Concept( 'barony', 'баронстве' )|E] свирепствует [Concept( 'epidemic', 'поветрие' )|E]."
  travel_danger_type_mountains: "Горы"
  travel_danger_type_mountains_desc: "Эти горы выглядят коварными и опасными."
  travel_danger_type_desert: "Пустыня"

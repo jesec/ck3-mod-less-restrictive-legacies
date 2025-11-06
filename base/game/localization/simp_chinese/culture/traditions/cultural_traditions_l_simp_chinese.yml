@@ -1080,6 +1080,9 @@
  doesnt_employ_court_physician_desc: "该[culture|E]没有#high 5#!位雇佣[GetCourtPositionType('court_physician_court_position').GetName()]的[rulers|E]"
  cheaper_tradition_physician_or_whole_of_body: "你拥有[GetTrait('lifestyle_physician').GetName( GetNullCharacter )]或[GetTrait('whole_of_body').GetName( GetNullCharacter )][traits|E]"
  cheaper_tradition_norse_washing: "$heritage_north_germanic_name$[heritage|E]"
+ culture_parameter_always_unlock_legendary_hunting_lodge: "[SelectLocalization( HasDlcFeature( 'legends' ), 'culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC', 'culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC' )]"
+ culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC: ""
+ culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC: "这个[culture|E]的[rulers|E]可以在完成[legend|E]后建造一座$building_type_legendary_hunting_lodge$"
  #BP2 Traditions
  tradition_noble_adoption_name: "贵族收养"
  tradition_noble_adoption_desc: "在这个社会中，贵胄收养孤儿是司空见惯的事情。契约之血浓于羊水。"

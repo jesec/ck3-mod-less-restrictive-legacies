@@ -53,3 +53,4 @@
  reduced_title_creation_cost: "略微#positive_value 降低#!创建[title|E]所需的[de_jure|E][counties|E]数量"
  very_reduced_title_creation_cost: "#positive_value 降低#!创建[title|E]所需的[de_jure|E][counties|E]数量"
  extra_reduced_title_creation_cost: "大幅#positive_value 降低#!创建[title|E]所需的[de_jure|E][counties|E]数量"
+ married_lowborn_toast: "与一名[lowborn|E]者结婚"

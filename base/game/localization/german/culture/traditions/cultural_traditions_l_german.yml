@@ -1080,6 +1080,9 @@
  doesnt_employ_court_physician_desc: "Die [culture|E] hat keine #high 5#! [rulers|E], die einen [GetCourtPositionType('court_physician_court_position').GetName()] angestellt haben"
  cheaper_tradition_physician_or_whole_of_body: "Ihr habt die [trait|E] „[GetTrait('lifestyle_physician').GetName(GetNullCharacter)]“ oder „[GetTrait('whole_of_body').GetName(GetNullCharacter)]“"
  cheaper_tradition_norse_washing: "$heritage_north_germanic_name$e [heritage|E]"
+ culture_parameter_always_unlock_legendary_hunting_lodge: "[SelectLocalization(HasDlcFeature('legends'), 'culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC', 'culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC')]"
+ culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC: ""
+ culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC: "[rulers|E] dieser [culture|E] können nach Abschluss einer [legend|E] immer ein „$building_type_legendary_hunting_lodge$“ bauen"
  #BP2 Traditions
  tradition_noble_adoption_name: "Adelige Adoption"
  tradition_noble_adoption_desc: "Die Adoption von Waisenkindern in Adelshäuser ist in dieser Gesellschaft gang und gäbe. Das Blut des Bundes ist dicker als das Wasser des Mutterleibs."

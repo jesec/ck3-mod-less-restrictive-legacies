@@ -8,7 +8,7 @@
  drained_by_mosquitoes_modifier: "Жертвы кровососов"
  drained_by_mosquitoes_modifier_desc: "Этот персонаж пострадал от роя кровососущих насекомых и потерял заметный объем драгоценной крови."
  travel_danger_events.9010.t: "$travel_danger_prefix$: палки в колесе"
- travel_danger_events.9010.desc: "«[location.Custom('GetRandomRegionalDanger')|U]!» Это испуганно кричит [irritated_character.GetFirstName]. Вскоре слышится громкий треск — похоже на звук ломающегося дерева или моего небесконечного терпения.\n\nЯ иду на звук, под моими ногами [location.Custom('GetProvinceGroundDesc')] и щепки, оставшиеся от колеса повозки... #EMP моей#! повозки!\n\n«Прости,  [irritated_character.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))]. Была моя очередь следить за дорогой, но сон сморил меня прямо с поводьями в руках...»"
+ travel_danger_events.9010.desc: "«[location.Custom('GetRandomRegionalDanger')|U]!» Это испуганно кричит [irritated_character.GetFirstName]. Вскоре слышится громкий треск — похоже на звук ломающегося дерева или моего лопнувшего терпения.\n\nЯ иду на звук, под моими ногами [location.Custom('GetProvinceGroundDesc')] и щепки, оставшиеся от колеса повозки... #EMP моей#! повозки!\n\n«Прости,  [irritated_character.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))]. Была моя очередь следить за дорогой, но сон сморил меня прямо с поводьями в руках...»"
  travel_danger_events.9010.strong: "#EMP *Громко вздохнуть, переворачивая повозку*#!"
  travel_danger_events.9010.a: "[root_scope.Custom('CulturalCurse')|U]... Что ж, мы опоздаем."
  travel_danger_events.9010.b: "Соберите припасы, а я поеду на коне..."

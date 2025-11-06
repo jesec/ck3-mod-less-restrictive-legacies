@@ -467,7 +467,7 @@
  epidemic_events.5905.c: "Mit [peasant.Custom('DE_PRO_PER_S_3P_D')] zu debattieren, wird nicht dazu beitragen, dass [peasant.Custom('DE_PRO_PER_S_3P_N')] mir glaubt."
  epidemic_events.5906.t: "[Select_CString(flagellant.IsFemale, 'Freilaufende Flagellantin', 'Freilaufender Flagellant')]"
  epidemic_events.5906.desc: "Für gewöhnlich gehen die Wachen behutsamer vor, wenn sie mich in meinen Ratskammern stören, doch heute stürmen sie ohne Umschweife herein, an ihrer Spitze mein Ratsmarschall [marshal.GetFirstName]. Hinter ihnen wird eine bemitleidenswerte Gestalt mit großen Augen und einer scheinbar fest umklammerten Peitsche in den Händen herbeigezerrt.\n\n„Wir haben [flagellant.Custom('DE_PRO_PER_S_3P_A')] in [doomsday_province.GetName] aufgegabelt. [flagellant.Custom('DE_PRO_PER_S_3P_N')|U] zog durch die Straßen und schlug sich mit diesem Ding selbst blutig.“ [marshal.GetFirstNameNoTooltip|U] deutet auf die Peitsche. „[flagellant.Custom('DE_PRO_PER_S_3P_N')|U] hat den Dorfbewohnern den Schreck ihres Lebens eingejagt, indem [flagellant.Custom('DE_PRO_PER_S_3P_N')] davon erzählte, dass eine todbringende Seuche auf dem Weg zu uns ist und wir alle Buße tun müssen.“"
- epidemic_events.5906.a: "„Ihr und Euresgleichen beflecken den [ROOT.Char.GetFaith.GetNameNoTooltip|l]en Glauben!“"
+ epidemic_events.5906.a: "„Ihr und Euresgleichen beflecken den [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|l]en Glauben!“"
  epidemic_events.5906.a.tt.success: "Eure Argumentation ist erfolgreich"
  epidemic_events.5906.a.tt.failure: "[Select_CString(flagellant.IsFemale, 'Die Flagellantin', 'Der Flagellant')] bleibt fest entschlossen"
  epidemic_events.5906.b: "Vielleicht hat [flagellant.Custom('DE_PRO_PER_S_3P_N')] da nicht ganz unrecht …"

@@ -31,7 +31,7 @@
  feudal_tax_exempt_short: "Льготы"
  feudal_tax_low: "Низкие [Concept( 'tax', 'налоги' )]"
  feudal_tax_low_short: "Низкие"
- feudal_tax_normal: "Обычные $game_concept_taxes$"
+ feudal_tax_normal: "Обычные [Concept( 'tax', 'налоги' )]"
  feudal_tax_normal_short: "Обычные"
  feudal_tax_high: "Высокие [Concept( 'tax', 'налоги' )]"
  feudal_tax_high_short: "Высокие"

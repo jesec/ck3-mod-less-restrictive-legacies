@@ -38,7 +38,7 @@
  add_legend_modifier_third: "[LEGEND.GetName] получает модификатор $MODIFIER$"
  add_legend_modifier_third_past: "Легенда «[LEGEND.GetName]» получила модификатор $MODIFIER$"
  add_legend_modifier_duration_global: "Получает модификатор $MODIFIER$ на $DURATION|V$"
- add_legend_modifier_duration_global_past: "Получен модификатор $MODIFIER$ на $DURATION|V$"
+ add_legend_modifier_duration_global_past: "Получен модификатор «$MODIFIER$» на $DURATION|V$"
  add_legend_modifier_duration_third: "[LEGEND.GetName] получает модификатор $MODIFIER$ на $DURATION|V$"
  add_legend_modifier_duration_third_past: "Легенда «[LEGEND.GetName]» получила модификатор $MODIFIER$ на $DURATION|V$"
  set_legend_chapter_global: "Изменить главу легенды"

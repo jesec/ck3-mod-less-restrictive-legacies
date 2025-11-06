@@ -41,6 +41,6 @@
  county_control: "$MAPMODE_COUNTY_CONTROL_NAME$"
  county_control_desc: "$MAPMODE_COUNTY_CONTROL$"
  epidemics: "@epidemic_icon! Поветрия"
- epidemics_desc: "#T Поветрия#!\nПоказывает распространение [Concept( 'epidemics', 'эпидемий' )|E] на карте."
+ epidemics_desc: "#T Поветрия#!\nПоказывает распространение [Concept( 'epidemics', 'поветрий' )|E] на карте."
  legends: "@legend_icon! Легенды"
  legends_desc: "#T Легенды#!\nПоказывает распространение [Concept( 'legends', 'легенд' )|E] на карте."

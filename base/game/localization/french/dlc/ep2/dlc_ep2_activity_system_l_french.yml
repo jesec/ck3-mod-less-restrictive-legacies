@@ -41,3 +41,4 @@
  hunt_invite_flavor_dangerous: "$invite_to_activity_flavor_hunt$ Ensemble, nous abattrons une bête perfide.\n"
  hunt_invite_flavor_falconry: "$invite_to_activity_flavor_hunt$ Ensemble, nos éperviers ne feront qu’une bouchée de leurs proies !\n"
  NOT_activity_invite_max_num_guests: "Impossible [Select_CString(CHARACTER.IsLocalPlayer,'de vous ','d’')]ajouter[CHARACTER.LocalPlayerString('', 'Loc_FR_le_GetShortUIName')] à l’activité, il n’y a plus de place !"
+ REASON_NOT_A_WITCH: "Vous ne pratiquez pas la sorcellerie"

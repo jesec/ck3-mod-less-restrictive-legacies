@@ -1,7 +1,7 @@
 ﻿l_russian:
  available_because_of_dread_tt: "Этот вариант доступен из-за внушаемого вами [Concept( 'dread', 'ужаса' )|E]."
- intrigue_lifestyle_perk_indication: "Вы можете получить [perk|El] [intrigue_lifestyle|E]"
- intrigue_scheming_focus_point_clear_gain: "Теперь вы лучше понимаете такой предмет, как [intrigue_lifestyle|E]"
+ intrigue_lifestyle_perk_indication: "Вы можете получить [perk|El] [intrigue_lifestyle|El]"
+ intrigue_scheming_focus_point_clear_gain: "Теперь вы лучше понимаете такой предмет, как [intrigue_lifestyle|El]"
  #Play Robin Hood, by Linnéa Thimrén
  intrigue_scheming.1001.t: "[county.GetNameNoTierNoTooltip] жалуется"
  intrigue_scheming.1001.desc: "«Эти ресурсы нужны нашим войскам! И если одной маленькой деревеньке во владении [county.GetNameNoTier] придется поголодать...»\nЯ все еще слышу жаркий спор между моими советниками, когда [councillor.GetTitledFirstName], представитель владения [county.GetNameNoTierNoTooltip], приветствует меня с усталым видом."

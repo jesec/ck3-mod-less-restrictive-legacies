@@ -395,23 +395,6 @@ remove_isolated_capital_modifiers_effect = {
 	}
 }
 
-play_plague_ending_cue_effect = {
-	if = {
-		limit = {
-			NOT = {
-				any_sub_realm_county = {
-					any_county_province = {
-						any_province_epidemic = {
-							count >= 1
-						}
-					}
-				}
-			}
-		}
-		play_music_cue = black_death #TODO Remove this and move it to the Black Plague event.
-	}
-}
-
 give_epidemic_immunity = {
 	if = {
 		limit = {

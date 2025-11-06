@@ -21,7 +21,7 @@
  tournament_events.9002.b.success: "Борцы вдохновили вас"
  tournament_events.9002.b.failure: "Вы ничему не научились"
  tournament_events.9003.t: "Удачная прогулка"
- tournament_events.9003.desc: "Стремясь скрыться от шумной толпы, собравшейся на турнирной площадке, я вдруг обнаруживаю неприметную тропинку, которую прикрывает [tournament_province.Custom('GetRandomRegionalWood')]. В подлеске спокойно и красиво — вокруг [tournament_province.Custom('GetProvinceFoliageDesc')] и прекрасные [tournament_province.Custom('get_region_flower_type_plural')].\n\n"
+ tournament_events.9003.desc: "Стремясь скрыться от шумной толпы, собравшейся на турнирной площадке, я вдруг обнаруживаю неприметную тропинку возле [tournament_province.Custom('GetRandomRegionalWood')]. В подлеске спокойно и красиво — вокруг [tournament_province.Custom('GetProvinceFoliageDesc')] и прекрасные [tournament_province.Custom('get_region_flower_type_plural')].\n\n"
  tournament_events.9003.friend: "Вдруг я замечаю, как с другой стороны ко мне подходит [intent_target_character.GetFirstName], [Select_CString(intent_target_character.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('intent_target_character'))]. Наконец-то мне улыбнулась удача — давно хотелось поговорить наедине. Возможно, сейчас можно будет завязать беседу?"
  tournament_events.9003.lover: "Подняв задумчивый взгляд, я замечаю, что от меня едва не ускользнул прекраснейший цветок из всех — [Select_CString(intent_target_character.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('intent_target_character'))] [intent_target_character.GetFirstName], свет очей моих. Судьба свела нас на одной и той же тропинке!"
  tournament_events.9003.a: "Мы молча проходим мимо друг друга."

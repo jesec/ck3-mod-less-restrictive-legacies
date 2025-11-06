@@ -484,7 +484,7 @@
  MOD_MONTHLY_PRESTIGE_GAIN_PER_DREAD_MULT: "每点[dread|E]使每月[prestige|E]"
  MOD_MONTHLY_PRESTIGE_GAIN_PER_KNIGHT_ADD: "每位[knight|E]给予的[prestige|E]"
  MOD_MONTHLY_PRESTIGE_GAIN_PER_KNIGHT_MULT: "每位[knight|E]使每月[prestige|E]"
- MOD_MONTHLY_PRESTIGE_GAIN_PER_LEGITIMACY_LEVEL_ADD: "每位[legitimacy_level|E]使[prestige|E]"
+ MOD_MONTHLY_PRESTIGE_GAIN_PER_LEGITIMACY_LEVEL_ADD: "每[legitimacy_level|E]使[prestige|E]"
  MOD_MONTHLY_PRESTIGE_GAIN_PER_LEGITIMACY_LEVEL_MULT: "每级[legitimacy_level|E]使每月[prestige|E]"
  MOD_MONTHLY_PIETY_FROM_BUILDINGS_MULT: "[buildings|E]产生的每月[piety|E]"
  MOD_MONTHLY_PRESTIGE_FROM_BUILDINGS_MULT: "[buildings|E]产生的每月[prestige|E]"

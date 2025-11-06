@@ -179,7 +179,7 @@ legend_changing_events = {
 
 ongoing_black_death_events = {
 	random_events = {
-		delay = { days = { 20 40 } } #to avoid them always firing the same day
+		delay = { days = { 4 8 } } #to avoid them always firing the same day
 
 		100 = epidemic_events.5901
 		100 = epidemic_events.5902

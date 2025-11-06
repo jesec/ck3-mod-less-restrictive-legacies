@@ -4,7 +4,7 @@
  ALL_POOL_CHARACTERS: "Все доступные персонажи:"
  ANY_POOL_CHARACTER: "Любой доступный персонаж:"
  ANY_OF_CHARACTERS_VASSALS: "Любой из [Concept( 'vassals', 'вассалов' )|E] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]:"
- ANY_OF_CHARACTERS_VASSALS_OR_BELOW: "Любой из [Concept('vassals', 'вассалов' )|E], чей сюзерен — [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонаж' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )], или подчиненных [Concept( 'landed', 'землевладельцев' )|E]:"
+ ANY_OF_CHARACTERS_VASSALS_OR_BELOW: "Любой из [Concept('vassals', 'вассалов' )|E], чей сюзерен — [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонаж ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )], или подчиненных [Concept( 'landed', 'землевладельцев' )|E]:"
  ALL_OF_CHARACTERS_VASSALS: "Все [vassals|El] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]:"
  ANY_OF_CHARACTERS_VASSALS_PERCENT: "$PARAMETERS$ из [Concept( 'vassals', 'вассалов' )|E] персонажа [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]:"
  ANY_OF_CHARACTERS_VASSALS_COUNT: "$PARAMETERS$ из [Concept( 'vassals', 'вассалов' )|E] персонажа [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]:"

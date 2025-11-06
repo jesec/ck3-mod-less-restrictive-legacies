@@ -2321,7 +2321,22 @@ give_legendary_building_location_standard_effect = {
 	}
 	if = {
 		limit = {
-			exists = scope:beast
+			OR = {
+				exists = scope:beast
+				has_trait_xp = {
+					trait = lifestyle_hunter
+					track = hunter
+					value >= 62
+				}
+				has_trait_xp = {
+					trait = lifestyle_hunter
+					track = falconer
+					value >= 62
+				}
+				culture ?= {
+					has_cultural_parameter = always_unlock_legendary_hunting_lodge
+				}
+			}
 		}
 		custom_tooltip = {
 			text = can_build_legendary_hunting_lodge_tt

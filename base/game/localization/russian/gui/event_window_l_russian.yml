@@ -3,7 +3,7 @@
  EVENT_WINDOW_OPTION_AVAILABLE_SKILL: "Этот вариант доступен из-за вашего [Concept( 'skill', 'навыка' )|E] «[SkillItem.GetName]»"
  EVENT_WINDOW_OPTION_AVAILABLE_TRAIT: "Этот вариант доступен, поскольку у вас есть [trait|El] «[Trait.GetName(GetPlayer)]»"
  EVENT_WINDOW_OPTION_AVAILABLE_DREAD: "Этот вариант доступен из-за внушаемого вами [Concept( 'dread', 'ужаса' )|E]"
- EVENT_WINDOW_OPTION_AVAILABLE_ACTIVITY_INTENT: "Этот вариант доступен из-за вашего [Concept( 'intent', 'замысла' )|E] «[GetPlayer.GetInvolvedActivityIntent.GetName]»"
+ EVENT_WINDOW_OPTION_AVAILABLE_ACTIVITY_INTENT: "Этот вариант доступен из-за вашего [Concept( 'intent', 'намерения' )|E] на [GetPlayer.GetInvolvedActivityIntent.GetName|l]"
  EVENT_WINDOW_OPTION_AVAILABLE_PRESTIGE_LEVEL: "Этот вариант доступен из-за вашего [Concept( 'prestige_level', 'уровня репутации' )|E]"
  EVENT_WINDOW_OPTION_AVAILABLE_PIETY_LEVEL: "Этот вариант доступен из-за вашего [Concept( 'piety_level', 'уровня набожности' )|E]"
  EVENT_WINDOW_OPTION_AVAILABLE_FAITH: "Этот вариант доступен из-за вашей [Concept( 'faith', 'конфессии' )|E]"

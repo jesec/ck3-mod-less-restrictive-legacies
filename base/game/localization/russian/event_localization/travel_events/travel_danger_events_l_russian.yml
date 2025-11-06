@@ -7,7 +7,7 @@
  #travel_danger_events.0001.b: "Fight"
  #Hills Terrain
  travel_danger_events.1000.t: "$travel_danger_prefix$ Из мухи слона"
- travel_danger_events.1000.desc: "За последние несколько часов дорога стала чересчур холмистой, и это вымотало всех.\n\nХолмы тянутся до самого горизонта, конца им не видно, и немного погодя [travel_leader.GetFirstName], [Select_CString(travel_leader.IsFemale, 'одна из моих спутниц', 'один из моих спутников' )], заявляет:\n\n«Ми[ROOT.Char.GetLadyLord], животные долго не выдержат. Беднягам нужен перерыв, иначе они просто попадают! Нужно сделать привал!»\n\n[travel_leader.GetSheHe|U] хорошо знает, что с каждой задержкой [destination.GetName] становится всё дальше и дальше..."
+ travel_danger_events.1000.desc: "За последние несколько часов дорога стала чересчур холмистой, и это вымотало всех.\n\nХолмы тянутся до самого горизонта, конца им не видно, и немного погодя [travel_leader.GetFirstName], [Select_CString(travel_leader.IsFemale, 'одна из моих спутниц', 'один из моих спутников' )], заявляет:\n\n«[ROOT.Char.GetLadyLord], животные долго не выдержат. Беднягам нужен перерыв, иначе они просто попадают! Нужно сделать привал!»\n\n[travel_leader.GetSheHe|U] хорошо знает, что с каждой задержкой [destination.GetName] становится всё дальше и дальше..."
  travel_danger_events.1000.a: "[travel_leader.GetSheHe|U] [Select_CString(travel_leader.IsFemale, 'права', 'прав' )]. Отдых действительно необходим."
  travel_danger_events.1000.b: "«Я не потерплю проволочек. Вперед!»"
  travel_danger_events.1001.t: "$travel_danger_events.1000.t$"

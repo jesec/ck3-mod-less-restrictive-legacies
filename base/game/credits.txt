@@ -160,6 +160,7 @@ Riad Deneche
 $TITLE_EMBEDDED_QA_ANALYST$
 Artur Kacprzak
 Anna Johansson
+Lydia Millqvist
 
 $TITLE_EMBEDDED_QA_TESTERS$
 Fabian Franzén
@@ -197,7 +198,7 @@ Anton Rask
 Linn Yngvesson
 
 $TITLE_PRODUCT_LAUNCH$
-Lousie Mutel
+Louise Mutel
 
 $TITLE_PR_MANAGER$
 Troy Goodfellow

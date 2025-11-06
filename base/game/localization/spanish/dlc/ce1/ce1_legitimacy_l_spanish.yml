@@ -53,3 +53,4 @@
  reduced_title_creation_cost: "Ligera #positive_value reducción#! de los [counties|El] [de_jure|El] necesarios para crear un [title|El]"
  very_reduced_title_creation_cost: "#positive_value Reducción#! de los [counties|El] [de_jure|El] necesarios para crear un [title|El]"
  extra_reduced_title_creation_cost: "Gran #positive_value reducción#! de los [counties|El] [de_jure|El] necesarios para crear un [title|El]"
+ married_lowborn_toast: "Matrimonio con alguien [lowborn|lE]"

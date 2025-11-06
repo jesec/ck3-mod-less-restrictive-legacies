@@ -35,7 +35,7 @@
  ra_rc_grandeur_open_desc: "Но если [royal_court|El] недостаточно известен, кто захочет на него приходить? Поговорим о величии двора!"
  ra_rc_grandeur_open_prompt: "Откройте вкладку «Величие двора» (выделено)"
  ra_rc_grandeur: "Величие двора"
- ra_rc_grandeur_desc: "[grandeur_level|El] — мера известности вашего [Concept( 'royal_court', 'монаршего двора' )|E].\n\n[grandeur|E] зависит от многих факторов, но основные его модификаторы — [amenities|El] и [court_artifacts|El].\n\nЧем больше становится ваша [realm|El], тем больший уровень величия от нее ожидается — это отражено в характеристике «[grandeur_expectations|E]»."
+ ra_rc_grandeur_desc: "[grandeur_level|E] — мера известности вашего [Concept( 'royal_court', 'монаршего двора' )|E].\n\n[grandeur|E] зависит от многих факторов, но основные его модификаторы — [amenities|El] и [court_artifacts|El].\n\nЧем больше становится ваша [realm|El], тем больший уровень величия от нее ожидается — это отражено в характеристике «[grandeur_expectations|E]»."
  ra_rc_amenities: "Увеселения при дворе"
  ra_rc_amenities_desc: "[amenities|E] — различные мероприятия и услуги, которые вы оказываете всем гостям [Concept( 'royal_court', 'монаршего двора' )|E]. Каждое увеселение так или иначе влияет на [grandeur|El].\n\nНа их проведение каждый месяц тратится [gold|El], так что следите за расходами!"
  ra_rc_court_types_and_language: "Типы дворов и придворный язык"

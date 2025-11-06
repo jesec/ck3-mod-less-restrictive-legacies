@@ -467,7 +467,7 @@
  epidemic_events.5905.c: "跟[peasant.GetHerHim]辩也不会让[peasant.GetHerHim]相信我。"
  epidemic_events.5906.t: "游荡，呓语"
  epidemic_events.5906.desc: "卫兵通常不会这么直截了当地来议事厅打扰我，但今天他们在我的军事统帅[marshal.GetFirstName]的带领下轻松闯了进来。在他们身后，一个可怜的人被毫不客气地拖着，[flagellant.GetHerHis]睁大眼睛，手里紧紧攥着一根鞭子。\n\n“我们在[doomsday_province.GetName]发现了[flagellant.GetHerHim]，[flagellant.GetHerselfHimself]在街上游荡，用那玩意儿把自己打得血肉模糊。”[marshal.GetFirstNameNoTooltip|U]指了指鞭子。“[flagellant.GetSheHe|U]咆哮着说强大的瘟疫如何向我们走来，我们都必须忏悔，让当地人十分担心他们的性命。”"
- epidemic_events.5906.a: "“你们这种人正在摧毁[ROOT.Char.GetFaith.GetNameNoTooltip]信仰！”"
+ epidemic_events.5906.a: "“你们这种人正在摧毁[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]信仰！”"
  epidemic_events.5906.a.tt.success: "你成功地论证了你的观点"
  epidemic_events.5906.a.tt.failure: "自笞者依然坚定"
  epidemic_events.5906.b: "也许[flagellant.GetSheHe]说的有道理……"

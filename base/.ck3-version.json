@@ -1,25 +1,25 @@
 {
-  "version": "1.12.1",
+  "version": "1.12.2.1",
   "version_name": "Scythe",
-  "updated": "2024-02-27T09:21:59.000Z",
+  "updated": "2024-03-06T15:20:37.000Z",
   "release_notes": {
-    "title": "Legends of the Dead & Free 1.12.1 \"Scythe\" Update - Available now!",
-    "date": "2024-03-04",
-    "file": "release-notes/1_12_1_0_2024-03-04.md",
-    "url": "https://store.steampowered.com/news/app/1158310/view/4156330431184976605"
+    "title": "1.12.2.1",
+    "date": "2024-03-07",
+    "file": "release-notes/1_12_2_1_2024-03-07.md",
+    "url": "https://store.steampowered.com/news/app/1158310/view/4141694364912401787"
   },
   "depots": {
     "1158311": {
-      "manifest": "7645825907783002903",
-      "updated": "2024-02-20T10:47:54.000Z"
+      "manifest": "6301723979028037882",
+      "updated": "2024-03-06T15:17:50.000Z"
     },
     "1158314": {
-      "manifest": "762865783800883009",
-      "updated": "2024-02-27T09:21:59.000Z"
+      "manifest": "6327410221704189267",
+      "updated": "2024-03-06T15:20:28.000Z"
     },
     "1158317": {
-      "manifest": "7621313628964533082",
-      "updated": "2024-02-12T16:38:36.000Z"
+      "manifest": "6868794786308749951",
+      "updated": "2024-03-06T15:20:37.000Z"
     },
     "1296730": {
       "manifest": "4673314442703562503",
