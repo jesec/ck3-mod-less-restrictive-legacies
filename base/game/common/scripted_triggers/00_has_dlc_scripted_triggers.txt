@@ -1,6 +1,13 @@
 ﻿
 ##################################################
-# Expansion Pack Triggers
+# Creator content Triggers
+has_afr_dlc_trigger = {
+	has_dlc_feature = north_african_attire
+}
+
+
+##################################################
+# Booster Pack Triggers
 
 has_bp1_dlc_trigger = {
 	has_dlc_feature = friends_and_foes

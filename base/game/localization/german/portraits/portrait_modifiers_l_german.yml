@@ -321,6 +321,25 @@
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_02_hi: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_02_hi$"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_nob_03_hi: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_nob_03_hi$"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_fp3_iranian_war_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_fp3_iranian_war_nob_01$"
+ ###########
+ ### AFR ###
+ ###########
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_afr_common_01: "Berber-Gemeinen-Gewandung 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_afr_common_02: "Berber-Gemeinen-Gewandung 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_afr_low_nob_01: "Berber-Niederadels-Gewandung 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_afr_low_nob_02: "Berber-Niederadels-Gewandung 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_afr_high_nob_01: "Berber-Hochadels-Gewandung 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_afr_high_nob_02: "Berber-Hochadels-Gewandung 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_afr_war_nob_01: "Berber-Rüstung"
+ ### Female ###
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_afr_common_01: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_afr_common_01$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_afr_common_02: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_afr_common_02$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_afr_low_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_afr_low_nob_01$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_afr_low_nob_02: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_afr_low_nob_02$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_afr_high_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_afr_high_nob_01$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_afr_high_nob_02: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_afr_high_nob_02$"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_afr_war_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_afr_war_nob_01$"
  ####################################
  ### SP2 - Elegance of the Empire ###
  ####################################
@@ -328,6 +347,13 @@
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_sp2_western_imp_01: "Kaisertunika"
  ### Male ###
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_sp2_western_imp_01: "Kaiserinnenkleid"
+ ####################################
+ ### SP3 - Couture of the Capets ####
+ ####################################
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_sp3_western_roy_01: "Königliche Dalmatika"
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_sp3_western_roy_01: "Seitenloser Surcot"
  ##########################################
  ################ Headgear ################
  ##########################################
@@ -575,6 +601,27 @@
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_nob_01: "Geschnürte Kappe mit Schleife"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_nob_02: "Runde Kappe mit Ornament"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_war_nob_01: "Pfauenhelm"
+ ###########
+ ### AFR ###
+ ###########
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_afr_common_01: "Chachia"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_afr_common_02: "Ksa"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_afr_low_nob_01: "Hoher Taraza"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_afr_low_nob_02: "Kurzer Taraza"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_afr_high_nob_01: "Mullah-Tagelmust"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_afr_royalty_01: "Emir-Tagelmust"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_afr_imperial_01: "Sultan-Tagelmust"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_afr_war_nob_01: "Kettenkapuzenturban"
+ ### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_afr_common_01: "Aquellouz"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_afr_common_02: "Adrar"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_afr_low_nob_01: "Tasebnit"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_afr_low_nob_02: "Tizakouin"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_afr_high_nob_01: "Lalla-Tafift"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_afr_royalty_01: "Emira-Talgamout"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_afr_imperial_01: "Sultana-Taounza"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_afr_war_nob_01: "$PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_afr_war_nob_01$"
  ####################################
  ### SP2 - Elegance of the Empire ###
  ####################################
@@ -584,6 +631,16 @@
  ### Male ###
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp2_western_imp_01: "Krone von Kunigunde"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp2_western_hi_nob_01: "Armreif mit Perlen und Edelsteinen"
+ ####################################
+ ### SP3 - Couture of the Capets ####
+ ####################################
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp3_western_roy_01: "Krone des Heiligen Ludwig"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp3_western_hi_nob_01: "Edler Hut mit Feh-Krempe"
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp3_western_roy_01: "Krone von Paraclet"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp3_western_hi_nob_01: "Halsreif mit Barbette"
+ PORTRAIT_MODIFIER_custom_special_f_headgear_sec_sp3_western_hi_nob_01: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp3_western_hi_nob_01$ #weak (mit Kronen)#!"
  ###############
  ### Special ###
  ###############
@@ -709,6 +766,8 @@
  PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_02_common: "Langer Split in Strähnen"
  PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_03: "Mittlere Dutte mit Ohrringen"
  PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_03_common: "Mittlere Dutte"
+ ### SP3 Hair ###
+ PORTRAIT_MODIFIER_custom_hair_m_hair_sp3_western_01: "Heiligenschopf"
  ### Male Special ###
  PORTRAIT_MODIFIER_custom_hair_male_hair_special_01: "Epische Dreadlocks"
  #######################################
@@ -763,6 +822,8 @@
  PORTRAIT_MODIFIER_custom_beards_m_beard_fp3_iranian_03: "Babylonischer Bart"
  ### SP2 Beards ###
  PORTRAIT_MODIFIER_custom_beards_m_beard_sp2_western_01: "Würdevoller Schnurrbart"
+ ### SP3 Beards ###
+ PORTRAIT_MODIFIER_custom_beards_m_beard_sp3_western_01: "Königsbart"
  #######################################
  ################ Cloak ################
  #######################################
@@ -793,6 +854,15 @@
  PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_sp2_western_imp_01: "Krönungsmantel"
  ### Female ###
  PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_sp2_western_imp_01: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_sp2_western_imp_01$"
+ ### SP3 - Couture of the Capets ###
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_sp3_western_roy_01: "Pelzbesetzter Königsmantel"
+ ### Female ###
+ PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_sp3_western_roy_01: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_sp3_western_roy_01$"
+ ### AFR ###
+ PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_afr_common_01: "Tamizart"
+ PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_afr_low_nob_01: "Tamizart mit Loubane"
+ PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_afr_high_nob_01: "Tamizart mit Tassarit"
  ##################################################
  ################ Monarchs Journey ################
  ##################################################
@@ -1049,6 +1119,7 @@
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_fp1_common_01: "Nordische Kampfhose"
  PORTRAIT_MODIFIER_custom_legwear_f_legwear_sec_ep2_western_era4_war_nob_01: "Spätmittelalterliche Kriegsadels-Beinbekleidung 1"
  PORTRAIT_MODIFIER_custom_legwear_f_legwear_sec_ep2_western_era4_war_nob_02: "Spätmittelalterliche Kriegsadels-Beinbekleidung 2"
+ PORTRAIT_MODIFIER_custom_legwear_f_legwear_sec_afr_common_01: "Berber-Beinbekleidung"
  PORTRAIT_MODIFIER_custom_legwear_girl_empty: "$PORTRAIT_MODIFIER_custom_legwear_female_empty$"
  PORTRAIT_MODIFIER_custom_legwear_boy_empty: "$PORTRAIT_MODIFIER_custom_legwear_female_empty$"
  PORTRAIT_MODIFIER_custom_legwear_male_empty: "$PORTRAIT_MODIFIER_custom_legwear_female_empty$"
@@ -1061,6 +1132,7 @@
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_fp1_common_01: "$PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_fp1_common_01$"
  PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_ep2_western_era4_war_nob_01: "$PORTRAIT_MODIFIER_custom_legwear_f_legwear_sec_ep2_western_era4_war_nob_01$"
  PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_ep2_western_era4_war_nob_02: "$PORTRAIT_MODIFIER_custom_legwear_f_legwear_sec_ep2_western_era4_war_nob_02$"
+ PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_afr_common_01: "$PORTRAIT_MODIFIER_custom_legwear_f_legwear_sec_afr_common_01$"
  ##################
  ### ANIMATIONS ###
  ##################

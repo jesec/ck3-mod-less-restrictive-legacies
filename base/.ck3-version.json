@@ -1,25 +1,25 @@
 {
-  "version": "1.11.3",
+  "version": "1.11.5",
   "version_name": "Peacock",
-  "updated": "2023-12-06T13:53:19.000Z",
+  "updated": "2024-01-16T18:26:44.000Z",
   "release_notes": {
-    "title": "1.11.3",
-    "date": "2023-12-11",
-    "file": "release-notes/1_11_3_0_2023-12-11.md",
-    "url": "https://store.steampowered.com/news/app/1158310/view/3864714743504786441"
+    "title": "1.11.5 - Couture of the Capets",
+    "date": "2024-02-06",
+    "file": "release-notes/1_11_5_0_2024-02-06.md",
+    "url": "https://store.steampowered.com/news/app/1158310/view/4035856766974002822"
   },
   "depots": {
     "1158311": {
-      "manifest": "6411981610654620581",
-      "updated": "2023-11-28T18:15:53.000Z"
+      "manifest": "9167705907215962242",
+      "updated": "2024-01-16T17:12:20.000Z"
     },
     "1158314": {
-      "manifest": "9595242708198340",
-      "updated": "2023-12-06T13:53:08.000Z"
+      "manifest": "7703239516484467905",
+      "updated": "2024-01-16T17:13:51.000Z"
     },
     "1158317": {
-      "manifest": "8002250843650292514",
-      "updated": "2023-12-06T13:53:19.000Z"
+      "manifest": "1818586052853406791",
+      "updated": "2024-01-16T13:15:02.000Z"
     },
     "1296730": {
       "manifest": "4673314442703562503",
@@ -69,6 +69,16 @@
       "manifest": "2229978864125579090",
       "updated": "2023-08-16T11:46:19.000Z",
       "name": "Wards & Wardens"
+    },
+    "2671030": {
+      "manifest": "5278886681444747695",
+      "updated": "2024-01-16T18:26:41.000Z",
+      "name": "Content Creator Pack: North African Attire"
+    },
+    "2671040": {
+      "manifest": "836968934287748787",
+      "updated": "2024-01-16T18:26:44.000Z",
+      "name": "Couture of the Capets"
     }
   }
 }

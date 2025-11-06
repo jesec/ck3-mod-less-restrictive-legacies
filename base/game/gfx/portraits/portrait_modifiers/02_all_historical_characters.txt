@@ -3944,13 +3944,61 @@
 
     #----------------------------------------------------------------------# Others (non-bookmarks) #----------------------------------------------------------------#
 
+    214_king_philippe_start = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = sp3_hairstyles
+                accessory = m_hair_sp3_western_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = sp3_beards_straight
+                accessory = m_beard_sp3_western_01
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = sp3_western_royalty
+                accessory = m_headgear_sec_sp3_western_roy_01
+            }
+            accessory = {
+                mode = add
+                gene = clothes
+                template = sp3_western_royalty_clothes
+                accessory = m_clothes_sec_sp3_western_roy_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                exists = this
+                exists = character:214
+                this = character:214
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = western
+                }
+                has_dlc_feature = couture_of_the_capets
+            }
+        }
+    }
+
     214_king_philippe = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = hairstyles
-                template = scripted_character_hairstyles_01
-                accessory = male_hair_western_06
+                template = sp3_hairstyles
+                accessory = m_hair_sp3_western_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = sp3_beards_straight
+                accessory = m_beard_sp3_western_01
             }
         }
         weight = {

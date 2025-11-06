@@ -9,6 +9,14 @@
 
 	add_accessory_modifiers = {
 		gene = cloaks
+		template = sp3_cloak
+		is_valid_custom = {
+			has_dlc_feature = couture_of_the_capets
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = cloaks
 		template = sp2_cloak_imperial
 		is_valid_custom = {
 			has_dlc_feature = elegance_of_the_empire
@@ -66,5 +74,13 @@
 			has_ep1_dlc_trigger = yes
 		}
 		template = ep1_cloak_adventurer
+	}
+	
+	add_accessory_modifiers = {
+		gene = cloaks
+		is_valid_custom = {
+			has_afr_dlc_trigger = yes
+		}
+		template = afr_cloaks
 	}
 }

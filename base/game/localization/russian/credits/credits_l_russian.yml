@@ -16,6 +16,7 @@
  TITLE_PRODUCTION_DIRECTOR: "#credits_subheader Производственный директор#!"
  TITLE_PRODUCTION_LEAD: "#credits_subheader Руководитель производства#!"
  HEADER_DESIGN: "#credits_header ДИЗАЙН#!"
+ TITLE_CCP_CREATOR:0 "#credits_subheader Разработчик набора авторского контента#!"
  TITLE_GAME_DESIGN: "#credits_subheader Игровой дизайн#!"
  TITLE_ADDITIONAL_DESIGN: "#credits_subheader Дополнительный дизайн#!"
  TITLE_UX_DESIGN: "#credits_subheader Дизайн интерфейса#!"
@@ -278,3 +279,4 @@
  HEADER_CRUSADER_KINGS_3_WARDS_AND_WARDENS: "#credits_title CRUSADER KINGS III: WARDS AND WARDENS#!"
  TITLE_EMBEDDED_QA_ANALYST: "#credits_subheader Внутренний QA Аналитик#!"
  HEADER_CRUSADER_KINGS_3_LEGACY_OF_PERSIA: "#credits_title CRUSADER KINGS III: LEGACY OF PERSIA#!"
+ HEADER_CRUSADER_KINGS_3_NORTH_AFRICAN_ATTIRE: "#credits_title CRUSADER KINGS III: NORTH AFRICAN ATTIRE#!"

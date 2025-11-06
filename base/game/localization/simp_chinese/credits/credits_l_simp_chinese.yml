@@ -16,6 +16,7 @@
  TITLE_PRODUCTION_DIRECTOR: "#credits_subheader 制作总监#!"
  TITLE_PRODUCTION_LEAD: "#credits_subheader 制作负责人#!"
  HEADER_DESIGN: "#credits_header 设计#!"
+ TITLE_CCP_CREATOR:0 "#credits_subheader 内容创建器包开发#!"
  TITLE_GAME_DESIGN: "#credits_subheader 游戏设计#!"
  TITLE_ADDITIONAL_DESIGN: "#credits_subheader 设计助理#!"
  TITLE_UX_DESIGN: "#credits_subheader 交互设计#!"
@@ -278,3 +279,4 @@
  HEADER_CRUSADER_KINGS_3_WARDS_AND_WARDENS: "#credits_title CRUSADER KINGS III: WARDS AND WARDENS#!"
  TITLE_EMBEDDED_QA_ANALYST: "#credits_subheader 嵌入式质量保证分析师#!"
  HEADER_CRUSADER_KINGS_3_LEGACY_OF_PERSIA: "#credits_title 十字军之王3：波斯遗产#!"
+ HEADER_CRUSADER_KINGS_3_NORTH_AFRICAN_ATTIRE: "#credits_title CRUSADER KINGS III: NORTH AFRICAN ATTIRE#!"

@@ -17,6 +17,8 @@
 # CULTURE_INPUT = fp2_iberian_christian
 # CULTURE_INPUT = fp2_iberian_muslim
 
+# CULTURE_INPUT = afr_berber
+
 
 clothes_effect = { # Gene modifers to apply for characters wearing or not wearing clothes
     usage = game
@@ -684,6 +686,12 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = dde_abbasid
                 }
             }
+			modifier = {
+				add = -36 # Slightly lower if north african is valid
+				portrait_commoner_no_mayors_trigger = { 
+					CULTURE_INPUT = afr_berber
+				}
+			}
         }
     }
 
@@ -706,9 +714,14 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                 }   
             }
 			modifier = {
-				add = -36 # Slightly lower if iranian is valid
-				portrait_low_nobles_clothing_trigger = { 
-					CULTURE_INPUT = fp3_iranian
+				add = -36 # Slightly lower if iranian or north african is valid
+				OR = {
+					portrait_low_nobles_clothing_trigger = { 
+						CULTURE_INPUT = fp3_iranian
+					}
+					portrait_low_nobles_clothing_trigger = { 
+						CULTURE_INPUT = afr_berber
+					}
 				}
 			}
         }
@@ -733,9 +746,14 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                 } 
             }
 			modifier = {
-				add = -36 # Slightly lower if iranian is valid
-				portrait_high_nobles_clothing_trigger = { 
-					CULTURE_INPUT = fp3_iranian
+				add = -36 # Slightly lower if iranian or north african is valid
+				OR = {
+					portrait_high_nobles_clothing_trigger = { 
+						CULTURE_INPUT = fp3_iranian
+					}
+					portrait_high_nobles_clothing_trigger = { 
+						CULTURE_INPUT = afr_berber
+					}
 				}
 			}
         }
@@ -761,6 +779,12 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = mena
                 }
             }
+			modifier = {
+				add = -36 # Slightly lower if north african is valid
+				portrait_commoner_no_mayors_trigger = { 
+					CULTURE_INPUT = afr_berber
+				}
+			}
         }
     }
 
@@ -781,6 +805,12 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = mena
                 }
             }
+			modifier = {
+				add = -36 # Slightly lower if north african is valid
+				portrait_mayor_trigger = { 
+					CULTURE_INPUT = afr_berber
+				}
+			}
         }
     }
 
@@ -804,9 +834,14 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                 }  
             }
 			modifier = {
-				add = -36 # Slightly lower if iranian is valid
-				portrait_low_nobles_clothing_trigger = { 
-					CULTURE_INPUT = fp3_iranian
+				add = -36 # Slightly lower if iranian or north african is valid
+				OR = {
+					portrait_low_nobles_clothing_trigger = { 
+						CULTURE_INPUT = fp3_iranian
+					}
+					portrait_low_nobles_clothing_trigger = { 
+						CULTURE_INPUT = afr_berber
+					}
 				}
 			}
         }
@@ -831,9 +866,14 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                 } 
             }
 			modifier = {
-				add = -36 # Slightly lower if iranian is valid
-				portrait_high_nobles_clothing_trigger = { 
-					CULTURE_INPUT = fp3_iranian
+				add = -36 # Slightly lower if iranian or north african is valid
+				OR = {
+					portrait_high_nobles_clothing_trigger = { 
+						CULTURE_INPUT = fp3_iranian
+					}
+					portrait_high_nobles_clothing_trigger = { 
+						CULTURE_INPUT = afr_berber
+					}
 				}
 			}
         }
@@ -970,7 +1010,76 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
         }
     }
 
- ## FP3 IRANIAN ##
+## AFR ##
+
+	afr_berber_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = afr_commoner_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+        weight = {
+            base = 0
+            modifier = {
+                add = 41
+                portrait_commoner_no_mayors_trigger = {
+                    CULTURE_INPUT = afr_berber
+                }
+            }
+        }
+	}
+
+	afr_berber_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = afr_low_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+        weight = {
+            base = 0
+            court_fashion_level_4_modifier = { INPUT_PARAMETER = afr_berber }
+            modifier = {
+                add = 51
+				OR = {
+					portrait_low_nobles_clothing_trigger = {
+						CULTURE_INPUT = afr_berber
+					}
+					portrait_mayor_trigger = {
+						CULTURE_INPUT = afr_berber
+					}
+				}
+            }
+        }
+	}
+
+	afr_berber_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = afr_high_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+            base = 0
+            court_fashion_level_5_modifier = { INPUT_PARAMETER = afr_berber } 
+            modifier = {
+                add = 51
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = afr_berber
+                } 
+            }
+        }
+	}
+
+## FP3 IRANIAN ##
 
 fp3_iranian_low_nobles = {
     dna_modifiers = {
@@ -1320,6 +1429,63 @@ fp3_iranian_high_nobles = {
                     portrait_era2_trigger = yes   
                     portrait_era3_trigger = yes 
                 }             
+            }
+        }
+    }
+
+    sp3_western_royalty = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = sp3_western_royalty_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                has_dlc_feature = couture_of_the_capets
+                OR = {
+                    portrait_imperial_trigger = {
+                        CULTURE_INPUT = western
+                    }      
+                    portrait_royalty_trigger = {
+                        CULTURE_INPUT = western
+                    }           
+                }
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = french
+                } 
+            }
+            modifier = {
+                add = 90
+                has_dlc_feature = couture_of_the_capets
+                portrait_imperial_trigger = {
+                    CULTURE_INPUT = western
+                }
+            }
+            modifier = {
+                add = 40
+                has_dlc_feature = couture_of_the_capets
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = western
+                }                  
+            }
+            modifier = {
+                factor = 0
+                has_ep2_dlc_trigger = yes 
+                OR = {
+                    portrait_era1_trigger = yes   
+                    portrait_era2_trigger = yes   
+                }     
+                NAND = {
+                    portrait_era1_trigger = no
+                    portrait_royalty_trigger = {
+                        CULTURE_INPUT = french
+                    } 
+                }         
             }
         }
     }
