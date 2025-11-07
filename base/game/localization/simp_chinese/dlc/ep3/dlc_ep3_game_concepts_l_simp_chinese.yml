@@ -27,7 +27,7 @@
  game_concept_title_men_at_arms_desc: "$game_concept_title_men_at_arms$是为特定[title|E]而存在的[men_at_arms|E]。这些部队并不由[ruler|E]私有，而是归属于所属的$game_concept_title$。这意味着不管是谁，只要拥有了$game_concept_title$，也就拥有并控制了相应部队。\n\n$game_concept_title_men_at_arms$由特定[government_forms|E]使用，例如[administrative|E]。"
  game_concept_domicile: "住所"
  game_concept_domiciles: "住所"
- game_concept_domicile_desc: "$game_concept_domicile$是拥有特定[government_form|E]——例如[administrative|E]和[adventurer|E]——的[characters|E]的私人财产。\n\n$game_concept_domicile$替代[holdings|E]作为拥有者的主要权力基础，可以通过[domicile_buildings|E]改进。\n\n每个$game_concept_domicile$都位于指定[barony|E]，可以迁移到新地点。虽然根据$game_concept_domicile$类型可能会有一定限制。\n\n$game_concept_domiciles$在[succession|E]时通常由拥有者的[player_heir|E]继承。"
+ game_concept_domicile_desc: "$game_concept_domicile$是拥有特定[government_form|E]——例如[administrative|E]和[adventurer|E]——的[characters|E]的私人财产。\n\n$game_concept_domicile$替代[holdings|E]作为拥有者的主要权力基础，可以通过[domicile_buildings|E]改进。\n\n每个$game_concept_domicile$都位于指定[barony|E]，可以迁移到新地点。根据$game_concept_domicile$类型可能会有一定限制。\n\n每个$game_concept_domicile$拥有特殊的无地[title|E]，并遵循其[succession|E]。"
  game_concept_domicile_building: "住所建筑"
  game_concept_domicile_buildings: "住所建筑"
  game_concept_domicile_building_desc: "所有[domiciles|E]都可以升级特定的$game_concept_domicile_buildings$，从而为所有者提供收入、[prestige|E]等资源以及其他增益。\n\n建筑是否可用取决于$game_concept_domicile$类型，因为每种类型都有一套截然不同的建筑。\n\n某些$game_concept_domicile_buildings$可以拥有[internal_upgrades|E]。"

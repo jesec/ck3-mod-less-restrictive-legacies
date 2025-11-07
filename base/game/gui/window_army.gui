@@ -2087,6 +2087,7 @@ types ArmyWindow
 	type hbox_soldiers_and_quality_small_core = hbox
 	{
 		tooltip = "[ArmyComposition.GetArmyCompositionTooltip]"
+		spacing = 3
 
 		icon = {
 			name = "icon_soldier"

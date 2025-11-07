@@ -6,7 +6,7 @@
  culture_group_any: "Tout"
  #ERAS
  culture_era_tribal: "Tribale"
- culture_era_tribal_desc: "L’ère tribale d’une [culture|El] est antérieure à l’émergence de lois codifiées et d’un gouvernement institutionnalisé. Les dirigeants avec un [tribal_government|El] ne peuvent avoir que les [innovations|El] de l’ère tribale."
+ culture_era_tribal_desc: "L’ère tribale d’une [culture|El] est antérieure à l’émergence de lois codifiées et d’un gouvernement institutionnalisé. Les dirigeants avec un [tribal_government|El] ou [nomad|El] ne peuvent avoir que les [innovations|El] de l’ère tribale."
  culture_era_early_medieval: "Haut Moyen Âge"
  culture_era_early_medieval_desc: "L’ère du haut Moyen Âge assiste à l’émergence d’administrateurs professionnels et à un certain nombre d’[innovations|El], permettant à une [culture|El] de sortir des âges sombres."
  culture_era_high_medieval: "Moyen Âge classique"

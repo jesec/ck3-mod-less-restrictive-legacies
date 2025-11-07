@@ -846,9 +846,11 @@
  stress_loss_irritable_decision_effect_courtier_tooltip: "[THIS.Char.Custom('GetCourtier')|l] 중 한 명을 모욕함"
  stress_loss_irritable_decision_tooltip: "입을 마음대로 놀려 마음을 가라앉힙니다."
  stress_loss_irritable_decision_confirm: "이봐! 거기!"
- stress_loss_flagellant_decision: "채찍 고행"
+ stress_loss_flagellant_decision: "고행 속 탐닉"
+ stress_loss_flagellant_exaltation_decision_desc: "고통이 주는 정화만큼 마음을 깨끗이 씻어내는 것은 없다. [ROOT.Char.GetFaith.HighGodName]께 더 가까워지는 느낌은... 그야말로... #EMP 신성한#! 우연이다."
+ stress_loss_exaltation_decision_desc: "육신은 [ROOT.Char.GetFaith.HighGodName](와)과 영적 교감을 이루기 위한 그릇이다. 그러한 조화를 추구하려면 육신을 찢어내야 한다."
  stress_loss_flagellant_decision_desc: "고통으로 인한 황홀감이 마음을 정화할 최고의 방법이다. 마음이 깨끗해질 때까지 내 등을 채찍으로 쳐야겠다."
- stress_loss_flaggelant_decision_effect_tooltip: "스트레스를 상실함"
+ stress_loss_flaggelant_decision_effect_tooltip: "스트레스를 상실함" #Not actually used atm
  stress_loss_flagellant_decision_tooltip: "고통으로 당신의 마음을 정화합니다."
  stress_loss_flagellant_decision_confirm: "으악!"
  stress_loss_profligate_decision: "시장 방문"

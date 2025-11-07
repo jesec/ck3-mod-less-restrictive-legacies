@@ -176,3 +176,4 @@
  MV_REGIMENT_START_SIZE_NOMAD: "Commencera à pleine puissance ([MenAtArmsType.GetStackSize])"
  RECRUIT_FROM_SUBJECTS_LABEL: "Recruter parmi les sujets"
  RECRUIT_FROM_SUBJECTS_TOOLTIP: "#T Recruter parmi les sujets#!\n#weak Vous paierez de l’[gold|El] pour recruter un type d’[men_at_arms|El] auquel votre [subject|El] a accès, mais pas vous#!"
+ RECRUIT_FROM_SUBJECTS_ICON: "@recruit_from_subjects_icon!"

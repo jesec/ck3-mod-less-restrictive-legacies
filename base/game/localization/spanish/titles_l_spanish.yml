@@ -21783,7 +21783,8 @@
  b_larung: "Larung"
  #The following khanate names are entirely ficticious
  e_black_horde_article: "la "
- e_black_horde: "Horda Negra"
+ e_black_horde: "Horda roja"
+ #Red Horde is more correct with cardinal direction color assignment
  e_aarlud_khanate_article: "el "
  e_aarlud_khanate: "Kanato aarlud"
  e_togskol_khanate_article: "el "

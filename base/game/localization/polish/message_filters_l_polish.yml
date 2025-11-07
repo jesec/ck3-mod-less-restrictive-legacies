@@ -43,7 +43,7 @@
  message_filter_councillor_ongoing_desc: "Wpływ [Concept('councillor_task_possible_side_effects', 'możliwych skutków ubocznych')|E] u [Concept('councillor', 'radnego')|E]"
  message_filter_council_task: "@council_icon! Zadania radnych"
  message_filter_council_task_desc: "Zmienia się postęp aktywnego [Concept('councillor_task', 'zadania radnego')|E]"
- message_filter_councillor: "@council_icon! Nowy radny"
+ message_filter_councillor: "@council_icon! Zmiany radnych"
  message_filter_councillor_desc: "Doszło do mianowania lub odejścia jednego z twoich [Concept('councillors', 'radnych')|E]"
  message_filter_councillor_liege: "@council_icon! Zajmowanie miejsca w radzie"
  message_filter_councillor_liege_desc: "Mianowano cię do [Concept('council', 'rady')|E] twojego [liege_possessive|El] lub z niej usunięto"

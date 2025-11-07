@@ -1220,3 +1220,7 @@
  unlock_maa_heavy_horse_archers: "Kann [GetMaA('heavy_horse_archers').GetName] als [men_at_arms|E] rekrutieren"
  unlock_maa_nomad_lancers: "Kann [GetMaA('nomad_lancers').GetName] als [men_at_arms|E] rekrutieren"
  TRAIT_FLAG_DESC_gok_obedience_flag: "Sehr stark erhöhter @obedience_icon![obedience|E] bei [Concept('subject', 'Untertänigen')]"
+ trait_golden_lineage: "Goldene Blutlinie"
+ trait_golden_lineage_desc: "Was die Blutlinie diese Charakters über die Welt brachte, ist unvergesslich. Er ist der goldene Abkömmling von Feuer und Eroberungswille."
+ trait_golden_lineage_character_desc: "Was die Blutlinie von [ROOT.GetCharacter.GetFirstNameNoTooltip] über die Welt brachte, ist unvergesslich. [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')|U] ist der goldene Abkömmling von Feuer und Eroberungswille."
+ descendants_gain_golden_lineage: "Eure Nachfahren erhalten „[GetTrait('golden_lineage').GetName(GetNullCharacter)|U]“"

@@ -671,7 +671,7 @@ mpo_blood_brother_interactions_ai_accept_modifier = {
 	#DIFFERENT GENDER
 	#And faith doesn't see genders as equal
 	modifier = {
-		add = -50
+		add = -75
 		desc = BLOOD_BROTHER_GENDER_REASON
 		scope:recipient = {
 			OR = {
@@ -697,7 +697,7 @@ mpo_blood_brother_interactions_ai_accept_modifier = {
 	}
 	#And faith sees genders as equal, but this is still kinda a fraternal/sororal thing
 	modifier = {
-		add = -20
+		add = -25
 		desc = BLOOD_BROTHER_GENDER_REASON
 		scope:recipient = {
 			OR = {

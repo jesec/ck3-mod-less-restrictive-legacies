@@ -846,9 +846,11 @@
  stress_loss_irritable_decision_effect_courtier_tooltip: "Znieważasz przypadkową osobę, którą jest [THIS.Char.Custom('GetCourtier')|l]"
  stress_loss_irritable_decision_tooltip: "Mów, co tylko ślina ci na język przyniesie"
  stress_loss_irritable_decision_confirm: "Hej! Hej ty!"
- stress_loss_flagellant_decision: "Biczuj się"
+ stress_loss_flagellant_decision: "Oddaj się samobiczowaniu"
+ stress_loss_flagellant_exaltation_decision_desc: "Nic tak nie oczyszcza umysłu jak katharsis osiągane poprzez ból. Poczucie bliskości [ROOT.Char.GetFaith.HighGodNamePossessive] jest dodatkową… #EMP boską#! korzyścią."
+ stress_loss_exaltation_decision_desc: "Ciało służy nam za naczynie, dzięki któremu możemy odczuć obecność [ROOT.Char.GetFaith.HighGodNamePossessive]. Rozerwę moją ziemską skorupę, by osiągnąć tę harmonię."
  stress_loss_flagellant_decision_desc: "Nic tak nie oczyszcza umysłu jak katharsis za pomocą bólu. Uderzam biczem swoje plecy do momentu, gdy umysł nie odnajdzie spokoju."
- stress_loss_flaggelant_decision_effect_tooltip: "Stracisz stres"
+ stress_loss_flaggelant_decision_effect_tooltip: "Stracisz stres" #Not actually used atm
  stress_loss_flagellant_decision_tooltip: "Oczyść swój umysł za pomocą bólu"
  stress_loss_flagellant_decision_confirm: "Auu!"
  stress_loss_profligate_decision: "Odwiedź targ"

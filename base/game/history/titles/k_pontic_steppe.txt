@@ -35,9 +35,6 @@ d_yedisan = {
 		holder = 159137
 		liege = k_magyar
 		government = nomad_government
-		effect = {
-			set_de_jure_liege_title = title:k_magyar
-		}
 	}
 	895.1.1 = {
 		holder = 159136

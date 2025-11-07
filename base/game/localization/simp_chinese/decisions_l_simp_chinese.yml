@@ -846,9 +846,11 @@
  stress_loss_irritable_decision_effect_courtier_tooltip: "你随机羞辱一名[THIS.Char.Custom('GetCourtier')|l]"
  stress_loss_irritable_decision_tooltip: "嘴臭以平静你的心灵"
  stress_loss_irritable_decision_confirm: "嘿！嘿就是你！"
- stress_loss_flagellant_decision: "鞭笞"
+ stress_loss_flagellant_decision: "沉溺于鞭笞"
+ stress_loss_flagellant_exaltation_decision_desc: "没什么能比痛苦更净化心灵。更接近[ROOT.Char.GetFaith.HighGodName]的感觉不过是#EMP 灵光#!乍现。"
+ stress_loss_exaltation_decision_desc: "肉体是与[ROOT.Char.GetFaith.HighGodName]交流的途径。让我打破肉体，这种和谐才会出现。"
  stress_loss_flagellant_decision_desc: "没什么能比疼痛的宣泄更净化心灵。我要用鞭子抽打后背，直到头脑清醒。"
- stress_loss_flaggelant_decision_effect_tooltip: "你的压力会降低"
+ stress_loss_flaggelant_decision_effect_tooltip: "你的压力会降低" #Not actually used atm
  stress_loss_flagellant_decision_tooltip: "以疼痛净化心灵"
  stress_loss_flagellant_decision_confirm: "呃——！"
  stress_loss_profligate_decision: "逛集市"

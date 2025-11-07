@@ -78,3 +78,5 @@
  can_move_domicile_estate_same_location_tt: "[estate|E]이 이미 [province_temp.GetBaronyNameExplicitly]에 있음"
  DOMICILE_WINDOW_CONSTRUCT_BUILDING_TT: "#T 새로운 [domicile_building|E] 건설#!"
  DOMICILE_WINDOW_CONSTRUCT_BUILDING_LOCKED_TT: "$DOMICILE_WINDOW_CONSTRUCT_BUILDING_TT$\n@warning_icon!#X [Domicile.GetMainBuilding.GetName] [domicile_building|E] 단계가 너무 낮음#!"
+ CHARACTER_MODIFIERS_LABEL: "#BOLD;EMP 인물 변화 요소#!"
+ PROVINCE_MODIFIERS_LABEL: "#BOLD;EMP 남작령 변화 요소#!"

@@ -14,5 +14,6 @@
  mpo_flavor_events_settled.0010.desc: "#Emp „Ksk! Ksk!“#! [Select_CString(nomad.IsFemale, 'Eine sonderbare Frau', 'Ein sonderbarer Mann')] tätschelt [nomad.Custom('DE_PRO_POS_S_3P')]em Pferd die Flanke, um es zu beruhigen, und kommt danach auf mich zu.\n\n„Seid gegrüßt, ehrenwert[ROOT.Char.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip]. [Select_CString(nomad_lord.IsFemale, 'Die große', 'Der große')] [nomad_lord.GetTitledFirstName] schickt mich. [Select_CString(nomad_lord.IsFemale, 'Meine Herrin', 'Mein Herr')] entsandte mich, um einen Waffenstillstand zwischen unseren Leuten vorzuschlagen.“"
  mpo_flavor_events_settled.0010.a: "„Bitte nehmt meinen Tribut an.“"
  mpo_flavor_events_settled.0010.b: "„Ich bin sicher, wir kommen wir zu einer Übereinkunft.“"
+ mpo_flavor_events_settled.0010.b_perk_tt: "Euer [perk|E] „[GetPerk('defensive_measures_perk').GetName(GetNullCharacter)]“ erlaubt es Euch, einen besseren Preis auszuhandeln"
  mpo_flavor_events_settled.0010.c: "#EMP Spuckt auf den Boden.#!"
  mpo_flavor_events_settled.0010.d: "„Entsendet [Select_CString(nomad_lord.IsFemale, 'Eurer Herrin', 'Eurem Herrn')] meine Grüße.\""

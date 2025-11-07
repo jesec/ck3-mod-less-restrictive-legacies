@@ -166,3 +166,13 @@
  religious_interaction.2500.desc: "Когда люди, подобные тебе, прозревают... Это [ROOT.Char.GetFaith.HighGodNameAlternate] шлет нам знамение! Приветствуем тебя в лоне истинной веры."
  religious_interaction.2500.a: "Да восславится [ROOT.Char.GetFaith.HighGodName]!"
  religious_interaction.2501.desc: "Ты думаешь, [recipient.GetFaith.HighGodName] поверит этим жалким политическим ужимкам и отвратит карающую длань? Да ты шутишь!"
+ #########################
+ #Exaltation of Pain tenet
+ #########################
+ religious_interaction.2600.t: "Уроки благодати"
+ religious_interaction.2600.desc.recipient: "[actor.GetTitledFirstName|U] мягко берет меня за руку, демонстрируя разнообразие острых и тупых предметов, которыми мы воспользуемся для нашего сеанса. Луч света отражается на одном из клинков, и я ощущаю накатившее на меня умиротворение.\n\nВзяв инструмент в руку, я жестом велю [Select_CString(actor.IsFemale, 'ей', 'ему' )] повернуться. [Select_CString(actor.IsFemale, 'Она', 'Он' )] снимает рубаху и обнажает нетронутую кожу на спине. Я приступаю к работе, и тихие стоны и хрипы вскоре сливаются в низкое хриплое мычание, исторгаемое из глубин [Select_CString(actor.IsFemale, 'ее', 'его' )] горла.\n\nЯ уже знаю, с помощью какого инструмента обрету благодать я."
+ religious_interaction.2600.desc.actor: "[recipient.GetTitledFirstName|U] осторожно осматривает инструменты вознесения, чуть подрагивая от предвкушения.\n\nЯ перехватываю [Select_CString(recipient.IsFemale, 'ее', 'его')] запястье, вкладываю в руку острый клинок и прижимаю его к своей груди. «Только аккуратно, твердой рукой. Нам предстоит пройти по грани».\n\n[recipient.GetFirstNameNoTooltip] смотрит мне в глаза и кивает, а затем начинает расстегивать собственную рубаху, обнажая участок чистой кожи без шрамов, которой вскоре предстоит получить благодать [recipient.GetFaith.HighGodNamePossessive]."
+ religious_interaction.2600.a: "«Вознесемся же вместе»."
+ religious_interaction.2610.desc: "Увы, прямо сейчас меня ждут неотложные дела... но в следующий раз мы совершим ритуал с еще большим рвением!"
+ religious_interaction.2610.a: "Какая досада."
+ attempted_transcendence_together_opinion: "Попытка совместного вознесения"

@@ -1220,3 +1220,7 @@
  unlock_maa_heavy_horse_archers: "Puede reclutar [GetMaA('heavy_horse_archers').GetName|l] como [men_at_arms|lE]"
  unlock_maa_nomad_lancers: "Puede reclutar [GetMaA('nomad_lancers').GetName|l] como [men_at_arms|lE]"
  TRAIT_FLAG_DESC_gok_obedience_flag: "Aumento enorme de la [obedience|lE] @obedience_icon! de los [subjects|lE]"
+ trait_golden_lineage: "Linaje dorado"
+ trait_golden_lineage_desc: "Lo que el linaje de este personaje ha forjado en el mundo no se puede olvidar. Es un vástago dorado del fuego y la conquista."
+ trait_golden_lineage_character_desc: "Lo que el linaje de [ROOT.GetCharacter.GetFirstNameNoTooltip] ha forjado en el mundo no se puede olvidar. Es un vástago dorado del fuego y la conquista."
+ descendants_gain_golden_lineage: "Tus descendientes ganan el rasgo [GetTrait('golden_lineage').GetName( GetNullCharacter )]"

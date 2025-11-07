@@ -754,5 +754,5 @@
  sovereignty_cb_defeat_desc_defender: "당신이 분쟁 중인 조공국들을 유지합니다. [attacker.GetShortUIName|U](은)는 당신에게 전쟁 배상금을 치러야 합니다."
  sovereignty_cb_defeat_desc_attacker: "[defender.GetShortUIName|U](이)가 분쟁 중인 조공국들을 유지합니다. 당신은 [defender.GetHerHim]에게 전쟁 배상금을 치러야 합니다."
  sovereignty_cb_defeat_desc: "[defender.GetShortUIName|U](이)가 분쟁 중인 조공국들을 유지합니다. [attacker.GetShortUIName](은)는 [defender.GetHerHim]에게 전쟁 배상금을 치러야 합니다."
- sovereignty_war_tributary_switch: "이웃한 [defender.GetShortUIName]의 [tributaries|E]들이 [attacker.GetShortUIName]에게 [tribute|E]을 바치게 됨"
+ sovereignty_war_tributary_switch: "지속적인 [realm|E]을 형성할 수 있는 [defender.GetShortUIName]의 [tributaries|E]들이 [attacker.GetShortUIName]에게 [tribute|E]을 바치게 됨"
  at_least_one_non_nomad_county_tt: "대상이 하나 이상의 비-[nomadic|E] [county|E]을 보유해야 함"

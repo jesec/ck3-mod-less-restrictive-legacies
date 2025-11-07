@@ -1296,7 +1296,7 @@
  culture_parameter_martial_traits_give_out_hcav_bonus: "[GetTrait('gallant').GetName( GetNullCharacter )]、[GetTrait('overseer').GetName( GetNullCharacter )]和[GetTrait('strategist').GetName( GetNullCharacter )][traits|E]提供[heavy_cavalry|E][men_at_arms|E]增益"
  culture_parameter_stewardship_traits_give_out_cav_bonus: "[GetTrait('avaricious').GetName( GetNullCharacter )]、[GetTrait('architect').GetName( GetNullCharacter )]和[GetTrait('administrator').GetName( GetNullCharacter )][traits|E]提供[light_cavalry|E]、[heavy_cavalry|E]和[archer_cavalry|E][men_at_arms|E]增益"
  mpo_siberian_permafrost_modifier: "西伯利亚永久冻土"
- mpo_siberian_permafrost_modifier_desc: "千万年的冻结，没有地下水流通，植被稀疏。由于反复融化和再次冻结，这里的地形每年都会变动。为了生存，这里的人们花了数百年适应。所有人，所有事物都会灭亡，加入冻土下远古的亡者。\n\n#weak 该修正可以通过#V $dlc_mpo_steppe_siberia_further_expansion_tooltip$#!区域的#V $expand_the_steppe_decision_generic$#![decision|E]移除#!\n\n"
+ mpo_siberian_permafrost_modifier_desc: "这片土地在数千年的冰封中难以汲取地下水，植被稀少。反复的冻结与融化让地貌年年变换。若要在这里安身立命，居住者需历经数百年才能真正适应。至于其他生灵与事物，终将湮没于冰层之下，与远古死者为伴。\n\n#weak 该修正可通过#V $feudalize_holding_interaction$#![interaction|E]或在征服整个北方后，使用#V $expand_the_steppe_decision_generic$#![decision|E]移除，适用于#V $dlc_mpo_steppe_siberia_further_expansion_tooltip$#!地区#!\n\n"
  mpo_siberian_permafrost_modifier_bad: "$mpo_siberian_permafrost_modifier$"
  mpo_siberian_permafrost_modifier_bad_desc: "$mpo_siberian_permafrost_modifier$"
  cannot_hybridize_northern_tribes: "[hybrid_culture|E]不可选择#high $tradition_mpo_northern_tribes_name$#![tradition|E]"

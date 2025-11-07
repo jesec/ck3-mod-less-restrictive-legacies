@@ -176,3 +176,4 @@
  MV_REGIMENT_START_SIZE_NOMAD: "将以满员状态开始（[MenAtArmsType.GetStackSize]）"
  RECRUIT_FROM_SUBJECTS_LABEL: "从臣属招募兵士"
  RECRUIT_FROM_SUBJECTS_TOOLTIP: "#T 从臣属招募兵士#!\n#weak 你会花费[gold|E]招募一种你的[subject|E]已解锁，而你没有的[men_at_arms|E]#!"
+ RECRUIT_FROM_SUBJECTS_ICON: "@recruit_from_subjects_icon!"

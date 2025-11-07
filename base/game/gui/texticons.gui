@@ -4489,3 +4489,13 @@ texticon = {
 		fontsize = 16
 	}
 }
+
+texticon = {
+	icon = recruit_from_subjects_icon
+	iconsize = {
+		texture = "gfx/interface/icons/vassal_directives/recruit_men_at_arms.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}

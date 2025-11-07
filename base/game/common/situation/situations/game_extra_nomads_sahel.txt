@@ -4,7 +4,7 @@
 	gui_window_name = "window_the_great_steppe"
 	map_mode = sub_regions
 
-	is_unique = no
+	is_unique = yes
 	migration = yes
 
 	##################################################

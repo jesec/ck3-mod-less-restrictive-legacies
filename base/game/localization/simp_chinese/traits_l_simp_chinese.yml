@@ -1220,3 +1220,7 @@
  unlock_maa_heavy_horse_archers: "可以招募[GetMaA('heavy_horse_archers').GetName][men_at_arms|E]"
  unlock_maa_nomad_lancers: "可以招募[GetMaA('nomad_lancers').GetName][men_at_arms|E]"
  TRAIT_FLAG_DESC_gok_obedience_flag: "大幅提高[subjects|E]的@obedience_icon![obedience|E]分数"
+ trait_golden_lineage: "黄金家族"
+ trait_golden_lineage_desc: "这条血脉对世界的影响无法被遗忘，他们是火焰与征服的黄金后裔。"
+ trait_golden_lineage_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]的血脉对世界的影响无法被遗忘，[ROOT.GetCharacter.GetSheHe|U]是火焰与征服的黄金后裔。"
+ descendants_gain_golden_lineage: "你的后裔获得[GetTrait('golden_lineage').GetName( GetNullCharacter )]"

@@ -13,7 +13,7 @@
  army_quartermasters_house_power: "Kwatermistrzowie armii"
  respected_despots_house_power: "Szanowani despoci"
  lofty_architects_house_power: "Wznieśli architekci"
- members_in_realm_desc: "Żyjący członkowie [Concept('house', 'rodu')|E]"
+ members_in_realm_desc: "Żyjący członkowie [Concept('house', 'rodu')|E] w [Concept('realm', 'państwie')|E]"
  house_head_influence_level_desc: "[influence_level|E] [house_heads_possessive|El]"
  house_members_on_council_desc: "Członkowie [Concept('house', 'rodu')|E] w [Concept('council', 'radzie')|E] [Concept('top_liege', 'suzerena')|E]"
  estate_buildings_desc: "[estate_buildings|E]"

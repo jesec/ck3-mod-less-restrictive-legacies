@@ -24545,9 +24545,10 @@ e_white_horde = {
 	}
 }
 
+# Red Horde - changed name after initial release
 e_black_horde = {
 	pattern = "pattern_solid.dds"
-	color1 = "black"
+	color1 = "red"
 	color2 = "yellow"
 	colored_emblem = {
 		texture = "ce_block_02.dds"
@@ -24557,8 +24558,8 @@ e_black_horde = {
 	}
 	colored_emblem = {
 		texture = "ce_border_banner.dds"
-		color1 = "black"
-		color2 = "black"
+		color1 = "red"
+		color2 = "red"
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
 	}
 	colored_emblem = {

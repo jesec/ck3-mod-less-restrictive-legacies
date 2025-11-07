@@ -1,6 +1,7 @@
 ﻿l_spanish:
  conqueror.0001.t: "Gobernar el mundo"
  conqueror.0001.desc: "Cada vez está más claro. Del campesino más humilde al más noble de mis vasallos; todos susurran mi nombre, mi poder, ¡susurran sobre la #EMP guerra!#! Mi causa tiene apoyos, ya que mi gente me considera un[ROOT.Char.Custom('ES_XA')] gobernante dign[ROOT.Char.Custom('ES_OA')] de reinar sobre el mundo entero.\n\nLa fuerza de [ROOT.Char.GetPrimaryTitle.GetBaseName] es mía para blandirla, y voto a tal que la blandiré. Atacar el exterior es lo que se espera de mí, reclamar por la fuerza aquello que me debería pertenecer. Mi destino es gobernar, subyugar a quienes me rodean y convertirlos en parte de mi [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip].\n\nCon el respaldo de mi pueblo, no puedo fallar."
+ conqueror.0001.desc.temujin: "\n\nDe un lobo gris azulado y una corza pajiza, solo ofreceré ruina o sumisión."
  conqueror.0001.a: "¡Que empiece la conquista!"
  conqueror_flavor: "Empiezas teniendo el apoyo de tus vasallos y tu pueblo, pero cuidado; este disminuirá si te mantienes en paz demasiado tiempo, pierdes demasiadas guerras, tu señorío se convierte en vasallo de otro o caes en desgracia…\n\nSi mueres, se esperará que tus hijos continúen el legado de conquista."
  conqueror.0001.b: "Casi prefiero quedarme aquí y disfrutar de mis [ROOT.Char.GetCapitalLocation.Custom('get_region_flower_type_plural')] y su fragancia…"
@@ -50,6 +51,8 @@
  peasant_draft_desc: "Los campesinos acuden en tropel a los estandartes de este personaje, más que dispuestos a tomar las armas en la leva."
  conqueror_feed_county_gift: "[county_target.GetNameNoTooltip] envía oro"
  conqueror_feed_county_gift_desc: "Los campesinos de [county_target.GetName] están entusiasmados con tus conquistas y te mandan oro."
+ conqueror_feed_county_gift_herd: "[county_target.GetNameNoTooltip] envía rebaños"
+ conqueror_feed_county_gift_desc_herd: "Los pastores comunes de [county_target.GetName] están pasmados con tan gran [ROOT.Char.GetTitleAsName|l] y te obsequian con grandes animales."
  conqueror_feed_knight_joins: "$knight_culture_player_no_tooltip$ se une a tu causa"
  conqueror_feed_knight_joins_desc: "¡El $knight_culture_player_no_tooltip$ [knight.GetFullName] te jura lealtad! ([knight.GetProwess] @skill_prowess_icon!)"
  conqueror_feed_angry_vassal: "Vasallo enfadado impresionado"

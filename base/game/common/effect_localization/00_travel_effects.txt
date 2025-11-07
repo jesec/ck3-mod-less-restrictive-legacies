@@ -1,6 +1,8 @@
 ﻿add_companion = {
 	global = ADD_COMPANION_EFFECT
+	global_past = ADDED_COMPANION_EFFECT
 	third = THEY_ADD_COMPANION_EFFECT
+	third_past = THEY_ADDED_COMPANION_EFFECT
 	first = I_ADD_COMPANION_EFFECT
 	first_past = I_ADDED_COMPANION_EFFECT
 }

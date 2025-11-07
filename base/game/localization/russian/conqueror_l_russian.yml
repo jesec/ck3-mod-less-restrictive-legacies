@@ -1,6 +1,7 @@
 ﻿l_russian:
  conqueror.0001.t: "Власть над миром"
  conqueror.0001.desc: "Я вижу всё четко и ясно. Все, от ничтожных крестьян до самых знатных моих вассалов, шепотом произносят мое имя. Они обсуждают мою силу, они говорят о #EMP войне#!! У меня множество сторонников, ибо подданные видят во мне [Select_CString(ROOT.Char.IsFemale, 'владычицу', 'государя' )], [Select_CString(ROOT.Char.IsFemale, 'достойную', 'достойного' )] править миром.\n\nВся твоя мощь, [ROOT.Char.GetPrimaryTitle.GetBaseName], принадлежит мне — и я ею воспользуюсь! От меня ждут, что я разожгу пожар войны и заберу то, что принадлежит мне по праву силы. Мне суждено властвовать над народами, подчинять их и присоединять их земли к своей державе.\n\nПока у меня есть поддержка моих подданных, я не могу проиграть!"
+ conqueror.0001.desc.temujin: "\n\nЯ потомок волка и белой лани, покоритесь мне или умрите."
  conqueror.0001.a: "Да начнутся завоевания!"
  conqueror_flavor: "Подданные и вассалы готовы всячески вам помогать, но учтите: если от вас отвернется удача, если вы будете долго прозябать в мире, если проиграете слишком много войн или станете вассалом другой державы, они откажут вам в поддержке.\n\nЕсли вы умрете, ваши дети должны продолжить ваши завоевания."
  conqueror.0001.b: "Я лучше останусь дома. [ROOT.Char.GetCapitalLocation.Custom('get_region_flower_type_plural')|U] здесь так приятно пахнут..."
@@ -50,6 +51,8 @@
  peasant_draft_desc: "Крестьяне толпами стекаются под знамена этого персонажа, желая вступить в ряды ополчения."
  conqueror_feed_county_gift: "[county_target.GetNameNoTooltip|U] присылает золото"
  conqueror_feed_county_gift_desc: "Обрадованные вашими завоеваниями, #L [county_target.GetAdjective|l]ие#! крестьяне жертвуют вам свои накопления."
+ conqueror_feed_county_gift_herd: "[county_target.GetNameNoTooltip|U] присылает стада"
+ conqueror_feed_county_gift_desc_herd: "Простые пастухи владения [county_target.GetName] восхищаются вашей державой и преподнесли вам в дар своих лучших животных."
  conqueror_feed_knight_joins: "К вам присоединяется $knight_culture_player_no_tooltip_lowercase$"
  conqueror_feed_knight_joins_desc: "$knight_culture_player_no_tooltip$ [knight.GetFullName] клянется вам в верности! (@skill_prowess_icon![knight.GetProwess])"
  conqueror_feed_angry_vassal: "Недовольный вассал впечатлен"

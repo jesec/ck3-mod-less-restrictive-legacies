@@ -1220,3 +1220,7 @@
  unlock_maa_heavy_horse_archers: "Peut recruter des [GetMaA('heavy_horse_archers').GetName|l] comme [men_at_arms|El]"
  unlock_maa_nomad_lancers: "Peut recruter des [GetMaA('nomad_lancers').GetName|l] comme [men_at_arms|El]"
  TRAIT_FLAG_DESC_gok_obedience_flag: "Augmentation massive de l’[obedience|El]@obedience_icon! des [subjects|El]"
+ trait_golden_lineage: "Lignée dorée"
+ trait_golden_lineage_desc: "Ce que la lignée de ce personnage a apporté au monde est inoubliable. Il est le descendant doré du feu et de la conquête."
+ trait_golden_lineage_character_desc: "Ce que la lignée de ce personnage a apporté au monde est inoubliable. Il est le descendant doré du feu et de la conquête."
+ descendants_gain_golden_lineage: "Vos descendants obtiennent [GetTrait('golden_lineage').GetName( GetNullCharacter )]"

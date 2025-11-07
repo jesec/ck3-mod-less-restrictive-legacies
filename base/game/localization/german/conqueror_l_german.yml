@@ -1,6 +1,7 @@
 ﻿l_german:
  conqueror.0001.t: "Die Welt beherrschen"
  conqueror.0001.desc: "Es wird immer klarer. Vom niedersten Bauern bis zum edelsten meiner Vasallen: Sie alle flüstern meinen Namen, raunen von meiner Macht, sprechen von #EMP Krieg#!! Es gibt Unterstützung für meine Sache, denn mein Volk sieht in mir [Select_CString(ROOT.Char.IsFemale, 'eine Herrscherin, die', 'einen Herrscher, der')] der Welt würdig ist.\n\nDie Macht von [ROOT.Char.GetPrimaryTitle.GetBaseName] steht mir zu – und ich werde sie einsetzen. Man erwartet von mir, dass ich nach außen zuschlage. Dass ich mit Macht einfordere, was mir gehören sollte. Ich bin dazu ausersehen, zu herrschen, alle um mich herum zu unterwerfen und sie zu einem Teil meines Reichs ([ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]) zu machen.\n\nMit meinem Volk im Rücken kann ich nicht scheitern."
+ conqueror.0001.desc.temujin: "\n\nVon einem blaugrauen Wolf und einer fahlen Hirschkuh werde ich nur Untergang oder Unterwerfung anbieten."
  conqueror.0001.a: "Lasst die Eroberungen beginnen!"
  conqueror_flavor: "Ihr werdet Unterstützung von Euren Vasallen und Eurem Volk erhalten, doch Vorsicht: Eure Unterstützung wird schwinden, wenn Ihr zu lange in Frieden lebt, zu viele Kriege verliert, Untertan eines anderen Reichs werdet oder in Ungnade fallt …\n\nFalls Ihr sterbt, wird von Euren Kindern erwartet, dass sie den Mantel des Eroberers überstreifen."
  conqueror.0001.b: "Ich würde lieber hierbleiben, denn die [ROOT.Char.GetCapitalLocation.Custom('get_region_flower_type_plural')] riechen so gut …"
@@ -50,6 +51,8 @@
  peasant_draft_desc: "Die Bauern scharen sich um die Banner dieses Charakters und sind mehr als bereit, sich an einem Aufgebot zu beteiligen."
  conqueror_feed_county_gift: "[county_target.GetNameNoTooltip|U] schickt Gold"
  conqueror_feed_county_gift_desc: "Die Bauern von [county_target.GetName] sind begeistert über Eure Eroberungen und schicken Euch Gold."
+ conqueror_feed_county_gift_herd: "„[county_target.GetNameNoTooltip|U]“ schickt Herde"
+ conqueror_feed_county_gift_desc_herd: "Die gemeinen Hirten von „[county_target.GetName]“ sind voller Ehrfurcht vor [ROOT.Char.Custom('DE_ART_DEF_S_D')] großen [ROOT.Char.GetTitleAsName] und präsentieren Euch edle Tiere."
  conqueror_feed_knight_joins: "$knight_culture_player_no_tooltip$ schließt sich Eurer Sache an"
  conqueror_feed_knight_joins_desc: "Der $knight_culture_player_no_tooltip$ [knight.GetFullName] schwört Euch die Treue! (@skill_prowess_icon![knight.GetProwess])"
  conqueror_feed_angry_vassal: "Zornigen Vasallen beeindruckt"

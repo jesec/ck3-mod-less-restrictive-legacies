@@ -153,7 +153,7 @@ war_declaration_rights_allowed_cost_reduction_tooltip = {
 	value = war_declaration_rights_allowed_cost_reduction
 	multiply = 100
 }
-max_contract_changes = 3
+max_contract_changes = 4
 
 family_entrepreneurship_tax = 1
 family_entrepreneurship_tax_tooltip = {

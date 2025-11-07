@@ -198,6 +198,7 @@
  activity_invite_rule_potential_lovers: "Amants potentiels"
  activity_invite_rule_suzerain: "Suzerain"
  activity_invite_rule_tributaries: "Tributaires"
+ activity_invite_rule_confederates: "Confédérés"
  activity_invite_rule_rivals: "Rivaux"
  activity_invite_rule_rivals_if_appropriate: "$activity_invite_rule_rivals$"
  activity_invite_rule_lovers: "Amants"

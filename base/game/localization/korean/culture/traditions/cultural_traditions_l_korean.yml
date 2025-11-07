@@ -1296,7 +1296,7 @@
  culture_parameter_martial_traits_give_out_hcav_bonus: "[GetTrait('gallant').GetName( GetNullCharacter )], [GetTrait('overseer').GetName( GetNullCharacter )], [GetTrait('strategist').GetName( GetNullCharacter )] [traits|E]이 [heavy_cavalry|E] [men_at_arms|E]에 보너스를 제공합니다"
  culture_parameter_stewardship_traits_give_out_cav_bonus: "[GetTrait('avaricious').GetName( GetNullCharacter )], [GetTrait('architect').GetName( GetNullCharacter )], [GetTrait('administrator').GetName( GetNullCharacter )] [traits|E]이 [light_cavalry|E], [heavy_cavalry|E], [archer_cavalry|E] [men_at_arms|E]에 보너스를 제공합니다"
  mpo_siberian_permafrost_modifier: "시베리아 영구동토"
- mpo_siberian_permafrost_modifier_desc: "토양이 수천 년에 걸쳐 얼어붙어 지하수를 쓸 수도 없고 식생도 희박합니다. 심지어 해마다 얼고 녹기를 반복하는 탓에 지형이 계속 변화합니다. 이 땅을 차지하려면 이곳에 살며 수백 년에 걸쳐 적응해야만 합니다. 문명이든 생명이든, 그러지 못한 자들은 차가운 얼음 아래, 고대의 시신 곁에 묻히게 됩니다.\n\n#weak 해당 변화 요소는 #V $expand_the_steppe_decision_generic$#! [decision|E]을 통해 #V $dlc_mpo_steppe_siberia_further_expansion_tooltip$#! 지역에서 제거될 수 있습니다#!\n\n"
+ mpo_siberian_permafrost_modifier_desc: "토양이 수천 년에 걸쳐 얼어붙어 지하수를 쓸 수도 없고 식생도 희박합니다. 심지어 해마다 얼고 녹기를 반복하는 탓에 지형이 계속 변화합니다. 이 땅을 차지하려면 이곳에 살며 수백 년에 걸쳐 적응해야만 합니다. 문명이든 생명이든, 그러지 못한 자들은 차가운 얼음 아래, 고대의 시신 곁에 묻히게 됩니다.\n\n#weak 해당 변화 요소는 #V $feudalize_holding_interaction$#! [interaction|E]에 의해, 또는 #V $expand_the_steppe_decision_generic$#! 지역에 대한 #V $dlc_mpo_steppe_siberia_further_expansion_tooltip$#! [decision|E]으로 전 북부를 정복한 후 제거될 수 있습니다#!\n\n"
  mpo_siberian_permafrost_modifier_bad: "$mpo_siberian_permafrost_modifier$"
  mpo_siberian_permafrost_modifier_bad_desc: "$mpo_siberian_permafrost_modifier$"
  cannot_hybridize_northern_tribes: "#high $tradition_mpo_northern_tribes_name$#! [tradition|E]은 [hybrid_culture|E]에서 선택할 수 없음"

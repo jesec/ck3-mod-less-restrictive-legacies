@@ -142,6 +142,34 @@ ransom_cost_value = {
 			add = 1
 		}
 	}
+	if = {
+		limit = {
+			has_game_rule = hard_difficulty
+			OR = {
+				scope:imprisoner ?= {
+					is_ai = no
+				}
+				imprisoner ?= {
+					is_ai = no
+				}
+			}
+		}
+		multiply = 0.5
+	}
+	else_if = {
+		limit = {
+			has_game_rule = very_hard_difficulty
+			OR = {
+				scope:imprisoner ?= {
+					is_ai = no
+				}
+				imprisoner ?= {
+					is_ai = no
+				}
+			}
+		}
+		multiply = 0.25
+	}
 }
 
 current_situation_gold_ransom = {
@@ -858,6 +886,23 @@ elope_close_family_tiers_acceptance_value = {
 duchy_confederation_vassals_value = {
 	value = 0
 	scope:actor.confederation = {
+		every_confederation_member = {
+			limit = {
+				highest_held_title_tier >= tier_county
+			}
+			add = -1
+		}
+	}
+	#First 3 confederates are free
+	add = 3
+	#Multiply by 20 to get impact
+	max = 0
+	multiply = 15
+}
+
+duchy_confederation_vassals_value_recipient = {
+	value = 0
+	scope:recipient.confederation = {
 		every_confederation_member = {
 			limit = {
 				highest_held_title_tier >= tier_county

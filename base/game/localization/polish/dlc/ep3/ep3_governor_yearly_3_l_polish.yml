@@ -186,7 +186,7 @@
  msg_governor_challenging_illegitimacy.t: "Nielojalna osoba, którą jest [root_scope.GetTitleAsNameNoTooltip], zbiera wsparcie"
  msg_governor_challenging_illegitimacy.desc: "[root_scope.GetName] i [root_scope.Custom('PL_jego_jej')] zwolennicy potępiają twoją nikłą [Concept('legitimacy', 'legitymację')|E]."
  msg_governor_supports_rule.t: "[root_scope.GetTitleAsNameNoTooltip] broni twojego mandatu"
- msg_governor_supports_rule.desc: "[root_scope.GetName] publicznie broni cię przed tymi, którzy mówią o twoim braku legitymacji."
+ msg_governor_supports_rule.desc: "[root_scope.GetName|V] publicznie broni cię przed tymi, którzy mówią o twoim braku legitymacji."
  ep3_governor_yearly.3050.t: "Pomniejsze demony z miejsca znanego jako [ROOT.Char.GetFaith.NegativeAfterLife]"
  ep3_governor_yearly.3050.desc: "[emperor.GetTitleAsNameNoTooltip] [emperor.GetFirstName] z rodu [emperor.GetHouse.GetName], będąc o włos od utraty tronu, staje się obiektem dziwnych pogłosek."
  ep3_governor_yearly.3050.mess: "\n\nPrzybył sprzedawca środków leczniczych, opowiadając historie o… skandalicznym zamówieniu, które dostarczono mu z pałacu. Oczy homara, dziecięce paznokcie, mikstury z mandragory i smoły – wszystkim tym [emperor.GetTitleAsNameNoTooltip] chce napchać bełkoczącą paszczę bestii! A bestia ta włóczy się po pałacu, naga, wysmarowana dziwnymi miksturami, przeklinając imię [emperor.GetFaith.HighGodNamePossessive]!"

@@ -665,8 +665,8 @@ types TravelPlannerTypes
 						{
 							block "button_close_overload"
 							{
-								enabled = "[TravelPlanner.CanCancelTravelPlan]"
-								tooltip = "[TravelPlanner.GetCanCancelTravelPlanTooltip]"
+								enabled = "[TravelPlanner.CanClose]"
+								tooltip = "[TravelPlanner.GetCanCloseTooltip]"
 								onclick = "[TravelPlanner.Close]"
 							}
 						}

@@ -754,5 +754,5 @@
  sovereignty_cb_defeat_desc_defender: "Conservas los tributarios en disputa. [attacker.GetShortUIName] debe pagarte indemnizaciones de guerra."
  sovereignty_cb_defeat_desc_attacker: "[defender.GetShortUIName] conserva los tributarios en disputa. Debes pagarle indemnizaciones de guerra."
  sovereignty_cb_defeat_desc: "[defender.GetShortUIName|U] conserva los tributarios en disputa y [attacker.GetShortUIName] debe pagarle indemnizaciones de guerra."
- sovereignty_war_tributary_switch: "Los [tributaries|lE] vecinos de [defender.GetShortUIName] pagarán [tribute|lE] a [attacker.GetShortUIName]"
+ sovereignty_war_tributary_switch: "Los [tributaries|lE] de [defender.GetShortUIName] que conformen un [realm|E] continuo pagarán [tribute|lE] a [attacker.GetShortUIName]"
  at_least_one_non_nomad_county_tt: "El objetivo debe tener al menos un [county|lE] no [nomadic|lE]"

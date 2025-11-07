@@ -13,7 +13,7 @@
  army_quartermasters_house_power: "Военные интенданты"
  respected_despots_house_power: "Уважаемые деспоты"
  lofty_architects_house_power: "Амбициозные архитекторы"
- members_in_realm_desc: "Живые члены [Concept('house', 'дома')|E]"
+ members_in_realm_desc: "Ныне живущие члены [Concept( 'house', 'дома' )|E] в пределах [Concept( 'realm', 'державы' )|E]"
  house_head_influence_level_desc: "[Concept( 'influence_level', 'Уровень влияния' )|E] [Concept( 'house_heads_possessive', 'главы дома' )|E]"
  house_members_on_council_desc: "Члены [Concept( 'house', 'дома' )|E] в [Concept( 'council', 'совете' )|E] [Concept( 'top_liege', 'верховного сюзерена' )|E]"
  estate_buildings_desc: "[estate_buildings|E]"

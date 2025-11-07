@@ -198,6 +198,7 @@
  activity_invite_rule_potential_lovers: "Amantes en potencia"
  activity_invite_rule_suzerain: "Soberano"
  activity_invite_rule_tributaries: "Tributarios"
+ activity_invite_rule_confederates: "Confederados"
  activity_invite_rule_rivals: "Rivales"
  activity_invite_rule_rivals_if_appropriate: "$activity_invite_rule_rivals$"
  activity_invite_rule_lovers: "Amantes"

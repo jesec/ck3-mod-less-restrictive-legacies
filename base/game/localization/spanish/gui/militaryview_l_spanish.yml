@@ -176,3 +176,4 @@
  MV_REGIMENT_START_SIZE_NOMAD: "Comenzará al máximo de fuerza ([MenAtArmsType.GetStackSize])"
  RECRUIT_FROM_SUBJECTS_LABEL: "Reclutar de súbditos"
  RECRUIT_FROM_SUBJECTS_TOOLTIP: "#T Reclutar de súbditos#!\n#weak Pagarás [gold|lE] para reclutar un tipo de [men_at_arms|lE] al que tenga acceso tu [subject|lE], pero tú no#!"
+ RECRUIT_FROM_SUBJECTS_ICON: "@recruit_from_subjects_icon!"

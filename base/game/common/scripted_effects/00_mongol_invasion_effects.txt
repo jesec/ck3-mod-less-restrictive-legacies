@@ -739,6 +739,29 @@ form_the_mongol_empire_effect = {
 			remove_realm_law = nomadic_authority_4
 		}
 		add_realm_law_skip_effects = nomadic_authority_5
+		domicile ?= {
+			switch = {
+				trigger = has_domicile_building
+				yurt_main_01 = {
+					add_domicile_building = yurt_main_02
+					add_domicile_building = yurt_main_03
+					add_domicile_building = yurt_main_04
+					add_domicile_building = yurt_main_05
+				}
+				yurt_main_02 = {
+					add_domicile_building = yurt_main_03
+					add_domicile_building = yurt_main_04
+					add_domicile_building = yurt_main_05
+				}
+				yurt_main_03 = {
+					add_domicile_building = yurt_main_04
+					add_domicile_building = yurt_main_05
+				}
+				yurt_main_04 = {
+					add_domicile_building = yurt_main_05
+				}
+			}
+		}
 		if = {
 			limit = {
 				exists = domicile
@@ -753,6 +776,7 @@ form_the_mongol_empire_effect = {
 				add_domicile_building = mass_warfare_yurt_01
 				add_domicile_building = mass_warfare_yurt_02
 				add_domicile_building = mass_warfare_yurt_03
+				add_domicile_building = mass_warfare_yurt_04
 			}
 		}
 		if = {
@@ -769,6 +793,7 @@ form_the_mongol_empire_effect = {
 				add_domicile_building = character_warfare_yurt_01
 				add_domicile_building = character_warfare_yurt_02
 				add_domicile_building = character_warfare_yurt_03
+				add_domicile_building = character_warfare_yurt_04
 			}
 		}
 		domicile = {
@@ -7462,6 +7487,7 @@ break_up_mongol_empire_effect = { # Intended to run in the Mongol Emperor's scop
 	every_character_war = {
 		limit = {
 			primary_attacker = scope:old_mongol_emperor
+			is_white_peace_possible = yes
 		}
 		end_war = white_peace
 	}
@@ -7722,17 +7748,45 @@ break_up_mongol_empire_effect = { # Intended to run in the Mongol Emperor's scop
 	}
 
 	# Find the "main" heir
-	ordered_in_list = {
-		list = selected_mongol_heirs
-		order_by = mongol_breakup_succession_score
-		max = 1
+	
+	if = {
+		limit = {
+			is_ai = no
+			player_heir.dynasty ?= dynasty
+		}
+		player_heir = {
+			debug_log = "Found Mongol main heir"
+			debug_log_scopes = yes
 
-		debug_log = "Found Mongol main heir"
-		debug_log_scopes = yes
+			assign_core_mongol_titles_to_heir_effect = yes
 
-		assign_core_mongol_titles_to_heir_effect = yes
+			remove_from_list = selected_mongol_heirs
+		}
+	}
+	else = {
+		ordered_in_list = {
+			list = selected_mongol_heirs
+			order_by = mongol_breakup_succession_score
+			max = 1
 
-		remove_from_list = selected_mongol_heirs
+			debug_log = "Found Mongol main heir"
+			debug_log_scopes = yes
+
+			assign_core_mongol_titles_to_heir_effect = yes
+
+			remove_from_list = selected_mongol_heirs
+		}
+	}
+	
+	if = {
+		limit = {
+			is_ai = no
+			player_heir.dynasty ?= dynasty
+			player_heir = { highest_held_title_tier < tier_empire }
+		}
+		player_heir = {
+			grant_suitable_title_to_candidate_effect = yes
+		}
 	}
 
 	# Assign titles to everyone else
@@ -7771,12 +7825,19 @@ break_up_mongol_empire_effect = { # Intended to run in the Mongol Emperor's scop
 		else_if = {
 			limit = {
 				NOT = { exists = scope:successor_3 }
+				NOT = {
+					this = scope:successor_2
+				}
 			}
 			save_scope_as = successor_3
 		}
 		if = {
 			limit = {
 				NOT = { exists = scope:successor_4 }
+				NOR = {
+					this = scope:successor_2
+					this = scope:successor_3
+				}
 			}
 			save_scope_as = successor_4
 		}
@@ -8169,62 +8230,80 @@ break_up_mongol_empire_effect = { # Intended to run in the Mongol Emperor's scop
 }
 
 # Special stuff for player Temüjin, disbursed in event conqueror.0001
-form_the_mongol_empire_player_effect = {
+temujin_conqueror_bonuses_effect = {
+	add_gold = 100
+	add_dread = medium_dread
+	add_prestige = 500
 	if = {
 		limit = {
-			is_independent_ruler = no
+			prestige_level < 2
 		}
-		create_title_and_vassal_change = {
-			type = independency
-			save_scope_as = indpendence_change
-			add_claim_on_loss = no
+		add_prestige_level = 2
+	}
+	else_if = {
+		limit = {
+			prestige_level < 3
 		}
-		becomes_independent = {
-			change = scope:indpendence_change
-		}
-		resolve_title_and_vassal_change = scope:indpendence_change
+		add_prestige_level = 1
 	}
-	#Create the title
-	create_title_and_vassal_change = {
-		type = created
-		save_scope_as = title_change
-		add_claim_on_loss = no
-	}
-	title:e_mongol_empire = {
-		change_title_holder = {
-			holder = root
-			change = scope:title_change
-		}
-	}
-	resolve_title_and_vassal_change = scope:title_change
-	capital_county.kingdom = {
-		set_de_jure_liege_title = title:e_mongol_empire
-	}
-	add_gold = 5000
-	add_dread = high_dread
-	add_prestige = 25000
-	domicile = {
-		change_herd = {
-			add = nomadic_authority_level_5_requirement
-		}
-	}
-	hidden_effect = {
-		if = {
-			limit = { has_realm_law = nomadic_authority_1 }
-			remove_realm_law = nomadic_authority_1
+	if = {
+		limit = {
+			government_has_flag = government_is_nomadic
 		}
 		if = {
-			limit = { has_realm_law = nomadic_authority_2 }
-			remove_realm_law = nomadic_authority_2
+			limit = {
+				OR = {
+					has_realm_law = nomadic_authority_4
+					has_realm_law = nomadic_authority_5
+				}
+			}
+			domicile = {
+				change_herd = {
+					add = nomadic_authority_level_2_requirement
+				}
+			}
 		}
-		if = {
-			limit = { has_realm_law = nomadic_authority_3 }
-			remove_realm_law = nomadic_authority_3
+		else = {
+			domicile = {
+				change_herd = {
+					value = nomadic_authority_level_4_requirement
+				}
+			}
 		}
+		
 		if = {
-			limit = { has_realm_law = nomadic_authority_4 }
-			remove_realm_law = nomadic_authority_4
+			limit = {
+				NOR = {
+					has_realm_law = nomadic_authority_5
+					has_realm_law = nomadic_authority_4
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_realm_law = nomadic_authority_1 }
+					remove_realm_law = nomadic_authority_1
+				}
+				if = {
+					limit = { has_realm_law = nomadic_authority_2 }
+					remove_realm_law = nomadic_authority_2
+				}
+				if = {
+					limit = { has_realm_law = nomadic_authority_3 }
+					remove_realm_law = nomadic_authority_3
+				}
+			}
+			add_realm_law_skip_effects = nomadic_authority_4
 		}
 	}
-	add_realm_law_skip_effects = nomadic_authority_5
+	if = {
+		limit = {
+			is_decision_on_cooldown = nomad_higher_tier_title_decision
+		}
+		remove_decision_cooldown = nomad_higher_tier_title_decision
+	}
+	custom_tooltip = temujin_horde_gathers_tt
+	trigger_event = {
+		id = mpo_greatest_of_khans.1010
+		months = { 3 9 }
+	}
 }

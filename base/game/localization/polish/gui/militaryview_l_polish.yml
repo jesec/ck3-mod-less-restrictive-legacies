@@ -176,3 +176,4 @@
  MV_REGIMENT_START_SIZE_NOMAD: "Rozpocznie w pełni sił ([MenAtArmsType.GetStackSize])"
  RECRUIT_FROM_SUBJECTS_LABEL: "Werbunek poddanych"
  RECRUIT_FROM_SUBJECTS_TOOLTIP: "#T Werbunek w państwach poddańczych#!\n#weak Płacąc [Concept('gold', 'złotem')|E], rekrutujesz [Concept('men_at_arms', 'zbrojnych')|E] typu dostępnego dla twojego [Concept('subject', 'państwa poddańczego')|E], ale nie dla ciebie#!"
+ RECRUIT_FROM_SUBJECTS_ICON: "@recruit_from_subjects_icon!"

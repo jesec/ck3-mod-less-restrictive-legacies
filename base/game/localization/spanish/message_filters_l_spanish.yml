@@ -43,7 +43,7 @@
  message_filter_councillor_ongoing_desc: "Efectos de los [councillor_task_possible_side_effects|lE] de [councillor|lE]"
  message_filter_council_task: "@council_icon! Tareas de consejero"
  message_filter_council_task_desc: "Cambia el progreso de una [councillor_task|lE] en curso"
- message_filter_councillor: "@council_icon! Nuevo consejero"
+ message_filter_councillor: "@council_icon! Cambio de consejero"
  message_filter_councillor_desc: "Uno de tus [councillors|lE] recibe un nombramiento o dimite"
  message_filter_councillor_liege: "@council_icon! Puestos del consejo ocupados"
  message_filter_councillor_liege_desc: "Se te nombra miembro o echa del [council|lE] de tu [liege|lE]"

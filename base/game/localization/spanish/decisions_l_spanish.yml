@@ -846,9 +846,11 @@
  stress_loss_irritable_decision_effect_courtier_tooltip: "Insultas a un[THIS.Char.Custom('ES_XA')] [THIS.Char.Custom('GetCourtier')|l] al azar"
  stress_loss_irritable_decision_tooltip: "Desbarrar para calmar la mente"
  stress_loss_irritable_decision_confirm: "¡Oye, tú! ¡Sí, tú!"
- stress_loss_flagellant_decision: "Flagelarse"
+ stress_loss_flagellant_decision: "Abandonarse a la flagelación"
+ stress_loss_flagellant_exaltation_decision_desc: "Nada despeja la mente más que la catarsis del dolor. El beneficio añadido de sentirse más cerca de [ROOT.Char.GetFaith.HighGodName] es… un… accidente #EMP divino#!."
+ stress_loss_exaltation_decision_desc: "La carne está aquí para servir como vehículo para la comunión con [ROOT.Char.GetFaith.HighGodName]. Rompámosla para que tal armonía pueda acontecer."
  stress_loss_flagellant_decision_desc: "Nada purga la mente como la catarsis del dolor. Me aplicaré el látigo a las espaldas hasta que se me despeje la mente."
- stress_loss_flaggelant_decision_effect_tooltip: "Soltarás estrés"
+ stress_loss_flaggelant_decision_effect_tooltip: "Soltarás estrés" #Not actually used atm
  stress_loss_flagellant_decision_tooltip: "Despejar la mente con dolor"
  stress_loss_flagellant_decision_confirm: "¡Agh!"
  stress_loss_profligate_decision: "Visitar el mercado"

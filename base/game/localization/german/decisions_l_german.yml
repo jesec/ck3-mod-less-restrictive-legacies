@@ -846,9 +846,11 @@
  stress_loss_irritable_decision_effect_courtier_tooltip: "Ihr beleidigt einen zufälligen [THIS.Char.Custom('GetCourtier')]"
  stress_loss_irritable_decision_tooltip: "Lasst Eurem Mundwerk freien Lauf und beruhigt den Geist"
  stress_loss_irritable_decision_confirm: "He! Ihr da!"
- stress_loss_flagellant_decision: "Selbstkasteiung"
+ stress_loss_flagellant_decision: "Sich der Selbstgeißelung hingeben"
+ stress_loss_flagellant_exaltation_decision_desc: "Nichts kann den Geist bessern läutern als die Katharsis des Schmerzes. Der Zugang zum Gefühl der Nähe zur höchsten Macht ([ROOT.Char.GetFaith.HighGodName]) ist … ein … #EMP himmlischer#! Zufall."
+ stress_loss_exaltation_decision_desc: "Es gibt das Fleisch, damit es als Gefäß für eine Kommunion mit der höchsten Macht ([ROOT.Char.GetFaith.HighGodName]) dienen kann. Lasst mich das Fleisch aufreißen, damit eine solche Harmonie zum Vorschein kommt."
  stress_loss_flagellant_decision_desc: "Nichts läutert den Geist so sehr wie die Katharsis des Schmerzes. Ich lasse die Peitsche so lange über meinen Rücken tanzen, bis mein Verstand wieder rein ist."
- stress_loss_flaggelant_decision_effect_tooltip: "Ihr werdet etwas Anspannung verlieren"
+ stress_loss_flaggelant_decision_effect_tooltip: "Ihr werdet etwas Anspannung verlieren" #Not actually used atm
  stress_loss_flagellant_decision_tooltip: "Euren Geist mit Schmerz läutern"
  stress_loss_flagellant_decision_confirm: "Argh–!"
  stress_loss_profligate_decision: "Den Markt besuchen"

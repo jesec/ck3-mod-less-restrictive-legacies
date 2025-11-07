@@ -8,7 +8,7 @@
  ACHIEVEMENT_mpo_this_chinggis_everything_achievement: "Чингисхан"
  ACHIEVEMENT_DESC_mpo_this_chinggis_everything_achievement: "Станьте Величайшим из ханов"
  ACHIEVEMENT_mpo_steppe_by_steppe_achievement: "За степью степь"
- ACHIEVEMENT_DESC_mpo_steppe_by_steppe_achievement: "Начните игру за кочевого правителя Восточной степи и мигрируйте в Западную."
+ ACHIEVEMENT_DESC_mpo_steppe_by_steppe_achievement: "Начните игру за кочевого правителя Восточной части [Concept('the_great_steppe', 'Великой степи')|E] и мигрируйте в Западную."
  ACHIEVEMENT_mpo_in_xanadu_achievement: "В Ксанаду"
  ACHIEVEMENT_DESC_mpo_in_xanadu_achievement: "Постройте Чертог наслаждения."
  ACHIEVEMENT_mpo_settling_in_achievement: "Заселение"

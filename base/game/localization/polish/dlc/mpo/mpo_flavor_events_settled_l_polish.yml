@@ -14,5 +14,6 @@
  mpo_flavor_events_settled.0010.desc: "#Emp – Prr! Prr!#! – Dziwna postać uspokaja swojego konia klepnięciem w bok i zbliża się do mnie.\n\n– Witajcie. Niech wasza czcigodność [ROOT.Char.GetTitleAsNameNoTooltip] wie, iż jestem posłańcem znamienitej osoby, którą jest [nomad_lord.GetTitledFirstName]. Przysłano mnie z propozycją zawarcia rozejmu między naszymi ludami."
  mpo_flavor_events_settled.0010.a: "– Zaakceptuj mój trybut, proszę."
  mpo_flavor_events_settled.0010.b: "– Na pewno uda nam się dojść do porozumienia."
+ mpo_flavor_events_settled.0010.b_perk_tt: "Posiadany przez ciebie [perk|El] „[GetPerk('defensive_measures_perk').GetName( GetNullCharacter )]” pozwala ci wynegocjować lepszą cenę"
  mpo_flavor_events_settled.0010.c: "#EMP Spluń na ziemię.#!"
  mpo_flavor_events_settled.0010.d: "– Przekaż moje wyrazy uznania swojemu władcy."

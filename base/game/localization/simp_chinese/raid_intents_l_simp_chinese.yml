@@ -43,7 +43,7 @@
  plunder_intent_nomadic_flavor: "#weak 富裕而弱小。他们的财物正等着我们收割。#!"
  adventure_intent_nomadic: "冒险"
  adventure_intent_nomadic_desc: "$adventure_intent_nomadic_loot$\n\n$adventure_intent_nomadic_modifiers$\n$adventure_intent_nomadic_flavor$"
- adventure_intent_nomadic_loot: "#bol 战利品类型：#!\n\t\t$BULLET$[gold_i][gold|E]：#V 50%#!\n\t\t$BULLET$[herd_i][herd|E]：#P 100%#!"
+ adventure_intent_nomadic_loot: "#bol 战利品类型：#!\n\t\t$BULLET$[gold_i][gold|E]：#V 50%#!\n\t\t$BULLET$[herd_i][herd|E]：#P 200%#!"
  adventure_intent_nomadic_modifiers: "#bol 军队修正：#!\n\t\t$BULLET$敌对伯爵领损耗：#P -100%#!\n\t\t$BULLET$[army|E][raid_loot|E]容量：#P +300%#!\n\t\t$BULLET$[command_modifier_i|E][raid|E]速度：#N -20%#!\n\t\t$BULLET$[raiding|e]时的陆地行军速度：#N -25%#!"
  adventure_intent_nomadic_flavor: "#weak 有时我们不得不四处搜寻，才能找到值得带回家的东西。#!"
  adventure_intent_viking: "冒险"

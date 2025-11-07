@@ -77,8 +77,6 @@
  mpo_greatest_of_khans.0003.k: "Je n’aurai que mon nom."
  gok_event_troops: "Horde [ROOT.Char.GetCulture.GetNameNoTooltip]"
  become_gok_decision_now_unavailable_tt: "@alert_icon! #alert_trial La [decision|El] #high $mpo_become_greatest_of_khans_decision$#! est désormais définitivement indisponible#!"
- gok_house_modifier: "La lignée dorée"
- gok_house_modifier_desc: "Ce que cette lignée a apporté au monde est inoubliable. Ce sont les descendants dorés du feu et de la conquête."
  mpo_gok_onslaught_cb: "Assaut du plus grand des khans"
  MPO_GOK_ONSLAUGHT_NAME: "Attaque [ATTACKER.GetPrimaryTitle.GetAdjective] en [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]"
  MPO_GOK_ONSLAUGHT_NAME_MY: "$ORDER$ Attaque [ATTACKER.GetPrimaryTitle.GetAdjective] en [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]"

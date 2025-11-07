@@ -148,3 +148,4 @@
  guardian_influenced_personality_fail_desc: "[actor.GetShortUINameNotMeNoTooltip] próbuje przekazać cechę [target_trait.GetName(actor)] twojemu dziecku, którym jest [recipient.GetShortUINameNotMeNoTooltip], ale bezskutecznie."
  influence_child_personality_interaction_trait_limit: "[CHARACTER.GetShortUINameNotMeNoTooltip] już posiada #V 4#! [personality_traits|El]"
  influence_child_personality_interaction_all_same_traits: "[CHARACTER.GetShortUINameNotMeNoTooltip] już posiada takie same [personality_traits|El] lub cechy im przeciwstawne"
+ crusading_claim_cb_reason: "$crusading_claim_cb$: $VALUE|=+0$"

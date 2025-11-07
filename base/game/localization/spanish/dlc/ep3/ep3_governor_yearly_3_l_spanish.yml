@@ -186,7 +186,7 @@
  msg_governor_challenging_illegitimacy.t: "[root_scope.GetTitleAsNameNoTooltip] desleal reúne apoyos"
  msg_governor_challenging_illegitimacy.desc: "[root_scope.GetName] y sus partidarios censuran tu escasa [legitimacy|lE]."
  msg_governor_supports_rule.t: "[root_scope.GetTitleAsNameNoTooltip] defiende tu mandato"
- msg_governor_supports_rule.desc: "[root_scope.GetName] te defiende públicamente frente a quienes hablan de tu ilegitimidad."
+ msg_governor_supports_rule.desc: "[root_scope.GetName|V] te defiende públicamente frente a quienes hablan de tu ilegitimidad."
  ep3_governor_yearly.3050.t: "Uno de los demonios menores de [ROOT.Char.GetFaith.NegativeAfterLife|U]"
  ep3_governor_yearly.3050.desc: "Extrañas nuevas abundan respecto a [emperor.GetFirstName] [emperor.GetHouse.GetName], nuestr[emperor.Custom('ES_OA')] [emperor.GetTitleAsNameNoTooltip|l], que vacila al borde de su trono."
  ep3_governor_yearly.3050.mess: "\n\nHa llegado un vendedor de remedios y habla de… peticiones impías que le hicieron desde palacio. Ojos de langosta, uñas de niños, pociones de mandrágora y brea… ¡todo para que [emperor.Custom('ES_ElLa')] [emperor.GetTitleAsNameNoTooltip|l] se lo metiera en sus fauces farfullantes! La bestia se pasea por el palacio arrastrando los pies, desnud[emperor.Custom('ES_OA')], pintad[emperor.Custom('ES_OA')] con sus extrañas medicinas y maldiciendo el nombre de [emperor.GetFaith.HighGodName]."

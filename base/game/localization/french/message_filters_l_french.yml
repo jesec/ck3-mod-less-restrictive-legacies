@@ -43,7 +43,7 @@
  message_filter_councillor_ongoing_desc: "Les [councillor_task_possible_side_effects|El] du [councillor|El]"
  message_filter_council_task: "@council_icon! Tâches de conseiller"
  message_filter_council_task_desc: "La progression d’une [councillor_task|El] en cours change"
- message_filter_councillor: "@council_icon! Nouveau conseiller"
+ message_filter_councillor: "@council_icon! Changement du conseiller"
  message_filter_councillor_desc: "Un de vos [councillors|El] est nommé ou quitte son poste"
  message_filter_councillor_liege: "@council_icon! Occupation d’un siège au Conseil"
  message_filter_councillor_liege_desc: "Vous êtes nommé ou démis de vos fonctions au [council|E] de votre [liege|El]"

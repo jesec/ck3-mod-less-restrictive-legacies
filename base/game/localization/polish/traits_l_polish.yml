@@ -1220,3 +1220,7 @@
  unlock_maa_heavy_horse_archers: "[GetMaA('heavy_horse_archers').GetName] mogą być rekrutowani jako [men_at_arms|El]"
  unlock_maa_nomad_lancers: "[GetMaA('nomad_lancers').GetName] mogą być rekrutowani jako [men_at_arms|El]"
  TRAIT_FLAG_DESC_gok_obedience_flag: "Znacznie zwiększone @obedience_icon! [obedience|El] [Concept('subjects', 'poddanych')|E]"
+ trait_golden_lineage: "Złoty rodowód"
+ trait_golden_lineage_desc: "To, co linia rodu tej postaci uczyniła dla świata, nie może zostać zapomniane. Jej dziedzice są złotymi potomkami ognia i podboju."
+ trait_golden_lineage_character_desc: "To, co linia rodu postaci znanej jako [ROOT.GetCharacter.GetFirstNameNoTooltip] uczyniła dla świata, nie może zostać zapomniane. Jej dziedzice są złotymi potomkami ognia i podboju."
+ descendants_gain_golden_lineage: "Twoi potomkowie zyskują cechę [GetTrait('golden_lineage').GetName( GetNullCharacter )|l]"

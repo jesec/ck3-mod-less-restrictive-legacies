@@ -77,8 +77,6 @@
  mpo_greatest_of_khans.0003.k: "我只会使用我自己的名字。"
  gok_event_troops: "[ROOT.Char.GetCulture.GetNameNoTooltip]游牧军"
  become_gok_decision_now_unavailable_tt: "@alert_icon!#alert_trial #high $mpo_become_greatest_of_khans_decision$#![decision|E]现在将永不可用#!"
- gok_house_modifier: "黄金家族"
- gok_house_modifier_desc: "这条血脉对世界的影响无法被遗忘。他们是火焰与征服的黄金后裔。"
  mpo_gok_onslaught_cb: "最伟大的汗进军"
  MPO_GOK_ONSLAUGHT_NAME: "[ATTACKER.GetPrimaryTitle.GetAdjective]向[DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]进军"
  MPO_GOK_ONSLAUGHT_NAME_MY: "$ORDER$[ATTACKER.GetPrimaryTitle.GetAdjective]向[DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]进军"

@@ -754,5 +754,5 @@
  sovereignty_cb_defeat_desc_defender: "Zachowujesz trybutariuszy będących przedmiotem sporu. [attacker.GetShortUINameNotMe] musi zapłacić ci reparacje wojenne."
  sovereignty_cb_defeat_desc_attacker: "[defender.GetShortUINameNotMe] zachowuje trybutariuszy będących przedmiotem sporu. Musisz zapłacić [defender.Custom('PL_mu_jej')] reparacje wojenne."
  sovereignty_cb_defeat_desc: "[defender.GetShortUINameNotMe] zachowuje trybutariuszy będących przedmiotem sporu, a [attacker.GetShortUINameNotMe] musi zapłacić [defender.Custom('PL_mu_jej')] reparacje wojenne."
- sovereignty_war_tributary_switch: "[tributaries|E] sąsiadujący z osobą znaną jako [defender.GetShortUINameNotMe] muszą płacić [tribute|El] osobie, którą jest [attacker.GetShortUINameNotMe]"
+ sovereignty_war_tributary_switch: "[tributaries|E] osoby znanej jako [defender.GetShortUINameNotMe], którzy mogą utworzyć trwałe [realm|El], muszą płacić [tribute|El] osobie, którą jest [attacker.GetShortUINameNotMe]"
  at_least_one_non_nomad_county_tt: "Cel musi posiadać przynajmniej jedno [county|El], które nie jest [Concept('nomadic', 'koczownicze')|E]"

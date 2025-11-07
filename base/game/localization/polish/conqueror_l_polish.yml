@@ -1,6 +1,7 @@
 ﻿l_polish:
  conqueror.0001.t: "Władanie światem"
  conqueror.0001.desc: "Wszystko staje się coraz bardziej zrozumiałe. Od najprostszego chłopa po najszlachetniejszego z moich wasali – wszyscy szepczą moje imię, szepczą o mojej potędze, szepczą o #EMP wojnie!#! Mam poparcie, bo mój lud widzi we mnie władcę godnego świata.\n\n[ROOT.Char.GetPrimaryTitle.GetBaseName] to potęga. Mogę ją wykorzystać – i tak zrobię. Oczekuje się ode mnie, że zaatakuję, że siłą zdobędę to, co powinno do mnie należeć. Moim przeznaczeniem jest rządzić, podporządkować sobie ludzi wokół mnie i uczynić ich częścią moich ziem – [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip|l] to dopiero początek.\n\nMając za sobą mój lud, nie zawiodę."
+ conqueror.0001.desc.temujin: "\n\nUległości oczekuję zarówno wobec stalowoszarego wilka, jak i płochego daniela. Każdy bunt skończy się dla nich zgubą."
  conqueror.0001.a: "Niech rozpocznie się podbój!"
  conqueror_flavor: "Otrzymasz wsparcie od swoich wasali i ludu, ale uważaj – osłabnie ono, jeśli zbyt długo utrzymasz pokój, przegrasz zbyt wiele wojen, staniesz się poddanym innego państwa lub popadniesz w niełaskę…\n\nJeśli umrzesz, twoje dzieci będą zobowiązane kontynuować twój podbój."
  conqueror.0001.b: "Wolę tu zostać i wąchać [ROOT.Char.GetCapitalLocation.Custom('get_region_flower_type_plural')]…"
@@ -50,6 +51,8 @@
  peasant_draft_desc: "Chłopi gromadzą się pod sztandarami tej postaci. Bardzo chętnie chwycą za broń i wezmą udział w poborze."
  conqueror_feed_county_gift: "Złoto z miejsca o nazwie [county_target.GetNameNoTierNoTooltip]"
  conqueror_feed_county_gift_desc: "Chłopi z miejsca znanego jako [county_target.GetNameNoTier] są zachwyceni twoimi podbojami i wysyłają ci złoto."
+ conqueror_feed_county_gift_herd: "Miejsce znane jako [county_target.GetNameNoTooltip] przysyła stada"
+ conqueror_feed_county_gift_desc_herd: "Prości pasterze z hrabstwa o nazwie [county_target.GetName] są zachwyceni wspaniałą osobistością, którą jest [ROOT.Char.GetTitleAsName], i dają ci w prezencie swoje najlepsze zwierzęta."
  conqueror_feed_knight_joins: "$knight_culture_player_no_tooltip$ dołącza do twojej sprawy"
  conqueror_feed_knight_joins_desc: "$knight_culture_player_no_tooltip$ [knight.GetFullName] przysięga ci swoją lojalność! (@skill_prowess_icon! [knight.GetProwess])"
  conqueror_feed_angry_vassal: "Wściekły wasal jest pod wrażeniem"

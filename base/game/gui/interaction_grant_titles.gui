@@ -34,6 +34,7 @@ window = {
 			blockoverride "header_text"
 			{
 				text = "grant_titles"
+				align = nobaseline
 			}
 
 			blockoverride "button_close"
@@ -50,7 +51,7 @@ window = {
 		}
 		
 		spacer = {
-			size = { 0 5 }
+			size = { 0 10 }
 		}
 
 		### Titles list

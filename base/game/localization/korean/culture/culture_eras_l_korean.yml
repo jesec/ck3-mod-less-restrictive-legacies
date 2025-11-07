@@ -6,7 +6,7 @@
  culture_group_any: "전체"
  #ERAS
  culture_era_tribal: "부족"
- culture_era_tribal_desc: "[culture|E]의 부족 시대는 성문법과 제도화된 정부가 등장하기 이전 시대를 의미합니다. [tribal_government|E] 지도자는 부족 시대의 [innovations|E]만 사용할 수 있습니다."
+ culture_era_tribal_desc: "[culture|E]의 부족 시대는 성문법과 제도화된 정부가 등장하기 이전 시대를 의미합니다. [tribal_government|E] 및 [nomadic_government|E] 영주는 부족 시대의 [innovations|E]만 사용할 수 있습니다."
  culture_era_early_medieval: "중세 전기"
  culture_era_early_medieval_desc: "전기 중세시대는 전문 행정가와 중요한 [innovations|E]이 출현하면서 [culture|E]권이 암흑시대에서 벗어날 수 있게 합니다."
  culture_era_high_medieval: "중세 성기"

@@ -98,7 +98,7 @@
  TAX_SLOT_OBLIGATIONS_WINDOW_CURRENT_OBLIGATION: "현재"
  TAX_SLOT_OBLIGATIONS_WINDOW_ALREADY_SELECTED_DESC: "현재 활성화된 [tax_decree|E]"
  TAX_SLOT_OVERVIEW_WINDOW_HEADER: "당신의 [tax_jurisdictions|E]"
- TAX_SLOT_OVERVIEW_WINDOW_TOTAL_CONTRIBUTION: "총 공헌:"
+ TAX_SLOT_OVERVIEW_WINDOW_TOTAL_CONTRIBUTION: "총 헌납:"
  TAX_SLOT_OVERVIEW_WINDOW_DESC: "[clan|E] [vassals|E]을 [tax_jurisdictions|E]에 할당하여 세금을 관리하십시오. [tax_collector|E] 및 각 관할권의 [tax_decrees|E]에 따라 [vassals|E]이 납부하는 세금이 달라집니다."
  TAX_SLOT_OVERVIEW_WINDOW_TAX_SLOTS_WARNING: "[Character.GetUntaxedJurisdictionCount]개의 [untaxed_jurisdictions|E]을 보유함"
  TAX_SLOT_OVERVIEW_WINDOW_UNASSIGNED_VASSALS_WARNING: "[Character.GetUnassignedVassalsCount]명의 [unassigned_vassals|E]을 보유함"

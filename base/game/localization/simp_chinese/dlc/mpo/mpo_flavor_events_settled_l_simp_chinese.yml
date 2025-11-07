@@ -14,5 +14,6 @@
  mpo_flavor_events_settled.0010.desc: "#Emp “吁！吁！”#!一名陌生的[nomad.GetWomanMan]轻拍马腹安抚坐骑，然后向我骑行来。\n\n“幸会，尊贵的[ROOT.Char.GetTitleAsNameNoTooltip]，我是伟大的[nomad_lord.GetTitledFirstName]的使者。我的[nomad_lord.GetLadyLord]派我前来提议我们双方休战。”"
  mpo_flavor_events_settled.0010.a: "“请收下我的贡品。”"
  mpo_flavor_events_settled.0010.b: "“我相信我们能达成共识。”"
+ mpo_flavor_events_settled.0010.b_perk_tt: "你的[GetPerk('defensive_measures_perk').GetName( GetNullCharacter )][perk|E]允许你商讨更好的价格"
  mpo_flavor_events_settled.0010.c: "#EMP 往地上啐一口。#!"
  mpo_flavor_events_settled.0010.d: "“代我向你的[nomad_lord.GetLadyLord]致敬。”"

@@ -266,5 +266,5 @@
  holy_order_government_filter_option_desc: "Только персонажи с [Concept('holy_order', 'орденским')|E] [Concept('government', 'правительством')|E]"
  administrative_government_filter_option_desc: "Только персонажи с [Concept('administrative', 'бюрократическим')|E] [Concept('government', 'правительством')|E]"
  landless_adventurer_government_filter_option_desc: "Только персонажи с [Concept('adventurer', 'авантюристской')|E] [Concept('government', 'формой правления')|E]"
- nomad_government_filter_option_desc: ""
- herder_government_filter_option_desc: ""
+ nomad_government_filter_option_desc: "Только персонажи с [Concept('nomadic_government', 'кочевым правительством')|E]"
+ herder_government_filter_option_desc: "Только персонажи с [Concept('herder', 'пастушьим')|E] [Concept('government', 'правительством')|E]"

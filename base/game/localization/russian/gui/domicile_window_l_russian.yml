@@ -78,3 +78,5 @@
  can_move_domicile_estate_same_location_tt: "[Concept('estate', 'Поместье')|E] уже расположено в провинции [province_temp.GetBaronyNameExplicitly]"
  DOMICILE_WINDOW_CONSTRUCT_BUILDING_TT: "#T Возвести новую [Concept('domicile_building', 'постройку в имении')|E]#!"
  DOMICILE_WINDOW_CONSTRUCT_BUILDING_LOCKED_TT: "$DOMICILE_WINDOW_CONSTRUCT_BUILDING_TT$\n@warning_icon!#X Слишком низкий уровень [Concept('domicile_building', 'постройки')|E] «[Domicile.GetMainBuilding.GetName]»#!"
+ CHARACTER_MODIFIERS_LABEL: "#BOLD;EMP Модификаторы персонажа#!"
+ PROVINCE_MODIFIERS_LABEL: "#BOLD;EMP Модификаторы баронства#!"

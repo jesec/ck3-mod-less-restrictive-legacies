@@ -139,6 +139,7 @@
 						name = "cancel_button"
 						text = "CANCEL"
 						onclick = "[SaveGameWindow.Cancel]"
+						onclick = "[PdxGuiTriggerAllAnimations('bookmarks_reset')]"
 						enabled = "[Not(SaveGameWindow.IsSaving)]"
 						shortcut = "close_window"
 					}

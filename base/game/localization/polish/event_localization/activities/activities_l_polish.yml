@@ -198,6 +198,7 @@
  activity_invite_rule_potential_lovers: "Potencjalni kochankowie"
  activity_invite_rule_suzerain: "Suzeren"
  activity_invite_rule_tributaries: "Trybutariusze"
+ activity_invite_rule_confederates: "Konfederaci"
  activity_invite_rule_rivals: "Rywale"
  activity_invite_rule_rivals_if_appropriate: "$activity_invite_rule_rivals$"
  activity_invite_rule_lovers: "Kochankowie"

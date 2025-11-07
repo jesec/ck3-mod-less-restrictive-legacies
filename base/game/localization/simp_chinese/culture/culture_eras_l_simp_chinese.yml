@@ -6,7 +6,7 @@
  culture_group_any: "任何"
  #ERAS
  culture_era_tribal: "部落时期"
- culture_era_tribal_desc: "[culture|E]的部落时代先于成体系法律与体制化的政府出现之前。[tribal_government|E]的统治者只能使用部落时代的[innovations|E]。"
+ culture_era_tribal_desc: "[culture|E]的部落时代先于成体系法律与体制化的政府出现之前。[tribal_government|E]和[nomadic_government|E]的统治者只能使用部落时代的[innovations|E]。"
  culture_era_early_medieval: "中世纪早期"
  culture_era_early_medieval_desc: "中世纪早期时代见证了专职行政者与一系列重要[innovations|E]的涌现，培育了脱离黑暗时代的[culture|E]。"
  culture_era_high_medieval: "中世纪盛期"

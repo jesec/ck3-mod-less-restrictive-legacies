@@ -27,7 +27,7 @@
  game_concept_title_men_at_arms_desc: "$game_concept_title_men_at_arms$은 주어진 [title|E]를 위해 존재하는 [men_at_arms|E]입니다. [ruler|E]가 개인적으로 소유하는 병력이 아닌, $game_concept_title$에 속한 병력입니다. 즉, $game_concept_title$를 소유했다면 그 인물이 누구든 해당되는 작위 무장병을 소유하고 통제합니다.\n\n$game_concept_title_men_at_arms$은 [administrative|E] 등의 특정 [government_forms|E]에서 사용됩니다."
  game_concept_domicile: "본적지"
  game_concept_domiciles: "본적지"
- game_concept_domicile_desc: "$game_concept_domicile$는 특정 [government_form|E]를 가진 어떤 [characters|E]의 사유 재산입니다. [administrative|E] 또는 [adventurer|E]가 그 사례입니다.\n\n$game_concept_domicile$는 [holdings|E] 대신 소유자의 주요 권력 기반으로 작용합니다. 또한 [domicile_buildings|E]을 통해 개선될 수 있습니다.\n\n모든 $game_concept_domicile$는 지정된 [barony|E] 내에 위치하며, 새로운 위치로 이동될 수 있습니다. 단, $game_concept_domicile$ 유형에 따라 이동이 제한될 수 있습니다.\n\n$game_concept_domiciles$는 [succession|E] 시 일반적으로 소유자의 [player_heir|E]에게 상속됩니다."
+ game_concept_domicile_desc: "$game_concept_domicile$는 특정 [government_form|E]를 가진 어떤 [characters|E]의 사유 재산입니다. [administrative|E] 또는 [adventurer|E]가 그 사례입니다.\n\n$game_concept_domicile$는 [holdings|E] 대신 소유자의 주요 권력 기반으로 작용합니다. 또한 [domicile_buildings|E]을 통해 개선될 수 있습니다.\n\n모든 $game_concept_domicile$는 지정된 [barony|E]에 위치하며, 새로운 위치로 이동될 수 있습니다. 단, $game_concept_domicile$ 유형에 따라 제한이 적용될 수 있습니다.\n\n각 $game_concept_domicile$는 특별한 비지주 [title|E]를 가지며 그 [succession|E]을 따릅니다."
  game_concept_domicile_building: "본적지 건물"
  game_concept_domicile_buildings: "본적지 건물"
  game_concept_domicile_building_desc: "모든 [domiciles|E]는 특정 $game_concept_domicile_buildings$로 강화될 수 있으며, 이는 소유자에게 수입, [prestige|E]과 같은 자원, 기타 다양한 혜택을 제공합니다.\n\n건설 가능한 건물은 $game_concept_domicile$ 유형에 따라 다르며, 각 유형마다 매우 다양한 건물이 존재합니다.\n\n일부 $game_concept_domicile_buildings$은 [internal_upgrades|E]를 보유할 수 있습니다."

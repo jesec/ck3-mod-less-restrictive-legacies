@@ -166,3 +166,13 @@
  religious_interaction.2500.desc: "Pour que vous retrouviez vos esprits... Ce doit être un signe [ROOT.Char.GetFaith.HighGodNameAlternatePossessive] ! Bienvenue dans la vraie foi."
  religious_interaction.2500.a: "Louons [ROOT.Char.GetFaith.HighGodName] !"
  religious_interaction.2501.desc: "Vous devez sûrement plaisanter ? Vos évidentes manœuvres politiques de fuite ne dissuaderont jamais le courroux [recipient.GetFaith.HighGodNamePossessive] !"
+ #########################
+ #Exaltation of Pain tenet
+ #########################
+ religious_interaction.2600.t: "Leçons de grâce"
+ religious_interaction.2600.desc.recipient: "[actor.Custom('FR_le_Char_Pi')|U][actor.GetTitledFirstName] me prend doucement la main et me conduit vers une collection d’objets tranchants et émoussés que nous utiliserons lors de notre séance. L’une des lames scintille à la lumière et je sens un sentiment de paix m’envahir.\n\nL’outil à la main, je lui fais signe de se retourner. [actor.Custom('FR_IlElle')|U] enlève son haut, découvrant la peau immaculée de son dos. Je me mets au travail et les doux gémissements et grognements se transforment bientôt en une sorte de bourdonnement provenant du fond de sa gorge.\n\nJe sais déjà avec quel outil je vais affiner ma grâce."
+ religious_interaction.2600.desc.actor: "[recipient.Custom('FR_le_Char_Pi')|U][recipient.GetTitledFirstName] jette un regard attentif sur les outils de transcendance et tremble légèrement d’impatience.\n\nJ’attrape son poignet, je lui mets une lame tranchante dans la main, pour ensuite la presser doucement contre ma poitrine. « Avec prudence, hein ? Et d’une main ferme. La précision est capitale. »\n\n[recipient.Custom('FR_IlElle')|U] me regarde dans les yeux et hoche la tête, puis commence à déboutonner son haut et à exposer un endroit de chair sans la moindre cicatrice – qui ne va pas tarder à connaître la grâce [recipient.GetFaith.HighGodNamePossessive]."
+ religious_interaction.2600.a: "« Atteignons la transcendance ensemble. »"
+ religious_interaction.2610.desc: "Je dois malheureusement m’occuper de quelques affaires importantes... mais la prochaine fois, nous rendrons grâce avec d’autant plus d’enthousiasme !"
+ religious_interaction.2610.a: "Quel dommage !"
+ attempted_transcendence_together_opinion: "Tentative de transcendance conjointe"

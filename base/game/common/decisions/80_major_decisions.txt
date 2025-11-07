@@ -94,7 +94,10 @@ convert_to_feudalism_liege_converted_decision = {
 			text = recent_conversion_to_tribalism
 			NOT = { has_character_flag = just_converted_to_tribalism }
 		}
-		custom_description = {
+	}
+
+	is_valid_showing_failures_only = {
+		custom_tooltip = {
 			text = permafrost_feudal_ban
 			NOT = { culture = { has_cultural_parameter = permafrost_cannot_become_feudal } }
 		}
@@ -355,8 +358,10 @@ convert_whole_realm_to_feudalism_decision = {
 				}
 			}
 		}
+	}
 
-		custom_description = {
+	is_valid_showing_failures_only = {
+		custom_tooltip = {
 			text = permafrost_feudal_ban
 			NOT = { culture = { has_cultural_parameter = permafrost_cannot_become_feudal } }
 		}
@@ -1107,6 +1112,9 @@ found_empire_decision = {
 			hidden_effect = {
 				legend_seed_new_title_effect = yes
 			}
+		}
+		else = {
+			create_custom_empire_effect = yes
 		}
 		if = {
 			limit = {

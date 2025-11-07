@@ -398,23 +398,77 @@ yurt_internal_building_prestige_cost_tier_4 = @yurt_internal_building_prestige_c
 yurt_internal_building_prestige_cost_tier_5 = @yurt_internal_building_prestige_cost_5
 yurt_internal_building_prestige_cost_tier_6 = @yurt_internal_building_prestige_cost_6
 
-yurt_main_building_gold_cost_tier_1 = @yurt_main_building_gold_cost_1
-yurt_main_building_gold_cost_tier_2 = @yurt_main_building_gold_cost_2
-yurt_main_building_gold_cost_tier_3 = @yurt_main_building_gold_cost_3
-yurt_main_building_gold_cost_tier_4 = @yurt_main_building_gold_cost_4
-yurt_main_building_gold_cost_tier_5 = @yurt_main_building_gold_cost_5
-yurt_main_building_gold_cost_tier_6 = @yurt_main_building_gold_cost_6
+yurt_main_building_gold_cost_tier_1  = {
+	value = @yurt_main_building_gold_cost_1
+	
+}
+yurt_main_building_gold_cost_tier_2  = {
+	value = @yurt_main_building_gold_cost_2
+	
+}
+yurt_main_building_gold_cost_tier_3  = {
+	value = @yurt_main_building_gold_cost_3
+	
+}
+yurt_main_building_gold_cost_tier_4  = {
+	value = @yurt_main_building_gold_cost_4
+	
+}
+yurt_main_building_gold_cost_tier_5  = {
+	value = @yurt_main_building_gold_cost_5
+	
+}
+yurt_main_building_gold_cost_tier_6  = {
+	value = @yurt_main_building_gold_cost_6
+	
+}
 
-yurt_external_building_gold_cost_tier_1 = @yurt_external_building_gold_cost_1
-yurt_external_building_gold_cost_tier_2 = @yurt_external_building_gold_cost_2
-yurt_external_building_gold_cost_tier_3 = @yurt_external_building_gold_cost_3
-yurt_external_building_gold_cost_tier_4 = @yurt_external_building_gold_cost_4
-yurt_external_building_gold_cost_tier_5 = @yurt_external_building_gold_cost_5
-yurt_external_building_gold_cost_tier_6 = @yurt_external_building_gold_cost_6
+yurt_external_building_gold_cost_tier_1 = {
+	value = @yurt_external_building_gold_cost_1
+	
+}
+yurt_external_building_gold_cost_tier_2 = {
+	value = @yurt_external_building_gold_cost_2
+	
+}
+yurt_external_building_gold_cost_tier_3 = {
+	value = @yurt_external_building_gold_cost_3
+	
+}
+yurt_external_building_gold_cost_tier_4 = {
+	value = @yurt_external_building_gold_cost_4
+	
+}
+yurt_external_building_gold_cost_tier_5 = {
+	value = @yurt_external_building_gold_cost_5
+	
+}
+yurt_external_building_gold_cost_tier_6 = {
+	value = @yurt_external_building_gold_cost_6
+	
+}
 
-yurt_internal_building_gold_cost_tier_1 = @yurt_internal_building_gold_cost_1
-yurt_internal_building_gold_cost_tier_2 = @yurt_internal_building_gold_cost_2
-yurt_internal_building_gold_cost_tier_3 = @yurt_internal_building_gold_cost_3
-yurt_internal_building_gold_cost_tier_4 = @yurt_internal_building_gold_cost_4
-yurt_internal_building_gold_cost_tier_5 = @yurt_internal_building_gold_cost_5
-yurt_internal_building_gold_cost_tier_6 = @yurt_internal_building_gold_cost_6
+yurt_internal_building_gold_cost_tier_1 = {
+	value = @yurt_internal_building_gold_cost_1
+	
+}
+yurt_internal_building_gold_cost_tier_2 = {
+	value = @yurt_internal_building_gold_cost_2
+	
+}
+yurt_internal_building_gold_cost_tier_3 = {
+	value = @yurt_internal_building_gold_cost_3
+	
+}
+yurt_internal_building_gold_cost_tier_4 = {
+	value = @yurt_internal_building_gold_cost_4
+	
+}
+yurt_internal_building_gold_cost_tier_5 = {
+	value = @yurt_internal_building_gold_cost_5
+	
+}
+yurt_internal_building_gold_cost_tier_6 = {
+	value = @yurt_internal_building_gold_cost_6
+	
+}

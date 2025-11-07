@@ -669,6 +669,8 @@
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_turkic_nob_02: "@khansofthesteppe_icon! @legacyofpersia_icon! 沙尔布什帽"
  PORTRAIT_MODIFIER_custom_special_m_headgear_fp3_iranian_face_mask_01: "@khansofthesteppe_icon! @legacyofpersia_icon!突厥-波斯面具"
  PORTRAIT_MODIFIER_custom_special_masks_m_headgear_fp3_iranian_face_mask_01: "@khansofthesteppe_icon! @legacyofpersia_icon!突厥-波斯面具"
+ PORTRAIT_MODIFIER_custom_special_masks_m_headgear_fp3_iranian_face_mask_open_01: "库曼头盔面具（打开）"
+ PORTRAIT_MODIFIER_custom_special_masks_m_headgear_fp3_iranian_face_mask_closed_01: "库曼头盔面具（关闭）"
  ### Female ###
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_imp_01: "@legacyofpersia_icon! 伊朗皇冠"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_roy_01: "@legacyofpersia_icon! 鸟翼冠"

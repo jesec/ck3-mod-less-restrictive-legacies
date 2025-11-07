@@ -13,7 +13,7 @@
  army_quartermasters_house_power: "부대 병참장"
  respected_despots_house_power: "존중받는 데스포티스"
  lofty_architects_house_power: "고결한 건축가"
- members_in_realm_desc: "생존한 [house|E] 구성원"
+ members_in_realm_desc: "[realm|E] 내 생존한 [house|E] 구성원"
  house_head_influence_level_desc: "[house_heads_possessive|E] [influence_level|E]"
  house_members_on_council_desc: "[top_liege|E]의 [council|E] 내 [house|E] 구성원"
  estate_buildings_desc: "[estate_buildings|E]"

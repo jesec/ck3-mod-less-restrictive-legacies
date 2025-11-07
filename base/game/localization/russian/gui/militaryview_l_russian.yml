@@ -176,3 +176,4 @@
  MV_REGIMENT_START_SIZE_NOMAD: "Начнет в полной силе ([MenAtArmsType.GetStackSize])"
  RECRUIT_FROM_SUBJECTS_LABEL: "Нанять у подданных"
  RECRUIT_FROM_SUBJECTS_TOOLTIP: "#T Нанять у подданных#!\n#weak За [Concept('gold', 'золото')|E] вы наймете [Concept('men_at_arms', 'профессионалов')|E], которые есть у вашего [Concept('subject', 'субъекта')|E], но отсутствуют у вас#!"
+ RECRUIT_FROM_SUBJECTS_ICON: "@recruit_from_subjects_icon!"

@@ -166,3 +166,13 @@
  religious_interaction.2500.desc: "Endlich kommt Ihr zu Sinnen … Das muss ein Zeichen von [ROOT.Char.GetFaith.HighGodNameAlternate] sein! Der einzig wahre Glaube heißt Euch willkommen."
  religious_interaction.2500.a: "Gelobt seien die höchsten Mächte!"
  religious_interaction.2501.desc: "Das soll doch wohl ein Witz sein? Eure durchschaubaren Versuche einer politischen Flucht werden Euch den Zorn von [recipient.GetFaith.HighGodName] nicht ersparen!"
+ #########################
+ #Exaltation of Pain tenet
+ #########################
+ religious_interaction.2600.t: "Lektionen in Erlösung"
+ religious_interaction.2600.desc.recipient: "[actor.GetTitledFirstName|U] nimmt sanft meine Hand und führt mich zu einem Sammelsurium scharfer und stumpfer Dinge, die wir bei unserer Sitzung verwenden werden. Eine der Klingen funkelt im Licht, und ich spüre ein Gefühl des Friedens über mich kommen.\n\nMit dem Werkzeug in der Hand bedeute ich [actor.Custom('DE_PRO_PER_S_3P_D')], sich umzudrehen. [actor.Custom('DE_PRO_PER_S_3P_N')|U] zieht [actor.Custom('DE_PRO_POS_S_3P')] Oberteil aus und legt die makellose Haut [actor.Custom('DE_PRO_POS_S_3P')]es Rückens frei. Ich mache mich an die Arbeit, und das sanfte Stöhnen und Grunzen wird bald zu einem tiefen Brummen in [actor.Custom('DE_PRO_POS_S_3P')]er Kehle.\n\nIch weiß schon, mit welchem Werkzeug ich meine eigene Erlösung genauestens abstimmen werde."
+ religious_interaction.2600.desc.actor: "[recipient.GetTitledFirstName|U] wirft einen aufmerksamen Blick auf die Werkzeuge der Transzendenz und bebt schon leicht vor Vorfreude.\n\nIch packe [recipient.Custom('DE_PRO_POS_S_3P')] Handgelenk und gebe [actor.Custom('DE_PRO_PER_S_3P_D')] dann eine scharfe Klinge, um sie sogleich sanft an meine Brust zu pressen. „Mit Bedacht, ja? Und ruhiger Hand. Wir wandeln hier auf einem schmalen Grat.“\n\n[recipient.GetFirstNameNoTooltip|U] schaut mir in die Augen und nickt, ehe [actor.Custom('DE_PRO_PER_S_3P_N')] beginnt, das eigene Oberteil aufzuknöpfen und eine Stelle reinen, unvernarbten Fleischs freizulegen – bald wird es die Erlösung durch die höchste Macht ([recipient.GetFaith.HighGodName]) erfahren."
+ religious_interaction.2600.a: "„Lasst uns transzendieren. Gemeinsam.“"
+ religious_interaction.2610.desc: "Ich muss mich dieses Mal leider noch um einige wichtige Angelegenheiten kümmern … aber nächstes Mal werden wir um so eifriger dem Gottesdient nachgehen!"
+ religious_interaction.2610.a: "Wie schade."
+ attempted_transcendence_together_opinion: "Gemeinsam versuchte Transzendenz"

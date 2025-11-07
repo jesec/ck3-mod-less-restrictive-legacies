@@ -186,7 +186,7 @@
  msg_governor_challenging_illegitimacy.t: "不忠的[root_scope.GetTitleAsNameNoTooltip]聚拢支持者"
  msg_governor_challenging_illegitimacy.desc: "[root_scope.GetName]和[root_scope.GetHerHis]的支持者谴责你缺乏说服力的[legitimacy|E]。"
  msg_governor_supports_rule.t: "[root_scope.GetTitleAsNameNoTooltip]为你的天命辩护"
- msg_governor_supports_rule.desc: "[root_scope.GetName]公开为你辩护，对抗那些谈论你的正统性的人。"
+ msg_governor_supports_rule.desc: "[root_scope.GetName|V]公开为你辩护，对抗那些谈论你的正统性的人。"
  ep3_governor_yearly.3050.t: "[ROOT.Char.GetFaith.NegativeAfterLife|U]的小恶魔"
  ep3_governor_yearly.3050.desc: "我们的[emperor.GetTitleAsNameNoTooltip][emperor.GetFirstName]·[emperor.GetHouse.GetName]的皇位坐得并不稳，有许多关于[emperor.GetHerHis]的奇怪流言正在传播。"
  ep3_governor_yearly.3050.mess: "\n\n一位药商说起了……宫里向他索取的邪恶物品。龙虾眼，小孩指甲，曼德拉草和沥青调配的药剂——这一切都是为了灌进[emperor.GetTitleAsNameNoTooltip]那胡言乱语的喉咙！那头野兽浑身赤裸地在宫里乱跑，涂抹[emperor.GetHerHis]那奇怪的药物，并诅咒[emperor.GetFaith.HighGodName]的名字！"

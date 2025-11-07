@@ -1633,11 +1633,15 @@ types JominiMultiplayerLobby
 							}
 						}
 
-						container = {
+						widget = {
 							visible = "[LobbyPlayer.HasPlayable]"
+							size = { 50 70 }
+
 							coa_realm_small_crown = {
 								datacontext = "[LobbyPlayer.GetPlayable.GetCharacter]"
 								visible = "[Character.IsValid]"
+								parentanchor = center
+								position = { 0 7 }
 							}
 						}
 

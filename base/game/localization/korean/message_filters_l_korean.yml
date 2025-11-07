@@ -43,7 +43,7 @@
  message_filter_councillor_ongoing_desc: "[councillor|E] [councillor_task_possible_side_effects|E] 영향"
  message_filter_council_task: "@council_icon! 자문회 임무"
  message_filter_council_task_desc: "진행 중인 [councillor_task|E] 진행도가 변화함"
- message_filter_councillor: "@council_icon! 새로운 자문위원"
+ message_filter_councillor: "@council_icon! 자문위원 변경"
  message_filter_councillor_desc: "[councillors|E]을 임명했거나 떠남"
  message_filter_councillor_liege: "@council_icon! 자문회 개최"
  message_filter_councillor_liege_desc: "[liege_possessive|E] [council|E]에 임명 또는 해임됨"

@@ -43,7 +43,7 @@
  message_filter_councillor_ongoing_desc: "[councillor|E][councillor_task_possible_side_effects|E]的效果"
  message_filter_council_task: "@council_icon!内阁任务"
  message_filter_council_task_desc: "一项正在进行的[councillor_task|E]的进度改变了"
- message_filter_councillor: "@council_icon!新内阁成员"
+ message_filter_councillor: "@council_icon!内阁成员更改"
  message_filter_councillor_desc: "你的一名[councillors|E]受任命或离职"
  message_filter_councillor_liege: "@council_icon!持有的内阁席位"
  message_filter_councillor_liege_desc: "你进入或离开你[liege_possessive|E]的[council|E]"

@@ -1,6 +1,7 @@
 ﻿l_korean:
  conqueror.0001.t: "세계를 내 손에"
  conqueror.0001.desc: "미래가 점점 더 선명해진다. 가장 낮은 농노부터 가장 고귀한 봉신들까지, 모두 내 이름과 힘을 속삭이며 #EMP 전쟁#!을 촉구한다! 내 대의를 지지하는 사람들이 있다. 백성들이 나를 세상의 지배자로 합당하다고 여긴다.\n\n[ROOT.Char.GetPrimaryTitle.GetBaseName]의 힘은 나의 것이며, 힘이 있으면 마땅히 휘둘러야 한다. 이 힘을 외부로 투사하는 순간만을 나에게서 기대하고 있다. 본디 내 것이어야 하는 땅을 반드시 차지하라고 속삭인다. 지배하는 운명이 내게 예비되어 있다. 다른 영지들을 정복해서 내 [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]의 일부로 복속시킬 운명이 내 안에 있었다.\n\n신민들의 지지를 등에 업었으니 실패하려 작정해도 그렇게 되지 않으리라."
+ conqueror.0001.desc.temujin: "\n\n시조이신 푸른 늑대와 흰 사슴의 이름으로, 나의 적에게는 파멸 또는 굴복만이 있으리라."
  conqueror.0001.a: "정복을 시작하라!"
  conqueror_flavor: "당신은 봉신과 백성들의 지지를 받기 시작합니다. 하지만 조심하십시오. 평화가 너무 오래 이어지거나 너무 많은 전쟁에서 패배한다면, 다른 봉역의 속주가 되거나 신임을 잃게 된다면 당신에 대한 지지가 차츰 약해질 것입니다...\n\n사망할 경우 자녀들이 정복의 야망을 이어받습니다."
  conqueror.0001.b: "그저 이 자리를 지키며 [ROOT.Char.GetCapitalLocation.Custom('get_region_flower_type_plural')]의 향기에 취할 것이다..."
@@ -50,6 +51,8 @@
  peasant_draft_desc: "농노들이 해당 인물의 깃발 아래에 몰려들어 자발적으로 징집병 부대에 들어갔습니다."
  conqueror_feed_county_gift: "[county_target.GetNameNoTooltip]에서 보낸 금화"
  conqueror_feed_county_gift_desc: "[county_target.GetName]의 농노들이 당신의 정복에 열광하며 금화를 보냈습니다."
+ conqueror_feed_county_gift_herd: "[county_target.GetNameNoTooltip]에서 보낸 가축"
+ conqueror_feed_county_gift_desc_herd: "[county_target.GetName]의 평범한 목축민들은 위대한 [ROOT.Char.GetTitleAsName](을)를 존경하고 두려워하는 마음으로 당신에게 훌륭한 가축을 바칩니다."
  conqueror_feed_knight_joins: "$knight_culture_player_no_tooltip$의 충성 맹세"
  conqueror_feed_knight_joins_desc: "$knight_culture_player_no_tooltip$ [knight.GetFullName](이)가 당신에게 충성을 맹세했습니다! (@skill_prowess_icon![knight.GetProwess])"
  conqueror_feed_angry_vassal: "분노한 봉신의 감명"

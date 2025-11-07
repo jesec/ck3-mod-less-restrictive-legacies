@@ -77,8 +77,6 @@
  mpo_greatest_of_khans.0003.k: "Solo tendré mi propio nombre."
  gok_event_troops: "Horda [ROOT.Char.GetCulture.GetNameNoTooltip]"
  become_gok_decision_now_unavailable_tt: "@alert_icon! #alert_trial La [decision|El] #high $mpo_become_greatest_of_khans_decision$#! ya nunca volverá a estar disponible#!"
- gok_house_modifier: "El linaje dorado"
- gok_house_modifier_desc: "Lo que este linaje ha forjado en el mundo no se puede olvidar. Son los vástagos dorados del fuego y la conquista."
  mpo_gok_onslaught_cb: "Embestida del más grande de los kanes"
  MPO_GOK_ONSLAUGHT_NAME: "Embestida de [ATTACKER.GetPrimaryTitle.GetName|l] contra [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]"
  MPO_GOK_ONSLAUGHT_NAME_MY: "$ORDER$ Embestida de [ATTACKER.GetPrimaryTitle.GetName|l] contra [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]"

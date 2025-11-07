@@ -198,6 +198,7 @@
  activity_invite_rule_potential_lovers: "잠재적인 연인"
  activity_invite_rule_suzerain: "종주"
  activity_invite_rule_tributaries: "조공국"
+ activity_invite_rule_confederates: "연맹원"
  activity_invite_rule_rivals: "경쟁자"
  activity_invite_rule_rivals_if_appropriate: "$activity_invite_rule_rivals$"
  activity_invite_rule_lovers: "연인"

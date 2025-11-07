@@ -13,7 +13,7 @@
  army_quartermasters_house_power: "Fourriers"
  respected_despots_house_power: "Despotes respectés"
  lofty_architects_house_power: "Architectes hautains"
- members_in_realm_desc: "Membres en vie de la [house|E]"
+ members_in_realm_desc: "Membres en vie de la [house|E] dans le [realm|El]"
  house_head_influence_level_desc: "[influence_level|E] du [house_head|El]"
  house_members_on_council_desc: "Membres de la [house|E] au [council|E] du [top_liege|El]"
  estate_buildings_desc: "[estate_buildings|E]"

@@ -846,9 +846,11 @@
  stress_loss_irritable_decision_effect_courtier_tooltip: "Vous insultez un [THIS.Char.Custom('GetCourtier')|l] aléatoire"
  stress_loss_irritable_decision_tooltip: "Vous vous en prenez à quelqu’un pour vous soulager"
  stress_loss_irritable_decision_confirm: "Hé ! Hé vous !"
- stress_loss_flagellant_decision: "Se flageller"
+ stress_loss_flagellant_decision: "S’adonner à la flagellation"
+ stress_loss_flagellant_exaltation_decision_desc: "Rien n’éclaircit plus l’esprit que la catharsis par la douleur. L’avantage supplémentaire de se sentir plus proche [ROOT.Char.GetFaith.HighGodNamePossessive] est... une divine circonstance."
+ stress_loss_exaltation_decision_desc: "La chair est là pour servir de véhicule à la communion avec [ROOT.Char.GetFaith.HighGodName]. Brisons la chair pour qu’une telle harmonie puisse advenir."
  stress_loss_flagellant_decision_desc: "Rien ne purifie l’esprit comme la catharsis par la douleur. J’appliquerai donc le fouet sur mon dos."
- stress_loss_flaggelant_decision_effect_tooltip: "Vous allez perdre votre stress"
+ stress_loss_flaggelant_decision_effect_tooltip: "Vous allez perdre votre stress" #Not actually used atm
  stress_loss_flagellant_decision_tooltip: "Libérez votre esprit par la douleur"
  stress_loss_flagellant_decision_confirm: "Aïe !"
  stress_loss_profligate_decision: "Visiter le marché"

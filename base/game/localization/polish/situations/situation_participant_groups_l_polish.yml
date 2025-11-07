@@ -4,7 +4,7 @@
  the_great_steppe_participant_group_nomad_rulers_realm: "Władcy koczowniczy będący częściowo w regionie"
  the_great_steppe_participant_group_nomad_rulers_realm_desc: "Wszyscy [rulers|El], u których funkcjonuje [GetGovernment( 'nomad_government' ).GetName|l], ze [Concept('capital', 'stolicą')|E] w innym [Concept('situation_sub_region', 'regionie sytuacji')|E], lecz z częścią swojego [Concept('realms', 'państwa')|E] położoną w tym regionie."
  the_great_steppe_participant_group_herders: "Pasterze"
- the_great_steppe_participant_group_herders_desc: "Pasterze z miejsca znanego jako [SITUATION.GetType.GetName]"
+ the_great_steppe_participant_group_herders_desc: "[herders|E] zaangażowani w tę [Concept('situation', 'sytuację')|E]"
  the_great_steppe_nomad_rulers_capital: "[steppe_season|E] #weak (władcy w regionie)#!"
  the_great_steppe_nomad_rulers_realm: "[steppe_season|E] #weak (częściowo w regionie)#!"
  the_great_steppe_participant_group_settled_rulers: "Osiedleni władcy"

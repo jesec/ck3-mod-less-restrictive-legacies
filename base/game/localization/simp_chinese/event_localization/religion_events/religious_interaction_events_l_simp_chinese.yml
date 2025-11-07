@@ -166,3 +166,13 @@
  religious_interaction.2500.desc: "你回归了理性……这必是来自[ROOT.Char.GetFaith.HighGodNameAlternate]的圣迹！欢迎加入真正的信仰。"
  religious_interaction.2500.a: "赞美[ROOT.Char.GetFaith.HighGodName]！"
  religious_interaction.2501.desc: "你一定在开欢笑吧？你这种明目张胆的政治逃避，永远也逃不出[recipient.GetFaith.HighGodName]的义怒！"
+ #########################
+ #Exaltation of Pain tenet
+ #########################
+ religious_interaction.2600.t: "恩典的课程"
+ religious_interaction.2600.desc.recipient: "[actor.GetTitledFirstName|U]轻轻握住我的手，把我领向一排或尖锐或钝形的工具——这些将是本次课程要使用的器具。其中一把刀刃反射着光，让我感到内心一阵平静。\n\n我拿起工具，示意[actor.GetHerHim]转过身去。[actor.GetSheHe]掀起[actor.GetHerHis]的上衣，露出背部完好的皮肤。我开始手术，[actor.GetHerHis]喉间低沉的呻吟逐渐转为轻微的哼鸣。\n\n我已经知道要用哪件工具来升华我受到的恩典。"
+ religious_interaction.2600.desc.actor: "[recipient.GetTitledFirstName|U]仔细检视着这组用于超脱的器具，身体因期待而微微颤抖。\n\n我扶着[recipient.GetHerHis]的手腕，将利刃塞进[recipient.GetHerHis]的掌中，刀尖轻轻抵住我的胸口。“能尽量温柔吗？手不要抖。我们现在正在进行微妙的艺术。”\n\n[recipient.GetFirstNameNoTooltip]直视着我的眼睛点点头，随即解开[recipient.GetHerHis]的衬衫纽扣，露出一片完好的洁净皮肤——准备好迎接[recipient.GetFaith.HighGodName]的恩典。"
+ religious_interaction.2600.a: "“我们将一起超凡脱俗。”"
+ religious_interaction.2610.desc: "不巧的是，我现在有些要事必须处理……希望下次我们能以虔诚的心来敬拜！"
+ religious_interaction.2610.a: "太可惜了。"
+ attempted_transcendence_together_opinion: "共同尝试超凡脱俗"

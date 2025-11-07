@@ -77,8 +77,6 @@
  mpo_greatest_of_khans.0003.k: "Wystarczy mi moje własne imię."
  gok_event_troops: "[ROOT.Char.GetCulture.GetNameNoTooltip] horda"
  become_gok_decision_now_unavailable_tt: "@alert_icon! #alert_trial [decision|E] #high „$mpo_become_greatest_of_khans_decision$”#! jest teraz niedostępna na zawsze#!"
- gok_house_modifier: "Złoty rodowód"
- gok_house_modifier_desc: "To, co ta linia krwi uczyniła dla świata, nie może zostać zapomniane. Są złotymi potomkami ognia i podboju."
  mpo_gok_onslaught_cb: "Najazd największego z chanów"
  MPO_GOK_ONSLAUGHT_NAME: "Najazd armii miejsca znanego jako [ATTACKER.GetPrimaryTitle.GetName] na miejsce o nazwie [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]"
  MPO_GOK_ONSLAUGHT_NAME_MY: "$ORDER$ Najazd armii miejsca znanego jako [ATTACKER.GetPrimaryTitle.GetName] na miejsce o nazwie [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]"

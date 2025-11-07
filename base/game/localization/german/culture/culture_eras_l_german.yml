@@ -6,7 +6,7 @@
  culture_group_any: "beliebig"
  #ERAS
  culture_era_tribal: "Stammes-Epoche"
- culture_era_tribal_desc: "Die Stammes-Epoche einer [culture|E] liegt vor der Schaffung festgeschriebener Gesetze und einer institutionalisierten Regierung. Herrscher einer [tribal_government|E] können nur auf [innovations|E] aus der Stammes-Epoche zurückgreifen."
+ culture_era_tribal_desc: "Die Stammes-Epoche einer [culture|E] liegt vor der Schaffung festgeschriebener Gesetze und einer institutionalisierten Regierung. Herrscher einer [tribal_government|E] und [Concept('nomadic_government', 'Nomadenregierung')|E] können nur auf [innovations|E] aus der Stammes-Epoche zurückgreifen."
  culture_era_early_medieval: "Frühmittelalter"
  culture_era_early_medieval_desc: "In der Frühmittelalterlichen Epoche treten professionelle Administratoren in Erscheinung und es kommt zu einer Reihe wichtiger [innovations|E], die es einer [culture|E] erlauben, das Dunkle Zeitalter hinter sich zu lassen."
  culture_era_high_medieval: "Hochmittelalter"

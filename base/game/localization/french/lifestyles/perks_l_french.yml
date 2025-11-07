@@ -189,6 +189,7 @@
  local_inspection_perk_adventurer_name: "Richesse de la Terre"
  local_arbitration_perk_name: "Arbitrage"
  local_arbitration_perk_adventurer_name: "Bras droit"
+ local_arbitration_perk_nomadic_name: "Protéger la tribu"
  travel_logs_perk_name: "Carnets de voyage"
  realm_charts_perk_name: "Cartes et itinéraires"
  surveyor_perk_name: "Inspecteur"

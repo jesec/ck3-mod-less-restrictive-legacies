@@ -1605,6 +1605,7 @@ obedience_value = {
 				desc = obedience_value_opinion
 				value = "opinion(obedience_target)"
 			}
+
 			# Lifestyle Perks 
 			if = {
 				limit = {
@@ -2062,6 +2063,24 @@ herd_refill_value = {
 			add = 1
 		}
 	}
+	if = {
+		limit = {
+			has_game_rule = hard_difficulty
+			scope:nomad_temp ?= {
+				is_ai = no
+			}
+		}
+		multiply = 0.5
+	}
+	else_if = {
+		limit = {
+			has_game_rule = very_hard_difficulty
+			scope:nomad_temp ?= {
+				is_ai = no
+			}
+		}
+		multiply = 0.2
+	}
 }
 
 herd_refill_value_tt = {
@@ -2071,6 +2090,20 @@ herd_refill_value_tt = {
 		subtract = 8
 		divide = 100
 		add = 1
+	}
+	if = {
+		limit = {
+			is_ai = no
+			has_game_rule = hard_difficulty
+		}
+		multiply = 0.5
+	}
+	if = {
+		limit = {
+			is_ai = no
+			has_game_rule = very_hard_difficulty
+		}
+		multiply = 0.2
 	}
 }
 
@@ -2809,5 +2842,25 @@ gok_retribution_gold_value = {
 			add = development_level
 			multiply = 3
 		}
+	}
+}
+
+yeke_jarquchi_aptitude_tooltip = {
+	value = 0
+	if = {
+		limit = {
+			exists = court_position:yeke_jarquchi_court_position
+		}
+		add = "court_position:yeke_jarquchi_court_position.aptitude(yeke_jarquchi_court_position)"
+	}
+}
+
+foreign_emissary_aptitude_tooltip = {
+	value = 0
+	if = {
+		limit = {
+			exists = court_position:foreign_emissary_court_position
+		}
+		add = "court_position:foreign_emissary_court_position.aptitude(foreign_emissary_court_position)"
 	}
 }

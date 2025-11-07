@@ -669,7 +669,6 @@ template Background_Header
 template Background_Header_Tall
 {
 	using = Background_Header
-	margin_bottom = 10
 	spriteborder = { 0 18 }
 }
 

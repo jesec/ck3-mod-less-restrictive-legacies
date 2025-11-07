@@ -189,6 +189,7 @@
  local_inspection_perk_adventurer_name: "大地的慷慨"
  local_arbitration_perk_name: "仲裁"
  local_arbitration_perk_adventurer_name: "得力助手"
+ local_arbitration_perk_nomadic_name: "保卫部落"
  travel_logs_perk_name: "旅行日志"
  realm_charts_perk_name: "行程日志与地图册"
  surveyor_perk_name: "视察者"

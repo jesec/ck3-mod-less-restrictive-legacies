@@ -754,5 +754,5 @@
  sovereignty_cb_defeat_desc_defender: "Ihr behaltet die umkämpften Tributzahler. [attacker.GetShortUIName|U] muss Reparationen an Euch zahlen."
  sovereignty_cb_defeat_desc_attacker: "[defender.GetShortUIName|U] behält die umkämpften Tributzahler. Ihr müsst [defender.Custom('DE_PRO_PER_S_3P_D')] Reparationen zahlen."
  sovereignty_cb_defeat_desc: "[defender.GetShortUIName|U] behält die umkämpften Tributzahler. [attacker.GetShortUIName] muss [defender.Custom('DE_PRO_PER_S_3P_D')] Reparationen zahlen."
- sovereignty_war_tributary_switch: "Benachbarte [tributaries|E] von [defender.GetShortUIName] werden [attacker.GetShortUIName] [tribute|E] zahlen"
+ sovereignty_war_tributary_switch: "[tributaries|E] von [defender.GetShortUIName], die ein fortlaufendes [realm|E] bilden können, werden [attacker.GetShortUIName] [tribute|E] zahlen"
  at_least_one_non_nomad_county_tt: "Ziel muss mindestens eine nicht-[Concept('nomadic', 'nomadische')|E] [county|E] haben"

@@ -1,25 +1,25 @@
 {
-  "version": "1.16.1",
+  "version": "1.16.2.3",
   "version_name": "Chamfron",
-  "updated": "2025-05-06T11:20:10.000Z",
+  "updated": "2025-06-02T13:41:56.000Z",
   "release_notes": {
-    "title": "1.16.1",
-    "date": "2025-05-07",
-    "file": "release-notes/1_16_1_0_2025-05-07.md",
-    "url": "https://store.steampowered.com/news/app/1158310/view/509579946274848782"
+    "title": "1.16.2.3",
+    "date": "2025-06-03",
+    "file": "release-notes/1_16_2_3_2025-06-03.md",
+    "url": "https://store.steampowered.com/news/app/1158310/view/509581849759059549"
   },
   "depots": {
     "1158311": {
-      "manifest": "3399672163971280750",
-      "updated": "2025-05-06T11:17:19.000Z"
+      "manifest": "8063709342074529553",
+      "updated": "2025-06-02T13:29:29.000Z"
     },
     "1158314": {
-      "manifest": "9077948058951498603",
-      "updated": "2025-05-06T11:19:01.000Z"
+      "manifest": "6629428501602830975",
+      "updated": "2025-06-02T13:32:04.000Z"
     },
     "1158317": {
-      "manifest": "5346151031374719380",
-      "updated": "2025-05-06T11:20:10.000Z"
+      "manifest": "7065319447905806257",
+      "updated": "2025-06-02T13:33:11.000Z"
     },
     "1296730": {
       "manifest": "4673314442703562503",
@@ -61,8 +61,8 @@
       "name": "Elegance of the Empire"
     },
     "2313540": {
-      "manifest": "5503117223762599043",
-      "updated": "2025-03-24T12:38:22.000Z",
+      "manifest": "891925597274952696",
+      "updated": "2025-06-02T13:41:38.000Z",
       "name": "Legacy of Persia"
     },
     "2313541": {
@@ -111,8 +111,8 @@
       "name": "Crowns of the World"
     },
     "3315510": {
-      "manifest": "6880206957863251389",
-      "updated": "2025-04-15T14:54:27.000Z",
+      "manifest": "1511298436604192265",
+      "updated": "2025-06-02T13:41:56.000Z",
       "name": "Khans of the Steppe"
     },
     "3315540": {

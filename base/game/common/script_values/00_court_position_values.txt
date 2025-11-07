@@ -141,6 +141,18 @@ tiny_court_position_salary = {
 			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
 		}
 	}
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = hard_difficulty
+				has_game_rule = very_hard_difficulty
+			}
+			scope:liege = {
+				is_ai = yes
+			}
+		}
+		multiply = 0
+	}
 }
 
 minor_court_position_salary = {
@@ -281,6 +293,18 @@ minor_court_position_salary = {
 			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
 		}
 	}
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = hard_difficulty
+				has_game_rule = very_hard_difficulty
+			}
+			scope:liege = {
+				is_ai = yes
+			}
+		}
+		multiply = 0
+	}
 }
 medium_court_position_salary = {
 	add = {
@@ -419,6 +443,18 @@ medium_court_position_salary = {
 			desc = esteemed_hospitality_salary_mod
 			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
 		}
+	}
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = hard_difficulty
+				has_game_rule = very_hard_difficulty
+			}
+			scope:liege = {
+				is_ai = yes
+			}
+		}
+		multiply = 0
 	}
 }
 major_court_position_salary = {
@@ -559,6 +595,18 @@ major_court_position_salary = {
 			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
 		}
 	}
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = hard_difficulty
+				has_game_rule = very_hard_difficulty
+			}
+			scope:liege = {
+				is_ai = yes
+			}
+		}
+		multiply = 0
+	}
 }
 
 court_position_physician_salary = {
@@ -641,6 +689,18 @@ court_position_physician_salary = {
 				format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
 			}
 		}
+	}
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = hard_difficulty
+				has_game_rule = very_hard_difficulty
+			}
+			scope:liege = {
+				is_ai = yes
+			}
+		}
+		multiply = 0
 	}
 }
 
@@ -770,6 +830,18 @@ court_position_antiquarian_salary = {
 			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
 		}
 	}
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = hard_difficulty
+				has_game_rule = very_hard_difficulty
+			}
+			scope:liege = {
+				is_ai = yes
+			}
+		}
+		multiply = 0
+	}
 }
 
 court_position_travel_leader_salary = {
@@ -792,6 +864,18 @@ court_position_travel_leader_salary = {
 			desc = esteemed_hospitality_salary_mod
 			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
 		}
+	}
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = hard_difficulty
+				has_game_rule = very_hard_difficulty
+			}
+			scope:liege = {
+				is_ai = yes
+			}
+		}
+		multiply = 0
 	}
 }
 
@@ -935,6 +1019,18 @@ minor_court_position_prestige_salary = {
 			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
 		}
 	}
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = hard_difficulty
+				has_game_rule = very_hard_difficulty
+			}
+			scope:liege = {
+				is_ai = yes
+			}
+		}
+		multiply = 0
+	}
 }
 medium_court_position_prestige_salary = {
 	add = {
@@ -1074,6 +1170,18 @@ medium_court_position_prestige_salary = {
 			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
 		}
 	}
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = hard_difficulty
+				has_game_rule = very_hard_difficulty
+			}
+			scope:liege = {
+				is_ai = yes
+			}
+		}
+		multiply = 0
+	}
 }
 major_court_position_prestige_salary = {
 	add = {
@@ -1212,6 +1320,18 @@ major_court_position_prestige_salary = {
 			desc = esteemed_hospitality_salary_mod
 			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
 		}
+	}
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = hard_difficulty
+				has_game_rule = very_hard_difficulty
+			}
+			scope:liege = {
+				is_ai = yes
+			}
+		}
+		multiply = 0
 	}
 }
 
@@ -1353,6 +1473,18 @@ minor_court_position_piety_salary = {
 			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
 		}
 	}
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = hard_difficulty
+				has_game_rule = very_hard_difficulty
+			}
+			scope:liege = {
+				is_ai = yes
+			}
+		}
+		multiply = 0
+	}
 }
 medium_court_position_piety_salary = {
 	add = {
@@ -1492,6 +1624,18 @@ medium_court_position_piety_salary = {
 			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
 		}
 	}
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = hard_difficulty
+				has_game_rule = very_hard_difficulty
+			}
+			scope:liege = {
+				is_ai = yes
+			}
+		}
+		multiply = 0
+	}
 }
 major_court_position_piety_salary = {
 	add = {
@@ -1630,6 +1774,18 @@ major_court_position_piety_salary = {
 			desc = esteemed_hospitality_salary_mod
 			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
 		}
+	}
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = hard_difficulty
+				has_game_rule = very_hard_difficulty
+			}
+			scope:liege = {
+				is_ai = yes
+			}
+		}
+		multiply = 0
 	}
 }
 
@@ -1803,6 +1959,55 @@ seneschal_improve_court_value = {
 		limit = {
 			aptitude = {
 				court_position = seneschal_court_position
+				value = 0
+			}
+		}
+		value = 2
+	}
+}
+
+yeke_jarquchi_improve_court_value = {
+	value = 0
+	if = {
+		limit = {
+			aptitude = {
+				court_position = yeke_jarquchi_court_position
+				value = 4
+			}
+		}
+		value = 10
+	}
+	else_if = {
+		limit = {
+			aptitude = {
+				court_position = yeke_jarquchi_court_position
+				value = 3
+			}
+		}
+		value = 7
+	}
+	else_if = {
+		limit = {
+			aptitude = {
+				court_position = yeke_jarquchi_court_position
+				value = 2
+			}
+		}
+		value = 5
+	}
+	else_if = {
+		limit = {
+			aptitude = {
+				court_position = yeke_jarquchi_court_position
+				value = 1
+			}
+		}
+		value = 3
+	}
+	else_if = {
+		limit = {
+			aptitude = {
+				court_position = yeke_jarquchi_court_position
 				value = 0
 			}
 		}

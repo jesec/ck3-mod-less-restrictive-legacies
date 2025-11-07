@@ -1,0 +1,9 @@
+﻿l_russian:
+ add_title_to_sub_region_third: "[LandedTitle.GetName] добавится к региону «[SituationSubRegion.GetName]» ситуации «[Situation.GetName]»"
+ add_title_to_sub_region_third_past: "[LandedTitle.GetName] теперь часть региона «[SituationSubRegion.GetName]» ситуации «[Situation.GetName]»"
+ add_title_to_sub_region_global: "$add_title_to_sub_region_third$"
+ add_title_to_sub_region_global_past: "$add_title_to_sub_region_third_past$"
+ remove_title_from_sub_region_third: "[LandedTitle.GetName] перестанет быть частью региона «[SituationSubRegion.GetName]» ситуации «[Situation.GetName]»"
+ remove_title_from_sub_region_third_past: "[LandedTitle.GetName] больше не часть региона «[SituationSubRegion.GetName]» ситуации «[Situation.GetName]»"
+ remove_title_from_sub_region_global: "$remove_title_from_sub_region_third$"
+ remove_title_from_sub_region_global_past: "$remove_title_from_sub_region_third_past$"

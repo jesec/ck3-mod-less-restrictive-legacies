@@ -1220,3 +1220,7 @@
  unlock_maa_heavy_horse_archers: "[GetMaA('heavy_horse_archers').GetName](을)를 [men_at_arms|E]으로 모병 가능"
  unlock_maa_nomad_lancers: "[GetMaA('nomad_lancers').GetName](을)를 [men_at_arms|E]으로 모병 가능"
  TRAIT_FLAG_DESC_gok_obedience_flag: "[subjects|E]의 @obedience_icon![obedience|E] 막대하게 증가"
+ trait_golden_lineage: "황금 혈통"
+ trait_golden_lineage_desc: "해당 인물의 혈통이 세상에 써 내려간 업적은 절대 잊히지 않을 것입니다. 이들은 불과 정복을 몰고 오는 황금빛 후예입니다."
+ trait_golden_lineage_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 혈통이 세상에 써 내려간 업적은 절대 잊히지 않을 것입니다. [ROOT.GetCharacter.GetSheHe|U]는 불과 정복을 몰고 오는 황금빛 후예입니다."
+ descendants_gain_golden_lineage: "당신의 후손들이 [GetTrait('golden_lineage').GetName( GetNullCharacter )] 특성을 획득함"

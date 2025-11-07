@@ -8,7 +8,7 @@
  ACHIEVEMENT_mpo_this_chinggis_everything_achievement: "Dschingis Khan hat Elan"
  ACHIEVEMENT_DESC_mpo_this_chinggis_everything_achievement: "Größter aller Khane werden."
  ACHIEVEMENT_mpo_steppe_by_steppe_achievement: "Steppe für Steppe"
- ACHIEVEMENT_DESC_mpo_steppe_by_steppe_achievement: "Als nomadischer Herrscher in der östlichen Steppe beginnen und in die westliche Steppe umsiedeln."
+ ACHIEVEMENT_DESC_mpo_steppe_by_steppe_achievement: "Als nomadischer Herrscher in der östlichen Steppenregion der [Concept('the_great_steppe', 'Großen Steppe')|E] beginnen und in die westliche Steppe umsiedeln."
  ACHIEVEMENT_mpo_in_xanadu_achievement: "In Xanadu"
  ACHIEVEMENT_DESC_mpo_in_xanadu_achievement: "Ein Lustschloss bauen."
  ACHIEVEMENT_mpo_settling_in_achievement: "Angesiedelt"

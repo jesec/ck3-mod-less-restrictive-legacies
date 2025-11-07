@@ -77,8 +77,6 @@
  mpo_greatest_of_khans.0003.k: "Меня устраивает мое собственное имя."
  gok_event_troops: "[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|U]ая орда"
  become_gok_decision_now_unavailable_tt: "@alert_icon! #alert_trial [Concept('decision', 'Решение')|E] #high «$mpo_become_greatest_of_khans_decision$»#! навсегда стало недоступным#!"
- gok_house_modifier: "Золотая династия"
- gok_house_modifier_desc: "Человечество навсегда запомнит то, что этот род сделал с нашим миром. В венах его отпрысков течет огонь завоеваний."
  mpo_gok_onslaught_cb: "Вторжение Величайшего из ханов"
  MPO_GOK_ONSLAUGHT_NAME: "#L [ATTACKER.GetPrimaryTitle.GetAdjective|U]ое#! завоевание #L [DEFENDER.GetPrimaryTitle.GetAdjective|l]их#! земель"
  MPO_GOK_ONSLAUGHT_NAME_MY: "$ORDER$ #L [ATTACKER.GetPrimaryTitle.GetAdjective|l]ое#! завоевание #L [DEFENDER.GetPrimaryTitle.GetAdjective|l]их#! земель"

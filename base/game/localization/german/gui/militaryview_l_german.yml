@@ -176,3 +176,4 @@
  MV_REGIMENT_START_SIZE_NOMAD: "Beginnt bei voller Stärke ([MenAtArmsType.GetStackSize])"
  RECRUIT_FROM_SUBJECTS_LABEL: "Von Untertänigen rekrutieren"
  RECRUIT_FROM_SUBJECTS_TOOLTIP: "#T Von Untertänigen rekrutieren#!\n#weak Ihr zahlt [gold|E], um eine Art von [men_at_arms|E] zu rekrutieren, auf die Euer [subject|E] Zugriff hat, Ihr jedoch nicht#!"
+ RECRUIT_FROM_SUBJECTS_ICON: "@recruit_from_subjects_icon!"

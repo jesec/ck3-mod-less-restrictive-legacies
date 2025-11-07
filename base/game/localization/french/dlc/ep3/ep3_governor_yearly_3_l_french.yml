@@ -186,7 +186,7 @@
  msg_governor_challenging_illegitimacy.t: "[root_scope.Custom('FR_le_Char_L')|U][root_scope.GetTitleAsNameNoTooltip] déloyal[root_scope.Custom('FR_E')] rassemble du soutien"
  msg_governor_challenging_illegitimacy.desc: "[root_scope.Custom('FR_le_Char_Pi')|U][root_scope.GetTitledFirstName] et ses soutiens condamnent votre faible [legitimacy|El]."
  msg_governor_supports_rule.t: "Mandat soutenu par [root_scope.Custom('FR_le_Char_L')][root_scope.GetTitleAsNameNoTooltip]"
- msg_governor_supports_rule.desc: "[root_scope.Custom('FR_le_Char_Pi')|U][root_scope.GetTitledFirstName] vous défend publiquement contre ceux qui parlent de votre illégitimité."
+ msg_governor_supports_rule.desc: "[root_scope.Custom('FR_le_Char_Pi')|U][root_scope.GetTitledFirstName|V] vous défend publiquement contre ceux qui parlent de votre illégitimité."
  ep3_governor_yearly.3050.t: "L’un des démons [ROOT.Char.GetFaith.NegativeAfterLife3]"
  ep3_governor_yearly.3050.desc: "D’étranges nouvelles circulent au sujet de [emperor.GetFirstName] [emperor.GetHouse.GetName], notre [emperor.GetTitleAsNameNoTooltip|l] dont la légitimité vacille."
  ep3_governor_yearly.3050.mess: "\n\nUn vendeur de remèdes est venu parler... des demandes impies que le palais lui avait adressées. Des yeux de homard, des ongles d’enfants, des potions de mandragore et de poix : tout cela à fourrer dans le gosier [emperor.Custom('FR_du_Char_L')][emperor.GetTitleAsNameNoTooltip] ! La bête se traîne nue dans le palais, couverte de ses étranges remèdes et maudissant le nom [emperor.GetFaith.HighGodNamePossessive] !"

@@ -574,10 +574,10 @@ on_title_gain = {
 		if = {
 			limit = {
 				scope:title = {
+					tier = tier_county
 					title_province = {
 						geographical_region = geographical_region:mpo_region_permafrost
 					}
-					tier = tier_county
 				}
 			}
 			if = {
@@ -827,70 +827,65 @@ on_title_gain = {
 		#Struggle Catalyst
 		if = {
 			limit = {
-				scope:title.tier >= tier_county
-				title:e_persia = {
-					any_in_de_jure_hierarchy = {
-						this = 	scope:title
-					}
+				exists = struggle:persian_struggle
+				exists = scope:title.empire
+				scope:title = {
+					empire = title:e_persia
+					tier >= tier_county
+					is_landless_type_title = no
 				}
 				NOR = {
 					scope:transfer_type = flag:created
 					scope:transfer_type = flag:inheritance
 				}
-				fp3_character_uninvolved_in_struggle_trigger = yes
+			}
+			if = {
+				limit = {
+					fp3_character_uninvolved_in_struggle_trigger = yes
+					scope:previous_holder ?= {
+						fp3_character_involved_in_struggle_trigger = yes
+						any_character_struggle = {
+							phase_has_catalyst = catalyst_interloper_uninvolved_gain_struggle_titles
+						}
+					}
+				}
 				scope:previous_holder ?= {
+					every_character_struggle = {
+						limit = { phase_has_catalyst = catalyst_interloper_uninvolved_gain_struggle_titles }
+						activate_struggle_catalyst = {
+							catalyst = catalyst_interloper_uninvolved_gain_struggle_titles
+							character = root
+						}
+						log_debug_variable_for_persian_struggle_effect = { VAR = concession_catalyst_interloper_uninvolved_gain_struggle_titles }
+					}
+				}
+			}
+			if = {
+				limit = {
 					fp3_character_involved_in_struggle_trigger = yes
 					any_character_struggle = {
-						phase_has_catalyst = catalyst_interloper_uninvolved_gain_struggle_titles
+						phase_has_catalyst = catalyst_gain_struggle_titles_from_interlopers_uninvolved
+						# Stop catalyst from affecting those who are only just now uninvolved due to losing this title
+						OR = {
+							NOT = { is_culture_involved_in_struggle = scope:previous_holder.culture }
+							NOT = { is_faith_involved_in_struggle = scope:previous_holder.faith }
+						}
+					}
+					scope:previous_holder ?= {
+						OR = {
+							fp3_character_uninvolved_in_struggle_trigger = yes
+							fp3_character_interloper_in_struggle_trigger = yes
+						}
 					}
 				}
-			}
-			scope:previous_holder ?= {
 				every_character_struggle = {
-					limit = { phase_has_catalyst = catalyst_interloper_uninvolved_gain_struggle_titles }
+					limit = { phase_has_catalyst = catalyst_gain_struggle_titles_from_interlopers_uninvolved }
 					activate_struggle_catalyst = {
-						catalyst = catalyst_interloper_uninvolved_gain_struggle_titles
+						catalyst = catalyst_gain_struggle_titles_from_interlopers_uninvolved
 						character = root
 					}
-					log_debug_variable_for_persian_struggle_effect = { VAR = concession_catalyst_interloper_uninvolved_gain_struggle_titles }
+					log_debug_variable_for_persian_struggle_effect = { VAR = stabil_catalyst_gain_struggle_titles_from_interlopers_uninvolved }
 				}
-			}
-		}
-		if = {
-			limit = {
-				scope:title.tier >= tier_county
-				title:e_persia = {
-					any_in_de_jure_hierarchy = {
-						this = scope:title
-					}
-				}
-				NOR = {
-					scope:transfer_type = flag:created
-					scope:transfer_type = flag:inheritance
-				}
-				fp3_character_involved_in_struggle_trigger = yes
-				any_character_struggle = {
-					phase_has_catalyst = catalyst_gain_struggle_titles_from_interlopers_uninvolved
-					# Stop catalyst from affecting those who are only just now uninvolved due to losing this title
-					OR = {
-						NOT = { is_culture_involved_in_struggle = scope:previous_holder.culture }
-						NOT = { is_faith_involved_in_struggle = scope:previous_holder.faith }
-					}
-				}
-				scope:previous_holder ?= {
-					OR = {
-						fp3_character_uninvolved_in_struggle_trigger = yes
-						fp3_character_interloper_in_struggle_trigger = yes
-					}
-				}
-			}
-			every_character_struggle = {
-				limit = { phase_has_catalyst = catalyst_gain_struggle_titles_from_interlopers_uninvolved }
-				activate_struggle_catalyst = {
-					catalyst = catalyst_gain_struggle_titles_from_interlopers_uninvolved
-					character = root
-				}
-				log_debug_variable_for_persian_struggle_effect = { VAR = stabil_catalyst_gain_struggle_titles_from_interlopers_uninvolved }
 			}
 		}
 
@@ -2375,9 +2370,6 @@ on_title_lost = {
 				every_owned_story = {
 					limit = { story_type = story_greatest_of_khans }
 					end_story = yes
-				}
-				global_var:first_gok.dynasty ?= {
-					remove_dynasty_modifier = gok_house_modifier
 				}
 				remove_character_modifier = the_great_khan_modifier
 			}

@@ -1,6 +1,7 @@
 ﻿l_french:
  conqueror.0001.t: "Régner sur le monde"
  conqueror.0001.desc: "Des paysans les plus humbles aux vassaux les plus nobles, tous murmurent mon nom et ma puissance, et appellent à une guerre ! Ils soutiennent ma cause, car ils me considèrent comme digne de régner sur le monde.\n\nLes forces de [ROOT.Char.GetPrimaryTitle.GetBaseName] sont miennes et je compte bien en faire usage. On attend de moi que je revendique par la force les terres qui devraient m’appartenir. Je suis destiné[ROOT.Char.Custom('FR_E')] à régner, à soumettre ceux qui m’entourent et à les intégrer à mon [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip].\n\nAvec mon peuple derrière moi, l’échec est impossible."
+ conqueror.0001.desc.temujin: "\n\nIssu d’un loup gris-bleu et d’une biche fauve, je n’offrirai que la ruine ou la soumission."
  conqueror.0001.a: "Que la conquête commence !"
  conqueror_flavor: "Vous recevrez le soutien de vos vassaux et de votre peuple, mais il diminuera si vous restez en paix trop longtemps, si vous perdez trop de guerres, si vous devenez le sujet d’un autre pays ou si vous tombez en disgrâce...\n\nSi vous mourez, vos enfants sont censés reprendre le flambeau de la conquête."
  conqueror.0001.b: "Je vais plutôt rester ici à sentir les [ROOT.Char.GetCapitalLocation.Custom('FR_get_region_flower_type_plural_Fix')]..."
@@ -50,6 +51,8 @@
  peasant_draft_desc: "Les paysans rejoignent volontairement les troupes de ce personnage."
  conqueror_feed_county_gift: "Envoi d’or de [county_target.GetNameNoTooltip]"
  conqueror_feed_county_gift_desc: "Les paysans du [county_target.GetName] sont enthousiasmés par vos conquêtes et vous envoient de l’or."
+ conqueror_feed_county_gift_herd: "Envoi de bergers de [county_target.GetNameNoTooltip]"
+ conqueror_feed_county_gift_desc_herd: "Les petits éleveurs de [county_target.GetName], impressionnés par leur [ROOT.Char.GetTitleAsName|l], vous présentent de belles bêtes."
  conqueror_feed_knight_joins: "Un $knight_culture_player_no_tooltip_lowercase$ se joint à votre cause"
  conqueror_feed_knight_joins_desc: "Le $knight_culture_player_no_tooltip_lowercase$, [knight.Custom('FR_le_Char_P')][knight.GetFullName], vous jure fidélité ! ([knight.GetProwess]@skill_prowess_icon!)"
  conqueror_feed_angry_vassal: "[Select_CString(angry_vassal.IsFemale,'Vassale mécontente impressionnée','Vassal mécontent impressionné')]"

@@ -27,7 +27,7 @@
 		250 = nomad_events.0220 # Spouse scolds you for your low Prowess
 		250 = nomad_events.0230 # Spouse is feeling homesick
 		200 = nomad_events.0240 # Neighbouring Nomad's herd shows up in your capital
-		200 = nomad_events.0250 # Enthusiastic priest asks you to convert
+		100 = nomad_events.0250 # Enthusiastic priest asks you to convert
 		100 = nomad_events.0260 # Distant priest arrives at your court
 		100 = mpo_nomad_events.1050 # A neighboring herder is salty at you
 		300 = mpo_nomad_events.1060 # You trade with non-nomad neighbors
@@ -156,7 +156,8 @@ mpo_migration_contract = {
 	}
 }
 
-# triggered from code when migration travel ends
+
+# Triggered from code on the day after a migration travel ends
 #
 # root - migrating ruler
 # scope:actor - migration ruler (compatibility with triggers and effects used in migration interaction)
@@ -174,8 +175,10 @@ on_migration_travel_end = {
 			limit = {
 				is_ai = no
 				exists = global_var:started_steppe_by_steppe_achievement
-				location = {
-					geographical_region = world_steppe_west
+				situation:the_great_steppe ?= {
+					situation_sub_region:steppe_west = {
+						situation_sub_region_has_county = root.capital_county
+					}
 				}
 			}
 			add_achievement_global_variable_effect = {
@@ -429,9 +432,7 @@ kurultai_succession_chaotic_minor = {
 	trigger = {
 		# No trigger for Minor penalties
 		NOT = {
-			any_held_title = {
-				has_variable = guaranteed_disastrous_succession
-			}
+			has_character_flag = had_mongolia_split
 		}
 	}
 	weight_multiplier = {
@@ -466,9 +467,7 @@ kurultai_succession_chaotic_medium = {
 			}
 		}
 		NOT = {
-			any_held_title = {
-				has_variable = guaranteed_disastrous_succession
-			}
+			has_character_flag = had_mongolia_split
 		}
 	}
 	random_events = {
@@ -485,15 +484,15 @@ kurultai_succession_chaotic_major = {
 		OR = {
 			"list_size(disobedient_kurultai)" >= "list_size(obedient_kurultai)"
 			"list_size(obedient_kurultai)" <= 0
-			any_held_title = {
-				has_variable = guaranteed_disastrous_succession
-			}
 		}
 		OR = {
 			highest_held_title_tier >= tier_kingdom
 			any_tributary = {
 				count >= 10
 			}
+		}
+		NOT = {
+			has_character_flag = had_mongolia_split
 		}
 	}
 	weight_multiplier = {

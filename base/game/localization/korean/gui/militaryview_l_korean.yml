@@ -176,3 +176,4 @@
  MV_REGIMENT_START_SIZE_NOMAD: "최대 군사력으로 시작 ([MenAtArmsType.GetStackSize])"
  RECRUIT_FROM_SUBJECTS_LABEL: "신하로부터 모집"
  RECRUIT_FROM_SUBJECTS_TOOLTIP: "#T 신하로부터 모집#!\n#weak 당신은 [gold|E]를 지불하여 당신의 [subject|E]는 접근할 수 있지만 당신은 불가능한 유형의 [men_at_arms|E]을 고용합니다#!"
+ RECRUIT_FROM_SUBJECTS_ICON: "@recruit_from_subjects_icon!"

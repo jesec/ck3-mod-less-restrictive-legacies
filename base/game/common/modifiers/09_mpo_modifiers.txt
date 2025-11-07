@@ -743,16 +743,6 @@ mpo_paiza_improve_maa_modifier = {
 	archer_cavalry_toughness_mult = 0.1
 }
 
-gok_house_modifier = {
-	icon = dread_positive
-	vassal_limit = 1000
-	herd_capacity_mult = 0.2
-	cowed_vassal_herd_contribution_mult = 0.2
-	cowed_vassal_levy_contribution_mult = 0.2
-	cowed_vassal_tax_contribution_mult = 0.2
-	dread_gain_mult = 0.1
-}
-
 great_khans_capital_modifier = {
 	icon = economy_positive
 	build_speed = -2
@@ -767,6 +757,7 @@ confederate_king_modifier = {
 	herd_gain_mult = 0.2
 	defender_advantage = 10
 	men_at_arms_recruitment_cost = -0.5
+	title_creation_cost_mult = 0.5
 }
 
 confederate_vassal_modifier = {

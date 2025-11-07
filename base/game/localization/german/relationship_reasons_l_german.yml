@@ -2152,6 +2152,8 @@
  friend_granted_following_corresponding: "[CHARACTER.GetShortUIName|U] schenkte [TARGET_CHARACTER.GetShortUIName] Herden und Anhänger."
  rival_banished_kin: "[TARGET_CHARACTER.GetShortUIName|U] verbannte [CHARACTER.GetShortUIName] aus dem Familienlager."
  rival_banished_kin_corresponding: "[CHARACTER.GetShortUIName|U] verbannte [TARGET_CHARACTER.GetShortUIName] aus dem Familienlager."
+ rival_disrespected_envoy: "[TARGET_CHARACTER.GetShortUIName] benahm sich respektlos gegenüber einem Gesandten von [CHARACTER.GetShortUIName]."
+ rival_disrespected_envoy_corresponding: "[CHARACTER.GetShortUIName] benahm sich respektlos gegenüber einem Gesandten von [TARGET_CHARACTER.GetShortUIName]."
  soulmate_absconded_during_wedding: "[CHARACTER.GetShortUIName|U] und [TARGET_CHARACTER.GetShortUIName] lernten wahre Liebe kennen, während sie sich von einer Hochzeit davonschlichen."
  soulmate_absconded_during_wedding_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] und [CHARACTER.GetShortUIName] lernten wahre Liebe kennen, während sie sich von einer Hochzeit davonschlichen."
  lover_absconded_during_wedding: "[CHARACTER.GetShortUIName|U] und [TARGET_CHARACTER.GetShortUIName] trotzten der ehelichen Treue und schlichen sich mitten in einer Hochzeit davon."

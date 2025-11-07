@@ -112,6 +112,31 @@ on_marriage = { # Will not fire from historical marriages
 				mpo_blood_brother_new_family_member_opinion_effect = yes
 			}
 		}
+		#Remove poverty clothes, you're married to a noble now!
+		if = {
+			limit = {
+				OR = {
+					has_character_flag = peasant_outfit
+					scope:spouse = {
+						has_character_flag = peasant_outfit
+					}
+				}
+				OR = {
+					scope:spouse = {
+						is_lowborn = no
+					}
+					is_lowborn = no
+				}
+			}
+			if = {
+				limit = { has_character_flag = peasant_outfit }
+				remove_character_flag = peasant_outfit
+			}
+			if = {
+				limit = { scope:spouse = { has_character_flag = peasant_outfit } }
+				scope:spouse = { remove_character_flag = peasant_outfit }
+			}
+		}
 	}
 	events = {
 		#If mother marries real_father:

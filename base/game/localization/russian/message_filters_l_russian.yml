@@ -43,7 +43,7 @@
  message_filter_councillor_ongoing_desc: "Влияние [Concept( 'councillor_task_possible_side_effects', 'возможных побочных эффектов заданий' )|E] [Concept( 'councillor', 'советников' )|E]"
  message_filter_council_task: "@council_icon! Задания советников"
  message_filter_council_task_desc: "Меняется прогресс текущего [Concept( 'councillor_task', 'задания совета' )|E]"
- message_filter_councillor: "@council_icon! Изменения в совете"
+ message_filter_councillor: "@council_icon! Замена советника"
  message_filter_councillor_desc: "Назначается или увольняется один из ваших [Concept( 'councillors', 'советников' )|E]"
  message_filter_councillor_liege: "@council_icon! Получено место в совете"
  message_filter_councillor_liege_desc: "Вас назначают в [Concept('council', 'совет')|E] вашего [Concept('liege_possessive', 'сюзерена')|E] или изгоняют из него"

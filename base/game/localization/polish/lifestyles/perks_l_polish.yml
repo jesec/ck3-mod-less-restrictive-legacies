@@ -189,6 +189,7 @@
  local_inspection_perk_adventurer_name: "Dary natury"
  local_arbitration_perk_name: "Arbitraż"
  local_arbitration_perk_adventurer_name: "Prawa ręka"
+ local_arbitration_perk_nomadic_name: "W obronie plemienia"
  travel_logs_perk_name: "Zapiski z podróży"
  realm_charts_perk_name: "Mapy i plany"
  surveyor_perk_name: "Inspektor"

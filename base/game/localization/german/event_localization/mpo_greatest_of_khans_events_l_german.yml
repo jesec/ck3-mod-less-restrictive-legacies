@@ -77,8 +77,6 @@
  mpo_greatest_of_khans.0003.k: "Ich werde nur meinen eigenen Namen führen."
  gok_event_troops: "[ROOT.Char.GetCulture.GetNameNoTooltip|U]e Horde"
  become_gok_decision_now_unavailable_tt: "@alert_icon! #alert_trial Die [decision|E] #high $mpo_become_greatest_of_khans_decision$#! ist jetzt für immer nicht mehr verfügbar#!"
- gok_house_modifier: "Die goldene Blutlinie"
- gok_house_modifier_desc: "Was diese Blutlinie über die Welt brachte, ist unvergesslich. Ihre Mitglieder sind die goldenen Abkömmlinge von Feuer und Eroberungswille."
  mpo_gok_onslaught_cb: "Ansturm des Größten aller Khane"
  MPO_GOK_ONSLAUGHT_NAME: "[ATTACKER.GetPrimaryTitle.GetAdjective|U]er Ansturm nach „[DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]“"
  MPO_GOK_ONSLAUGHT_NAME_MY: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective|U]er Ansturm nach „[DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]“"

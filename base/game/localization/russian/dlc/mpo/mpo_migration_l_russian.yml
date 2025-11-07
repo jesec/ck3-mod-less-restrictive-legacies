@@ -2,7 +2,7 @@
  MIGRATION_BUTTON: "Мигрировать"
  MIGRATION_WINDOW_HEADER: "Миграция"
  MIGRATION_WINDOW_DOMAIN_FERTILITY: "[Concept('county_fertility', 'Тучность пастбищ в графстве')|E] #high [Title.GetName]#! ([Title.GetAverageFertility|V%/0])"
- MIGRATION_WINDOW_CAPITAL_SUBREGION_LOCATION: "Находится в регионе [County.GetSubRegionInSituation( GetSituation('the_great_steppe') ).GetName]"
+ MIGRATION_WINDOW_CAPITAL_SUBREGION_LOCATION: "Находится в регионе [County.GetSubRegionInSituation( Situation.Self ).GetName]"
  MIGRATION_WINDOW_INVOLVED_CHARACTERS: "[Concept('rulers', 'Правители')|E] в выбранной вам цели миграции"
  MIGRATION_WINDOW_OTHER_EFFECTS_LABEL: "#V Эффекты #!"
  MIGRATION_WINDOW_STEPPE_SEASON_LABEL: "[Concept('steppe_season', 'Степной сезон')|E]:"

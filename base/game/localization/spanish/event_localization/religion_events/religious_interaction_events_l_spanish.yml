@@ -166,3 +166,13 @@
  religious_interaction.2500.desc: "Que hayáis entrado en razón… ¡Debe ser una señal de [ROOT.Char.GetFaith.HighGodNameAlternate]! Se os invita a uniros a la fe verdadera."
  religious_interaction.2500.a: "¡Alabemos a [ROOT.Char.GetFaith.HighGodName]!"
  religious_interaction.2501.desc: "Estáis bromeando, ¿verdad? ¡Vuestros obvios intentos de una huida política nunca impedirán la ira de [recipient.GetFaith.HighGodName]!"
+ #########################
+ #Exaltation of Pain tenet
+ #########################
+ religious_interaction.2600.t: "Lecciones de gracia"
+ religious_interaction.2600.desc.recipient: "[actor.Custom('ES_ElLa')|U] [actor.GetTitledFirstName|l] toma delicadamente mi mano para guiarme hasta una colección de objetos afilados y contundentes que utilizaremos en nuestra sesión. Una de las hojas capta la luz y noto que una sensación de paz se apodera de mí.\n\nHerramienta en mano, hago un gesto para que [actor.GetSheHe] se dé la vuelta, mientras se quita la camisa y expone la piel intacta de su espalda. Me pongo manos a la obra y los graves gruñidos y resoplidos pronto se convierten en una especie de zumbido que sale desde el fondo de su garganta.\n\nYa sé qué herramienta emplearé para afinar mi propia gracia."
+ religious_interaction.2600.desc.actor: "[recipient.Custom('ES_ElLa')|U] [recipient.GetTitledFirstName|l] mira con detenimiento las herramientas de transcendencia, temblando levemente por la anticipación.\n\nLe agarro la muñeca, pongo la hoja afilada en su mano y la presiono ligeramente sobre mi pecho. «¿Con tanta delicadeza? Ahora, mano firme. Caminamos por una línea delicada».\n\n[recipient.GetFirstName] me mira a los ojos y asiente, y pasa a desabrocharse la camisa para exponer un trozo de piel pura, sin marcar, que pronto recibirá la gracia de [recipient.GetFaith.HighGodName]."
+ religious_interaction.2600.a: "«Trascendamos juntos»."
+ religious_interaction.2610.desc: "Por desgracia, en esta ocasión he de atender unos asuntos importantes… ¡pero la próxima vez adoraremos con un fervor aún mayor!"
+ religious_interaction.2610.a: "Qué lástima."
+ attempted_transcendence_together_opinion: "Intento de trascendencia compartido"

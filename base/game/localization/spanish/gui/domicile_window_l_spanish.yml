@@ -78,3 +78,5 @@
  can_move_domicile_estate_same_location_tt: "La [estate|lE] ya está situada en [province_temp.GetBaronyNameExplicitly]"
  DOMICILE_WINDOW_CONSTRUCT_BUILDING_TT: "#T Construir [domicile_building|lE] nuevo#!"
  DOMICILE_WINDOW_CONSTRUCT_BUILDING_LOCKED_TT: "$DOMICILE_WINDOW_CONSTRUCT_BUILDING_TT$\n@warning_icon!#X El nivel del [domicile_building|lE] [Domicile.GetMainBuilding.GetName|l] es demasiado bajo#!"
+ CHARACTER_MODIFIERS_LABEL: "#BOLD;EMP Modificadores de personaje#!"
+ PROVINCE_MODIFIERS_LABEL: "#BOLD;EMP Modificadores de baronías#!"

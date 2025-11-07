@@ -186,7 +186,7 @@
  msg_governor_challenging_illegitimacy.t: "불충한 [root_scope.GetTitleAsNameNoTooltip]의 지지 규합"
  msg_governor_challenging_illegitimacy.desc: "[root_scope.GetName](와)과 [root_scope.GetHerHis] 지지자들이 당신의 나약한 [legitimacy|E]을 비난합니다."
  msg_governor_supports_rule.t: "[root_scope.GetTitleAsNameNoTooltip](이)가 당신의 자격 옹호"
- msg_governor_supports_rule.desc: "당신의 정통성 부족을 들먹이는 사람들을 상대로, [root_scope.GetName](이)가 공개적으로 당신을 옹호합니다."
+ msg_governor_supports_rule.desc: "당신의 정통성 부족을 들먹이는 사람들을 상대로, [root_scope.GetName|V](이)가 공개적으로 당신을 옹호합니다."
  ep3_governor_yearly.3050.t: "[ROOT.Char.GetFaith.NegativeAfterLife|U]의 하급 악마"
  ep3_governor_yearly.3050.desc: "그렇지 않아도 [emperor.GetTitleAsNameNoTooltip]의 자리가 위태로운 가운데, [emperor.GetFirstName] [emperor.GetHouse.GetName]에 관한 이상한 소문이 퍼지고 있다."
  ep3_governor_yearly.3050.mess: "\n\n약제를 파는 사람이 말하기를... 궁전에서 자기가 불경한 유산을 만들었다고 한다. 바닷가재의 눈, 아이의 손톱, 맨드레이크의 즙... 전부 [emperor.GetTitleAsNameNoTooltip]의 횡설수설하는 입에 들어갈 재료였다! 그자는 마치 짐승처럼 벌거벗은 채 돌아다니며 궁전을 어지럽힌다. 그리고 이상한 약재를 자기 몸에 바르고 [emperor.GetFaith.HighGodName]의 이름을 저주한다!"

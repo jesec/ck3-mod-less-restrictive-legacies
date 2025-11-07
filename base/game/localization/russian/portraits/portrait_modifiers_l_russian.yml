@@ -669,6 +669,8 @@
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_turkic_nob_02: "@khansofthesteppe_icon! @legacyofpersia_icon! Шарбуш"
  PORTRAIT_MODIFIER_custom_special_m_headgear_fp3_iranian_face_mask_01: "@khansofthesteppe_icon! @legacyofpersia_icon! Турко-персидская маска"
  PORTRAIT_MODIFIER_custom_special_masks_m_headgear_fp3_iranian_face_mask_01: "@khansofthesteppe_icon! @legacyofpersia_icon! Турко-персидская маска"
+ PORTRAIT_MODIFIER_custom_special_masks_m_headgear_fp3_iranian_face_mask_open_01: "Половецкий шлем с маской (открытая)"
+ PORTRAIT_MODIFIER_custom_special_masks_m_headgear_fp3_iranian_face_mask_closed_01: "Половецкий шлем с маской (закрытая)"
  ### Female ###
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_imp_01: "@legacyofpersia_icon! Иранская имперская корона"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_roy_01: "@legacyofpersia_icon! Крылатая корона"

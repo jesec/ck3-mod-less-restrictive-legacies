@@ -28,6 +28,7 @@
 
 				background = {
 					using = Background_Header_Tall
+					margin_bottom = 10
 				}
 
 				hbox = {

@@ -198,6 +198,7 @@
  activity_invite_rule_potential_lovers: "Mögliche Affären"
  activity_invite_rule_suzerain: "Suzerän"
  activity_invite_rule_tributaries: "Tributzahler"
+ activity_invite_rule_confederates: "Bundgenossen"
  activity_invite_rule_rivals: "Rivalen"
  activity_invite_rule_rivals_if_appropriate: "$activity_invite_rule_rivals$"
  activity_invite_rule_lovers: "Affären"

@@ -712,35 +712,51 @@ councillor_leaving_effect = {
 	if = {
 		limit = {
 			NOT = { is_councillor_of = scope:old_employer } 
-			scope:old_employer = {
-				government_allows = council
-			}
+			scope:old_employer = { government_allows = council }
 		}
-		scope:old_employer = {
-			send_interface_message = {
-				type = event_generic_neutral
-				title = councillor_leaving_court_message_title
-				left_icon = scope:councillor
-				# Councillor leaving because of marriage
-				scope:councillor = {
-					if = {
-						limit = {
-							is_playable_character = no
-							is_married = yes
-							primary_spouse = { is_playable_character = yes }
-						}
-						custom_tooltip = councillor_leaving_court_marriage_notification
+		scope:councillor = {
+			# Councillor leaving because of marriage
+			if = {
+				limit = {
+					is_playable_character = no
+					is_married = yes
+					primary_spouse = { is_playable_character = yes }
+				}
+				scope:old_employer = {
+					send_interface_message = {
+						type = msg_left_council_position
+						title = councillor_leaving_court_message_title
+						desc = councillor_leaving_court_marriage_notification
+						left_icon = scope:councillor
+						right_icon = scope:councillor.primary_spouse
 					}
-					# Councillor leaving because of title inheritance
-					else_if = {
-						limit = {
-							is_playable_character = yes
-							NOT = { is_vassal_of = scope:old_employer }
-						}
-						custom_tooltip = councillor_leaving_court_landed_notification
+				}
+			}
+			# Councillor leaving because of title inheritance
+			else_if = {
+				limit = {
+					is_playable_character = yes
+					NOT = { is_vassal_of = scope:old_employer }
+				}
+				scope:old_employer = {
+					send_interface_message = {
+						type = msg_left_council_position
+						title = councillor_leaving_court_message_title
+						desc = councillor_leaving_court_landed_notification
+						left_icon = scope:councillor
+						right_icon = scope:councillor.primary_title
 					}
-					# Generic fallback
-					else = { custom_tooltip = councillor_leaving_court_generic_fallback_notification }
+				}
+			}
+			# Generic fallback
+			else = {
+				scope:old_employer = {
+					send_interface_message = {
+						type = msg_left_council_position
+						title = councillor_leaving_court_message_title
+						desc = councillor_leaving_court_generic_fallback_notification
+						left_icon = scope:councillor
+					}
 				}
 			}
 		}

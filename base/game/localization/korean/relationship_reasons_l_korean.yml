@@ -2152,6 +2152,8 @@
  friend_granted_following_corresponding: "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName]에게 유목 집단과 추종자를 내어줬음"
  rival_banished_kin: "[TARGET_CHARACTER.GetShortUIName|U](은)는 가족 야영지에서 [CHARACTER.GetShortUIName](을)를 추방했음"
  rival_banished_kin_corresponding: "[CHARACTER.GetShortUIName|U](은)는 가족 야영지에서 [TARGET_CHARACTER.GetShortUIName](을)를 추방했음"
+ rival_disrespected_envoy: "[TARGET_CHARACTER.GetShortUIName](이)가 [CHARACTER.GetShortUINamePossessive] 외교 사절을 모독했음."
+ rival_disrespected_envoy_corresponding: "[CHARACTER.GetShortUIName](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 외교 사절을 모독했음."
  soulmate_absconded_during_wedding: "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 결혼식에서 함께 도망치던 중 진정한 사랑을 알게 됨."
  soulmate_absconded_during_wedding_corresponding: "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 결혼식에서 함께 도망치던 중 진정한 사랑을 알게 됨."
  lover_absconded_during_wedding: "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 부부의 신의를 맺는 날을 무시하고 결혼식 도중에 몰래 빠져나감."

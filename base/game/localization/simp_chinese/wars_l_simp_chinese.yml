@@ -754,5 +754,5 @@
  sovereignty_cb_defeat_desc_defender: "你守住受争夺的朝贡者。[attacker.GetShortUIName|U]必须支付你战争赔款。"
  sovereignty_cb_defeat_desc_attacker: "[defender.GetShortUIName|U]守住受争夺的朝贡者。你必须支付[defender.GetHerHim]战争赔款。"
  sovereignty_cb_defeat_desc: "[defender.GetShortUIName|U]守住受争夺的朝贡者，[attacker.GetShortUIName]必须支付[defender.GetHerHim]战争赔款。"
- sovereignty_war_tributary_switch: "[defender.GetShortUIName]的相邻[tributaries|E]会向[attacker.GetShortUIName]支付[tribute|E]"
+ sovereignty_war_tributary_switch: "[defender.GetShortUIName]可以延续[realm|E]的[tributaries|E]会向[attacker.GetShortUIName]缴纳[tribute|E]"
  at_least_one_non_nomad_county_tt: "目标必须拥有至少一个非[nomadic|E][county|E]"

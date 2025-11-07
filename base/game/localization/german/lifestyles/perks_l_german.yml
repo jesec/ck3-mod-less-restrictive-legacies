@@ -189,6 +189,7 @@
  local_inspection_perk_adventurer_name: "Überfülle der Erde"
  local_arbitration_perk_name: "Vermittlung"
  local_arbitration_perk_adventurer_name: "Rechte Hand"
+ local_arbitration_perk_nomadic_name: "Den Stamm schützen"
  travel_logs_perk_name: "Reisetagebücher"
  realm_charts_perk_name: "Karten & Pläne"
  surveyor_perk_name: "Inspektor"

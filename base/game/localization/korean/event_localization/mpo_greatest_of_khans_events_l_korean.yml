@@ -77,8 +77,6 @@
  mpo_greatest_of_khans.0003.k: "오직 내 이름만을 지니겠다."
  gok_event_troops: "[ROOT.Char.GetCulture.GetNameNoTooltip] 유목군"
  become_gok_decision_now_unavailable_tt: "@alert_icon! #alert_trial 이제 #high $mpo_become_greatest_of_khans_decision$#! [decision|E]을 영원히 사용할 수 없음#!"
- gok_house_modifier: "황금 혈통"
- gok_house_modifier_desc: "이 혈통이 세상에 써 내려간 업적은 절대 잊히지 않을 것입니다. 이들은 불과 정복을 몰고 오는 황금빛 후예입니다."
  mpo_gok_onslaught_cb: "가장 위대한 칸의 맹공격"
  MPO_GOK_ONSLAUGHT_NAME: "[ATTACKER.GetPrimaryTitle.GetAdjective]의 [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier] 맹공격"
  MPO_GOK_ONSLAUGHT_NAME_MY: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective]의 [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier] 맹공격"

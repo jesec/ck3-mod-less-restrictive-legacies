@@ -9594,6 +9594,10 @@
 	# Boost the strength of the magyars for the hungarian invasion.
 	867.1.1 = {
 		add_prestige = 1000
+		add_character_modifier = {
+			modifier = confederate_king_modifier
+			years = 5
+		}
 	}
 	
 	895.1.1 = {

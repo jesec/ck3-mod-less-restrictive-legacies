@@ -43,7 +43,7 @@
  message_filter_councillor_ongoing_desc: "Auswirkungen von [Concept('councillor_task_possible_side_effects', 'möglichen Nebeneffekten')|E] von [Concept('councillor', 'Ratsmitgliedern')|E]"
  message_filter_council_task: "@council_icon! Ratsaufgaben"
  message_filter_council_task_desc: "Der Fortschritt einer laufenden [councillor_task|E] ändert sich"
- message_filter_councillor: "@council_icon! Neues Ratsmitglied"
+ message_filter_councillor: "@council_icon! Ratsmitgliedsänderung"
  message_filter_councillor_desc: "Eines Eurer [councillor|E] wird ernannt oder scheidet aus"
  message_filter_councillor_liege: "@council_icon! Gehaltene Ratssitze"
  message_filter_councillor_liege_desc: "Ihr werdet in den [council|E] Eures [Concept('liege_possessive', 'Lehnsherrn')|E] berufen oder daraus entfernt"

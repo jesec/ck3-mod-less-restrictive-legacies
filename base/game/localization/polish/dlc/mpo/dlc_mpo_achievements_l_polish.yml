@@ -8,7 +8,7 @@
  ACHIEVEMENT_mpo_this_chinggis_everything_achievement: "Czyngis ponad wszystko"
  ACHIEVEMENT_DESC_mpo_this_chinggis_everything_achievement: "Zostań największym z chanów."
  ACHIEVEMENT_mpo_steppe_by_steppe_achievement: "Ze stepu na step"
- ACHIEVEMENT_DESC_mpo_steppe_by_steppe_achievement: "Rozpocznij grę jako koczowniczy władca Stepu Wschodniego i wyemigruj na Step Zachodni."
+ ACHIEVEMENT_DESC_mpo_steppe_by_steppe_achievement: "Rozpocznij grę jako koczowniczy władca w regionie wschodnim [Concept('the_great_steppe', 'Wielkiego Stepu')|E] i wyemigruj na Step Zachodni."
  ACHIEVEMENT_mpo_in_xanadu_achievement: "Utopia"
  ACHIEVEMENT_DESC_mpo_in_xanadu_achievement: "Zbuduj pałac rozkoszy."
  ACHIEVEMENT_mpo_settling_in_achievement: "Osiedlenie"

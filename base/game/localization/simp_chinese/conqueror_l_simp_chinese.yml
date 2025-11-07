@@ -1,6 +1,7 @@
 ﻿l_simp_chinese:
  conqueror.0001.t: "统治世界"
  conqueror.0001.desc: "已经越来越清楚了。从最底层的农民跃升至比我的所有封臣还要高贵——他们都在低声呼唤着我的名字，低声诉说着我的力量，低声诉说着#EMP 战争！#!我的事业得到了支持，因为我的人民将我视为足以统治全世界的人。\n\n[ROOT.Char.GetPrimaryTitle.GetBaseName]的力量由我来运用——我也将运用它。向外冲击，就是对我的期望，用力量去夺取本该属于我的东西。我注定要统治，征服我周围的人，让他们归属于我的[ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]。\n\n有我的人民在我身后，我不会失败。"
+ conqueror.0001.desc.temujin: "\n\n我出自苍狼与白鹿，只会给予毁灭或臣服。"
  conqueror.0001.a: "让征服开始吧！"
  conqueror_flavor: "你将开始从你的封臣和子民那里得到支持，但注意了——如果你和平太久、输掉太多战争、成为另一领地的臣子或者不再受爱戴，你得到的支持将会减弱……\n\n如果你死了，你的孩子就要承担起征服的责任。"
  conqueror.0001.b: "我宁愿待在这里嗅[ROOT.Char.GetCapitalLocation.Custom('get_region_flower_type_plural')]的香味……"
@@ -50,6 +51,8 @@
  peasant_draft_desc: "农民们涌向该角色的旗下，他们非常愿意拿起武器充当征召兵。"
  conqueror_feed_county_gift: "[county_target.GetNameNoTooltip]送来金钱"
  conqueror_feed_county_gift_desc: "[county_target.GetName]的农民对你的征服非常热情，为你送来了钱。"
+ conqueror_feed_county_gift_herd: "[county_target.GetNameNoTooltip]派出牧群"
+ conqueror_feed_county_gift_desc_herd: "[county_target.GetName]的普通牧民对伟大的[ROOT.Char.GetTitleAsName]充满敬畏，并向您献上了优质的牲畜。"
  conqueror_feed_knight_joins: "$knight_culture_player_no_tooltip$加入你的事业"
  conqueror_feed_knight_joins_desc: "$knight_culture_player_no_tooltip$[knight.GetFullName]向你宣誓效忠！（@skill_prowess_icon![knight.GetProwess]）"
  conqueror_feed_angry_vassal: "愤怒的封臣被打动"

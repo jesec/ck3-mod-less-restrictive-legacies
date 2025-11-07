@@ -945,6 +945,12 @@ local_inspection_perk_2_effect = {
 	third = local_inspection_perk_2_effect
 }
 
+local_inspection_perk_3_effect = {
+	global = local_inspection_perk_3_effect
+	first = local_inspection_perk_3_effect
+	third = local_inspection_perk_3_effect
+}
+
 local_hero_perk_effect = {
 	global = local_hero_perk_effect
 	first = local_hero_perk_effect
@@ -1033,6 +1039,12 @@ personal_touch_3_effect = {
 	global = personal_touch_3_effect
 	first = personal_touch_3_effect
 	third = personal_touch_3_effect	
+}
+
+personal_touch_4_effect = {
+	global = personal_touch_4_effect
+	first = personal_touch_4_effect
+	third = personal_touch_4_effect	
 }
 
 local_adjudicate_location_tt = {

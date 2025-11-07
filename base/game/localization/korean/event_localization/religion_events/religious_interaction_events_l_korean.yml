@@ -166,3 +166,13 @@
  religious_interaction.2500.desc: "마침내 정신을 차리다니... [ROOT.Char.GetFaith.HighGodNameAlternate]께서 도우심이라! 진정한 신앙을 받아들이게 된 것을 축하하오."
  religious_interaction.2500.a: "[ROOT.Char.GetFaith.HighGodName](을)를 찬미하라!"
  religious_interaction.2501.desc: "지금 장난하자는 거요? 정치적 도피를 하겠답시고 속이 뻔히 보이는 수작을 부리다니, 그래 봤자 [recipient.GetFaith.HighGodName]의 진노는 피할 수 없소!"
+ #########################
+ #Exaltation of Pain tenet
+ #########################
+ religious_interaction.2600.t: "은총의 수업"
+ religious_interaction.2600.desc.recipient: "[actor.GetTitledFirstName|U](이)가 내 손을 부드럽게 잡는다. 그리고 이번 의식에서 사용할 날카롭고 뭉툭한 도구들 앞으로 이끈다. 그중 하나의 날이 빛을 받아 반짝인다. 왠지 모를 평온함이 나를 감싼다.\n\n나는 그 도구를 손에 쥐고 [actor.GetHerHim]에게 돌아서라고 손짓한다. [actor.GetSheHe]가 상의를 걷어 올리자 흉터 하나 없는 등이 드러난다. 나는 작업을 시작한다. [actor.GetHerHis] 입에서는 신음이 흐르다가 낮은 콧소리로 점차 바뀐다.\n\n나의 은총을 가다듬기 위해 어떤 도구를 써야 할지는 이미 알고 있다."
+ religious_interaction.2600.desc.actor: "[recipient.GetTitledFirstName|U](은)는 초월로 이끌 도구들을 조심스럽게 살핀다. 약간의 떨림과 기대에 찬 표정이 동시에 나타난다.\n\n나는 [recipient.GetHerHis] 손목을 붙잡고 날카로운 칼날을 쥐여준다. 그리고 그 끝을 내 가슴에 조심스럽게 가져다 댄다. \"굉장히 부드럽게 해야 합니다. 손을 떨지 마시오. 우린 지금 굉장히 가느다란 외줄을 타는 거요.\"\n\n[recipient.GetFirstNameNoTooltip](은)는 내 눈을 바라보며 고개를 끄덕인다. 그리고 본인의 상의 단추를 천천히 푼다. 아직 흉터 하나 없는 순수한 피부가 드러난다. 곧 [recipient.GetFaith.HighGodName]의 은총이 깃들 피부가."
+ religious_interaction.2600.a: "\"함께 초월로 나아가자.\""
+ religious_interaction.2610.desc: "아쉽지만 이번에는 처리해야 할 중요한 일이 있어서... 다음에 더 뜨겁게 그분을 섬길 기회가 있을 거요!"
+ religious_interaction.2610.a: "안타깝군."
+ attempted_transcendence_together_opinion: "함께 초월을 시도함"

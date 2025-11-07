@@ -149,4 +149,3 @@
  grant_court_position: "Hofamt gewähren"
  grant_court_position_desc: "[recipient.GetShortUINameNoTooltip|U] ein [court_position|E] gewähren"
  request_court_position_extra_icon: "$hook_extra_icon$"
- 

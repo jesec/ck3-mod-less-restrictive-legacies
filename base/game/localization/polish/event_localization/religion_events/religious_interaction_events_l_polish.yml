@@ -166,3 +166,13 @@
  religious_interaction.2500.desc: "W końcu opamiętał[Select_CString(ROOT.Char.IsFemale, 'aś', 'eś' )] się… To musi być znak od [ROOT.Char.GetFaith.HighGodNameAlternatePossessive]! Witamy Cię na łonie prawdziwej wiary."
  religious_interaction.2500.a: "[ROOT.Char.GetFaith.HighGodName] to potęga!"
  religious_interaction.2501.desc: "Chyba żartujesz? Twoje przejrzyste próby politycznej ucieczki nigdy nie powstrzymają gniewu [recipient.GetFaith.HighGodNamePossessive]!"
+ #########################
+ #Exaltation of Pain tenet
+ #########################
+ religious_interaction.2600.t: "Nauka o stanie łaski"
+ religious_interaction.2600.desc.recipient: "[actor.GetTitledFirstName] ujmuje mnie delikatnie za rękę i prowadzi ku kolekcji zarówno ostrych, jak i tępych narzędzi potrzebnych nam do sesji. Gdy w jednym z ostrzy odbija się światło, ogarnia mnie spokój.\n\nNa mój gest [actor.GetTitledFirstName] odwraca się i podciąga koszulę, by obnażyć przede mną nieskazitelną skórę swoich pleców. Wybieram narzędzie i przystępuję do dzieła, a niskie jęki i stęknięcia, jakie wydaje z siebie [actor.GetTitledFirstName], zmieniają się wkrótce w cichy, gardłowy pomruk.\n\nWiem już, które narzędzie pomoże mi odnaleźć stan łaski."
+ religious_interaction.2600.desc.actor: "[recipient.GetTitledFirstName] uważnie przygląda się narzędziom transcendencji, drżąc lekko w oczekiwaniu.\n\nUjmuję [recipient.Custom('PL_go_ja')] za nadgarstek, po czym wsuwam [recipient.Custom('PL_mu_jej')] w dłoń ostry sztylet i delikatnie dociskam jego końcówkę do swojej piersi.\n\n– Tak delikatnie…? Spróbuj opanować drżenie dłoni. Balansujemy tu na granicy. [recipient.GetFirstNameNoTooltip] spogląda mi w oczy i – skinąwszy głową – zaczyna rozpinać własną koszulę, by obnażyć fragment nieskazitelnej skóry, którą lada chwila naznaczy łaska [recipient.GetFaith.HighGodNamePossessive]."
+ religious_interaction.2600.a: "– Przeżyjmy transcendencję razem."
+ religious_interaction.2610.desc: "Mam niestety kilka ważnych spraw, którymi muszę zająć się w tym czasie… Odrobimy to, oddając cześć z podwójną gorliwością przy następnej okazji!"
+ religious_interaction.2610.a: "Ogromna szkoda."
+ attempted_transcendence_together_opinion: "Próba wspólnej transcendencji"

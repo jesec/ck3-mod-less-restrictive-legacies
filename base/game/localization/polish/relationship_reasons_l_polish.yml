@@ -2152,6 +2152,8 @@
  friend_granted_following_corresponding: "[CHARACTER.GetShortUINameNotMe] zapewnia stada i towarzyszy osobie znanej jako [TARGET_CHARACTER.GetShortUINameNotMe]."
  rival_banished_kin: "Osoba znana jako [CHARACTER.GetShortUINameNotMe] zostaje wygnana z rodzinnego obozu przez osobę, którą jest [TARGET_CHARACTER.GetShortUINameNotMe]."
  rival_banished_kin_corresponding: "Osoba znana jako [TARGET_CHARACTER.GetShortUINameNotMe] zostaje wygnana z rodzinnego obozu przez osobę, którą jest [CHARACTER.GetShortUINameNotMe]."
+ rival_disrespected_envoy: "[TARGET_CHARACTER.GetShortUINameNotMe] znieważa jednego z posłańców dyplomatycznych postaci znanej jako [CHARACTER.GetShortUINameNotMe]"
+ rival_disrespected_envoy_corresponding: "[CHARACTER.GetShortUINameNotMe] znieważa jednego z posłańców dyplomatycznych postaci znanej jako [TARGET_CHARACTER.GetShortUINameNotMe]"
  soulmate_absconded_during_wedding: "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] dowiadują się o łączącej ich prawdziwej miłości podczas wspólnej ucieczki z wesela."
  soulmate_absconded_during_wedding_corresponding: "[TARGET_CHARACTER.GetShortUINameNotMe] i [CHARACTER.GetShortUINameNotMe] dowiadują się o łączącej ich prawdziwej miłości podczas wspólnej ucieczki z wesela."
  lover_absconded_during_wedding: "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] postępują wbrew dniu wierności małżeńskiej i wymykają się w trakcie wesela."

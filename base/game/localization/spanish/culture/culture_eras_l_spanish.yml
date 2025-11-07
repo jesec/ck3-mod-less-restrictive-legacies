@@ -6,7 +6,7 @@
  culture_group_any: "cualquiera"
  #ERAS
  culture_era_tribal: "Tribal"
- culture_era_tribal_desc: "La era tribal de una [culture|lE] precede al surgimiento de leyes codificadas y gobiernos institucionalizados. Los gobernantes con [tribal_government|lE] solo pueden utilizar las [innovations|lE] de la era tribal."
+ culture_era_tribal_desc: "La era tribal de una [culture|lE] precede al surgimiento de leyes codificadas y gobiernos institucionalizados. Los gobernantes con gobiernos de tipo [tribal_government|lE] y [nomadic_government|lE] solo pueden utilizar las [innovations|lE] de la era tribal."
  culture_era_early_medieval: "Alta Edad Media"
  culture_era_early_medieval_desc: "La Alta Edad Media ve la aparición de administradores profesionales y una serie de [innovations|lE] importantes que permiten salir de la oscuridad a una [culture|lE]."
  culture_era_high_medieval: "Plena Edad Media"

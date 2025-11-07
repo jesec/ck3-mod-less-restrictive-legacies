@@ -2152,6 +2152,8 @@
  friend_granted_following_corresponding: "[CHARACTER.GetShortUIName|U]向[TARGET_CHARACTER.GetShortUIName]授予了牧群和随从。"
  rival_banished_kin: "[TARGET_CHARACTER.GetShortUIName|U]将[CHARACTER.GetShortUIName]逐出了家族营地。"
  rival_banished_kin_corresponding: "[CHARACTER.GetShortUIName|U]将[TARGET_CHARACTER.GetShortUIName]逐出了家族营地。"
+ rival_disrespected_envoy: "[TARGET_CHARACTER.GetShortUIName]对[CHARACTER.GetShortUINamePossessive]的一位外交使节表现不敬。"
+ rival_disrespected_envoy_corresponding: "[CHARACTER.GetShortUIName]对[TARGET_CHARACTER.GetShortUINamePossessive]的一位外交使节表现不敬。"
  soulmate_absconded_during_wedding: "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在一起逃离婚礼期间了解了他们的真爱。"
  soulmate_absconded_during_wedding_corresponding: "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]在一起逃离婚礼期间了解了他们的真爱。"
  lover_absconded_during_wedding: "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]违背婚姻的忠诚，在婚礼期间偷偷溜走了。"

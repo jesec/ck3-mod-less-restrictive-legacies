@@ -189,6 +189,7 @@
  local_inspection_perk_adventurer_name: "대지의 풍요"
  local_arbitration_perk_name: "중재"
  local_arbitration_perk_adventurer_name: "심복"
+ local_arbitration_perk_nomadic_name: "부족 보호"
  travel_logs_perk_name: "여행 기록"
  realm_charts_perk_name: "도표와 일정표"
  surveyor_perk_name: "감찰관"

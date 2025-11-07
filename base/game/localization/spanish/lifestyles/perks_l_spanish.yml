@@ -189,6 +189,7 @@
  local_inspection_perk_adventurer_name: "Recompensa de la tierra"
  local_arbitration_perk_name: "Arbitraje"
  local_arbitration_perk_adventurer_name: "Mano derecha"
+ local_arbitration_perk_nomadic_name: "Proteger a la tribu"
  travel_logs_perk_name: "Cuaderno de viaje"
  realm_charts_perk_name: "Mapas e itinerarios"
  surveyor_perk_name: "Inspector"

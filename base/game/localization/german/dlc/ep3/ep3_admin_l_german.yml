@@ -13,7 +13,7 @@
  army_quartermasters_house_power: "Armeequartiermeister"
  respected_despots_house_power: "Angesehene Despoten"
  lofty_architects_house_power: "Erhaben Architekten"
- members_in_realm_desc: "Lebende [house|E]-Mitglieder"
+ members_in_realm_desc: "Lebende [house|E]-Mitglieder im [realm|E]"
  house_head_influence_level_desc: "[influence_level|E] des [Concept('house_head', 'Hausoberhaupts')|E]"
  house_members_on_council_desc: "[house|E]-Mitglieder im [council|E] des [Concept('top_liege', 'Obersten Lehnsherrn')|E]"
  estate_buildings_desc: "[estate_buildings|E]"

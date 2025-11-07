@@ -4,7 +4,7 @@
  the_great_steppe_participant_group_nomad_rulers_realm: "Gobernantes nómadas parcialmente en la región"
  the_great_steppe_participant_group_nomad_rulers_realm_desc: "Todos los [rulers|lE] [GetGovernment( 'nomad_government' ).GetName]s con su [capital|lE] en una [situation_sub_region|lE] distinta, pero con parte de su [realm|lE] en esta."
  the_great_steppe_participant_group_herders: "Pastores"
- the_great_steppe_participant_group_herders_desc: "Pastores de [SITUATION.GetType.GetName]"
+ the_great_steppe_participant_group_herders_desc: "[herders|E] en esta [situation|lE]"
  the_great_steppe_nomad_rulers_capital: "[steppe_season|E] #weak (gobernantes en la región)#!"
  the_great_steppe_nomad_rulers_realm: "[steppe_season|E] #weak (parcialmente en la región)#!"
  the_great_steppe_participant_group_settled_rulers: "Gobernantes asentados"

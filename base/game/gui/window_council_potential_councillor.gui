@@ -145,7 +145,7 @@ window = {
 				visible = "[Not(PotentialCouncillorWindow.HasMembers)]"
 			}
 
-			blockoverride "item_size" 
+			blockoverride "item_size"
 			{
 				size = { 630 110 }
 			}
@@ -160,68 +160,58 @@ window = {
 				alwaystransparent = yes
 			}
 
-			blockoverride "horizontal_slots"
+			blockoverride "button_box_content"
 			{
-				maxhorizontalslots = 4
-			}
+				button_standard = {
+					name = "reassign_to_position"
+					visible = "[And(And( Not( CharacterListItem.GetBool('can_swap') ), Character.IsCouncillor ), Not(CharacterListItem.GetCharacter.IsGuest))]"
+					onclick = "[CharacterListItem.OnClick('set_position')]"
+					enabled = "[Not( PotentialCouncillorWindow.HasPendingInteraction( CharacterListItem.GetCharacter ) )]"
 
-			blockoverride "bottom_right_box"
-			{
-				hbox = {
-					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
+					text = "POTENTIAL_COUNCILLOR_REASSIGN"
 
-					expand = {}
+					tooltip = "[CharacterListItem.GetText('assign_tooltip')]"
+					using = tooltip_below
 
-					button_standard = {
-						name = "reassign_to_position"
-						visible = "[And(And( Not( CharacterListItem.GetBool('can_swap') ), Character.IsCouncillor ), Not(CharacterListItem.GetCharacter.IsGuest))]"
-						onclick = "[CharacterListItem.OnClick('set_position')]"
-						enabled = "[Not( PotentialCouncillorWindow.HasPendingInteraction( CharacterListItem.GetCharacter ) )]"
+				}
 
-						text = "POTENTIAL_COUNCILLOR_REASSIGN"
+				button_standard = {
+					name = "add_to_position"
+					visible = "[And(Not( Character.IsCouncillor ), Not(CharacterListItem.GetCharacter.IsGuest))]"
+					onclick = "[CharacterListItem.OnClick('set_position')]"
+					enabled = "[And( PotentialCouncillorWindow.CanFireCouncillor, Not( PotentialCouncillorWindow.HasPendingInteraction( CharacterListItem.GetCharacter ) ) )]"
 
-						tooltip = "[CharacterListItem.GetText('assign_tooltip')]"
-						using = tooltip_below
+					text = "POTENTIAL_COUNCILLOR_ASSIGN"
 
-					}
+					using = tooltip_below
+					tooltip = "[Select_CString( PotentialCouncillorWindow.CanFireCouncillor, CharacterListItem.GetText('assign_tooltip'), PotentialCouncillorWindow.GetFireCouncillorTooltip )]"
+				}
 
-					button_standard = {
-						name = "add_to_position"
-						visible = "[And(Not( Character.IsCouncillor ), Not(CharacterListItem.GetCharacter.IsGuest))]"
-						onclick = "[CharacterListItem.OnClick('set_position')]"
-						enabled = "[And( PotentialCouncillorWindow.CanFireCouncillor, Not( PotentialCouncillorWindow.HasPendingInteraction( CharacterListItem.GetCharacter ) ) )]"
+				button_standard = {
+					name = "swap_position"
+					visible = "[And(CharacterListItem.GetBool('can_swap'), Not(CharacterListItem.GetCharacter.IsGuest))]"
+					onclick = "[CharacterListItem.OnClick('swap_position')]"
 
-						text = "POTENTIAL_COUNCILLOR_ASSIGN"
+					text = "POTENTIAL_COUNCILLOR_SWAP"
 
-						using = tooltip_below
-						tooltip = "[Select_CString( PotentialCouncillorWindow.CanFireCouncillor, CharacterListItem.GetText('assign_tooltip'), PotentialCouncillorWindow.GetFireCouncillorTooltip )]"
-					}
+					using = tooltip_below
+					tooltip = "[CharacterListItem.GetText('swap_tooltip')]"
+				}
 
-					button_standard = {
-						name = "swap_position"
-						visible = "[And(CharacterListItem.GetBool('can_swap'), Not(CharacterListItem.GetCharacter.IsGuest))]"
-						onclick = "[CharacterListItem.OnClick('swap_position')]"
+				button_standard = {
+					name = "recruit_guest"
+					visible = "[And(Character.IsPlayerInteractionShown('recruit_guest_interaction'), Character.IsGuest)]"
+					onclick = "[Character.OpenPlayerInteraction('recruit_guest_interaction')]"
+					enabled = "[Character.IsPlayerInteractionValid('recruit_guest_interaction')]"
 
-						text = "POTENTIAL_COUNCILLOR_SWAP"
+					text = "[Character.GetPlayerInteractionName('recruit_guest_interaction')]"
 
-						using = tooltip_below
-						tooltip = "[CharacterListItem.GetText('swap_tooltip')]"
-					}
-
-					button_standard = {
-						name = "recruit_guest"
-						visible = "[And(Character.IsPlayerInteractionShown('recruit_guest_interaction'), Character.IsGuest)]"
-						onclick = "[Character.OpenPlayerInteraction('recruit_guest_interaction')]"
-						enabled = "[Character.IsPlayerInteractionValid('recruit_guest_interaction')]"
-
-						text = "[Character.GetPlayerInteractionName('recruit_guest_interaction')]"
-
-						tooltip = "[Character.GetPlayerInteractionTooltip('recruit_guest_interaction')]"
-						using = tooltip_below
-					}
+					tooltip = "[Character.GetPlayerInteractionTooltip('recruit_guest_interaction')]"
+					using = tooltip_below
 				}
 			}
+
+			blockoverride "bottom_right_box" {}
 		}
 
 		vbox = {

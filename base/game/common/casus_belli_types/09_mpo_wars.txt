@@ -3431,7 +3431,10 @@ mpo_great_war_of_defiance_cb = {
 					resolve_title_and_vassal_change = scope:change
 				}
 				#They're the same rank... which is annoying 
-				else = {
+				else_if = {
+					limit = {
+						highest_held_title_tier = scope:defender.highest_held_title_tier
+					}
 					hidden_effect = {
 						#Vassalize their vassals that are one rank lower than them
 						every_vassal = {
@@ -3456,22 +3459,13 @@ mpo_great_war_of_defiance_cb = {
 							}
 							resolve_title_and_vassal_change = scope:change
 						}
-						#Take all their titles of highest tier
-						create_title_and_vassal_change = {
-							type = swear_fealty
-							save_scope_as = change
-							add_claim_on_loss = no
-						}
+						#Destroy all their same tier titles
 						every_held_title = {
 							limit = {
 								tier = scope:defender_title.tier
 							}
-							change_title_holder = {
-								holder = scope:defender
-								change = scope:change
-							}
+							scope:attacker = { destroy_title = prev }
 						}
-						resolve_title_and_vassal_change = scope:change
 					}
 					#Vassalize them
 					create_title_and_vassal_change = {
@@ -3819,14 +3813,18 @@ mpo_gok_onslaught_cb = {
 						name = gok_terror_war_value
 						value = {
 							value = scope:defender.highest_held_title_tier
-							multiply = 3
+							multiply = 2
 						}
 					}
 				}
 				else = {
 					set_variable = {
 						name = gok_terror_war_value
-						value = scope:defender.highest_held_title_tier
+						value = {
+							value = scope:defender.highest_held_title_tier
+							divide = 2
+							ceiling = yes
+						}
 					}
 				}
 			}
@@ -3834,19 +3832,25 @@ mpo_gok_onslaught_cb = {
 				if = {
 					limit = {
 						exists = scope:khans_retribution_target
+						#Cap the bonus so that powerful rulers should still resist
+						var:gok_terror_war_value < 60
 					}
 					change_variable = {
 						name = gok_terror_war_value
 						add = {
 							value = scope:defender.highest_held_title_tier
-							multiply = 3
+							multiply = 2
 						}
 					}
 				}
 				else = {
 					change_variable = {
 						name = gok_terror_war_value
-						add = scope:defender.highest_held_title_tier
+						add = {
+							value = scope:defender.highest_held_title_tier
+							divide = 2
+							ceiling = yes
+						}
 					}
 				}
 			}

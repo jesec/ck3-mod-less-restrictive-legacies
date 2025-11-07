@@ -1,0 +1,9 @@
+﻿l_french:
+ add_title_to_sub_region_third: "Le titre [LandedTitle.GetName] sera ajouté à la région [SituationSubRegion.GetName] de la situation [Situation.GetName]"
+ add_title_to_sub_region_third_past: "Le titre [LandedTitle.GetName] a été ajouté à la région [SituationSubRegion.GetName] de la situation [Situation.GetName]"
+ add_title_to_sub_region_global: "$add_title_to_sub_region_third$"
+ add_title_to_sub_region_global_past: "$add_title_to_sub_region_third_past$"
+ remove_title_from_sub_region_third: "Le titre [LandedTitle.GetName] sera retiré de la région [SituationSubRegion.GetName] de la situation [Situation.GetName]"
+ remove_title_from_sub_region_third_past: "Le titre [LandedTitle.GetName] a été retiré de la région [SituationSubRegion.GetName] de la situation [Situation.GetName]"
+ remove_title_from_sub_region_global: "$remove_title_from_sub_region_third$"
+ remove_title_from_sub_region_global_past: "$remove_title_from_sub_region_third_past$"

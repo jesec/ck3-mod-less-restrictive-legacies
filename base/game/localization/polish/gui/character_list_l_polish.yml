@@ -266,5 +266,5 @@
  holy_order_government_filter_option_desc: "Pokaż tylko postacie z [Concept('government', 'rządem')|E] tworzonym przez [holy_order|El]"
  administrative_government_filter_option_desc: "Pokaż tylko postacie z [Concept('government', 'rządem')|E] [Concept('administrative', 'administracyjnym')|E]"
  landless_adventurer_government_filter_option_desc: "Pokaż tylko postacie z [Concept('government', 'rządem')|E] tworzonym przez [Concept('adventurer', 'poszukiwacza przygód')|E]"
- nomad_government_filter_option_desc: ""
- herder_government_filter_option_desc: ""
+ nomad_government_filter_option_desc: "Pokaż tylko postacie z [Concept('nomadic_government', 'rządem koczowniczym')|E]"
+ herder_government_filter_option_desc: "Pokaż tylko postacie z [Concept('government', 'rządem')|E] [Concept('herder', 'pasterskim')|E]"
