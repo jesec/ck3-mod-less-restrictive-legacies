@@ -28,7 +28,7 @@ pillage_intent_nomadic = {
 				domicile ?= {
 					change_herd = {
 						value = scope:raid_loot
-						multiply = 4
+						multiply = 2
 					}
 				}
 			}
@@ -212,7 +212,7 @@ capture_intent_nomadic = {
 				domicile ?= {
 					change_herd = {
 						value = scope:raid_loot
-						multiply = 2
+						multiply = 1
 					}
 				}
 			}
@@ -248,7 +248,7 @@ plunder_intent_nomadic = {
 				domicile ?= {
 					change_herd = {
 						value = scope:raid_loot
-						multiply = 6
+						multiply = 3
 					}
 				}
 			}
@@ -304,7 +304,7 @@ adventure_intent_nomadic = {
 				domicile ?= {
 					change_herd = {
 						value = scope:raid_loot
-						multiply = 4
+						multiply = 2
 					}
 				}
 			}

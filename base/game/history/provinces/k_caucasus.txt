@@ -181,9 +181,10 @@
 5296 = {	#Bata	AKA Novorossiysk
 	culture = alan
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = herder_holding
 	965.1.2 = {
 		religion = orthodox
+		holding = tribal_holding
 	}
 }
 5297 = {	#Zapaxi

@@ -10,19 +10,20 @@ cf_abundant_grazing_growth_mult_value = 0.25
 
 ## SEVERE DROUGHT (BAD)
 
+cf_severe_drought_decline_add_value = -0.5
 cf_severe_drought_decline_mult_value = 0.2
 cf_severe_drought_growth_mult_value = -0.2
 
 ## WHITE ZUD (BAD-BAD)
 
 cf_white_zud_decline_add_value = -2
-cf_white_zud_decline_mult_value = 0.4
-cf_white_zud_growth_mult_value = -0.4
+cf_white_zud_decline_mult_value = 0.8
+cf_white_zud_growth_mult_value = -0.8
 
 ## COLD ZUD ( BAD )
 
-cf_cold_zud_decline_add_value = -2
-cf_cold_zud_decline_mult_value = 0.3
+cf_cold_zud_decline_add_value = -1
+cf_cold_zud_decline_mult_value = 0.4
 cf_cold_zud_growth_mult_value = -0.4
 
 ## EVERLASTING SUMMER ( GOOD-GOOD )

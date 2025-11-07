@@ -31,6 +31,9 @@ custom_special_crowns_crests = {
 	add_accessory_modifiers = {
 		gene = additive_headgear
 		template = no_additive
+	}
+
+	add_accessory_modifiers = {
 		gene = secondary_headgears
 		template = no_headgear
 	}

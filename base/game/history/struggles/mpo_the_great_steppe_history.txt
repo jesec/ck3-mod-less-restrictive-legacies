@@ -12,29 +12,26 @@
             situation:the_great_steppe = { # A bit skewed so you don't start in an immediate bad situation
                 situation_sub_region:steppe_west = {
                     random_list = {
-                        5 = { } # Stay as Abundant Grazing
-                        1 = { change_phase = { phase = situation_steppe_severe_drought_season } }
-                        1 = { change_phase = { phase = situation_steppe_white_zud_season } }
-                        1 = { change_phase = { phase = situation_steppe_cold_zud_season } }
-                        5 = { change_phase = { phase = situation_steppe_warm_nights_season } }
+                        4 = { } # Stay as Abundant Grazing
+						2 = { change_phase = { phase = situation_steppe_cold_zud_season } }
+                        2 = { change_phase = { phase = situation_steppe_severe_drought_season } }
+                        2 = { change_phase = { phase = situation_steppe_warm_nights_season } }
                     }
                 }
                 situation_sub_region:steppe_central = {
                     random_list = {
-                        5 = { } # Stay as Abundant Grazing
-                        1 = { change_phase = { phase = situation_steppe_severe_drought_season } }
-                        1 = { change_phase = { phase = situation_steppe_white_zud_season } }
-                        1 = { change_phase = { phase = situation_steppe_cold_zud_season } }
-                        5 = { change_phase = { phase = situation_steppe_warm_nights_season } }
+                        4 = { } # Stay as Abundant Grazing
+						2 = { change_phase = { phase = situation_steppe_cold_zud_season } }
+                        2 = { change_phase = { phase = situation_steppe_severe_drought_season } }
+                        2 = { change_phase = { phase = situation_steppe_warm_nights_season } }
                     }
                 }
                 situation_sub_region:steppe_east = {
                     random_list = {
-                        5 = { } # Stay as Abundant Grazing
-                        1 = { change_phase = { phase = situation_steppe_severe_drought_season } }
-                        1 = { change_phase = { phase = situation_steppe_white_zud_season } }
-                        1 = { change_phase = { phase = situation_steppe_cold_zud_season } }
-                        5 = { change_phase = { phase = situation_steppe_warm_nights_season } }
+                        4 = { } # Stay as Abundant Grazing
+						2 = { change_phase = { phase = situation_steppe_cold_zud_season } }
+                        2 = { change_phase = { phase = situation_steppe_severe_drought_season } }
+                        2 = { change_phase = { phase = situation_steppe_warm_nights_season } }
                     }
                 }
             }

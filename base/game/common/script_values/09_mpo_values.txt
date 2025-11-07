@@ -2047,7 +2047,7 @@ mpo_expand_steppe_gold_cost = {
 ### NOMAD MAA REFILL VALUES
 
 herd_refill_value = {
-	value = 0.75
+	value = 0.4
 	if = {
 		limit = {
 			trigger_if = {
@@ -2065,7 +2065,7 @@ herd_refill_value = {
 }
 
 herd_refill_value_tt = {
-	value = 0.75
+	value = 0.4
 	multiply = {
 		add = martial
 		subtract = 8

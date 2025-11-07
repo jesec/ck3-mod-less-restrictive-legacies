@@ -1,25 +1,25 @@
 {
-  "version": "1.16.0.2",
+  "version": "1.16.1",
   "version_name": "Chamfron",
-  "updated": "2025-05-05T12:47:06.000Z",
+  "updated": "2025-05-06T11:20:10.000Z",
   "release_notes": {
-    "title": "1.16.0.2",
-    "date": "2025-05-06",
-    "file": "release-notes/1_16_0_2_2025-05-06.md",
-    "url": "https://store.steampowered.com/news/app/1158310/view/509579312492447171"
+    "title": "1.16.1",
+    "date": "2025-05-07",
+    "file": "release-notes/1_16_1_0_2025-05-07.md",
+    "url": "https://store.steampowered.com/news/app/1158310/view/509579946274848782"
   },
   "depots": {
     "1158311": {
-      "manifest": "7432983048076808793",
-      "updated": "2025-04-29T13:43:30.000Z"
+      "manifest": "3399672163971280750",
+      "updated": "2025-05-06T11:17:19.000Z"
     },
     "1158314": {
-      "manifest": "1977124325812772677",
-      "updated": "2025-05-05T12:46:55.000Z"
+      "manifest": "9077948058951498603",
+      "updated": "2025-05-06T11:19:01.000Z"
     },
     "1158317": {
-      "manifest": "7853741985667206454",
-      "updated": "2025-05-05T12:47:06.000Z"
+      "manifest": "5346151031374719380",
+      "updated": "2025-05-06T11:20:10.000Z"
     },
     "1296730": {
       "manifest": "4673314442703562503",

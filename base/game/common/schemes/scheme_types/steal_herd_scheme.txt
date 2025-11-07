@@ -20,7 +20,7 @@
 	speed_per_target_skill_point = t3_spsp_target_value
 	base_progress_goal = 50
 	maximum_secrecy = 95
-	base_maximum_success = t3_base_max_success_value
+	base_maximum_success = t2_base_max_success_value
 	phases_per_agent_charge = 1
 	success_chance_growth_per_skill_point = t3_scgpsp_value
 

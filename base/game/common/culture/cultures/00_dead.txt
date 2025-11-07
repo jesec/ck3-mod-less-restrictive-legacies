@@ -99,7 +99,10 @@ hunnic = {
 	head_determination = head_determination_domain
 	traditions = {
 		#tradition_horse_lords
+		tradition_horse_breeder
 		tradition_hunters
+		tradition_pastoralists
+		tradition_talent_acquisition
 		#tradition_steppe_tolerance
 	}
 	

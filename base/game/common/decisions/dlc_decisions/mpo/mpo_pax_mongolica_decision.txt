@@ -52,7 +52,7 @@ mpo_pax_mongolica_decision = {
 					holder.dynasty = root.dynasty
 				}
 				random_county_province = {
-					limit = { province_has_no_holding_trigger = yes }
+					limit = { has_holding = no }
 					set_holding_type = city_holding
 				}
 			}
