@@ -380,6 +380,7 @@ nick_father_of_the_baltic = {}
 nick_mother_of_the_baltic = {}
 nick_scourge_of_the_baltic = {}
 nick_the_mountain_king = {}
+nick_beth_nahrain = {}
 
 # Killjoy.
 nick_the_stonefaced = { is_bad = yes }

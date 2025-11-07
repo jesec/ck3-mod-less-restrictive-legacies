@@ -376,7 +376,7 @@
  artifact_book_other_desc_3: "[ROOT.Artifact.GetFeatureText( 'book_topic' )](을)를 방대하게 다루는 [ROOT.Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] 작품입니다. [ROOT.Artifact.GetOwner.Custom('ArtifactAdverbWealth')] 수준의 채색된 삽화가 들어가 있습니다."
  artifact_book_other_desc_4: "[ROOT.Artifact.GetFeatureText( 'book_topic' )](와)과 같은 주제를 세세히 다루면서도 [ROOT.Artifact.GetFeatureText( 'book_subject' )]에 대한 [ROOT.Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] 이해가 담긴 [ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] 서책입니다."
  artifact_book_other_desc_5: "[ROOT.Artifact.GetFeatureText( 'book_topic' )](을)를 [ROOT.Artifact.GetOwner.Custom('ArtifactBookContentQuality')] 수준으로 세세하게 다룬 [ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] 원고입니다. 책장은 온갖 채색된 삽화가 삽입되어 있습니다. 대부분은 커다란 달팽이긴 하지만 말입니다."
- artifact_book_no_preface_desc: "[ROOT.Artifact.GetFeatureText( 'book_topic' )]"
+ artifact_book_no_preface_desc: "[ROOT.Artifact.GetFeatureText( 'book_topic' )|U]."
  feature_book_cover_material_wood: "나무"
  feature_book_cover_material_leather: "가죽"
  feature_book_cover_material_velvet: "벨벳"

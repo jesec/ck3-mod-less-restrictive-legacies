@@ -25,7 +25,7 @@
  stewardship_wealth.1011.custom: "[THIS.Char.GetPrimaryTitle.GetName]的所有伯爵领"
  #War Taxes, by Sean Hughes
  stewardship_wealth.1021.t: "为战争花钱"
- stewardship_wealth.1021.desc: "打仗十分烧钱，而且我的金库很快就要枯竭了，为了给战场上的我的士兵们付军饷，我需要想个法子。"
+ stewardship_wealth.1021.desc: "打仗十分烧钱，[current_war.GetName]也不例外。\n\n我的金库很快就要枯竭了，为了给战场上的我的士兵们付军饷，我需要想个法子。"
  stewardship_wealth.1021.a: "对农民增税。"
  stewardship_wealth.1021.a.custom: "我[domain|E]内的所有[county|E]"
  stewardship_wealth.1021.b: "削减不必要的军事开销。"

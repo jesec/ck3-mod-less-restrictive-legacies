@@ -34,6 +34,7 @@
  #Empowering Sicilian Parliament, by Flavio Verna
  middle_europe_decisions.0010.t: "Die Versammlung der Stände"
  middle_europe_decisions.0010.desc: "Die Infrastruktur, die die Griechen in den Provinzen Sizilien und Apulien hinterließen, werden als Fundament dienen, das den Übergang von [scoped_ruler.GetPrimaryTitle.GetName] zu einer moderneren Form der Regierung beschleunigt.\n\nIch versammle Vertreter der drei Stände in einem Rat, der neuen Gesetzen verpflichtet ist, welche ich beruhend auf alten römischen Traditionen ins Leben rief: So ist gewährleistet, dass der Mittelmeerraum auf Generationen stabil und wohlhabend wird. Jetzt muss ich nur noch entscheiden, wo dieses Parlament tagen soll."
+ middle_europe_decisions.0010.tt_napoli_warning: "@warning_icon! #warning Der Bau des Parlaments in „[GetTitleByKey('c_napoli').GetNameNoTier|U]“ wird Euch am Bau einer Universität hindern!#!"
  middle_europe_decisions.0010.a: "In Palermo, wo es schon damals war!"
  middle_europe_decisions.0010.b: "Es wird in Neapel stattfinden."
  middle_europe_decisions.0010.c: "Ich sollte mir diese Entscheidung gut überlegen."

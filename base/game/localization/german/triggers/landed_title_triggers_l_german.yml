@@ -89,3 +89,6 @@
  is_title_created_first: "[title|E] bereits geschaffen"
  is_title_created_third: "[title|E] bereits geschaffen"
  is_title_created_global: "[title|E] bereits geschaffen"
+ capital_county_equal_first: "„[TARGET_TITLE.GetNameNoTier|U]“ ist Euer [capital|E]"
+ capital_county_equal_third: "„[TARGET_TITLE.GetNameNoTier|U]“ ist [capital|E] von [CHARACTER.GetShortUIName|U]"
+ capital_county_equal_global: "„[TARGET_TITLE.GetNameNoTier|U]“ ist der [capital|E]"

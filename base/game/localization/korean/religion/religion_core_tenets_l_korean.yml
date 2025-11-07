@@ -104,6 +104,7 @@
  tenet_struggle_submission_desc: "신의 의지는 모든 선의 원천입니다. 따라서 선한 존재의 기저에는 신의에 대한 복종심과 이를 직접 행하고자 하는 투쟁이 깔려있다고 할 수 있습니다."
  doctrine_parameter_bonus_holy_war_piety_active: "[holy_wars|E] 승리로 얻는 [piety|E]와 [piety_experience|E]가 #P 50%#! 증가"
  tenet_religious_legal_pronouncements_name: "종교법"
+ tenet_religious_legal_pronouncements_hisbah: "히스바"
  tenet_religious_legal_pronouncements_fatwa: "파트와"
  tenet_religious_legal_pronouncements_halakha: "할라카"
  tenet_religious_legal_pronouncements_desc: "신학적 논거와 법적 논거의 경계는 뚜렷하지 않으며 영적 자질은 속세의 규범 내에서도 고려될 필요가 있습니다."
@@ -323,7 +324,7 @@
  tenet_fp3_fedayeen_name: "페다인"
  tenet_fp3_sacred_murder_name: "거룩한 살생"
  tenet_fp3_fedayeen_desc: "평범한 전쟁으로는 문제가 해결되지 않을 때, 잠입과 기만을 통해 적을 말살하는 것이 곧 [ROOT.Faith.HighGodNameAlternate](을)를 위하는 우리의 의무입니다. 죽음도 고통도 두려워하지 말고, 대의를 위해 기꺼이 목숨을 바쳐야 합니다."
- doctrine_parameter_master_assassin_court_position_unlocked: "[master_assassin|E] [court_position|E] 잠금 해제"
+ doctrine_parameter_master_assassin_court_position_unlocked: "#V [GetCourtPositionType( 'master_assassin_court_position' ).GetName()]#! [court_position|E] 잠금 해제"
  doctrine_parameter_death_is_glory: "[battle|E] 중 사망하거나 부상을 입을 확률: #N +10%#!"
  doctrine_parameter_sanctioned_assassinations: "[GetScheme('murder').GetTypeName] [schemes|E]으로 [faith|E]이 다른 인물을 살해할 때 [piety|e] 손실이 발생하지 않음"
  #EP3 Tenets

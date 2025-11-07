@@ -1,4 +1,9 @@
-﻿
+﻿##################################################
+# Chapter Bonus Triggers
+has_sp4_dlc_trigger = {
+	has_dlc_feature = crowns_of_the_world
+}
+
 ##################################################
 # Creator content Triggers
 has_afr_dlc_trigger = {

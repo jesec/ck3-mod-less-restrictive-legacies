@@ -26,7 +26,7 @@
  culture_parameter_unlock_maa_akritai: "[GetMaA('akritai').GetName](을)를 [men_at_arms|E]으로 모병 가능"
  culture_parameter_unlock_maa_ballistrai: "[GetMaA('ballistrai').GetName](을)를 [men_at_arms|E]으로 모병 가능"
  culture_parameter_unlock_maa_skoutatoi: "[GetMaA('skoutatoi').GetName](을)를 [men_at_arms|E]으로 모병 가능"
- culture_parameter_unlock_maa_varangian_guards: "$e_byzantium$ [title|E]를 보유 중이고 바랑인 친위대를 설립했을 경우 [GetMaA('varangian_guards').GetName](을)를 [men_at_arms|E]으로 모병 가능"
+ culture_parameter_unlock_maa_varangian_guards: "[emperors|E]가 [GetMaA('varangian_guards').GetName]를 [men_at_arms|E]으로 사용할 수 있게 되는 #high $found_varangian_guard_decision$#! [decision|E]을 이용할 수 있음"
  #Early Medieval Era
  culture_parameter_unlock_maa_khandayat: "[GetMaA('khandayat').GetName](을)를 [men_at_arms|E]으로 모병 가능"
  culture_parameter_unlock_maa_garudas: "[GetMaA('garudas').GetName](을)를 [men_at_arms|E]으로 모병 가능"

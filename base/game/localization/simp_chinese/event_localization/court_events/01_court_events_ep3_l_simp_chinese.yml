@@ -14,7 +14,7 @@
  court.8190.f: "我的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family'))][family.GetFirstNameNoTooltip]是你的首要病人。"
  court.8190.g: "照料我的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('house'))][house.GetFirstNamePossessiveNoTooltip]的疾病。"
  employer_booner_court_physician_modifier: "密切照顾"
- employer_booner_court_physician_modifier_desc: "该角色是一位训练有素的宫廷医生持续关注的重点。"
+ employer_booner_court_physician_modifier_desc: "该角色是一位训练有素的$court_physician_court_position$持续关注的重点。"
  #Tutor
  court.8191.t: "特别教导"
  court.8191.desc: "我的[position_holder.Custom('ComplimentAdjective')][GetCourtPositionType('court_tutor_court_position').GetName()]，[position_holder.GetTitledFirstName]，是一位才华横溢的教师，巧妙地管控着淘气的小家伙们，同时负责他们的教育。\n\n[position_holder.GetHerHis|U]的关注力分散在整个[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]宫廷的孩子身上，但其中有一个孩子可以在[position_holder.GetHerHis]的可靠监督下获得更着重的辅导。"

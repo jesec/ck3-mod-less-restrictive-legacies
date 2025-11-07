@@ -42,7 +42,6 @@
  marshal_task.1102.a: "Mis súbditos siempre se sentirán seguros."
  marshal_task.1102.notification: "Mayor presencia militar"
  marshal_task.1103.notification: "Levas preparadas para la batalla"
- #### END (Jonas W)
  marshal_task.2001.t: "Comandante herido"
  marshal_task.2001.opening: "¡[commander.GetTitledFirstName] resultó herido durante una práctica de duelo!"
  marshal_task.2001.ending: "\n\nMi [councillor.GetCouncilTitle], [councillor.GetTitledFirstName|l], consiguió detener la hemorragia, pero [commander.GetFirstName] tardará tiempo en recuperarse."

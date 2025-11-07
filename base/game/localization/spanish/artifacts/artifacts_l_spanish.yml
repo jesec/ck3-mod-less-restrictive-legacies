@@ -767,8 +767,8 @@
  #travel_events.4005
  maritime_trading_handbook: "Manual de comercio marítimo"
  maritime_trading_handbook_description: "Un manual escrito con maestría sobre la naturaleza de las prácticas comerciales marítimas de la nación [merchant_character_scope.GetCulture.GetName]."
- own_holy_text_mid: "[ROOT.Char.GetFaith.ReligiousText|U] enjoyado/a"
- own_holy_text_mid_description: "Un/a [ROOT.Char.GetFaith.ReligiousText] con adornos de piedras preciosas tachonadas."
+ own_holy_text_mid: "[root_scope.GetFaith.ReligiousText|U] enjoyado/a"
+ own_holy_text_mid_description: "Un ejemplar de [root_scope.GetFaith.ReligiousText] adornado con piedras preciosas tachonadas."
  merchants_holy_text_mid: "[merchant_character_scope.GetFaith.ReligiousText] enjoyado/a"
  merchants_holy_text_mid_description: "Un/a [merchant_character_scope.GetFaith.ReligiousText] con adornos de piedras preciosas tachonadas."
  merchants_sword: "Espada [merchant_character_scope.GetCulture.GetName]"

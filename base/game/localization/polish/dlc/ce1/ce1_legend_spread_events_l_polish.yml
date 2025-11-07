@@ -60,7 +60,7 @@
  legend_spread_events.0040.b.tt.failure: "Twoja pobożność jest ewidentnym kłamstwem"
  legend_spread_events.0040.c: "„I co by to dało?”"
  legend_spread_events.0050.t: "[honored_lady.GetLadyLord|U] może na mnie liczyć"
- legend_spread_events.0050.desc: "– #EMP Odwaga [ROOT.Legend.GetProtagonist.Custom('PL_jego_jej')] serce wypełniała,\nI piękna to była osoba!\nSzlachetna, bohaterska, wspaniała\nI piękna to była osoooooba!#!\n\nNietrudno jest odkryć źródło muzyki, gdyż szybko znajduję osobę o imieniu [bard.GetTitledFirstName] z lutnią w dłoniach i plecami opartymi o kamienną ławę.\n\n– Niech mnie [ROOT.Char.GetLadyLord] wysłucha – [bard.Custom('PL_jego_jej')] oczy momentalnie promienieją. – Czyż nie jest prawdą, że celem legendy o waszej ekscelencji było zrobić wrażenie na osobie o imieniu [honored_lady.GetTitledFirstName]?"
+ legend_spread_events.0050.desc: "– #EMP Odwaga [ROOT.Legend.GetProtagonist.Custom('PL_jego_jej')] serce wypełniała,\nI piękna to była osoba!\nSzlachetna, bohaterska, wspaniała\nI piękna to była osoooooba!#!\n\nNietrudno jest odkryć źródło muzyki, gdyż szybko znajduję osobę, którą jest [bard.GetTitledFirstName], z instrumentem w dłoniach i plecami opartymi o kamienną ławę.\n\n– Niech mnie [ROOT.Char.GetLadyLord] wysłucha – [bard.Custom('PL_jego_jej')] oczy momentalnie promienieją. – Czyż nie jest prawdą, że celem legendy o waszej ekscelencji było zrobić wrażenie na kimś takim jak [honored_lady.GetTitledFirstName]?"
  legend_spread_events.0050.a: "– Jak śmiesz?! Jestem po #EMP ślubie#!!"
  legend_spread_events.0050.b: "– [honored_lady.Custom('PL_jego_jej')|U] uroda naprawdę robi wrażenie…"
  legend_spread_events.0050.b.tt.success: "Twój gest robi wrażenie na osobie o imieniu [honored_lady.GetFirstNameNoTooltip]"

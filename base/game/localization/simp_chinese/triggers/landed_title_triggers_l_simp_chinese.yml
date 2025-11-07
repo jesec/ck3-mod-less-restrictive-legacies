@@ -89,3 +89,6 @@
  is_title_created_first: "[title|E]已经创建"
  is_title_created_third: "[title|E]已经创建"
  is_title_created_global: "[title|E]已经创建"
+ capital_county_equal_first: "[TARGET_TITLE.GetNameNoTier]是你的[capital|E]"
+ capital_county_equal_third: "[TARGET_TITLE.GetNameNoTier]是[CHARACTER.GetShortUINamePossessive|U]的[capital|E]"
+ capital_county_equal_global: "[TARGET_TITLE.GetNameNoTier]是[capital|E]"

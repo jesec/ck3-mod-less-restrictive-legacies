@@ -86,7 +86,7 @@
  CULTURAL_ACCEPTANCE_GAINS: "연간 증가치"
  CULTURAL_ACCEPTANCE_LOSSES: "연간 감소치"
  CULTURAL_ACCEPTANCE_BASELINE: "[Concept( 'cultural_acceptance_baseline', '문화 관용 기준치' )|E]"
- CULTURE_PILLAR_GENERAL_TOOLTIP: "[CulturePillar.GetEffectDescription( Culture.Self )]\n\n[CulturePillar.GetDescription( Culture.Self )|F]"
+ CULTURE_PILLAR_GENERAL_TOOLTIP: "[CulturePillar.GetEffectDescription( Culture.Self )][AddLocalizationIf( CulturePillar.HasEffectDescription( Culture.Self ), '\n\n' )][CulturePillar.GetDescription( Culture.Self )|F]"
  CULTURE_PILLAR_TOOLTIP_HERITAGE_EFFECT: "같은 명맥을 공유하는 문화에 대한 [cultural_acceptance_baseline|E] #P +20#!"
  CULTURE_PILLAR_TOOLTIP_HERITAGE_SAME: "당신의 명맥"
  CULTURE_PILLAR_TOOLTIP_HERITAGE_DIFF: "당신의 [culture|E]와 다른 명맥"

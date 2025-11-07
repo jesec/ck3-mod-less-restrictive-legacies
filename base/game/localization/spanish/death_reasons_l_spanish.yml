@@ -45,7 +45,7 @@
  death_murder_killer: "fue asesinad[CHARACTER.Custom('ES_OA')] por [TARGET_CHARACTER.LocalPlayerString( 'ti', 'Loc_ES_solo_GetUIName' )]"
  death_siege: "murió en un asedio"
  death_duel: "murió en un duelo"
- death_duel_killer: "murió a manos de [TARGET_CHARACTER.GetUIName] en un duelo"
+ death_duel_killer: "murió en un duelo con [TARGET_CHARACTER.GetUIName]"
  death_accident: "murió en un accidente"
  death_accident_killer: "$death_murder_killer$"
  death_ended_on_feast_table: "terminó con su vida en un banquete"

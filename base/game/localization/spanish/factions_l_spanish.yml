@@ -337,3 +337,4 @@
  FACTION_REASON_ADMIN_CLAIMANT_CO_EMPEROR: "[claimant|E] es [Concept('co_emperor',Select_CString(claimant.Char.IsFemale,'coemperatriz', 'coemperador'))|E]: $FACTOR|0%+=$"
  FACTION_REASON_ADMIN_CLAIMANT_JUNIOR_EMPEROR: "[claimant|E] es [junior_emperor|lE]: $FACTOR|0%+=$"
  FACTION_REASON_CLAIMANT_PRIMARY_HEIR: "[claimant|E] es mi [heir|lE]: $VALUE|0+=$"
+ FACTION_REASON_ADMINISTRATIVE: "[vassal|lE] [Concept('administrative', 'de administración')|E]: $VALUE|+0=$"

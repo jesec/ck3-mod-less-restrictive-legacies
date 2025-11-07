@@ -135,6 +135,8 @@
  inspection_conclusion_success_opinion_key: "Osoba znana jako [host.GetShortUINameNotMe] doskonale odnalazła się w zarządzaniu sprawami wewnętrznymi i zrobiła wrażenie na swoich wasalach."
  inspection_conclusion_success_popular_opinion_key_title: "Popularny władca"
  inspection_conclusion_success_popular_opinion_key: "Osoba znana jako [host.GetShortUINameNotMe] odnotowała znaczny wzrost popularności po odwiedzeniu miejsca znanego jako [province.GetName]."
+ inspection_conclusion_success_governor_experience_key_title: "Doświadczenie jako [host.Custom('GetGovernorConceptNoTooltip')|l]"
+ inspection_conclusion_success_governor_experience_key: "Postać znana jako [host.GetShortUINameNotMe] nabyła cennego doświadczenia jako [host.Custom('GetGovernorConceptNoTooltip')|l] podczas wizyty w miejscu o nazwie [province.GetName]."
  inspection_retry_desc: "Ostatnim razem, gdy ten obszar był nadzorowany przez [host.Custom('PL_jego_jej')] seniora, prace zakończyły się bez rozstrzygnięcia. Fundamenty postawione w celu poprawy sytuacji w hrabstwie nadal jednak istnieją.\n#weak Skuteczna [inspection|El] spowoduje usunięcie modyfikatora#!"
  inspection_second_try_modifier: "Inspekcja bez rozstrzygnięcia"
  inspection_second_try_modifier_desc: "$inspection_retry_desc$\n\n[inspection_success_chance|E]: #p +10%#!"

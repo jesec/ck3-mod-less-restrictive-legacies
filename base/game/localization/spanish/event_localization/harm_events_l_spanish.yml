@@ -92,7 +92,7 @@
  harm.0521.a.tt.success: "Tus manos se aferran a algo"
  harm.0521.a.tt.failure: "Estás demasiado tiempo bajo el agua"
  harm.0521.b: "¡Has de salir a la superficie!"
- harm.0521.b.tt.unlocked_by_cultrad: "Esta opción está desbloqueada por las [traditions|lE] de tu [culture|El]"
+ harm.0521.b.tt.unlocked_by_cultrad: "Esta opción está desbloqueada por las [traditions|lE] de tu [culture|lE]"
  harm.0521.c: "Nada, ¡#EMP nada#!!"
  harm.0521.c.tt.success: "Llegas a la superficie a tiempo"
  harm.0521.c.tt.failure: "Tardas demasiado"

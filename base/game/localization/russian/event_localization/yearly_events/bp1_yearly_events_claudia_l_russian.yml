@@ -35,7 +35,7 @@
  bp1_yearly.1010.b: "В этом нет необходимости."
  #A Friend till the End
  bp1_yearly.1020.t: "Дружба до гроба"
- bp1_yearly.1020.desc_intro: "Я лежу на кровати под гнетом болезни, проклиная собственную слабость и хилое тело, и с трудом различаю приближающийся силуэт. Медленные шаги и гулкая тишина начинают меня пугать."
+ bp1_yearly.1020.desc_intro: "Я лежу на кровати, проклиная собственную слабость и хилое тело, и с трудом различаю приближающийся силуэт. Медленные шаги и гулкая тишина начинают меня пугать."
  bp1_yearly.1020.desc: "\n\nДолжно быть, гость понял мои тревоги по слабым звукам моего голоса и подрагиванию рук, поскольку шаги ускорились, и вскоре моя рука чувствует тепло прикосновения, а перед глазами появляется знакомое лицо.\n\n«Шшш, [ROOT.Char.GetFirstNameNoTooltip], это я, [friend.GetFirstName]. Как же больно на тебя смотреть... хотелось бы мне иметь возможность сделать #EMP хоть что-нибудь#!, чтобы облегчить твою боль»."
  bp1_yearly.1020.a: "Прошу, останься со мной..."
  bp1_yearly.1020.b: "Не хочу, чтобы ты [Select_CString(friend.IsFemale, 'видела', 'видел' )] меня [Select_CString(ROOT.Char.IsFemale, 'такой', 'таким' )]."
@@ -51,7 +51,7 @@
  bp1_yearly.1021.c: "Покойся с миром, [Select_CString(friend.IsFemale, 'моя дорогая', 'мой дорогой' )] [friend.GetFirstNameNoTooltip]."
  #Till the Bitter End
  bp1_yearly.1030.t: "До самого конца"
- bp1_yearly.1030.desc: "\n\n«Ха! Взгляни на себя! Что, уже не [Select_CString(ROOT.Char.IsFemale, 'такая грозная', 'такой грозный' )]? Ты даже не узнаешь меня, ты, [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNoun')]? Это я, [rival.GetFirstName]! Поверить не могу, что мне так повезло. О как же мне хотелось увидеть тебя [Select_CString(ROOT.Char.IsFemale, 'сломленной', 'сломленным' )]!»\n\nЯ едва нахожу в себе силы пробормотать: «Ты здесь только для того, чтобы позлорадствовать?»"
+ bp1_yearly.1030.desc: "\n\n«Ха! Взгляни на себя! Что, уже не [Select_CString(ROOT.Char.IsFemale, 'такая грозная', 'такой грозный' )]? Даже не узнаешь меня, ты, [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNoun')]? Это я, [rival.GetFirstName]! О, как же мне хотелось увидеть тебя [Select_CString(ROOT.Char.IsFemale, 'сломленной', 'сломленным' )]!»"
  bp1_yearly.1030.desc_nemesis: "\n\n«Нет, не только», — отвечает [nemesis.GetSheHe]. Я даже не замечаю опасный отблеск в [nemesis.GetHerHis] глазах, когда [nemesis.GetFirstNameNoTooltip] приближается к моей постели с леденящей улыбкой на лице."
  bp1_yearly.1030.desc_nemesis_guard: "Казалось, все пропало, но в этот миг в комнату врывается [Select_CString(guard.IsFemale, 'моя', 'мой' )] [GetCourtPositionType('bodyguard_court_position').GetName()] [guard.GetFirstName]!"
  bp1_yearly.1030.desc_nemesis_no_guard: "Я пытаюсь пошевелиться, убежать, закричать, #EMP что угодно#!, но мое слабое тело больше мне не подчиняется..."

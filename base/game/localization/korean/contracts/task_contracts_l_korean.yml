@@ -494,7 +494,7 @@
  laamp_join_war_contract_attacker_win: "승리 중"
  laamp_join_war_contract_attacker_lose: "패배 중"
  laamp_join_war_contract.valid_war: "전쟁이 이미 종결됨"
- join_war_contract_spawn.t: "신규 $laamp_join_war_contract_contract$ [task_contract|E]"
+ join_war_contract_spawn.t: "신규 $laamp_join_war_contract_contract$ $game_concept_task_contract$"
  join_war_contract_spawn.desc_attacker: "[attacker.GetShortUIName](이)가 [defender.GetShortUIName]에 맞서 [war.GetName]에 가담하는 [task_contract|E]를 제시함"
  join_war_contract_spawn.desc_defender: "[defender.GetShortUIName](이)가 [attacker.GetShortUIName]에 맞서 [war.GetName]에 가담하는 [task_contract|E]를 제시함"
  laamp_raid_contract_request: "$laamp_request_boilerplate_warfare$"

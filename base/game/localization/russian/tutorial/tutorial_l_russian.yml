@@ -96,8 +96,8 @@
  lesson_warscore: "Боевой счет"
  lesson_winning_wars: "Победа на войне"
  lesson_losing_wars: "Поражение на войне"
- quick_tutorial_desc: "Быстрое обучение"
- full_tutorial_desc: "Полное обучение"
+ quick_tutorial_desc: "Начать обучение"
+ full_tutorial_desc: "Начать расширенное обучение"
  #Basics
  lesson_basics_welcome: "Добро пожаловать в игру Crusader Kings III"
  lesson_welcome_desc: "@tutorial_screenshot_1!\nВы средневековый правитель! Ваше правление может быть кратким, но ваши наследники приведут династию к величию.\n\nОкружающие земли так и просятся вам в руки. Вы можете взять их силой оружия, однако при помощи умелой дипломатии можно добиться результатов, превосходящих самые смелые мечты любого завоевателя..."
@@ -204,7 +204,7 @@
  lesson_basics_resources_3_desc: "Значительное [Concept('piety','благочестие')|El] упрощает общение с высшим духовенством. Вы — католик, [Concept('head_of_faith','глава вашей конфессии')|El] — Папа.\n\nБлагочестие повышается пассивно (например, благодаря [Concept('skill','навыку')|El] [Concept('learning','«Ученость»')|El] и [Concept('virtuous','добродетельным')|El] [Concept('traits','свойствам')|El]), и активно — за религиозные деяния (например [pilgrimage|El]).\n\nТакже у вас есть [piety_level|El], который растет по мере накопления благочестия и положительно влияет на персонажа.\n\n#TUT Подобно престижу, благочестие можно #EMP расходовать#!, например, на объявление [Concept('holy_wars','священных войн')|E] или создание новой [Concept('faith','конфессии')|E].\n\nЭто — обычное применение благочестия, и мнение других [Concept('characters','персонажей')|E] о вас при этом не снижается.#!"
  #Lifestyles
  lesson_basics_lifestyles_1: "Образ жизни ($lesson_basics_lifestyles$)"
- lesson_basics_lifestyles_1_desc: "[character|E] выбирает не только [traits|El], но и [lifestyle|El]. Существует всего пять образов жизни — по числу навыков.\n\n$game_concept_lifestyles$ представляют ваши основные интересы, а [focuses|El] позволяют сосредоточиться на чем-то определенном.\n\nКаждый $game_concept_focus$ дает уникальный бонус и повышает вероятность возникновения связанных с ним ситуаций."
+ lesson_basics_lifestyles_1_desc: "[character|E] выбирает не только [Concept('traits', 'свойства')|E], но и [Concept('lifestyle', 'образ жизни')|E]. Существует всего [SelectLocalization( HasDlcFeature( 'wandering_nobles' ), 'шесть', 'пять' )] путей — по числу навыков.\n\nОбразы жизни представляют ваши основные интересы, а [Concept('focuses', 'фокусы')|E] позволяют сосредоточиться на чем-то определенном.\n\nКаждый фокус дает уникальный бонус и повышает вероятность возникновения связанных с ним ситуаций."
  lesson_basics_lifestyle_open_window_tt: "Щелкните по кнопке «Образ жизни» (выделено)"
  lesson_basics_lifestyles_2: "Фокус ($lesson_basics_lifestyles$)"
  lesson_basics_lifestyles_no_GUI_highlight: "$lesson_basics_lifestyles_2$"

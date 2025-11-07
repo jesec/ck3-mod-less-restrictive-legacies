@@ -88,6 +88,7 @@
  court_events.3100.a: "Думаю, мне стоит изучить язык."
  court_events.3100.b: "[linguist.GetFirstNameNoTooltip], обучи меня!"
  court_events.3100.c: "У меня нет времени на эту чушь."
+ court_events.3100.a.tt: "Я начинаю [Concept('scheme', 'происки')|E] «[GetScheme('learn_language').GetTypeName]», целью которых является [chancellor.GetShortUIName] ([GetModifier('pressured_to_learn_court_language_modifier').GetNameWithTooltip])"
  #The Best Builder
  court_events.3110.t: "Лучший зодчий"
  court_events.3110.desc: "«[Select_CString(ROOT.Char.IsFemale,'Моя госпожа','Мой господин')], у меня дурные вести, — взволнованно начинает [steward.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n«[vassal.GetPrimaryTitle.GetBaseNameNoTier] преображается на глазах: [vassal.GetTitledFirstName] [Select_CString(vassal.IsFemale,'застроила','застроил')] свою столицу настолько прекрасными зданиями, что народ начинает сравнивать ее с нашими землями. Более того, простолюдины смеют заявлять, что [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitly] проигрывает в великолепии!»\n\n«Боюсь, лишь демонстрация нашей мощи поможет нам сохранить лицо»."

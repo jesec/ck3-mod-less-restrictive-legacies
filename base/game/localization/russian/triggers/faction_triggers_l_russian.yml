@@ -18,6 +18,7 @@
  CANNOT_START_FACTION_AGAINST_CHARACTER: "Не может быть сформирована [faction|El] против [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
  CHARACTER_CANNOT_LOWER_CROWN_AUTHORITY: "[CHARACTER.GetShortUIName] уже имеет самый низкий [Concept( 'crown_authority', 'авторитет короны' )|E]"
  CHARACTER_CANNOT_LOWER_IMPERIAL_BUREAUCRACY: "[CHARACTER.GetShortUIName] уже имеет самый минимальный возможный показатель [Concept('imperial_bureaucracy','имперской бюрократии')|E]"
+ CHARACTER_CANNOT_LOWER_TRIBAL_AUTHORITY: "[CHARACTER.GetShortUIName] уже имеет самый низкий [Concept('tribal_authority', 'авторитет вождя')|E]"
  CHARACTER_CANNOT_BE_IN_FACTION_DUE_TO_MODIFIER: "У вас есть [Concept( 'modifier', 'модификатор' )|E], препятствующий вступлению во [Concept( 'faction', 'фракцию' )|E]"
  IS_A_FACTION_MEMBER_TRIGGER: "Является членом фракции"
  FACTION_CAN_PRESS_DEMANDS_TRIGGER: "Фракция может выдвинуть требования"

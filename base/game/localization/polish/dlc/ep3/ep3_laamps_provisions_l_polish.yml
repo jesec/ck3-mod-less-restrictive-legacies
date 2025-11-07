@@ -63,4 +63,4 @@
  ep3_laamps_provisions.1080.c: "Ustawcie kurs na ląd, #EMP natychmiast#!!"
  ep3_laamps_provisions.1080.c.tt: "Twoja [travel|El] zostanie odwołana i przekierowana do baronii o nazwie [landfall.GetBaronyNameExplicitly] ([landfall.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetName])"
  critically_low_provisions_alert: "Krytycznie niski poziom zapasów"
- critically_low_provisions_alert_desc: "Twoje zapasy wkrótce się skończą!"
+ critically_low_provisions_alert_desc: "Twoje [provisions|El] wkrótce się skończą!"

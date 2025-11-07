@@ -488,7 +488,7 @@
  legend_events.0001.t: "연대기 작자: 전설의 발견"
  legend_events.0001.desc.intro: "궁정에 들어서자 [chronicler.Custom2('MyCharacterIntroduction', ROOT.Char)|U](이)가 헐레벌떡 달려와 인사를 올렸다.\n\n"
  legend_events.0001.desc.mid.slew_dragon: "\"좋은 소식입니다, [ROOT.Char.GetTitleAsNameNoTooltip|U] 님! [legend_character.GetName]에 관한 단서를 찾아 고서와 전설을 살피던 중, [legend_character.GetSheHe]가 용을 사냥했다는 증거를 발견했습니다!"
- legend_events.0001.desc.mid.ancestral_saint: "\"[ROOT.Char.HighGodName|U]께서 [ROOT.Char.GetTitleAsNameNoTooltip|U] 님의 가문에 미소를 짓는군요. 영주님의 존귀한 조상이신 [legend_character.GetName] 님에 관한 정보를 찾던 중, 그분을 [GetTrait('saint').GetNameNoTooltip( ROOT.Char )]로 추대할 만한 증거를 발견했습니다!"
+ legend_events.0001.desc.mid.ancestral_saint: "\"[ROOT.Char.GetFaith.HighGodName|U]께서 [ROOT.Char.GetTitleAsNameNoTooltip|U] 님의 가문에 미소를 짓는군요. 영주님의 존귀한 조상이신 [legend_character.GetName] 님에 관한 정보를 찾던 중, 그분을 [GetTrait('saint').GetNameNoTooltip( ROOT.Char )]로 추대할 만한 증거를 발견했습니다!"
  legend_events.0001.desc.mid.godly_descent: "[chronicler.GetSheHe|U]는 무릎을 꿇고는 내 발에 입을 맞추었다. \"아아, 거룩하신 [ROOT.Char.GetTitleAsNameNoTooltip|U](이)시여. 영주님이 [ROOT.Char.GetFaith.HighGodName|U]의 직계 후손이란 강력한 증거를 찾았습니다!"
  legend_events.0001.desc.mid.old_godly_descent: "\"반갑습니다, [ROOT.Char.GetTitleAsNameNoTooltip|U] 님. 아니지. '[legend_character.GetFaith.HighGodName|U]의 [ROOT.Char.Custom('GetDaughterSon')|U]'로 불러드려야 할까요? 그렇습니다. 기록을 살피던 중 '신'이라던 영주님의 선조가 사실은 위대한 업적을 숱하게 쌓은 영웅적인 필멸자란 걸 알아냈습니다."
  legend_events.0001.desc.mid.raised_by_animals: "\"좋은 하루입니다, [ROOT.Char.GetTitleAsNameNoTooltip|U] 님. 혹시 어린 시절을 얼마나 기억하시는지요? 기록 보관소에 있던 고서를 좀 살펴보니 영주님이 실은 야생에서 [ROOT.Char.Custom('GetAnimalPlural')]의 품에서 길러졌음을 시사하는 내용이 있더군요."

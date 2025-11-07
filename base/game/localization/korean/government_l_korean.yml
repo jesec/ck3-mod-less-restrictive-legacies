@@ -362,7 +362,7 @@
  iqta_special_rights_tax_collector_desc: "[vassal|E]이 낮은 수준의 책무를 지지만 [liege|E]에게 [men_at_arms|E]을 지원하는 데 힘을 보탭니다."
  iqta_special_rights_tax_collector_flavor_desc: "이크타는 지역 유력자에게 국가를 대신해 세금을 징수할 수 있는 광범위한 권한을 부여하는 조세 제도입니다."
  ghazi_special_rights_tax_collector: "가지 상태"
- ghazi_special_rights_tax_collector_desc: "#emphasis #bold [vassal|E] 특권:#!#!\n[vassal|E]이 적은 [piety|E] 비용으로 [holy_war|E] [casus_bellis|E]을 사용할 수 있지만 다른 [casus_bellis|E] 사용 시 [prestige_i][prestige|E]을 추가로 소모함 \n\n#flavor [vassal|E]이 [liege|E]에 의해 [faith|E]의 대전사로 선택되어 [holy_war|E]을 통해 국경을 확장하는 의무를 수행합니다.#!"
+ ghazi_special_rights_tax_collector_desc: "#emphasis #bold [vassal|E] 특권:#!#!\n[vassal|E]이 적은 [piety|E] 비용으로 [holy_war|E] [casus_bellis|E]을 사용할 수 있지만 다른 [casus_bellis|E] 사용 시 [prestige_i][prestige|E]을 추가로 소모함\n[raiding|E] 활성화\n\n#flavor [vassal|E]이 [liege|E]에 의해 [faith|E]의 대전사로 선택되어 [holy_war|E]을 통해 국경을 확장하는 의무를 수행합니다.#!"
  ghazi_special_rights_tax_collector_flavor_desc: "신앙과 변경의 전사 가지는 약탈과 강도질을 통해 수집을 얻으며, 국교의 적과 끝없는 전쟁을 치릅니다."
  deqhan_special_rights_tax_collector: "데칸"
  deqhan_special_rights_tax_collector_flavor_desc: "고대의 분권형 조세 제도에서 페르시아 유력자는 \"데칸\"으로 분류되며, 생산성과 자신의 위신을 증진하기 위해 영지를 면밀하게 관리하였습니다."

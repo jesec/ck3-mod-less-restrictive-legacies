@@ -151,7 +151,9 @@
  firm_convictions_modifier: "Stałe przekonania"
  #The Hermit events
  travel_events.3060.t: "Pustelnik"
- travel_events.3060.desc: "Z roślinności, niczym kamienny łuk katedry, wyłania się grota. U jej wejścia stoi drewniany stolik i stragan, na którym ktoś zostawił płonący lampion.\n\n– Ostrożnie, wasza czcigodność. – [travel_leader.GetTitledFirstName] zatrzymuje mnie, wznosząc swoje ramię na wysokość mojej klatki piersiowej. – Na tych ziemiach panoszą się bandyci.\n\n– Szybko rzucasz oskarżeniami. – Słabo oświetlona postać staje w wejściu groty. – Ja jestem tylko pustelnikiem, za to ty… tyś [ROOT.Char.GetTitleAsNameNoTooltip]."
+ travel_events.3060.desc.intro: "Z roślinności, niczym kamienny łuk katedry, wyłania się grota. U jej wejścia stoi drewniany stolik i stragan, na którym ktoś zostawił płonący lampion."
+ travel_events.3060.desc.travel_leader: "\n\n– Ostrożnie, wasza czcigodność. – [travel_leader.GetTitledFirstName] zatrzymuje mnie, wznosząc swoje ramię na wysokość mojej klatki piersiowej. – Na tych ziemiach panoszą się bandyci.\n\n– Szybko rzucasz oskarżeniami. – Słabo oświetlona postać staje w wejściu groty. – Ja jestem tylko pustelnikiem, za to ty… tyś [ROOT.Char.GetTitleAsNameNoTooltip]."
+ travel_events.3060.desc.on_your_own: " Może to kryjówka jakiegoś wyrzutka albo bandytów?\n\n– Ktoś taki jak [ROOT.Char.GetTitleAsNameNoTooltip] nie ma się czego obawiać. – Słabo oświetlona postać staje w wejściu groty. – Jestem jedynie pustelnikiem szukającym wiedzy w tych starych lasach."
  travel_events.3060.a: "Pustelnik byłby świetnym dodatkiem do mojej świty."
  travel_events.3060.b: "Jakież mam szczęście! Proszę, opowiedz mi, jak jawi się moja przyszłość."
  travel_events.3060.c: "Po prostu… po prostu ruszajmy."

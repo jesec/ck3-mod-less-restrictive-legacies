@@ -1,11 +1,15 @@
 ﻿l_french:
+ DNA_MODIFIERS: "Modificateurs d’ADN"
+ DNA_MODIFIERS_LINK: "#E $DNA_MODIFIERS$#!"
  PORTRAIT_MODIFIER_DEFAULT: "Par défaut"
  PORTRAIT_MODIFIER_capes: "Cape"
  PORTRAIT_MODIFIER_custom_clothes: "Habits"
  PORTRAIT_MODIFIER_headgear: "Couronnes"
  PORTRAIT_MODIFIER_custom_headgear: "Couvre-chef"
  PORTRAIT_MODIFIER_props: "Accessoire"
- PORTRAIT_MODIFIER_custom_special: "Objets de visage"
+ PORTRAIT_MODIFIER_custom_special: "Éléments oculaires"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests: "Armoiries, voiles et couronnes spéciales"
+ PORTRAIT_MODIFIER_custom_special_masks: "Masques et enveloppements"
  #PORTRAIT_MODIFIER_clothes_western_commoners: "Western commoner"
  #PORTRAIT_MODIFIER_clothes_western_low_nobles: "Western low noble"
  #PORTRAIT_MODIFIER_clothes_western_high_nobles: "Western high noble"
@@ -445,8 +449,8 @@
  ### Female ###
  PORTRAIT_MODIFIER_custom_headgear_female_empty: "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
  PORTRAIT_MODIFIER_custom_headgear_girl_empty: "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
- PORTRAIT_MODIFIER_custom_special_female_empty: "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
- PORTRAIT_MODIFIER_custom_special_girl_empty: "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
+ PORTRAIT_MODIFIER_custom_special_female_empty: "Aucun"
+ PORTRAIT_MODIFIER_custom_special_girl_empty: "Aucun"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_nobility_01: "Voile"
  PORTRAIT_MODIFIER_custom_special_female_headgear_secular_western_nobility_01: "$PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_nobility_01$ #weak (avec des couronnes)#!"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_nobility_01_2: "Voile et guimpe"
@@ -661,6 +665,7 @@
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_turkic_nob_01: "@legacyofpersia_icon! Bonnet en laine"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_turkic_nob_02: "@legacyofpersia_icon! Sharbush"
  PORTRAIT_MODIFIER_custom_special_m_headgear_fp3_iranian_face_mask_01: "@legacyofpersia_icon! Masque turco-persan"
+ PORTRAIT_MODIFIER_custom_special_masks_m_headgear_fp3_iranian_face_mask_01: "@legacyofpersia_icon! Masque turco-persan"
  ### Female ###
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_imp_01: "@legacyofpersia_icon! Couronne impériale iranienne"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_fp3_iranian_roy_01: "@legacyofpersia_icon! Couronne ailée"
@@ -703,6 +708,8 @@
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_pol_era4_war_nob_01: "@westslavic_icon! Bassinet"
  PORTRAIT_MODIFIER_custom_special_m_headgear_sec_pol_era3_war_crest_01: "@westslavic_icon! Cimier slave"
  PORTRAIT_MODIFIER_custom_special_m_headgear_sec_pol_era4_war_crown_01: "@westslavic_icon! Couronne de bataille"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_m_headgear_sec_pol_era3_war_crest_01: "@westslavic_icon! Cimier slave"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_m_headgear_sec_pol_era4_war_crown_01: "@westslavic_icon! Couronne de bataille"
  ### Female ###
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_pol_common_01: "@westslavic_icon! Voile souple"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_pol_common_02: "@westslavic_icon! Bandeau en cuir"
@@ -715,6 +722,8 @@
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_pol_era4_war_nob_01: "$PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_pol_era4_war_nob_01$"
  PORTRAIT_MODIFIER_custom_special_f_headgear_sec_pol_era3_war_crest_01: "$PORTRAIT_MODIFIER_custom_special_m_headgear_sec_pol_era3_war_crest_01$"
  PORTRAIT_MODIFIER_custom_special_f_headgear_sec_pol_era4_war_crown_01: "$PORTRAIT_MODIFIER_custom_special_m_headgear_sec_pol_era4_war_crown_01$"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_f_headgear_sec_pol_era3_war_crest_01: "$PORTRAIT_MODIFIER_custom_special_m_headgear_sec_pol_era3_war_crest_01$"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_f_headgear_sec_pol_era4_war_crown_01: "$PORTRAIT_MODIFIER_custom_special_m_headgear_sec_pol_era4_war_crown_01$"
  #################
  ### CCP4 Sami ###
  #################
@@ -791,10 +800,22 @@
  ### Male ###
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp3_western_roy_01: "@couture_icon! Couronne de Saint-Louis"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp3_western_hi_nob_01: "@couture_icon! Chapeau noble avec bord en vair"
- ### Male ###
+ ### Female ###
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp3_western_roy_01: "@couture_icon! Couronne du paraclet"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp3_western_hi_nob_01: "@couture_icon! Torque avec barbette"
  PORTRAIT_MODIFIER_custom_special_f_headgear_sec_sp3_western_hi_nob_01: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp3_western_hi_nob_01$ #weak (avec couronnes)#!"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_f_headgear_sec_sp3_western_hi_nob_01: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp3_western_hi_nob_01$ #weak (avec couronnes)#!"
+ ####################################
+ #### SP4 - Crowns of the World ####
+ ####################################
+ ### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sp4_mena_roy_01: "@crownsoftheworld_icon! Turban d’émir timouride"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sp4_rus_roy_01: "@crownsoftheworld_icon! Couronne de Vladimir le Grand"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sp4_western_roy_01: "@crownsoftheworld_icon! Couronne de Charlemagne"
+ ### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sp4_mena_roy_01: "@crownsoftheworld_icon! Couronne de princesse timouride"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sp4_rus_roy_01: "@crownsoftheworld_icon! Couronne de la princesse Olga de Kyiv"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sp4_western_roy_01: "@crownsoftheworld_icon! Couronne de la princesse Blanche d’Angleterre"
  ###############
  ### Special ###
  ###############
@@ -804,16 +825,29 @@
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_eye_patch_01: "Cache-œil"
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_blindfold_01: "Bandeau"
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_face_mask_01: "Masque facial"
+ PORTRAIT_MODIFIER_custom_special_masks_male_headgear_special_face_mask_01: "Masque facial"
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_head_bandage_01: "Bandage de tête"
+ PORTRAIT_MODIFIER_custom_special_masks_male_headgear_special_head_bandage_01: "Bandage de tête"
  PORTRAIT_MODIFIER_custom_special_m_headgear_spec_ep3_golden_nose: "Prothèse d’usurpateur"
+ PORTRAIT_MODIFIER_custom_special_mask_m_headgear_spec_ep3_golden_nose: "Prothèse d’usurpateur"
+ PORTRAIT_MODIFIER_custom_special_masks_m_headgear_spec_ep3_golden_nose: "Prothèse d’usurpateur"
+ PORTRAIT_MODIFIER_custom_special_male_empty: "Aucun"
+ PORTRAIT_MODIFIER_custom_special_boy_empty: "Aucun"
+ PORTRAIT_MODIFIER_custom_special_masks_male_empty: "Aucun"
+ PORTRAIT_MODIFIER_custom_special_masks_boy_empty: "Aucun"
  ### Female ###
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_spectacles_01: "Lunettes"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_special_spectacles_01: "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_spectacles_01$"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_eye_patch_01: "Cache-œil"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_blindfold_01: "Bandeau"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_face_mask_01: "Masque facial"
+ PORTRAIT_MODIFIER_custom_special_masks_female_headgear_special_face_mask_01: "Masque facial"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_head_bandage_01: "Bandage de tête"
+ PORTRAIT_MODIFIER_custom_special_masks_female_headgear_special_head_bandage_01: "Bandage de tête"
  PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep3_golden_nose: "Prothèse d’usurpateur"
+ PORTRAIT_MODIFIER_custom_special_masks_f_headgear_spec_ep3_golden_nose: "Prothèse d’usurpateur"
+ PORTRAIT_MODIFIER_custom_special_masks_female_empty: "Aucun"
+ PORTRAIT_MODIFIER_custom_special_masks_girl_empty: "Aucun"
  ######################################
  ################ Hair ################
  ######################################
@@ -924,6 +958,12 @@
  PORTRAIT_MODIFIER_custom_hair_f_hair_fp3_iranian_03_common: "@legacyofpersia_icon! Mi-longs en chignons"
  ### SP3 Hair ###
  PORTRAIT_MODIFIER_custom_hair_m_hair_sp3_western_01: "@couture_icon! Sainte chevelure"
+ ### Male SP4 Hair ###
+ PORTRAIT_MODIFIER_custom_hair_m_hair_sp4_mena_01: "@crownsoftheworld_icon! Tresse de scribe"
+ PORTRAIT_MODIFIER_custom_hair_m_hair_sp4_western_01: "@crownsoftheworld_icon! Boucles chevaleresques"
+ ### Female SP4 Hair ###
+ PORTRAIT_MODIFIER_custom_hair_f_hair_sp4_mena_01: "@crownsoftheworld_icon! Coiffure de la dame turque"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_sp4_western_01: "@crownsoftheworld_icon! Chevelure d’une noble"
  ### Male Special ###
  PORTRAIT_MODIFIER_custom_hair_male_hair_special_01: "Cadenettes épiques"
  #######################################
@@ -980,6 +1020,9 @@
  PORTRAIT_MODIFIER_custom_beards_m_beard_sp2_western_01: "@elegance_icon! Moustache royale"
  ### SP3 Beards ###
  PORTRAIT_MODIFIER_custom_beards_m_beard_sp3_western_01: "@couture_icon! Barbe royale"
+ ### SP4 Beards ###
+ PORTRAIT_MODIFIER_custom_beards_m_beard_sp4_mena_01: "@crownsoftheworld_icon! Barbe de conquérant de la steppe"
+ PORTRAIT_MODIFIER_custom_beards_m_beard_sp4_rus_01: "@crownsoftheworld_icon! Moustache de Vladimir le Grand"
  #######################################
  ################ Cloak ################
  #######################################
@@ -1076,6 +1119,8 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_african_high_01_common: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_african_high_01_common$"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_northern_high_01: "Habit religieux nordique"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_northern_high_01: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_northern_high_01$"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_jain_devoted_01: "Robe religieuse orientale 3"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_jain_devoted_01: "Robe religieuse orientale 3"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_hindu_devoted_01: "Robe religieuse orientale 1"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_hindu_devoted_01: "Robe religieuse orientale"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_buddhist_high_01: "Robe religieuse orientale 2"
@@ -1299,12 +1344,16 @@
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_spec_ep2_western_wedding: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_spec_ep2_western_wedding$"
  PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_spec_ep2_western_wedding$"
  PORTRAIT_MODIFIER_custom_special_m_headgear_spec_ep2_western_wedding: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_spec_ep2_western_wedding$"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_f_headgear_spec_ep2_western_wedding: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_spec_ep2_western_wedding$"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_m_headgear_spec_ep2_western_wedding: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_spec_ep2_western_wedding$"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_spec_ep2_mena_wedding: "@toursandtournaments_icon! Tantour"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_spec_ep2_mena_wedding: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_spec_ep2_mena_wedding$"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_spec_ep2_byzantine_wedding: "@toursandtournaments_icon! Couronne de mariage"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_spec_ep2_byzantine_wedding: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_spec_ep2_byzantine_wedding$"
  PORTRAIT_MODIFIER_custom_special_f_headgear_sec_ep2_western_war_nob_crest_01: "$PORTRAIT_MODIFIER_custom_special_m_headgear_sec_ep2_western_war_nob_crest_01$"
  PORTRAIT_MODIFIER_custom_special_m_headgear_sec_ep2_western_war_nob_crest_01: "Armoiries #weak (pour heaume avec couronne)#!"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_f_headgear_sec_ep2_western_war_nob_crest_01: "$PORTRAIT_MODIFIER_custom_special_m_headgear_sec_ep2_western_war_nob_crest_01$"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_m_headgear_sec_ep2_western_war_nob_crest_01: "Armoiries #weak (pour heaume avec couronne)#!"
  ##################################
  ###	EP3 - Roads to Power	###
  ##################################
@@ -1337,6 +1386,8 @@
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era2_nob_01_hi: "@roadstopower_icon! Robe delmatikion avec colliers"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era2_nob_02_hi: "@roadstopower_icon! Delmatikion à manches larges avec colliers"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era2_nob_03_hi: "@roadstopower_icon! Robe avec fialion et colliers"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep3_byzantine_era2_roy_01: "@roadstopower_icon! Roukhon royal"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era2_roy_01: "@roadstopower_icon! Delmatikion royal"
  #Imperial
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep3_byzantine_era1_imp_01: "@roadstopower_icon! Divêtêsion d’apparat d’empereur"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era1_imp_01: "@roadstopower_icon! Robe d’apparat d’impératrice avec collier gemmé"
@@ -1356,6 +1407,8 @@
  PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_ep3_byzantine_era1_imp_01: "@roadstopower_icon! Chlamyde d’impératrice"
  PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_ep3_byzantine_era2_nob_01: "@roadstopower_icon! Manduas de courtisan"
  PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_ep3_byzantine_era2_nob_01: "@roadstopower_icon! Manduas de courtisane"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ep3_byzantine_era2_roy_01_loros: "@roadstopower_icon! Lôros royal"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ep3_byzantine_era2_imp_01_loros: "@roadstopower_icon! Lôros impérial"
  ### Headgear ###
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_ep3_byzantine_era1_com_01: "@roadstopower_icon! Bonnet phrygien avec bord"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_ep3_byzantine_era1_nob_01: "@roadstopower_icon! Pileus de style romain"
@@ -1446,6 +1499,20 @@
  PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_pol_common_01: "$PORTRAIT_MODIFIER_custom_legwear_f_legwear_sec_pol_common_01$"
  PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_ccp4_sami_com_01: "$PORTRAIT_MODIFIER_custom_legwear_f_legwear_sec_ccp4_sami_com_01$"
  PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_ccp4_khanty_com_01: "$PORTRAIT_MODIFIER_custom_legwear_f_legwear_sec_ccp4_khanty_com_01$"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_male_empty: "Aucun"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_female_empty: "Aucun"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_boy_empty: "Aucun"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_girl_empty: "Aucun"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_female_headgear_secular_dde_hre_common_01: "Voile germanique 1"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_female_headgear_secular_dde_hre_common_02: "Voile germanique 2"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_female_headgear_secular_western_nobility_01: "Voile noble occidental 1"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_female_headgear_secular_western_nobility_01_2: "Voile noble occidental 2"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_female_headgear_secular_western_nobility_02: "Voile noble occidental 3"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_female_headgear_secular_western_nobility_03: "Voile noble occidental 4"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_f_headgear_sec_ep2_western_era1_com_01: "Voile occidental roturier 1"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_f_headgear_sec_ep2_western_era1_com_02: "Voile occidental roturier 2"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_f_headgear_sec_ep2_western_era1_nob_01: "Voile occidental noble précoce 1"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_f_headgear_sec_ep2_western_era1_nob_02: "Voile occidental noble précoce 2"
  ##################
  ### ANIMATIONS ###
  ##################
@@ -1621,6 +1688,7 @@
  throne_room_bow_3: "S’incline, version trois"
  throne_room_one_handed_passive_1: "Passif avec une épée"
  throne_room_one_handed_passive_2: "Passif avec une hache"
+ throne_room_one_handed_passive_3: "Passif avec marteau"
  throne_room_two_handed_passive_1: "Passif avec une lance"
  throne_room_two_handed_passive_shield: "Passif avec lance et bouclier"
  throne_room_writer: "Livre et plume"

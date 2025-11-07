@@ -207,7 +207,7 @@
  #Dispute Border
  dispute_border: "Пограничный конфликт"
  dispute_border_action: "Пограничный конфликт. Противник:"
- dispute_border_desc: "[SCHEME.GetOwner.GetPrimaryTitle.GetNameNoTier|U] имеет полное право на земли [Select_CString(SCHEME.GetTargetCharacter.IsLocalPlayer,'','персонажа ')][SCHEME.GetTargetCharacter.GetShortUINamePossessiveNoTooltip][Select_CString(SCHEME.GetTargetCharacter.IsLocalPlayer,'его персонажа','')]. Я буду управлять ими намного лучше..."
+ dispute_border_desc: "#EMP Можно#! сказать, что [SCHEME.GetOwner.GetPrimaryTitle.GetNameNoTier] имеет полное право на эти земли. Я буду управлять ими намного лучше..."
  dispute_border_desc_general: "$dispute_border$ — [Concept('hostile_scheme','враждебные происки')|E], цель которых — передача земель между [Concept('governorships','губернаторствами')|E]. Такие происки зависят от [Concept('diplomacy','дипломатии')|E] и положения [Concept('house','дома')|E]. Для их осуществления можно привлекать [Concept('agents','соучастников')|E].\n\nЕсли $dispute_border|l$ окажется успешным, [Concept('scheme_target','жертва происков')|E] отдаст соседнее [Concept('county','графство')|E]."
  DISPUTE_BORDER_SUCCESS_DESC: "[TARGET_CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'передаете','передает')] свое [Concept('county','графство')|E]"
  dispute_border_invalidated_title: "@scheme_icon! Происки «Пограничный конфликт» завершаются"
@@ -251,6 +251,7 @@
  start_dispute_border_interaction.tt.agent_focus_success: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_intermediary' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_proponent' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_sycophant' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_political_socialite' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_bureaucrat' ).GetName]"
  start_dispute_border_interaction.tt.agent_focus_speed: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_intermediary' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_proponent' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_political_socialite' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_bureaucrat' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_bureaucrat' ).GetName]"
  boundary_dispute_outcome_tt: "В случае успеха [target.GetName] перейдет к вам"
+ boundary_dispute_outcome_vassal_tt: "В случае успеха [recipient.GetShortUIName] станет вашим [Concept('vassal', 'вассалом')|E]"
  #Subsume Province
  subsume_province: "Поглотить губернаторство"
  subsume_province_action: "Поглотить губернаторство. Нынешний сюзерен:"

@@ -33,7 +33,7 @@
  agent_events.0012.e.tt.become_lovers: "Начало чего-то большего"
  agent_events.0012.e.tt.not_lovers: "$agent_events.0012.c.tt.failure$"
  agent_events.0021.t: "Учиться у лучших"
- agent_events.0021.desc.intro: "Похоже, два моих соучастника, [char_1.GetTitledFirstName] и [char_2.GetTitledFirstName], нашли общие интересы помимо основной цели нашего плана.\n\n[scheme.GetName] — задача, требующая определенных навыков. Наблюдая, как [char_1.GetTitledFirstName] "
+ agent_events.0021.desc.intro: "Похоже, мои соучастники [char_1.GetTitledFirstName] и [char_2.GetTitledFirstName] нашли общие интересы помимо основной цели нашего плана.\n\n[char_1.GetTitledFirstName]"
  agent_events.0021.desc.diplomacy: "искусно пишет, говорит и убеждает людей"
  agent_events.0021.desc.martial: "организует любое дело с упорством, достойным лидера"
  agent_events.0021.desc.stewardship: "с легкостью разбирается в счетах и замечает малейшие детали"

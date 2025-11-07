@@ -51,7 +51,7 @@
  CHARACTER_TOOLTIP_INSTRUCTION_COURT_SCENE: "#I 点击查看\n右键点击与之互动#!"
  CHARACTER_TOOLTIP_NO_PORTRAIT: "#T 无角色#!"
  PORTRAIT_NO_COUNCILLOR: "#T 未任命[councillor|E]#!"
- ON_COUNCIL_EFFECTS: "#high 对你的影响：#!\n[GetPlayer.GetCouncillorModifierDesc]"
+ ON_COUNCIL_EFFECTS: "#T 对你的影响#!\n[GetPlayer.GetCouncillorModifierDesc]"
  PORTRAIT_NO_SPOUSE: "#T 没有配偶#!"
  HEIR_TO_HEADER: "是以下头衔的[heir|E]：\n"
  CHARACTER_LINE_OF_SUCCESSION_MORE: "以及$COUNT|V$个其他的[titles|E]"

@@ -1,25 +1,25 @@
 {
-  "version": "1.14.3",
-  "version_name": "Traverse",
-  "updated": "2025-02-18T17:13:30.000Z",
+  "version": "1.15.0.2",
+  "version_name": "Crown",
+  "updated": "2025-04-03T08:20:26.000Z",
   "release_notes": {
-    "title": "Wandering Nobles & Free 1.14.0 \"Traverse\" Update - Available Now!",
-    "date": "2024-11-04",
-    "file": "release-notes/1_14_0_0_2024-11-04.md",
-    "url": "https://store.steampowered.com/news/app/1158310/view/4517765223386178179"
+    "title": "1.15.0.2",
+    "date": "2025-04-03",
+    "file": "release-notes/1_15_0_2_2025-04-03.md",
+    "url": "https://store.steampowered.com/news/app/1158310/view/509576775894827358"
   },
   "depots": {
     "1158311": {
-      "manifest": "5447949121280358195",
-      "updated": "2025-02-18T00:06:35.000Z"
+      "manifest": "5845374873349000647",
+      "updated": "2025-04-03T08:18:08.000Z"
     },
     "1158314": {
-      "manifest": "3668168501947052022",
-      "updated": "2025-02-18T17:13:30.000Z"
+      "manifest": "2850821683592820834",
+      "updated": "2025-04-03T08:20:26.000Z"
     },
     "1158317": {
-      "manifest": "1926323287839479739",
-      "updated": "2025-02-11T16:31:49.000Z"
+      "manifest": "4296939140740823198",
+      "updated": "2025-04-02T15:39:29.000Z"
     },
     "1296730": {
       "manifest": "4673314442703562503",
@@ -105,14 +105,19 @@
       "updated": "2024-11-07T13:13:38.000Z",
       "name": "Content Creator Pack: West Slavic Attire"
     },
+    "3315500": {
+      "manifest": "3777631396513271780",
+      "updated": "2025-03-03T13:37:02.000Z",
+      "name": "Crowns of the World"
+    },
     "3315540": {
-      "manifest": "1359283799129796893",
-      "updated": "2025-02-15T09:57:06.000Z",
+      "manifest": "4626049522195732303",
+      "updated": "2025-02-20T12:27:55.000Z",
       "name": "Content Creator Pack: Medieval Monuments"
     },
     "3315550": {
-      "manifest": "4965583263681570094",
-      "updated": "2025-02-15T09:57:09.000Z",
+      "manifest": "8598177750575428819",
+      "updated": "2025-02-20T12:27:57.000Z",
       "name": "Content Creator Pack: Arctic Attire"
     }
   }

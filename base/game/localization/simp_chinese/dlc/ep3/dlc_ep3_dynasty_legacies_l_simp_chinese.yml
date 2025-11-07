@@ -16,4 +16,4 @@
  ep3_administrative_legacy_4_effect_cabinet_of_curiosities_global: "解锁[GetDomicileBuilding('cabinet_of_curiosities_01').GetName][estate|E]建筑"
  ep3_administrative_legacy_5_name: "分而治之"
  ep3_administrative_legacy_track_effect_claimant_factions_global: "[vassals|E]和[noble_families|E]不太可能加入[claimant_factions|E]或使用[GetScheme('depose').GetTypeName][scheme|E]"
- ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "解锁[GetDecisionWithKey('mass_arrests_decision').GetName][decision|E]"
+ ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "解锁#high [GetPlayer.GetPlayerInteractionName('ep3_mass_arrests_interaction')]#![interaction|E]"

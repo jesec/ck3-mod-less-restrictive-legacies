@@ -2799,25 +2799,6 @@
  castle_my:0 "mój"
  encampment_my:0 "mój"
 
- #RarityAdjToSlotType
- slot_type_0:0 "[ROOT.Artifact.GetRarity]"
- slot_type_1:0 "[ROOT.Artifact.Custom('RarityAdjType1')]"
- slot_type_2:0 "[ROOT.Artifact.Custom('RarityAdjType2')]"
-
- #RarityAdjType1
- masterwork_type_1:0 "Mistrzowski"
- famed_type_1:0 "Słynny"
- illustrious_type_1:0 "Znamienity"
- legendary_type_1:0 "Legendarny"
- rare_type_1:0 "Rzadki"
-
- #RarityAdjType2
- masterwork_type_2:0 "Mistrzowskie"
- famed_type_2:0 "Słynne"
- illustrious_type_2:0 "Znamienite"
- legendary_type_2:0 "Legendarne"
- rare_type_2:0 "Rzadkie"
-
  #LEGACY_WARS
  WOJNIE:0 "[Concept( 'war', 'wojnie' )|E]"
  WOJNACH:0 "[Concept( 'war', 'wojnach' )|E]" 
@@ -3990,3 +3971,6 @@ game_concept_house_unity_possessive:0 "[Concept( 'house_unity', 'jedności rodu'
 #PL_GetCourtOrOfficerPositionConceptPlural
  officer_positions_pl:0 "[officers|E]"
  COURT_POSITION_PLURAL_pl:0 "$COURT_POSITION_PLURAL$"
+ recruit_guest_interaction_special_camp: "[Concept('camp', 'obozu')|E]"
+ recruit_guest_interaction_special_court: "[Concept('court', 'dworu')|E]"
+ ADVENTURER_SPECIAL: "[Character.Custom('GetGovernmentIcon')] [Concept('adventurer', 'Poszukiwacze przygód')|E]"

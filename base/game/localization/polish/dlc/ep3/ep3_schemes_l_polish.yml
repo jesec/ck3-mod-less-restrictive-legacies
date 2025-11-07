@@ -207,7 +207,7 @@
  #Dispute Border
  dispute_border: "Spór o granicę"
  dispute_border_action: "Spór o granicę z osobą, którą jest"
- dispute_border_desc: "Ziemie, którymi włada [SCHEME.GetTargetCharacter.GetShortUINameNotMeNoTooltip], przynależą do miejsca znanego jako [SCHEME.GetOwner.GetPrimaryTitle.GetNameNoTier], i byłyby one znacznie lepiej zarządzane przeze mnie…"
+ dispute_border_desc: "Ktoś #EMP mógłby#! powiedzieć, że te ziemie są częścią terenu znanego jako [SCHEME.GetOwner.GetPrimaryTitle.GetNameNoTier] – i że dużo lepiej prosperowałyby one pod moją pieczą…"
  dispute_border_desc_general: "„$dispute_border$” to [hostile_scheme|El], który ma na celu przeniesienie ziem pomiędzy [Concept('governorships', 'gubernatorstwami')|E]. Spisek opiera się na [Concept('diplomacy', 'dyplomacji')|E] oraz pozycji [Concept('house', 'rodu')|E] i można do niego werbować [Concept('agents', 'agentów')|E].\n\nUdany spisek „$dispute_border$” sprawi, że sąsiednie [county|El], którym włada [scheme_target|El], zostanie przeniesione."
  DISPUTE_BORDER_SUCCESS_DESC: "[county|E] należące do osoby, którą jest [TARGET_CHARACTER.GetShortUINameNotMe], zostaje przeniesione"
  dispute_border_invalidated_title: "@scheme_icon! Zakończono spisek „Spór o granicę”"
@@ -251,6 +251,7 @@
  start_dispute_border_interaction.tt.agent_focus_success: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$ [success_chance_max_i] [GetAgentSlotType( 'agent_intermediary' ).GetName]\n$EFFECT_LIST_BULLET$ [success_chance_max_i] [GetAgentSlotType( 'agent_proponent' ).GetName]\n$EFFECT_LIST_BULLET$ [success_chance_max_i] [GetAgentSlotType( 'agent_sycophant' ).GetName]\n$EFFECT_LIST_BULLET$ [scheme_speed_i] [GetAgentSlotType( 'agent_political_socialite' ).GetName]\n$EFFECT_LIST_BULLET$ [scheme_speed_i] [GetAgentSlotType( 'agent_bureaucrat' ).GetName]"
  start_dispute_border_interaction.tt.agent_focus_speed: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$ [success_chance_max_i] [GetAgentSlotType( 'agent_intermediary' ).GetName]\n$EFFECT_LIST_BULLET$ [success_chance_max_i] [GetAgentSlotType( 'agent_proponent' ).GetName]\n$EFFECT_LIST_BULLET$ [scheme_speed_i] [GetAgentSlotType( 'agent_political_socialite' ).GetName]\n$EFFECT_LIST_BULLET$ [scheme_speed_i] [GetAgentSlotType( 'agent_bureaucrat' ).GetName]\n$EFFECT_LIST_BULLET$ [scheme_speed_i] [GetAgentSlotType( 'agent_bureaucrat' ).GetName]"
  boundary_dispute_outcome_tt: "Jeśli się powiedzie, miejsce znane jako [target.GetName] zostanie przeniesione pod twoje władanie"
+ boundary_dispute_outcome_vassal_tt: "W przypadku powodzenia [recipient.GetShortUINameNotMe] zostanie twoim [Concept('vassal', 'wasalem')|E]"
  #Subsume Province
  subsume_province: "Włącz gubernatorstwo"
  subsume_province_action: "Dokonaj włączenia gubernatorstwa należącego do osoby, którą jest"

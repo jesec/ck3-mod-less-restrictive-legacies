@@ -16,4 +16,4 @@
  ep3_administrative_legacy_4_effect_cabinet_of_curiosities_global: "Открывает здание [Concept( 'estate', 'поместья' )|E] «[GetDomicileBuilding('cabinet_of_curiosities_01').GetName]»"
  ep3_administrative_legacy_5_name: "Разделяй и властвуй"
  ep3_administrative_legacy_track_effect_claimant_factions_global: "[Concept( 'vassals', 'Вассалы' )|E] и [Concept( 'noble_families', 'благородные семейства' )|E] с меньшей вероятностью примкнут к [Concept( 'claimant_factions', 'фракциям претендентов' )|E] или будут участвовать в [Concept( 'scheme', 'происках' )|E] «[GetScheme('depose').GetTypeName]»"
- ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "Открывает [decision|El] «[GetDecisionWithKey('mass_arrests_decision').GetName]»"
+ ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "Открывает [Concept('interaction', 'взаимодействие')|E] «#high [GetPlayer.GetPlayerInteractionName('ep3_mass_arrests_interaction')]#!»"

@@ -48,7 +48,7 @@
  fp3_antagonize_character_interaction.recipient_message.15: "[secondary_recipient.GetTitledFirstName] — замечательный человек. Не думаете ли вы, что вам стоит взглянуть на [Select_CString(secondary_recipient.IsFemale, 'нее', 'него' )] по-другому?"
  fp3_persian_struggle_previously_swayed_tt: "Ранее поколебались во время [Concept( 'persian_struggle', 'иранской интерлюдии' )|E]: $VALUE|=+0$"
  fp3_demand_submission_interaction: "Потребовать подчинения"
- fp3_demand_submission_interaction_desc: "Потребовать верности персонажа [recipient.GetShortUINameNoTooltip], опираясь на благочестие, коварство или устрашение."
+ fp3_demand_submission_interaction_desc: "Потребовать верности от персонажа [recipient.GetShortUINameNoTooltip] и получить [Concept('hook', 'рычаг влияния')|E] на него, опираясь на благочестие, коварство или устрашение."
  DEMAND_SUBMISSION_NOT_SAME_HEAD_OF_FAITH: "У вас разные [Concept( 'head_of_faith', 'главы конфессий' )|E]"
  DEMAND_SUBMISSION_I_AM_HEAD_OF_FAITH: "Я [recipient.GetShortUINamePossessive|U] [recipient.GetFaith.ReligiousHeadName]: $VALUE|=+0$"
  DEMAND_SUBMISSION_SHORT_REIGN: "[short_reign|E]: $VALUE|+0=-+$"

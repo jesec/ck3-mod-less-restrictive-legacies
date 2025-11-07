@@ -11,7 +11,7 @@
  court.7030.d.tt: "Expulsad a [foreign_merchant.GetFirstNameNoTooltip] de nuestro señorío y tomad lícitamente del oro que ha afanado a nuestros mercaderes!"
  ### Court Event 7040
  court.7040.title: "Pilar de la comunidad"
- court.7040.desc: "Me he dado cuenta de que mi [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] va y viene nerviosamente.\n\n«[chaplain.GetName], ¿qué os ocurre?».\n\n«Se trata de [ascetic.GetName], mi [ROOT.Char.GetLadyLord]. Se ha acostumbrado a subirse todas las mañanas a un pilar en el patio del palacio y pasar allí todo el día en tranquila contemplación. Rechaza la comida y la bebida y apenas habla cuando se le pregunta. Este tipo de prácticas ascéticas no son desconocidas, pero a algunos en vuestra corte les molesta y me piden que haga algo al respecto»."
+ court.7040.desc: "Me he dado cuenta de que mi [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName|l] va y viene nerviosamente por el salón.\n\n«[chaplain.GetName], ¿qué os ocurre?», pregunto.\n\n«Se trata de [ascetic.GetName], mi [ROOT.Char.GetLadyLord]. Se ha acostumbrado a subirse todas las mañanas a una columna del patio del palacio y a pasar allí todo el día en tranquila contemplación. Rechaza la comida y la bebida y apenas habla cuando se le pregunta. Este tipo de prácticas ascéticas no son desconocidas, pero a algunos de vuestra corte les molesta y me piden que haga algo al respecto»."
  court.7040.a: "No le hagáis caso; se le pasará antes o después."
  court.7040.b: "Llevad[ascetic.GetHerHim] ante [head_of_faith.Custom('ES_AlAla')] [head_of_faith.GetTitledFirstName|l], a ver qué se le ocurre."
  court.7040.c: "La piedad de [ascetic.GetName] es inspiradora, ¡imitaré su ejemplo!"

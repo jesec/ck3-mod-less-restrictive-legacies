@@ -1,5 +1,5 @@
 ﻿l_polish:
- language_generic_label_desc: "[language|E] dominujący danej [Concept( 'culture', 'kultury' )|E] obejmuje szeroki zakres dialektów, języków wernakularnych, kreolskich i pokrewnych języków mniejszościowych, które często (choć niekoniecznie) są wzajemnie dla danej populacji zrozumiałe lub łatwiejsze do nauczenia."
+ language_generic_label_desc: "[language|E] dominujący danej [culture_possessive|El] obejmuje szeroki zakres dialektów, języków wernakularnych, kreolskich i pokrewnych języków mniejszościowych, które często (choć niekoniecznie) są zrozumiałe lub łatwiejsze do nauczenia dla danej populacji."
  language_anglic_name: "Staroangielski"
  language_arabic_name: "Arabski"
  language_berber_name: "Berberyjski"

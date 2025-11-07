@@ -15,3 +15,5 @@
  I_HAVE_THIS_EDUCATION_FOCUS_DESCRIPTION: "#TUT_KW Masz już ten priorytet edukacji.#!"
  CHARACTER_CAN_CHOOSE_THIS_LIFESTYLE_FOCUS_DESCRIPTION: "#TUT_KW [CHARACTER.GetShortUINameNotMeNoTooltip] może zmienić priorytet stylu życia.#!"
  CHARACTER_CAN_CHOOSE_THIS_EDUCATION_FOCUS_DESCRIPTION: "#TUT_KW [CHARACTER.GetShortUINameNotMeNoTooltip] może zmienić priorytet edukacji.#!"
+ EDUCATION_FOCUS_BUTTON_TOOLTIP: "#T [FocusType.GetNameNoTooltip]\n#!#I Kliknij, aby wybrać#!"
+ EDUCATION_FOCUS_SELECTED_EMPTY_STATE: "Wybierz [education_focus|El] powyżej"

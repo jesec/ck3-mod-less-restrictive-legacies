@@ -801,6 +801,9 @@ discontent_soldiers = {
 	valid_to_continue = {
 		task_contract_taker = {
 			valid_governor_contract_trigger = yes
+			any_neighboring_and_across_water_realm_same_rank_owner = {
+				liege = root.liege
+			}
 		}
 	}
 
@@ -863,8 +866,10 @@ discontent_soldiers = {
 						value = minor_influence_gain
 						multiply = governance_task_contract_tier_value
 					}
-					reverse_add_opinion = {
-						target = scope:other_gov
+				}
+				var:other_gov ?= {
+					add_opinion = {
+						target = scope:task_contract.task_contract_taker
 						modifier = annoyed_opinion
 						opinion = -25
 					}

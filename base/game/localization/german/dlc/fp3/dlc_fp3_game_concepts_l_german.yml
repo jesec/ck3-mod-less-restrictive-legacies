@@ -29,7 +29,7 @@
  game_concept_fp3_install_loyalist_cb: "Unterstützer an die Macht verhelfen"
  game_concept_fp3_install_loyalist_cb_desc: "Erlaubt es, einen [war|E] zu führen, um einen [GetTrait('fp3_struggle_supporter').GetName(GetNullCharacter)] des Kalifats an die Spitze des Ziel-[Concept('realm', 'Reichs')|E] zu bringen"
  game_concept_fp3_demand_submission_interaction: "$fp3_demand_submission_interaction$"
- game_concept_fp3_demand_submission_interaction_desc: "Die Treue des Ziels durch Frömmigkeit, List oder Einschüchterung einfordern."
+ game_concept_fp3_demand_submission_interaction_desc: "Durch den Einsatz von Frömmigkeit, Gerissenheit oder Einschüchterung die Treue eines [Concept('character','Charakters')|E] verlangen."
  game_concept_fp3_request_house_unity_change_interaction: "$fp3_request_house_unity_change_interaction$"
  game_concept_fp3_request_house_unity_change_interaction_desc: "$fp3_request_house_unity_change_interaction_desc$"
  game_concept_fp3_request_honorary_titles_interaction: "$fp3_request_honorary_titles_interaction$"

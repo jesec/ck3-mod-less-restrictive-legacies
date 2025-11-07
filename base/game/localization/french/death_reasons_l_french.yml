@@ -45,7 +45,7 @@
  death_murder_killer: "a été assassiné[CHARACTER.Custom('FR_E')] par [TARGET_CHARACTER.Custom('FR_le_Char_U_P')][TARGET_CHARACTER.GetUIName]"
  death_siege: "a été tué[CHARACTER.Custom('FR_E')] durant un siège"
  death_duel: "a été tué[CHARACTER.Custom('FR_E')] dans un duel"
- death_duel_killer: "a été tué[CHARACTER.Custom('FR_E')] par [TARGET_CHARACTER.Custom('FR_le_Char_U_P')][TARGET_CHARACTER.GetUIName] dans un duel"
+ death_duel_killer: "a été tué[CHARACTER.Custom('FR_E')] dans un duel par [TARGET_CHARACTER.Custom('FR_le_Char_U_P')][TARGET_CHARACTER.GetUIName]"
  death_accident: "est mort[CHARACTER.Custom('FR_E')] dans un accident"
  death_accident_killer: "$death_murder_killer$"
  death_ended_on_feast_table: "a fini ses jours pendant un festin"

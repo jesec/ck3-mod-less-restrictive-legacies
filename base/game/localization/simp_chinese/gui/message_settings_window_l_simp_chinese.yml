@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
+ message_settings_tab_settings: "设置"
+ message_settings_tab_log: "消息日志"
  MESSAGE_SETTINGS_WINDOW_NAME: "消息设置"
  MESSAGE_SETTINGS_WINDOW_SHORTCUT_TT: "#I 点击打开消息设置#!"
  MESSAGE_SETTINGS_WINDOW_TT: "#T $MESSAGE_SETTINGS_WINDOW_NAME$#!\n按筛选组编辑信息的频率和可见度。"

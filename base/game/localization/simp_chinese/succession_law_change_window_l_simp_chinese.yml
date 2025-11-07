@@ -6,6 +6,7 @@
  SUCCESSION_LAW_CHANGE_WINDOW_CHANGE: "更改法律"
  SUCCESSION_LAW_CHANGE_WINDOW_CHOOSE_NEW: "可用的[SuccessionLawChangeWindow.GetLaws.GetLawGroup.GetName]"
  SUCCESSION_LAW_CHANGE_WINDOW_PARTITION_LAWS: "多个[realm_heirs|E]"
+ SUCCESSION_LAW_CHANGE_WINDOW_APPOINTMENT_LAWS: "任命继承制"
  SUCCESSION_LAW_CHANGE_WINDOW_SINGLE_HEIR_LAWS: "单个[realm_heir|E]"
  SUCCESSION_LAW_CHANGE_WINDOW_ENACT_COST: "花费：[SuccessionLawChangeWindow.GetSelectedLaw.GetShortCostString]"
  SUCCESSION_LAW_CHANGE_WINDOW_ENACT_COST_TOOLTIP: "#T 花费#!\n [SuccessionLawChangeWindow.GetSelectedLaw.GetCostDescription]"

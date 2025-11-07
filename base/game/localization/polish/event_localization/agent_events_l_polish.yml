@@ -33,7 +33,7 @@
  agent_events.0012.e.tt.become_lovers: "Początek czegoś więcej"
  agent_events.0012.e.tt.not_lovers: "$agent_events.0012.c.tt.failure$"
  agent_events.0021.t: "Nauka od najlepszych"
- agent_events.0021.desc.intro: "Zdaje się, że para moich wspólników, [char_1.GetTitledFirstName] i [char_2.GetTitledFirstName], znalazła wspólny cel wykraczający poza podstawowe założenia naszego planu.\n\n[char_2.GetFirstNameNoTooltip] jest wyraźnie pod wrażeniem"
+ agent_events.0021.desc.intro: "Zdaje się, że para moich wspólników, [char_1.GetTitledFirstName] i [char_2.GetTitledFirstName], znalazła wspólny cel wykraczający poza podstawowe założenia naszego planu.\n\n[char_2.GetTitledFirstName] jest pod wrażeniem"
  agent_events.0021.desc.diplomacy: "wprawy w posługiwaniu się słowem pisanym i mówionym, a także ogólnej erudycji,"
  agent_events.0021.desc.martial: "zmysłu logistycznego, siły woli i zdolności przywódczych,"
  agent_events.0021.desc.stewardship: "zdolności matematycznych i księgowych, a także skrupulatności,"

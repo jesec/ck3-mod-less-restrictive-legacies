@@ -88,6 +88,7 @@
  court_events.3100.a: "我想我应该开始学习。"
  court_events.3100.b: "[linguist.GetFirstNameNoTooltip]，教教我！"
  court_events.3100.c: "我没空听这些胡扯。"
+ court_events.3100.a.tt: "我发起以[chancellor.GetShortUIName]为目标的[GetScheme('learn_language').GetTypeName][scheme|E]，且拥有[GetModifier('pressured_to_learn_court_language_modifier').GetNameWithTooltip]修正"
  #The Best Builder
  court_events.3110.t: "最好的建造者"
  court_events.3110.desc: "“主上，”[steward.Custom2('MyCharacterIntroduction', ROOT.Char)]向我走来，[steward.GetHerHis]脸上流露出担忧。“我带来了令人不安的消息。”\n\n“[vassal.GetPrimaryTitle.GetBaseNameNoTier][vassal.GetTitledFirstName|U]一直在以惊人的方式建造[vassal.GetHerHis]的首府，以至于平民开始将其与[ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitly]相提并论，甚至敢指出后者的不足！”\n\n“恐怕，只有强大的实力展示才能挽回这个面子。”"

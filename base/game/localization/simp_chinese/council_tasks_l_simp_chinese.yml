@@ -464,3 +464,4 @@
  liege_stopped_converting_county_desc: "[councillor_liege.GetShortUINamePossessive]的[councillor.GetCouncilTitle]停止了将[county.GetName]的信仰[converting|E]为[councillor_liege.GetFaith.GetName]的工作#weak （[old_faith.GetAdjective]）#!"
  liege_converted_county_title: "领主转变了[county.GetNameNoTierNoTooltip|V]的信仰"
  liege_converted_county_desc: "[councillor_liege.GetShortUINamePossessive]的[councillor.GetCouncilTitle]使[county.GetName]的信仰[converted|E]为了[councillor_liege.GetFaith.GetName]#weak （[old_faith.GetAdjective]）#!"
+ steward_promote_culture_beth_nahrain: "在拜斯那赫林$task_promote_culture$"

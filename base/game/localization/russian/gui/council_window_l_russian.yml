@@ -77,3 +77,5 @@
  COURT_WINDOW_NO_GUESTS_OR_COURTIERS: "[CourtWindow.GetCourtOwner.Custom('GetNoGuestsOrNot')]"
  COURT_WINDOW_NO_COURTIERS: "[Concept( 'guests', 'Гости' )|E] и [CourtWindow.GetCourtOwner.Custom('GetCourtierConceptPlural')|l] отсутствуют. Скорее всего, они рано или поздно появятся. Вы можете подождать, или воспользуйтесь соответствующим решением и пригласите их."
  COURT_WINDOW_NO_FOLLOWERS: "В настоящий момент [CourtWindow.GetCourtOwner.Custom('GetCourtierConceptPlural')|l] недоступны"
+ COURT_WINDOW_NO_GUARDIAN: "Нет [Concept('guardian', 'опекуна')|E]"
+ COURT_WINDOW_NO_GUARDIAN_TOOLTIP: "Не выбран [Concept('guardian', 'опекун')|E] для обучения [Concept('child', 'ребенка')|E]"

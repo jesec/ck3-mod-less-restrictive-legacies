@@ -767,8 +767,8 @@
  #travel_events.4005
  maritime_trading_handbook: "Podręcznik handlu morskiego"
  maritime_trading_handbook_description: "Fachowo napisany podręcznik, którego przedmiotem jest [merchant_character_scope.GetCulture.GetName|l] wersja praktyk handlu morskiego."
- own_holy_text_mid: "[ROOT.Char.GetFaith.ReligiousText|U] zdobione klejnotami"
- own_holy_text_mid_description: "[ROOT.Char.GetFaith.ReligiousText|U] zdobione wysadzanymi kamieniami szlachetnymi."
+ own_holy_text_mid: "[root_scope.GetFaith.ReligiousText|U] zdobione klejnotami"
+ own_holy_text_mid_description: "[root_scope.GetFaith.ReligiousText|U] zdobione wysadzanymi kamieniami szlachetnymi."
  merchants_holy_text_mid: "[merchant_character_scope.GetFaith.ReligiousText|U] zdobione klejnotami"
  merchants_holy_text_mid_description: "[merchant_character_scope.GetFaith.ReligiousText|U] zdobione wysadzanymi kamieniami szlachetnymi."
  merchants_sword: "[merchant_character_scope.GetCulture.GetName] broń"

@@ -35,7 +35,7 @@
  bp1_yearly.1010.b: "Nie ma potrzeby tego robić."
  #A Friend till the End
  bp1_yearly.1020.t: "Przyjaci[Select_CString( friend.IsFemale, 'ółka', 'el' )] do końca"
- bp1_yearly.1020.desc_intro: "Gdy leżę na łóżku, [Select_CString( ROOT.Char.IsFemale, 'wykończona', 'wykończony' )] przez chorobę, przeklinając[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] swoje słabe, wątłe ciało, ledwo dostrzegam zbliżającą się sylwetkę. Jej powolne kroki i przemożne milczenie zaczynają mnie przerażać."
+ bp1_yearly.1020.desc_intro: "Gdy leżę na łóżku, przeklinając swoje słabe, wątłe ciało, ledwo dostrzegam zbliżającą się sylwetkę. Jej powolne kroki i przemożne milczenie zaczynają mnie przerażać."
  bp1_yearly.1020.desc: "\n\nMusi się domyślać mojego niepokoju przez nikły dźwięk mojego głosu i drżenie rąk, bo kroki przyspieszyły i wkrótce moja ręka poczuła ciepło dotyku, a przed oczami ukazała się znajoma twarz.\n\n„Ciii! [ROOT.Char.GetFirstNameNoTooltip], to tylko ja, [friend.GetFirstName]. To takie trudne patrzeć na ciebie w takim stanie… Chciał[Select_CString( friend.IsFemale, 'a', '' )]bym zrobić coś, #EMP cokolwiek#!, aby złagodzić twój ból”."
  bp1_yearly.1020.a: "Proszę, zostań ze mną…"
  bp1_yearly.1020.b: "Nie chcę, abyś widział[Select_CString( friend.IsFemale, 'a', '' )] mnie w takim stanie."
@@ -51,7 +51,7 @@
  bp1_yearly.1021.c: "Spoczywaj w pokoju, [friend.GetFirstNameNoTooltip], m[Select_CString( friend.IsFemale, 'oja najdroższa', 'ój najdroższy' )]."
  #Till the Bitter End
  bp1_yearly.1030.t: "Aż do gorzkiego końca"
- bp1_yearly.1030.desc: "\n\n„HA! Spójrz na siebie teraz! Już nie jesteś tak[Select_CString( ROOT.Char.IsFemale, 'a', 'i' )] straszn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], prawda? Czy ty mnie w ogóle rozpoznał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]ś? [ROOT.Char.Custom('InsultNoun')]! To ja, [rival.GetFirstName]! Nie mogę uwierzyć w swoje szczęście – tak długo marzył[Select_CString( rival.IsFemale, 'a', 'e' )]m, aby zobaczyć cię tak[Select_CString( ROOT.Char.IsFemale, 'ą przybitą i złamaną', 'iego przybitego i złamanego' )]!”\n\nZ trudem znajduję siłę, by wyszeptać: „Czy przysz[Select_CString( rival.IsFemale, 'łaś', 'edłeś' )] tylko po to, by się napawać?”"
+ bp1_yearly.1030.desc: "\n\n– Ha! Spójrz na siebie teraz! Już nie napawasz takim strachem, prawda? Czy ty mnie w ogóle rozpoznajesz? Co za [ROOT.Char.Custom('InsultNoun')]! To ja, [rival.GetFirstName]! Zobaczyć cię w tak podłym stanie było moim marzeniem od dawna!"
  bp1_yearly.1030.desc_nemesis: "\n\n„Nie, nie miał[Select_CString( nemesis.IsFemale, 'a', 'e' )]m” – odpowiada. Nie zdążam nawet zarejestrować niebezpiecznego błysku w [nemesis.GetHerHis] oczach, zanim [nemesis.GetFirstNameNoTooltip] znajdzie się przy moim łóżku, z lodowatym uśmiechem na twarzy."
  bp1_yearly.1030.desc_nemesis_guard: "Tracę wszelką nadzieję, gdy do sali wpada [GetCourtPositionType('bodyguard_court_position').GetName()] [guard.GetFirstName]!"
  bp1_yearly.1030.desc_nemesis_no_guard: "Próbuję się ruszyć, uciec, krzyczeć, #EMP cokolwiek#!, ale moje wątłe ciało już dawno przestało mnie słuchać…"

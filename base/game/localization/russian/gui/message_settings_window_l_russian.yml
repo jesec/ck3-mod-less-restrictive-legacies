@@ -1,4 +1,6 @@
 ﻿l_russian:
+ message_settings_tab_settings: "Настройки"
+ message_settings_tab_log: "Журнал сообщений"
  MESSAGE_SETTINGS_WINDOW_NAME: "Настройки сообщений"
  MESSAGE_SETTINGS_WINDOW_SHORTCUT_TT: "#I Щелкните, чтобы открыть настройки сообщений#!"
  MESSAGE_SETTINGS_WINDOW_TT: "#T $MESSAGE_SETTINGS_WINDOW_NAME$#!\nИзменить частоту и условия вывода сообщений по группам."

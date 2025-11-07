@@ -89,3 +89,6 @@
  is_title_created_first: "[Concept('title','Титул')|E] уже создан"
  is_title_created_third: "[Concept('title','Титул')|E] уже создан"
  is_title_created_global: "[Concept('title','Титул')|E] уже создан"
+ capital_county_equal_first: "[TARGET_TITLE.GetNameNoTier] — ваша [Concept('capital', 'столица')|E]"
+ capital_county_equal_third: "[TARGET_TITLE.GetNameNoTier] — [Concept('capital', 'столица')|E] [Select_CString(CHARACTER.IsLocalPlayer, 'вашей державы', Concatenate('державы персонажа ',CHARACTER.GetShortUIName))]"
+ capital_county_equal_global: "[TARGET_TITLE.GetNameNoTier] — [Concept('capital', 'столица')|E]"

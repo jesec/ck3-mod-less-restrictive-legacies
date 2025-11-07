@@ -160,6 +160,11 @@ window = {
 				alwaystransparent = yes
 			}
 
+			blockoverride "horizontal_slots"
+			{
+				maxhorizontalslots = 4
+			}
+
 			blockoverride "bottom_right_box"
 			{
 				hbox = {
@@ -175,7 +180,6 @@ window = {
 						enabled = "[Not( PotentialCouncillorWindow.HasPendingInteraction( CharacterListItem.GetCharacter ) )]"
 
 						text = "POTENTIAL_COUNCILLOR_REASSIGN"
-						default_format = "#high"
 
 						tooltip = "[CharacterListItem.GetText('assign_tooltip')]"
 						using = tooltip_below
@@ -189,7 +193,6 @@ window = {
 						enabled = "[And( PotentialCouncillorWindow.CanFireCouncillor, Not( PotentialCouncillorWindow.HasPendingInteraction( CharacterListItem.GetCharacter ) ) )]"
 
 						text = "POTENTIAL_COUNCILLOR_ASSIGN"
-						default_format = "#high"
 
 						using = tooltip_below
 						tooltip = "[Select_CString( PotentialCouncillorWindow.CanFireCouncillor, CharacterListItem.GetText('assign_tooltip'), PotentialCouncillorWindow.GetFireCouncillorTooltip )]"
@@ -201,7 +204,6 @@ window = {
 						onclick = "[CharacterListItem.OnClick('swap_position')]"
 
 						text = "POTENTIAL_COUNCILLOR_SWAP"
-						default_format = "#high"
 
 						using = tooltip_below
 						tooltip = "[CharacterListItem.GetText('swap_tooltip')]"

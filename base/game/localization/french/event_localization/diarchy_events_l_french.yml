@@ -21,7 +21,7 @@
  diarchies.0000.diarch_mandate_fail.tt.obtain_gold.self: "[diarch.Custom('FR_IlElle')|U] a essayé d’obtenir de l’[gold|El] pour [diarch.Custom('FR_LuiElle')]-même"
  diarchies.0000.diarch_mandate_fail.tt.acquire_character.liege: "[diarch.Custom('FR_IlElle')|U] a essayé de vous obtenir un [courtier|El]"
  diarchies.0000.diarch_mandate_fail.tt.acquire_character.self: "[diarch.Custom('FR_IlElle')|U] a essayé d’obtenir la loyauté d’un [character|El] pour [diarch.Custom('FR_LuiElle')]-même"
- diarchies.0000.diarch_mandate_fail.tt.acquire_troops.liege: "[diarch.Custom('FR_IlElle')|U] a essayé de vous trouver des soldats"
+ diarchies.0000.diarch_mandate_fail.tt.acquire_troops.liege: "[diarch.Custom('FR_IlElle')|U] a essayé d'acquérir vos soldats"
  diarchies.0000.diarch_mandate_fail.tt.acquire_troops.split: "[diarch.Custom('FR_IlElle')|U] a essayé de trouver des soldats pour vous deux"
  diarchies.0000.diarch_mandate_fail.tt.affect_contract.liege: "[diarch.Custom('FR_IlElle')|U] a essayé de modifier avantageusement le [vassal_contract|El] d’un [vassal|El] pour vous"
  diarchies.0000.diarch_mandate_fail.tt.harass_peasants.liege: "[diarch.Custom('FR_IlElle')|U] a essayé d’obtenir des ressources de la paysannerie"

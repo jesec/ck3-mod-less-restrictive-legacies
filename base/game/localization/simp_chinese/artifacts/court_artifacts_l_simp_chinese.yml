@@ -376,7 +376,7 @@
  artifact_book_other_desc_3: "一部[ROOT.Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]的著作，全面讨论了[ROOT.Artifact.GetFeatureText( 'book_topic' )]，装帧和插图[ROOT.Artifact.GetOwner.Custom('ArtifactAdverbWealth')]。"
  artifact_book_other_desc_4: "一本[ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]的书，详细叙述了[ROOT.Artifact.GetFeatureText( 'book_topic' )]，展现出对于[ROOT.Artifact.GetFeatureText( 'book_subject' )][ROOT.Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]的理解。"
  artifact_book_other_desc_5: "一份[ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]的手抄本，[ROOT.Artifact.GetOwner.Custom('ArtifactBookContentQuality')]地详述了[ROOT.Artifact.GetFeatureText( 'book_topic' )]。书页的装饰十分之多，包括有许多插图，那些巨大的蜗牛尤其引人注意。"
- artifact_book_no_preface_desc: "[ROOT.Artifact.GetFeatureText( 'book_topic' )]"
+ artifact_book_no_preface_desc: "[ROOT.Artifact.GetFeatureText( 'book_topic' )|U]。"
  feature_book_cover_material_wood: "木板"
  feature_book_cover_material_leather: "皮革"
  feature_book_cover_material_velvet: "天鹅绒"

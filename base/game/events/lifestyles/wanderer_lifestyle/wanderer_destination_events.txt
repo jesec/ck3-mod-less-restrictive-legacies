@@ -52,6 +52,13 @@ destination_events.10 = { # A good Caravan Master for hire
 
 	immediate = {
 		if = {
+			limit = { employs_court_position = travel_leader_court_position }
+			random_court_position_holder = {
+				limit = { has_court_position = travel_leader_court_position }
+				save_scope_as = current_travel_leader
+			}
+		}
+		if = {
 			limit = {
 				NOT = { exists = scope:provider_character }
 			}
@@ -85,9 +92,19 @@ destination_events.10 = { # A good Caravan Master for hire
 		name = destination_events.10.a
 		remove_short_term_gold = tiny_gold_value
 		custom_tooltip = destination_events.10.a.tt
-		appoint_court_position = {
-			recipient = scope:travel_leader_character
-			court_position = travel_leader_court_position
+		if = {
+			limit = { employs_court_position = travel_leader_court_position }
+			replace_court_position = {
+				recipient = scope:travel_leader_character
+				holder = scope:current_travel_leader
+				court_position = travel_leader_court_position
+			}
+		}
+		else = {
+			appoint_court_position = {
+				recipient = scope:travel_leader_character
+				court_position = travel_leader_court_position
+			}
 		}
 		stress_impact = {
 			paranoid = minor_stress_gain

@@ -63,4 +63,4 @@
  ep3_laamps_provisions.1080.c: "航向陆地，#EMP 马上#!！"
  ep3_laamps_provisions.1080.c.tt: "你的[travel|E]会被取消，并改道前往[landfall.GetBaronyNameExplicitly]（[landfall.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetName]）"
  critically_low_provisions_alert: "补给极低"
- critically_low_provisions_alert_desc: "你的补给就要见底了！"
+ critically_low_provisions_alert_desc: "你的[provisions|E]就要见底了！"

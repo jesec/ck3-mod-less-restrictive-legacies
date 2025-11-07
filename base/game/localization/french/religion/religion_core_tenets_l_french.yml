@@ -104,6 +104,7 @@
  tenet_struggle_submission_desc: "La volonté divine est la source de tout bien, donc une bonne existence repose sur la soumission à cette volonté, exprimée à travers la lutte pour la mettre en œuvre."
  doctrine_parameter_bonus_holy_war_piety_active: "La [piety|El] et la [piety_experience|El] des [holy_wars|El] victorieuses sont augmentées de #P 50%#!"
  tenet_religious_legal_pronouncements_name: "Loi religieuse"
+ tenet_religious_legal_pronouncements_hisbah: "Hisba"
  tenet_religious_legal_pronouncements_fatwa: "Fatwa"
  tenet_religious_legal_pronouncements_halakha: "Halakha"
  tenet_religious_legal_pronouncements_desc: "La frontière entre les arguments théologiques et juridiques est mince et les qualités spirituelles peuvent et doivent être prises en compte dans le monde laïque."
@@ -323,7 +324,7 @@
  tenet_fp3_fedayeen_name: "Fedayin"
  tenet_fp3_sacred_murder_name: "Meurtre sacré"
  tenet_fp3_fedayeen_desc: "Quand nous n’arrivons pas à nos fins par la guerre ouverte, nous devons [ROOT.Faith.HighGodName2] de détruire Ses ennemis par l’infiltration et la tromperie. Nous ne devons craindre ni la mort ni la douleur, et nous réjouir de donner notre vie pour la plus grande des causes."
- doctrine_parameter_master_assassin_court_position_unlocked: "Déverrouille le [court_position|El] de [master_assassin|El] "
+ doctrine_parameter_master_assassin_court_position_unlocked: "Débloque le [court_position|El] #V [GetCourtPositionType( 'master_assassin_court_position' ).GetName()]#!"
  doctrine_parameter_death_is_glory: "Probabilité de mourir ou d’être blessé à la [battle|El] : #N +10%#!"
  doctrine_parameter_sanctioned_assassinations: "Aucune perte de [piety|El] pour le meurtre de personnages d’une [faith|El] différente, grâce aux [schemes|El] visant à [GetScheme('murder').GetActionName|l]"
  #EP3 Tenets

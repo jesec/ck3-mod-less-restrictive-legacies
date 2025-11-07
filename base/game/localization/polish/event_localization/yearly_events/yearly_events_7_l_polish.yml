@@ -39,7 +39,7 @@
  yearly.7005.independence_faction: "\n\n– Jeśli nie mogę mieć swojego państwa, przynajmniej muszę zostać główną postacią własnej tragedii."
  yearly.7005.claimant_faction: "– Nie masz prawa gnić na tym tronie. Wolę umrzeć, niż patrzeć, jak ogłaszasz z niego jeszcze jeden fałszywy dekret."
  yearly.7005.populist_faction: "– Doprawdy smuci mnie, że nie mogę zapewnić ci sprawiedliwszej śmierci niż męki wszystkich tych, których zgnieciono pod twoim butem. Przynajmniej mój koniec będzie bohaterski."
- yearly.7005.weapon: "\n\nWtem wyciąga ukrytą broń – to [coup_leader.Custom('SignatureWeaponNameOrType')] – i rzuca się do przodu."
+ yearly.7005.weapon: "\n\nWtem wyciąga ukryty sztylet i rzuca się do przodu."
  yearly.7005.single_death: "Za jednym straszliwym pchnięciem trafia osobę, którą jest [first_character_kill.GetTitledFirstName],"
  yearly.7005.double_death: "Wybuchając gwałtownie, uderza osoby, którymi są [first_character_kill.GetTitledFirstName] i [second_character_kill.GetTitledFirstName],"
  yearly.7005.triple_death: "Ku przerażeniu wszystkich postać dopuszcza się gwałtownego ataku, którego ofiarami padają [first_character_kill.GetTitledFirstName], [second_character_kill.GetTitledFirstName] i [third_character_kill.GetTitledFirstName]."

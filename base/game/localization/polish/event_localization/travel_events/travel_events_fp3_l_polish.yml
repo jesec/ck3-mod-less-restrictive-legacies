@@ -96,7 +96,7 @@
  travel_events_fp3.0040.e: "Niech pokaże nam, jak to się u nich robi."
  ### Tomb Raiders
  travel_events_fp3.0050.t: "Łupieżcy grobowców"
- travel_events_fp3.0050.desc.intro: "Na swojej drodze natrafiamy na grupę pokrytych kurzem ludzi wyłaniających się z ruin, które niegdyś musiały być imponującym grobowcem.\nŁupieżcy wynoszą z wnętrza budowli jutowe worki brzęczące od wykradzionych bibelotów.\n\n– Nastały ciężkie czasy. My musimy wyżywić nasze rodziny, a martwym dobra materialne nie są już potrzebne. [ROOT.Char.GetTitleAsNameNoTooltip] zapewne to zrozumie?\n\nOsoba przewodząca grabieżcom patrzy na nas z pewnym niepokojem – doskonale wie, że sytuacja nie wygląda dla nich najlepiej."
+ travel_events_fp3.0050.desc.intro: "Na swojej drodze natrafiamy na grupę pokrytych kurzem ludzi wyłaniających się z ruin, które niegdyś musiały być imponującym grobowcem. Łupieżcy wynoszą z wnętrza starożytnej budowli jutowe worki brzęczące od wykradzionych bibelotów.\n\n– Nastały ciężkie czasy. [ROOT.Char.GetTitleAsNameNoTooltip|U] zapewne to rozumie. Musimy wyżywić nasze rodziny, a to, co robimy, nie wyrządza krzywdy nikomu z żyjących."
  travel_events_fp3.0050.a: "Nie ma przyszłości dla tych, co naruszają przeszłość."
  travel_events_fp3.0050.b: "[ROOT.Char.GetTitleAsNameNoTooltip] zasługuje na część łupów!"
  travel_events_fp3.0050.b.entourage: "[entourage_helper.GetName], osoba towarzysząca ci w podróży, dokonuje wraz z tobą oględzin łupów."
@@ -104,4 +104,4 @@
  travel_events_fp3.0050.b.success.tooltip: "Zdobywasz starożytny skarb"
  travel_events_fp3.0050.b.failure.desc: "Nic specjalnego nie rzuca ci się w oczy"
  travel_events_fp3.0050.b.failure.t: "Zdobywasz kilka cennych świecidełek"
- travel_events_fp3.0050.c: "Ci ludzie są zdesperowani. Jeśli oddadzą łupy, wynagrodzę im to."
+ travel_events_fp3.0050.c: "Nie mam czasu dla wieśniaków."

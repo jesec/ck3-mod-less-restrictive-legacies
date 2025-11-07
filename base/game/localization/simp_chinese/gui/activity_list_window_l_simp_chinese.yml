@@ -1,5 +1,6 @@
 ﻿l_simp_chinese:
  ACTIVITY_LIST: "活动"
+ ACTIVITY_LIST_GROUP_HEADER: "$NAME$#weak （$SIZE$）#!"
  ACTIVITY_LIST_NO_ONGOING_ACTIVITY: "#weak 你没有正在进行的[activities|E]\n你可以举办[AddTextIf(HasDlcFeature('advanced_activities'), '或参加')]活动#!"
  ACTIVITY_CURRENT_HEADER: "当前[activity|E]"
  ACTIVITY_LIST_INVOLVED_ACTIVITY: "你正在[activity_attending|E][Activity.GetName]"
@@ -22,7 +23,7 @@
  ACTIVITY_BASE_COST: "正常花费：[ActivityType.GetUiPredictedCost( GetPlayer )|U]"
  ACTIVITY_BASE_COST_TT: "#T 平均花费#!\n[ActivityType.GetLocalizedText( 'predicted_cost' )]"
  ACTIVITY_JOIN_ALREADY_STARTED: "@warning_icon! #X [Activity.GetName]已经在进行中#!"
- SHOW_ACTIVITY_TOOLTIP: "#T [ActivityType.GetNameNoTooltip]#!\n[JoinText( '\n', ActivityType.GetCanStartActivityTooltip( GetPlayer ), ActivityType.GetLocalizedText( 'selection_tooltip' ) )]\n\n#I 点击选择#!"
+ SHOW_ACTIVITY_TOOLTIP: "#T [ActivityType.GetNameNoTooltip]#!\n[JoinText( '\n', ActivityType.GetCanPlanActivityTooltip( GetPlayer ), ActivityType.GetLocalizedText( 'selection_tooltip' ) )]\n\n#I 点击选择#!"
  JOIN_ACTIVITY_TOOLTIP: "#T [Activity.GetNameNoTooltip]#!\n\n#I 点击选择#!"
  ACTIVITY_LIST_DETAIL_HOST_TITLE: "举办[ActivityType.GetLocalizedText( 'host_an_a' )]场[ActivityType.GetNameNoTooltip]" #We added the an/a for English readability, doesn't necessarily need a translation to other languages
  ACTIVITY_LIST_DETAIL_DESC: "[ActivityType.GetDescription]"

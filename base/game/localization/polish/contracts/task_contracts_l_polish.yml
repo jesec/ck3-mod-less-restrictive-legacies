@@ -494,7 +494,7 @@
  laamp_join_war_contract_attacker_win: "wygrywa"
  laamp_join_war_contract_attacker_lose: "przegrywa"
  laamp_join_war_contract.valid_war: "Wojna już się zakończyła"
- join_war_contract_spawn.t: "Nowy [task_contract|El]: „$laamp_join_war_contract_contract$”"
+ join_war_contract_spawn.t: "Nowy kontrakt: stanięcie po naszej stronie"
  join_war_contract_spawn.desc_attacker: "Osoba znana jako [attacker.GetShortUINameNotMe] wystawiła [task_contract|El] na przystąpienie do wojny o nazwie [war.GetName] przeciwko osobie, którą jest [defender.GetShortUINameNotMe]"
  join_war_contract_spawn.desc_defender: "Osoba znana jako [defender.GetShortUINameNotMe] wystawiła [task_contract|El] na przystąpienie do wojny o nazwie [war.GetName] przeciwko osobie, którą jest [attacker.GetShortUINameNotMe]"
  laamp_raid_contract_request: "$laamp_request_boilerplate_warfare$"

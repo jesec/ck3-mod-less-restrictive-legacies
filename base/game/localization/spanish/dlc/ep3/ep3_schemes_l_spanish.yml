@@ -207,7 +207,7 @@
  #Dispute Border
  dispute_border: "Disputa fronteriza"
  dispute_border_action: "Disputa fronteriza con"
- dispute_border_desc: "Las tierras de [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] pertenecen a [SCHEME.GetOwner.GetPrimaryTitle.GetNameNoTier] y estarían mejor si las administrase yo…"
+ dispute_border_desc: "Alguien #EMP podría#! decir que estas tierras pertenecen a [SCHEME.GetOwner.GetPrimaryTitle.GetNameNoTier] y estarían mejor si las administrase yo…"
  dispute_border_desc_general: "$dispute_border$ es una [hostile_scheme|lE] que busca transferir tierras entre [governorships|lE]. Se basa en [diplomacy|lE] y la posición de la [house|lE] y puede reclutar [agents|lE].\n\nUna $dispute_border$ exitosa hará que un [county|lE] se transfiera del [scheme_target|lE]."
  DISPUTE_BORDER_SUCCESS_DESC: "El [county|lE] de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu gobernación', TARGET_CHARACTER.GetShortUIName )] se transfiere"
  dispute_border_invalidated_title: "@scheme_icon! La conjura de la disputa fronteriza termina"
@@ -251,6 +251,7 @@
  start_dispute_border_interaction.tt.agent_focus_success: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[GetAgentSlotType( 'agent_intermediary' ).GetName] [success_chance_max_i]\n$EFFECT_LIST_BULLET$[GetAgentSlotType( 'agent_proponent' ).GetName] [success_chance_max_i]\n$EFFECT_LIST_BULLET$[GetAgentSlotType( 'agent_sycophant' ).GetName] [success_chance_max_i]\n$EFFECT_LIST_BULLET$[GetAgentSlotType( 'agent_political_socialite' ).GetName] [scheme_speed_i]\n$EFFECT_LIST_BULLET$[GetAgentSlotType( 'agent_bureaucrat' ).GetName] [scheme_speed_i]"
  start_dispute_border_interaction.tt.agent_focus_speed: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[GetAgentSlotType( 'agent_intermediary' ).GetName] [success_chance_max_i]\n$EFFECT_LIST_BULLET$[GetAgentSlotType( 'agent_proponent' ).GetName] [success_chance_max_i]\n$EFFECT_LIST_BULLET$[GetAgentSlotType( 'agent_political_socialite' ).GetName] [scheme_speed_i]\n$EFFECT_LIST_BULLET$[GetAgentSlotType( 'agent_bureaucrat' ).GetName] [scheme_speed_i]\n$EFFECT_LIST_BULLET$[GetAgentSlotType( 'agent_bureaucrat' ).GetName] [scheme_speed_i]"
  boundary_dispute_outcome_tt: "Si tiene éxito, se te transferirá [target.GetName]"
+ boundary_dispute_outcome_vassal_tt: "Si tiene éxito, [recipient.GetShortUIName] se convertirá en tu [Concept('vassal', Select_CString(recipient.IsFemale, 'vasalla', 'vasallo' ) )|E]"
  #Subsume Province
  subsume_province: "Subsumir gobernación"
  subsume_province_action: "Subsumir gobernación de"

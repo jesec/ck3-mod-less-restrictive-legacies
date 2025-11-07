@@ -37,7 +37,7 @@
  yearly.4031.tt: "Se inicia una investigación"
  yearly.4031.b: "Enterremos el cuerpo y olvidémonos de esta locura."
  yearly.4031.b_every_courtier: "Todos los cortesanos"
- yearly.4031.c: "Como médico de mi corte, debes examinar los cuerpos."
+ yearly.4031.c: "Como médico mío, deberíais examinar los cuerpos."
  yearly.4061.t: "Un loco sabio"
  yearly.4061.desc_opening: "«Me llamo [hodja.GetTitledFirstName|l], mi [ROOT.Char.GetLadyLord]. Vengo a vos a ofreceros mi sabiduría».\n\n"
  yearly.4061.desc_guard: "[guard.Custom2('MyCharacterIntroduction', ROOT.Char)|U], que ha traído al hombre ante mí, muestra cierto escepticismo."

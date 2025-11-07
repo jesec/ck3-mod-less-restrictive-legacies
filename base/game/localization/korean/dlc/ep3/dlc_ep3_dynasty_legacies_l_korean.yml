@@ -16,4 +16,4 @@
  ep3_administrative_legacy_4_effect_cabinet_of_curiosities_global: "[GetDomicileBuilding('cabinet_of_curiosities_01').GetName] [estate|E] 건물을 잠금 해제함"
  ep3_administrative_legacy_5_name: "디바이드 앤 룰"
  ep3_administrative_legacy_track_effect_claimant_factions_global: "[vassals|E]과 [noble_families|E]이 [claimant_factions|E]에 가담하거나 [GetScheme('depose').GetTypeName] [scheme|E]을 사용할 확률이 줄어듦"
- ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "[GetDecisionWithKey('mass_arrests_decision').GetName] [decision|E] 잠금 해제"
+ ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "#high [GetPlayer.GetPlayerInteractionName('ep3_mass_arrests_interaction')]#! [interaction|E] 잠금 해제"

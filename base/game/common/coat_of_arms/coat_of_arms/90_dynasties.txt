@@ -14578,3 +14578,14 @@ vanity_ronnback = c_oland
 vanity_lager = k_maghreb
 
 house_dreux = 86
+
+house_vermandois = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_checkers_08.dds"
+		color1 = "blue"
+		color2 = "yellow"
+	}
+}

@@ -35,7 +35,7 @@
  bp1_yearly.1010.b: "C’est inutile."
  #A Friend till the End
  bp1_yearly.1020.t: "Amis jusqu’au bout"
- bp1_yearly.1020.desc_intro: "Alors que je suis alité[ROOT.Char.Custom('FR_E')], perclus[ROOT.Char.Custom('FR_E')] et maudissant mon corps défaillant, j’arrive à peine à discerner la silhouette qui s’approche. Ses pas lents et son silence pesant commencent à m’effrayer."
+ bp1_yearly.1020.desc_intro: "Alors que je suis alité[ROOT.Char.Custom('FR_E')], et maudissant mon corps défaillant, j’arrive à peine à discerner la silhouette qui s’approche. Ses pas lents et son silence pesant commencent à m’effrayer."
  bp1_yearly.1020.desc: "\n\nCette personne a dû deviner mon malaise aux murmures qui franchissent mes lèvres et aux mouvements saccadés de mes mains, car ses pas se font plus rapides ; bientôt, une main chaleureuse vient serrer la mienne et je vois enfin son visage.\n\n« Calmez-vous, [ROOT.Char.GetFirstNameNoTooltip], ce n’est que moi, [friend.GetFirstName]. Quel malheur de vous voir ainsi. J’aimerais tant pouvoir faire quelque chose, n’importe quoi, pour soulager vos peines. »"
  bp1_yearly.1020.a: "Je vous en prie, restez avec moi."
  bp1_yearly.1020.b: "Je ne veux pas que vous me voyiez ainsi."
@@ -51,7 +51,7 @@
  bp1_yearly.1021.c: "Reposez en paix, ch[friend.Custom('FR_ErEre')] [friend.GetFirstNameNoTooltip]."
  #Till the Bitter End
  bp1_yearly.1030.t: "Jusqu’au bout"
- bp1_yearly.1030.desc: "\n\n« HA ! Regardez-vous donc ! Vous n’êtes plus si redoutable, à présent. M’avez-vous seulement reconnu[rival.Custom('FR_E')], [ROOT.Char.Custom('InsultNoun')] [ROOT.Char.Custom('InsultAdjective')] ? C’est moi, [rival.GetFirstName] ! Je n’en reviens pas ! J’ai tant espéré l’instant où je vous verrais dans un tel état, et voici tous mes vœux exaucés ! »\n\nJ’ai à peine la force de murmurer « Êtes-vous venu[rival.Custom('FR_E')] seulement pour jubiler ? »"
+ bp1_yearly.1030.desc: "\n\n« HA ! Regardez-vous donc ! Vous n’êtes plus si redoutable, à présent. M’avez-vous seulement reconnu[rival.Custom('FR_E')], [ROOT.Char.Custom('InsultNoun')] [ROOT.Char.Custom('InsultAdjective')] ? C’est moi, [rival.GetFirstName] ! J’ai tant espéré l’instant où je vous verrais dans un tel état ! »"
  bp1_yearly.1030.desc_nemesis: "\n\n« Non, » répond-[nemesis.GetSheHe]. Avant que je puisse discerner la lueur mauvaise tapie dans son regard, [nemesis.GetSheHe] se porte à mon chevet, arborant un rictus glacial."
  bp1_yearly.1030.desc_nemesis_guard: "Alors que je ne l’espérais plus, mon [GetCourtPositionType('bodyguard_court_position').GetName()|l], [guard.GetFirstName], se rue dans la pièce !"
  bp1_yearly.1030.desc_nemesis_no_guard: "Je tente de bouger, de fuir, de hurler, #EMP n’importe quoi#!, mais mon corps a depuis longtemps cessé de m’obéir."

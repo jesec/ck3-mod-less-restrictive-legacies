@@ -39,7 +39,7 @@
  yearly.7005.independence_faction: "\n\n“就算我不能拥有属于自己的国家，也至少要成为自己悲剧中的英雄。”"
  yearly.7005.claimant_faction: "“你无权坐在御座上。我宁愿死也不想看到你坐在宝座上一次又一次地发出伪旨。”"
  yearly.7005.populist_faction: "“我很痛苦，我发誓，我不得不给你一个比那些被你踩在脚下的人更公平的死法。至少我会作为英雄而死。”"
- yearly.7005.weapon: "\n\n[coup_leader.GetSheHe|U]拔出藏在身上的[coup_leader.Custom('SignatureWeaponNameOrType')]，冲上前来。"
+ yearly.7005.weapon: "\n\n[coup_leader.GetSheHe|U]拔出藏在身上的匕首，冲上前来。"
  yearly.7005.single_death: "一招惊人的爆发，[coup_leader.GetSheHe]击中了[first_character_kill.GetTitledFirstName]，"
  yearly.7005.double_death: "两招过后，[coup_leader.GetSheHe]击中了[first_character_kill.GetTitledFirstName]和[second_character_kill.GetTitledFirstName]，"
  yearly.7005.triple_death: "让大家恐惧的是，[coup_leader.GetSheHe]接连命中[first_character_kill.GetTitledFirstName]、[second_character_kill.GetTitledFirstName]和[third_character_kill.GetTitledFirstName]，"

@@ -42,7 +42,6 @@
  marshal_task.1102.a: "Mes sujets peuvent toujours se sentir en sécurité."
  marshal_task.1102.notification: "Augmentation de la présence militaire"
  marshal_task.1103.notification: "Levées préparées pour la bataille"
- #### END (Jonas W)
  marshal_task.2001.t: "Commandant blessé"
  marshal_task.2001.opening: "Au cours d’un duel d’entraînement, [commander.Custom('FR_le_Char_Pi')][commander.GetTitledFirstName] a été blessé[commander.Custom('FR_E')] !"
  marshal_task.2001.ending: "\n\nMon [councillor.GetCouncilTitle|l] [councillor.Custom('FR_le_Char_Pi')][councillor.GetTitledFirstName] a réussi à arrêter le saignement, mais il faudra un certain temps avant que [commander.GetFirstName] ne récupère."

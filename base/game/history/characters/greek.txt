@@ -16952,24 +16952,24 @@
 	culture = "greek"
 	trait = education_martial_2
 	811.1.1 = {
-		birth = "811.1.1"
+		birth = yes
 	}
-	872.1.1 = {
-		death = "872.1.1"
+	852.1.1 = {
+		death = yes
 	}
 }
 
 145130 = {
-	name = "Marinos"
+	name = "Marianos"
 	dynasty = 644
 	religion = "orthodox"
 	culture = "greek"
 	trait = education_martial_2
-		father = 145129
+	father = 145129
 	838.1.1 = {
-		birth = "838.1.1"
+		birth = yes
 	}
-	852.1.1 = {
+	872.1.1 = {
 		death = yes
 	}
 }

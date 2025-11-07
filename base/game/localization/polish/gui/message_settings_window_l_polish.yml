@@ -1,4 +1,6 @@
 ﻿l_polish:
+ message_settings_tab_settings: "Ustawienia"
+ message_settings_tab_log: "Rejestr wiadomości"
  MESSAGE_SETTINGS_WINDOW_NAME: "Ustawienia wiadomości"
  MESSAGE_SETTINGS_WINDOW_SHORTCUT_TT: "#I Kliknij, aby otworzyć ustawienia wiadomości#!"
  MESSAGE_SETTINGS_WINDOW_TT: "#T $MESSAGE_SETTINGS_WINDOW_NAME$#!\nZmień częstotliwość i widoczność wiadomości według filtrowanych grup."

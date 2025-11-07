@@ -1,4 +1,6 @@
 ﻿l_korean:
+ message_settings_tab_settings: "설정"
+ message_settings_tab_log: "메시지 로그"
  MESSAGE_SETTINGS_WINDOW_NAME: "메시지 설정"
  MESSAGE_SETTINGS_WINDOW_SHORTCUT_TT: "#I 클릭하여 메시지 설정 보기#!"
  MESSAGE_SETTINGS_WINDOW_TT: "#T $MESSAGE_SETTINGS_WINDOW_NAME$#!\n필터 그룹으로 메시지의 빈도와 표시 여부를 편집합니다."

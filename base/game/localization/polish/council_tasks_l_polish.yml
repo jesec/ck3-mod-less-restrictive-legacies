@@ -464,3 +464,4 @@
  liege_stopped_converting_county_desc: "[councillor.GetCouncilTitle|U] osoby znanej jako [councillor_liege.GetShortUINameNotMe] przestaje [Concept('converting', 'nawracać')|E] hrabstwo o nazwie [county.GetName] na [councillor_liege.GetFaith.GetName|l] #weak ([old_faith.GetAdjective|l])#!"
  liege_converted_county_title: "Senior nawrócił hrabstwo o nazwie [county.GetNameNoTierNoTooltip|V]"
  liege_converted_county_desc: "[councillor.GetCouncilTitle|U] osoby znanej jako [councillor_liege.GetShortUINameNotMe] skutecznie [Concept('converting', 'nawraca')|E] hrabstwo o nazwie [county.GetName] na [councillor_liege.GetFaith.GetName|l] #weak ([old_faith.GetAdjective|l])#!"
+ steward_promote_culture_beth_nahrain: "$task_promote_culture$ Bajt Nahrajnu"

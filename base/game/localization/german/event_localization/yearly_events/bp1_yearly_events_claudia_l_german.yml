@@ -35,7 +35,7 @@
  bp1_yearly.1010.b: "Das ist nicht nötig."
  #A Friend till the End
  bp1_yearly.1020.t: "Freundschaft bis zum Ende"
- bp1_yearly.1020.desc_intro: "Während ich im Bett liege, niedergestreckt von meiner Krankheit und meinen schwachen, versagenden Leib verfluchend, kann ich die menschliche Gestalt, die sich mir nähert, kaum erkennen. Ihre langsamen Schritte und das schwer auf uns lastende Schweigen machen mir langsam Angst."
+ bp1_yearly.1020.desc_intro: "Während ich im Bett liege, verfluche ich meinen schwachen, versagenden Leib und kann die menschliche Gestalt, die sich mir nähert, kaum erkennen. Ihre langsamen Schritte und das schwer auf uns lastende Schweigen machen mir allmählich Angst."
  bp1_yearly.1020.desc: "\n\nSie erahnt wohl mein Unwohlsein ob der schwachen Laute, die aus meinem Mund dringen, und der zitternden Bewegungen meiner Hand, denn ihr Schritt beschleunigt sich und bald hält eine warme Hand die meine, während ich ein vertrautes Gesicht erkenne.\n\n„Ruhig, [ROOT.Char.GetFirstNameNoTooltip]. Ich bin es nur: [friend.GetFirstName]. Oh, wie sehr es mich schmerzt, Euch so zu sehen … Ich wünschte, ich könnte etwas tun – #EMP irgendetwas#! –, um Euer Leid zu lindern.“"
  bp1_yearly.1020.a: "Bitte bleibt bei mir …"
  bp1_yearly.1020.b: "Ich will nicht, dass Ihr mich so seht."
@@ -51,7 +51,7 @@
  bp1_yearly.1021.c: "Ruht in Frieden, mein[friend.Custom('DE_END_PRO_S_N')] lieb[friend.Custom('DE_END_ADJ_IND_S_N')] [friend.GetFirstNameNoTooltip]."
  #Till the Bitter End
  bp1_yearly.1030.t: "Bis zum bitteren Ende"
- bp1_yearly.1030.desc: "\n\n„HA! Sieh sich einer Euch jetzt an! Nun seid Ihr nicht mehr so furchteinflößend, was? Habt Ihr mich überhaupt erkannt, [ROOT.Char.Custom('InsultNoun')]? Ich bin es: [rival.GetFirstName]! Ich kann mein Glück kaum fassen – so lange träume ich schon davon, Euch gebrochen am Boden zu sehen, und hier seid Ihr nun!“\n\nIch bringe kaum die Kraft auf, um zu murmeln: „Seid Ihr nur gekommen, um mich zu verhöhnen?“"
+ bp1_yearly.1030.desc: "\n\n„HA! Sieh sich einer Euch jetzt an! Nun seid Ihr nicht mehr so furchteinflößend, was? Habt Ihr mich überhaupt erkannt, [ROOT.Char.Custom('InsultNoun')]? Ich bin es: [rival.GetFirstName]! Oh, wie sehr ich mich danach gesehnt habe, Euch so erniedrigt zu sehen!“"
  bp1_yearly.1030.desc_nemesis: "\n\n„Nein, bin ich nicht!“, antwortet [nemesis.Custom('DE_PRO_PER_S_3P_N')]. Ich habe kaum Gelegenheit, das gefährliche Funkeln in [nemesis.Custom('DE_PRO_POS_S_3P')]en Augen zu sehen, ehe [nemesis.GetFirstNameNoTooltip] mit einem eiskalten Lächeln an meinem Bett steht."
  bp1_yearly.1030.desc_nemesis_guard: "Ich habe schon alle Hoffnungen fahren lassen, als mein [GetCourtPositionType('bodyguard_court_position').GetName()] [guard.GetFirstName] in den Raum stürmt!"
  bp1_yearly.1030.desc_nemesis_no_guard: "Ich versuche, mich zu bewegen, zu flüchten, zu schreien, #EMP irgendetwas#! zu tun, doch mein gebrechlicher Leib will einfach nicht auf mich hören …"

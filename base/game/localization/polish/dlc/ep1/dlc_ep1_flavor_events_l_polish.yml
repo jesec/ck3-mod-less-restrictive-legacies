@@ -115,7 +115,7 @@
  ep1_2000_generic_modifier_desc: "Ta postać zachęciła do uprawiania sportów walki, aby kluczowi wojownicy byli zawsze gotowi."
  infantry: "piechota"
  cavalry: "kawalerzyści"
- ep1_flavor.2000.tradition_tt: "Ze względu na [traditions|El] twojej [Concept( 'culture', 'kultury' )|E]"
+ ep1_flavor.2000.tradition_tt: "Ze względu na [traditions|El] twojej [culture_possessive|El]"
  #Court of Vipers
  ep1_flavor.2010.t: "Dwór żmij"
  ep1_flavor.2010.desc: "Każdej nocy, gdy tylko ostatnia ze świec gaśnie, a budynek, który znamy jako[ROOT.Char.Custom('FortifiedBuilding')|l], pogrąża się w ciszy i mroku, nawiedzają mnie szepty o spisku, podczas którego planowane jest [real_plot.GetSchemeType.GetTypeNameNoTooltip|l] wobec mnie."
@@ -271,8 +271,8 @@
  #Exotic Arms
  ep1_flavor.2040.t: "Egzotyczne uzbrojenie"
  ep1_flavor.2040.desc: "Wraz z dziwnymi towarami kupcy przywożą z odległych krain niewiarygodne historie, które są nieweryfikowalne oraz pełne cudów. \n\n[foreign_merchant.GetCulture.GetNameNoTooltip] grupa handlarzy twierdzi, że przyniosła przedmioty, które wykonali „#EMP [exotic_blade_holder.GetCulture.GetCollectiveNounNoTooltip]#!”. Podobno pochodzą z dalekiego dworu, na którym włada [Select_CString( exotic_blade_holder.IsFemale, 'nie kto inna, jak wielka', 'nie kto inny, jak wielki' )] #EMP [exotic_blade_holder.GetFullNameNoTooltipRegnal]#!.\n\n[foreign_merchant.GetTitledFirstName], główn[Select_CString(foreign_merchant.IsFemale, 'a handlarka', 'y handlarz' )], uśmiecha się mrocznie:"
- ep1_flavor.2040.desc.artifact: "„Widziałem, co masz: [my_artifact.GetName]. Oddaj mi ten artefakt, a dostaniesz niespotykanej rzadkości [exotic_blade.Custom('ArtifactBaseWeaponType')|l]…”"
- ep1_flavor.2040.desc.gold: "– Ten wspaniały unikat, [exotic_blade.Custom('ArtifactBaseWeaponType')|l], może być twój… Oczywiście za odpowiednią cenę… [ROOT.Char.GetTitleAsNameNoTooltip] raczy zerknąć…\n\nDoprawdy brzmi to jak jedna wielka bajda!"
+ ep1_flavor.2040.desc.artifact: "– Widzę, co tam masz – to [my_artifact.GetName]. Oddaj mi ten artefakt, a dostaniesz inny przedmiot niespotykanej rzadkości. [exotic_blade.Custom('ArtifactType')|U] – co ty na to?"
+ ep1_flavor.2040.desc.gold: "– [exotic_blade.Custom('ArtifactType')|U]… ten wspaniały unikat może być twój… Oczywiście za odpowiednią cenę. [ROOT.Char.GetTitleAsNameNoTooltip] raczy zerknąć…\n\nBrzmi to jak jedna wielka bajda!"
  ep1_flavor.2040.desc.outro: "Gdybym tylko [Select_CString( ROOT.Char.IsFemale, 'mogła', 'mógł' )] jakoś zweryfikować historię tego domokrążcy…"
  ep1_flavor.2040.desc.outro_antiquarian: "Czekam, aż doradzi mi [antiquarian.GetTitledFirstName]:"
  ep1_flavor.2040.desc.outro_good_praise: "– Z całym szacunkiem, to z pewnością nie podróbka. Przedmiot ten rzeczywiście pochodzi z ziem znanych jako [exotic_blade_holder.GetPrimaryTitle.GetNameNoTierNoTooltip] i jest wysokiej jakości."
@@ -284,8 +284,8 @@
  ep1_flavor.2040.a: "„Chyba mogę się z tym rozstać…”"
  ep1_flavor.2040.tt_my: "Stracisz swój artefakt [my_artifact.GetName]"
  ep1_flavor.2040.tt_exotic: "Staniesz się właścicielem artefaktu: [exotic_blade.GetNameNoTooltip]"
- ep1_flavor.2040.toast: "[exotic_blade.Custom('ArtifactBaseWeaponType')] to wspaniałe dzieło sztuki"
- ep1_flavor.2040.toast_poor: "[exotic_blade.Custom('ArtifactBaseWeaponType')] to nic wyjątkowego"
+ ep1_flavor.2040.toast: "Cóż za [exotic_blade.Custom('ArtifactType')]. Coś wspaniałego!"
+ ep1_flavor.2040.toast_poor: "[exotic_blade.Custom('ArtifactType')|U] to nic wyjątkowego"
  ep1_flavor.2040.b: "„Przynieś moją sakiewkę!”"
  ep1_flavor.2040.c: "„Ha! »#EMP [exotic_blade_holder.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTierNoTooltip]#!«… Co za bzdury! Wynoście się stąd!”"
  #The Greater Good

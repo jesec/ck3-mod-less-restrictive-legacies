@@ -23,6 +23,10 @@ character_stress = {
 	display = toast
 	group = character
 }
+secondary_character_stress = {
+	display = feed
+	group = character
+}
 character_health = {
 	display = toast
 	group = character
@@ -159,6 +163,10 @@ courtier_leaving = {
 	display = feed
 	group = court
 }
+courtier_child_of_age = {
+	display = feed
+	group = court
+}
 # POSITIONS
 court_position = {
 	display = toast
@@ -182,6 +190,10 @@ scheme_ended = {
 	group = scheme
 }
 scheme_progress = {
+	display = feed
+	group = scheme
+}
+scheme_opportunity_threshold = {
 	display = feed
 	group = scheme
 }

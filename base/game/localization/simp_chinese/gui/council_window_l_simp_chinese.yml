@@ -77,3 +77,5 @@
  COURT_WINDOW_NO_GUESTS_OR_COURTIERS: "[CourtWindow.GetCourtOwner.Custom('GetNoGuestsOrNot')]"
  COURT_WINDOW_NO_COURTIERS: "没有[guests|E]或[CourtWindow.GetCourtOwner.Custom('GetCourtierConceptPlural')]。随着时间推移会有更多人出现，或者你也可以通过上方的决议邀请一些。"
  COURT_WINDOW_NO_FOLLOWERS: "目前没有可用[CourtWindow.GetCourtOwner.Custom('GetCourtierConceptPlural')]"
+ COURT_WINDOW_NO_GUARDIAN: "没有[guardian|E]"
+ COURT_WINDOW_NO_GUARDIAN_TOOLTIP: "尚未安排[guardian|E]教育该[child|E]"

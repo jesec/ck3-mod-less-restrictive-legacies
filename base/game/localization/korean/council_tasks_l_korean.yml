@@ -464,3 +464,4 @@
  liege_stopped_converting_county_desc: "[councillor_liege.GetShortUINamePossessive] [councillor.GetCouncilTitle](이)가 [county.GetName](을)를 [councillor_liege.GetFaith.GetName](으)로 [converting|E]하는 걸 중단함 #weak ([old_faith.GetAdjective])#!"
  liege_converted_county_title: "주군의 [county.GetNameNoTierNoTooltip|V] 개종 완료"
  liege_converted_county_desc: "[councillor_liege.GetShortUINamePossessive] [councillor.GetCouncilTitle](이)가 [county.GetName](을)를 [councillor_liege.GetFaith.GetName](으)로 [converted|E] 완료함 #weak ([old_faith.GetAdjective])#!"
+ steward_promote_culture_beth_nahrain: "베흐 나레인의 $task_promote_culture$"

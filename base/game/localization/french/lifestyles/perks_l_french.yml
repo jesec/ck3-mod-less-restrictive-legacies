@@ -196,3 +196,4 @@
  dark_insight_gain_stats_tt: "Pourrait obtenir de [GetPerk('dark_insights_perk').GetName(GetPlayer)|l]"
  dark_insights_maximum_insight_tt: "A déjà appris toutes les [GetPerk('dark_insights_perk').GetName(GetPlayer)|l] possibles"
  dark_insights_gain_message: "Sombres connaissances"
+ ducal_conquest_perk_name_desc: "[perk|E] [GetPerk('ducal_conquest_perk').GetName( GetPlayer )]"

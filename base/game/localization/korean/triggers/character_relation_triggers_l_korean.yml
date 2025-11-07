@@ -5,6 +5,8 @@
  NOT_I_AM_AT_WAR_WITH_TRIGGER: "[TARGET_CHARACTER.GetShortUIName|V](와)과 [war|E]을 치르는 중이 #bold 아님#!"
  THEY_ARE_AT_WAR_WITH_TRIGGER: "[CHARACTER.GetShortUIName|V](은)는 [TARGET_CHARACTER.GetShortUIName|V](와)과 [war|E]을 치르는 중임"
  NOT_THEY_ARE_AT_WAR_WITH_TRIGGER: "[CHARACTER.GetShortUIName|V](은)는 [TARGET_CHARACTER.GetShortUIName|V](와)과 [war|E]을 치르는 중이 #bold 아님#!"
+ NONE_ARE_AT_WAR_WITH_TRIGGER: "저들은 당신과 [war|E] 중임"
+ NOT_NONE_ARE_AT_WAR_WITH_TRIGGER: "저들은 당신과 [war|E] 중이 #bold 아님#!"
  IS_ALLIED_TO_TRIGGER: "[TARGET_CHARACTER.GetShortUIName|V](와)과 [allied|E]을 맺음"
  NOT_IS_ALLIED_TO_TRIGGER: "[TARGET_CHARACTER.GetShortUIName|V](와)과 [allied|E]을 맺지 #bold 않음#!"
  I_AM_ALLIED_TO_TRIGGER: "[TARGET_CHARACTER.GetShortUIName|V](와)과 [allied|E]을 맺음"

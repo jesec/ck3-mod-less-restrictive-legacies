@@ -5,6 +5,7 @@
  TITLE_APPOINTMENT_GOVERNOR_EFFICIENCY: "$ADMIN_WINDOW_THEME_GOVERNOR_EFFICIENCY_VALID$"
  TITLE_APPOINTMENT_RANK_TOOLTIP: "승계 서열 내 위치"
  TITLE_APPOINTMENT_HOUSE: "[DynastyHouse.GetName] [house|E] 구성원"
- TITLE_APPOINTMENT_SUCCESSION_SCORE: "승계 점수: #UND [CharacterListItem.GetFixedPoint( 'score' )|V0]#!"
+ TITLE_APPOINTMENT_SUCCESSION_SCORE: "[candidate_score|E]: #UND [CharacterListItem.GetFixedPoint( 'score' )|V0]#!"
+ TITLE_APPOINTMENT_CANDIDATE_SCORE_TT_HEADING: "[candidate_score|E]: #UND [CharacterListItem.GetFixedPoint( 'score' )|V0]#!"
  TITLE_APPOINTMENT_SUCCESSION_TOP_CANDIDATE: "당신의 선두 후보:"
  TITLE_APPOINTMENT_RANK: "[CharacterListItem.GetFixedPoint( 'position' )|0]"

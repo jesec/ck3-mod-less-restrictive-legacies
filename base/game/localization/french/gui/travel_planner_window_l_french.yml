@@ -66,6 +66,7 @@
  CANCEL_TRAVEL_PLAN_IS_COMPLETED_DESC: "Impossible d’annuler le plan de voyage, car il est déjà terminé."
  CANCEL_TRAVEL_PLAN_IS_ALREADY_CANCELLED_DESC: "Impossible d’annuler le plan de voyage, car il a déjà été annulé."
  CANCEL_TRAVEL_PLAN_ACTIVITY_IS_HOST_DESC: "Impossible d’annuler le plan de voyage, car vous hébergez l’activité."
+ CANCEL_TRAVEL_PLAN_DRAFT_CANNOT_BE_CANCELLED: "Ce plan de voyage ne peut pas être annulé."
  CANCEL_TRAVEL_PLAN_ALREADY_GOING_HOME: "Impossible d’annuler le plan de voyage, vous rentrez déjà chez vous."
  CANCEL_TRAVEL_PLAN_ACTIVITY_UNHANDLED_DESC: "Vous ne pouvez pas annuler le plan de voyage, car l’activité connaît un événement non résolu."
  CANCEL_TRAVEL_PLAN_ACTIVE_CONTRACT: "Impossible d’annuler le plan de voyage, car vous avez accepté un contrat"

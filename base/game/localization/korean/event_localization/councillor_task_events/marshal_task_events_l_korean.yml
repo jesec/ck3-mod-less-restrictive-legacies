@@ -42,7 +42,6 @@
  marshal_task.1102.a: "내 밑에 있는 자들은 언제나 안전할 것이다."
  marshal_task.1102.notification: "주둔군 증가함"
  marshal_task.1103.notification: "징집병 전투 대비"
- #### END (Jonas W)
  marshal_task.2001.t: "지휘관이 부상당함"
  marshal_task.2001.opening: "연습 결투 중 [commander.GetTitledFirstName](이)가 일격을 맞았다!"
  marshal_task.2001.ending: "\n\n[councillor.GetCouncilTitle]인 [councillor.GetTitledFirstName]의 출혈을 간신히 멈췄다. 그래도 회복에는 시간이 걸릴 것이다."

@@ -79,3 +79,4 @@
  GHW_FORMAT_RANK: "$NUM|O$"
  ghw_heir_to_a_title: "[title|E] [heir|E]임"
  ghw_married_to_a_ruler: "[ruler|E]와 [married|E]함"
+ ghw_devoted_to_their_faith: "종교적 책무에 구속됨"

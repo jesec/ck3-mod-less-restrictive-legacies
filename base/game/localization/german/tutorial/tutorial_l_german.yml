@@ -96,8 +96,8 @@
  lesson_warscore: "Kriegsergebnis"
  lesson_winning_wars: "Kriege gewinnen"
  lesson_losing_wars: "Kriege verlieren"
- quick_tutorial_desc: "Schnell-Tutorial"
- full_tutorial_desc: "Volles Tutorial"
+ quick_tutorial_desc: "Tutorial spielen"
+ full_tutorial_desc: "Fortgeschritten spielen"
  #Basics
  lesson_basics_welcome: "Willkommen zu Crusader Kings III"
  lesson_welcome_desc: "@tutorial_screenshot_1!\nIhr seid ein mittelalterlicher Herrscher! Eure Herrschaft mag kurz sein, doch durch Eure Erben könnt Ihr Eure Dynastie berühmt – oder berüchtigt – machen.\n\nLand will gewonnen werden: Durch die Macht des Schwerts, kluge Heiraten oder gewiefte Diplomatie wird sich Euer Besitz weiter erstrecken, als jeder Eroberer es sich zu erträumen wagt …"
@@ -204,7 +204,7 @@
  lesson_basics_resources_3_desc: "Wenn Ihr viel [piety|E] habt, fällt es Euch einfacher, mit Eurem [head_of_faith|E] zu interagieren: Da Ihr $catholic_adherent$ seid, ist dies der Papst.\n\nIhr könnt $game_concept_piety$ passiv durch den [skill|E] [learning|E] und [Concept('virtuous', 'tugendhafte')|E] [traits|E] erhalten oder aktiv, indem Ihr fromme Dinge tut, beispielsweise eine [pilgrimage|E].\n\nIhr habt außerdem eine [piety_level|E], die mit der Zeit steigt, wenn Ihr $game_concept_piety$ hinzugewinnt, und die positive Auswirkungen auf Euren Charakter haben kann.\n\n#TUT Ähnlich wie bei Prestige können auch hier Aktionen $game_concept_piety$ #EMP kosten#!, beispielsweise das Erklären eines [Concept('holy_wars', 'Religionskriegs')|E] oder das Erschaffen eines neuen [Concept('faith', 'Glaubens')|E].\n\nDer Einsatz von $game_concept_piety$ ist ganz normal, und [characters|E] werden deshalb keine schlechtere Meinung von Euch haben.#!"
  #Lifestyles
  lesson_basics_lifestyles_1: "Lebenswandel ($lesson_basics_lifestyles$)"
- lesson_basics_lifestyles_1_desc: "Neben [traits|E] kann Euer [character|E] auch einen [lifestyle|E] auswählen. Es stehen fünf $game_concept_lifestyles$ zur Auswahl, einer pro Wert.\n\n$game_concept_lifestyles$ spiegeln wider, wofür der Charakter täglich die meiste Zeit und Mühe aufwendet, und für jeden gibt es mehrere [focuses|E].\n\nJeder $game_concept_focus$ verleiht einen individuellen Bonus, und die Wahrscheinlichkeit steigt, dass Ereignisse auftreten, die mit diesem $game_concept_focus$ zu tun haben."
+ lesson_basics_lifestyles_1_desc: "Neben [traits|E] kann Euer [character|E] auch einen [lifestyle|E] auswählen. Es stehen [SelectLocalization(HasDlcFeature('wandering_nobles'), 'number_six', 'number_five')] $game_concept_lifestyles$ zur Auswahl, einer pro Wert.\n\n$game_concept_lifestyles$ spiegeln wider, wofür der Charakter täglich die meiste Zeit und Mühe aufwendet, und für jeden gibt es mehrere [focuses|E].\n\nJeder $game_concept_focus$ verleiht einen individuellen Bonus, und die Wahrscheinlichkeit steigt, dass Ereignisse auftreten, die mit diesem $game_concept_focus$ zu tun haben."
  lesson_basics_lifestyle_open_window_tt: "Klickt auf die Schaltfläche „Lebenswandel“ (hervorgehoben)"
  lesson_basics_lifestyles_2: "Schwerpunkt ($lesson_basics_lifestyles$)"
  lesson_basics_lifestyles_no_GUI_highlight: "$lesson_basics_lifestyles_2$"

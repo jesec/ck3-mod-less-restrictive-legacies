@@ -6,6 +6,7 @@
  SUCCESSION_LAW_CHANGE_WINDOW_CHANGE: "법률 변경"
  SUCCESSION_LAW_CHANGE_WINDOW_CHOOSE_NEW: "[SuccessionLawChangeWindow.GetLaws.GetLawGroup.GetName] 사용 가능"
  SUCCESSION_LAW_CHANGE_WINDOW_PARTITION_LAWS: "다중 [realm_heirs|E]"
+ SUCCESSION_LAW_CHANGE_WINDOW_APPOINTMENT_LAWS: "임명직 승계"
  SUCCESSION_LAW_CHANGE_WINDOW_SINGLE_HEIR_LAWS: "단일 [realm_heir|E]"
  SUCCESSION_LAW_CHANGE_WINDOW_ENACT_COST: "비용: [SuccessionLawChangeWindow.GetSelectedLaw.GetShortCostString]"
  SUCCESSION_LAW_CHANGE_WINDOW_ENACT_COST_TOOLTIP: "#T 비용#!\n [SuccessionLawChangeWindow.GetSelectedLaw.GetCostDescription]"

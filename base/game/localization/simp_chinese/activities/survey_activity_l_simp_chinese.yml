@@ -135,6 +135,8 @@
  inspection_conclusion_success_opinion_key: "[host.GetShortUIName]在处理内部事务时表现出色，赢得了[host.GetHerHis]的封臣的认可。"
  inspection_conclusion_success_popular_opinion_key_title: "受欢迎的统治者"
  inspection_conclusion_success_popular_opinion_key: "[host.GetShortUIName]在访问[province.GetName]后声望上升。"
+ inspection_conclusion_success_governor_experience_key_title: "[host.Custom('GetGovernorConceptNoTooltip')]经验"
+ inspection_conclusion_success_governor_experience_key: "[host.GetShortUIName]访问[province.GetName]后，[host.GetSheHe]在[host.GetHerHis]的[host.Custom('GetGovernorConceptNoTooltip')]职责上获得了宝贵的经验。"
  inspection_retry_desc: "上次此地区由他们的领主监督时，工作未能顺利完成。但为改善伯爵领而奠定的框架依然存在。\n#weak 将在[inspection|E]成功后被移除#!"
  inspection_second_try_modifier: "未结的视察"
  inspection_second_try_modifier_desc: "$inspection_retry_desc$\n\n[inspection_success_chance|E]：#p +10%#!"

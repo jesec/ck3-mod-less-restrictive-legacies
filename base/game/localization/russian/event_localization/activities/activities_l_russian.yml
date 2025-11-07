@@ -59,7 +59,7 @@
  activity_feast_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] [Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, 'пир', 'устраивает пир')]"
  murder_feast_activity_cost_desc: "$feast_type_murder$"
  bloody_wedding_activity_cost_desc: "$wedding_type_bloody$"
- activity_feast_desc: "Важные персоны со всей державы приглашены на большое пиршество, где рождаются и крепнут узы дружбы и верности."
+ activity_feast_desc: "Укрепите узы верности, пригласив вассалов и соседей есть, пить и веселиться в ваших залах!\n\nСвоевременные пиры обеспечат стабильность державы, довольство подданных и позволят обзавестись новыми друзьями."
  activity_feast_owner: "Устроитель"
  activity_feast_destination_selection: "Выбранное графство на 5 лет получит модификатор «[GetModifier( 'feast_recent_fest_modifier' ).GetNameWithTooltip|L]»."
  activity_feast_selection_tooltip: "Устроить грандиозный банкет ради укрепления отношений\n\nОжидаемые награды:\n$BULLET_WITH_TAB$[opinion_i] [Concept( 'opinion', 'Мнение' )|E]\n$BULLET_WITH_TAB$Потеря [stress_loss_i] [Concept( 'stress', 'стресса' )|E]"

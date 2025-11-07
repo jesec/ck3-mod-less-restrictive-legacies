@@ -48,6 +48,7 @@
 			blockoverride "header_text"
 			{
 				text = "TAX_COLLECTOR_OBLIGATION_WINDOW_HEADER"
+				maximumsize = { 600 -1 }
 			}
 
 			blockoverride "button_close"
@@ -554,7 +555,7 @@ types TaxSlotObligationsTypes
 			text_label_center = {
 				align = center
 				max_width = 120
-				text = "[TaxSlotObligation.GetName]"
+				text = "[TaxSlotObligation.GetNameNoTooltip]"
 			}
 
 			hbox = {
@@ -568,7 +569,6 @@ types TaxSlotObligationsTypes
 					texture = "[TaxSlotObligation.GetIcon]"
 					fittype = centercrop
 					visible = "[Not(Or(IsCurrentTaxObligation( TaxSlotObligation.Self ), IsSelectedTaxObligation( TaxSlotObligation.Self )))]"
-					alpha = 0.4
 				}
 
 				#Current

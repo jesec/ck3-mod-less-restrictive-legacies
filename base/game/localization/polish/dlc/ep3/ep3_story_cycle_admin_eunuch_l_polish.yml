@@ -8,7 +8,7 @@
  #Events
  ep3_story_cycle_admin_eunuch.1001.t: "$admin_eunuch_header$ [eunuch.GetFullNameNoTooltip]"
  ep3_story_cycle_admin_eunuch.1001.intro_byz: "Przez wieki [Glossary( 'eunoukhoi', 'EUNOUKOS_GLOSS' )] byli częścią biurokracji i służyli w pałacach miejsca znanego jako [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], pełniąc funkcje doradców i powierników, którzy odgrywali wówczas ważną rolę w politycznych sporach."
- ep3_story_cycle_admin_eunuch.1001.intro: "Aby cesarstwo mogło bez problemu sprawować rządy i zapewnić w pałacu bezpieczeństwo, potrzebuje zarządców i zaufanych sług. Eunuchowie należą do grona najbardziej cenionych osób w miejscu znanym jako [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTootlip]."
+ ep3_story_cycle_admin_eunuch.1001.intro: "Aby państwo mogło bez problemu sprawować rządy i zapewnić w pałacu bezpieczeństwo, potrzebuje zarządców i zaufanych sług. Eunuchowie należą do grona najbardziej cenionych osób w miejscu znanym jako [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTooltip]."
  ep3_story_cycle_admin_eunuch.1001.desc: "\n\n[eunuch.GetFirstName] szybko pnie się po szczeblach hierarchii, a [eunuch.Custom('PL_jego_jej')] talent, rzetelność i dyskrecja w każdej sprawie zapewniają [eunuch.Custom('PL_mu_jej')] niezwykłe uznanie w pałacowych szeregach."
  ep3_story_cycle_admin_eunuch.1001.arrivals: "\n\nPochodzi ze skromnego rodu [origin.GetDeJureLiege.GetName], a [eunuch.Custom('PL_jego_jej')] krewni niedawno dołączyli do [eunuch.Custom('PL_niego_niej')] w miejscu o nazwie [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]…"
  ep3_story_cycle_admin_eunuch.1001.a: "Mam pracę tylko dla [eunuch.Custom('PL_niego_niej')]."

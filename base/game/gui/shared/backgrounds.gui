@@ -542,7 +542,7 @@ template Toast_Header
 	spriteType = Corneredstretched
 	spriteborder = { 5 5 }
 	margin = { 50 -3 }
-	alpha = 0.5
+	alpha = 0.9
 
 	modify_texture = {
 		texture = "gfx/interface/component_masks/mask_fade_horizontal_middle_thick.dds"

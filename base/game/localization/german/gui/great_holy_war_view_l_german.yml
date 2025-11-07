@@ -79,3 +79,4 @@
  GHW_FORMAT_RANK: "$NUM|O$"
  ghw_heir_to_a_title: "Ist [heir|E] eines [Concept('title', 'Titels')|E]"
  ghw_married_to_a_ruler: "Ist mit [ruler|E] [married|E]"
+ ghw_devoted_to_their_faith: "Ist durch religiöse Verpflichtungen gebunden"

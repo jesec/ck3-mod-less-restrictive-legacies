@@ -70,7 +70,7 @@
  death_management.1010.over_12_liked_educator: "많은 걸 배웠습니다, [dead_character.GetFirstName]."
  death_management.1010.over_12_disliked_educator: "속이 다 후련하다니까. 정말이야."
  death_management.1010.a.tt: "[dead_character.GetTitledFirstName]의 죽음으로 인해 더는 가르침을 받지 못하게 됨"
- death_management.educator.desc: "[ward_of_dead_character.GetTitledFirstNamePossessive] 교육 담당인 [dead_character.GetTitledFirstName](이)가 사망함"
+ death_management.educator.desc: "당신의 [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('ward_of_dead_character'))], [ward_of_dead_character.GetTitledFirstNamePossessive] 교육자 [dead_character.GetTitledFirstName](이)가 [dead_character.GetDeathReasonHideKiller]했습니다."
  death_management.2000.t: "[prison_holder.GetFirstNameNoTooltip](이)가 우리를 갈라놓을 때까지"
  death_management.2000.t.root_killer: "내 손으로 우리 사이를 갈라놓을 때까지"
  death_management.2000.t.no_killer: "억지로 떼어놓다"

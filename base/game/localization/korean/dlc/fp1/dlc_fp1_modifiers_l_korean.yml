@@ -28,7 +28,7 @@
  draugr_healthy_hiking_fp1_modifier: "건강한 산책 애호가"
  draugr_healthy_hiking_fp1_modifier_desc: "해당 인물은 부질없는 도보 여행에 엄청난 시간을 투자합니다. 그 과정에서 영지의 황야를 오가면서 괴물들을 사냥하기도 합니다."
  ultimate_blasphemer_modifier: "극에 달한 신성모독"
- ultimate_blasphemer_modifier_desc: "자신이 모시던 [head_of_faith|E]를 다른 [faith|E]의 신에게 제물로 바친 인물입니다. 이 때문에 해당 인물을 진정으로 독실한 사람이라고 여기는 사람은 없습니다."
+ ultimate_blasphemer_modifier_desc: "자신이 모시던 [head_of_faith|E]를 다른 [faithpossessive|E] 신에게 제물로 바친 인물입니다. 이 때문에 아무도 해당 인물을 진정으로 독실한 사람이라고 여기지 않습니다."
  embraced_local_traditions_modifier: "현지 전통 포용"
  embraced_local_traditions_modifier_desc: "스칸디나비아 출신인 해당 인물은 새로운 고향의 문화와 신앙을 받아들였습니다. #V 룬돌#!을 세우는 관습만큼은 저버리지 않았지만 말입니다."
  settled_norse_dynasty_modifier: "정착한 가문"

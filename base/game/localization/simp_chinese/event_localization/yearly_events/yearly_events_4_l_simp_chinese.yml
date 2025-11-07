@@ -37,7 +37,7 @@
  yearly.4031.tt: "调查已经启动"
  yearly.4031.b: "让我们埋葬这些尸体然后忘记这场闹剧。"
  yearly.4031.b_every_courtier: "所有廷臣"
- yearly.4031.c: "作为我的宫廷医师，你应该研究尸体。"
+ yearly.4031.c: "作为我的医师，你应该研究尸体。"
  yearly.4061.t: "聪明的傻瓜"
  yearly.4061.desc_opening: "“吾名[hodja.GetTitledFirstName]，[ROOT.Char.GetLadyLord]。我前来于此，献上我的智慧。”\n\n"
  yearly.4061.desc_guard: "[guard.Custom2('MyCharacterIntroduction', ROOT.Char)|U]把这个男人带到我面前，看起来将信将疑。"

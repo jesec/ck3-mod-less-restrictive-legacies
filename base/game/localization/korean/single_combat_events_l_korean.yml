@@ -125,7 +125,7 @@
  single_combat.0001.stoic_veteran.general: "친위대로 활동할 적에는 더 강한 적과 맞서 싸웠어!"
  single_combat.0001.stoic_veteran.other_varangian: "안타깝구나. 충성스러운 친위대를 [my_foe.Custom('SignatureWeaponKillType')]버려야 하다니."
  single_combat.0001.blade_dance: "속도라면 [myself.GetPrimaryTitle.GetNameNoTierNoTooltip]에서도 최고로 꼽힌다고!"
- single_combat.0001.blade_dance_unlanded: "속도라면 [myself.GetCurrentLocation.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]에서도 최고로 꼽힌다고!"
+ single_combat.0001.blade_dance_unlanded: "속도라면 [myself.GetCulture.GetCollectiveNounNoTooltip]에서도 최고로 꼽힌다고!"
  single_combat.0001.wrath_of_highgod: "[myself.GetFaith.HighGodNameAlternate](와)과 [myself.GetFaith.WarGodName](이)시여! 불신자를 벌하소서!"
  single_combat.0001.hurt_me_better: "#EMP 흐음#!, 고작 #EMP 그 정도#!로 내가 아파할 줄 알았어?"
  single_combat.0001.special_fallback: "고꾸라져 있으라고!"

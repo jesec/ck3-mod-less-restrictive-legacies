@@ -488,7 +488,7 @@
  legend_events.0001.t: "史官：发现传奇"
  legend_events.0001.desc.intro: "当我走进宫廷时，一脸兴奋的[chronicler.Custom2('MyCharacterIntroduction', ROOT.Char)|U]急忙迎了上来。\n\n"
  legend_events.0001.desc.mid.slew_dragon: "“好消息，[ROOT.Char.GetTitleAsNameNoTooltip|U]！我一直在搜寻关于[legend_character.GetName]的巨著和传奇，我有理由相信[legend_character.GetSheHe]曾经杀死一头巨龙！"
- legend_events.0001.desc.mid.ancestral_saint: "“今天[ROOT.Char.HighGodName|U]对你的家族微笑，[ROOT.Char.GetTitleAsNameNoTooltip|U]。我一直在搜索关于你的祖先[legend_character.GetName]的信息，并且找到了足以让[legend_character.GetHerHim]成为[GetTrait('saint').GetNameNoTooltip( ROOT.Char )]的消息！"
+ legend_events.0001.desc.mid.ancestral_saint: "“今天[ROOT.Char.GetFaith.HighGodName|U]对你的家族微笑，[ROOT.Char.GetTitleAsNameNoTooltip|U]。我一直在搜索关于你的祖先[legend_character.GetName]的信息，并且找到了足以让[legend_character.GetHerHim]成为[GetTrait('saint').GetNameNoTooltip( ROOT.Char )]的消息！"
  legend_events.0001.desc.mid.godly_descent: "[chronicler.GetSheHe|U]跪下来亲吻了我的脚。“啊，最神圣的[ROOT.Char.GetTitleAsNameNoTooltip|U]。我有充分的理由猜测你是[ROOT.Char.GetFaith.HighGodName|U][ROOT.Char.GetFaith.HighGodHerselfHimself]的血裔！"
  legend_events.0001.desc.mid.old_godly_descent: "“日安，[ROOT.Char.GetTitleAsNameNoTooltip|U]，或许我应当称呼您为‘[legend_character.GetFaith.HighGodName|U]之子’？实际上，我遍寻记录，发现您祖先的‘神’事实上是一位完成了无数英勇事迹的英勇凡人。"
  legend_events.0001.desc.mid.raised_by_animals: "“日安，[ROOT.Char.GetTitleAsNameNoTooltip|U]。对于你的童年早期你还记得多少？根据档案中的一些书籍记录，你实际上是由[ROOT.Char.Custom('GetAnimalPlural')]在荒野中养大的。"

@@ -37,7 +37,7 @@
  yearly.4031.tt: "조사가 시작됨"
  yearly.4031.b: "시체는 땅에 묻고, 이 일에 대해선 잊어버리자고."
  yearly.4031.b_every_courtier: "모든 궁정 신하"
- yearly.4031.c: "궁정 의사로서 자네는 이 시체를 검안해야 하네."
+ yearly.4031.c: "내 의사로서 자네는 이 시체를 검안해야 하네."
  yearly.4061.t: "현명한 바보"
  yearly.4061.desc_opening: "\"저는 [hodja.GetTitledFirstName]입니다. 제 지혜를 나누어 드리고자 당신을 알현하였습니다.\"\n\n"
  yearly.4061.desc_guard: "이 남자를 내게 데려온 장본인인 [guard.Custom2('MyCharacterIntroduction', ROOT.Char)|U](은)는 회의적인 표정을 하고 있었다."

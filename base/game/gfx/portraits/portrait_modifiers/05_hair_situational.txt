@@ -50,6 +50,10 @@ hair_situational = {
 					has_trait = beardless_eunuch
 				}
 			}
+			modifier = {
+				add = 10000
+				has_trait = immortal
+			}
 		}
 	}
 

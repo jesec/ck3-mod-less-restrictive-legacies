@@ -376,7 +376,7 @@
  artifact_book_other_desc_3: "Obra de [ROOT.Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] calidad donde se habla extensamente de [ROOT.Artifact.GetFeatureText( 'book_topic' )], [ROOT.Artifact.GetOwner.Custom('ArtifactAdverbWealth')] miniado e ilustrado."
  artifact_book_other_desc_4: "Libro de [ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')] factura que muestra [ROOT.Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] comprensión sobre [ROOT.Artifact.GetFeatureText( 'book_subject' )] al detenerse en [ROOT.Artifact.GetFeatureText( 'book_topic' )]."
  artifact_book_other_desc_5: "Manuscrito de [ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')] factura [ROOT.Artifact.GetOwner.Custom('ArtifactBookContentQuality')] que detalla [ROOT.Artifact.GetFeatureText( 'book_topic' )]. Las páginas están ampliamente miniadas y contienen muchas ilustraciones, sobre todo de caracoles grandes."
- artifact_book_no_preface_desc: "[ROOT.Artifact.GetFeatureText( 'book_topic' )]"
+ artifact_book_no_preface_desc: "[ROOT.Artifact.GetFeatureText( 'book_topic' )|U]."
  feature_book_cover_material_wood: "madera"
  feature_book_cover_material_leather: "cuero"
  feature_book_cover_material_velvet: "terciopelo"

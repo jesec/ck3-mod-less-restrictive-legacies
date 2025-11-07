@@ -15,3 +15,5 @@
  I_HAVE_THIS_EDUCATION_FOCUS_DESCRIPTION: "#TUT_KW Ihr habt schon diesen Ausbildungsschwerpunkt.#!"
  CHARACTER_CAN_CHOOSE_THIS_LIFESTYLE_FOCUS_DESCRIPTION: "#TUT_KW [CHARACTER.GetShortUINameNoTooltip] kann auf diesen Lebensschwerpunkt wechseln.#!"
  CHARACTER_CAN_CHOOSE_THIS_EDUCATION_FOCUS_DESCRIPTION: "#TUT_KW [CHARACTER.GetShortUINameNoTooltip] kann auf diesen Ausbildungsschwerpunkt wechseln.#!"
+ EDUCATION_FOCUS_BUTTON_TOOLTIP: "#T [FocusType.GetNameNoTooltip]\n#!#I Zum Auswählen klicken#!"
+ EDUCATION_FOCUS_SELECTED_EMPTY_STATE: "Einen obenstehenden [education_focus|e] auswählen"

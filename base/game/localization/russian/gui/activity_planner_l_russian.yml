@@ -40,6 +40,7 @@
  activity_filter_domicile_realm: "[Concept('realm','держава')|E] [Concept( 'domicile', 'имения' )|E]"
  GOVERNMENT_ADJECTIVE: "[Character.GetGovernment.GetAdjective]"
  GOVERNMENT_ADJECTIVE_ICON: "[Character.Custom('GetGovernmentIcon')] #L [Character.GetGovernment.GetAdjective]ая#! [Concept('realm','держава')|E]"
+ GOVERNMENT_ADJECTIVE_ICON_ADVENTURER: "[Character.Custom('GetGovernmentIcon')] #L [Character.GetGovernment.GetAdjective]ые#!"
  GOVERNORSHIP_TOOLTIP: "[ROOT.Char.GetVassalContract.GetTextIconObligationLevelNameWithHighlightFor( 'administrative_themes' )] #L [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE', '' )][SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'ое', '' )]#! [Concept('governorship','губернаторство')|E]"
  VASSAL_TOOLTIP: "#L [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), Character.Custom('GetGovernmentIcon'), '' )][SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE', '' )]$government_adj_end_iy$#! [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), Concept('vassal','вассал'),Concept('vassal','Вассал'))|E]"
  REALM_TOOLTIP: "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )]"

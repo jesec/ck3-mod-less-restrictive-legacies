@@ -53,13 +53,8 @@ hold_court_written_language_men_modifier = {
 hold_court_written_language_men_advanced_modifier = {
 	icon = intrigue_positive
 	intrigue = 2
-	learning = 1
+	learning = 2
 	owned_hostile_scheme_success_chance_add = 20
-}
-
-hold_court_distracted_tutor_modifier = {
-	icon = learning_negative
-	learning = -2
 }
 
 3020_multicultural_monument = {

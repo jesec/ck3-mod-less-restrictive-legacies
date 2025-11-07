@@ -2688,6 +2688,7 @@ special_genes = {
 				girl = female
 			}
 
+
 			ccp4_sami_low_nobility = {
 				index = 166
 				male = {
@@ -2795,6 +2796,43 @@ special_genes = {
 				girl = female
 			}
 
+			sp4_western_royalty = {
+				index = 173
+				male = {
+					1 = m_headgear_sp4_western_roy_01
+				}
+				female = {
+					1 = f_headgear_sp4_western_roy_01
+				}
+				boy = male
+				girl = female
+			}
+
+
+			sp4_rus_royalty = {
+				index = 174
+				male = {
+					1 = m_headgear_sp4_rus_roy_01
+				}
+				female = {
+					1 = f_headgear_sp4_rus_roy_01
+				}
+				boy = male
+				girl = female
+			}
+
+			sp4_mena_royalty = {
+				index = 175
+				male = {
+					1 = m_headgear_sp4_mena_roy_01
+				}
+				female = {
+					1 = f_headgear_sp4_mena_roy_01
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 		
 		#--------------------------------------------------------------------------------------------------------
@@ -2845,19 +2883,6 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-
-			coa_crest = {
-				index = 4
-				male = {
-					1 = m_headgear_sec_ep2_western_war_nob_crest_01
-				}
-				female = {
-					1 = f_headgear_sec_ep2_western_war_nob_crest_01
-				}
-				boy = male
-				girl = female
-
-			}
 		
 		}
 
@@ -2869,8 +2894,10 @@ special_genes = {
 			no_additive = {
 				index = 0
 				male = {
+					1 = empty
 				}
 				female = {
+					1 = empty
 				}
 				boy = male
 				girl = female
@@ -2987,6 +3014,19 @@ special_genes = {
 				girl = female
 			}
 			
+
+			coa_crest = {
+				index = 9
+				male = {
+					1 = m_headgear_sec_ep2_western_war_nob_crest_01
+				}
+				female = {
+					1 = f_headgear_sec_ep2_western_war_nob_crest_01
+				}
+				boy = male
+				girl = female
+
+			}
 
 		}
 

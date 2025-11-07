@@ -60,7 +60,7 @@
  legend_spread_events.0040.b.tt.failure: "당신의 신앙은 거짓임"
  legend_spread_events.0040.c: "\"거기서 뭘 더할 셈이지?\""
  legend_spread_events.0050.t: "[honored_lady.GetLadyLord|U]"
- legend_spread_events.0050.desc: "\"#EMP [ROOT.Legend.GetProtagonist.GetSheHe]는 용감했으며\n[honored_lady.GetSheHe]는 아름다웠고\n[ROOT.Legend.GetProtagonist.GetSheHe]는 영웅이었으며\n[honored_lady.GetSheHe]는 실로 아름다웠지요!#!\"\n\n음악이 어디서 흐르는지는 금방 알아차릴 수 있었다. [bard.GetTitledFirstName](이)가 벤치에 기댄 채 류트를 조율하는 모습이 보였다.\n\n\"아, 영주님.\" [bard.GetHerHis] 눈이 곧바로 반짝였다. \"영주님의 전설이 [honored_lady.GetTitledFirstName]에게 깊은 인상을 남기기 위해서였다는 게 사실인가요?\""
+ legend_spread_events.0050.desc: "\"#EMP [ROOT.Legend.GetProtagonist.GetSheHe]는 용감했으며\n[honored_lady.GetSheHe]는 아름다웠고\n[ROOT.Legend.GetProtagonist.GetSheHe]는 영웅이었으며\n[honored_lady.GetSheHe]는 실로 아름다웠지요!#!\"\n\n음악이 어디서 흐르는지는 금방 알아차릴 수 있었다. [bard.GetTitledFirstName](이)가 벤치에 기댄 채 악기를 조율하는 모습이 보였다.\n\n\"아, 영주님.\" [bard.GetHerHis] 눈이 곧바로 반짝였다. \"영주님의 전설이 [honored_lady.GetTitledFirstName]에게 깊은 인상을 남기기 위해서였다는 게 사실인가요?\""
  legend_spread_events.0050.a: "\"어떻게 그런 말을?! 나는 #EMP 결혼#!을 한 몸이다!\""
  legend_spread_events.0050.b: "\"진정으로 아름다운 사람이지...\""
  legend_spread_events.0050.b.tt.success: "당신의 대답이 [honored_lady.GetFirstNameNoTooltip]에게 깊은 인상을 줌"

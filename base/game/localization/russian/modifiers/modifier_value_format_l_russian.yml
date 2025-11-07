@@ -8,6 +8,7 @@
  HEALTH_VALUE_FORMAT_MODERATE_PENALTY: "#N Умеренный штраф#!"
  HEALTH_VALUE_FORMAT_MINOR_PENALTY: "#N Небольшой штраф#!"
  HEALTH_VALUE_FORMAT_TINY_PENALTY: "#N Крошечный штраф#!"
+ HEALTH_VALUE_FORMAT_TINY_BOOST: "#P Крошечный бонус#!"
  HEALTH_VALUE_FORMAT_SMALL_BOOST: "#P Маленький бонус#!"
  HEALTH_VALUE_FORMAT_MEDIUM_BOOST: "#P Средний бонус#!"
  HEALTH_VALUE_FORMAT_SIGNIFICANT_BOOST: "#P Значительный бонус#!"

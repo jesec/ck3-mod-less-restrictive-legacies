@@ -125,7 +125,7 @@
  single_combat.0001.stoic_veteran.general: "¡Me he enfrentado a rivales más duros que #EMP tú#! en la guardia!"
  single_combat.0001.stoic_veteran.other_varangian: "Qué vergüenza [my_foe.Custom('SignatureWeaponKillType')] a un[my_foe.Custom('ES_XA')] guardia leal, [my_foe.Custom('SisterBrother')]."
  single_combat.0001.blade_dance: "¡Soy la espada más rápida de [myself.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
- single_combat.0001.blade_dance_unlanded: "¡Soy la espada más rápida de [myself.GetCurrentLocation.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ single_combat.0001.blade_dance_unlanded: "¡Soy la espada más rápida de los [myself.GetCulture.GetCollectiveNounNoTooltip]!"
  single_combat.0001.wrath_of_highgod: "Por [myself.GetFaith.HighGodNameAlternate] y [myself.GetFaith.WarGodName], ¡sufre, blasfem[my_foe.Custom('ES_OA')]!"
  single_combat.0001.hurt_me_better: "#EMP Mmmm#!, ¿crees que #EMP eso#! duele, mi [my_foe.GetTitleAsNameNoTooltip]?"
  single_combat.0001.special_fallback: "¡Al suelo contigo!"

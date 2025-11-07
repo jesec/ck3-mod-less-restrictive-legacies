@@ -376,7 +376,7 @@
  artifact_book_other_desc_3: "Un ouvrage [ROOT.Artifact.GetOwner.Custom('ArtifactBookContentQuality')] qui traite de manière approfondie [ROOT.Artifact.GetFeatureText( 'book_topic' )], [ROOT.Artifact.GetOwner.Custom('ArtifactAdverbWealth')] enluminé et illustré."
  artifact_book_other_desc_4: "Un livre [ROOT.Artifact.GetOwner.Custom('ArtifactWealth')] qui montre une compréhension [ROOT.Artifact.GetOwner.Custom('ArtifactBookContentQuality')] en ce qui concerne [ROOT.Artifact.GetFeatureText( 'book_subject' )] lorsqu’il détaille [ROOT.Artifact.GetFeatureText( 'book_topic' )]."
  artifact_book_other_desc_5: "Un manuscrit [ROOT.Artifact.GetOwner.Custom('ArtifactBookContentQuality')] détaillant [ROOT.Artifact.GetFeatureText( 'book_topic' )]. Les pages sont abondamment enluminées et contiennent de nombreuses illustrations, notamment de grands escargots."
- artifact_book_no_preface_desc: "[ROOT.Artifact.GetFeatureText( 'book_topic' )]"
+ artifact_book_no_preface_desc: "[ROOT.Artifact.GetFeatureText( 'book_topic' )|U]."
  feature_book_cover_material_wood: "bois"
  feature_book_cover_material_leather: "cuir"
  feature_book_cover_material_velvet: "velours"

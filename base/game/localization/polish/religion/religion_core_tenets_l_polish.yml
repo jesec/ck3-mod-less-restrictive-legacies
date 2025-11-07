@@ -104,6 +104,7 @@
  tenet_struggle_submission_desc: "Wola boska jest źródłem wszelkiego dobra, więc dobre życie polega na poddaniu się tej woli, wyrażonej poprzez walkę o jej urzeczywistnienie."
  doctrine_parameter_bonus_holy_war_piety_active: "[piety|E] i [piety_experience|El] za zwycięstwo w [Concept( 'holy_wars', 'świętych wojnach' )|E] jest zwiększone o #P 50%#!"
  tenet_religious_legal_pronouncements_name: "Prawo religijne"
+ tenet_religious_legal_pronouncements_hisbah: "Hisba"
  tenet_religious_legal_pronouncements_fatwa: "Fatwa"
  tenet_religious_legal_pronouncements_halakha: "Halacha"
  tenet_religious_legal_pronouncements_desc: "Granica między argumentami teologicznymi i prawnymi jest cienka, a wartości duchowe mogą i powinny być uwzględniane w świeckich osiedlach."
@@ -323,7 +324,7 @@
  tenet_fp3_fedayeen_name: "Fedaini"
  tenet_fp3_sacred_murder_name: "Święte morderstwo"
  tenet_fp3_fedayeen_desc: "Gdy zwykłe działania wojenne nie przynoszą rezultatów, naszym obowiązkiem wobec [ROOT.Faith.HighGodNameAlternatePossessive] jest zniszczenie [ROOT.Faith.HighGodHerHis|U] wrogów poprzez infiltrację i podstęp. Nie możemy bać się ani śmierci, ani bólu i chętnie oddamy życie za większą sprawę."
- doctrine_parameter_master_assassin_court_position_unlocked: "Odblokowuje [court_position|El] [Concept( 'master_assassin', 'mistrza asasynów' )|E] "
+ doctrine_parameter_master_assassin_court_position_unlocked: "Odblokowuje [court_position|El]: #V [GetCourtPositionType( 'master_assassin_court_position' ).GetName()|l]"
  doctrine_parameter_death_is_glory: "Prawdopodobieństwo poniesienia śmierci lub obrażeń w [Concept( 'battle', 'bitwie' )|E]: #N +10%#!"
  doctrine_parameter_sanctioned_assassinations: "Nie tracisz [Concept( 'piety', 'pobożności' )|E] za zabicie postaci wyznającej inną [Concept( 'faith', 'wiarę' )|E] w drodze [Concept( 'scheme', 'spisku' )|E] „Morderstwo”"
  #EP3 Tenets

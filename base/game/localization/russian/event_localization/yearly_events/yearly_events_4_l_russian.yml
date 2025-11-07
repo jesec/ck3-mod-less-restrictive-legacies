@@ -37,7 +37,7 @@
  yearly.4031.tt: "Начато расследование"
  yearly.4031.b: "Давайте зароем тело и забудем об этом ужасе."
  yearly.4031.b_every_courtier: "Все придворные"
- yearly.4031.c: "Ты придворный врач, будешь осматривать тела."
+ yearly.4031.c: "Ты мой врач, тебе и осматривать тела."
  yearly.4061.t: "Мудрый глупец"
  yearly.4061.desc_opening: "«Меня зовут [hodja.GetTitledFirstName], [ROOT.Char.GetLadyLord]. Я [Select_CString(hodja.IsFemale, 'пришла', 'пришел' )] к вам, чтобы предложить свою мудрость».\n\n"
  yearly.4061.desc_guard: "[guard.Custom2('MyCharacterIntroduction', ROOT.Char)|U], [Select_CString(guard.IsFemale, 'приведшая', 'приведший' )] [Select_CString(hodja.IsFemale, 'эту женщину', 'этого мужчину' )] ко мне, [Select_CString(guard.IsFemale, 'настроена', 'настроен' )] скептически."

@@ -17,6 +17,8 @@
  NOT_LIEGE_EQUAL_FIRST: "你#bold 不#!是[TARGET_CHARACTER.GetShortUIName]的[courtier|E]或[vassal|E]"
  LIEGE_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U]是[TARGET_CHARACTER.GetShortUINamePossessive]的[courtier|E]或[vassal|E]"
  NOT_LIEGE_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U]#bold 不#!是[TARGET_CHARACTER.GetShortUINamePossessive]的[courtier|E]或[vassal|E]"
+ LIEGE_EQUAL_NONE: "他们是你的[courtier|E]、[vassal|E]或[follower|E]"
+ NOT_LIEGE_EQUAL_NONE: "他们#bold 不是#!你的[courtier|E]、[vassal|E]或[follower|E]"
  TOP_LIEGE_EQUAL_FIRST: "你是[top_liege|E]"
  NOT_TOP_LIEGE_EQUAL_FIRST: "你#bold 不#!是[top_liege|E]"
  KILLER_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U]已被[TARGET_CHARACTER.GetShortUIName]杀死"

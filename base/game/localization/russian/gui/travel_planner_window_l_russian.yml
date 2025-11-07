@@ -66,6 +66,7 @@
  CANCEL_TRAVEL_PLAN_IS_COMPLETED_DESC: "Нельзя отменить план путешествия — оно уже завершено."
  CANCEL_TRAVEL_PLAN_IS_ALREADY_CANCELLED_DESC: "Нельзя отменить план путешествия — оно уже было отменено."
  CANCEL_TRAVEL_PLAN_ACTIVITY_IS_HOST_DESC: "Нельзя отменить план путешествия — вы проводите занятие."
+ CANCEL_TRAVEL_PLAN_DRAFT_CANNOT_BE_CANCELLED: "Этот план путешествия нельзя отменить."
  CANCEL_TRAVEL_PLAN_ALREADY_GOING_HOME: "Нельзя отменить план путешествия — вы уже едете домой."
  CANCEL_TRAVEL_PLAN_ACTIVITY_UNHANDLED_DESC: "Нельзя отменить план путешествия — присутствует неразрешенное событие."
  CANCEL_TRAVEL_PLAN_ACTIVE_CONTRACT: "Нельзя отменить план путешествия — вы приняли контракт"

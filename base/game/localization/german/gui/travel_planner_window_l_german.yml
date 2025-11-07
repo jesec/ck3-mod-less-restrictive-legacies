@@ -66,6 +66,7 @@
  CANCEL_TRAVEL_PLAN_IS_COMPLETED_DESC: "Der Reiseplan kann nicht abgebrochen werden, da er bereits abgeschlossen wurde."
  CANCEL_TRAVEL_PLAN_IS_ALREADY_CANCELLED_DESC: "Der Reiseplan kann nicht abgebrochen werden, da er bereits abgebrochen wurde."
  CANCEL_TRAVEL_PLAN_ACTIVITY_IS_HOST_DESC: "Der Reiseplan kann nicht abgebrochen werden, da Ihr der Gastgeber der Aktivität seid."
+ CANCEL_TRAVEL_PLAN_DRAFT_CANNOT_BE_CANCELLED: "Dieser Reiseplan kann nicht abgebrochen werden."
  CANCEL_TRAVEL_PLAN_ALREADY_GOING_HOME: "Der Reiseplan kann nicht abgebrochen werden, da Ihr bereits auf dem Heimweg seid."
  CANCEL_TRAVEL_PLAN_ACTIVITY_UNHANDLED_DESC: "Der Reiseplan kann nicht abgebrochen werden; Aktivität hat unerledigtes Ereignis."
  CANCEL_TRAVEL_PLAN_ACTIVE_CONTRACT: "Der Reiseplan kann nicht abgebrochen werden, da Ihr bereits einen Vertrag angenommen habt."

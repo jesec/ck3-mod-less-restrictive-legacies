@@ -599,11 +599,11 @@ types WindowTypes
 	{
 		name = "header_text"
 
+		maximumsize = { 400 -1 }
+		
 		block "header_text" {
 			text = "DEFAULT_TEXT"
 		}
-
-		maximumsize = { 400 -1 }
 
 		using = Font_Type_Flavor
 		using = Font_Size_Big
@@ -684,7 +684,8 @@ types WindowTypes
 		header_text = {
 			name = "header_text"
 			parentanchor = top|hcenter
-			position = { 0 5 }
+			position = { -12 8 }
+			maximumsize = { 310 60 }
 		}
 	}
 

@@ -143,7 +143,7 @@
  STRENGTH_COMPARISON_TOTAL_STRENGTH: "@soldier_icon! [GuiMilitaryStrength.GetTargetTotal|0]"
  STRENGTH_COMPARISON_ALLIES: "[ally_i|E] [GuiMilitaryStrength.GetTargetAlliesCount]개"
  MV_ARMIES_SELECTION_PERSONAL: "당신의 부대"
- MV_ARMIES_SELECTION_IMPERIAL: "제국 부대"
+ MV_ARMIES_SELECTION_IMPERIAL: "[GetPlayer.Custom('GetProvincialArmiesConceptNoTooltip')]"
  MV_MERCENARIES_SELECTION_MERCENARIES: "용병"
  MV_MERCENARIES_SELECTION_HIREABLE_RULERS: "특수 용병"
  MV_MERCENARIES_NO_HIREABLE_RULERS_IN_RANGE: "당신의 [realm|e]에 고용 가능한 [adventurers|E] (또는 비슷한 인물) 없음"

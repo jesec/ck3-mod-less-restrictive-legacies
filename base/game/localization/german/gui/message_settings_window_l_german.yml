@@ -1,4 +1,6 @@
 ﻿l_german:
+ message_settings_tab_settings: "Einstellungen"
+ message_settings_tab_log: "Nachrichtenprotokoll"
  MESSAGE_SETTINGS_WINDOW_NAME: "Nachrichteneinstellungen"
  MESSAGE_SETTINGS_WINDOW_SHORTCUT_TT: "#I Klicken, um die Nachrichteneinstellungen zu öffnen#!"
  MESSAGE_SETTINGS_WINDOW_TT: "#T $MESSAGE_SETTINGS_WINDOW_NAME$#!\nHäufigkeit und Anzeige von Nachrichten nach gefilterten Gruppen anpassen."

@@ -376,7 +376,7 @@
  artifact_book_other_desc_3: "[ROOT.Artifact.GetOwner.Custom('ArtifactBookContentQuality')|U] dzieło szczegółowo omawiające temat: [ROOT.Artifact.GetFeatureText( 'book_topic' )]. Jest [ROOT.Artifact.GetOwner.Custom('ArtifactAdverbWealth')|l] ziluminowane oraz zilustrowane."
  artifact_book_other_desc_4: "[ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] książka o [ROOT.Artifact.GetFeatureText( 'book_subject' )]. [ROOT.Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')|U] ukazuje zrozumienie zagadnienia, gdyż uszczegóławia temat taki jak [ROOT.Artifact.GetFeatureText( 'book_topic' )]."
  artifact_book_other_desc_5: "[ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')] karta rękopisu zawierająca [ROOT.Artifact.GetOwner.Custom('ArtifactBookContentQuality')] szczegóły, których temat to [ROOT.Artifact.GetFeatureText( 'book_topic' )]. Strony są bogato zdobione winietami i zawierają wiele ilustracji przedstawiających przede wszystkim duże ślimaki."
- artifact_book_no_preface_desc: "[ROOT.Artifact.GetFeatureText( 'book_topic' )]"
+ artifact_book_no_preface_desc: "[ROOT.Artifact.GetFeatureText( 'book_topic' )|U]."
  feature_book_cover_material_wood: "z drewna"
  feature_book_cover_material_leather: "ze skóry"
  feature_book_cover_material_velvet: "z aksamitu"

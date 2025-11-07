@@ -884,7 +884,7 @@
  pilgrimage.6830.t: "Stille"
  pilgrimage.6830.desc: "Der Nachhall meiner eigenen Schritte ist das einzige Geräusch, das im Gotteshaus ([ROOT.Char.GetFaith.HouseOfWorship]) zu hören ist. Ich bin allein. Das Letzte, woran ich mich von der Außenwelt erinnere, sind die Gesichter der Bettler vor den Toren und der kristallklare blaue Himmel. All dies wirkt nun so weit weg.\n\nIch gehe auf den Altar zu, weil ich weiß, dass ich allein bin, und doch fühle ich unnachgiebige Blicke, die auf mir haften – die strengen Augen der höchsten Instanz ([ROOT.Char.GetFaith.HighGodName]) sehen alles."
  pilgrimage.6830.a: "Zeit für ein Gebet."
- pilgrimage.6830.b: "Seht Euch diese Bögen an … Wunderschön."
+ pilgrimage.6830.b: "Diese Bögen sehen¯… wunderschön aus."
  pilgrimage.6830.c: "Ich sollte ein Opfer bringen."
  pilgrimage.6830.c.tt: "Ihr werdet ein Artefakt verlieren ([votive_artifact.GetName])"
  #Ask a local priest to bless your artifact

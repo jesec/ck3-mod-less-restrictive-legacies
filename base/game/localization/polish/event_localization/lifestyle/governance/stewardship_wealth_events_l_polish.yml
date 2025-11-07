@@ -25,7 +25,7 @@
  stewardship_wealth.1011.custom: "Każde hrabstwo na ziemiach [THIS.Char.GetPrimaryTitle.GetAdjective]"
  #War Taxes, by Sean Hughes
  stewardship_wealth.1021.t: "Zapłata za wojnę"
- stewardship_wealth.1021.desc: "Wojny są drogie, a z moim szybko opróżniającym się skarbcem, muszę się zastanowić, jak zapłacę za utrzymanie moich żołnierzy na polu walki."
+ stewardship_wealth.1021.desc: "Wojny są drogie, a [current_war.GetName] to nie wyjątek w tej kwestii.\n\nMój skarbiec szybko się opróżnia, więc muszę się zastanowić, jak zapłacę za utrzymanie moich żołnierzy na polu walki."
  stewardship_wealth.1021.a: "Zebrać dodatkowe podatki od chłopów."
  stewardship_wealth.1021.a.custom: "Każde [county|El] w mojej [Concept('domain', 'domenie')|E]"
  stewardship_wealth.1021.b: "Ograniczyć nieistotne wydatki wojskowe."

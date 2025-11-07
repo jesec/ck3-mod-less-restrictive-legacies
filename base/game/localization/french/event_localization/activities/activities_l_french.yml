@@ -59,7 +59,7 @@
  activity_feast_name: "[ACTIVITY.GetHost.LocalPlayerString( 'Votre festin', 'Le festin' )][ACTIVITY.GetHost.LocalPlayerString( '', 'Loc_FR_du_GetName' )]"
  murder_feast_activity_cost_desc: "$feast_type_murder$"
  bloody_wedding_activity_cost_desc: "$wedding_type_bloody$"
- activity_feast_desc: "Chaque personne d’une certaine envergure dans le pays a été invitée à un grand festin, pour forger et renforcer des liens d’amitié et de loyauté."
+ activity_feast_desc: "Renforcez les liens de loyauté en invitant vassaux et voisins pour manger, boire et s’amuser !\n\nDes festins bien préparés vous permettront de maintenir la stabilité de votre pays en apaisant vos sujets et en nouant des amitiés."
  activity_feast_owner: "Hôte"
  activity_feast_destination_selection: "Le comté choisi recevra le modificateur [GetModifier( 'feast_recent_fest_modifier' ).GetNameWithTooltip|L] pendant 5 ans."
  activity_feast_selection_tooltip: "Organisez un grand banquet pour renforcer vos relations\n\nRécompenses attendues :\n$BULLET_WITH_TAB$[opinion|E] [opinion_i]\n$BULLET_WITH_TAB$Perte de [stress|El] [stress_loss_i]"

@@ -89,3 +89,6 @@
  is_title_created_first: "[title|E] déjà créé"
  is_title_created_third: "[title|E] déjà créé"
  is_title_created_global: "[title|E] déjà créé"
+ capital_county_equal_first: "[TARGET_TITLE.GetNameNoTier] est votre [capital|El]"
+ capital_county_equal_third: "[TARGET_TITLE.GetNameNoTier] est la [capital|El] [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUIName]"
+ capital_county_equal_global: "[TARGET_TITLE.GetNameNoTier] est la [capital|El]"

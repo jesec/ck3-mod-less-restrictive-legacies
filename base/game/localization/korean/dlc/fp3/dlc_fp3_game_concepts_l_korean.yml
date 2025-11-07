@@ -29,7 +29,7 @@
  game_concept_fp3_install_loyalist_cb: "지지자 심기"
  game_concept_fp3_install_loyalist_cb_desc: "대상 [realm|E]의 지도자로 칼리프국의 [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )](을)를 앉히기 위한 [war|E]을 수행할 수 있도록 합니다."
  game_concept_fp3_demand_submission_interaction: "$fp3_demand_submission_interaction$"
- game_concept_fp3_demand_submission_interaction_desc: "신앙이나 간계, 협박을 통해 대상에게 충성심을 요구합니다."
+ game_concept_fp3_demand_submission_interaction_desc: "신앙, 간계, 또는 협박을 사용해서 [character_possessive|E] 충성심을 [hook|E]의 형태로 요구합니다."
  game_concept_fp3_request_house_unity_change_interaction: "$fp3_request_house_unity_change_interaction$"
  game_concept_fp3_request_house_unity_change_interaction_desc: "$fp3_request_house_unity_change_interaction_desc$"
  game_concept_fp3_request_honorary_titles_interaction: "$fp3_request_honorary_titles_interaction$"

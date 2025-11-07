@@ -28,7 +28,7 @@
  draugr_healthy_hiking_fp1_modifier: "Zdrowotne wędrówki"
  draugr_healthy_hiking_fp1_modifier_desc: "Ta postać spędziła ogromną ilość czasu wędrując po dzikich obszarach swojego państwa, bezowocnie polując na potwory."
  ultimate_blasphemer_modifier: "Największy bluźnierca"
- ultimate_blasphemer_modifier_desc: "Ta postać złożyła w ofierze własną [Concept( 'head_of_faith', 'głowę wiary' )|E] ku czci bóstw obcej [Concept( 'faith', 'wiary' )|E]. Nikt nie uważa jej za prawdziwego wiernego."
+ ultimate_blasphemer_modifier_desc: "Ta postać złożyła w ofierze własną [Concept('head_of_faith', 'głowę wiary')|E] ku czci bóstw obcej [faithpossessive|El]. Nikt nie uważa jej za prawdziwego wiernego."
  embraced_local_traditions_modifier: "Przyjęto lokalne tradycje"
  embraced_local_traditions_modifier_desc: "Ta niegdyś skandynawska postać przyjęła kulturę i wiarę swojej nowej ojczyzny, choć nadal może wznosić #V kamienie runiczne#!."
  settled_norse_dynasty_modifier: "Osiadła dynastia"

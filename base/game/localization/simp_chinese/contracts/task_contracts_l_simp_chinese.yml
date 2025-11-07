@@ -494,7 +494,7 @@
  laamp_join_war_contract_attacker_win: "占据上风"
  laamp_join_war_contract_attacker_lose: "落入下风"
  laamp_join_war_contract.valid_war: "战争已经结束"
- join_war_contract_spawn.t: "新$laamp_join_war_contract_contract$[task_contract|E]"
+ join_war_contract_spawn.t: "新$laamp_join_war_contract_contract$$game_concept_task_contract$"
  join_war_contract_spawn.desc_attacker: "[attacker.GetShortUIName]发布了一个[task_contract|E]寻求他方加入针对[defender.GetShortUIName]的[war.GetName]"
  join_war_contract_spawn.desc_defender: "[defender.GetShortUIName]发布了一个[task_contract|E]寻求他方加入针对[attacker.GetShortUIName]的[war.GetName]"
  laamp_raid_contract_request: "$laamp_request_boilerplate_warfare$"

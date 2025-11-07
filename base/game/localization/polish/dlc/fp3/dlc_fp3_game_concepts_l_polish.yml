@@ -29,7 +29,7 @@
  game_concept_fp3_install_loyalist_cb: "Obsadzić zwolennika na urzędzie"
  game_concept_fp3_install_loyalist_cb_desc: "Umożliwia prowadzenie [wars|El] w celu postawienia postaci z cechą „[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]” na czele docelowego [realms|El]"
  game_concept_fp3_demand_submission_interaction: "$fp3_demand_submission_interaction$"
- game_concept_fp3_demand_submission_interaction_desc: "Żądaj lojalności celu za pomocą pobożności, podstępu lub zastraszania."
+ game_concept_fp3_demand_submission_interaction_desc: "Zażądaj od [character_possessive|El] lojalności w formie [Concept('hook', 'haka')|E], wykorzystując pobożność, podstęp lub zastraszenie."
  game_concept_fp3_request_house_unity_change_interaction: "$fp3_request_house_unity_change_interaction$"
  game_concept_fp3_request_house_unity_change_interaction_desc: "$fp3_request_house_unity_change_interaction_desc$"
  game_concept_fp3_request_honorary_titles_interaction: "$fp3_request_honorary_titles_interaction$"

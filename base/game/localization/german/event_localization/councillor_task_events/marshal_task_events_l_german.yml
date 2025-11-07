@@ -42,7 +42,6 @@
  marshal_task.1102.a: "Meine Untertanen dürfen sich immer sicher fühlen."
  marshal_task.1102.notification: "Erhöhte militärische Präsenz"
  marshal_task.1103.notification: "Schlachtbereite Aufgebote"
- #### END (Jonas W)
  marshal_task.2001.t: "Befehlshaber verwundet"
  marshal_task.2001.opening: "Im Verlauf eines Übungsduells wurde [commander.GetTitledFirstName] getroffen!"
  marshal_task.2001.ending: "\n\nMein [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] konnte zumindest die Blutung stoppen, doch es wird eine Weile dauern, bis [commander.GetFirstName] wieder genesen ist."

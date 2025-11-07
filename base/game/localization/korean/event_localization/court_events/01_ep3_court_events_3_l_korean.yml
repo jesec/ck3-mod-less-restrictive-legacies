@@ -88,6 +88,7 @@
  court_events.3100.a: "공부를 시작해야겠군."
  court_events.3100.b: "[linguist.GetFirstNameNoTooltip], 날 가르치도록!"
  court_events.3100.c: "이런 헛소리나 듣고 있을 시간은 없다."
+ court_events.3100.a.tt: "내가 [chancellor.GetShortUIName](을)를 대상으로 [GetScheme('learn_language').GetTypeName] [scheme|E]을 실행함 ([GetModifier('pressured_to_learn_court_language_modifier').GetNameWithTooltip] 적용)"
  #The Best Builder
  court_events.3110.t: "최고의 건축가"
  court_events.3110.desc: "\"주군.\" [steward.Custom2('MyCharacterIntroduction', ROOT.Char)](이)가 근심 가득한 얼굴로 다가왔다. \"골치 아픈 소식입니다.\"\n\n\"[vassal.GetPrimaryTitle.GetBaseNameNoTier]의 [vassal.GetTitledFirstName|U](이)가 자기 수도를 몹시 인상적인 방식으로 증축했는데, 평민들이 이를 [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitly](와)과 비교하기 시작했다고 합니다. 심지어는 둘을 비교하며 감히 후자가 부족하다는 말까지 하고 있습니다!\"\n\n\"지금은 강력한 힘을 과시하지 않으면 위신을 살릴 방법이 없을 듯합니다.\""

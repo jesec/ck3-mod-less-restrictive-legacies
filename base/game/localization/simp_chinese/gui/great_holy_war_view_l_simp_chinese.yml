@@ -79,3 +79,4 @@
  GHW_FORMAT_RANK: "$NUM|O$"
  ghw_heir_to_a_title: "是一个[title|E]的[heir|E]"
  ghw_married_to_a_ruler: "已与一位[ruler|E][married|E]"
+ ghw_devoted_to_their_faith: "受宗教承诺的约束"

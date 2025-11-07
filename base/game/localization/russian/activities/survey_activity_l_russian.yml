@@ -135,6 +135,8 @@
  inspection_conclusion_success_opinion_key: "[host.GetShortUIName] прекрасно [Select_CString(host.IsLocalPlayer, 'решили', Select_CString(host.IsFemale, 'решила', 'решил' ))] все внутренние государственные вопросы, чем [Select_CString(host.IsLocalPlayer, 'снискали', Select_CString(host.IsFemale, 'снискала', 'снискал' ))] уважение своих вассалов."
  inspection_conclusion_success_popular_opinion_key_title: "Популярный правитель"
  inspection_conclusion_success_popular_opinion_key: "[Select_CString(host.IsLocalPlayer, 'Ваша популярность', Concatenate('Популярность персонажа ',host.GetShortUIName))] заметно выросла после визита в провинцию [province.GetName]."
+ inspection_conclusion_success_governor_experience_key_title: "[host.Custom('GetGovernorConceptNoTooltip')]: опыт"
+ inspection_conclusion_success_governor_experience_key: "[host.GetShortUIName] [Select_CString(host.IsLocalPlayer, 'получили', Select_CString(host.IsFemale, 'получила', 'получил' ))] бесценный опыт как [host.Custom('GetGovernorConceptNoTooltip')|l], побывав в провинции [province.GetName]."
  inspection_retry_desc: "Прошлая проверка этой области сюзереном не принесла результатов. Но фундамент для улучшения графства был заложен и им до сих пор можно воспользоваться.\n#weak Исчезнет после успешной [Concept('inspection','проверки')|E]#!"
  inspection_second_try_modifier: "Безрезультатный осмотр"
  inspection_second_try_modifier_desc: "$inspection_retry_desc$\n\n[Concept('inspection_success_chance','Шанс успеха проверки')|E]: #p +10%#!"

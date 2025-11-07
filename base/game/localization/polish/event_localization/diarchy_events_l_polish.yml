@@ -21,7 +21,7 @@
  diarchies.0000.diarch_mandate_fail.tt.obtain_gold.self: "[diarch.GetSheHe|U] próbował[Select_CString( diarch.IsFemale, 'a', '' )] pozyskać [gold|El] siebie same[Select_CString( diarch.IsFemale, 'j', 'go' )]"
  diarchies.0000.diarch_mandate_fail.tt.acquire_character.liege: "[diarch.GetSheHe|U] próbował[Select_CString( diarch.IsFemale, 'a', '' )] pozyskać dla ciebie [Concept( 'courtier', 'dworzanina' )|E]"
  diarchies.0000.diarch_mandate_fail.tt.acquire_character.self: "Ta osoba próbowała pozyskać dla siebie lojalność [Concept('character', 'postaci')|E]"
- diarchies.0000.diarch_mandate_fail.tt.acquire_troops.liege: "Próbował[Select_CString( diarch.IsFemale, 'a', '' )] zdobyć dla ciebie żołnierzy"
+ diarchies.0000.diarch_mandate_fail.tt.acquire_troops.liege: "Ta osoba próbowała pozyskać twoich żołnierzy"
  diarchies.0000.diarch_mandate_fail.tt.acquire_troops.split: "Próbował[Select_CString( diarch.IsFemale, 'a', '' )] zdobyć żołnierzy dla was obu"
  diarchies.0000.diarch_mandate_fail.tt.affect_contract.liege: "Ta osoba próbowała w korzystny dla ciebie sposób wpłynąć na [vassal_contract|El] zawarty z [Concept('vassal', 'wasalem')|E]"
  diarchies.0000.diarch_mandate_fail.tt.harass_peasants.liege: "Ta osoba próbowała pozyskać zasoby od chłopstwa"

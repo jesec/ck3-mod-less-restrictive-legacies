@@ -8,6 +8,7 @@
  HEALTH_VALUE_FORMAT_MODERATE_PENALTY: "#N pénalité moyenne#!"
  HEALTH_VALUE_FORMAT_MINOR_PENALTY: "#N pénalité mineure#!"
  HEALTH_VALUE_FORMAT_TINY_PENALTY: "#N pénalité minuscule#!"
+ HEALTH_VALUE_FORMAT_TINY_BOOST: "#P Minuscule amélioration#!"
  HEALTH_VALUE_FORMAT_SMALL_BOOST: "#P petit bonus#!"
  HEALTH_VALUE_FORMAT_MEDIUM_BOOST: "#P bonus moyen#!"
  HEALTH_VALUE_FORMAT_SIGNIFICANT_BOOST: "#P bonus important#!"

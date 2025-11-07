@@ -92,7 +92,7 @@
  harm.0521.a.tt.success: "你的手抓住了什么东西"
  harm.0521.a.tt.failure: "你在水下待的时间太长"
  harm.0521.b: "浮到上面来呼吸！"
- harm.0521.b.tt.unlocked_by_cultrad: "该选项由你的[culture|E][traditions|E]解锁"
+ harm.0521.b.tt.unlocked_by_cultrad: "该选项由你的[culture_possessive|E][traditions|E]解锁"
  harm.0521.c: "游，#EMP 快游#!！"
  harm.0521.c.tt.success: "你及时到达水面上"
  harm.0521.c.tt.failure: "花了你太长时间"

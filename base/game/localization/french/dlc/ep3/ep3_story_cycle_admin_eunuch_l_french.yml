@@ -8,7 +8,7 @@
  #Events
  ep3_story_cycle_admin_eunuch.1001.t: "$admin_eunuch_header$ [eunuch.GetFullNameNoTooltip]"
  ep3_story_cycle_admin_eunuch.1001.intro_byz: "Depuis des siècles, les [Glossary( 'eunoukhoi', 'EUNOUKOS_GLOSS' )] servent dans l’administration [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] et les palais en tant que conseillers et confidents, jouant un rôle important dans les duels politiques quotidiens."
- ep3_story_cycle_admin_eunuch.1001.intro: "L’Empire a toujours besoin d’administrateurs et de serviteurs de confiance pour assurer le bon fonctionnement du gouvernement et la sécurité du palais, et les eunuques sont parmi les plus appréciés dans le [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]."
+ ep3_story_cycle_admin_eunuch.1001.intro: "Le pays a toujours besoin d’administrateurs et de serviteurs de confiance pour assurer le bon fonctionnement du gouvernement et la sécurité du palais. Les eunuques sont parmi les plus appréciés dans le [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]."
  ep3_story_cycle_admin_eunuch.1001.desc: "\n\n[eunuch.GetFirstName] a rapidement gravi les échelons, et son talent, sa probité et sa discrétion en toutes occasions font l’objet d’éloges peu communs dans les rangs du palais."
  ep3_story_cycle_admin_eunuch.1001.arrivals: "\n\nIl est issu d’une famille modeste [origin.GetDeJureLiege.GetAdjective] et celle-ci l’a récemment rejoint à [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]..."
  ep3_story_cycle_admin_eunuch.1001.a: "J’ai le travail qu’il lui faut."

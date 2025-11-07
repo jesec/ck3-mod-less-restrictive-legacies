@@ -14,7 +14,7 @@
  court.8190.f: "[Select_CString(family.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family'))] [family.GetFirstNameNoTooltip] [Select_CString(family.IsFemale, 'должна', 'должен' )] получать вашу помощь в первую очередь."
  court.8190.g: "В ваших услугах нуждается [Select_CString(house.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('house'))] [house.GetFirstNameNoTooltip]."
  employer_booner_court_physician_modifier: "Особое внимание"
- employer_booner_court_physician_modifier_desc: "Этот персонаж находится под постоянным присмотром умелого придворного врача."
+ employer_booner_court_physician_modifier_desc: "Этот персонаж находится под постоянным присмотром умелого врача."
  #Tutor
  court.8191.t: "Отдельные занятия"
  court.8191.desc: "[Select_CString(position_holder.IsFemale, 'Моя', 'Мой' )] [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('court_tutor_court_position').GetName()], [position_holder.GetTitledFirstName], — исключительно [Select_CString(position_holder.IsFemale, 'одаренная учительница', 'одаренный учитель' )]. Даже не представляю, как [position_holder.GetSheHe] справляется с непослушной детворой, которую пытается чему-то научить.\n\nХотя [position_holder.GetFirstNameNoTooltip] занимается со всеми детьми при [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ом дворе, я могу попросить [Select_CString(position_holder.IsFemale, 'ее', 'его' )] выделить время для отдельных уроков с кем-то из них."

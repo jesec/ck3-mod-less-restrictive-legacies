@@ -14,7 +14,7 @@
  court.8190.f: "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family'))], [family.GetFirstNameNoTooltip], tiene prioridad como paciente."
  court.8190.g: "Ocupaos de las quejas de mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('house'))], [house.GetFirstNameNoTooltip]."
  employer_booner_court_physician_modifier: "Atención cercana"
- employer_booner_court_physician_modifier_desc: "Este personaje es el objeto de atención constante de un médico de la corte de gran talento."
+ employer_booner_court_physician_modifier_desc: "Este personaje es el objeto de atención constante de un $court_physician_court_position$ de gran talento."
  #Tutor
  court.8191.t: "Tutela especial"
  court.8191.desc: "Mi [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('court_tutor_court_position').GetName()|l], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], es [Select_CString( position_holder.IsFemale, 'una maestra', 'un maestro' )] de gran talento, que mantiene a raya a los revoltosos niños mientras dirige su formación.\n\nSu atención se extiende a los niños del mundo cortesano [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip], pero queda espacio para que alguien reciba una tutoría más intensa bajo su vigilancia de confianza."

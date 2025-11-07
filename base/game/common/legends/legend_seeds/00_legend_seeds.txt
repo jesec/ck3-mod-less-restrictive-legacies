@@ -266,7 +266,7 @@ gothic_kings = {
 						this = culture:alan
 					}
 				}
-				capital_county = { duchy = title:d_crimea }
+				capital_county ?= { duchy = title:d_crimea }
 			}
 		}
 	}
@@ -1000,7 +1000,7 @@ ce1_heroic_legacy_1 = {
 	type = legitimizing
 	quality = famed
 	is_shown = {
-		dynasty = {
+		dynasty ?= {
 			has_dynasty_perk = ce1_heroic_legacy_1
 			NOT = {
 				exists = var:dynasty_legend_used

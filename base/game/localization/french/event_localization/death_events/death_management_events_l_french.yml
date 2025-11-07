@@ -70,7 +70,7 @@
  death_management.1010.over_12_liked_educator: "Vous m’avez tant appris, [dead_character.GetFirstName]."
  death_management.1010.over_12_disliked_educator: "Bon débarras."
  death_management.1010.a.tt: "En raison de la mort [dead_character.Custom('FR_du_Char_Pi')][dead_character.GetTitledFirstName], vous ne recevez plus de cours."
- death_management.educator.desc: "L’éducateur [ward_of_dead_character.Custom('FR_du_Char_Pi')][ward_of_dead_character.GetTitledFirstName], [dead_character.Custom('FR_le_Char_Pi')][dead_character.GetTitledFirstName], est mort[dead_character.Custom('FR_E')]."
+ death_management.educator.desc: "[dead_character.Custom('FR_le_Char_Pi')|U][dead_character.GetTitledFirstName], votre [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('ward_of_dead_character'))], en charge de l’éducation [ward_of_dead_character.Custom('FR_du_Char_Pi')][ward_of_dead_character.GetTitledFirstName], [dead_character.GetDeathReasonHideKiller]."
  death_management.2000.t: "Jusqu’à ce que [prison_holder.GetFirstNameNoTooltip] nous sépare"
  death_management.2000.t.root_killer: "Jusqu’à ce que je nous sépare"
  death_management.2000.t.no_killer: "Arraché[dead_character.Custom('FR_E')]"

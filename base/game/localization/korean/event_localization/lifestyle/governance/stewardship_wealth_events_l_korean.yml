@@ -25,7 +25,7 @@
  stewardship_wealth.1011.custom: "[THIS.Char.GetPrimaryTitle.GetName]에 속하는 모든 영지"
  #War Taxes, by Sean Hughes
  stewardship_wealth.1021.t: "전쟁 수행 비용"
- stewardship_wealth.1021.desc: "전쟁에는 막대한 자금이 든다. 바닥을 향해 맹렬히 질주하는 국고의 현황을 보건대 전장에 나가 있는 병사들에게 계속 봉급을 지급할 방편을 모색해야 한다."
+ stewardship_wealth.1021.desc: "전쟁에는 막대한 자금이 든다. [current_war.GetName] 또한 마찬가지다.\n\n국고가 빠르게 비워지고 있다. 전장에 나가 있는 병사들에게 계속 봉급을 지급할 방편을 모색해야 한다."
  stewardship_wealth.1021.a: "농노들에게서 세금을 추가로 거둬야겠어."
  stewardship_wealth.1021.a.custom: "[domain|E] 내의 모든 [county|E]"
  stewardship_wealth.1021.b: "군비 중 비필수적인 부분을 삭감하면 돼."

@@ -88,6 +88,7 @@
  court_events.3100.a: "Supongo que he de empezar a estudiar."
  court_events.3100.b: "¡[linguist.GetFirstNameNoTooltip], enseñadme!"
  court_events.3100.c: "No tengo tiempo para estas necedades."
+ court_events.3100.a.tt: "Comienzo una [scheme|lE] de [GetScheme('learn_language').GetTypeName|l] contra [chancellor.GetShortUIName] con [GetModifier('pressured_to_learn_court_language_modifier').GetNameWithTooltip]"
  #The Best Builder
  court_events.3110.t: "El mejor constructor"
  court_events.3110.desc: "«Mi señor[ROOT.Char.Custom('ES_OA')]», [steward.Custom2('MyCharacterIntroduction', ROOT.Char)] se me acerca con la preocupación grabada en el rostro. «Traigo noticias preocupantes».\n\n«[vassal.Custom('ES_ElLa')] [vassal.GetTitledFirstName|l] de [vassal.GetPrimaryTitle.GetBaseNameNoTier] ha estado construyendo en su capital de una manera tan impresionante que el pueblo llano ha empezado a compararla con [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitly], ¡y hasta se atreven a decir que esta se le queda atrás!»\n\n«Me temo que el único modo de salvar nuestro prestigio es una vigorosa exhibición de poder»."

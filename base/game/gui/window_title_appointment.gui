@@ -243,7 +243,7 @@
 												coa_house_medium = {
 
 													powerful_family_bonus = {
-														parentanchor = bottom|right
+														parentanchor = top|right
 													}
 												}
 
@@ -359,7 +359,7 @@
 
 							coa_house_medium = {
 								powerful_family_bonus = {
-									parentanchor = bottom|right
+									parentanchor = top|right
 								}
 							}
 						}

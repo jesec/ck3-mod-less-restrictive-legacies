@@ -8,7 +8,7 @@
  #Events
  ep3_story_cycle_admin_eunuch.1001.t: "$admin_eunuch_header$ [eunuch.GetFullNameNoTooltip]"
  ep3_story_cycle_admin_eunuch.1001.intro_byz: "Seit Jahrhunderten dienen [Glossary('Eunoukhoi', 'EUNOUKOS_GLOSS')] in der [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l]en Bürokratie und den Palästen als Berater und Vertraute. Sie spielen dabei eine wichtige Rolle in den tagtäglichen politischen Duellen."
- ep3_story_cycle_admin_eunuch.1001.intro: "Das Kaiserreich braucht immer Verwalter und vertrauenswürdige Diener, um eine reibungslose Regierung und die Sicherheit des Palastes zu gewährleisten, und Eunuchen gehören zu jenen, die man im Reich am meisten schätzt."
+ ep3_story_cycle_admin_eunuch.1001.intro: "Das Reich braucht immer Verwalter und vertrauenswürdige Diener, um eine reibungslose Regierung und die Sicherheit des Palastes zu gewährleisten, und Eunuchen gehören zu jenen, die man am meisten schätzt."
  ep3_story_cycle_admin_eunuch.1001.desc: "\n\n[eunuch.GetFirstName|U] ist rasch in der Hierarchie aufgestiegen, und [eunuch.Custom('DE_PRO_POS_S_3P')] Talent, [eunuch.Custom('DE_PRO_POS_S_3P')]e Redlichkeit und [eunuch.Custom('DE_PRO_POS_S_3P')]e Diskretion in allen Dingen werden innerhalb der Hierarchie des Palastes ungewöhnlich deutlich gelobt."
  ep3_story_cycle_admin_eunuch.1001.arrivals: "\n\nAus einer bescheidenen [origin.GetDeJureLiege.GetAdjective|l]en Familie stammend haben sich [eunuch.Custom('DE_PRO_POS_S_3P')]e Verwandten [eunuch.Custom('DE_PRO_PER_S_3P_D')] vor Kurzem in [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip] angeschlossen …"
  ep3_story_cycle_admin_eunuch.1001.a: "Ich habe da genau den richtigen Posten für [eunuch.Custom('DE_PRO_PER_S_3P_A')]."

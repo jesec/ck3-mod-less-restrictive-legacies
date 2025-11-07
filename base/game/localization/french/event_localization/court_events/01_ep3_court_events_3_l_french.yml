@@ -88,6 +88,7 @@
  court_events.3100.a: "Je devrais probablement commencer à étudier."
  court_events.3100.b: "Instruisez-moi, [linguist.GetFirstNameNoTooltip] !"
  court_events.3100.c: "Je n’ai pas de temps à perdre pour ces balivernes."
+ court_events.3100.a.tt: "Je commence un [scheme|El] d’[GetScheme('learn_language').GetTypeName|l] contre [chancellor.Custom('FR_le_Char_U_Pi')][chancellor.GetShortUIName] avec [GetModifier('pressured_to_learn_court_language_modifier').GetNameWithTooltip]"
  #The Best Builder
  court_events.3110.t: "Le meilleur bâtisseur"
  court_events.3110.desc: "« [ROOT.Char.Custom('FR_MonseigneurMadame')|U]. » [steward.Custom2('MyCharacterIntroduction', ROOT.Char)] s’avance vers moi, l’air grave. « J’ai des nouvelles inquiétantes. »\n\n« En [vassal.GetPrimaryTitle.GetBaseNameNoTier], [vassal.Custom('FR_le_Char_Pi')][vassal.GetTitledFirstName] a bâti une capitale si impressionnante que les roturiers ont commencé à la comparer à [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitly], osant même la trouver plus belle encore que celle-ci ! »\n\n« J’ai bien peur qu’une démonstration de puissance ne soit le seul moyen de sauver la face. »"

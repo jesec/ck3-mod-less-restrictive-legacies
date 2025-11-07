@@ -14,7 +14,7 @@
  court.8190.f: "Niech [family.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family'))], będzie twoim priorytetem."
  court.8190.g: "[house.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('house'))], może potrzebować pomocy. Zajmij się tym."
  employer_booner_court_physician_modifier: "Bliska uwaga"
- employer_booner_court_physician_modifier_desc: "Utalentowany nadworny medyk nieustannie poświęca swoją uwagę tej postaci."
+ employer_booner_court_physician_modifier_desc: "Utalentowany osobisty medyk nieustannie poświęca swoją uwagę tej postaci."
  #Tutor
  court.8191.t: "Wyjątkowe nauki"
  court.8191.desc: "[position_holder.GetTitledFirstName], czyli [GetCourtPositionType('court_tutor_court_position').GetName()|l] na moich usługach, nie ma sobie równych, jeśli chodzi o przekazywanie wiedzy. Jak nikt inny jest w stanie utrzymać w ryzach urwisów, których edukacją się zajmuje.\n\nUwaga tej osoby jest podzielona pomiędzy wszystkie dzieci żyjące na dworze miejsca znanego jako [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], ale istnieje możliwość, by jedno z nich otrzymało dodatkowe wsparcie w nauce pod jej czujnym okiem."

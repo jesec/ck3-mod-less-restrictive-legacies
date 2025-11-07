@@ -1,4 +1,6 @@
 ﻿l_spanish:
+ message_settings_tab_settings: "Ajustes"
+ message_settings_tab_log: "Registro de mensajes"
  MESSAGE_SETTINGS_WINDOW_NAME: "Configuración de mensajes"
  MESSAGE_SETTINGS_WINDOW_SHORTCUT_TT: "#I Haz clic para abrir la configuración de mensajes#!"
  MESSAGE_SETTINGS_WINDOW_TT: "#T $MESSAGE_SETTINGS_WINDOW_NAME$#!\nEditar la frecuencia y visibilidad de los mensajes filtradas por grupos."

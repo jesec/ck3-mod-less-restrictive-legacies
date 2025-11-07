@@ -104,6 +104,7 @@
  tenet_struggle_submission_desc: "Божественная воля — источник всего хорошего, поэтому хорошим следует считать лишь того, кто покорен божественной воле и готов потрудиться ради ее воплощения."
  doctrine_parameter_bonus_holy_war_piety_active: "[Concept( 'piety', 'Благочестие' )|E] и [piety_experience|El] за выигранные [holy_wars|El] увеличены на #P 50%#!"
  tenet_religious_legal_pronouncements_name: "Религиозный закон"
+ tenet_religious_legal_pronouncements_hisbah: "Хисба"
  tenet_religious_legal_pronouncements_fatwa: "Фетва"
  tenet_religious_legal_pronouncements_halakha: "Галаха"
  tenet_religious_legal_pronouncements_desc: "Границы между теологическими и юридическими спорами тонки, и духовные качества не только можно, но и нужно учитывать в мирских спорах."
@@ -323,7 +324,7 @@
  tenet_fp3_fedayeen_name: "Фидаи"
  tenet_fp3_sacred_murder_name: "Священное убийство"
  tenet_fp3_fedayeen_desc: "Когда обычной войны недостаточно, наш долг перед божеством [ROOT.Faith.HighGodNameAlternate] велит нам уничтожать его врагов путем хитрости и обмана. Мы должны не бояться ни смерти, ни боли и быть готовы расстаться с жизнью ради великого дела."
- doctrine_parameter_master_assassin_court_position_unlocked: "Открывает [Concept( 'court_position', 'придворную должность' )|E] [Concept( 'master_assassin', 'мастера-ассасина' )|E]"
+ doctrine_parameter_master_assassin_court_position_unlocked: "Открывает [Concept('court_position', 'придворную должность')|E]: #V [GetCourtPositionType( 'master_assassin_court_position' ).GetName()]#!"
  doctrine_parameter_death_is_glory: "Вероятность смерти или ранения в [Concept('battle', 'бою' )|E]: #N +10%#!"
  doctrine_parameter_sanctioned_assassinations: "При убийстве персонажей другой [Concept( 'faith', 'веры' )|E] посредством [Concept( 'schemes', 'происков' )|E] «[GetScheme('murder').GetTypeName]» не теряется [Concept( 'piety', 'благочестие' )|E]"
  #EP3 Tenets

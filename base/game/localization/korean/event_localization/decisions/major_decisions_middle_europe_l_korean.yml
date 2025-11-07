@@ -34,6 +34,7 @@
  #Empowering Sicilian Parliament, by Flavio Verna
  middle_europe_decisions.0010.t: "신분 회합"
  middle_europe_decisions.0010.desc: "그리스인이 시칠리아와 아폴리아 일대에 남겨놓은 기반 설비를 토대로 삼은 덕분에, [scoped_ruler.GetPrimaryTitle.GetName](은)는 이른 시기에 개화된 통치 방식을 선보일 수 있었다. \n\n후대에도 지중해에 안정과 번영이 깃들 수 있도록, 옛 로마의 전통에 기반한 새로운 법령을 지침으로 삼는 자문 기관에 세 신분의 대표자를 불러모으려 한다. 이제 이번 회합이 주최될 장소만 결정하면 되는데."
+ middle_europe_decisions.0010.tt_napoli_warning: "@warning_icon! #warning [GetTitleByKey('c_napoli').GetNameNoTier]에 의회를 건설하면 대학을 건설할 수 없음!#!"
  middle_europe_decisions.0010.a: "고대부터 의결이 이뤄졌던 팔레르모에서 개최해야겠군!"
  middle_europe_decisions.0010.b: "나폴리에서 개최해야 한다."
  middle_europe_decisions.0010.c: "이번 결정은 숙고해 봐야겠군."

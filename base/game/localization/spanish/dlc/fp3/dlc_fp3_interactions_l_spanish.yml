@@ -48,7 +48,7 @@
  fp3_antagonize_character_interaction.recipient_message.15: "[secondary_recipient.Custom('ES_ElLa')|U] [secondary_recipient.GetTitledFirstName|l] es un individuo maravilloso, ¿habéis pensado en reconsiderar vuestra percepción sobre [secondary_recipient.GetSheHe]?"
  fp3_persian_struggle_previously_swayed_tt: "Influido previamente durante el [persian_struggle|lE]: $VALUE|=+0$"
  fp3_demand_submission_interaction: "Exigir sumisión"
- fp3_demand_submission_interaction_desc: "Exigir la lealtad de [recipient.GetShortUINameNoTooltip] mediante piedad, astucia o intimidación."
+ fp3_demand_submission_interaction_desc: "Exigir la lealtad de [recipient.GetShortUINameNoTooltip] en forma de un [hook|lE] mediante piedad, astucia o intimidación."
  DEMAND_SUBMISSION_NOT_SAME_HEAD_OF_FAITH: "No tenéis el mismo [head_of_faith|lE]"
  DEMAND_SUBMISSION_I_AM_HEAD_OF_FAITH: "Soy [recipient.GetFaith.ReligiousHeadName|U] de [recipient.GetShortUIName]: $VALUE|=+0$"
  DEMAND_SUBMISSION_SHORT_REIGN: "[short_reign|E]: $VALUE|+0=-+$"

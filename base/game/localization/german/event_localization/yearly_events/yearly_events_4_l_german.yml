@@ -37,7 +37,7 @@
  yearly.4031.tt: "Eine Untersuchung wird eingeleitet"
  yearly.4031.b: "Begraben wir die Leiche und vergessen wir dieses Trauerspiel."
  yearly.4031.b_every_courtier: "Jeder Höfling"
- yearly.4031.c: "Als mein Hofarzt solltet Ihr die Leichen untersuchen."
+ yearly.4031.c: "Als mein Arzt solltet Ihr die Leichen untersuchen."
  yearly.4061.t: "Der weise Narr"
  yearly.4061.desc_opening: "„Man nennt mich [hodja.GetTitledFirstName], mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]. Ich trete vor Euch, um Euch meine Weisheit anzubieten.“\n\n"
  yearly.4061.desc_guard: "[guard.Custom2('MyCharacterIntroduction', ROOT.Char)|U], der den Mann vor mich brachte, schaut skeptisch drein."

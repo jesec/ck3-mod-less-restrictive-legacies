@@ -45,7 +45,7 @@
  death_murder_killer: "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]"
  death_siege: "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] во время осады"
  death_duel: "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] на дуэли"
- death_duel_killer: "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] на дуэли с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]"
+ death_duel_killer: "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вами', Concatenate('персонажем ',TARGET_CHARACTER.GetUIName))] на поединке "
  death_accident: "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] в результате несчастного случая"
  death_accident_killer: "$death_murder_killer$"
  death_ended_on_feast_table: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] на пиру"

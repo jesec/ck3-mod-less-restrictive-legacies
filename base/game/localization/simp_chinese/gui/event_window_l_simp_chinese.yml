@@ -106,6 +106,7 @@
  EVENT_WINDOW_OPTION_AVAILABLE_RELIGIOUS_TRAIT: "此选项可用，因为你的[faith|E][fame_trait|E]"
  EVENT_WINDOW_OPTION_AVAILABLE_HAVE_CAMP_PRIEST: "此选项可用，因为你拥有[GetCourtPositionType('camp_priest_camp_officer').GetName()][officer|E]"
  EVENT_WINDOW_OPTION_AVAILABLE_POI_AMOUNT: "此选项可用，因为你造访过的[points_of_interest|E]数量"
+ EVENT_WINDOW_OPTION_AVAILABLE_TRADITIONS: "此选项可用，因为你的[traditions|E]"
  EVENT_OPTION_NO_LONGER_AVAILABLE: "@warning_icon! #X 不再可用#!"
  tooltip_open_scheme_view: "#I 查看计谋#!"
  EVENT_OPTION_WILL_HAPPEN: "#S 将会发生\n#!"

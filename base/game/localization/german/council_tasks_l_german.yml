@@ -464,3 +464,4 @@
  liege_stopped_converting_county_desc: "Der [councillor.GetCouncilTitle] von [councillor_liege.GetShortUIName] hat aufgehört, [county.GetName] zu „[councillor_liege.GetFaith.GetName]“ zu [Concept('converting', 'bekehren')|E] #weak ([old_faith.GetAdjective])#!"
  liege_converted_county_title: "Lehnsherr bekehrte „[county.GetNameNoTierNoTooltip|V]“"
  liege_converted_county_desc: "Der [councillor.GetCouncilTitle] von [councillor_liege.GetShortUIName] hat [county.GetName] zu „[councillor_liege.GetFaith.GetName]“ [Concept('converting', 'bekehrt')|E] #weak ([old_faith.GetAdjective])#!"
+ steward_promote_culture_beth_nahrain: "Kultur von Beth Nahrain fördern"

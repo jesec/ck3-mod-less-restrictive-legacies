@@ -3,7 +3,7 @@
  #Generic:
  travel_city_companion_impressed: "\n\nMein[sightseeing_companion.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)] murmelt mir etwas zu, während ich dieses gelehrte Spektakel auf mich wirken lasse: „Ich könnte hier wirklich ein ganzes Leben verbringen, [ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)].“\n"
  travel_city_companion_idea: "\n\nMein[sightseeing_companion.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)] [sightseeing_companion.GetFirstName] schaut mich nachdenklich an. „[ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)], wir könnten hier einige Zeit verbringen, um die örtlichen Bräuche zu studieren.“"
- travel_city_option_study_locals: "Wir sollten hier lernen, was wir können."
+ travel_city_option_study_locals: "Lernen wir hier so viel, wie wir können"
  travel_city_option_souvenir: "Ich werde etwas finden, was ich mit nach Hause nehmen kann"
  travel_city_option_reflection_on_existance: "Es lohnt sich, darüber nachzudenken, wie zerbrechlich das Leben ist"
  travel_city_option_reflection_on_existance_tooltip: "Ich verbringe Zeit damit, über die zerbrechliche Natur des Lebens nachzudenken"

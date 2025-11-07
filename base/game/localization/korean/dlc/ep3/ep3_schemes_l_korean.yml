@@ -207,7 +207,7 @@
  #Dispute Border
  dispute_border: "국경 분쟁"
  dispute_border_action: "다음 대상과 국경 분쟁"
- dispute_border_desc: "[SCHEME.GetTargetCharacter.GetShortUINamePossessiveNoTooltip] 영토는 [SCHEME.GetOwner.GetPrimaryTitle.GetNameNoTier]의 소유다. 내가 이 땅을 훨씬 더 잘 관리할 수 있을 텐데..."
+ dispute_border_desc: "이 영토는 [SCHEME.GetOwner.GetPrimaryTitle.GetNameNoTier]의 소유라고 #EMP 할 수도#! 있을 것이다. 내가 이 땅을 훨씬 더 잘 관리할 수 있을 텐데..."
  dispute_border_desc_general: "$dispute_border$은 [governorships|E] 사이에서 영토를 이전하는 것이 목적인 [hostile_scheme|E]입니다. [diplomacy|E] 및 [house|E]을 기반으로 하며 [agents|E]들을 포섭할 수 있습니다.\n\n$dispute_border$에 성공하면 이웃 [Concept( 'county', '영지' )|E]가 [scheme_target|E]로부터 이전됩니다."
  DISPUTE_BORDER_SUCCESS_DESC: "[TARGET_CHARACTER.GetShortUINamePossessive] [Concept( 'county', '영지' )|E]가 이전됨"
  dispute_border_invalidated_title: "@scheme_icon! 국경 분쟁 모략 종료"
@@ -251,6 +251,7 @@
  start_dispute_border_interaction.tt.agent_focus_success: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_intermediary' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_proponent' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_sycophant' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_political_socialite' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_bureaucrat' ).GetName]"
  start_dispute_border_interaction.tt.agent_focus_speed: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_intermediary' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_proponent' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_political_socialite' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_bureaucrat' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_bureaucrat' ).GetName]"
  boundary_dispute_outcome_tt: "성공 시 [target.GetName](이)가 당신에게 이전됨"
+ boundary_dispute_outcome_vassal_tt: "성공 시 [recipient.GetShortUIName](이)가 당신의 [vassal|E]이 될 것임"
  #Subsume Province
  subsume_province: "총독령 흡수"
  subsume_province_action: "다음 대상의 총독령 흡수"

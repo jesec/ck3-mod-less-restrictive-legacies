@@ -17,6 +17,8 @@
  NOT_LIEGE_EQUAL_FIRST: "Vous n’êtes pas un[CHARACTER.Custom('FR_E')] [courtier|El][CHARACTER.Custom('FR_E')|E] ou un[CHARACTER.Custom('FR_E')] [vassal|El][CHARACTER.Custom('FR_E')|E] [TARGET_CHARACTER.Custom('FR_du_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName]"
  LIEGE_EQUAL_THIRD: "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] est un[CHARACTER.Custom('FR_E')] [courtier|El][CHARACTER.Custom('FR_E')|E] ou un[CHARACTER.Custom('FR_E')] [vassal|El][CHARACTER.Custom('FR_E')|E] [TARGET_CHARACTER.Custom('FR_du_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName]"
  NOT_LIEGE_EQUAL_THIRD: "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] n’est pas un[CHARACTER.Custom('FR_E')] [courtier|El][CHARACTER.Custom('FR_E')|E] ou un[CHARACTER.Custom('FR_E')] [vassal|El][CHARACTER.Custom('FR_E')|E] [TARGET_CHARACTER.Custom('FR_du_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName]"
+ LIEGE_EQUAL_NONE: "Est votre [courtier|El], [vassal|El] ou [follower|El]"
+ NOT_LIEGE_EQUAL_NONE: "N’est pas votre [courtier|El], [vassal|El] ou [follower|El]"
  TOP_LIEGE_EQUAL_FIRST: "Vous êtes le [top_liege|El]"
  NOT_TOP_LIEGE_EQUAL_FIRST: "Vous n’êtes pas le [top_liege|El]"
  KILLER_EQUAL_THIRD: "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] a été tué[CHARACTER.Custom('FR_E')] par [TARGET_CHARACTER.Custom('FR_le_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName]"

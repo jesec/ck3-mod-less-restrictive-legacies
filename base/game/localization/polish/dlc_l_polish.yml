@@ -34,6 +34,7 @@
  DLC016_CP2: "West Slavic Attire"
  DLC017_CP3: "Medieval Monuments"
  DLC018_CP4: "Arctic Attire"
+ DLC019_SP4: "Crowns of the World"
  dlc_001: "$DLC001_PREORDER$"
  dlc_001_desc: "Poczuj się niczym obywatel Świętego Cesarstwa Rzymskiego dzięki kolekcji ubiorów dla ludzi z gminu, wojowników i władców Europy Środkowej."
  dlc_002: "$DLC002_SP_DAY1$"
@@ -70,3 +71,5 @@
  dlc_017_desc: "Odkryj wielkie osiągnięcia architektoniczne wieków średnich dzięki zestawowi treści autorskich Medieval Monuments.\n\nDodatek powstał we współpracy z PiGu, uznanym moderem Crusader Kings III, i wprowadza do gry 20 nowych, zróżnicowanych i znaczących kulturowo pomników."
  dlc_018: "$DLC018_CP4$"
  dlc_018_desc: "Staw czoła chłodom dalekiej północy w stylowy sposób dzięki zestawowi treści autorskich Arctic Attire. Dodatek powstał we współpracy z Ajem, uznanym moderem Crusader Kings III, i zawiera przedmioty kosmetyczne inspirowane estetyką Saamów i Chantów."
+ dlc_019: "$DLC019_SP4$"
+ dlc_019_desc: "Rządź po królewsku z zestawem opcji kosmetycznych Crowns of the World, które odmienią wygląd twojego władcy. Zestaw dostępny wyłącznie dla posiadaczy Rozdziału IV."

@@ -376,7 +376,7 @@
  artifact_book_other_desc_3: "Das [ROOT.Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]e Werk lässt sich ausgiebig über [ROOT.Artifact.GetFeatureText('book_topic')] aus, und es ist [ROOT.Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminiert und illustriert."
  artifact_book_other_desc_4: "Das [ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')]e Buch zeigt ein [SCOPE.Custom('ArtifactArticleBookContentQuality')]es Verständnis, was [ROOT.Artifact.GetFeatureText('book_subject')] anbelangt, da es auch auf [ROOT.Artifact.GetFeatureText('book_topic')] eingeht."
  artifact_book_other_desc_5: "Das [ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')]e Manuskript beschreibt [ROOT.Artifact.GetOwner.Custom('ArtifactBookContentQuality')] [ROOT.Artifact.GetFeatureText('book_topic')]. Die Seiten sind ausführlich illuminiert und enthalten viele Illustrationen – am auffälligsten sind die von großen Schnecken."
- artifact_book_no_preface_desc: "[ROOT.Artifact.GetFeatureText('book_topic')]"
+ artifact_book_no_preface_desc: "[ROOT.Artifact.GetFeatureText('book_topic')|U]."
  feature_book_cover_material_wood: "Holz"
  feature_book_cover_material_leather: "Leder"
  feature_book_cover_material_velvet: "Samt"

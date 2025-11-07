@@ -16,4 +16,4 @@
  ep3_administrative_legacy_4_effect_cabinet_of_curiosities_global: "Odblokowuje budowlę należącą do [Concept('estate', 'majątku')|E]: [GetDomicileBuilding('cabinet_of_curiosities_01').GetName|l]"
  ep3_administrative_legacy_5_name: "Diaírei kaì Basíleue"
  ep3_administrative_legacy_track_effect_claimant_factions_global: "[vassals|E] i [noble_families|El] będą mniej chętnie dołączać do [Concept('claimant_factions', 'frakcji pretendenckich')|E] i uciekać się do [Concept('scheme', 'spisku')|E] typu [GetScheme('depose').GetTypeName]"
- ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "Odblokowuje [Concept('decision', 'decyzję')|E] „[GetDecisionWithKey('mass_arrests_decision').GetName]”"
+ ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "Odblokowuje [Concept('interaction', 'interakcję')|E] „#high [GetPlayer.GetPlayerInteractionName('ep3_mass_arrests_interaction')]#!”"

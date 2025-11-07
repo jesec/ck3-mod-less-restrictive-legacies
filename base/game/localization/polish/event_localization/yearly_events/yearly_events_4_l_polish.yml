@@ -37,7 +37,7 @@
  yearly.4031.tt: "Rozpoczyna się dochodzenie"
  yearly.4031.b: "Zakopmy ciało i zapomnijmy o tym."
  yearly.4031.b_every_courtier: "Każdy dworzanin"
- yearly.4031.c: "Jako mój nadworny medyk, powin[Select_CString(physician.IsFemale, 'naś', 'ieneś' )] zbadać ciała."
+ yearly.4031.c: "To do ciebie, jako mojego medyka, należy zbadanie ciał."
  yearly.4061.t: "Mądry głupiec"
  yearly.4061.desc_opening: "„Nazywam się [hodja.GetTitledFirstName], [Select_CString(ROOT.Char.IsFemale, 'moja pani', 'mój panie' )]. Przybył[Select_CString(hodja.IsFemale, 'am', 'em' )] przed twoje oblicze, aby zaoferować ci swoją mądrość”.\n\n"
  yearly.4061.desc_guard: "[guard.Custom2('MyCharacterIntroduction', ROOT.Char)|U], któr[Select_CString( guard.IsFemale, 'a przyprowadziła', 'y przyprowadził' )] tego człowieka przed moje oblicze, patrzy nieco sceptycznie."

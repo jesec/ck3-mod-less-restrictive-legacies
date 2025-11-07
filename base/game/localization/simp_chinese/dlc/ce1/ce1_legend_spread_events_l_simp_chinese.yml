@@ -60,7 +60,7 @@
  legend_spread_events.0040.b.tt.failure: "你的虔诚显然是个谎言"
  legend_spread_events.0040.c: "“那又如何呢？”"
  legend_spread_events.0050.t: "恭候[honored_lady.GetLadyLord|U]的差遣"
- legend_spread_events.0050.desc: "“#EMP [ROOT.Legend.GetProtagonist.GetSheHe]十分英勇\n而[honored_lady.GetSheHe]十分美丽\n[ROOT.Legend.GetProtagonist.GetSheHe]是个英雄\n而[honored_lady.GetSheHe]是个美人！#!”\n\n毋需多时，我便寻到了音乐的源头，[bard.GetTitledFirstName]正倚在石凳上拨弄着[bard.GetHerHis]的鲁特琴。\n\n“啊，[ROOT.Char.GetLadyLord]，”[bard.GetHerHis]的眼睛一下子亮了起来，“你成就传奇是为了给[honored_lady.GetTitledFirstName]留下好印象吗？”"
+ legend_spread_events.0050.desc: "“#EMP [ROOT.Legend.GetProtagonist.GetSheHe]十分英勇\n而[honored_lady.GetSheHe]十分美丽\n[ROOT.Legend.GetProtagonist.GetSheHe]是个英雄\n而[honored_lady.GetSheHe]是个美人！#!”\n\n毋需多时，我便寻到了音乐的源头，[bard.GetTitledFirstName]正倚在石凳上拨弄着[bard.GetHerHis]的乐器。\n\n“啊，[ROOT.Char.GetLadyLord]，”[bard.GetHerHis]的眼睛一下子亮了起来，“你成就传奇是为了给[honored_lady.GetTitledFirstName]留下好印象吗？”"
  legend_spread_events.0050.a: "“你怎么敢这样说！？我#EMP 已经结婚了#!！”"
  legend_spread_events.0050.b: "“[honored_lady.GetSheHe|U]确实美丽……”"
  legend_spread_events.0050.b.tt.success: "你的表态打动了[honored_lady.GetFirstNameNoTooltip]"

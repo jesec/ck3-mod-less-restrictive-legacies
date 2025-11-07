@@ -125,7 +125,7 @@
  single_combat.0001.stoic_veteran.general: "Nous avons fait face à des ennemis plus coriaces que vous dans la Garde !"
  single_combat.0001.stoic_veteran.other_varangian: "C’est honteux de [my_foe.Custom('SignatureWeaponKillType')] un garde loyal, m[my_foe.Custom('FR_OnA')] [my_foe.Custom('SisterBrother')]."
  single_combat.0001.blade_dance: "Je suis la lame la plus rapide de [myself.GetPrimaryTitle.GetNameNoTierNoTooltip] !"
- single_combat.0001.blade_dance_unlanded: "Je suis la lame la plus rapide de [myself.GetCurrentLocation.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] !"
+ single_combat.0001.blade_dance_unlanded: "Je suis la lame la plus rapide de tous les [myself.GetCulture.GetCollectiveNounNoTooltip] !"
  single_combat.0001.wrath_of_highgod: "Pour [myself.GetFaith.HighGodNameAlternate] et [myself.GetFaith.WarGodName], souffrez blasphémat[my_foe.Custom('FR_EurRice')] !"
  single_combat.0001.hurt_me_better: "#EMP Mmmmm#!, vous pensez que #EMP cela#! fait mal ? Je vais vous montrer ce qu’est la douleur !"
  single_combat.0001.special_fallback: "Allez au sol !"

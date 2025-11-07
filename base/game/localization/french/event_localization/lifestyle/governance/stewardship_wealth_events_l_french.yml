@@ -25,7 +25,7 @@
  stewardship_wealth.1011.custom: "Chaque comté en [THIS.Char.GetPrimaryTitle.GetName]"
  #War Taxes, by Sean Hughes
  stewardship_wealth.1021.t: "Les dépenses de guerre"
- stewardship_wealth.1021.desc: "Les guerres coûtent cher et, comme mon trésor se vide rapidement, il faut que je réfléchisse au moyen de payer pour que mes soldats restent sur le champ de bataille."
+ stewardship_wealth.1021.desc: "Les guerres coûtent cher et la [current_war.GetName] ne fait pas exception.\n\nComme mon trésor se vide rapidement, il faut que je réfléchisse au moyen de payer pour que mes soldats restent sur le champ de bataille."
  stewardship_wealth.1021.a: "Imposer plus lourdement les paysans."
  stewardship_wealth.1021.a.custom: "Chaque [county|El] de mon [domain|El]"
  stewardship_wealth.1021.b: "Réduire les dépenses militaires non essentielles."

@@ -884,7 +884,7 @@
  pilgrimage.6830.t: "Cisza"
  pilgrimage.6830.desc: "Jedynym dźwiękiem, jakim rozbrzmiewa [ROOT.Char.GetFaith.HouseOfWorship], jest echo moich własnych kroków. Nie ma tu nikogo poza mną. Ostatnią rzeczą, jaką pamiętam ze świata zewnętrznego, jest twarz tych żebraków w pobliżu bramy i idealnie błękitne niebo, teraz ogromnie odległe.\n\nIdę w kierunku ołtarza, wiedząc, że jestem tu tylko ja, a jednak czuję, że ktoś mnie stale obserwuje – czuję na sobie surowy wzrok wiecznie otwartych oczu [ROOT.Char.GetFaith.HighGodNamePossessive]."
  pilgrimage.6830.a: "Czas na modlitwę."
- pilgrimage.6830.b: "Spójrz na te łuki… piękne."
+ pilgrimage.6830.b: "Spójrz na te łuki… Piękne."
  pilgrimage.6830.c: "Wypada złożyć ofiarę."
  pilgrimage.6830.c.tt: "Stracisz artefakt, którym jest [votive_artifact.GetName|l]"
  #Ask a local priest to bless your artifact

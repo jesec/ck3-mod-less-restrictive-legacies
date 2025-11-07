@@ -48,7 +48,7 @@
  fp3_antagonize_character_interaction.recipient_message.15: "[secondary_recipient.GetTitledFirstName] to wspaniała osoba. Czy rozważasz zmianę zdania na [secondary_recipient.Custom('PL_jego_jej')] temat?"
  fp3_persian_struggle_previously_swayed_tt: "Poprzednio skłoniono postać do zmiany zdania podczas [Concept('persian_struggle', 'irańskiego intermezzo')|E]: $VALUE|=+0$"
  fp3_demand_submission_interaction: "Zażądaj podporządkowania się"
- fp3_demand_submission_interaction_desc: "Wykorzystaj swoją pobożność, podstęp lub postrach, aby [recipient.GetShortUINameNotMeNoTooltip] był[Select_CString( recipient.IsFemale, 'a ci lojalna', ' ci lojalny' )]"
+ fp3_demand_submission_interaction_desc: "Zażądaj od osoby znanej jako [recipient.GetShortUINameNotMeNoTooltip] lojalności w postaci [Concept('hook', 'haka')|E], wykorzystując pobożność, podstęp lub zastraszenie."
  DEMAND_SUBMISSION_NOT_SAME_HEAD_OF_FAITH: "Nie macie tej samej [Concept( 'head_of_faith', 'głowy wiary' )|E]"
  DEMAND_SUBMISSION_I_AM_HEAD_OF_FAITH: "Jestem osobą znaną jako [recipient.GetFaith.ReligiousHeadName] dla postaci, którą jest [recipient.GetShortUINameNotMe]: $VALUE|=+0$"
  DEMAND_SUBMISSION_SHORT_REIGN: "[short_reign|E]: $VALUE|+0=-+$"

@@ -35,7 +35,7 @@
  bp1_yearly.1010.b: "没有这个必要。"
  #A Friend till the End
  bp1_yearly.1020.t: "一生之友"
- bp1_yearly.1020.desc_intro: "被病痛折磨的我正躺在床上，诅咒着自己虚弱无力的身体，模模糊糊看到有个人影走了过来。那缓慢的步伐和令人不安的沉默吓了我一跳。"
+ bp1_yearly.1020.desc_intro: "我正躺在床上，诅咒着自己虚弱无力的身体，模模糊糊看到有个人影走了过来。那缓慢的步伐和令人不安的沉默吓了我一跳。"
  bp1_yearly.1020.desc: "\n\n那人一定从我口中发出的微弱声音和手的抖动猜出了我的不安，脚步变得急促起来，很快，一只温暖的手抓住了我的手，一张熟悉的脸庞进入了我的视野。\n\n“嘘，[ROOT.Char.GetFirstNameNoTooltip]，是我，[friend.GetFirstName]。看到你这样真让我痛心……真希望我能做些什么，#EMP 无论什么#!，来缓解你的痛苦。”"
  bp1_yearly.1020.a: "求你，留下来陪陪我……"
  bp1_yearly.1020.b: "我不想让你看到这样的我。"
@@ -51,7 +51,7 @@
  bp1_yearly.1021.c: "安息吧，我亲爱的[friend.GetFirstNameNoTooltip]。"
  #Till the Bitter End
  bp1_yearly.1030.t: "直到天荒地老"
- bp1_yearly.1030.desc: "\n\n“哈！现在看看你！没那么可怕了，不是吗？认出我来了吗，[ROOT.Char.Custom('InsultAdjective')][ROOT.Char.Custom('InsultNoun')]？是我，[rival.GetFirstName]！真不敢相信我有这么好的运气——从很久以前我就梦想着看到你如此的消沉衰弱！”\n\n而我几乎连低声说出“你是来幸灾乐祸的吗？”的力气都没有了。"
+ bp1_yearly.1030.desc: "\n\n“哈！现在看看你！没那么可怕了，不是吗？认出我来了吗，[ROOT.Char.Custom('InsultAdjective')][ROOT.Char.Custom('InsultNoun')]？是我，[rival.GetFirstName]！哈，早就想看到你如此衰弱了！”"
  bp1_yearly.1030.desc_nemesis: "\n\n“不，不是。”[nemesis.GetSheHe]回复道。直到[nemesis.GetFirstNameNoTooltip]走到床侧，我才注意到[nemesis.GetHerHis]眼中的危险光芒，以及[nemesis.GetHerHis]脸上的冰冷微笑。"
  bp1_yearly.1030.desc_nemesis_guard: "我已失去了所有希望，但这时，我的[GetCourtPositionType('bodyguard_court_position').GetName()][guard.GetFirstName]冲了进来！"
  bp1_yearly.1030.desc_nemesis_no_guard: "我想要行动，逃跑，尖叫，#EMP 无论什么#!，但我虚弱的身体早就不听我的了……"

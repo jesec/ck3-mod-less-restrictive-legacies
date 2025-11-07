@@ -106,6 +106,7 @@
  EVENT_WINDOW_OPTION_AVAILABLE_RELIGIOUS_TRAIT: "Cette option est disponible en raison de votre [fame_trait|El] [faith|E]"
  EVENT_WINDOW_OPTION_AVAILABLE_HAVE_CAMP_PRIEST: "Cette option est disponible, car vous avez un [officer|El] [GetCourtPositionType('camp_priest_camp_officer').GetName()]"
  EVENT_WINDOW_OPTION_AVAILABLE_POI_AMOUNT: "Cette option est disponible en raison du nombre de [points_of_interest|El] que vous avez visités"
+ EVENT_WINDOW_OPTION_AVAILABLE_TRADITIONS: "Cette option est disponible en raison de vos [traditions|El]"
  EVENT_OPTION_NO_LONGER_AVAILABLE: "@warning_icon! #X N’est plus disponible#!"
  tooltip_open_scheme_view: "#I Voir les complots#!"
  EVENT_OPTION_WILL_HAPPEN: "#S Va se produire\n#!"

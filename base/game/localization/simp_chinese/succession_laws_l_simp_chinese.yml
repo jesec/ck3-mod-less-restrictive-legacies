@@ -133,11 +133,11 @@
  #Appointment Succession Law
  appointment_succession_law: "任命继承制"
  appointment_succession_law_subname: "拥有最高分数的候选人继承"
- appointment_succession_law_effects: "#V 在$appointment_succession_law$下，[title|E]和相关[holdings|E]会由分数最高的候选人继承。[realm|E]内所有[adult|E]都可以通过各种手段，例如[scheming|E]和花费[influence|E]，来竞争[governorship|E]职位。#!"
+ appointment_succession_law_effects: "在$appointment_succession_law$下，[title|E]和相关[holdings|E]会由[candidate_score|E]最高的候选人继承。[realm|E]内所有[adult|E]都可以通过各种手段，例如[scheming|E]和花费[influence|E]，来竞争[governorship|E]职位。"
  #Acclamation Succession Law (Byzantium, EP3)
  acclamation_succession_law: "欢呼继承制"
  acclamation_succession_law_subname: "$appointment_succession_law_subname$"
- acclamation_succession_law_effects: "\n#V 在$acclamation_succession_law$中，[empire|E][title|E]和相关[holdings|E]会由分数最高的候选人继承。候选人包括领地的[noble_families|E]、[governors|E]和他们的家族成员。\n#!"
+ acclamation_succession_law_effects: "在$acclamation_succession_law$下，[empire|E][title|E]和相关[holdings|E]会由[candidate_score|E]最高的候选人继承。候选人包括[realm|E]的[noble_families|E]、[governors|E]和他们的家族成员。"
  #Descs used in calculating the candidate scores
  sum_of_skills_desc: "[skills|E]"
  infant_candidate_desc: "婴儿"
@@ -198,6 +198,7 @@
  appointment_female_preference_desc: "[GetLaw('female_preference_law').GetName]#weak （-[EmptyScope.ScriptValue('appointment_non_preferred_gender_penalty_value')|0%]）#!"
  appointment_female_only_desc: "[GetLaw('female_only_law').GetName]#weak （-[EmptyScope.ScriptValue('appointment_opposite_gender_penalty_value')|0%]）#!"
  appointment_is_top_liege: "是[ROOT.Char.GetTitleAsName]"
+ popular_opinion_in_capital_desc: "[ROOT.Char.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]的[county_opinion|E]"
  landless_adventurer_succession_law: "营地继承制"
  landless_adventurer_succession_law_subname: "最年长的孩子继承"
  landless_adventurer_succession_law_effects: "#high 在$landless_adventurer_succession_law$下，营地[title|E]会交给你未持有任何[titles|E]，同时是你的[courtier|E]的最年长的[Concept( 'child', '孩子' )|E]（或者最亲近的亲属）。如果没有可用角色，勇武最高的[follower|E]会继承。#!"

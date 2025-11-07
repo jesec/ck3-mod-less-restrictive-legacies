@@ -6,6 +6,7 @@
  SUCCESSION_LAW_CHANGE_WINDOW_CHANGE: "Cambiar ley"
  SUCCESSION_LAW_CHANGE_WINDOW_CHOOSE_NEW: "[SuccessionLawChangeWindow.GetLaws.GetLawGroup.GetName] disponible"
  SUCCESSION_LAW_CHANGE_WINDOW_PARTITION_LAWS: "[realm_heirs|E] múltiples"
+ SUCCESSION_LAW_CHANGE_WINDOW_APPOINTMENT_LAWS: "Sucesión de nombramiento"
  SUCCESSION_LAW_CHANGE_WINDOW_SINGLE_HEIR_LAWS: "[realm_heir|E] único"
  SUCCESSION_LAW_CHANGE_WINDOW_ENACT_COST: "Coste: [SuccessionLawChangeWindow.GetSelectedLaw.GetShortCostString]"
  SUCCESSION_LAW_CHANGE_WINDOW_ENACT_COST_TOOLTIP: "#T Coste#!\n [SuccessionLawChangeWindow.GetSelectedLaw.GetCostDescription]"

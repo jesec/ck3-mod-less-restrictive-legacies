@@ -96,8 +96,8 @@
  lesson_warscore: "Wynik wojny"
  lesson_winning_wars: "Wygrane wojny"
  lesson_losing_wars: "Przegrane wojny"
- quick_tutorial_desc: "Szybki samouczek"
- full_tutorial_desc: "Pełny samouczek"
+ quick_tutorial_desc: "Rozpocznij samouczek"
+ full_tutorial_desc: "Rozpocznij w trybie zaawansowanym"
  #Basics
  lesson_basics_welcome: "Witaj w Crusader Kings III"
  lesson_welcome_desc: "@tutorial_screenshot_1!\nJesteś średniowiecznym władcą! Twoje rządy mogą być krótkie, ale dzięki dziedzicom sprawisz, że z twoją dynastią będzie trzeba się liczyć przez wiele lat.\n\nZiemie czekają, aż zdobędziesz je mieczem lub małżeństwem. Starannie podejmowane decyzje dyplomatyczne mogą sprawić, że twoje wpływy sięgną dalej, niż ci się śniło…"
@@ -204,7 +204,7 @@
  lesson_basics_resources_3_desc: "Jeśli masz dużo [Concept( 'piety', 'pobożności' )|E], łatwiej będzie ci wchodzić w interakcję ze swoją [Concept( 'head_of_faith', 'głową wiary' )|E]. Ponieważ jesteś katolikiem, jest nim Papież. \n\n$game_concept_piety$ można uzyskać dzięki [Concept( 'learning', 'nauce' )|E], [Concept( 'skill', 'umiejętnościom' )|E] oraz [Concept( 'virtuous', 'cnotliwym' )|E] [Concept( 'traits', 'cechom' )|E] lub innym aktywnym działaniom np. pójście na [Concept( 'pilgrimage', 'pielgrzymkę' )|E].\n\nMasz również [Concept( 'piety_level', 'poziom religijności' )|E], który rośnie wraz z uzyskiwaniem dodatkowych punktów pobożności, dzięki czemu możesz pozytywnie oddziaływać na swoją postać. \n\n#TUT Podobnie jak w przypadku prestiżu, niektóre działania wymagają od ciebie #EMP wydania#! punktów pobożności, aby móc wypowiedzieć [Concept( 'holy_wars', 'święte wojny' )|E] lub utworzyć nową [Concept( 'faith', 'wiarę' )|E].\n\nWydawanie punktów pobożności jest czymś zupełnie normalnym i nie będzie to skutkowało pogorszeniem opinii innych [Concept( 'characters', 'postaci' )|E] o tobie.#!"
  #Lifestyles
  lesson_basics_lifestyles_1: "Styl życia ($lesson_basics_lifestyles$)"
- lesson_basics_lifestyles_1_desc: "Oprócz [Concept( 'traits', 'cech' )|E], twoja [Concept( 'character', 'postać' )|E] może również wybrać [Concept( 'lifestyle', 'styl życia' )|E]. Można wyróżnić pięć stylów życia, po jednym na każdą umiejętność. \n\n$game_concept_lifestyles$ odzwierciedlają to, na co postać poświęca najwięcej czasu i wysiłku każdego dnia, [Concept( 'focuses', 'skupiając' )|E] się na jednym z nich. \n\nKażdy priorytet przyznaje ci indywidualny bonus i zwiększa prawdopodobieństwo, że wystąpią wydarzenia związane z tym priorytetem."
+ lesson_basics_lifestyles_1_desc: "Oprócz [Concept('traits', 'cech')|E] twoja [character|El] może również wybrać [lifestyle|El]. Można wyróżnić [SelectLocalization( HasDlcFeature( 'wandering_nobles' ), 'number_six', 'number_five' )]  stylów życia, po jednym na każdą umiejętność.\n\n$game_concept_lifestyles$ odzwierciedlają to, na co postać poświęca najwięcej czasu i wysiłku każdego dnia, i każdy z nich ma kilka [Concept('focuses', 'priorytetów')|E].\n\nKażdy priorytet przyznaje ci unikatową premię i zwiększa prawdopodobieństwo wystąpienia związanych z nim wydarzeń."
  lesson_basics_lifestyle_open_window_tt: "Kliknij na przycisk „Styl życia” (podświetlony)"
  lesson_basics_lifestyles_2: "Priorytet ($lesson_basics_lifestyles$)"
  lesson_basics_lifestyles_no_GUI_highlight: "$lesson_basics_lifestyles_2$"

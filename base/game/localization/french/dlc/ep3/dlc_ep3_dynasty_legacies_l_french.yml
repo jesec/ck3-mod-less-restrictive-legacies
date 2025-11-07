@@ -16,4 +16,4 @@
  ep3_administrative_legacy_4_effect_cabinet_of_curiosities_global: "Débloque le bâtiment de [estate|El] [GetDomicileBuilding('cabinet_of_curiosities_01').GetName]"
  ep3_administrative_legacy_5_name: "Diviser pour régner"
  ep3_administrative_legacy_track_effect_claimant_factions_global: "Les [vassals|El] et les [noble_families|El] sont moins susceptibles de rejoindre des [claimant_factions|El] ou de fomenter un [scheme|El] de [GetScheme('depose').GetTypeName|l]"
- ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "Débloque la [decision|El] [GetDecisionWithKey('mass_arrests_decision').GetName]"
+ ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "Débloque l’[interaction|El] #high [GetPlayer.GetPlayerInteractionName('ep3_mass_arrests_interaction')]#!"

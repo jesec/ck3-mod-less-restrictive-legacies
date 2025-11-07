@@ -79,3 +79,4 @@
  GHW_FORMAT_RANK: "$NUM|O$"
  ghw_heir_to_a_title: "Является [Concept( 'heir', 'наследником' )|E] [Concept( 'title', 'титула' )|E]"
  ghw_married_to_a_ruler: "Состоит [Concept( 'married', 'в браке' )|E] с [Concept( 'ruler', 'правителем' )|E]"
+ ghw_devoted_to_their_faith: "Блюдет религиозные обеты"

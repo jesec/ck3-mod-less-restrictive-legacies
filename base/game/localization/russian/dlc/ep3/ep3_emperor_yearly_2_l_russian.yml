@@ -345,5 +345,5 @@
  ep3_emperor_yearly.2420.t: "Тень у трона"
  ep3_emperor_yearly.2420.desc: "Дом [noble_family_head.GetHouse.GetBaseName] распространяет свое могущество по всем уголкам владения #L [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetAdjective|l]ой#! державы, будто алчный спрут.\n\nТеперь уже очевидно, что даже императорский престол этой семье не указ. [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip|U] у них в руках, они полностью контролируют политику и экономику страны."
  2420_noble_family_tt: "Новое доминирующее семейство"
- 2420_noble_family_tt_desc: "Семейство [noble_family_head.GetHouse.GetBaseName] теперь считается [Concept('dominant_family','доминирующим')|E] в #L [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetAdjective|l]их#! землях."
+ 2420_noble_family_tt_desc: "Семейство [noble_family_head.GetHouse.GetBaseName] теперь считается [Concept('dominant_family', 'доминирующим')|E] в [noble_family_head.GetTopLiege.GetPrimaryTitle.GetAdjective|l]их землях."
  ep3_emperor_yearly.2420.a: "Тревожные новости."

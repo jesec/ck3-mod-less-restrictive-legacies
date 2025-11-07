@@ -34,6 +34,7 @@
  #Empowering Sicilian Parliament, by Flavio Verna
  middle_europe_decisions.0010.t: "Собрание сословий"
  middle_europe_decisions.0010.desc: "Инфраструктура, оставленная греками в провинциях Сицилия и Апулия, станет основой, благодаря которой [scoped_ruler.GetPrimaryTitle.GetName] перейдет к более просвещенной форме правления.\n\nСобрав представителей трех сословий в единый совещательный орган, действующий по римским традициям, я обеспечу стабильность и процветание Средиземноморья в грядущих веках. Осталось решить, где будет собираться этот парламент."
+ middle_europe_decisions.0010.tt_napoli_warning: "@warning_icon! #warning Строительство парламента в графстве [GetTitleByKey('c_napoli').GetNameNoTier] лишит вас возможности построить университет!#!"
  middle_europe_decisions.0010.a: "В Палермо, как в древности!"
  middle_europe_decisions.0010.b: "Он будет в Неаполе."
  middle_europe_decisions.0010.c: "Мне нужно серьезно подумать над этим решением."

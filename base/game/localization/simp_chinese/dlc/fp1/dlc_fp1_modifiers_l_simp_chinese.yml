@@ -28,7 +28,7 @@
  draugr_healthy_hiking_fp1_modifier: "徒步健身"
  draugr_healthy_hiking_fp1_modifier_desc: "该角色在他领地的荒野上花了大量时间徒步巡行，四处猎杀怪物，却徒劳无功。"
  ultimate_blasphemer_modifier: "罄竹难书的亵渎者"
- ultimate_blasphemer_modifier_desc: "该角色将自己的[head_of_faith|E]献祭给其他[faith|E]的神灵。没人会将其视为真正的信徒。"
+ ultimate_blasphemer_modifier_desc: "该角色将自己的[head_of_faith|E]献祭给其他[faithpossessive|E]的神灵。没人会将其视为真正的信徒。"
  embraced_local_traditions_modifier: "接纳当地传统"
  embraced_local_traditions_modifier_desc: "这位曾经的斯堪的纳维亚角色接受了新家乡的文化和信仰，不过他们仍然可以树立#V 符文石#!。"
  settled_norse_dynasty_modifier: "定居的宗族"

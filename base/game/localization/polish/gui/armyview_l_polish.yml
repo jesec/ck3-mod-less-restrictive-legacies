@@ -137,6 +137,7 @@
  START_RAID_LOOT_CAP: "@warning_icon! #X Armia nie może unieść więcej łupów z [Concept('raid', 'najazdu')|E]#!"
  START_RAID_NOT_OWN_REALM: "@warning_icon! #X Nie możesz [Concept('raid', 'najeżdżać')|E] ziem swojego [Concept('realm', 'państwa')|E]#!"
  START_RAID_ALLY: "@warning_icon! #X Nie możesz [Concept('raid', 'najeżdżać')|E] swojego sojusznika ([CHARACTER.GetShortUINameNotMe])#!"
+ START_RAID_TRUCE: "@warning_icon! #X Nie można dokonać [Concept('raid', 'najazdu')|E] na osobę znaną jako [CHARACTER.GetShortUINameNotMe]#!, kiedy trwa rozejm"
  START_RAID_IMMUNE: "@warning_icon! #X Nie możesz najeżdżać kogoś, kto niedawno pokonał twój [Concept('raid', 'najazd')|E]. Immunitet zakończy się [DATE.GetString|V]#!"
  START_RAID_NO_HOLDING: "@warning_icon! #X Nie ma tutaj [holdings|El], które można [Concept('raid', 'najechać')|E]#!"
  START_RAID_MOVING: "@warning_icon! #X Nie można [Concept('raid', 'najeżdżać')|E] podczas ruchu#!"
@@ -194,4 +195,4 @@
  TOGGLE_ATTACH_TO_UNIT_WINDOW: "Dołącz do armii"
  ATTACH_TO_UNIT_WINDOW_TEXT: "Dołącz do [AttachToArmyWindow.GetSelectedArmy.GetName]"
  ATTACH: "Dołącz"
- ARMY_UNIT_COOLTIP_NAME: "– [UnitItem.GetArmy.GetNameNoTooltip]"
+ ARMY_UNIT_COOLTIP_NAME: "[UnitItem.GetArmy.GetNameNoTooltip]"

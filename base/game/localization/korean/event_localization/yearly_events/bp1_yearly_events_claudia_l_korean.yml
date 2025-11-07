@@ -35,7 +35,7 @@
  bp1_yearly.1010.b: "이럴 필요 없어."
  #A Friend till the End
  bp1_yearly.1020.t: "최후에 찾아온 친구"
- bp1_yearly.1020.desc_intro: "병을 앓아 쇠약해진 몸을 저주하며 침상에 누웠는데, 인영이 다가오는 것을 겨우 알아볼 수 있었다. 그들의 느린 걸음과 묵직한 침묵에 공포가 밀려오기 시작했다."
+ bp1_yearly.1020.desc_intro: "쇠약해진 몸을 저주하며 침상에 누웠는데, 누군가 다가오는 것을 겨우 알아볼 수 있었다. 그들의 느린 걸음과 묵직한 침묵에 공포가 밀려오기 시작했다."
  bp1_yearly.1020.desc: "\n\n내 입에서 새어 나오는 희미한 신음과 내 손의 떨림으로 불안감을 짐작한 모양이다. 그들의 발걸음이 빨라지더니, 곧 따뜻한 손으로 내 손을 붙잡는 것이 느껴졌다. 이윽고 낯익은 얼굴이 내 시야에 들어왔다.\n\n\"이런, [ROOT.Char.GetFirstNameNoTooltip]. 나 [friend.GetFirstName]일세. 자네가 이러는 모습을 보는 게 정말 고통스럽군... 불편함을 덜어줄 수만 있다면 #EMP 뭐든#! 하련만.\""
  bp1_yearly.1020.a: "내 곁에 있어줘..."
  bp1_yearly.1020.b: "이런 나를 보지 말아줘."
@@ -51,7 +51,7 @@
  bp1_yearly.1021.c: "편히 잠들기를, [friend.GetFirstNameNoTooltip]."
  #Till the Bitter End
  bp1_yearly.1030.t: "쓰라린 최후"
- bp1_yearly.1030.desc: "\n\n\"하! 지금 네 꼴을 좀 보라지! 이젠 그렇게 무섭지도 않은데? [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNoun')], 날 알아보기는 했나? 나다, [rival.GetFirstName]. 운이 따라주는군. 그렇게 오랫동안 네가 무너지고 망가지는 모습을 꿈꿨는데!\"\n\n온 힘을 끌어모은 끝에 겨우 중얼거릴 수 있었다. \"비웃으러 온 건가?\""
+ bp1_yearly.1030.desc: "\n\n\"하! 지금 네 꼴을 좀 보라지! 이젠 그렇게 무섭지도 않은데? [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNoun')], 날 알아보기는 했나? 나다, [rival.GetFirstName]. 운이 따라주는군. 그렇게 오랫동안 네가 무너지는 모습을 꿈꿨는데!\""
  bp1_yearly.1030.desc_nemesis: "\n\n\"아니, 그럴 리가.\" [nemesis.GetSheHe]는 이렇게 대답했다. [nemesis.GetFirstNameNoTooltip](이)가 침상에 가까이 오기 전까지는 두 눈에 번뜩이는 위험한 눈빛조차 알아보지 못했다. 얼굴에 가득 담긴 차가운 미소마저도."
  bp1_yearly.1030.desc_nemesis_guard: "[GetCourtPositionType('bodyguard_court_position').GetName()] [guard.GetFirstName](이)가 방으로 뛰어들었을 때, 난 이미 모든 희망을 잃은 상태였다."
  bp1_yearly.1030.desc_nemesis_no_guard: "움직이려고, 달아나려고, 비명을 지르려고, #EMP 뭐라도#! 해 보려고 온갖 애를 썼다. 하지만 망가진 몸은 내 말을 듣지 않게 된 지 오래였다..."

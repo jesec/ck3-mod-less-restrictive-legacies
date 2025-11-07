@@ -399,8 +399,18 @@ empower_sicilian_parliament_decision = {
 			has_title = title:k_trinacria
 		}
 		OR = {
-			completely_controls = title:d_sicily # The Island
-			completely_controls = title:d_capua # The Boot
+			AND = {
+				completely_controls = title:d_sicily # The Island
+				title:c_palermo = {
+					title_province = { has_special_building = no }
+				}
+			}
+			AND = {
+				completely_controls = title:d_capua # The Boot
+				title:c_napoli = {
+					title_province = { has_special_building = no }
+				}
+			}
 		}
 	}
 
@@ -427,7 +437,7 @@ empower_sicilian_parliament_decision = {
 			}
 			else_if = {
 				limit = { completely_controls = title:d_capua }
-				
+				custom_tooltip = middle_europe_decisions.0010.tt_napoli_warning
 				title:c_napoli = {
 					sicilian_parliament_building_scripted_effect = yes
 				}

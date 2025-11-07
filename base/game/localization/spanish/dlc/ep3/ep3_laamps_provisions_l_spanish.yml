@@ -63,4 +63,4 @@
  ep3_laamps_provisions.1080.c: "Fijad un rumbo a tierra. ¡#EMP ya#!!"
  ep3_laamps_provisions.1080.c.tt: "Tu [travel|E] se verá cancelado y redirigido a [landfall.GetBaronyNameExplicitly] ([landfall.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetName])"
  critically_low_provisions_alert: "Provisiones extremadamente escasas"
- critically_low_provisions_alert_desc: "¡Tus provisiones están a punto de agotarse!"
+ critically_low_provisions_alert_desc: "¡Tus [provisions|lE] están a punto de agotarse!"

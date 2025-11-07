@@ -63,4 +63,4 @@
  ep3_laamps_provisions.1080.c: "Cap sur la terre, immédiatement !"
  ep3_laamps_provisions.1080.c.tt: "Your [travel|El] va être annulé et vous serez redirigés vers [landfall.GetBaronyNameExplicitly] ([landfall.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetName])"
  critically_low_provisions_alert: "Provisions dangereusement basses"
- critically_low_provisions_alert_desc: "Vos provisions sont sur le point de s’épuiser !"
+ critically_low_provisions_alert_desc: "Vos [provisions|El] sont sur le point de s’épuiser !"

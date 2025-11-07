@@ -337,3 +337,4 @@
  FACTION_REASON_ADMIN_CLAIMANT_CO_EMPEROR: "[claimant|E] ist [co_emperor|E]: $FACTOR|0%+=$"
  FACTION_REASON_ADMIN_CLAIMANT_JUNIOR_EMPEROR: "[claimant|E] ist [junior_emperor|E]: $FACTOR|0%+=$"
  FACTION_REASON_CLAIMANT_PRIMARY_HEIR: "[claimant|E] ist mein [heir|E]: $VALUE|+0=$"
+ FACTION_REASON_ADMINISTRATIVE: "[Concept('administrative', 'Verwaltungs')|E]-[vassal|E]: $VALUE|+0=$"

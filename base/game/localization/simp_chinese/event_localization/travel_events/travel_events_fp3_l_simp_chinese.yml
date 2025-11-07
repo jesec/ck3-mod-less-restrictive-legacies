@@ -96,7 +96,7 @@
  travel_events_fp3.0040.e: "我们来让这个[fp3_turkic_traveler.GetWomanMan]将[fp3_turkic_traveler.GetHerHis]的道传授给我们。"
  ### Tomb Raiders
  travel_events_fp3.0050.t: "盗墓者"
- travel_events_fp3.0050.desc.intro: "在路上转弯时，我们遇到了一群满身灰尘的人，正从一座曾经肯定很气派的坟墓里走出来。\n\n他们扛着叮当作响的麻袋，从这座古老建筑中挖出来的小饰品压得他们喘不过气来。\n\n“世道艰难，亲爱的[ROOT.Char.GetTitleAsNameNoTooltip]！我们的家人要吃饭，我们不会伤害任何活着的人。”\n\n领头的有些害怕地抬头看向我们，[fp3_tomb_raider.GetSheHe]显然意识到形势对他们不利。"
+ travel_events_fp3.0050.desc.intro: "在路上转弯时，我们遇到了一群满身灰尘的人，正从一座曾经肯定很气派的坟墓里走出来。他们扛着叮当作响的麻袋，从这座古老建筑中挖出来的小饰品压得他们喘不过气来。\n\n“世道艰难，强大的[ROOT.Char.GetTitleAsNameNoTooltip]！我们的家人要吃饭，我们不会伤害任何活着的人。”"
  travel_events_fp3.0050.a: "那些漠视过去的人同样没有未来。"
  travel_events_fp3.0050.b: "[ROOT.Char.GetTitleAsNameNoTooltip]理应得到[ROOT.Char.GetHerHis]那一份！"
  travel_events_fp3.0050.b.entourage: "你的旅伴[entourage_helper.GetName]帮助你审查赃物。"
@@ -104,4 +104,4 @@
  travel_events_fp3.0050.b.success.tooltip: "你获得一件古代珍宝"
  travel_events_fp3.0050.b.failure.desc: "没有什么特别的东西能吸引你的眼球"
  travel_events_fp3.0050.b.failure.t: "你得到了一些值钱的小玩意"
- travel_events_fp3.0050.c: "他们走投无路了，我会给他们钱，让她们把赃物放回去。"
+ travel_events_fp3.0050.c: "我没时间管这些农民。"

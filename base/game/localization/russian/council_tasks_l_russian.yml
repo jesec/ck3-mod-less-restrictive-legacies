@@ -464,3 +464,4 @@
  liege_stopped_converting_county_desc: "[councillor.GetCouncilTitle] больше не [Concept( 'converting', 'обращает' )|E] владение [county.GetName] в #L [councillor_liege.GetFaith.GetName|l]ую#! веру #weak ([old_faith.GetAdjective])#!"
  liege_converted_county_title: "Сюзерен обратил владение [county.GetNameNoTierNoTooltip|V]"
  liege_converted_county_desc: "[councillor.GetCouncilTitle] [Concept( 'converted', Select_CString(councillor.IsFemale, 'обратила', 'обратил' ))|E] владение [county.GetName] в #L [councillor_liege.GetFaith.GetName|l]ую#! веру #weak ([old_faith.GetAdjective|l])#!"
+ steward_promote_culture_beth_nahrain: "$task_promote_culture$ Бет Нахрайн"

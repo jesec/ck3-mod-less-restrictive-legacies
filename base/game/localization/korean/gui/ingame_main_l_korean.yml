@@ -176,7 +176,7 @@
  LIEGE_WAR_ITEM_TOOLTIP: "#tooltip_subheading [WAR.GetName|V]#!\n내 주군의 전쟁"
  ATTACKING_IN_WAR: "#attacker_color [CHARACTER.GetName] 공격 중#!\n"
  DEFENDING_IN_WAR: "#defender_color [CHARACTER.GetName]의 공격을 방어 중#!\n"
- WAR_ITEM_WAR_SCORE_TOOLTIP_HEADER: "[war_score|E]: $VALUE|+=0%$"
+ WAR_ITEM_WAR_SCORE_TOOLTIP_HEADER: "[war_score|E]"
  OPEN_TUTORIAL: "#T 튜토리얼 열기#!"
  DOMAIN_LIMIT_SOURCES: "[domain_limit|E]"
  VASSAL_LIMIT_SOURCES: "[vassal_limit|E]"

@@ -96,8 +96,8 @@
  lesson_warscore: "Score de guerre"
  lesson_winning_wars: "Gagner des guerres"
  lesson_losing_wars: "Perdre des guerres"
- quick_tutorial_desc: "Didacticiel rapide"
- full_tutorial_desc: "Didacticiel complet"
+ quick_tutorial_desc: "Démarrer le didacticiel"
+ full_tutorial_desc: "Démarrer la version avancée"
  #Basics
  lesson_basics_welcome: "Bienvenue dans Crusader Kings III"
  lesson_welcome_desc: "@tutorial_screenshot_1!\nVous êtes un souverain médiéval ! Votre règne sera peut-être bref, mais grâce à vos héritiers, vous pourriez parvenir à rendre votre dynastie célèbre.\n\nLa terre est à portée de main, que ce soit par le glaive ou le mariage, tandis qu’une diplomatie habile peut étendre votre territoire bien au-delà des rêves les plus fous de tout conquérant..."
@@ -204,7 +204,7 @@
  lesson_basics_resources_3_desc: "Avec beaucoup de [piety|El], vous aurez plus de facilité à interagir avec votre [head_of_faith|El]. Puisque vous êtes catholique, c’est le pape.\n\nLa piété peut être acquise de manière passive par l’[skill|El] en [learning|El] et les [traits|El] [virtuous|El], ou de manière active en agissant de manière pieuse, comme par exemple aller en [pilgrimage|El].\n\nVous avez également un [piety_level|El], qui augmente avec le temps quand vous obtenez de la piété et peut avoir des effets positifs sur votre personnage.\n\n#TUT Tout comme le prestige, certaines actions nécessitent que vous dépensiez de la piété, comme la déclaration de [holy_war|El] ou la création d’une [faith|El].\n\nDe telles dépenses sont normales et les [characters|El] ne vous en voudront pas.#!"
  #Lifestyles
  lesson_basics_lifestyles_1: "Modes de vie ($lesson_basics_lifestyles$)"
- lesson_basics_lifestyles_1_desc: "En plus de posséder des [traits|El], votre [character|El] peut aussi choisir un [lifestyle|El]. Il en existe cinq, un par aptitude. Il représente ce à quoi vous consacrez le plus d’efforts au quotidien et contient plusieurs [focuses|El].\n\nChaque intérêt vous donne un bonus unique et rend les événements associés plus probables d’arriver."
+ lesson_basics_lifestyles_1_desc: "En plus de posséder des [traits|El], votre [character|El] peut aussi choisir un [lifestyle|El]. Il en existe [SelectLocalization( HasDlcFeature( 'wandering_nobles' ), 'number_six', 'number_five' )], un par aptitude.\n\nIl représente ce à quoi vous consacrez le plus d’efforts au quotidien et contient plusieurs [focuses|El].\n\nChaque intérêt vous donne un bonus unique et rend les événements associés plus probables d’arriver."
  lesson_basics_lifestyle_open_window_tt: "Cliquez sur le bouton de mode de vie (mis en avant)"
  lesson_basics_lifestyles_2: "Intérêt ($lesson_basics_lifestyles$)"
  lesson_basics_lifestyles_no_GUI_highlight: "$lesson_basics_lifestyles_2$"

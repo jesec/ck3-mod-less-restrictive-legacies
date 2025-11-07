@@ -48,7 +48,7 @@
  fp3_antagonize_character_interaction.recipient_message.15: "[secondary_recipient.GetTitledFirstName] ist ein wunderbarer Mensch. Habt Ihr schon einmal in Betracht gezogen, Eure Wahrnehmung von [secondary_recipient.Custom('DE_PRO_PER_S_3P_D')] zu überdenken?"
  fp3_persian_struggle_previously_swayed_tt: "Bereits während des [Concept('persian_struggle', 'Iranischen Intermezzos')|E] beeinflusst: $VALUE|=+0$"
  fp3_demand_submission_interaction: "Unterwerfung verlangen"
- fp3_demand_submission_interaction_desc: "Die Treue von [recipient.GetShortUINameNoTooltip] durch Frömmigkeit, List oder Einschüchterung einfordern."
+ fp3_demand_submission_interaction_desc: "Durch den Einsatz von Frömmigkeit, Gerissenheit oder Einschüchterung die Treue von [recipient.GetShortUINameNoTooltip] in Form eines [Concept('hook', 'Druckmittels')|E] verlangen."
  DEMAND_SUBMISSION_NOT_SAME_HEAD_OF_FAITH: "Ihr habt nicht dasselbe [head_of_faith|E]"
  DEMAND_SUBMISSION_I_AM_HEAD_OF_FAITH: "Ich bin [recipient.GetFaith.ReligiousHeadName|U] von [recipient.GetShortUIName|U]: $VALUE|=+0$"
  DEMAND_SUBMISSION_SHORT_REIGN: "[short_reign|EU]: $VALUE|+0=-+$"

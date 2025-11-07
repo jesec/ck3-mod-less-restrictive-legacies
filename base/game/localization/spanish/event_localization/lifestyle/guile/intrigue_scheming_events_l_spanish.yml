@@ -224,7 +224,7 @@
  intrigue_scheming.4051.desc.murderattemptself: "quién estaba detrás un intento de asesinato fallido contra mí."
  intrigue_scheming.4051.desc.murder: "quién estaba detrás del asesinato de mi [buyer.Custom2('RelationToMeShort', SCOPE.sC('target'))] [target.GetTitledFirstName|l]."
  intrigue_scheming.4051.desc.incest: "¡la existencia de relaciones incestuosas dentro de mi propia familia!"
- intrigue_scheming.4051.desc.middle: "[seller.Custom('ES_ElElla')|U] se ha ofrecido a proporcionarme todo lo que sabe, incluidos nombres y pruebas…"
+ intrigue_scheming.4051.desc.middle: "\n\n[seller.Custom('ES_ElElla')|U] se ha ofrecido a proporcionarme todo lo que sabe, incluidos nombres y pruebas…"
  intrigue_scheming.4051.desc.gold: "a cambio de una cantidad de oro."
  intrigue_scheming.4051.desc.secret: "a cambio de los detalles de otro secreto que sé."
  intrigue_scheming.4051.desc.favor: "a cambio de un favor que se me pedirá en el futuro."

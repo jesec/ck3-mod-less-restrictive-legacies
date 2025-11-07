@@ -125,7 +125,7 @@
  single_combat.0001.stoic_veteran.general: "In der Garde standen wir zäheren Feinden als #EMP Euch#! gegenüber!"
  single_combat.0001.stoic_veteran.other_varangian: "Es ist eine Schande, ein treues Mitglied der Garde [my_foe.Custom('DE_1_SignatureWeaponKillType')] zu müssen, [my_foe.Custom('SisterBrother')]."
  single_combat.0001.blade_dance: "Ich bin die flinkste Klinge in [myself.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
- single_combat.0001.blade_dance_unlanded: "Ich bin die flinkste Klinge in [myself.GetCurrentLocation.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ single_combat.0001.blade_dance_unlanded: "Die [myself.GetCulture.GetCollectiveNounNoTooltip] kennen keine flinkere Klinge!"
  single_combat.0001.wrath_of_highgod: "Für [myself.GetFaith.HighGodNameAlternate] und [myself.GetFaith.WarGodName]! Leidet, Frevler[my_foe.Custom('DE_END_NOU_S_GS_N')]!"
  single_combat.0001.hurt_me_better: "#EMP Mmmmm#!. Ihr meint, #EMP das#! würde weh tun? Ich zeige Euch mal Schmerzen!"
  single_combat.0001.special_fallback: "Zu Boden mit Euch!"

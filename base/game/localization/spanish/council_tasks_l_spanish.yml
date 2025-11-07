@@ -464,3 +464,4 @@
  liege_stopped_converting_county_desc: "[councillor.GetCouncilTitle] de [Select_CString( councillor_liege.IsLocalPlayer, 'tu persona', councillor_liege.GetShortUIName )] ha dejado de [Concept( 'converting', 'convertir' )|E] [county.GetName] al [councillor_liege.GetFaith.GetName|l] #weak (antes de fe [old_faith.GetAdjective])#!"
  liege_converted_county_title: "Señor convirtió [county.GetNameNoTierNoTooltip|V]"
  liege_converted_county_desc: "[councillor.GetCouncilTitle] de [Select_CString( councillor_liege.IsLocalPlayer, 'tu persona', councillor_liege.GetShortUIName )] ha [converted|lE] [county.GetName] al [councillor_liege.GetFaith.GetName|l] #weak (antes de fe [old_faith.GetAdjective])#!"
+ steward_promote_culture_beth_nahrain: "$task_promote_culture$ de Beth Nahrain"

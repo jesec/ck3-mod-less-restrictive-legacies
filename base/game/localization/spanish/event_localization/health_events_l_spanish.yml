@@ -233,9 +233,9 @@
  #Recruit physician event
  health.3001.disease.t: "[SCOPE.Custom('EventTitleDisease')]:"
  health.3001.t: "Médico de la [ROOT.Char.Custom('GetCourt')]"
- health.3001.fallback_reason.desc: "Este mundo está lleno de peligros, hasta para un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleTierName|l] y su [ROOT.Char.Custom('GetCourt')]. Debo contratar a un médico de la corte, no sea que las heridas o la enfermedad caigan sobre nosotros.\n\nHe pedido recomendaciones y reunido unas cuantas opciones entre las que elegir."
+ health.3001.fallback_reason.desc: "Este mundo está lleno de peligros, hasta para un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleTierName|l] y su [ROOT.Char.Custom('GetCourt')]. Debería contratar a un médico, no sea que las heridas o la enfermedad caigan sobre nosotros.\n\nHe pedido recomendaciones y he reunido unas cuantas opciones entre las que elegir."
  health.3001.decision.desc: "Este mundo está lleno de peligros, hasta para un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleTierName|l] y sus [ROOT.Char.Custom('GetCourtierPlural')]. A petición mía, mis sirvientes han buscado recomendaciones. Ahora han reunido unas cuantas opciones entre las que elegir."
- health.3001.already_sick.desc: "Finalmente, mis sirvientes han encontrado gente que podría prestarme sus servicios médicos en la corte. De todas maneras, me temo que no puedo permitirme ser muy exigente."
+ health.3001.already_sick.desc: "Al fin mis sirvientes han encontrado gente que podría prestarme servicios médicos. De todas maneras, me temo que no me puedo permitir ser muy exigente."
  health.3001.a: "Al parecer, [high_skill_option.GetFirstNameNoTooltip] tiene mucha experiencia."
  health.3001.a.tt: "Un [GetCourtPositionType('court_physician_court_position').GetName()|l] también tiene un salario mensual de [SCOPE.ScriptValue('court_position_physician_salary')][gold_i]"
  health.3001.a.aptitude: "La [aptitude|lE] de [Select_CString( high_skill_option.IsLocalPlayer, 'tu persona', high_skill_option.GetShortUIName )] es [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )|l]"
@@ -385,7 +385,7 @@
  inform_relatives_about_disease_treatment_effect.risky_success.desc: "[physician.GetTitledFirstName] redujo enormemente los síntomas de [sick_character.GetTitledFirstName|l]"
  inform_relatives_about_disease_treatment_effect.risky_failure.desc: "[physician.GetTitledFirstName] fastidió el tratamiento de [sick_character.GetTitledFirstName|l]."
  inform_relatives_about_disease_treatment_effect.mystic_failure.desc: "¡[sick_character.GetTitledFirstName] no está como siempre tras fallar el ritual de [physician.GetTitledFirstName|l]!"
- physician_level_up_chance_effect.t: "Aumentan los conocimientos del médico de la corte"
+ physician_level_up_chance_effect.t: "Aumentan los conocimientos del $court_physician_court_position$"
  #Wound treatment, by Linnéa Thimrén
  health.4000.t: "$health_wounded_title$ Mi [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))] herid[sick_character.Custom('ES_OA')]"
  health.4000.start.desc: "Mi [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetTitledFirstName|l] ha resultado herid[sick_character.Custom('ES_OA')],"

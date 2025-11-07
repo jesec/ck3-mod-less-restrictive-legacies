@@ -157,7 +157,7 @@
  diarch_request_imperial_expedition_interaction_desc: "Anbieten, entlang einer der Grenzen des Reichs ([recipient.GetPrimaryTitle.GetName]) zu expandieren und ganze Landstriche zu erobern – und diese entweder zu behalten oder gegen [influence|E] einzutauschen"
  diarch_request_imperial_expedition_interaction_extra_icon: "$hook_extra_icon$"
  DIARCH_REQUESTS_IMPERIAL_EXPEDITION: "Mit-[recipient.GetTitleAsNameNoTooltip], mit Eurer Unterstützung will ich eine große Expedition unternehmen, um die Grenzen des Reiches auszuweiten. Worauf genau mein Schwert niedergeht, weiß ich noch nicht, nur dass es #EMP verheerend#! sein wird – sofern ich auf Eure Unterstützung zählen kann."
- diarch_request_imperial_expedition_interaction.tt.minimum_troop_count: "Ihr müsst in der Lage sein, selbst mindestens [EmptyScope.ScriptValue('request_imperial_expedition_minimum_troop_count_value')] Truppen in die Unternehmung einzubringen"
+ diarch_request_imperial_expedition_interaction.tt.minimum_troop_count: "Ihr müsst in der Lage sein, selbst mindestens [EmptyScope.ScriptValue('request_imperial_expedition_minimum_troop_count_value')] [soldiers|E] in die Unternehmung einzubringen"
  diarch_request_imperial_expedition_interaction.tt.actor_already_has_charge: "Ihr habt bereits Erlaubnis!"
  diarch_request_imperial_expedition_interaction.tt.influence_minor_name: "[influence_i][EmptyScope.ScriptValue('request_imperial_expedition_influence_stake_minor_value')|0] [influence|E] einsetzen"
  diarch_request_imperial_expedition_interaction.tt.influence_medium_name: "[influence_i][EmptyScope.ScriptValue('request_imperial_expedition_influence_stake_medium_value')|0] [influence|E] einsetzen"

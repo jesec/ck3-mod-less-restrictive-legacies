@@ -8,7 +8,7 @@
  #Events
  ep3_story_cycle_admin_eunuch.1001.t: "$admin_eunuch_header$ [eunuch.GetFullNameNoTooltip]"
  ep3_story_cycle_admin_eunuch.1001.intro_byz: "Desde hace siglos, los [Glossary( 'eunoukhoi', 'EUNOUKOS_GLOSS' )] han servido en la burocracia y los palacios de [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] como consejeros y confidentes, desempeñando papeles importantes en los duelos políticos del día a día."
- ep3_story_cycle_admin_eunuch.1001.intro: "El imperio siempre precisa de administradores y sirvientes de confianza para garantizar un buen gobierno y la seguridad del palacio, y los eunucos están entre los mejor valorados del/de la [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTootlip]."
+ ep3_story_cycle_admin_eunuch.1001.intro: "El señorío siempre precisa de administradores y sirvientes de confianza para garantizar un buen gobierno y la seguridad del palacio, y los eunucos están entre los mejor valorados del/de la [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]."
  ep3_story_cycle_admin_eunuch.1001.desc: "\n\n[eunuch.GetFirstName] ha ascendido rápidamente por la jerarquía y su talento, probidad y discreción en todo encuentran halagos pocos comunes por las filas palaciegas."
  ep3_story_cycle_admin_eunuch.1001.arrivals: "\n\nProcedente de una familia humilde de [origin.GetDeJureLiege.GetName], sus parientes se han unido recientemente a [eunuch.GetSheHe] en [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]…"
  ep3_story_cycle_admin_eunuch.1001.a: "Tengo el trabajo perfecto para [eunuch.GetSheHe]."

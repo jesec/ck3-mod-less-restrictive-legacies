@@ -143,7 +143,7 @@
  STRENGTH_COMPARISON_TOTAL_STRENGTH: "@soldier_icon! [GuiMilitaryStrength.GetTargetTotal|0]"
  STRENGTH_COMPARISON_ALLIES: "[ally_i|E] [GuiMilitaryStrength.GetTargetAlliesCount]"
  MV_ARMIES_SELECTION_PERSONAL: "Ваши армии"
- MV_ARMIES_SELECTION_IMPERIAL: "Имперские армии"
+ MV_ARMIES_SELECTION_IMPERIAL: "[GetPlayer.Custom('GetProvincialArmiesConceptNoTooltip')]"
  MV_MERCENARIES_SELECTION_MERCENARIES: "Наемники"
  MV_MERCENARIES_SELECTION_HIREABLE_RULERS: "Особые наемники"
  MV_MERCENARIES_NO_HIREABLE_RULERS_IN_RANGE: "В вашей [Concept( 'realm', 'державе' )|E] нет доступных наемных [Concept('adventurers','авантюристов')|E] и им подобных"

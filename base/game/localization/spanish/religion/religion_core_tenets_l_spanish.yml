@@ -104,6 +104,7 @@
  tenet_struggle_submission_desc: "La voluntad divina es la fuente de todo bien, así que una buena existencia se basa en la sumisión a esta voluntad, expresada mediante la lucha para ejecutarla."
  doctrine_parameter_bonus_holy_war_piety_active: "La [piety|lE] y [piety_experience|lE] por ganar [holy_wars|lE] aumentan en #P 50%#!"
  tenet_religious_legal_pronouncements_name: "Ley religiosa"
+ tenet_religious_legal_pronouncements_hisbah: "Hisba"
  tenet_religious_legal_pronouncements_fatwa: "Fetua"
  tenet_religious_legal_pronouncements_halakha: "Halajá"
  tenet_religious_legal_pronouncements_desc: "La frontera entre argumentos legales y teológicos es fina y en los acuerdos seculares pueden y deben ser tenidas en cuenta las cualidades espirituales."
@@ -323,7 +324,7 @@
  tenet_fp3_fedayeen_name: "Fedaiyín"
  tenet_fp3_sacred_murder_name: "Asesinato sagrado"
  tenet_fp3_fedayeen_desc: "Cuando la guerra ordinaria no es posible, es nuestro deber ante [ROOT.Faith.HighGodNameAlternate] destruir a Sus enemigos mediante infiltración y engaño. No hemos de temer la muerte ni el dolor, y entregaremos nuestras vidas con entusiasmo por una causa mayor."
- doctrine_parameter_master_assassin_court_position_unlocked: "Desbloquea el [court_position|lE] [master_assassin|lE]"
+ doctrine_parameter_master_assassin_court_position_unlocked: "Desbloquea el [court_position|lE] #V [GetCourtPositionType( 'master_assassin_court_position' ).GetName()|l]#!"
  doctrine_parameter_death_is_glory: "Probabilidad de muerte o heridas en [battle|lE]: #N +10 %#!"
  doctrine_parameter_sanctioned_assassinations: "No se pierde [piety|lE] por matar personajes de una [faith|lE] diferente mediante las [schemes|lE] de [GetScheme('murder').GetTypeName|l]"
  #EP3 Tenets

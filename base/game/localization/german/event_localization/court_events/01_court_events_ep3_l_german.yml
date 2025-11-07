@@ -14,7 +14,7 @@
  court.8190.f: "Mein[family.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family'))] [family.GetFirstNameNoTooltip] ist [Select_CString(family.IsFemale, 'Eure wichtigste Patientin', 'Euer wichtigster Patient')]."
  court.8190.g: "Kümmert Euch um die Beschwerden meines Hauses ([house.GetFirstNameNoTooltip])."
  employer_booner_court_physician_modifier: "Enge Betreuung"
- employer_booner_court_physician_modifier_desc: "Diese Charakter steht im Mittelpunkt der Bemühungen des Hofarztes."
+ employer_booner_court_physician_modifier_desc: "Dieser Charakter steht im Mittelpunkt der Bemühungen eines fähigen Hofarztes."
  #Tutor
  court.8191.t: "Sonderunterweisung"
  court.8191.desc: "[position_holder.GetTitledFirstName|U], mein [position_holder.Custom('ComplimentAdjective')]er [GetCourtPositionType('court_tutor_court_position').GetName()], ist talentiert in der Lehre und hält die widerspenstigen Knirpse geschickt im Zaum, während [position_holder.Custom('DE_PRO_PER_S_3P_N')] ihre Erziehung leitet.\n\n[position_holder.Custom('DE_PRO_POS_S_3P')|U]e Aufmerksamkeit gilt zwar allen Kindern des [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l]en Hofes, doch es wäre noch Platz für eines von ihnen, das unter [position_holder.Custom('DE_PRO_POS_S_3P')]er vertrauensvollen Aufsicht etwas mehr Nachhilfe erhält."

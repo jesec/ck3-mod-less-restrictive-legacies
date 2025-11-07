@@ -135,6 +135,8 @@
  inspection_conclusion_success_opinion_key: "[host.GetShortUIName] ha lidiado con éxito con los asuntos internos y se ha probado a sí mism[host.Custom('ES_OA')] entre sus vasallos."
  inspection_conclusion_success_popular_opinion_key_title: "Gobernante popular"
  inspection_conclusion_success_popular_opinion_key: "[host.GetShortUIName] ha visto cómo su popularidad aumentaba tras visitar [province.GetName]."
+ inspection_conclusion_success_governor_experience_key_title: "Experiencia de [host.Custom('GetGovernorConceptNoTooltip')|l]"
+ inspection_conclusion_success_governor_experience_key: "[host.GetShortUIName] ha ganado una experiencia valiosa en su papel como [host.Custom('GetGovernorConceptNoTooltip')|l] tras visitar [province.GetName]."
  inspection_retry_desc: "La última vez que su señor supervisó esta zona, el trabajo quedó incompleto, pero la base que se estableció para mejorar el condado sigue ahí.\n#weak Desaparecerá con una [inspection|lE] exitosa#!"
  inspection_second_try_modifier: "Inspección incompleta"
  inspection_second_try_modifier_desc: "$inspection_retry_desc$\n\n[inspection_success_chance|E]: #p +10 %#!"

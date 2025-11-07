@@ -176,7 +176,7 @@
  LIEGE_WAR_ITEM_TOOLTIP: "#tooltip_subheading [WAR.GetName|V]#!\nGuerre de mon seigneur lige"
  ATTACKING_IN_WAR: "#attacker_color Attaque#! [CHARACTER.Custom('FR_le_Char')][CHARACTER.GetName]\n"
  DEFENDING_IN_WAR: "#defender_color Se défend#! contre [CHARACTER.Custom('FR_le_Char')][CHARACTER.GetName]\n"
- WAR_ITEM_WAR_SCORE_TOOLTIP_HEADER: "[war_score|E] : $VALUE|+=0%$"
+ WAR_ITEM_WAR_SCORE_TOOLTIP_HEADER: "[war_score|E]"
  OPEN_TUTORIAL: "#T Ouvrir le didacticiel#!"
  DOMAIN_LIMIT_SOURCES: "[domain_limit|E]"
  VASSAL_LIMIT_SOURCES: "[vassal_limit|E]"

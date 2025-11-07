@@ -345,5 +345,5 @@
  ep3_emperor_yearly.2420.t: "Der Schatten hinter dem Thron"
  ep3_emperor_yearly.2420.desc: "Gierig und mächtig strecken sich die Hände von Haus [noble_family_head.GetHouse.GetBaseName] wie Tentakel in jeden Winkel des Reichs ([ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName|U]).\n\nEs ist nun offenkundig, dass nicht einmal die Person auf dem Kaiserthron mehr Macht hat als seine Mitglieder – sie sind die wahren Herren unseres Landes, und sie beherrschen das politische und wirtschaftliche Leben im Land ([ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip|U])."
  2420_noble_family_tt: "Neue vorherrschende Familie"
- 2420_noble_family_tt_desc: "Die Familie [noble_family_head.GetHouse.GetBaseName] gilt nun als [dominant_family|El] im Reich ([ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName|U])."
+ 2420_noble_family_tt_desc: "Die Familie [noble_family_head.GetHouse.GetBaseName] gilt nun als [dominant_family|El] im Reich ([noble_family_head.GetTopLiege.GetPrimaryTitle.GetName])."
  ep3_emperor_yearly.2420.a: "Beunruhigende Neuigkeiten."

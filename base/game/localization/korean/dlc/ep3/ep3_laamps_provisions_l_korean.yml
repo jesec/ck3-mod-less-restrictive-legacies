@@ -63,4 +63,4 @@
  ep3_laamps_provisions.1080.c: "항로를 육지로 돌려라. #EMP 어서#!!"
  ep3_laamps_provisions.1080.c.tt: "[travel|E]이 취소되고 [landfall.GetBaronyNameExplicitly]([landfall.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetName])(으)로 경로가 변경됨"
  critically_low_provisions_alert: "남은 저장품 매우 적음"
- critically_low_provisions_alert_desc: "저장품이 곧 바닥납니다!"
+ critically_low_provisions_alert_desc: "[provisions|E]이 곧 바닥납니다!"

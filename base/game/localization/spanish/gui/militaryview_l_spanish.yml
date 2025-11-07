@@ -143,7 +143,7 @@
  STRENGTH_COMPARISON_TOTAL_STRENGTH: "@soldier_icon! [GuiMilitaryStrength.GetTargetTotal|0]"
  STRENGTH_COMPARISON_ALLIES: "[ally_i|E] [GuiMilitaryStrength.GetTargetAlliesCount]"
  MV_ARMIES_SELECTION_PERSONAL: "Tus ejércitos"
- MV_ARMIES_SELECTION_IMPERIAL: "Ejércitos imperiales"
+ MV_ARMIES_SELECTION_IMPERIAL: "[GetPlayer.Custom('GetProvincialArmiesConceptNoTooltip')]"
  MV_MERCENARIES_SELECTION_MERCENARIES: "Mercenarios"
  MV_MERCENARIES_SELECTION_HIREABLE_RULERS: "Mercenarios especiales"
  MV_MERCENARIES_NO_HIREABLE_RULERS_IN_RANGE: "No hay [adventurers|lE] (o similares) contratables en tu [realm|lE]"

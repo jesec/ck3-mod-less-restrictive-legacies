@@ -8,7 +8,7 @@
  FAITH_VIEW_YOUR_FAITH: "Votre [faith|El]"
  TOGGLE_RELIGION_VIEW: "Autres fois"
  RELIGION_WINDOW_TITLE: "Autres fois"
- FAITH_ITEM_TOOLTIP: "#I Cliquez pour voir la foi [Faith.GetAdjectiveNoTooltip]#!"
+ FAITH_ITEM_TOOLTIP: "#I Cliquez pour voir#!"
  FAITH_TOOLTIP_HEAD_OF_FAITH: "[head_of_faith|E] : [Faith.GetReligiousHead.GetUIName]"
  TOGGLE_RELIGION_VIEW_TOOLTIP: "#I Cliquez pour voir les autres [faiths|El]#!"
  FAITH_WINDOW_FERVOR: "[fervor|E] : [Faith.GetFervor|0]%"

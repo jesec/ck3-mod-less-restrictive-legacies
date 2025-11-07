@@ -249,7 +249,7 @@
  GRANT_BARONY_TITLE_CANT_GIVE_REASON_OCCUPIED: "@warning_icon! #X [TITLE.GetName] está [occupied|lE]#!"
  GRANT_TITLE_SELECT: "@warning_icon! #X Sin títulos seleccionados#!"
  GRANT_TITLE_GRANT: "#T Conceder títulos seleccionados a [CHARACTER.GetShortUIName]#!"
- GRANT_TITLES_DESCRIPTION: "Seleccionar [titles|lE] que conceder a [CHARACTER.GetShortUINameNoTooltip]"
+ GRANT_TITLES_DESCRIPTION: "Selecciona $game_concept_titles$ que conceder a [CHARACTER.GetShortUINameNoTooltip]"
  GRANT_REVOKE_TITLES_ITEM_SELECT: "#T Seleccionar el [TITLE.GetName]#!"
  GRANT_REVOKE_TITLES_ITEM_DESELECT: "#T Deseleccionar el [TITLE.GetName]#!"
  GRANT_REVOKE_RIGHT_CLICK_INFO: "#I Botón secundario para ir a la ubicación#!"
@@ -348,7 +348,7 @@
  DEFEAT_CONFIRM_TITLE: "Rendirse"
  DEFEAT_CONFIRM: "Se perderá la guerra."
  DEFEAT_CONFIRM_ACCEPT: "Rendirse"
- REVOKE_TITLE_DESCRIPTION: "Seleccionar [title|lE] para revocar a [CHARACTER.GetShortUINameNoTooltip]"
+ REVOKE_TITLE_DESCRIPTION: "Selecciona $game_concept_title$ que revocar a [CHARACTER.GetShortUINameNoTooltip]"
  #REVOKE_TITLE_REVOKED_TITLE_BY: "" # <DELETE THIS KEY>
  #REVOKE_TITLE_TITLE_INFO: "" # <DELETE THIS KEY>
  REVOKE_TITLE_CANT_GIVE_REASON_DOESNT_OWN: "@warning_icon! #X [CHARACTER.GetUIName] no posee [TITLE.GetName]#!"
@@ -469,7 +469,7 @@
  INTERFERE_IN_WAR_REJECT_HEADER: "Si te niegas:"
  INTERFERE_IN_WAR_NO_WAR_SELECTED: "@warning_icon! #X Seleccionar una [war|lE] de la lista #!"
  INTERFERE_IN_WAR_NO_WARS: "#weak Sin guerras para seleccionar#!"
- INTERFERE_IN_WAR_DESCRIPTION: "#I Seleccionar una [war|lE]#!"
+ INTERFERE_IN_WAR_DESCRIPTION: "#I Selecciona una de las guerras de [Character.GetShortUIName]#!"
  INTERFERE_IN_WAR_ITEM_SELECT: "#T Intervenir en la [WAR.GetName|V] de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUINameNoTooltip )] #!"
  INTERFERE_IN_WAR_ALREADY_IN_WAR: "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip|U] [Select_CString( CHARACTER.IsLocalPlayer, 'estás', 'está' )] luchando en esta guerra#!"
  INTERFERE_IN_WAR_ALREADY_CALLED_TO_WAR: "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip] ya [Select_CString( CHARACTER.IsLocalPlayer, 'has', 'ha' )] sido llamado a esta guerra#!"
@@ -575,3 +575,4 @@
  STATE_FAITH_CREATE_FAITH_REASON: "Posees mucha influencia en [realm|lE]: $VALUE|=+0$"
  HAS_PERK_PROPHET_REASON: "Tienes el [perk|lE] [GetPerk('prophet_perk').GetName(GetPlayer)|l]: $VALUE|=+0$"
  INSPECTION_REASON: "Bonificación de [inspection|lE]: $VALUE|=+0$"
+ HAS_WET_NURSE_REASON: "[GetCourtPositionType( 'wet_nurse_court_position' ).GetName ]: $VALUE|=+0$"

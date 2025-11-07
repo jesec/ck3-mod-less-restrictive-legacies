@@ -39,7 +39,7 @@
  yearly.7005.independence_faction: "\n\n«Si no puedo tener mi propio estado, al menos seré protagonista de mi propia tragedia»."
  yearly.7005.claimant_faction: "«No tenéis derecho a languidecer sobre ese trono. Prefiero morir antes que veros dictar un solo decreto falso más desde allí»."
  yearly.7005.populist_faction: "«Me apena, lo juro, que no pueda sino concederos una muerte más justa que las agonías de todos los que han sido aplastados bajo vuestro pie. Al menos mi final será el de un[coup_leader.Custom('ES_XA')] [coup_leader.Custom('ES_HeroeHeroina')]»."
- yearly.7005.weapon: "\n\nSaca [coup_leader.Custom('SignatureWeaponNameOrType')] de su escondite y se abalanza."
+ yearly.7005.weapon: "\n\nSaca una daga oculta y se abalanza."
  yearly.7005.single_death: "Con una embestida de aúpa, asesta un golpe a [first_character_kill.GetTitledFirstName|l]"
  yearly.7005.double_death: "En una doble erupción, golpea a [first_character_kill.GetTitledFirstName|l] y a [second_character_kill.GetTitledFirstName|l]"
  yearly.7005.triple_death: "Para horror de todos, arremete contra [first_character_kill.GetTitledFirstName|l], [second_character_kill.GetTitledFirstName|l] y [third_character_kill.GetTitledFirstName|l]."

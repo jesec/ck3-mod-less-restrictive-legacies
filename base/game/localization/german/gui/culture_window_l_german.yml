@@ -86,7 +86,7 @@
  CULTURAL_ACCEPTANCE_GAINS: "Jahreszugewinn"
  CULTURAL_ACCEPTANCE_LOSSES: "Jahresverlust"
  CULTURAL_ACCEPTANCE_BASELINE: "[Concept('cultural_acceptance_baseline', 'Akzeptanz-Grundwert')|E]"
- CULTURE_PILLAR_GENERAL_TOOLTIP: "[CulturePillar.GetEffectDescription(Culture.Self)]\n\n[CulturePillar.GetDescription(Culture.Self)|F]"
+ CULTURE_PILLAR_GENERAL_TOOLTIP: "[CulturePillar.GetEffectDescription(Culture.Self)][AddLocalizationIf(CulturePillar.HasEffectDescription(Culture.Self), '\n\n')][CulturePillar.GetDescription(Culture.Self)|F]"
  CULTURE_PILLAR_TOOLTIP_HERITAGE_EFFECT: "#P +20#! [cultural_acceptance_baseline|E] bei Kulturen, die auch diese Herkunft haben"
  CULTURE_PILLAR_TOOLTIP_HERITAGE_SAME: "Eure Herkunft"
  CULTURE_PILLAR_TOOLTIP_HERITAGE_DIFF: "Andere Herkunft als Eure [culture|E]"

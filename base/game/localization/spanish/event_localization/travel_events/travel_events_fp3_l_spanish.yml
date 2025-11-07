@@ -96,7 +96,7 @@
  travel_events_fp3.0040.e: "Contratemos a tal [fp3_turkic_traveler.GetWomanMan] para que nos enseñe sus costumbres."
  ### Tomb Raiders
  travel_events_fp3.0050.t: "Ladrones de tumbas"
- travel_events_fp3.0050.desc.intro: "Al doblar un recodo del camino, nos topamos con un grupo de personas cubiertas de polvo que salen de lo que en el pasado debió de ser una tumba impresionante.\nPortan sacos de arpillera que tintinean y resuenan, lastrados por las alhajas que han desenterrado del antiguo edificio.\n\n«¡Son malos tiempos, apreciad[ROOT.Char.Custom('ES_OA')] [ROOT.Char.GetTitleAsNameNoTooltip|l]! Debemos alimentar a nuestras familias y no hacemos daño a nadie vivo».\n\nSu líder nos mira con cierta inquietud; está claro que se da cuenta de que esto no pinta bien para ellos."
+ travel_events_fp3.0050.desc.intro: "Al doblar un recodo del camino, nos topamos con un grupo de personas cubiertas de polvo que salen de lo que en el pasado debió de ser una tumba impresionante. Portan sacos de arpillera que tintinean y resuenan, lastrados por las alhajas que han desenterrado del antiguo edificio.\n\n«¡Son malos tiempos, poderos[ROOT.Char.Custom('ES_OA')] [ROOT.Char.GetTitleAsNameNoTooltip|l]! Debemos alimentar a nuestras familias y no hacemos daño a nadie vivo»."
  travel_events_fp3.0050.a: "No hay futuro para los que desdeñan el pasado."
  travel_events_fp3.0050.b: "¡[ROOT.Char.Custom('ES_ElLa')|U] [ROOT.Char.GetTitleAsNameNoTooltip|l] merece su parte!!"
  travel_events_fp3.0050.b.entourage: "Tu compañer[entourage_helper.Custom('ES_OA')] de viaje, [entourage_helper.GetName], te ayuda a examinar el botín."
@@ -104,4 +104,4 @@
  travel_events_fp3.0050.b.success.tooltip: "Consigues un tesoro antiguo"
  travel_events_fp3.0050.b.failure.desc: "Nada en especial te llama la atención"
  travel_events_fp3.0050.b.failure.t: "Consigues algunas fruslerías valiosas"
- travel_events_fp3.0050.c: "Están desesperados. Les pagaré para que devuelvan el botín."
+ travel_events_fp3.0050.c: "No tengo tiempo para campesinos."

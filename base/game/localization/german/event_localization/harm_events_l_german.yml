@@ -92,7 +92,7 @@
  harm.0521.a.tt.success: "Eure Hände klammern sich an etwas fest"
  harm.0521.a.tt.failure: "Ihr seid zu lange unter Wasser"
  harm.0521.b: "Hinauf zur Oberfläche!"
- harm.0521.b.tt.unlocked_by_cultrad: "Diese Auswahl ist verfügbar dank der [traditions|E] Eurer [culture|E]"
+ harm.0521.b.tt.unlocked_by_cultrad: "Diese Auswahl ist verfügbar dank der [traditions|e] Eurer [culture|E]"
  harm.0521.c: "Schwimmt, #EMP schwimmt#!!"
  harm.0521.c.tt.success: "Ihr schafft es rechtzeitig an die Oberfläche"
  harm.0521.c.tt.failure: "Ihr braucht zu lange"

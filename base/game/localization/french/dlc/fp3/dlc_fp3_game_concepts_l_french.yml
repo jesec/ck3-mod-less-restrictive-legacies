@@ -29,7 +29,7 @@
  game_concept_fp3_install_loyalist_cb: "Installer un partisan"
  game_concept_fp3_install_loyalist_cb_desc: "Vous permet de déclarer une [war|El] afin de mettre un [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] du califat sur le trône du [realm|El] concerné"
  game_concept_fp3_demand_submission_interaction: "$fp3_demand_submission_interaction$"
- game_concept_fp3_demand_submission_interaction_desc: "Exiger la loyauté de la cible en usant de piété, de ruse ou d’intimidation."
+ game_concept_fp3_demand_submission_interaction_desc: "Exiger la [Concept('hook','loyauté')|E] d’un [character|El] en usant de piété, de ruse ou d’intimidation."
  game_concept_fp3_request_house_unity_change_interaction: "$fp3_request_house_unity_change_interaction$"
  game_concept_fp3_request_house_unity_change_interaction_desc: "$fp3_request_house_unity_change_interaction_desc$"
  game_concept_fp3_request_honorary_titles_interaction: "$fp3_request_honorary_titles_interaction$"

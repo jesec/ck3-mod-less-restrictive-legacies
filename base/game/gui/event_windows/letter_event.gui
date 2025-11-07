@@ -410,6 +410,7 @@ window = {
 								autoresize = yes
 								max_width = 350
 								fontsize_min = 14
+								using = Text_Light_Background_Overrides
 							}
 						}
 						
@@ -585,6 +586,7 @@ window = {
 								layoutpolicy_horizontal = expanding
 								max_width = 420
 								fontsize_min = 12
+								using = Text_Light_Background_Overrides
 							}
 						}
 

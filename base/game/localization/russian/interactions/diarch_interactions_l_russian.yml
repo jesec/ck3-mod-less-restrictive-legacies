@@ -157,7 +157,7 @@
  diarch_request_imperial_expedition_interaction_desc: "Предложить экспансию по фронтиру, которым владеет [recipient.GetPrimaryTitle.GetName], с возможностью захватить обширные территории и либо оставить их себе, либо обменять на [Concept( 'influence', 'влияние' )|E]"
  diarch_request_imperial_expedition_interaction_extra_icon: "$hook_extra_icon$"
  DIARCH_REQUESTS_IMPERIAL_EXPEDITION: "[Select_CString(recipient.IsFemale, 'Сестра', 'Собрат' )]-[recipient.GetTitleAsNameNoTooltip|l], с вашей поддержкой я начну великую экспедицию, чтобы раздвинуть границы империи. Я еще не знаю, куда именно направить свой меч, но результаты будут #EMP разрушительными#!, если вы меня поддержите."
- diarch_request_imperial_expedition_interaction.tt.minimum_troop_count: "Вы должны отправить хотя бы [EmptyScope.ScriptValue('request_imperial_expedition_minimum_troop_count_value')] собственных войск"
+ diarch_request_imperial_expedition_interaction.tt.minimum_troop_count: "Вы должны быть в силах отправить собственных [Concept('soldiers', 'солдат')|E] — не менее [EmptyScope.ScriptValue('request_imperial_expedition_minimum_troop_count_value')]"
  diarch_request_imperial_expedition_interaction.tt.actor_already_has_charge: "У вас уже есть разрешение!"
  diarch_request_imperial_expedition_interaction.tt.influence_minor_name: "Поставить [influence_i][EmptyScope.ScriptValue('request_imperial_expedition_influence_stake_minor_value')|0] [Concept( 'influence', 'влияния' )|E]"
  diarch_request_imperial_expedition_interaction.tt.influence_medium_name: "Поставить [influence_i][EmptyScope.ScriptValue('request_imperial_expedition_influence_stake_medium_value')|0] [Concept( 'influence', 'влияния' )|E]"

@@ -92,7 +92,7 @@
  harm.0521.a.tt.success: "Twoje dłonie chwytają się czegoś"
  harm.0521.a.tt.failure: "Zbyt długo przebywasz pod wodą"
  harm.0521.b: "Walcz o wydostanie się na powierzchnię!"
- harm.0521.b.tt.unlocked_by_cultrad: "Ta opcja jest odblokowana dzięki twoim [Concept( 'traditions', 'tradycjom' )|E] [Concept( 'culture', 'kulturowym' )|E]"
+ harm.0521.b.tt.unlocked_by_cultrad: "Ta opcja jest odblokowana dzięki [Concept('traditions', 'tradycjom')|E] twojej [culture_possessive|El]"
  harm.0521.c: "Płyń, #EMP płyń#!!"
  harm.0521.c.tt.success: "W ostatniej chwili wynurzasz się na powierzchnię"
  harm.0521.c.tt.failure: "Nie udaje ci się wynurzyć na czas"

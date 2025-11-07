@@ -224,7 +224,7 @@
  intrigue_scheming.4051.desc.murderattemptself: "kto stał za nieudanym spiskiem mającym na celu zamordowanie mnie."
  intrigue_scheming.4051.desc.murder: "kto odpowiada za nieudany zamach, którego celem był[Select_CString( target.IsFemale, 'a', '' )] m[Select_CString( SCOPE.sC('target').IsFemale, 'oja', 'ój' )] [buyer.Custom2('RelationToMeShort', SCOPE.sC('target'))] [target.GetTitledFirstName]."
  intrigue_scheming.4051.desc.incest: "iż mojej rodzinie występują kazirodcze związki!"
- intrigue_scheming.4051.desc.middle: "Zaoferował[Select_CString( seller.IsFemale, 'a', '' )], że przekaże mi całą swoją wiedzę, łącznie z nazwiskami i dowodami"
+ intrigue_scheming.4051.desc.middle: "\n\nOferuje, że przekaże mi całą swoją wiedzę, łącznie z nazwiskami i dowodami,"
  intrigue_scheming.4051.desc.gold: "w zamian za pokaźną sumę złota."
  intrigue_scheming.4051.desc.secret: "w zamian za ujawnienie innego sekretu, który jest mi znany."
  intrigue_scheming.4051.desc.favor: "w zamian za przysługę, która zostanie wyświadczona w przyszłości."

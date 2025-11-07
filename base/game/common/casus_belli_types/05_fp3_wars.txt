@@ -739,6 +739,7 @@ fp3_turkic_invasion_cb = {
 	defender_allies_inherit = no
 
 	ai_score_mult = {
+		value = 1
 		#Declaring war on the frankokratia leader can really ruin the whole thing
 		if = {
 			limit = {
@@ -971,6 +972,7 @@ fp3_seljuk_invasion_cb = {
 	truce_days = 3650
 
 	ai_score_mult = {
+		value = 1
 		#Declaring war on the frankokratia leader can really ruin the whole thing
 		if = {
 			limit = {
@@ -1321,6 +1323,7 @@ fp3_unify_house_cb = {
 	defender_allies_inherit = no
 
 	ai_score_mult = {
+		value = 1
 		#Declaring war on the frankokratia leader can really ruin the whole thing
 		if = {
 			limit = {

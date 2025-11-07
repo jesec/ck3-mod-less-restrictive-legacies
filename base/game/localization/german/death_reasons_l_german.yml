@@ -45,7 +45,7 @@
  death_murder_killer: "wurde von [TARGET_CHARACTER.GetUIName] ermordet"
  death_siege: "wurde während einer Belagerung getötet"
  death_duel: "wurde bei einem Duell getötet"
- death_duel_killer: "wurde von [TARGET_CHARACTER.GetUIName] in einem Duell erschlagen"
+ death_duel_killer: "wurde bei einem Duell von [TARGET_CHARACTER.GetUIName] erschlagen"
  death_accident: "starb bei einem Unfall"
  death_accident_killer: "$death_murder_killer$"
  death_ended_on_feast_table: "fand [CHARACTER.Custom('DE_PRO_POS_S_3P')] Ende während eines Festmahls"

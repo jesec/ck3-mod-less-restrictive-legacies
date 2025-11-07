@@ -40,7 +40,7 @@
  ep3_governor_yearly.8040.d.success: "Ihr schafft es, alles im Griff zu behalten"
  ep3_governor_yearly.8040.d.failure: "Ihr seid zu unfähig, beides zu verwalten"
  ep3_governor_yearly.8050.t: "Gegner vor den Toren"
- ep3_governor_yearly.8050.desc: "Ob niedrigster Funktionär oder [war_liege.GetTopLiege.GetTitleAsNameNoTooltip]: Das gesamte Reich ([war_liege.GetPrimaryTitle.GetTierAsNameNoTooltip]) müht sich, um [target_kingdom.GetBaseNameNoTier] vor dem jüngsten Angreifer ([war_attacker.GetPrimaryTitle.GetDefinitiveName]) zu verteidigen. Als [ROOT.Char.GetTitleAsNameNoTooltip] des [ROOT.Char.GetPrimaryTitle.GetAdjective|l]en Reichs ist die Bedrohung nur allzu fassbar –"
+ ep3_governor_yearly.8050.desc: "Ob niedrigster Funktionär oder [war_liege.GetTopLiege.GetTitleAsNameNoTooltip]: Das gesamte Reich ([war_liege.GetPrimaryTitle.GetTierAsNameNoTooltip]) müht sich, um [target_title.GetBaseNameNoTier] vor dem jüngsten Angreifer ([war_attacker.GetPrimaryTitle.GetDefinitiveName]) zu verteidigen. Als [ROOT.Char.GetTitleAsNameNoTooltip] des [ROOT.Char.GetPrimaryTitle.GetAdjective|l]en Reichs ist die Bedrohung nur allzu fassbar –"
  ep3_governor_yearly.8050.kingdom: "ein großer Teil der Verteidigung der Region obliegt mir."
  ep3_governor_yearly.8050.neighbour: "wenn man sie nicht im Zaum hält, könnten die Eindringlinge als Nächstes nach [ROOT.Char.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetNameNoTier] vorrücken."
  ep3_governor_yearly.8050.end: "\n\nIch fülle meine Rolle aus, indem ich Garnisonen bemanne, Befestigungen instand setze und Soldaten rekrutiere, doch es kann noch mehr getan werden. Jede Hilfe wäre in [war_liege.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip] wahrscheinlich sehr willkommen …"

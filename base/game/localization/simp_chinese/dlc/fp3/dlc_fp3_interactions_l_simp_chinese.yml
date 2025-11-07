@@ -48,7 +48,7 @@
  fp3_antagonize_character_interaction.recipient_message.15: "[secondary_recipient.GetTitledFirstName]是个很棒的人，你考虑过对[secondary_recipient.GetHerHim]刮目相看吗？"
  fp3_persian_struggle_previously_swayed_tt: "[persian_struggle|E]期间曾被拉拢过：$VALUE|=+0$"
  fp3_demand_submission_interaction: "要求顺服"
- fp3_demand_submission_interaction_desc: "以虔诚、诡诈或恐吓要求[recipient.GetShortUINamePossessiveNoTooltip]的忠诚。"
+ fp3_demand_submission_interaction_desc: "以虔诚、诡诈或恐吓要求[recipient.GetShortUINamePossessiveNoTooltip][hook|E]形式的忠诚。"
  DEMAND_SUBMISSION_NOT_SAME_HEAD_OF_FAITH: "你们的[head_of_faith|E]不同"
  DEMAND_SUBMISSION_I_AM_HEAD_OF_FAITH: "我是[recipient.GetShortUINamePossessive|U]的[recipient.GetFaith.ReligiousHeadName|U]：$VALUE|=+0$"
  DEMAND_SUBMISSION_SHORT_REIGN: "[short_reign|E]：$VALUE|+0=-+$"

@@ -5,7 +5,7 @@
  child_personality.7000.b: "너는 정말 기가 막힌 친구야, [other_child.GetFirstNameNoTooltip]. 건배!"
  child_personality.7000.c: "아, 나는 안 마실래. 너 혼자 마셔."
  child_personality.7001.t: "$child_personality.7000.t$"
- child_personality.7001.desc: "\"이놈들이 식료품 창고에 숨어있더군요!\" 매우 화가 난 요리사가 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetFirstName](과)와 [other_child.GetFirstName](을)를 끌고 가며 소리쳤다.\n\n"
+ child_personality.7001.desc: "\"이놈들이 식료품 창고에 숨어있더군요!\" 매우 화가 난 요리사가 내 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))]인 [child.GetFirstName](와)과 [other_child.GetFirstName](을)를 끌고 가며 소리쳤다.\n\n"
  child_personality.diligent.desc: "\"[other_child.GetFirstNameNoTooltip] 녀석이 [ROOT.GetCharacter.Custom('RegionalAlcoholicDrink')](이)가 가득 담긴 나무통을 #EMP 통째로#! 훔쳤습니다! 제가 눈치채기 전에 스스로 다시 가져다 놓으려고 했던 것 같지만 어림없었죠!\" 요리사가 화를 내며 말했다.\n\n내 피후견인은 말썽꾸러기이긴 하지만 중간에 정신을 차렸던 것 같다."
  child_personality.gregarious.desc: "\"얘들이 [ROOT.GetCharacter.Custom('RegionalAlcoholicDrink')](이)가 가득 담긴 나무통을 #EMP 통째로#! 훔쳐서 거의 다 마셨버렸습니다. 둘 다 잔뜩 취해서 거의 서 있지도 못하는 꼴 좀 보십시오!\" 요리사가 화를 내며 말했다.\n\n내 피후견인이 친구의 압박에 넘어간 것 같지만, [other_child.GetFirstNameNoTooltip](와)과 같이 저러는 것을 보니 아주 두터운 사이인 것 같다."
  child_personality.temperate.desc: "\"얘들이 [ROOT.GetCharacter.Custom('RegionalAlcoholicDrink')](이)가 가득 담긴 나무통을 #EMP 통째로#! 훔쳐 갔는데, [other_child.GetFirstNameNoTooltip](이)가 거의 인사불성이 되는 동안 [child.GetFirstNameNoTooltip](은)는 그냥 앉아만 있더군요!\" [cook.GetSheHe|U]가 화를 내며 말했다.\n\n내 피후견인은 친구를 지키기 위해 술을 먹지 않고 망을 봐준 것 같다."

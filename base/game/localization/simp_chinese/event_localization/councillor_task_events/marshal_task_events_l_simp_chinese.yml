@@ -42,7 +42,6 @@
  marshal_task.1102.a: "我的臣民永远可以感到安全。"
  marshal_task.1102.notification: "加强军事存在"
  marshal_task.1103.notification: "征召兵准备战斗"
- #### END (Jonas W)
  marshal_task.2001.t: "将领受伤"
  marshal_task.2001.opening: "[commander.GetTitledFirstName]在练习决斗的过程中被击中了！"
  marshal_task.2001.ending: "\n\n我的[councillor.GetCouncilTitle][councillor.GetTitledFirstName]已经设法止了血，但[commander.GetFirstName]仍需要一段时间才能康复。"

@@ -59,7 +59,7 @@
  activity_feast_name: "[ACTIVITY.GetOwner.LocalPlayerString( 'Tu festín', 'El festín' )][ACTIVITY.GetOwner.LocalPlayerString('', 'Loc_ES_de_GetName' )]"
  murder_feast_activity_cost_desc: "$feast_type_murder$"
  bloody_wedding_activity_cost_desc: "$wedding_type_bloody$"
- activity_feast_desc: "Todo aquel de cierta importancia en el señorío ha sido invitado a un gran festín para fraguar y reforzar lazos de amistad y lealtad."
+ activity_feast_desc: "¡Refuerza los vínculos de lealtad invitando a vasallos y vecinos a comer, beber y divertirse en tus salones!\n\nBanquetes oportunos mantendrán tu señorío estable al apaciguar a los súbditos y forjar amistades."
  activity_feast_owner: "Anfitrión"
  activity_feast_destination_selection: "El condado elegido recibirá el modificador [GetModifier( 'feast_recent_fest_modifier' ).GetNameWithTooltip|L] durante cinco años."
  activity_feast_selection_tooltip: "Celebra un gran banquete para reforzar tus relaciones\n\nRecompensas previstas:\n$BULLET_WITH_TAB$[opinion|E] [opinion_i]\n$BULLET_WITH_TAB$Pérdida de [stress|lE] [stress_i]"

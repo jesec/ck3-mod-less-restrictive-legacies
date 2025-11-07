@@ -104,6 +104,7 @@
  tenet_struggle_submission_desc: "Der göttliche Wille ist der Quell des Guten, und daher gründet sich ein gutes Leben auch darauf, diesem Willen untertan zu sein und zugleich dafür zu streiten, dass er umgesetzt wird."
  doctrine_parameter_bonus_holy_war_piety_active: "[piety|E] und [piety_experience|E] durch das Gewinnen von [holy_wars|E] wird um #P 50 %#! erhöht."
  tenet_religious_legal_pronouncements_name: "Kirchenrecht"
+ tenet_religious_legal_pronouncements_hisbah: "Hisba"
  tenet_religious_legal_pronouncements_fatwa: "Fatwa"
  tenet_religious_legal_pronouncements_halakha: "Halacha"
  tenet_religious_legal_pronouncements_desc: "Die Grenze zwischen theologischen und juristischen Argumenten ist dünn, und das Spirituelle kann und sollte auch bei weltlichen Entscheidungen bedacht werden."
@@ -323,7 +324,7 @@
  tenet_fp3_fedayeen_name: "Fedajin"
  tenet_fp3_sacred_murder_name: "Heiliges Morden"
  tenet_fp3_fedayeen_desc: "Wenn gewöhnliche Kriegsführung nicht weiter hilft, ist es unsere Pflicht vor der höchsten Instanz ([ROOT.Faith.HighGodNameAlternate]), ihre Feinde durch Unterwanderung und Täuschung zu vernichten. Wir dürfen weder Tod noch Schmerz fürchten und müssen bereitwillig unser Leben für die größere Sache geben."
- doctrine_parameter_master_assassin_court_position_unlocked: "Schaltet das [court_position|E] [master_assassin|E] frei"
+ doctrine_parameter_master_assassin_court_position_unlocked: "Erlaubt das [court_position|E] „#V [GetCourtPositionType('master_assassin_court_position').GetName()]#!“"
  doctrine_parameter_death_is_glory: "Wahrscheinlichkeit, in der [battle|E] zu sterben oder verwundet zu werden: #N +10 %#!"
  doctrine_parameter_sanctioned_assassinations: "Kein [Concept('piety', 'Frömmigkeitsverlust')|E] beim Ermorden von Charakteren von anderem [Concept('faith', 'Glauben')|E] bei [GetScheme('murder').GetTypeName]-[schemes|E]"
  #EP3 Tenets

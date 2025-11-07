@@ -11,7 +11,7 @@
  court.7030.d.tt: "将[foreign_merchant.GetFirstNameNoTooltip]驱离我们的领地，并正当地没收[foreign_merchant.GetSheHe]从我们自己的商人那儿窃走的金钱！"
  ### Court Event 7040
  court.7040.title: "团契之柱"
- court.7040.desc: "我注意到我的[ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName]一直在房间里紧张地来回踱步。\n\n“[chaplain.GetName]，怎么回事？”我问道。\n\n“是[ascetic.GetName]，大人。[ascetic.GetSheHe|U]今早翻到了宫殿庭院里一根柱子的顶上，整天呆在那上面安静地冥想。[ascetic.GetSheHe]拒绝饮食，被问时答的话也相当少。像这样的苦修实践并非闻所未闻，但这困扰到了你宫廷里的某些人，他们请求我对此做点什么。”"
+ court.7040.desc: "我注意到我的[ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName]一直在房间里紧张地来回踱步。\n\n“[chaplain.GetName]，怎么回事？”我问道。\n\n“是[ascetic.GetName]，主上。[ascetic.GetSheHe|U]今早翻到了宫殿庭院里一根柱子的顶上，整天呆在那上面安静地冥想。[ascetic.GetSheHe|U]拒绝饮食，被问时答的话也相当少。像这样的苦修实践并非闻所未闻，但这困扰到了你宫廷里的某些人，他们请求我对此做点什么。”"
  court.7040.a: "别管[ascetic.GetHerHim]，[ascetic.GetSheHe]最终会过了这波新鲜劲的。"
  court.7040.b: "把[ascetic.GetHerHim]派到[head_of_faith.GetTitledFirstName]，看[head_of_faith.GetSheHe]怎么处理。"
  court.7040.c: "[ascetic.GetNamePossessive]的虔诚给了我启迪，我要效法[ascetic.GetHerHis]的芳表！"

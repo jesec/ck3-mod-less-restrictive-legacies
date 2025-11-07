@@ -5,6 +5,7 @@
  TITLE_APPOINTMENT_GOVERNOR_EFFICIENCY: "$ADMIN_WINDOW_THEME_GOVERNOR_EFFICIENCY_VALID$"
  TITLE_APPOINTMENT_RANK_TOOLTIP: "Положение в линии наследования"
  TITLE_APPOINTMENT_HOUSE: "Часть [Concept( 'house', 'дома' )|E] [DynastyHouse.GetName]"
- TITLE_APPOINTMENT_SUCCESSION_SCORE: "Очки наследования: #UND [CharacterListItem.GetFixedPoint( 'score' )|V0]#!"
+ TITLE_APPOINTMENT_SUCCESSION_SCORE: "[Concept('candidate_score', 'Приоритет претензий')|E]: #UND [CharacterListItem.GetFixedPoint( 'score' )|V0]#!"
+ TITLE_APPOINTMENT_CANDIDATE_SCORE_TT_HEADING: "[Concept('candidate_score', 'Приоритет претензий')|E]: #UND [CharacterListItem.GetFixedPoint( 'score' )|V0]#!"
  TITLE_APPOINTMENT_SUCCESSION_TOP_CANDIDATE: "Ваш лучший кандидат:"
  TITLE_APPOINTMENT_RANK: "[CharacterListItem.GetFixedPoint( 'position' )|0]."

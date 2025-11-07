@@ -25,7 +25,7 @@
  stewardship_wealth.1011.custom: "Все графства в державе [THIS.Char.GetPrimaryTitle.GetName]"
  #War Taxes, by Sean Hughes
  stewardship_wealth.1021.t: "Плата за войну"
- stewardship_wealth.1021.desc: "Войны дороги. Учитывая, как быстро пустеет моя казна, мне пора задуматься, чем платить войскам на полях сражений."
+ stewardship_wealth.1021.desc: "Войны дороги, и [current_war.GetName|l] — не исключение.\n\nУчитывая, как быстро пустеет моя казна, мне пора задуматься, чем платить войскам на полях сражений."
  stewardship_wealth.1021.a: "Увеличьте налоги с крестьян."
  stewardship_wealth.1021.a.custom: "Каждое [county|El] в моем [Concept( 'domain', 'домене' )|E]"
  stewardship_wealth.1021.b: "Сократите военные расходы не первостепенной важности."

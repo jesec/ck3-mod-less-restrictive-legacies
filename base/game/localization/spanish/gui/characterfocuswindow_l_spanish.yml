@@ -15,3 +15,5 @@
  I_HAVE_THIS_EDUCATION_FOCUS_DESCRIPTION: "#TUT_KW Ya tienes este enfoque de educación.#!"
  CHARACTER_CAN_CHOOSE_THIS_LIFESTYLE_FOCUS_DESCRIPTION: "#TUT_KW [CHARACTER.GetShortUINameNoTooltip] puede cambiar a este enfoque de estilo de vida.#!"
  CHARACTER_CAN_CHOOSE_THIS_EDUCATION_FOCUS_DESCRIPTION: "#TUT_KW [CHARACTER.GetShortUINameNoTooltip] puede cambiar a este enfoque de educación.#!"
+ EDUCATION_FOCUS_BUTTON_TOOLTIP: "#T [FocusType.GetNameNoTooltip]\n#!#I Haz clic para seleccionar#!"
+ EDUCATION_FOCUS_SELECTED_EMPTY_STATE: "Elegir un [education_focus|lE] de arriba"

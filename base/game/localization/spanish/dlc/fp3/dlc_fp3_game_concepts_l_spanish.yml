@@ -29,7 +29,7 @@
  game_concept_fp3_install_loyalist_cb: "Imponer a un partidario"
  game_concept_fp3_install_loyalist_cb_desc: "Te permite librar una [war|lE] para imponer a un [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l] del califa a la cabeza del [realm|lE] objetivo"
  game_concept_fp3_demand_submission_interaction: "$fp3_demand_submission_interaction$"
- game_concept_fp3_demand_submission_interaction_desc: "Exigir la lealtad del objetivo con piedad, astucia o intimidación."
+ game_concept_fp3_demand_submission_interaction_desc: "Exige la lealtad de un [character|lE] en forma de un [hook|lE] mediante el uso de piedad, astucia o intimidación."
  game_concept_fp3_request_house_unity_change_interaction: "$fp3_request_house_unity_change_interaction$"
  game_concept_fp3_request_house_unity_change_interaction_desc: "$fp3_request_house_unity_change_interaction_desc$"
  game_concept_fp3_request_honorary_titles_interaction: "$fp3_request_honorary_titles_interaction$"

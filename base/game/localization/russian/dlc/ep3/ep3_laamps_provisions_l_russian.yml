@@ -63,4 +63,4 @@
  ep3_laamps_provisions.1080.c: "Курс на сушу, #EMP живо#!!"
  ep3_laamps_provisions.1080.c.tt: "Ваше [Concept('travel','путешествие')|E] будет отменено и вы отправитесь во владение [landfall.GetBaronyNameExplicitly] ([landfall.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetName])"
  critically_low_provisions_alert: "Припасы лагеря на исходе"
- critically_low_provisions_alert_desc: "Ваши припасы скоро закончатся!"
+ critically_low_provisions_alert_desc: "Ваши [Concept('provisions', 'припасы')|E] скоро закончатся!"

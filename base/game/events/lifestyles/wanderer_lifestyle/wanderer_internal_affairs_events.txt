@@ -129,6 +129,19 @@ internal_affairs.10 = { # Chance for Republic/Theocracy
 	
 	trigger = {
 		has_lifestyle = wanderer_lifestyle
+		# Must have a culture that likes having republican vassals - Unless you are a player
+		OR = {
+			is_ai = no
+			culture = {
+				OR = {
+					has_cultural_parameter = can_make_republican_vassals
+					has_cultural_parameter = city_buildings_more_powerful
+					has_cultural_parameter = city_buildings_less_control
+					has_cultural_parameter = republican_vassals_pay_more
+					has_cultural_parameter = more_parochial_vassals
+				}
+			}
+		}
 		any_sub_realm_barony = {
 			internal_affairs_10_holding_trigger = yes
 		}

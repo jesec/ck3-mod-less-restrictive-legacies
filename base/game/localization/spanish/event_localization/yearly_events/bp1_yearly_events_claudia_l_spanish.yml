@@ -35,7 +35,7 @@
  bp1_yearly.1010.b: "No hay necesidad."
  #A Friend till the End
  bp1_yearly.1020.t: "Amigos hasta el fin"
- bp1_yearly.1020.desc_intro: "Mientras yazgo sobre mi lecho, postrad[ROOT.Char.Custom('ES_OA')] por mi enfermedad y maldiciendo mi cuerpo débil y decadente, apenas puedo distinguir la figura humana que se acerca. Sus pasos lentos y su pesado silencio empiezan a asustarme."
+ bp1_yearly.1020.desc_intro: "Mientras yazgo sobre mi lecho, maldiciendo mi cuerpo débil y decadente, apenas puedo distinguir a la figura que se acerca. Sus pasos lentos y su pesado silencio empiezan a asustarme."
  bp1_yearly.1020.desc: "\n\nDebe adivinar mi malestar por los tenues sonidos que salen de mi boca y los movimientos espasmódicos de mis manos, porque sus pasos se vuelven apresurados, y pronto una mano cálida sostiene la mía y un rostro familiar entra en mi campo de visión.\n\n«Callad, [ROOT.Char.GetFirstNameNoTooltip], soy solo yo, [friend.GetFirstName]. Oh, cómo me duele veros así… Me gustaría hacer algo, #EMP lo que fuera#!, para aliviar vuestro malestar»."
  bp1_yearly.1020.a: "Por favor, quédate conmigo…"
  bp1_yearly.1020.b: "No quiero que me veas así."
@@ -51,7 +51,7 @@
  bp1_yearly.1021.c: "Descansad en paz, mi querid[friend.Custom('ES_OA')] [friend.GetFirstNameNoTooltip]."
  #Till the Bitter End
  bp1_yearly.1030.t: "Hasta el amargo final"
- bp1_yearly.1030.desc: "\n\n«¡JA! ¡Miraos ahora! Ya no dais tanto miedo, ¿verdad? ¿Me reconocéis acaso, so [ROOT.Char.Custom('InsultNoun')] [ROOT.Char.Custom('InsultAdjective')]? ¡Soy yo, [rival.GetFirstName]! No puedo creer la suerte que tengo… ¡Tanto tiempo he soñado con veros tan hundid[ROOT.Char.Custom('ES_OA')] y rot[ROOT.Char.Custom('ES_OA')], y ahora aquí estáis!».\n\nApenas puedo encontrar fuerzas para musitar «¿Solo habéis venido a regodearos?»."
+ bp1_yearly.1030.desc: "\n\n«¡JA! ¡Miraos ahora! Ya no dais tanto miedo, ¿verdad? ¿Me reconocéis acaso, so [ROOT.Char.Custom('InsultNoun')] [ROOT.Char.Custom('InsultAdjective')]? ¡Soy yo, [rival.GetFirstName]! ¡Tanto tiempo he ansiado veros tan hundid[ROOT.Char.Custom('ES_OA')]!»."
  bp1_yearly.1030.desc_nemesis: "\n\n«No solo», replica. Ni siquiera capto el brillo peligroso de sus ojos antes que [nemesis.GetFirstNameNoTooltip] se encuentre junto a mi lecho, con una sonrisa helada en el rostro."
  bp1_yearly.1030.desc_nemesis_guard: "He perdido toda esperanza ¡cuando mi [GetCourtPositionType('bodyguard_court_position').GetName()] [guard.GetFirstName] irrumpe en la alcoba!"
  bp1_yearly.1030.desc_nemesis_no_guard: "Intento moverme, escapar, gritar, #EMP lo que sea#!, pero mi frágil cuerpo hace tiempo que dejó de escucharme…"

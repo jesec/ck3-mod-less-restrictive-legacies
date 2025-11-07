@@ -21,12 +21,14 @@ is_adult = {
 	global = IS_ADULT_TRIGGER
 	first = I_AM_ADULT_TRIGGER
 	third = THEY_ARE_ADULT_TRIGGER
+	none = NONE_IS_ADULT_TRIGGER
 }
 
 is_landed = {
 	global = IS_LANDED_TRIGGER
 	first = I_AM_LANDED_TRIGGER
 	third = THEY_ARE_LANDED_TRIGGER
+	none = NONE_ARE_LANDED_TRIGGER
 }
 
 is_landless_ruler = {
@@ -42,9 +44,11 @@ is_playable_character = {
 	global = IS_PLAYABLE_CHARACTER_TRIGGER
 	first = I_AM_PLAYABLE_CHARACTER_TRIGGER
 	third = THEY_ARE_PLAYABLE_CHARACTER_TRIGGER
+	none = NONE_ARE_PLAYABLE_CHARACTER_TRIGGER
 	global_not = NOT_IS_PLAYABLE_CHARACTER_TRIGGER
 	first_not = NOT_I_AM_PLAYABLE_CHARACTER_TRIGGER
 	third_not = NOT_THEY_ARE_PLAYABLE_CHARACTER_TRIGGER
+	none_not = NOT_NONE_ARE_PLAYABLE_CHARACTER_TRIGGER
 }
 
 is_landless_adventurer = {
@@ -85,6 +89,7 @@ is_landed_or_landless_administrative = {
 
 is_lowborn = {
 	global = IS_LOWBORN_TRIGGER
+	none = NONE_IS_LOWBORN_TRIGGER
 }
 
 is_ruler = {
@@ -194,6 +199,7 @@ is_at_war_with_liege = {
 	global = IS_AT_WAR_WITH_LIEGE
 	first = I_AM_AT_WAR_WITH_LIEGE
 	third = THEY_AT_WAR_WITH_LIEGE
+	none = NONE_AT_WAR_WITH_LIEGE
 }
 
 is_in_civil_war = {
@@ -249,10 +255,11 @@ has_trait = {
 	global = HAS_TRAIT_TRIGGER
 	first = I_HAVE_TRAIT_TRIGGER
 	third = THEY_HAVE_TRAIT_TRIGGER
-	none = HAS_TRAIT_TRIGGER
+	none = NONE_HAS_TRAIT_TRIGGER
 	global_not = NOT_HAS_TRAIT_TRIGGER
 	first_not = NOT_I_HAVE_TRAIT_TRIGGER
 	third_not = NOT_THEY_HAVE_TRAIT_TRIGGER
+	none_not = NOT_NONE_HAS_TRAIT_TRIGGER
 }
 
 has_trait_group = { # not a separate trigger, but used by has_trait if the value is actually a trait group
@@ -270,7 +277,7 @@ has_trait_xp_greater_or_equal = {
 	global = HAS_TRAIT_XP
 	first = I_HAVE_TRAIT_XP
 	third = THEY_HAS_TRAIT_XP
-	none = HAS_TRAIT_XP
+	none = NONE_HAS_TRAIT_XP
 }
 
 has_trait_xp_less_than = {
@@ -309,6 +316,8 @@ is_imprisoned = {
 	global_not = NOT_IS_IMPRISONED_TRIGGER
 	third = THIRD_IS_IMPRISONED_TRIGGER
 	third_not = THIRD_NOT_IS_IMPRISONED_TRIGGER
+	none = NONE_IS_IMPRISONED_TRIGGER
+	none_not = NOT_NONE_IS_IMPRISONED_TRIGGER
 }
 
 is_independent_ruler = {
@@ -336,6 +345,8 @@ is_imprisoned_by = {
 	third_not = THEY_IS_NOT_IMPRISONED_BY_TRIGGER
 	global = IS_IMPRISONED_BY_TRIGGER
 	global_not = IS_NOT_IMPRISONED_BY_TRIGGER
+	none = NONE_IS_IMPRISONED_BY_TRIGGER
+	none_not = NONE_IS_NOT_IMPRISONED_BY_TRIGGER
 }
 
 imprisoner = {
@@ -703,6 +714,8 @@ has_religion = {
 	first_not = I_DO_NOT_HAVE_RELIGION_TRIGGER
 	third = THEY_HAVE_RELIGION_GROUP_TRIGGER
 	third_not = THEY_DO_NOT_HAVE_RELIGION_GROUP_TRIGGER
+	none = NONE_HAS_RELIGION_TRIGGER
+	none_not = NONE_DOES_NOT_HAVE_RELIGION_TRIGGER
 }
 
 prestige_level = {
@@ -879,7 +892,7 @@ martial_greater_or_equal = {
 	global = MARTIAL_IS_AT_LEAST
 	first = MY_MARTIAL_IS_AT_LEAST
 	third = THEIR_MARTIAL_IS_AT_LEAST
-	none = MARTIAL_IS_AT_LEAST
+	none = NONE_MARTIAL_IS_AT_LEAST
 	global_not = MARTIAL_IS_NOT_AT_LEAST
 	first_not = MY_MARTIAL_IS_NOT_AT_LEAST
 	third_not = THEIR_MARTIAL_IS_NOT_AT_LEAST
@@ -902,7 +915,7 @@ stewardship_greater_or_equal = {
 	global = STEWARDSHIP_IS_AT_LEAST
 	first = MY_STEWARDSHIP_IS_AT_LEAST
 	third = THEIR_STEWARDSHIP_IS_AT_LEAST
-	none = STEWARDSHIP_IS_AT_LEAST
+	none = NONE_STEWARDSHIP_IS_AT_LEAST
 	global_not = STEWARDSHIP_IS_NOT_AT_LEAST
 	first_not = MY_STEWARDSHIP_IS_NOT_AT_LEAST
 	third_not = THEIR_STEWARDSHIP_IS_NOT_AT_LEAST
@@ -925,7 +938,7 @@ intrigue_greater_or_equal = {
 	global = INTRIGUE_IS_AT_LEAST
 	first = MY_INTRIGUE_IS_AT_LEAST
 	third = THEIR_INTRIGUE_IS_AT_LEAST
-	none = INTRIGUE_IS_AT_LEAST
+	none = NONE_INTRIGUE_IS_AT_LEAST
 	global_not = INTRIGUE_IS_NOT_AT_LEAST
 	first_not = MY_INTRIGUE_IS_NOT_AT_LEAST
 	third_not = THEIR_INTRIGUE_IS_NOT_AT_LEAST
@@ -948,7 +961,7 @@ learning_greater_or_equal = {
 	global = LEARNING_IS_AT_LEAST
 	first = MY_LEARNING_IS_AT_LEAST
 	third = THEIR_LEARNING_IS_AT_LEAST
-	none = LEARNING_IS_AT_LEAST
+	none = NONE_LEARNING_IS_AT_LEAST
 	global_not = LEARNING_IS_NOT_AT_LEAST
 	first_not = MY_LEARNING_IS_NOT_AT_LEAST
 	third_not = THEIR_LEARNING_IS_NOT_AT_LEAST
@@ -1205,9 +1218,11 @@ is_spouse_of = {
 	global = IS_THE_SPOUSE_OF_CHARACTER
 	third = CHARACTER_IS_THE_SPOUSE_OF_CHARACTER
 	first = I_AM_THE_SPOUSE_OF_CHARACTER
+	none = NONE_IS_THE_SPOUSE_OF_CHARACTER
 	global_not = IS_NOT_THE_SPOUSE_OF_CHARACTER
 	third_not = CHARACTER_IS_NOT_THE_SPOUSE_OF_CHARACTER
 	first_not = I_AM_NOT_THE_SPOUSE_OF_CHARACTER
+	none_not = NONE_IS_NOT_THE_SPOUSE_OF_CHARACTER
 }
 
 is_concubine = {
@@ -1227,9 +1242,11 @@ is_close_family_of = {
 	global = IS_CLOSE_FAMILY_OF_CHARACTER
 	third = CHARACTER_IS_CLOSE_FAMILY_OF_CHARACTER
 	first = I_AM_CLOSE_FAMILY_OF_CHARACTER
+	none = NONE_IS_CLOSE_FAMILY_OF_CHARACTER
 	global_not = IS_NOT_CLOSE_FAMILY_OF_CHARACTER
 	third_not = CHARACTER_IS_NOT_CLOSE_FAMILY_OF_CHARACTER
 	first_not = I_AM_NOT_CLOSE_FAMILY_OF_CHARACTER
+	none_not = NONE_IS_NOT_CLOSE_FAMILY_OF_CHARACTER
 }
 
 is_grandchild_of = {
@@ -1308,9 +1325,11 @@ is_courtier_of = {
 	global = IS_A_COURTIER_OF_CHARACTER
 	third = CHARACTER_IS_A_COURTIER_OF_CHARACTER
 	first = I_AM_A_COURTIER_OF_CHARACTER
+	none = NONE_IS_A_COURTIER_OF_CHARACTER
 	global_not = IS_NOT_A_COURTIER_OF_CHARACTER
 	third_not = CHARACTER_IS_NOT_A_COURTIER_OF_CHARACTER
 	first_not = I_AM_NOT_A_COURTIER_OF_CHARACTER
+	none_not = NONE_IS_NOT_A_COURTIER_OF_CHARACTER
 }
 
 is_foreign_court_or_pool_guest = {
@@ -1361,18 +1380,22 @@ is_male = {
 	global = IS_MALE_CHARACTER_TRIGGER_CONDITION
 	third = CHARACTER_IS_MALE_CHARACTER_TRIGGER_CONDITION
 	first = I_AM_MALE_CHARACTER_TRIGGER_CONDITION
+	none = NONE_IS_MALE_CHARACTER_TRIGGER_CONDITION
 	global_not = IS_NOT_MALE_CHARACTER_TRIGGER_CONDITION
 	third_not = CHARACTER_IS_NOT_MALE_CHARACTER_TRIGGER_CONDITION
 	first_not = I_AM_NOT_MALE_CHARACTER_TRIGGER_CONDITION
+	none_not = NONE_IS_NOT_MALE_CHARACTER_TRIGGER_CONDITION
 }
 
 is_female = {
 	global = IS_FEMALE_CHARACTER_TRIGGER_CONDITION
 	third = CHARACTER_IS_FEMALE_CHARACTER_TRIGGER_CONDITION
 	first = I_AM_FEMALE_CHARACTER_TRIGGER_CONDITION
+	none = NONE_IS_FEMALE_CHARACTER_TRIGGER_CONDITION
 	global_not = IS_NOT_FEMALE_CHARACTER_TRIGGER_CONDITION
 	third_not = CHARACTER_IS_NOT_FEMALE_CHARACTER_TRIGGER_CONDITION
 	first_not = I_AM_NOT_FEMALE_CHARACTER_TRIGGER_CONDITION
+	none_not = NONE_IS_NOT_FEMALE_CHARACTER_TRIGGER_CONDITION
 }
 
 patrilinear_marriage = {
@@ -1559,6 +1582,8 @@ is_clergy = {
 	third_not = NOT_THEY_CLERGY_TRIGGER
 	global = IS_CLERGY_TRIGGER
 	global_not = NOT_IS_CLERGY_TRIGGER
+	none = NONE_IS_CLERGY_TRIGGER
+	none_not = NOT_NONE_IS_CLERGY_TRIGGER
 }
 
 prowess = {

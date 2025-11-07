@@ -42,7 +42,6 @@
  marshal_task.1102.a: "Мои подданные всегда могут чувствовать себя в безопасности."
  marshal_task.1102.notification: "Увеличенное военное присутствие"
  marshal_task.1103.notification: "Ополчение готово к бою"
- #### END (Jonas W)
  marshal_task.2001.t: "Командир ранен"
  marshal_task.2001.opening: "[commander.GetTitledFirstName] получает ранение во время учебного поединка!"
  marshal_task.2001.ending: "\n\n[councillor.GetCouncilTitle] [councillor.GetTitledFirstName] останавливает кровотечение, но пройдет какое-то время, прежде чем [commander.GetFirstName] поправится."

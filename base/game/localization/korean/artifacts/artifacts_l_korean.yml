@@ -767,8 +767,8 @@
  #travel_events.4005
  maritime_trading_handbook: "해양 무역 안내서"
  maritime_trading_handbook_description: "[merchant_character_scope.GetCulture.GetName] 해양 무역의 본질을 다루는 전문적인 안내서입니다."
- own_holy_text_mid: "보석 장식 [ROOT.Char.GetFaith.ReligiousText|U]"
- own_holy_text_mid_description: "보석으로 장식된 [ROOT.Char.GetFaith.ReligiousText|U]입니다."
+ own_holy_text_mid: "보석 장식 [root_scope.GetFaith.ReligiousText|U]"
+ own_holy_text_mid_description: "보석으로 장식된 [root_scope.GetFaith.ReligiousText|U]입니다."
  merchants_holy_text_mid: "보석 장식 [merchant_character_scope.GetFaith.ReligiousText|U]"
  merchants_holy_text_mid_description: "보석으로 장식된 [merchant_character_scope.GetFaith.ReligiousText|U]입니다."
  merchants_sword: "[merchant_character_scope.GetCulture.GetName] 장검"

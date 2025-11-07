@@ -96,8 +96,8 @@
  lesson_warscore: "战争分数"
  lesson_winning_wars: "赢得战争"
  lesson_losing_wars: "输掉战争"
- quick_tutorial_desc: "快速教程"
- full_tutorial_desc: "完整教程"
+ quick_tutorial_desc: "开始教程"
+ full_tutorial_desc: "开始进阶教程"
  #Basics
  lesson_basics_welcome: "欢迎来到《十字军之王3》"
  lesson_welcome_desc: "@tutorial_screenshot_1!\n你是一位中世纪时期的统治者！你的统治可能会很短暂，但你能通过你的继承人将你的宗族送上巅峰。\n\n土地就是你的财产，你可以巧妙地通过武力、联姻或者外交来扩张你的领地，直至远超任何征服者最狂野的梦想……"
@@ -204,7 +204,7 @@
  lesson_basics_resources_3_desc: "有了许多[piety|E]，你与你的[head_of_faith|E]打交道时就会更轻松。因为你是$catholic_adherent$，这里就会是教宗。\n\n$game_concept_piety$可以通过[learning|E][skill|E]和[virtuous|E][traits|E]被动获得，也可以主动地通过参与宗教事务获得，例如去[pilgrimage|E]。\n\n你也有一个[piety_level|E]，每次你获得$game_concept_piety$等级都逐渐增长，可以对你的人物产生正面效果。\n\n#TUT 与威望类似，某些行动需要你#EMP 花费#!$game_concept_piety$，例如发动[holy_wars|E]，或者你想要创建新的[faith|E]。\n\n这样子花费$game_concept_piety$是正常的，[characters|E]们不会因此看低你。#!"
  #Lifestyles
  lesson_basics_lifestyles_1: "生活方式（$lesson_basics_lifestyles$）"
- lesson_basics_lifestyles_1_desc: "在[traits|E]之外，你的[character|E]也可以选择一项[lifestyle|E]。共有五个$game_concept_lifestyles$，每项能力都对应一个。\n\n$game_concept_lifestyles$代表着你每天花费最多精力的事情，而每个生活方式都有数个与之相关的[focuses|E]。\n\n每个$game_concept_focus$都会赋予你独特的增益，并使得与该$game_concept_focus$相关的事件更有可能发生。"
+ lesson_basics_lifestyles_1_desc: "在[traits|E]之外，你的[character|E]也可以选择一项[lifestyle|E]。共有[SelectLocalization( HasDlcFeature( 'wandering_nobles' ), 'number_six', 'number_five' )]个$game_concept_lifestyles$，每项能力都对应一个。\n\n$game_concept_lifestyles$代表着你每天花费最多精力的事情，而每个生活方式都有数个与之相关的[focuses|E]。\n\n每个$game_concept_focus$都会赋予你独特的增益，并使得与该$game_concept_focus$相关的事件更有可能发生。"
  lesson_basics_lifestyle_open_window_tt: "点击生活方式按钮（已高亮）"
  lesson_basics_lifestyles_2: "重心（$lesson_basics_lifestyles$）"
  lesson_basics_lifestyles_no_GUI_highlight: "$lesson_basics_lifestyles_2$"

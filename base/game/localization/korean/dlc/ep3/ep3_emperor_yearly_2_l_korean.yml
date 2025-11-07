@@ -345,5 +345,5 @@
  ep3_emperor_yearly.2420.t: "왕좌의 그림자"
  ep3_emperor_yearly.2420.desc: "탐욕스럽고도 강력한 [noble_family_head.GetHouse.GetBaseName] 집안의 손길이 촉수처럼 [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName]의 구석구석에 뻗쳐 나갔다.\n\n이제 황실 왕좌에 앉은 이조차도 그들의 권세를 넘어설 수 없다는 사실이 명백해졌다. 이들이야말로 [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip]의 정치와 경제를 지배하고 있으며, 우리 땅의 진정한 주인이라고 할 수 있다."
  2420_noble_family_tt: "새로운 지배 가문"
- 2420_noble_family_tt_desc: "[noble_family_head.GetHouse.GetBaseName] 가문이 이제 [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName|l]에서 [dominant_family|E]으로 여겨집니다."
+ 2420_noble_family_tt_desc: "[noble_family_head.GetHouse.GetBaseName] 가문이 이제 [noble_family_head.GetTopLiege.GetPrimaryTitle.GetName|l]에서 [dominant_family|E]으로 여겨집니다."
  ep3_emperor_yearly.2420.a: "골치 아픈 소식이군."

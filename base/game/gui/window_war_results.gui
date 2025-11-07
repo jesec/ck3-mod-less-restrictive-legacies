@@ -269,6 +269,7 @@ window = {
 										text = "WAR_OVER_SIGNATURE"
 										using = Font_Type_Flavor
 										using = Font_Size_Medium
+										format_override = { high light_background }
 									}
 
 									expand = {}

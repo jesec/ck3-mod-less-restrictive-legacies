@@ -1,6 +1,6 @@
 ﻿l_polish:
  bm_story_content_available_icon: "@story_content_icon!"
- bm_story_content_available_copy: "#font:TitleFont #size:20 Specjalna opowieść dostępna#!#!#!"
+ bm_story_content_available_copy: "#font:TitleFont #size:15 Specjalna opowieść dostępna#!#!#!"
  bm_1066_laamps: "Wędrujący wygnańcy"
  bm_1066_laamps_desc: "Wielmoże rozdzierają świat na części swymi małostkowymi sporami o władzę, podczas gdy wielcy poszukiwacze przygód o skromnych początkach zapisują swe imiona w annałach historii. Nie podlegają zobowiązaniom, nie posiadają tytułów ani koron, mieszkają na gościńcach, a ich losów nic nie ogranicza.\n\n#bold Dzięki wielkiej odwadze, przebiegłości i ambicji możesz wznieść się ponad szlacheckie sprzeczki, by wykorzystać próżne intrygi do przysporzenia sobie chwały! Czy masz w sobie to, czego trzeba, by przebić się przez mur i zostać legendą?#!"
  bookmark_laamps_hassan_sabbah: "Hasan Sabbah"

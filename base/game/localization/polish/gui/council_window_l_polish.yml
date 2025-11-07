@@ -77,3 +77,5 @@
  COURT_WINDOW_NO_GUESTS_OR_COURTIERS: "[CourtWindow.GetCourtOwner.Custom('GetNoGuestsOrNot')]"
  COURT_WINDOW_NO_COURTIERS: "Obecnie nie ma osób takich jak [guests|El] czy [CourtWindow.GetCourtOwner.Custom('GetCourtierConceptPlural')|l]. Ich liczba zapewne zwiększy się z czasem. Możesz także jakichś zaprosić, używając decyzji powyżej."
  COURT_WINDOW_NO_FOLLOWERS: "Żadni [CourtWindow.GetCourtOwner.Custom('GetCourtierConceptPlural')|l] nie są w tej chwili dostępni"
+ COURT_WINDOW_NO_GUARDIAN: "Brak [Concept('guardian', 'opiekuna')|E]"
+ COURT_WINDOW_NO_GUARDIAN_TOOLTIP: "Żaden [guardian|El] nie został przydzielony do edukacji [Concept('child', 'dziecka')|E]"

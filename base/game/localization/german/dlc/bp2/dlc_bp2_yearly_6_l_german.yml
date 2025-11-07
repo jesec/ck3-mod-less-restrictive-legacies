@@ -182,7 +182,7 @@
  bp2_yearly.6060.d.tt: "Unsere Wahrheit hat nichts Großtuerisches, nichts Verschlungenes an sich. Sie ist rechtschaffen."
  fervor_gain_reformer_converts: "Ein berühmter Erneuerer konvertierte"
  fervor_gain_reformer_champions_faith: "Ein Herrscher haucht diesem [Concept('faith', 'Glauben')|E] neues Leben ein"
- fervor_loss_reformer_rejects_faith: "Die Verurteilung eines anderen [Concept('faith', 'Glaubens')|E] durch einen berühmten Champion"
+ fervor_loss_reformer_rejects_faith: "Die Denunziation eines anderen [Concept('faith', 'Glaubens')|E] durch einen berühmten Champion"
  adapted_rituals_modifier: "Angepasste fremdländische Rituale"
  adapted_rituals_modifier_desc: "In dem Maß, in dem Tempel im fremdländischen Stil gebaut und Riten im fremdländischen Stil eingeführt werden, sagen die Menschen: Entweder ist diesem Menschen nichts heilig … oder ist ihm alles heilig?"
  court_of_scholars_modifier: "Hof der Gelehrten"

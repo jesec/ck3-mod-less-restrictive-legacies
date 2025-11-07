@@ -40,7 +40,7 @@
  ep3_governor_yearly.8040.d.success: "모든 것을 안정적으로 관리함"
  ep3_governor_yearly.8040.d.failure: "두 영역을 동시에 관리하기엔 무능함"
  ep3_governor_yearly.8050.t: "관문의 적"
- ep3_governor_yearly.8050.desc: "가장 낮은 직급에서부터 [war_liege.GetTopLiege.GetTitleAsNameNoTooltip] 본인에 이르기까지, [war_attacker.GetPrimaryTitle.GetDefinitiveName](으)로 부터 [target_kingdom.GetBaseNameNoTier](을)를 지키기 위해 [war_liege.GetPrimaryTitle.GetTierAsNameNoTooltip|l] 전체가 몸을 숙였다. [ROOT.Char.GetPrimaryTitle.GetAdjective] [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]의 [ROOT.Char.GetTitleAsNameNoTooltip] 입장에서 위험은 코앞으로 다가와 있다."
+ ep3_governor_yearly.8050.desc: "가장 낮은 직급에서부터 [war_liege.GetTopLiege.GetTitleAsNameNoTooltip] 본인에 이르기까지, [war_attacker.GetPrimaryTitle.GetDefinitiveName](으)로 부터 [target_title.GetBaseNameNoTier](을)를 지키기 위해 [war_liege.GetPrimaryTitle.GetTierAsNameNoTooltip|l] 전체가 몸을 숙였다. [ROOT.Char.GetPrimaryTitle.GetAdjective] [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]의 [ROOT.Char.GetTitleAsNameNoTooltip] 입장에서 위험은 코앞으로 다가와 있다."
  ep3_governor_yearly.8050.kingdom: "지역 방어의 상당 부분이 내게 달린 셈이다."
  ep3_governor_yearly.8050.neighbour: "이대로 방치했다간 침략자들이 [ROOT.Char.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetNameNoTier](을)를 다음 목표로 잡을지도 모른다."
  ep3_governor_yearly.8050.end: "\n\n수비대를 배치하고 요새를 수리하며 병사를 모집하는 등 나름대로 역할을 다하고 있다. 하지만 아직 부족한 부분이 많다. 아무리 사소한 지원이라도 [war_liege.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]에서는 커다란 감사를 표할 것이다..."

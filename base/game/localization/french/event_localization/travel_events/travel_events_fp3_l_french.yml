@@ -96,7 +96,7 @@
  travel_events_fp3.0040.e: "Que c[fp3_turkic_traveler.Custom('FR_EtEtte')] [fp3_turkic_traveler.GetWomanMan] nous enseigne sa culture."
  ### Tomb Raiders
  travel_events_fp3.0050.t: "Pilleurs de tombe"
- travel_events_fp3.0050.desc.intro: "Au détour d’un sentier, nous tombons sur un groupe de personnes couvertes de poussière qui émergent de ce qui fut jadis un tombeau impressionnant.\nIls hissent des sacs en toile de jute qui tintent, alourdis par les babioles qu’ils ont extraites des ruines.\n\n« Les temps sont durs ! Il faut nourrir nos familles et nous ne nuisons à personne. »\n\nLeur chef nous regarde avec inquiétude, tant il est évident que leur situation est précaire."
+ travel_events_fp3.0050.desc.intro: "Au détour d’un sentier, nous tombons sur un groupe de personnes couvertes de poussière qui émergent de ce qui fut jadis un tombeau impressionnant. Ils hissent des sacs en toile de jute qui tintent, alourdis par les babioles qu’ils ont extraites des ruines.\n\n« Les temps sont durs ! Il faut nourrir nos familles et nous ne nuisons à personne. »"
  travel_events_fp3.0050.a: "Ceux qui méprisent le passé n’ont pas d’avenir."
  travel_events_fp3.0050.b: "Une part doit revenir [ROOT.Char.Custom('FR_au_Char_L')][ROOT.Char.GetTitleAsNameNoTooltip] !"
  travel_events_fp3.0050.b.entourage: "[entourage_helper.Custom('FR_le_Char_Pi')|U][entourage_helper.GetTitledFirstName] vous aide à examiner le butin"
@@ -104,4 +104,4 @@
  travel_events_fp3.0050.b.success.tooltip: "Vous acquérez un trésor antique"
  travel_events_fp3.0050.b.failure.desc: "Rien de spécial n’attire votre regard"
  travel_events_fp3.0050.b.failure.t: "Vous obtenez quelques bibelots"
- travel_events_fp3.0050.c: "Ils sont désespérés, je vais compenser leurs efforts pour qu’ils rendent le butin."
+ travel_events_fp3.0050.c: "Je n’ai pas de temps pour les paysans."

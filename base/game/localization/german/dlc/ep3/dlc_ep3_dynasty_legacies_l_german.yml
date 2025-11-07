@@ -16,4 +16,4 @@
  ep3_administrative_legacy_4_effect_cabinet_of_curiosities_global: "Schaltet das [estate|E]-Gebäude „[GetDomicileBuilding('cabinet_of_curiosities_01').GetName]“ frei"
  ep3_administrative_legacy_5_name: "Diaírei kaì Basíleue"
  ep3_administrative_legacy_track_effect_claimant_factions_global: "[vassals|E] und [noble_families|E] schließen sich weniger wahrscheinlich [claimant_factions|E] an oder setzen das [GetScheme('depose').GetTypeName]s-[scheme|E] ein."
- ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "Schaltet die [decision|E] „[GetDecisionWithKey('mass_arrests_decision').GetName]“ frei"
+ ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "Erlaubt die [interaction|E] „#high [GetPlayer.GetPlayerInteractionName('ep3_mass_arrests_interaction')]#!“"

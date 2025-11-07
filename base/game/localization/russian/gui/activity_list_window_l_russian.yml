@@ -1,5 +1,6 @@
 ﻿l_russian:
  ACTIVITY_LIST: "Занятия"
+ ACTIVITY_LIST_GROUP_HEADER: "$NAME$ #weak ($SIZE$)#!"
  ACTIVITY_LIST_NO_ONGOING_ACTIVITY: "#weak У вас нет текущих [Concept( 'activities', 'занятий' )|E]\nВы можете устроить [AddTextIf(HasDlcFeature('advanced_activities'), ' или присоединиться')] к уже идущим#!"
  ACTIVITY_CURRENT_HEADER: "Текущее [activity|El]"
  ACTIVITY_LIST_INVOLVED_ACTIVITY: "Вы [Concept( 'activity_attending', 'посещаете занятие' )|E] «[Activity.GetName]»"
@@ -22,7 +23,7 @@
  ACTIVITY_BASE_COST: "Средняя стоимость: [ActivityType.GetUiPredictedCost( GetPlayer )|U]"
  ACTIVITY_BASE_COST_TT: "#T Средняя стоимость#!\n[ActivityType.GetLocalizedText( 'predicted_cost' )]"
  ACTIVITY_JOIN_ALREADY_STARTED: "@warning_icon! #X [Activity.GetName] уже идет#!"
- SHOW_ACTIVITY_TOOLTIP: "#T [ActivityType.GetNameNoTooltip]#!\n[JoinText( '\n', ActivityType.GetCanStartActivityTooltip( GetPlayer ), ActivityType.GetLocalizedText( 'selection_tooltip' ) )]\n\n#I Щелкните, чтобы выбрать#!"
+ SHOW_ACTIVITY_TOOLTIP: "#T [ActivityType.GetNameNoTooltip]#!\n[JoinText( '\n', ActivityType.GetCanPlanActivityTooltip( GetPlayer ), ActivityType.GetLocalizedText( 'selection_tooltip' ) )]\n\n#I Щелкните, чтобы выбрать#!"
  JOIN_ACTIVITY_TOOLTIP: "#T [Activity.GetNameNoTooltip]#!\n\n#I Щелкните, чтобы выбрать#!"
  ACTIVITY_LIST_DETAIL_HOST_TITLE: "Устроить занятие \"[ActivityType.GetNameNoTooltip]\"" #We added the an/a for English readability, doesn't necessarily need a translation to other languages
  ACTIVITY_LIST_DETAIL_DESC: "[ActivityType.GetDescription]"

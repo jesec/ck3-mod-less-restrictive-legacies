@@ -21,7 +21,7 @@
  diarchies.0000.diarch_mandate_fail.tt.obtain_gold.self: "[diarch.GetSheHe|U] intentó conseguir [gold|lE] para sí"
  diarchies.0000.diarch_mandate_fail.tt.acquire_character.liege: "[diarch.GetSheHe|U] intentó conseguir un [courtier|lE] para ti"
  diarchies.0000.diarch_mandate_fail.tt.acquire_character.self: "[diarch.GetSheHe|U] intentó conseguirse la lealtad de un [character|El] para sí"
- diarchies.0000.diarch_mandate_fail.tt.acquire_troops.liege: "[diarch.GetSheHe|U] intentó conseguir soldados para ti"
+ diarchies.0000.diarch_mandate_fail.tt.acquire_troops.liege: "[diarch.GetSheHe|U] intentó hacerse con tus soldados"
  diarchies.0000.diarch_mandate_fail.tt.acquire_troops.split: "[diarch.GetSheHe|U] intentó conseguir soldados para ambos"
  diarchies.0000.diarch_mandate_fail.tt.affect_contract.liege: "[diarch.GetSheHe|U] intentó afectar el [vassal_contract|lE] de un [vassal|E] para beneficiarte"
  diarchies.0000.diarch_mandate_fail.tt.harass_peasants.liege: "[diarch.GetSheHe|U] intentó obtener recursos del campesinado"

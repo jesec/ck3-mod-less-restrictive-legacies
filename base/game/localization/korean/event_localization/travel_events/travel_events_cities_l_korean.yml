@@ -5,7 +5,7 @@
  travel_city_companion_idea: "\n\n나의 [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)] [sightseeing_companion.GetFirstName](이)가 신중한 얼굴로 중얼거렸다. \"[ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)|U]. 가끔은 여기서 시간을 보내며 저들의 관습을 연구하는 것도 좋을 듯합니다."
  travel_city_option_study_locals: "한번 배움의 시간을 가져보는 것도 좋겠지."
  travel_city_option_souvenir: "고향에 가져갈 만한 물건을 찾아봐야겠어."
- travel_city_option_reflection_on_existance: "생명의 연약함을 반추해볼까."
+ travel_city_option_reflection_on_existance: "생명의 연약함을 반추해 볼까."
  travel_city_option_reflection_on_existance_tooltip: "생명의 연약한 본질을 숙고하며 시간을 보냄"
  travel_city_contemplated_life_and_death: "삶과 죽음을 숙고함"
  travel_city_contemplated_religion_tooltip: "그리스도의 본질을 숙고하며 시간을 보냄"

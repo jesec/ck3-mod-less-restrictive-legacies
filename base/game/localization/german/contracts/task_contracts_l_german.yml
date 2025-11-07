@@ -494,7 +494,7 @@
  laamp_join_war_contract_attacker_win: "gewinnen"
  laamp_join_war_contract_attacker_lose: "verlieren"
  laamp_join_war_contract.valid_war: "Der Krieg ist bereits zu Ende gegangen"
- join_war_contract_spawn.t: "Neuer $laamp_join_war_contract_contract$s-[task_contract|E]"
+ join_war_contract_spawn.t: "Neuer $laamp_join_war_contract_contract$s-$game_concept_task_contract$"
  join_war_contract_spawn.desc_attacker: "[attacker.GetShortUIName] hat einen [task_contract|E] ausgegeben, sich einem Krieg ([war.GetName]) gegen [defender.GetShortUIName] anzuschließen"
  join_war_contract_spawn.desc_defender: "[defender.GetShortUIName] hat einen [task_contract|E] ausgegeben, sich einem Krieg ([war.GetName]) gegen [attacker.GetShortUIName] anzuschließen"
  laamp_raid_contract_request: "$laamp_request_boilerplate_warfare$"

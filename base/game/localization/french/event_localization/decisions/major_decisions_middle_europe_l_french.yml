@@ -34,6 +34,7 @@
  #Empowering Sicilian Parliament, by Flavio Verna
  middle_europe_decisions.0010.t: "L’assemblée des trois États"
  middle_europe_decisions.0010.desc: "L’infrastructure laissée par les Grecs dans les provinces de Sicile et d’Apulie servira de base pour accélérer la transition de [scoped_ruler.GetPrimaryTitle.GetName] vers une forme de gouvernance plus éclairée. \n\nEn rassemblant les représentants des trois États au sein d’un organe consultatif unique guidé par de nouvelles lois fondées sur les vieilles traditions romaines, je garantirai la stabilité et la prospérité de la Méditerranée aux générations futures. Il ne me reste plus qu’à décider du lieu où doit siéger ce Parlement."
+ middle_europe_decisions.0010.tt_napoli_warning: "@warning_icon! #warning Construire un parlement à [GetTitleByKey('c_napoli').GetNameNoTier] vous empêchera de construire une université !#!"
  middle_europe_decisions.0010.a: "À Palerme, un siège antique !"
  middle_europe_decisions.0010.b: "Ce sera à Naples."
  middle_europe_decisions.0010.c: "Je devrais sérieusement réfléchir à cette décision."

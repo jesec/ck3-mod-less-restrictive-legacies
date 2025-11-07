@@ -26,7 +26,7 @@
  culture_parameter_unlock_maa_akritai: "[GetMaA('akritai').GetName] to jednostki, które mogą być rekrutowane jako [men_at_arms|El]"
  culture_parameter_unlock_maa_ballistrai: "[GetMaA('ballistrai').GetName] to jednostki, które mogą być rekrutowane jako [men_at_arms|El]"
  culture_parameter_unlock_maa_skoutatoi: "[GetMaA('skoutatoi').GetName] to jednostki, które mogą być rekrutowane jako [men_at_arms|El]"
- culture_parameter_unlock_maa_varangian_guards: "[GetMaA('varangian_guards').GetName] to jednostki, które mogą być rekrutowane jako [men_at_arms|El], gdy posiada się [title|El] Cesarstwa Bizantyńskiego i została ustanowiona gwardia wareska"
+ culture_parameter_unlock_maa_varangian_guards: "[emperors|E] mają dostęp do [Concept('decision', 'decyzji')|E] „#high $found_varangian_guard_decision$#!”, dzięki której określone jednostki ([GetMaA('varangian_guards').GetName|l]) mogą funkcjonować jako [men_at_arms|El]"
  #Early Medieval Era
  culture_parameter_unlock_maa_khandayat: "[GetMaA('khandayat').GetName] mogą być rekrutowani jako [men_at_arms|El]"
  culture_parameter_unlock_maa_garudas: "[GetMaA('garudas').GetName] mogą być rekrutowani jako [men_at_arms|El]"

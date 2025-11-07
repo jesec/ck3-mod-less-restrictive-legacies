@@ -1,4 +1,6 @@
 ﻿l_french:
+ message_settings_tab_settings: "Paramètres"
+ message_settings_tab_log: "Journal des messages"
  MESSAGE_SETTINGS_WINDOW_NAME: "Paramètres des messages"
  MESSAGE_SETTINGS_WINDOW_SHORTCUT_TT: "#I Cliquez pour ouvrir les paramètres des messages#!"
  MESSAGE_SETTINGS_WINDOW_TT: "#T $MESSAGE_SETTINGS_WINDOW_NAME$#!\nModifiez la fréquence et la visibilité des messages par groupes filtrés."

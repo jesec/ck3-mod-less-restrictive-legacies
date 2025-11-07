@@ -104,6 +104,7 @@
  tenet_struggle_submission_desc: "神意是一切善的根源，因此善的存在也基于对神意的顺服，并通过斗争而实现。"
  doctrine_parameter_bonus_holy_war_piety_active: "赢得[holy_wars|E]获得的[piety|E]和[piety_experience|E]增加#P 50%#!"
  tenet_religious_legal_pronouncements_name: "宗教法"
+ tenet_religious_legal_pronouncements_hisbah: "希斯拜"
  tenet_religious_legal_pronouncements_fatwa: "法特瓦"
  tenet_religious_legal_pronouncements_halakha: "哈拉卡"
  tenet_religious_legal_pronouncements_desc: "神学和法学论证的界限模糊，世俗判决中可以也应该考虑属灵品质。"
@@ -323,7 +324,7 @@
  tenet_fp3_fedayeen_name: "菲达因"
  tenet_fp3_sacred_murder_name: "圣谋杀"
  tenet_fp3_fedayeen_desc: "当常规战争无效时，我们有责任通过渗透和诡计在[ROOT.Faith.HighGodNameAlternate]面前摧毁[ROOT.Faith.HighGodHerHis|U]的敌人。我们必须不怕死不怕痛，热切地为更伟大的事业献出我们的生命。"
- doctrine_parameter_master_assassin_court_position_unlocked: "解锁[master_assassin|E][court_position|E]"
+ doctrine_parameter_master_assassin_court_position_unlocked: "解锁#V [GetCourtPositionType( 'master_assassin_court_position' ).GetName()]#![court_position|E]"
  doctrine_parameter_death_is_glory: "在[battle|E]中死亡或受伤的概率：#N +10%#!"
  doctrine_parameter_sanctioned_assassinations: "通过[GetScheme('murder').GetTypeName][schemes|E]杀死其他[faith|E]的角色不会损失[piety|e]"
  #EP3 Tenets

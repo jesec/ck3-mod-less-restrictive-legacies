@@ -3262,6 +3262,7 @@ easteregg_sebastian_borg = {
 }
 
 
+# Elisabeth traces her line back through a myriad branch families back to this dynasty. 
 # https://en.wikipedia.org/wiki/Andriamasinavalona?fbclid=IwAR2ECvdC3a__1B9UlpavqiKv7PBqHq3fCKiyBI10Xf8zKkpwPkegFt3drsM
 easteregg_elisabeth_gangenes = { #Programmer
 	name = "Elisabeth"
@@ -3287,7 +3288,7 @@ easteregg_elisabeth_gangenes = { #Programmer
 	trait = scholar
 
 	# Stresscoping Traits
-	trait = comfort_eater
+	#trait = comfort_eater
 
 	# Physical Traits
 	trait = shrewd
@@ -3311,6 +3312,7 @@ easteregg_elisabeth_gangenes = { #Programmer
 			add_character_flag = easteregg
 			give_witch_secret_or_trait_effect = yes
 
+			# I may have certain biases, my desk certainly did not have several plushies! 
 			create_artifact = {
 				name = easteregg_artifact_elisabeth_plush
 				description = easteregg_artifact_elisabeth_plush_description
@@ -3318,7 +3320,7 @@ easteregg_elisabeth_gangenes = { #Programmer
 					type = created_before_history
 				}
 				type = miscellaneous
-				visuals = pouch #TODO Replace with foxy visual
+				visuals = fox_tail
 				modifier = artifact_stress_gain_1_modifier
 				save_scope_as = elisabeth_fox_plush
 			}
@@ -3337,11 +3339,19 @@ easteregg_elisabeth_gangenes = { #Programmer
 					add_trait = loyal
 				}
 			}
+			if = {
+				limit = {
+					has_ep1_dlc_trigger = yes
+				}
+				# COVID was rough, man
+				add_trait = comfort_eater
+			}
 
 			if = {
 				limit = {
 					has_ep2_dlc_trigger = yes
 				}
+				# Ut på tur, aldri sur!
 				add_trait = lifestyle_traveler
 				add_trait_xp = {
 					trait = lifestyle_traveler
@@ -3351,16 +3361,35 @@ easteregg_elisabeth_gangenes = { #Programmer
 			}
 			if = {
 				limit = {
+					has_ce1_dlc_trigger = yes
+				}
+				# Math is cool! Have I told you about all the math I researched for this?!
+				# The SIR-model is fascinating, and knowing how things spread is fascinating! 
+				add_perk = iron_constitution_perk
+			}
+			if = {
+				limit = {
 					has_ep3_dlc_trigger = yes
 				}
 				# Have to test the flavourization changes somehow.
 				add_character_flag = lady_in_shadows
+				# oww, oww, my spine, gotta exercise more to fix it
+				add_trait = athletic 
+			}
+			if = {
+				limit = {
+					has_bp3_dlc_trigger = yes
+				}
+				# Det finnes ikke dårlig vær, bare dårlige klær
+				add_perk = well_prepared_perk
 			}
 		}
 		move_to_pool = yes
 	}
 	1066.9.16 = {
-		death = yes
+		death = {
+			death_reason = death_vanished
+		}
 	}
 }
 

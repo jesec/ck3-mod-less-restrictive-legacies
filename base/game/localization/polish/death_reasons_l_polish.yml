@@ -45,7 +45,7 @@
  death_murder_killer: "został[Select_CString(CHARACTER.IsFemale, 'a', '' )] zamordowan[Select_CString(CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]"
  death_siege: "[Select_CString( CHARACTER.IsFemale, 'zginęła', 'zginął' )] podczas oblężenia"
  death_duel: "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zgładzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w pojedynku"
- death_duel_killer: "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zgładzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w pojedynku przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]"
+ death_duel_killer: "ginie w pojedynku z ręki osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe]"
  death_accident: "zginął[Select_CString( CHARACTER.IsFemale, 'a', '' )] w wypadku"
  death_accident_killer: "$death_murder_killer$"
  death_ended_on_feast_table: "zakończył[Select_CString( CHARACTER.IsFemale, 'a', '' )] swoje życie podczas uczty"

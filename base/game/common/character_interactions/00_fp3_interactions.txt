@@ -7,6 +7,7 @@ fp3_demand_submission_interaction = {
 	pause_on_receive = yes
 	can_send_despite_rejection = yes
 	ai_maybe = yes
+	desc = fp3_demand_submission_interaction_desc
 
 	greeting = positive
 	notification_text = DEMAND_SUBMISSION_NOTIFICATION

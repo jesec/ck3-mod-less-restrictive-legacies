@@ -26,7 +26,7 @@
  culture_parameter_unlock_maa_akritai: "Kann [GetMaA('akritai').GetName] als [men_at_arms|E] rekrutieren"
  culture_parameter_unlock_maa_ballistrai: "Kann [GetMaA('ballistrai').GetName] als [men_at_arms|E] rekrutieren"
  culture_parameter_unlock_maa_skoutatoi: "Kann [GetMaA('skoutatoi').GetName] als [men_at_arms|E] rekrutieren"
- culture_parameter_unlock_maa_varangian_guards: "Kann [GetMaA('varangian_guards').GetName] als [men_at_arms|E] rekrutieren, wenn er den [title|E] „$e_byzantium$“ hält und die Warägergarde gegründet wurde"
+ culture_parameter_unlock_maa_varangian_guards: "[emperors|E] haben Zugriff auf die [decision|E] „#high $found_varangian_guard_decision$#!“, die [GetMaA('varangian_guards').GetName] als [men_at_arms|E] erlaubt"
  #Early Medieval Era
  culture_parameter_unlock_maa_khandayat: "Kann [GetMaA('khandayat').GetName] als [men_at_arms|E] rekrutieren"
  culture_parameter_unlock_maa_garudas: "Kann [GetMaA('garudas').GetName] als [men_at_arms|E] rekrutieren"

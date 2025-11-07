@@ -34,6 +34,7 @@
  #Empowering Sicilian Parliament, by Flavio Verna
  middle_europe_decisions.0010.t: "等级会议"
  middle_europe_decisions.0010.desc: "希腊人在西西里与阿普利亚省份留下的架构将作为基础，加速[scoped_ruler.GetPrimaryTitle.GetName]转变为一个更开明的政体模式。\n\n通过召集三个等级的代表，在基于旧罗马传统的新律法的指引下让他们加入统一的谏议机关，我将能在地中海确保无数代的稳定与繁荣。现在，我仅需决定这个集会在哪里举行。"
+ middle_europe_decisions.0010.tt_napoli_warning: "@warning_icon!#warning 在[GetTitleByKey('c_napoli').GetNameNoTier]建造议会宫会让你无法建造大学！#!"
  middle_europe_decisions.0010.a: "在巴勒莫，议会古代的所在地！"
  middle_europe_decisions.0010.b: "在那不勒斯。"
  middle_europe_decisions.0010.c: "我应审慎地考虑这个决定。"

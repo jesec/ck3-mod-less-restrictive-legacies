@@ -337,3 +337,4 @@
  FACTION_REASON_ADMIN_CLAIMANT_CO_EMPEROR: "[Concept('claimant','Претендент')|E] — [Concept('co_emperor','император-соправитель')|E]: $FACTOR|0%+=$"
  FACTION_REASON_ADMIN_CLAIMANT_JUNIOR_EMPEROR: "[Concept('claimant','Претендент')|E] — [Concept('junior_emperor','номинальный император-соправитель')|E]: $FACTOR|0%+=$"
  FACTION_REASON_CLAIMANT_PRIMARY_HEIR: "[Concept('claimant','Претендент')|E] — мой [Concept('heir','наследник')|E]: $VALUE|+0=$"
+ FACTION_REASON_ADMINISTRATIVE: "[Concept('administrative', 'Бюрократический')|E] [Concept('vassal', 'вассал')|E]: $VALUE|+0=$"

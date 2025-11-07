@@ -77,3 +77,5 @@
  COURT_WINDOW_NO_GUESTS_OR_COURTIERS: "[CourtWindow.GetCourtOwner.Custom('GetNoGuestsOrNot')]"
  COURT_WINDOW_NO_COURTIERS: "[guests|E] 혹은 [CourtWindow.GetCourtOwner.Custom('GetCourtierConceptPlural')]들이 없습니다. 시간이 지나면 도착할 것이며 상기의 결단을 활용해 초대할 수도 있습니다."
  COURT_WINDOW_NO_FOLLOWERS: "현재 사용 가능한 [CourtWindow.GetCourtOwner.Custom('GetCourtierConceptPlural')]들이 없음"
+ COURT_WINDOW_NO_GUARDIAN: "[guardian|E] 없음"
+ COURT_WINDOW_NO_GUARDIAN_TOOLTIP: "[child|E]를 교육할 [guardian|E]이 지정되지 않음"

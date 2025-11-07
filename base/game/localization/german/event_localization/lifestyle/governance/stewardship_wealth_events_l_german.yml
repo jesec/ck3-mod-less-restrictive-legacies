@@ -25,7 +25,7 @@
  stewardship_wealth.1011.custom: "Jede Gemeinde in [THIS.Char.GetPrimaryTitle.GetName]"
  #War Taxes, by Sean Hughes
  stewardship_wealth.1021.t: "Geld für den Krieg"
- stewardship_wealth.1021.desc: "Kriege sind teuer, und da meine Schatzkammer sich rapide leert, muss ich mir überlegen, wie ich den Sold für meine Soldaten auf dem Schlachtfeld auftreiben möchte."
+ stewardship_wealth.1021.desc: "Kriege sind teuer – dieser ([current_war.GetName|U]) macht da keine Ausnahme.\n\nDa meine Schatzkammer sich rapide leert, muss ich mir überlegen, wie ich den Sold für meine Soldaten auf dem Schlachtfeld auftreiben möchte."
  stewardship_wealth.1021.a: "Ich erhebe zusätzliche Steuern von den Bauern."
  stewardship_wealth.1021.a.custom: "Jede [county|E] in meiner [domain|E]"
  stewardship_wealth.1021.b: "Ich streiche alle nicht dringend notwendigen Militärausgaben."

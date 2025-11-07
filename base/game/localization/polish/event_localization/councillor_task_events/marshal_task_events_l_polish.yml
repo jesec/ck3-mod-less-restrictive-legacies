@@ -42,7 +42,6 @@
  marshal_task.1102.a: "Moi poddani zawsze mogą czuć się bezpiecznie."
  marshal_task.1102.notification: "Zwiększono obecność wojskową"
  marshal_task.1103.notification: "Poborowi przygotowani do bitwy"
- #### END (Jonas W)
  marshal_task.2001.t: "Ranny dowódca"
  marshal_task.2001.opening: "[commander.GetTitledFirstName] został[Select_CString(commander.IsFemale, 'a trafiona', ' trafiony' )] w trakcie pojedynku treningowego!"
  marshal_task.2001.ending: "\n\nMój [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], zdołał[Select_CString( councillor.IsFemale, 'a', '' )] zatamować krwawienie, jednakże minie trochę czasu, nim [commander.GetFirstName] odzyska przytomność."

@@ -157,7 +157,7 @@
  diarch_request_imperial_expedition_interaction_desc: "提议沿着[recipient.GetPrimaryTitle.GetNamePossessive]的边境扩张，征服大片领土——可以选择保留这些领土，或是用它换取[influence|E]"
  diarch_request_imperial_expedition_interaction_extra_icon: "$hook_extra_icon$"
  DIARCH_REQUESTS_IMPERIAL_EXPEDITION: "[recipient.GetTitleAsNameNoTooltip]，有了你的支持，我将发动一次大远征，扩大帝国的边界。我还没决定要将剑落向何方，只知道它将#EMP 极具震撼性#!——如果我能依赖你的协助。"
- diarch_request_imperial_expedition_interaction.tt.minimum_troop_count: "你必须能自己投入至少[EmptyScope.ScriptValue('request_imperial_expedition_minimum_troop_count_value')]军队到这项冒险中"
+ diarch_request_imperial_expedition_interaction.tt.minimum_troop_count: "你必须能自己投入至少[EmptyScope.ScriptValue('request_imperial_expedition_minimum_troop_count_value')][soldiers|E]到这项冒险中"
  diarch_request_imperial_expedition_interaction.tt.actor_already_has_charge: "你已经得到了许可！"
  diarch_request_imperial_expedition_interaction.tt.influence_minor_name: "押上[influence_i][EmptyScope.ScriptValue('request_imperial_expedition_influence_stake_minor_value')|0][influence|E]"
  diarch_request_imperial_expedition_interaction.tt.influence_medium_name: "押上[influence_i][EmptyScope.ScriptValue('request_imperial_expedition_influence_stake_medium_value')|0][influence|E]"

@@ -88,6 +88,7 @@
  court_events.3100.a: "Ich schätze, ich sollte mit dem Lernen anfangen."
  court_events.3100.b: "[linguist.GetFirstNameNoTooltip|U], unterrichtet mich!"
  court_events.3100.c: "Ich habe keine Zeit für diesen Unfug."
+ court_events.3100.a.tt: "Ich beginne ein [GetScheme('learn_language').GetTypeName]-[scheme|E] gegen [chancellor.GetShortUIName] mit „[GetModifier('pressured_to_learn_court_language_modifier').GetNameWithTooltip]“"
  #The Best Builder
  court_events.3110.t: "Wer baut am besten?"
  court_events.3110.desc: "„Lehnsherr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]!“ [steward.Custom2('MyCharacterIntroduction', ROOT.Char)] nähert sich mir mit tiefen Sorgenfalten im Gesicht. „Ich bringe beunruhigende Kunde.\n\n[vassal.GetTitledFirstName|U] von [vassal.GetPrimaryTitle.GetBaseNameNoTier] hat [vassal.Custom('DE_PRO_POS_S_3P')]en Hautsitz in solch beeindruckender Weise ausgebaut, dass die Gemeinen beginnen, ihn mit [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitly] zu vergleichen, und es sogar wagen, Letzteres als mangelhaft zu erachten!\n\nEine entschiedene Zurschaustellung von Macht ist der einzige Weg, um hier unser Gesicht zu wahren, befürchte ich.“"

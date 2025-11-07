@@ -207,7 +207,7 @@
  #Dispute Border
  dispute_border: "边界纠纷"
  dispute_border_action: "边界纠纷："
- dispute_border_desc: "[SCHEME.GetTargetCharacter.GetShortUINamePossessiveNoTooltip]的土地属于[SCHEME.GetOwner.GetPrimaryTitle.GetNameNoTier]，若由我治理会好得多……"
+ dispute_border_desc: "#EMP 有人说#!，这片土地属于[SCHEME.GetOwner.GetPrimaryTitle.GetNameNoTier]，若由我治理会好得多……"
  dispute_border_desc_general: "$dispute_border$是一种[hostile_scheme|E]，目标是在[governorships|E]辖区间转移土地。它基于[diplomacy|E]和[house|E]地位，能够招揽[agents|E]。\n\n成功的$dispute_border$会导致[scheme_target|E]交出一个相邻的[county|E]。"
  DISPUTE_BORDER_SUCCESS_DESC: "[TARGET_CHARACTER.GetShortUINamePossessive]的[county|E]被转交了"
  dispute_border_invalidated_title: "@scheme_icon!边界纠纷计谋结束"
@@ -251,6 +251,7 @@
  start_dispute_border_interaction.tt.agent_focus_success: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[success_chance_max_i][GetAgentSlotType( 'agent_intermediary' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i][GetAgentSlotType( 'agent_proponent' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i][GetAgentSlotType( 'agent_sycophant' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i][GetAgentSlotType( 'agent_political_socialite' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i][GetAgentSlotType( 'agent_bureaucrat' ).GetName]"
  start_dispute_border_interaction.tt.agent_focus_speed: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[success_chance_max_i][GetAgentSlotType( 'agent_intermediary' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i][GetAgentSlotType( 'agent_proponent' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i][GetAgentSlotType( 'agent_political_socialite' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i][GetAgentSlotType( 'agent_bureaucrat' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i][GetAgentSlotType( 'agent_bureaucrat' ).GetName]"
  boundary_dispute_outcome_tt: "如果成功，[target.GetName]会被转交给你"
+ boundary_dispute_outcome_vassal_tt: "如果成功，[recipient.GetShortUIName]会成为你的[vassal|E]"
  #Subsume Province
  subsume_province: "合并总督辖区"
  subsume_province_action: "合并总督辖区："

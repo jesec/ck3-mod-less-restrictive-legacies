@@ -494,7 +494,7 @@
  laamp_join_war_contract_attacker_win: "gana"
  laamp_join_war_contract_attacker_lose: "pierde"
  laamp_join_war_contract.valid_war: "Guerra ya terminada"
- join_war_contract_spawn.t: "Nuevo [task_contract|lE] de $laamp_join_war_contract_contract$"
+ join_war_contract_spawn.t: "Nuevo $game_concept_task_contract$ de $laamp_join_war_contract_contract$"
  join_war_contract_spawn.desc_attacker: "[attacker.GetShortUIName] [Select_CString( attacker.IsLocalPlayer, 'has', 'ha' )] emitido un [task_contract|lE] para unirse a la [war.GetName] contra [Select_CString( defender.IsLocalPlayer, 'ti', defender.GetShortUIName )]"
  join_war_contract_spawn.desc_defender: "[defender.GetShortUIName] [Select_CString( defender.IsLocalPlayer, 'has', 'ha' )] emitido un [task_contract|lE] para unirse a la [war.GetName] contra [Select_CString( attacker.IsLocalPlayer, 'ti', attacker.GetShortUIName )]"
  laamp_raid_contract_request: "$laamp_request_boilerplate_warfare$"

@@ -180,3 +180,4 @@
  EXTENDED_RELATIONS_TOOLTIP: "[Character.GetRelationToStringExtended( GetPlayer )]"
  CHARACTER_WINDOW_LEGITIMACY_LEVEL: "[LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )|V]"
  INFLUENCE_WITH_BALANCE_TOOLTIP: "#T [influence|E]: $VALUE|V0$#!\n$BALANCE|V=1$/달\n\n#T [influence_level|E]: #!$LEVEL$"
+ DIARCH_ICON_TOOLTIP: "#T [power_sharing|E] 활성화\n#![Character.GetShortUIName|U](이)가 [Character.GetLiege.GetShortUINamePossessive] [Character.GetLiege.GetDiarchTitle]"

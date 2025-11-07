@@ -494,7 +494,7 @@
  laamp_join_war_contract_attacker_win: "gagnants"
  laamp_join_war_contract_attacker_lose: "perdants"
  laamp_join_war_contract.valid_war: "La guerre est déjà finie"
- join_war_contract_spawn.t: "Nouveau [task_contract|El] $laamp_join_war_contract_contract$"
+ join_war_contract_spawn.t: "Nouveau $game_concept_task_contract|l$ : $laamp_join_war_contract_contract$"
  join_war_contract_spawn.desc_attacker: "[attacker.Custom('FR_le_Char_U_Pi')|U][attacker.GetShortUIName] a émis un [task_contract|El] pour rejoindre la [war.GetName|l] contre [defender.Custom('FR_le_Char_U_Pi')][defender.GetShortUIName]"
  join_war_contract_spawn.desc_defender: "[defender.Custom('FR_le_Char_U_Pi')|U][defender.GetShortUIName] a émis un [task_contract|El] pour rejoindre la [war.GetName|l] contre [attacker.Custom('FR_le_Char_U_Pi')][attacker.GetShortUIName]"
  laamp_raid_contract_request: "$laamp_request_boilerplate_warfare$"

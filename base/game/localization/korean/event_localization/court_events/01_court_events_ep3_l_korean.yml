@@ -14,7 +14,7 @@
  court.8190.f: "내 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family'))] [family.GetFirstNameNoTooltip](을)를 최우선 환자로 생각하게."
  court.8190.g: "내 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('house'))] [house.GetFirstNamePossessiveNoTooltip] 말에 우선적으로 주의를 기울이도록."
  employer_booner_court_physician_modifier: "세심한 관심"
- employer_booner_court_physician_modifier_desc: "해당 인물은 숙련된 궁정 의사가 집중적으로 전담 중입니다."
+ employer_booner_court_physician_modifier_desc: "해당 인물은 숙련된 $court_physician_court_position$가 집중적으로 전담 중입니다."
  #Tutor
  court.8191.t: "특별 지도"
  court.8191.desc: "나의 [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('court_tutor_court_position').GetName()] [position_holder.GetTitledFirstName](은)는 유능한 지도 교사다. 천둥벌거숭이처럼 날뛰는 아이들의 교육을 능숙하게 관리해내고 있다.\n\n다만 [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] 궁정 아이들 모두를 골고루 살피느라 [position_holder.GetHerHis|U]주의가 분산되어 있다는 게 문제다. 그래도 한 명 정도는 믿음직한 [position_holder.GetHerHis] 밀착 지도를 받게 할 여유가 있을 듯한데."

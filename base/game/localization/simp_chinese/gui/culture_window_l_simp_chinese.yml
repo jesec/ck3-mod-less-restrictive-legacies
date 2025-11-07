@@ -86,7 +86,7 @@
  CULTURAL_ACCEPTANCE_GAINS: "每年获得"
  CULTURAL_ACCEPTANCE_LOSSES: "每年失去"
  CULTURAL_ACCEPTANCE_BASELINE: "[Concept( 'cultural_acceptance_baseline', '接受度基准值' )|E]"
- CULTURE_PILLAR_GENERAL_TOOLTIP: "[CulturePillar.GetEffectDescription( Culture.Self )]\n\n[CulturePillar.GetDescription( Culture.Self )|F]"
+ CULTURE_PILLAR_GENERAL_TOOLTIP: "[CulturePillar.GetEffectDescription( Culture.Self )][AddLocalizationIf( CulturePillar.HasEffectDescription( Culture.Self ), '\n\n' )][CulturePillar.GetDescription( Culture.Self )|F]"
  CULTURE_PILLAR_TOOLTIP_HERITAGE_EFFECT: "同一传承的文化#P +20#![cultural_acceptance_baseline|E]"
  CULTURE_PILLAR_TOOLTIP_HERITAGE_SAME: "你的传承"
  CULTURE_PILLAR_TOOLTIP_HERITAGE_DIFF: "与你的[culture|E]传承不同"

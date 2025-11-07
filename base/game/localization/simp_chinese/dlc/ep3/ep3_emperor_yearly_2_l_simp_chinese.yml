@@ -345,5 +345,5 @@
  ep3_emperor_yearly.2420.t: "御座后的阴影"
  ep3_emperor_yearly.2420.desc: "[noble_family_head.GetHouse.GetBaseName]家族的双手贪婪而有力，如触角一般延伸到[ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName]的每个角落。\n\n如今显而易见，即使是坐在皇帝宝座上的人也要屈居于他们之下；他们是我们国家的真正主人，主宰着[ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip]的政治和经济生活。"
  2420_noble_family_tt: "新主导家族"
- 2420_noble_family_tt_desc: "[noble_family_head.GetHouse.GetBaseName]家族现在在[ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName|l]被视为[dominant_family|E]。"
+ 2420_noble_family_tt_desc: "[noble_family_head.GetHouse.GetBaseName]家族现在在[noble_family_head.GetTopLiege.GetPrimaryTitle.GetName|l]被视为[dominant_family|E]。"
  ep3_emperor_yearly.2420.a: "令人不安的消息。"

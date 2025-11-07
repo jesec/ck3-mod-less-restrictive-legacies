@@ -70,7 +70,7 @@
  death_management.1010.over_12_liked_educator: "你教了我那么多，[dead_character.GetFirstName]。"
  death_management.1010.over_12_disliked_educator: "终于解脱了。"
  death_management.1010.a.tt: "随着[dead_character.GetTitledFirstName]死亡，没有人教育你了。"
- death_management.educator.desc: "[ward_of_dead_character.GetTitledFirstNamePossessive]的教育者[dead_character.GetTitledFirstName]去世。"
+ death_management.educator.desc: "你的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('ward_of_dead_character'))][ward_of_dead_character.GetTitledFirstNamePossessive]的教育者[dead_character.GetTitledFirstName][dead_character.GetDeathReasonHideKiller]。"
  death_management.2000.t: "直到[prison_holder.GetFirstNameNoTooltip]将我们分隔"
  death_management.2000.t.root_killer: "直到我将我们分隔"
  death_management.2000.t.no_killer: "手撕因缘"

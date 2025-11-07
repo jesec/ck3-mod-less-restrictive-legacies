@@ -884,7 +884,7 @@
  pilgrimage.6830.t: "Silencio"
  pilgrimage.6830.desc: "El eco de mis pasos es el único sonido en el/la [ROOT.Char.GetFaith.HouseOfWorship]. Estoy sol[ROOT.Char.Custom('ES_OA')]. Lo último que recuerdo del mundo exterior es el rostro de aquellos mendigos cerca de las puertas, y el cielo azul, azul. Tan distante ahora.\n\nCamino hacia el altar sabiendo que no hay nadie más que yo y, sin embargo, me siento bajo un escrutinio inflexible: los severos ojos de [ROOT.Char.GetFaith.HighGodName] están siempre bien abiertos."
  pilgrimage.6830.a: "Hora de rezar."
- pilgrimage.6830.b: "Mirad esos arcos… preciosos."
+ pilgrimage.6830.b: "Mirad esos arcos… Qué hermosura."
  pilgrimage.6830.c: "Debería hacer una ofrenda."
  pilgrimage.6830.c.tt: "Perderás [votive_artifact.GetName]"
  #Ask a local priest to bless your artifact

@@ -135,6 +135,8 @@
  inspection_conclusion_success_opinion_key: "[host.GetShortUIName](은)는 내정을 훌륭하게 지휘하며 봉신들에게 능력을 입증함."
  inspection_conclusion_success_popular_opinion_key_title: "인기 많은 영주"
  inspection_conclusion_success_popular_opinion_key: "[host.GetShortUIName](은)는 [province.GetName](을)를 방문한 후 인기가 많아짐."
+ inspection_conclusion_success_governor_experience_key_title: "[host.Custom('GetGovernorConceptNoTooltip')] 경험"
+ inspection_conclusion_success_governor_experience_key: "[host.GetShortUIName](은)는 [province.GetName](을)를 방문한 뒤 [host.Custom('GetGovernorConceptNoTooltip')]의 역할에 있어 귀중한 경험을 습득함."
  inspection_retry_desc: "지난번 이 지역을 맡은 주군의 시찰이 애매하게 끝났습니다. 그래도 영지를 개선하기 위해 마련한 틀은 여전히 남아 있습니다.\n#weak 성공적인 [inspection|E] 달성 시 제거됨#!"
  inspection_second_try_modifier: "애매하게 끝난 시찰"
  inspection_second_try_modifier_desc: "$inspection_retry_desc$\n\n[inspection_success_chance|E]: #p +10%#!"

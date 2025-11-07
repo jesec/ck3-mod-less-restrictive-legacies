@@ -2549,12 +2549,12 @@ bp2_yearly.0631 = {
 				name = diarch_succession_filtered_due_to_incumbents_politicking
 				value = root
 			}
-		}
-		# Plus, there's fallout from this.
-		progress_towards_rival_effect = {
-			REASON = rival_poisoned_against_by_regent
-			CHARACTER = scope:rival_successor
-			OPINION = -25
+			# Plus, there's fallout from this.
+			progress_towards_rival_effect = {
+				REASON = rival_poisoned_against_by_regent
+				CHARACTER = root
+				OPINION = -25
+			}
 		}
 
 		stress_impact = {

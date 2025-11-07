@@ -16,4 +16,4 @@
  ep3_administrative_legacy_4_effect_cabinet_of_curiosities_global: "Desbloquea el edificio de la [estate|lE] [GetDomicileBuilding('cabinet_of_curiosities_01').GetName|l]"
  ep3_administrative_legacy_5_name: "Diaírei kaì basíleue"
  ep3_administrative_legacy_track_effect_claimant_factions_global: "Es menos probable que [vassals|lE] y [noble_families|lE] se unan a [claimant_factions|lE] o usen la [scheme|lE] de [GetScheme('depose').GetTypeName|l]"
- ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "Desbloquea la [decision|lE] [GetDecisionWithKey('mass_arrests_decision').GetName|l]"
+ ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "Desbloquea la [interaction|lE] #high [GetPlayer.GetPlayerInteractionName('ep3_mass_arrests_interaction')|l]#!"

@@ -86,7 +86,7 @@
  CULTURAL_ACCEPTANCE_GAINS: "Roczny zysk"
  CULTURAL_ACCEPTANCE_LOSSES: "Roczna strata"
  CULTURAL_ACCEPTANCE_BASELINE: "[Concept( 'cultural_acceptance_baseline', 'Bazowa tolerancja' )|E]"
- CULTURE_PILLAR_GENERAL_TOOLTIP: "[CulturePillar.GetEffectDescription( Culture.Self )]\n\n[CulturePillar.GetDescription( Culture.Self )|F]"
+ CULTURE_PILLAR_GENERAL_TOOLTIP: "[CulturePillar.GetEffectDescription( Culture.Self )][AddLocalizationIf( CulturePillar.HasEffectDescription( Culture.Self ), '\n\n' )][CulturePillar.GetDescription( Culture.Self )|F]"
  CULTURE_PILLAR_TOOLTIP_HERITAGE_EFFECT: "#P +20#! [Concept( 'cultural_acceptance_baseline', 'wartość bazowa tolerancji kulturowej')|E] względem kultur dzielących tę spuściznę"
  CULTURE_PILLAR_TOOLTIP_HERITAGE_SAME: "Twoja spuścizna"
  CULTURE_PILLAR_TOOLTIP_HERITAGE_DIFF: "Spuścizna odmienna od twojej [Concept( 'culture', 'kultury' )|E]"

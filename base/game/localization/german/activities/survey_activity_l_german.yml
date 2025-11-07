@@ -135,6 +135,8 @@
  inspection_conclusion_success_opinion_key: "[host.GetShortUIName|U] hat sich in inneren Angelegenheiten gut geschlagen und sich bei [host.Custom('DE_PRO_POS_S_3P')]en Vasallen bewährt."
  inspection_conclusion_success_popular_opinion_key_title: "Beliebter Herrscher"
  inspection_conclusion_success_popular_opinion_key: "[host.GetShortUIName|U] hat nach dem Besuch in „[province.GetName]“ einen Anstieg der eigenen Beliebtheit erfahren."
+ inspection_conclusion_success_governor_experience_key_title: "Erfahrung als [host.Custom('GetGovernorConceptNoTooltip')]"
+ inspection_conclusion_success_governor_experience_key: "[host.GetShortUIName|U] hat wertvolle Erfahrung in der Rolle als [host.Custom('GetGovernorConceptNoTooltip')] gesammelt, nachdem [host.Custom('DE_PRO_PER_S_3P_N')] „[province.GetName|U]“ besuchte."
  inspection_retry_desc: "Als dieses Gebiet zuletzt von seinem Lehnsherrn in Augenschein genommen wurde, endete das Unterfangen ohne Ergebnis. Der Rahmen, der damals für die Verbesserung der Gemeinde geschaffen wurde, ist allerdings noch vorhanden.\n#weak Wird bei erfolgreicher [inspection|E] entfernt#!"
  inspection_second_try_modifier: "Uneindeutige Inspektion"
  inspection_second_try_modifier_desc: "$inspection_retry_desc$\n\n[inspection_success_chance|E]: #p +10%#!"

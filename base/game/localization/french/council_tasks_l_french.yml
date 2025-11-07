@@ -464,3 +464,4 @@
  liege_stopped_converting_county_desc: "Le [councillor.GetCouncilTitle|l] [councillor_liege.Custom('FR_du_Char_U_Pi')][councillor_liege.GetShortUIName] a cessé de [Concept('converting','convertir')|E] [county.GetName] à la foi [councillor_liege.GetFaith.GetAdjective] #weak ([old_faith.GetAdjective])#!"
  liege_converted_county_title: "Le seigneur lige a converti [county.GetNameNoTierNoTooltip|V]"
  liege_converted_county_desc: "Le [councillor.GetCouncilTitle|l] [councillor_liege.Custom('FR_du_Char_U_Pi')][councillor_liege.GetShortUIName] a [Concept('converted','converti')|E] [county.GetName] à la foi [councillor_liege.GetFaith.GetAdjective] #weak ([old_faith.GetAdjective])#!"
+ steward_promote_culture_beth_nahrain: "$task_promote_culture$ de Beth Nahraïn"

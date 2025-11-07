@@ -249,7 +249,7 @@
  GRANT_BARONY_TITLE_CANT_GIVE_REASON_OCCUPIED: "@warning_icon! #X [TITLE.GetName] est [occupied|El]#!"
  GRANT_TITLE_SELECT: "@warning_icon! #X Aucun titre sélectionné#!"
  GRANT_TITLE_GRANT: "#T Accorder les titres sélectionnés [CHARACTER.Custom('FR_au_Char_U_Pi')][CHARACTER.GetShortUIName]#!"
- GRANT_TITLES_DESCRIPTION: "Sélectionner les [titles|El] à accorder [CHARACTER.Custom('FR_au_Char_U_Pi')][CHARACTER.GetShortUINameNoTooltip]"
+ GRANT_TITLES_DESCRIPTION: "Sélectionner les $game_concept_titles|l$ à accorder [CHARACTER.Custom('FR_au_Char_U_Pi')][CHARACTER.GetShortUIName]"
  GRANT_REVOKE_TITLES_ITEM_SELECT: "#T Sélectionner le [TITLE.GetName]#!"
  GRANT_REVOKE_TITLES_ITEM_DESELECT: "#T Désélectionner le [TITLE.GetName]#!"
  GRANT_REVOKE_RIGHT_CLICK_INFO: "#I Clic droit pour aller à l’emplacement#!"
@@ -348,7 +348,7 @@
  DEFEAT_CONFIRM_TITLE: "Se rendre"
  DEFEAT_CONFIRM: "La guerre sera perdue."
  DEFEAT_CONFIRM_ACCEPT: "Se rendre"
- REVOKE_TITLE_DESCRIPTION: "Choisir un [title|El] à révoquer [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUINameNoTooltip]"
+ REVOKE_TITLE_DESCRIPTION: "Choisir un $game_concept_title|l$ à révoquer [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUIName]"
  #REVOKE_TITLE_REVOKED_TITLE_BY: "" # <DELETE THIS KEY>
  #REVOKE_TITLE_TITLE_INFO: "" # <DELETE THIS KEY>
  REVOKE_TITLE_CANT_GIVE_REASON_DOESNT_OWN: "@warning_icon! #X [CHARACTER.GetUIName] ne possède pas le [TITLE.GetName]#!"
@@ -469,7 +469,7 @@
  INTERFERE_IN_WAR_REJECT_HEADER: "Si vous refusez :"
  INTERFERE_IN_WAR_NO_WAR_SELECTED: "@warning_icon! #X Sélectionner une [war|El] dans la liste ci-dessus #!"
  INTERFERE_IN_WAR_NO_WARS: "#weak Aucune guerre à sélectionner#!"
- INTERFERE_IN_WAR_DESCRIPTION: "#I Sélectionner une guerre#!"
+ INTERFERE_IN_WAR_DESCRIPTION: "#I Choisir une des guerres [Character.Custom('FR_du_Char_U_Pi')][Character.GetShortUIName]#!"
  INTERFERE_IN_WAR_ITEM_SELECT: "#T Interférer dans la [WAR.GetName|Vl] [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUINameNoTooltip] #!"
  INTERFERE_IN_WAR_ALREADY_IN_WAR: "@warning_icon! #X [CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUINameNoTooltip] [Select_CString( CHARACTER.IsLocalPlayer, 'participez', 'participe' )] déjà à cette guerre#!"
  INTERFERE_IN_WAR_ALREADY_CALLED_TO_WAR: "@warning_icon! #X [CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUINameNoTooltip] [Select_CString( CHARACTER.IsLocalPlayer, 'avez', 'a' )] déjà été appelé[CHARACTER.Custom('FR_E')] à cette guerre#!"
@@ -575,3 +575,4 @@
  STATE_FAITH_CREATE_FAITH_REASON: "Vous avez beaucoup d’influence dans le [realm|El] : $VALUE|=+0$"
  HAS_PERK_PROPHET_REASON: "Vous avez l’[perk|El] [GetPerk('prophet_perk').GetName(GetPlayer)] : $VALUE|=+0$"
  INSPECTION_REASON: "Bonus d’[inspection|El] : $VALUE|=+0$"
+ HAS_WET_NURSE_REASON: "[GetCourtPositionType( 'wet_nurse_court_position' ).GetName] : $VALUE|=+0$"

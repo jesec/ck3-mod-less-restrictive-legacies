@@ -40,7 +40,7 @@
  ep3_governor_yearly.8040.d.success: "你成功管理好了一切"
  ep3_governor_yearly.8040.d.failure: "你无法同时管理这两者"
  ep3_governor_yearly.8050.t: "兵临城下"
- ep3_governor_yearly.8050.desc: "从最低级的政府人员到[war_liege.GetTopLiege.GetTitleAsNameNoTooltip][war_liege.GetHerselfHimself]本人，整个[war_liege.GetPrimaryTitle.GetTierAsNameNoTooltip|l]都在防御[war_attacker.GetPrimaryTitle.GetDefinitiveName]对[target_kingdom.GetBaseNameNoTier]的侵略。作为[ROOT.Char.GetPrimaryTitle.GetAdjective][ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]的[ROOT.Char.GetTitleAsNameNoTooltip]，这个威胁实在太真实了——"
+ ep3_governor_yearly.8050.desc: "从最低级的政府人员到[war_liege.GetTopLiege.GetTitleAsNameNoTooltip][war_liege.GetHerselfHimself]本人，整个[war_liege.GetPrimaryTitle.GetTierAsNameNoTooltip|l]都在防御[war_attacker.GetPrimaryTitle.GetDefinitiveName]对[target_title.GetBaseNameNoTier]的侵略。作为[ROOT.Char.GetPrimaryTitle.GetAdjective][ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]的[ROOT.Char.GetTitleAsNameNoTooltip]，这个威胁实在太真实了——"
  ep3_governor_yearly.8050.kingdom: "该地区的防务很大一部分落在了我身上。"
  ep3_governor_yearly.8050.neighbour: "如果不加以遏制，入侵者可能接着挺进[ROOT.Char.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]。"
  ep3_governor_yearly.8050.end: "\n\n我发挥了我的作用，驻守要塞，修复防御工事，招募士兵，但还可以做更多。任何援助在[war_liege.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]都可能受到高度赞赏……"

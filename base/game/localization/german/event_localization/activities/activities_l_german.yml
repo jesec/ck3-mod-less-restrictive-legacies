@@ -59,7 +59,7 @@
  activity_feast_name: "Das Festmahl"
  murder_feast_activity_cost_desc: "$feast_type_murder$"
  bloody_wedding_activity_cost_desc: "$wedding_type_bloody$"
- activity_feast_desc: "Jede angesehene Persönlichkeit des Reiches wurde zu einem großen Festmahl eingeladen, um Bande der Freundschaft und der Treue zu knüpfen und zu festigen."
+ activity_feast_desc: "Stärkt die Bande der Treue, indem Ihr Vasallen und Nachbarn in Eure Hallen einladet, um zu speisen, zu trinken und fröhlich zu sein!\n\nFestmahle zur rechten Zeit können Euer Reich stabilisieren, indem man Untertanen beschwichtigt und Freundschaften schmiedet."
  activity_feast_owner: "Gastgeber"
  activity_feast_destination_selection: "Die ausgewählte Grafschaft erhält 5 Jahre lang den Modifikator „[GetModifier('feast_recent_fest_modifier').GetNameWithTooltip|L]“."
  activity_feast_selection_tooltip: "Ein großes Bankett veranstalten, um Eure Beziehungen zu stärken\n\nErwartete Belohnungen:\n$BULLET_WITH_TAB$[opinion_i] [opinion|E]\n$BULLET_WITH_TAB$[stress_loss_i] [Concept('stress', 'Anspannungsabbau')|E]"

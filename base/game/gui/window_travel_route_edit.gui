@@ -1,7 +1,8 @@
 ﻿window = {
 	name = "travel_route_edit_window"
-	parentanchor = vcenter|right
-	size = { 500 900 }
+	parentanchor = top|right
+	position = { 0 70 }
+	size = { 500 780 }
 	movable = no
 
 	using = Window_Background

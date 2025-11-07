@@ -92,7 +92,7 @@
  harm.0521.a.tt.success: "Ваши руки ухватываются за что-то"
  harm.0521.a.tt.failure: "Вы слишком долго пробыли под водой"
  harm.0521.b: "Скорее к поверхности!"
- harm.0521.b.tt.unlocked_by_cultrad: "Эта возможность доступна благодаря вашим [Concept( 'culture', 'культурным' )|E] [Concept( 'traditions', 'традициям' )|E]"
+ harm.0521.b.tt.unlocked_by_cultrad: "Эта возможность доступна благодаря вашим [Concept( 'culture_possessive', 'культурным' )|E] [Concept( 'traditions', 'традициям' )|E]"
  harm.0521.c: "Плыви, #EMP плыви#!!"
  harm.0521.c.tt.success: "Вы успеваете достичь поверхности"
  harm.0521.c.tt.failure: "У вас уходит слишком много времени"

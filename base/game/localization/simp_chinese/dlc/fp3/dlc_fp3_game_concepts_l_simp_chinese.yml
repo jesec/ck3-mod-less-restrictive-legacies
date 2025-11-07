@@ -29,7 +29,7 @@
  game_concept_fp3_install_loyalist_cb: "扶持拥护者"
  game_concept_fp3_install_loyalist_cb_desc: "允许你发动[war|E]，将一位[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]扶上目标[realm|E]的领袖之位"
  game_concept_fp3_demand_submission_interaction: "$fp3_demand_submission_interaction$"
- game_concept_fp3_demand_submission_interaction_desc: "以虔诚、诡诈或恐吓要求目标的忠诚。"
+ game_concept_fp3_demand_submission_interaction_desc: "以虔诚、诡诈或恐吓要求一个[character_possessive|E][hook|E]形式的忠诚。"
  game_concept_fp3_request_house_unity_change_interaction: "$fp3_request_house_unity_change_interaction$"
  game_concept_fp3_request_house_unity_change_interaction_desc: "$fp3_request_house_unity_change_interaction_desc$"
  game_concept_fp3_request_honorary_titles_interaction: "$fp3_request_honorary_titles_interaction$"

@@ -5592,6 +5592,25 @@
 			}
 		}
 	}
+	1064.1.20 = {
+		effect = {
+			add_truce_both_ways = {
+				character = character:472 # Geza
+				years = 5
+				name = TRUCE_COLLABORATION
+			}
+			add_truce_both_ways = {
+				character = character:474 # Laszlo
+				years = 5
+				name = TRUCE_COLLABORATION
+			}
+			add_truce_both_ways = {
+				character = character:20368 # Lampert
+				years = 5
+				name = TRUCE_COLLABORATION
+			}
+		}
+	}
 	1087.1.1 = {
 		death = "1087.1.1"
 	}

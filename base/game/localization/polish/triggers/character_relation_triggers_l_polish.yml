@@ -5,6 +5,8 @@
  NOT_I_AM_AT_WAR_WITH_TRIGGER: "Ty i [TARGET_CHARACTER.GetShortUINameNotMe|V] #bold nie#! jesteście w stanie [Concept( 'war', 'wojny' )|E]"
  THEY_ARE_AT_WAR_WITH_TRIGGER: "[CHARACTER.GetShortUINameNotMe|V] jest w stanie [Concept( 'war', 'wojny' )|E] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V]"
  NOT_THEY_ARE_AT_WAR_WITH_TRIGGER: "[CHARACTER.GetShortUINameNotMe|V] #bold nie#! jest w stanie [Concept( 'war', 'wojny' )|E] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V]"
+ NONE_ARE_AT_WAR_WITH_TRIGGER: "Jesteście w stanie [Concept('war', 'wojny')|E]"
+ NOT_NONE_ARE_AT_WAR_WITH_TRIGGER: "#bold Nie#! są z tobą w stanie [Concept('war', 'wojny')|E]"
  IS_ALLIED_TO_TRIGGER: "Jest w [Concept( 'allied', 'sojuszu' )|E] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V]"
  NOT_IS_ALLIED_TO_TRIGGER: "#bold Nie#! jest w [Concept( 'allied', 'sojuszu' )|E] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V]"
  I_AM_ALLIED_TO_TRIGGER: "Ty i [TARGET_CHARACTER.GetShortUINameNotMe|V] jesteście [Concept( 'allied', 'sojusznikami' )|E]"

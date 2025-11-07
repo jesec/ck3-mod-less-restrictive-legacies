@@ -767,8 +767,8 @@
  #travel_events.4005
  maritime_trading_handbook: "Handbuch des Seehandels"
  maritime_trading_handbook_description: "Ein fachkundig geschriebenes Handbuch über das Wesen der [merchant_character_scope.GetCulture.GetName|l]en maritimen Handelspraktiken."
- own_holy_text_mid: "Edelsteinbesetzter heiliger Text ([ROOT.Char.GetFaith.ReligiousText|U])"
- own_holy_text_mid_description: "Ein heiliger Text ([ROOT.Char.GetFaith.ReligiousText|U]), der mit Edelsteinen besetzt ist."
+ own_holy_text_mid: "Edelsteinbesetzter Sakraltext ([root_scope.GetFaith.ReligiousText|U])"
+ own_holy_text_mid_description: "Ein religiöses Werk ([root_scope.GetFaith.ReligiousText|U]), das mit Edelsteinen besetzt ist."
  merchants_holy_text_mid: "Edelsteinbesetzter heiliger Text ([merchant_character_scope.GetFaith.ReligiousText|U])"
  merchants_holy_text_mid_description: "Ein heiliger Text ([merchant_character_scope.GetFaith.ReligiousText|U]), der mit Edelsteinen besetzt ist."
  merchants_sword: "[merchant_character_scope.GetCulture.GetName]es Schwert"

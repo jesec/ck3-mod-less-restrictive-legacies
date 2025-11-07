@@ -125,7 +125,7 @@
  single_combat.0001.stoic_veteran.general: "W #EMP gwardii#! stawialiśmy czoła trudniejszym przeciwnikom niż ty!"
  single_combat.0001.stoic_veteran.other_varangian: "Powinno ci być wstyd za los, który spotkał [my_foe.Custom('SignatureWeaponKillType')] strażników."
  single_combat.0001.blade_dance: "Władam najszybszym ostrzem na ziemiach znanych jako [myself.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
- single_combat.0001.blade_dance_unlanded: "Władam najszybszym ostrzem na ziemiach znanych jako [myself.GetCurrentLocation.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ single_combat.0001.blade_dance_unlanded: "Władam najszybszym ostrzem wśród ludu znanego jako [myself.GetCulture.GetCollectiveNounNoTooltip]!"
  single_combat.0001.wrath_of_highgod: "[myself.GetFaith.HighGodNameAlternate] i [myself.GetFaith.WarGodName], sprawią, że będziesz cierpieć, bluźnierc[Select_CString(my_foe.IsFemale, 'zyni', 'o' )]!"
  single_combat.0001.hurt_me_better: "#EMP Mmmmm#!, myślisz, że #EMP to#! boli? Pokażę ci prawdziwy ból!"
  single_combat.0001.special_fallback: "Na ziemię z tobą!"

@@ -39,7 +39,7 @@
  yearly.7005.independence_faction: "\n\n„Wenn ich keinen eigenen Staat haben kann, so will ich wenigstens [coup_leader.Custom('DE_ART_DEF_S_N')] Held[coup_leader.Custom('DE_END_NOU_S_GS_N')] meiner eigenen Tragödie sein.“"
  yearly.7005.claimant_faction: "„Ihr habt kein Recht, Euch auf diesem Thron zu fläzen. Ich sterbe lieber, als Euch auch nur noch einen einzigen falschen Erlass darauf verkünden zu sehen.“"
  yearly.7005.populist_faction: "„Ich schwöre, es dauert mich, dass ich Euch angesichts der Qualen all jener, die Ihr unter Eurer Stiefelsohle zermalmt habt, keinen angemesseneren Tod bereiten kann. Doch wenigstens sterbe ich den Heldentod.“"
- yearly.7005.weapon: "\n\n[coup_leader.Custom('DE_PRO_PER_S_3P_N')|U] zückt eine verborgene Waffe und springt nach vorn."
+ yearly.7005.weapon: "\n\n[coup_leader.Custom('DE_PRO_PER_S_3P_N')|U] zückt einen verborgenen Dolch und springt nach vorn."
  yearly.7005.single_death: "In einem einzigen grauenhaften Ausbruch von Gewalt trifft [coup_leader.Custom('DE_PRO_PER_S_3P_N')] [first_character_kill.GetTitledFirstName],"
  yearly.7005.double_death: "In einem Gewaltausbruch in zwei Richtungen schlägt [coup_leader.Custom('DE_PRO_PER_S_3P_N')] gegen [first_character_kill.GetTitledFirstName] und [second_character_kill.GetTitledFirstName] zu,"
  yearly.7005.triple_death: "Zum Schrecken aller greift [coup_leader.Custom('DE_PRO_PER_S_3P_N')] [first_character_kill.GetTitledFirstName], [second_character_kill.GetTitledFirstName] und [third_character_kill.GetTitledFirstName] an."

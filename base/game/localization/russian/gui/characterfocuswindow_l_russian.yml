@@ -15,3 +15,5 @@
  I_HAVE_THIS_EDUCATION_FOCUS_DESCRIPTION: "#TUT_KW У вас уже выбран этот фокус образования!#!"
  CHARACTER_CAN_CHOOSE_THIS_LIFESTYLE_FOCUS_DESCRIPTION: "#TUT_KW [CHARACTER.GetShortUINameNoTooltip] может сменить образ жизни на этот.#!"
  CHARACTER_CAN_CHOOSE_THIS_EDUCATION_FOCUS_DESCRIPTION: "#TUT_KW [CHARACTER.GetShortUINameNoTooltip] может сменить фокус образования на этот.#!"
+ EDUCATION_FOCUS_BUTTON_TOOLTIP: "#T [FocusType.GetNameNoTooltip]\n#!#I Щелкните, чтобы выбрать#!"
+ EDUCATION_FOCUS_SELECTED_EMPTY_STATE: "Выберите [Concept('education_focus', 'фокус образования')|E] выше"

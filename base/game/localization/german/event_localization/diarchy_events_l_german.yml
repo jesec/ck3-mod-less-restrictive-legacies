@@ -21,7 +21,7 @@
  diarchies.0000.diarch_mandate_fail.tt.obtain_gold.self: "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, sich selbst [gold|E] zu beschaffen"
  diarchies.0000.diarch_mandate_fail.tt.acquire_character.liege: "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, Euch einen [courtier|E] zu beschaffen"
  diarchies.0000.diarch_mandate_fail.tt.acquire_character.self: "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, sich selbst die Treue eines [Concept('character', 'Charakters')|E] zu sichern"
- diarchies.0000.diarch_mandate_fail.tt.acquire_troops.liege: "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, Euch Soldaten zu beschaffen"
+ diarchies.0000.diarch_mandate_fail.tt.acquire_troops.liege: "[diarch.Custom('DE_PRO_PER_S_3P_N')|U] versuchte, Eure Soldaten zu erlangen"
  diarchies.0000.diarch_mandate_fail.tt.acquire_troops.split: "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, Euch beiden Soldaten zu beschaffen"
  diarchies.0000.diarch_mandate_fail.tt.affect_contract.liege: "[diarch.Custom('DE_PRO_PER_S_3P_N')|U] versuchte wohlmeinend, für Euch die [vassal_contract|E] eines [Concept('vassal', 'Vasallen')|E] zu beeinflussen"
  diarchies.0000.diarch_mandate_fail.tt.harass_peasants.liege: "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, mehr Ressourcen aus der Bauernschaft herauszuholen"

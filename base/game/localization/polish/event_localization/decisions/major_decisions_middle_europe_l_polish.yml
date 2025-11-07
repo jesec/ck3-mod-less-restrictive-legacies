@@ -34,6 +34,7 @@
  #Empowering Sicilian Parliament, by Flavio Verna
  middle_europe_decisions.0010.t: "Zgromadzenie stanów"
  middle_europe_decisions.0010.desc: "Infrastruktura pozostawiona przez Greków w prowincjach Sycylii i Apulii posłuży jako podstawa umożliwiająca szybsze wprowadzenie bardziej oświeconej formy rządów przez [scoped_ruler.GetPrimaryTitle.GetName].\n\nGromadząc przedstawicieli trzech stanów w jednym organie doradczym, kierującym się nowym prawem opartym na starych rzymskich tradycjach, zapewnię stabilność i dobrobyt w basenie Morza Śródziemnego dla przyszłych pokoleń. Pozostaje tylko zdecydować, gdzie zgromadzi się ten parlament."
+ middle_europe_decisions.0010.tt_napoli_warning: "@warning_icon! #warning Zbudowanie parlamentu w miejscu o nazwie [GetTitleByKey('c_napoli').GetNameNoTier] uniemożliwi ci budowę uniwersytetu!#!"
  middle_europe_decisions.0010.a: "W Palermo, jego starożytnej siedzibie!"
  middle_europe_decisions.0010.b: "Będzie w Neapolu."
  middle_europe_decisions.0010.c: "Muszę poważnie rozważyć tę decyzję."

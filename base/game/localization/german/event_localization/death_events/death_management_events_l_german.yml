@@ -70,7 +70,7 @@
  death_management.1010.over_12_liked_educator: "Ihr habt mich so viel gelehrt, [dead_character.GetFirstName]."
  death_management.1010.over_12_disliked_educator: "Nun denn. Wohl besser so."
  death_management.1010.a.tt: "Nach dem Tod von [dead_character.GetTitledFirstName] habt Ihr keinen Tutor mehr."
- death_management.educator.desc: "[dead_character.Custom('DE_ART_DEF_S_N')|U] Mentor[dead_character.Custom('DE_END_NOU_S_GS_N')] von [ward_of_dead_character.GetTitledFirstName], [dead_character.GetTitledFirstName], ist verstorben."
+ death_management.educator.desc: "[dead_character.Custom('DE_PRO_POS_P_2P_N')|U] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('ward_of_dead_character'))] [dead_character.GetTitledFirstName], Mentor[dead_character.Custom('DE_END_NOU_S_GS_N')] von [ward_of_dead_character.GetTitledFirstName], [dead_character.GetDeathReasonHideKiller]."
  death_management.2000.t: "Bis dass [prison_holder.GetFirstNameNoTooltip] uns scheidet"
  death_management.2000.t.root_killer: "Bis dass ich uns scheide"
  death_management.2000.t.no_killer: "Entrissen"

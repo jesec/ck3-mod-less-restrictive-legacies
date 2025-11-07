@@ -11,7 +11,7 @@
  court.7030.d.tt: "[foreign_merchant.GetFirstNameNoTooltip](을)를 내 봉역에서 추방하고 우리 상인들에게서 편취한 금화를 정당하게 압수함!"
  ### Court Event 7040
  court.7040.title: "공동체의 기둥"
- court.7040.desc: "[ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName](이)가 초조하게 방을 서성이는 모습이 눈길을 끌었다.\n\n\"[chaplain.GetName], 무슨 문제라도 있소?\" 내가 하문했다.\n\n\"[ascetic.GetName] 때문에 그렇습니다, 영주님. 오늘 아침 궁전 안뜰에 있는 기둥을 타고 올라가더니, 온종일 조용한 명상에 잠겨 내려올 생각을 안 합디다. 식음료를 거부하는 건 고사하고 질문을 해도 좀처럼 말하지를 않습니다. 이런 식의 금욕주의적 수련법은 알려진 바가 없습니다. 게다가 몇몇 궁정 사람들이 거북함을 호소하면서 어떻게 손 좀 써달라고 절 들들 볶는 상황입니다.\""
+ court.7040.desc: "내 [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName](이)가 초조하게 방을 서성이는 모습이 눈길을 끌었다.\n\n\"[chaplain.GetName], 무슨 문제라도 있소?\" 내가 하문했다.\n\n\"[ascetic.GetName] 때문에 그렇습니다, 영주님. 오늘 아침 궁전 안뜰에 있는 기둥을 타고 올라가더니, 온종일 조용한 명상에 잠겨 내려올 생각을 안 합디다. 식음료를 거부하는 건 고사하고 질문을 해도 좀처럼 말하지를 않습니다. 이런 식의 금욕주의적 수련법은 알려진 바가 없습니다. 게다가 몇몇 궁정 사람들이 거북함을 호소하면서 어떻게 손 좀 써달라고 절 들들 볶는 상황입니다.\""
  court.7040.a: "그냥 무시하시오. 언젠가는 정신 차리지 않겠소."
  court.7040.b: "[ascetic.GetHerHim]를 [head_of_faith.GetTitledFirstName](으)로 보내시오. [head_of_faith.GetTitledFirstName]의 의견을 들어보는 게 좋겠군."
  court.7040.c: "[ascetic.GetNamePossessive] 신앙에 절로 감화되는 기분이로다. 나도 본받아야겠어!"

@@ -48,7 +48,7 @@
  fp3_antagonize_character_interaction.recipient_message.15: "[secondary_recipient.Custom('FR_le_Char_Pi')|U][secondary_recipient.GetTitledFirstName] est une personne merveilleuse. Peut-être devriez-vous changer d’avis à son sujet ?"
  fp3_persian_struggle_previously_swayed_tt: "A précédemment été influencé pendant l’[persian_struggle|El] : $VALUE|=+0$"
  fp3_demand_submission_interaction: "Demander la soumission"
- fp3_demand_submission_interaction_desc: "Exigez la loyauté [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUINameNoTooltip] par la piété, la ruse ou l’intimidation."
+ fp3_demand_submission_interaction_desc: "Exigez la loyauté [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUINameNoTooltip] sous la forme d’un [hook|El] en usant de piété, ruse ou intimidation."
  DEMAND_SUBMISSION_NOT_SAME_HEAD_OF_FAITH: "Vous n’avez pas le même [head_of_faith|El]"
  DEMAND_SUBMISSION_I_AM_HEAD_OF_FAITH: "Je suis le [recipient.GetFaith.ReligiousHeadName] [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUIName] : $VALUE|=+0$"
  DEMAND_SUBMISSION_SHORT_REIGN: "[short_reign|E] : $VALUE|+0=-+$"

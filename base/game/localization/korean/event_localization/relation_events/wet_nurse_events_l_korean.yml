@@ -302,7 +302,7 @@
  bp2_yearly.7026.c: "$bp2_decision.0002.f$"
  bp2_yearly.7026.c.tt: "$bp2_decision.0002.cooldown$"
  bp2_yearly.7027.t: "$bp2_decision.0002.t$: 정화"
- bp2_yearly.7027.desc: "경건한 모습의 부족 사람들이 물가에 모였다. 신성한 [priest.GetFirstName](이)가 의례용 잔을 들어 올렸다.\n\n\"물방울이 모여 바다가 되었듯, [teentribal.Custom('GirlBoy')](은)는 어른이 될 것이다! 이것이 그 시작이다.\" [priest.GetSheHe|U]는 성수를 머리카락과 피부에 찍어 발랐다.\n\n\"[priest.GetFaith.WaterGodName]의 이름으로, 이 물이 그대를 정화하노라. 동심을 씻어내고 성인의 지혜를 남기는 바이다.\"\n\n의식의 다음 차례가 다가왔다. 신성한 웅덩이가 기다리고 있다."
+ bp2_yearly.7027.desc: "경건한 모습의 부족 사람들이 물가에 모였다. 신성한 [priest.GetFirstName](이)가 의례용 잔을 들어 올렸다.\n\n\"물방울이 모여 바다가 되었듯, [teentribal.Custom('GirlBoy')](은)는 [teentribal.GetWomanMan]이 될 것이다! 이것이 그 시작이다.\" [priest.GetSheHe|U]는 성수를 머리카락과 피부에 찍어 발랐다.\n\n\"[priest.GetFaith.WaterGodName]의 이름으로, 이 물이 그대를 정화하노라. 동심을 씻어내고 성인의 지혜를 남기는 바이다.\"\n\n의식의 다음 차례가 다가왔다. 신성한 웅덩이가 기다리고 있다."
  bp2_yearly.7027.a: "물에 빠질 뻔했다는 것은 물을 잘 안다는 것이다!"
  bp2_yearly.7027.a.tt: "성수로 뛰어드는 순간... 죽음에 가까운 감각을 느낌"
  bp2_yearly.7027.b: "가볍게 담그면 된다."

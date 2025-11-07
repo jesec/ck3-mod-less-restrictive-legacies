@@ -8,7 +8,7 @@
  #Events
  ep3_story_cycle_admin_eunuch.1001.t: "$admin_eunuch_header$ [eunuch.GetFullNameNoTooltip]"
  ep3_story_cycle_admin_eunuch.1001.intro_byz: "수 세기 동안, [Glossary( '환관', 'EUNOUKOS_GLOSS' )]은 [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] 관료제와 궁정에서 고문이자 신뢰할 수 있는 동료로서 일해왔으며, 그날그날의 정치적 갈등 상황에서 중요한 역할을 맡았다."
- ep3_story_cycle_admin_eunuch.1001.intro: "황제에게는 원활한 정부 운영과 궁정의 안전을 보장하기 위해 행정가와 신뢰할 수 있는 하인들이 필요했다. 환관은 [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTootlip]에서 가장 높은 가치를 자랑하는 직종이었다."
+ ep3_story_cycle_admin_eunuch.1001.intro: "봉역에는 원활한 정부 운영과 궁정의 안전을 보장하기 위한 행정가와 신뢰할 수 있는 하인들이 필요했다. 환관은 [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]에서 가장 높은 가치를 자랑하는 직종이었다."
  ep3_story_cycle_admin_eunuch.1001.desc: "\n\n[eunuch.GetFirstName](은)는 빠르게 본인의 계층을 높였다. [eunuch.GetHerHis] 재능과 정직함, 그리고 만사에 대비하는 신중함은 고위층을 통틀어 드물게 칭찬을 받았다."
  ep3_story_cycle_admin_eunuch.1001.arrivals: "\n\n보잘것없는 [origin.GetDeJureLiege.GetAdjective] 가문에서 온 [eunuch.GetHerHis] 친척들이 최근 [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]에 있는 [eunuch.GetHerHim]에게 합류했다..."
  ep3_story_cycle_admin_eunuch.1001.a: "마침 [eunuch.GetHerHim]에게 맞는 일이 있다."

@@ -39,7 +39,7 @@
  yearly.7005.independence_faction: "\n\n« Si je ne peux pas avoir mon propre État, je dois au moins être le héros de ma propre tragédie. »"
  yearly.7005.claimant_faction: "« Vous n’avez aucunement le droit de vous languir au sommet de ce trône. Je préférerais mourir plutôt que de vous voir faire un énième faux décret."
  yearly.7005.populist_faction: "« Cela me peine de ne pouvoir vous accorder une mort plus belle que la douleur atroce de tous ceux qui ont été écrasés sous votre pied. Au moins, ma fin sera celle d’un héros. »"
- yearly.7005.weapon: "\n\n[coup_leader.GetSheHe|U] sort [coup_leader.Custom('FR_Un_signature_weapon')] dissimulée et s’élance."
+ yearly.7005.weapon: "\n\n[coup_leader.GetSheHe|U] sort une dague dissimulée et s’élance."
  yearly.7005.single_death: "Dans un élan redoutable, [coup_leader.Custom('FR_IlElle')] attaque [first_character_kill.Custom('FR_le_Char_Pi')][first_character_kill.GetTitledFirstName]"
  yearly.7005.double_death: "Dans une éruption, [coup_leader.Custom('FR_IlElle')] frappe [first_character_kill.GetTitledFirstName] et [second_character_kill.Custom('FR_le_Char_Pi')][second_character_kill.GetTitledFirstName]"
  yearly.7005.triple_death: "Dans un climat d’horreur, [coup_leader.Custom('FR_IlElle')] s’abat sur [first_character_kill.Custom('FR_le_Char_Pi')][first_character_kill.GetTitledFirstName], [second_character_kill.Custom('FR_le_Char_Pi')][second_character_kill.GetTitledFirstName] et [third_character_kill.Custom('FR_le_Char_Pi')][third_character_kill.GetTitledFirstName]"

@@ -76,7 +76,7 @@
  cabinet_of_curiosities_upgrade_trigger_3_global_not: "[artifact|E]品质分必须为#V 35#!或更高"
  DOMICILE_ARTIFACT_COUNTER_TOOLTIP: "#T [artifact|E]品质分：[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('cabinet_of_curiosities_artifact_score')|V0]#!\n\n普通级宝物（[DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_common').GetValue|V0]）：#P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_common_score')|0]#!\n大师级宝物（[DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_masterwork').GetValue|V0]）：#P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_masterwork_score')|0]#!\n名作级宝物（[DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_famed').GetValue|V0]）：#P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_famed_score')|0]#!\n卓越级宝物（[DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_illustrious').GetValue|V0]）：#P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_illustrious_score')|0]#!\n"
  domicile_building_parameter_can_receive_artifacts: "建筑升级取决于贡献的[artifacts|E]"
- domicile_building_parameter_house_head_can_ask_for_artifacts: "[house_head|E]可以通过$house_head_request_interaction$[interaction|E]索取[artifacts|E]"
+ domicile_building_parameter_house_head_can_ask_for_artifacts: "[house_head|E]可以通过$cabinet_of_curiosities_interaction$[interaction|E]将[artifacts|E]添加到陈列柜"
  grand_solar_01_domicile_building: "乡村壁炉"
  grand_solar_02_domicile_building: "家族起居室"
  grand_solar_03_domicile_building: "家族宽敞专用房"

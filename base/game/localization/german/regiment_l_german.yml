@@ -35,7 +35,7 @@
  REGIMENT_TOUGHNESS_TT: "#T [toughness|E]: [MenAtArmsType.GetStat( GetPlayer, Province.Self, Title.Self, 'toughness' )|1V]#!\n[MenAtArmsType.GetStatDesc( GetPlayer, Province.Self, Title.Self, 'toughness' )]"
  REGIMENT_PURSUIT_TT: "#T [pursuit|E]: [MenAtArmsType.GetStat( GetPlayer, Province.Self, Title.Self, 'pursuit' )|1V]#!\n[MenAtArmsType.GetStatDesc( GetPlayer, Province.Self, Title.Self, 'pursuit' )]"
  REGIMENT_SCREEN_TT: "#T [screen|E]: [MenAtArmsType.GetStat( GetPlayer, Province.Self, Title.Self, 'screen' )|1V]#!\n[MenAtArmsType.GetStatDesc( GetPlayer, Province.Self, Title.Self, 'screen' )]"
- REGIMENT_SIEGE: "#V +[MenAtArmsType.GetStat(GetPlayer, Province.Self, Title.Self, 'siege_value')|1V]#!/Tag"
+ REGIMENT_SIEGE: "#V +[MenAtArmsType.GetStat( GetPlayer, Province.Self, Title.Self, 'siege_value' )|1V]#!/Tag"
  REGIMENT_SIEGE_TT: "#T [siege_progress|E]: [MenAtArmsType.GetStat(GetPlayer, Province.Self, Title.Self, 'siege_value')|1V]/Tag#!\n[MenAtArmsType.GetStatDesc(GetPlayer, Province.Self, Title.Self, 'siege_value')]"
  REGIMENT_PROVINCE_DAMAGE: "[MenAtArmsType.GetProvinceStat(GetPlayer, Province.Self, Title.Self, 'damage')|1=+^]"
  REGIMENT_PROVINCE_TOUGHNESS: "[MenAtArmsType.GetProvinceStat(GetPlayer, Province.Self, Title.Self, 'toughness')|1=+^]"

@@ -141,3 +141,11 @@ dlc_018 = {
 	type = minor
 	priority = 10
 }
+
+dlc_019 = {
+	key = "Crowns of the World"
+	steam_id = "3315500"
+	msgr_id = "9N2Q6NJDG6B5"
+	type = minor
+	priority = 11
+}

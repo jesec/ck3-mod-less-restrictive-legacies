@@ -63,4 +63,4 @@
  ep3_laamps_provisions.1080.c: "Nehmt Kurs auf Land – #EMP sofort#!!"
  ep3_laamps_provisions.1080.c.tt: "Eure [travel|E] wird abgebrochen und nach [landfall.GetBaronyNameExplicitly]“ ([landfall.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetName]) umgeleitet"
  critically_low_provisions_alert: "Kritisch niedrige Vorräte"
- critically_low_provisions_alert_desc: "Eure Vorräte gehen bald zur Neige!"
+ critically_low_provisions_alert_desc: "Eure [provisions|E] gehen bald zur Neige!"

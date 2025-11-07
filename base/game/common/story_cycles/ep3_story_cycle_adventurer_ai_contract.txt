@@ -244,9 +244,12 @@
 						order_by = aptitude:court_physician_court_position
 						save_scope_as = officer
 					}
-					appoint_court_position = {
-						recipient = scope:officer
-						court_position = court_physician_court_position
+					if = {
+						limit = { exists = scope:officer }
+						appoint_court_position = {
+							recipient = scope:officer
+							court_position = court_physician_court_position
+						}
 					}
 				}
 			}
@@ -276,9 +279,12 @@
 						order_by = aptitude:travel_leader_court_position
 						save_scope_as = officer
 					}
-					appoint_court_position = {
-						recipient = scope:officer
-						court_position = travel_leader_court_position
+					if = {
+						limit = { exists = scope:officer }
+						appoint_court_position = {
+							recipient = scope:officer
+							court_position = travel_leader_court_position
+						}
 					}
 				}
 			}
@@ -308,9 +314,12 @@
 						order_by = aptitude:second_camp_officer
 						save_scope_as = officer
 					}
-					appoint_court_position = {
-						recipient = scope:officer
-						court_position = second_camp_officer
+					if = {
+						limit = { exists = scope:officer }
+						appoint_court_position = {
+							recipient = scope:officer
+							court_position = second_camp_officer
+						}
 					}
 				}
 			}
@@ -369,9 +378,12 @@
 							order_by = aptitude:stooge_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = stooge_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = stooge_camp_officer
+							}
 						}
 					}
 				}
@@ -406,9 +418,12 @@
 							order_by = aptitude:bodyguard_court_position
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = bodyguard_court_position
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = bodyguard_court_position
+							}
 						}
 					}
 				}
@@ -438,9 +453,12 @@
 							order_by = aptitude:quartermaster_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = quartermaster_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = quartermaster_camp_officer
+							}
 						}
 					}
 				}
@@ -470,9 +488,12 @@
 							order_by = aptitude:armorer_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = armorer_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = armorer_camp_officer
+							}
 						}
 					}
 				}
@@ -502,9 +523,12 @@
 							order_by = aptitude:chief_forager_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = chief_forager_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = chief_forager_camp_officer
+							}
 						}
 					}
 				}
@@ -534,9 +558,12 @@
 							order_by = aptitude:master_thief_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = master_thief_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = master_thief_camp_officer
+							}
 						}
 					}
 				}
@@ -566,9 +593,12 @@
 							order_by = aptitude:head_porter_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = head_porter_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = head_porter_camp_officer
+							}
 						}
 					}
 				}
@@ -598,9 +628,12 @@
 							order_by = aptitude:head_groom_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = head_groom_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = head_groom_camp_officer
+							}
 						}
 					}
 				}
@@ -630,9 +663,12 @@
 							order_by = aptitude:huntperson_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = huntperson_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = huntperson_camp_officer
+							}
 						}
 					}
 				}
@@ -662,9 +698,12 @@
 							order_by = aptitude:kennelperson_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = kennelperson_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = kennelperson_camp_officer
+							}
 						}
 					}
 				}
@@ -694,9 +733,12 @@
 							order_by = aptitude:chief_engineer_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = chief_engineer_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = chief_engineer_camp_officer
+							}
 						}
 					}
 				}
@@ -726,9 +768,12 @@
 							order_by = aptitude:witness_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = witness_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = witness_camp_officer
+							}
 						}
 					}
 				}
@@ -758,9 +803,12 @@
 							order_by = aptitude:person_haggler_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = person_haggler_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = person_haggler_camp_officer
+							}
 						}
 					}
 				}
@@ -790,9 +838,12 @@
 							order_by = aptitude:camp_cook_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = camp_cook_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = camp_cook_camp_officer
+							}
 						}
 					}
 				}
@@ -822,9 +873,12 @@
 							order_by = aptitude:master_bard_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = master_bard_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = master_bard_camp_officer
+							}
 						}
 					}
 				}
@@ -854,9 +908,12 @@
 							order_by = aptitude:master_of_arms_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = master_of_arms_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = master_of_arms_camp_officer
+							}
 						}
 					}
 				}
@@ -886,9 +943,12 @@
 							order_by = aptitude:light_cavalry_captain_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = light_cavalry_captain_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = light_cavalry_captain_camp_officer
+							}
 						}
 					}
 				}
@@ -918,9 +978,12 @@
 							order_by = aptitude:camelry_captain_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = camelry_captain_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = camelry_captain_camp_officer
+							}
 						}
 					}
 				}
@@ -950,9 +1013,12 @@
 							order_by = aptitude:elephantry_captain_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = elephantry_captain_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = elephantry_captain_camp_officer
+							}
 						}
 					}
 				}
@@ -982,9 +1048,12 @@
 							order_by = aptitude:heavy_cavalry_captain_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = heavy_cavalry_captain_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = heavy_cavalry_captain_camp_officer
+							}
 						}
 					}
 				}
@@ -1014,9 +1083,12 @@
 							order_by = aptitude:horse_archer_captain_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = horse_archer_captain_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = horse_archer_captain_camp_officer
+							}
 						}
 					}
 				}
@@ -1046,9 +1118,12 @@
 							order_by = aptitude:archer_captain_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = archer_captain_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = archer_captain_camp_officer
+							}
 						}
 					}
 				}
@@ -1078,9 +1153,12 @@
 							order_by = aptitude:heavy_infantry_captain_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = heavy_infantry_captain_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = heavy_infantry_captain_camp_officer
+							}
 						}
 					}
 				}
@@ -1110,9 +1188,12 @@
 							order_by = aptitude:light_infantry_captain_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = light_infantry_captain_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = light_infantry_captain_camp_officer
+							}
 						}
 					}
 				}
@@ -1142,9 +1223,12 @@
 							order_by = aptitude:pike_captain_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = pike_captain_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = pike_captain_camp_officer
+							}
 						}
 					}
 				}
@@ -1174,9 +1258,12 @@
 							order_by = aptitude:master_of_spoils_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = master_of_spoils_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = master_of_spoils_camp_officer
+							}
 						}
 					}
 				}
@@ -1206,9 +1293,12 @@
 							order_by = aptitude:laureate_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = laureate_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = laureate_camp_officer
+							}
 						}
 					}
 				}
@@ -1238,9 +1328,12 @@
 							order_by = aptitude:camp_priest_camp_officer
 							save_scope_as = officer
 						}
-						appoint_court_position = {
-							recipient = scope:officer
-							court_position = camp_priest_camp_officer
+						if = {
+							limit = { exists = scope:officer }
+							appoint_court_position = {
+								recipient = scope:officer
+								court_position = camp_priest_camp_officer
+							}
 						}
 					}
 				}

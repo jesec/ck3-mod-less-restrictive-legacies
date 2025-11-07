@@ -8,6 +8,7 @@ is_at_war_with = {
 	global = IS_AT_WAR_WITH_TRIGGER
 	first = I_AM_AT_WAR_WITH_TRIGGER
 	third = THEY_ARE_AT_WAR_WITH_TRIGGER
+	none = NONE_ARE_AT_WAR_WITH_TRIGGER
 }
 
 is_allied_to = {

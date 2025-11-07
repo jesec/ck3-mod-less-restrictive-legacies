@@ -494,7 +494,7 @@
  laamp_join_war_contract_attacker_win: "побеждают"
  laamp_join_war_contract_attacker_lose: "проигрывают"
  laamp_join_war_contract.valid_war: "Война уже закончилась"
- join_war_contract_spawn.t: "Новый [Concept( 'task_contract', 'договор' )|E] «$laamp_join_war_contract_contract$»"
+ join_war_contract_spawn.t: "Новый $game_concept_task_contract$ «$laamp_join_war_contract_contract$»"
  join_war_contract_spawn.desc_attacker: "Разгорается [war.GetName|l]. [attacker.GetShortUIName] [Select_CString(attacker.IsLocalPlayer, 'предлагаете', 'предлагает' )] [Concept( 'task_contract', 'контракт' )|E] всем желающим присоединиться к конфликту с [Select_CString(defender.IsLocalPlayer, '', 'персонажем ' )][defender.GetNamePossessiveOrMy][Select_CString(defender.IsLocalPlayer, 'им персонажем', '' )]."
  join_war_contract_spawn.desc_defender: "Разгорается [war.GetName|l]. [defender.GetShortUIName] [Select_CString(defender.IsLocalPlayer, 'предлагаете', 'предлагает' )] [Concept( 'task_contract', 'контракт' )|E] всем желающим присоединиться к конфликту с [Select_CString(attacker.IsLocalPlayer, '', 'персонажем ' )][attacker.GetNamePossessiveOrMy][Select_CString(attacker.IsLocalPlayer, 'им персонажем', '' )]."
  laamp_raid_contract_request: "$laamp_request_boilerplate_warfare$"

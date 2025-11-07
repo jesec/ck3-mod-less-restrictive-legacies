@@ -39,7 +39,7 @@
  yearly.7005.independence_faction: "\n\n«Если я не могу владеть собственным государством, то, по крайней мере, могу стать героем собственной трагедии»."
  yearly.7005.claimant_faction: "«У вас нет права сидеть на этом троне. Я скорее умру, чем увижу, как вы подписываете новый пустой указ»."
  yearly.7005.populist_faction: "«Клянусь, мне жаль, что я не могу подарить вам смерть, достойную мучений ваших жертв. Но я, по крайней мере, умру, как подобает героям»."
- yearly.7005.weapon: "\n\nОбнажается [coup_leader.Custom('SignatureWeaponNameOrType')]! [coup_leader.GetTitledFirstName] бросается вперед."
+ yearly.7005.weapon: "\n\n[Select_CString(coup_leader.GetHolder.IsFemale, 'Она', 'Он' )] обнажает скрытый кинжал и бросается вперед."
  yearly.7005.single_death: "Выпад — и [first_character_kill.GetTitledFirstName] получает страшный удар,"
  yearly.7005.double_death: "Два выпада — и [first_character_kill.GetTitledFirstName] и [second_character_kill.GetTitledFirstName] получают мощные удары,"
  yearly.7005.triple_death: "Все в ужасе, когда [coup_leader.GetSheHe] наносит сразу три удара. Их жертвами становятся [first_character_kill.GetTitledFirstName], [second_character_kill.GetTitledFirstName] и [third_character_kill.GetTitledFirstName],"

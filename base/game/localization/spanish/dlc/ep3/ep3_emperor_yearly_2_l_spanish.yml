@@ -345,5 +345,5 @@
  ep3_emperor_yearly.2420.t: "La sombra detrás del trono"
  ep3_emperor_yearly.2420.desc: "Las manos de la casa [noble_family_head.GetHouse.GetBaseName], codiciosas y poderosas, se extienden como tentáculos por cada rincón de [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName].\n\nAhora queda claro que ni siquiera quien se sienta en el trono imperial está por encima de ellos; son los verdaderos señores de estas tierras, quienes dominan la vida política y económica del [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip]."
  2420_noble_family_tt: "Nueva familia dominante"
- 2420_noble_family_tt_desc: "La familia [noble_family_head.GetHouse.GetBaseName] ahora se considera la [dominant_family|lE] de [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName|l]."
+ 2420_noble_family_tt_desc: "La familia [noble_family_head.GetHouse.GetBaseName] ahora se considera la [dominant_family|lE] de [noble_family_head.GetTopLiege.GetPrimaryTitle.GetName|l]."
  ep3_emperor_yearly.2420.a: "Noticias preocupantes."

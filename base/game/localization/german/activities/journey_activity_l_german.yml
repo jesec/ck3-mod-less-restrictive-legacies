@@ -36,7 +36,7 @@
  journey_activity_province_desc_special_buildings: "\n#positive_value ++ Sehenswürdigkeit: [ROOT.Province.GetHolding.GetSpecialBuildingType.GetName]#!"
  journey_activity_province_desc_inspection_modifier: "\n#positive_value ++ Geschützte Sehenswürdigkeit#!"
  journey_skill_type_desc: "#bold Ausgewählter [skill|E]: [Activity.Custom('GetChosenJourneySkill')]#!"
- journey_skill_desc: "#weak Chance auf zusätzliche Werterhöhung bei Abschluss: #V [Activity.MakeScope.Var('skill_chance‘).GetValue|0] %#!#!"
+ journey_skill_desc: "#weak Chance auf zusätzliche Werterhöhung bei Abschluss: #V [Activity.MakeScope.Var('skill_chance').GetValue|0] %#!#!"
  choose_on_arrival: "#weak #size:14 Bei Ankunft beschlossen#!#!"
  journey_building_tt: "#T [Activity.GetCurrentPhase.GetLocation.GetHolding.GetSpecialBuildingType.GetNameNoTooltip]#!\n\n[Activity.GetCurrentPhase.GetLocation.GetHolding.GetSpecialBuildingType.GetDescription]"
  apa_child_learns_something_title: "Mein[first.Custom('DE_END_PRO_S_N')] [host.Custom2('RelationToMeShort', SCOPE.sC('first'))|U] [first.GetShortUIName|U] beobachtete eine besondere Gruppe von Menschen ([location.Custom('GetSpecialBuildingPerson')])"

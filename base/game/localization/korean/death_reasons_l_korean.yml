@@ -45,7 +45,7 @@
  death_murder_killer: "[TARGET_CHARACTER.GetUIName]에게 살해되어 사망"
  death_siege: "공성전 도중 사살되어 사망"
  death_duel: "(와)과의 결투에서 사망"
- death_duel_killer: "[TARGET_CHARACTER.GetUIName](와)과의 결투에서 사망"
+ death_duel_killer: "결투에서 [TARGET_CHARACTER.GetUIName]에 의해 사망"
  death_accident: "사고로 인해 사망"
  death_accident_killer: "$death_murder_killer$"
  death_ended_on_feast_table: "연회 도중 생을 마감"

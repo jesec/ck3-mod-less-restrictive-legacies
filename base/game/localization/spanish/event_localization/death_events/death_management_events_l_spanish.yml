@@ -70,7 +70,7 @@
  death_management.1010.over_12_liked_educator: "Me enseñaste tanto, [dead_character.GetFirstName]."
  death_management.1010.over_12_disliked_educator: "La verdad, mejor así."
  death_management.1010.a.tt: "Con la muerte de [dead_character.GetTitledFirstName|l], ya no tienes tutela."
- death_management.educator.desc: "[dead_character.GetTitledFirstName] , educador[dead_character.Custom('ES_XA')] de [ward_of_dead_character.GetTitledFirstName|l], ha muerto."
+ death_management.educator.desc: "Tu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('ward_of_dead_character'))], educador[dead_character.Custom('ES_XA')] [ward_of_dead_character.Custom('ES_DelDela')] [ward_of_dead_character.GetTitledFirstName|l], [dead_character.Custom('ES_ElLa')] [dead_character.GetTitledFirstName|l], [dead_character.GetDeathReasonHideKiller]."
  death_management.2000.t: "Hasta que [prison_holder.GetFirstNameNoTooltip] nos separe"
  death_management.2000.t.root_killer: "Hasta que yo nos separe"
  death_management.2000.t.no_killer: "Destrozados"

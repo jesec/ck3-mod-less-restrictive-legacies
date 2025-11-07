@@ -14,7 +14,7 @@
  court.8190.f: "M[ROOT.Char.Custom2('FR_RelationToMeShort_OnA', SCOPE.sC('family'))] [family.GetFirstNameNoTooltip], est votre patient[family.Custom('FR_E')] prioritaire."
  court.8190.g: "Occupez-vous des plaintes de m[ROOT.Char.Custom2('FR_RelationToMeShort_OnA', SCOPE.sC('house'))] [house.GetFirstNameNoTooltip]."
  employer_booner_court_physician_modifier: "Une attention particulière"
- employer_booner_court_physician_modifier_desc: "Un médecin de la Cour talentueux s’assure constamment de la santé de ce personnage."
+ employer_booner_court_physician_modifier_desc: "Un $court_physician_court_position|l$ talentueux s’assure constamment de la santé de ce personnage."
  #Tutor
  court.8191.t: "Tutelle particulière"
  court.8191.desc: "Mon [GetCourtPositionType('court_tutor_court_position').GetName()|l], [position_holder.Custom('FR_le_Char_Pi')][position_holder.GetTitledFirstName], a un don pour l’enseignement et tient habilement en respect les petits récalcitrants, tandis qu’[position_holder.Custom('FR_IlElle')] régit leur éducation.\n\nBien que son attention se porte sur les enfants de la Cour [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip], l’un d’entre eux pourrait recevoir un tutorat plus approfondi de sa part."

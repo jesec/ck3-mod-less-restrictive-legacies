@@ -1,5 +1,6 @@
 ﻿l_german:
  ACTIVITY_LIST: "Aktivitäten"
+ ACTIVITY_LIST_GROUP_HEADER: "$NAME$ #weak ($SIZE$)#!"
  ACTIVITY_LIST_NO_ONGOING_ACTIVITY: "#weak Ihr habt keine laufenden [activities|E]\nIhr könnt eine [activity|E] veranstalten[AddTextIf(HasDlcFeature('advanced_activities'), ' oder an einer teilnehmen')]#!"
  ACTIVITY_CURRENT_HEADER: "Derzeitige [activity|E]"
  ACTIVITY_LIST_INVOLVED_ACTIVITY: "Ihr [Concept('activity_attending', 'nehmt teil')|E] an einer Aktivität ([Activity.GetName])"
@@ -22,7 +23,7 @@
  ACTIVITY_BASE_COST: "Durchschnittskosten: [ActivityType.GetUiPredictedCost(GetPlayer)|U]"
  ACTIVITY_BASE_COST_TT: "#T Durchschnittskosten#!\n[ActivityType.GetLocalizedText('predicted_cost')]"
  ACTIVITY_JOIN_ALREADY_STARTED: "@warning_icon! #X [Activity.GetName] ist bereits in Gang#!"
- SHOW_ACTIVITY_TOOLTIP: "#T [ActivityType.GetNameNoTooltip]#!\n[JoinText('\n', ActivityType.GetCanStartActivityTooltip(GetPlayer), ActivityType.GetLocalizedText('selection_tooltip'))]\n\n#I Zum Auswählen klicken#!"
+ SHOW_ACTIVITY_TOOLTIP: "#T [ActivityType.GetNameNoTooltip]#!\n[JoinText('\n', ActivityType.GetCanPlanActivityTooltip(GetPlayer), ActivityType.GetLocalizedText('selection_tooltip'))]\n\n#I Zum Auswählen klicken#!"
  JOIN_ACTIVITY_TOOLTIP: "#T [Activity.GetNameNoTooltip]#!\n\n#I Zum Auswählen klicken#!"
  ACTIVITY_LIST_DETAIL_HOST_TITLE: "[ActivityType.GetLocalizedText('host_an_a')|U] [ActivityType.GetNameNoTooltip] ausrichten" #We added the an/a for English readability, doesn't necessarily need a translation to other languages
  ACTIVITY_LIST_DETAIL_DESC: "[ActivityType.GetDescription]"

@@ -8,7 +8,7 @@
  #Events
  ep3_story_cycle_admin_eunuch.1001.t: "$admin_eunuch_header$[eunuch.GetFullNameNoTooltip]"
  ep3_story_cycle_admin_eunuch.1001.intro_byz: "几个世纪以来，[Glossary( '阉人', 'EUNOUKOS_GLOSS' )]在[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]的官僚机构和宫廷中担任顾问和心腹，在当时的政治斗争中扮演着重要角色。"
- ep3_story_cycle_admin_eunuch.1001.intro: "皇家总是需要行政官员和可信赖的仆人来确保政府运行顺畅和宫殿的安全，阉人是[ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTootlip]中最有价值的人之一。"
+ ep3_story_cycle_admin_eunuch.1001.intro: "国家总是需要行政官员和可信赖的仆人来确保政府运行顺畅和宫殿的安全，阉人是[ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]中最有价值的人之一。"
  ep3_story_cycle_admin_eunuch.1001.desc: "\n\n[eunuch.GetFirstName]在等级制度中迅速爬高，[eunuch.GetHerHis]在各方面的才能、正直和谨慎得到了宫廷各阶层的普遍赞扬。"
  ep3_story_cycle_admin_eunuch.1001.arrivals: "\n\n[eunuch.GetHerHis]来自一个低贱的[origin.GetDeJureLiege.GetAdjective]家庭，其亲属最近也加入了[eunuch.GetHerHim]，来到了[ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]……"
  ep3_story_cycle_admin_eunuch.1001.a: "我正好有份工作适合[eunuch.GetHerHim]。"

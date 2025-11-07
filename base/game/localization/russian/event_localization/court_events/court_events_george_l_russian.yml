@@ -11,7 +11,7 @@
  court.7030.d.tt: "[foreign_merchant.GetFirstNameNoTooltip] будет [Select_CString(foreign_merchant.IsFemale, 'изгнана', 'изгнан' )] из державы, а золото, полученное [Select_CString(foreign_merchant.IsFemale, 'ею', 'им' )] от наших торговцев, будет отнято!"
  ### Court Event 7040
  court.7040.title: "Столп общества"
- court.7040.desc: "Я вижу, что [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] нервно мечется по комнате.\n\n«[chaplain.GetName], в чем дело?» — спрашиваю я.\n\n«Это все [ascetic.GetName], [ascetic.GetSheHe] каждое утро взбирается на столб во дворе, сидит там весь день и молча медитирует, отказывается от еды и питья и почти не отвечает на расспросы. Подобная аскеза не редкость, но кое-кого из придворных это раздражает, и они попросили меня о помощи»."
+ court.7040.desc: "Я вижу, что [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] нервно мечется по комнате.\n\n«[chaplain.GetName], в чем дело?» — спрашиваю я.\n\n«Это все [ascetic.GetName]. [Select_CString(ascetic.IsFemale, 'Она', 'Он')] каждое утро взбирается на столб во дворе и сидит там весь день, медитируя в тишине. Отказывается от еды и питья, почти не отвечает на расспросы… Подобная аскеза не редкость, но кое-кого из придворных это раздражает. Меня попросили о помощи»."
  court.7040.a: "Просто игнорируйте [ascetic.GetHerHis], рано или поздно [ascetic.GetHerHim] это надоест."
  court.7040.b: "Пусть [head_of_faith.GetTitledFirstName] пообщается с [Select_CString(ascetic.IsFemale, 'ней', 'ним' )], посмотрим, что [head_of_faith.GetSheHe] скажет."
  court.7040.c: "[ascetic.GetName] вдохновляет своим благочестием, мне стоит последовать [ascetic.GetHerHis] примеру!"

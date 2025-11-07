@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
  glory_hound: "追名逐利"
- glory_hound_desc: "$glory_hound$[vassals|E]在意地位和威望，以及向世界展示领地的力量。大胆或无情的封臣经常选择这种[vassal_stance|E]。\n\n#low $glory_hound$封臣喜欢领主：#!\n$EFFECT_LIST_BULLET$拥有任意分割制[succession_law|E]\n$EFFECT_LIST_BULLET$在进攻性[wars|E]中获得[victory|E]\n$EFFECT_LIST_BULLET$邀请他们参加[GetActivityType('activity_hunt').GetName][activities|E]\n\n#low $glory_hound$封臣不喜欢领主：#!\n$EFFECT_LIST_BULLET$拥有高[crown_authority|E]\n$EFFECT_LIST_BULLET$在战争中[defeat|E]或[white_peace|E]\n$EFFECT_LIST_BULLET$与[lowborn|E]角色[marries|E]\n\n\n他们更喜欢拥有高[martial_i][martial|E]能力的胆大和勇敢的[heirs|E]。"
+ glory_hound_desc: "$glory_hound$[vassals|E]在意地位和威望，以及向世界展示领地的力量。大胆或无情的封臣经常选择这种[vassal_stance|E]。\n\n#low $glory_hound$封臣喜欢领主：#!\n$EFFECT_LIST_BULLET$拥有任意分割制[succession_law|E]\n$EFFECT_LIST_BULLET$在进攻性[wars|E]中获得[victory|E]\n$EFFECT_LIST_BULLET$邀请他们参加[GetActivityType('activity_hunt').GetName][activities|E]\n\n#low $glory_hound$封臣不喜欢领主：#!\n$EFFECT_LIST_BULLET$拥有高[crown_authority|E]\n$EFFECT_LIST_BULLET$在战争中[defeat|E]或[white_peace|E]\n$EFFECT_LIST_BULLET$与[lowborn|E]角色[marries|E]并使其成为[primary_spouse|E]\n\n他们更喜欢拥有高[martial_i][martial|E]能力的胆大和勇敢的[heirs|E]。"
  glory_hound_filter_option: "$glory_hound$"
  glory_hound_filter_option_desc: "仅显示[GetVassalStance( 'glory_hound' ).GetName][vassal_stance|E]的角色"
  glory_hound_vassal: "[GetVassalStance( 'glory_hound' ).GetTextIcon][GetVassalStance( 'glory_hound' ).GetName][vassal|E]"
@@ -15,7 +15,7 @@
  glory_hound_levy_contribution_add: "$glory_hound_vassal$[levy|E][modifier_base_contribution|E]"
  glory_hound_levy_contribution_mult: "$glory_hound_vassal$[levy|E][modifier_contribution|E]"
  courtly: "宫廷礼制"
- courtly_desc: "$courtly$[vassals|E]相信出身与传统，希望维持现有的等级制度。社交型或富有同情心的封臣经常选择这种[vassal_stance|E]。\n\n#low $courtly$封臣喜欢领主：#!\n$EFFECT_LIST_BULLET$授予他们[court_positions|E]\n$EFFECT_LIST_BULLET$创建新[titles|E]\n$EFFECT_LIST_BULLET$邀请他们参加[GetActivityType('activity_feast').GetName][activities|E]\n\n#low $courtly$封臣不喜欢领主：#!\n$EFFECT_LIST_BULLET$将[titles|E]授予[lowborn|E]的角色\n$EFFECT_LIST_BULLET$与[lowborn|E]的角色[marries|E]\n$EFFECT_LIST_BULLET$对无争议的[heirs|E]使用[disinherits|E]\n\n他们更喜欢拥有[diplomacy_i][diplomacy|E]能力的社交型和富有同情心的[heirs|E]。"
+ courtly_desc: "$courtly$[vassals|E]相信出身与传统，希望维持现有的等级制度。社交型或富有同情心的封臣经常选择这种[vassal_stance|E]。\n\n#low $courtly$封臣喜欢领主：#!\n$EFFECT_LIST_BULLET$授予他们[court_positions|E]\n$EFFECT_LIST_BULLET$创建新[titles|E]\n$EFFECT_LIST_BULLET$邀请他们参加[GetActivityType('activity_feast').GetName][activities|E]\n\n#low $courtly$封臣不喜欢领主：#!\n$EFFECT_LIST_BULLET$将[titles|E]授予[lowborn|E]的角色\n$EFFECT_LIST_BULLET$与[lowborn|E]的角色[marries|E]并使其成为[primary_spouse|E]\n$EFFECT_LIST_BULLET$对无争议的[heirs|E]使用[disinherits|E]\n\n他们更喜欢拥有[diplomacy_i][diplomacy|E]能力的社交型和富有同情心的[heirs|E]。"
  courtly_filter_option: "$courtly$"
  courtly_filter_option_desc: "仅显示[GetVassalStance( 'courtly' ).GetName][vassal_stance|E]的角色"
  courtly_vassal: "[GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName][vassal|E]"

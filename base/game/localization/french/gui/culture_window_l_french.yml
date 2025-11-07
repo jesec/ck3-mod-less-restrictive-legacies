@@ -86,7 +86,7 @@
  CULTURAL_ACCEPTANCE_GAINS: "Gain annuel"
  CULTURAL_ACCEPTANCE_LOSSES: "Perte annuelle"
  CULTURAL_ACCEPTANCE_BASELINE: "[Concept( 'cultural_acceptance_baseline', 'Valeur de base de l’acceptation' )|E]"
- CULTURE_PILLAR_GENERAL_TOOLTIP: "[CulturePillar.GetEffectDescription( Culture.Self )]\n\n[CulturePillar.GetDescription( Culture.Self )|F]"
+ CULTURE_PILLAR_GENERAL_TOOLTIP: "[CulturePillar.GetEffectDescription( Culture.Self )][AddLocalizationIf( CulturePillar.HasEffectDescription( Culture.Self ), '\n\n' )][CulturePillar.GetDescription( Culture.Self )|F]"
  CULTURE_PILLAR_TOOLTIP_HERITAGE_EFFECT: "#P +20#! de [cultural_acceptance_baseline|El] avec des cultures qui partagent ce patrimoine"
  CULTURE_PILLAR_TOOLTIP_HERITAGE_SAME: "Votre patrimoine"
  CULTURE_PILLAR_TOOLTIP_HERITAGE_DIFF: "Patrimoine différent de votre [culture|El]"

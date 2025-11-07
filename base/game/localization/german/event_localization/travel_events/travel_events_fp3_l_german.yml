@@ -96,7 +96,7 @@
  travel_events_fp3.0040.e: "Lasst uns [Select_CString(fp3_turkic_traveler.IsFemale, 'diese Frau', 'diesen Mann')] anheuern, [fp3_turkic_traveler.Custom('DE_ART_DEF_S_N')] uns [fp3_turkic_traveler.Custom('DE_PRO_POS_S_3P')]e Sitten lehren kann."
  ### Tomb Raiders
  travel_events_fp3.0050.t: "Grabräuber"
- travel_events_fp3.0050.desc.intro: "Als wir um eine Biegung des Weges kommen, stoßen wir auf eine Gruppe staubbedeckter Menschen, die aus einem ehedem beeindruckenden Grabmal hervortreten.\nSie schleppen Jutesäcke, die klimpern und klirren, beschwert mit den Schmuckstücken, die sie aus dem alten Gebäude ausgegraben haben.\n\n„Die Zeiten sind hart, [ROOT.Char.GetTitleAsNameNoTooltip]! Unsere Familien müssen essen, und wir tun niemandem unter den Lebenden etwas zuleide.“\n\n[Select_CString(fp3_tomb_raider.IsFemale, 'Ihre Anführerin', 'Ihr Anführer')] blickt etwas ängstlich zu uns auf, da [fp3_tomb_raider.Custom('DE_PRO_PER_S_3P_N')] begreift, dass die Lage nicht gut für sie aussieht."
+ travel_events_fp3.0050.desc.intro: "Als wir um eine Biegung des Weges kommen, stoßen wir auf eine Gruppe staubbedeckter Menschen, die aus einem ehedem beeindruckenden Grabmal hervortreten. Sie schleppen Jutesäcke, die klimpern und klirren, beschwert mit den Schmuckstücken, die sie aus dem alten Gebäude ausgegraben haben.\n\n„Die Zeiten sind hart, mächtig[ROOT.Char.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip]! Unsere Familien müssen essen, und wir tun niemandem unter den Lebenden etwas zuleide.“"
  travel_events_fp3.0050.a: "Es gibt keine Zukunft für diejenigen, die die Vergangenheit missachten."
  travel_events_fp3.0050.b: "[ROOT.Char.Custom('DE_ART_DEF_S_N')|U] [ROOT.Char.GetTitleAsNameNoTooltip] verdient [ROOT.Char.Custom('DE_PRO_POS_S_3P')]en Anteil!"
  travel_events_fp3.0050.b.entourage: "[Select_CString(entourage_helper.IsFemale, 'Eure Reisebegleiterin', 'Euer Reisebegleiter')] [entourage_helper.GetName] hilft Euch, die Beute zu untersuchen."
@@ -104,4 +104,4 @@
  travel_events_fp3.0050.b.success.tooltip: "Ihr erwerbt einen alten Schatz"
  travel_events_fp3.0050.b.failure.desc: "Nichts Besonderes sticht Euch ins Auge"
  travel_events_fp3.0050.b.failure.t: "Ihr habt einige wertvolle Schmuckstücke"
- travel_events_fp3.0050.c: "Sie sind verzweifelt. Ich werde sie entschädigen, damit sie die Beute zurückzugeben."
+ travel_events_fp3.0050.c: "„Ich habe keine Zeit für Bauern.“"

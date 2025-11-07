@@ -133,11 +133,11 @@
  #Appointment Succession Law
  appointment_succession_law: "Sukcesja powołania"
  appointment_succession_law_subname: "Dziedziczy kandydat z najwyższym wynikiem"
- appointment_succession_law_effects: "#V Zgodnie z prawem „$appointment_succession_law$” [title|El] i przysługujące posiadającej go osobie [holdings|El] są dziedziczone przez kandydata o najwyższym wyniku. Każda [adult|El] w [Concept('realm', 'państwie')|E] może starać się o [governorship|El] na rozmaite sposoby – poczynając od [Concept('scheming', 'spiskowania')|E], a kończąc na dysponowaniu [Concept('influence', 'wpływem')|E].#!"
+ appointment_succession_law_effects: "Zgodnie z prawem „$appointment_succession_law$” [title|El] i związane z nim [holdings|El] są dziedziczone przez osobę o najwyższym [Concept('candidate_score', 'wyniku kandydata')|E]. Każda [adult|El] w [Concept('realm', 'państwie')|E] może starać się o [governorship|El] na rozmaite sposoby – poczynając od [Concept('scheming', 'spiskowania')|E], a kończąc na dysponowaniu [Concept('influence', 'wpływem')|E]."
  #Acclamation Succession Law (Byzantium, EP3)
  acclamation_succession_law: "Sukcesja aklamacji"
  acclamation_succession_law_subname: "$appointment_succession_law_subname$"
- acclamation_succession_law_effects: "\n#V Zgodnie z prawem „$acclamation_succession_law$” [title|El] [empire|El] i przysługujące posiadającej go osobie [holdings|El] są dziedziczone przez kandydata o najwyższym wyniku. Pula kandydatów obejmuje ograniczoną grupę mieszkańców państwa: należą do niej [noble_families|El], [governors|El] i członkowie ich rodzin.\n#!"
+ acclamation_succession_law_effects: "Zgodnie z prawem „$acclamation_succession_law$” [title|El] [empire|El] i związane z nim [holdings|El] są dziedziczone przez osobę o najwyższym [Concept('candidate_score', 'wyniku kandydata')|E]. Pula kandydatów obejmuje ograniczoną grupę mieszkańców państwa: należą do niej [noble_families|El] oraz [governors|El] i członkowie ich rodzin."
  #Descs used in calculating the candidate scores
  sum_of_skills_desc: "[skills|E]"
  infant_candidate_desc: "Niemowlę"
@@ -198,6 +198,7 @@
  appointment_female_preference_desc: "[GetLaw('female_preference_law').GetName] #weak (-[EmptyScope.ScriptValue('appointment_non_preferred_gender_penalty_value')|0%])#!"
  appointment_female_only_desc: "[GetLaw('female_only_law').GetName] #weak (-[EmptyScope.ScriptValue('appointment_opposite_gender_penalty_value')|0%])#!"
  appointment_is_top_liege: "To [ROOT.Char.GetTitleAsName]"
+ popular_opinion_in_capital_desc: "[county_opinion|E] w miejscu znanym jako [ROOT.Char.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]"
  landless_adventurer_succession_law: "Sukcesja obozu"
  landless_adventurer_succession_law_subname: "Dziedziczy najstarsze dziecko"
  landless_adventurer_succession_law_effects: "#high Zgodnie z prawem „$landless_adventurer_succession_law$” [title|El] obozowy jest dziedziczony przez twoje najstarsze [child|El] (lub drugiego w kolejności najbliższego krewnego). Taki spadkobierca musi być jednocześnie twoim [Concept('courtiers', 'dworzaninem')|E] bez jakichkolwiek [Concept('titles', 'tytułów')|E]. W przypadku braku takich postaci spadkobiercą zostaje [follower|El] o największej [Concept('prowess', 'waleczności')|E].#!"

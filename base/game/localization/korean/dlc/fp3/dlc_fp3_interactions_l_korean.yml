@@ -48,7 +48,7 @@
  fp3_antagonize_character_interaction.recipient_message.15: "[secondary_recipient.GetTitledFirstName](은)는 훌륭한 인물이오. [secondary_recipient.GetHerHim]를 향한 생각을 바꿀 생각은 없소?"
  fp3_persian_struggle_previously_swayed_tt: "이전 [persian_struggle|E] 기간에 환심을 삼: $VALUE|=+0$"
  fp3_demand_submission_interaction: "복종 요구"
- fp3_demand_submission_interaction_desc: "신앙이나 간계, 협박을 통해 [recipient.GetShortUINamePossessiveNoTooltip] 충성을 요구합니다."
+ fp3_demand_submission_interaction_desc: "신앙, 간계, 또는 협박을 사용해서 [recipient.GetShortUINamePossessiveNoTooltip] 충성심을 [hook|E]의 형태로 요구합니다."
  DEMAND_SUBMISSION_NOT_SAME_HEAD_OF_FAITH: "[head_of_faith|E]가 같지 않음"
  DEMAND_SUBMISSION_I_AM_HEAD_OF_FAITH: "내가 [recipient.GetShortUINamePossessive|U] [recipient.GetFaith.ReligiousHeadName|U]임: $VALUE|=+0$"
  DEMAND_SUBMISSION_SHORT_REIGN: "[short_reign|E]: $VALUE|+0=-+$"

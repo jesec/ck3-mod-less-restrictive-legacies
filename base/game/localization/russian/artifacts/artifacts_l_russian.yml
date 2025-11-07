@@ -767,8 +767,8 @@
  #travel_events.4005
  maritime_trading_handbook: "Справочник морской торговли"
  maritime_trading_handbook_description: "Умело написанный справочник о природе [merchant_character_scope.GetCulture.GetCollectiveNoun|l]ой морской торговли."
- own_holy_text_mid: "[ROOT.Char.GetFaith.ReligiousText|U] с самоцветами"
- own_holy_text_mid_description: "[ROOT.Char.GetFaith.ReligiousText|U] с отделкой из драгоценных камней."
+ own_holy_text_mid: "[root_scope.GetFaith.ReligiousText|U] с самоцветами"
+ own_holy_text_mid_description: "[root_scope.GetFaith.ReligiousText|U] с отделкой из драгоценных камней."
  merchants_holy_text_mid: "[merchant_character_scope.GetFaith.ReligiousText|U] с самоцветами"
  merchants_holy_text_mid_description: "[merchant_character_scope.GetFaith.ReligiousText|U] с отделкой из драгоценных камней."
  merchants_sword: "#L [merchant_character_scope.GetCulture.GetCollectiveNoun]ий#! меч"
