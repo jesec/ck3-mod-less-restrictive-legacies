@@ -277,7 +277,8 @@
  death_management.no_killer: "[dead_character.GetSheHe|U] [Select_CString(dead_character.IsFemale, 'погибла', 'погиб' )] от случайной стрелы в яростной стычке#!»."
  #Spouse
  death_management.1200.t: "Гибель [Select_CString(dead_character.IsFemale, 'супруги', 'супруга' )]"
- death_management.1200.desc: "\n\nНельзя было отпускать [dead_character.GetHerHis|l]! Только не так…"
+ death_management.1200.desc_sad: "\n\nНельзя было отпускать [Select_CString(dead_character.IsFemale, 'ее', 'его' )]! Только не так…"
+ death_management.1200.desc_happy: "\n\nНаконец-то [Select_CString(dead_character.IsFemale, 'эта', 'этот' )] [dead_character.Custom('InsultNoun')|l] [Select_CString(dead_character.IsFemale, 'сдохла', 'сдох' )]!"
  death_management.1200.a: "[battle_death_killer.GetFirstNameNoTooltip] — труп! Я убью [battle_death_killer.GetHerHis|l] собственными руками!"
  death_management.1200.b: "Я никогда тебя не забуду…"
  death_management.1200.c: "Ты [Select_CString(dead_character.IsFemale, 'доказала', 'доказал' )] свою храбрость, любовь моя…"

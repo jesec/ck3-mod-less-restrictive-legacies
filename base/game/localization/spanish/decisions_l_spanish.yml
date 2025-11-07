@@ -1111,7 +1111,7 @@
  clear_ground_for_legendary_building_tooltip: "Desbloquea una casilla de [special_building|lE] en una de tus provincias"
  clear_ground_for_legendary_building_desc: "La leyenda está terminada y mi pueblo inspirado. Mis tierras están preparadas para un nuevo monumento a mi leyenda, pero ¿qué debería construir exactamente?"
  clear_ground_for_legendary_building_confirm: "Despejar el terreno"
- clear_ground_legendary_hunting_lodge_tt: "Debes haber terminado una [legend|lE] mítica o ilustre"
+ clear_ground_legendary_hunting_lodge_tt: "Debes haber terminado una [legend|lE] mítica o ilustre sobre una bestia o tener #V 50#! de experiencia en el [trait|lE] [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )|l], o la [tradition|lE] [GetCultureTradition('tradition_hunters').GetName] o [GetCultureTradition('tradition_ep2_avid_falconers').GetName]"
  clear_ground_legendary_watchtower_tt: "Debes haber terminado una [legend|lE] mítica o ilustre teniendo un [dynasty_perk|lE] [GetDynastyPerk('ce1_legitimacy_legacy_5').GetName|l]"
  clear_ground_legendary_shrine_tt: "Debes haber terminado una [legend|lE] sagrada mítica o ilustre"
  clear_ground_legendary_statue_tt: "Debes haber terminado una [legend|lE] legitimadora mítica o ilustre"

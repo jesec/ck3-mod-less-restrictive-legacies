@@ -648,7 +648,7 @@ corineus = {
 }
 
 scota = { # Scots claiming ancestry from Ancient Egypt
-	type = heroic
+	type = legitimizing
 	quality = famed
 	is_shown = {
 		has_dlc_feature = legends
@@ -700,7 +700,7 @@ pyusawhti = { # Burmese legend claiming ancestry from a dragon goddess
 }
 
 menelik_i = { # Supposed son of Solomon and the Queen of Sheba
-	type = holy
+	type = legitimizing
 	quality = famed
 	is_shown = {
 		has_dlc_feature = legends

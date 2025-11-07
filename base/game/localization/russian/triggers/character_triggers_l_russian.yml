@@ -609,7 +609,7 @@
  IS_NOT_TARGET_CHARACTERS_CONSORT: "#bold Не#! [Select_CString(TARGET_CHARACTER.IsFemale, 'супруг', 'супруга' )] или наложница [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
  I_AM_NOT_TARGET_CHARACTERS_CONSORT: "Вы #bold не#! супруга и не наложница персонажа [TARGET_CHARACTER.GetShortUINamePossessive]"
  CHARACTER_IS_NOT_TARGET_CHARACTERS_CONSORT: "[CHARACTER.GetShortUIName|U] — #bold не#! [Select_CString(TARGET_CHARACTER.IsFemale, 'супруг', 'супруга' )] и не наложница [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
- CHARACTER_INTERACTION_ALREADY_CONSIDERING_CONVERSION: "[CHARACTER.GetUIName] уже раздумывает над сменой своей [faiths|El] "
+ CHARACTER_INTERACTION_ALREADY_CONSIDERING_CONVERSION: "[CHARACTER.GetUIName|U] уже [Select_CString(CHARACTER.IsLocalPlayer, 'раздумываете', 'раздумывает' )] над сменой своей [faiths|El]"
  NOT_WITHIN_REALM_TO_TITLE_DISTANCE_SQUARED: "Не находится на расстоянии $NUM|V0$ #weak ($CURRENT_VALUE$)#!"
  DEATH_REASON_TRIGGER: "Причина смерти: $DEATH_REASON$"
  I_DEATH_REASON_TRIGGER: "Причина вашей смерти: $DEATH_REASON$"

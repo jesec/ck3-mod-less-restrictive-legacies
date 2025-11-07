@@ -1596,6 +1596,7 @@ monthly_county_control_decline_add = {
 }
 
 monthly_county_control_decline_factor = {
+	color = bad
 	prefix = MOD_CONTROL_PREFIX
 	decimals = 0
 	percent = yes
@@ -1607,6 +1608,7 @@ monthly_county_control_decline_add_even_if_baron = {
 }
 
 monthly_county_control_decline_factor_even_if_baron = {
+	color = bad
 	prefix = MOD_CONTROL_PREFIX
 	decimals = 0
 	percent = yes
@@ -1619,6 +1621,7 @@ monthly_county_control_decline_at_war_add = {
 }
 
 monthly_county_control_decline_at_war_factor = {
+	color = bad
 	prefix = MOD_CONTROL_PREFIX
 	decimals = 0
 	percent = yes

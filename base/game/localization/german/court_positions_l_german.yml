@@ -134,7 +134,7 @@
  physician_attend_poor: "Wohltätigkeit verbreiten"
  physician_attend_poor_desc: "Dieser Charakter wurde beauftragt, sich um die Armen kümmern und so die [piety|E] des eigenen [Concept('liege', 'Lehnsherrn')|E] zu verbessern."
  chronicler_promote_legend_realm: "Heimische Legende preisen"
- chronicler_promote_legend_realm_desc: "Dieser Charakter wurde beauftragt, die Verbreitung der [legend|E] des eigenen [Concept('liege', 'Lehnsherrn')|E] im Reich zu stärken."
+ chronicler_promote_legend_realm_desc: "Dieser Charakter wurde beauftragt, die [legend|E] des eigenen [Concept('liege', 'Lehnsherrn')|E] zu preisen und damit stärker zu verbreiten."
  culture_era_late_medieval_salary_mod: "#V $culture_era_late_medieval$#!-[era|E]"
  culture_era_high_medieval_salary_mod: "#V $culture_era_high_medieval$#!-[era|E]"
  culture_era_early_medieval_salary_mod: "#V $culture_era_early_medieval$#!-[era|E]"

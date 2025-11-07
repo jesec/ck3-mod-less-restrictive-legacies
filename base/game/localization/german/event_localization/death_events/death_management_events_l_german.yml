@@ -277,7 +277,8 @@
  death_management.no_killer: "[dead_character.Custom('DE_PRO_PER_S_3P_N')|U] wurde bei einem wilden Gefecht von einem verirrten Pfeil getroffen.‘#!"
  #Spouse
  death_management.1200.t: "Gefallene Konkubine"
- death_management.1200.desc: "\n\nIch hätte [dead_character.Custom('DE_PRO_PER_S_3P_A')] nicht gehen lassen sollen … Nicht so …"
+ death_management.1200.desc_sad: "\n\nIch hätte [dead_character.Custom('DE_PRO_PER_S_3P_A')] nicht gehen lassen sollen … Nicht so …"
+ death_management.1200.desc_happy: "\n\nEndlich ist dieses Scheusal tot!"
  death_management.1200.a: "[battle_death_killer.GetFirstNameNoTooltip] ist [battle_death_killer.Custom('DE_ART_IND_N')] tot[battle_death_killer.Custom('DE_END_ADJ_IND_S_N')] [dead_character.GetWomanMan]! Tot!"
  death_management.1200.b: "Ich werde Euch niemals vergessen …"
  death_management.1200.c: "Ihr habt Eure Tapferkeit bewiesen, mein Liebling …"

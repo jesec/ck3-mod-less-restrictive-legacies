@@ -1314,11 +1314,21 @@ legendary_adventure = {
 			scope:attacker = { add_gold = varangian_adventures_bounty_amount_value }
 			# Finally, general cleanup.
 			## Move any remaining newly-landless family to scope:attacker's court.
+			scope:attacker = {
+			#gather all your cool dudes
+				every_courtier = {
+					limit = {
+						is_ai = yes
+					}
+					add_to_list = vassal_family_not_processed_list
+				}
+			}
 			every_in_list = {
 				list = vassal_family_not_processed_list
 				limit = { is_ruler = no }
 				save_temporary_scope_as = landless_family
 				scope:attacker = { add_courtier = scope:landless_family }
+				set_location = scope:attacker.capital_province
 			}
 			## If scope:attacker wasn't the house head, they found a new house. We ignore their probable-tribalism.
 			if = {

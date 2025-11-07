@@ -277,7 +277,8 @@
  death_management.no_killer: "[dead_character.GetSheHe|U] recibió una flecha perdida durante una escaramuza feroz».#!"
  #Spouse
  death_management.1200.t: "Consorte caído"
- death_management.1200.desc: "\n\nNo debería haber dejado que se fuera… Así no…"
+ death_management.1200.desc_sad: "\n\nNo debería haber dejado que se fuera… Así no…"
+ death_management.1200.desc_happy: "\n\n¡Por fin, esa especie de [dead_character.Custom('InsultNoun')] ha muerto!"
  death_management.1200.a: "¡[battle_death_killer.GetFirstNameNoTooltip] es [dead_character.GetWomanMan] muert[battle_death_killer.Custom('ES_OA')]! ¡Muert[battle_death_killer.Custom('ES_OA')]!"
  death_management.1200.b: "Jamás te olvidaré…"
  death_management.1200.c: "Demostraste tu valor, amor mío…"

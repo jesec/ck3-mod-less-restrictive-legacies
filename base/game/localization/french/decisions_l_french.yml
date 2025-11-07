@@ -1111,7 +1111,7 @@
  clear_ground_for_legendary_building_tooltip: "Débloque un emplacement de [special_building|El] dans une de vos provinces"
  clear_ground_for_legendary_building_desc: "La légende est complète et inspire mon peuple. Mes terres sont mûres pour un nouveau monument dédié à ma légende, mais que faut-il construire exactement ?"
  clear_ground_for_legendary_building_confirm: "Dégager un terrain"
- clear_ground_legendary_hunting_lodge_tt: "Vous devez avoir terminé une [legend|El] mythique ou illustre"
+ clear_ground_legendary_hunting_lodge_tt: "Vous devez avoir terminé une [legend|El] mythique ou illustre à propos d’une bête, avoir #V 50#! d’expérience pour le [trait|El] de [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )|l] ou bien avoir comme [tradition|El] [GetCultureTradition('tradition_hunters').GetName|l] ou [GetCultureTradition('tradition_ep2_avid_falconers').GetName|l]"
  clear_ground_legendary_watchtower_tt: "Vous devez avoir terminé une [legend|El] mythique ou illustre en ayant l’[dynasty_perk|El] [GetDynastyPerk('ce1_legitimacy_legacy_5').GetName]"
  clear_ground_legendary_shrine_tt: "Vous devez avoir terminé une sainte [legend|El] mythique ou illustre"
  clear_ground_legendary_statue_tt: "Vous devez avoir terminé une [legend|El] légitimatrice mythique ou illustre"

@@ -911,6 +911,7 @@
  host_dinner_events.3100.vassal_accepts: "[stop_host_scope.GetFirstName] nimmt an"
  host_dinner_events.3100.vassal_refuses: "[stop_host_scope.GetFirstName] lehnt ab"
  host_dinner_events.1009.enjoyed_weed: "[visiting_liege.GetName] gefiel das Haschisch"
+ host_dinner_events.1009.didnt_enjoy_weed: "[visiting_liege.GetName|U] mochte das Haschisch"
  host_dinner_events.3020.won_drinking_duel: "Ihr habt den Trinkwettbewerb gewonnen"
  host_dinner_events.3020.lost_drinking_duel: "Ihr habt den Trinkwettbewerb verloren"
  host_dinner_events.1007.enjoyed_performance: "[visiting_liege.GetFirstName] gefiel der Auftritt"

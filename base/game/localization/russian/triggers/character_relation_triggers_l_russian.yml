@@ -39,7 +39,7 @@
  HAS_RELATION_VICTIM_BY_TARGET: "Подвергается издевкам [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
  NUM_OF_RELATION_LOVER_TRIGGER: "Количество любовников $COMPARATOR$ $NUM|V0$"
  HAS_RELATION_RIVAL_WITH_TARGET: "Вражда с персонажем [TARGET_CHARACTER.GetShortUIName]"
- NOT_HAS_RELATION_RIVAL_WITH_TARGET: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'Персонаж' )][TARGET_CHARACTER.GetNamePossessiveOrMy|U][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' персонаж', '' )] — не враг"
+ NOT_HAS_RELATION_RIVAL_WITH_TARGET: "[TARGET_CHARACTER.GetShortUIName] не враг"
  NUM_OF_RELATION_RIVAL_TRIGGER: "Количество соперников $COMPARATOR$ $NUM|V0$"
  NOT_NUM_OF_RELATION_RIVAL_TRIGGER: "Вам необходимо больше [Concept( 'rivals', 'соперников' )|E]"
  NUM_OF_RELATION_NEMESIS_TRIGGER: "Количество заклятых врагов $COMPARATOR$ $NUM|V0$"

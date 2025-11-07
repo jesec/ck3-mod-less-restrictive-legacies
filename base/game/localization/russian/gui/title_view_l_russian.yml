@@ -103,7 +103,7 @@
  SORT_BY_INTRIGUE: "Сортировать по [Concept( 'intrigue', 'интригам' )|E]: [Select_CString( And( CharacterSelectionList.IsSortingBySkill( '(int32)3' ), Not( CharacterSelectionList.GetSortOrder ) ), 'По возрастанию', 'По убыванию' )|V]"
  SORT_BY_LEARNING: "Сортировать по [Concept( 'learning', 'учености' )|E]: [Select_CString( And( CharacterSelectionList.IsSortingBySkill( '(int32)4' ), Not( CharacterSelectionList.GetSortOrder ) ), 'По возрастанию', 'По убыванию' )|V]"
  CLAIMANT_NOT_A_THREAT: "#T Невозможно продавить [Concept( 'claim', 'претензию' )|E]#!\n[GuiClaimant.IsAllyDesc]"
- CAN_ATTACK_IS_SUBJECT_OF: "CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] — [vassal|El] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
+ CAN_ATTACK_IS_SUBJECT_OF: "[CHARACTER.GetShortUIName|U] — [vassal|El] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
  CAN_ATTACK_NOT_LANDED: "[CHARACTER.GetShortUIName|U] имеет земли"
  STRONG_CLAIM: "[pressed_claim_i][pressed_claim|E]"
  WEAK_CLAIM: "[unpressed_claim_i][unpressed_claim|E]"

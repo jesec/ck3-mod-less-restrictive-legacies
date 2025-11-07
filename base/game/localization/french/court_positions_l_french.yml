@@ -134,7 +134,7 @@
  physician_attend_poor: "Exercer la charité"
  physician_attend_poor_desc: "Ce personnage est chargé de s’occuper des pauvres et d’augmenter la [piety|El] de son [liege|El]."
  chronicler_promote_legend_realm: "Exalter la légende dans le pays"
- chronicler_promote_legend_realm_desc: "Ce personnage est chargé de glorifier la [legend|El] entourant son [liege|El] dans le pays, afin de la répandre."
+ chronicler_promote_legend_realm_desc: "Ce personnage est chargé de glorifier la [legend|El] entourant son [liege|El], afin de la répandre."
  culture_era_late_medieval_salary_mod: "[era|E] #V $culture_era_late_medieval$#!"
  culture_era_high_medieval_salary_mod: "[era|E] #V $culture_era_high_medieval$#!"
  culture_era_early_medieval_salary_mod: "[era|E] #V $culture_era_early_medieval$#!"

@@ -277,7 +277,8 @@
  death_management.no_killer: "[dead_character.GetSheHe|U] a été frappé[dead_character.Custom('FR_E')] par une flèche perdue, pendant une escarmouche féroce.'#!"
  #Spouse
  death_management.1200.t: "Mort de l’épou[dead_character.Custom('FR_XSe')]"
- death_management.1200.desc: "\n\nJe n’aurais pas dû [dead_character.Custom('FR_LeLa')] laisser y aller... pas comme ça..."
+ death_management.1200.desc_sad: "\n\nJe n’aurais pas dû [dead_character.Custom('FR_LeLa')] laisser y aller... pas comme ça..."
+ death_management.1200.desc_happy: "\n\nC[dead_character.Custom('FR_EEtte')] [dead_character.Custom('InsultNoun')] est enfin mort[dead_character.Custom('FR_E')] !"
  death_management.1200.a: "[battle_death_killer.GetFirstNameNoTooltip] est un[dead_character.Custom('FR_E')] [dead_character.GetWomanMan] mort[dead_character.Custom('FR_E')] ! Mort[dead_character.Custom('FR_E')] !"
  death_management.1200.b: "Je ne vous oublierai jamais..."
  death_management.1200.c: "Vous avez prouvé votre valeur, mon amour..."

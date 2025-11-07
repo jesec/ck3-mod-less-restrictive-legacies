@@ -60,7 +60,7 @@
 
 	#IT IS GETTING CLOSER!
 	effect_group = {
-		months = { 2 4 }
+		months = { 4 8 }
 
 		trigger = {
 			has_global_variable = black_death

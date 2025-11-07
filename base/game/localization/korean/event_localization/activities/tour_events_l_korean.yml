@@ -911,6 +911,7 @@
  host_dinner_events.3100.vassal_accepts: "[stop_host_scope.GetFirstName](이)가 받아들임"
  host_dinner_events.3100.vassal_refuses: "[stop_host_scope.GetFirstName](이)가 거절함"
  host_dinner_events.1009.enjoyed_weed: "[visiting_liege.GetFirstName](이)가 대마를 즐김"
+ host_dinner_events.1009.didnt_enjoy_weed: "[visiting_liege.GetFirstName](이)가 대마를 즐기지 않음"
  host_dinner_events.3020.won_drinking_duel: "주량 경연 대회에서 우승함"
  host_dinner_events.3020.lost_drinking_duel: "주량 경연 대회에서 탈락함"
  host_dinner_events.1007.enjoyed_performance: "[visiting_liege.GetFirstName](이)가 공연을 즐김"

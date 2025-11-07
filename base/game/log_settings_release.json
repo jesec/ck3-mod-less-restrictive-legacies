@@ -1,4 +1,4 @@
-{
+﻿{
 	"flush_interval_seconds": 3,
 	"loggers": [
 		{
@@ -21,7 +21,7 @@
 					"type": "file",
 					"log_level": "warning",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				}
 			]
 		},
@@ -33,7 +33,7 @@
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				}
 			]
 		},
@@ -45,7 +45,7 @@
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				}
 			]
 		},
@@ -57,7 +57,7 @@
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				}
 			]
 		},
@@ -69,7 +69,7 @@
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				}
 			]
 		},
@@ -81,13 +81,13 @@
 					"type": "file",
 					"log_level": "debug",
 					"file_name": "debug",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				},
 				{
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				}
 			]
 		},
@@ -99,7 +99,7 @@
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				}
 			]
 		},
@@ -207,7 +207,7 @@
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				}
 			]
 		},
@@ -225,7 +225,7 @@
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				}
 			]
 		},
@@ -237,7 +237,7 @@
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				}
 			]
 		},
@@ -249,7 +249,7 @@
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				}
 			]
 		},
@@ -267,7 +267,7 @@
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				}
 			]
 		},
@@ -285,7 +285,7 @@
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				}
 			]
 		},
@@ -303,7 +303,7 @@
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				}
 			]
 		},
@@ -321,7 +321,7 @@
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				},
 				{
 					"type": "cout",
@@ -338,7 +338,7 @@
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				}
 			]
 		},
@@ -356,7 +356,7 @@
 					"type": "file",
 					"log_level": "error",
 					"file_name": "error",
-					"format_pattern": "<only the first definition of this sink is used>"
+					"format_pattern": "[%T][%n][%s:%#]: %v"
 				},
 				{
 					"type": "cout",

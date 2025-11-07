@@ -1111,7 +1111,7 @@
  clear_ground_for_legendary_building_tooltip: "在你的一个省份中解锁[special_building|E]槽位"
  clear_ground_for_legendary_building_desc: "传奇已经完成，我的人民饱受鼓舞。我的领地已准备好为我的传奇建造一座新的纪念碑，但到底应该建造什么呢？"
  clear_ground_for_legendary_building_confirm: "清理场地"
- clear_ground_legendary_hunting_lodge_tt: "你必须完成了神话级或辉煌级[legend|E]"
+ clear_ground_legendary_hunting_lodge_tt: "你必须完成了神话级或辉煌级[legend|E]，或有#V 50#!点[GetTrait('lifestyle_hunter').GetName( GetNullCharacter )][trait|E]经验，或者有[GetCultureTradition('tradition_hunters').GetName]或[GetCultureTradition('tradition_ep2_avid_falconers').GetName][tradition|E]"
  clear_ground_legendary_watchtower_tt: "你必须完成了神话级或辉煌级[legend|E]，同时拥有[GetDynastyPerk('ce1_legitimacy_legacy_5').GetName][dynasty_perk|E]"
  clear_ground_legendary_shrine_tt: "你必须完成了神话级或辉煌级神圣[legend|E]"
  clear_ground_legendary_statue_tt: "你必须完成了神话级或辉煌级正统[legend|E]"

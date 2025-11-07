@@ -369,9 +369,18 @@ action_can_recall_hostage = {
 		if = {
 			limit = { # Must have a valid hostage to recall
 				any_home_court_hostage = {
+					save_temporary_scope_as = hostage_temp
 					warden = {
 						NOT = { is_at_war_with = root }
+						root = {
+							is_character_interaction_potentially_accepted = {
+								interaction = recall_hostage_interaction
+								recipient = prev
+								secondary_recipient = scope:hostage_temp
+							}
+						}
 					}
+					
 					hostage_duration = { years >= 1 }
 				}
 			}

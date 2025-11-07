@@ -2577,6 +2577,7 @@ khajuraho_01 = {
 ##########
 
 palace_of_aachen_01 = {
+	effect_desc = palace_of_aachen_effect_desc
 
 	asset = {
 		type = pdxmesh

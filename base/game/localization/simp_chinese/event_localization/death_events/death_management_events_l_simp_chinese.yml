@@ -277,7 +277,8 @@
  death_management.no_killer: "[dead_character.GetSheHe|U]在一场激烈的小规模战斗中被流矢射中。”#!"
  #Spouse
  death_management.1200.t: "配偶阵亡"
- death_management.1200.desc: "\n\n我不该让[dead_character.GetHerHim]去的……不该这样……"
+ death_management.1200.desc_sad: "\n\n我不该让[dead_character.GetHerHim]去的……不该这样……"
+ death_management.1200.desc_happy: "\n\n终于，那个[dead_character.Custom('InsultNoun')]死了！"
  death_management.1200.a: "[battle_death_killer.GetFirstNameNoTooltip]死了！死了！"
  death_management.1200.b: "我永远不会忘记你……"
  death_management.1200.c: "你证明了你的英勇，我的爱……"

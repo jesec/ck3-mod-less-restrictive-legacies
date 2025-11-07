@@ -277,7 +277,8 @@
  death_management.no_killer: "[dead_character.GetSheHe|U]는 치열한 전투 중 빗나간 화살에 맞았습니다.'#!"
  #Spouse
  death_management.1200.t: "배우자의 전사"
- death_management.1200.desc: "\n\n[dead_character.GetHerHim]를 가지 못하게 해야 했는데... 이럴 수는 없어..."
+ death_management.1200.desc_sad: "\n\n[dead_character.GetHerHim]를 가지 못하게 했어야 했는데... 이럴 수는 없어..."
+ death_management.1200.desc_happy: "\n\n드디어 그 [dead_character.Custom('InsultNoun')] 자식이 죽었구나!"
  death_management.1200.a: "[battle_death_killer.GetFirstNameNoTooltip](은)는 죽은 목숨이야! 죽일 거야!"
  death_management.1200.b: "당신을 절대 잊지 않겠어..."
  death_management.1200.c: "당신은 당신의 용맹을 증명했어, 내 사랑..."

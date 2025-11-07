@@ -51,7 +51,7 @@
  REALM_WINDOW_DIPLOMACY_TOOLTIP_TRUCE_COMMON: "#T [truce|E] с [Select_CString(CHARACTER.IsPlayer, '', 'персонажем ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'им персонажем', '' )]#!\nНевозможно объявить [Concept( 'war', 'войну' )|E] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ему персонажу', '' )]."
  REALM_WINDOW_DIPLOMACY_TOOLTIP_TRUCE: "$NAME$"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_TRUCE_RESULT: "\n$NAME|V$ завершилась победой [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetShortUINamePossessive][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )], и было заключено перемирие\n\n"
- REALM_WINDOW_DIPLOMACY_TOOLTIP_TRUCE_WP_RESULT: "\n$NAME|V$ завершилась, закрепив [Concept( 'white_peace', 'статус-кво' ), и было заключено перемирие\n\n"
+ REALM_WINDOW_DIPLOMACY_TOOLTIP_TRUCE_WP_RESULT: "\n$NAME|V$ завершилась, закрепив [Concept( 'white_peace', 'статус-кво' )], и было заключено перемирие\n\n"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_TRUCE_DURATION: "Перемирие продлится до [DATE.GetTimeDiffFromNow|V] #weak ([DATE.GetStringShort])#!"
  TRUCE_GRANT_INDEPENDENCE: "[SCOPE.sC('recipient').GetUINameNotMe|U] обретает дарованную независимость"
  TRUCE_GRANT_INDEPENDENCE_ROOT: "[ROOT.Char.GetUINameNotMe|U] обретает дарованную независимость"

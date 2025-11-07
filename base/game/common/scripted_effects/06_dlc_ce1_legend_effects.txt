@@ -1143,6 +1143,7 @@ legend_ending_rewards_heroic_effect = {
 legend_ending_rewards_legitimizing_effect = {
 	# Legitimacy gain based on Legend Protagonist
 	disburse_legend_protagonist_legitimacy_effect = yes
+	# We let you diverge if it's an Ancient People legend
 	if = {
 		limit = {
 			exists = scope:legendary_culture

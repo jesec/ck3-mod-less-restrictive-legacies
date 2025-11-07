@@ -1111,7 +1111,7 @@
  clear_ground_for_legendary_building_tooltip: "속주 하나에 [special_building|E] 슬롯 잠금 해제"
  clear_ground_for_legendary_building_desc: "전설이 완성되었으며 백성들의 사기가 올라갔다. 나의 땅은 전설의 새로운 기념비를 세울 준비로 무르익었다. 그런데 무엇을 지어야 할까?"
  clear_ground_for_legendary_building_confirm: "대지 정리"
- clear_ground_legendary_hunting_lodge_tt: "신화 또는 영광 등급 [legend|E]을 완료해야 함"
+ clear_ground_legendary_hunting_lodge_tt: "야수와 관련된 신화 또는 영광 등급 [legend|E]을 완성하거나, [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [trait|E] 경험치가 #V 50#!이거나, [GetCultureTradition('tradition_hunters').GetName] 또는 [GetCultureTradition('tradition_ep2_avid_falconers').GetName] [tradition|E]에 속해야 함"
  clear_ground_legendary_watchtower_tt: "[GetDynastyPerk('ce1_legitimacy_legacy_5').GetName] [dynasty_perk|E]를 보유한 상태로 신화 또는 영광 [legend|E]을 완료해야 함"
  clear_ground_legendary_shrine_tt: "신화 또는 영광 등급 신성 [legend|E]을 완료해야 함"
  clear_ground_legendary_statue_tt: "신화 또는 영광 등급 정통성 [legend|E]을 완료해야 함"

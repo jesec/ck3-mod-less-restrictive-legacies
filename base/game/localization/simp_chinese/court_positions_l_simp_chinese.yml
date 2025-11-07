@@ -134,7 +134,7 @@
  physician_attend_poor: "神圣慈善"
  physician_attend_poor_desc: "该角色的任务是照料贫者，提升[liege|E]的[piety|E]。"
  chronicler_promote_legend_realm: "在领内宣扬传奇"
- chronicler_promote_legend_realm_desc: "该角色负责在领地内弘扬[liege|E]的[legend|E]，推动其传播。"
+ chronicler_promote_legend_realm_desc: "该角色负责弘扬[liege|E]的[legend|E]，推动其传播。"
  culture_era_late_medieval_salary_mod: "#V $culture_era_late_medieval$#![era|E]"
  culture_era_high_medieval_salary_mod: "#V $culture_era_high_medieval$#![era|E]"
  culture_era_early_medieval_salary_mod: "#V $culture_era_early_medieval$#![era|E]"

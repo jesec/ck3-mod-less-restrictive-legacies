@@ -652,7 +652,7 @@
  ASK_FOR_CONVERSION_RECIPIENT_IS_FICKLE: "[recipient.GetShortUIName|U](이)가 [GetTrait('fickle').GetName( GetPlayer )]임: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERESIARCH: "[recipient.GetShortUIName|U](이)가 [GetTrait('heresiarch').GetName( GetPlayer )] 특성을 보유함: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERETIC: "[recipient.GetShortUIName|U](이)가 [GetTrait('heretic').GetName( GetPlayer )] 특성을 보유함: $VALUE|=+0$"
- ASK_FOR_CONVERSION_RECIPIENT_IS_PIOUS: "[recipient.GetShortUIName|U](이)가 [$game_concept_pious$|L]임: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_IS_PIOUS: "[recipient.GetShortUIName|U](이)가 $game_concept_pious$임: $VALUE|=+0$"
  ASK_FOR_CONVERSION_SAME_CULTURE_PRESTIGE_LEVEL: "[actor.GetCulture.GetName](와)과 [actor.GetShortUIName] 모두 [GetPrestigeLevelName( actor.GetPrestigeLevel )]: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_SAVIOR: "당신이 [actor.GetFaith.GetName]의 [GetTrait('savior').GetName( GetPlayer )] 특성을 보유함: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_DIVINE_BLOOD: "당신이 [GetTrait('divine_blood').GetName( GetPlayer )] 특성을 보유함: $VALUE|=+0$"

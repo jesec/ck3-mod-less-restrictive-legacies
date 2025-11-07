@@ -911,6 +911,7 @@
  host_dinner_events.3100.vassal_accepts: "[stop_host_scope.GetFirstName]接受了"
  host_dinner_events.3100.vassal_refuses: "[stop_host_scope.GetFirstName]拒绝"
  host_dinner_events.1009.enjoyed_weed: "[visiting_liege.GetFirstName]喜欢大麻"
+ host_dinner_events.1009.didnt_enjoy_weed: "[visiting_liege.GetFirstName]并不享受大麻"
  host_dinner_events.3020.won_drinking_duel: "你赢得了喝酒比赛"
  host_dinner_events.3020.lost_drinking_duel: "你输掉了喝酒比赛"
  host_dinner_events.1007.enjoyed_performance: "[visiting_liege.GetName]喜欢这场演出"

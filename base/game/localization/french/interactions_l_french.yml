@@ -652,7 +652,7 @@
  ASK_FOR_CONVERSION_RECIPIENT_IS_FICKLE: "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUIName] est [GetTrait('fickle').GetName( GetPlayer )|l] : $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERESIARCH: "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUIName] est un [GetTrait('heresiarch').GetName( GetPlayer )|l] : $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERETIC: "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUIName] est un [GetTrait('heretic').GetName( GetPlayer )|l] : $VALUE|=+0$"
- ASK_FOR_CONVERSION_RECIPIENT_IS_PIOUS: "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUIName] est [Concept('pious', Select_CString(recipient.IsFemale, 'pieuse', 'pieux'))|Ll] : $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_IS_PIOUS: "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUIName] [Select_CString(recipient.IsLocalPlayer,'êtes','est')] pieu[recipient.Custom('FR_XSe')] : $VALUE|=+0$"
  ASK_FOR_CONVERSION_SAME_CULTURE_PRESTIGE_LEVEL: "Aussi de culture [actor.GetCulture.GetName], [actor.Custom('FR_le_Char_U_Pi')][actor.GetShortUIName] [actor.LocalPlayerString( 'êtes', 'est' )] [GetPrestigeLevelName( actor.GetPrestigeLevel )] : $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_SAVIOR: "Vous êtes le [GetTrait('savior').GetName( GetPlayer )|l] de la foi [actor.GetFaith.GetAdjective] : $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_DIVINE_BLOOD: "Vous avez du [GetTrait('divine_blood').GetName( GetPlayer )|l] : $VALUE|=+0$"

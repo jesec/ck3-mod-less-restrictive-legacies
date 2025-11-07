@@ -134,7 +134,7 @@
  physician_attend_poor: "신성한 자선"
  physician_attend_poor_desc: "해당 인물은 가난한 자들을 돌보고 [liege|E]의 [piety|E]를 높이는 임무를 맡았습니다."
  chronicler_promote_legend_realm: "국내 전설 찬양"
- chronicler_promote_legend_realm_desc: "해당 인물은 영지 내에서 [liege|E]의 [legend|E]을 찬미하고 퍼뜨리는 임무를 맡았습니다."
+ chronicler_promote_legend_realm_desc: "해당 인물은 [liege|E]의 [legend|E]을 찬미하고 퍼뜨리는 임무를 맡았습니다."
  culture_era_late_medieval_salary_mod: "#V $culture_era_late_medieval$#! [era|E]"
  culture_era_high_medieval_salary_mod: "#V $culture_era_high_medieval$#! [era|E]"
  culture_era_early_medieval_salary_mod: "#V $culture_era_early_medieval$#! [era|E]"

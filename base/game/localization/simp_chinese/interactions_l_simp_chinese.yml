@@ -652,7 +652,7 @@
  ASK_FOR_CONVERSION_RECIPIENT_IS_FICKLE: "[recipient.GetShortUIName|U]有[GetTrait('fickle').GetName( GetPlayer )]特质：$VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERESIARCH: "[recipient.GetShortUIName|U]有[GetTrait('heresiarch').GetName( GetPlayer )]特质：$VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERETIC: "[recipient.GetShortUIName|U]有[GetTrait('heretic').GetName( GetPlayer )]特质：$VALUE|=+0$"
- ASK_FOR_CONVERSION_RECIPIENT_IS_PIOUS: "[recipient.GetShortUIName|U]很[$game_concept_pious$|L]：$VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_IS_PIOUS: "[recipient.GetShortUIName|U]很$game_concept_pious$：$VALUE|=+0$"
  ASK_FOR_CONVERSION_SAME_CULTURE_PRESTIGE_LEVEL: "[actor.GetCulture.GetName]和[actor.GetShortUIName]的威望等级都是[GetPrestigeLevelName( actor.GetPrestigeLevel )]：$VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_SAVIOR: "你是[actor.GetFaith.GetName]的[GetTrait('savior').GetName( GetPlayer )]：$VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_DIVINE_BLOOD: "我有[GetTrait('divine_blood').GetName( GetPlayer )]特质：$VALUE|=+0$"

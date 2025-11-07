@@ -652,7 +652,7 @@
  ASK_FOR_CONVERSION_RECIPIENT_IS_FICKLE: "[recipient.GetShortUIName|U] ist [GetTrait('fickle').GetName(GetPlayer)|l]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERESIARCH: "[recipient.GetShortUIName|U] ist ein [GetTrait('heresiarch').GetName(GetPlayer)]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERETIC: "[recipient.GetShortUIName|U] ist ein [GetTrait('heretic').GetName(GetPlayer)]: $VALUE|=+0$"
- ASK_FOR_CONVERSION_RECIPIENT_IS_PIOUS: "[recipient.GetShortUIName|U] ist [$game_concept_pious$|Ll]: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_IS_PIOUS: "[recipient.GetShortUIName|U] ist „$game_concept_pious$“: $VALUE|=+0$"
  ASK_FOR_CONVERSION_SAME_CULTURE_PRESTIGE_LEVEL: "Sowohl [actor.GetCulture.GetName] als auch [actor.GetShortUIName] sind [GetPrestigeLevelName(actor.GetPrestigeLevel)]: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_SAVIOR: "Ihr seid der [GetTrait('savior').GetName(GetPlayer)] des [actor.GetFaith.GetName]s: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_DIVINE_BLOOD: "Ich habe [GetTrait('divine_blood').GetName(GetPlayer)]: $VALUE|=+0$"

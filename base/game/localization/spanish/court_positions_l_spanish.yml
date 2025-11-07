@@ -134,7 +134,7 @@
  physician_attend_poor: "Caridad divina"
  physician_attend_poor_desc: "Este personaje tiene la tarea de asistir a los pobres y aumentar la [piety|lE] de su [liege|lE]."
  chronicler_promote_legend_realm: "Exaltar la leyenda doméstica"
- chronicler_promote_legend_realm_desc: "Este personaje tiene la tarea de glorificar la [legend|lE] de su [liege|lE] dentro de su señorío para aumentar a su difusión."
+ chronicler_promote_legend_realm_desc: "Este personaje tiene la tarea de glorificar la [legend|lE] de su [liege|lE] para aumentar su difusión."
  culture_era_late_medieval_salary_mod: "[era|E] #V $culture_era_late_medieval$#!"
  culture_era_high_medieval_salary_mod: "[era|E] #V $culture_era_high_medieval$#!"
  culture_era_early_medieval_salary_mod: "[era|E] #V $culture_era_early_medieval$#!"
