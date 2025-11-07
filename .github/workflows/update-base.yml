@@ -1,0 +1,372 @@
+name: Update CK3 Mod Base
+
+on:
+  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force update even if version matches'
+        required: false
+        type: boolean
+        default: false
+
+  # Scheduled check (daily at 12:00 UTC)
+  schedule:
+    - cron: '0 12 * * *'
+
+# Prevent concurrent runs
+concurrency:
+  group: ck3-update
+  cancel-in-progress: false  # Let running job finish
+
+# Required secrets:
+# - STEAM_USERNAME: Your Steam username
+# - STEAM_PASSWORD: Your Steam password
+# - STEAM_TOTP_SECRET: Your Steam shared secret for TOTP generation
+
+env:
+  DEPOTDOWNLOADER_COMMIT: '007857c13fa3b32c30d20ee078dd6f1ea0075402'
+  DOTNET_VERSION: '9.0.x'
+  NODE_VERSION: '20.x'
+
+jobs:
+  update:
+    # Only run on jesec/ck3-mod-base, not forks or other repos
+    if: github.repository == 'jesec/ck3-mod-base'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60  # Prevent infinite hangs
+
+    permissions:
+      contents: write  # For pushing commits
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1  # Only need latest commit
+
+      - name: Validate secrets
+        run: |
+          if [ -z "${{ secrets.STEAM_USERNAME }}" ]; then
+            echo "❌ STEAM_USERNAME secret is not set"
+            echo "::error::STEAM_USERNAME secret must be configured in repository settings"
+            exit 1
+          fi
+          if [ -z "${{ secrets.STEAM_PASSWORD }}" ]; then
+            echo "❌ STEAM_PASSWORD secret is not set"
+            echo "::error::STEAM_PASSWORD secret must be configured in repository settings"
+            exit 1
+          fi
+          if [ -z "${{ secrets.STEAM_TOTP_SECRET }}" ]; then
+            echo "❌ STEAM_TOTP_SECRET secret is not set"
+            echo "::error::STEAM_TOTP_SECRET secret must be configured in repository settings"
+            exit 1
+          fi
+          echo "✅ Secrets validated"
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          cache-dependency-path: base/scripts/package-lock.json
+
+      - name: Install Node dependencies
+        run: npm ci
+        working-directory: base/scripts
+
+      - name: Cache DepotDownloader binary
+        id: cache-depot
+        uses: actions/cache@v4
+        with:
+          path: /tmp/depotdownloader
+          # Cache key includes both commit hash AND patch file hash
+          key: depotdownloader-${{ env.DEPOTDOWNLOADER_COMMIT }}-${{ hashFiles('base/scripts/depotdownloader.patch') }}
+
+      - name: Build patched DepotDownloader
+        if: steps.cache-depot.outputs.cache-hit != 'true'
+        run: |
+          set -e  # Exit on any error
+
+          echo "📦 Cloning DepotDownloader at commit $DEPOTDOWNLOADER_COMMIT..."
+          # Clone full repo to access specific commit (can't use --depth with old commits)
+          git clone https://github.com/SteamRE/DepotDownloader.git /tmp/depot-repo
+          cd /tmp/depot-repo
+
+          echo "🔍 Checking out specific commit..."
+          git checkout $DEPOTDOWNLOADER_COMMIT
+
+          echo "🔧 Validating patch..."
+          if ! git apply --check $GITHUB_WORKSPACE/base/scripts/depotdownloader.patch 2>&1; then
+            echo "❌ Patch failed validation!"
+            echo "::error::Patch file does not apply cleanly to commit $DEPOTDOWNLOADER_COMMIT"
+            git apply --check $GITHUB_WORKSPACE/base/scripts/depotdownloader.patch || true
+            exit 1
+          fi
+
+          echo "🔧 Applying 2FA authentication patch..."
+          git apply $GITHUB_WORKSPACE/base/scripts/depotdownloader.patch
+
+          echo "🏗️  Building DepotDownloader..."
+          dotnet publish DepotDownloader/DepotDownloader.csproj \
+            --configuration Release \
+            -p:PublishSingleFile=true \
+            -p:DebugType=embedded \
+            --self-contained \
+            --runtime linux-x64 \
+            --output /tmp/depotdownloader
+
+          if [ ! -f /tmp/depotdownloader/DepotDownloader ]; then
+            echo "❌ Build failed - binary not found"
+            exit 1
+          fi
+
+          echo "✅ DepotDownloader built successfully"
+          ls -lh /tmp/depotdownloader/DepotDownloader
+
+      - name: Add DepotDownloader to PATH
+        run: |
+          if [ ! -f /tmp/depotdownloader/DepotDownloader ]; then
+            echo "❌ DepotDownloader binary not found (cache/build issue)"
+            exit 1
+          fi
+          chmod +x /tmp/depotdownloader/DepotDownloader
+          echo "/tmp/depotdownloader" >> $GITHUB_PATH
+
+      - name: Check current version
+        id: current
+        run: |
+          if [ -f base/.ck3-version.json ]; then
+            CURRENT_VERSION=$(jq -r '.version' base/.ck3-version.json)
+            if [ "$CURRENT_VERSION" = "null" ] || [ -z "$CURRENT_VERSION" ]; then
+              echo "⚠️  Invalid version in base/.ck3-version.json"
+              CURRENT_VERSION="none"
+            fi
+            echo "version=$CURRENT_VERSION" >> $GITHUB_OUTPUT
+            echo "📋 Current version: $CURRENT_VERSION"
+          else
+            echo "version=none" >> $GITHUB_OUTPUT
+            echo "📋 No current version (first run)"
+          fi
+
+      - name: Check latest CK3 version
+        id: latest
+        run: |
+          echo "🔍 Fetching latest CK3 version from Steam..."
+          LATEST_VERSION=$(node index.js check)
+
+          if [ -z "$LATEST_VERSION" ] || [ "$LATEST_VERSION" = "null" ]; then
+            echo "❌ Failed to fetch latest CK3 version from Steam API"
+            echo "::error::Steam API returned empty version"
+            exit 1
+          fi
+
+          echo "version=$LATEST_VERSION" >> $GITHUB_OUTPUT
+          echo "📋 Latest CK3 version: $LATEST_VERSION"
+        working-directory: base/scripts
+
+      - name: Determine if update needed
+        id: needs_update
+        run: |
+          CURRENT="${{ steps.current.outputs.version }}"
+          LATEST="${{ steps.latest.outputs.version }}"
+          FORCE="${{ github.event.inputs.force_update }}"
+
+          if [ "$FORCE" = "true" ]; then
+            echo "🔄 Force update requested"
+            echo "needed=true" >> $GITHUB_OUTPUT
+          elif [ "$CURRENT" = "none" ]; then
+            echo "✨ First run - downloading CK3 $LATEST"
+            echo "needed=true" >> $GITHUB_OUTPUT
+          elif [ "$CURRENT" != "$LATEST" ]; then
+            echo "🆕 Update available: $CURRENT → $LATEST"
+            echo "needed=true" >> $GITHUB_OUTPUT
+          else
+            echo "✅ Already up to date ($CURRENT)"
+            echo "needed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Download CK3 files
+        if: steps.needs_update.outputs.needed == 'true'
+        env:
+          STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
+          STEAM_TOTP_SECRET: ${{ secrets.STEAM_TOTP_SECRET }}
+        run: |
+          set -e
+          VERSION="${{ steps.latest.outputs.version }}"
+          DOWNLOAD_DIR="/tmp/ck3-download"
+
+          echo "📥 Downloading CK3 $VERSION..."
+          echo "   Using password + TOTP authentication"
+          echo "   Note: DepotDownloader always fetches latest live version"
+
+          # Credentials are passed via environment variables
+          # Note: VERSION param is informational - DepotDownloader fetches latest
+          cd base/scripts
+          node index.js download "$VERSION" "$DOWNLOAD_DIR"
+
+          if [ ! -d "$DOWNLOAD_DIR" ]; then
+            echo "❌ Download failed - directory not created"
+            exit 1
+          fi
+
+      - name: Parse downloaded files
+        if: steps.needs_update.outputs.needed == 'true'
+        run: |
+          set -e
+          DOWNLOAD_DIR="/tmp/ck3-download"
+
+          echo "📊 Parsing CK3 installation..."
+          node index.js parse "$DOWNLOAD_DIR" .. ../release-notes
+
+          if [ ! -f ../.ck3-version.json ]; then
+            echo "❌ Parse failed - ../.ck3-version.json not created"
+            exit 1
+          fi
+
+          echo "✅ Parse complete"
+          echo "   Metadata: base/.ck3-version.json"
+          echo "   Release notes saved to: base/release-notes/"
+        working-directory: base/scripts
+
+      - name: Extract game files
+        if: steps.needs_update.outputs.needed == 'true'
+        run: |
+          set -e
+          DOWNLOAD_DIR="/tmp/ck3-download"
+          OUTPUT_DIR="../game"
+
+          echo "📂 Extracting game files..."
+          node index.js extract "$DOWNLOAD_DIR" "$OUTPUT_DIR"
+
+          if [ ! -d "$OUTPUT_DIR" ]; then
+            echo "❌ Extraction failed - game directory not created"
+            exit 1
+          fi
+
+          echo "✅ Extraction complete"
+        working-directory: base/scripts
+
+      - name: Check for changes
+        if: steps.needs_update.outputs.needed == 'true'
+        id: changes
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️  No changes detected"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "📝 Changes detected:"
+            git diff --cached --stat
+          fi
+
+      - name: Commit and push changes
+        if: steps.needs_update.outputs.needed == 'true' && steps.changes.outputs.has_changes == 'true'
+        run: |
+          set -e
+          VERSION="${{ steps.latest.outputs.version }}"
+          VERSION_NAME=$(jq -r '.version_name // "Unknown"' base/.ck3-version.json)
+          RELEASE_DATE=$(jq -r '.release_notes.date // ""' base/.ck3-version.json)
+
+          git config user.name "CK3 Bot"
+          git config user.email "bot@ck3.local"
+
+          # Create commit message with proper newlines
+          COMMIT_MSG="Version $VERSION ($VERSION_NAME)"$'\n\n'"Released $RELEASE_DATE"$'\n\n'"See release notes for details."
+
+          git commit -m "$COMMIT_MSG"
+
+          # Normalize version to x.x.x.x format for tagging
+          IFS='.' read -r -a parts <<< "$VERSION"
+          NORMALIZED_VERSION="${parts[0]:-0}.${parts[1]:-0}.${parts[2]:-0}.${parts[3]:-0}"
+          MINOR_SERIES="${parts[0]:-0}.${parts[1]:-0}.${parts[2]:-0}"
+          MAJOR_SERIES="${parts[0]:-0}.${parts[1]:-0}"
+          REFRESH_SERIES="${parts[0]:-0}"
+
+          echo "🏷️  Creating tags for version hierarchy..."
+          # Exact version tag (patch level) - create if doesn't exist
+          if git rev-parse "base/$NORMALIZED_VERSION" >/dev/null 2>&1; then
+            echo "   Skipped: base/$NORMALIZED_VERSION (already exists)"
+          else
+            # Use -a for annotated tag, but handle case where tag was just created
+            if git tag -a "base/$NORMALIZED_VERSION" -m "CK3 $VERSION ($VERSION_NAME)" 2>/dev/null; then
+              echo "   Created: base/$NORMALIZED_VERSION (exact patch)"
+            else
+              echo "   Warning: Failed to create base/$NORMALIZED_VERSION (may already exist)"
+            fi
+          fi
+
+          # Floating tags (force-update to point to latest in series)
+          git tag -af "base/$MINOR_SERIES" -m "CK3 $VERSION ($VERSION_NAME) - latest patch in $MINOR_SERIES series"
+          git tag -af "base/$MAJOR_SERIES" -m "CK3 $VERSION ($VERSION_NAME) - latest minor in $MAJOR_SERIES series"
+          git tag -af "base/$REFRESH_SERIES" -m "CK3 $VERSION ($VERSION_NAME) - latest major in refresh $REFRESH_SERIES"
+
+          echo "   Updated: base/$MINOR_SERIES (latest patch in minor)"
+          echo "   Updated: base/$MAJOR_SERIES (latest minor in major)"
+          echo "   Updated: base/$REFRESH_SERIES (latest major in refresh)"
+
+          echo "🔄 Pulling latest changes before push..."
+          CURRENT_BRANCH=$(git branch --show-current)
+          if [ -z "$CURRENT_BRANCH" ]; then
+            echo "❌ Error: Detached HEAD state detected"
+            echo "::error::Cannot push from detached HEAD - repository in unexpected state"
+            exit 1
+          fi
+
+          git pull --rebase origin "$CURRENT_BRANCH" || {
+            echo "⚠️  Rebase conflict detected, using merge strategy"
+            git pull --no-rebase origin "$CURRENT_BRANCH"
+          }
+
+          echo "⬆️  Pushing changes and tags..."
+          # Push commit and all version tags together (floating tags need --force)
+          # Note: Can't use --atomic with --force on tags, so we do best-effort single command
+          git push origin "$CURRENT_BRANCH" \
+            "refs/tags/base/$NORMALIZED_VERSION" \
+            "refs/tags/base/$MINOR_SERIES" \
+            "refs/tags/base/$MAJOR_SERIES" \
+            "refs/tags/base/$REFRESH_SERIES" \
+            --force
+
+          echo "✅ Changes committed and pushed: $VERSION"
+          echo "✅ Tagged: base/$NORMALIZED_VERSION, base/$MINOR_SERIES, base/$MAJOR_SERIES, base/$REFRESH_SERIES"
+
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -rf /tmp/depot-repo /tmp/ck3-download
+          echo "🧹 Cleanup complete"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## CK3 Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Current version**: ${{ steps.current.outputs.version }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Latest version**: ${{ steps.latest.outputs.version }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Update needed**: ${{ steps.needs_update.outputs.needed }}" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ steps.needs_update.outputs.needed }}" = "true" ]; then
+            if [ "${{ steps.changes.outputs.has_changes }}" = "true" ]; then
+              VERSION="${{ steps.latest.outputs.version }}"
+              IFS='.' read -r -a parts <<< "$VERSION"
+              NORMALIZED_VERSION="${parts[0]:-0}.${parts[1]:-0}.${parts[2]:-0}.${parts[3]:-0}"
+              MINOR_SERIES="${parts[0]:-0}.${parts[1]:-0}.${parts[2]:-0}"
+              MAJOR_SERIES="${parts[0]:-0}.${parts[1]:-0}"
+              REFRESH_SERIES="${parts[0]:-0}"
+
+              echo "- **Result**: ✅ Updated to $VERSION" >> $GITHUB_STEP_SUMMARY
+              echo "- **Tags**: \`base/$NORMALIZED_VERSION\`, \`base/$MINOR_SERIES\`, \`base/$MAJOR_SERIES\`, \`base/$REFRESH_SERIES\`" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "- **Result**: ℹ️ No file changes" >> $GITHUB_STEP_SUMMARY
+            fi
+          else
+            echo "- **Result**: ✅ Already up to date" >> $GITHUB_STEP_SUMMARY
+          fi

@@ -1,0 +1,20 @@
+{
+  "name": "ck3-mod-base",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CK3 mod base file automation",
+  "main": "index.js",
+  "scripts": {
+    "check": "node index.js check",
+    "download": "node index.js download",
+    "parse": "node index.js parse",
+    "extract": "node index.js extract"
+  },
+  "devDependencies": {
+    "@bbob/html": "^4.2.0",
+    "@bbob/preset-html5": "^4.2.0",
+    "protobufjs": "^7.4.0",
+    "steam-totp": "^2.1.2",
+    "turndown": "^7.2.0"
+  }
+}
