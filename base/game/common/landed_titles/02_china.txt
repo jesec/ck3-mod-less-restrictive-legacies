@@ -6186,7 +6186,7 @@ h_china = {
 		k_kuizhou = {
 			color = { 26 73 82 }
 
-			capital = c_qianzhou_1
+			capital = c_kuizhou
 
 			d_kuizhong = {
 				color = { 27 73 65 }

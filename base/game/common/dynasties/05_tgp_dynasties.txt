@@ -3609,11 +3609,6 @@ bai_767D_1 = {
 	culture = han
 }
 
-bai_767D_2 = {
-	name = "dynn_Bai_767D"
-	culture = han
-}
-
 bai_767D_3 = {
 	name = "dynn_Bai_767D"
 	culture = han

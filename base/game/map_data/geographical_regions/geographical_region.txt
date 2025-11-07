@@ -5876,7 +5876,7 @@ tgp_min_region = {
 }
 tgp_qi_region = {
 	kingdoms = {
-		k_qingxu k_guannei
+		k_qingxu
 	}
 }
 tgp_qian_region = {
@@ -5886,7 +5886,7 @@ tgp_qian_region = {
 }
 tgp_shu_region = {
 	kingdoms = {
-		k_xichuan k_dongchuan k_huainan
+		k_xichuan k_dongchuan
 	}
 }
 tgp_song_region = {

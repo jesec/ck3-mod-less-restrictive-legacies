@@ -3357,8 +3357,8 @@ taebaek = { # Mount Taebaek
 
 	character_modifier = {
 		name = holy_site_taebaek_effect_name
-		fertility = 0.10
-		monthly_lifestyle_xp_gain_mult = 0.15
+		monthly_prestige_gain_mult = 0.2
+		same_faith_opinion = 5
 	}
 }
 
@@ -3377,18 +3377,17 @@ mani = { # Mount Mani
 
 	character_modifier = {
 		name = holy_site_mani_effect_name
-		fertility = 0.10
-		monthly_lifestyle_xp_gain_mult = 0.15
+		legitimacy_gain_mult = 0.1
+		county_opinion_add = 5
 	}
 }
 
-seorak = { # Mount Seorak
+seorak = { # Mount Geumgang
 	county = c_goseong
 
 	character_modifier = {
 		name = holy_site_seorak_effect_name
-		fertility = 0.10
-		monthly_lifestyle_xp_gain_mult = 0.15
+		different_faith_opinion = 10
 	}
 }
 

@@ -1186,7 +1186,9 @@
  count_herder_female: "Пастушка"
  #Celestial Admin
  hegemon_celestial_male_chinese: "Хуанди"
- hegemon_celestial_female_chinese: "Хуанхоу"
+ hegemon_celestial_female_chinese: "$hegemon_celestial_male_chinese$"
+ spouse_hegemon_celestial_male_chinese: "Хуанфу"
+ spouse_hegemon_celestial_female_chinese: "Хуанхоу"
  emperor_celestial_male_chinese_civilian_governor: "Координатор"
  emperor_celestial_male_chinese_military_governor: "Верховный военачальник"
  king_celestial_male_chinese_civilian_governor: "Интендант"

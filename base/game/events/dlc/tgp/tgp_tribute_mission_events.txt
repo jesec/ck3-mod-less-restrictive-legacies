@@ -779,6 +779,20 @@ scripted_effect tribute_mission_1000_give_legitimacy_effect = {
 	}
 }
 
+scripted_effect tribute_mission_1000_rejection_effect = {
+	scope:tributary_scope = {
+		add_legitimacy = {
+			value = tribute_legitimacy_reward_value
+			multiply = -1
+		}
+		add_opinion = {
+			target = scope:overlord_scope
+			modifier = annoyed_opinion
+			opinion = -50
+		}
+	}
+}
+
 scripted_effect tribute_mission_1000_generic_reward_effect = {
 	scope:tributary_scope = {
 		if = {
@@ -1805,9 +1819,6 @@ tribute_mission.1005 = {
 		position = lower_left_portrait
 	}
 	immediate = {
-		tribute_mission_1000_fork_over_with_notification_effect = yes
-		show_as_tooltip = { tribute_mission_1000_common_arrival_effect = yes }
-
 		#For the tooltip
 		if = {
 			limit = {
@@ -1971,51 +1982,73 @@ tribute_mission.1005 = {
 			base = 100
 		}
 	}
+	#Rejection
+	option = {
+		name = imperial_examination.7100.b.singular #I refuse to acccept mediocrity not a tributary we can reject them.
+		trigger = { NOT = { government_has_flag = government_is_mandala } }
+		show_as_tooltip = { tribute_mission_1000_rejection_effect = yes }
+		scope:tributary_scope = { set_variable = new_overlord_unable_to_accept_tribute }
+		save_scope_value_as = {
+			name = tribute_reward_type_rejection
+			value = flag:yes
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
 	after = {
 		if = {
 			limit = {
 				scope:tributary_scope = {
-					subject_standing > seal_of_investiture_minimum_subject_standing
-					NOT = {
-						any_character_artifact = { artifact_type = seal_of_investiture }
-					}
+					has_variable = new_overlord_unable_to_accept_tribute
 				}
-				scope:overlord_scope.primary_title = title:h_china
 			}
-			scope:tributary_scope = {
-				if = {
-					limit = {
-						scope:overlord_scope = { has_royal_court = yes }
-						scope:overlord_scope = scope:receiving_character
-					}
-					trigger_event = tribute_mission.3006
-				}
-				else = { trigger_event = tribute_mission.1006 }
-			}
-		}
-		else_if = {
-			limit = { scope:tributary_scope = { is_tributary = no } }
-			scope:tributary_scope = {
-				if = {
-					limit = {
-						scope:overlord_scope = { has_royal_court = yes }
-						scope:overlord_scope = scope:receiving_character
-					}
-					trigger_event = tribute_mission.3008
-				}
-				else = { trigger_event = tribute_mission.1008 }
+			scope:tributary_scope = {	
+				trigger_event = tribute_mission.9800
 			}
 		}
 		else = {
-			scope:tributary_scope = {
-				if = {
-					limit = {
-						scope:overlord_scope = { has_royal_court = yes }
-						scope:overlord_scope = scope:receiving_character
+			tribute_mission_1000_fork_over_with_notification_effect = yes
+			show_as_tooltip = { tribute_mission_1000_common_arrival_effect = yes }
+			if = {
+				limit = {
+					scope:tributary_scope = {
+						subject_standing > seal_of_investiture_minimum_subject_standing
+						NOT = {
+							any_character_artifact = { artifact_type = seal_of_investiture }
+						}
 					}
-					trigger_event = tribute_mission.3010
+					scope:overlord_scope = {
+						primary_title = title:h_china
+						this = scope:receiving_character
+					}
 				}
-				else = { trigger_event = tribute_mission.1010 }
+				trigger_event = tribute_mission.1006
+			}
+			else_if = {
+				limit = { scope:tributary_scope = { is_tributary = no } }
+				scope:tributary_scope = {
+					if = {
+						limit = {
+							scope:overlord_scope = { has_royal_court = yes }
+							scope:overlord_scope = scope:receiving_character
+						}
+						trigger_event = tribute_mission.3008
+					}
+					else = { trigger_event = tribute_mission.1008 }
+				}	
+			}
+			else = {
+				scope:tributary_scope = {
+					if = {
+						limit = {
+							scope:overlord_scope = { has_royal_court = yes }
+							scope:overlord_scope = scope:receiving_character
+						}
+						trigger_event = tribute_mission.3010
+					}
+					else = { trigger_event = tribute_mission.1010 }
+				}
 			}
 		}
 	}
@@ -4331,6 +4364,11 @@ tribute_mission.9800 = {
 	title = tribute_mission.9800.t
 	desc = {
 		first_valid = {
+			#New overlord can't accept my tribute
+			triggered_desc = {
+				trigger = { has_variable = new_overlord_unable_to_accept_tribute }
+				desc = tribute_mission.9800.desc.unable_to_accept_tribute
+			}
 			#Hmm got vassalized by Suzerain
 			triggered_desc = {
 				trigger = {
@@ -4348,11 +4386,6 @@ tribute_mission.9800 = {
 			triggered_desc = {
 				trigger = { has_variable = new_overlord_somewhere_else }
 				desc = tribute_mission.9800.desc.different_end_location
-			}
-			#New overlord can't accept my tribute
-			triggered_desc = {
-				trigger = { has_variable = new_overlord_unable_to_accept_tribute }
-				desc = tribute_mission.9800.desc.unable_to_accept_tribute
 			}
 		}
 	}
@@ -4399,5 +4432,10 @@ tribute_mission.9800 = {
 		tribute_mission_clean_up_request_variables_effect = yes
 
 		remove_variable = new_overlord_unable_to_accept_tribute
+
+		if = {
+			limit = { exists = scope:tribute_reward_type_rejection }
+			tribute_mission_1000_rejection_effect = yes
+		}
 	}
 }

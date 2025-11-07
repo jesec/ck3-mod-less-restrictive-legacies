@@ -1186,7 +1186,9 @@
  count_herder_female: "女牧主"
  #Celestial Admin
  hegemon_celestial_male_chinese: "皇帝"
- hegemon_celestial_female_chinese: "皇后"
+ hegemon_celestial_female_chinese: "$hegemon_celestial_male_chinese$"
+ spouse_hegemon_celestial_male_chinese: "皇夫"
+ spouse_hegemon_celestial_female_chinese: "皇后"
  emperor_celestial_male_chinese_civilian_governor: "宣抚使"
  emperor_celestial_male_chinese_military_governor: "制置使"
  king_celestial_male_chinese_civilian_governor: "观察使"

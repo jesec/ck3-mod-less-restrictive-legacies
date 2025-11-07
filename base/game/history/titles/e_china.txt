@@ -6619,17 +6619,17 @@ c_kaizhou = {
 
 d_kuizhong = {
 	867.1.1 = {
-		holder = han_2665
+		holder = han_3206
 		liege = k_kuizhou
 		government = celestial_government
 	}
 	1066.1.1 = {
-		holder = han_6730
+		holder = han_90011
 		liege = k_kuizhou
 		government = celestial_government
 	}
 	1178.1.1 = {
-		holder = han_11371
+		holder = han_11512
 		liege = k_kuizhou
 		government = celestial_government
 	}
@@ -6641,17 +6641,17 @@ c_kuizhou = {
 	1178.1.1 = { change_development_level = 18 }
 
 	867.1.1 = {
-		holder = han_2665
+		holder = han_3206
 		liege = d_kuizhong
 		government = celestial_government
 	}
 	1066.1.1 = {
-		holder = han_6730
+		holder = han_90011
 		liege = d_kuizhong
 		government = celestial_government
 	}
 	1178.1.1 = {
-		holder = han_11371
+		holder = han_11512
 		liege = d_kuizhong
 		government = celestial_government
 	}
@@ -6685,17 +6685,17 @@ c_wanzhou = {
 	1178.1.1 = { change_development_level = 18 }
 
 	867.1.1 = {
-		holder = han_2665
+		holder = han_3206
 		liege = d_kuizhong
 		government = celestial_government
 	}
 	1066.1.1 = {
-		holder = han_6730
+		holder = han_90011
 		liege = d_kuizhong
 		government = celestial_government
 	}
 	1178.1.1 = {
-		holder = han_11371
+		holder = han_11512
 		liege = d_kuizhong
 		government = celestial_government
 	}
@@ -7016,17 +7016,17 @@ c_nanxi = {
 
 d_qianzhong = {
 	867.1.1 = {
-		holder = han_3206
+		holder = han_2665
 		liege = k_kuizhou
 		government = celestial_government
 	}
 	1066.1.1 = {
-		holder = han_90011 # Zhang Shen
+		holder = han_6730
 		liege = k_kuizhou
 		government = celestial_government
 	}
 	1178.1.1 = {
-		holder = han_11512
+		holder = han_11371
 		liege = k_kuizhou
 		government = celestial_government
 	}
@@ -7034,17 +7034,17 @@ d_qianzhong = {
 
 c_qianzhou_1 = {
 	867.1.1 = {
-		holder = han_3206
+		holder = han_2665
 		liege = d_qianzhong
 		government = celestial_government
 	}
 	1066.1.1 = {
-		holder = han_90011 # Zhang Shen
+		holder = han_6730
 		liege = d_qianzhong
 		government = celestial_government
 	}
 	1178.1.1 = {
-		holder = han_11512
+		holder = han_11371
 		liege = d_qianzhong
 		government = celestial_government
 	}
@@ -7111,6 +7111,7 @@ c_sizhou = {
 	}
 	1066.1.1 = {
 		holder = tribal_sijin_tian_1
+		liege = k_kuizhou
 		government = tribal_government
 	}
 	1178.1.1 = {

@@ -1317,7 +1317,9 @@
 
  # Celestial Admin
  hegemon_celestial_male_chinese: "Huángdì"
- hegemon_celestial_female_chinese: "Húanghòu"
+ hegemon_celestial_female_chinese: "$hegemon_celestial_male_chinese$"
+ spouse_hegemon_celestial_male_chinese: "Húangfū"
+ spouse_hegemon_celestial_female_chinese: "Húanghòu"
 
  emperor_celestial_male_chinese_civilian_governor: "Coordinator"
  emperor_celestial_male_chinese_military_governor: "Supreme Commander"

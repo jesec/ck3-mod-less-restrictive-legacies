@@ -249,7 +249,13 @@ celestial_provinces = {
 				# Only for direct vassals of the top liege
 				scope:liege.top_liege = scope:liege
 				# Only available in the Advancement phase of the Dynastic Cycle
-				situation:dynastic_cycle ?= { has_situation_top_phase_parameter = dynastic_cycle_hegemon_increased_metropolitan_limit }
+				trigger_if = {
+					limit = {
+						exists = situation:dynastic_cycle
+					}
+					situation:dynastic_cycle = { has_situation_top_phase_parameter = dynastic_cycle_hegemon_increased_metropolitan_limit }
+				}
+				#situation:dynastic_cycle ?= { situation_current_phase = situation_dynastic_cycle_phase_stability_advancement }
 				# Only the hegemon can appoint these
 				scope:liege = {
 					highest_held_title_tier = tier_hegemony
@@ -560,7 +566,13 @@ celestial_provinces = {
 				scope:liege.top_liege = scope:liege
 
 				# Only available in the Expansion phase of the Dynastic Cycle
-				situation:dynastic_cycle ?= { has_situation_top_phase_parameter = dynastic_cycle_hegemon_increased_protectorate_limit }
+				#situation:dynastic_cycle ?= { has_situation_top_phase_parameter = dynastic_cycle_hegemon_increased_protectorate_limit }
+				trigger_if = {
+					limit = {
+						exists = situation:dynastic_cycle
+					}
+					situation:dynastic_cycle = { has_situation_top_phase_parameter = dynastic_cycle_hegemon_increased_protectorate_limit }
+				}
 				# Only the hegemon can appoint these
 				scope:liege = {
 					highest_held_title_tier = tier_hegemony
@@ -714,7 +726,8 @@ celestial_ministry_obligations = {
 		
 			subject_modifier = {
 				monthly_merit = 20
-				men_at_arms_recruitment_cost = -0.1
+				men_at_arms_recruitment_cost = -0.5
+				men_at_arms_maintenance = -0.5
 				monthly_treasury_from_military_budget_base = 2.5
 				monthly_treasury_from_ministry_budget_base = 1
 			}

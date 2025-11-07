@@ -199,6 +199,11 @@ jurchen_wanyan_14 = { # Emperor Shizong
 	religion = dhyana
 	culture = jurchen
 	father = jurchen_wanyan_11
+	trait = education_martial_3
+	trait = chaste
+	trait = brave
+	trait = just
+	trait = administrator
 	1123.1.1 = {
 		birth = yes
 	}

@@ -1186,7 +1186,9 @@
  count_herder_female: "Pasterka"
  #Celestial Admin
  hegemon_celestial_male_chinese: "Huángdì"
- hegemon_celestial_female_chinese: "Húanghòu"
+ hegemon_celestial_female_chinese: "$hegemon_celestial_male_chinese$"
+ spouse_hegemon_celestial_male_chinese: "Húangfū"
+ spouse_hegemon_celestial_female_chinese: "Húanghòu"
  emperor_celestial_male_chinese_civilian_governor: "Koordynator"
  emperor_celestial_male_chinese_military_governor: "Naczelny dowódca"
  king_celestial_male_chinese_civilian_governor: "Namiestnik"

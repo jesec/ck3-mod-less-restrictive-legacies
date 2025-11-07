@@ -650,14 +650,13 @@ han_10780 = {
 
 han_8915 = {
 	name = "Buzhi_88DC_4E4B"
-	female = yes
 	dynasty = chao_6641_5
 	religion = "daoxue"
 	culture = "han"
 	#father = han_8420
 	trait = lifestyle_poet
-	1049.1.1 = { birth = yes }
-	1106.1.1 = { death = yes }
+	1053.1.1 = { birth = yes }
+	1110.1.1 = { death = yes }
 }
 
 han_7943 = {
@@ -1923,11 +1922,18 @@ han_7789 = {
 	name = "Chunren_7D14_4EC1"
 	dynasty = fan_8303_6
 	religion = "daoxue"
-
 	culture = "han"
 	father = han_6074
 	mother = han_6698
-	trait = honest
+	diplomacy = 9
+	martial = 3
+	stewardship = 8
+	intrigue = 4
+	learning = 7
+	trait = education_diplomacy_4
+	trait = just
+	trait = temperate
+	trait = diligent
 	1027.1.1 = { birth = yes }
 	1047.1.1 = { add_spouse = han_7980 }
 	1101.1.1 = { death = yes }
@@ -2136,6 +2142,17 @@ han_6648 = {
 	culture = "han"
 	father = han_5444
 	mother = han_5595
+	diplomacy = 10
+	martial = 4
+	stewardship = 8
+	intrigue = 3
+	learning = 7
+	trait = education_stewardship_3
+	trait = calm
+	trait = content
+	trait = compassionate
+	trait = loyal
+	trait = diplomat
 	1004.1.1 = { birth = yes }
 	1020.1.1 = { add_spouse = han_5723 }
 	1083.1.1 = { death = yes }
@@ -2148,6 +2165,15 @@ han_6821 = {
 	culture = "han"
 	father = han_5158
 	mother = han_5424
+	diplomacy = 10
+	martial = 4
+	stewardship = 9
+	intrigue = 3
+	learning = 7
+	trait = education_diplomacy_4
+	trait = just
+	trait = calm
+	trait = diligent
 	1008.1.1 = { birth = yes }
 	1024.1.1 = { add_spouse = han_5905 }
 	1058.1.1 = {
@@ -3853,6 +3879,16 @@ han_6745 = {
 	culture = "han"
 	father = han_5202
 	mother = han_5394
+	diplomacy = 9
+	martial = 2
+	stewardship = 7
+	intrigue = 5
+	learning = 10
+	trait = education_learning_4
+	trait = gregarious
+	trait = diligent
+	trait = just
+	trait = lifestyle_poet
 	1007.1.1 = { birth = yes }
 	1033.1.1 = { add_spouse = han_7236 }
 	1033.1.1 = { add_spouse = han_7237 }
@@ -4172,6 +4208,15 @@ han_7308 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_5742
+	diplomacy = 8
+	martial = 2
+	stewardship = 7
+	intrigue = 4
+	learning = 11
+	trait = education_learning_4
+	trait = content
+	trait = arbitrary
+	trait = stubborn
 	1019.11.17 = { birth = yes }
 	1039.1.1 = { add_spouse = han_7547 }
 	1066.1.1 = {
@@ -4215,6 +4260,15 @@ han_8399 = {
 	culture = "han"
 	father = han_6847
 	mother = han_6908
+	diplomacy = 8
+	martial = 2
+	stewardship = 7
+	intrigue = 5
+	learning = 9
+	trait = education_learning_4
+	trait = diligent
+	trait = honest
+	trait = stubborn
 	1039.1.1 = { birth = yes }
 	1112.1.1 = { death = yes }
 }
@@ -4690,6 +4744,15 @@ han_8812 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_7427
+	diplomacy = 8
+	martial = 2
+	stewardship = 10
+	intrigue = 9
+	learning = 6
+	trait = education_stewardship_4
+	trait = greedy
+	trait = ambitious
+	trait = deceitful
 	1047.1.1 = { birth = yes }
 	1126.1.1 = { death = yes }
 }
@@ -4973,6 +5036,15 @@ han_8110 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_6231
+	diplomacy = 9
+	martial = 3
+	stewardship = 8
+	intrigue = 6
+	learning = 7
+	trait = education_diplomacy_3
+	trait = just
+	trait = diligent
+	trait = stubborn
 	1034.1.1 = { birth = yes }
 	1095.1.1 = { death = yes }
 }
@@ -4995,6 +5067,16 @@ han_7436 = {
 	culture = "han"
 	father = han_6231
 	mother = han_6399
+	diplomacy = 7
+	martial = 3
+	stewardship = 8
+	intrigue = 6
+	learning = 8
+	trait = education_stewardship_4
+	trait = ambitious
+	trait = stubborn
+	trait = diligent
+	trait = administrator
 	trait = lifestyle_poet
 	1021.12.8 = { birth = yes }
 	1038.1.1 = { add_spouse = han_5821 }
@@ -5493,6 +5575,15 @@ han_6705 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_5995
+	diplomacy = 10
+	martial = 4
+	stewardship = 9
+	intrigue = 3
+	learning = 6
+	trait = education_diplomacy_4
+	trait = just
+	trait = calm
+	trait = diligent
 	1006.1.1 = { birth = yes }
 	1097.1.1 = { death = yes }
 }
@@ -5841,14 +5932,13 @@ han_10681 = {
 
 han_6123 = {
 	name = "Shu_6B8A"
-	female = yes
 	dynasty = yan_664F_1
 	religion = "daoxue"
 	culture = "han"
 	father = han_5525
 	trait = lifestyle_poet
 	991.1.1 = { birth = yes }
-	# 1007.1.1 = { add_spouse = han_5304 }
+	1007.1.1 = { add_spouse = han_5304 }
 	1055.1.1 = { death = yes }
 }
 
@@ -6301,6 +6391,15 @@ han_12495 = {
 	culture = "han"
 	father = han_11733
 	mother = han_11418
+	diplomacy = 8
+	martial = 2
+	stewardship = 6
+	intrigue = 5
+	learning = 11
+	trait = education_learning_4
+	trait = diligent
+	trait = stubborn
+	trait = just
 	1143.1.1 = { birth = yes }
 	1194.1.1 = { death = yes }
 }
@@ -6762,6 +6861,15 @@ han_12496 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_11805
+	diplomacy = 11
+	martial = 4
+	stewardship = 8
+	intrigue = 6
+	learning = 7
+	trait = education_diplomacy_4
+	trait = ambitious
+	trait = just
+	trait = diligent
 	1143.1.1 = { birth = yes } # hypothetical
 	1159.1.1 = { add_spouse = han_11422 }
 	1197.1.1 = { death = yes } # hypothetical
@@ -6993,7 +7101,7 @@ han_11957 = {
 	dna = bookmark_dna_zhu_xi
 	name = "Xi_71B9"
 	dynasty = zhu_6731_7
-	religion = "dhyana"
+	religion = "daoxue"
 	culture = "han"
 	father = han_10747
 	mother = han_10776
@@ -8416,7 +8524,15 @@ han_12237 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_10385
-	trait = greedy
+	diplomacy = 7
+	martial = 3
+	stewardship = 7
+	intrigue = 5
+	learning = 8
+	trait = education_learning_4
+	trait = diligent
+	trait = brave
+	trait = stubborn
 	1137.1.1 = { birth = yes }
 	1213.1.1 = { death = yes }
 }
@@ -8466,6 +8582,15 @@ han_12337 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_10947
+	diplomacy = 8
+	martial = 3
+	stewardship = 7
+	intrigue = 4
+	learning = 9
+	trait = education_learning_4
+	trait = brave
+	trait = stubborn
+	trait = just
 	1139.1.1 = { birth = yes }
 	1192.1.1 = { death = yes }
 }
@@ -8525,6 +8650,15 @@ han_11751 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_10459
+	diplomacy = 8
+	martial = 4
+	stewardship = 6
+	intrigue = 6
+	learning = 11
+	trait = education_learning_4
+	trait = diligent
+	trait = stubborn
+	trait = calm
 	trait = lifestyle_poet
 	1125.1.1 = { birth = yes }
 	# 1143.1.1 = { add_spouse = han_11837 }
@@ -9085,21 +9219,6 @@ han_11926 = {
 	father = han_10787
 	1129.1.1 = { birth = yes }
 	1192.1.1 = { death = yes }
-}
-
-han_8250 = {
-	name = "Shi_8EFE"
-	dynasty = su_8607_4
-	religion = "daoxue"
-	culture = "han"
-	father = han_6847
-	mother = han_6908
-	trait = lifestyle_poet
-	1036.1.1 = { birth = yes }
-	1055.1.1 = { add_spouse = han_8441 }
-	1064.1.1 = { add_spouse = han_8903 }
-	1079.1.1 = { add_spouse = han_9563 }
-	1101.1.1 = { death = yes }
 }
 
 han_11666 = {
@@ -11980,7 +12099,7 @@ han_8441 = {
 	culture = "han"
 	father = han_7167
 	1039.1.1 = { birth = yes }
-	1055.1.1 = { add_spouse = han_8250 }
+	1055.1.1 = { add_spouse = su_82CF_1 }
 	1065.1.1 = { death = yes }
 }
 
@@ -11992,7 +12111,7 @@ han_8903 = {
 	culture = "han"
 	father = han_7167
 	1048.1.1 = { birth = yes }
-	1064.1.1 = { add_spouse = han_8250 }
+	1064.1.1 = { add_spouse = su_82CF_1 }
 	1093.1.1 = { death = yes }
 }
 
@@ -15080,6 +15199,15 @@ han_8555 = {
 	religion = "daoxue"
 	culture = "han"
 #	father = han_8943
+	diplomacy = 9
+	martial = 2
+	stewardship = 7
+	intrigue = 6
+	learning = 10
+	trait = education_learning_4
+	trait = just
+	trait = diligent
+	trait = stubborn
 	1041.1.1 = { birth = yes }
 	1098.1.1 = { death = yes }
 }
@@ -15248,6 +15376,15 @@ han_12265 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_11306
+	diplomacy = 8
+	martial = 2
+	stewardship = 6
+	intrigue = 4
+	learning = 10
+	trait = education_learning_4
+	trait = just
+	trait = diligent
+	trait = temperate
 	1137.1.1 = { birth = yes }
 	1153.1.1 = { add_spouse = han_12199 }
 	1178.1.1 = { add_spouse = han_13143 }
@@ -15548,6 +15685,15 @@ han_8752 = {
 	culture = "han"
 	father = han_6372
 #	mother = han_13817
+	diplomacy = 7
+	martial = 2
+	stewardship = 5
+	intrigue = 5
+	learning = 10
+	trait = education_learning_4
+	trait = diligent
+	trait = stubborn
+	trait = gregarious
 	trait = lifestyle_poet
 	1045.1.1 = { birth = yes }
 	# 1061.1.1 = { add_spouse = han_8495 }
@@ -15977,6 +16123,15 @@ han_11802 = {
 	culture = "han"
 	father = han_10816
 	mother = han_10968
+	diplomacy = 9
+	martial = 2
+	stewardship = 8
+	intrigue = 5
+	learning = 11
+	trait = education_learning_4
+	trait = diligent
+	trait = just
+	trait = temperate
 	1126.1.1 = { birth = yes }
 	1142.1.1 = { add_spouse = han_10964 }
 	1151.1.1 = { add_spouse = han_12155 }
@@ -16765,6 +16920,15 @@ han_7367 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_5449
+	diplomacy = 8
+	martial = 2
+	stewardship = 6
+	intrigue = 4
+	learning = 10
+	trait = education_learning_4
+	trait = diligent
+	trait = honest
+	trait = calm
 	1019.1.1 = { birth = yes }
 	1053.1.1 = { add_spouse = han_8319 }
 	1083.1.1 = { death = yes }
@@ -17129,6 +17293,15 @@ han_6074 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_5398
+	diplomacy = 10
+	martial = 5
+	stewardship = 9
+	intrigue = 6
+	learning = 7
+	trait = education_stewardship_4
+	trait = diligent
+	trait = just
+	trait = temperate
 	989.1.1 = { birth = yes }
 	1052.1.1 = { death = yes }
 }
@@ -17297,6 +17470,15 @@ han_10334 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_8838
+	diplomacy = 8
+	martial = 10
+	stewardship = 7
+	intrigue = 6
+	learning = 5
+	trait = education_martial_3
+	trait = brave
+	trait = stubborn
+	trait = diligent
 	1083.1.1 = { birth = yes }
 	1099.1.1 = { add_spouse = han_9219 }
 	1140.1.1 = { death = yes }
@@ -17443,6 +17625,15 @@ han_11115 = {
 	culture = "han"
 	father = han_10362
 	mother = han_10543
+	diplomacy = 9
+	martial = 3
+	stewardship = 8
+	intrigue = 4
+	learning = 8
+	trait = education_diplomacy_4
+	trait = just
+	trait = diligent
+	trait = temperate
 	1106.1.1 = { birth = yes }
 	1122.1.1 = { add_spouse = han_10152 }
 	1178.10.1 = {
@@ -17477,6 +17668,15 @@ han_7424 = {
 	dynasty = su_8607_6
 	religion = "daoxue"
 	culture = "han"
+	diplomacy = 8
+	martial = 3
+	stewardship = 9
+	intrigue = 4
+	learning = 10
+	trait = education_learning_4
+	trait = diligent
+	trait = temperate
+	trait = ambitious
 	1020.1.1 = { birth = yes }
 	1101.1.1 = { death = yes }
 }
@@ -17797,6 +17997,15 @@ han_4622 = {
 	culture = "han"
 	father = han_4318
 	mother = han_4340
+	diplomacy = 10
+	martial = 12
+	stewardship = 8
+	intrigue = 6
+	learning = 4
+	trait = education_martial_3
+	trait = brave
+	trait = ambitious
+	trait = diligent
 	927.1.1 = { birth = yes }
 	945.1.1 = { add_spouse = han_4655 }
 	958.1.1 = { add_spouse = han_4849 }
@@ -17879,6 +18088,9 @@ han_8910 = {
 	culture = "han"
 	father = han_8052
 	mother = han_8001
+	trait = education_stewardship_3
+	trait = diligent
+	trait = fickle
 	1048.1.1 = { birth = yes }
 	1064.1.1 = { add_spouse = han_7764 }
 	1064.1.1 = { add_spouse = han_8791 }
@@ -17962,7 +18174,8 @@ han_11858 = {
 	trait = education_stewardship_3
 	trait = diligent
 	trait = just
-	trait = humble
+	trait = temperate
+	trait = shrewd
 	1127.1.1 = { birth = yes }
 	1143.1.1 = { add_spouse = han_10433 }
 	1143.1.1 = { add_spouse = han_11365 }
@@ -19514,6 +19727,15 @@ han_13706 = {
 	culture = "han"
 	father = han_12794
 	mother = han_13650
+	diplomacy = 9
+	martial = 6
+	stewardship = 5
+	intrigue = 8
+	learning = 5
+	trait = education_intrigue_3
+	trait = ambitious
+	trait = callous
+	trait = arrogant
 	1213.1.1 = { birth = yes }
 	1229.1.1 = { add_spouse = han_13541 }
 	1275.1.1 = { death = yes }
@@ -19550,6 +19772,15 @@ han_13633 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_13208
+    diplomacy = 9
+    martial = 5
+    stewardship = 8
+    intrigue = 4
+    learning = 7
+    trait = education_diplomacy_4
+    trait = diligent
+    trait = just
+    trait = calm
 	1193.1.1 = { birth = yes }
 	1270.1.1 = { death = yes }
 }
@@ -20562,6 +20793,15 @@ han_11806 = {
 	culture = "han"
 	father = han_10703
 #	mother = han_13805
+	diplomacy = 8
+	martial = 2
+	stewardship = 5
+	intrigue = 5
+	learning = 9
+	trait = education_learning_4
+	trait = gregarious
+	trait = diligent
+	trait = stubborn
 	trait = lifestyle_poet
 	1127.1.1 = { birth = yes }
 	1206.1.1 = { death = yes }
@@ -20616,6 +20856,15 @@ han_12209 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_10743
+	diplomacy = 8
+	martial = 2
+	stewardship = 7
+	intrigue = 5
+	learning = 11
+	trait = education_learning_4
+	trait = diligent
+	trait = stubborn
+	trait = just
 	1137.1.1 = { birth = yes }
 	1162.1.1 = { add_spouse = han_12604 }
 	1203.1.1 = { death = yes }
@@ -21338,6 +21587,15 @@ han_12717 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_11504
+	diplomacy = 8
+	martial = 2
+	stewardship = 9
+	intrigue = 5
+	learning = 11
+	trait = education_learning_4
+	trait = diligent
+	trait = patient
+	trait = just
 	1150.1.1 = { birth = yes }
 	1176.1.1 = { add_spouse = han_13092 }
 	1223.1.1 = { death = yes }
@@ -24192,6 +24450,18 @@ han_7370 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_6112
+	diplomacy = 7
+	martial = 2
+	stewardship = 6
+	intrigue = 4
+	learning = 9
+	trait = education_learning_4
+	trait = temperate
+	trait = patient
+	trait = zealous
+	trait = journaller
+	trait = intellect_good_2
+	trait = theologian
 	1020.1.1 = { birth = yes }
 	1077.1.1 = { death = yes }
 }
@@ -24660,7 +24930,6 @@ han_12469 = {
 	name = "Jibi_5B63_73CC"
 	dynasty = liang_6881_1
 	religion = "daoxue"
-
 	culture = "han"
 	father = han_10707
 	trait = honest
@@ -25137,7 +25406,6 @@ han_10588 = {
 	name = "Gao_69D4"
 	dynasty = zhu_6731_7
 	religion = "daoxue"
-
 	culture = "han"
 	father = han_9889
 	1092.1.1 = { birth = yes } # hypothetical
@@ -26683,7 +26951,7 @@ han_7043 = {
 	dynasty = yan_664F_1
 	religion = "daoxue"
 	culture = "han"
-#	father = han_6123
+	father = han_6123
 	1014.1.1 = { birth = yes } # hypothetical
 	1090.1.1 = { death = yes } # hypothetical
 }
@@ -26703,7 +26971,7 @@ han_6739 = {
 	dynasty = yan_664F_1
 	religion = "daoxue"
 	culture = "han"
-#	father = han_6123
+	father = han_6123
 	1007.1.1 = { birth = yes } # hypothetical
 	1069.1.1 = { death = yes } # hypothetical
 }
@@ -26724,7 +26992,7 @@ han_6778 = {
 	dynasty = yan_664F_1
 	religion = "daoxue"
 	culture = "han"
-#	father = han_6123
+	father = han_6123
 	1008.1.1 = { birth = yes } # hypothetical
 	1088.1.1 = { death = yes } # hypothetical
 }
@@ -27921,6 +28189,15 @@ han_268 = {
 	culture = "han"
 	father = han_206
 	mother = han_214
+	diplomacy = 9
+	martial = 8
+	stewardship = 7
+	intrigue = 6
+	learning = 4
+	trait = education_diplomacy_3
+	trait = ambitious
+	trait = brave
+	trait = temperate
 	566.1.1 = { birth = yes }
 	582.1.1 = { add_spouse = han_231 }
 	585.1.1 = { add_spouse = han_279 }
@@ -27931,11 +28208,20 @@ han_377 = {
 	name = "Shimin_4E16_6C11"
 	dynasty = li_674E_87
 	religion = "dhyana"
-
 	culture = "han"
 	father = han_268
 	mother = han_279
-	trait = education_martial_3
+	diplomacy = 8
+	martial = 15
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+	trait = education_martial_4
+	trait = ambitious
+	trait = brave
+	trait = diligent
+	trait = kinslayer_3
+	trait = intellect_good_3
 	598.1.1 = { birth = yes }
 	614.1.1 = { add_spouse = han_306 }
 	617.1.1 = { add_spouse = han_395 }
@@ -47662,22 +47948,12 @@ han_12531 = {
 	1218.1.1 = { death = yes } # hypothetical
 }
 
-han_9076 = {
-	name = "Mai_9081"
-	dynasty = su_8607_4
-	religion = "daoxue"
-	culture = "han"
-	father = han_8250
-	1052.1.1 = { birth = yes } # hypothetical
-	1128.1.1 = { death = yes } # hypothetical
-}
-
 han_9928 = {
 	name = "Guo_904E"
 	dynasty = su_8607_4
 	religion = "daoxue"
 	culture = "han"
-	father = han_8250
+	father = su_82CF_1
 	1072.1.1 = { birth = yes }
 	1123.1.1 = { death = yes }
 }
@@ -47924,6 +48200,15 @@ han_538 = {
 	culture = "han"
 	father = han_377
 	mother = han_395
+	diplomacy = 9
+	martial = 4
+	stewardship = 7
+	intrigue = 6
+	learning = 6
+	trait = education_diplomacy_3
+	trait = trusting
+	trait = temperate
+	trait = compassionate
 	628.1.1 = { birth = yes }
 	644.1.1 = { add_spouse = han_408 }
 	644.1.1 = { add_spouse = han_350 }
@@ -47938,6 +48223,15 @@ han_694 = {
 	culture = "han"
 	father = han_538
 	mother = han_518
+	diplomacy = 8
+	martial = 3
+	stewardship = 6
+	intrigue = 6
+	learning = 5
+	trait = education_diplomacy_2
+	trait = trusting
+	trait = fickle
+	trait = gregarious
 	656.1.1 = { birth = yes }
 	672.1.1 = { add_spouse = han_539 }
 	672.1.1 = { add_spouse = han_581 }
@@ -47951,6 +48245,15 @@ han_736 = {
 	culture = "han"
 	father = han_538
 	mother = han_518
+	diplomacy = 9
+	martial = 3
+	stewardship = 7
+	intrigue = 7
+	learning = 6
+	trait = education_diplomacy_3
+	trait = temperate
+	trait = patient
+	trait = trusting
 	662.1.1 = { birth = yes }
 	678.1.1 = { add_spouse = han_730 }
 	684.1.1 = { add_spouse = han_791 }
@@ -47964,6 +48267,15 @@ han_911 = {
 	culture = "han"
 	father = han_736
 	mother = han_791
+	diplomacy = 11
+	martial = 6
+	stewardship = 8
+	intrigue = 7
+	learning = 6
+	trait = education_stewardship_4
+	trait = ambitious
+	trait = lustful
+	trait = arrogant
 	685.1.1 = { birth = yes }
 	701.1.1 = { add_spouse = han_722 }
 	701.1.1 = { add_spouse = han_773 }
@@ -47979,6 +48291,15 @@ han_1149 = {
 	culture = "han"
 	father = han_911
 	mother = han_990
+	diplomacy = 8
+	martial = 5
+	stewardship = 8
+	intrigue = 7
+	learning = 5
+	trait = education_stewardship_3
+	trait = ambitious
+	trait = temperate
+	trait = stubborn
 	711.1.1 = { birth = yes }
 	739.1.1 = { add_spouse = han_1267 }
 	762.1.1 = { death = yes }
@@ -47991,6 +48312,15 @@ han_1328 = {
 	culture = "han"
 	father = han_1149
 	#mother = han_1267
+	diplomacy = 8
+	martial = 4
+	stewardship = 7
+	intrigue = 6
+	learning = 6
+	trait = education_diplomacy_4
+	trait = temperate
+	trait = diligent
+	trait = trusting
 	726.11.11 = { birth = yes }
 	743.1.1 = { add_spouse = han_929 }
 	743.1.1 = { add_spouse = han_889 }
@@ -48005,6 +48335,15 @@ han_1528 = {
 	culture = "han"
 	father = han_1328
 	mother = han_929
+	diplomacy = 8
+	martial = 4
+	stewardship = 9
+	intrigue = 7
+	learning = 6
+	trait = education_stewardship_3
+	trait = diligent
+	trait = paranoid
+	trait = stubborn
 	742.5.27 = { birth = yes }
 	758.1.1 = { add_spouse = han_1162 }
 	758.1.1 = { add_spouse = han_1127 }
@@ -48040,6 +48379,15 @@ han_3026 = {
 	culture = "han"
 	father = han_2146
 	mother = han_1561
+	diplomacy = 10
+	martial = 4
+	stewardship = 8
+	intrigue = 7
+	learning = 6
+	trait = education_diplomacy_3
+	trait = temperate
+	trait = just
+	trait = diligent
 	810.1.1 = { birth = yes }
 	826.1.1 = { add_spouse = han_2178 }
 	859.1.1 = { death = yes }
@@ -61586,7 +61934,6 @@ han_7641 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_6206
-	mother = han_6123
 	1025.1.1 = { birth = yes }
 	1074.1.1 = { death = yes }
 }
@@ -70663,11 +71010,11 @@ han_12371 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_11533
-	diplomacy = 4
+	diplomacy = 7
 	martial = 8
 	stewardship = 2
 	intrigue = 1
-	learning = 5
+	learning = 7
 	trait = brave
 	trait = stubborn
 	trait = ambitious
@@ -71896,7 +72243,16 @@ han_1224 = {
 	religion = "jingxue"
 	culture = "han"
 	father = han_857
+	diplomacy = 10
+	martial = 2
+	stewardship = 5
+	intrigue = 8
+	learning = 5
 	trait = lifestyle_poet
+	trait = craven
+	trait = gregarious
+	trait = content
+	trait = beauty_good_3
 	719.1.1 = { birth = yes }
 	735.1.1 = { add_spouse = han_911 }
 	756.1.1 = { death = yes }
@@ -73532,11 +73888,18 @@ han_2040 = {
 	name = "Juyi_5C45_6613"
 	dynasty = bai_767D_1
 	religion = "jingxue"
-
-
 	culture = "han"
 	father = han_1353
 	mother = han_1730
+	diplomacy = 10
+	martial = 2
+	stewardship = 7
+	intrigue = 5
+	learning = 9
+	trait = education_learning_4
+	trait = gregarious
+	trait = diligent
+	trait = just
 	trait = lifestyle_poet
 	772.1.1 = { birth = yes }
 	788.1.1 = { add_spouse = han_1378 }
@@ -86078,7 +86441,7 @@ han_5304 = {
 	religion = "daoxue"
 	culture = "han"
 	963.1.1 = { birth = yes } # hypothetical
-	# 1007.1.1 = { add_spouse = han_6123 }
+	1007.1.1 = { add_spouse = han_6123 }
 	1033.1.1 = { death = yes } # hypothetical
 }
 
@@ -94840,10 +95203,18 @@ han_518 = {
 	female = yes
 	dynasty = wu_6B66_1
 	religion = "dhyana"
-
 	culture = "han"
 	father = han_347
 	mother = han_365
+	diplomacy = 10
+	martial = 5
+	stewardship = 9
+	intrigue = 11
+	learning = 5
+	trait = education_intrigue_4
+	trait = ambitious
+	trait = arrogant
+	trait = diligent
 	trait = devoted
 	624.1.1 = { birth = yes }
 	640.1.1 = { add_spouse = han_377 }
@@ -95050,11 +95421,11 @@ han_3310 = {
 	culture = "han"
 	father = han_2406
 	diplomacy = 0
-	martial = 6
+	martial = 8
 	stewardship = 4
 	intrigue = 1
 	learning = 1
-	trait = education_martial_2
+	trait = education_martial_3
 	trait = sadistic
 	trait = paranoid
 	trait = arrogant
@@ -97158,7 +97529,7 @@ han_9563 = {
 	religion = "daoxue"
 	culture = "han"
 	1063.1.1 = { birth = yes }
-	1079.1.1 = { add_spouse = han_8250 }
+	1079.1.1 = { add_spouse = su_82CF_1 }
 	1096.1.1 = { death = yes }
 }
 
@@ -104358,9 +104729,10 @@ han_3177 = {
 han_1379 = {
 	name = "Shi_6C0F"
 	female = yes
-	dynasty = bai_767D_2
+	dynasty = bai_767D_1
 	religion = "jingxue"
 	culture = "han"
+	father = han_1099
 	731.1.1 = { birth = yes }
 	747.1.1 = { add_spouse = han_1003 }
 	800.1.1 = { death = yes }
@@ -112722,6 +113094,15 @@ han_2028 = {
 	culture = "han"
 	#father = han_1832
 	mother = han_1513
+	diplomacy = 8
+	martial = 7
+	stewardship = 8
+	intrigue = 7
+	learning = 5
+	trait = education_martial_3
+	trait = ambitious
+	trait = diligent
+	trait = wrathful
 	772.1.1 = { birth = yes }
 	788.1.1 = { add_spouse = han_1784 }
 	788.1.1 = { add_spouse = han_1561 }
@@ -127345,6 +127726,15 @@ han_1832 = {
 	religion = "dhyana"
 	culture = "han"
 	father = han_1528
+	diplomacy = 9
+	martial = 3
+	stewardship = 6
+	intrigue = 6
+	learning = 8
+	trait = education_diplomacy_3
+	trait = temperate
+	trait = trusting
+	trait = compassionate
 	761.1.1 = { birth = yes }
 	777.1.1 = { add_spouse = han_1513 }
 	806.1.1 = { death = yes }
@@ -127567,6 +127957,15 @@ han_2576 = {
 	culture = "han"
 	father = han_2028
 	mother = han_1784
+	diplomacy = 7
+	martial = 3
+	stewardship = 5
+	intrigue = 6
+	learning = 6
+	trait = education_diplomacy_2
+	trait = gregarious
+	trait = lazy
+	trait = fickle
 	794.1.1 = { birth = yes }
 	810.1.1 = { add_spouse = han_2043 }
 	810.1.1 = { add_spouse = han_2240 }
@@ -127674,6 +128073,15 @@ han_4097 = {
 	religion = "dhyana"
 	culture = "han"
 	mother = han_3943
+	diplomacy = 7
+	martial = 5
+	stewardship = 6
+	intrigue = 8
+	learning = 5
+	trait = education_intrigue_3
+	trait = brave
+	trait = wrathful
+	trait = stubborn
 	867.1.1 = { birth = yes }
 	883.1.1 = { add_spouse = han_3681 }
 	904.1.1 = { death = yes }
@@ -133052,6 +133460,15 @@ han_868 = {
 	culture = "han"
 	father = han_736
 	mother = han_730
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 6
+	learning = 6
+	trait = education_diplomacy_2
+	trait = calm
+	trait = trusting
+	trait = content
 	679.1.1 = { birth = yes }
 	741.1.1 = { death = yes }
 }
@@ -141474,12 +141891,17 @@ bookmark_huang_chao = {
 	stewardship = 3
 	intrigue = 4
 	learning = 0
-	trait = arbitrary
+	trait = cynical
 	trait = education_martial_2
 	trait = ambitious
 	trait = stubborn
 	sexuality = heterosexual
-	835.1.1	= { birth = yes }
+	835.1.1	= { 
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
 	884.6.15 = { death = yes }
 }
 
@@ -141496,9 +141918,10 @@ su_82CF_1 = {
 	intrigue = 2
 	learning = 9
 	trait = education_learning_4
-	trait = stubborn
-	trait = ambitious
+	trait = gregarious
+	trait = content
 	trait = gluttonous
+	trait = comfort_eater
 	trait = lifestyle_poet
 	trait = intellect_good_1
 	sexuality = heterosexual
@@ -141529,6 +141952,17 @@ su_82CF_2 = {
 	religion = "daoxue"
 	culture = "han"
 	father = su_82CF_14
+	diplomacy = 8
+	martial = 2
+	stewardship = 6
+	intrigue = 5
+	learning = 11
+	trait = education_learning_4
+	trait = diligent
+	trait = arrogant
+	trait = honest
+	trait = physique_bad_1
+	trait = scholar
 	1009.5.22 = { birth = yes }
 	1066.5.21 = { death = yes }
 }
@@ -144960,18 +145394,23 @@ ding_hui_1 = {
 	}
 }
 liang_zhu_1 = {
-	name = "Zhu_Quanzhong_6731_5168_5FE0"
+	name = "Wen_6E29"
 	dynasty = hchar_zhu
 	religion = "jingxue"
 	culture = "han"
-	trait = education_martial_2
-	852.1.1 = {
+	trait = lustful
+	trait = deceitful
+	trait = ambitious
+	trait = education_martial_3
+	disallow_random_traits = yes
+	sexuality = heterosexual
+	852.12.5 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
 	}
-	912.1.1 = {
+	912.7.18 = {
 		death = yes
 	}
 }
@@ -145039,7 +145478,7 @@ furong_daokai_1 = {
 wang_chuyi_1 = {
 	name = "Chuyi_8655_7FA9"
 	dynasty = hchar_wang
-	religion = "daoxue"
+	religion = "quanzhen"
 	culture = "han"
 	trait = education_learning_3
 	trait = temperate
@@ -145063,6 +145502,15 @@ imperial_han_1 = {
 	dynasty = han_imperial_liu
 	religion = "jingxue"
 	culture = "han"
+	diplomacy = 10
+	martial = 11
+	stewardship = 8
+	intrigue = 7
+	learning = 6
+	trait = education_stewardship_3
+	trait = calm
+	trait = patient
+	trait = just
 	5.1.15 = { birth = yes }
 	57.3.29 = { death = yes }
 }

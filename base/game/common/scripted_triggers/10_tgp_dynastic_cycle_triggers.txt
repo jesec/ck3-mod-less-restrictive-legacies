@@ -44,9 +44,11 @@ tgp_is_hegemon_or_below_in_dynastic_cycle_trigger = {
 }
 
 is_valid_celestial_dynasty = {
-	government_has_flag = government_is_celestial
-	culture = {
-		has_cultural_pillar = heritage_chinese
+	OR = {
+		government_has_flag = government_is_celestial
+		culture = {
+			has_cultural_pillar = heritage_chinese
+		}
 	}
 }
 
