@@ -219,7 +219,7 @@
  GOVERNMENTS_HEADER: "Wyświetlanie: [governments|E]"
  PLAYERS_HEADER: "Wyświetlanie: [realms|E] graczy"
  DEVELOPMENT_HEADER: "Wyświetlanie: [development|E] hrabstwa"
- SIMPLE_TERRAIN_HEADER: "Wyświetlanie: Prosty [terrain|El]"
+ SIMPLE_TERRAIN_HEADER: "Wyświetlanie: prosty [terrain|El]"
  COURT_LANGUAGES_HEADER: "Wyświetlanie: [court_languages|E]"
  ECONOMY_BUILDINGS_HEADER: "Wyświetlanie: [income|E] [Concept( 'county', 'hrabstw' )|E] i [Concept( 'special_buildings', 'budowli specjalnych' )|E]"
  LANDLESS_RULERS_HEADER: "Wyświetlanie: władcy bez ziemi"

@@ -44,8 +44,8 @@
  souvenir_bought: "Artefakt [souvenir.GetName] został kupiony w miejscu znanym jako [city_province.GetNameNoTooltip]"
  #Baghdad - Specific:
  travel_city_baghdad_intro: "Przechodząc przez bramy miejsca znanego jako [city_province.GetNameNoTooltip], trudno nie oprzeć się wrażeniu, że dotarło się do tradycyjnego centrum arabskojęzycznego i islamskiego świata.\n\n"
- travel_city_baghdad_suq_al_warraqin_title: "[city_province.GetNameNoTooltip]: Suk al-Warrakin"
- travel_city_baghdad_royal_enclosure_title: "[city_province.GetNameNoTooltip]: Dzielnica królewska"
+ travel_city_baghdad_suq_al_warraqin_title: "[city_province.GetNameNoTooltip]: suk al-Warrakin"
+ travel_city_baghdad_royal_enclosure_title: "[city_province.GetNameNoTooltip]: dzielnica królewska"
  travel_city_baghdad_cemeteries_title: "[city_province.GetNameNoTooltip] z minionych lat"
  travel_city_baghdad_suq_al_warraqin: "Gdy zbliżam się do centrum miasta, powietrze wypełnia się intelektualnym dyskursem literackim. Cała ulica, łącznie z prowadzącymi do niej mostami, usiana jest setkami księgarń i salonów literackich."
  travel_city_baghdad_royal_enclosure: "Na obrzeżach śródmieścia otaczają mnie pomniejsze pałace, kuchnie i piekarnie. Przez cały czas góruje nad nami zielona kopuła Pałacu Złotej Bramy."
@@ -53,9 +53,9 @@
  travel_city_baghdad_companion_reflection: "\n\n[ROOT.Char.Custom2('RelationToMe', sightseeing_companion)|U] [sightseeing_companion.GetName] zauważa, że są to ludzie, którzy znali inny Bagdad. Ten dzisiejszy jest dla nich prawie nie do poznania."
  #Rome - Specific
  travel_city_rome_intro: "W oddali [city_province.GetNameNoTooltip] wygląda jak las wież i labirynt kamiennych budynków. Im bardziej się zbliżamy, tym bardziej zmienia się krajobraz: ruiny pomników, murów i starych kościołów współistnieją obok farm i pasących się zwierząt.\n\n"
- travel_city_rome_fortified_monuments_title: "[city_province.GetNameNoTooltip]: Ufortyfikowane monumenty"
+ travel_city_rome_fortified_monuments_title: "[city_province.GetNameNoTooltip]: ufortyfikowane monumenty"
  travel_city_rome_fortified_monuments: "W drodze przez miasto zauważył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )], jak ruiny zostały starannie ufortyfikowane przez zwaśnione rody. W ten sposób Mauzoleum Hadriana, a nawet Koloseum stały się fortecami."
- travel_city_rome_caesars_needle_title: "[city_province.GetNameNoTooltip]: Igła Cezara"
+ travel_city_rome_caesars_needle_title: "[city_province.GetNameNoTooltip]: igła Cezara"
  travel_city_rome_caesars_needle: "Gdy zatrzymujemy się przed wielkim obeliskiem, miejscowy opowiada, że na jego szczycie w małej okrągłej skrzynce spoczywają prochy Juliusza Cezara.\n\n#EMP „Za życia, jak i po śmierci, Cezar jest wyniesiony ponad wszystkich Rzymian”.#!"
  travel_city_rome_companion_reflection: "\n[ROOT.Char.Custom2('RelationToMe', sightseeing_companion)|U] [sightseeing_companion.GetName] dodaje, że dobrze byłoby wykorzystać szansę i dowiedzieć się czegoś o mieście."
  travel_city_rome_alone_reflection: "\nNie mogę przestać rozmyślać o starożytności tego miasta."

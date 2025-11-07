@@ -260,8 +260,8 @@ flowcontainer = {
 
 				dockable_button = {
 					name = "renown_console_button"
-					onclick = "[ExecuteConsoleCommand('effect = { dynasty = { add_dynasty_prestige = 1000 } }')]"
-					onrightclick = "[ExecuteConsoleCommand('effect = { dynasty = { add_dynasty_prestige = -1000 } }')]"
+					onclick = "[ExecuteConsoleCommand('effect dynasty = { add_dynasty_prestige = 1000 }')]"
+					onrightclick = "[ExecuteConsoleCommand('effect dynasty = { add_dynasty_prestige = -1000 }')]"
 					button_ignore = none
 					raw_tooltip = "Left-click: Gain 1000 Renown, Right-click: Lose 1000 Renown"
 					using = tooltip_ne
@@ -275,8 +275,8 @@ flowcontainer = {
 
 				dockable_button = {
 					name = "legitimacy_console_button"
-					onclick = "[ExecuteConsoleCommand('effect = { add_legitimacy = 100 }')]"
-					onrightclick = "[ExecuteConsoleCommand('effect = { add_legitimacy = -100 }')]"
+					onclick = "[ExecuteConsoleCommand('effect add_legitimacy = 100')]"
+					onrightclick = "[ExecuteConsoleCommand('effect add_legitimacy = -100')]"
 					button_ignore = none
 					raw_tooltip = "Left-click: Gain 100 Legitimacy, Right-click: Lose 100 Legitimacy"
 					using = tooltip_ne

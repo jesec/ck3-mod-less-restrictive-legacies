@@ -89,7 +89,7 @@
  bp1_yearly.5705.t: "[lover_rival.GetSheHe|U]不配！"
  bp1_yearly.5705.desc: "也许我最近有点太得意了？这应该就是[concerned_friend.GetFirstName]如此生气的原因。我的朋友忍无可忍与我就……我与[lover_rival.GetFirstName]的复杂关系进行对质。\n\n“你真是太荒谬了！”[concerned_friend.GetSheHe]直截了当地说道，还伸出[concerned_friend.GetSheHe]的手指戳了戳我的胸口，显然被我做爱后恍惚的举止激怒了。“你#EMP 知道#!这不会有什么好结果！你这是在自取灭亡，而且你自己也知道这一点！”"
  bp1_yearly.5705.a: "但是……你#EMP 见过#![lover_rival.GetHerHim]吗？！"
- bp1_yearly.5705.a.tt: "该选项可用，因为[lover_rival.GetFirstNamePossessiveNoTooltip]出了名的吸引力。"
+ bp1_yearly.5705.a.tt: "此选项可用，因为[lover_rival.GetFirstNamePossessiveNoTooltip]出了名的吸引力。"
  bp1_yearly.5705.b: "你根本不懂我们的关系！"
  bp1_yearly.5705.c: "我懂，我懂。你是对的。"
  bp1_yearly.5706.t: "[SCOPE.sC('rival_child').Custom2('RelationToMeShort', SCOPE.sC('rival_parent'))|U]之罪"

@@ -135,7 +135,7 @@
  ep1_flavor.2010.desc_family: "我的血亲真的会搞阴谋害我吗？"
  ep1_flavor.2010.desc_consort: "我真的和想杀我的人同床共枕吗？"
  ep1_flavor.2010.desc_councillor: "我最亲密的顾问之一真的想要伤害我吗？"
- ep1_flavor.2010.desc_fallback: "我从每一双眼睛里都看到了背叛；我审视着群臣的的双手，查看是否暗藏利刃。"
+ ep1_flavor.2010.desc_fallback: "我从每一双眼睛里都看到了背叛；我审视着群臣的双手，查看是否暗藏利刃。"
  ep1_flavor.2010.desc_outro: "[ROOT.Char.GetFaith.HighGodName]啊，我该怎么办……"
  #OPTIONS
  ep1_flavor.2010.a.real: "是[real_plotter.GetTitledFirstNameNoTooltip]，我敢肯定！"
@@ -313,7 +313,7 @@
  ep1_flavor.2070.desc.fall_alchemy: "“这个比例绝不会有效，”[symposium_courtier.GetFirstNameNoTooltip]一边摇着[symposium_courtier.GetHerHis]的脑袋，一边审视着一块树皮上的刮痕。“这之前都已经有人试过了。”\n\n那[symposium_scholar.Custom('GetYoungMiddleAgedOld')][symposium_scholar.GetWomanMan]回应道：“所有人都会犯错——甚至是炼金术士——他们可能遗漏了什么东西。”"
  ep1_flavor.2070.desc.fall_stars: "“不不不！这些理论几个世纪之前就被证误了，”[symposium_courtier.GetFirstNameNoTooltip]满腹狐疑地皱眉道，“你难道都没有读过天文学的经典吗？”\n\n“你那是学而不思，”那[symposium_scholar.Custom('GetYoungMiddleAgedOld')][symposium_scholar.GetWomanMan]反驳道，“我们仍有很多东西要学。”"
  ep1_flavor.2070.desc.fall_books: "“你读书#EMP 显然#!一直读错了，”[symposium_courtier.GetFirstNameNoTooltip]不屑一顾地说道，“我会给你一份[symposium_courtier.GetCulture.GetNameNoTooltip]人的推荐书单……”\n\n“不要紧，”那[symposium_scholar.Custom('GetYoungMiddleAgedOld')][symposium_scholar.GetWomanMan]平静地回应道，“你书单里#EMP 显然#!没什么货。”"
- ep1_flavor.2070.a: "“我说，你想不想多呆一阵子，[symposium_scholar.GetFirstNameNoTooltip]？”"
+ ep1_flavor.2070.a: "“我说，你想不想多待一阵子，[symposium_scholar.GetFirstNameNoTooltip]？”"
  ep1_flavor.2070.c: "“你说错了，原因如下。”"
  ep1_flavor.2070.c.lang: "“你刚说的是我以为的意思吗？”"
  ep1_flavor.2070.c.success: "你证明了[symposium_scholar.GetFirstNameNoTooltip]的错误"

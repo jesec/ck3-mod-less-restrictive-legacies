@@ -126,7 +126,7 @@
  lover.3113.desc: "\"당연하죠. 당신만을 바라볼게요, 내 [ROOT.Char.Custom('LoverPetName')]!\"\n\n애정과 갈망이 용솟음치는 통에, 가슴이 한껏 부풀어 올랐다. [lover.GetTitledFirstName](을)를 껴안은 나는 [lover.GetHerHim]와 깊은 입맞춤을 나눴다."
  lover.3113.a: "당신만 있다면 뭐든 상관없어!"
  lover.3113.a.tt: "#F [lover.GetFirstNameNoTooltip]만큼 다른 사람을 사랑하는 일은 없을 거야!#!"
- lover.3114.desc: "\"저도 당신이 좋아요, [ROOT.Char.GetFirstNameNoTooltip]. 하지만 당신만을 보겠다고 맹세할 준비가 되진 않았어요.\"\n\n[lover.GetTitledFirstName](이)가 [lover.Custom('quirk_neg_present_type3_KR')]다. 이윽고 어색한 침묵이 우리를 감쌌다."
+ lover.3114.desc: "\"저도 당신이 좋아요, [ROOT.Char.GetFirstNameNoTooltip]. 하지만 당신만을 보겠다고 맹세할 준비가 되진 않았어요.\"\n\n[lover.GetTitledFirstName](이)가 [lover.Custom('quirk_neg_present')]. 이윽고 어색한 침묵이 우리를 감쌌다."
  lover.3114.a: "내가 그 사람을 잘못 생각했던 건가?"
  lover.0304.opening: "사랑하는 [ROOT.Char.GetFirstNameNoTooltip],"
  lover.0304.desc: "이런 식으로 끝나게 될 줄은 몰랐는데, 결국 이렇게 되어버렸네요. 미안해요. 전 다른 사람을 좋아하고 있어요. 그러니 더는 함께할 수 없을 것 같아요.\n\n온 세상의 행복이 뒤따르길 바랄게요. [ROOT.Char.GetFaith.HighGodName]께서 굽어살피시기를."

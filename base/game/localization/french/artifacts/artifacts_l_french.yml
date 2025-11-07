@@ -1036,6 +1036,7 @@
  artifact_crossbow: "Arbalète"
  artifact_crossbow_name: "Arbalète $artifact_name_prefix$"
  artifact_crossbow_description: "Une arbalète [SCOPE.Custom('ArtifactQuality')] en [newly_created_artifact.GetFeatureText( 'bow_wood' )] avec des fers d’arcs tendus. Elle est extrêmement puissante et peut être préparée à l’avance, mais lente à recharger."
+ create_artifact_bow_tooltip: "[inspiration_owner.Custom('FR_le_Char_U_Pi')|U][inspiration_owner.GetShortUIName] a produit [SCOPE.Custom('ArtifactBowType')] [SCOPE.Custom('ArtifactQuality')]"
  feature_longbow_wood_elm: "$feature_bow_wood_elm$"
  feature_longbow_wood_yew: "$feature_bow_wood_yew$"
  feature_composite_wood_bamboo: "$feature_bow_wood_bamboo$"

@@ -68,9 +68,9 @@
  paganism_divine_realm: "les Cieux"
  paganism_divine_realm_2: "aux Cieux" #Optional translation alt
  paganism_divine_realm_3: "des Cieux" #Optional translation alt
- paganism_afterlife: "les enfers"
- paganism_afterlife_2: "aux enfers" #Optional translation alt
- paganism_afterlife_3: "des enfers" #Optional translation alt
+ paganism_afterlife: "l’autre monde"
+ paganism_afterlife_2: "dans l’autre monde" #Optional translation alt
+ paganism_afterlife_3: "de l’autre monde" #Optional translation alt
  witchgodname_paganism_the_shadow: "l’Ombre"
  witchgodname_paganism_the_shadow_possessive: "de l’Ombre"
  pagan: "Paganisme"

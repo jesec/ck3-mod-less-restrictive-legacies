@@ -56,7 +56,7 @@
  master_of_hunt_activity_bonus: "受鼓舞的$master_of_hunt_court_position$"
  master_of_hunt_activity_bonus_desc: "该角色的[GetCourtPositionType('master_of_hunt_court_position').GetName()]会在每一次狩猎中付出额外的努力，以回报该角色的支持和忠诚。\n\n[GetActivityType('activity_hunt').GetName][activity|E]花费略少的[gold|E]。"
  ## Court Event 7700
- honorable_ruler: "正直的的统治者"
+ honorable_ruler: "正直的统治者"
  honorable_ruler_desc: "该角色即使在不必要的时候都堂堂正正。"
  pigeon_thief: "宠物鸽"
  pigeon_thief_desc: "多亏了其#EMP 邪恶#!的宠物鸽，该角色总能领先一步。"

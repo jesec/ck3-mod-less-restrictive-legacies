@@ -78,6 +78,7 @@
  artifact_domain_tax_mult_1_modifier: "직할령 조세"
  artifact_zealot_vassal_opinion_1_modifier: "광신도 의견"
  artifact_zealot_tax_contribution_mult_1_modifier: "광신도 세금 공헌"
+ artifact_belligerent_tax_contribution_mult_1_modifier: "호전적인 세금 공헌"
  artifact_court_grandeur_baseline_add_1_modifier: "궁정 권위"
  artifact_development_growth_1_modifier: "개발도 성장치"
  artifact_glory_hound_vassal_opinion_1_modifier: "영광의 추구자 의견"

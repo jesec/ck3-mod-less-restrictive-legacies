@@ -13,7 +13,7 @@
  compliment_thoughtful: "sage"
  compliment_benevolent: "bienveillant"
  compliment_perceptive: "perspicace"
- compliment_sensible: "sensible"
+ compliment_sensible: "raisonnable"
  compliment_serene: "serein"
  compliment_fallback: "cordial[ROOT.Char.Custom('FR_E')]"
  #ComplimentAdjectiveArticle
@@ -27,7 +27,7 @@
  compliment_benign_article: "au bienveillant"
  compliment_thoughtful_article: "au sage"
  compliment_perceptive_article: "au perspicace"
- compliment_sensible_article: "au sensible"
+ compliment_sensible_article: "au raisonnable"
  compliment_serene_article: "au serein"
  compliment_fallback_article: "[ROOT.Char.Custom('FR_AuAla')] cordial[ROOT.Char.Custom('FR_E')]"
  #ComplimentSentence
@@ -101,7 +101,7 @@
  compliment_thoughtful_female: "sage"
  compliment_benevolent_female: "bienveillante"
  compliment_perceptive_female: "perspicace"
- compliment_sensible_female: "sensible"
+ compliment_sensible_female: "raisonnable"
  compliment_serene_female: "sereine"
  compliment_fallback_female: "cordiale"
  #ComplimentAdjectiveArticle
@@ -113,7 +113,7 @@
  compliment_benign_article_female: "à la bienveillante"
  compliment_thoughtful_article_female: "à la sage"
  compliment_perceptive_article_female: "à la perspicace"
- compliment_sensible_article_female: "à la sensible"
+ compliment_sensible_article_female: "à la raisonnable"
  compliment_serene_article_female: "à la sereine"
  compliment_fallback_article_female: "à la cordiale"
  #FormalComplimentAdjective

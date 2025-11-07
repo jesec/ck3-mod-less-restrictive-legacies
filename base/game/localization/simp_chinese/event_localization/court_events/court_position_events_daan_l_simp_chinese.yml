@@ -12,7 +12,7 @@
  court_position_management_event.0001.c: "也许我们能从其他地方找到合适的人选……"
  court_position_management_event.0001.c.tt: "打开[GetDecision('recruit_court_position_decision').GetName][decision|E]"
  court_position_management_event.0001.d: "我会亲自解决这个问题……"
- court_position_management_event.0001.d.tt: "打开界面任命新[court_position_type.GetName]"
+ court_position_management_event.0001.d.tt: "打开界面任命新的[court_position_type.GetName]"
  court_position_management_event.0001.e: "就让它暂时空着吧。"
  court_position_management_event.0002.t: "空缺：[court_position_type.GetNameNoTooltip()]"
  court_position_management_event.0002.desc: "[employee.GetFullName]不再是我的[court_position_type.GetName()]。"

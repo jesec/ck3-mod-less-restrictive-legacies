@@ -75,17 +75,30 @@ antiquarian_improve_artifact_effect = {
 }
 
 antiquarian_apply_modifier_to_artifact_effect = {
-	scope:liege = {
-		send_interface_toast = {
-			type = event_artifact_good
-			left_icon = scope:antiquarian_from_task
-			right_icon = scope:artifact_target
-			title = antiquarian_improved_artifact_message
-			scope:artifact_target = {
-				add_artifact_modifier = $MODIFIER$
+	if = {
+		limit = {
+			scope:liege = {
+				has_character_flag = ach_intent_artifact_boost_flag
+			}
+		}
+		scope:artifact_target = {
+			add_artifact_modifier = $MODIFIER$
+		}
+	}
+	else = {
+		scope:liege = {
+			send_interface_toast = {
+				type = event_artifact_good
+				left_icon = scope:antiquarian_from_task
+				right_icon = scope:artifact_target
+				title = antiquarian_improved_artifact_message
+				scope:artifact_target = {
+					add_artifact_modifier = $MODIFIER$
+				}
 			}
 		}
 	}
+	
 }
 
 primary_armament_improvement_effect = {

@@ -80,7 +80,7 @@
  CULTURAL_ACCEPTANCE_FROM_SHARED_REALMS: "[Concept( 'culture_intermingling', '봉역 내에서 융화 중' )|E]"
  CULTURAL_ACCEPTANCE_FROM_VASSALS: "봉신 지위"
  CULTURAL_ACCEPTANCE_FROM_REGRESSION: "[Concept( 'cultural_acceptance_baseline', '기준치' )|E]를 향해 점차 감쇠 ($BASELINE|%/0$)"
- CULTURAL_ACCEPTANCE_FROM_REGRESSION_NO_INTERACTION: "[Concept( 'cultural_acceptance_baseline', '기준치' )]를 향해 점차 감쇠, 상호작용 없음 ($BASELINE|%/0$)"
+ CULTURAL_ACCEPTANCE_FROM_REGRESSION_NO_INTERACTION: "[Concept( 'cultural_acceptance_baseline', '기준치' )|E]를 향해 점차 감쇠, 상호작용 없음 ($BASELINE|%/0$)"
  CULTURAL_ACCEPTANCE_DIMINISHING_RETURNS: "현재 관용"
  CULTURAL_ACCEPTANCE_FROM_NO_INTERACTION: "상호작용 없음"
  CULTURAL_ACCEPTANCE_FROM_TASK: "[CHARACTER.GetShortUINameNotMe](은)는 [promoting_cultural_acceptance|E] 중"

@@ -111,7 +111,7 @@
  TRAVEL_POINT_OF_INTEREST_TT_poi_natural_feature: "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$"
  TRAVEL_POINT_OF_INTEREST_TT_poi_capitals: "[Province.GetTitle.GetHolder.GetPrimaryTitle.GetName]的首府[SelectLocalization( And( HasDlcFeature( 'royal_court' ), Province.GetTitle.GetHolder.HasRoyalCourt() ), 'TRAVEL_POINT_OF_INTEREST_TT_poi_capitals_court_type', '')]"
  TRAVEL_POINT_OF_INTEREST_TT_poi_capitals_court_type: "\n（[court_type|E]：[Province.GetTitle.GetHolder.GetCourtType.GetName]）"
- TRAVEL_POINT_OF_INTEREST_TT_poi_mausoleum_at_halicarnassus: "哈利卡那苏斯的摩索拉斯陵墓"
+ TRAVEL_POINT_OF_INTEREST_TT_poi_mausoleum_at_halicarnassus: "哈利卡纳苏斯的摩索拉斯陵墓"
  TRAVEL_POINT_OF_INTEREST_TT_poi_lighthouse_of_alexandria: "亚历山大灯塔"
  TRAVEL_POINT_OF_INTEREST_TT_poi_grand_city: "[Province.GetBaronyNameExplicitly]的雄城"
  poi_grand_city_visit_event_tt: "会触发观光事件"

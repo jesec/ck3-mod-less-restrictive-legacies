@@ -51,7 +51,7 @@
  activity_system.1010.desc.ruler: "倒下的[host.GetTitleAsName]不该死在离家这么远的地方。"
  activity_system.1010.a: "安息吧，[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('host'))]。"
  activity_system.1010.tt: "[host.GetShortUINamePossessiveNoTooltip]的[activity|E]已被取消"
- activity_system.1011.desc: "我的领主[host.GetNameRegnal]在巡游领地时摆脱了尘世的束缚。很不幸，[host.GetSheHe][host.GetDeathReason]。\n\n巡游已被取消，[host.GetFirstNamePossessiveNoTooltip]的随行人员携带着遗体前往最终的安息之地，开始了他们悲伤的返家之旅。"
+ activity_system.1011.desc: "我的领主[host.GetNameRegnal]在巡游领地时摆脱了[host.GetHerHis]尘世的束缚。很不幸，[host.GetSheHe][host.GetDeathReason]。\n\n巡游已被取消，[host.GetFirstNamePossessiveNoTooltip]的随行人员携带着[host.GetHerHis]的遗体前往最终的安息之地，开始了他们悲伤的返家之旅。"
  #Host has joined a war and has the opportunity to cancel the activity
  activity_system.0300.t: "战争不等人"
  activity_system.0300.desc.intro.traveling: "战争的号角甚至传到了[target_activity_location.GetName]这里，而我正要去参加[target_activity_location.GetName]的[target_activity_type.GetNameNoTooltip]。 "
@@ -67,11 +67,11 @@
  activity_system.0301.t: "[target_activity_type.GetNameNoTooltip]取消"
  activity_system.0301.desc: "#EMP “开战！开战！”#![target_activity_host.GetTitledFirstNamePossessive]的[knights|l]们呼喊道，他们雷鸣般地经过，号角在咆哮，旗帜在天空中闪耀。\n\n那个[war_opponent.Custom('InsultNoun')][war_opponent.GetNameRegnal]似乎根本不顾及我们的[target_activity_type.GetNameNoTooltip]！这场活动将被取消，[target_activity_host.GetTitleAsNameNoTooltip]集结了征召兵，并向[target_activity_host.GetFaith.WarGodName]祈祷胜利。\n\n[target_activity_type.GetNameNoTooltip]是一种高贵而有价值的娱乐，但开战的命令高于一切。"
  activity_system.0301.a: "多么讽刺……"
- activity_system.0310.desc.intro: "战争的号角传到了[target_activity_location.GetName]这里，而我正在参与[target_activity_host.GetPossessiveNameRegnal|U][target_activity_type.GetNameNoTooltip]。我得到命令去支援[attacker.GetTitledFirstName|U]与[defender.GetTitledFirstName|U]的战争。"
+ activity_system.0310.desc.intro: "战争的号角传到了[target_activity_location.GetName]这里，而我正在参加[target_activity_host.GetNamePossessive|U]的[target_activity_type.GetNameNoTooltip]。我得到召唤去支援[attacker.GetTitledFirstName|U]与[defender.GetTitledFirstName|U]的战争。"
  activity_system.0310.a.tt: "你继续参与[target_activity_type.GetNameNoTooltip]"
  activity_system.0310.b.tt: "你离开[target_activity_type.GetNameNoTooltip]，开始返家"
  activity_system.0320.t: "出乎意料的结果"
- activity_system.0320.desc: "我们的主办人[host.GetName]失去了[host.GetHerHis]对[province.GetNameNoTooltip()]的所有权，因此[activity_type.GetNameNoTooltip()]提前结束了。\n\n这当然不是我所期望的，大张旗鼓地邀请和集结之后，这件事会以这样的方式结束。我想剩下的就是我的随行人员和我回到[ROOT.Char.GetCapitalLocation.GetNameNoTooltip]的家……"
+ activity_system.0320.desc: "我们的主办人[host.GetName]失去了[host.GetHerHis]领地的所有权，因此[activity_type.GetNameNoTooltip()]提前结束了。\n\n这当然不是我所期望的，大张旗鼓地邀请和集结之后，这件事会以这样的方式结束。我想剩下的就是我的随行人员和我回到[ROOT.Char.GetCapitalLocation.GetNameNoTooltip]的家……"
  activity_system.0320.a: "木已成舟，覆水难收。"
  #If you have gained the incapable trait
  activity_system.0330.t: "无能"

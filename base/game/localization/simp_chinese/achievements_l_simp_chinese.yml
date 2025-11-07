@@ -101,7 +101,7 @@
  ACHIEVEMENT_DESC_frankokratia_achievement: "以一位法兰西天主教徒，拥有并[completely_control|E]$k_thessalonika$[kingdom|E]，同时并不拥有或臣服于拜占庭帝国"
  ACHIEVEMENT_DESC_celebrity_achievement: "[prestige_level|E]达到最高"
  ACHIEVEMENT_DESC_saint_achievement: "[piety_level|E]达到最高"
- ACHIEVEMENT_DESC_keeping_it_in_the_family_achievement: "一个[child|E]拥有近亲繁殖[trait|E]。$rd_character_blocked_from_achievement$"
+ ACHIEVEMENT_DESC_keeping_it_in_the_family_achievement: "一个子女拥有近亲繁殖[trait|E]。$rd_character_blocked_from_achievement$"
  ACHIEVEMENT_DESC_non_nobis_domine_achievement: "建立一个[holy_order|E]"
  ACHIEVEMENT_DESC_trapped_in_the_web_achievement: "对三个[direct_vassals|E]拥有[strong_hooks|E]"
  ACHIEVEMENT_DESC_followed_by_shadows_achievement: "同时知道十个[secrets|E]"

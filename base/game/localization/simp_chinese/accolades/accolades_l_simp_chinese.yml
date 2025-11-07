@@ -235,7 +235,7 @@
  accolade_elephanteer: "象骑兵"
  accolade_horse_arching: "骑射的"
  accolade_horse_archer: "弓骑兵"
- accolade_increase_hostile_knight_death_boilerplate: "增加在战斗中与该[acclaimed_knight|E]作战的[knights|E]死亡的概率"
+ accolade_increase_hostile_knight_death_boilerplate: "与该[acclaimed_knight|E]对战的[knights|E]阵亡的概率。"
  accolade_increase_hostile_knight_death_low: "略微增加$accolade_increase_hostile_knight_death_boilerplate$"
  accolade_increase_hostile_knight_death_medium: "适度增加$accolade_increase_hostile_knight_death_boilerplate$"
  accolade_increase_hostile_knight_death_high: "大幅增加$accolade_increase_hostile_knight_death_boilerplate$"

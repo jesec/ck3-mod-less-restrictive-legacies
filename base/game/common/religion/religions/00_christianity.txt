@@ -39,6 +39,9 @@
 	#Funeral tradition
 	doctrine = doctrine_funeral_stoic
 
+	#Coronation tradition
+	doctrine = doctrine_imperial_anointment
+
 	traits = {
 		virtues = { forgiving compassionate chaste }
 		sins = { vengeful sadistic lustful }
@@ -594,6 +597,9 @@
 			doctrine = tenet_pacifism
 			doctrine = tenet_gnosticism
 
+			#Coronation tradition
+			doctrine = doctrine_no_anointment
+
 			#Unique Localization
 			localization = {
 				PriestMale = cathar_priest_male
@@ -704,6 +710,9 @@
 			doctrine = tenet_pacifism
 			doctrine = tenet_mendicant_preachers
 
+			#Coronation tradition
+			doctrine = doctrine_no_anointment
+
 			#Unique Localization
 			localization = {
 				PriestMale = bogomilist_priest
@@ -771,6 +780,9 @@
 			doctrine = tenet_monasticism
 			doctrine = tenet_mendicant_preachers
 
+			#Coronation tradition
+			doctrine = doctrine_anointment_permitted
+
 			holy_order_names = {
 				{ name = "holy_order_order_of_saint_addai" }
 			}
@@ -810,6 +822,9 @@
 			#Clerical Functions
 			doctrine = doctrine_clerical_gender_either
 			doctrine = doctrine_clerical_marriage_allowed
+
+			#Coronation tradition
+			doctrine = doctrine_no_anointment
 
 			#Tenets
 			doctrine = tenet_divine_marriage
@@ -868,6 +883,9 @@
 			doctrine = tenet_natural_primitivism
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_communal_identity
+
+			#Coronation tradition
+			doctrine = doctrine_no_anointment
 		}
 
 		insular_celtic = {
@@ -904,6 +922,9 @@
 			doctrine = tenet_rite
 			doctrine = tenet_monasticism
 			doctrine = doctrine_funeral_bewailment # Keening
+
+			#Coronation tradition
+			doctrine = doctrine_anointment_permitted
 
 
 			holy_order_names = {
@@ -1026,6 +1047,9 @@
 			doctrine = tenet_pastoral_isolation
 			doctrine = tenet_monasticism
 
+			#Coronation tradition
+			doctrine = doctrine_no_anointment
+
 			localization = {
 				#Represents the peculiar Bosnian ecclesiastic setup as best as possible.
 				HouseOfWorship = bosnian_house_of_worship
@@ -1086,6 +1110,9 @@
 			doctrine = tenet_adaptive
 			doctrine = tenet_communion
 			doctrine = tenet_rite
+
+			#Coronation tradition
+			doctrine = doctrine_anointment_permitted
 		}
 
 		adoptionist = {

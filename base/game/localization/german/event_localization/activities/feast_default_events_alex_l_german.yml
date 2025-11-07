@@ -1,0 +1,13 @@
+﻿l_german:
+ feast_default_alex.100.t: "Geteilte Erinnerungen"
+ feast_default_alex.100.desc: "[guest.GetTitledFirstName|U], mein[guest.Custom('DE_END_PRO_S_N')] [root_scope.Custom2('RelationToMeShort', SCOPE.sC('guest'))], [guest.Custom('quirk_pos_present')], während [guest.Custom('DE_PRO_PER_S_3P_N')] zu mir herrüberrutscht.\n\n„Mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [root_scope.Custom('ComplimentAdjective')|l][ROOT.Char.Custom('DE_END_ADJ_IND_S_N')] [guest.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))], ich genoss gerade diesen guten Schluck [host.Custom('RegionalDrink')], als mich eine Erinnerung überkam([guest_memory.GetName]).“ [guest.Custom('DE_PRO_PER_S_3P_N')|U] lächelt [guest.Custom('quirk_pos_adverb')]. „Ich muss immerzu daran denken – oh, wie sehr ich mir wünsche, dass jeder Tag so [root_scope.Custom('RandomPositiveLookAdjective')|l] ist!“"
+ feast_default_alex.100.a: "Mögen wir noch viele gemeinsame Erinnerungen schaffen!"
+ feast_default_alex.100.b: "Ah, ein wirklich wunderbarer Tag!"
+ feast_default_alex.200.t: "Die Seuche der Gerüchte"
+ feast_default_alex.200.desc: "„Mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [guest.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))], ich habe Gerüchte über eine Seuche namens ‚[epidemic.GetName]‘ gehört …“, sagt [guest.GetTitledFirstName] besorgt.\n\n„Es heißt, sie gehe in [afflicted_top_liege.GetPrimaryTitle.GetBaseName] um und die Opfer würden [sick_peasant.Custom('disease_desc_short')] … Nicht einmal das beste Essen hier ([root_scope.Custom('GetExpensiveMeal')]) kann mich davon ablenken.“"
+ feast_default_alex.200.a: "Hm. Wir sollten das Reich ([root_scope.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]) darauf vorbereiten …"
+ feast_default_alex.200.b: "Nun kommt. Beruhigt Euch."
+ feast_default_alex.200.c: "Beten wir für die befallenen Lande ([afflicted_top_liege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip])."
+ feast_default_alex.200.d: "Bleibt unbesorgt! Hierher wird diese Krankheit niemals kommen!"
+ plague_preparations_modifier: "Seuchenvorbereitungen"
+ plague_preparations_modifier_desc: "Dieser Ort ist gut auf etwaige kommende Seuchen vorbereitet."

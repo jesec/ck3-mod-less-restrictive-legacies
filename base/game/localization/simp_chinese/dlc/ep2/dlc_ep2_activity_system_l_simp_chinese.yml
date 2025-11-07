@@ -37,7 +37,7 @@
  feast_invite_flavor_honor: "$invite_to_activity_flavor_feast$你会成为我的荣誉嘉宾，坐在桌子的最前方。\n"
  feast_invite_flavor_standard: "$invite_to_activity_flavor_feast$我们将一起享用[ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]的硕果。\n"
  hunt_invite_flavor_standard: "$invite_to_activity_flavor_hunt$我们将一起让这场狩猎成为值得称道的运动！\n"
- hunt_invite_flavor_legendary: "$invite_to_activity_flavor_hunt$我们将一起追猎一只传说中的[ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetTitle.GetDeJureLiege.Custom('GetLegendaryColor')][ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetTitle.GetDeJureLiege.Custom('GetAnimalType')]。\n"
+ hunt_invite_flavor_legendary: "$invite_to_activity_flavor_hunt$我们将一起追猎一只传说中的[ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetTitle.GetDeJureLiege.Custom('GetLegendaryColor')][ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetTitle.GetDeJureLiege.Custom('GetAnimalType')]！\n"
  hunt_invite_flavor_dangerous: "$invite_to_activity_flavor_hunt$我们将一起拿下一只危险的野兽！\n"
  hunt_invite_flavor_falconry: "$invite_to_activity_flavor_hunt$我们的猎鹰将一起干净利落地解决它们的猎物！\n"
  NOT_activity_invite_max_num_guests: "无法将[CHARACTER.GetShortUIName]添加进活动，人数已满！"

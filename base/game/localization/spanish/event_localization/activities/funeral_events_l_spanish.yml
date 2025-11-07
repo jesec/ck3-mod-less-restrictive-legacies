@@ -240,7 +240,7 @@
  funeral_conclusion_log_title: "Ceremonia funeraria"
  funeral_conclusion_log: "Se ha enviado al fallecido al más allá y el funeral ha concluido."
  mourner_gives_advice_tt: "[other_mourner.GetName] te dará algunos consejos…"
- friend_bonded_over_grief: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'congeniasteis', 'congeniaron' )] ante la pérdida compartida de un ser amado"
+ friend_bonded_over_grief: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString(Or(CHARACTER.IsLocalPlayer, TARGET_CHARACTER.IsLocalPlayer), 'congeniasteis', 'congeniaron')] ante la pérdida compartida de un ser amado"
  friend_comforted_at_funeral: "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'consolaste', 'consoló' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] en un funeral"
  friend_comforted_at_funeral_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'consolaste', 'consoló' )] a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] en un funeral"
  friend_cried_at_funeral_together: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'llorasteis', 'lloraron' )] juntos en un funeral"

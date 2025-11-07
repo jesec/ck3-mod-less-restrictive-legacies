@@ -26,7 +26,7 @@
  ep3_emperor_yearly.3011.commander_attacking: "enviar la flotilla [invading_commander.Custom('ES_DelDela')] [invading_commander.GetTitledFirstName|l]"
  ep3_emperor_yearly.3011.desc: "a la calma de [army.GetLocation.GetNameNoTooltip] y de desafiar a la ciudad [ROOT.Char.GetFaith.HighGodNamePossessive]\n\nLos [Glossary( 'dromones', 'DROMONS_GLOSS' )] de mi flota, con sus sifones de bronce con boca de dragón a bordo, zarpan de sus muelles. Si el mar está en calma, si los capitanes coordinan bien su ataque… mis enemigos arderán.\n\nPero si [ROOT.Char.GetFaith.HighGodName] exige un precio por nuestros pecados, muchos de los que forman la defensa [ROOT.Char.GetCapitalLocation.GetCounty.GetCulture.GetName] también se verán inmolados. ¡El fuego líquido es el caos encarnado!"
  ep3_emperor_yearly.3011.kyrie_eleison: "¡[Glossary( 'Kýrie, eléison', 'KYRIE_ELEISON_GLOSS' )]!"
- KYRIE_ELEISON_GLOSS: "#bold Kýrie, eléison#! —«¡Señor, ten piedad de mí!»— es una plegaria cristiana que las fuerzas bizantinas invocaban como grito de guerra."
+ KYRIE_ELEISON_GLOSS: "#bold Kýrie, eléison#! —«¡Señor, ten piedad de mí!»— es una plegaria cristiana con múltiples usos. Se canta en coronaciones, en las investiduras papales y las fuerzas bizantinas lo usan como grito de guerra."
  ep3_emperor_yearly.3011.a: "¡Prended fuego #EMP al agua misma#!!"
  ep3_emperor_yearly.3011.a.success: "El asalto incinera al enemigo"
  ep3_emperor_yearly.3011.a.fail: "Se han producido bastantes daños"

@@ -1,6 +1,6 @@
 ﻿l_russian:
  PASS_LAW_TOOLTIP_TITLE: "[SelectLocalization( GuiLaw.IsEnacted, Law.GetNameNoTooltip, Law.GetPassLawPhrase)]"
- PASS_LAW_TITLE_DEFAULT: "Принять закон «[Law.GetNameNoTooltip]»"
+ PASS_LAW_TITLE_DEFAULT: "[AddLocalizationIf( Not(Law.GetLawGroup.HasFlag( 'realm_no_pass' ) ), 'Принять закон' )] «[Law.GetNameNoTooltip]»"
  ADD_LAW_CONFIRMATION_TITLE: "[Law.GetAddLawConfirmationTitle]"
  ADD_LAW_CONFIRMATION_TITLE_DEFAULT: "Принять закон «[Law.GetNameNoTooltip]»"
  ADD_LAW_CONFIRMATION_ACCEPT: "[Law.GetAddLawConfirmationButtonText]"
@@ -51,7 +51,7 @@
  tribal_authority_2_effects: "$EFFECT_LIST_BULLET$ Можно отнимать [titles|El].\n$EFFECT_LIST_BULLET$ Можно отнимать [Concept( 'vassals', 'вассалов' )|El]."
  tribal_authority_3: "Абсолютный авторитет вождя"
  tribal_authority_3_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 [Concept( 'independent', 'Независимый' )|E] [Concept( 'tribal', 'племенной' )|E] правитель может перейти к оседлому образу жизни, став [Concept( 'feudal', 'феодалом' )|E] или основав [Concept( 'clan', 'клан' )|E].#!"
- camp_purpose: "Цель лагеря"
+ camp_purpose: "Архетип лагеря"
  camp_purpose_pass_phrase: "Новая цель — [Law.GetNameNoTooltip|l]"
  camp_purpose_confirmation_button_text: "Изменить цель"
  camp_purpose_mercenaries: "Наемники"

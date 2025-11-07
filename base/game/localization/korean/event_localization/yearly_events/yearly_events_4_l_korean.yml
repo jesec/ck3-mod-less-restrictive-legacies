@@ -27,7 +27,7 @@
  yearly.4021.c_failure: "[child.GetTitledFirstNameNoTooltip](은)는 자신의 행동에 대한 책임을 지지 않아도 된다는 것을 알았음"
  yearly.4021.d: "용서해주시오! 부탁이오. 뭐든 하겠소..."
  yearly.4022.t: "돌아온 자"
- yearly.4022.desc: "\"어서 오시오, [child.Custom2('RelationToMeShort', ROOT.Char)].\" [ROOT.Char.Custom2('MyCharacterIntroduction', SCOPE.sC('child'))](은)는 감옥에서 시간을 보낸 후 좀 수척해보였다. 하지만 녀석의 얼굴에 떠오르는 [child.Custom('quirk_neg_adjective')]한 웃음 자체는 생기가 넘쳐보였다.\n\n\"죗값을 치르는 동안 얻은 교훈에 대해 감사드리고 싶어서 참을 수가 없었어요.\""
+ yearly.4022.desc: "\"어서 오시오, [child.Custom2('RelationToMeShort', ROOT.Char)].\" [ROOT.Char.Custom2('MyCharacterIntroduction', SCOPE.sC('child'))](은)는 감옥에서 시간을 보낸 후 좀 수척해보였다. 하지만 녀석의 얼굴에 떠오르는 [child.Custom('quirk_neg_adjective')] 웃음 자체는 생기가 넘쳐보였다.\n\n\"죗값을 치르는 동안 얻은 교훈에 대해 감사드리고 싶어서 참을 수가 없었어요.\""
  yearly.4022.a: "잘 돌아왔어, [child.GetFirstNameNoTooltip]."
  yearly.4031.t: "우리 중의 살인자"
  yearly.4031.desc_opening: "문이 열리기도 전에 냄새가 코를 찔렀다. 진한 누린내가 그 장소에 스며있었다. 새로이 죽은 자에서 나는 악취였다.\n\n"

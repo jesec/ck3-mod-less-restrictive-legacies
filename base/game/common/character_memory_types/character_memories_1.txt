@@ -138,6 +138,33 @@ won_duel = {
 	}
 }
 
+cat_died = {
+	categories = { negative death pet }
+	icon = "death_negative.dds"
+
+	description = {
+		random_valid = {
+			desc = cat_died_desc_1
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = cat_died_desc_second_perspective_1
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = cat_died_desc_third_perspective_1
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+
 dog_died = {
 	categories = { negative death pet }
 	icon = "death_negative.dds"
@@ -1826,7 +1853,7 @@ stopped_being_rivals = {
 		}
 	}
 
-	participants = { old_rival }
+	participants = { rival }
 
 	duration = {
 		years = memory_default_duration

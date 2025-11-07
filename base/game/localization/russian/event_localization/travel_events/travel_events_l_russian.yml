@@ -270,7 +270,7 @@
  travel_events.4032.t: "[ROOT.Char.Custom('GetAnimalType')|U] нападает"
  travel_events.4032.desc: "Наш путь прерывается — внезапно и жестоко. Мы слышим звуки рвущейся плоти и щелкающих челюстей — и вдруг отчаянный человеческий крик! [Select_CString(cowardly_knight_scope.IsFemale, 'Какая-то', 'Какой-то' )] [cowardly_knight_scope.GetWomanMan|l] вот-вот погибнет! Вопли так ужасны, будто это [ROOT.Char.GetFaith.NegativeAfterLife] рвется в наш мир!\n\nПрибежав на крик, мы видим, что впереди сражаются некий рыцарь и $knight_culture_player_no_tooltip_lowercase$ [ROOT.Char.Custom('GetAnimalType')]! [cowardly_knight_scope.GetHerHim|U] клинок пока застрял меж звериных челюстей, но хватка рыцаря слабеет на глазах."
  travel_events.4032.a: "Надо помочь!"
- travel.beat_back_lion: "Вы победили [ROOT.Char.Custom('GetAnimalType_RU_VP')]."
+ travel.beat_back_lion: "Вы победили [ROOT.Char.Custom('GetAnimalType_RU_Acc')]."
  travel.mauled_by_animal: "[ROOT.Char.Custom('GetAnimalType')|U] наносит вам увечья."
  travel_events.4032.b: "Помоги [Select_CString(cowardly_knight_scope.IsFemale,'ей', 'ему')], [entourage_helper.GetFirstNameNoTooltip]!"
  travel_events.4032.c: "Я не стану рисковать жизнью."

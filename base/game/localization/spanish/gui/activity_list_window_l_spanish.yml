@@ -5,7 +5,7 @@
  ACTIVITY_CURRENT_HEADER: "[activity|E] actual"
  ACTIVITY_LIST_INVOLVED_ACTIVITY: "Estás [Concept( 'activity_attending', 'asistiendo' )|E] a [Activity.GetName|l]"
  ACTIVITY_LIST_HOSTING_ACTIVITY: "Eres [GetPlayer.Custom('ES_ElLa')] [activity_host_short|lE] de [Activity.GetShortName|l]"
- ACTIVITY_LIST_HOST: "[activity_host_short|E] una [activity|El]"
+ ACTIVITY_LIST_HOST: "[activity_host_short|E] de una [activity|El]"
  ACTIVITY_LIST_HOST_GRAND: "[activity_host_short|E] de [grand_activity|lE]"
  ACTIVITY_LIST_JOIN: "Invitaciones de [activity|lE]"
  ACTIVITY_LIST_JOIN_TOURNAMENT_HEADER: "Unirse a [GetActivityType( 'activity_tournament' ).GetName|l]"
@@ -70,3 +70,4 @@
  activity_chariot_race_host_an_a: "$host_activity_a$"
  activity_playdate_host_an_a: "$host_activity_an$"
  activity_witch_ritual_host_an_a: "$host_activity_an$"
+ activity_coronation_host_an_a: "$host_activity_a$"

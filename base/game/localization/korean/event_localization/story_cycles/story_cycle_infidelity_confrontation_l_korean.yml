@@ -79,7 +79,7 @@
  infidelity_confrontation.1021.regular.desc: "[infidelity_partner.GetFirstNamePossessive] 얼굴에는 수치스럽다는 기색이 역력해 보인다. \"잘못한 일은 하나도 없다고 믿었어요. 그렇지만 모든 것이 백일하에 드러나니...\"\n\n그이는 한숨을 쉬며 고개를 젓는다. \"이제서야 제가 뭘 잘못했는지가 눈에 들어와요. 용서해 주세요, [ROOT.Char.GetFirstNameNoTooltip]. 우리 다시 시작해봐요.\""
  infidelity_confrontation.1021.a: "시간은 걸리겠지만 우리 사이는 다시 회복될 거예요."
  #Plead for breakup branch: request is rejected, by Mathilda Bjarnehed
- infidelity_confrontation.1021.unapologetic_start.desc: "\"연기 좀 그만해요.\" [infidelity_partner.GetFirstName](이)가 [infidelity_partner.Custom('quirk_neg_pp_type1_KR')]며 말했다. \"아무리 울어도 내 마음은 바뀌지 않아요. 이건 당신 시간도 낭비고, 내 시간도 낭비라고요.\"\n\n어찌 이렇게 내게 차갑게 대할 수 있는 것인가?"
+ infidelity_confrontation.1021.unapologetic_start.desc: "\"연기 좀 그만해요.\" [infidelity_partner.GetFirstName](이)가 [infidelity_partner.Custom('quirk_neg_pp')]. \"아무리 울어도 내 마음은 바뀌지 않아요. 이건 당신 시간도 낭비고, 내 시간도 낭비라고요.\"\n\n어찌 이렇게 내게 차갑게 대할 수 있는 것인가?"
  infidelity_confrontation.1022.apologetic_start.desc: "[infidelity_partner.GetFirstName](은)는 나의 애원을 들으며 가만히, 조용히 있었다. 눈물이 그이의 뺨을 타고 흘러내렸다. 하나 그이는 내가 바라던 대답을 내놓지 않았다.\n\n"
  infidelity_confrontation.1022.a: "나는 당신에게 마음을 주었건만, 그냥 내다 버릴 요량인가?"
  #Break up branch: infidelity partner is informed about confronting partner's decision to end it, by Mathilda Bjarnehed

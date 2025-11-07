@@ -116,7 +116,7 @@
  COURT_LANGUAGES_MAP_MODE_TOOLTIP_LIEGE: "#T $COURT_LANGUAGES_MAP_MODE_LIEGE$#!\nJęzyk dworu, którego używa postać znana jako [ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetTitleAsNameNoTooltip] pochodząca z ziem o nazwie [ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]\n"
  COURT_LANGUAGES_MAP_MODE_TOOLTIP_LIEGES_LIEGE: "#T $COURT_LANGUAGES_MAP_MODE_LIEGES_LIEGE$#!\nJęzyk dworu, którego używa postać znana jako [ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetLiege.GetTitleAsNameNoTooltip] pochodząca z ziem o nazwie [ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]\n"
  COURT_LANGUAGES_MAP_MODE_TOOLTIP_TOP_LIEGE: "#T $COURT_LANGUAGES_MAP_MODE_TOP_LIEGE$#!\nJęzyk dworu, którego używa postać znana jako [ROOT.Province.GetCounty.GetTitle.GetHolder.GetTopLiege.GetTitleAsNameNoTooltip] pochodząca z ziem o nazwie [ROOT.Province.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]\n"
- COURT_LANGUAGES_MAP_MODE_TOOLTIP_FALLBACK: "#T Język dworu#!: Brak"
+ COURT_LANGUAGES_MAP_MODE_TOOLTIP_FALLBACK: "#T Język dworu#!: brak"
  COURT_LANGUAGES_SELECTION_TOOLTIP_COUNTY_HOLDER: "\n#I Kliknij, aby wybrać $COURT_LANGUAGES_MAP_MODE_COUNTY_HOLDER$#!"
  COURT_LANGUAGES_SELECTION_TOOLTIP_LIEGE: "\n#I Kliknij, aby wybrać $COURT_LANGUAGES_MAP_MODE_LIEGE$#!"
  COURT_LANGUAGES_SELECTION_TOOLTIP_LIEGES_LIEGE: "\n#I Kliknij, aby wybrać $COURT_LANGUAGES_MAP_MODE_LIEGES_LIEGE$#!"

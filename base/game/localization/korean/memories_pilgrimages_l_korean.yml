@@ -43,7 +43,7 @@
  bad_prey_omen_memory_desc_third_perspective: "[owner.GetName](은)는 숲에서 짝을 만나러 가던 짐승이 포식자에게 갈가리 찢기는 광경을 포착함"
  bad_but_good_prey_omen_memory: "$bad_prey_omen_memory$"
  hajj_prophet_like_sacrifice_memory: "선지자와 같은 제물을 공양함"
- hajj_prophet_like_sacrifice_memory_desc: "[ROOT.Var('memory_location').GetProvince.GetName](으)로의 핫즈 중, 나는 선지자를 기리는 의미에서 63마리의 낙타를 제물로 공양함"
+ hajj_prophet_like_sacrifice_memory_desc: "[ROOT.Var('memory_location').GetProvince.GetName](으)로의 핫즈 중, 선지자를 기리는 의미에서 63마리의 낙타를 제물로 공양함"
  hajj_prophet_like_sacrifice_memory_desc_second_perspective: "[ROOT.Var('memory_location').GetProvince.GetName](으)로의 핫즈 중, 당신은 선지자를 기리는 의미에서 63마리의 낙타를 제물로 공양함"
  hajj_prophet_like_sacrifice_memory_desc_third_perspective: "[ROOT.Var('memory_location').GetProvince.GetName](으)로의 핫즈 중, [owner.GetName](은)는 선지자를 기리는 의미에서 63마리의 낙타를 제물로 공양함"
  memory_apa_was_converted: "순례자에 의해 개종함"

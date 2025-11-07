@@ -8,4 +8,4 @@
  TITLE_APPOINTMENT_SUCCESSION_SCORE: "[candidate_score|E]：#UND [CharacterListItem.GetFixedPoint( 'score' )|V0]#!"
  TITLE_APPOINTMENT_CANDIDATE_SCORE_TT_HEADING: "[candidate_score|E]：#UND [CharacterListItem.GetFixedPoint( 'score' )|V0]#!"
  TITLE_APPOINTMENT_SUCCESSION_TOP_CANDIDATE: "你的首选候选人："
- TITLE_APPOINTMENT_RANK: "[CharacterListItem.GetFixedPoint( 'position' )|0]。"
+ TITLE_APPOINTMENT_RANK: "[CharacterListItem.GetFixedPoint( 'position' )|0]."

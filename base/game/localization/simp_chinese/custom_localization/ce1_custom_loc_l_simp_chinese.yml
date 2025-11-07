@@ -2,7 +2,7 @@
  GetRandomExteriorDetail_small_bird: "我看见一只小[ROOT.Char.Custom('GetRandomRegionalWildDaytimeBird')]藏于树木之间"
  GetRandomExteriorDetail_birdsong: "我听到鸟儿的啁啾声"
  GetRandomExteriorDetail_wildflower: " 我注意到一朵孑然独立的[ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')]反常地开放着"
- GetRandomExteriorDetail_singing: "我听到一个遥远的声音从城堡里传来，沉浸在欢快的歌声中"
+ GetRandomExteriorDetail_singing: "我听到一个遥远的声音从城堡里传来，唱着欢快的歌"
  GetRandomExteriorDetail_banquet: "我抬头望向城堡的窗户，闻到了美味的食物"
  GetRandomExteriorDetail_praying: "我听到从神殿里传来祈祷声"
  GetRandomExteriorDetail_bells: "我听见钟声在敲响"

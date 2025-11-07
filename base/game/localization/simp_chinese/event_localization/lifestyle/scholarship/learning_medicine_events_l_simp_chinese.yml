@@ -7,7 +7,7 @@
  learning_medicine.2001.a: "我总是渴望学习一些新东西。"
  learning_medicine.2001.b: "一株稀有的花应该能让[flower_receiver.GetFirstNamePossessiveNoTooltip]容光焕发。"
  learning_medicine.2001.c: "[herbalist.GetSheHe|U]可以种上一花园神圣的草药。"
- learning_medicine.2001.d: "我可没功夫摆弄泥巴和树叶子。"
+ learning_medicine.2001.d: "我可没工夫摆弄泥巴和树叶子。"
  learning_medicine.2001.d.chaplain_hates_herbs: "我相信[chaplain_hates_herbs.GetCouncilTitle][chaplain_hates_herbs.GetNamePossessiveNoTooltip]在这件事上的判断。"
  learning_medicine.2002.start.desc: "[herbalist.GetFirstName]和我又花了一个晚上来分类植物和调制药水。我正在翻阅[herbalist.GetHerHis]的一本旧书，突然我发现了"
  learning_medicine.2002.chaplain_hates_herbs.desc: "一个能让[chaplain_hates_herbs.GetCouncilTitle][chaplain_hates_herbs.GetFirstName]口吐白沫的段落！"

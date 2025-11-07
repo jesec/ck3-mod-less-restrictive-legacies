@@ -143,7 +143,7 @@
  agent_events.4001.a: "你已经是个累赘了，[distant_agent.GetTitledFirstNameNoTooltip]，走开吧！"
  agent_events.4001.b: "该死……"
  agent_events.4011.t: "宫中阴影"
- agent_events.4011.desc: "有像[skilled_agent.GetTitledFirstName]这样，能以各种方式推动我们的目标，只需要等待方向的人参与我们的[scheme.Custom('GetSchemeContract')]，，真是一件幸事。\n\n既有能力，又能近距离接触[scheme.GetTargetCharacter.GetTitledFirstName]，这令人羡慕的组合，让我们能从多方面使用[skilled_agent.GetHerHim]。"
+ agent_events.4011.desc: "有像[skilled_agent.GetTitledFirstName]这样，能以各种方式推动我们的目标，只需要等待方向的人参与我们的[scheme.Custom('GetSchemeContract')]，真是一件幸事。\n\n既有能力，又能近距离接触[scheme.GetTargetCharacter.GetTitledFirstName]，这令人羡慕的组合，让我们能从多方面使用[skilled_agent.GetHerHim]。"
  agent_events.4011.a: "微妙的增长总是最好的。"
  agent_events.4011.b: "未来的潜力似乎很有用……"
  agent_events.4011.c: "隐蔽是关键！"

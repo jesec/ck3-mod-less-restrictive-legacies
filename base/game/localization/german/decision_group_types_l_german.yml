@@ -13,3 +13,4 @@
  decision_group_type_nomad_major: "Wichtige Nomadenentscheidungen"
  decision_group_type_nomad_minor: "Nomadenentscheidungen"
  decision_group_type_realm: "Reichsentscheidungen"
+ decision_group_type_oaths: "Eidentscheidungen"

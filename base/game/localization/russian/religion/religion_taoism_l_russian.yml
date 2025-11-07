@@ -37,7 +37,7 @@
  taoism_priest_female_plural: "$taoism_devotee_neuter_plural$"
  taoism_priest_neuter: "$taoism_devotee_neuter$"
  taoism_priest_neuter_plural: "$taoism_devotee_neuter_plural$"
- taoism_alternate_priest_term_plural: "хозяева"
+ taoism_alternate_priest_term_plural: "Хозяева"
  taoism_divine_realm: "Дао"
  taoism_divine_realm_2: "$taoism_divine_realm$" #Optional translation alt
  taoism_divine_realm_3: "$taoism_divine_realm$" #Optional translation alt

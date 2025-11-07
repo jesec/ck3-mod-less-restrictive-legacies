@@ -112,7 +112,7 @@
  ep3_poopy_pants_desc: "해당 인물은 지도자에 대항해 반란을 일으키려다 공개적으로 망신을 당했습니다."
  benevolent_to_mutiniers_opinion: "반란군에게 자애로움"
  ep3_camp_temperament.0040.t: "헌신적인 추종자"
- ep3_camp_temperament.0040.desc: "\"[ROOT.Char.GetTitleAsNameNoTooltip], 잠시만 기다려주세요.\" 야영지를 둘러보는데 [follower.GetTitledFirstName](이)가 나를 멈춰 세웠다. [follower.GetSheHe|U]는 계속 숨을 가쁘게 내쉬면서 [follower.Custom('quirk_pos_pp')]\n\n\"당신의 노력을 아무도 몰라준다고 생각하지 마십시오. [dummy_gender.GetWomenMen]들은 당신을 존경하고, 아이들은 놀 때 당신을 흉내 내려 합니다. 야영지 전체가 당신을 이 세상에서 가장 위대한 인물로 생각하고 있어요!\"\n\n\"저도 똑같은 방식으로 은혜를 갚고 싶어요. 지금... 어떤 식으로 남을 도우시는지 알고 있거든요. 제가 합류하면 도움이 될 겁니다.\""
+ ep3_camp_temperament.0040.desc: "\"[ROOT.Char.GetTitleAsNameNoTooltip], 잠시만 기다려주세요.\" 야영지를 둘러보는데 [follower.GetTitledFirstName](이)가 나를 멈춰 세웠다. [follower.GetSheHe|U]는 계속 숨을 가쁘게 내쉬면서 [follower.Custom('quirk_pos_pp')].\n\n\"당신의 노력을 아무도 몰라준다고 생각하지 마십시오. [dummy_gender.GetWomenMen]들은 당신을 존경하고, 아이들은 놀 때 당신을 흉내 내려 합니다. 야영지 전체가 당신을 이 세상에서 가장 위대한 인물로 생각하고 있어요!\"\n\n\"저도 똑같은 방식으로 은혜를 갚고 싶어요. 지금... 어떤 식으로 남을 도우시는지 알고 있거든요. 제가 합류하면 도움이 될 겁니다.\""
  ep3_camp_temperament.0040.a: "\"맞는 말이야. 나는 위대하다!\""
  ep3_camp_temperament.0040.b: "\"내가 시작한 일은 #EMP 내가#! 끝내겠다.\""
  ep3_camp_temperament.0040.c: "\"정말 대단한 충신이구나!\""

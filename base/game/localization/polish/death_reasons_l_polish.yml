@@ -380,3 +380,6 @@
  death_snake: "zginęła od ukąszenia węża"
  death_shot_by_arrows: "została podziurawiona strzałami"
  death_shot_by_arrows_killer: "$death_slain_in_riot$ wywołanych przez jeźdźców osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe]"
+ #ACH
+ death_crowd_stampede: "została zmiażdżona przez pędzący tłum"
+ death_crowd_stampede_killer: "$death_slain_in_riot$ w trakcie koronacji osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe]"

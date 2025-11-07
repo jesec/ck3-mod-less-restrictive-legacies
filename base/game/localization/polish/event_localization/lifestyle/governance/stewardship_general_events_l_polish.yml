@@ -15,7 +15,7 @@
  stewardship_general.2001.t: "Nos do interesów"
  stewardship_general.2001.desc_intro: "Podczas spokojnego spaceru krzyk konkretnego kupca wyróżnia się spośród zwykłego zgiełku ulicy.\n\n„Pozdrowienia, [Select_CString(ROOT.Char.IsFemale, 'moja pani', 'mój panie' )]! Mam wspaniały asortyment towarów, jeśli ma [ROOT.Char.GetLadyLord|U] monetę…”"
  stewardship_general.2001.desc: "\n\nStoisko kupieckie jest wprost przepełnione błyskotkami i pasmanterią."
- stewardship_general.2001.desc_high_skill: "$stewardship_general.2001.desc$ Jako wprawn[Select_CString(ROOT.Char.IsFemale, 'a dostawczyni', 'y dostawca' )] drobiazgów, w natłoku bibelotów moją uwagę przykuwa kilka drobiazgów."
+ stewardship_general.2001.desc_high_skill: "$stewardship_general.2001.desc$ Jako, że jestem wprawnym dostawcą drobiazgów, w natłoku bibelotów moją uwagę przykuwa kilka drobiazgów."
  stewardship_general.2001.desc_steward: "\n\nPrzyglądając się niezliczonym towarom na straganie, słyszę, jak [helpful_councillor.GetShortUINameNotMe] pomrukuje: „Akwaforty na tym kawałku muszą być prawdziwe… i całkiem cenne!”. Spogląda na mnie z triumfalnym uśmiechem."
  stewardship_general.2001.desc_chaplain: "\n\nM[Select_CString( helpful_councillor.IsFemale, 'oja towarzyszka', 'ój towarzysz' )] [helpful_councillor.GetShortUINameNotMe] zatrzymuje się w miejscu, z głową zadartą do góry, wpatrując się w coś na straganie kupieckim. Pochyla się i mówi ściszonym głosem: „To »cudeńko«, to wierne odwzorowanie kawałka z uroczystego relikwiarza. Mądrze byłoby nabyć taki drobiazg”."
  stewardship_general_2001_success_msg.t: "Udane targowanie"

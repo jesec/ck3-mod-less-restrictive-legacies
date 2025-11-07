@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
  DIARCHY_WINDOW_HEADER: "$game_concept_diarchy$"
- DIARCHY_WINDOW_STATUS_ACTIVE_DIARCHY: "作为[Character.Custom('GetDiarchyArticle')][Character.GetDiarchyTypeName][sharing_power|E]"
+ DIARCHY_WINDOW_STATUS_ACTIVE_DIARCHY: "作为[Character.GetDiarchyTypeName][sharing_power|E]"
  DIARCHY_WINDOW_STATUS_INACTIVE_DIARCHY: "未[sharing_power|E]"
  DIARCHY_WINDOW_TITLE_DESIGNATED_DIARCH: "[CHARACTER.GetPrimaryTitle.GetName]指定[CHARACTER.GetDiarchTitle]"
  DIARCHY_WINDOW_TITLE_FUTURE_DIARCH: "[CHARACTER.GetPrimaryTitle.GetName]推定[CHARACTER.GetDiarchTitle]"

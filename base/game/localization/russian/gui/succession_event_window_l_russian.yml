@@ -284,7 +284,7 @@
  RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate: "#weak Уровень сложности для случайно выбранного персонажа не может быть выше крайне высокого.#!"
  RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate_adventurer: "Вероятность стать [Concept('adventurer', 'авантюристом')|E] примерно #V 50%#!\n\n"
  SUCCESSION_EVENT_WINDOW_RANDOM_CLOSE: "Продолжить игру за персонажа [SuccessionEventWindow.GetSelectedDestinyCharacter.GetTypeName]"
- SUCCESSION_EVENT_WINDOW_RANDOM_DESTINY: "Выбрать случайную судьбу"
+ SUCCESSION_EVENT_WINDOW_RANDOM_DESTINY: "Выбрать случайно"
  SUCCESSION_EVENT_WINDOW_RANDOM_DESTINY_HEADER: "#T Судьба правит всем…#!"
  SUCCESSION_EVENT_WINDOW_RANDOM_DESTINY_TT: "#T Выберите случайную судьбу#!\nЩелкните, чтобы выбрать случайного персонажа из нескольких возможных категорий."
  SUCCESSION_IS_FAVORITE_CHILD_TT: "Это ваш [Concept( 'favorite_child', 'любимый ребенок' )|E]"

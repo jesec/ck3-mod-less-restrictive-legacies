@@ -125,7 +125,7 @@
  wanderer_internal_affairs_focus_effect_desc: "Сосредоточившись на внутренних делах, персонаж получает:\n$wanderer_internal_affairs_focus_effect$"
  wanderer_internal_affairs_focus_effect: ""
  wanderer_internal_affairs_focus_modifier: "$wanderer_internal_affairs_focus$"
- wayfarer_name: "Путник"
+ wayfarer_name: "Странник"
  voyager_name: "Путешественник"
  surveyor_name: "Инспектор"
  #Adventurers

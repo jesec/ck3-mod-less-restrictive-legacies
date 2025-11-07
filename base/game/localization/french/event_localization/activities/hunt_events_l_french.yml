@@ -107,7 +107,7 @@
  hunt_opening_entourage_normal_dangerous: "Nous #EMP devrions#! être assez nombreux pour pousser la bête à l’hallali, sans grande difficulté."
  hunt_opening_entourage_many_dangerous: "Nous avons assez d’yeux et de lances pour mettre cette bête à mort, aujourd’hui même !"
  hunt.0520.a: "Ne perdons pas de temps."
- hunt_header: "Chasse :"
+ hunt_header: "[ROOT.Char.Custom('HuntHeader')] :"
  hunt.1001.t: "Acculer [activity.Custom('FR_Le_GetAnimalType')][activity.Custom('GetAnimalType')]"
  hunt.1001.desc_opening_courtier: "M[ROOT.Char.Custom2('FR_RelationToMeShort_OnA', hunt_participant)], [hunt_participant.Custom('FR_le_Char_Pi')][hunt_participant.GetTitledFirstName], est [hunt_participant.Custom('FR_LeLa')] premi[hunt_participant.Custom('FR_ErEre')] à repérer [activity.Custom('GetAnimalFeature')]."
  hunt.1001.desc_opening: "Je scrute le paysage et je n’en crois pas mes yeux. J’aperçois [activity.Custom('GetAnimalFeature')] !"

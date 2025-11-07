@@ -69,7 +69,7 @@
  court.3021.a: "Instynktownie wyciągam rękę z nadzieją, że [courtier1.GetFirstNameNoTooltip] ją złapie."
  court.3021.b: "Wyciągam rękę i po chwili [courtier2.GetFirstNameNoTooltip] jest już bezpieczn[Select_CString( courtier2.IsFemale, 'a', 'y' )] w niszy."
  court.3021.c: "Z przerażeniem patrzę, jak wszyscy wpadają do dołu kloacznego."
- court.3021.latrine_disaster: "[capital.GetNameNoTooltip]: Katastrofa budowlana"
+ court.3021.latrine_disaster: "[capital.GetNameNoTooltip]: katastrofa budowlana"
  #Lady-in-waiting
  court.3030.t: "Wybredność wobec mody"
  court.3030.desc.intro: "Zawsze [Select_CString( courtier2.IsFemale, 'czujna, moja dama dworu', 'czujny, mój pan dworu' )], [fussy_liw.GetFirstName], depcze mi po piętach, aby upewnić się, że zachowuję się i prezentuję odpowiednio na dworze.\n\n„[Select_CString( ROOT.Char.IsFemale, 'Moja pani', 'Mój panie' )]! Proszę się nie ruszać przez chwilę, abym [Select_CString( fussy_liw.IsFemale, 'mogła', 'mógł' )] poprawić twoje ubranie!”\n\n"

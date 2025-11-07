@@ -107,7 +107,7 @@
  hunt_opening_entourage_normal_dangerous: "우리의 머릿수는 #EMP 충분#!하다. 큰 문제 없이 야수를 찾아 구석에 몰아넣을 수 있을 것이다."
  hunt_opening_entourage_many_dangerous: "사람도, 창도 차고 넘친다. 오늘 야수의 패악질은 끝날 것이다!"
  hunt.0520.a: "낭비할 시간이 없다."
- hunt_header: "사냥:"
+ hunt_header: "[ROOT.Char.Custom('HuntHeader')]:"
  hunt.1001.t: "[activity.Custom('GetAnimalType')|U](을)를 궁지에 몰다"
  hunt.1001.desc_opening_courtier: "나의 [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)] [hunt_participant.GetTitledFirstName](이)가 제일 먼저 [activity.Custom('GetAnimalFeature')](을)를 포착했다."
  hunt.1001.desc_opening: "주변 지형을 살피다 순간 놀라 아차하고 말았다. 저기 보인다. [activity.Custom('GetAnimalFeature')]!"

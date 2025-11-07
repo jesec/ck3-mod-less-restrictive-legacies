@@ -336,7 +336,7 @@
  harbors_criminals_modifier: "Protection de personnes louches"
  harbors_criminals_modifier_desc: "Ce personnage ne fait rien pour traduire en justice les criminels de sa propre Cour, car ils ont leur utilité."
  fast_hard_justice_modifier: "Justice stricte"
- fast_hard_justice_modifier_desc: "Ce personnage a acquis la réputation de s’occuper efficacement de la criminalité."
+ fast_hard_justice_modifier_desc: "Ce personnage a la réputation de s’occuper efficacement de la criminalité."
  ## Secrets and Lies
  court.8180.t: "Secrets et mensonges"
  court.8180.desc.intro: "Les jours passent sans que cela ne me traverse l’esprit, mais chaque fois que je croise le regard [criminal.Custom('FR_du_Char_Pi')][criminal.GetTitledFirstName] à la Cour, je ne pense qu’à son crime.\n\nJe me demande combien de personnes à la Cour le savent. Aucune ? Toutes ? La vérité finira par éclater et un tel scandale n’est pas bon pour ma réputation...\n\nIl faut que je m’occupe de son cas ou je devrai faire face [ROOT.Char.GetFaith.HighGodName2], sans parler de la Cour."

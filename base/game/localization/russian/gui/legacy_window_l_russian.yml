@@ -27,7 +27,7 @@
  LEGACY_LIFESTYLE: "#T [lifestyle|E] — [LegacyItem.GetLifestyle.GetName]\n#![LegacyItem.GetFinisherPerksList]"
  LEGACY_FINISHER_PERKS_LIST: "[perks|E] к финалу:\n$LIST$"
  LEGACY_IS_AT_WAR: "@warning_icon! [war|X]!"
- LEGACY_NO_HEIR: "@warning_icon! Нет [Concept( 'player_heir', 'наследника-игрока' )]!"
+ LEGACY_NO_HEIR: "@warning_icon! Нет [Concept( 'player_heir', 'наследника-игрока' )|E]!"
  LEGACY_WARS: "#T Пройдено [Concept('wars', 'войн')|E]: [LegacyItem.GetTotalNumberOfWars]\n#![LegacyItem.GetWarBreakdown]"
  SUCCESSION_RELATION: "$RELATION$"
  LEGACY_OFFENSIVE_WARS: "$EFFECT_LIST_BULLET$Наступательные войны: $COUNT$"

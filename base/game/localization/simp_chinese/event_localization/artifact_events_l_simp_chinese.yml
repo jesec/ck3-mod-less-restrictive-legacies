@@ -16,8 +16,8 @@
  artifact_claim_gained_notification: "获得宝物宣称"
  artifact_claim_lost_notification: "失去宝物宣称"
  #Event localization
- artifact.0011.t: "[this_artifact.Custom('InventoryCourtArtifact')]遗失！"
- artifact.0011.tooltip: "[this_artifact.GetName]从你手中遗失，落到了[owner.GetTitledFirstNameNoTooltip]处"
+ artifact.0011.t: "失去[this_artifact.Custom('InventoryCourtArtifact')]！"
+ artifact.0011.tooltip: "你失去了[this_artifact.GetName]，现在它属于[owner.GetTitledFirstNameNoTooltip]"
  artifact.0012.t: "获得[this_artifact.Custom('InventoryCourtArtifact')]！"
  artifact.0012.tooltip: "你从[old_owner.GetTitledFirstNameNoTooltip]手中获得了[this_artifact.GetName]"
  artifact.0021.t: "[this_artifact.Custom('InventoryCourtArtifact')]被毁！"

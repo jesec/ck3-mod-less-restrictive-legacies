@@ -175,7 +175,7 @@
  found_empire_decision_not_part_of_iberian_struggle: "你是$iberian_struggle$中的[struggle_uninvolved|E]"
  STRUGGLE_ENDING_PHASE_WARNING_MESSAGE: "在该[ending_phase|E]上达到#value [Struggle.GetPhaseDurationValue]#!进度分数会自动应用相关效果，并结束#high [Struggle.GetName]#!。"
  STRUGGLE_ENDING_PHASE_WINDOW_TITLE: "[StrugglePhase.GetNameNoTooltip]结局"
- STRUGGLE_ENDING_PHASE_EFFECTS_TITLE: "#Bold 该阶段的技术效果：#!#!"
+ STRUGGLE_ENDING_PHASE_EFFECTS_TITLE: "#Bold 该阶段的结束效果：#!#!"
  STRUGGLE_ENDING_PHASE_NO_EFFECT_DESC: "#Italic 该结局没有相关效果#!"
  struggle_persia_ending_phase_abassid_soup.effect.persia_dejure_transfer: "所有[GetTitleByKey('e_persia').GetName][de_jure|E]转移到[GetTitleByKey('e_arabia').Custom('GetIncumbentOrNone')]"
  struggle_persia_ending_phase_sunder_caliphate.effect.lose_all_dejure: "[GetTitleByKey('e_arabia').Custom('GetIncumbentOrNone')]失去了所有在[GetTitleByKey('e_arabia').Custom('GetIncumbentOrNone_Possessive')]核心[kingdom|E][title|E]之外的[de_jure|E]"

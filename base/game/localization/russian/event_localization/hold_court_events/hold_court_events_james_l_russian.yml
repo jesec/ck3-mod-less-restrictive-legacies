@@ -32,7 +32,7 @@
  rival_planning_holy_war_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(scope.IsLocalPlayer,'просите', 'просит')] о религизоном перемирии, но [TARGET_CHARACTER.GetShortUIName|U] отказывается"
  friend_beyond_faith: "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] забываете о религиозных различиях ради семьи и союза"
  friend_united_by_faith: "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] объединяетесь в вопросах веры"
- ignore_3_site_rule_tt: "Вы можете реформировать свою [Concept('faith', 'конфессию')|E], не выполняя обычное требование по владению [Concept('holy_sites', 'священными местами')|E]"
+ ignore_3_site_rule_tt: "Вы можете реформировать свою [Concept('faith', 'конфессию')|E], не выполняя обычное требование по владению [Concept('holy_sites', 'святыми местами')|E]"
  friend_will_convert_tt: "[same_faith_friend.GetFirstName|U] примет обновленную веру вместе с вами."
  truce_religious_tolerance: "Религиозная терпимость"
  hc_7020_guardian_of_the_old_ways: "Страж старых обычаев"

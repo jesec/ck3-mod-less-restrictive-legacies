@@ -1036,6 +1036,7 @@
  artifact_crossbow: "쇠뇌"
  artifact_crossbow_name: "$artifact_name_prefix$ 쇠뇌"
  artifact_crossbow_description: "[SCOPE.Custom('ArtifactQuality')] 만듦새를 자랑하는 [newly_created_artifact.GetFeatureText( 'bow_wood' )] 쇠뇌입니다. 힘줄을 시위로 썼습니다. 극도로 강력하며 미리 장전해놓을 수 있지만, 재장전에 시간이 오래 걸립니다."
+ create_artifact_bow_tooltip: "[inspiration_owner.GetShortUIName](이)가 [SCOPE.Custom('ArtifactQuality')] 솜씨의 [SCOPE.Custom('ArtifactBowType')](을)를 만듦"
  feature_longbow_wood_elm: "$feature_bow_wood_elm$"
  feature_longbow_wood_yew: "$feature_bow_wood_yew$"
  feature_composite_wood_bamboo: "$feature_bow_wood_bamboo$"

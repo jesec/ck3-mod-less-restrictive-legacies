@@ -151,7 +151,7 @@
  #Royal Architect
  court.8200.t: "坚实基础"
  court.8200.desc: "我[position_holder.Custom('ComplimentAdjective')][GetCourtPositionType('royal_architect_court_position').GetName()][position_holder.GetTitledFirstNamePossessive]的能力在宫廷中得到了普遍的赞扬——即使最简单的修复工作，也会得到[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]或其他地方罕见的谨慎和精确处理。\n\n在过去一周里，[position_holder.GetSheHe|U]一直在深入思考，最终说出了[position_holder.GetHerHis]的困境：“[ROOT.Char.GetLadyLord]，在工作中我发现了一些简化建筑项目的办法，但我的精力用在扩建村庄上也许会更好？”"
- court.8200.a: "你的#EMP 我的#!建筑师。"
+ court.8200.a: "你是#EMP 我的#!建筑师。"
  court.8200.b: "关注人民的需要。"
  court.8200.c: "有能力的[position_holder.GetWomanMan]可以全部都要。"
  court.8200.c.success: "你帮助了[position_holder.GetFirstNameNoTooltip]"

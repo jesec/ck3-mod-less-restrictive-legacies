@@ -1,5 +1,5 @@
 ﻿l_russian:
- SUCCESSION_ELECTION_WINDOW_TITLE: "Выбор [Concept( 'title_heir', 'наследника' )]"
+ SUCCESSION_ELECTION_WINDOW_TITLE: "Выбор [Concept( 'title_heir', 'наследника' )|E]"
  SUCCESSION_ELECTION_WINDOW_CANDIDATES: "Кандидаты ([GetDataModelSize( SuccessionElectionWindow.GetCandidates.GetList )])"
  SUCCESSION_ELECTION_WINDOW_ELECTORS: "Выборщики ([GetDataModelSize( SuccessionElectionWindow.GetElectors.GetList )])"
  SUCCESSION_ELECTION_WINDOW_THEIR_ELECTORS: "[Character.GetHerHis|U] выборщики"

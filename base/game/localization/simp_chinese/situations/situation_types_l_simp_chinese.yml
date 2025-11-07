@@ -15,7 +15,7 @@
  situation_parameter_the_great_steppe_free_retaliation: "#EMP $retaliation_cb$#![casus_belli|E]免费"
  situation_parameter_the_great_steppe_cheaper_hunts: "[GetActivityType('activity_hunt').GetTextIcon][GetActivityType( 'activity_hunt').GetName]举办花费降低#V 50%#!"
  the_great_steppe_demand_herd_higher_rate_name: "要求增缴牧群"
- the_great_steppe_easier_obedience_name: "要求服从"
+ the_great_steppe_easier_obedience_name: "要求忠顺"
  the_great_steppe_migration_acceptance_boost_name: "团结迁徙"
  the_great_steppe_migration_morale_boost_name: "迁徙士气"
  the_great_steppe_casus_belli_conquer_prestige_gain_name: "战斗威望"

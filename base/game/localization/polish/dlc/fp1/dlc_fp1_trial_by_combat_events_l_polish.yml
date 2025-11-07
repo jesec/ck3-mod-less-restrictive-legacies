@@ -18,7 +18,7 @@
  fp1_tbc.0031.desc: "Walczyć z #EMP tobą#!? Może rozważysz przejście na emeryturę i zostanie błaznem. To w ogóle nie wchodzi w rachubę.\n\nProszę nie krępuj się i wysyłaj więcej pisemnych żartów do miejsca znanego jako [recipient.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]."
  fp1_tbc.0031.a: "[recipient.Custom('InsultAdjective')|U] [recipient.Custom('InsultNoun')]!"
  #Scope:actor won a TbC.
- fp1_tbc.0041.t: "$fp1_tbc.0000.t$: Zwycięstwo!"
+ fp1_tbc.0041.t: "$fp1_tbc.0000.t$: zwycięstwo!"
  fp1_tbc.0041.desc.intro: "Odpoczywając wygodnie na ziemiach znanych jako [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], cieszę się z mojego sukcesu. [actor.Custom('signature_weapon')|U] leży na moich kolanach.\n\n"
  fp1_tbc.0041.desc.opponent_died: "Patrząc na wciąż lepiącą się w świeżych bruzdach i nacięciach wzdłuż rękojeści broni krew, przypominam sobie, jak umierał[Select_CString(champion.IsFemale, 'a', '' )] [champion.GetTitledFirstName]."
  fp1_tbc.0041.desc.opponent_lives.recipient_fighting: "Satysfakcjonujące bóle falujące po moim ciele przypominają mi o małych chwilach w walce, małych zwycięstwach i zaciętych porażkach, z których każda ostatecznie spowoduje, że [recipient.GetTitledFirstName] przegra."
@@ -29,14 +29,14 @@
  fp1_tbc.0041.desc.outro: "\n\nWczoraj bogowie i [actor.GetFaith.PantheonTerm] usłyszeli o naszym sporze i udzielili nam mądrej odpowiedzi."
  fp1_tbc.0041.a: "Sprawiedliwości stało się zadość."
  #Scope:actor lost a TbC.
- fp1_tbc.0051.t: "$fp1_tbc.0000.t$: Porażka!"
+ fp1_tbc.0051.t: "$fp1_tbc.0000.t$: porażka!"
  fp1_tbc.0051.desc.intro: "Jak do tego doszło? Bogowie i [actor.GetFaith.PantheonTerm] patrzą na mnie, gdy szukam #EMP sprawiedliwości#!, ale w nagrodę dają mi jeno cierpienie i upokorzenie. Przez całą drogę powrotną do obszaru o nazwie [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] milczę."
  fp1_tbc.0051.desc.opponent_lives.recipient_fighting: "Nie rozumiem, jak [recipient.GetTitledFirstName] mnie pokonał[Select_CString(recipient.IsFemale, 'a', '' )]. Miał[Select_CString(actor.IsFemale, 'am', 'em' )] #EMP rację#!. #EMP Powin[Select_CString(actor.IsFemale, 'nam', 'ienem' )]#! był[Select_CString(actor.IsFemale, 'a', '' )] wygrać, na tym polega próba walki."
  fp1_tbc.0051.desc.opponent_lives.recipient_has_champion: "#EMP Oczywiście#! w uczciwej walce, [recipient.GetFirstName] nigdy by nie wygrał[Select_CString(recipient.IsFemale, 'a', '' )]! Niech cię szlag [champion.GetTitledFirstName] i te przeklęte tradycje!"
  fp1_tbc.0051.desc.outro: "\n\nTeraz cały świat uważa, że nasze sprawy zostały załatwione, a sprawiedliwość wymierzona."
  fp1_tbc.0051.a: "Phi, tu nie było sprawiedliwości."
  #Scope:recipient must designate a champion to fight for them.
- fp1_tbc.0101.t: "$fp1_tbc.0000.t$: Wybór czempiona"
+ fp1_tbc.0101.t: "$fp1_tbc.0000.t$: wybór czempiona"
  fp1_tbc.0101.desc: "Kiedy [actor.GetTitledFirstName] zaproponował[Select_CString(actor.IsFemale, 'a', '' )] próbę walki, zgodził[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] się, ale niestosowne byłoby walczyć z [Select_CString(actor.IsFemale, 'nią', 'nim' )] osobiście.\n\nTradycja wymaga, abym wybrał[Select_CString(ROOT.Char.IsFemale, 'a', '' )] czempiona, który będzie walczył w moim imieniu, ale kogo wybrać?"
  fp1_tbc.0101.bout_moves_forward: "Walka toczy się dalej…"
  fp1_tbc.0101.a: "[knight_best.GetTitledFirstNameNoTooltip] jest jednym z moich najwspanialszych $knight_culture_player_plural_possessive_no_tooltip_lowercase$!"
@@ -50,7 +50,7 @@
  fp1_ep1_tbc.0101.e: "[Select_CString(knight_alternative.IsFemale, 'Moja wyznaczona', 'Mój wyznaczony' )] już osobist[Select_CString(knight_alternative.IsFemale, 'a czempionka', 'y czempion' )], [knight_alternative.GetTitledFirstNameNoTooltip]."
  fp1_ep1_tbc.0101.e.tt: "[knight_alternative.GetTitledFirstName] będzie walczyć za ciebie"
  #Scope:recipient won a TbC.
- fp1_tbc.0111.t: "$fp1_tbc.0000.t$: Zwycięstwo!"
+ fp1_tbc.0111.t: "$fp1_tbc.0000.t$: zwycięstwo!"
  fp1_tbc.0111.desc.intro: "[recipient.GetFaith.PantheonTerm|U] [Select_CString(EqualTo_string(recipient.GetFaith.PantheonTermHasHave, 'ma' ), 'uśmiechnął', 'uśmiechnęli' )] się wczoraj do mnie serdecznie!"
  fp1_tbc.0111.desc.opponent_died.recipient_fighting: "\n\nZamykając oczy, wciąż czuję przypływ adrenaliny w moim organizmie, mięśnie drżące od ducha walki, zastygłe w chwili, gdy [actor.GetTitledFirstName] stracił[Select_CString( actor.IsFemale, 'a', '' )] życie, a moje zwycięstwo zostało zapewnione."
  fp1_tbc.0111.desc.opponent_lives.recipient_fighting: "\n\nNie dość, że [actor.GetFirstName] został[Select_CString( actor.IsFemale, 'a pobita', ' pobity' )] przeze mnie do nieprzytomności za swoją zuchwałość, to jeszcze udało mi się udowodnić, że [actor.GetHerHis] oszczerstwa są całkowicie bezpodstawne."
@@ -58,7 +58,7 @@
  fp1_tbc.0111.desc.outro: "\n\nMoże następny głupiec najpierw pomyśli, zanim zdecyduje, że [recipient.GetTitledFirstNameNicknamedNoTooltip] powin[Select_CString(recipient.IsFemale, 'na', 'ien' )] stoczyć z nim pojedynek."
  fp1_tbc.0111.a: "$fp1_tbc.0041.a$"
  #Scope:recipient lost a TbC.
- fp1_tbc.0121.t: "$fp1_tbc.0000.t$: Porażka!"
+ fp1_tbc.0121.t: "$fp1_tbc.0000.t$: porażka!"
  fp1_tbc.0121.desc.intro: "[recipient.GetFaith.PantheonTerm|U] nie uśmiecha[Select_CString( recipient.IsFemale, 'ła', 'ł' )] się do mnie wczoraj."
  fp1_tbc.0121.desc.champion_lives.recipient_fighting: "Świadczą o tym siniaki i rany na moim ciele, które pozostawił[Select_CString(actor.IsFemale, 'a', '' )] po sobie [actor.GetFirstName] i [actor.GetHerHis] [actor.Custom('signature_weapon')]. Mam szczęście, że żyję."
  fp1_tbc.0121.desc.champion_lives.recipient_has_champion: "Był[Select_CString(ROOT.Char.IsFemale, 'am pewna', 'em pewien' )], że [champion.GetTitledFirstName] poradzi sobie z tak[Select_CString(actor.IsFemale, 'ą przeciwniczką', 'im przeciwnikiem' )] jak [actor.GetTitledFirstName], ale [champion.GetSheHe] po prostu ma szczęście, że żyje."

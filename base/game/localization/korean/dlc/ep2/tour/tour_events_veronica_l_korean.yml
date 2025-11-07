@@ -1,7 +1,7 @@
 ﻿l_korean:
  #### Tour Travel Events
  tour_travel.3120.t: "백작의 품으로의 초대"
- tour_travel.3120.desc.intro: "가는 길에 방문한 여관은 하나같이 비싸기 짝이 없었다. 우리 수행단이 어떤 일행인지 알아보기 어려운 것도 아니고, 대놓고 티를 내는 것도 아니다. 그런데 우리가 들어서면 모두가 침묵에 잠긴다.\n\n그때 한 [vassal_inn.GetWomanMan]이 의욕적으로 다가와 우리 탁자에 합류했다. 머잖아 [vassal_inn.Custom('quirk_pos_standalone')|l] 모습으로 이야기를 늘어놓기 시작했다. 한동안은 계속 떠들 기세다.\n\"[vassal_memory.GetDescription] 시절을 생각해 보면...\"\n\n"
+ tour_travel.3120.desc.intro: "가는 길에 방문한 여관은 하나같이 비싸기 짝이 없었다. 우리 수행단이 어떤 일행인지 알아보기 어려운 것도 아니고, 대놓고 티를 내는 것도 아니다. 그런데 우리가 들어서면 모두가 침묵에 잠긴다.\n\n그때 한 [vassal_inn.GetWomanMan]이 의욕적으로 다가와 우리 탁자에 합류했다. 머잖아 [vassal_inn.Custom('quirk_pos_standalone')|l]. 그렇게 이야기를 늘어놓기 시작했다. 한동안은 계속 떠들 기세다.\n\"[vassal_memory.GetDescription] 시절을 생각해 보면...\"\n\n"
  tour_travel.3120.desc.artifact: "\"아, 이것 좀 보십시오!\" [vassal_inn.GetFirstNameNoTooltip](이)가 탁자에 [vassal_artifact.GetName](을)를 놓았다. \"이제 영주님 겁니다!\""
  tour_travel.3120.desc.fallback: "침묵보단 이게 낫지."
  tour_travel.3120.a: "\"[vassal_inn.GetFirstNameNoTooltip], 그대는 제법 괜찮은 말동무구려. 합석하지 않겠소?\""
@@ -20,7 +20,7 @@
  peasant_influx_modifier: "농노 유입"
  peasant_influx_modifier_desc: "해당 토지는 새로운 건물 건설로 인한 피해 보상으로 농노들에게 제공되었습니다."
  tour_travel.3140.t: "성벽 바깥에서"
- tour_travel.3140.desc: "건물을 보기도 전에 소란스러운 소리가 들려왔다. 수수한 목조 건물에서 웃음소리와 음악이 흘러나오고 있었다. 우리 일행이 접근하자 한 [brothel_worker.GetWomanMan]이 [ROOT.GetCharacter.Custom('GetSmallFoodIndef')](을)를 한 입 베어 문 채로 손을 흔들었다.\n\n\"아, 어서 오세요.\"\n[brothel_worker.Custom('quirk_pos_standalone')|l] 모습으로 말했다.\n\"하룻밤 묵으시겠어요? 아니면 몇 시간만? 잠깐 쉬었다 가는 분들이신지요?\"\n\n[brothel_worker.GetHerHis] 의도를 간파하기란 어렵지 않았다."
+ tour_travel.3140.desc: "건물을 보기도 전에 소란스러운 소리가 들려왔다. 수수한 목조 건물에서 웃음소리와 음악이 흘러나오고 있었다. 우리 일행이 접근하자 한 [brothel_worker.GetWomanMan]이 [ROOT.GetCharacter.Custom('GetSmallFoodIndef')](을)를 한 입 베어 문 채로 손을 흔들었다.\n\n\"아, 어서 오세요.\"\n[brothel_worker.Custom('quirk_pos_standalone')|l].\n\"하룻밤 묵으시겠어요? 아니면 몇 시간만? 잠깐 쉬었다 가는 분들이신지요?\"\n\n[brothel_worker.GetHerHis] 의도를 간파하기란 어렵지 않았다."
  tour_travel.3140.a: "\"#EMP 아주 좋은#! 생각이로구나.\""
  tour_travel.3140.b: "\"나는 유혹에 빠지지 않는다.\""
  brothel_stop_modifier: "양기 회복"
@@ -199,8 +199,9 @@
  cultural_festival.2110.d: "으, 성가신 짐승 같으니라고."
  cultural_festival.2110.e: "자리를 지켜야 해."
  cultural_festival_2110_d_tt: "개를 걷어참"
- cultural_festival_2110_d_opinion_tt: "해당 인물을 수행 중인 모든 냉담하지 않거나 가학적이지 않은 인물"
- available_because_intent_tt: "당신의 [THIS.Char.GetInvolvedActivityIntent.GetName] [intent|E] 덕분에 이 선택지를 사용할 수 있음"
+ cultural_festival_2110_d_opinion_tt: "참석한 모든 냉담하지 않거나 가학적이지 않은 인물"
+ available_because_intent_tt: "#EMP #low 당신의 [THIS.Char.GetInvolvedActivityIntent.GetName] 의도 덕분에 이 선택지를 사용할 수 있음#!#!"
+ event_triggered_because_intent_tt: "#EMP #low 당신의 [THIS.Char.GetInvolvedActivityIntent.GetName] 의도 덕분에 이 선택지를 사용할 수 있음#!#!"
  #Tour Cultural Festival Events - Bilateral
  cultural_festival.3000.t: "위대한 연극"
  cultural_festival.3000.desc: "주군 [visiting_liege.GetTitledFirstName]의 방문은 곧 절호의 기회라고 할 수 있다. 이 운명의 만남을 잘 이용하면 [visiting_liege.GetHerHis] 동정심을 사 한결 편하게 목표를 이룰 수 있을지도...\n\n그래, 주군의 위업을 표현한 연극을 만들면 어떨까? "

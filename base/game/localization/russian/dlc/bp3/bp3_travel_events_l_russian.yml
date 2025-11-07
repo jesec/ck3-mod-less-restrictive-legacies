@@ -30,7 +30,7 @@
  travel_events_bp3.10.c.flavor: "Если горстка паломников сгинет в странствиях, никто и не заметит, правда?"
  travel_events_bp3.10.d: "«Нет, вам здесь нет места»."
  holy_pilgrims_travel_modifier: "Провожатые для паломников"
- holy_pilgrims_travel_modifier_desc: "Эта свита защищает группу паломников на пути к священному месту."
+ holy_pilgrims_travel_modifier_desc: "Эта свита защищает группу паломников на пути к святому месту."
  holy_knights_travel_modifier: "Путешествие с рыцарями"
  holy_knights_travel_modifier_desc: "Отряд доблестных рыцарей защищает эту свиту."
  travel_events_bp3.15.t: "Песни, которые поет [liege.GetTitledFirstNameNoTooltip]"

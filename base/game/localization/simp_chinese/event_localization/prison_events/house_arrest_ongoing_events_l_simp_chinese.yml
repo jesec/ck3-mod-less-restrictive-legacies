@@ -23,5 +23,5 @@
  house_arrest_ongoing.0004.desc: "\n\n我亲爱的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend_at_court') )]，[friend_at_court.GetTitledFirstName]，总是想着我，并且尽[friend_at_court.GetHerHis]最大的努力让我在牢狱中能过得舒服一点。"
  house_arrest_ongoing.0004.a: "我不知道没有[friend_at_court.GetHerHim]我该怎么办！"
  house_arrest_ongoing.0005.t: "我的私人折磨者"
- house_arrest_ongoing.0005.desc: "“哦，你真应该看看节日上的那些哑剧。它们太棒了！”\n\n被锁在这里已经够糟了。还要对付我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival_at_court') )][rival_at_court.GetTitledFirstNamePossessive]的嘲讽就更过分了。由于我现在处于如此地位，[rival_at_court.GetSheHe|U]便特意尽[rival_at_court.GetHerHis]所能把我的生活搞的尽量悲惨。"
+ house_arrest_ongoing.0005.desc: "“哦，你真应该看看节日上的那些哑剧。它们太棒了！”\n\n被锁在这里已经够糟了。还要对付我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival_at_court') )][rival_at_court.GetTitledFirstNamePossessive]的嘲讽就更过分了。由于我现在处于如此地位，[rival_at_court.GetSheHe|U]便想方设法尽[rival_at_court.GetHerHis]所能把我的生活搞得尽量悲惨。"
  house_arrest_ongoing.0005.a: "而且有效，绝了！"

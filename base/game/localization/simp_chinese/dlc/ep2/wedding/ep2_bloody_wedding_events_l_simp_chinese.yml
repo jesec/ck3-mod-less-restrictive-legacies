@@ -61,7 +61,7 @@
  ep2_wedding.3060.c: "快速行动。我在枕头下放了一把匕首。"
  ep2_wedding.3060.c.flavor: "让我来给你切点水果，亲爱的！"
  ep2_wedding.3060.c.success: "你割断了[spouse_2.GetShortUINamePossessive]的喉咙"
- ep2_wedding.3060.c.failure: "[spouse_2.GetShortUIName]疑虑重重"
+ ep2_wedding.3060.c.failure: "[spouse_2.GetShortUIName]起了疑心"
  ep2_wedding.3060.d: "不，我不能这么做。"
  ep2_wedding.0301.t: "余味"
  ep2_wedding.0301.desc.family: "房间里到处都是尸体。仆人们一边准备着折叠床，一边嘀咕着凶手可能是谁。“我听说他们有许多敌人。”“我听说他们没有敌人。”"

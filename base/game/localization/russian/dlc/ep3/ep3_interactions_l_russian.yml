@@ -537,7 +537,7 @@
  ep3_interactions_events.0112.b: "Ты в себе ли?!"
  ep3_interactions_events.0112.c: "Я умею убеждать и по-другому!"
  ep3_interactions_events.0112.refuse: "[actor.GetTitledFirstName] [Select_CString(recipient.IsFemale, 'отвергла', 'отверг' )] ваше предложение"
- camp_purpose_mercenaries_reason: "Имеет [Concept( 'camp_purpose', 'цель лагеря' )|E] «[GetLaw('camp_purpose_mercenaries').GetName]»: $VALUE|=+0$"
+ camp_purpose_mercenaries_reason: "Имеет [Concept( 'camp_purpose', 'архетип лагеря' )|E] «[GetLaw('camp_purpose_mercenaries').GetName]»: $VALUE|=+0$"
  attacker_losisng_too_much_reason: "[Concept( 'war_score', 'Боевой счет' )|E] в наступательных войнах: $VALUE|=+0$"
  defender_losisng_too_much_reason: "[Concept( 'war_score', 'Боевой счет' )|E] в оборонительных войнах: $VALUE|=+0$"
  ep3_interactions_events.0121.opening: "[laamp.Custom2('AppropriateGreetingPositive', employer)]"

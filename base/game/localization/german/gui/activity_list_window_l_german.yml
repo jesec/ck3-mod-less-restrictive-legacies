@@ -70,3 +70,4 @@
  activity_chariot_race_host_an_a: "ein"
  activity_playdate_host_an_a: "ein"
  activity_witch_ritual_host_an_a: "einen"
+ activity_coronation_host_an_a: "$host_activity_a$"

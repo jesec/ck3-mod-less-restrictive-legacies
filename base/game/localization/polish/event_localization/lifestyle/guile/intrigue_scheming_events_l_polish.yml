@@ -71,7 +71,7 @@
  #Sneaky person seeks you out (might be an agent), by Linnéa Thimrén
  intrigue_scheming.2101.t: "Intrygująca perspektywa"
  intrigue_scheming.2101.desc: "– Zwracam uwagę, [Select_CString(ROOT.Char.IsFemale, 'moja pani', 'mój panie' )], że możesz potrzebować któregoś z moich… talentów. [Select_CString(sneaky_person.IsFemale, 'Moja nowa znajoma', 'Mój nowy znajomy' )], [sneaky_person.GetTitledFirstName], [Select_CString(sneaky_person.IsFemale, 'uśmiechając się, podeszła do mnie', 'uśmiechając się, podszedł do mnie' )].\n\n– Jeśli moje usługi mogą przynieść Ci wiele korzyści, nie zawahaj się z nich skorzystać."
- intrigue_scheming.2101.a: "Mogę się po prostu przydać."
+ intrigue_scheming.2101.a: "Mogę mieć dla ciebie jakieś zadanie."
  intrigue_scheming.2101.b: "Nie jesteś odpowiedn[Select_CString(sneaky_person.IsFemale, 'ią kobietą', 'im mężczyzną' )] do tej pracy."
  intrigue_scheming.2102.t: "Lojaln[Select_CString( SCOPE.sC('sneaky_person').IsFemale, 'a', 'y' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sneaky_person'))|l]"
  intrigue_scheming.2102.desc: "[ROOT.Char.Custom('GetCourtyard')|U] to miejsce, w którym postanawiam się ukryć. Stoję w cieniu i obserwuję, jak [sneaky_person.GetTitledFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sneaky_person') )], znika w ciemnościach nocy.\n\nKolejny wieczór, kolejne potajemne spotkanie, a moja podejrzliwość wobec tej osoby ciągle rośnie."

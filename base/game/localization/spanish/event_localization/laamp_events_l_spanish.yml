@@ -9,7 +9,7 @@
  ep3_laamps.0001.b: "Todo depende de [alt_1.GetFirstNameNoTooltipRegnal]."
  target_character_government: "[government|E]: [TARGET_CHARACTER.GetGovernment.GetName]"
  target_character_independent: "[independent_ruler|E]"
- target_character_liege: "[SelectLocalization(TARGET_CHARACTER.IsIndependentRuler, 'Independiente', 'Vasallaje hacia [TARGET_CHARACTER.GetLiege.GetName]')]"
+ target_character_liege: "[SelectLocalization(TARGET_CHARACTER.IsIndependentRuler, 'Independiente', 'Vasallaje hacia TARGET_CHARACTER.GetLiege.GetName')]"
  ep3_laamps.0001.c: "[alt_2.GetFirstNameNoTooltipRegnal] habrá de forjar el futuro de nuestra casa."
  ep3_laamps.0001.d: "Ahora nos confiaremos a [alt_3.GetFirstNameNoTooltipRegnal|l]."
  ep3_laamps.0001.e: "El tiempo ha pasado…"

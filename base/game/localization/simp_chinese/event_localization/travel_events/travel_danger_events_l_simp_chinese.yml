@@ -87,7 +87,7 @@
  travel_danger_events.1010.b.success: "恶徒被挡住了"
  travel_danger_events.1010.b.failure: "随行人员受伤"
  travel_danger_events.1010.tt: "[zombie.GetFirstNameNoTooltip]逃之夭夭"
- travel_danger_events.1011.t: "$travel_danger_prefix$寒霜叮咬"
+ travel_danger_events.1011.t: "$travel_danger_prefix$寒霜之蚀"
  travel_danger_events.1011.t_twice: "$travel_danger_prefix$冰冻的折磨"
  travel_danger_events.1011.t_thrice: "$travel_danger_prefix$致命冻伤"
  travel_danger_events.1011.desc: "雪已经连续下了好几天了，天冷得让人难以忍受。我环顾四周，看到随从们也在挣扎着，于是我决定和他们一起步行。我们在暴雪中又走了一个小时，[frostbite_victim.GetTitledFirstName]将我拉到一边，[frostbite_victim.GetSheHe]一边哆嗦着一边大喊道：\n\n“求你了，我的[frostbite_victim.Custom2('RelationToMeShort', ROOT.Char)]，我感觉不到我的[frostbite_victim.Custom('GetFrostbittenBodyPart')]了！”"

@@ -8,7 +8,7 @@
  subject_extortion.0001.d: "Tylko żartuję, [extortion_target.GetFirstNameNoTooltip]!"
  subject_extortion.0001.d.flavor: "Wygląda na bardziej zdenerwowan[Select_CString(extortion_target.IsFemale, 'ą', 'ego' )], niż się spodziewał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]."
  #Extort a County, by Petter Vilberg
- subject_extortion.0002.t: "Wymuś złoto od poddanych: Chłopi"
+ subject_extortion.0002.t: "Wymuś złoto od poddanych: chłopi"
  subject_extortion.0002.desc: "Chłopi z [extortion_target.GetAdjective] wydają się radzić sobie lepiej, niż można by się spodziewać po zebranych tam podatkach. Dodatkowy wkład do mojego skarbca nie powinien zaszkodzić.\n\nOch, będą narzekać, ale czy nie właśnie tak zawsze robią chłopi? Przeżyją to, jestem tego pew[Select_CString(ROOT.Char.IsFemale, 'na', 'ien' )]."
  subject_extortion.0002.a: "Mogą robić co chcą, pod warunkiem, że dostanę swoje złoto!"
  subject_extortion.0002.b: "Dlaczego nigdy nie są wdzięczni za to, co mają?"
@@ -20,13 +20,13 @@
  subject_extortion.0003.b: "[ROOT.Char.GetFaith.HighGodName] mi świadkiem, zasługuję na to!"
  subject_extortion.0003.c: "Denerwowanie sług [ROOT.Char.GetFaith.HighGodNameAlternatePossessive] jest złym pomysłem…"
  #Extort all Vassals, by Petter Vilberg
- subject_extortion.0004.t: "Wymuś złoto od poddanych: Wasale"
+ subject_extortion.0004.t: "Wymuś złoto od poddanych: wasale"
  subject_extortion.0004.desc: "Celem moich wasali jest wspieranie moich wysiłków. Chociaż już płacą podatki za ten przywilej, nie mogę przestać myśleć o tym, o ile więcej bym zarobił[Select_CString(ROOT.Char.IsFemale, 'a', '' )], gdyby wszyscy dorzucili jeszcze trochę…\n\nWielkie bogactwo dla mnie, przy prawie żadnych kosztach dla nich!"
  subject_extortion.0004.a: "Co za doskonałe rozwiązanie!"
  subject_extortion.0004.b: "Po co brać mało, skoro mogę wziąć #EMP dużo#!?"
  subject_extortion.0004.c: "Nie, już wywiązali się ze swoich zobowiązań."
  #Extort Courtiers, by Petter Vilberg
- subject_extortion.0005.t: "Wymuś złoto od poddanych: Dworzanie"
+ subject_extortion.0005.t: "Wymuś złoto od poddanych: dworzanie"
  subject_extortion.0005.desc: "Moi dworzanie praktycznie żyją z mojej hojności. Czy to nie najwyższy czas, aby okazali swoją wdzięczność?\n\nNawet pomniejszy szlachcic powinien mieć pojęcie o honorze i obowiązku."
  subject_extortion.0005.a: "#EMP Żyją#! tylko dzięki mojemu miłosierdziu!"
  subject_extortion.0005.b: "To nie jest żądanie, ale oczekuję darów."

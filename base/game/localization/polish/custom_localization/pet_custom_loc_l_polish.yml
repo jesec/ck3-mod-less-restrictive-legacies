@@ -69,6 +69,7 @@
  name_pride_of_city: "Duma miejsca znanego jako [ROOT.Var('cat_city').Province.GetNameNoTooltip]"
  name_tail_of_city: "Opowieść o miejscu znanym jako [ROOT.Var('cat_city').Province.GetNameNoTooltip]"
  name_tigon: "Tyglew"
+ passed_cat_name: "[ROOT.Char.GetLocalizedText( 'deceased_story_cycle_cat_name' )]"
  dog_name: "[ROOT.Char.GetLocalizedText( 'story_cycle_dog_name' )]"
  dog_name_possessive: "[ROOT.Char.Custom( 'DogStoryName' )]"
  dog_name_amiable: "Amigo"

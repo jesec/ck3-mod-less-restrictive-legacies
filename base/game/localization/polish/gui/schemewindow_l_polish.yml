@@ -242,6 +242,7 @@
  SCHEME_SEDUCE_UNWILLING_INCEST: "Jesteście [Concept( 'family', 'rodziną' )|E]: $VALUE|0=-+$"
  SCHEME_SEDUCE_UNWILLING_INCEST_TOO_YOUNG: "Jesteście [Concept( 'family', 'rodziną' )|E], a [TARGET_CHARACTER.GetShortUINameNotMe|U] jest za młod[Select_CString(TARGET_CHARACTER.IsFemale, 'a', 'y' )], by postrzegać cię jak kogoś innego."
  SCHEME_SEDUCE_TABOO_SODOMY: "Homoseksualizm jest tabu: $VALUE|0=-+$"
+ SCHEME_CONVINCED_AT_FEAST: "Przekonano na uczcie: $VALUE|0=-+$"
  COMPASSIONATE_REASON: "[ROOT.Char.GetAIPersonality] uważa to za niemoralne: $VALUE|+0=$"
  COMPASSIONATE_NEGATIVE_REASON: "[ROOT.Char.GetAIPersonality] akceptuje te metody: $VALUE|+0=$"
  SCHEME_NOT_AGAINST_DESCENDANTS: "Nie skrzywdzę swoich potomków: $VALUE|+0=$"
@@ -459,3 +460,5 @@
  ai_acceptance_trait_vengeful: "Mam cechę [GetTrait('vengeful').GetName( GetNullCharacter )|l]: $VALUE|+0=$"
  ai_acceptance_trait_forgiving: "Mam cechę [GetTrait('forgiving').GetName( GetNullCharacter )|l]: $VALUE|+0=$"
  ai_acceptance_trait_eccentric: "Mam cechę [GetTrait('eccentric').GetName( GetNullCharacter )|l]: $VALUE|+0=$"
+ ai_acceptance_trait_pilgrim: "Mówią na mnie [GetTrait('pilgrim').GetName( GetNullCharacter )|l]: $VALUE|+0=$"
+ ai_acceptance_trait_faith_warrior: "Mówią na mnie [GetTrait('faith_warrior').GetName( GetNullCharacter )|l]: $VALUE|+0=$"

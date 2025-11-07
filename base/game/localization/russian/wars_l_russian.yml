@@ -551,7 +551,7 @@
  cb_rejected_caliph_discount: "Отвержение власти халифа"
  INSTALL_LOYALIST_PUPPET_WAR_NAME: "$fp3_install_loyalist_cb$ — [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]"
  INSTALL_LOYALIST_PUPPET_CB_NAME: "$fp3_install_loyalist_cb$"
- fp3_install_loyalist_cb.tt.loyalist_stooge: "[defender.GetTitledFirstName] [Select_CString(defender.IsFemale, 'должна', 'должен' )] иметь как минимум одного [Concept( 'vassal', 'вассала' )] ([GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]) — не [Concept( 'friends', 'друга' )|E] и не имеющего на [Select_CString(defender.IsFemale, 'нее', 'него' )] [Concept( 'hook', 'влияния' )|E]"
+ fp3_install_loyalist_cb.tt.loyalist_stooge: "[defender.GetTitledFirstName] [Select_CString(defender.IsFemale, 'должна', 'должен' )] иметь как минимум одного [Concept( 'vassal', 'вассала' )|E] ([GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]) — не [Concept( 'friends', 'друга' )|E] и не имеющего на [Select_CString(defender.IsFemale, 'нее', 'него' )] [Concept( 'hook', 'влияния' )|E]"
  fp3_turkic_invasion_cb: "$fp3_turkic_invasion_cb_name$"
  fp3_turkic_invasion_cb_name: "Профинансированное завоевание"
  fp3_turkic_invasion_cb_war_name: "[TITLE.GetBaseNameNoTier] — финансирование завоевания"

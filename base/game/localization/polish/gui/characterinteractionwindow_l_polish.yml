@@ -8,6 +8,7 @@
  interaction_category_favorites: "Ulubione"
  interaction_category_diplomacy: "Dyplomacja"
  interaction_category_friendly: "Osobiste działania"
+ interaction_category_friendly_filter_tag_desc: "Osobiste interakcje"
  interaction_category_laamp: "Poszukiwacz przygód bez ziemi"
  interaction_category_hostile: "Wrogie działania"
  interaction_category_vassal: "[GetPlayer.Custom2('CharacterInteractionCategoryVassal', CHARACTER.Self )]"

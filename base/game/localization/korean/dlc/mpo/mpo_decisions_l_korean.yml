@@ -634,7 +634,7 @@
  mpo_decisions_events.0004.a: "$mpo_decisions_events.0005.a$"
  mpo_decisions_events.0004.b: "이 일에는 관여하지 않겠다."
  mpo_decisions_events.0005.t: "$mpo_decisions_events.0004.t$"
- mpo_decisions_events.0005.desc: "한때 우리는 계절처럼 흩어지는 전투단이었다. 그러나 이제는 하나로 우뚝 섰다.\n\n함께 달리던 전사들은 이제 내 옥좌 앞에 무릎을 꿇는다.\n\n그들은 이제 하나가 되어 내 이름을 노래하리라. [new_king_ruler.GetPrimaryTitle.GetTierAsName]의 탄생을, 그리고 내가 그곳의 [ROOT.Char.Custom('get_queen_king')]임을 선언한다."
+ mpo_decisions_events.0005.desc: "한때 우리는 계절처럼 흩어지는 전투단이었다. 그러나 이제는 하나로 우뚝 섰다.\n\n함께 달리던 전사들은 이제 내 옥좌 앞에 무릎을 꿇는다.\n\n그들은 이제 하나가 되어 내 이름을 노래하리라. [new_king_ruler.GetPrimaryTitle.GetTierAsName]의 탄생을, 그리고 내가 그곳의 군주임을 선언한다."
  mpo_decisions_events.0005.a: "함께 번영하기를!"
  confederate_king_modifier: "연맹체 초대 왕"
  confederate_king_modifier_desc: "해당 인물은 [confederation|E]를 하나의 왕국으로 통합했습니다."
@@ -646,3 +646,4 @@
  confederation_vassal_modifier_tt: "모든 [vassals|E]이 [GetModifier('confederate_vassal_modifier').GetNameWithTooltip](을)를 획득함"
  confederation_county_modifier_tt: "모든 [Concept( 'counties', '영지' )|E]가 #V 30#!년 동안 [GetModifier('confederate_lands_modifier').GetNameWithTooltip](을)를 획득함"
  chaotic_succession_protection_title_law_tt: "[GetLaw('confederation_elective_succession_law').GetName] [law|E]이 그들을 [succession|E] 도중 #high $chaotic_succession_disobedient_kurultai_none$#!로부터 보호함"
+ ACH_DOMINATE_TITLE_GAIN_WARNING: "당신은 [coronation|E]을 치르기 전까지 [GetLaw('uncrowned').GetName] [law_i][law|E]을 획득함"

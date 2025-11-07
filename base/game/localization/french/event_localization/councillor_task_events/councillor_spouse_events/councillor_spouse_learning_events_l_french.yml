@@ -11,7 +11,7 @@
  councillor_spouse_learning.1302.t: "Votre conjoint influence la conversion culturelle"
  councillor_spouse_learning.1303.desc: "Mon épou[councillor.Custom('FR_XSe')] est le patron des théologiens"
  #General learning notifications
- councillor_spouse_learning.1601.desc: "Votre épou[councillor.Custom('FR_XSe')] vous aide dans les études en [ROOT.Char.Custom('LifestyleFocus')]"
+ councillor_spouse_learning.1601.desc: "Votre épou[councillor.Custom('FR_XSe')] aide le pupille en [ROOT.Char.Custom('LifestyleFocus')]"
  councillor_spouse_learning.1602.t: "M[tutored_child.Custom('FR_OnA')] [tutored_child.Custom('GetDaughterSon')] s’épanouit sous la tutelle de mon épou[councillor.Custom('FR_XSe')]"
  councillor_spouse_learning.1603.root_guardian.t: "Pupille apprécie la tutelle de l’épou[councillor.Custom('FR_XSe')]"
  councillor_spouse_learning.1603.spouse_guardian.t: "Pupille apprécie la tutelle de l’épou[councillor.Custom('FR_XSe')]"

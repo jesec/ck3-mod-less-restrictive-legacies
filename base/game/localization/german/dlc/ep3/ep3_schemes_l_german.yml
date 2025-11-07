@@ -7,7 +7,7 @@
  SLANDER_SUCCESS_DESC: "Ihr werdet [influence|E] und [candidate_score|E] von [SCHEME.GetTargetCharacter.GetShortUIName] verringern."
  slander_invalidated_title: "@scheme_icon! Schmähungen-Komplott endet"
  scheme_target_not_admin: "[SCHEME.GetTargetCharacter.GetShortUIName|U] hat keine [Concept('administrative', 'Verwaltungsregierung')|E]"
- scheme_owner_not_admin: "Ihr habt keine [Concept('administrative', 'Verwaltungsregierung')]"
+ scheme_owner_not_admin: "Ihr habt keine [Concept('administrative', 'Verwaltungsregierung')|E]"
  start_slander_interaction: "Schmähungen #weak (Komplott)#!"
  scheme_interaction_tt_slander_approved: "Versuchen, dem [influence|E] von [recipient.GetShortUINameNoTooltip] zu schaden und [recipient.Custom('DE_PRO_POS_S_3P')]en [candidate_score|E] für alle [titles|E] deutlich zu verringern"
  start_slander_notification: "Schmähungen"
@@ -303,6 +303,7 @@
  TARGET_GOVERNOR_EFFICIENCY_DESC: "[governor_efficiency|E] von [target.GetShortUIName]: $VALUE|+=0$"
  TARGET_HOLDER_GOVERNOR_EFFICIENCY_DESC: "[governor_efficiency|E] von [target.GetHolder.GetShortUIName]: $VALUE|+=0$"
  HOUSE_HEAD_SCHEME_SUPPORT_DESC: "$house_head_request_interaction$: $VALUE|+=0$"
+ coronation_spouse_despised_modifier: "Der Krönungseid von [owner.GetShortUIName], [target.GetShortUIName] zu beseitigen: $VALUE|+=0$"
  #Found Despotate
  found_despotate: "Statthaltertum verbessern"
  found_despotate_action: "Statthaltertum verbessern zu"

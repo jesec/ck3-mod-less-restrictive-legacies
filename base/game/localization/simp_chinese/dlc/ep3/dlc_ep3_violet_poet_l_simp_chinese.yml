@@ -53,7 +53,7 @@
  ep3_story_cycle_violet_poet.0012.title: "分发彩诗"
  #Story cycle events
  ep3_story_cycle_violet_poet.1000.t: "大自然的馈赠"
- ep3_story_cycle_violet_poet.1000.desc: "在广阔的户外待上一段时间似乎是正确的选择。风景、声音，还有新鲜空气，都对我的健康产生着奇效。\n\n正是在这次远离营地的散步中，我无意间发现了森林中一汪美丽的泉水。小溪潺潺，树叶沙沙，都抚慰着我，直到我意识到已经过去几个小时了。\n\n我能感觉到自己的胃在抱怨，我的饥饿感也不断增强。沿着我刚走过的小路往回走，有一些可食用的植物，但独自挨饿，却有某种别样的诗意......"
+ ep3_story_cycle_violet_poet.1000.desc: "在广阔的户外待上一段时间似乎是正确的选择。风景、声音，还有新鲜空气，都对我的健康产生着奇效。\n\n正是在这次远离营地的散步中，我无意间发现了森林中一汪美丽的泉水。小溪潺潺，树叶沙沙，都抚慰着我，直到我意识到已经过去几个小时了。\n\n我能感觉到自己的胃在抱怨，我的饥饿感也不断增强。沿着我刚走过的小路往回走，有一些可食用的植物，但独自挨饿，却有某种别样的诗意……"
  ep3_story_cycle_violet_poet.1000.a: "逆境激发出伟大的灵感！"
  ep3_story_cycle_violet_poet.1000.a.book: "[double_moon_book.GetDesc]\n$EFFECT_LIST_BULLET$“林间漫步”"
  ep3_story_cycle_violet_poet.1000.b: "我应该去搜寻补给。"

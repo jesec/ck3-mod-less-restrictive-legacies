@@ -242,6 +242,7 @@
  SCHEME_SEDUCE_UNWILLING_INCEST: "Vous êtes de la [family|El] : $VALUE|0=-+$"
  SCHEME_SEDUCE_UNWILLING_INCEST_TOO_YOUNG: "Vous êtes de la même [family|El] et [TARGET_CHARACTER.Custom('FR_le_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName] est trop jeune pour vous considérer autrement."
  SCHEME_SEDUCE_TABOO_SODOMY: "L’homosexualité est tabou : $VALUE|0=-+$"
+ SCHEME_CONVINCED_AT_FEAST: "Convaincu lors d’un festin : $VALUE|0=-+$"
  COMPASSIONATE_REASON: "[ROOT.Char.GetAIPersonality] trouve cela immoral : $VALUE|+0=$"
  COMPASSIONATE_NEGATIVE_REASON: "[ROOT.Char.GetAIPersonality] approuve ces méthodes : $VALUE|+0=$"
  SCHEME_NOT_AGAINST_DESCENDANTS: "Je ne ferai pas de mal à mes descendants : $VALUE|+0=$"
@@ -459,3 +460,5 @@
  ai_acceptance_trait_vengeful: "Je suis [GetTrait('vengeful').GetName( GetNullCharacter )|l] : $VALUE|+0=$"
  ai_acceptance_trait_forgiving: "Je suis [GetTrait('forgiving').GetName( GetNullCharacter )|l] : $VALUE|+0=$"
  ai_acceptance_trait_eccentric: "Je suis [GetTrait('eccentric').GetName( GetNullCharacter )|l] : $VALUE|+0=$"
+ ai_acceptance_trait_pilgrim: "Je suis un [GetTrait('pilgrim').GetName( GetNullCharacter )|l] : $VALUE|+0=$"
+ ai_acceptance_trait_faith_warrior: "Je suis un [GetTrait('faith_warrior').GetName( GetNullCharacter )|l] : $VALUE|+0=$"

@@ -578,7 +578,7 @@
  ep3_laamp_decision_event.1040.b_second: "[visiting_location.GetCounty.GetFaith.HouseOfWorship|U]! Надо еще раз сходить туда."
  ep3_laamp_decision_event.1040.b.tt: "Войти в [visiting_location.GetCounty.GetFaith.GetNameNoTooltip|l]ий храм"
  ep3_laamp_decision_event.1040.b.cooldown.tt: "[visiting_location.GetCounty.GetFaith.HouseOfWorship|U] проводит церемонию до конца этого посещения"
- caught_stealing.tt: "Недавно вас поймали за кражей в священном месте. Вернуться туда можно не раньше [GetCurrentDateWithDiff( GetVarTimeRemaining( THIS.Char.MakeScope, '1040_caught_stealing') )]"
+ caught_stealing.tt: "Недавно вас поймали за кражей в святом месте. Вернуться туда можно не раньше [GetCurrentDateWithDiff( GetVarTimeRemaining( THIS.Char.MakeScope, '1040_caught_stealing') )]"
  ep3_laamp_decision_event.1040.c: "Вот бы сейчас пройтись по саду..."
  ep3_laamp_decision_event.1040.c_second: "Мне снова хочется посетить сад."
  ep3_laamp_decision_event.1040.c.tt: "Посетить сад при храме"

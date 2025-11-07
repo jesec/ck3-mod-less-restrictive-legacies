@@ -101,7 +101,7 @@
  #A School for the People
  ep3_emperor_yearly.2080.t: "为民众建学校"
  ep3_emperor_yearly.2080.desc: "[school_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U]缓缓地开口说话，对每一个字都深思熟虑：\n\n“[school_county.GetNameNoTier]的民众已经注意到你最近的建筑项目中投入的资金。尽管每个人都为我们心爱城市的增长感到自豪，但有些改进更直接地触动了你民众的心。"
- ep3_emperor_yearly.2080.desc_byz: "\n\n我建议你建立一所帝国资助的学校，聘用一些备受尊重的[Glossary( '文法教师', 'GRAMMATIKOS_GLOSS' )]，越多平民追求良好的教育，就有越多人加入帝国行政的行列——这对我们大有裨益，也能改善他们的社会处境！\""
+ ep3_emperor_yearly.2080.desc_byz: "\n\n我建议你建立一所帝国资助的学校，聘用一些备受尊重的[Glossary( '文法教师', 'GRAMMATIKOS_GLOSS' )]，越多平民追求良好的教育，就有越多人加入帝国行政的行列——这对我们大有裨益，也能改善他们的社会处境！”"
  ep3_emperor_yearly.2080.desc_gen: "\n\n例如，资助一所学校，让任何社会背景的人都可以通过学习进入帝国行政机构！"
  ep3_emperor_yearly.2080.a: "良好运作的官僚机构总是需要新的职员。"
  ep3_emperor_yearly.2080.a.tt: "在学校建设结束的5年后，你就能从中受益。"
@@ -324,7 +324,7 @@
  ep3_emperor_yearly.2340.desc: "“众所周知，你没有信奉帝国和使之伟大的祖先为我们定下的信仰，”[complainer.GetTitledFirstName]鄙夷地斥责我。\n\n“许多人想怀疑你是否配得上你持有的头衔。毕竟，如果你自己走在黑暗中，又如何引导我们的人民走向光明？”\n\n“我恳求你，接受正统信仰，[complainer.GetFaith.GetName]！”"
  ep3_emperor_yearly.2340.a: "也许我应该从众……"
  ep3_emperor_yearly.2340.b: "你的异端鬼话影响不了我。"
- every_fellow_vassal_state_faith: "所有遵循国教的封臣同僚"
+ every_fellow_vassal_state_faith: "所有信仰国教的封臣同僚"
  #In the Bud - You are not a Powerful family version
  ep3_emperor_yearly.2400.t: "$ep3_powerful_families.8020.t$"
  ep3_emperor_yearly.2400.desc: "在整个领地，一个新家族的力量似乎正在生根发芽。他们如野草一样，将影响力传播到了我们社会的各个角落，几乎每天都能听到“[new_family.GetHouse.GetBaseName]”这个姓氏。\n\n在大帝国内部，豪门世家的起起落落乃是常态；没必要担心或采取任何行动。然而，在我脑后有一股难以摆脱的声音低语道：“如果那是我们呢？”"

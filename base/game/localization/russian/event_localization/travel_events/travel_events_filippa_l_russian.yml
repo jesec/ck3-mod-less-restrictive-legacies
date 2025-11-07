@@ -386,7 +386,7 @@
  travel_events.2032.a_poisonous.t: "Сделан запас трав"
  travel_events.2032.a_poisonous.desc: "Вы нашли ядовитые травы"
  travel_events.2032.a_learning.tt: "Улучшен навык"
- travel_events.2032.b: "«Не хочешь стать моим личным врачом?»"
+ travel_events.2032.b: "«Не хочешь стать моим придворным врачом?»"
  travel_events.2032.c: "«Я не стану тратить время»."
  #Visit some hunting grounds - If you have a prisoner with you; manhunt!
  travel_events.2033.t: "Узник скрылся!"

@@ -85,7 +85,7 @@
  intrigue_dread.1801.c: "이런 짓은 앞으로 다시는 하지 말아야겠어."
  #Torturing Courtier
  intrigue_dread.1901.t: "[disliked_courtier.Custom('InsultAdjective')|U] 천치"
- intrigue_dread.1901.desc: "나는 매일같이 [disliked_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)]의 존재를 감내하고 인내해야 한다.\n\n얘기를 나눌 때면 [disliked_courtier.GetSheHe] [disliked_courtier.Custom('quirk_neg_present')]는 등의 행각을 보이는 게 아닌가. 날 모욕하려는 #EMP 저의#!가 깔린 건가? 더는 [disliked_courtier.Custom('InsultNoun')]의 불손한 작태를 받아주지 않을 것이다. 누군가는 나서서 혼쭐을 내줘야지 않겠는가!"
+ intrigue_dread.1901.desc: "나는 매일같이 [disliked_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)]의 존재를 감내하고 인내해야 한다.\n\n내가 [disliked_courtier.GetHerHim]에게 얘기를 할 때마다, [disliked_courtier.GetSheHe]는 [disliked_courtier.Custom('quirk_neg_present')]. 날 모욕하려는 #EMP 저의#!가 깔린 건가? 더는 [disliked_courtier.Custom('InsultNoun')]의 불손한 작태를 받아주지 않을 것이다. 누군가는 나서서 혼쭐을 내줘야지 않겠는가!"
  intrigue_dread.1901.a: "마침 시험해 보고 싶은 독이 있는데..."
  intrigue_dread.1901.b: "궁정에서 스스로 멍청한 꼴을 보이게 하면 퍽 안타깝겠지."
  intrigue_dread.1901.b.tt: "[disliked_courtier.GetFirstNamePossessiveNoTooltip] [GetTrait('gregarious').GetName( GetPlayer )] 특성 덕분에 이 선택지를 선택할 수 있음"

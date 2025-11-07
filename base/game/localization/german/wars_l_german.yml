@@ -85,7 +85,7 @@
  claim_cb_defeat_desc_attacker: "[defender.GetShortUIName|U] behält den umkämpften [title|E]. [claimant.GetShortUIName|U] verliert [claimant.Custom('DE_PRO_POS_S_3P')]en [claim|E]."
  claim_cb_defeat_desc: "[defender.GetShortUIName|U] behält den umkämpften [title|E]. [attacker.GetShortUIName|U] verliert [attacker.Custom('DE_PRO_POS_S_3P')]en [claim|E]."
  CB_CLAIM_COST_TARGET_TITLES: "Beanspruchte Titel"
- CB_CLAIM_COST_TARGET_TITLES_FOREIGN: "Beanspruchte Nicht-[Concept('de_jure', 'De-Jure')]-Titel"
+ CB_CLAIM_COST_TARGET_TITLES_FOREIGN: "Beanspruchte Nicht-[Concept('de_jure', 'De-Jure')|E]-Titel"
  CB_CLAIM_COST_GENDER_PREFERENCES: "Geschlechtsvorzug"
  CB_CLAIM_COST_CLAIMANT_DIFFERENT_DYNASTY: "Anspruchsteller aus einer anderen Dynastie"
  CB_CLAIM_COST_CLAIMANT_DIFFERENT_HOUSE: "Anspruchsteller aus einem anderen Haus"
@@ -267,7 +267,7 @@
  temp_tributary_protection_reason: "[tributaries|E] verschreckt [recipient.Custom('GetCowedVassalVarLoc')]: $VALUE|0+=$"
  temp_tributary_protection_reason_var: "#weak (bis [GetCurrentDateWithDiff(GetVarTimeRemaining(ROOT.Char.MakeScope, 'temp_tributary_protection'))])#!"
  temp_tributary_protection_reason_no_var: "" #Intentionally empty
- cease_tribute_disconnected_suzerain: "Getrennt vom [realm|E] des [Concept('suzerain_possessive', 'Suzeräns')]: $VALUE|0+=$"
+ cease_tribute_disconnected_suzerain: "Getrennt vom [realm|E] des [Concept('suzerain_possessive', 'Suzeräns')|E]: $VALUE|0+=$"
  cease_tribute_landless_suzerain: "[Concept('unlanded', 'Landloser')|E] [suzerain|E]: $VALUE|0+=$"
  must_neighbor_or_neighbor_tributary_tt: "Man grenzt #bold nicht#! an Euer [realm|E] oder das Eurer [tributaries|E]"
  diarch_vassalisation_cb: "[diarch|E]-Inbesitznahme"

@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
  hunt_type_nerge: "围猎"
  hunt_type_nerge_desc: "$BULLET$猎杀数百只猎物来展示勇武和力量\n$BULLET$根据结果获得[legitimacy_i][legitimacy|E]、[gold_i][gold|E]、[dread_i][dread|E]和[prestige_i][prestige|E]\n$BULLET$可能获得[martial_i][martial|E]、[command_modifier_i][commander_traits|E]或[trait_level_track_xp|E]\n$hunt_type_nerge_flavor$"
- hunt_type_nerge_flavor: "#weak 围猎是一场盛大的狩猎，成百上千的动物被猎杀。这是[GetPlayer.GetTitleAsNameNoTooltip]向封臣和朝贡者展示[GetPlayer.GetHerHis]的力量的机会。#!"
+ hunt_type_nerge_flavor: "#weak 围猎是一场盛大的狩猎，成百上千的动物被猎杀。这是[GetPlayer.GetTitleAsNameNoTooltip]向封臣和朝贡者展示[GetPlayer.GetHerHis]力量的机会。#!"
  activity_window_character_master_of_chase: "逐猎总管"
  activity_hunt_conclusion_nerge_desc_failed: "这是一次失败的狩猎，对所有参与者来说都是一种耻辱。"
  activity_hunt_conclusion_nerge_desc_standard: "这是一次成功的狩猎，直到来年都会被人铭记。这些战利品足以支撑我们的人民度过一段时日。"

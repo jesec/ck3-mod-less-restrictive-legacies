@@ -2,6 +2,7 @@
 	icon = marriage
 	is_valid = {
 		is_current_phase_active = yes
+		coronation_feast_phase = yes # If Coronation, only in feast phase
 		scope:host.primary_spouse ?= {
 			involved_activity ?= scope:activity
 			is_physically_able_ai_adult = yes
@@ -60,6 +61,7 @@ spouse_gives_host_prestige = {
 	icon = marriage
 	is_valid = {
 		is_current_phase_active = yes
+		coronation_feast_phase = yes # If Coronation, only in feast phase
 		scope:host.primary_spouse ?= {
 			involved_activity ?= scope:activity
 			is_physically_able_ai_adult = yes
@@ -145,6 +147,7 @@ spouse_manages_feast_splendidly = {
 	icon = marriage
 	is_valid = {
 		is_current_phase_active = yes
+		coronation_feast_phase = yes # If Coronation, only in feast phase
 		scope:host.primary_spouse ?= {
 			involved_activity ?= scope:activity
 			is_physically_able_ai_adult = yes
@@ -226,6 +229,7 @@ spouse_impresses_clergy = {
 	icon = marriage
 	is_valid = {
 		is_current_phase_active = yes
+		coronation_feast_phase = yes # If Coronation, only in feast phase
 		scope:host.primary_spouse ?= {
 			involved_activity ?= scope:activity
 			is_physically_able_ai_adult = yes
@@ -314,6 +318,7 @@ spouse_gives_hook = {
 	icon = marriage
 	is_valid = {
 		is_current_phase_active = yes
+		coronation_feast_phase = yes # If Coronation, only in feast phase
 		scope:host.primary_spouse ?= {
 			involved_activity ?= scope:activity
 			is_physically_able_ai_adult = yes
@@ -415,6 +420,7 @@ relation_gains_friend = {
 	icon = friend
 	is_valid = {
 		is_current_phase_active = yes
+		coronation_feast_phase = yes # If Coronation, only in feast phase
 		any_attending_character = {
 			NOT = { this = scope:host }
 			OR = {
@@ -517,20 +523,6 @@ lauded_food = {
 		is_current_phase_active = yes
 		OR = {
 			AND = {
-				has_activity_type = activity_feast
-				has_activity_option = {
-					category = feast_option_food
-					option = feast_food_good
-				}
-			}
-			AND = {
-				has_activity_type = activity_feast
-				has_activity_option = {
-					category = feast_option_food
-					option = feast_food_normal
-				}
-			}
-			AND = {
 				has_activity_type = activity_wedding
 				has_activity_option = {
 					category = wedding_option_food
@@ -542,6 +534,34 @@ lauded_food = {
 				has_activity_option = {
 					category = wedding_option_food
 					option = wedding_food_normal
+				}
+			}
+			AND = {
+				has_activity_type = activity_feast
+				has_activity_option = {
+					category = feast_option_courses
+					option = feast_courses_good
+				}
+			}
+			AND = {
+				has_activity_type = activity_feast
+				has_activity_option = {
+					category = feast_option_courses
+					option = feast_courses_normal
+				}
+			}
+			AND = {
+				has_activity_type = activity_coronation
+				has_current_phase = coronation_phase_feast
+				OR = {
+					has_activity_option = {
+						category = ceremony_feast_type
+						option = ceremony_feast_type_regular
+					}
+					has_activity_option = {
+						category = ceremony_feast_type
+						option = ceremony_feast_type_lavish
+					}
 				}
 			}
 		}
@@ -747,6 +767,7 @@ children_bonding = {
 	icon = friend
 	is_valid = {
 		is_current_phase_active = yes
+		coronation_feast_phase = yes # If Coronation, only in feast phase
 		any_attending_character = {
 			NOT = { this = scope:host }
 			OR = {
@@ -851,6 +872,7 @@ guest_impressed_by_court_artifact = {
 	icon = public
 	is_valid = {
 		is_current_phase_active = yes
+		coronation_feast_phase = yes # If Coronation, only in feast phase
 		scope:province = scope:host.capital_province
 		scope:host = {
 			any_character_artifact = {
@@ -939,6 +961,20 @@ guest_chokes_on_bone = {
 					option = wedding_food_normal
 				}
 			}
+			AND = {
+				has_activity_type = activity_coronation
+				has_current_phase = coronation_phase_feast
+				OR = {
+					has_activity_option = {
+						category = ceremony_feast_type
+						option = ceremony_feast_type_regular
+					}
+					has_activity_option = {
+						category = ceremony_feast_type
+						option = ceremony_feast_type_austere
+					}
+				}
+			}
 		}
 		any_attending_character = {
 			NOT = { this = scope:host }
@@ -973,6 +1009,18 @@ guest_chokes_on_bone = {
 					has_activity_option = {
 						category = wedding_option_food
 						option = wedding_food_normal
+					}
+				}
+			}
+			add = -0.75
+		}
+		if = {
+			limit = {
+				scope:activity = {
+					has_activity_type = activity_coronation
+					has_activity_option = {
+						category = ceremony_feast_type
+						option = ceremony_feast_type_regular
 					}
 				}
 			}
@@ -1015,6 +1063,7 @@ guest_brawl = {
 	icon = wound
 	is_valid = {
 		is_current_phase_active = yes
+		coronation_feast_phase = yes # If Coronation, only in feast phase
 		any_attending_character = {
 			NOT = { this = scope:host }
 			is_physically_able_ai_adult = yes
@@ -1100,6 +1149,7 @@ friend_lauds_efforts = {
 	icon = friend
 	is_valid = {
 		is_current_phase_active = yes
+		coronation_feast_phase = yes # If Coronation, only in feast phase
 		any_attending_character = {
 			NOT = { this = scope:host }
 			is_physically_able_ai_adult = yes
@@ -1192,6 +1242,14 @@ courtly_vassals_appeased = {
 					option = wedding_food_bad
 				}
 			}
+			AND = {
+				has_activity_type = activity_coronation
+				has_current_phase = coronation_phase_feast
+				has_activity_option = {
+					category = ceremony_feast_type
+					option = ceremony_feast_type_austere
+				}
+			}
 		}
 		any_attending_character = {
 			count >= 2
@@ -1236,6 +1294,18 @@ courtly_vassals_appeased = {
 					has_activity_option = {
 						category = wedding_option_food
 						option = wedding_food_normal
+					}
+				}
+			}
+			add = -0.5
+		}
+		if = {
+			limit = {
+				scope:activity = {
+					has_activity_type = activity_coronation
+					has_activity_option = {
+						category = ceremony_feast_type
+						option = ceremony_feast_type_regular
 					}
 				}
 			}
@@ -1304,6 +1374,7 @@ spouse_insults_host = {
 	icon = marriage
 	is_valid = {
 		is_current_phase_active = yes
+		coronation_feast_phase = yes # If Coronation, only in feast phase
 		scope:host.primary_spouse ?= {
 			involved_activity ?= scope:activity
 			is_physically_able_ai_adult = yes
@@ -1384,6 +1455,7 @@ spouse_insults_host = {
 host_gains_diplo_xp = {
 	is_valid = {
 		is_current_phase_active = yes
+		coronation_feast_phase = yes # If Coronation, only in feast phase
 		scope:host = {
 			has_lifestyle = diplomacy_lifestyle
 			location = scope:province
@@ -1438,6 +1510,7 @@ host_gains_steward_xp = {
 	icon = stewardship
 	is_valid = {
 		is_current_phase_active = yes
+		coronation_feast_phase = yes # If Coronation, only in feast phase
 		scope:host = {
 			has_lifestyle = stewardship_lifestyle
 			location = scope:province
@@ -1486,6 +1559,7 @@ host_gains_intrigue_xp = {
 	icon = intrigue
 	is_valid = {
 		is_current_phase_active = yes
+		coronation_feast_phase = yes # If Coronation, only in feast phase
 		scope:host = {
 			has_lifestyle = intrigue_lifestyle
 			location = scope:province
@@ -1593,6 +1667,20 @@ ridiculed_food = {
 					option = wedding_food_normal
 				}
 			}
+			AND = {
+				has_activity_type = activity_coronation
+				has_current_phase = coronation_phase_feast
+				OR = {
+					has_activity_option = {
+						category = ceremony_feast_type
+						option = ceremony_feast_type_regular
+					}
+					has_activity_option = {
+						category = ceremony_feast_type
+						option = ceremony_feast_type_austere
+					}
+				}
+			}
 		}
 		any_attending_character = {
 			NOT = { this = scope:host }
@@ -1627,6 +1715,18 @@ ridiculed_food = {
 					has_activity_option = {
 						category = wedding_option_food
 						option = wedding_food_normal
+					}
+				}
+			}
+			add = -0.75
+		}
+		if = {
+			limit = {
+				scope:activity = {
+					has_activity_type = activity_coronation
+					has_activity_option = {
+						category = ceremony_feast_type
+						option = ceremony_feast_type_regular
 					}
 				}
 			}
@@ -1676,6 +1776,7 @@ guest_tells_fantastic_joke = {
 	icon = public
 	is_valid = {
 		is_current_phase_active = yes
+		coronation_feast_phase = yes # If Coronation, only in feast phase
 		any_attending_character = {
 			NOT = { this = scope:host }
 			is_physically_able_ai_adult = yes

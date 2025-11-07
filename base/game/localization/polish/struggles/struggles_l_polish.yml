@@ -67,7 +67,7 @@
  STRUGGLE_TOOLTIP_CATALYST_HISTORY_ENTRY_TRIGGER: "[SelectLocalization( CatalystHistory.GetCharacter.IsValid, 'STRUGGLE_TOOLTIP_CATALYST_HISTORY_ENTRY_TRIGGER_CHARACTER', 'STRUGGLE_TOOLTIP_CATALYST_HISTORY_ENTRY_TRIGGER_PULSE')]"
  STRUGGLE_TOOLTIP_CATALYST_HISTORY_ENTRY: "#low [CatalystHistory.GetDate.GetString]:#! $STRUGGLE_TOOLTIP_CATALYST_HISTORY_ENTRY_TRIGGER$"
  STRUGGLE_PHASE_TOOLTIP_CATALYST_HISTORY_ENTRY: "[CatalystHistory.GetProgress|+=] #weak [CatalystHistory.GetDate.GetStringLong]: #! [CatalystHistory.GetCharacter.GetNameNoTooltip]"
- STRUGGLE_TOOLTIP_CATALYST_HISTORY_ENTRY_PULSE: "[CatalystHistory.GetProgress|+=] #weak [CatalystHistory.GetDate.GetStringLong]: Bieg czasu#!"
+ STRUGGLE_TOOLTIP_CATALYST_HISTORY_ENTRY_PULSE: "[CatalystHistory.GetProgress|+=] #weak [CatalystHistory.GetDate.GetStringLong]: bieg czasu#!"
  STRUGGLE_INVOLVEMENT_BUTTON: "Wyświetl zaangażowanych w zmagania"
  STRUGGLE_INVOLVEMENT_WINDOW_HEADER: "Zaangażowanie w zmagania"
  STRUGGLE_INVOLVEMENT_PLAYER_INVOLVED: "Jesteś [Select_CString(GetPlayer.IsFemale, Concept('struggle_involved', 'zaangażowana'), Concept('struggle_involved', 'zaangażowany'))|E] w [STRUGGLE.GetNameNoTooltip|l]"

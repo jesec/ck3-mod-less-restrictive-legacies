@@ -13,3 +13,4 @@
  decision_group_type_nomad_major: "重要游牧决议"
  decision_group_type_nomad_minor: "游牧决议"
  decision_group_type_realm: "领地决议"
+ decision_group_type_oaths: "誓言决议"

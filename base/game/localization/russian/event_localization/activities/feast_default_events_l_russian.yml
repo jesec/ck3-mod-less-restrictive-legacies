@@ -203,7 +203,7 @@
  feast_default.2006.c: "Противно, когда за тобой так волочатся!"
  feast_default.2006.d: "Оставь меня в покое!"
  feast_default.2007.t: "Интрижка раскрыта!"
- feast_default.2007.desc: "С громким треском ломается дверь одной из кладовых...\n\nИ... [Select_CString(lover_guest_1.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_1') )] [lover_guest_1.GetTitledFirstName] и [Select_CString(lover_guest_2.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_2') )] [lover_guest_2.GetTitledFirstName] вываливаются полуодетые на всеобщее обозрение."
+ feast_default.2007.desc: "С громким треском ломается дверь одной из кладовых…\n\nИ… [Select_CString(lover_guest_1.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_1') )] [lover_guest_1.GetTitledFirstName] и [Select_CString(lover_guest_2.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_2') )] [lover_guest_2.GetTitledFirstName] вываливаются нагие на всеобщее обозрение."
  feast_default.2007.a_chaste: "Это невыносимо!"
  feast_default.2007.a_lustful: "#EMP Представляете#!, чем они собирались заняться?!"
  feast_default.2007.a_sadistic: "Ха! Прелестно!"

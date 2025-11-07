@@ -45,7 +45,7 @@
  force_onto_council.actor.tt.duration: "Nie możesz zostać zwolniony przez [SCOPE.ScriptValue('council_position_locked_value')|0] lat"
  arrange_marriage_interaction_extra_icon: "@weak_hook_icon! Możesz użyć swojego [Concept('hook', 'haka')|E], aby uzyskać zgodę"
  ask_for_pardon_interaction: "Poproś o ułaskawienie"
- ask_for_pardon_interaction_desc: "Poproś swojego [Concept( 'top_liege', 'suzerena' )|E] o wybaczenie twoich [Concept( 'crimes', 'przestępstw' )|E] i usunięcie wszelkich [Concept( 'imprisonment_reasons', 'powodów do uwięzienia' )|E], [Concept( 'banish_reasons', 'powodów do wygnania' )|E], [Concept( 'revoke_title_reasons', 'powodów do odebrania tytułu' )|E] lub [Concept( 'execute_reasons', 'powodów do stracenia' )|E], które są w ciebie wymierzone."
+ ask_for_pardon_interaction_desc: "Poproś swojego [Concept('top_liege', 'najwyższego seniora')|E] o wybaczenie twoich [Concept('crimes', 'przestępstw')|E] i usunięcie wszelkich [Concept('imprisonment_reasons', 'powodów uwięzienia')|E], [Concept('banish_reasons', 'powodów wygnania')|E], [Concept('revoke_title_reasons', 'powodów odebrania tytułu')|E] lub [Concept('execute_reasons', 'powodów wykonania egzekucji')|E], które są w ciebie wymierzone."
  ask_for_pardon_interaction_accept_toast: "Udzielono ułaskawienia"
  ask_for_pardon_interaction_decline_toast: "Odmówiono ułaskawienia"
  ask_for_pardon_interaction_accept_decline: "[recipient.GetShortUINameNotMe|U] odrzucił[Select_CString( recipient.IsFemale, 'a', '' )] twoją prośbę o ułaskawienie"

@@ -4,7 +4,7 @@
  hold_court_start_activity: "Wysłuchujesz pierwszego petenta"
  hold_court_header: "Zorganizuj audiencję:"
  #Activity Start
- hold_court.0001.t: "$hold_court_header$ Rozpoczęcie"
+ hold_court.0001.t: "$hold_court_header$ rozpoczęcie"
  hold_court.0001.desc: "Siedząc na swoim tronie, gestem nakazuję swoim strażnikom, aby otworzyli drzwi do sali. Do środka wpada tłum ludzi; niektórzy ustawiają się przed moim tronem, a inni ustępują z drogi, by móc po prostu obserwować przebieg audiencji.\n\nPo kilku chwilach w sali zapada cisza, a wszystkie twarze zwracają się ku mnie z oczekiwaniem. Przed sobą liczę [ROOT.Var('num_petitioners').GetValue|V0] petentów, ustawionych w kolejce i czekających, aż ich wezwę."
  hold_court.0001.a: "Wywołaj pierwszego petenta z kolejki."
  hold_court.0001.b: "Po namyśle stwierdzam, że jest taki piękny dzień na zewnątrz…"
@@ -35,7 +35,7 @@
  hold_court.1021.c: "Jeśli pola są jałowe, będziesz władać mieczem."
  county_or_15_dev: "[county.GetName] oraz każde [county|El] w [Concept('realm', 'państwie')|E] mające najwyżej 15 punktów [Concept('development', 'rozwoju')|E]"
  #Activity End
- hold_court.0021.t: "$hold_court_header$ Podsumowanie"
+ hold_court.0021.t: "$hold_court_header$ podsumowanie"
  hold_court.0021.desc: "Kiedy ostatni petent opuszcza salę, za nim podążają dworzanie mający do załatwienia swoje sprawy w innym miejscu. Część pozostaje i żywo dyskutuje na temat ostatniej audiencji.\n\nWkrótce uroczysta formalność audiencji całkowicie zanika, a w jej miejsce pojawia się szum i gwar normalnego dworskiego życia. "
  hold_court.0021.a: "Załatwił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] swoje sprawy. "
  hold_court.0021.arrogant: "Dobrze jest pozwolić moim poddanym pławić się w zachwycie z powodu mojej obecności."

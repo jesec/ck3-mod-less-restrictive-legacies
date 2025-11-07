@@ -46,7 +46,7 @@
  intrigue_dread_special.1199.c.b: "这一定是企图羞辱我的阴谋！卫兵！"
  intrigue_dread_special.1197.t: "糟透的演出"
  intrigue_dread_special.1197.desc: "我必须承认我的首秀可能有点缺乏……虽说这导致了整个剧团无法呈现完美的演出，农民们的反应比意料中更偏向赞赏。好吧，确切地说也许不是#EMP 赞赏#!，但肯定还是挺满意的。"
- intrigue_dread_special.1197.a: "至少我玩的开心。"
+ intrigue_dread_special.1197.a: "至少我玩得开心。"
  intrigue_dread_special.1198.desc: "我们一次又一次地不断重复着演出，而观众们在我的卫兵们的监视下，每次都要欢呼。\n\n每当新一次试演，我的演技便得到了提升，同时其他演员变得越来越马虎了，因为恐惧和沮丧拖累了他们，最终他们一个接一个地精疲力竭地退出了，徒留我独自一人，我成了舞台上的凯旋将军。"
  intrigue_dread_special.1198.a: "真是段神采超逸的体验，不是吗？"
  #Retinue members are concerned, by Linnéa Thimrén
@@ -173,7 +173,7 @@
  intrigue_dread.4200.desc.commoner_forest: "许多来自乡村和城市的低贱的杀手和扒手等待着他们的命运，远离社会，对他们也许我有个更好的主意。"
  intrigue_dread.4200.desc.middle: "\n\n在我恐怖的想法里，我想象着一个由被穿刺的罪犯和叛徒组成的树林环绕着[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]：一个残酷的提醒，让人们明白，背叛[ROOT.Char.GetTitleAsNameNoTooltip]会是什么下场。"
  intrigue_dread.4200.desc.noble_forest.outro: "我看到尖刺上的[random_prisoner_scope.GetName]，周围则是以同样方式竖起来的平民。现在只剩让这个梦想成为现实！"
- intrigue_dread.4200.desc.commoner_forest.outro: "我看到一排排罪犯排列在地平线上，他们的鲜血染红了[ROOT.Char.GetCapitalLocation.GetTerrain.GetNameNoTooltip]。只需要一点点工作，我们就能把足够多的的害虫聚集起来，让梦想成真。"
+ intrigue_dread.4200.desc.commoner_forest.outro: "我看到一排排罪犯排列在地平线上，他们的鲜血染红了[ROOT.Char.GetCapitalLocation.GetTerrain.GetNameNoTooltip]。只需要一点点工作，我们就能把足够多的害虫聚集起来，让梦想成真。"
  intrigue_dread.4200.a: "让我们开始吧！"
  intrigue_dread.4200.b: "[random_prisoner_scope.GetTitledFirstNameNoTooltip]和一些平民足以传达我的信息。"
  intrigue_dread.4200.c: "一小堆尸体就够了。"

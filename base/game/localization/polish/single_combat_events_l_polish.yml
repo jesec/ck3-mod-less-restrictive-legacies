@@ -5,8 +5,8 @@
  single_combat.0000.t: "Pojedynek:"
  single_combat.0001.t: "$single_combat.0000.t$ [sc_attacker.GetTitledFirstNameNoTooltip]"
  single_combat.0011.t: "$single_combat.0000.t$ [sc_defender.GetTitledFirstNameNoTooltip]"
- single_combat.0031.t: "$single_combat.0000.t$ Porażka!"
- single_combat.0041.t: "$single_combat.0000.t$ Zwycięstwo!"
+ single_combat.0031.t: "$single_combat.0000.t$ porażka!"
+ single_combat.0041.t: "$single_combat.0000.t$ zwycięstwo!"
  ## Intro Spiels
  single_combat.0001.desc.sc_defender.intro: "[sc_attacker.GetTitledFirstName|U] i ja okrążamy się nawzajem, rozważając posunięcia. [sc_attacker.GetSheHe|U] [sc_attacker.Custom('SignatureWeaponActionThirdPerson')] swój przerażający oręż, a ja trzymam mocno swój. [sc_attacker.Custom('SignatureWeaponNameOrType')|U] i [sc_defender.Custom('SignatureWeaponNameOrType')] lśnią w świetle słońca. Śmiercionośna broń jest chłodna i ciężka.\n\n"
  single_combat.0001.desc.capstone.intro.first_blood: "Ta walka może być tylko do pierwszej krwi, ale to nie uspokaja moich nerwów."

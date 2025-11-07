@@ -11,7 +11,7 @@
  councillor_spouse_learning.1302.t: "Ehepartner: Beeinflusst kulturelle Bekehrung"
  councillor_spouse_learning.1303.desc: "Ehepartner fördert Theologen"
  #General learning notifications
- councillor_spouse_learning.1601.desc: "Ehepartner unterstützt Euch bei [ROOT.Char.Custom('LifestyleFocus')|U]-Studien"
+ councillor_spouse_learning.1601.desc: "Ehepartner hilft Mündel beim Studieren in Sachen [ROOT.Char.Custom('LifestyleFocus')|U]"
  councillor_spouse_learning.1602.t: "[tutored_child.Custom('GetDaughterSon')] gedeiht dank der Unterweisung des Ehepartners"
  councillor_spouse_learning.1603.root_guardian.t: "Mündel akzeptiert Unterweisung des Ehepartners"
  councillor_spouse_learning.1603.spouse_guardian.t: "Mündel des Ehepartners akzeptiert [councillor.Custom('DE_PRO_POS_S_3P')]e Unterweisung"

@@ -7,7 +7,7 @@
  MIGRATION_WINDOW_OTHER_EFFECTS_LABEL: "#V 效果#!"
  MIGRATION_WINDOW_STEPPE_SEASON_LABEL: "[steppe_season|E]："
  MIGRATION_WINDOW_TOTAL_HERD: "总牧群规模：[herd_i]#V [MigrationWindow.GetTotalHerd]#!"
- MIGRATION_WINDOW_TIER_SELECTOR: "目标[title_tier|E]#!"
+ MIGRATION_WINDOW_TIER_SELECTOR: "已选中的目标[title_tier|E]#!"
  MIGRATION_WINDOW_CURRENT_TIER: "[MigrationWindow.GetTitleTier|U]"
  MIGRATION_WINDOW_DEJURE_DUCHY_BLOCKED: "@warning_icon!#X 你的游牧权威需要至少为[GetLaw('nomadic_authority_2').GetName]#!"
  MIGRATION_WINDOW_DEJURE_KINGDOM_BLOCKED: "@warning_icon!#X 你的游牧权威需要至少为[GetLaw('nomadic_authority_3').GetName]#!"

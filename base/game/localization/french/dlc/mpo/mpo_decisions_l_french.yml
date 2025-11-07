@@ -634,7 +634,7 @@
  mpo_decisions_events.0004.a: "$mpo_decisions_events.0005.a$"
  mpo_decisions_events.0004.b: "Je ne veux pas être impliqué[ROOT.Char.Custom('FR_E')]."
  mpo_decisions_events.0005.t: "$mpo_decisions_events.0004.t$"
- mpo_decisions_events.0005.desc: "Autrefois, nous étions des bandes guerrières que seule la nécessité réunissait, notre unité était aussi éphémère que les saisons. Aujourd’hui, nous sommes unis.\n\nLes guerriers qui chevauchaient à mes côtés s’agenouillent maintenant devant mon trône.\n\nQu’ils chantent mon nom à ma grande table : notre [new_king_ruler.GetPrimaryTitle.GetTierAsName|l] resplendit et j’en suis [Select_CString(ROOT.Char.IsFemale,'la reine','le roi')]."
+ mpo_decisions_events.0005.desc: "Autrefois, nous étions des bandes guerrières que seule la nécessité réunissait, notre unité était aussi éphémère que les saisons. Aujourd’hui, nous sommes unis.\n\nLes guerriers qui chevauchaient à mes côtés s’agenouillent maintenant devant mon trône.\n\nQu’ils chantent mon nom à ma grande table : notre [new_king_ruler.GetPrimaryTitle.GetTierAsName|l] resplendit et j’en suis [Select_CString(ROOT.Char.IsFemale,'la souveraine','le souverain')]."
  mpo_decisions_events.0005.a: "Puissions-nous prospérer ensemble !"
  confederate_king_modifier: "Premier roi de la Confédération"
  confederate_king_modifier_desc: "Ce personnage a forgé un royaume à partir d’une [confederation|El]"
@@ -646,3 +646,4 @@
  confederation_vassal_modifier_tt: "Tous les [vassals|El] obtiennent [GetModifier('confederate_vassal_modifier').GetNameWithTooltip]"
  confederation_county_modifier_tt: "Tous les [counties|El] obtiennent [GetModifier('confederate_lands_modifier').GetNameWithTooltip] pendant #V 30#! ans"
  chaotic_succession_protection_title_law_tt: "La [law|El] de [GetLaw('confederation_elective_succession_law').GetName|l] le protège des #high $chaotic_succession_disobedient_kurultai_none|l$#! durant la [succession|El]"
+ ACH_DOMINATE_TITLE_GAIN_WARNING: "Vous obtenez la [law|El][law_i] [GetLaw('uncrowned').GetName] jusqu’à ce que vous organisiez un [coronation|El]"

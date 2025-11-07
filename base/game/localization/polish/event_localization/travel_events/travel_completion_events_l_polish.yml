@@ -1,7 +1,7 @@
 ﻿l_polish:
  #Travel Completion Events
  #Generic completion
- travel_completion_event.1000.t: "$travel_event_prefix$ Przybycie"
+ travel_completion_event.1000.t: "$travel_event_prefix$ przybycie"
  travel_completion_event.1000.desc.home: "Nareszcie jestem w domu! Nie ma nic lepszego niż powrót do miejsca znanego jako [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] po długiej podróży. Z niecierpliwością czekam na odpoczynek, "
  travel_completion_event.1000.desc.abroad: "Po długiej wędrówce w końcu dotarł[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] do miejsca znanego jako [final_destination_province.GetName]! Przez jakiś czas będę woln[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] od zakurzonych dróg i odleżyn od siodła,"
  travel_completion_event.1000.desc.activity: "gdyż nadszedł czas, aby wziąć udział w wydarzeniu, jakim jest [ROOT.Char.GetInvolvedActivity.GetName].\n\n"

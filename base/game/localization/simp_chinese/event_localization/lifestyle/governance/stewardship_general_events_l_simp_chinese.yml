@@ -50,7 +50,7 @@
  stewardship_general.2002.a.high_stewardship: "兴许我可以教你一两招。"
  stewardship_general.2002.mentor_success: "你一整晚都在回忆以物易物的细节"
  stewardship_general.2002.mentor_failure: "[helpful_councillor.GetTitledFirstNameNoTooltip]不是很信服"
- stewardship_general.2002.impressed: "这是一次很划算的交换，不是吗。"
+ stewardship_general.2002.impressed: "这是一次很划算的交换，不是吗？"
  stewardship_general.2002.b.high_stewardship: "不过是一次测试。#EMP 我#!拿到了我想要的结果。"
  stewardship_general.2002.convince_success: "啊，没错，[bought_trinket.GetName]更值得买，因为…… "
  stewardship_general.2002.convince_failure: "$stewardship_general.2002.mentor_failure$"

@@ -469,8 +469,8 @@
  emperor_feudal_female_greek: "巴塞丽莎"
  ### Byzantine ###
  #Republic
- duke_republic_male_byzantine_group: "长官"
- duke_republic_female_byzantine_group: "女长官"
+ duke_republic_male_byzantine_group: "城市总监"
+ duke_republic_female_byzantine_group: "女城市总监"
  king_republic_male_byzantine_group: "尊贵总督"
  king_republic_female_byzantine_group: "尊贵女总督"
  #Viceroyalty
@@ -1016,9 +1016,9 @@
  baron_administrative_male_byzantine_group: "执政官"
  baron_administrative_female_byzantine_group: "执政官"
  barony_administrative_byzantine_group: "执政官辖区"
- count_administrative_male_byzantine_group: "中队长"
- count_administrative_female_byzantine_group: "中队长"
- county_administrative_byzantine_group: "中队"
+ count_administrative_male_byzantine_group: "分区长"
+ count_administrative_female_byzantine_group: "分区长"
+ county_administrative_byzantine_group: "分区"
  baron_administrative_male_indo_persian_group: "阿利姆"
  baron_administrative_female_indo_persian_group: "阿利姆"
  count_administrative_male_indo_persian_group: "式迦陀罗"

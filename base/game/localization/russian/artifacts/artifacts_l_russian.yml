@@ -968,7 +968,7 @@
  terracotta_toy_fowl.desc: "Потертости на поверхности показывают, что этой игрушкой когда-то дорожили."
  #This one uses a scope local to the stewardship_general.2001-event
  stewardship_general.2001.artifact.potsherd_holy: "Глиняный черепок"
- stewardship_general.2001.artifact.potsherd_holy.desc: "Древний черепок. Предположительно, он происходит из священного места [trinket_holy_site.GetNameNoTierNoTooltip]."
+ stewardship_general.2001.artifact.potsherd_holy.desc: "Древний черепок. Предположительно, он происходит из святого места [trinket_holy_site.GetNameNoTierNoTooltip]."
  small_bell_beaker: "Малый колоколовидный кубок"
  small_bell_beaker.desc: "Колоколовидный кубок с замысловатым узором."
  serpentine_budai: "Хотэй из змеевика"
@@ -1036,6 +1036,7 @@
  artifact_crossbow: "Арбалет"
  artifact_crossbow_name: "$artifact_name_prefix$ арбалет"
  artifact_crossbow_description: "Арбалет [SCOPE.Custom('ArtifactQuality')] качества, материалом для которого служит [newly_created_artifact.GetFeatureText( 'bow_wood' )], с тетивой из крепких жил. Очень мощное оружие, которое можно носить на взводе, но перезарядка занимает много времени."
+ create_artifact_bow_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(inspiration_owner.IsFemale, 'изготовила', 'изготовил' )] [SCOPE.Custom('ArtifactBowType')] [SCOPE.Custom('ArtifactQuality')] качества"
  feature_longbow_wood_elm: "$wood_elm$"
  feature_longbow_wood_yew: "$wood_yew$"
  feature_composite_wood_bamboo: "$feature_bow_wood_bamboo$"

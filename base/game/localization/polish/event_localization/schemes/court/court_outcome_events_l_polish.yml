@@ -1,6 +1,6 @@
 ﻿l_polish:
  #Unused texts for secrecy event
- court_outcome.0001.t: "$court_event_title$ Teraz lub nigdy"
+ court_outcome.0001.t: "$court_event_title$ teraz lub nigdy"
  court_outcome.0001.desc: "Och, [target.GetFirstName], [target.Custom('LoverPetName_possessive')]! Tęsknię za twoimi objęciami! Myślę, że umrę bez słodkiego nektaru twoich pocałunków!\n\nNawet jeśli moje uczucia są czyste, jest tak wielu, którzy nas osądzą. Czy powin[Select_CString(ROOT.Char.IsFemale, 'nam', 'ienem' )] do [Select_CString(target.IsFemale, 'niej', 'niego' )] pójść? A może muszę trzymać się z daleka?"
  court_outcome.0001.b: "Nie mogę ryzykować [target.GetHerHis] bezpieczeństwa…"
  court_outcome.0001.a: "Nic nie może nas rozdzielić!"
@@ -18,7 +18,7 @@
  #Generic keys
  court_outcome.0001.a.tt: "Kontynuuję swoją próbę romansu z [target.GetTitledFirstName]"
  ### WILD HUNT ###
- court_outcome.1000.t: "$court_event_title$ Dziki łów"
+ court_outcome.1000.t: "$court_event_title$ dziki łów"
  court_outcome.1000.i_invite.desc: "Kiedy [target.GetTitledFirstName] zasugerował[Select_CString(target.IsFemale, 'a', '' )] polowanie, nie wahał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] się go zorganizować. Zrobił[Select_CString(ROOT.Char.IsFemale, 'abym', 'bym' )] wszystko, żeby [target.Custom('LoverPetName')] był[Select_CString(target.IsFemale, 'a', '' )] ze mną chociaż przez chwilę!"
  court_outcome.1000.own_invite.desc: "Kiedy [target.GetFirstName] zaprosił[Select_CString( target.IsFemale, 'a', '' )] mnie na polowanie, bez wahania się zgodził[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]. Nie mogł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] sobie wyobrazić piękniejszego widoku niż je[Select_CString( target.IsFemale, 'j', 'go' )] olśniewający profil na grzbiecie ogiera!"
  court_outcome.1000.liege_invite.desc: "Kiedy [target_host.Custom2('NamePossessiveCharacterIntroduction', target)] zaprosił[Select_CString(target.IsFemale, 'a', '' )] mnie na polowanie, bez wahania się zgodził[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]. Zrobił[Select_CString(ROOT.Char.IsFemale, 'abym', 'bym' )] wszystko, żeby [target.Custom('LoverPetName')] był[Select_CString(target.IsFemale, 'a', '' )] ze mną chociaż przez chwilę!"
@@ -48,7 +48,7 @@
  court_outcome.1003.b: "Łączymy się w pocałunku słodkim jak miód."
  ### INTRUDER ###
  #OWNER CHOICE
- court_outcome.1100.t: "$court_event_title$ Intruz"
+ court_outcome.1100.t: "$court_event_title$ intruz"
  court_outcome.1100.start.desc: "[target.GetTitledFirstName] ukazuje mi się za każdym razem, gdy tylko zamykam oczy. Sen nie nadchodzi. Nie mogę czekać ani chwili dłużej – skryt[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] w cieniu, podążam do"
  court_outcome.1100.targets_residence.desc: "miejsca, którym jest [target.Custom('PL_jego_jej')] [target.Custom('ResidenceBuilding')]."
  court_outcome.1100.my_residence.desc: "ogrodu znajdującego się przed [target.GetHerHis] kwaterą."

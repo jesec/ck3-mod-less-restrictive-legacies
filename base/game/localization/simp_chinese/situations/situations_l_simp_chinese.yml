@@ -10,7 +10,7 @@
  SITUATION_PHASE_ENDS_IN: "#EMP 将在[Situation.GetCurrentPhase.GetEndDate.GetTimeToDate]后结束#!"
  SITUATION_PHASE_PARTICIPANT_END_INDENT: "#!"
  SITUATION_PHASE_PARTICIPANT_ALL_GROUP_SUFFIX: "#weak （所有参与者）#!"
- SITUATION_PHASE_PARTICIPANT_YOUR_GROUP_SUFFIX: "#weak （你的群组）#!"
+ SITUATION_PHASE_PARTICIPANT_YOUR_GROUP_SUFFIX: "#weak （你的集团）#!"
  SITUATION_PHASE_PARTICIPANT_INVOLVEMENT: "[Character.GetShortUINameNoTooltip|U]是[Situation.GetNameNoTooltip]的#S [SituationParticipantGroup.GetNameNoTooltip]#!"
  SITUATION_PHASE_PARTICIPANT_ALL_EFFECTS: "#indent_newline:2 #S 通用效果：#!"
  SITUATION_PHASE_PARTICIPANT_GROUP_EFFECTS: "#indent_newline:2 #S 对[SituationParticipantGroup.GetName]的效果：#!"

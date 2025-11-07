@@ -2,7 +2,7 @@
  DECISION_ON_COOLDOWN: "@warning_icon! #X [DATE.GetStringLong]까지 $DECISION_NAME$(을)를 사용할 수 없습니다.#!"
  ALREADY_PLANNING_ACTIVITY: "이미 다른 [activity|E]을 계획하고 있습니다."
  ALREADY_IN_ACTIVITY_FIRST_NOT: "당신은 현재 바쁘게 [CHARACTER.Custom('GetActivityName')] 중"
- ALREADY_IN_ACTIVITY_THIRD_NOT: "해당 인물은 현재 [CHARACTER.Custom('GetActivityName')](으)로 바쁨"
+ ALREADY_IN_ACTIVITY_THIRD_NOT: "[CHARACTER.GetTitledFirstName](이)가 현재 [CHARACTER.Custom('GetActivityName')](으)로 바쁨"
  unavailable_activity: "[ROOT.Char.GetInvolvedActivity.GetName] 참여 중"
  unavailable_pay_homage: "주군에게 충성의 맹세를 바치는 중"
  unavailable_meditation: "중재 중"

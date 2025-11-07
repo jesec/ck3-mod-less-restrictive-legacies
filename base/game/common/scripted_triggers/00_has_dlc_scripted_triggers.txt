@@ -37,6 +37,10 @@ has_bp3_dlc_trigger = {
 	has_dlc_feature = wandering_nobles
 }
 
+has_ach_dlc_trigger = {
+	has_dlc_feature = coronations
+}
+
 ##################################################
 # Flavour Pack Triggers
 

@@ -26,7 +26,7 @@
  fp2_struggle_secure_iberian_foothold_empire_dejure_effect_tt: "Każde [kingdom|El] [de_jure|El] podległe władzy państwa znanego jako [GetTitleByKey('e_spain').GetNameNoTier], które spełni poniższe warunki, zostanie częścią [de_jure|El] [empire|El] o nazwie [THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier]"
  fp2_struggle_secure_iberian_foothold_ends_the_struggle_tt: "[iberian_struggle|E] dobiegają końca"
  iberian_footholder_transfer_tt: "[THIS] [THIS.Title.GetName] [THIS.GetName]"
- fp2_other_decisions.1000.t: "$secure_iberian_foothold_decision_title$: Konsolidacja [iberian_footholder.GetPrimaryTitle.GetAdjectiveNoTooltip]"
+ fp2_other_decisions.1000.t: "$secure_iberian_foothold_decision_title$: konsolidacja [iberian_footholder.GetPrimaryTitle.GetAdjectiveNoTooltip]"
  fp2_other_decisions.1000.involved_religion: "Wojny pomiędzy rozbitymi księstwami Iberii doprowadziły do tego, że ta [ROOT.Char.GetFaith.GetReligion.GetAdjective|l] grupa państw z tego regionu padła niemalże na kolana.\n\nBez naszej interwencji wyznawcy [ROOT.Char.GetFaith.HighGodNamePossessive] zostaliby w końcu wyparci z półwyspu przez imperialnych niewiernych.\n\n"
  fp2_other_decisions.1000.desc: "[ROOT.Char.GetFaith.GetReligion.GetAdjective|U] inwazja na półwysep jest możliwa, jako że podzielone wyznania i ludy Iberii są zbyt zajęte walką między sobą, by skutecznie się temu przeciwstawić."
  fp2_other_decisions.1000.involved_faith: "[ROOT.Char.GetFaith.GetAdherentNamePlural|U] Zachodu są teraz bezpieczni pod ochroną władców ziem znanych jako [ROOT.Char.GetPrimaryTitle.GetDefinitiveName], które zamieszkałe jest przez ich prawowitych obrońców."
@@ -52,7 +52,7 @@
  council_of_toledo_decision_tt: "Nagrody uzależnione są od wyniku synodu"
  #Event - Organization
  fp2_other_decisions.0700.council: "[SCOPE.ScriptValue('council_of_toledo_counter_value')]. synod w Toledo"
- fp2_other_decisions.0700.t: "$fp2_other_decisions.0700.council$: Organizacja"
+ fp2_other_decisions.0700.t: "$fp2_other_decisions.0700.council$: organizacja"
  fp2_other_decisions.0700.19: "[council_priest.GetTitledFirstName] rozpocz[Select_CString( council_priest.IsFemale, 'ęła', 'ął' )] przygotowania do 19. synodu w [GetTitleByKey('c_toledo').GetNameNoTier], który ma dorównać dawnym synodom wizygockim.\n\nChoć [GetTitleByKey('k_papal_state').GetDefinitiveName] ma znacznie większe wpływy od czasu najazdu Maurów, nasze duchowieństwo wciąż zachowuje własną tradycję i autonomię. Nadszedł czas, aby ponownie podkreślić znaczenie Iberii jako miejsca dialogu religijnego.\n\nNa ówczesne spotkania zjeżdżali się [ROOT.Char.GetFaith.BishopNeuterPlural] z całego chrześcijańskiego świata, lecz teraz tak być nie musi…"
  fp2_other_decisions.0700.desc: "[ROOT.Char.GetFaith.BishopNeuterPlural|U] z Iberii z niecierpliwością oczekują na kolejny sobór, od kiedy tradycja z Toledo została wskrzeszona.\n\n[council_priest.GetCouncilTitleFirstName] rozpocz[Select_CString( council_priest.IsFemale, 'ęła', 'ął' )] przygotowania, choć nie wiadomo jeszcze, czy kapłani podzielający inne tradycje zostaną zaproszeni do wzięcia udziału."
  fp2_other_decisions.0700.a: "To będzie synod mozarabski."
@@ -61,7 +61,7 @@
  fp2_other_decisions.0700.b.failure: "Wezwanie do Toledo zostaje zignorowane"
  fp2_other_decisions.0700.tt: "[SCOPE.ScriptValue('council_of_toledo_counter_value')][THIS.Char.Custom('get_council_of_toledo_count_suffix')] synod w Toledo rozpocznie się za kilka tygodni"
  #Event - Arrival
- fp2_other_decisions.0701.t: "$fp2_other_decisions.0700.council$: Uczestnicy"
+ fp2_other_decisions.0701.t: "$fp2_other_decisions.0700.council$: uczestnicy"
  fp2_other_decisions.0701.opening.success: "Wygląda na to, że [ROOT.Char.GetFaith.AltPriestTermPlural] ciepło przyjęli zaproszenie. Liczni szanowani [ROOT.Char.GetFaith.BishopNeuterPlural] z innych krajów chętnie przybyli do [GetTitleByKey('c_toledo').GetNameNoTier]."
  fp2_other_decisions.0701.opening.failure: "Odpowiedź na nasze zaproszenie do wspólnoty ekumenicznej była chłodna; liczni [ROOT.Char.GetFaith.BishopNeuterPlural] powołali się na złą pogodę, która uniemożliwiała dotarcie do [GetTitleByKey('c_toledo').GetNameNoTier], w wyniku czego na sobór przybyli jedynie miejscowi prałaci…"
  fp2_other_decisions.0701.opening.catastrophe: "Wygląda na to, że żadna inna [ROOT.Char.GetFaith.GetReligion.GetAdjective|l] wiara nie wysłała do [GetTitleByKey('c_toledo').GetNameNoTier] ani jednego biskupa, diakona czy opata, a nasza rada jest postrzegana przez nasze ekumeniczne bractwo z pogardą lub gniewem, dlatego obecni są tylko miejscowi prałaci."
@@ -79,7 +79,7 @@
  fp2_other_decisions.0701.c: "W porządku."
  fp2_other_decisions.0701.tt: "[SCOPE.ScriptValue('council_of_toledo_counter_value')][THIS.Char.Custom('get_council_of_toledo_count_suffix')] synod w Toledo rozpoczyna się"
  #Event - Debate
- fp2_other_decisions.0702.t: "$fp2_other_decisions.0700.council$: Debata"
+ fp2_other_decisions.0702.t: "$fp2_other_decisions.0700.council$: debata"
  fp2_other_decisions.0702.19: "Wieki po ostatnim synodzie zorganizowanym przez arcybiskupa Gunderyka za czasów króla Wittiza [council_priest.GetCouncilTitleFirstName] przywrócił[Select_CString( council_priest.IsFemale, 'a', '' )] naszą tradycję, otwierając 19. zgromadzenie w legendarnym [GetTitleByKey('c_toledo').GetNameNoTier].\n\n"
  fp2_other_decisions.0702.opening: "Rozpoczął się kolejny synod w [GetTitleByKey('c_toledo').GetNameNoTier], tym razem otworzył[Select_CString( council_priest.IsFemale, 'a', '' )] go [council_priest.GetCouncilTitleFirstName].\n\n"
  fp2_other_decisions.0702.present: "\n\nPod koniec tygodnia szybko stało się jasne, że [debate_bishop.GetTitledFirstName] z ziem znanych jako [debate_bishop.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] ma w tej sprawie posłuch, $fp2_other_decisions.0702.closing$"
@@ -97,7 +97,7 @@
  fp2_other_decisions.0702.b: "[debate_bishop.GetSheHe|U] zostanie zakrzyczan[Select_CString( debate_bishop.IsFemale, 'a', 'y' )]."
  council_of_toledo_ruler_effect_tt: "Każdy [ruler|El] (wiara [council_toledo_faith.GetAdjective|l])"
  #Event - Invalidated
- fp2_other_decisions.0703.t: "$fp2_other_decisions.0700.council$: Odłożony w czasie"
+ fp2_other_decisions.0703.t: "$fp2_other_decisions.0700.council$: odłożony w czasie"
  fp2_other_decisions.0703.war: "W związku z nadejściem wojny [council_priest.GetCouncilTitleFirstName] odłożył[Select_CString( council_priest.IsFemale, 'a', '' )] w czasie zbliżający się synod w Toledo."
  fp2_other_decisions.0703.control: "W związku z utratą [GetTitleByKey('c_toledo').GetNameNoTier] nie będzie już możliwe zorganizowanie najbliższego synodu w Toledo…"
  fp2_other_decisions.0703.desc: "\n\n[ROOT.Char.GetFaith.GetAdherentNamePlural|U] z pewnością szybko otrząsną się z tego niepowodzenia…"

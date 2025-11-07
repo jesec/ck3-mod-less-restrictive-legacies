@@ -70,12 +70,12 @@
  pet_animal.0197.a: "快回来吧，[ROOT.Char.Custom('CatStoryName')]！"
  #Cat dies :(
  pet_animal.0199.t: "[ROOT.Char.Custom('CatStoryName')]：悲伤的日子"
- pet_animal.0199.desc: "[ROOT.Char.Custom('CatStoryName')][ROOT.Char.Custom('CatStorySheHe')]已不复当年，当[ROOT.Char.Custom('CatStorySheHe')]爬上我的大腿，我可以感到[ROOT.Char.Custom('CatStoryHerHim')]的颤抖。\n\n我轻柔地抚摸[ROOT.Char.Custom('CatStoryHerHis')][ROOT.Char.Custom('CatFurColor')]的毛发，听到[ROOT.Char.Custom('CatStoryHerHim')]打着呼进入梦乡，但当寂静降临，我知道[ROOT.Char.Custom('CatStorySheHe')]不会再醒来。"
+ pet_animal.0199.desc: "[ROOT.Char.Custom('CatStoryName')][ROOT.Char.Custom('CatStorySheHe')]已不复当年，当[ROOT.Char.Custom('CatStorySheHe')]爬上我的大腿，我可以感到[ROOT.Char.Custom('CatStoryHerHim')]的颤抖。\n\n我轻柔地抚摸[ROOT.Char.Custom('CatStoryHerHis')][ROOT.Char.Custom('CatFurColor')]色的毛发，听到[ROOT.Char.Custom('CatStoryHerHim')]打着呼进入梦乡，但当寂静降临，我知道[ROOT.Char.Custom('CatStorySheHe')]不会再醒来。"
  pet_animal.0199.a: "我会想你的，[ROOT.Char.Custom('CatStoryName')]！"
  pet_animal.0199.b: "我不会再让你离开我身边了，永远！"
  pet_animal.0199.b.tt: "你获得一件小型鞣制毛皮[court_artifact|E]"
  #Extra cat events
- pet_animal.0200.t: "[ROOT.Char.Custom('CatStoryName')]：锵地一声！"
+ pet_animal.0200.t: "[ROOT.Char.Custom('CatStoryName')]：扑通！"
  pet_animal.0200.desc: "我坐在桌子旁，仔细阅读着来自领内各地的报告。[ROOT.Char.Custom('CatStoryName')]追逐着阳光的温暖跳到我旁边，然后满足地蜷缩在文件旁边。\n\n我伸手轻抚[ROOT.Char.Custom('CatStoryHerHis')][ROOT.Char.Custom('CatFurColor')]色的毛皮，[ROOT.Char.Custom('CatStorySheHe')]懒洋洋地伸展了一下身体。动作有点大！\n\n事实上，是#EMP 太#!大了。[ROOT.Char.Custom('CatStoryName')]一个翻身从桌子上滚了下来，四脚着地掉在了地板上。[ROOT.Char.Custom('CatStorySheHe')]一副傲慢的眼神，——好像这是#EMP 我的#!错一样——闷闷不乐地离开了。"
  pet_animal.0200.a: "哈！你个小傻瓜！"
  pet_animal.0201.t: "[ROOT.Char.Custom('CatStoryName')]：摇摇欲坠"

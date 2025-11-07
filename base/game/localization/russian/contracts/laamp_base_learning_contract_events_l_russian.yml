@@ -200,7 +200,7 @@
  laamp_base_learning_contract_events.4025.tt.progress_towards_success: "$laamp_base_contract_schemes.2781.tt.progress_towards_success$"
  laamp_base_learning_contract_events.4025.tt.guaranteed_success: "#P +2#! очка для успешного выполнения [Concept( 'task_contract', 'контракта' )|E]"
  laamp_base_learning_contract_events.4025.tt.no_progress: "$laamp_base_learning_contract_events.4001.tt.no_progress$"
- laamp_base_learning_contract_events.4025.tt.prefered_topic: "Этот [Concept('task_contract', 'контракт' )] принесет дополнительную награду, если выбрана тема «[SCOPE.Custom('GetPreferedTopicConcept')|U]»"
+ laamp_base_learning_contract_events.4025.tt.prefered_topic: "Этот [Concept('task_contract', 'контракт' )|E] принесет дополнительную награду, если выбрана тема «[SCOPE.Custom('GetPreferedTopicConcept')|U]»"
  #Conclusion
  laamp_base_learning_contract_events.4027.t: "$laamp_base_learning_contract_events_prefix.4021$: завершение"
  laamp_base_learning_contract_events.4027.desc.success.critical: "[employer.GetTitledFirstName|U] листает страницы, периодически останавливаясь, чтобы прочесть тот или иной отрывок.\n\n«Ты только погляди на это! — [Select_CString(employer.IsFemale, 'она', 'он' )] бережно протягивает манускрипт слуге. — Такому сокровищу нужен #EMP отдельный шкаф#!. Это настоящий шедевр».\n\nХлопнув в ладоши, [employer.GetTitledFirstNameNoTooltip] с улыбкой склоняется к моему уху: «Лучше всего вышел #EMP тот#! рисунок на полях. Прекрасная работа! Наслаждайся заслуженной наградой — и непременно заходи, если снова окажешься в славном городе [employer.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]».\n\nЯ с достоинством киваю в ответ."
@@ -344,7 +344,7 @@
  laamp_base_learning_contract_events.4110.b: "«А ты знаешь, как [alternative_language_culture.GetNameNoTooltip|l] называют #EMP козявки#!?»"
  laamp_base_learning_contract_events.4110.b.tt: "Вы знаете не больше [Concept('language', 'языков')|E], чем [child_to_educate.GetShortUIName]"
  laamp_base_learning_contract_events.4110.c: "Нет. [Select_CString(child_to_educate.IsFemale, 'Она безнадежна', 'Он безнадежен' )]."
- laamp_base_learning_contract_events.4110.c.tt: "@alert_icon! #alert_trial Провал [Concept('task_contract', 'контракта' )] неизбежен#!"
+ laamp_base_learning_contract_events.4110.c.tt: "@alert_icon! #alert_trial Провал [Concept('task_contract', 'контракта' )|E] неизбежен#!"
  #Conclusion
  laamp_base_learning_contract_events.4120.t: "$laamp_base_learning_contract_events_prefix.4100$: выпускной экзамен"
  laamp_base_learning_contract_events.4120.desc.success: "[employer.GetTitledFirstName|U] встречает меня с непроницаемым лицом, однако в [Select_CString(employer.IsFemale, 'ее', 'его' )] голосе слышны нотки одобрения:\n\n«Твои образовательные методы весьма нетривиальны, однако [child_to_educate.GetFirstName] и вправду кое-чему [Select_CString(child_to_educate.IsFemale, 'научилась', 'научился' )]… Я дам знать, когда мне снова потребуются твои услуги».\n\nВежливо поклонившись, я разворачиваюсь и ухожу."

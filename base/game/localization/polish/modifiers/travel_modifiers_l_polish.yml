@@ -1,8 +1,8 @@
 ﻿l_polish:
  travel_returning_home_modifier: "Powrót do domu"
  travel_returning_home_modifier_desc: "Ta grupa podróżujących nie może się doczekać powrotu do domu."
- positive_roadside_reading_modifier: "Podróż: Dobre omeny"
- negative_roadside_reading_modifier: "Podróż: Złe omeny"
+ positive_roadside_reading_modifier: "Podróż: dobre omeny"
+ negative_roadside_reading_modifier: "Podróż: złe omeny"
  nonverbal_modifier: "Niewerbalność"
  nonverbal_modifier_desc: "Ta postać w ograniczonym stopniu rozumie język mówiony."
  feral_modifier: "Zdziczenie"

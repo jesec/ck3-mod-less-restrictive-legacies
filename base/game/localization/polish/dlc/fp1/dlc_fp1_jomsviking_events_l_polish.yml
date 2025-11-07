@@ -57,7 +57,7 @@
  fp1_jomsvikings.0041.b.tt_failure: "[leader.GetTitledFirstName] brawurowo ucieka"
  fp1_jomsvikings.0041.c: "Wiesz, że jesteś tylko piratem, prawda? Uciekaj stąd."
  fp1_jomsvikings.0042.trigger_failure: "Wasza walka została unieważniona"
- fp1_jomsvikings.0044.t: "$fp1_jomsvikings.0041.t$: Odkupienie"
+ fp1_jomsvikings.0044.t: "$fp1_jomsvikings.0041.t$: odkupienie"
  fp1_jomsvikings.0044.desc: "Tuż po tym, gdy [leader.GetTitledFirstName] upadł[Select_CString(leader.IsFemale, 'a', '' )] bez życia u mych stóp, w sali tronowej zapanowała śmiertelna cisza. \n\nNie słychać nawet szeptu. Niczego poza moim własnym, urywanym oddechem.\n\nPo cichu wciągam na siebie ubrania i nawiązuję kontakt wzrokowy z każdą osobą, która jeszcze tu jest."
  fp1_jomsvikings.0044.a: "Czy #EMP ktoś#! jeszcze chciałby spróbować?"
  fp1_jomsvikings.0044.b: "Słuszność moich rządów została po raz kolejny udowodniona!"

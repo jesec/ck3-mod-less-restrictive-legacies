@@ -26,7 +26,7 @@
  ACTIVITY_CHANGE_INTENT_SELECT_TARGET: "#I Wybierz cel [Concept( 'intent', 'zamiaru')|E], aby kontynuować"
  ACTIVITY_CHANGE_INTENT_SELECT_TARGET_FOR_ACTIVITY: "Wybierz swój cel dla [Concept( 'intent', 'zamiaru')|E] [Select_CString( EqualTo_string( ActivityIntentData.GetType.GetName , '$murder_attendee_intent|q$' ), 'morderstwa', Select_CString( EqualTo_string( ActivityIntentData.GetType.GetName , '$woo_attendee_intent|q$' ), 'uwodzenia', Select_CString( EqualTo_string( ActivityIntentData.GetType.GetName , '$befriend_attendee_intent|q$' ), 'zaprzyjaźnienia się', Select_CString( EqualTo_string( ActivityIntentData.GetType.GetName , '$diplomatic_intent|q$' ), 'dyplomacji', Select_CString( EqualTo_string( ActivityIntentData.GetType.GetName , '$matchmaking_intent|q$' ), 'swatania',  ActivityIntentData.GetType.GetName ) ) ) ) )|l]"
  ACTIVITY_CHANGE_INTENT_TT: "#T Zmień zamiar#!"
- ACTIVITY_CONCLUSION_HEADER: "$ACTIVITY_WINDOW_HEADER$: Zakończenie"
+ ACTIVITY_CONCLUSION_HEADER: "$ACTIVITY_WINDOW_HEADER$: zakończenie"
  ACTIVITY_CONCLUSION_COMPLETED_INTENT_MULTI: "#P Osiągnięte#! [intents|El]:"
  ACTIVITY_CONCLUSION_COMPLETED_INTENT: "#P Osiągnięty#! [intent|El]:"
  ACTIVITY_CONCLUSION_FAILED_INTENT: "#N Nieosiągnięty#! [intent|El]:"

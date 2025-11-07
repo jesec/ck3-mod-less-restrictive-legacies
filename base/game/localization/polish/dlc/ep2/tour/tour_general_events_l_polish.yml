@@ -2,7 +2,7 @@
  #Tour General Events
  ##Bilateral Vassal Events
  #Vassal: Your liege just suggested to purge all local cats/dogs
- tour_general.1003.t: "$activity_tour$: Bestialska propozycja"
+ tour_general.1003.t: "$activity_tour$: bestialska propozycja"
  tour_general.1003.desc_purge_cats: "Objeżdżam właśnie ziemie wasala, gdy nagle dochodzi mnie informacja, że [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('visiting_liege'))], [visiting_liege.GetTitledFirstName], głosi wszem wobec swój nieprzejednany wstręt do kotów oraz wszystkich podobnych im stworzeń."
  tour_general.1003.desc_purge_dogs: "Objeżdżam właśnie ziemie wasala, gdy nagle dochodzi mnie informacja, że [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('visiting_liege'))], [visiting_liege.GetTitledFirstName], głosi wszem wobec swój nieprzejednany wstręt do kundli oraz wszystkich psowatych."
  tour_general.1003.desc_pet_cat_outro: "Gdy wracamy do mej posiadłości, mój kot, [ROOT.Char.Custom('CatStoryName')], podchodzi miarowym krokiem i darzy mnie dobrotliwym pomrukiem, jak to ma w zwyczaju, kiedy wracam do domu.\n\nDelikatnie gładzę miękkie uszy i długie wąsy zwierzęcia, lecz wtem czuję, jak w plecy wwierca mi się czyjeś spojrzenie. To [visiting_liege.GetTitledFirstName]. Nagle zaczynam rozumieć, co tak naprawdę oznaczałoby wytępienie #EMP wszystkich#! kotów, a świadomość ta ściska mi żołądek.\n\n– Wystarczy, że zniknie tylko #EMP ten#! sierściuch – mówi [visiting_liege.GetTitleAsNameNoTooltip] cicho z odrażającą słodyczą w głosie."

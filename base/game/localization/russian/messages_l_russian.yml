@@ -281,7 +281,7 @@
  msg_raid_war_invalidated_message: "Война «[war.GetName]» окончена: теперь невозможно совершить налет на персонажа [defender.GetTitledFirstName]"
  msg_free_house_member_war_invalidated_message: "Война «[war.GetName]» окончена: [defender.GetTitledFirstName] больше не держит в темнице членов [Concept( 'house', 'дома' )|E] [attacker.GetHouse.GetBaseNameNoTooltip]"
  msg_unify_house_war_invalidated_message: "Война «[war.GetName]» окончена: [defender.GetTitledFirstName] больше не владеет вассалами из [Concept( 'house', 'дома' )|E] [attacker.GetHouse.GetBaseNameNoTooltip]"
- msg_laamp_raid_contract_war_invalidated_message: "Война «[war.GetName]» окончена: [Concept( 'task_contract', 'контракт' )] «[GetTaskContractType('laamp_raid_contract').GetName]» от персонажа [attacker.GetShortUIName] более не действителен."
+ msg_laamp_raid_contract_war_invalidated_message: "Война «[war.GetName]» окончена: [Concept( 'task_contract', 'контракт' )|E] «[GetTaskContractType('laamp_raid_contract').GetName]» от персонажа [attacker.GetShortUIName] более не действителен."
  msg_my_hook_replaced: "Замена влияния"
  msg_my_hook_replaced_desc: "Вместо прежнего способа держать персонажа [LEFT_CHARACTER.GetShortUIName] [hook|El] у вас появился новый: [HOOK.GetName]"
  msg_my_hook_added: "Получено влияние"

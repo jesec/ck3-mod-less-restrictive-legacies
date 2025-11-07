@@ -8,7 +8,7 @@
  drained_by_mosquitoes_modifier: "被蚊子吸干了"
  drained_by_mosquitoes_modifier_desc: "该角色被一群吸血昆虫袭击，吸干了相当多的血液精华。"
  travel_danger_events.9010.t: "$travel_danger_prefix$困于车轮"
- travel_danger_events.9010.desc: "“[location.Custom('GetRandomRegionalDanger')|U]！” 我听到[irritated_character.GetFirstName]惊慌地大喊。很快，我听到一声响亮的爆裂声——就像木头断裂的声音，或者我的耐心终于崩溃了。\n\n我走到[location.Custom('GetProvinceGroundDesc')]上，看到一个马车车轮的碎片残骸……#EMP 我#!的马车车轮！\n\n“对不起，我的[irritated_character.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))]。轮到我驾车后，我握着缰绳睡着了……”"
+ travel_danger_events.9010.desc: "“[location.Custom('GetRandomRegionalDanger')|U]！”我听到[irritated_character.GetFirstName]惊慌地大喊。很快，我听到一声响亮的爆裂声——就像木头断裂的声音，或者我的耐心终于崩溃了。\n\n我走到[location.Custom('GetProvinceGroundDesc')]上，看到一个马车车轮的碎片残骸……#EMP 我#!的马车车轮！\n\n“对不起，我的[irritated_character.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))]。轮到我驾车后，我握着缰绳睡着了……”"
  travel_danger_events.9010.strong: "#EMP 把马车抬离地面时大声叹息#!"
  travel_danger_events.9010.a: "[root_scope.Custom('CulturalCurse')|U]……我们要迟到了。"
  travel_danger_events.9010.b: "整理下补给品，从现在开始我会骑得很粗暴……"

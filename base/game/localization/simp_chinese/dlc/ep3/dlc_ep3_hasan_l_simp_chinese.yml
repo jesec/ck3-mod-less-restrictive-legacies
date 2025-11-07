@@ -93,6 +93,6 @@
  HASAN_KINGDOM: "$b_alamut$"
  HASAN_KINGDOM_adj: "阿拉穆特"
  ASSASSIN_NATION_FRACTURING_WAR_NAME: "[ATTACKER.GetPrimaryTitle.GetAdjective]解散[DEFENDER.GetPrimaryTitle.GetName]"
- ep3_hasan_assassin_war: "解散阿萨辛"
+ ep3_hasan_assassin_war: "阿萨辛瓦解"
  hasan_fanatics: "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip|U]狂信徒"
  is_mountainous_desc: "地点[terrain|E]为[GetTerrain( 'mountains' ).GetName]或[GetTerrain( 'desert_mountains' ).GetName]"

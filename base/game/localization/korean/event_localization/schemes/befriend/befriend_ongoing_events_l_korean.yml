@@ -265,7 +265,7 @@
  befriend_ongoing.6002.a.tt: "[owner.GetFirstNameNoTooltip](이)가 요청을 받아들일 경우:"
  befriend_ongoing.6002.b: "[prisoner.GetFirstNameNoTooltip]의 석방이라면 조금 미뤄져도 괜찮아."
  befriend_ongoing.6002.b.tt: "#F [owner.GetFirstNameNoTooltip]에게 데리고 있으라고 함#!"
- befriend_ongoing.6004.desc: "내가 최근에 친절한 대도를 보였던 게 신호라고 판단했는지, [target.GetTitledFirstName](이)가 찾아와서는 어느 죄수에 대한 우려를 표했다.\n\n\"나의 [target.Custom2('RelationToMe', SCOPE.sC('prisoner'))]인 [prisoner.GetTitledFirstName](을)를 [prisoner.Custom('PrisonTypeCell')]에서 석방해 준다면 참으로 기쁠 것이오.\" [target.GetSheHe]가 [ROOT.Char.Custom2('KRQuirkPPPosOrNegType1', SCOPE.sC('target'))]며 말했다."
+ befriend_ongoing.6004.desc: "내가 최근에 친절한 대도를 보였던 게 신호라고 판단했는지, [target.GetTitledFirstName](이)가 찾아와서는 어느 죄수에 대한 우려를 표했다.\n\n\"나의 [target.Custom2('RelationToMe', SCOPE.sC('prisoner'))]인 [prisoner.GetTitledFirstName](을)를 [prisoner.Custom('PrisonTypeCell')]에서 석방해 준다면 참으로 기쁠 것이오.\" [target.GetSheHe]가 [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('target'))]."
  befriend_ongoing.6004.a: "싼값으로 [target.GetFirstNamePossessiveNoTooltip] 호의를 살 수 있겠군."
  befriend_ongoing.6004.b: "석방은 곤란하지만, 편의를 봐줄 수는 있지."
  befriend_ongoing.6004.c: "[prisoner.GetFirstNameNoTooltip](을)를 석방해 달라고? 어림없는 소리야!"

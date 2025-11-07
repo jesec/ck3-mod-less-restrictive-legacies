@@ -1,6 +1,6 @@
 ﻿l_korean:
  PASS_LAW_TOOLTIP_TITLE: "[SelectLocalization( GuiLaw.IsEnacted, Law.GetNameNoTooltip, Law.GetPassLawPhrase)]"
- PASS_LAW_TITLE_DEFAULT: "[Law.GetNameNoTooltip] 도입"
+ PASS_LAW_TITLE_DEFAULT: "[Law.GetNameNoTooltip][AddLocalizationIf( Not(Law.GetLawGroup.HasFlag( 'realm_no_pass' ) ), ' 통과' )]"
  ADD_LAW_CONFIRMATION_TITLE: "[Law.GetAddLawConfirmationTitle]"
  ADD_LAW_CONFIRMATION_TITLE_DEFAULT: "[Law.GetNameNoTooltip] 법률 도입"
  ADD_LAW_CONFIRMATION_ACCEPT: "[Law.GetAddLawConfirmationButtonText]"

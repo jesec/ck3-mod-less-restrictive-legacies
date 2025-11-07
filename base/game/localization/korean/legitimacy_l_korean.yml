@@ -26,7 +26,7 @@
  legitimacy_hud_tt: "[LegitimacyType.GetFlavorName( LegitimacyLevel.Self )] 영주 [LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )]"
  legitimacy_hud_tt_subheading: "[LegitimacyType.GetName]에 대한 [legitimacy_level|E]"
  legitmacy_flavor_and_level: "[LegitimacyType.GetFlavorName( LegitimacyLevel.Self )|V] #weak ([LegitimacyLevel.GetIndex]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )])#!"
- LEGITIMACY_TRACK_TITLE: "정통성 [Character.GetLegitimacy|V^]/[LegitimacyType.GetMaxLegitimacy( Character.Self )|V^]"
+ LEGITIMACY_TRACK_TITLE: "정통성 [Character.GetLegitimacy|V^0]/[LegitimacyType.GetMaxLegitimacy( Character.Self )|V^0]"
  LEGITIMACY_TRACK_TOOLTIP: "#T [LegitimacyType.GetFlavorName( LegitimacyLevel.Self )]#!\n최소 [LegitimacyLevel.GetThreshold( Character.Self )|V^] 정통성 필요\n\n$LEGITIMACY_EFFECTS$"
  legitimacy_high_modifier_tt: "높은 [legitimacy|E]"
  legitimacy_low_modifier_tt: "낮은 [legitimacy|E]"

@@ -2,7 +2,7 @@
  DECISION_ON_COOLDOWN: "@warning_icon! #X $DECISION_NAME$ bis zum [DATE.GetStringLong] nicht verfügbar#!"
  ALREADY_PLANNING_ACTIVITY: "Ihr plant bereits eine andere [activity|E]"
  ALREADY_IN_ACTIVITY_FIRST_NOT: "Ihr seid derzeit beschäftigt ([CHARACTER.Custom('GetActivityName')])"
- ALREADY_IN_ACTIVITY_THIRD_NOT: "[CHARACTER.Custom('DE_PRO_PER_S_3P_N')|U] ist derzeit beschäftigt ([CHARACTER.Custom('GetActivityName')])"
+ ALREADY_IN_ACTIVITY_THIRD_NOT: "[CHARACTER.GetTitledFirstName|U] ist derzeit beschäftigt ([CHARACTER.Custom('GetActivityName')])"
  unavailable_activity: "nimmt an einer Aktivität „[ROOT.Char.GetInvolvedActivity.GetName]“ teil"
  unavailable_pay_homage: "huldigt Eurem Lehnsherren"
  unavailable_meditation: "meditiert"

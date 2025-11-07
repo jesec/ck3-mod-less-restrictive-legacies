@@ -1,5 +1,5 @@
 ﻿l_polish:
- travel_danger_events.5000.t: "$travel_danger_prefix$ Kłótliwa banda"
+ travel_danger_events.5000.t: "$travel_danger_prefix$ kłótliwa banda"
  travel_danger_events.5000.intro.land: "Podczas wędrówki przez tereny znane jako [location.GetName] nasza karawana zatrzymała się na polanie otoczonej przez [location.Custom('GetProvinceFoliageDesc')]. Podążam w kierunku powstałego zamieszania i widzę, że [entourage_member_one.GetFirstName] i [entourage_member_two.GetFirstName] zaciekle się kłócą.\n\n"
  travel_danger_events.5000.intro.sea: "Słysząc kilka uderzeń i gniewnych krzyków dochodzących z zewnątrz, pośpiesznie wyszedł[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] spod pokładu tylko po to, by ujrzeć jak [entourage_member_one.GetFirstName] i [entourage_member_two.GetFirstName] gorliwie się kłócą.\n\n"
  travel_danger_events.5000.craven: "„Czemu mnie dręczysz, [entourage_member_two.GetFirstNameNoTooltip]? Nienawidzę być zaskakiwan[Select_CString(entourage_member_one.IsFemale, 'ą', 'ym' )] od tyłu, zwłaszcza gdy podróżujemy przez [location.Custom('GetTerrainLandPlural')]!”\n\n„Daj spokój, to był tylko żart! Zdobądź się na odrobinę odwagi – dla naszego dobra…”"
@@ -25,7 +25,7 @@
  travel_danger_events.5000.c: "Jest tylko jeden sposób, by to rozwiązać."
  travel_danger_events.5000.c.success: "[entourage_member_one.GetFirstNameNoTooltip] wygrywa"
  travel_danger_events.5000.c.failure: "[entourage_member_two.GetFirstNameNoTooltip] wygrywa"
- travel_danger_events.5010.t: "$travel_danger_prefix$ Brak wolnych miejsc"
+ travel_danger_events.5010.t: "$travel_danger_prefix$ brak wolnych miejsc"
  travel_danger_events.5010.desc.intro: "Po kilku dniach męczącej podróży zatrzymaliśmy się w gospodzie na ziemiach znanych jako [location.GetName] w poszukiwaniu noclegu. Na moje polecenie [ROOT.Char.Custom2('RelationToMeShort', travel_leader )] [travel_leader.GetName] zapytuje o możliwość zakwaterowania. Po powrocie na [travel_leader.Custom('PL_jego_jej')] twarzy widnieje ponury wyraz, co nie wróży nic dobrego.\n\n"
  travel_danger_events.5010.desc.seriously: "– Wasza czcigodność, jak się zapewne domyślasz…\n\n– [travel_leader.GetName] spuszcza głowę w rozpaczy. Ta oślizgła gadzina, [angry_char.GetTitledFirstName], jest zdeterminowana, by uczynić mi tę podróż piekłem!"
  travel_danger_events.5010.desc.again: "– Wasza czcigodność, po raz kolejny właściciel tej karczmy twierdzi, że jest #EMP absolutnie pełna!#! Wygląda na to, że osoba znana jako [angry_char.GetName] rozpuściła wieści o naszym przybyciu w te strony."

@@ -119,12 +119,12 @@
  witch.3003.b: "你会是我的贵宾，[new_guest.GetFirstNameNoTooltip]。"
  witch.3003.c: "$activity_witch_ritual$是一项内部活动。"
  #No one attended
- witch.3002.t: "毫无虔诚"
+ witch.3002.t: "毫无虔敬"
  witch.3002.desc: "没有一个人接受了我的邀请。他们不配得到[ROOT.Char.GetFaith.WitchGodName]的赐福！"
  witch.3002.a: "他们会知道[ROOT.Char.GetFaith.WitchGodHerHis|U]的愤怒。"
  #Starting event
  every_grand_rite_participant: "$activity_witch_ritual$的每个来宾"
- witch.3010.t: "满月升起"
+ witch.3010.t: "满月升腾"
  witch.3010.desc: "皓月当空，昭示[ROOT.Char.GetFaith.WitchGodHerHis|U]的降临，我可以感到自己的身体对空气中的奇异能量产生反应。大篝火周围的剪影沉默肃穆。等待着那一刻的到来。\n\n作为这次聚会的司仪，当由我开始这场仪式。我将……"
  witch.3010.a: "朗读一本古代魔法书。"
  witch.3010.a.great: "我的解读令人印象深刻"
@@ -189,7 +189,7 @@
  witch.3017.a: "我是多么渴望你啊。"
  witch.3017.b: "我……忘记了什么事！抱歉！"
  #End events
- witch.3098.t: "下次再见"
+ witch.3098.t: "下次再会"
  witch.3098.start.desc: "我的客人和我"
  witch.3098.end.desc: "祭拜了[ROOT.Char.GetFaith.WitchGodName]，交换了神圣的知识，结下了不解之缘。我的头脑里充满了新想法，但我的身体急需休息。一张暖床从来没有如此诱人过。"
  witch.3098.a: "愿[ROOT.Char.GetFaith.WitchGodSheHe|U]庇护我们，直到下次$activity_witch_ritual$。"

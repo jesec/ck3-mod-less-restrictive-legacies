@@ -84,7 +84,7 @@
  has_admin_government: "당신이 [GetGovernment('administrative_government').GetName] [government|E]를 보유함"
  admin_renounce_throne_desc: "[secondary_recipient.GetShortUIName|U] 또는 [secondary_recipient.GetHouse.GetName] [house|E]의 [house_head|E]은 옥좌에 대한 모든 열망과 명분을 포기했으며 지원을 받을 수 없음"
  ep3_admin_events.0001.t: "노선 변경"
- ep3_admin_events.0001.intro: "[liege.GetTitledFirstName]께서 필경사를 통해 소식을 전했다. 이제 변화의 시기가 도래했다.\n\n칙령을 읽기도 전에 [scribe.Custom('quirk_pos_present')] [scribe.GetWomanMan]이 말을 꺼냈다.\n\n"
+ ep3_admin_events.0001.intro: "[liege.GetTitledFirstName]께서 필경사를 통해 소식을 전했다. 이제 변화의 시기가 도래했다.\n\n한 [scribe.GetWomanMan]이 [scribe.Custom('quirk_pos_present')]. 그리고 칙령을 꺼내 읽었다.\n\n"
  ep3_admin_events.0001.tribal: "\"부족의 방식을 받아들여야만 한다. 위신은 통치자가 지닌 가장 중요한 도구이니. 약탈, 전투, 결투. [liege.GetTitleAsNameNoTooltip|U](은)는 모든 가신에게 남녀 할 것 없이 존경할 만한 명예를 지니기 위해 노력하길 바란다.\""
  ep3_admin_events.0001.feudal: "\"제국을 강하게 만드는 건 사방으로 흩어진 문서 따위가 아니다. 바로 사람들의 충성심이다. 이 [liege.GetTitleAsNameNoTooltip|U](은)는 그대들의 우정과 충성을 간청한다. 그 대가로 그대들이 봉신으로 활동하는 동안 안전을 보장할 것이다.\""
  ep3_admin_events.0001.clan: "\"봉역은 가족의 통치를 받는다. 우리 사슬의 강도는 가장 약한 고리에 의해 결정된다. 땅은 우리 가문의 반영에 불과하다. 단합된 가문은 영광에 이를 수 있다.\""

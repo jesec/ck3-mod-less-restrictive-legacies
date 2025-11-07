@@ -233,7 +233,7 @@
  petition_liege.0601.desc.imprisoned_me: "$petition_liege.0601_shared_intro$ [ROOT.Char.GetImprisonedBy.GetTitledFirstName](이)가 날 감옥에 집어넣었다."
  petition_liege.0601.desc.imprisoned: "$petition_liege.0601_shared_intro$ 나는 [ROOT.Char.GetImprisonedBy.GetTitledFirstName]에게 붙잡혔다."
  petition_liege.0601.desc.liege_dead_me: "$petition_liege.0601_shared_intro$ 결국 난 [petition_liege.GetTitledFirstName](을)를 살해하고 말았다... \n\n"
- petition_liege.0601.desc.liege_dead: "$petition_liege.0601_shared_intro$ [petition_liege.GetTitledFirstName] [petition_liege.GetDeathReasonHideKiller]... \n\n"
+ petition_liege.0601.desc.liege_dead: "$petition_liege.0601_shared_intro$ [petition_liege.GetTitledFirstName](이)가 [petition_liege.GetDeathReasonHideKiller]했다... \n\n"
  petition_liege.0601.desc.liege_imprisoned_me: "$petition_liege.0601_shared_intro$ 결국[petition_liege.GetTitledFirstName](을)를 붙잡고 말았다!"
  petition_liege.0601.desc.liege_imprisoned: "$petition_liege.0601_shared_intro$ [petition_liege.GetTitledFirstName](이)가 [petition_liege.GetImprisonedBy.GetTitledFirstName]에게 사로잡혔다."
  petition_liege.0601.desc.new_liege: "이젠 나의 새로운 주군인 [ROOT.Char.GetLiege.GetTitledFirstNameRegnal]에게 요청을 해야 한다."

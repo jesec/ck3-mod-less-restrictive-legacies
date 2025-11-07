@@ -96,7 +96,7 @@
  OA_AI_FAILURE_REASON: "[actor.GetShortUINameNotMe|U] ma niepowodzenia jako strona kontraktu: $VALUE|=+0$"
  OA_AI_LOYALTY_TOWARDS_ALLIES_REASON: "Lojalność wobec [Concept( 'ally', 'sojusznika' )|E]: $VALUE|=+0$"
  contract_assistance_interaction_condition_tt: "Jeżeli [war_contribution|El] osoby znanej jako [actor.GetShortUINameNotMe] wynosi co najmniej [SCOPE.ScriptValue('saved_contribution_value')|Z0] w momencie zakończenia [Concept('war', 'wojny')|E]:"
- contract_assistance_war_msg_title: "$contract_assistance_interaction$: Koniec wojny"
+ contract_assistance_war_msg_title: "$contract_assistance_interaction$: koniec wojny"
  contract_assistance_war_msg_hirer_paid_desc: "[contract_assistance_helper.GetShortUINameNotMe] otrzymał[Select_CString( contract_assistance_helper.IsFemale, 'a', '' )] od ciebie wynagrodzenie za [contract_assistance|El], jako że [contract_assistance_helper.GetHerHis] [war_contribution|El] wynosił co najmniej [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
  contract_assistance_war_msg_helper_paid_desc: "[contract_assistance_hirer.GetShortUINameNotMe] przekazał[Select_CString( contract_assistance_hirer.IsFemale, 'a', '' )] ci wynagrodzenie za [contract_assistance|El], jako że twój [war_contribution|El] wynosił co najmniej [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
  contract_assistance_war_msg_hirer_kept_desc: "[contract_assistance_helper.GetShortUINameNotMe] nie otrzymał[Select_CString( contract_assistance_helper.IsFemale, 'a', '' )] od ciebie wynagrodzenia za [contract_assistance|El], jako że [contract_assistance_helper.GetHerHis] [war_contribution|El] wynosił mniej niż [SCOPE.ScriptValue('saved_contribution_value')|Z0]"

@@ -39,7 +39,7 @@
  conqueror.1200.a: "Nie zawiodę ich!"
  conqueror.1200.b: "Jeśli chcą wojny, potrzeba mi żołnierzy."
  glory_hound_contribution: "Poparcie ludzi żądnych chwały"
- glory_hound_contribution_desc: "Ta postać zyskuje niezachwiane poparcie swoich wasali charakteryzujących się postawą [GetVassalStance( 'glory_hound' ).GetTextIcon] [GetVassalStance( 'glory_hound' ).GetName|l]."
+ glory_hound_contribution_desc: "Ta postać zyskuje niezachwiane poparcie swoich wasali [GetVassalStance('glory_hound').GetTextIcon] żądnych chwały."
  conqueror.1300.t: "$conqueror_prefix$ powszechne poparcie"
  conqueror.1300.desc: "– Wasza miłość, wasza czcigodność, wasza najwyższa #EMP wysokość!#! – bełkocze chłop, kłaniając się mi w pas. – Przybywamy ze skromnych wiosek obszaru znanego jako [peasant_barony.GetBaseName], niosąc podarunki: zboże, zwierzynę i złoto. Ciężko na to wszystko pracowaliśmy, ale wiemy, że sprowadzisz na nas dobrobyt!\n\nMoże i są najbiedniejszymi z moich poddanych, ale zrobią wszystko, o co ich poproszę."
  conqueror.1300.a: "To wspaniałe podarunki. Dziękuję!"

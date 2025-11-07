@@ -76,7 +76,7 @@
  lifestyle_nicknames.0011.a.tt: "직접 택한 [cognomen|E]을 고수할 생각이며, 다른 방안은 고려하지 않겠다는 뜻을 만방에 알립니다."
  lifestyle_nicknames.0011.b: "저들의 생각이 옳아. 대체 무슨 생각을 했던 건지..."
  lifestyle_nicknames.1000.t: "별명: [nickname_getter.GetNicknameNoTooltip|U]"
- lifestyle_nicknames.1000.desc: "\"[informer.Custom2('RelationToMeShort', SCOPE.sC('nickname_getter'))], 사람들이 그대를 뭐라 부르는지 아시오?\"\n[nickname_getter.Custom2('RelationToMeShort', SCOPE.sC('informer'))] [informer.GetFirstName](이)가 [informer.Custom('quirk_pos_pp')](하)며 말했다.\n\n"
+ lifestyle_nicknames.1000.desc: "\"[informer.Custom2('RelationToMeShort', SCOPE.sC('nickname_getter'))], 사람들이 그대를 뭐라 부르는지 아시오?\"\n[nickname_getter.Custom2('RelationToMeShort', SCOPE.sC('informer'))] [informer.GetFirstName](이)가 [informer.Custom('quirk_pos_pp')].\n\n"
  lifestyle_nicknames.1000.desc_prison: "\"[nickname_getter.GetFirstNameNoTooltip], 사람들이 그대를 뭐라 부르는지 아시오?\"\n[informer.GetFirstName](이)가 쇠창살을 톡톡 두드리며 우물거렸다.\n\n"
  lifestyle_nicknames.1000.desc_good: "\"그대를 #EMP '[nickname_getter.GetTitledFirstNameNicknamedNoTooltip]'#!(이)란 별명으로 부르더군. 농노고 귀족이고 모두의 입에 오르내리던데.\""
  lifestyle_nicknames.1000.desc_bad: "\"그대를 #EMP '[nickname_getter.GetTitledFirstNameNicknamedNoTooltip]'#!(이)란 별명으로 부르더군... #EMP 기분이 좋은#! 그런 이름은 아니지. 뭐, 그대가 뭘 하든 바꿀 수는 없겠지만.\""

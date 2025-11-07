@@ -9,7 +9,7 @@
  ep3_laamps.0001.b: "[alt_1.GetFirstNameNoTooltipRegnal], теперь все зависит от тебя."
  target_character_government: "[Concept( 'government', 'правительство' )|E]: [TARGET_CHARACTER.GetGovernment.GetName]"
  target_character_independent: "[Concept( 'independent_ruler', 'независимый правитель' )|E]"
- target_character_liege: "[SelectLocalization(TARGET_CHARACTER.IsIndependentRuler, 'Независимый', 'Вассал персонажа [TARGET_CHARACTER.GetLiege.GetName]')]"
+ target_character_liege: "[SelectLocalization(TARGET_CHARACTER.IsIndependentRuler, 'Независимый', 'Вассал персонажа TARGET_CHARACTER.GetLiege.GetName')]"
  ep3_laamps.0001.c: "[alt_2.GetFirstNameNoTooltipRegnal] [Select_CString(alt_2.IsFemale, 'должна', 'должен' )] будет создать новое будущее для нашего дома."
  ep3_laamps.0001.d: "Теперь [alt_3.GetFirstNameNoTooltipRegnal] — наша главная надежда."
  ep3_laamps.0001.e: "Это время уже ушло..."

@@ -1,0 +1,13 @@
+﻿l_polish:
+ feast_default_alex.100.t: "Wspólne wspomnienia"
+ feast_default_alex.100.desc: "[guest.GetTitledFirstName], a dla mnie [root_scope.Custom2('RelationToMeShort', SCOPE.sC('guest'))], [guest.Custom('quirk_pos_present')], podchodząc bliżej mnie.\n\n– [guest.Custom2('RelationToMeShortVocative', SCOPE.sC('root_scope'))|U], [host.Custom('RegionalDrink')|l] to trunek przypominający mi dzień, w którym [guest_memory.GetName|l]. – Uśmiecha się [guest.Custom('quirk_pos_adverb')]. – Wciąż o tym myślę. Szkoda, że nie każdy dzień jest tak [root_scope.Custom('RandomPositiveLookAdjective')|l]!"
+ feast_default_alex.100.a: "Wypijmy za jeszcze więcej wspomnień!"
+ feast_default_alex.100.b: "Ach, to był doprawdy wspaniały dzień!"
+ feast_default_alex.200.t: "Plaga z plotek"
+ feast_default_alex.200.desc: "– [guest.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))] musi wiedzieć, że do moich uszu dotarły plotki o zarazie znanej jako [epidemic.GetName]…– mówi z niepokojem [guest.GetTitledFirstName].\n\n– Podobno rozprzestrzenia się w zastraszającym tempie, a jej ognisko to [afflicted_top_liege.GetPrimaryTitle.GetBaseName]. Chorzy strasznie cierpią – ich [sick_peasant.Custom('disease_desc_short')]… Nawet to pyszne danie, [root_scope.Custom('GetExpensiveMeal')], nie pomaga w oderwaniu moich myśli od tego nieszczęścia."
+ feast_default_alex.200.a: "Przygotujmy się. [root_scope.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] to miejsce, do którego zaraza nie może dotrzeć."
+ feast_default_alex.200.b: "Podejdź tutaj, uspokój się."
+ feast_default_alex.200.c: "[afflicted_top_liege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip], powiadasz… Pomódlmy się za to miejsce."
+ feast_default_alex.200.d: "Nie martw się, zaraza nigdy tu nie dotrze!"
+ plague_preparations_modifier: "Przygotowania na zarazę"
+ plague_preparations_modifier_desc: "To miejsce jest dobrze przygotowane na wypadek jakiejkolwiek zarazy."

@@ -9,7 +9,7 @@
  ep3_travel_events.8000.b: "“[prospective_prince.GetFirstNameNoTooltip|U]可以和我们一起上路！”"
  ep3_travel_events.8000.c: "“过来，[romantic_child.GetFirstNameNoTooltip]。”"
  ep3_travel_events.8001.t: "我自己的根"
- ep3_travel_events.8001.desc: "[prospective_prince.Custom2('MyCharacterIntroduction', ROOT.Char )|U][prospective_prince.GetHerHis]散布归来，带回一个和[prospective_prince.GetHerHis]手拉手的陌生年轻[romantic_child.GetWomanMan]。这人很明显蓬头垢面，疲惫不堪，[romantic_child.GetHerHis]朴素的衣着上满是尘土。\n\n“[ROOT.Char.GetMotherFather|U]！这是[romantic_child.GetFirstName]，著名冒险家[laamp.GetName]的[romantic_child.Custom('GetDaughterSon')]。[romantic_child.GetSheHe|U]也是我爱的[romantic_child.GetWomanMan]，如果你祝福我们，我们就结婚！”"
+ ep3_travel_events.8001.desc: "[prospective_prince.Custom2('MyCharacterIntroduction', ROOT.Char )|U][prospective_prince.GetHerHis]散步归来，带回一个和[prospective_prince.GetHerHis]手拉手的陌生年轻[romantic_child.GetWomanMan]。这人很明显蓬头垢面，疲惫不堪，[romantic_child.GetHerHis]朴素的衣着上满是尘土。\n\n“[ROOT.Char.GetMotherFather|U]！这是[romantic_child.GetFirstName]，著名冒险家[laamp.GetName]的[romantic_child.Custom('GetDaughterSon')]。[romantic_child.GetSheHe|U]也是我爱的[romantic_child.GetWomanMan]，如果你祝福我们，我们就结婚！”"
  ep3_travel_events.8001.a: "“我祝福你。”"
  ep3_travel_events.8001.b: "“绝对不行！”"
  ep3_travel_events.8002.t: "另一时间"

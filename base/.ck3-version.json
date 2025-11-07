@@ -1,25 +1,25 @@
 {
-  "version": "1.16.2.3",
-  "version_name": "Chamfron",
-  "updated": "2025-06-02T13:41:56.000Z",
+  "version": "1.17.0.1",
+  "version_name": "Ascendant",
+  "updated": "2025-09-10T13:25:05.000Z",
   "release_notes": {
-    "title": "1.16.2.3",
-    "date": "2025-06-03",
-    "file": "release-notes/1_16_2_3_2025-06-03.md",
-    "url": "https://store.steampowered.com/news/app/1158310/view/509581849759059549"
+    "title": "1.17.0.1 & A Long Overdue Apology",
+    "date": "2025-09-10",
+    "file": "release-notes/1_17_0_1_2025-09-10.md",
+    "url": "https://store.steampowered.com/news/app/1158310/view/517472660906573991"
   },
   "depots": {
     "1158311": {
-      "manifest": "8063709342074529553",
-      "updated": "2025-06-02T13:29:29.000Z"
+      "manifest": "7199104713277421586",
+      "updated": "2025-09-10T13:23:17.000Z"
     },
     "1158314": {
-      "manifest": "6629428501602830975",
-      "updated": "2025-06-02T13:32:04.000Z"
+      "manifest": "5408548162112565509",
+      "updated": "2025-09-10T13:24:54.000Z"
     },
     "1158317": {
-      "manifest": "7065319447905806257",
-      "updated": "2025-06-02T13:33:11.000Z"
+      "manifest": "227809018561822569",
+      "updated": "2025-09-10T13:25:05.000Z"
     },
     "1296730": {
       "manifest": "4673314442703562503",
@@ -111,9 +111,14 @@
       "name": "Crowns of the World"
     },
     "3315510": {
-      "manifest": "1511298436604192265",
-      "updated": "2025-06-02T13:41:56.000Z",
+      "manifest": "2847387363919979242",
+      "updated": "2025-09-02T12:19:28.000Z",
       "name": "Khans of the Steppe"
+    },
+    "3315520": {
+      "manifest": "7521553339934362737",
+      "updated": "2025-09-02T12:19:31.000Z",
+      "name": "Coronations"
     },
     "3315540": {
       "manifest": "4626049522195732303",

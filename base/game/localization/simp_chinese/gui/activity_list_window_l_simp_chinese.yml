@@ -21,11 +21,11 @@
  ACTIVITY_LIST_CURRENT_STATE: "当前状态：[Character.GetActivityStateText( 'short' )]"
  ACTIVITY_LIST_CURRENT_LOCATION: "位于[Activity.GetCurrentPhase.GetLocation.GetName]#weak （预计旅行时间：[GetTimeDifferenceWithDays( Activity.CalcEstimatedTravelDuration( GetPlayer ) )|V]）#!"
  ACTIVITY_BASE_COST: "正常花费：[ActivityType.GetUiPredictedCost( GetPlayer )|U]"
- ACTIVITY_BASE_COST_TT: "#T 平均花费#!\n[ActivityType.GetLocalizedText( 'predicted_cost' )]"
+ ACTIVITY_BASE_COST_TT: "#T 正常花费#!\n[ActivityType.GetLocalizedText( 'predicted_cost' )]"
  ACTIVITY_JOIN_ALREADY_STARTED: "@warning_icon! #X [Activity.GetName]已经在进行中#!"
  SHOW_ACTIVITY_TOOLTIP: "#T [ActivityType.GetNameNoTooltip]#!\n[JoinText( '\n', ActivityType.GetCanPlanActivityTooltip( GetPlayer ), ActivityType.GetLocalizedText( 'selection_tooltip' ) )]\n\n#I 点击选择#!"
  JOIN_ACTIVITY_TOOLTIP: "#T [Activity.GetNameNoTooltip]#!\n\n#I 点击选择#!"
- ACTIVITY_LIST_DETAIL_HOST_TITLE: "举办[ActivityType.GetLocalizedText( 'host_an_a' )]场[ActivityType.GetNameNoTooltip]" #We added the an/a for English readability, doesn't necessarily need a translation to other languages
+ ACTIVITY_LIST_DETAIL_HOST_TITLE: "举办一场[ActivityType.GetNameNoTooltip]" #We added the an/a for English readability, doesn't necessarily need a translation to other languages
  ACTIVITY_LIST_DETAIL_DESC: "[ActivityType.GetDescription]"
  ACTIVITY_LIST_DETAIL_HOST_CONFIRM: "规划[ActivityType.GetNameNoTooltip]"
  ACTIVITY_LIST_DETAIL_HOST_COOLDOWN: "\n\n$ACTIVITY_COOLDOWN$"
@@ -70,3 +70,4 @@
  activity_chariot_race_host_an_a: "$host_activity_a$"
  activity_playdate_host_an_a: "$host_activity_a$"
  activity_witch_ritual_host_an_a: "$host_activity_a$"
+ activity_coronation_host_an_a: "$host_activity_a$"

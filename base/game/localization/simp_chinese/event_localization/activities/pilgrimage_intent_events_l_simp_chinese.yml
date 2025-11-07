@@ -16,7 +16,7 @@
  pilgrimage_intent.1000.c: "这些是[ROOT.Char.GetFaith.TricksterGodNamePossessive|U]的眼泪。"
  #Missionary, convert a child
  pilgrimage_intent.1001.t: "$zealotry_intent_header$易受影响的少年"
- pilgrimage_intent.1001.desc: "前往圣地的路上，我们已经见识过许多奇怪的信仰，途经[ROOT.Char.GetCurrentLocation.GetName]时，我看到一群孩子在路边打闹。\n\n他们都立即停下来，用惊奇的眼神看着我们，好像我们只是珍奇异兽。他们以前从未见过[ROOT.Char.GetFaith.GetAdherentName]朝圣者吗？尤其是其中一个孩子，尤为气度不凡！也许这孩子会喜欢[ROOT.Char.GetFaith.ReligiousText]中的一些故事。"
+ pilgrimage_intent.1001.desc: "前往圣地的路上，我们已经见识过许多陌生的信仰，途经[ROOT.Char.GetCurrentLocation.GetName]时，我看到一群孩子在路边打闹。\n\n他们都立即停下来，用惊奇的眼神看着我们，好像我们只是珍奇异兽。他们以前从未见过[ROOT.Char.GetFaith.GetAdherentNameNoTooltip]朝圣者吗？尤其是其中一个孩子，尤为气度不凡！也许这孩子会喜欢[ROOT.Char.GetFaith.ReligiousText]中的一些故事。"
  pilgrimage_intent.1001.a: "“我来教你。”"
  pilgrimage_intent.1001.a.conversion_succesful.t: "$pilgrimage_intent.1000.b.joined.t$"
  pilgrimage_intent.1001.a.conversion_succesful.desc: "你让这个孩子改信"
@@ -53,7 +53,7 @@
  pilgrimage_intent.1040.t: "$reflections_intent_header$野兽预兆"
  pilgrimage_intent.1040.desc.intro: "我们沿着这条圣路旅行，突然被迫停下来，因为一只野兽横穿到了我们的道路中间。\n\n"
  pilgrimage_intent.1040.desc.mid.pred: "一只强大的[ROOT.Char.Custom('GetAnimalType')]挡在我和圣地之间。"
- pilgrimage_intent.1040.desc.mid.prey: "一头谦逊的[ROOT.Char.Custom('GetAnimalType')]盯着我们神圣的队伍。"
+ pilgrimage_intent.1040.desc.mid.prey: "一只不起眼的[ROOT.Char.Custom('GetAnimalType')]盯着我们神圣的队伍。"
  pilgrimage_intent.1040.desc.outro: "\n\n野兽的脸上有一种会心的表情。仿佛那双凶狠的眼睛后面藏着一位睿智老[ROOT.Char.GetWomanMan]的心思。[ROOT.Char.GetHerHis]眨了眨眼，然后继续前进。"
  pilgrimage_intent.1040.a: "那只[ROOT.Char.Custom('GetAnimalType')]是[ROOT.Char.GetFaith.HighGodName]的使者！跟上[ROOT.Char.GetHerHim]！"
  pilgrimage.you_lose_the_animal.t: "动物丢失"
@@ -61,14 +61,14 @@
  pilgrimage_intent.1040.b: "我们不能分心。"
  #Good omen (predator)
  pilgrimage_intent.1041.t: "预兆：一次成功的狩猎"
- pilgrimage_intent.1041.desc.intro: "我勤奋地跟着这个[ROOT.Char.Custom('GetAnimalType')]，小心不让[ROOT.Char.GetSheHe]注意到我。\n\n最终，[ROOT.Char.GetSheHe]遇到了[ROOT.Char.GetHerHis]的猎物：一只小鸟。"
+ pilgrimage_intent.1041.desc.intro: "我不懈地跟着这只[ROOT.Char.Custom('GetAnimalType')]，小心不让[ROOT.Char.GetSheHe]注意到我。\n\n最终，[ROOT.Char.GetSheHe]遇到了[ROOT.Char.GetHerHis]的猎物：一只小鸟。"
  pilgrimage_intent.1041.desc.mid: "[ROOT.Char.Custom('GetAnimalType')]开始逐猎这只鸟，等它耗尽了力气，很快就将它撕成了羽毛和血块。"
  pilgrimage_intent.1041.desc.outro: "\n\n[ROOT.Char.GetFaith.HighGodName|U]给予的这个迹象是何意？"
  pilgrimage_intent.1041.a: "我将战无不胜！"
  pilgrimage_intent.1041.b: "我猛攻，敌人就会倒下！"
  #Bad omen (predator)
  pilgrimage_intent.1042.t: "预兆：失败的捕猎"
- pilgrimage_intent.1042.desc.mid: "这个[ROOT.Char.Custom('GetAnimalType')]等啊等，等到了机会，攻击了那只鸟，最后却让它逃走了，飞向广阔的天空。"
+ pilgrimage_intent.1042.desc.mid: "这只[ROOT.Char.Custom('GetAnimalType')]等啊等，等到了机会，攻击了那只鸟，最后却让它逃走了，飞向广阔的天空。"
  pilgrimage_intent.1042.a: "我是那只[ROOT.Char.Custom('GetAnimalType')]，我的敌人会打败我。"
  pilgrimage_intent.1042.b: "我是那只鸟，我会避开厄运！"
  #Good omen (prey)

@@ -20,7 +20,7 @@
  yearly.7002.b.tt.2: "你信任你的两个护卫"
  yearly.7002.c.tt: "你将秘密埋在心底"
  #### Traitor knights carry you off in a sack
- yearly.7004.desc: "“快点！[ROOT.GetCharacter.GetSheHe|U]要醒了！”\n\n当我醒来时，我感觉枕头比往常的粗糙。我的头在转动，但我身体的其他部位也在跟着转，一切都是灰暗的。我不是躺在床上，而是被人用麻袋在地上拖动。\n\n“[ROOT.GetCharacter.GetSheHe|U]动的太厉害了！我老是抓不紧。”\n\n当这些声音互相拌嘴时，我很轻易地挣扎到他们不得不把袋子放下的地步。我自由的爬行，然后我意识到他们几乎没有离开[ROOT.GetCharacter.Custom('FortifiedBuilding')]花园几步。"
+ yearly.7004.desc: "“快点！[ROOT.GetCharacter.GetSheHe|U]要醒了！”\n\n当我醒来时，我感觉枕头比往常的粗糙。我的头在转动，但我身体的其他部位也在跟着转，一切都是灰暗的。我不是躺在床上，而是被人用麻袋在地上拖动。\n\n“[ROOT.GetCharacter.GetSheHe|U]扭得太凶了！我老是抓不紧。”\n\n当这些声音互相拌嘴时，我很轻易地挣扎到他们不得不把袋子放下的地步。我自由的爬行，然后我意识到他们几乎没有离开[ROOT.GetCharacter.Custom('FortifiedBuilding')]花园几步。"
  yearly.7004.tt: "派系的阴谋已被挫败"
  yearly.7004.a: "你们把这个叫做绑架？我至少期望你们把我带到[neighbor_county.GetNameNoTier]。"
  yearly.7004.b: "叛徒！你们两个都得在我地牢的麻袋里受尽折磨！"

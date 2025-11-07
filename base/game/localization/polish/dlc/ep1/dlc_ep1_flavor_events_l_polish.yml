@@ -1,6 +1,6 @@
 ﻿l_polish:
  tradition_header: "Tradycje:"
- ep1_flavor.1000.t: "$tradition_header$ Przybywający eunuch"
+ ep1_flavor.1000.t: "$tradition_header$ przybywający eunuch"
  ep1_flavor.1000.desc: "Na mój dwór przybywa dzisiaj wędrowny eunuch.\n\n– Witaj, wasza ekscelencjo. Jak wspaniale poznać osobę tak szanowaną, jak [ROOT.Char.GetTitleTierName]! – mówi gość z szacunkiem.\n\n– Nazywam się [eunuch_target.GetFirstName]. Jestem wędrowcem cieszącym się znamienitą reputacją – na co dzień użyczam swej wiedzy szlachetnym, uczonym królom i opiekuję się haremami wielkich sułtanów. Teraz jestem tutaj i oferuję ci swoje usługi. Za skromną opłatą, oczywiście.\n\nIntrygująca postać, może należy [eunuch_target.Custom('PL_go_ja')] przyjąć?"
  ep1_flavor.1000.a: "Dobra propozycja, przyjmuję ją."
  ep1_flavor.1000.b: "[eunuch_target.GetFirstNameNoTooltip], mój [eunuch_target.Custom('ComplimentAdjective')] przyjacielu, zostaniesz jeszcze chwilę?"
@@ -8,7 +8,7 @@
  eunuch_moves_tt: "[eunuch_target.GetFirstNameNoTooltip] przenosi się do [new_court.GetAdjective]"
  ep1_flavor.1000.c.success: "[eunuch_target.GetFirstNameNoTooltip] zostaje przekonany do pozostania"
  ep1_flavor.1000.c.failure: "[eunuch_target.GetFirstNameNoTooltip] nazywa cię skąpcem i podąża dalej"
- ep1_flavor.1200.t: "$tradition_header$ Sztuczki handlowe"
+ ep1_flavor.1200.t: "$tradition_header$ sztuczki handlowe"
  ep1_flavor.1200.desc: "Eunuch [eunuch_target.GetFirstName] staje przede mną, [eunuch_target.Custom('quirk_pos_pp')].\n\n„Wszechpotężn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] [ROOT.Char.GetTitleTierName|l] ma nieopisaną wiedzę, ale są takie rzeczy, które wymykają się nawet najbystrzejszym umysłom – mądrości i tajemnice, którymi chętnie się z tobą podzielę” – szepcze.\n\n„Za rozsądną cenę”.\n\nOczywiście. Ale nadal jestem zainteresowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]."
  ep1_flavor.1200.a: "Ponoć znasz tajniki nauki języka?"
  ep1_flavor.1200.b: "Mam wielu wrogów. Jak ich pokonać?"

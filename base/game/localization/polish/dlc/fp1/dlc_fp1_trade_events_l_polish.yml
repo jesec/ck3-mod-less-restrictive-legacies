@@ -80,7 +80,7 @@
  fp1_trade_events.1131.c.tt: "Płacisz okup bezpośrednio żołnierzom, co powoduje, że [attacker.GetFirstNameNoTooltip] wraca do domu"
  fp1_trade_events.1131.d: "Wypędzimy tych najeźdźców tak, jak zawsze to robiliśmy."
  fp1_trade_events.1131.d.tt: "Walczysz z Nordami w staromodny sposób"
- fp1_trade_events.1171.t: "$fp1_trade_events.0000.t$: Pomocna święta dłoń"
+ fp1_trade_events.1171.t: "$fp1_trade_events.0000.t$: pomocna święta dłoń"
  fp1_trade_events.1171.desc: "[partner.GetTitledFirstName] i ja poznaliśmy się w #EMP niezwykłych#! okolicznościach. Z biegiem czasu związek między nami tylko się zacieśnił.\n\nOdnoszę wrażenie, że znacznie bardziej niż przypuszczał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], gdyż [partner.GetHerHis] ostatni list wyrażał szczerą troskę o los mojej duszy.\n\nChcąc nakłonić mnie do nawrócenia się na [partner.GetFaith.GetName|l], [partner.GetFirstNameNoTooltip] oferuje rękę swoje[Select_CString( prospective_spouse.IsFemale, 'j córki', 'go syna' )], wielką ceremonię przyjęcia mnie do wiary #EMP oraz#! pokaźny posag."
  fp1_trade_events.1171.a: "#EMP Przedstawia#! całkiem przekonujący argument…"
  fp1_trade_events.1171.b: "Co za gest! Za wieczną przyjaźń!"

@@ -555,9 +555,33 @@ apa_sang_nice_song = {
 	icon = diplomacy
 	is_valid = {
 		is_current_phase_active = yes
-		any_attending_character = {
-			location = scope:province
-			has_trait = charming
+		OR = {
+			AND = {
+				has_activity_type = activity_playdate
+				any_attending_character = {
+					location = scope:province
+					has_trait = charming
+				}
+			}
+			AND = {
+				has_activity_type = activity_coronation 
+				has_current_phase = coronation_phase_feast
+				any_attending_character = {
+					location = scope:province
+					OR = {
+						has_trait = poet
+						has_trait = violet_poet
+						AND = {
+							has_trait = tourney_participant
+							has_trait_xp = {
+								trait = tourney_participant
+								track = wit
+								value >= 25
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -565,17 +589,46 @@ apa_sang_nice_song = {
 		value = 1
 	}
 
-	effect = {			
-		random_attending_character = {
+	effect = {
+		if = {
 			limit = {
-				location = scope:province
-				has_trait = charming
+				has_activity_type = activity_playdate
 			}
-			save_scope_as = first
+			random_attending_character = {
+				limit = {
+					location = scope:province
+					has_trait = charming
+				}
+				save_scope_as = first
+			}
+		}
+		else_if = {
+			limit = {
+				has_activity_type = activity_coronation 
+				has_current_phase = coronation_phase_feast
+			}
+			random_attending_character = {
+				limit = {
+					location = scope:province
+					OR = {
+						has_trait = poet
+						has_trait = violet_poet
+						AND = {
+							has_trait = tourney_participant
+							has_trait_xp = {
+								trait = tourney_participant
+								track = wit
+								value >= 25
+							}
+						}
+					}
+				}
+				save_scope_as = first	
+			}
 		}
 		
 		add_activity_log_entry = {
-			key = apa_found_gold_stash
+			key = apa_sang_nice_song
 			tags = { pulse_action }
 			character = scope:first
 			

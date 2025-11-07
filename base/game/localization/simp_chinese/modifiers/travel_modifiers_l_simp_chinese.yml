@@ -166,7 +166,7 @@
  travel_safe_roads_modifier: "安全的道路"
  travel_safe_roads_modifier_desc: "该伯爵领的道路非常安全。"
  travel_sacrificed_levies_modifier: "牺牲的征召兵"
- travel_sacrificed_levies_modifier_desc: "这座城堡保护了受袭击的旅人。"
+ travel_sacrificed_levies_modifier_desc: "该地产保护了受袭击的旅人。"
  discounted_church_holding_build_cost_modifier: "神殿建造的见解"
  discounted_church_holding_build_cost_modifier_desc: "深入了解一座宏伟的神殿可以给首府带去益处。"
  played_it_cool_modifier: "守秘人"

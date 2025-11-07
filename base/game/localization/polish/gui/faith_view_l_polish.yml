@@ -36,7 +36,7 @@
  FAITH_WINDOW_DOCTRINE_TOOLTIP_WITH_FAITH: "#T [FaithDoctrine.GetName( Faith.Self )]#!\n[FaithDoctrine.GetEffectsDescription( Faith.Self )]\n\n[FaithDoctrine.GetDescription( Faith.Self )|F]"
  FAITH_TOOLTIP_DOCTRINE_HEAD_OF_FAITH: "[head_of_faith|E]: [Faith.GetReligiousHead.GetShortUINameNotMe]"
  FAITH_TOOLTIP_DOCTRINE_NO_HEAD_OF_FAITH: "Brak [Concept( 'head_of_faith', 'głowy wiary' )|E]"
- FAITH_TOOLTIP_DOCTRINE_VACANT_HEAD_OF_FAITH: "[head_of_faith|E]: Wakat"
+ FAITH_TOOLTIP_DOCTRINE_VACANT_HEAD_OF_FAITH: "[head_of_faith|E]: wakat"
  FAITH_WINDOW_DOCTRINE_SELECT_TOOLTIP: "$FAITH_WINDOW_DOCTRINE_TOOLTIP$\n\n[GuiFaithCreationDoctrineItem.GetBlockers]#I Kliknij, aby wybrać [FaithDoctrine.GetName( GuiFaithDoctrineItem.GetFaith )]#!"
  FAITH_WINDOW_DOCTRINE_CHANGE_TOOLTIP: "$FAITH_WINDOW_DOCTRINE_TOOLTIP$\n\n[GuiFaithCreationDoctrineItem.GetBlockers]Koszt: [piety_i][FaithDoctrine.CalcPietyCost( GuiFaithDoctrineItem.GetFaith )|0]\n#I Kliknij, aby zmienić#!"
  DOCTRINE_BLOCKS_FAITH_CREATION: "@warning_icon! #X Doktryna [FAITH_DOCTRINE.GetName( GetPlayer.GetFaith )|l] nie jest dozwolona#!"

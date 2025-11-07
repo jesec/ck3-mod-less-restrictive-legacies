@@ -10,7 +10,7 @@
  councillor_spouse_intrigue.1001.desc: "\"주변에 둘 사람들을 고르실 땐 좀 세심해지셔야 해요.\" [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('councillor'))](은)는 엄청나게 진지한 눈을 하고 있다. \"지금 이 말을 하던 와중에도 [spymaster.GetTitledFirstName](이)가 당신을 상대로 모략을 꾸미고 있다는 게 눈에 딱 보인 걸요!\"\n\n정말 그랬다고? [spymaster.GetCouncilTitle](이)가?!"
  councillor_spouse_intrigue.1001.a: "바보 취급을 당하고 있었군!"
  councillor_spouse_intrigue.1002.t: "배우자: 소문과 추측"
- councillor_spouse_intrigue.1002.desc: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))](은)는 뭔가 공유할 만한 정보가 있으면 자주 [councillor.Custom('quirk_pos_present_type2_KR')]곤 한다. \"[councillor.GetSheHe]에 대한 소문... 그러니까 그 사람이 뭔가 끔찍한 것을 숨기고 있다는 소문 들으셨어요?\" [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))](이)가 목소리를 낮추자 나도 그쪽으로 몸을 기울였다. \"그 소문은 모두 사실이었어요. 이제 증거만 있으면 되지요.\""
+ councillor_spouse_intrigue.1002.desc: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))](은)는 뭔가 공유할 만한 정보가 있으면 자주 [councillor.Custom('quirk_pos_present')]. \"[councillor.GetSheHe]에 대한 소문... 그러니까 그 사람이 뭔가 끔찍한 것을 숨기고 있다는 소문 들으셨어요?\" [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))](이)가 목소리를 낮추자 나도 그쪽으로 몸을 기울였다. \"그 소문은 모두 사실이었어요. 이제 증거만 있으면 되지요.\""
  councillor_spouse_intrigue.1002.a: "첩보 활동을 할 때예요, [councillor.Custom('LoverPetName')]!"
  councillor_spouse_intrigue.1002.b: "무엇인지 밝혀내야 하겠군!"
  councillor_spouse_intrigue.1002.c: "나는 [target.GetFirstNameNoTooltip]보단 입이 무겁죠."

@@ -9,7 +9,7 @@
  british_isles.0002.b: "不列颠尼亚再一次回归到我们手中！"
  #Restoring the Danelaw, by Linnéa Thimrén
  british_isles.1001.t: "恢复法律"
- british_isles.1001.desc: "在我的运筹下丹麦法区得以恢复；这片土地会再次接受被[restorer.GetCulture.GetName]统治的命运！\n\n我，如今正沿着血斧埃里克和古思伦等先人的脚印继续前行，我乃古老传统的捍卫者。以[restorer.GetFaith.WarGodName]之名发誓，我绝不会让这个王国再次落入盎格鲁-撒克逊人的魔掌之中！"
+ british_isles.1001.desc: "在我的运筹下丹麦法区得以恢复；这片土地会再次接受被[restorer.GetCulture.GetName]统治的命运！\n\n我，如今正沿着血斧埃里克和古思伦等先人的脚印继续前行，我乃古老传统的捍卫者。以[restorer.GetFaith.WarGodName]之名发誓，我绝不会让这个王国再次落入盎格鲁‑撒克逊人的魔掌之中！"
  british_isles.1001.a: "新时代的曙光！"
  british_isles.1002.t: "丹麦法区"
  british_isles.1002.desc_same_culture: "得益于[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))][restorer.GetName]的运作，丹麦法区得以重建！这片岛屿再一次回到了[restorer.GetCulture.GetName]人的统治之下。"
@@ -20,13 +20,13 @@
  #Embrace English Culture, by Linnéa Thimrén
  british_isles.2001.t: "[embracer_former_culture.GetNameNoTooltip|U]人渐凋零"
  british_isles.2001.desc: "我们[embracer.GetCulture.GetCollectiveNounNoTooltip]人还将法兰西当作自己家园的时代已经一去不复返。我们的子女诞生于此，和撒克逊人一齐长大，而对于他们，诺曼底已经成为眺望不列颠尼亚海岸线时幢幢迷雾中一条隐约的细线。\n\n此外，我们采纳了一些当地的习俗，而我们文化的传承也在撒克逊人的土地上传播开来，诞生了一种新的身份认同——英格兰人。"
- british_isles.2001.a: "英格兰万岁！"
+ british_isles.2001.a: "英格兰人万岁！"
  british_isles.2002.desc: "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('embracer'))][embracer.GetName]，[embracer.GetHerHis]的封臣，以及[embracer.GetHerHis]的全家人已经响应阿尔比昂的呼唤，接受了英格兰文化。"
  british_isles.2002.a: "这只是时间问题。"
  british_isles.2002.b: "叛徒！"
  #Request Laudabiliter, by Flavio Verna
  british_isles.3001.t: "我们郑重宣布，"
- british_isles.3001.desc: "你欲将普世教会的圣洁管辖推广到爱尔兰诸蛮族部落，实乃无比虔诚且正当的事业。有鉴于此，罗马圣教会允许你将该岛纳为己有，并于此地执行天主的意志。\n\n如果你在这场神圣之战的中途不幸魂归天国，我们将此神圣诏令的效力延及你的合法继承人。愿[scoped_ruler.GetHouse.GetBaseNameNoTooltip]家族能对这份神圣事务从一而终，直到吾主圣意昭昭，爱尔兰于[scoped_ruler.GetCulture.GetNameNoTooltip]的统治下顺服地合而为一。"
+ british_isles.3001.desc: "你欲将普世教会的圣洁管辖推广到爱尔兰诸蛮族部落，实乃无比虔诚且正当的事业。有鉴于此，罗马圣教会允许你将该岛纳为己有，并于此地执行天主的旨意。\n\n如果你在这场神圣运动的中途不幸魂归天国，我们将此神圣诏令的效力延及你的合法继承人。愿[scoped_ruler.GetHouse.GetBaseNameNoTooltip]家族能对这份神圣事务从一而终，直到吾主圣意昭昭，爱尔兰于[scoped_ruler.GetCulture.GetNameNoTooltip]的统治下顺服地合而为一。"
  british_isles.3001.a: "准备好我们的舰队！"
  british_isles.3002.t: "宣称爱尔兰"
  british_isles.3002.desc.irish: "因着[scoped_pope.GetFirstName]教宗陛下，基督之代表，圣伯多禄宝座继承人的鸿恩，[scoped_ruler.GetFullName]已得授予统治爱尔兰全境及其境内全部部落的神圣权力。\n\n任何不服从教宗令状并拒绝臣服的爱尔兰领主将会面临[scoped_ruler.GetTitledFirstName]之怒，[scoped_ruler.GetHerHis]的[scoped_ruler.GetCulture.GetName]大军，以及天主的大能。"
@@ -39,7 +39,7 @@
  british_isles.4001.b: "我的国王头衔是唯一重要之物。"
  british_isles.4002.desc: "经过几百年的斗争，[founder.GetFullName]重建了古老的冬诺尼亚王国，被人民称为[founder.GetPrimaryTitle.GetNameNoTier]，并击退了他们岛屿的异族侵略者。\n\n虽然不列颠诸岛的其他领主们不太可能容忍这个新兴势力染指他们眼中的先祖领地，然而[founder.GetPrimaryTitle.GetAdjective]的人民经受过的入侵比今时今日所能组织起来的入侵要恐怖得多。他们早已准备好了抵御不可避免的可怕报复……"
  british_isles.4002.a: "一与全！"
- british_isles.4002.b: "我们会把他们一直赶到大地的尽头。"
+ british_isles.4002.b: "我们会把他们一直赶到兰兹角。"
  british_isles.4002.c: "弹丸小国，过眼云烟。"
  british_isles.1011.t: "未敢设想的谈判"
  british_isles.1011.nord: "$k_england$是一片问题多多但又富饶的土地：冬季和缓，夏季潮湿，正适合殖民者和战士繁衍生息。\n\n然而其他北欧人和剩余本土政治势力之间的竞争日趋激烈。我们人人都为寻找一个立足之处而殚精竭虑，拼命从别人身上撕咬出自己的一片采邑，安上小[ntd_actor.Custom('QueenKing')]的名号，却无法得到真正的主导权。"

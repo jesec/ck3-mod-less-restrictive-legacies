@@ -38,7 +38,7 @@
  learn_commander_trait.0009.desc: "가차 없는 추위가 수많은 목숨을 앗아갔으나, 나와 수하들까지 어쩌지는 못했다.\n\n눈밭 아래 어디쯤에서 식량을 구해야 하는지를 알았던 덕분이었다. 늑대처럼 적을 뒤쫓던 우리는 한겨울의 동장군처럼 놈들을 찢어발겼다."
  learn_commander_trait.0009.a: "우박처럼 휘몰아쳐라."
  #Training offer
- learn_commander_trait.11.opening: "\"전투에 대해 더 깊게 이해하시고 싶다는 뜻으로 받아들여도 되겠습니까?\" [teacher.GetTitledFirstName](이)가 [teacher.Custom('quirk_pos_present_type1_KR')]며 내게 다가왔다. \"전장을 보는 새로운 시각을 갖추는 데 도움을 드릴 수도 있을 것 같습니다만...\""
+ learn_commander_trait.11.opening: "\"전투에 대해 더 깊게 이해하시고 싶다는 뜻으로 받아들여도 되겠습니까?\" [teacher.GetTitledFirstName](이)가 [teacher.Custom('quirk_pos_present')]. \"전장을 보는 새로운 시각을 갖추는 데 도움을 드릴 수도 있을 것 같습니다만...\""
  #Generic:
  #Offer:
  learn_commander_trait.11.desc: "\n\n[teacher.GetFirstName](은)는 [ROOT.Char.Custom('CommanderTraitSkillDescription')] 기술로 유명하니 나를 잘 가르쳐줄 것이다."
@@ -81,7 +81,7 @@
  #Final test
  learn_commander_trait.1202.desc: "[teacher.GetTitledFirstName](은)는 포위술에 대해 속속들이 가르쳐주었다. 내 마지막 시험은 소형 요새를 어떻게 하면 효율적으로 점령할 수 있을지에 대해 설명하는 것이다."
  #Success
- learn_commander_trait.1302.desc: "\"오, 그건 생각도 못 했는데요.\" [teacher.GetTitledFirstName](이)가 [teacher.Custom('quirk_pos_present_type3_KR')]다. 내 계획에서 단 하나의 결점도 찾지 못했다!"
+ learn_commander_trait.1302.desc: "\"오, 그건 생각도 못 했는데요.\" [teacher.GetTitledFirstName](은)는 [teacher.Custom('quirk_pos_present')]. 내 계획에서 단 하나의 결점도 찾지 못했다!"
  #Failure
  learn_commander_trait.1402.desc: "\"저 탑에 대해서는 깜빡하셨는지요?\" [teacher.GetTitledFirstName](은)는 내가 얘기하고 있던 벽 앞의 흉벽을 가리키며 말한다. 내 전략에 내재된 심각한 문제를 이제야 알아차리게 되다니."
  #aggressive_attacker

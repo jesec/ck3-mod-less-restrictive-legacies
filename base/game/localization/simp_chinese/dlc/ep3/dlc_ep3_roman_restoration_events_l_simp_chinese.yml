@@ -18,7 +18,7 @@
  ep3_roman_restoration.0101.intro: "一份[scoped_emperor.GetName]御笔亲书的宣告从位于[scoped_emperor.GetCapitalLocation.GetBaronyNameExplicitly]的帝都发出。曾经一度属于古罗马人的广袤土地被[scoped_emperor.GetCulture.GetCollectiveNoun]人重新统一，其雄心如同古时的凯撒们一般宏大。\n\n"
  ep3_roman_restoration.0101.hellenic: "绝不半途而废。随着[scoped_emperor.GetFaith.GetName]复兴，宏伟的神庙中再次崇拜古代诸神，与献给[scoped_emperor.GetFaith.HighGodName]和[scoped_emperor.GetFaith.KnowledgeGodName]的赞美诗交相辉映。异教仪式的复苏与基督教主导的欧洲格格不入，向现存宗教秩序发出了大胆的挑战。\n\n"
  ep3_roman_restoration.0101.orthodox: "在[scoped_emperor.GetFaith.GetName]教会的鼎力支持下，加冕仪式由[scoped_emperor.GetFaith.GetReligiousHead.GetTitledFirstName][scoped_emperor.GetFaith.GetReligiousHead.GetHerselfHimself]本人主持，庄严确认了神授君权。帝国的精神之源根深蒂固，使信仰与帝国的野心牢牢交织在一起。\n\n"
- ep3_roman_restoration.0101.fallback: "无论是接受一种非传统的信仰，还是坚持其祖先的信仰，[scoped_emperor.GetTitleAsNameNoTooltip]登基典礼上的独特仪式其特别的宗教倾向，为帝国内部多样化的文化身份奠定了基础。\n\n"
+ ep3_roman_restoration.0101.fallback: "无论是接受一种非传统的信仰，还是坚持其祖先的信仰，[scoped_emperor.GetTitleAsNameNoTooltip]登基典礼上的独特仪式反映出其特别的宗教倾向，为帝国内部多样化的文化身份奠定了基础。\n\n"
  ep3_roman_restoration.0101.outro: "令人畏惧的强权如今在大地上投下巨大的阴影，预示着其邻国的力量和勇气将在未来受到前所未有的考验。"
  ep3_roman_restoration.0101.a: "愿[ROOT.Char.GetFaith.HighGodName]拯救我们……"
  ep3_roman_restoration.0300.t: "治理失误"

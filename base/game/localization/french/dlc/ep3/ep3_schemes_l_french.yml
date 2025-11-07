@@ -303,6 +303,7 @@
  TARGET_GOVERNOR_EFFICIENCY_DESC: "[Select_CString(target.IsLocalPlayer,'Votre ','L’')][governor_efficiency|El][target.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')] : $VALUE|+=0$"
  TARGET_HOLDER_GOVERNOR_EFFICIENCY_DESC: "[Select_CString(target.GetHolder.IsLocalPlayer,'Votre ','L’')][governor_efficiency|El][target.GetHolder.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')] : $VALUE|+=0$"
  HOUSE_HEAD_SCHEME_SUPPORT_DESC: "$house_head_request_interaction$ : $VALUE|+=0$"
+ coronation_spouse_despised_modifier: "Serment du couronnement [owner.Custom('FR_du_Char_U_Pi')][owner.GetShortUIName] de se débarrasser [target.Custom('FR_du_Char_U_Pi')][target.GetShortUIName] : $VALUE|+=0$"
  #Found Despotate
  found_despotate: "Élever le gouvernorat"
  found_despotate_action: "Élever le gouvernorat à"

@@ -147,7 +147,7 @@
  mpo_chaotic_kurultai_succession.0017.a: "他们很快就会再次服侍我。"
  mpo_chaotic_kurultai_succession.1000.t: "继承汗国"
  mpo_chaotic_kurultai_succession.1000.desc: "帝国四分五裂。继承者们为争夺控制权而争吵不休，但无人强大到足以掌控一切。除了……"
- mpo_chaotic_kurultai_succession.1000.a: "没错，正是在下。"
+ mpo_chaotic_kurultai_succession.1000.a: "我，当然是我。"
  mpo_chaotic_kurultai_succession.1000.b: "[ilkhanate_ruler.GetFullNameNoTooltip]。"
  mpo_chaotic_kurultai_succession.1000.c: "[black_horde_ruler.GetFullNameNoTooltip]。"
  mpo_chaotic_kurultai_succession.1000.d: "[white_horde_ruler.GetFullNameNoTooltip]。"

@@ -44,9 +44,10 @@ scripted_trigger feast_events_ewan_0001_has_suitable_active_scheme_trigger = {
 }
 
 scripted_effect feast_events_ewan_0001_kill_intent_target_effect = {
+	save_temporary_scope_as = temp_scope
 	unknown_murder_effect = {
 		VICTIM = scope:intent_target
-		MURDERER = root
+		MURDERER = scope:temp_scope
 		REASON = death_mysterious
 	}
 }

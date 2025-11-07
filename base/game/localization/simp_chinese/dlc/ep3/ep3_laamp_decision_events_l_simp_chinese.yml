@@ -480,7 +480,7 @@
  #Spouse Material
  ep3_laamp_decision_event.1035.t: "[visiting_location.GetBaronyNameExplicitlyNoTooltip]：潜在的配偶"
  ep3_laamp_decision_event.1035.desc_returned_01: "我回到[laamp_spouse_material.GetFirstNamePossessive]的那桌，血液立即开始在耳中震动。\n\n保持冷静。#EMP 试着说些什么。#!\n\n我接近[laamp_spouse_material.GetHerHim]时，[laamp_spouse_material.GetFirstNameNoTooltip]正在和附近的一位[laamp_spouse_material.Custom('WomanManOpposite')]聊天，[laamp_spouse_material.GetHerHis]的眼睛充满了期待地眯了起来："
- ep3_laamp_decision_event.1035.desc_returned_02: "我回到[laamp_spouse_material.GetFirstName]那桌时，[laamp_spouse_material.GetHerHis]刚刚被奉上一盘热腾腾的食物，香味让我的胃咕咕作响。\n\n[laamp_spouse_material.GetSheHe|U]的目光紧紧盯着面前的[visiting_location.GetCounty.GetTitle.GetHolder.Custom('GetLocalStreetFood')]，并冷冷地说：\"这次你真的#EMP 想要#!些什么吗？\"\n\n讽刺的问候让我犹豫了一下，我仔细考虑该如何回答："
+ ep3_laamp_decision_event.1035.desc_returned_02: "我回到[laamp_spouse_material.GetFirstName]那桌时，[laamp_spouse_material.GetHerHis]刚刚被奉上一盘热腾腾的食物，香味让我的胃咕咕作响。\n\n[laamp_spouse_material.GetSheHe|U]的目光紧紧盯着面前的[visiting_location.GetCounty.GetTitle.GetHolder.Custom('GetLocalStreetFood')]，并冷冷地说：“这次你真的#EMP 想要#!些什么吗？”\n\n讽刺的问候让我犹豫了一下，我仔细考虑该如何回答："
  ep3_laamp_decision_event.1035.desc_reused_spouse: "我漫步到一如既往地光彩照人的[laamp_spouse_material.GetFirstName]身边。\n\n看到我走近时，[laamp_spouse_material.GetSheHe|U]似乎一时难以辨认我是谁，然后[laamp_spouse_material.GetHerHis]眼睛眯起来表示认出我了。\n\n#EMP 这不是针对我个人的#!，我对自己说，勉强露出微笑，忽略胸中的不适感："
  ep3_laamp_decision_event.1035.desc: "我专注地观察着坐在附近桌上的[laamp_spouse_material.Custom('RaunchyComplimentNoun')]。[ROOT.Char.Custom('GetTavernDwelling')]老板叫[laamp_spouse_material.GetHerHim][laamp_spouse_material.GetFirstName]，[laamp_spouse_material.Custom('GetSheHeOpposite')]是叫这个对吧？\n\n[laamp_spouse_material.GetSheHe|U]在我走近时显得疑惑，可能因为我内心的动荡在脸上清晰可见。这为什么会困扰我？#EMP 我可是[ROOT.Char.GetNameNoTooltip]，该死！#!\n\n我不断提醒自己最近的成就以保持冷静，但我做不到。"
  ep3_laamp_decision_event.1035.a: "“我请你一杯[laamp_spouse_material.Custom('RegionalDrink')]如何？”"
@@ -665,7 +665,7 @@
  ep3_laamp_decision_event.1044.desc: "[laamp_clergy_character.GetFirstNamePossessive]的笑意愈加浓厚，[laamp_clergy_character.GetSheHe]俯身把一只手放在我的肩膀上：“你真是太慷慨了，我的孩子。我理解，对于像你这样的冒险者来说，金钱来之不易。”\n\n[laamp_clergy_character.GetSheHe|U]意味深长地点点头，[laamp_clergy_character.GetHerHis]的手回落到身侧，[laamp_clergy_character.GetSheHe]把目光落在我身上。"
  ep3_laamp_decision_event.1044.a: "“也许[visiting_location.GetCounty.GetFaith.HighGodName]能赐福我们的旅程？”"
  ep3_laamp_decision_event.1044.a_epiphany: "“我只对[visiting_location.GetCounty.GetFaith.HighGodNamePossessive]的恩典感兴趣。”"
- ep3_laamp_decision_event.1044.b: "“我们#EMP 需要#!另一副能干的身体。\"”"
+ ep3_laamp_decision_event.1044.b: "“我们#EMP 需要#!另一副能干的身体。”"
  ep3_laamp_decision_event.1044.c: "“我只想要自己的同胞。”"
  ep3_laamp_decision_event.1044.c_epiphany: "……我们目前不招人。"
  #Garden
@@ -725,7 +725,7 @@
  ep3_laamp_decision_event.1050.desc_outro_return_partner_03: "\n\n[visiting_partner.GetFirstName]打哈欠时，我看向左边。[visiting_partner.GetSheHe]露出抱歉的表情，我挑了挑眉，然后视线回到庭院，思索接下来该做什么。"
  ep3_laamp_decision_event.1050.desc_outro_return_01: "\n\n在广场的一角，一群拿着木剑的孩子正在模仿[visiting_location.GetTitle.GetHolder.Custom('KnightCulturePluralNoTooltipLowercase')]的训练，动作精确得令人惊叹。\n\n我仔细观察他们，同时考虑接下来去哪里。"
  ep3_laamp_decision_event.1050.desc_outro_return_02: "\n\n一支马车队伍正从大门口离开，看起来属于一位当地贵族[ROOT.Char.GetWomanMan]，我一边沉思地看着这个景象，一边思索接下来该去哪里。"
- ep3_laamp_decision_event.1050.desc_outro_return_03: "\n\n在庭院和[visiting_location.GetHolding.GetType.GetName|l]的入口处，卫兵们正在换班，他们按时接替了岗位。我随意地观察着换班过程，思考接下来该做什么。"
+ ep3_laamp_decision_event.1050.desc_outro_return_03: "\n\n在庭院和[visiting_location.GetHolding.GetType.GetName|l]的入口处，卫兵们正准时换班。我漫不经心地观察着换班过程，思考接下来该做什么。"
  ep3_laamp_decision_event.1050.a: "让我们前往本地的训练场。"
  ep3_laamp_decision_event.1050.a_second: "再去一趟训练场应该不错。"
  ep3_laamp_decision_event.1050.a.tt: "前往训练场"

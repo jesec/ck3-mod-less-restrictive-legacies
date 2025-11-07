@@ -894,7 +894,7 @@
  pilgrimage.6840.b: "« Que tout le monde voie la renommée de mon [blessed_artifact.GetNameNoTooltip] ! »"
  pilgrimage.6840.c: "J’ai mieux à faire avec mon or."
  pilgrimage.6840.a.tt: "Gagnez #positive_value +2 %#![piety_i|E] de [piety|El] mensuelle"
- pilgrimage.6840.b.tt: "Gagnez [prestige_i|E]#positive_value +0,5 %#![prestige_i|E] de [prestige|El] mensuel"
+ pilgrimage.6840.b.tt: "Gagnez #positive_value +0,5 %#![prestige_i|E] de [prestige|El] mensuel"
  blessed_artifact_desc: "[blessed_artifact.GetDesc]\n\nL’objet brille d’une aura immaculée après avoir été béni dans le lieu saint de [holy_site_scope.GetNameNoTooltip]."
  ###Conclusion events
  #Summarizing our activity

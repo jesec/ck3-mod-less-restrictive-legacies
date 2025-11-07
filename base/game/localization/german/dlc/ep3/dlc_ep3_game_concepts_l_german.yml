@@ -48,7 +48,7 @@
  game_concept_estate_desc: "Ein $game_concept_estate$ ist eine Art [domicile|E], den [house_heads|E] namhafter [noble_families|E] in [Concept('administrative', 'Verwaltungs')|E]-[Concept('realms', 'Reichen')|E] halten. Sie stellen privaten Grundbesitz dar, der nicht an bestimmte [titles|E] mit [Concept('landed', 'Landbesitz')|E] gebunden ist.\n\nMan kann hier [estate_buildings|E] errichten, um den Reichtum und den [influence|E] der Familie zu mehren, und das $game_concept_estate$ wird an zukünftige Generationen weitervererbt."
  game_concept_estate_building: "Anwesengebäude"
  game_concept_estate_buildings: "Anwesengebäude"
- game_concept_estate_building_desc: "$game_concept_estate_buildings$ sind einzigartige und dauerhafte Verbesserungen des [Concept('estate','Anwesens')|E] einer [noble_family].\n\nEine Vielzahl an Gebäuden kann vom Besitzer des Anwesens errichtet werden, um private Einnahmen zu erzeugen, den [influence|E] der Familie zu mehren und Zugriff auf eine Reihe von [decisions|E], [interactions|E] und anderem zu erhalten."
+ game_concept_estate_building_desc: "$game_concept_estate_buildings$ sind einzigartige und dauerhafte Verbesserungen des [Concept('estate','Anwesens')|E] einer [noble_family|E].\n\nEine Vielzahl an Gebäuden kann vom Besitzer des Anwesens errichtet werden, um private Einnahmen zu erzeugen, den [influence|E] der Familie zu mehren und Zugriff auf eine Reihe von [decisions|E], [interactions|E] und anderem zu erhalten."
  game_concept_camp: "Lager"
  game_concept_camps: "Lager"
  game_concept_adventurer_camp: "Abenteurerlager"

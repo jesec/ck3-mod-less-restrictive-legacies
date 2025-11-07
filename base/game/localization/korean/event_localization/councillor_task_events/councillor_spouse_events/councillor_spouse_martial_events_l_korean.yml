@@ -21,7 +21,7 @@
  councillor_spouse_martial.1002.b: "사람들이 내게 굽실거리게 해 주세요."
  councillor_spouse_martial.1002.c: "모든 이가 나를 두려워하며 발 아래서 숭배해야 할 것입니다, [councillor.GetFirstNameNoTooltip]!"
  councillor_spouse_martial.1003.t: "배우자: 명예가 걸린 문제"
- councillor_spouse_martial.1003.desc: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))](은)는 [ROOT.Char.Custom2('KRQuirkPresentPosOrNegType1', SCOPE.sC('councillor'))]고 있었다. [attacker_vassal.GetTitledFirstName](와)과 [defender_vassal.GetTitledFirstName] 사이의 갈등에 대해 나와 상의하고 싶어하는 모양이다.\n\n\"저들은 전혀 명예롭지 않은 싸움을 하고 있군요. 게다가 당신 얼굴에도 먹칠을 하고 있죠. 제가 이 문제를 처리해도 될까요? 둘이 사이 좋게 지내게 할 수 있을 것 같아요.\""
+ councillor_spouse_martial.1003.desc: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))](은)는 [ROOT.Char.Custom2('KRQuirkPresentPosOrNegType1', SCOPE.sC('councillor'))]. [attacker_vassal.GetTitledFirstName](와)과 [defender_vassal.GetTitledFirstName] 사이의 갈등에 대해 나와 상의하고 싶어하는 모양이다.\n\n\"저들은 전혀 명예롭지 않은 싸움을 하고 있군요. 게다가 당신 얼굴에도 먹칠을 하고 있죠. 제가 이 문제를 처리해도 될까요? 둘이 사이 좋게 지내게 할 수 있을 것 같아요.\""
  councillor_spouse_martial.1003.a: "그럼 해결해주세요. 무슨 수를 써서라도 말이에요."
  councillor_spouse_martial.1003.b: "아니, 난 누가 이기는지 보고 싶은데요!"
  councillor_spouse_martial.1003.b.tt: "[attacker_vassal.GetFirstNameNoTooltip](와)과 [defender_vassal.GetFirstNameNoTooltip](은)는 전쟁을 계속함"

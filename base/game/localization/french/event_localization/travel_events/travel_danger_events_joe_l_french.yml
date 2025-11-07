@@ -22,7 +22,7 @@
  travel_danger_events.6000.failure: "[ROOT.Char.Custom('FR_Le_GetAnimalType')|U][ROOT.Char.Custom('GetAnimalType')] tue [beast_victim.Custom('FR_le_Char_U_Pi')][beast_victim.GetShortUINameNoTooltipNoFormat]"
  travel_danger_events.6000.success_root: "[ROOT.Char.Custom('FR_Le_GetAnimalType')|U][ROOT.Char.Custom('GetAnimalType')] meurt de la main [root_scope.Custom('FR_du_Char_U_Pi')][root_scope.GetShortUINameNoTooltipNoFormat]"
  travel_danger_events.6000.wound_root: "[ROOT.Char.Custom('FR_Le_GetAnimalType')|U][ROOT.Char.Custom('GetAnimalType')] écharpe [root_scope.Custom('FR_le_Char_U_Pi')][root_scope.GetShortUINameNoTooltipNoFormat]"
- travel_danger_events.6000.failure_root: "[ROOT.Char.Custom('FR_Le_GetAnimalType')|U][ROOT.Char.Custom('GetAnimalType')] tue [beast_victim.Custom('FR_le_Char_U_Pi')][beast_victim.GetShortUINameNoTooltipNoFormat]"
+ travel_danger_events.6000.failure_root: "[ROOT.Char.Custom('FR_Le_GetAnimalType')|U][ROOT.Char.Custom('GetAnimalType')] tue [root_scope.Custom('FR_le_Char_U_Pi')][root_scope.GetShortUINameNoTooltipNoFormat]"
  travel_danger_events.6010.t: "$travel_danger_prefix$ fumée à l’horizon"
  travel_danger_events.6010.raid: "Alors que nous approchons de [ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip], des colonnes de fumée et des paysans en fuite nous indiquent sans nul doute que l’endroit est soumis au pillage. Les forts prennent ce qu’ils désirent...\n\n"
  travel_danger_events.6010.siege: "Un camp de siège domine la périphérie de [ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip], la bannière [siege_owner.GetPrimaryTitle.GetAdjectiveNoTooltip] ondule doucement dans le vent, annonciateur d’une [siege_war.Custom('WarCasusBelliShort')].\n\n"

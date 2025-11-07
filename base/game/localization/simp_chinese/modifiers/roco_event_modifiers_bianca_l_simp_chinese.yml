@@ -32,7 +32,7 @@
  county_dismissed_servants_fear_modifier: "无视仆人的恐惧"
  county_dismissed_servants_fear_modifier_desc: "该统治者没有在意其臣民的恐惧。"
  county_acknowledged_servants_fear_modifier: "承认仆人的恐惧"
- county_acknowledged_servants_fear_modifier_desc: "该统治者愿意倾听其仆人描述他们的的恐惧。"
+ county_acknowledged_servants_fear_modifier_desc: "该统治者愿意倾听其仆人描述他们的恐惧。"
  #Culture Outcome
  cultural_acceptance_gain_hold_court_event_outcome: "朝会的一项决议改变了文化接受度。"
  #Fund Inspiration Events:County Modifiers

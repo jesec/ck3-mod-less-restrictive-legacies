@@ -9,6 +9,7 @@
  game_concept_nomad_desc: "$game_concept_nomadic_desc$"
  game_concept_confederation_government: "Gouvernement confédéral"
  game_concept_confederation: "Confédération"
+ game_concept_confederations: "Confédérations"
  game_concept_confederation_desc: "Relation qui engage le [ruler|El] [tribal|El] ou [GetGovernment( 'nomad_government' ).GetName|l] dans une défense mutuelle similaire à une [alliance|El]. Formée via la [decision|El] d’#high $call_for_confederation_decision|l$#!, une confédération requiert que ses membres rejoignent les [wars|El] défensives des autres. Les confédérations sont visibles dans l’onglet Diplomatie.\n\nLes co-[confederates|El] ne peuvent ni s’attaquer ni se [Concept('raid','piller')|E]. Ils ne peuvent pas obtenir les hauts niveaux d’[tribal_authority|El] et de [nomadic_authority|El], et ne peuvent pas créer de [titles|El].\n\nLes [confederates|El] peuvent prendre la [decision|El] de #high $leave_confederation_decision|l$#! ou de [migrate|El] pour devenir [Concept('independent','indépendants')|E]. Si une confédération n’a plus qu’un membre, elle est dissoute."
  game_concept_confederate: "Confédéré"
  game_concept_confederates: "Confédérés"

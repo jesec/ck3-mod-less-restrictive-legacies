@@ -1,6 +1,6 @@
 ﻿l_french:
  PASS_LAW_TOOLTIP_TITLE: "[SelectLocalization( GuiLaw.IsEnacted, Law.GetNameNoTooltip, Law.GetPassLawPhrase)]"
- PASS_LAW_TITLE_DEFAULT: "Promulguer [Law.GetNameNoTooltip|l]"
+ PASS_LAW_TITLE_DEFAULT: "[AddLocalizationIf( Not(Law.GetLawGroup.HasFlag( 'realm_no_pass' ) ), 'Promulguer ' )][Law.GetNameNoTooltip]"
  ADD_LAW_CONFIRMATION_TITLE: "[Law.GetAddLawConfirmationTitle]"
  ADD_LAW_CONFIRMATION_TITLE_DEFAULT: "Promulguer la loi [Law.GetNameNoTooltip]"
  ADD_LAW_CONFIRMATION_ACCEPT: "[Law.GetAddLawConfirmationButtonText]"
@@ -16,7 +16,7 @@
  ALREADY_HAS_THIS_LAW: "#high Loi actuelle#!"
  CLICK_TO_PASS_LAW: "\n#I Cliquer pour [SelectLocalization( IsLandlessAdventurer( GetPlayer ), 'devenir', 'promulguer' )] [Law.GetNameNoTooltip|Vl]#!"
  LAW_COST: "\n#S Coût :#! [GuiLaw.GetShortCostString|L]"
- LAW_TITLE_ALLEGIANCE_OPINION: "$EFFECT_LIST_BULLET$L’[opinion|El] des vassaux qui jurent [title_allegiance|l] : $VALUE|+=$"
+ LAW_TITLE_ALLEGIANCE_OPINION: "$EFFECT_LIST_BULLET$L’[opinion|El] des vassaux qui jurent [title_allegiance|El] : $VALUE|+=$"
  crown_authority: "[crown_authority|E]"
  crown_authority_0: "Vassaux autonomes"
  crown_authority_0_effects_not_in_prev: "#weak Les vassaux fournissent des [levies|El] et des [taxes|El], mais autrement sont libres de faire ce qu’ils veulent#!"

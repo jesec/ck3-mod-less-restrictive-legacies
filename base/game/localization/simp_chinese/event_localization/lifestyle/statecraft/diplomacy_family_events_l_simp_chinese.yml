@@ -103,7 +103,7 @@
  diplomacy_family.2200.c: "除了[friend_3.GetTitledFirstNameNoTooltip]还有谁？"
  diplomacy_family.2200.c.tt: "[friend_3.GetTitledFirstName]可能成为你的至交"
  diplomacy_family.2200.d: "我不应该厚此薄彼。"
- diplomacy_family.2201.desc: "直到最近我才开始意识到，我有多依赖[ruler.GetFirstNamePossessive]的建议和支持。我已经把[ruler.GetHerHim]当做最亲密的朋友。"
+ diplomacy_family.2201.desc: "直到最近我才开始意识到，我有多依赖[ruler.GetFirstNamePossessive]的建议和支持。我已经把[ruler.GetHerHim]当作最亲密的朋友了。"
  diplomacy_family.2201.a: "我们真是志同道合。"
  diplomacy_family.2201.b: "我们是朋友，没错，但仅此而已了。"
  diplomacy_family.2201.b.tt: "我们仍然只是朋友"

@@ -82,7 +82,7 @@
  CB_COST_FP2_STRUGGLE_HOSTILITY_FAITH_DISCOUNT: "$CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT$"
  struggle_iberia_ending_hostility_decision_correct_phase_tt: "La [struggle_phase|lE] actual es [struggle_phase_iberia_hostility|lE]"
  struggle_iberia_ending_compromise_decision_correct_phase_tt: "La [struggle_phase|lE] actual es [struggle_phase_iberia_compromise|lE]"
- struggle_iberia_ending_conciliation_decision_correct_phase_tt: "La [struggle_phase|lE] actual es [struggle_phase_iberia_conciliation|lE]"
+ struggle_iberia_ending_conciliation_decision_correct_phase_tt: "La [struggle_phase|lE] actual es de [struggle_phase_iberia_conciliation|lE]"
  fp2_struggle_house_tt: "Todos los miembros de la [house|lE]"
  fp2_struggle_compromise_war_cost_tt: "A [casus_bellis|lE] $HOLY_WAR_DUCHY_NAME$ y $CONQUEST_DUCHY_CB_NAME$ contra otras [cultures|lE] y [faiths|lE] [Concept( 'struggle_involved', 'involucradas' )|E]: #negative_value +50 %#!"
  CB_COST_FP2_STRUGGLE_COMPROMISE_MULTIPLIER: "Compromiso"

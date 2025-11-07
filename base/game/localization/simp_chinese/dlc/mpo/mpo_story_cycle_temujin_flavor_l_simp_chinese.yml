@@ -23,7 +23,7 @@
  mpo_temujin_flavor.0020.desc.rival: "凭我对一位可敬对手的尊重。”"
  mpo_temujin_flavor.0020.desc.fallback: "凭我对前任[ROOT.Char.GetLadyLord]的尊重。”"
  mpo_temujin_flavor.0020.desc.outro: "\n\n“从此刻起，我将追捕你、猎杀你。我要劈开深水，磨穿坚石。为了除掉你，我会不择手段——因为上天注定统领蒙古的人是我——#EMP 不是你！#!”"
- mpo_temujin_flavor.0020.a: "”你，我曾唤作兄弟的人……”"
+ mpo_temujin_flavor.0020.a: "“你，我曾唤作兄弟的人……”"
  mpo_temujin_flavor.0020.b: "“我的匕首必将刺穿你的喉咙。”"
  mpo_temujin_flavor.0020.c: "“你会后悔的！”"
  temujin_jamukha_truce: "曾经的君主"

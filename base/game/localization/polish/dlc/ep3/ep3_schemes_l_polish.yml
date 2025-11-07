@@ -303,6 +303,7 @@
  TARGET_GOVERNOR_EFFICIENCY_DESC: "[governor_efficiency|E], którym jest [target.GetShortUINameNotMe]: $VALUE|+=0$"
  TARGET_HOLDER_GOVERNOR_EFFICIENCY_DESC: "[governor_efficiency|E], którym jest [target.GetHolder.GetShortUINameNotMe]: $VALUE|+=0$"
  HOUSE_HEAD_SCHEME_SUPPORT_DESC: "$house_head_request_interaction$: $VALUE|+=0$"
+ coronation_spouse_despised_modifier: "Przyrzeczenie koronacyjne osoby znanej jako [owner.GetShortUINameNotMe] dotyczące pozbycia się osoby, którą jest [target.GetShortUINameNotMe]: $VALUE|+=0$"
  #Found Despotate
  found_despotate: "Podnieś rangę gubernatorstwa"
  found_despotate_action: "Podnieś rangę gubernatorstwa do rangi:"

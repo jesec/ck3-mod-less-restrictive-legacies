@@ -3,11 +3,11 @@
  #Modifiers
  court_competitor_modifier: "Rywal w miłości"
  #ONGOING MANAGEMENT: Player target opted out
- court_ongoing.0001.t: "$court_event_title$ Odrzucenie"
+ court_ongoing.0001.t: "$court_event_title$ odrzucenie"
  court_ongoing.0001.desc: "[target.Custom2('MyCharacterIntroduction', ROOT.Char)|U] odrzucił[Select_CString( target.IsFemale, 'a', '' )] moje zaloty! Dał[Select_CString( target.IsFemale, 'a', '' )] jasno do zrozumienia, że nie jest zainteresowan[Select_CString( target.IsFemale, 'a', 'y' )] i prawdopodobnie nigdy nie będzie."
  court_ongoing.0001.a: "Biada!"
  #START EVENT: Owner picks method
- court_ongoing.0501.t: "$court_event_title$ Wyznanie miłości"
+ court_ongoing.0501.t: "$court_event_title$ wyznanie miłości"
  court_ongoing.0501.desc: "Nadszedł czas, aby [target.GetTitledFirstName] dowiedział[Select_CString( target.IsFemale, 'a', '' )] się o moich uczuciach jakimi [Select_CString( target.IsFemale, 'ją', 'go' )] darzę. Chcę, żeby zapamiętał[Select_CString( target.IsFemale, 'a', '' )] ten dzień do końca swojego życia."
  court_ongoing.0501.a: "Zaśpiewaj miłosną balladę."
  court_ongoing.0501.b: "[target.Custom('PL_jego_jej')|U] [target.Custom('GetChambersOrTent')] to dobre miejsce na potajemne umieszczenie listu miłosnego."
@@ -16,7 +16,7 @@
  court_ongoing.0501.x: "Podążaj za własnym instynktem."
  court_ongoing.0501.tt: "[target.GetShortUINameNotMe] otrzymuje zapewnienie o twoim dozgonnym oddaniu"
  #START EVENT: For Target
- court_ongoing.0502.t: "$court_event_title$ Wyznanie miłości"
+ court_ongoing.0502.t: "$court_event_title$ wyznanie miłości"
  court_ongoing.court_start_song.start.0502.desc: "Spaceruję po dworskich ogrodach wraz z kilkoma [Select_CString( ROOT.Char.IsFemale, 'paniami', 'panami' )], gdy zauważam, jak zbliża się do mnie [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]. Odsuwam się na bok, aby pozwolić [owner.GetHerHim] przejść, ale ku mojemu zaskoczeniu, blokuje mi drogę i klęka przede mną!\n\nZanim zdołam zareagować, [owner.GetTitledFirstNameNoTooltip] zaczyna śpiewać.\n\n"
  court_ongoing.court_start_song.bad.0502.desc: "Ku mojemu przerażeniu, [owner.GetWomanMan|l] przede mną nie jest w stanie utrzymać tonacji, nawet jeśli zależałoby od tego [owner.GetHerHis] życie. Rozpoznanie piosenki zajmuje mi trochę czasu – to słynna [target.GetCulture.GetNameNoTooltip|l] ballada miłosna. Zmienił[Select_CString( owner.IsFemale, 'a', '' )] jej tekst, aby wpleść moje imię oraz wzmianki o moim wyglądzie, rujnując jeszcze bardziej rytm."
  court_ongoing.court_start_song.good.0502.desc: "Szybko rozpoznaję nutę – to słynna [target.GetCulture.GetNameNoTooltip|l] ballada miłosna. Słyszał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m ją niezliczoną ilość razy, ale nigdy z taką wprawą i pasją!\n\nGłębokie uczucia piosenki znajdują odzwierciedlenie w sposobie, w jaki [owner.GetFirstNameNoTooltip] na mnie patrzy. Nie odwraca wzroku nawet na jedno uderzenie serca."
@@ -53,7 +53,7 @@
  court_ongoing.0503.a.tt: "Mój spisek dotyczący romansu, którego celem jest [target.GetShortUINameNotMe], będzie kontynuowany"
  court_ongoing.0503.b: "Myślał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], że jesteśmy sobie przeznaczeni…"
  #Someone farted! by Mathilda Bjarnehed
- court_ongoing.1000.t: "$court_event_title$ Wstydliwy zapach"
+ court_ongoing.1000.t: "$court_event_title$ wstydliwy zapach"
  court_ongoing.1000.desc: "Dostał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] zaproszenie na biesiadę w [location.GetNameNoTooltip]. Na moje szczęście [target.GetFirstName] siedzi tuż obok mnie. Mimo usilnych prób nie udaje mi się nawiązać rozmowy. Prawdopodobnie zaniemówił[Select_CString( target.IsFemale, 'a', '' )] z powodu intensywności moich uczuć. \n\nNagle w obrębie naszego stołu rozlega się najgłośniejszy pierd, jaki kiedykolwiek słyszał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]. Kilku gości spogląda w kierunku, gdzie siedzi [target.GetFirstNameNoTooltip]. Muszę [Select_CString( target.IsFemale, 'ją', 'go' )] natychmiast uratować!"
  court_ongoing.1000.a: "To był[Select_CString(ROOT.Char.IsFemale, 'am ja! Ja pierdnęłam', 'em ja! Ja pierdnąłem' )]!"
  court_ongoing.1000.a.success: "[target.GetFirstNameNoTooltip] odczuwa ulgę i wyraża wdzięczność"
@@ -64,7 +64,7 @@
  court_ongoing.1000.b.tt: "Wynik zależy od tego, jak bardzo empatyczn[Select_CString(target.IsFemale, 'a', 'y' )] jest [target.GetFirstNameNoTooltip]"
  court_ongoing.1000.c: "Może nie powin[Select_CString( ROOT.Char.IsFemale, 'nam', 'ienem' )] się odzywać…"
  #Defend their honor through duel or diplomacy, by Mathilda Bjarnehed
- court_ongoing.1010.t: "$court_event_title$ Honor [Select_CString(target.IsFemale, 'damy', 'pana' )]"
+ court_ongoing.1010.t: "$court_event_title$ [target.GetLadyLord] i [target.Custom('PL_jego_jej')] honor"
  court_ongoing.1010.desc: "– [insulter.GetFaith.HighGodName] widzi i nie grzmi! [target.GetTitledFirstName|U] to [target.Custom('InsultNoun')]! Czy widzisz, jak [target.Custom('quirk_neg_present')]? Niedorzeczne!\n\n[insulter.Custom2('MyCharacterIntroduction', ROOT.Char)|U] odchyla głowę do tyłu ze złośliwym śmiechem.\n\n[target.GetFirstNameNoTooltip] nadal rozmawia ze swoimi przyjaciółmi, ale widzę, że słyszy te niegodziwe słowa. Nienawidzę patrzeć, jak ktoś sprawia [target.Custom('PL_mu_jej')] ból."
  court_ongoing.1010.a: "Podłe kłamstwa! [insulter.Custom('InsultNoun')|U] z ciebie! Wyciągaj miecz!"
  court_ongoing.1010.b: "Powin[Select_CString(insulter.IsFemale, 'naś', 'ieneś' )] przeprosić [Select_CString(target.IsFemale, 'tę panią', 'tego pana' )]."
@@ -116,7 +116,7 @@
  court_ongoing.1024.a: "Nie… Nie mam pojęcia, o czym mówisz!"
  #GIFT: PET, by Mathilda Bjarnehed
  court_ongoing.1030.t: "$court_event_title$ zwierzęcy towarzysze"
- court_ongoing.1030.desc: "Na zewnątrz leje deszcz. [Select_CString(target.IsFemale, 'Moja', 'Mój' )] [target.Custom('ComplimentAdjective')] [target.GetTitledFirstName] wzdycha, patrząc przez zamazane okno.\n\n„Czasami [location.GetNameNoTooltip] mnie przygnębia. Chciał[Select_CString(ROOT.Char.IsFemale, 'abym', 'bym' )] mieć kogoś, kto dotrzyma mi towarzystwa podczas długich i ponurych dni…”\n\nZastanawiam się, czy [target.Custom('LoverPetName')] jest miłośni[Select_CString(target.IsFemale, 'czką', 'kiem' )] kotów lub psów?"
+ court_ongoing.1030.desc: "Na zewnątrz leje deszcz. [Select_CString(target.IsFemale, 'Moja', 'Mój')] [target.Custom('ComplimentAdjective')] [target.GetTitledFirstName] wzdycha, patrząc przez zamazane okno.\n\n„Czasami [location.GetNameNoTooltip] mnie przygnębia. Chciał[Select_CString(ROOT.Char.IsFemale, 'abym', 'bym')] mieć kogoś, kto dotrzyma mi towarzystwa podczas długich i ponurych dni…”\n\nZastanawiam się, czy [target.Custom('LoverPetName')] jest miłośni[Select_CString(target.IsFemale, 'czką', 'kiem')] kotów lub psów?"
  court_ongoing.1030.desc.eagle: "A może [target.GetSheHe] woli bardziej zmyślnego towarzysza?"
  court_ongoing.1030.a: "Sprytny kot sprawi, że będzie szczęśliw[Select_CString( target.IsFemale, 'a', 'y' )]."
  court_ongoing.1030.a.success: "[target.GetShortUINameNotMeNoTooltip] uwielbia kota"
@@ -134,7 +134,7 @@
  court_ongoing.1032.desc: "„Myślał[Select_CString(owner.IsFemale, 'am', 'em' )] nad tym długo, [ROOT.Char.Custom('LoverPetName_possessive')]” – mówi [owner.GetTitledFirstName], delikatnie kładąc kosz na moim biurku. „Jaki byłby idealny towarzysz dla kogoś tak mądrego i niezależnego jak ty? I wtedy dotarło do mnie: nic nie pasowałoby do ciebie lepiej niż kot!”\n\n[owner.GetFirstNameNoTooltip|U] ściąga koc przykrywający kosz, odsłaniając małego kotka! Spogląda na mnie swoimi wielkimi oczami i zaczyna mruczeć."
  court_ongoing.1033.desc: "– [ROOT.GetCharacter.Custom('LoverPetName_possessive')|U], od dłuższego czasu intensywnie rozmyślam nad pewnym tematem – mówi [owner.GetTitledFirstName], wyprowadzając mnie na zewnątrz i prowadząc do czegoś niewielkiego, przykrytego kawałkiem materiału. – Jaki byłby najlepszy towarzysz dla kogoś tak zawziętego i strategicznie myślącego jak ty? I nagle do mnie dotarło – nic nie będzie pasować do ciebie tak, jak orzeł!\n\n[owner.GetFirstNameNoTooltip] zdejmuje niewielki kawałek materiału, pod którym na drewnianej żerdzi siedzi orlątko. Jego oczy zakrywa malutki kaptur, dzięki któremu ptak jest spokojny, ale jego świergotanie i tak sprawia, że czuję ekscytację."
  #GIFT: Necklace, by Mathilda Bjarnehed
- court_ongoing.1040.t: "$court_event_title$ Połyskujące złoto"
+ court_ongoing.1040.t: "$court_event_title$ połyskujące złoto"
  court_ongoing.1040.end.desc: "[target.GetFirstNameNoTooltip] rzuca mi długie spojrzenie. „[necklace_owner.GetLadyLord|U] [necklace_owner.GetFirstNameNoTooltip] ma uroczy naszyjnik” – mówi i kiwa głową w stronę, gdzie stroi [necklace_owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]. „Ale jeszcze lepiej wyglądałby na mojej szyi”."
  court_ongoing.1040.a: "Zamów identyczny naszyjnik."
  court_ongoing.1040.b: "Może [necklace_owner.GetFirstNameNoTooltip] odda mi naszyjnik w zamian za przysługę?"
@@ -143,7 +143,7 @@
  court_ongoing.1040.c.failure: "Zostajesz odkryt[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] w komnatach, w których rezyduje [necklace_owner.GetFirstNameNoTooltip]"
  court_ongoing.1040.d: "Powiedz, że [target.GetFirstNameNoTooltip] ma świetny gust."
  #GIFT: Flower, by Mathilda Bjarnehed
- court_ongoing.1050.t: "$court_event_title$ Rzadko spotykany kwiat"
+ court_ongoing.1050.t: "$court_event_title$ rzadko spotykany kwiat"
  court_ongoing.1050.start.desc: "Gdy [target.Custom('LoverPetName')] i ja spacerujemy po ogrodach na terenie miejsca znanego jako [target_location.GetNameNoTooltip], ja wskazuję na otaczającą nas zieleń. „Mimo całego ich piękna, nie ma ani jednego kwiatu, który mógłby przyćmić twoje, [Select_CString(target.IsFemale, 'moja pani', 'mój panie' )]”.\n\n„Jest jeden” – mówi z psotnym uśmiechem. „Rzadka orchidea z miejsca znanego jako [orchid_origin.GetNameNoTierNoTooltip], która jest prawie niemożliwa do wyhodowania."
  court_ongoing.1050.monastery.desc: "W tym regionie kwitnie tylko w na terenie ruin klasztoru w miejscu znanym jako [orchid_location.GetNameNoTooltip]”."
  court_ongoing.1050.temple.desc: "Opuszczony ogród, którym szczyci się [target_host.GetFaith.HouseOfWorship] na terenie znanym jako [orchid_location.GetNameNoTooltip], jest jedynym kwitnącym miejscem w tym regionie."
@@ -163,7 +163,7 @@
  court_ongoing.1050.e: "„Z pewnością muszą blednąć w porównaniu z twoim pięknym obliczem!”"
  court_ongoing.1050.f: "„Może kiedyś uda mi się go zobaczyć”."
  #COMPLIMENT POEM, by Mathilda Bjarnehed
- court_ongoing.1100.t: "$court_event_title$ Poetycka swoboda"
+ court_ongoing.1100.t: "$court_event_title$ poetycka swoboda"
  court_ongoing.1100.desc: "[target.GetTitledFirstName] jest [Select_CString( target.IsFemale, 'najpiękniejszą kobietą jaką', 'najprzystojniejszym mężczyzną jakiego' )] tylko widział[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]! W je[Select_CString( target.IsFemale, 'j', 'go' )] obecności słowa często mnie zawodzą – żaden z moich komplementów nie oddaje je[Select_CString( target.IsFemale, 'j', 'go' )] dostojności. Może starannie ułożony wiersz lepiej oddałby je[Select_CString( target.IsFemale, 'j', 'go' )] walory? Napiszę o je[Select_CString( target.IsFemale, 'j', 'go' )]…"
  court_ongoing.1100.compliment.tt: "[target.GetTitledFirstName] udzieli odpowiedzi na podstawie tego, jak dobrze pasuje do nie[Select_CString( target.IsFemale, 'j', 'go' )] ten wiersz"
  court_ongoing.1100.success.tt: "[target.GetFirstNameNoTooltip] odpowiada pozytywnie"
@@ -194,7 +194,7 @@
  court_ongoing.1103.t: "[target.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
  court_ongoing.1103.a: "Czy [target.GetSheHe]… sobie ze mnie kpi?"
  #Dealing with competition, by Mathilda Bjarnehed
- court_ongoing.1110.t: "$court_event_title$ Konkurencja"
+ court_ongoing.1110.t: "$court_event_title$ konkurencja"
  court_ongoing.1110.desc: "Ostatnio za każdym razem, gdy ja i [target.GetFirstName] próbujemy się spotkać, pojawia się [competitor.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]! Podąża za [Select_CString(target.IsFemale, 'nią', 'nim' )] wszędzie, jak zagubiony szczeniak. [competitor.GetHerHis|U] próby oczarowania [Select_CString(target.IsFemale, 'damy', 'pana' )] są śmieszne, ale obawiam się, że [competitor.GetHerHis] upór może zostać nagrodzony."
  court_ongoing.1110.a: "Pojedynek udowodni, kto jest godzien!"
  court_ongoing.1110.a.success: "Wygrywasz pojedynek"
@@ -269,7 +269,7 @@
  court_ongoing.1201.b_success: "Udowadnia swoje oddanie"
  court_ongoing.1201.c: "Nie interesuje mnie testowanie [Select_CString(owner.IsFemale, 'jej', 'go' )]"
  #EXTREME REQUEST — SLEEP, by Linnéa Thimrén
- court_ongoing.1211.t: "$court_event_title$ Prośba"
+ court_ongoing.1211.t: "$court_event_title$ prośba"
  court_ongoing.1211.desc_opening: "„M[Select_CString( target.IsFemale, 'oja pani', 'ój panie' )], pozwól mi udowodnić moje oddanie w sposób, jaki tylko uznasz za stosowny!”\n\n[target.GetFirstNameNoTooltip] przez chwile zastanawia się nad tą prośbą, po czym [target.GetHerHis] twarz się rozjaśnia."
  court_ongoing.1211.desc: "– Ostatnio dręczą mnie koszmary. Jeśli twoje przywiązanie wobec mnie jest prawdziwe, to staniesz na straży miejsca, gdzie kładę się na spoczynek – mam na myśli [target.Custom('GetChambersOrTent')] – i nie dopuścisz, by dosięgło mnie zło."
  court_ongoing.1211.a: "Twój sen będzie wyjątkowo spokojny!"

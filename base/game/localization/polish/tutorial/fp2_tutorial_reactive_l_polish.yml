@@ -1,6 +1,6 @@
 ﻿l_polish:
  reactive_advice_struggle: "Zmagania"
- action_reactive_advice_struggle: "Porada: Zmagania"
+ action_reactive_advice_struggle: "Porada: zmagania"
  action_reactive_advice_struggle_desc: "Możesz wziąć udział w zmaganiach. Otwórz to, aby dowiedzieć się więcej o tym, co to oznacza dla ciebie."
  action_reactive_advice_struggle_click: "$click_to_open_lesson$"
  lessons_struggle_introduction: "Zmagania"

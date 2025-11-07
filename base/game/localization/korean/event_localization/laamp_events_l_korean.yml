@@ -9,7 +9,7 @@
  ep3_laamps.0001.b: "모든 것을 [alt_1.GetFirstNameNoTooltipRegnal]에게 넘기겠다."
  target_character_government: "[government|E]: [TARGET_CHARACTER.GetGovernment.GetName]"
  target_character_independent: "[independent_ruler|E]"
- target_character_liege: "[SelectLocalization(TARGET_CHARACTER.IsIndependentRuler, 'Independent', 'Vassal of [TARGET_CHARACTER.GetLiege.GetName]')]"
+ target_character_liege: "[SelectLocalization(TARGET_CHARACTER.IsIndependentRuler, 'Independent', 'Vassal of TARGET_CHARACTER.GetLiege.GetName')]"
  ep3_laamps.0001.c: "[alt_2.GetFirstNameNoTooltipRegnal](이)가 우리 가문의 미래를 일궈 나가야 한다."
  ep3_laamps.0001.d: "이제 우린 [alt_3.GetFirstNameNoTooltipRegnal]에게 기대를 걸겠다."
  ep3_laamps.0001.e: "좋은 시절은 끝이군..."

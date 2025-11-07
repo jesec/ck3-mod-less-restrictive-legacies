@@ -126,7 +126,7 @@ realm_maintenance.1000 = {
 					NOT = { var:homage_liege_scope = scope:new_liege }
 				}
 				trigger_event = { on_action = pay_homage_travel_planner_exit }
-				current_travel_plan = { cancel_travel_plan = yes }
+				current_travel_plan ?= { cancel_travel_plan = yes }
 			}
 		}
 	}
@@ -290,6 +290,13 @@ realm_maintenance.2001 = {
     }
 
     immediate = {
+		if = {
+			limit = {
+				has_ach_dlc_trigger = yes
+			}
+			coronation_reset_realm_law_effect = yes #we need to reset the crown laws immediately, not wait for the next tick
+		}
+		add_character_flag = had_coronation_prompt
     	assign_quirk_effect = yes
     	if = {
     		limit = {
@@ -317,5 +324,23 @@ realm_maintenance.2001 = {
 
     option = {
         name = realm_maintenance.2001.a
+		if = {
+			limit = { has_ach_dlc_trigger = yes has_realm_law = uncrowned NOT = { has_character_flag = had_coronation_prompt } }
+			if = {
+				limit = {
+					coronation_has_proper_artifact_trigger = yes
+				}
+				custom_tooltip = fund_inspiration.1001.b.coronation_ready
+				open_view_data = {
+					view = activity_list_detail_host_window
+					data = activity_type:activity_coronation
+					player = root
+				}
+			}
+			else = {
+				custom_tooltip = court_maintenance.0011.coronation.tooltip
+				create_proper_coronation_artifact = yes
+			}
+		}
     }
 }

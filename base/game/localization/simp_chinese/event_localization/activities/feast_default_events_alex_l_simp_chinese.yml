@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+ feast_default_alex.100.t: "共同的回忆"
+ feast_default_alex.100.desc: "我的[root_scope.Custom2('RelationToMeShort', SCOPE.sC('guest'))][guest.GetTitledFirstName][guest.Custom('quirk_pos_present')]，飞快向我走来。\n\n“我[root_scope.Custom('ComplimentAdjective')][guest.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))]，我喝着[host.Custom('RegionalDrink')]，想起了我们[guest_memory.GetName]。”[guest.GetSheHe|U][guest.Custom('quirk_pos_adverb')]微笑着。“我一直都在想着那时候——啊，多希望每一天都是那么[root_scope.Custom('RandomPositiveLookAdjective')]啊！”"
+ feast_default_alex.100.a: "愿我们能拥有更多的回忆！"
+ feast_default_alex.100.b: "啊，确实是美妙的一天！"
+ feast_default_alex.200.t: "瘟疫的传闻"
+ feast_default_alex.200.desc: "“我的[guest.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))]，我听说了关于一种叫[epidemic.GetName]的瘟疫的传言……”[guest.GetTitledFirstName]担忧地说道。\n\n“据说它在[afflicted_top_liege.GetPrimaryTitle.GetBaseName]肆虐，受害者[sick_peasant.Custom('disease_desc_short')]……甚至[root_scope.Custom('GetExpensiveMeal')]都无法让我的思绪挪开。”"
+ feast_default_alex.200.a: "嗯，那我们应该在[root_scope.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]做好准备工作……"
+ feast_default_alex.200.b: "过来，冷静下。"
+ feast_default_alex.200.c: "让我们为[afflicted_top_liege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]祈祷。"
+ feast_default_alex.200.d: "别担心，它永远都不会来的！"
+ plague_preparations_modifier: "抗疫准备工作"
+ plague_preparations_modifier_desc: "该地点准备好应对任何瘟疫了。"

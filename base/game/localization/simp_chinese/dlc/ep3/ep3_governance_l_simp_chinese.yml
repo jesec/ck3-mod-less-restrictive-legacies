@@ -515,7 +515,7 @@
  task_contract_reward_effect_wartime_gold_desc: "$label_success_standard$"
  task_contract_reward_effect_wartime_lookouts_desc: "$label_success_standard$"
  task_contract_reward_effect_wartime_compensations_desc: "$label_success_standard$"
- admin_request_choose_opportunity: "该问题允许你选择结果"
+ admin_request_choose_opportunity: "此情境允许你选择结果"
  overdue_taxes_request: "利用你的[diplomacy|E]或[stewardship|E]解决问题"
  hoarding_mayor_request: "$admin_request_choose_opportunity$"
  bountiful_harvest_request: "$admin_request_choose_opportunity$"

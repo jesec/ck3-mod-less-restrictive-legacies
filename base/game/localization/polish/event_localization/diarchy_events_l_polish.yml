@@ -57,7 +57,7 @@
  mandate_hated_recruiter_modifier: "Znienawidzony rekrutujący"
  mandate_hated_recruiter_modifier_desc: "Postać ta znana jest z #EMP bezwzględności#! podczas ustalania, kto powinien być objęty obowiązkiem poboru."
  mandate_failed_to_drum_up_rural_recruits_modifier: "Niedołężny rekrutujący"
- mandate_failed_to_drum_up_rural_recruits_modifier_desc: "Postać ta znana jest z bezskutecznych prób poboru większej ilości ludzi, niż jest to uważane za sprawiedliwe."
+ mandate_failed_to_drum_up_rural_recruits_modifier_desc: "Postać ta znana jest z bezskutecznych prób poboru większej liczby ludzi, niż jest to uważane za sprawiedliwe."
  mandate_squeezing_recruiting_sources_modifier: "Brutalna rekrutacja"
  mandate_squeezing_recruiting_sources_modifier_desc: "Wszyscy w wieku poborowym muszą wypełnić swój wojskowy obowiązek. Albo słono za to zapłacą."
  mandate_extra_recruiting_sources_modifier: "Nadgorliwy pobór"

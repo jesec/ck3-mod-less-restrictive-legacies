@@ -79,7 +79,7 @@
  steward_task.2101.a: "你知道怎么做事，[councillor.GetFirstNameNoTooltip]！"
  steward_task.2101.notification: "高效的省份税收"
  steward_task.2102.t: "加强的控制"
- steward_task.2102.desc: "指导[county.GetName]新封地的设立需要我的[councillor.GetCouncilTitle]对当地人民实施传统上前所未有的控制力。\n\n谢天谢地，[councillor.GetTitledFirstName]完成的很好，而[county.GetTitleTierName]强化的管控给我带来了多方面的好处。"
+ steward_task.2102.desc: "指导[county.GetName]新封地的设立需要我的[councillor.GetCouncilTitle]对当地人民实施传统上前所未有的控制力。\n\n谢天谢地，[councillor.GetTitledFirstName]完成得很好，而[county.GetTitleTierName]强化的管控给我带来了多方面的好处。"
  steward_task.2102.a: "提醒他们统治他们的[ROOT.Char.GetTitleTierName]的一切。"
  steward_task.2102.notification: "加强的控制"
  steward_task.3001.t: "抵制定居者"

@@ -26,5 +26,5 @@
  realm_maintenance.2001.desc_murdered: "[previous_holder.Custom2('MyCharacterIntroduction', ROOT.Char)](이)가 비극적이고도 #EMP 불우한#! 죽음을 맞이함에 따라, 내가 광활한 [title.GetTierAsNameNoTooltip](을)를 이끌어야 할 책무를 떠맡게 되었다."
  realm_maintenance.2001.desc_dead: "[previous_holder.Custom2('MyCharacterIntroduction', ROOT.Char)](이)가 죽음을 맞이함에 따라, 내가 광활한 [title.GetTierAsNameNoTooltip](을)를 이끌어야 할 책무를 떠맡게 되었다."
  realm_maintenance.2001.desc_alive: "앞으로는 내가 [previous_holder.Custom2('MyCharacterIntroduction', ROOT.Char)](이)가 남겨둔 광활한 [title.GetTierAsNameNoTooltip](을)를 이끌어야 한다."
- realm_maintenance.2001.desc: "\n\n봉신들 앞에 선 나는 [ROOT.Char.Custom('quirk_pos_personal_present')]며 왕관을 고쳐 썼다. 이 몸이 앞으로 어떠한 업적을 이뤄낼지 상상해보라!"
+ realm_maintenance.2001.desc: "\n\n봉신들 앞에 선 나는 왕관을 고쳐 쓰며 [ROOT.Char.Custom('quirk_pos_personal_present')]. 이 몸이 앞으로 어떠한 업적을 이뤄낼지 상상해보라!"
  realm_maintenance.2001.a: "[ROOT.Char.GetTitleAsNameNoTooltip](이)시여, 만수무강하소서!"

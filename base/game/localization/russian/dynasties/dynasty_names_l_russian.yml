@@ -3,7 +3,7 @@
  ############################################################
  #Prefixes
  ############################################################
- dynnp__: "$POSSESSIVE_SPECIAL$"
+ dynnp__: " "
  dynnp_a: "$POSSESSIVE_SPECIAL$"
  dynnp_a_: "а' "
  dynn_Arvidsson_Radestig: "Арвидсдоттир Радестиг"

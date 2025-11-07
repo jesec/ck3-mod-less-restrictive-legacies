@@ -83,7 +83,7 @@
  marshal_task.3003.a: "你能不能更细致一点，[councillor.GetFirstNameNoTooltip]？"
  marshal_task.3003.notification: "沮丧的男爵"
  marshal_task.3101.t: "本地利益"
- marshal_task.3101.desc: "我尊敬的[councillor.Custom2('RelationToMe', ROOT.Char)]，\n我很高兴地汇报我对[county.GetName]的重振进行的很顺利。\n你不仅可以从这些改进中受益。当然，[county.GetNameNoTier]的人民也会永远忠于他们的[ROOT.Char.GetTitleTierName]，他们很少会如此感激不尽。"
+ marshal_task.3101.desc: "我尊敬的[councillor.Custom2('RelationToMe', ROOT.Char)]，\n我很高兴地汇报我对[county.GetName]的重振进行得很顺利。\n你不仅可以从这些改进中受益。当然，[county.GetNameNoTier]的人民也会永远忠于他们的[ROOT.Char.GetTitleTierName]，他们很少会如此感激不尽。"
  marshal_task.3101.a: "干得漂亮，[councillor.GetCouncilTitle]！"
  marshal_task.3101.notification: "[councillor.GetCouncilTitle]赢得了尊重"
  marshal_task.3102.t: "感恩"

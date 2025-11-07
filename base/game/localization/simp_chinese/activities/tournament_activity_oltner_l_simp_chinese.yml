@@ -13,7 +13,7 @@
  tournament_events.9001.c: "“走开，我根本不相信你。”"
  tournament_events.9001.d: "“我有很多东西要向你学习！”"
  tournament_events.9002.t: "强壮[strongman_1.GetWomanMan]的表演"
- tournament_events.9002.desc: "热闹的喧闹声让我发现了一个由当地农民临时搭建的竞技场，两个魁梧的摔跤手正在那里表演。他们互相攻击、迂回、躲避和绕圈——直到其中一个做出大胆的举动：\n\n“我称这招为#EMP [strongman_1.Custom('GetDescriptorManeuver')][strongman_1.Custom('GetManeuver')]！#!” [strongman_1.GetSheHe]大吼一声，然后举起对手并将其猛摔在地上——使[strongman_2.GetHerHim]立即投降。“[strongman_1.Custom('ComplimentAdjective')|U]且[strongman_1.Custom('RandomPositiveLookAdjective')|U][strongman_1.GetFirstName]，再次获胜！”胜者得意洋洋。"
+ tournament_events.9002.desc: "热闹的喧闹声让我发现了一个由当地农民临时搭建的竞技场，两个魁梧的摔跤手正在那里表演。他们互相攻击、迂回、躲避和绕圈——直到其中一个做出大胆的举动：\n\n“我称这招为#EMP [strongman_1.Custom('GetDescriptorManeuver')][strongman_1.Custom('GetManeuver')]！#!”[strongman_1.GetSheHe]大吼一声，然后举起对手并将其猛摔在地上——使[strongman_2.GetHerHim]立即投降。“[strongman_1.Custom('RandomPositiveLookAdjective')|U]且[strongman_1.Custom('ComplimentAdjective')|U][strongman_1.GetFirstName]，再次获胜！”胜者得意洋洋。"
  tournament_events.9002.whole_of_body: "观看专业的技术真是让人放松！"
  tournament_events.9002.a: "哇！真是刺激！"
  tournament_events.9002.b: "嗯，我应该学习他们的技术……"

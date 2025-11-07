@@ -290,7 +290,7 @@
  child_personality.110.paranoid: "\n\n[child.GetSheHe|U]随后猛烈责怪我，认为我安排了整场遭遇，作为某种考验。"
  child_personality.110.confirm_ambitious: "你将成为伟人，[child.GetFirstNameNoTooltip]。"
  child_personality.110.confirm_sadistic: "这只是一个动物。"
- child_personality.110.confirm_paranoid: "没错，这当然是一个考验。做的不错，[child.GetFirstNameNoTooltip]。"
+ child_personality.110.confirm_paranoid: "没错，这当然是一个考验。做得不错，[child.GetFirstNameNoTooltip]。"
  child_personality.110.ambitious_change: "这样，展示给我看看你可以亲自收割动物！"
  child_personality.110.sadistic_change: "有人总会受苦。确保这不会是你。"
  child_personality.110.paranoid_change: "这是一个考验。我希望你下次做得更好。"

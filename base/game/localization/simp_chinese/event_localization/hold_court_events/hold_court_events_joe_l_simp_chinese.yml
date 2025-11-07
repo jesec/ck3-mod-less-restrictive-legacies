@@ -194,7 +194,7 @@
  hold_court.8080.desc.body: "\n\n“我们将我们的城镇——也是你的——治理得繁荣兴旺，理应在[target_county.GetNameNoTier]获得更大的影响力。”"
  hold_court.8080.a: "[target_county.GetNameNoTierNoTooltip]归你管了。"
  hold_court.8080.b: "如此特权必须有正当理由。"
- hold_court.8080.c: "你要的太多了。一定有其他方案。"
+ hold_court.8080.c: "你要得太多了。一定有其他方案。"
  hold_court.8080.c.tt_success: "你想出一个折衷方案"
  hold_court.8080.c.tt_failure: "你没能想出可行的方案"
  hold_court.8080.d: "满足于你目前的自由吧，[mayor.GetTitleAsNameNoTooltip]。"

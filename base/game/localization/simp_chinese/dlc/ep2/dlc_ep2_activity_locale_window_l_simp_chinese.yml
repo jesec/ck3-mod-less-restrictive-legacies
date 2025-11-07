@@ -23,7 +23,7 @@
  locale_window_your_activity_status_select_special_guest: "[SelectLocalization( Activity.IsSpecialGuest( GetPlayer ), 'locale_window_your_activity_status_hosting', '')]"
  locale_window_your_activity_status_special_guest: " 作为[Activity.GetSpecialGuestTypeForCharacter(GetPlayer).GetNameIfHost( Activity.GetHost )]"
  locale_window_status_icon_location_tooltip: "你位于[Activity.GetCurrentPhase.GetLocation.GetName]"
- locale_window_status_icon_special_guest_tooltip: "你是[Activity.GetName]中一方的[Activity.GetSpecialGuestTypeForCharacter(GetPlayer).GetNameIfHost( Activity.GetHost )]"
+ locale_window_status_icon_special_guest_tooltip: "你是[Activity.GetName]中的[Activity.GetSpecialGuestTypeForCharacter(GetPlayer).GetNameIfHost( Activity.GetHost )]"
  locale_window_widget_current_phase_header: "[SelectLocalization( Activity.IsCurrentPhaseActive, 'locale_window_widget_current_phase_active', 'locale_window_widget_current_phase_passive' )]"
  locale_window_widget_current_phase_passive: "#bold 当前#!：#high 等待#![Activity.GetCurrentPhase.GetPhase.GetName]"
  locale_window_widget_current_phase_active: "#bold 当前#!：#high 参与#![Activity.GetCurrentPhase.GetPhase.GetName]"

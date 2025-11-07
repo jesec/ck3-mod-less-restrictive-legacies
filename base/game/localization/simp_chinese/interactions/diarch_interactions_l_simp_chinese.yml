@@ -3,7 +3,7 @@
  ##Misc Keys
  diarch_rebel_or_crime_summary: "如果[recipient.GetTitledFirstName]拒绝，你可以在[war|E]中索取[claim|E]，或是宣布[recipient.GetHerHim]犯下对[recipient.GetLiege.GetTitledFirstName]的[criminal|E]"
  diarch_rebel_or_crime_summary.retract: "如果[recipient.GetTitledFirstName]拒绝，你可以在[war|E]中要求[retraction|E]，或是宣布[recipient.GetHerHim]犯下对[recipient.GetLiege.GetTitledFirstName]的[criminal|E]"
- diarch_rebel_or_crime_summary.crominal: "如果[recipient.GetTitledFirstName]拒绝，你可以在[war|E]中要求[imprisonment|E]（以及一大笔[gold|E]），或是宣布[recipient.GetHerHim]犯下对[recipient.GetLiege.GetTitledFirstName]的[criminal|E]"
+ diarch_rebel_or_crime_summary.crominal: "如果[recipient.GetTitledFirstName]拒绝，你可以要求[imprisonment|E]（以及在[war|E]中要求一大笔[gold|E]），或是宣布[recipient.GetHerHim]犯下对[recipient.GetLiege.GetTitledFirstName]的[criminal|E]"
  diarch_boilerplate_postscript_full: "即便不是[recipient.GetHerHis]的[liege|E]$diarch_boilerplate_postscript_partial$"
  diarch_boilerplate_postscript_partial: "\n\n@warning_icon!#weak 这会导致与你的[vassals|E]同僚的[strife|E]#!"
  diarch_using_powers.t: "[actor.GetLiege.GetDiarchTitle]利用职位"
@@ -168,7 +168,7 @@
  diarch_request_imperial_expedition_interaction.tt.target_behaviour_explanation: "[war|E]可以指向任何与[realm|E]接壤，或[de_jure|E]属于[emperor|E]的[duchies|E]"
  diarch_request_imperial_expedition_interaction.tt.post_war: "如果[actor.GetShortUIName]获得胜利，[Select_CString(actor.IsLocalPlayer,'你',Select_CString(actor.IsFemale,'她','他'))]可以：\n$EFFECT_LIST_BULLET$保留[Select_CString(actor.IsLocalPlayer,'你',Select_CString(actor.IsFemale,'她','他'))]征服的土地#WEAK （激怒[recipient.GetShortUIName]）#!\n$EFFECT_LIST_BULLET$上交这些领地换取[influence|E]#WEAK （与上交[counties|E]数量成正比）#!"
  ALLY_IN_IMPERIAL_EXPEDITION: "有义务支持[imperial_expedition_cb|E]：$VALUE|=+0$"
- diarch_demand_despotate_interaction: "要求私人专制国"
+ diarch_demand_despotate_interaction: "要求私人专制君主国"
  diarch_demand_despotate_interaction_desc: "我不也是[recipient.GetTitleAsNameNoTooltip]吗？难道我不配得到一个我的话就是王法的区域吗？"
  diarch_demand_despotate_interaction_extra_icon: "$hook_extra_icon$"
  DIARCH_DEMANDS_DESPOTATE: "[recipient.GetTitleAsNameNoTooltip]，很抱歉让你不得不在我们的合作中承担这么多职责。把[target.GetName]交给我吧，让我管理那里的总督，治理那里的子民，减轻你尊贵肩膀上的负担。"

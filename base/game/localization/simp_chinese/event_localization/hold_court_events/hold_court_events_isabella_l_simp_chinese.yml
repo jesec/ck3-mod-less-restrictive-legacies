@@ -13,7 +13,7 @@
  hold_court.4001.a: "很好，[annoying_heir.GetSheHe]跟[annoying_heir.GetHerHis][ROOT.Char.GetMotherFather]一模一样！"
  hold_court.4001.b: "这是最后一次了！[preferred_heir.GetTitledFirstNameNoTooltip]，就这么定了。"
  hold_court.4001.c: "以我的经验，[preferred_heir.GetTitledFirstNameNoTooltip]也半斤八两！"
- hold_court.4001.d: "有缺点意味着士兵们会把[annoying_heir.GetHerHim]当做他们的一员！"
+ hold_court.4001.d: "有缺点意味着士兵们会把[annoying_heir.GetHerHim]当作他们的一员！"
  disabled_fallback: "残疾"
  ## Inspired Poet appears at court and makes demands by Isabella Welch
  hold_court.4500.t: "无尽的诗歌"

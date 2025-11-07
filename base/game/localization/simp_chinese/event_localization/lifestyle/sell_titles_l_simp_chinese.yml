@@ -26,7 +26,7 @@
  sell_titles.1002.a: "让我们庆祝我失散已久的[merchant.Custom('SisterBrother')]的回归！"
  sell_titles.1002.b: "不管怎样，我的姓氏是不卖的！"
  sell_titles.1004.t: "出售头衔：大赚特赚"
- sell_titles.1004.desc: "尽管困难重重，[merchant.GetTitledFirstName]，那个商人，还是成了我的非常远房的亲戚，而且[merchant.GetHerselfHimself]还证明自己是个优秀的战士！\n\n谁能想到一介平民会达到如此的高度？"
+ sell_titles.1004.desc: "尽管困难重重，[merchant.GetTitledFirstName]，那个商人，还是成了我非常远房的亲戚，而且[merchant.GetHerselfHimself]还证明自己是个优秀的战士！\n\n谁能想到一介平民会达到如此的高度？"
  sell_titles.1004.a: "也许，[merchant.GetSheHe]真的有贵族血统？"
  sell_titles.1005.desc: "自从我接受了[merchant.GetTitledFirstNamePossessive]——我是说，自从[merchant.GetSheHe]回归家族，[merchant.GetSheHe]就证明了[merchant.GetHerselfHimself]在[ROOT.Char.GetFaith.AltPriestTermPlural]人群中颇受好评。显然，[merchant.GetSheHe]很聪明。远远超出了我对一个普通平民的期望。"
  sell_titles.1005.a: "毕竟黄金都是从普通的石头里挖出来的。"

@@ -31,6 +31,9 @@
 
 	#Funeral tradition
 	doctrine = doctrine_funeral_stoic
+
+	#Coronation tradition
+	doctrine = doctrine_imperial_anointment
 	
 	piety_icon_group = "judaism"
 
@@ -247,6 +250,9 @@
 
 			#Doctrines
 			doctrine = doctrine_no_head # Rabbinism is highly decentralised, leaving all decisions down to the individual Rabbis. A religious head is very antithetical to their doctrine.
+
+			#Coronation tradition
+			doctrine = doctrine_no_anointment
 		}
 
 		karaism = {
@@ -272,6 +278,9 @@
 
 			#Doctrines
 			doctrine = doctrine_spiritual_head
+
+			#Coronation tradition
+			doctrine = doctrine_no_anointment
 		}
 
 		haymanot = {
@@ -300,6 +309,9 @@
 
 			#Doctrines
 			doctrine = doctrine_spiritual_head
+
+			#Coronation tradition
+			doctrine = doctrine_no_anointment
 
 			localization = {
 				ReligiousText = haymanot_religious_text
@@ -352,6 +364,9 @@
 			#Doctrines
 			doctrine = doctrine_theocracy_lay_clergy
 			doctrine = doctrine_temporal_head
+
+			#Coronation tradition
+			doctrine = doctrine_no_anointment
 		}
 		
 		samaritan = {
@@ -414,6 +429,9 @@
 			#Doctrines
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_adultery_men_accepted
+
+			#Coronation tradition
+			doctrine = doctrine_no_anointment
 		}
 
 		merkabah = {
@@ -439,6 +457,9 @@
 
 			#Doctrines
 			doctrine = doctrine_no_head # Merkabahs ignored the power and status of the Priesthood
+
+			#Coronation tradition
+			doctrine = doctrine_no_anointment
 		}
 	}
 }

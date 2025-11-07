@@ -34,7 +34,7 @@
  raise_stele_decision_victory: "你最近征服了领土"
  raise_stele_decision_rank: "你最近提升了等级"
  forge_the_jomsvikings_decision: "组建约姆斯维京人"
- forge_the_jomsvikings_decision_desc: "古道不存矣。每一天，亚伯拉罕三教用永生的许诺引诱走一批民众，我们的冒险者和殖民者接纳他们登陆之处的神明，甚至斯堪的纳维亚内部的改革者也想要让我们更类似十架与新月的人民。\n\n这种情形到此为止了。所有忠信的[GetPlayer.GetFaith.GetAdherentNamePluralNoTooltip]必须团结一致，抵御改变和亵渎！"
+ forge_the_jomsvikings_decision_desc: "古道不存矣。每一天，亚伯拉罕宗教用许诺给所有人的永生引诱走一批我们的民众，我们的冒险者和殖民者也接纳了他们登陆之地的异国神明，甚至斯堪的纳维亚内部的改革者也想要让我们更类似于十字架与新月之民。\n\n这种情形到此为止了。所有忠信的[GetPlayer.GetFaith.GetAdherentNamePluralNoTooltip]必须团结一致，抵御变革与亵渎！"
  forge_the_jomsvikings_decision.tt.is_in_correct_region: "属于[GetGeographicalRegion('dlc_fp1_region_non_scandinavian_southern_baltic').GetName][region|E]"
  forge_the_jomsvikings_decision.tt.empty_castle_or_city: "[county_capital|E]之外，必须有至少一个空[castle|E]或[city|E]地产"
  forge_the_jomsvikings_decision_tooltip: "成立虔诚维京人的组织，保卫古道"

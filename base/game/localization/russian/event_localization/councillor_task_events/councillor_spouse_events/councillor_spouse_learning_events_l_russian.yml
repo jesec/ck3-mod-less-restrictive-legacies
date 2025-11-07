@@ -11,7 +11,7 @@
  councillor_spouse_learning.1302.t: "Супруг влияет на смену культуры"
  councillor_spouse_learning.1303.desc: "Супруг покровительствует теологам"
  #General learning notifications
- councillor_spouse_learning.1601.desc: "Супруг помогает вам увеличить [ROOT.Char.Custom('LifestyleFocus')|l]"
+ councillor_spouse_learning.1601.desc: "Супруг помогает подопечному в изучении такого вопроса, как [ROOT.Char.Custom('LifestyleFocus')]"
  councillor_spouse_learning.1602.t: "[tutored_child.Custom('GetDaughterSon')] расцветает благодаря наставлениям супруга"
  councillor_spouse_learning.1603.root_guardian.t: "Подопечный ценит наставления супруга"
  councillor_spouse_learning.1603.spouse_guardian.t: "Подопечный супруга ценит [councillor.GetHerHis] наставления"

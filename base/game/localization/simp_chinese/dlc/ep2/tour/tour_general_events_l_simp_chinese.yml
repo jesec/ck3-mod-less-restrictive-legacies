@@ -33,7 +33,7 @@
  #Help liege entourage member, gain scheme progress
  tour_general.2001.t: "$activity_tour$：不便状态"
  tour_general.2001.desc_hashish: "我在检查领主的随从马车时遇到了[2001_precarious_entourage_character.GetTitledFirstName]。[2001_precarious_entourage_character.GetSheHe|U]看起来异常挑剔，因为[2001_precarious_entourage_character.GetSheHe]摆弄着[2001_precarious_entourage_character.GetHerHis]袋子里的东西时眼神不停转动着。\n\n我靠过去后注意到[2001_precarious_entourage_character.GetHerHis]的眼睛有些发红，而[2001_precarious_entourage_character.GetSheHe]则抬起头看了我尴尬地笑了笑，说：“[ROOT.Char.GetTitledFirstNameNoTooltip]，抱歉我这里搞得一团糟。我似乎把一些……药品放错了地方。你不会碰巧了解这种#EMP 药草#!吧？"
- tour_general.2001.desc_privy: "我在去跟[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('visiting_liege'))][visiting_liege.GetTitledFirstName]见面的路上，正好经过[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]，突然听到一声低沉的叫喊声。我停下来倾听声音在哪，然后往叫喊声的方向走去。\n\n我循着声音来到一个窄巷子里的厕所，在那我听到了一个声音在呼救：“我是[2001_precarious_entourage_character.GetTitledFirstName]，我好像……卡住了。\"那个声音说道。"
+ tour_general.2001.desc_privy: "我在去跟[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('visiting_liege'))][visiting_liege.GetTitledFirstName]见面的路上，正好经过[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]，突然听到一声低沉的叫喊声。我停下来倾听声音在哪，然后往叫喊声的方向走去。\n\n我循着声音来到一个窄巷子里的厕所，在那我听到了一个声音在呼救：“我是[2001_precarious_entourage_character.GetTitledFirstName]，我好像……卡住了。”那个声音说道。"
  tour_general.2001.desc_outro: "\n\n“如果你愿意帮助我，那我可以分享一些我们宫廷内的有价值的信息……”[2001_precarious_entourage_character.GetSheHe]恳求道。"
  tour_general.2001.a: "撑住，我会救你出来。"
  tour_general.2001.a_hashish: "让我看看我能做点什么。"
@@ -52,7 +52,7 @@
  tour_general.2001.b_super_secrecy.desc: "[2001_precarious_entourage_character.GetShortUIName]分享了关于秘密通道的信息"
  tour_general.2001.b_spaceout.t: "抽到昏迷"
  tour_general.2001.b_spaceout.desc: "你和[2001_precarious_entourage_character.GetShortUIName]完全昏迷了"
- tour_general.2001.c: "我...不。这不值得。"
+ tour_general.2001.c: "我……不。这不值得。"
  ##Bilateral Liege Events
  #Liege: You are a fanatical cat/dog person
  tour_general.3003.t_cat: "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]：是小猫猫和大猫猫们的世界"
@@ -72,7 +72,7 @@
  tour_general.3004.t: "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]：必要之恶"
  tour_general.3004.desc_intro_sacrifice: "该做的都完成了，栖息在[stop_host_scope.GetTitledFirstNamePossessive]附近的野兽已经被清除干净，现在正作为警示被挂在[stop_host_scope.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]的绞刑架上。"
  tour_general.3004.desc_intro: "现在该做的都完成了，那些动物的尸体被堆放在[stop_host_scope.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]的绞架旁，一堆堆柴堆正在燃烧，这样就能永远摆脱这些令人作呕的生物。"
- tour_general.3004.desc_vassal_sacrifice: "\n\n我很高兴[stop_host_scope.GetSheHe]回过神来了并放弃了这个肮脏的生物。 我可能应该去洗个澡，谁知道身上有什么病。"
+ tour_general.3004.desc_vassal_sacrifice: "\n\n我很高兴[stop_host_scope.GetSheHe]回过神来了并放弃了这个肮脏的生物。我可能应该去洗个澡，谁知道身上有什么病。"
  tour_general.3004.desc_vassal_help: "\n\n我很感激[stop_host_scope.GetTitledFirstName]及时向我提供帮助并开始围捕这些无耻的畜生。这个领地现在安全了一些，我可以睡个好觉了。"
  tour_general.3004.desc_no_help: "\n\n那个胆小鬼[stop_host_scope.GetTitledFirstName]一点忙都没帮。一想到我的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('stop_host_scope'))]拒不服从命令，我哼了一声。至少现在我知道[stop_host_scope.GetSheHe]的立场。"
  tour_general.3004.desc_outro: "\n\n当我走向我住所的专门浴室时，我发现了一只流浪[ROOT.Char.Custom('GetCatDog')]，它好奇地看着绞刑架上的景象。我对[ROOT.Char.Custom('GetFelineCanine')]笑并点头，“现在一切都很好，宝贝。”"
@@ -134,7 +134,7 @@
  tour_general.4003.t: "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]：这里什么都没有"
  tour_general.4003.desc_faux_bedchamber: "我正在窥探卧室内部，一名正在打扫房间的仆人向我走来。[servant_gender.GetSheHe|U]明显地向我挥手让我侧身。\n\n“[ROOT.Char.GetLadyLord]，你知道怎么才能把一张床单叠的#EMP 非常完美#!吗？”仆人期待地看着我，说道。\n\n我轻声叹了口气，告辞离开了房间。"
  tour_general.4003.desc_faux_council_chamber: "内阁会议厅几乎什么都没有。最重要的是我要了解非常有趣的情报或秘密。\n\n转身离开时，我被身后的声音吓了一跳。“[ROOT.Char.GetLadyLord]，让我告诉你保持桌面无尘的秘诀……”\n\n我假装没听见，匆忙离开了房间。"
- tour_general.4003.desc_faux_shrine: "我在[stop_host_scope.GetFaith.HouseOfWorship]的建筑里，仔细地四处寻找任何可疑的东西，但没找到什么有价值的东西。\n\n搜寻现场时，我偶然遇到了一个仆人，他坚持要告诉我......抛光白镴器皿的秘诀。\n\n我礼貌地拒绝了。"
+ tour_general.4003.desc_faux_shrine: "我在[stop_host_scope.GetFaith.HouseOfWorship]的建筑里，仔细地四处寻找任何可疑的东西，但没找到什么有价值的东西。\n\n搜寻现场时，我偶然遇到了一个仆人，他坚持要告诉我……抛光白镴器皿的秘诀。\n\n我礼貌地拒绝了。"
  tour_general.4003.desc_faux_kitchen: "厨房很乱，就好像厨子们刚刚就在这里忙着准备下一顿饭。我转向地窖，往里面探头偷看。\n\n我瞥见里面有一个仆人，正忙着堆叠[stop_host_scope.Custom('get_region_root_vegetable_plural')]。[servant_gender.GetSheHe|U]好奇地看了我一眼，然后张嘴说道：\n\n“我的[ROOT.Char.GetLadyLord]，有人告诉过你关于[stop_host_scope.Custom('get_region_root_vegetable_plural')]的秘密吗？”\n\n我怀疑地看了仆人一眼，然后转身走出了厨房。"
  tour_general.4003.a: "真糟糕。"
  #You got caught!

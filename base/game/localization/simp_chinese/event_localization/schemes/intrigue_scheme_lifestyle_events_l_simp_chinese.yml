@@ -49,7 +49,7 @@
  intrigue_scheme_lifestyle.3302.desc_child: "我的特工注意到了一个接一个的奇事和迹象，不久真相便显现出全貌：[secret_to_reveal_target.GetTitledFirstName]是[target.GetTitledFirstName]和[target.GetHerHis]的[target.Custom2('RelationToMe', SCOPE.sC('secret_to_reveal_owner'))][secret_to_reveal_owner.GetTitledFirstName]的孩子！"
  intrigue_scheme_lifestyle.3302.desc_fallback: "我的特工注意到了一个接一个的奇事和迹象，不久真相便显现出全貌：[target.GetTitledFirstName]真的有见不得人的秘密！"
  intrigue_scheme_lifestyle.3302.a: "哦，这很棒！"
- intrigue_scheme_lifestyle.3302.a.tt: "#F 我可以勒索[target.GetHerHim]或者强迫[target.GetHerHim]做我要求的事，或者#EMP 任何事#!！#!"
+ intrigue_scheme_lifestyle.3302.a.tt: "#F 我可以勒索[target.GetHerHim]或者强迫[target.GetHerHim]听命于我，或者#EMP 任何事#!！#!"
  intrigue_scheme_lifestyle.3401.t: "获取信任"
  intrigue_scheme_lifestyle.3401.desc: "[target.GetTitledFirstNamePossessive]的[target.Custom2('RelationToMe', SCOPE.sC('courtier_to_fool'))][courtier_to_fool.GetTitledFirstName]是一个[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('courtier_to_fool'))][courtier_to_fool.GetWomanMan]，当我意识到自己在与[courtier_to_fool.GetHerHis]同行时，我起初相当谨慎。然而，我很快意识到[courtier_to_fool.GetSheHe]并不像我最初以为的那样厌恶与我相处……"
  intrigue_scheme_lifestyle.3401.a: "拜托，我的朋友，跟我讲讲你自己！"

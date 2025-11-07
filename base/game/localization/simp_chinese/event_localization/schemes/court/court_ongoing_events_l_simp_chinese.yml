@@ -132,7 +132,7 @@
  court_ongoing.1031.a: "啊！我会好好照顾你的！"
  court_ongoing.1031.b: "这……不是我所期望的。"
  court_ongoing.1032.desc: "“我努力想了很久，我的[ROOT.Char.Custom('LoverPetName')]，”[owner.GetTitledFirstName]说道，[owner.GetSheHe]一边把篮子轻放在了我的桌上。“怎么给你找一个完美的伴呢？像你一样独立且聪明。然后我想到了——猫是最适合你的！”\n\n[owner.GetFirstNameNoTooltip|U]移开了篮子上的毛毯，露出一只小猫！它跳向我，在纯真的兴奋中被篮子的边缘绊倒。它用它那对[ROOT.Char.Custom('RandomCatEyeColor')]的大眼睛看向我，开始发出呜呜声。"
- court_ongoing.1033.desc: "“我苦想良久，我的[ROOT.Char.Custom('LoverPetName')]，”[owner.GetTitledFirstName]这样说着，将我吸引出去。[owner.GetSheHe|U]将我领到用白布盖起来的一小团隆起物面前，“对于像你这么威武霸气、雄韬伟略的人来说，什么样的生灵才堪称完美的伙伴？然后我便想到了——没有比一只鹰更合适的了！”\n\n[owner.GetFirstNameNoTooltip|U]将白布掀开，露出一只栖息在木架上的雏鹰。为了让这只幼鸟保持冷静，[owner.GetSheHe]给雏鹰的眼睛上蒙了一小块面罩，但它唧唧啾啾的啼啭让我兴奋不已。"
+ court_ongoing.1033.desc: "“我苦想良久，我的[ROOT.Char.Custom('LoverPetName')]，”[owner.GetTitledFirstName]这样说着，将我吸引出去。[owner.GetSheHe|U]将我领到用白布盖起来的一小团隆起物面前，“对于像你这么威武霸气、雄韬伟略的人来说，什么样的生灵才堪称完美的伙伴？然后我便想到了——没有比一只鹰更合适的了！”\n\n[owner.GetFirstNameNoTooltip|U]将白布掀开，露出一只栖息在木架上的雏鹰。为了让这只幼鸟保持冷静，[owner.GetSheHe]给雏鹰的眼睛上蒙了一小块面罩，而它唧唧啾啾的啼啭让我兴奋不已。"
  #GIFT: Necklace, by Mathilda Bjarnehed
  court_ongoing.1040.t: "$court_event_title$金光闪闪"
  court_ongoing.1040.end.desc: "[target.GetFirstNameNoTooltip]深深看了我一眼。“[necklace_owner.GetFirstNamePossessiveNoTooltip][necklace_owner.GetLadyLord|U]的项链真可爱，”[target.GetSheHe]说道，并朝[necklace_owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]的方向点了点[target.GetHerHis]的脑袋。“但是它戴在我的脖子上的话会更美。”"

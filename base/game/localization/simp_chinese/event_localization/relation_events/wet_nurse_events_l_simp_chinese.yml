@@ -54,7 +54,7 @@
  bp2_yearly.7003.c: "我没时间。"
  bp2_yearly.7004.t: "$bp2_yearly.7003.title$迈步"
  bp2_yearly.7004.desc: "我听到我的[ROOT.Char.Custom2('RelationToMeShort', nursed_child)][nursed_child.GetFirstNamePossessive]的房间里传来一阵喧哗声。我跑进去看到乳母[wet_nurse.GetFirstName]正在和[nursed_child.GetFirstName]玩耍。\n\n“大人，来得正好！[nursed_child.GetFirstNameNoTooltip]刚刚迈出了第一步！”[wet_nurse.GetSheHe]激动地喊道\n\n她正握着我的[nursed_child.Custom('GirlBoy')]的手，想要和[nursed_child.GetHerHim]一起在房间里走动。"
- bp2_yearly.7004.a: "“这是孩子的一大步，却是统治者的一小步。”"
+ bp2_yearly.7004.a: "“这是孩子的一大步，也是成为统治者的一小步。”"
  bp2_yearly.7004.b: "[nursed_child.GetSheHe]还能做什么？"
  bp2_yearly.7004.b.tt: "你要求[nursed_child.GetFirstNameNoTooltip]继续走。"
  bp2_yearly.7004.c: "$bp2_yearly.7003.c$"

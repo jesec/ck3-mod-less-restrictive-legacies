@@ -303,6 +303,7 @@
  TARGET_GOVERNOR_EFFICIENCY_DESC: "[Concept('governor_efficiency', 'Эффективность губернатора')|E] [Select_CString(target.IsLocalPlayer,'', 'персонажа ')][target.GetShortUINamePossessive][Select_CString(target.IsLocalPlayer,'его персонажа', '')]: $VALUE|+=0$"
  TARGET_HOLDER_GOVERNOR_EFFICIENCY_DESC: "[Concept('governor_efficiency', 'Эффективность губернатора')|E] [Select_CString(target.GetHolder.IsLocalPlayer,'', 'персонажа ')][target.GetHolder.GetShortUINamePossessive][Select_CString(target.GetHolder.IsLocalPlayer,'его персонажа', '')]: $VALUE|+=0$"
  HOUSE_HEAD_SCHEME_SUPPORT_DESC: "$house_head_request_interaction$: $VALUE|+=0$"
+ coronation_spouse_despised_modifier: "[owner.GetShortUIName|U] во время коронации [Select_CString(owner.IsLocalPlayer,'дали', Select_CString(owner.IsFemale,'дала', 'дал'))] обет избавиться от [Select_CString(target.IsLocalPlayer, 'вас', Concatenate('персонажа ',target.GetShortUIName))]: $VALUE|+=0$"
  #Found Despotate
  found_despotate: "Возвысить губернаторство"
  found_despotate_action: "Возвысить губернаторство"

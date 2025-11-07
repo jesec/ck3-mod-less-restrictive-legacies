@@ -16,7 +16,7 @@
  ARMY_RETREATING: "[retreat|E]中"
  ARMY_IS_AUTOMATED: "军队被托管"
  ARMY_IS_ALLY: "盟军"
- MAP_RAID_TOOLTIP: "#T 正在劫掠#!\n预计完成：[Raid.GetEta.GetString]。\n获得的[raid_loot|E]：[Raid.GetProvince.GetProvinceLoot|0V][raid_loot|E]\n\n#I 点击查看劫掠。#!"
+ MAP_RAID_TOOLTIP: "#T 正在劫掠#!\n预计完成：[Raid.GetEta.GetString]。\n获得的[raid_loot|E]：[Raid.GetProvince.GetProvinceLoot|0V][raid_loot_i]\n\n#I 点击查看劫掠。#!"
  RECENTLY_RAIDED_TOOLTIP: "#T 近期被劫掠#!\n这处地产近期已被劫掠，[Province.GetEndOfRecentlyLooted.GetString]之前不能被再次劫掠"
  ARMY_LOOT_INFO: "[raid_loot|E]：[raid_loot_i][Army.GetRaidLoot|V0]/[Army.GetLootCap|0]"
  MAP_ICON_EMBARK_COST: "@gold_icon![FleetPredictionMapIcon.GetEmbarkCost|V0][Select_CString(FleetPredictionMapIcon.IsCostOverOwned, '@warning_icon!', '')]"

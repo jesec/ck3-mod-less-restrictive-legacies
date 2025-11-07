@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
  sibling.0001.t: "应得的赏赐"
- sibling.0001.desc: "[sibling.GetTitledFirstName]前来见我，想要进行一次正式的会晤！\n\n“亲爱的[sibling.Custom2('RelationToMe' , ROOT.GetCharacter )]，我忠心耿耿地效忠于您。看看我优秀的工作成果，现在是不是应该奖赏我了？”"
+ sibling.0001.desc: "[sibling.GetTitledFirstName]前来见我，想要进行一次正式的会晤！\n\n“亲爱的[sibling.Custom2('RelationToMe' , ROOT.GetCharacter )]，我忠心耿耿地效忠于你。看看我优秀的工作成果，现在是不是应该奖赏我了？”"
  sibling.0001.a: "我会授予你一个头衔和属于你自己的土地！"
  sibling_promised_land_tt: "[sibling.GetFirstName]会期待我很快授予[sibling.GetHerHim]一个头衔。"
  sibling.0001.b: "你可以要求任何赏赐，[ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling'))]。"

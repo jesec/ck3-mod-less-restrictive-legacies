@@ -203,7 +203,7 @@
  feast_default.2006.c: "Ich hasse es, wenn mir jemand ständig derart an den Hacken klebt!"
  feast_default.2006.d: "Bitte lasst mich in Frieden!"
  feast_default.2007.t: "Aufgedeckte Affäre!"
- feast_default.2007.desc: "Ein lautes Krachen ist in der großen Halle zu hören, als eine der Türen zum Gesindeflügel aufbricht.\n\nIn einem kaum bekleideten Haufen purzeln mein[lover_guest_1.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_1'))] [lover_guest_1.GetTitledFirstName] und mein[lover_guest_2.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_2'))] [lover_guest_2.GetTitledFirstName] vor allen Leuten zu Boden."
+ feast_default.2007.desc: "Ein lautes Krachen ist in der großen Halle zu hören, als eine der Türen zum Gesindeflügel aufbricht.\n\nIn einem unbekleideten Haufen purzeln mein[lover_guest_1.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_1'))] [lover_guest_1.GetTitledFirstName] und mein[lover_guest_2.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_2'))] [lover_guest_2.GetTitledFirstName] vor allen Leuten zu Boden."
  feast_default.2007.a_chaste: "Ich ertrage den Anblick nicht!"
  feast_default.2007.a_lustful: "Man #EMP stelle sich vor#!, was die da wohl getrieben haben …!"
  feast_default.2007.a_sadistic: "Ha! Das ist zu köstlich!"

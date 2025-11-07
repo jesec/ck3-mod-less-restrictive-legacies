@@ -106,7 +106,7 @@
  ## Negotiation over a falcon
  court.7620.title: "金羽之禽"
  court.7620.desc: "在我的御座厅的一侧，我能听见$master_of_hunt_court_position$[huntmaster.GetName]正在同[falconer.GetName]进行一场紧张的谈判，主题围绕着一只美丽的游隼——对于任何人来说，拥有这样一只鸟都能极大地提高威望。\n\n[huntmaster.GetFirstNameNoTooltip]看上去一直在讨价还价，而养鹰人则拒绝让步，从他们声音中的沮丧就能听出，他们僵持不下已经#EMP 有段时间#!了。\n\n也许他们会很欢迎[ROOT.Char.GetTitleAsNamePossessiveNoTooltip]的调解……就像我很欢迎一只新鸟一样。"
- court.7620.a: "[falconer.GetFirstNameNoTooltip]，你很清楚你开价开的太高了吧！"
+ court.7620.a: "[falconer.GetFirstNameNoTooltip]，你很清楚你开价开得太高了吧！"
  court.7620.a.success: "你同[falconer.GetShortUINameNoTooltip]谈判成功"
  court.7620.a.failure: "你同[falconer.GetShortUINameNoTooltip]谈判失败"
  court.7620.b: "过来，我出更高的价。"

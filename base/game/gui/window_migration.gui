@@ -1336,7 +1336,7 @@ types Migration
 				}
 
 				button = {
-					datacontext = "[GetPlayer.GetActiveLawInGroupWithFlag('realm_law')]"
+					datacontext = "[GetPlayer.GetActiveLawInGroupWithFlag('dominance_law')]"
 					size = { 100 100 }
 					allow_outside = yes
 

@@ -1,6 +1,6 @@
 ﻿l_polish:
  PASS_LAW_TOOLTIP_TITLE: "[SelectLocalization( GuiLaw.IsEnacted, Law.GetNameNoTooltip, Law.GetPassLawPhrase)]"
- PASS_LAW_TITLE_DEFAULT: "Uchwal prawo: [Law.GetNameNoTooltip|l]"
+ PASS_LAW_TITLE_DEFAULT: "[Law.GetNameNoTooltip] – [AddLocalizationIf( Not(Law.GetLawGroup.HasFlag( 'realm_no_pass' ) ), 'uchwal ' )]"
  ADD_LAW_CONFIRMATION_TITLE: "[Law.GetAddLawConfirmationTitle]"
  ADD_LAW_CONFIRMATION_TITLE_DEFAULT: "Uchwal prawo: [Law.GetNameNoTooltip|l]"
  ADD_LAW_CONFIRMATION_ACCEPT: "[Law.GetAddLawConfirmationButtonText]"

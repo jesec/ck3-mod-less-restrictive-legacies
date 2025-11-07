@@ -86,7 +86,7 @@
  fp2_struggle_house_tt: "Każdy członek [Concept( 'house', 'rodu' )|E]:"
  fp2_struggle_compromise_war_cost_tt: "[casus_bellis|E] $HOLY_WAR_DUCHY_NAME$ oraz $CONQUEST_DUCHY_CB_NAME$ przeciwko [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'cultures', 'kulturom' )|E] i [Concept( 'faiths', 'wiarom' )|E]: #negative_value +50%#!"
  CB_COST_FP2_STRUGGLE_COMPROMISE_MULTIPLIER: "Kompromis"
- struggle_compromise_duchy_transfer_tt: "Sąsiadujące i [Concept( 'completely_controlled', 'w pełni kontrolowane' )|E] [duchies|El] [de_jure|El] przechodzą do głównego [Concept( 'kingdom', 'królestwa' )|E] ich [Concept( 'top_liege', 'suzerena' )|E]"
+ struggle_compromise_duchy_transfer_tt: "Sąsiadujące i [completely_controlled|El] [duchies|El] [de_jure|El] przechodzą do głównego [Concept('kingdom', 'królestwa')|E] ich [Concept('top_liege', 'najwyższego seniora')|E]"
  fp2_struggle_can_keep_using_struggle_clash_tt: "[struggle_conquest_conquests|E] nadal będą dostępne"
  struggle_ending_decision_correct_involvement_tt: "Jesteś postacią [Concept('struggle_involved', 'zaangażowaną')|E] w [persian_struggle|El]"
  struggle_ending_decision_correct_involvement_spain_tt: "Jesteś [Concept( 'struggle_involved', 'zaangażowaną')|E] postacią w [iberian_struggle|El]"

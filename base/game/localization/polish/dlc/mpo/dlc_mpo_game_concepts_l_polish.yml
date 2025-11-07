@@ -9,6 +9,7 @@
  game_concept_nomad_desc: "$game_concept_nomadic_desc$"
  game_concept_confederation_government: "Rząd konfederacyjny"
  game_concept_confederation: "Konfederacja"
+ game_concept_confederations: "Konfederacje"
  game_concept_confederation_desc: "Relacja, która zrzesza [Concept('rulers', 'władców')|E] [Concept('tribal', 'plemiennych')|E] oraz tych, u których funkcjonuje [GetGovernment( 'nomad_government' ).GetName|l], w ramach wzajemnej obrony, podobnie jak [alliance|El]. Tworzona za pomocą [Concept('decision', 'decyzji')|E] „#high $call_for_confederation_decision$#!” konfederacja wymaga, by jej członkowie przystępowali do [Concept('wars', 'wojen')|E] obronnych innych członków. Konfederacje można podejrzeć w karcie „Dyplomacja”.\n\n[confederates|E] nie mogą również atakować innych członków konfederacji ani prowadzić na nich [Concept('raid', 'najazdów')|E]. Nie mogą osiągać wysokich poziomów [Concept('tribal_authority', 'autorytetu władzy plemiennej')|E] ani [Concept('nomadic_authority', 'dominacji')|E], jak również tworzyć nowych [Concept('titles', 'tytułów')|E].\n\n[confederates|E] mogą podejmować [Concept('decision', 'decyzję')|E] „#high $leave_confederation_decision$#!” lub [migrate|El], by stać się [Concept('independent', 'niezależni')|E]. Konfederacja upada, gdy zostanie w niej tylko jeden członek."
  game_concept_confederate: "Konfederata"
  game_concept_confederates: "Konfederaci"

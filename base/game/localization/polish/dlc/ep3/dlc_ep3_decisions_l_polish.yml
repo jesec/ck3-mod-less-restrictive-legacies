@@ -269,7 +269,7 @@
  track_marauder_tooltip: "#WEAK To wyssana z palca opowieść, która ma przedstawić mnie w złym świetle.#!\n\nObniż doświadczenie cechy [GetTrait( 'gallowsbait' ).GetTraitTrackByKey( 'marauder' ).GetName|l]"
  trait_gallowsbait_tooltip: "#WEAK Niech moje imię będzie równie czyste jak moje sumienie.#!\n\nUsuń [Concept('trait', 'cechę')|E] [GetTrait('gallowsbait').GetName( GetNullCharacter )|l]"
  #Visit Local Settlement
- visit_local_settlement_decision: "[ROOT.Char.Custom('LocalHoldingTypeCapitalized')|lU]: Wizytacja"
+ visit_local_settlement_decision: "[ROOT.Char.Custom('LocalHoldingTypeCapitalized')|U]: wizytacja"
  visit_local_settlement_decision_desc: "Nikt nie jest samotną wyspą. [ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitly] da nam okazję na chwilę wytchnienia; okoliczna [ROOT.Char.Custom('LocalHoldingTypeConcept')|l] wygląda zachecająco. Udajmy się tam i sprawdźmy, co tam zastaniemy."
  visit_local_settlement_decision_tooltip: "Zwiedź okoliczne miejsce, którym jest [ROOT.Char.Custom('LocalHoldingTypeConcept')|l]"
  visit_local_settlement_effect_intro: "Będziesz mieć okazję, aby"
@@ -498,7 +498,7 @@
  change_state_faith_decision_selection_tooltip: "Wprowadź nową [Concept('state_faith', 'wiarę państwową')|E] w miejscu znanym jako [ROOT.Char.GetPrimaryTitle.GetDefinitiveName]"
  change_state_faith_confirm: "Niech w miejscu znanym jako [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] zapanuje nowa wiara: [ROOT.Char.GetFaith.GetNameNoTooltip|l]!"
  change_state_faith_effect_tt: "[state_faith|E] w miejscu o nazwie [THIS.Char.GetPrimaryTitle.GetNameNoTier] zostaje zmieniona na: [THIS.Char.GetFaith.GetName|Vl]"
- vassals_change_state_faith: "Każdy [vassal|E] bez cechy o nazwie [GetVassalStance( 'zealot' ).GetName|l], którego [opinion|El] na twój temat wynosi co najmniej #P 30#! punktów ([THIS.ScriptValue('number_vassals_converting_to_new_state_faith')|V0])"
+ vassals_change_state_faith: "Każdy [vassal|E], którego nie można określić jako [GetVassalStance('zealot').GetName|l], którego [opinion|El] na twój temat wynosi co najmniej #P 30#! punktów ([THIS.ScriptValue('number_vassals_converting_to_new_state_faith')|V0])"
  adopt_state_faith: "Przyjmij wiarę państwową"
  adopt_state_faith_decision_desc: "Przyjęcie [Concept('state_faith', 'wiary państwowej')|E] miejsca, którym jest [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip|l], będzie punktem zwrotnym. Zrównanie naszych ścieżek duchowych wzmocni moją pozycję jako władcy i pozwoli mi nawiązać głębszą więź z moimi poddanymi."
  adopt_state_faith_decision_selection_tooltip: "Przyjmij [Concept('state_faith', 'wiarę państwową')|E] miejsca o nazwie [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName]"

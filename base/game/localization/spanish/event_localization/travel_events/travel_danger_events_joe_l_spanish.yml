@@ -22,7 +22,7 @@
  travel_danger_events.6000.failure: "El ejemplar de [ROOT.Char.Custom('GetAnimalType')] mata a [Select_CString( beast_victim.IsLocalPlayer, 'tu personaje', beast_victim.GetShortUINameNoTooltipNoFormat )]"
  travel_danger_events.6000.success_root: "El ejemplar de [ROOT.Char.Custom('GetAnimalType')] muere a manos de [Select_CString(root_scope.IsLocalPlayer, 'tu persona', root_scope.GetShortUINameNoTooltipNoFormat)]"
  travel_danger_events.6000.wound_root: "El ejemplar de [ROOT.Char.Custom('GetAnimalType')] [Select_CString( root_scope.IsLocalPlayer, 'te destroza', 'destroza a ' )][Select_CString( root_scope.IsLocalPlayer, '', root_scope.GetShortUINameNoTooltipNoFormat )]"
- travel_danger_events.6000.failure_root: "El ejemplar de [ROOT.Char.Custom('GetAnimalType')] mata a [Select_CString( beast_victim.IsLocalPlayer, 'tu personaje', beast_victim.GetShortUINameNoTooltipNoFormat )]"
+ travel_danger_events.6000.failure_root: "El espécimen de [ROOT.Char.Custom('GetAnimalType')] mata a [Select_CString( root_scope.IsLocalPlayer, 'tu personaje', root_scope.GetShortUINameNoTooltipNoFormat )]"
  travel_danger_events.6010.t: "$travel_danger_prefix$ Humo más adelante"
  travel_danger_events.6010.raid: "A medida que nos acercamos a [ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip], columnas de humo y grupos de campesinos en marcha dejan claro que se está saqueando el lugar. El fuerte toma todo aquello que quiere…\n\n"
  travel_danger_events.6010.siege: "Un campamento de asedio domina las afueras de [ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip]. Los estandartes con el escudo [siege_owner.GetPrimaryTitle.GetAdjectiveNoTooltip] se agitan con languidez, heraldos de una [siege_war.Custom('WarCasusBelliShort')|l].\n\n"

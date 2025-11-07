@@ -15,7 +15,7 @@
  COURT_TYPE_EFFECT_OWNER: "#S 宫廷主人：#!"
  COURT_TYPE_EFFECT_COURTIER_GUEST: "#low 廷臣与宾客：#!"
  COURT_TYPE_EFFECT_LEVEL_HEADER: "#S 宫廷显赫等级：#!"
- COURT_TYPE_EFFECT_LEVEL: "#BOLD 等级$LEVEL$：#!"
+ COURT_TYPE_EFFECT_LEVEL: "#BOLD $LEVEL$级：#!"
  COURT_TYPE_EFFECT_TIME: "#S $MONTHS$个月后：#!"
  court_diplomatic: "外交型宫廷"
  court_diplomatic_desc: "#low 外交是收获同级贵族尊敬并使领地保持和平的关键。满意的封臣才是忠诚的封臣。\n\n廷臣会获得[GetTrait('diplomatic_court_1').GetName( GetNullCharacter )]特质。#!"

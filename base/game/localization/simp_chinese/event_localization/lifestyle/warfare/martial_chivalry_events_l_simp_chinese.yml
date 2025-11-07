@@ -66,7 +66,7 @@
  martial_chivalry.1021.b.failure: "我绊了一跤，把自己弄伤了"
  #Practice duel (Prowess skill challenge), Petter Vilberg
  martial_chivalry.2010.t: "挑战"
- martial_chivalry.2010.start.desc: "我正在与我的一名士兵比试拳脚，汗水布满了我的额头， 因为我感到一种被监视的可怕感觉。我回头一看，只见[challenger.Custom2('MyCharacterIntroduction', ROOT.Char)]"
+ martial_chivalry.2010.start.desc: "我正在与我的一名士兵比试拳脚，汗水布满了我的额头，因为我感到一种被监视的可怕感觉。我回头一看，只见[challenger.Custom2('MyCharacterIntroduction', ROOT.Char)]"
  martial_chivalry.2010.like.desc: "正在向我招手。我于是走过去和[challenger.GetHerHim]打招呼。\n\n我们讨论了一会儿武器训练，并交流了技巧和建议。正当我准备离别进行下一轮时，[challenger.GetTitledFirstNamePossessive]满脸容光焕发，随后[challenger.GetSheHe]建议我们一起训练。"
  martial_chivalry.2010.dislike.desc: "这人的眼睛直视着我，同时漠然地前后摇晃[challenger.GetHerHis]的[challenger.Custom('signature_weapon')]。\n\n“[ROOT.Char.GetTitleTierName]大人！”[challenger.GetFirstNamePossessive]的声音在庭院中炸开。“你是否愿意转而用我来考验你的技巧？”"
  martial_chivalry.2010.a: "接受挑战！"
@@ -98,7 +98,7 @@
  martial_chivalry.3000.desc: "我今天视察[bad_commander.GetTitledFirstName]时，[bad_commander.GetSheHe]正在训练[bad_commander.GetHerHis]的新兵，但是在[bad_commander.GetHerHis]指挥下他们就像一群杂乱无章的暴民而非军队。\n\n我继续旁观时，[bad_commander.GetSheHe]勉强掌控了局势，显然已经被逼到了[bad_commander.GetHerHis]的极限。"
  martial_chivalry.3000.desc.callous: " 这种无能的表现使[ROOT.Char.GetPrimaryTitle.GetName]蒙羞，不可原谅！"
  martial_chivalry.3000.desc.compassionate: " 曾经处于那种局势下的我，知道与未受训练的士兵共事有多么困难。"
- martial_chivalry.3000.desc.fallback: " 虽然训练新兵并不简单，但是[bad_commander.GetSheHe]还是得做的比这更好才行。"
+ martial_chivalry.3000.desc.fallback: "虽然训练新兵并不简单，但是[bad_commander.GetSheHe]还是得做得比这更好才行。"
  martial_chivalry.3000.a: "就[bad_commander.GetHerHis]的不足而申斥[bad_commander.GetHerHim]。"
  martial_chivalry.3000.b: "把我所知道的指挥知识教授给[bad_commander.GetHerHim]。"
  martial_chivalry.3000.b.attempt: "[bad_commander.GetTitledFirstNameNoTooltip]会基于[bad_commander.GetHerHis]的性格做出决定"

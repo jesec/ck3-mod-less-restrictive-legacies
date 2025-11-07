@@ -29,7 +29,7 @@
  province_desc_wedding_palace_2: "\n#P ++ $building_leisure_palace_02$#!\n#weak Будет получено больше [dynasty_prestige_i] [Concept( 'dynasty_prestige', 'признания' )|E] и сильнее снизится [stress_loss_i] [Concept( 'stress', 'стресс' )|E].#!"
  province_desc_wedding_palace_3: "\n#P +++ $building_leisure_palace_03$#!\n#weak Будет получено больше [dynasty_prestige_i] [Concept( 'dynasty_prestige', 'признания' )|E] и сильнее снизится [stress_loss_i] [Concept( 'stress', 'стресс' )|E].#!"
  province_desc_wedding_pleasure_dome: "\n#P +++ $building_leisure_palace_03$#!\n#weak Будет получено больше [dynasty_prestige_i] [Concept( 'dynasty_prestige', 'признания' )|E] и сильнее снизится [stress_loss_i] [Concept( 'stress', 'стресс' )|E].#!"
- province_desc_wedding_holy_site: "\n#P + Это священное место для вашей конфессии#!\n#weak Будет получено [piety_i] [Concept( 'piety', 'благочестие' )|E].#!"
+ province_desc_wedding_holy_site: "\n#P + Это святое место для вашей конфессии#!\n#weak Будет получено [piety_i] [Concept( 'piety', 'благочестие' )|E].#!"
  every_cruel_vassal: "Все жестокие вассалы"
  wedding_every_other_vassal: "Все прочие вассалы"
  activity_wedding_guest_desc: "$BULLET_WITH_TAB$[prestige_i|E][Concept( 'prestige', 'Престиж' )|E]\n$BULLET_WITH_TAB$[Concept( 'opinion', 'Мнение' )|E] хозяина и супругов\n$BULLET_WITH_TAB$Возможна потеря [stress_loss_i][Concept( 'stress', 'стресса' )|E]\n$BULLET_WITH_TAB$Возможно получение модификатора «[GetModifier( 'wedding_of_the_century_modifier' ).GetNameWithTooltip|L]»\n$BULLET_WITH_TAB$Возможно получение [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «[GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]»"

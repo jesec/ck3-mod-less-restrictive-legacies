@@ -72,7 +72,7 @@
  game_concept_officer: "위관"
  game_concept_officers: "위관"
  game_concept_officer_desc: "$game_concept_officers$은 [followers|E]에게 하사할 수 있는 특별한 직책으로, 해당 직책을 부여받은 인물은 [camp|E]를 돕습니다.\n\n구조적으로는 [court_positions|E]와 굉장히 유사하게 작동합니다. $game_concept_officers$을 통해 얻는 혜택은 해당 직위 소유주의 [aptitude|E]에 따라 결정됩니다.\n\n단, $game_concept_court_positions$와 달리 $game_concept_officers$를 임명하는 데 별도의 비용이 소모되지 않으며 급여 또한 지급하지 않지만, 직위를 박탈하는 데는 마찬가지로 [prestige|E]이 소모됩니다.#!\n\n#WEAK $game_concept_officers$은 다양한 [camp_buildings|E]에 의해 잠금 해제됩니다.#!"
- game_concept_imperial_family: "제국 가문"
+ game_concept_imperial_family: "황실 가문"
  game_concept_noble_family: "귀족 가문"
  game_concept_noble_families: "귀족 가문"
  game_concept_noble_family_possessive: "귀족 가문의"

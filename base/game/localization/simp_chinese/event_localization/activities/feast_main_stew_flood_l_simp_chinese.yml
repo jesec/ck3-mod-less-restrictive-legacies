@@ -21,7 +21,7 @@
  feast_main_stew_flood.0004.t: "炖肉之海"
  feast_main_stew_flood.0004.stew_introduction_blame: "[stew_sea_blamed.GetTitledFirstName]由于喝多了，一个趔趄打翻了悬挂在宴会厅中央火坑上的炖锅！鲜美的肉汤倾倒在地板上，好一片肉汤海！"
  feast_main_stew_flood.0004.stew_introduction: "在宴会的一片喧嚣之中，[activity.GetOwner.GetTitledFirstNamePossessive]的一名仆人意外地打翻了悬挂在宴会厅中央火坑上的炖锅！鲜美的肉汤倾倒在地板上，好一片肉汤海！"
- feast_main_stew_flood.0004.getting_covered: "\n我坐的太近了，结果那堆油腻的炖肉向我翻涌而来，如同[ROOT.Char.GetFaith.NegativeAfterLife]深渊涌出的浪潮。我的衣服或许还能洗干净，但是整个大厅里一片哄笑给我带来的屈辱，或许这辈子都洗不掉了。"
+ feast_main_stew_flood.0004.getting_covered: "\n我坐得太近了，结果那堆油腻的炖肉向我翻涌而来，如同[ROOT.Char.GetFaith.NegativeAfterLife]深渊涌出的浪潮。我的衣服或许还能洗干净，但是整个大厅里一片哄笑给我带来的屈辱，或许这辈子都洗不掉了。"
  feast_main_stew_flood.0004.a: "我咋就摊上这样的事情了？！"
  feast_main_stew_flood.0005.t: "炖肉之海"
  feast_main_stew_flood.0005.stew_introduction_blame: "[stew_sea_blamed.GetTitledFirstName]由于喝多了，一个趔趄打翻了悬挂在宴会厅中央火坑上的炖锅！鲜美的肉汤倾倒在地板上，好一片肉汤海！"

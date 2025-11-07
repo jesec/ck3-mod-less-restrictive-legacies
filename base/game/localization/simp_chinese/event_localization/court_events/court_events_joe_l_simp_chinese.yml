@@ -311,7 +311,7 @@
  court.8160.d: "在战场上证明给我看，不是在宫廷！"
  court.8163.t: "你赢得了决斗"
  court_humiliation_modifier: "当廷折辱"
- court_humiliation_modifier_desc: "该角色当着整个宫廷的面被削弱了。"
+ court_humiliation_modifier_desc: "该角色当着整个宫廷颜面扫地。"
  court.8162.tt: "在一场公平决斗中证明了自己更出色后，[sc_victor.GetFirstNameNoTooltip]被认为是更强的[ROOT.Char.Custom('MountedWarriorTerm')]，最适合担任你的$bodyguard_court_position$或$champion_court_position$：[aptitude|E]提高了"
  best_knight_position_desc: "最强骑士"
  fostering_competitiveness_modifier: "鼓励竞争"

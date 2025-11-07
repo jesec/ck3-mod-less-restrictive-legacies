@@ -54,7 +54,7 @@
  apa_pilgrim_protection_title: "[Select_CString(first.IsFemale, 'Знаменитая', 'Знаменитый' )] [first.GetShortUIName|U] [Select_CString(first.IsFemale, 'защитила', 'защитил' )] паломников"
  apa_pilgrim_hospitals_title: "[first.GetShortUIName|U] [Select_CString(first.IsFemale, 'прошла', 'прошел' )] лечение в госпитале для паломников в провинции [province.GetNameNoTooltip]"
  apa_charity_for_the_poor_title: "[first.GetShortUIName|U] [Select_CString(first.IsFemale, 'пожертвовала', 'пожертвовал' )] бедным в провинции [province.GetNameNoTooltip]"
- apa_donated_to_holy_site_temple_title: "[first.GetShortUIName|U] [Select_CString(first.IsFemale, 'пожертвовала', 'пожертвовал' )] на сохранение священных мест в провинции [province.GetNameNoTooltip]"
+ apa_donated_to_holy_site_temple_title: "[first.GetShortUIName|U] [Select_CString(first.IsFemale, 'пожертвовала', 'пожертвовал' )] на сохранение святых мест в провинции [province.GetNameNoTooltip]"
  apa_tended_to_travellers_title: "[first.GetShortUIName|U] [Select_CString(first.IsFemale, 'ухаживала', 'ухаживал' )] за другими путниками в провинции [province.GetNameNoTooltip]"
  apa_spiritual_journey_title: "[first.GetShortUIName|U] и [second.GetShortUIName|U] сблизились благодаря совместному путешествию"
  every_pilgrimage_entourage_character: "Каждый гость на занятии"

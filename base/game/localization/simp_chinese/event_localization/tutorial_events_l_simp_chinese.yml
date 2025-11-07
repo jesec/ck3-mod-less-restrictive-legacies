@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
  tutorial.0001.t: "恩尼斯令人担忧的事态"
- tutorial.0001.desc: "深夜，我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('potential_ally'))] [potential_ally.GetFirstName]敲响了我的房门，我让[potential_ally.GetHerHim]进了房门。[potential_ally.GetSheHe]说的话令人不安，[potential_ally.GetHerHim]的表情非常严肃。\n\n“[GetPlayer.GetFirstNameNoTooltip]，你听说了吗？[bad_guy.GetTitledFirstName]正在对你的领地伪造宣称。我也不愿这么说，但我担心[bad_guy.GetSheHe]正在备战。”"
+ tutorial.0001.desc: "深夜，我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('potential_ally'))][potential_ally.GetFirstName]敲响了我的房门，我让[potential_ally.GetHerHim]进了房门。[potential_ally.GetSheHe]说的话令人不安，[potential_ally.GetHerHim]的表情非常严肃。\n\n“[GetPlayer.GetFirstNameNoTooltip]，你听说了吗？[bad_guy.GetTitledFirstName]正在对你的领地伪造宣称。我也不愿这么说，但我担心[bad_guy.GetSheHe]正在备战。”"
  tutorial.0001.a: "我会和[bad_guy.GetTitledFirstNameNoTooltip]谈一谈。"
  tutorial.0001.a_flavor: "#TUT 选择此选项，你将尝试与[bad_guy.GetTitledFirstName]交友，有可能得到新的[friend|e]并彻底避免[war|e]。#!"
  tutorial.0001.b: "我不怕醉醺醺的傻瓜。"

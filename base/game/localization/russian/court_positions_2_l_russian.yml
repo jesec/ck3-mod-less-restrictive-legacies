@@ -78,6 +78,7 @@
  artifact_domain_tax_mult_1_modifier: "Налоги домена"
  artifact_zealot_vassal_opinion_1_modifier: "Мнение фанатичных вассалов"
  artifact_zealot_tax_contribution_mult_1_modifier: "Налоговый вклад фанатичных вассалов"
+ artifact_belligerent_tax_contribution_mult_1_modifier: "Налоговый вклад воинственных вассалов"
  artifact_court_grandeur_baseline_add_1_modifier: "Величие двора"
  artifact_development_growth_1_modifier: "Прирост развития"
  artifact_glory_hound_vassal_opinion_1_modifier: "Мнение охотников за славой"

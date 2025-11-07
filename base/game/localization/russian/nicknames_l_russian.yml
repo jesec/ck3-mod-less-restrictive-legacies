@@ -759,7 +759,7 @@
  nick_the_pragmatic_desc: "Лучшее решение — это самое подходящее здесь и сейчас решение."
  nick_the_equitable: "[Select_CString(CHARACTER.IsFemale, 'Беспристрастная', 'Беспристрастный' )]"
  nick_the_equitable_desc: "[Select_CString( CHARACTER.IsLocalPlayer, 'Вы', Select_CString(CHARACTER.IsFemale, 'Она', 'Он' ))] [Select_CString( CHARACTER.IsLocalPlayer, 'предпочитаете', 'предпочитает' )] делить всё честно и поровну."
- nick_the_crownless: "без короны"
+ nick_the_crownless: "[Select_CString(CHARACTER.IsFemale, 'Некоронованная', 'Некоронованный' )]"
  nick_the_crownless_desc: "Хоть эпитет, автор которого — [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонаж ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )], и не особенно поэтичен, но зато он нагляден, выразителен и хлесток."
  #BP1
  nick_the_real: "[Select_CString(CHARACTER.IsFemale, 'Настоящая', 'Настоящий' )]"

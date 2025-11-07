@@ -9,7 +9,7 @@
  ep3_laamps.0001.b: "Alles obliegt [alt_1.GetFirstNameNoTooltipRegnal]."
  target_character_government: "[government|E]: [TARGET_CHARACTER.GetGovernment.GetName]"
  target_character_independent: "[independent_ruler|E]"
- target_character_liege: "[SelectLocalization(TARGET_CHARACTER.IsIndependentRuler, 'Unabhängig', 'Vasall von [TARGET_CHARACTER.GetLiege.GetName]')]"
+ target_character_liege: "[SelectLocalization(TARGET_CHARACTER.IsIndependentRuler, 'Unabhängig', 'Vasall von TARGET_CHARACTER.GetLiege.GetName')]"
  ep3_laamps.0001.c: "[alt_2.GetFirstNameNoTooltipRegnal|U] muss die Zukunft unseres Hauses schmieden."
  ep3_laamps.0001.d: "Unser Blick ist nun auf [alt_3.GetFirstNameNoTooltipRegnal] gerichtet."
  ep3_laamps.0001.e: "Die Zeit ist gekommen …"

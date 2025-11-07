@@ -103,4 +103,4 @@
  my_holy_order_new_lease_message: "[holy_order.GetName] обосновались в баронстве [barony.GetNameNoTier]. Их сила растет."
  #Joined Great Holy War
  is_holy_order_trigger: "[holy_order|E]"
- CONTROLS_HOLY_SITE_TRIGGER: "Контролирует священное место: $TITLE$"
+ CONTROLS_HOLY_SITE_TRIGGER: "Контролирует святое место: $TITLE$"

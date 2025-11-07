@@ -96,7 +96,7 @@
  poor.aptitude_tt: "[local_character.GetUINamePossessive] [aptitude|E]이 $aptitude_poor$ 수준임"
  terrible.aptitude_tt: "[local_character.GetUINamePossessive] [aptitude|E]이 $aptitude_terrible$ 수준임"
  ep3_travel_option_events.0001.t: "$adventurers_scout_for_talent_option$: 자발적인 추종자"
- ep3_travel_option_events.0001.intro: "[location.GetTitle.GetNameNoTier](을)를 지나가다가 한 [local_character.GetWomanMan]을 만났다. 내가 다가가자 [local_character.GetSheHe|U]는 [ROOT.Char.Custom2('QuirkAdjectivePosOrNeg', SCOPE.sC('local_character'))], 그리고 [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('local_character'))] 모습을 보였다.\n\n"
+ ep3_travel_option_events.0001.intro: "[location.GetTitle.GetNameNoTier](을)를 지나가다가 한 [local_character.GetWomanMan]을 만났다. 내가 다가가자 [local_character.GetSheHe|U]는 [ROOT.Char.Custom2('QuirkAdjectivePosOrNeg', SCOPE.sC('local_character'))] 모습으로 [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('local_character'))].\n\n"
  ep3_travel_option_events.0001.court_physician_court_position: "\"[local_character.GetFaith.HighGodName|U]께서 당신과 함께하시길. 제 이름은 [local_character.GetFullName]입니다. [location.GetNameNoTooltip]의 치료사이자 약초 판매상으로 일하고 있죠. 동네 사람들은 뼈가 부러지거나 물집이 잡힐 때, 가끔은 출산 문제까지 저한테 의지합니다. 그런데 건강과 체액에 관심이 많다 보니 세상을 돌아보고 싶어지더군요. 탐험의 시간이 제게는 간절합니다.\"\n\n"
  ep3_travel_option_events.0001.bodyguard_court_position: "\"반갑습니다. 제 이름은 [local_character.GetFullName]입니다. 저는 힘으로 사람 상대하는 방법에 일가견이 있습니다. 근방에서는 저를 당할 자가 없을 정도죠. 어젯밤에도 마구간지기를 한 방에 쓰러뜨렸을 정도입니다.\n\n"
  ep3_travel_option_events.0001.travel_leader_court_position: "\"여행자! 길을 잃었나요? 제 이름은 [local_character.GetFullName]입니다. 이 주변은 제 안마당과 다름없죠. 날마다 이 아름다운 [location.Custom('GetTerrainTypePlural')]에서 양을 몰고 다닙니다. 그런데 먼 길을 떠나고 싶은 욕심이 왜 이렇게 치고 나오는지 모르겠어요. 길잡이가 되는 게 제 꿈입니다.\"\n\n"

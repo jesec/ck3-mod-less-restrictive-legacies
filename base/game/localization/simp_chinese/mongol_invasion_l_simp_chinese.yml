@@ -63,6 +63,6 @@
  mongol_invasion.2111.b.tt: "@warning_icon![mongol_emperor.GetShortUIName]撕毁了[mongol_emperor.GetHerHis]与你的同盟协议"
  mongol_invasion.2112.desc: "你真的以为自己比我强？你根本就比不上我！很明显，我慷慨地给予你的友谊根本是对牛弹琴。"
  mongol_invasion.2112.a: "哦，你会为你的言行后悔的……"
- temujin_horde_gathers_tt: "@alert_icon!#alert_trial 上天选中的可汗，游牧战士将继续聚集在你身后，给予你更多@herd_icon![herd|E]、@prestige_icon![prestige|E]和@gold_icon![gold|E]——只要你的[dominance|E]仍高于[GetLaw('nomadic_authority_3').GetName]#!"
+ temujin_horde_gathers_tt: "@alert_icon!#alert_trial 你是上天选中的可汗，游牧战士将继续聚集在你身后，给予你更多@herd_icon![herd|E]、@prestige_icon![prestige|E]和@gold_icon![gold|E]——只要你的[dominance|E]仍高于[GetLaw('nomadic_authority_3').GetName]#!"
  mpo_greatest_of_khans.1010_title: "次要部落加入游牧军团"
  mpo_greatest_of_khans.1010_desc: "无主的骑手宣誓效忠！热切的战士献上弓箭！无数家族涌向你的伟大营帐！"

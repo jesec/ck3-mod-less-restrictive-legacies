@@ -179,6 +179,8 @@
  WARNING_INVITE_CANNOT_JOIN: "@warning_icon! #X [faction_invite_from.GetTitledFirstName](은)는 파벌에 합류할 수 없습니다.#!"
  #FACTION JOIN/CREATE REASONS
  FACTION_REASON_AI_PERSONALITY: "\n[personality|E]: $RESULT|0+=$"
+ FACTION_REASON_DIFFICULTY_HARD: "어려움 난이도: $VALUE|0+=$"
+ FACTION_REASON_DIFFICULTY_VERY_HARD: "매우 어려움 난이도: $VALUE|0+=$"
  FACTION_REASON_DIFFICULTY_EASY: "쉬움 난이도: $VALUE|0+=$"
  FACTION_REASON_DIFFICULTY_VERY_EASY: "매우 쉬움 난이도: $VALUE|0+=$"
  FACTION_REASON_GAME_RULE_REALM_STABILITY_LESSER: "낮은 봉역 안정성 게임 규칙: $VALUE|0+=$"
@@ -356,3 +358,4 @@
  FACTION_REASON_CLAIMANT_PRIMARY_HEIR: "[claimant|E]가 나의 [heir|E]: $VALUE|+0=$"
  FACTION_REASON_ADMINISTRATIVE: "[administrative|E] [vassal|E]: $VALUE|+0=$"
  FACTION_REASON_NOMADIC: "[GetGovernment( 'nomad_government' ).GetName]: $VALUE|+0=$"
+ FACTION_REASON_DETRACTOR: "[coronation_detractor|E]: $VALUE|+0=$"

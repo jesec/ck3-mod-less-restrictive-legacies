@@ -297,11 +297,11 @@
  slavic_pagan_old_adherent: "旧斯拉夫真理教徒"
  slavic_pagan_old_adherent_plural: "旧斯拉夫真理教徒"
  #Finno-Ugric
- finno_ugric_religion: "芬兰-乌戈尔原始宗教"
- finno_ugric_religion_adj: "芬兰-乌戈尔原始宗教"
- finno_ugric_religion_adherent: "芬兰-乌戈尔原始宗教信徒"
- finno_ugric_religion_adherent_plural: "芬兰-乌戈尔原始宗教信徒"
- finno_ugric_religion_desc: "对自然的崇敬和对祖先和传统的尊敬定义了芬兰-乌戈尔原始宗教。信徒们看中名为“西苏”的品质，代表着芬兰人眼中的坚忍决心、咬紧牙关、勇往直前和坚韧不拔。"
+ finno_ugric_religion: "芬兰‑乌戈尔原始宗教"
+ finno_ugric_religion_adj: "芬兰‑乌戈尔原始宗教"
+ finno_ugric_religion_adherent: "芬兰‑乌戈尔原始宗教信徒"
+ finno_ugric_religion_adherent_plural: "芬兰‑乌戈尔原始宗教信徒"
+ finno_ugric_religion_desc: "对自然的崇敬和对祖先和传统的尊敬定义了芬兰‑乌戈尔原始宗教。信徒们看中名为“西苏”的品质，代表着芬兰人眼中的坚忍决心、咬紧牙关、勇往直前和坚韧不拔。"
  finno_ugric_high_god_name: "乌戈"
  finno_ugric_high_god_name_2: "$finno_ugric_high_god_name$" #Optional translation alt
  finno_ugric_high_god_name_possessive: "乌戈"
@@ -1095,10 +1095,10 @@
  zun_pagan_old_adherent: "旧尊日教徒"
  zun_pagan_old_adherent_plural: "旧尊日教徒"
  #Hellenism
- hellenism_religion: "希腊-罗马多神教"
- hellenism_religion_adj: "希腊-罗马多神教"
- hellenism_religion_adherent: "希腊-罗马多神教信徒"
- hellenism_religion_adherent_plural: "希腊-罗马多神教信徒"
+ hellenism_religion: "希腊‑罗马多神教"
+ hellenism_religion_adj: "希腊‑罗马多神教"
+ hellenism_religion_adherent: "希腊‑罗马多神教信徒"
+ hellenism_religion_adherent_plural: "希腊‑罗马多神教信徒"
  hellenism_religion_desc: "希腊多神教信徒崇拜古希腊与古罗马的诸神，据说他们住在奥林波斯山。每个神祇有自己独特的一面，被他们的崇拜者以各自的方式敬礼。"
  hellenism_high_god_name: "宙斯"
  hellenism_high_god_name_2: "$hellenism_high_god_name$" #Optional translation alt
@@ -1177,21 +1177,21 @@
  siberian_religion_adherent: "西伯利亚原始宗教信徒"
  siberian_religion_adherent_plural: "西伯利亚原始宗教信徒"
  siberian_religion_desc: "西伯利亚原始宗教的信徒相信人类和野兽都以氏族为单位，生活在同一个平面世界里，通过联盟或复仇相互联结在一起。狩猎则是在索取和给予生命之间保持平衡的核心要义，所有逝去的灵魂都会顺流而下，重新转生到他们生活过的氏族之中。"
- siberian_high_god_name: "努米-托鲁姆"
+ siberian_high_god_name: "努米‑托鲁姆"
  siberian_high_god_name_2: "$siberian_high_god_name$" #Optional translation alt
- siberian_high_god_name_possessive: "努米-托鲁姆"
- siberian_high_god_name_alternate: "科尔斯-托鲁姆"
- siberian_high_god_name_alternate_possessive: "科尔斯-托鲁姆"
+ siberian_high_god_name_possessive: "努米‑托鲁姆"
+ siberian_high_god_name_alternate: "科尔斯‑托鲁姆"
+ siberian_high_god_name_alternate_possessive: "科尔斯‑托鲁姆"
  siberian_good_god_forest_father: "林父" #partly fictional
  siberian_good_god_river_mother: "河母" #partly fictional
  siberian_good_god_mountain_master: "山主" #partly fictional
  siberian_good_god_earth_mother: "地母神" #partly fictional
  siberian_good_god_house_master: "房之主" #partly fictional
- siberian_devil_name: "库利-奥蒂尔"
- siberian_devil_name_possessive: "库利-奥蒂尔"
+ siberian_devil_name: "库利‑奥蒂尔"
+ siberian_devil_name_possessive: "库利‑奥蒂尔"
  siberian_evil_god_lost_shades: "忘却之影"
- siberian_death_deity_name: "克尼-沃尔特" #prince of sickness
- siberian_death_deity_name_possessive: "克尼-沃尔特"
+ siberian_death_deity_name: "克尼‑沃尔特" #prince of sickness
+ siberian_death_deity_name_possessive: "克尼‑沃尔特"
  siberian_religious_symbol: "熊"
  siberian_religious_symbol_2: "$siberian_religious_symbol$" #Optional translation alt
  siberian_religious_symbol_3: "$siberian_religious_symbol$" #Optional translation alt
@@ -1204,30 +1204,30 @@
  siberian_afterlife_negative: "库利"
  siberian_afterlife_negative_2: "$siberian_afterlife_negative$" #Optional translation alt
  siberian_afterlife_negative_3: "$siberian_afterlife_negative$" #Optional translation alt
- siberian_witchgodname: "卡勒塔什-埃克瓦"
- siberian_witchgodname_possessive: "卡勒塔什-埃克瓦"
+ siberian_witchgodname: "卡勒塔什‑埃克瓦"
+ siberian_witchgodname_possessive: "卡勒塔什‑埃克瓦"
  siberian_creator_god_name: "$siberian_high_god_name$"
  siberian_creator_god_name_possessive: "$siberian_high_god_name_possessive$"
- siberian_health_god_name: "阿斯-伊基"
- siberian_health_god_name_possessive: "阿斯-伊基"
+ siberian_health_god_name: "阿斯‑伊基"
+ siberian_health_god_name_possessive: "阿斯‑伊基"
  siberian_fertility_god_name: "卡勒塔什"
  siberian_fertility_god_name_possessive: "卡勒塔什"
  siberian_wealth_god_name: "财运精魂"
  siberian_wealth_god_name_possessive: "财运精魂"
- siberian_household_god_name: "米尔-苏斯奈-胡姆"
- siberian_household_god_name_possessive: "米尔-苏斯奈-胡姆"
+ siberian_household_god_name: "米尔‑苏斯奈‑胡姆"
+ siberian_household_god_name_possessive: "米尔‑苏斯奈‑胡姆"
  siberian_fate_god_name: "$siberian_fertility_god_name$"
  siberian_fate_god_name_possessive: "$siberian_fertility_god_name_possessive$"
- siberian_knowledge_god_name: "索尔尼-伊基"
- siberian_knowledge_god_name_possessive: "索尔尼-伊基"
+ siberian_knowledge_god_name: "索尔尼‑伊基"
+ siberian_knowledge_god_name_possessive: "索尔尼‑伊基"
  siberian_war_god_name: "猎手" #fictional
  siberian_war_god_name_possessive: "猎手"
- siberian_trickster_god_name: "克尼-伊基"
- siberian_trickster_god_name_possessive: "克尼-伊基"
+ siberian_trickster_god_name: "克尼‑伊基"
+ siberian_trickster_god_name_possessive: "克尼‑伊基"
  siberian_night_god_name: "$siberian_fertility_god_name$"
  siberian_night_god_name_possessive: "$siberian_fertility_god_name_possessive$"
- siberian_water_god_name: "卡瑟姆-伊米"
- siberian_water_god_name_possessive: "卡瑟姆-伊米"
+ siberian_water_god_name: "卡瑟姆‑伊米"
+ siberian_water_god_name_possessive: "卡瑟姆‑伊米"
  siberian_priest_male: "萨满"
  siberian_priest_male_plural: "萨满"
  siberian_priest_female: "女萨满"

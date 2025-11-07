@@ -111,7 +111,7 @@
  martial_strategy.3014.a: "[my_liege.GetTitledFirstNamePossessiveNoTooltip] 전략이 감명 깊군."
  #Storm Your Own Castle, by Linnéa Thimrén
  martial_strategy_special.1301.t: "공성 중"
- martial_strategy_special.1301.desc: "[siege_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)](이)가 \"병사에게 있어 진정한 적은 자기만족입니다.\"라고 말하고는 [siege_proposer.Custom('quirk_pos_present_type3_KR')]다. 우린 [ROOT.Char.Custom('FortifiedBuilding')] 벽 위에 나란히 서서 아래서 훈련 중인 병사들을 보고 있었다.\n\n\"[ROOT.Char.Custom('FortifiedBuilding')] 문을 나무판자로 바꿀 수도 있습니다. 그렇게 하면 상대의 화살 공격을 약화시킬 수 있겠죠.\" [siege_proposer.GetSheHe]가 계속해서 말한다. \"[ROOT.Char.Custom('FortifiedBuilding')](으)로 모의 돌격 공격 훈련을 해봅시다. 그러면 실전에서도 얼마나 잘 할 수 있을지 볼 수 있으니!\""
+ martial_strategy_special.1301.desc: "[siege_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)](이)가 \"병사에게 있어 진정한 적은 자기만족입니다.\"라고 말하고는 [siege_proposer.Custom('quirk_pos_pp')]. 우린 [ROOT.Char.Custom('FortifiedBuilding')] 벽 위에 나란히 서서 아래서 훈련 중인 병사들을 보고 있었다.\n\n\"[ROOT.Char.Custom('FortifiedBuilding')] 문을 나무판자로 바꿀 수도 있습니다. 그렇게 하면 상대의 화살 공격을 약화시킬 수 있겠죠.\" [siege_proposer.GetSheHe]가 계속해서 말한다. \"[ROOT.Char.Custom('FortifiedBuilding')](으)로 모의 돌격 공격 훈련을 해봅시다. 그러면 실전에서도 얼마나 잘 할 수 있을지 볼 수 있으니!\""
  martial_strategy_special.1301.a: "방어에 시간을 더 들이는 게 좋을 것 같소만."
  martial_strategy_special.1301.b: "좋은 생각이오. 방어군은 자네가 이끄시오!"
  martial_strategy_special.1301.b.tt: "#F 전투를 시작한다!#!"

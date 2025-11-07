@@ -10,7 +10,7 @@
  SITUATION_WINDOW_PHASE_EFFECTS: "阶段效果"
  SITUATION_WINDOW_YOUR_PARTICIPANT_GROUP: "你的[situation_participant_group|E]"
  SITUATION_WINDOW_YOUR_PARTICIPANT_GROUP_MULTI_SUBREGION: "你在该[situation_sub_region|E]的[situation_participant_group|E]"
- SITUATION_WINDOW_VIEW_PARTICIPANT_GROUPS: "所有群组"
+ SITUATION_WINDOW_VIEW_PARTICIPANT_GROUPS: "所有集团"
  SITUATION_WINDOW_NO_REGION_PARTICIPANT_GROUP: "#italic 你不在该[situation_sub_region|E]的[situation_participant_group|E]中。#!"
  SITUATION_WINDOW_VIEW_ALL_FUTURE_PHASES: "所有阶段"
  SITUATION_WINDOW_FUTURE_PHASES_HEADER: "所有可能的下一[situation_phases|E]"

@@ -226,3 +226,4 @@
  clan_unity_become_soulmate.desc: "成为[unity_target.GetName]的[soulmate|E]"
  clan_unity_caliph_interfered_with_unity.desc: "[unity_target.GetName]应[unity_character.GetName]的要求加以干涉"
  clan_unity_seize_realm_attempted.desc: "试图夺取[unity_target.GetNamePossessive]的领地"
+ clan_unity_coronation_reward.desc: "参加[unity_target.GetNamePossessive]的[coronation|E]"

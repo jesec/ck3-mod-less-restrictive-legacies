@@ -86,7 +86,7 @@
  religious_decision.0211.desc.beginning.hills: "[meditation_location.GetName]山顶上的清晰视野让我陷入沉思。"
  religious_decision.0211.desc.beginning.steppe: "[meditation_location.GetName]草原广袤的天空之下，我发现我的灵魂无拘无束，可以自由游荡。"
  religious_decision.0211.desc.beginning.forest: "抵达[meditation_location.GetName]的森林后，我找了一块宁静的空地来冥想。"
- religious_decision.0211.desc.beginning.drylands: "[meditation_location.GetName]的灌木丛的干燥空气灌满了我的肺，并冲刷着我的皮肤。"
+ religious_decision.0211.desc.beginning.drylands: "[meditation_location.GetName]灌木丛林地的干燥空气灌满了我的肺，并冲刷着我的皮肤。"
  religious_decision.0211.desc.beginning.mountains: "在我专注于内心时，[meditation_location.GetName]山地稀薄的空气净化了我的思想。"
  religious_decision.0211.desc.beginning.wetlands: "[meditation_location.GetName]的湿地的湿热空气让我的衣服粘在我的皮肤上，我坐下来，审视自己的灵魂。"
  religious_decision.0211.desc.beginning.jungle: "在我试图审视内心时，[meditation_location.GetName]的丛林中的嘈杂昆虫和鸣叫的鸟儿构成了不变的背景音。"

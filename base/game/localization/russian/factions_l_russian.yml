@@ -179,6 +179,8 @@
  WARNING_INVITE_CANNOT_JOIN: "@warning_icon! #X [faction_invite_from.GetTitledFirstName] не может вступить во фракцию#!"
  #FACTION JOIN/CREATE REASONS
  FACTION_REASON_AI_PERSONALITY: "\n[personality|E]: $RESULT|0+=$"
+ FACTION_REASON_DIFFICULTY_HARD: "Высокая сложность: $VALUE|0+=$"
+ FACTION_REASON_DIFFICULTY_VERY_HARD: "Очень высокая сложность: $VALUE|0+=$"
  FACTION_REASON_DIFFICULTY_EASY: "Низкая сложность: $VALUE|0+=$"
  FACTION_REASON_DIFFICULTY_VERY_EASY: "Очень низкая сложность: $VALUE|0+=$"
  FACTION_REASON_GAME_RULE_REALM_STABILITY_LESSER: "Правило игры, снижающее стабильность держав: $VALUE|0+=$"
@@ -356,3 +358,4 @@
  FACTION_REASON_CLAIMANT_PRIMARY_HEIR: "[Concept('claimant', 'Претендент')|E] — мой [Concept('heir', 'наследник')|E]: $VALUE|+0=$"
  FACTION_REASON_ADMINISTRATIVE: "[Concept('administrative', 'Бюрократический')|E] [Concept('vassal', 'вассал')|E]: $VALUE|+0=$"
  FACTION_REASON_NOMADIC: "#TOOLTIP:GOVERNMENT_TYPE,nomad_government #L Кочевники#!#!: $VALUE|+0=$"
+ FACTION_REASON_DETRACTOR: "[coronation_detractor|E]: $VALUE|+0=$"

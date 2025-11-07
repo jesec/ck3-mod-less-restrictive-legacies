@@ -2,7 +2,7 @@
  GetRandomExteriorDetail_small_bird: "작은 [ROOT.Char.Custom('GetRandomRegionalWildDaytimeBird')] 한 마리가 나무 사이에 숨어 있었다."
  GetRandomExteriorDetail_birdsong: "새들의 지저귀는 소리가 귀를 간지럽혔다."
  GetRandomExteriorDetail_wildflower: "[ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')] 한 송이가 자연에 거스르듯 고독하게 만발하고 있었다."
- GetRandomExteriorDetail_singing: "저 멀리 성에서 즐거운 노랫소리가 들려왔다."
+ GetRandomExteriorDetail_singing: "저 멀리 성에서 즐거운 노래를 부르는 목소리가 들려왔다."
  GetRandomExteriorDetail_banquet: "고개를 올려다 본 성의 창문에서 맛있는 음식 냄새가 풍겨 왔다."
  GetRandomExteriorDetail_praying: "사원에서 기도를 낭송하는 소리가 들려왔다."
  GetRandomExteriorDetail_bells: "문득 종소리가 들려왔다."

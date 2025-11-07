@@ -47,7 +47,7 @@
  fp3_yearly.2021.desc_arbitrary: "\"[sinful_tax_collector.GetTitledFirstNameNoTooltip](은)는 거의 모든 법이나 규정을 무시합니다. 대신 자기 변덕에 따라 세금을 거두는 경우가 많더군요. [sinful_tax_collector.GetHerHis] 일관성 없는 징세로 인해 농노들이 많이 힘들어하고 있습니다.\""
  fp3_yearly.2021.desc_cynical: "\"[sinful_tax_collector.GetTitledFirstNameNoTooltip](은)는 [ROOT.Char.GetFaith.HighGodName]에 대한 두려움이 전혀 없어 보입니다. 자느라 아침 기도를 건너뛰는 건 물론이고 라마단 기간에도 뭘 계속 먹더군요. [ROOT.Char.GetFaith.HighGodNamePossessive] 심판이 [sinful_tax_collector.GetHerHis] 행위를 벌하는 게 아닐지 다들 두려워하고 있습니다.\""
  fp3_yearly.2021.desc_contrite: "\"[sinful_tax_collector.GetTitledFirstNameNoTooltip]에겐 신중함이란 미덕이 없습니다. 봉역의 재정 상태를 묻기만 하면 누구에게든 말해버리죠. 이래서야 정보가 적의 손에 들어가는 건 시간문제일 뿐입니다.\""
- fp3_yearly.2021.desc_outro: "\n\n[denouncing_taxpayer.GetTitledFirstNameNoTooltip] [denouncing_taxpayer.Custom('quirk_pos_present')](은)는 이런 위반 문제로 내가 자기를 해고할 수도 있다는 걸 분명 알고 있을 것이다."
+ fp3_yearly.2021.desc_outro: "\n\n[denouncing_taxpayer.GetTitledFirstNameNoTooltip](은)는 [denouncing_taxpayer.Custom('quirk_pos_present')]. 이런 위반 문제로 내가 자기를 해고할 수도 있다는 걸 분명 알고 있을 것이다."
  fp3_yearly.2021.a: "[sinful_tax_collector.GetTitledFirstNameNoTooltip|U](을)를 해임하겠다."
  fp3_yearly.2021.b: "네 말을 명심하겠다."
  fp3_yearly.2030.t: "아름다운 통치"

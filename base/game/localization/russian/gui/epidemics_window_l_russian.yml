@@ -36,6 +36,6 @@
  EPIDMIC_TOOLTIP_DOMAIN_INFECTIONS: "Заболевания в [Concept( 'domain', 'домене' )|E]: #high [Epidemic.CalcDomainInfected( GetPlayer )]/[GetPlayer.GetDomainSize]#!"
  EPIDEMIC_TOOLTIP_COURT_PHYSICIAN: "Наймите придворного врача или постройте [Concept( 'buildings', 'здания' )|E], повышающие [Concept( 'epidemic_resistance', 'сопротивляемость эпидемии' )|E], чтобы повлиять на распространение болезни."
  EPIDEMIC_TOOLTIP_OUTBREAK: "Вспышка началась в провинции [Epidemic.GetStartingOutbreakProvince.GetName] [Epidemic.GetOutbreakStartDate.GetString]"
- EPIDEMIC_TOOLTIP_CHANCE_OF_INFECTION_CHARACTER_LOCATION: "Шанс [Concept( 'illness', 'подхватить' )|E] недуг «[EpidemicType.GetTrait.GetName( GetPlayer )]» во владении [GetPlayer.GetCurrentLocation.GetName]: [Epidemic.CalcInfectionChance( GetPlayer, GetPlayer.GetCurrentLocation )|V%/^]"
- EPIDEMIC_TOOLTIP_CHANCE_OF_INFECTION_SPECIFIC_PROVINCE: "Шанс [Concept( 'illness', 'подхватить' )|E] недуг «[EpidemicType.GetTrait.GetName( GetPlayer )]» во владении [Province.GetName]: [Epidemic.CalcInfectionChance( GetPlayer, Province.Self )|V%/^]"
+ EPIDEMIC_TOOLTIP_CHANCE_OF_INFECTION_CHARACTER_LOCATION: "Шанс [Concept( 'illness', 'подхватить' )|E] $epidemictype_gettrait_acc_lower$ во владении [GetPlayer.GetCurrentLocation.GetName]: [Epidemic.CalcInfectionChance( GetPlayer, GetPlayer.GetCurrentLocation )|V%/^]"
+ EPIDEMIC_TOOLTIP_CHANCE_OF_INFECTION_SPECIFIC_PROVINCE: "Шанс [Concept( 'illness', 'подхватить' )|E] $epidemictype_gettrait_acc_lower$ во владении [Province.GetName]: [Epidemic.CalcInfectionChance( GetPlayer, Province.Self )|V%/^]"
  EPIDEMIC_GO_TO: "#T Перейти к пандемии#!"

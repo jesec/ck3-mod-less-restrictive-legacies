@@ -67,7 +67,7 @@
  holiness_holy_site_1: "[ROOT.Var('holy_site_var').Title.GetNameNoTierNoTooltip] — важнейший центр [ROOT.Char.GetFaith.GetNameNoTooltip|l]ого паломничества и поклонения."
  holiness_fallback_1: "[ROOT.Var('holy_site_var').Title.GetNameNoTierNoTooltip] полнится громкими криками верующих, которые молятся о прозрении и спасении от [ROOT.Var('holy_site_var').Title.GetCountyData.GetFaith.DevilNamePossessive]."
  holiness_cathedral_2: "[ROOT.Char.GetFaith.HouseOfWorship] весьма высокой значимости"
- holiness_holy_site_2: "столь священное место"
+ holiness_holy_site_2: "столь святое место"
  holiness_fallback_2: "больше чем [ROOT.Var('holy_site_var').Title.GetDeFactoTopLiege.GetNameNoTierNoTooltip]"
  holiness_cathedral_3: "[ROOT.Char.Custom('GetFaithGrandTemple')] — собственность [ROOT.Char.GetFaith.HighGodName]."
  holiness_holy_site_3: "[ROOT.Var('holy_site_var').Title.GetNameNoTierNoTooltip] — сокровище, владеть которым могут только [ROOT.Char.GetFaith.PriestNeuterPlural]."
@@ -1024,9 +1024,9 @@
  yeke_jarquchi_salary_tooltip: "[GetCourtPositionType( 'yeke_jarquchi_court_position' ).GetName()] получает ежемесячное жалованье — [SCOPE.ScriptValue('minor_court_position_salary')|2] [gold_i]"
  #Foreign Emissary
  foreign_emissary_aptitude_tooltip: "[Select_CString(candidate.IsLocalPlayer, 'Ваша', Select_CString(candidate.IsFemale, 'Ее', 'Его' ))] [Concept('aptitude', 'пригодность')|E] — [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'foreign_emissary_court_position' ) )|l]"
- foreign_emissary_old_holder_aptitude_tooltip: "[Select_CString(candidate.IsLocalPlayer, 'Ваша', Select_CString(candidate.IsFemale, 'Ее', 'Его' ))] [Concept('aptitude', 'пригодность')|E] — [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'foreign_emissary_court_position' ) )|l] #weak ([old_holder.GetFirstName] — [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'foreign_emissary_court_position' ) )]|l)#!"
+ foreign_emissary_old_holder_aptitude_tooltip: "[Select_CString(candidate.IsLocalPlayer, 'Ваша', Select_CString(candidate.IsFemale, 'Ее', 'Его' ))] [Concept('aptitude', 'пригодность')|E] — [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'foreign_emissary_court_position' ) )|l] #weak ([old_holder.GetFirstName] — [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'foreign_emissary_court_position' ) )|l])#!"
  foreign_emissary_salary_tooltip: "[GetCourtPositionType( 'foreign_emissary_court_position' ).GetName()] has a monthly salary of [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"
  #Keeper of the Horses
  keeper_of_the_horses_aptitude_tooltip: "[Select_CString(candidate.IsLocalPlayer, 'Ваша', Select_CString(candidate.IsFemale, 'Ее', 'Его' ))] [Concept('aptitude', 'пригодность')|E] — [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'keeper_of_the_horses_court_position' ) )|l]"
- keeper_of_the_horses_old_holder_aptitude_tooltip: "[Select_CString(candidate.IsLocalPlayer, 'Ваша', Select_CString(candidate.IsFemale, 'Ее', 'Его' ))] [Concept('aptitude', 'пригодность')|E] — [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'keeper_of_the_horses_court_position' ) )|l] #weak ([old_holder.GetFirstName] — [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'keeper_of_the_horses_court_position' ) )]|l)#!"
+ keeper_of_the_horses_old_holder_aptitude_tooltip: "[Select_CString(candidate.IsLocalPlayer, 'Ваша', Select_CString(candidate.IsFemale, 'Ее', 'Его' ))] [Concept('aptitude', 'пригодность')|E] — [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'keeper_of_the_horses_court_position' ) )|l] #weak ([old_holder.GetFirstName] — [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'keeper_of_the_horses_court_position' ) )keeper_of_the_horses_old_holder_aptitude_tooltip]|l)#!"
  keeper_of_the_horses_salary_tooltip: "[GetCourtPositionType( 'keeper_of_the_horses_court_position' ).GetName()] has a monthly salary of [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"

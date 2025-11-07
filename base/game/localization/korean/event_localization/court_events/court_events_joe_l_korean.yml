@@ -242,8 +242,8 @@
  ## Contrived Conflict
  court.8130.t: "부자연스러운 갈등"
  court.8130.desc.intro: "왕좌에 앉아 이런저런 생각을 곱씹던 중, 난데없이 소란이 일었다. \n\n나의 $champion_court_position$ [champion.GetFirstName](이)가 포효했다. \"내가 그 말뜻을 모를 줄 알았느냐, 이 [vassal.Custom('InsultNoun')] 같은 놈아! #EMP 감히#! 우리 [ROOT.Char.GetTitleAsNameNoTooltip]을 모욕해?!\" 그 말을 들은 [vassal.GetTitledFirstName](은)는 당혹한 표정을 지었다. [mediator.Custom2('MyCharacterIntroduction', ROOT.Char)|U](이)가 재빨리 끼어들어 두 사람을 떨어뜨려 놓았지만, 분위기는 이미 돌이킬 수 없을 만큼 어지러워진 뒤였다. \n\n"
- court.8130.desc.bold: "\"궁정 급에 안 맞는 소란을 일으키는군. 네 녀석 수작질에 겁이라도 먹을 줄 알았느냐?\" [vassal.GetTitledFirstNameNoTooltip](이)가 응수했다. $court.8130.desc.body$ [vassal.GetTitleAsNameNoTooltip](이)가 [vassal.Custom('quirk_pos_present')]하며 대답했다. \"좋다. 내 기꺼이 [champion.Custom('InsultAdjective')] 짐승 새끼에게 주제를 가르쳐 주지.\""
- court.8130.desc.craven: "\"아, 아니, 그런 소리는 한 적도 없는데!\" [vassal.GetTitledFirstNameNoTooltip](이)가 황망해하며 불쑥 내뱉었다. $court.8130.desc.body$ [vassal.GetTitleAsNameNoTooltip](이)가 [vassal.Custom('quirk_pos_present')]하며 말을 더듬었다. \"무, 무슨 소리요! 이, 이렇게까지 할 필요는 없잖아!\""
+ court.8130.desc.bold: "\"궁정 급에 안 맞는 소란을 일으키는군. 네 녀석 수작질에 겁이라도 먹을 줄 알았느냐?\" [vassal.GetTitledFirstNameNoTooltip](이)가 응수했다. $court.8130.desc.body$ [vassal.GetTitleAsNameNoTooltip](은)는 [vassal.Custom('quirk_pos_present')]. \"좋다. 내 기꺼이 [champion.Custom('InsultAdjective')] 짐승 새끼에게 주제를 가르쳐 주지.\""
+ court.8130.desc.craven: "\"아, 아니, 그런 소리는 한 적도 없는데!\" [vassal.GetTitledFirstNameNoTooltip](이)가 황망해하며 불쑥 내뱉었다. $court.8130.desc.body$ [vassal.GetTitleAsNameNoTooltip](이)가 말을 더듬으며 [vassal.Custom('quirk_pos_present')]. \"무, 무슨 소리요! 이, 이렇게까지 할 필요는 없잖아!\""
  court.8130.desc.body: "\"내 두 귀로 똑똑히 들었다!\" [champion.GetFirstNameNoTooltip](이)가 다시 한번 소리쳤다. \"[ROOT.Char.GetLadyLord]께 모욕한 짓거리에 대한 배상을 내놓아라!\""
  court.8130.desc.outro: "\n\n[mediator.GetFirstNameNoTooltip](이)가 두 사람을 말리는 사이 모두의 시선이 내게로 쏠렸다. 뭐라도 한마디 하길 바라는 눈치였다."
  court.8130.a: "[champion.GetFirstNameNoTooltip](이)가 나의 명예를 지킬 것이오."

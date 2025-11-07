@@ -92,7 +92,7 @@
  spouse.2004.a: "如果没有我亲爱的[initial_spouse.GetFirstNameNoTooltip]，我能做什么。"
  spouse.2005.t: "静神聆听"
  spouse.2005.desc: "看起来[told_of_character.GetTitledFirstName]已经被我谈论[spouse.GetFirstName]的方式彻底打动了！在离别时，[told_of_character.GetTitledFirstName]甚至拉住[spouse.GetHerHim]，给了一个大大的拥抱！"
- spouse.2005.a: "对于美化[spouse.GetHerHim]，我已经做的很充分了。"
+ spouse.2005.a: "对于美化[spouse.GetHerHim]，我已经做得很充分了。"
  spouse.2006.t: "值得赞美的[spouse.GetWomanMan|U]"
  spouse.2006.good: "\n\n[initial_spouse.GetSheHe|U]让我对我应该为了你而予以尊重[spouse.GetFirstName]的事物有了全新的看法。"
  spouse.2006.a: "[initial_spouse.GetFirstNameNoTooltip]，谢谢你告诉我。"

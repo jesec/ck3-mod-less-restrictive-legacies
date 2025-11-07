@@ -107,7 +107,7 @@
  hunt_opening_entourage_normal_dangerous: "Nasza grupa jest #EMP chyba#! wystarczająco liczna, aby znaleźć bestię i bez problemu zapędzić ją w kozi róg."
  hunt_opening_entourage_many_dangerous: "Do dyspozycji mamy wiele par oczu i jeszcze więcej włóczni. Terror tej bestii zakończy się już dzisiaj!"
  hunt.0520.a: "Nie ma czas do stracenia."
- hunt_header: "Polowanie:"
+ hunt_header: "[ROOT.Char.Custom('HuntHeader')]:"
  hunt.1001.t: "[activity.Custom('GetAnimalType')|U]: osaczenie"
  hunt.1001.desc_opening_courtier: "[hunt_participant.GetTitledFirstName], [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)] z mojego otoczenia, jako pierwsza osoba na polowaniu zauważa zwierzynę. [activity.Custom('GetAnimalFeature')|U] to cecha, która rzuca się w oczy."
  hunt.1001.desc_opening: "Przesuwam wzrokiem po okolicy, lecz nagle cofam się spojrzeniem do dostrzeżonego wcześniej miejsca. Tam jest! Ale ma [activity.Custom('GetAnimalFeature')]!"

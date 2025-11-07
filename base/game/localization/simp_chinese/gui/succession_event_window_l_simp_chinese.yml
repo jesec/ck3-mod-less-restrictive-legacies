@@ -19,7 +19,7 @@
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_PIOUS: "[ROOT.Char.GetFullNamePossessiveNoTooltip]的灵魂在[ROOT.Char.GetAge]岁时飞往了[ROOT.Char.GetFaith.PositiveAfterLife]。"
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_WICKED: "[ROOT.Char.GetFullNamePossessiveNoTooltip]的灵魂在[ROOT.Char.GetAge]岁时被打入了[ROOT.Char.GetFaith.NegativeAfterLife]。"
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_WOUNDED: "[ROOT.Char.GetFullNameNoTooltip]在[ROOT.Char.GetAge]岁时长宁于世。"
- SUCCESSION_EVENT_WINDOW_DEAD_INTRO_CHRISTIANITY_1: "[ROOT.Char.GetFullNameNoTooltip]在[ROOT.Char.GetAge]岁时长宁于耶稣基督的怀中。"
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_CHRISTIANITY_1: "[ROOT.Char.GetFullNameNoTooltip]在[ROOT.Char.GetAge]岁时长宁于基督的怀中。"
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_CHRISTIANITY_2: "[ROOT.Char.GetFullNameNoTooltip]在[ROOT.Char.GetAge]岁时长眠于主的臂弯。"
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_ISLAM_1: "[ROOT.Char.GetFullNameNoTooltip]在[ROOT.Char.GetAge]岁时听到了真主的呼唤，离开了这个转瞬即逝的凡世。"
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_ISLAM_2: "[ROOT.Char.GetFullNameNoTooltip]在[ROOT.Char.GetAge]岁时离开了这个转瞬即逝的凡世，去往了[ROOT.Char.GetFaith.PositiveAfterLife]。"

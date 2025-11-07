@@ -145,7 +145,7 @@
  bp2_yearly.2030.c: "我相信[ROOT.Char.GetFaith.HighGodName]会听到我在这里的祈祷。"
  imaginary_friend_pilgrimage_discount: "纪念你想象中的朋友"
  bp2_yearly.2031.t: "纪念[ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"
- bp2_yearly.2031.desc: "现在我终于到达了[ROOT.Char.GetCurrentLocation.GetName]，是时候向我的朋友[ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]致敬了。[ROOT.Char.Custom('GetSheHeOpposite')|U]帮助我度过了许多艰难的时刻——这是我生命中真正的祝福。我怀疑如果没有[ROOT.Char.Custom('GetHerHimOpposite')]我不会成为如今的[ROOT.Char.GetWomanMan]。\n\n虽然[ROOT.Char.Custom('GetSheHeOpposite')]可能不再和我在一起，但[ROOT.Char.Custom('GetHerHisOpposite')]的记忆将永远留在我的心里。当我为[ROOT.Char.Custom('GetHerHisOpposite')]点燃蜡烛时，我感到肩膀上有轻微的触碰。 蜡烛的火焰闪烁。一阵微弱的低语传来：“#EMP 永别了，[ROOT.Char.GetFirstNameNoTooltip]……#!”\n\n谢谢，我的朋友。"
+ bp2_yearly.2031.desc: "现在我终于到达了[ROOT.Char.GetCurrentLocation.GetName]，是时候向我的朋友[ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]致敬了。[ROOT.Char.Custom('GetSheHeOpposite')|U]帮助我度过了许多艰难的时刻——这是我生命中真正的祝福。我怀疑如果没有[ROOT.Char.Custom('GetHerHimOpposite')]我不会成为如今的[ROOT.Char.GetWomanMan]。\n\n虽然[ROOT.Char.Custom('GetSheHeOpposite')]可能不再和我在一起，但[ROOT.Char.Custom('GetHerHisOpposite')]的记忆将永远留在我的心里。当我为[ROOT.Char.Custom('GetHerHisOpposite')]点燃蜡烛时，我感到肩膀上有轻微的触碰。蜡烛的火焰闪烁。一阵微弱的低语传来：“#EMP 永别了，[ROOT.Char.GetFirstNameNoTooltip]……#!”\n\n谢谢，我的朋友。"
  bp2_yearly.2031.a: "愿你生活在平和中，亲爱的[ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]。"
  imaginary_friend_pilgrimage_log_title: "[CHARACTER.GetName]纪念了[CHARACTER.GetHerHis]想象中的朋友"
  imaginary_friend_pilgrimage_log: "[CHARACTER.GetName]在[PROVINCE.GetBaronyNameExplicitly]纪念了[CHARACTER.GetHerHis]想象中的朋友"

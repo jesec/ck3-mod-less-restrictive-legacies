@@ -103,7 +103,7 @@
  roaming_outro_snippet_returning_home_3: "我深吸一口气，珍惜在这片避风港中的最后时刻，然后踏上归途。"
  roaming_outro_snippet_returning_home_4: "带着一颗比以前更平静的心，我终于向这个地方告别，是时候回家了。"
  bp3_roaming.0010.t: "回家"
- bp3_roaming.0010.desc: "迈出最后一步，我终于离开了[province.Custom('HoldingNoHoldingTerrainRoaming')]。我回头望了一眼，回忆着我在[province.GetTerrain.GetNameNoTooltip|l]的旅程。 [ROOT.Char.Custom('RoamingOutroStressLoss')]\n\n[ROOT.Char.Custom('RoamingOutroReturningHome')]"
+ bp3_roaming.0010.desc: "迈出最后一步，我终于离开了[province.Custom('HoldingNoHoldingTerrainRoaming')]。我回头望了一眼，回忆着我在[province.GetTerrain.GetNameNoTooltip|l]的旅程。[ROOT.Char.Custom('RoamingOutroStressLoss')]\n\n[ROOT.Char.Custom('RoamingOutroReturningHome')]"
  bp3_roaming.0010.a: "唉，这就是生活啊……"
  roaming_end_of_the_journey_key_title: "旅程的终点"
  roaming_end_of_the_journey_key: "[host.GetShortUIName|U]结束了[host.GetHerHis]穿越[activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]的旅程。"

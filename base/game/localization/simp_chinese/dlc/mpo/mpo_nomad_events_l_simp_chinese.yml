@@ -173,7 +173,7 @@
  lover_admirable_thing: "[TARGET_CHARACTER.GetShortUIName|U]坦承了[TARGET_CHARACTER.GetHerHis]对[CHARACTER.GetShortUIName]深深的钦佩。"
  lover_admirable_thing_corresponding: "[CHARACTER.GetShortUIName|U]坦承了[CHARACTER.GetHerHis]对[TARGET_CHARACTER.GetShortUIName]深深的钦佩。"
  nomad_events.0170.t: "可怖者"
- nomad_events.0170.desc: "我走进帐篷，[spouse.GetFirstName]正坐在火炉旁。[spouse.GetSheHe]吓了一跳，看到是我，[spouse.GetSheHe]轻轻叹了口气，垂下眼睛。\n\n我脱下外衣，往脸上泼了点水，[spouse.GetSheHe|U]什么也没说。过了一会儿，沉默被打破了：\n\n“我得和我说说，亲爱的[ROOT.Char.GetTitleAsNameNoTooltip]，”[spouse.GetHerHis]的声音很轻，“所有人都害怕你。我也没什么不同。”[spouse.GetSheHe]坦白道。"
+ nomad_events.0170.desc: "我走进帐篷，[spouse.GetFirstName]正坐在火炉旁。[spouse.GetSheHe]吓了一跳，看到是我，[spouse.GetSheHe]轻轻叹了口气，垂下眼睛。\n\n我脱下外衣，往脸上泼了点水，[spouse.GetSheHe|U]什么也没说。过了一会儿，沉默被打破了：\n\n“我得和你说说，亲爱的[ROOT.Char.GetTitleAsNameNoTooltip]，”[spouse.GetHerHis]的声音很轻，“所有人都害怕你。我也没什么不同。”[spouse.GetSheHe]坦白道。"
  nomad_events.0170.a: "“你以为我很#EMP 弱#!？”"
  nomad_events.0170.b: "“我屈从于愤怒已经太久了。”"
  nomad_events.0170.c: "“这是唯一的办法。”"

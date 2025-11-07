@@ -58,12 +58,12 @@
  ##################################################
  ##Invalid Strings
  ## Nouns
- invalid_child: "ребенок"
- invalid_incapable: "[GetTrait('incapable').GetName( GetNullCharacter )]"
- invalid_helpless: "немощный"
+ invalid_child: "малолетнему"
+ invalid_incapable: "#TOOLTIP:GAME_TRAIT,incapable, #L недееспособному#!#!"
+ invalid_helpless: "немощному"
  ## Possessive Nouns
- invalid_child_possessive: "ребенка"
- invalid_incapable_possessive: "[GetTrait('incapable').GetName( GetNullCharacter )]'s"
+ invalid_child_possessive: "малолетнего"
+ invalid_incapable_possessive: "#TOOLTIP:GAME_TRAIT,incapable, #L недееспособного#!#!"
  invalid_helpless_possessive: "немощного"
  ##################################################
  ##Diarchy Types
@@ -92,7 +92,7 @@
  mandate_aptitude.fill_coffers.category: "$fill_coffers_mandate$"
  mandate_aptitude.fill_coffers.primary_skill.stewardship: "[Concept( 'mandate', 'мандат' )|E] зависит от [Concept( 'stewardship', 'управления' )|E]"
  mandate_aptitude.fill_coffers.secondary_skill.learning: "[Concept( 'mandate', 'мандат' )|E] задействует [Concept( 'learning', 'ученость' )|E]"
- mandate_aptitude.fill_coffers.secondary_skill.intrigue: "[Concept( 'mandate', 'мандат' )|E] задействует [Concept( 'intrigue', 'интригу' )]"
+ mandate_aptitude.fill_coffers.secondary_skill.intrigue: "[Concept( 'mandate', 'мандат' )|E] задействует [Concept( 'intrigue', 'интригу' )|E]"
  mandate_aptitude.fill_coffers.bonus_trait.arbitrary: "[GetTrait('arbitrary').GetName( ROOT.Char )] преобладает"
  mandate_aptitude.fill_coffers.bonus_trait.callous: "[GetTrait('callous').GetName( ROOT.Char )] преобладает"
  mandate_aptitude.fill_coffers.malus_trait.generous: "[GetTrait('generous').GetName( ROOT.Char )] не подходит"
@@ -198,8 +198,8 @@
  diarch_succession_score.category.traits.civil_service: "Свойства #WEAK (Чиновник)#!"
  diarch_succession_score.category.circumstances: "Обстоятельства"
  #Diarchy Specific
- diarch_succession_score.diarchy_specific.regency.close_or_extended_family_of_invalid.ruler: "[Concept( 'extended_family', 'Дальние родственники' )|E]-[Concept( 'landed', 'землевладельцы' )|E] правителя, который [ROOT.Char.GetLiege.Custom('GetChildInvalidPossessive')]"
- diarch_succession_score.diarchy_specific.regency.close_or_extended_family_of_invalid.non_ruler: "[Concept( 'unlanded', 'Безземельные' )|E] [Concept( 'extended_family', 'дальние родственники' )|E] правителя, который [ROOT.Char.GetLiege.Custom('GetChildInvalidPossessive')|U]"
+ diarch_succession_score.diarchy_specific.regency.close_or_extended_family_of_invalid.ruler: "[Concept( 'extended_family', 'Дальние родственники' )|E]-[Concept( 'landed', 'землевладельцы' )|E] [ROOT.Char.GetLiege.Custom('GetChildInvalidPossessive')] правителя"
+ diarch_succession_score.diarchy_specific.regency.close_or_extended_family_of_invalid.non_ruler: "[Concept( 'unlanded', 'Безземельные' )|E] [Concept( 'extended_family', 'дальние родственники' )|E] [ROOT.Char.GetLiege.Custom('GetChildInvalidPossessive')] правителя"
  #Familial Ties
  diarch_succession_score.familial_ties.your_parent: "Родитель [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'вашего персонажа', 'сюзерена' )]"
  diarch_succession_score.familial_ties.your_child: "[Concept( 'child', 'Ребенок' )|E] [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'вашего персонажа', 'сюзерена' )]"
@@ -339,7 +339,7 @@
  diarch_loyalty_score.regency.arrogant: "[GetTrait('arrogant').GetName( ROOT.Char )]"
  diarch_loyalty_score.regency.patient: "[GetTrait('patient').GetName( ROOT.Char )]"
  diarch_loyalty_score.regency.impatient: "[GetTrait('impatient').GetName( ROOT.Char )]"
- diarch_loyalty_score.regency.compassion_for_helpless: "[Concept( 'personality', 'Личности' )|E] свойственно сострадание к [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, '', 'персонажу ' )][ROOT.Char.GetLiege.Custom('GetChildInvalid')][Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'ему персонажу', '' )]"
+ diarch_loyalty_score.regency.compassion_for_helpless: "[Concept( 'personality', 'Личности' )|E] свойственно сострадание к [ROOT.Char.GetLiege.Custom('GetChildInvalid')] персонажу"
  diarch_loyalty_score.regency.chief_eunuch: "[GetCourtPositionType('chief_eunuch_court_position').GetName()]"
  diarch_loyalty_score.regency.chief_qadi: "[GetCourtPositionType('chief_qadi_court_position').GetName()]"
  diarch_loyalty_score.regency.tradition_fp2_malleable_subjects: "[Concept( 'culture', 'Культуре' )|E] свойственна традиция «[GetCultureTradition('tradition_fp2_malleable_subjects').GetName]»"

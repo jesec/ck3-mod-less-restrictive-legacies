@@ -1,0 +1,13 @@
+﻿l_french:
+ feast_default_alex.100.t: "Souvenirs partagés"
+ feast_default_alex.100.desc: "M[root_scope.Custom2('FR_RelationToMeShort_OnA', SCOPE.sC('guest'))], [guest.Custom('FR_le_Char_Pi')][guest.GetTitledFirstName], [guest.Custom('quirk_pos_present')] en s’approchant de moi.\n\n« Je buvais une gorgée [host.Custom('RegionalDrink')] quand je me suis souvenu[guest.Custom('FR_E')] de ce jour où [guest_memory.GetName], sourit-[guest.Custom('FR_IlElle')] [guest.Custom('quirk_pos_adverb')]. J’y pense tout le temps, j’aimerais que chaque jour soit aussi [root_scope.Custom('RandomPositiveLookAdjective')] ! »"
+ feast_default_alex.100.a: "Puissions-nous nous créer encore plus de souvenirs !"
+ feast_default_alex.100.b: "Oui, un jour vraiment merveilleux !"
+ feast_default_alex.200.t: "Une épidémie de rumeurs"
+ feast_default_alex.200.desc: "« [ROOT.Char.Custom('FR_MonseigneurMadame')|U], j’ai entendu des rumeurs sur un fléau appelé [epidemic.GetName]... » remarque avec inquiétude [guest.Custom('FR_le_Char_Pi')][guest.GetTitledFirstName].\n\n« On dit qu’il sévit sans contrôle en [afflicted_top_liege.GetPrimaryTitle.GetBaseName], et que le premier cas a été [Select_CString(sick_peasant.IsFemale,'une paysanne','un paysan')] [sick_peasant.Custom('disease_desc_short')]... Même [root_scope.Custom('GetExpensiveMeal')] et une bonne boisson ne feraient pas sortir ces visions de ma tête. »"
+ feast_default_alex.200.a: "Hm, nous devrions préparer [root_scope.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]..."
+ feast_default_alex.200.b: "Venez, calmez-vous."
+ feast_default_alex.200.c: "Prions pour [afflicted_top_liege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]."
+ feast_default_alex.200.d: "Ne vous inquiétez pas, ça ne viendra jamais ici !"
+ plague_preparations_modifier: "Préparations contre l’épidémie"
+ plague_preparations_modifier_desc: "Ce lieu est bien préparé face à toute épidémie."

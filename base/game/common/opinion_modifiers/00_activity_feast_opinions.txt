@@ -337,3 +337,15 @@ feast_helped_me_opinion = {
 	years = 5
 	decaying = yes
 }
+
+feast_helped_overcome_loss_opinion = {
+	opinion = 10
+	years = 5
+	decaying = yes
+}
+
+feast_sympathy_over_loss_opinion = {
+	opinion = 10
+	years = 5
+	decaying = yes
+}

@@ -77,7 +77,7 @@
  ep3_powerful_families.8090.a.win: "[liege.GetFirstNameNoTooltip|U]被打动了"
  ep3_powerful_families.8090.a.lose: "[liege.GetFirstNameNoTooltip|U]感到无聊"
  ep3_powerful_families.8090.b: "这一晚迟早会结束。"
- ep3_powerful_families.8100.t: "文职"
+ ep3_powerful_families.8100.t: "文官队伍"
  ep3_powerful_families.8100.desc: "今天晚上，我很幸运与[liege.GetName]聊上了话。[liege.GetSheHe|U]叹息许多晚上都听不到甜美的诗歌。\n\n我想起[cp_fam.GetName|U]曾花费许多日子在花园里漫步，练习[cp_fam.GetHerHis]对[cp_fam.GetCulture.GetLanguage.GetNameNoTooltip]的掌握。[cp_fam.GetHerHis]的这种爱好正好能发挥作用，在[liege.GetPrimaryTitle.GetAdjective]的宫廷传播我们的影响力……"
  ep3_powerful_families.8100.a: "“[cp_fam.GetFirstNameNoTooltip|U]是个出色的诗人，大人！”"
  ep3_powerful_families.8100.a.win: "[cp_fam.GetFirstNameNoTooltip|U]得到任命"

@@ -22,7 +22,7 @@
  travel_danger_events.6000.failure: "Das Tier ([ROOT.Char.Custom('GetAnimalType')]) tötet [beast_victim.GetShortUINameNoTooltipNoFormat]"
  travel_danger_events.6000.success_root: "Das Tier ([ROOT.Char.Custom('GetAnimalType')]) stirbt durch die Hand von [root_scope.GetShortUINameNoTooltipNoFormat]"
  travel_danger_events.6000.wound_root: "Das Tier ([ROOT.Char.Custom('GetAnimalType')]) zerfleischt [root_scope.GetShortUINameNoTooltipNoFormat]"
- travel_danger_events.6000.failure_root: "Das Tier ([ROOT.Char.Custom('GetAnimalType')]) tötet [beast_victim.GetShortUINameNoTooltipNoFormat]"
+ travel_danger_events.6000.failure_root: "Das Tier ([ROOT.Char.Custom('GetAnimalType')]) tötet [root_scope.GetShortUINameNoTooltipNoFormat]"
  travel_danger_events.6010.t: "$travel_danger_prefix$ Rauch voraus"
  travel_danger_events.6010.raid: "Als wir uns [ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip] nähern, machen Rauchsäulen und vorbeiziehende Bauerngruppen deutlich, dass der Ort geplündert wird. Die Starken können sich nehmen, was sie wollen …\n\n"
  travel_danger_events.6010.siege: "Ein Belagerungslager beherrscht die Außenbezirke von [ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip]; die Farben der belagernden Fraktion flattern träge im Wind, Vorboten eines Krieges ([siege_war.Custom('WarCasusBelliShort')]).\n\n"

@@ -179,6 +179,8 @@
  WARNING_INVITE_CANNOT_JOIN: "@warning_icon! #X [faction_invite_from.GetTitledFirstName] kann der Fraktion nicht beitreten#!"
  #FACTION JOIN/CREATE REASONS
  FACTION_REASON_AI_PERSONALITY: "\n[personality|E]: $RESULT|0+=$"
+ FACTION_REASON_DIFFICULTY_HARD: "Schwierigkeit „Schwierig“: $VALUE|0+=$"
+ FACTION_REASON_DIFFICULTY_VERY_HARD: "Schwierigkeit „Sehr Schwierig“: $VALUE|0+=$"
  FACTION_REASON_DIFFICULTY_EASY: "Schwierigkeit „Leicht“: $VALUE|0+=$"
  FACTION_REASON_DIFFICULTY_VERY_EASY: "Schwierigkeit „Sehr Leicht“: $VALUE|0+=$"
  FACTION_REASON_GAME_RULE_REALM_STABILITY_LESSER: "Spielparameter „Niedrigere Reichsstabilität“: $VALUE|0+=$"
@@ -356,3 +358,4 @@
  FACTION_REASON_CLAIMANT_PRIMARY_HEIR: "[claimant|E] ist mein [heir|E]: $VALUE|+0=$"
  FACTION_REASON_ADMINISTRATIVE: "[Concept('administrative', 'Verwaltungs')|E]-[vassal|E]: $VALUE|+0=$"
  FACTION_REASON_NOMADIC: "[GetGovernment('nomad_government').GetName|U]: $VALUE|+0=$"
+ FACTION_REASON_DETRACTOR: "[coronation_detractor|E]: $VALUE|+0=$"

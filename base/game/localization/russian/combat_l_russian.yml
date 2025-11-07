@@ -97,7 +97,7 @@
  COMBAT_PREDICTION_LEVEL_3: "Возможно, вы выиграете"
  COMBAT_PREDICTION_LEVEL_4: "Вас ждет верная победа"
  COMBAT_PREDICTION_EDGE_BETTER_COMMANDER: "Лучший [army_commander|El]"
- COMBAT_PREDICTION_EDGE_COMMANDER_TRAITS: "Более многочисленные [commander_traits|E]"
+ COMBAT_PREDICTION_EDGE_COMMANDER_TRAITS: "Более многочисленные [commander_traits|El]"
  COMBAT_PREDICTION_COMBAT_HEADER: "Возможная битва (через $DURATION$)"
  COMBAT_PREDICTION_EDGE_SOLDIERS_COUNT: "Больше [soldier|El]"
  COMBAT_PREDICTION_EDGE_QUALITY_COUNT: "Более высокая [troop_quality|El]"

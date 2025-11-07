@@ -228,7 +228,7 @@
  diarch_coup_liege_interaction.tt.secondary_recipient.joins_conspiracy: "[secondary_recipient.GetShortUIName|U] присоединяется к вашему заговору"
  diarch_coup_liege_interaction.tt.secondary_recipient.reward: "Если переворот пройдет успешно, [secondary_recipient.GetShortUIName] автоматически получит награду"
  diarch_coup_liege_interaction.tt.secondary_recipient.chancellor_sabotage: "[secondary_recipient.GetShortUIName] как [Concept( 'chancellor', 'канцлер' )|E] [Concept( 'realm', 'державы' )|E] [Select_CString(secondary_recipient.IsLocalPlayer, 'откажете', 'откажет ' )] в помощи [Select_CString(recipient.IsLocalPlayer, '', 'персонажу ' )][recipient.GetNamePossessiveOrMy][Select_CString(recipient.IsLocalPlayer, 'ему персонажу', '' )] во время [Concept( 'diplomacy', 'дипломатического' )|E] переворота"
- diarch_coup_liege_interaction.tt.secondary_recipient.spymaster_sabotage: "[secondary_recipient.GetShortUIName] как [Concept( 'spymaster', 'тайный советник' )|E] [Concept( 'realm', 'державы' )|E] [Select_CString(secondary_recipient.IsLocalPlayer, 'откажете', 'откажет ' )] в помощи [Select_CString(recipient.IsLocalPlayer, '', 'персонажу ' )][recipient.GetNamePossessiveOrMy][Select_CString(recipient.IsLocalPlayer, 'ему персонажу', '' )] во время [Concept( 'intrigue', 'интриганского' )] переворота"
+ diarch_coup_liege_interaction.tt.secondary_recipient.spymaster_sabotage: "[secondary_recipient.GetShortUIName] как [Concept( 'spymaster', 'тайный советник' )|E] [Concept( 'realm', 'державы' )|E] [Select_CString(secondary_recipient.IsLocalPlayer, 'откажете', 'откажет ' )] в помощи [Select_CString(recipient.IsLocalPlayer, '', 'персонажу ' )][recipient.GetNamePossessiveOrMy][Select_CString(recipient.IsLocalPlayer, 'ему персонажу', '' )] во время [Concept( 'intrigue', 'интриганского' )|E] переворота"
  diarch_coup_liege_interaction.tt.secondary_recipient.champion_sabotage: "[secondary_recipient.GetShortUIName] как личный воитель [Concept( 'realm', 'державы' )|E] [Select_CString(secondary_recipient.IsLocalPlayer, 'откажете', 'откажет ' )] в помощи [Select_CString(recipient.IsLocalPlayer, '', 'персонажу ' )][recipient.GetNamePossessiveOrMy][Select_CString(recipient.IsLocalPlayer, 'ему персонажу', '' )] во время [Concept( 'prowess', 'доблестного' )|E] переворота"
  diarch_coup_liege_interaction.tt.secondary_recipient.champion_sabotage.others: "[recipient.GetTitleAsName|U] может получить поддержку других, менее умелых бойцов"
  diarch_coup_liege_interaction.tt.liege_has_loyalty_hook.tt.has_trait.disloyal: "Я [GetTrait('disloyal').GetName(secondary_recipient)|l] человек: $VALUE|+=0$"
@@ -247,7 +247,7 @@
  diarch_coup_liege_interaction.tt.wants_strong_gold: "Заманчивая гора [Concept( 'gold', 'золота' )|E]: $VALUE|+=0$"
  ##################################################
  ##Manage Diarchy Interactions
- swing_scales_currency_interaction: "Сместить $game_concept_scales_of_power$"
+ swing_scales_currency_interaction: "Сместить равновесие сил "
  swing_scales_currency_interaction_desc: "Показать всей державе, кто #EMP действительно#! правит этими землями"
  HIGHLIGHTED_CAN_SWING_SCALES: "Вы можете сместить [scales_of_power|El] в свою пользу"
  swing_scales_currency_interaction.tt.no_shared_hof: "У вас должен быть общий [head_of_faith|El]"

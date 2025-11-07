@@ -161,7 +161,7 @@
  lesson_basics_quick_resources_renown_desc: "[dynasty_prestige_i|e][dynasty_prestige|e]代表了你的[dynasty|e]影响力有多大，可以用于能塑造你家族命运的决议。\n\n$game_concept_dynasty_prestige$与你的[dynasty_prestige_level|e]密切相关，后者是衡量你$game_concept_dynasty$名望有多高的总体标准。"
  lesson_basics_quick_resources_time: "时间"
  lesson_basics_quick_resources_time_desc: "既然我们已讨论完了资源，让我们处理完最后一部分建议。现在，游戏处于暂停中。你可以在右下角控制时间流速。\n\n#TUT Crusader Kings III是一款持续数百年的游戏，所以不必着急。#!"
- lesson_basics_quick_unpause_tt: "按空格键，或者点击右上角的按钮解除游戏暂停"
+ lesson_basics_quick_unpause_tt: "按空格键，或者点击右下角的按钮解除游戏暂停"
  lesson_basics_quick_done: "祝你好运！"
  lesson_basics_quick_done_desc: "祝贺你完成快速教程！游戏现已解除暂停，时间正在流逝。从此，[GetPlayer.GetHouse.GetName]家族的未来由你决定。\n\n#TUT 你可以做你想做的任何事，但要留意显示在屏幕顶端的@reactive_advice_icon!响应式建议。\n\n谁说得准呢，也许你甚至可以成为爱尔兰之王？#!"
  #Camera & Map
@@ -317,7 +317,7 @@
  lesson_basics_council_concept_desc: "管理[realm|E]工作繁多。作为[ruler|E]，你有[council|E]的帮助——他们由[vassals|E]或你[court|E]的成员组成，是受你托付的顾问。\n\n#TUT 每个[skill|E]都对应一位内阁职位，已婚[rulers|E]则会有[spouse|E]作为贤内助辅助治理。#!"
  lesson_basics_council_view_tt: "打开内阁界面（已高亮）"
  lesson_basics_council_tasks: "内阁任务（$lesson_basics_council$）"
- lesson_basics_council_tasks_desc: "可以给[councillors|E]分派工作，他们都会做不同的事情！\n\n你可以在内阁界面中选择他们头像旁边的按钮来改变一名内阁成员的任务。\n\n#TUT 内阁成员是一个富有威望的职位——[powerful_vassals|E]会期望自己得到任命，并会因被遗漏而心生不满。#!"
+ lesson_basics_council_tasks_desc: "可以给[councillors|E]分派工作，他们都会做不同的事情！\n\n你可以在内阁界面中点击他们头像旁边的按钮来改变一名内阁成员的任务。\n\n#TUT 内阁成员是一个富有威望的职位——[powerful_vassals|E]会期望自己得到任命，并会因被遗漏而心生不满。#!"
  #Schemes & Hooks
  lesson_basics_schemes_concept: "计谋（$lesson_basics_schemes$）"
  lesson_basics_schemes_concept_complete: "$lesson_basics_schemes_concept$"
@@ -377,7 +377,7 @@
  lesson_basics_levies_desc: "任何战争中，最重要的事件就是[armies|E]之间开打的[battles|E]。你的大部分士兵来自[levies|E]，但你可以通过组建[men_at_arms|E]扩充你的$game_concept_army$。\n\n#TUT 如果情况真的不妙，你也可以招募[mercenaries|E]——如果你有[gold|E]的话。#!"
  lesson_basics_military_view_tt: "打开军事界面（已高亮）"
  lesson_basics_rally_points: "战争（$lesson_basics_war$）"
- lesson_basics_rally_points_desc: "当[war|E]开始，你可以通过#bold 快速访问条#!中的红色大旗帜图标来征召你的[armies|E]，这个按钮会和$game_concept_war_score$图标一起出现——你同样也可以在军事界面$RAISE_ALL$士兵。\n\n当$game_concept_war$结束，你必须在开启另一场$game_concept_war$之前解散你的士兵。\n\n#TUT [rally_points|E]是受你指挥的[levies|E]和[men_at_arms|E]的集合地；这是他们响应战事时出现的地点。#!"
+ lesson_basics_rally_points_desc: "[war|E]开始，你可以点击红色大按钮“$RAISE_ALL$”来征召你的[armies|E]，这个按钮会和$game_concept_war_score$图标一起出现在你屏幕的右下角——你同样也可以在军事界面$RAISE_ALL$士兵。\n\n当$game_concept_war$结束，你必须在开启另一场$game_concept_war$之前解散你的士兵。\n\n#TUT [rally_points|E]是受你指挥的[levies|E]和[men_at_arms|E]的集合地；这是他们响应战事时出现的地点。#!"
  lesson_basics_casus_belli: "战争（$lesson_basics_war$）"
  lesson_basics_casus_belli_desc: "要发动[war|E]，你需要针对另外一个[ruler|E]的合法的理由，[casus_belli|E]。\n\n获得$game_concept_casus_belli$的方法多种多样：你可能拥有[de_jure|E][titles|E]，因而是你目标的[rightful_liege|E]；你也可能继承了[claims|E]，或者你可以针对附近的异信者发动[holy_wars|E]。\n\n尽管这些是最寻常的，也有几十种不同的$game_concept_casus_belli$等你在游玩中发掘和使用！\n\n#TUT 获得$game_concept_claims$最快也最直接的方法就是使用#EMP [fabricate_claim|E]#!。这是你的[court_chaplain|E]负责的事情，他的[councillor_tasks|E]之一。#!"
  #UNPAUSING!! :D Do this when the player is actually supposed to unpause

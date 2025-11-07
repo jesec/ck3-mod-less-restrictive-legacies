@@ -63,7 +63,7 @@
  religious_interaction.1000.strong_negative: "该死！"
  religious_interaction.1024.positive: "[recipient.GetFirstNameNoTooltip]这次行事明智，我很欣慰。"
  religious_interaction.2002.desc: "我已决定追随你加入光明，改宗[ROOT.Char.GetFaith.GetName]！"
- religious_interaction.2002.a: "[ROOT.Char.GetFaith.HighGodName]应受赞颂！"
+ religious_interaction.2002.a: "赞美[ROOT.Char.GetFaith.HighGodName]！"
  religious_interaction.2003.desc: "我有强大的信心，不会被你尘世的言语动摇。我更想要在[recipient.GetFaith.DivineRealm]中获得我的赏报。"
  religious_interaction.2003.hooking_out: "\n\n我也想提醒你，你欠我这一次，最好不要仅仅因为我是真正的信徒就迫害我。"
  religious_interaction.2003.a: "我只是为你的救赎着想。"

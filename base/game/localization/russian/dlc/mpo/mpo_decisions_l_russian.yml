@@ -634,7 +634,7 @@
  mpo_decisions_events.0004.a: "$mpo_decisions_events.0005.a$"
  mpo_decisions_events.0004.b: "Я в этом участвовать не буду."
  mpo_decisions_events.0005.t: "$mpo_decisions_events.0004.t$"
- mpo_decisions_events.0005.desc: "Когда-то нужда вынудила наши отряды держаться вместе, и этот союз был мимолетным, как сезоны в степи. Теперь же мы едины.\n\nВоины, скакавшие рядом со мной, теперь склонились перед моим троном.\n\nПусть же они воспевают мое имя за великим столом — рождается [new_king_ruler.GetPrimaryTitle.GetTierAsName|l], и я [ROOT.Char.Custom('get_queen_king')] этой новой державы."
+ mpo_decisions_events.0005.desc: "Когда-то нужда вынудила наши отряды держаться вместе, и этот союз был мимолетным, как сезоны в степи. Теперь же мы едины.\n\nВоины, скакавшие рядом со мной, теперь склонились перед моим троном.\n\nПусть же они воспевают мое имя за великим столом — рождается [new_king_ruler.GetPrimaryTitle.GetTierAsName|l], и я владыка этой новой державы."
  mpo_decisions_events.0005.a: "Вместе мы будем процветать!"
  confederate_king_modifier: "Первый король конфедерации"
  confederate_king_modifier_desc: "Этот персонаж создал королевство из [Concept('confederation', 'конфедерации')|E]"
@@ -646,3 +646,4 @@
  confederation_vassal_modifier_tt: "Все [Concept('vassals', 'вассалы')|E] получат модификатор «[GetModifier('confederate_vassal_modifier').GetNameWithTooltip]»"
  confederation_county_modifier_tt: "Все [Concept('counties', 'графства')|E] получат модификатор «[GetModifier('confederate_lands_modifier').GetNameWithTooltip]» на #V 30#! лет"
  chaotic_succession_protection_title_law_tt: "[Concept('law', 'Закон')|E] «[GetLaw('confederation_elective_succession_law').GetName]» защищает их от #high непокорства [Concept('kurultais', 'членов курултая')|E]#! во время [Concept('succession', 'наследования')|E]"
+ ACH_DOMINATE_TITLE_GAIN_WARNING: "Вы получите [law_i][law|El] «[GetLaw('uncrowned').GetName]», пока не проведете [Concept('coronation', 'коронацию')|E]"

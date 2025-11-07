@@ -1,0 +1,13 @@
+﻿l_korean:
+ feast_default_alex.100.t: "함께 나눈 추억"
+ feast_default_alex.100.desc: "내 [root_scope.Custom2('RelationToMeShort', SCOPE.sC('guest'))] [guest.GetTitledFirstName](이)가 [guest.Custom('quirk_pos_present')]. 그렇게 [guest.GetSheHe]는 내 쪽으로 다가온다.\n\n\"[root_scope.Custom('ComplimentAdjective')] [guest.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))], 이 [host.Custom('RegionalDrink')](을)를 마시다 보니 우리가 함께했던 날이 떠오르는군요.\" [guest.GetSheHe|U]는 [guest.Custom('quirk_pos_adverb')] 웃으며 말했다. \"그날을 자주 생각합니다. 날마다 그렇게 [root_scope.Custom('RandomPositiveLookAdjective')] 기분이라면 얼마나 좋을까요!\""
+ feast_default_alex.100.a: "앞으로도 추억을 더 많이 쌓아가길!"
+ feast_default_alex.100.b: "정말이지, 멋진 하루였지!"
+ feast_default_alex.200.t: "소문의 역병"
+ feast_default_alex.200.desc: "\"[guest.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))], [epidemic.GetName](이)라는 역병에 대한 소문을 들었소...\" [guest.GetTitledFirstName](이)가 근심 어린 표정으로 말한다.\n\n\"그 병이 [afflicted_top_liege.GetPrimaryTitle.GetBaseName]에서 창궐하고 있다는데, 환자들은 [sick_peasant.Custom('disease_desc_short')]고 하더군요... [root_scope.Custom('GetExpensiveMeal')]조차 근심을 지워주지 못하는 판국입니다.\""
+ feast_default_alex.200.a: "흠, [root_scope.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]에 대비책을 세워야겠군…"
+ feast_default_alex.200.b: "이리 오시오, 진정하시오."
+ feast_default_alex.200.c: "[afflicted_top_liege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip](을)를 위해 기도합시다."
+ feast_default_alex.200.d: "걱정 마시오, 여기까지 퍼지진 않을 거요!"
+ plague_preparations_modifier: "역병 대비"
+ plague_preparations_modifier_desc: "해당 장소는 역병에 철저히 대비되어 있습니다."

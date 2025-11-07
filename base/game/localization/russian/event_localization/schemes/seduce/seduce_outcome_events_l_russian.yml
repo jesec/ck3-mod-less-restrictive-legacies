@@ -68,7 +68,7 @@
  seduce_outcome.2303.a: "Как я могу отказать [Select_CString(target.IsFemale, 'такой красноречивой женщине', 'такому красноречивому мужчине' )]?"
  seduce_outcome.2303.b: "Обмен комплиментами был приятен, но разговор окончен."
  seduce_outcome.2304.t: "Под открытым небом"
- seduce_outcome.2304.desc: "[SCOPE.sC('target').GetTitledFirstName] и я сидим рядом, и [ROOT.Char.Custom('GetAnimalAdjective_RU_END')][ROOT.Char.Custom('GetAnimalType_RU_NOM_END')] [ROOT.Char.Custom('GetAnimalType')] перед нами даже не подозревает о нашем присутствии. Но у меня лишь одна мысль — особенно когда [SCOPE.sC('target').GetSheHe] касается меня. Я протягиваю руки для объятий, как вдруг понимаю, что [SCOPE.sC('target').GetSheHe] тоже думает совсем #EMP о другом#!.\n\nКогда [ROOT.Char.Custom('GetAnimalType')] убегает, остаются только [ROOT.Char.Custom('TerrainType')] и наши обнаженные тела, сплетенные на мягкой земле."
+ seduce_outcome.2304.desc: "[SCOPE.sC('target').GetTitledFirstName] и я сидим рядом, и [ROOT.Char.Custom('GetAnimalAdjective_RU_END')][ROOT.Char.Custom('GetAnimalType_RU_Nom_END')] [ROOT.Char.Custom('GetAnimalType')] перед нами даже не подозревает о нашем присутствии. Но у меня лишь одна мысль — особенно когда [SCOPE.sC('target').GetSheHe] касается меня. Я протягиваю руки для объятий, как вдруг понимаю, что [SCOPE.sC('target').GetSheHe] тоже думает совсем #EMP о другом#!.\n\nКогда [ROOT.Char.Custom('GetAnimalType')] убегает, остаются только [ROOT.Char.Custom('TerrainType')] и наши обнаженные тела, сплетенные на мягкой земле."
  seduce_outcome.2304.a: "Для нас быть вместе — так естественно!"
  seduce_outcome.2304.b: "Соединиться лишь затем, чтобы расстаться... Такова жизнь."
  seduce_outcome.2305.t: "Любовное письмо"

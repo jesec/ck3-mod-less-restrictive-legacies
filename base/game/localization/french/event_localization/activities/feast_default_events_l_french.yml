@@ -203,7 +203,7 @@
  feast_default.2006.c: "Je ne supporte pas que quelqu’un me suive comme ça !"
  feast_default.2006.d: "S’il vous plaît, laissez-moi !"
  feast_default.2007.t: "Liaison découverte !"
- feast_default.2007.desc: "Un grand fracas résonne dans la grande salle au moment où l’une des portes des locaux de service se brise.\n\nÀ peine vêtu[lover_guest_1.Custom2('FR_E', SCOPE.sC('lover_guest_2') )]s, m[ROOT.Char.Custom2('FR_RelationToMe_OnA', SCOPE.sC('lover_guest_1') )] [lover_guest_1.Custom('FR_le_Char_Pi')][lover_guest_1.GetTitledFirstName] et m[ROOT.Char.Custom2('FR_RelationToMe_OnA', SCOPE.sC('lover_guest_2') )] [lover_guest_2.Custom('FR_le_Char_Pi')][lover_guest_2.GetTitledFirstName] chutent et se répandent sur le sol devant tout le monde."
+ feast_default.2007.desc: "Un grand fracas résonne dans la grande salle au moment où l’une des portes des locaux de service se brise.\n\nDévêtu[lover_guest_1.Custom2('FR_E', SCOPE.sC('lover_guest_2') )]s, m[ROOT.Char.Custom2('FR_RelationToMe_OnA', SCOPE.sC('lover_guest_1') )] [lover_guest_1.Custom('FR_le_Char_Pi')][lover_guest_1.GetTitledFirstName] et m[ROOT.Char.Custom2('FR_RelationToMe_OnA', SCOPE.sC('lover_guest_2') )] [lover_guest_2.Custom('FR_le_Char_Pi')][lover_guest_2.GetTitledFirstName] chutent et se répandent sur le sol devant tout le monde."
  feast_default.2007.a_chaste: "La vue est insoutenable !"
  feast_default.2007.a_lustful: "Ce qu’[lover_guest_1.Custom2('FR_IlsElles', lover_guest_2)] s’apprêtaient à faire nourrit mon imagination..."
  feast_default.2007.a_sadistic: "Ha ! Bien fait !"

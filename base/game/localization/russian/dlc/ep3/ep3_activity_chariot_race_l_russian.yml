@@ -40,7 +40,7 @@
  chariot_race_reward_high_county_opinion_tt: "#weak Награды становятся лучше при высоком [Concept('county_opinion', 'народном мнении')|E] в [Concept('capital', 'столице')|E]#!"
  chariot_race_reward_low_county_opinion_tt: "#weak Награды становятся хуже при низком [Concept('county_opinion', 'народном мнении')|E] в [Concept('capital', 'столице')|E]#!"
  CHARIOTEER_APTITUDE_GUI_TOOLTIP: "[Concept( 'aptitude', 'Пригодность' )] персонажа [Character.GetFirstNameNoTooltip] к управлению колесницей составляет [Character.GetCourtPositionAptitude( GetCourtPositionType( 'charioteer_court_position' ) )]"
- YOUR_CHARIOTEER_TOOLTIP: "[Character.GetShortUIName] становится вашим возничим-чемпионом."
+ YOUR_CHARIOTEER_TOOLTIP: "[Character.GetShortUIName] становится вашим колесничим-чемпионом."
  YOUR_WAGER_TOOLTIP: "[GetPlayer.Custom('BuildChariotRaceWagerTooltip')]"
  every_losing_charioteer_xp_gain: "Все прочие возницы получают #high 3#! ед. [Concept( 'trait_level_track_xp', 'опыта свойства' )|E]"
  ### INTENTS ###
@@ -230,7 +230,7 @@
  ### ONGOING EVENTS
  chariot_race.3000.t: "[ROOT.Char.Custom('GetChariotTeamColorPlural')], вперед!"
  chariot_race.3000.intro: "Колесницы идут так близко, что становятся опасными друг для друга. Моя команда первой этим пользуется.\n\n"
- chariot_race.3000.backing_sacrifice: "Получив мою монету, [charioteer_sacrifice.GetName] начинает бешено вилять — влево, вправо, снова влево. О, [ROOT.Char.GetFaith.HighGodName], как же медленно! Но возничие, сбившиеся в кучу, не в силах преодолеть мечущуюся преграду!\n\nТем временем [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')|l] не дремлют: еще один возница из команды, [charioteer_leading.GetName], беспрепятственно вырывается вперед."
+ chariot_race.3000.backing_sacrifice: "Получив мою монету, [charioteer_sacrifice.GetName] начинает бешено вилять — влево, вправо, снова влево. О, [ROOT.Char.GetFaith.HighGodName], как же медленно! Но колесничие, сбившиеся в кучу, не в силах преодолеть мечущуюся преграду!\n\nТем временем [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')|l] не дремлют: еще один возница из команды, [charioteer_leading.GetName], беспрепятственно вырывается вперед."
  chariot_race.3000.not_backing_but_employs_sacrifice: "Мой возница, [charioteer_sacrifice.GetName], начинает бешено вилять: влево, вправо, снова влево. Вот это смелость! Вот это смекалка! [charioteer_sacrifice.GetSheHe|U] не дает маневрировать колесницам позади себя.\n\nТем временем [charioteer_leading.Custom('GetChariotTeamColorPluralGlossed')|l] не дремлют: еще один возница из команды, [charioteer_leading.GetName], беспрепятственно вырывается вперед. Ура!"
  chariot_race.3000.not_backing_sacrifice: "Один из колесничих, [charioteer_sacrifice.GetName], начинает бешено вилять: влево, вправо, снова влево. Вот это смелость! Вот это смекалка! [charioteer_sacrifice.GetSheHe|U] не дает маневрировать колесницам позади себя.\n\nТем временем [Select_CString(charioteer_leading.IsFemale, 'моя ставленница', 'мой ставленник' )] [charioteer_leading.Custom('GetChariotTeamColorPlural')] беспрепятственно вырывается вперед. Ура!"
  chariot_race.3000.a: "Пусть блюстители порядка вмешаются в неизбежную потасовку."
@@ -538,7 +538,7 @@
  charioteer_gained_trait_xp_key_title: "$charioteer_trait_xp_gain_message$"
  hire_charioteer_decision: "Искать возницу"
  hire_charioteer_decision_desc: "[GetCourtPositionType('charioteer_court_position').GetDescription|U]"
- hire_charioteer_decision_tooltip: "Ваши слуги предложат несколько кандидатур, подходящих на должность #TOOLTIP:COURT_POSITION_TYPE,charioteer_court_position #L возничего-чемпиона#!#!"
+ hire_charioteer_decision_tooltip: "Ваши слуги предложат несколько кандидатур, подходящих на должность #TOOLTIP:COURT_POSITION_TYPE,charioteer_court_position #L колесничего-чемпиона#!#!"
  hire_bookmaker_decision: "Искать приемщика ставок"
  hire_bookmaker_decision_desc: "[GetCourtPositionType('bookmaker_court_position').GetDescription|U]"
  hire_bookmaker_decision_tooltip: "Ваши слуги предложат несколько кандидатур, подходящих на должность #TOOLTIP:COURT_POSITION_TYPE,bookmaker_court_position #L приемщика ставок#!#!"

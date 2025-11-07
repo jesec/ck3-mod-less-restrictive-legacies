@@ -22,7 +22,7 @@
  travel_danger_events.6000.failure: "[ROOT.Char.Custom('GetAnimalType')](이)가 [beast_victim.GetShortUINameNoTooltipNoFormat](을)를 죽임"
  travel_danger_events.6000.success_root: "[ROOT.Char.Custom('GetAnimalType')](이)가 [root_scope.GetShortUINamePossessiveNoTooltipNoFormat] 손에 죽음"
  travel_danger_events.6000.wound_root: "[ROOT.Char.Custom('GetAnimalType')](이)가 [root_scope.GetShortUINameNoTooltipNoFormat](을)를 짓뭉갬"
- travel_danger_events.6000.failure_root: "[ROOT.Char.Custom('GetAnimalType')](이)가 [beast_victim.GetShortUINameNoTooltipNoFormat](을)를 죽임"
+ travel_danger_events.6000.failure_root: "[ROOT.Char.Custom('GetAnimalType')](이)가 [root_scope.GetShortUINameNoTooltipNoFormat](을)를 죽임"
  travel_danger_events.6010.t: "$travel_danger_prefix$ 코앞의 연기"
  travel_danger_events.6010.raid: "[ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip]에 다다르자 연기가 피어오르고, 농노들이 무리를 이뤄 지나가고 있었다. 이것만 봐도 일대가 약탈당하고 있다는 사실쯤은 알 수 있었다. 내키는 대로 빼앗는 건 강자의 권리니까...\n\n"
  travel_danger_events.6010.siege: "[ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip] 외곽에는 공성 진지가 펼쳐져 있었다. [siege_owner.GetPrimaryTitle.GetAdjectiveNoTooltip] 깃발이 나른하게 펄럭이고 있었다. [siege_war.Custom('WarCasusBelliShort')]의 사자였다.\n\n"

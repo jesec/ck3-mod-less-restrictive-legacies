@@ -70,7 +70,7 @@
  relation_upgrade.1001.h.list: "$relation_upgrade.1001.d.tt_success.list$"
  relation_upgrade.1001.i: "Po cichu się wymknij."
  #Follow-Up, Friend:
- relation_upgrade.1002.t: "$relation_upgrade.1001.t$: Wszędzie, byle nie tutaj"
+ relation_upgrade.1002.t: "$relation_upgrade.1001.t$: wszędzie, byle nie tutaj"
  relation_upgrade.1002.desc: "Jestem więźniem na męczącym przyjęciu ([terrible_party_host.GetFirstName] to, swoją drogą, beznadziejny organizator imprez), czas zdaje się #EMP stać w miejscu#!, a ja macham ospale do przechodzących w pobliżu gości.\n\nMyśl o rzuceniu się z tego balkonu zaczyna wydawać się kusząca, kiedy nagle czuję klepnięcie w ramię.\n\n– Przepraszam, ty jesteś [potential_friend.GetFirstNameNoTooltip]? – mówi [party_root.GetTitledFirstName]. – Masz ochotę stąd wyjść?"
  relation_upgrade.1002.a: "[ROOT.GetCharacter.GetFaith.HighGodName] to jednak miłosierna siła. Tak, chodźmy gdziekolwiek!"
  relation_upgrade.1002.a.tt: "[potential_friend.GetFirstNameNoTooltip] akceptuje twoją ofertę"
@@ -79,7 +79,7 @@
  relation_upgrade.1002.c: "Z #EMP tobą#!? Jesteś najnudniejszą osobą tutaj!"
  relation_upgrade.1002.c.tt: "Zamiast tego [potential_friend.GetFirstNameNoTooltip] oczernia cię "
  #Follow-Up, Lover:
- relation_upgrade.1003.t: "$relation_upgrade.1001.t$: Spacer w blasku księżyca"
+ relation_upgrade.1003.t: "$relation_upgrade.1001.t$: spacer w blasku księżyca"
  relation_upgrade.1003.desc: "Nie mam pojęcia jak [terrible_party_host.GetFirstName] przekonał[Select_CString(terrible_party_host.IsFemale, 'a', '' )] mnie do wzięcia udziału w [terrible_party_host.GetHerHis] okropnym, ponurym przyjęciu. Mogę tylko myśleć, że musiała to być chwila szaleństwa, a może obietnica, że [party_root.GetTitledFirstName] również przyjdzie.\n\nNasze drogi skrzyżowały się nieco wcześniej ale nie wydawało się, żeby zauważył[Select_CString(party_root.IsFemale, 'a', '' )] moje celowe westchnienie samotności. A przynajmniej nie zareagował[Select_CString(party_root.IsFemale, 'a', '' )]…\n\n„[potential_lover.GetFirstNameNoTooltip], [Select_CString(potential_lover.IsFemale, 'moja droga', 'mój drogi' )]! Masz ochotę na spacer w świetle księżyca?”"
  relation_upgrade.1003.a: "[party_root.GetFirstNameNoTooltip], myślał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )], że nigdy nie zapytasz!"
  relation_upgrade.1003.a.tt: "[potential_lover.GetFirstNameNoTooltip] będzie zachwycon[Select_CString(potential_lover.IsFemale, 'a', 'y' )]"
@@ -89,7 +89,7 @@
  relation_upgrade.1003.c: "Nie. Nie interesują mnie teraz zaloty."
  relation_upgrade.1003.c.tt: "[potential_lover.GetFirstNameNoTooltip] nie udziela ci odpowiedzi"
  #Follow-Up, Rival:
- relation_upgrade.1004.t: "$relation_upgrade.1001.t$: Nieustanne wrzaski"
+ relation_upgrade.1004.t: "$relation_upgrade.1001.t$: nieustanne wrzaski"
  relation_upgrade.1004.desc: "[ROOT.GetCharacter.GetFaith.HighGodName] mi świadkiem, [terrible_party_host.GetFirstName] nie potrafi urządzić przyjęcia, nawet jeśli zależy od tego [terrible_party_host.Custom('PL_jego_jej')] życie! Brak muzyki, jedzenie bez smaku, żadnych tańców, półmrok, a do tego jeszcze ta kreatura [party_root.GetTitledFirstName]\n\n– $relation_upgrade.1001.c$ – krzyczy na całą salę ta irytująca poczwara, przyciągając uwagę całego tabunu zaspanych gości. Następnie maszeruje w moją stronę, najwyraźniej zamierzając wyrazić jakąś swoją żałosną opinię."
  relation_upgrade.1004.a: "Och, więc chcesz usłyszeć #EMP najprawdziwszą#! prawdę, kanalio?"
  relation_upgrade.1004.a.tt: "[potential_rival.GetFirstNameNoTooltip] wścieka się"

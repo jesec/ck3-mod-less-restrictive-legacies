@@ -1880,6 +1880,7 @@
 	dynasty = 7296
 	religion = "ashari"
 	culture = "bedouin"
+	sexuality = heterosexual
 	father = 33923
 	martial = 6
 	diplomacy = 8

@@ -107,7 +107,7 @@
  hunt_opening_entourage_normal_dangerous: "Wir #EMP müssten#! genug an Zahl sein, die Bestie ohne allzu große Mühe in die Enge zu treiben."
  hunt_opening_entourage_many_dangerous: "Wir haben viele Augen und Speere noch dazu – die Schreckensherrschaft der Bestie endet heute!"
  hunt.0520.a: "Lasst uns keine Zeit verlieren."
- hunt_header: "Jagd:"
+ hunt_header: "[ROOT.Char.Custom('HuntHeader')]:"
  hunt.1001.t: "[activity.Custom('GetAnimalType')|U] in die Enge treiben"
  hunt.1001.desc_opening_courtier: "Mein[hunt_participant.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)] [hunt_participant.GetTitledFirstName] erspäht unsere Jagdbeute als Erstes."
  hunt.1001.desc_opening: "Als ich meinen Blick über die Landschaft schweifen lasse, halte ich jäh inne. Da ist das Tier, samt [activity.Custom('GetAnimalFeature')]!"

@@ -17,6 +17,7 @@
  MY_REALM_WINDOW_DISOBEDIENT: "@disobedience_icon! [disobedient|E]"
  MY_REALM_WINDOW_DOMICILE_LOCATION: "#low 현재 장소:#! [Character.GetDomicile.GetLocation.GetBaronyNameExplicitly]"
  MY_REALM_WINDOW_LAW_NAME_AND_LEVEL: "#E [Law.GetName]#! #low ([Add_int32( Law.GetIndexInLawGroup, '(int32)1' )])#!"
+ MY_REALM_WINDOW_LAW_NAME: "#E [Law.GetName]#!"
  MY_REALM_WINDOW_LAW_LEVEL: "[Add_int32( Law.GetIndexInLawGroup, '(int32)1' )]"
  MY_REALM_WINDOW_YOUR_INCOME: "당신의 수입:"
  MY_REALM_WINDOW_TAX_JURISDICTION: "[tax_jurisdiction|E]"

@@ -200,7 +200,8 @@
  cultural_festival.2110.e: "Je dois rester à ma place."
  cultural_festival_2110_d_tt: "Vous bottez le chien"
  cultural_festival_2110_d_opinion_tt: "Tous les personnages de l’assistance qui ne sont pas sans cœur ni sadiques"
- available_because_intent_tt: "Cette option est disponible en raison de votre [intent|El] ([THIS.Char.GetInvolvedActivityIntent.GetName|l])"
+ available_because_intent_tt: "#EMP #low Cette option est disponible en raison de votre intention ([THIS.Char.GetInvolvedActivityIntent.GetName|l])#!#!"
+ event_triggered_because_intent_tt: "#EMP #low Cette option est disponible en raison de votre intention ([THIS.Char.GetInvolvedActivityIntent.GetName|l])#!#!"
  #Tour Cultural Festival Events - Bilateral
  cultural_festival.3000.t: "La grande pièce"
  cultural_festival.3000.desc: "Une grande opportunité s’offre à moi avec la visite de [Select_CString(visiting_liege.IsFemale,'ma dame','mon seigneur')] lige [visiting_liege.Custom('FR_le_Char_Pi')][visiting_liege.GetTitledFirstName]. Je pourrais certainement profiter de cette rencontre pour gagner sa sympathie et probablement obtenir plus facilement ce que je veux...\n\nPeut-être pourrais-je organiser une pièce de théâtre qui dépeindrait ses grandes actions ? "

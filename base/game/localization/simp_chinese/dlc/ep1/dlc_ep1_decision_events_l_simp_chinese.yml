@@ -25,7 +25,7 @@
  promote_culture_leader_modifier: "颂扬文化多元"
  ep1_decision.0201.t: "宫中的语言学家"
  ep1_decision.0201.desc: "终于，对[target_court_language.GetCourtLanguage.GetName]语言学家的搜寻完成了。候选人被带到我面前，每个人都有自己的外语专长。"
- ep1_decision.0201.tt.aptitude: "[selected_linguist.GetUINamePossessive]的[aptitude|E]是[selected_linguist.GetCourtPositionAptitude( GetCourtPositionType( 'court_tutor_court_position' ) )]"
+ ep1_decision.0201.tt.aptitude: "[selected_linguist.GetUINamePossessive]的[aptitude|E]为[selected_linguist.GetCourtPositionAptitude( GetCourtPositionType( 'court_tutor_court_position' ) )]"
  ep1_decision.0201.a: "[good_linguist.GetNameNoTooltip]是著名的[target_court_language.GetCourtLanguage.GetNameNoTooltip]语言学家。"
  ep1_decision.0201.b: "[medium_linguist.GetNameNoTooltip]来干这活。"
  ep1_decision.0201.c: "[scholarly_linguist.GetNameNoTooltip]是著名的[target_court_language.GetCourtLanguage.GetNameNoTooltip]专家！"

@@ -2,7 +2,7 @@
  ### OUTCOME EVENTS ###
  ##I am a player, do I want to take the risk?
  elope_event_title: "Ucieczka z miłości:"
- elope.0001.t: "$elope_event_title$ Chronieni przez cienie"
+ elope.0001.t: "$elope_event_title$ chronieni przez cienie"
  elope.0001.positive.desc: "Trwają ostatnie przygotowania. Droga ucieczki została ustalona, strażnicy przekupieni, a [target.GetTitledFirstName] jest gotow[Select_CString(target.IsFemale, 'a', 'y' )]. Dziś wieczorem, gdy zapadnie zmrok, [target.Custom('LoverPetName')] będzie woln[Select_CString(target.IsFemale, 'a', 'y' )] i uczynię [Select_CString(target.IsFemale, 'ją moją żoną', 'go moim mężem' )]."
  elope.0001.negative.desc: "Przeglądam plan, który ułożył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] w swojej głowie. Trasa ucieczki została wytyczona, strażnicy powinni otrzymać łapówki i miejmy nadzieję, że list, której adresatem jest [target.GetTitledFirstName], dotarł do nie[Select_CString( target.IsFemale, 'j', 'ego' )] na czas. Ale co jeśli tak się nie stało? Może wcale go nie otrzymał[Select_CString( target.IsFemale, 'a', '' )]! I jest jeszcze tyle innych rzeczy, które mogły pójść nie tak…\n\nNie ma czasu na wątpliwości. To jest moja jedyna szansa. Muszę do nie[Select_CString( target.IsFemale, 'j', 'go' )] pójść, cokolwiek się stanie, albo porzucić to przedsięwzięcie."
  elope.0001.a: "Idę po ciebie, [target.GetFirstNameNoTooltip]!"
@@ -12,7 +12,7 @@
  elope.0001.a.failure_discover: "#N Nie udaje#! mi się zrealizować planu i zostaję również zdemaskowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]"
  elope.0001.a.failure_hidden: "#N Nie udaje#! mi się zrealizować planu, jednakże nie zostaję zdemaskowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]"
  #Success event owner
- elope.1001.t: "$elope_event_title$ Miłość, która przetrwa"
+ elope.1001.t: "$elope_event_title$ miłość, która przetrwa"
  elope.1001.start.desc: "Czekając, nie mogę powstrzymać się od wyobrażenia sobie wszystkiego, co może pójść nie tak. Czuję się całkowicie bezsiln[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] i chciał[Select_CString( ROOT.Char.IsFemale, 'abym', 'bym' )], aby to uczucie #EMP przestało#! mi w końcu towarzyszyć.\n\nDostrzegam, że ktoś zbliża się w naszym kierunku i gestem nakazuję moim strażnikom, aby się ukryli."
  elope.1001.start.desc_brave: "Kiedy czekamy, zastanawiam się, gdzie jest teraz [target.GetFirstName]. Czy udało [target.GetHerHim] się wydostać? Czy są jacyś prześladowcy?\n\nDostrzegam, że ktoś zbliża się w naszym kierunku i gestem nakazuję moim strażnikom, aby się ukryli."
  elope.1001.end.desc: "Światło zbliża się i widzimy dwie sylwetki. Jedna trzyma w dłoni miecz, to jasne. Druga… to musi być #EMP [target.GetSheHe]#!!.\n\nBiegnę na spotkanie z [Select_CString(target.IsFemale, 'nią', 'nim' )], a [target.Custom('LoverPetName')] rzuca się w moje ramiona. Uścisk jest szybki, ale słodki jak miód. Chwytam [Select_CString(target.IsFemale, 'ją', 'go' )] za rękę i biegnę."
@@ -42,7 +42,7 @@
  elope.1003.end.desc: "Powiem szczerze: to poważna zniewaga i plama na honorze twojej rodziny. Jeśli #EMP szczęśliwa para#! będzie szukać schronienia w miejscu znanym jako [capital.GetNameNoTooltip], wierzę, że dasz im nauczkę!"
  elope.1003.a: "Co za katastrofa!"
  #Failure discovered event owner
- elope.1011.t: "$elope_event_title$ Pochodnie w ciemności"
+ elope.1011.t: "$elope_event_title$ pochodnie w ciemności"
  elope.1011.middle.desc: "Widzę dwie sylwetki, trzy, cztery… [ROOT.Char.GetFaith.HighGodName] mi świadkiem, to nie może oznaczać nic dobrego!"
  elope.1011.end.desc: "Na mój rozkaz wycofujemy się przez zarośla. Nasi prześladowcy natomiast nie zważają na subtelności i szybko się zbliżają. \n\n„Nie możesz się wiecznie ukrywać, [ROOT.Char.GetTitledFirstNameNoTooltip]! Schwytaliśmy jednego z twoich ludzi, a ty będziesz następn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]!”"
  elope.1011.a: "#EMP Biegnij!#!"

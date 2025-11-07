@@ -200,7 +200,8 @@
  cultural_festival.2110.e: "Нужно оставаться на месте."
  cultural_festival_2110_d_tt: "Вы пинаете собаку"
  cultural_festival_2110_d_opinion_tt: "Все персонажи, кроме бесчувственных и садистов"
- available_because_intent_tt: "Этот вариант доступен из-за ваших [Concept( 'intent', 'намерений' )|E] на [THIS.Char.GetInvolvedActivityIntent.GetName|l]"
+ available_because_intent_tt: "#EMP #low Этот вариант доступен из-за ваших намерений на [THIS.Char.GetInvolvedActivityIntent.GetName|l]#!#!"
+ event_triggered_because_intent_tt: "#EMP #low Этот вариант доступен из-за ваших намерений на [THIS.Char.GetInvolvedActivityIntent.GetName|l]#!#!"
  #Tour Cultural Festival Events - Bilateral
  cultural_festival.3000.t: "Большая игра"
  cultural_festival.3000.desc: "Когда ко мне в гости жалует сюзерен — [visiting_liege.GetTitledFirstName], — я вижу в этом подарок судьбы. Шанс снискать [visiting_liege.GetHerHis] благосклонность и, надеюсь, возможность быстрее добиваться своего...\n\nА не поставить ли мне пьесу, восхваляющую [visiting_liege.GetHerHis] великие деяния? "

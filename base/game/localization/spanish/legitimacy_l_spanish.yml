@@ -26,7 +26,7 @@
  legitimacy_hud_tt: "[LegitimacyType.GetFlavorName( LegitimacyLevel.Self )] gobernante [LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )]"
  legitimacy_hud_tt_subheading: "[legitimacy_level|E] para [LegitimacyType.GetName]"
  legitmacy_flavor_and_level: "[LegitimacyType.GetFlavorName( LegitimacyLevel.Self )|V] #weak ([LegitimacyLevel.GetIndex]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )])#!"
- LEGITIMACY_TRACK_TITLE: "Legitimidad [Character.GetLegitimacy|V^]/[LegitimacyType.GetMaxLegitimacy( Character.Self )|V^]"
+ LEGITIMACY_TRACK_TITLE: "Legitimidad [Character.GetLegitimacy|V^0]/[LegitimacyType.GetMaxLegitimacy( Character.Self )|V^0]"
  LEGITIMACY_TRACK_TOOLTIP: "#T [LegitimacyType.GetFlavorName( LegitimacyLevel.Self )]#!\nNecesita al menos [LegitimacyLevel.GetThreshold( Character.Self )|V^] de legitimidad\n\n$LEGITIMACY_EFFECTS$"
  legitimacy_high_modifier_tt: "Alta [legitimacy|El]"
  legitimacy_low_modifier_tt: "Baja [legitimacy|El]"

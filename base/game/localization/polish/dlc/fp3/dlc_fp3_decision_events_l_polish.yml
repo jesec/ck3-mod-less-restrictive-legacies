@@ -179,7 +179,7 @@
  fp3_decision.0004.d: "To dla dobra wszystkich."
  fervor_gain_magi_destroyed: "Reforma magów"
  destroy_the_magi_opinion_tooltip: "Wyznający mniej radykalne poglądy władcy, których religią jest [root_religion.GetName|l], nie będą zadowoleni."
- replace_the_high_priest_effect_tooltip: "[head_of_faith|E] zmienia doktrynę (poprzednia: [GetFaithDoctrine('doctrine_temporal_head').GetBaseName|l], nowa: [GetFaithDoctrine('doctrine_no_head').GetBaseName|l])"
+ replace_the_high_priest_effect_tooltip: "[head_of_faith|E] zmienia się (była [GetFaithDoctrine('doctrine_temporal_head').GetBaseName|l] a jest [GetFaithDoctrine('doctrine_no_head').GetBaseName|l])"
  fp3_decision.0008.t: "Przyjęcie światła"
  fp3_decision.0008.desc: "Nękani [founder.GetFaith.GetAdherentNamePlural] od dawna bezskutecznie walczą bez właściwego przywództwa. Ich upokorzenie właśnie dobiega końca, ponieważ przejmuję #italic walajah#!, pieczę nad wiernymi, a niebiosa wskazują mi drogę swoją #italic światłością#!. Poprowadzę ich z pełnią umiejętności i przezorności, której udzieli mi opatrzność w swojej mądrości, a po mnie będą to samo czynić moi potomkowie. Niech to zwiastuje nowy początek dla wiernych, którymi są [founder.GetFaith.GetAdherentNamePluralNoTooltip]!"
  fp3_decision.0008.a: "To będzie mój obowiązek i brzemię."

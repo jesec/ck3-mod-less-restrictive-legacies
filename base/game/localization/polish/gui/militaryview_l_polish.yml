@@ -74,7 +74,7 @@
  TOTAL_MAA_COST: "[Regiment.GetTotalCostString]"
  TOTAL_MAA_COST_TOOLTIP: "#T Utrzymanie: [Regiment.GetTotalCostString]/miesiąc#!#D 2 decimal pls#!\n#D Reinforcing#!"
  TT_CAP_TITLE: "#T Limit pułku [Concept( 'men_at_arms', 'zbrojnych' )|E]: $MAX|V$#!"
- TT_CAP_ABOVE: "@warning_icon! #X Powyżej limitu: Płacisz dodatkowo $VALUE|-%0$!#!"
+ TT_CAP_ABOVE: "@warning_icon! #X Powyżej limitu: płacisz dodatkowo $VALUE|-%0$!#!"
  TT_CAP_REGIMENT_COUNT: "Pułki: $VALUE|V$"
  TT_CAP_REGIMENT_CURRENT: "Obecnie: $CURRENT|V$"
  TT_CAP_REGIMENT_CAP: "Limit"

@@ -44,7 +44,7 @@
  war_event.3002.desc.end.1: "你的行为违背了你的誓言，这将使你和你的家人蒙羞。"
  war_event.3003.desc.end.2: "[ROOT.Char.GetTitledFirstName]，你在这方面的失约严重损害了我对你的信任。"
  war_event.3002.1.a: "好吧。"
- war_event.3003.2.a: "我下次会做的更好。"
+ war_event.3003.2.a: "我下次会做得更好。"
  war_event.3003.2.b: "也许我应该结束我们的同盟……？"
  war_event.neighbor_war.both_neighbors.t: "附近的领主的战事已解决"
  war_event.neighbor_war.both_neighbors.desc: "你的近邻[winner.GetTitledFirstName]在[war.GetName]中战胜了你的另一个近邻[loser.GetTitledFirstName]！"

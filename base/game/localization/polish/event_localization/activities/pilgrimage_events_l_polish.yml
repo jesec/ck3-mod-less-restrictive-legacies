@@ -15,7 +15,7 @@
  activity_pilgrimage_province_desc_inspection_modifier: "\n#positive_value ++ Chronione święte miejsce #!"
  #Pros/Cons + Cost at the end
  activity_pilgrimage_province_desc: "Rozpoczynasz pielgrzymkę do miejsca znanego jako [ROOT.Province.GetName]\nOdległość wpływa na koszty i nagrody"
- activity_pilgrimage_province_very_short_desc: "\n#positive_value + Bardzo krótka odległość#!\n\nDodatkowy koszt: Brak"
+ activity_pilgrimage_province_very_short_desc: "\n#positive_value + Bardzo krótka odległość#!\n\nDodatkowy koszt: brak"
  activity_pilgrimage_province_pretty_short_desc: "\n#positive_value + Krótka odległość#!\n#negative_value - Nieco zwiększony koszt#!\n\nDodatkowy koszt: [gold_i][SCOPE.ScriptValue('pilgrimage_length_cost_tier_1')|0]"
  activity_pilgrimage_province_short_desc: "\n#positive_value ++ Dość krótka odległość#!\n#negative_value -- Nieznacznie zwiększony koszt#!\n\nDodatkowy koszt: [gold_i][SCOPE.ScriptValue('pilgrimage_length_cost_tier_2')|0]"
  activity_pilgrimage_province_intermediate_desc: "\n#positive_value ++ Normalna odległość#!\n#negative_value -- Zwykły koszt#!\n\nDodatkowy koszt: [gold_i][SCOPE.ScriptValue('pilgrimage_length_cost_tier_3')|0]"
@@ -40,54 +40,54 @@
  pilgrimage_cultural_acceptance_all_encountered.tt: "Każda napotkana [culture|El]"
  #Tenet rewards
  ##Armed Pilgrimages
- pilgrimage_because_global_have_armed_pilgrimages: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], ma [core_tenet|El] [GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]:"
- pilgrimage_because_global_had_armed_pilgrimages: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], miała [core_tenet|El] [GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]:"
+ pilgrimage_because_global_have_armed_pilgrimages: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], ma [core_tenet|El] „[GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]”:"
+ pilgrimage_because_global_had_armed_pilgrimages: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], miała [core_tenet|El] „[GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]”:"
  pilgrimage_because_they_have_armed_pilgrimages: "$pilgrimage_because_global_have_armed_pilgrimages$"
  pilgrimage_because_they_had_armed_pilgrimages: "$pilgrimage_because_global_had_armed_pilgrimages$"
- pilgrimage_because_i_have_armed_pilgrimages: "Jako że twoja [faith|El] ma [core_tenet|El] [GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]:"
- pilgrimage_because_i_had_armed_pilgrimages: "Jako że twoja [faith|El] miała [core_tenet|El] [GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]:"
+ pilgrimage_because_i_have_armed_pilgrimages: "Jako że twoja [faith|El] ma [core_tenet|El] „[GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]”:"
+ pilgrimage_because_i_had_armed_pilgrimages: "Jako że twoja [faith|El] miała [core_tenet|El] „[GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]”:"
  ##Mendicant Preachers
- pilgrimage_because_global_have_tenet_mendicant_preachers: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], ma [core_tenet|El] [GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName]:"
- pilgrimage_because_global_had_tenet_mendicant_preachers: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], miała [core_tenet|El] [GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName]:"
+ pilgrimage_because_global_have_tenet_mendicant_preachers: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], ma [core_tenet|El] „[GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName]”:"
+ pilgrimage_because_global_had_tenet_mendicant_preachers: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], miała [core_tenet|El] „[GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName]”:"
  pilgrimage_because_they_have_tenet_mendicant_preachers: "$pilgrimage_because_global_have_tenet_mendicant_preachers$"
  pilgrimage_because_they_had_tenet_mendicant_preachers: "$pilgrimage_because_global_had_tenet_mendicant_preachers$"
- pilgrimage_because_i_have_tenet_mendicant_preachers: "Jako że twoja [faith|El] ma [core_tenet|El] [GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName]:"
- pilgrimage_because_i_had_tenet_mendicant_preachers: "Jako że twoja [faith|El] miała [core_tenet|El] [GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName]:"
+ pilgrimage_because_i_have_tenet_mendicant_preachers: "Jako że twoja [faith|El] ma [core_tenet|El] „[GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName]”:"
+ pilgrimage_because_i_had_tenet_mendicant_preachers: "Jako że twoja [faith|El] miała [core_tenet|El] „[GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName]”:"
  ##Pentarchy
- pilgrimage_because_global_have_tenet_pentarchy: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], ma [core_tenet|El] [GetFaithDoctrine('tenet_pentarchy').GetBaseName]:"
- pilgrimage_because_global_had_tenet_pentarchy: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], miała [core_tenet|El] [GetFaithDoctrine('tenet_pentarchy').GetBaseName]:"
+ pilgrimage_because_global_have_tenet_pentarchy: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], ma [core_tenet|El] „[GetFaithDoctrine('tenet_pentarchy').GetBaseName]”:"
+ pilgrimage_because_global_had_tenet_pentarchy: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], miała [core_tenet|El] „[GetFaithDoctrine('tenet_pentarchy').GetBaseName]”:"
  pilgrimage_because_they_have_tenet_pentarchy: "$pilgrimage_because_global_have_tenet_pentarchy$"
  pilgrimage_because_they_had_tenet_pentarchy: "$pilgrimage_because_global_had_tenet_pentarchy$"
- pilgrimage_because_i_have_tenet_pentarchy: "Jako że twoja [faith|El] ma [core_tenet|El] [GetFaithDoctrine('tenet_pentarchy').GetBaseName]:"
- pilgrimage_because_i_had_tenet_pentarchy: "Jako że twoja [faith|El] miała [core_tenet|El] [GetFaithDoctrine('tenet_pentarchy').GetBaseName]:"
+ pilgrimage_because_i_have_tenet_pentarchy: "Jako że twoja [faith|El] ma [core_tenet|El] „[GetFaithDoctrine('tenet_pentarchy').GetBaseName]”:"
+ pilgrimage_because_i_had_tenet_pentarchy: "Jako że twoja [faith|El] miała [core_tenet|El] „[GetFaithDoctrine('tenet_pentarchy').GetBaseName]”:"
  ##Esotericism
- pilgrimage_because_global_have_tenet_esotericism: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], ma [core_tenet|El] [GetFaithDoctrine('tenet_esotericism').GetBaseName]:"
- pilgrimage_because_global_had_tenet_esotericism: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], miała [core_tenet|El] [GetFaithDoctrine('tenet_esotericism').GetBaseName]:"
+ pilgrimage_because_global_have_tenet_esotericism: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], ma [core_tenet|El] „[GetFaithDoctrine('tenet_esotericism').GetBaseName]”:"
+ pilgrimage_because_global_had_tenet_esotericism: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], miała [core_tenet|El] „[GetFaithDoctrine('tenet_esotericism').GetBaseName]”:"
  pilgrimage_because_they_have_tenet_esotericism: "$pilgrimage_because_global_have_tenet_esotericism$"
  pilgrimage_because_they_had_tenet_esotericism: "$pilgrimage_because_global_had_tenet_esotericism$"
- pilgrimage_because_i_have_tenet_esotericism: "Jako że twoja [faith|El] ma [core_tenet|El] [GetFaithDoctrine('tenet_esotericism').GetBaseName]:"
- pilgrimage_because_i_had_tenet_esotericism: "Jako że twoja [faith|El] miała [core_tenet|El] [GetFaithDoctrine('tenet_esotericism').GetBaseName]:"
+ pilgrimage_because_i_have_tenet_esotericism: "Jako że twoja [faith|El] ma [core_tenet|El] „[GetFaithDoctrine('tenet_esotericism').GetBaseName]”:"
+ pilgrimage_because_i_had_tenet_esotericism: "Jako że twoja [faith|El] miała [core_tenet|El] „[GetFaithDoctrine('tenet_esotericism').GetBaseName]”:"
  ##Struggle & Submission
- pilgrimage_because_global_have_tenet_struggle_submission: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], ma [core_tenet|El] [GetFaithDoctrine('tenet_struggle_submission').GetBaseName]:"
- pilgrimage_because_global_had_tenet_struggle_submission: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], miała [core_tenet|El] [GetFaithDoctrine('tenet_struggle_submission').GetBaseName]:"
+ pilgrimage_because_global_have_tenet_struggle_submission: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], ma [core_tenet|El] „[GetFaithDoctrine('tenet_struggle_submission').GetBaseName]”:"
+ pilgrimage_because_global_had_tenet_struggle_submission: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], miała [core_tenet|El] „[GetFaithDoctrine('tenet_struggle_submission').GetBaseName]”:"
  pilgrimage_because_they_have_tenet_struggle_submission: "$pilgrimage_because_global_have_tenet_struggle_submission$"
  pilgrimage_because_they_had_tenet_struggle_submission: "$pilgrimage_because_global_had_tenet_struggle_submission$"
- pilgrimage_because_i_have_tenet_struggle_submission: "Jako że twoja [faith|El] ma [Concept( 'core_tenet', 'dogmat' )|E] [GetFaithDoctrine('tenet_struggle_submission').GetBaseName]:"
- pilgrimage_because_i_had_tenet_struggle_submission: "Jako że twoja [faith|El] miała [Concept( 'core_tenet', 'dogmat' )|E] [GetFaithDoctrine('tenet_struggle_submission').GetBaseName]:"
+ pilgrimage_because_i_have_tenet_struggle_submission: "Jako że twoja [faith|El] ma [Concept('core_tenet', 'dogmat')|E] „[GetFaithDoctrine('tenet_struggle_submission').GetBaseName]”:"
+ pilgrimage_because_i_had_tenet_struggle_submission: "Jako że twoja [faith|El] miała [Concept('core_tenet', 'dogmat')|E] „[GetFaithDoctrine('tenet_struggle_submission').GetBaseName]”:"
  ##Ancestor Worship
- pilgrimage_because_global_have_tenet_ancestor_worship: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], ma [core_tenet|El] [GetFaithDoctrine('tenet_ancestor_worship').GetBaseName]:"
- pilgrimage_because_global_had_tenet_ancestor_worship: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], miała [core_tenet|El] [GetFaithDoctrine('tenet_ancestor_worship').GetBaseName]:"
+ pilgrimage_because_global_have_tenet_ancestor_worship: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], ma [core_tenet|El] „[GetFaithDoctrine('tenet_ancestor_worship').GetBaseName]”:"
+ pilgrimage_because_global_had_tenet_ancestor_worship: "Jako że [faith|El], którą wyznaje [CHARACTER.GetShortUINameNotMe], miała [core_tenet|El] „[GetFaithDoctrine('tenet_ancestor_worship').GetBaseName]”:"
  pilgrimage_because_they_have_tenet_ancestor_worship: "$pilgrimage_because_global_have_tenet_ancestor_worship$"
  pilgrimage_because_they_had_tenet_ancestor_worship: "$pilgrimage_because_global_had_tenet_ancestor_worship$"
- pilgrimage_because_i_have_tenet_ancestor_worship: "Jako że twoja [faith|El] ma [core_tenet|El] [GetFaithDoctrine('tenet_ancestor_worship').GetBaseName]:"
- pilgrimage_because_i_had_tenet_ancestor_worship: "Jako że twoja [faith|El] miała [core_tenet|El] [GetFaithDoctrine('tenet_ancestor_worship').GetBaseName]:"
+ pilgrimage_because_i_have_tenet_ancestor_worship: "Jako że twoja [faith|El] ma [core_tenet|El] „[GetFaithDoctrine('tenet_ancestor_worship').GetBaseName]”:"
+ pilgrimage_because_i_had_tenet_ancestor_worship: "Jako że twoja [faith|El] miała [core_tenet|El] „[GetFaithDoctrine('tenet_ancestor_worship').GetBaseName]”:"
  pilgrimage_learn_from_the_bishops: "Spróbuj zrozumieć nauczycieli świętych"
  pilgrimage_learn_from_the_bishops_success: "Przyswajasz nauki"
  pilgrimage_learn_from_the_bishops_failure: "Wiedza wciąż ci umyka"
  #Tenet event piousness
- pilgrimage_piousness_because_i_have_tenet_armed_pilgrimages: "Jako że twoja [faith|El] ma [core_tenet|El] [GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]:\n$EFFECT_LIST_BULLET$$pilgrimage_pious_type_tt_positive$"
- pilgrimage_piousness_because_i_have_tenet_struggle_submission: "Jako że twoja [faith|El] ma [core_tenet|El] [GetFaithDoctrine('tenet_struggle_submission').GetBaseName]:\n$EFFECT_LIST_BULLET$$pilgrimage_pious_type_tt_positive$"
- pilgrimage_piousness_because_i_have_tenet_warmonger: "Jako że twoja [faith|El] ma [core_tenet|El] [GetFaithDoctrine('tenet_warmonger').GetBaseName]:\n$EFFECT_LIST_BULLET$$pilgrimage_pious_type_tt_positive$"
+ pilgrimage_piousness_because_i_have_tenet_armed_pilgrimages: "Jako że twoja [faith|El] ma [core_tenet|El] „[GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]”:\n$EFFECT_LIST_BULLET$$pilgrimage_pious_type_tt_positive$"
+ pilgrimage_piousness_because_i_have_tenet_struggle_submission: "Jako że twoja [faith|El] ma [core_tenet|El] „[GetFaithDoctrine('tenet_struggle_submission').GetBaseName]”:\n$EFFECT_LIST_BULLET$$pilgrimage_pious_type_tt_positive$"
+ pilgrimage_piousness_because_i_have_tenet_warmonger: "Jako że twoja [faith|El] ma [core_tenet|El] „[GetFaithDoctrine('tenet_warmonger').GetBaseName]”:\n$EFFECT_LIST_BULLET$$pilgrimage_pious_type_tt_positive$"
  ### PARAMETERS
  pilgrimage_base_cost: "Koszt podstawowy"
  pilgrimage_cost_triggered_by_ghosts: "Duchowy wpływ"
@@ -302,7 +302,7 @@
  grateful_pilgrims_title: "Wdzięczni pielgrzymi"
  cultural_acceptance_rejected_pilgrims: "Odrzuceni pielgrzymi"
  #Heathen-hating adherent challenges you
- pilgrimage.2002.t: "$pilgrimage_header$ Miłuj bliźniego swego"
+ pilgrimage.2002.t: "$pilgrimage_header$ miłuj bliźniego swego"
  pilgrimage.2002.desc: "Wśród moich towarzyszy pielgrzymów jest pewien człowiek, który głosi wciąż konieczność praktykowania współczucia i braterstwa – no chyba że mowa o poganach.\n\nPewnego wieczoru przy ognisku głośno oświadcza: – [ROOT.Char.GetFaith.PantheonTerm|U] to odrażające potwory! Zboczeńcy i dzieciobójcy! – Większość ludzi odwraca na widok tej osoby wzrok; mnie nie udało się dziś zrobić tego w porę.\n\n– A co [ROOT.Char.GetTitleAsNameNoTooltip] o nich sądzi?"
  pilgrimage.2002.a: "Nie #EMP wszyscy#! są tacy źli."
  pilgrimage.2002.b: "Właśnie! A każdy, kto chciałby ich chronić, jest niegodny zaufania!"
@@ -314,12 +314,12 @@
  pilgrimage.2003.b: "[2002_local_warrior.GetTitledFirstNameNoTooltip] wydaje się być dobrym kandydatem."
  pilgrimage.2003.c: "Nie. [ROOT.Char.GetFaith.PantheonTerm|U] – oto w co wierzę."
  #Run into a Potential Friend
- pilgrimage.2004.t: "$pilgrimage_header$ Nieoczekiwane spotkanie"
+ pilgrimage.2004.t: "$pilgrimage_header$ nieoczekiwane spotkanie"
  pilgrimage.2004.desc: "W miarę jak zbliżam się do miejsca o nazwie [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip], spotykam coraz więcej innych pielgrzymów, z różnych miejsc.\n\nWłaśnie jeden z nich rozpoznaje mnie z daleka: –[ROOT.Char.GetTitledFirstNameNoTooltip]?! Czy to ty?\n\nTo nikt inny jak [potential_friend.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
  pilgrimage.2004.a: "Jesteśmy tutaj z woli siły wyższej znanej jako [ROOT.Char.GetFaith.PantheonTerm]!"
  pilgrimage.2004.b: "Co za pomyślne spotkanie, ale muszę się modlić w samotności."
  #A peasant inadvertedly insults you
- pilgrimage.2005.t: "$pilgrimage_header$ Niegrzeczna historia"
+ pilgrimage.2005.t: "$pilgrimage_header$ niegrzeczna historia"
  pilgrimage.2005.desc: "Gdy przechodzę obok ogniska, słyszę, jak pielgrzym z innej świty opowiada poznaną przez siebie niegdyś historię, której głównym bohaterem jest [ROOT.Char.GetTitleAsNameNoTooltip]"
  pilgrimage.2005.desc_close: "tych ziem,"
  pilgrimage.2005.desc_far: "odległej krainy o nazwie [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip],"
@@ -340,19 +340,19 @@
  pilgrimage.2006.c: "Chyba nic się nie stanie, jeśli zapytam miejscowych o drogę…"
  pilgrimage.2006.c_caravan_master: "Teraz #EMP ty#! idziesz zapytać o drogę."
  #Fall ill
- pilgrimage.2008.t: "$pilgrimage_header$ Choroba"
+ pilgrimage.2008.t: "$pilgrimage_header$ choroba"
  pilgrimage.2008.desc: "Wygląda na to, że źle znoszę te wszystkie podróże – może to przez obce ziemie wypełnione nieznanym powietrzem, a może przez niewystarczająco ciepłe futra.\n\nTak czy inaczej, mój kaszel nie ustępuje od tygodni, a dziś rano ledwo udało mi się zebrać siły, by wstać z łóżka."
  pilgrimage.2008.a: "Skoro taka jest wola [ROOT.Char.GetFaith.HighGodNameAlternatePossessive]…"
  pilgrimage.2008.a.tt: "Podróżowanie stwarza większe zagrożenie dla zdrowia, gdy mam cechę: [GetTrait('ill').GetName( GetPlayer )|l]"
  pilgrimage.2008.whole_of_body: "Och, ten mały kaszel szybko minie."
  pilgrimage.2008.court_physician: "[traveling_court_physician.GetTitledFirstNameNoTooltip], przygotujże mi coś."
  #Develop pneumonia
- pilgrimage.2009.t: "$pilgrimage_header$ Chrapliwy kaszel"
+ pilgrimage.2009.t: "$pilgrimage_header$ chrapliwy kaszel"
  pilgrimage.2009.desc: "Ta podróż jest dla mnie zbyt wymagająca. Moje zdrowie nie ulega poprawie pomimo dążenia do zyskania łaski siły wyższej znanej jako [ROOT.Char.GetFaith.PantheonTerm]. Zrobiło się znacznie, znacznie gorzej. Nie pamiętam już, jak to jest oddychać bez większego wysiłku."
  pilgrimage.2009.a: "Niczego nie pragnę, jak tylko łaski [ROOT.Char.GetFaith.HighGodNameAlternatePossessive]."
  pilgrimage.2009.a.tt: "Podróżowanie stwarza duże zagrożenie dla zdrowia osób z cechą [GetTrait('pneumonic').GetName( GetPlayer )|l]"
  #Meet a mystic
- pilgrimage.2010.t: "$pilgrimage_header$ Misty[Select_CString( mystic.IsFemale, 'czka', 'k' )]"
+ pilgrimage.2010.t: "$pilgrimage_header$ mistyk"
  pilgrimage.2010.desc: "[2010_mystic.GetTitledFirstName] jest jedną z dziwniejszych osób, jakie było mi dane spotkać podczas tej podróży. Wiarę ma mocną, lecz wciąż usiłuje wyjaśnić prawdziwą naturę [ROOT.Char.GetFaith.HighGodNamePossessive] i znaczenie wszystkiego, co nas otacza. W nocy [2010_mystic.Custom('PL_jego_jej')] namiot rozświetlają świece, a od czasu do czasu dochodzi z niego dziwny śpiew i niezwykły zapach kadzidła.\n\nGdy [2010_mystic.GetFirstNameNoTooltip] zaprasza mnie do środka, czuję, że brakuje mi do tej wizyty gotowości."
  pilgrimage.2010.a: "Jestem dość ciekaw[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]…"
  pilgrimage.2010.a.tt: "Wchodzisz do namiotu"
@@ -487,7 +487,7 @@
  pilgrimage.6007.b: "T[Select_CString( 6007_healer.IsFemale, 'a kobieta nie jest godna', 'en mężczyzna nie jest godny' )] naszego zaufania."
  ###'Temptation/Virtue' Journey Events
  #Rakish or Lustful character considers making a pit stop, or perhaps, a detour to the local brothels
- pilgrimage.2101.t: "$pilgrimage_header$ Pragnienie intymności"
+ pilgrimage.2101.t: "$pilgrimage_header$ pragnienie intymności"
  pilgrimage.2101.desc: "Ile czasu minęło, odkąd ostatni raz moją skórę rozgrzewało ciepło innej osoby? Ta pielgrzymka koszmarnie oddaliła mnie od mego pełnego wygód domu.\n\nOch, jak ja tęsknię za cielesnymi doznaniami. Nie jestem w stanie wyrzucić z głowy tych fantazji i czuję pokusę poddania się pragnieniom, by móc się jakkolwiek skupić."
  pilgrimage.2101.desc.lust_vice: "\n\nNiech [ROOT.Char.GetFaith.HighGodName] ma mnie w swojej opiece, wiem, że to uczucie jest grzechem! Dlaczego musisz wystawiać mnie na tak ciężką próbę? Czy moja pielgrzymka nie jest wystarczającym dowodem mojego oddania?"
  pilgrimage.2101.desc.lust_virtue: "\n\nZ pewnością musi to być część prób [ROOT.Char.GetFaith.HighGodNamePossessive]! Czy mogę zachować czystość, nie padając ofiarą ewentualnych wrogów wiary podczas pielgrzymki?"
@@ -528,7 +528,7 @@
  pilgrimage.2504.c.virtue: "Nie ma za co dziękować. Teraz idź, z błogosławieństwem [ROOT.Char.GetFaith.HighGodNamePossessive]."
  pilgrimage.2504.c.sin: "Tak, tak, tylko proszę… idź już."
  #Cocky Lordling
- pilgrimage.2511.t: "$pilgrimage_header$ Zarozumiał[Select_CString(lordling.IsFemale, 'a panna', 'y panicz' )]"
+ pilgrimage.2511.t: "$pilgrimage_header$ zarozumialstwo"
  pilgrimage.2511.desc.start: "Miejsce o nazwie [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip] przyciąga pielgrzymów z całego świata, którym rządzi wiara [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|l], więc to, że podczas mojej podróży jest tam [lordling.Custom2('MyCharacterIntroduction', ROOT.Char)], nie było takie trudne do przewidzenia.\n\nTo, co #EMP było#! trudne do przewidzenia, to ni mniej, ni więcej [lordling.Custom('PL_jego_jej')] bezczelne zachowanie, a mianowicie zagrodzenie na koniu drogi mojej świcie i rzucanie obelg #EMP prosto w moją twarz#!!"
  pilgrimage.2511.desc.wrathful: "\n\nMoja krew wrze, ale pamiętam, że [ROOT.Char.GetFaith.PriestNeuterPlural] mówią nam, abyśmy zachowali powściągliwość i nie pozwolili naszym emocjom przejąć kontroli."
  pilgrimage.2511.desc.vengeful: "\n\nWłaśnie w takich chwilach przypomina mi się, że [ROOT.Char.GetFaith.PantheonTerm] nakazuje nam przebaczać tym, którzy nas skrzywdzili."
@@ -544,7 +544,7 @@
  pilgrimage.3001.a.tt: "$pilgrimage.2008.a.tt$"
  pilgrimage.3001.b: "Zapomnij o tym szaleństwie, będę w swoim namiocie."
  #Naked preacher claiming to have reclaimed the lost innocence of Adam & Eve
- pilgrimage.3002.t: "$pilgrimage_header$ Niewinność Adama"
+ pilgrimage.3002.t: "$pilgrimage_header$ niewinność Adama"
  pilgrimage.3002.desc: "Gdy moi towarzysze przygotowują się do rozbicia obozu, zauważam w pobliżu ogromne poruszenie – nag[Select_CString( naked_preacher.IsFemale, 'a kobieta wspięła', 'i mężczyzna wspiął' )] się na szczyt wielkiej skały i wygłasza kazanie do zgromadzonego tłumu.\n\nGrzech pierworodny wciąż plami nasze dusze, moi przyjaciele, jednakże wcale tak być nie musi! Jeśli zrzucimy nasze szaty, odzyskamy utraconą niewinność Adama i Ewy… wtedy, i #EMP tylko#! wtedy, Duch Święty na nas zstąpi i pokaże nam prawdziwą bożą miłość!"
  pilgrimage.3002.a: "Ona ma rację! Nigdy nie czuł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się tak blisko [ROOT.Char.GetFaith.HighGodNamePossessive]!"
  pilgrimage.3002.b: "Herezja! Ściągnijcie [Select_CString( naked_preacher.IsFemale, 'ją', 'go' )] stamtąd!"
@@ -554,7 +554,7 @@
  pilgrimage.3002.c.failure: "Nie jesteś w stanie odeprzeć argumentów kaznodziei"
  pilgrimage.3002.d: "Zignoruj [Select_CString( naked_preacher.IsFemale, 'ją', 'go' )] i kontynuuj swoją podróż."
  #You convinced the naked preacher
- pilgrimage.3003.t: "$pilgrimage_header$ Wina Adama"
+ pilgrimage.3003.t: "$pilgrimage_header$ wina Adama"
  pilgrimage.3003.desc: "Po porażce w teologicznej debacie [naked_preacher.GetWomanMan] schodzi ze skały i staje teraz przede mną, nie kryjąc zaskoczenia całym zajściem.\n\n– … Naprawdę coś podpowiadało mi, że sekret tkwi w szatach – szepcze ponuro. – Ale twoja perspektywa jest naprawdę oświecająca.\n\nMruga, nagle przypominając sobie, że stoi w otoczeniu tłumu całkiem nago, ale zachowuje zimną krew. – Jednakże, nie wiem, co począć dalej…"
  pilgrimage.3003.a: "Ubierz to i towarzysz nam w wędrówce do miejsca o nazwie [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]."
  pilgrimage.3003.a.flavor: "[naked_preacher.GetWomanMan|U] w adamowym stroju dostaje od ciebie kilka ubrań."
@@ -568,14 +568,14 @@
  pilgrimage.3004.c: "To #EMP nie#! jest osoba duchowna! Usunąć [doomsayer.Custom('PL_go_ja')]!"
  ###Muslim Pilgrimage Journey Events
  #Ziyarat - Why am I taking this pilgrimage?
- pilgrimage.3102.t: "$pilgrimage_header$ Zijarat"
+ pilgrimage.3102.t: "$pilgrimage_header$ zijarat"
  pilgrimage.3102.desc: "Poza obowiązkowym dla wszystkich muzułmanów hadżdżem organizowane są też zijaraty do innych miejsc, choć te cieszą się znacznie mniejszą popularnością. Z racji tego, że te drugie nie są obowiązkowe w doktrynie islamu, muzułmanie, którzy decydują się je odbyć, mają ku temu rozmaite powody.\n\nPokonując drogę do miejsca o nazwie [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip], zastanawiam się, co było moją motywacją do odbycia tej konkretnej podróży…"
  pilgrimage.3102.a: "Chcę zobaczyć wszystkie wspaniałe dzieła Allaha."
  pilgrimage.3102.b: "Moja gorliwość jest tak wielka, że pragnę zrobić coś więcej niż tylko hadżdż."
  pilgrimage.3102.c: "Wątpliwości, które w sobie noszę, zmuszają mnie do szukania odpowiedzi w odległych krainach."
  ###Hindu Pilgrimage Journey Events
  #Ritual purification in a river
- pilgrimage.3201.t: "$pilgrimage_header$ Rytuał oczyszczania"
+ pilgrimage.3201.t: "$pilgrimage_header$ rytuał oczyszczania"
  pilgrimage.3201.desc: "Rytualne oczyszczenie jest istotną częścią podróży każdego hinduskiego pielgrzyma. Powszechną tego formą jest obmycie się w wodach świętej rzeki.\n\nTuż przed nami znajduje się przejście przez rzekę, jednakże nie mogę nie zauważyć, że jest ono wypełnione plebsem, który również przybył na pielgrzymkę…"
  pilgrimage.3201.a: "Dołącz do innych wiernych w świętych wodach."
  pilgrimage.3201.b: "Nie będę się kąpać z tym #EMP plebsem#!!"
@@ -592,7 +592,7 @@
  pilgrimage.3202.b.tt: "Dotrzesz do celu #P kilka tygodni wcześniej#!"
  ###Buddhist Pilgrimage Journey Events
  #Critical Wanderer
- pilgrimage.3301.t: "$pilgrimage_header$ Krytyczny bhikkhu"
+ pilgrimage.3301.t: "$pilgrimage_header$ krytyczny bhikkhu"
  pilgrimage.3301.desc: "Przemierzając drogę widzę wielu wędrowców, którzy porzucili świat i uwolnili się od wszelkich ziemskich przywiązań.\n\nDziś pewn[Select_CString( wanderer.IsFemale, 'a starsza wędrowczyni', 'y pewien wędrowiec' )], idąc obok mnie, przygląd[Select_CString( wanderer.IsFemale, 'a', '' )] się mojej świcie. – Przynosisz ze sobą zbyt wiele. Aby osiągnąć oświecenie, musisz odrzucić swoje doczesne dobra, tak jak ja, i podróżować w niczym innym, jak tylko w prostych szatach."
  pilgrimage.3301.a: "Poradzę sobie z tym, przynajmniej w tej podróży."
  pilgrimage.3301.b: "Ale mój namiot, moje koce? To zbyt wiele. Nie jestem gotow[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]!"
@@ -931,7 +931,7 @@
  pilgrimage.7000.b: "Pokutuję!"
  ###Generic Pilgrimage Return Events
  #Nice spiritual journey
- pilgrimage.9001.t: "$pilgrimage_header$ Powrót"
+ pilgrimage.9001.t: "$pilgrimage_header$ powrót"
  pilgrimage.9001.desc_intro: "Moja podróż była długa, ale w końcu wrócił[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m do domu."
  pilgrimage.9001.desc_invalidated: "\n\nZ powodu pechowego obrotu wydarzeń moja pielgrzymka została skrócona i niestety nie udało mi się odwiedzić miejsca o nazwie [missed_holy_site.GetNameNoTooltip]. Martwi mnie to, choć z każdym dniem mniej.\n\nMogę tylko założyć, że to wszystko było częścią planu [ROOT.Char.GetFaith.HighGodNameAlternatePossessive]."
  pilgrimage.9001.desc_buried_there: "Dzięki postanowieniu ukończenia pielgrzymki postaci znanej jako [old_pilgrimage_host.GetTitledFirstName] śpię teraz spokojnie, wiedząc, że świętość miejsca o nazwie [burial_location.GetNameNoTierNoTooltip] otacza ją wiecznym ukojeniem.\n\nI chociaż wiele pozostaje bez zmian, moi [ROOT.Char.GetFaith.AltPriestTermPlural] uparcie twierdzą, że święta podróż coś we mnie zmieniła, niezależnie od tego, czy to dostrzegam, czy też nie."
@@ -940,7 +940,7 @@
  pilgrimage.9001.a_invalidated: "Niech się dzieje, co chce."
  pilgrimage.9001.a.tt: "Twoja podróż dobiegła końca"
  #Bury old host back home
- pilgrimage.9010.t: "$pilgrimage_header$ Powrót do domu"
+ pilgrimage.9010.t: "$pilgrimage_header$ powrót do domu"
  pilgrimage.9010.desc.relation_family: "Późnym popołudniem przybywamy do miejsca o nazwie [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], a służba, #EMP moja#! służba, natychmiast rozpoczyna niezbędne przygotowania, aby złożyć ciało [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('old_pilgrimage_host'))] na wieczny odpoczynek.\n\n"
  pilgrimage.9010.desc.relation_liked: "Przybywamy do miejsca o nazwie [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] późnym popołudniem, a służba, #EMP moja#! służba, natychmiast rozpoczyna niezbędne przygotowania, aby złożyć ciało drogiej mi osoby, której imię brzmiało [old_pilgrimage_host.GetFirstName], na wieczny odpoczynek.\n\n"
  pilgrimage.9010.desc.relation_neutral: "Przybywamy do miejsca o nazwie [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] późnym popołudniem, a służba, #EMP moja#! służba, natychmiast rozpoczyna niezbędne przygotowania, aby złożyć ciało osoby, która znana była jako [old_pilgrimage_host.GetTitledFirstName], na wieczny odpoczynek.\n\n"

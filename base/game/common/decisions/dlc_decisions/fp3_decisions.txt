@@ -107,6 +107,10 @@ struggle_persia_ending_assertion_decision = {
 				STRUGGLE = persian_struggle
 			}
 		}
+		if = {
+			limit = { has_ach_dlc_trigger = yes }
+			add_character_flag = ach_ended_struggle
+		}
 		show_as_tooltip = {
 			fp3_ending_effects_assertion = yes
 		}
@@ -449,6 +453,10 @@ struggle_persia_ending_foundation_decision = {
 				STRUGGLE = persian_struggle
 			}
 		}
+		if = {
+			limit = { has_ach_dlc_trigger = yes }
+			add_character_flag = ach_ended_struggle
+		}
 		if = { # Shia Caliphate
 			limit = { scope:struggle_persia_ending_foundation_decision_option_shia = yes }
 			custom_tooltip = struggle_persia_ending_foundation_decision_option.t.shia
@@ -607,6 +615,10 @@ struggle_persia_ending_rekindle_iran_decision = {
 				ENDER = root
 				STRUGGLE = persian_struggle
 			}
+		}
+		if = {
+			limit = { has_ach_dlc_trigger = yes }
+			add_character_flag = ach_ended_struggle
 		}
 		if = {
 			limit = { scope:struggle_persia_ending_rekindle_iran_decision_option_secret_faith = yes }
@@ -1005,6 +1017,10 @@ fp3_sunder_the_caliphate_decision = {
 			}
 			
 		}
+		if = {
+			limit = { has_ach_dlc_trigger = yes }
+			add_character_flag = ach_ended_struggle
+		}
 		
 		title:d_sunni.holder = {
 			save_scope_as = the_caliph
@@ -1072,6 +1088,10 @@ fp3_become_clan_government_decision = {
 		legend_seed_struggle_ending_effect = {
 			ENDER = root
 			STRUGGLE = persian_struggle
+		}
+		if = {
+			limit = { has_ach_dlc_trigger = yes }
+			add_character_flag = ach_ended_struggle
 		}
 		show_as_tooltip ={
 			change_government = clan_government

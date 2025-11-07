@@ -22,7 +22,7 @@
  mpo_call_for_merchants_decision_tooltip: "$mpo_call_for_merchants_decision.merchant_will_arrive$"
  mpo_call_for_merchants_decision_confirm: "派遣使者"
  mpo_call_for_merchants_dead_merchant_toast: "富有的访客在途中去世"
- mpo_call_for_merchants_dead_merchant_desc: "富有的访客[merchant.GetShortUIName]在[merchant.GetHerHis]的旅途中不幸去世。"
+ mpo_call_for_merchants_dead_merchant_desc: "富有的访客[merchant.GetShortUIName]在[merchant.GetHerHis]的旅途中不幸去世"
  mpo_call_for_merchants_small_decision: "$mpo_call_for_merchants$：本地提议"
  mpo_call_for_merchants_small_decision_desc: "$mpo_call_for_merchants_decision_desc$"
  mpo_call_for_merchants_small_decision_tooltip: "改善你的士兵或开启[artifact|E]制造。"

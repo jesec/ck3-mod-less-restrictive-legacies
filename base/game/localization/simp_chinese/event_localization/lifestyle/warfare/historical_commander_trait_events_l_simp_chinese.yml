@@ -18,7 +18,7 @@
  historical_commander_trait.0002.d: "现在仗又不是那样打……"
  #Alexander
  historical_commander_trait.0003.t: "锐不可当的亚历山大"
- historical_commander_trait.0003.desc: "在研究古代将领的战术时，我学到了亚历山大大帝在征服美索不达米亚时的英勇战绩，感到非常[ROOT.Char.Custom('surprised_reaction')]。\n\n#F 在提尔之围中，亚历山大拆毁了附近的一座小镇，然后用瓦砾铺建了一道长堤，从陆地延伸到岛上要塞的城墙下。这使得他的攻城器械能够直接攻击到敌人的堡垒，不过最后倒是他的海军打出了突破口。#!"
+ historical_commander_trait.0003.desc: "在研究古代将领的战术时，我学到了亚历山大大帝在征服美索不达米亚时的英勇战绩，感到非常[ROOT.Char.Custom('surprised_reaction')]。\n\n#F 在推罗攻攻战中，亚历山大拆毁了附近的一座小镇，然后用瓦砾铺建了一道长堤，从陆地延伸到岛上要塞的城墙下。这使得他的攻城器械能够直接攻击到敌人的堡垒，不过最后倒是他的海军打出了突破口。#!"
  historical_commander_trait.0003.a: "没有什么水域能阻挡我的军队！"
  historical_commander_trait.0003.b: "那道长堤真是个伟大的天才之举。"
  historical_commander_trait.0003.c: "用敌人的资源来对抗他们？天才！"

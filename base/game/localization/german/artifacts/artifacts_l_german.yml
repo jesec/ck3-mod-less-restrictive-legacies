@@ -1036,6 +1036,7 @@
  artifact_crossbow: "Armbrust"
  artifact_crossbow_name: "Armbrust ($artifact_name_prefix$)"
  artifact_crossbow_description: "Eine Armbrust [SCOPE.Custom('ArtifactQuality')] aus [newly_created_artifact.GetFeatureText('bow_wood')] mit sehnenbespannten Bogeneisen. Äußerst durchschlagskräftig und kann im Voraus bereit gemacht werden. Das Nachladen braucht einiges an Zeit."
+ create_artifact_bow_tooltip: "[inspiration_owner.GetShortUIName|U] erschuf Folgendes: [SCOPE.Custom('ArtifactBowType')] von [SCOPE.Custom('ArtifactQuality')|l]er Machart"
  feature_longbow_wood_elm: "$feature_bow_wood_elm$"
  feature_longbow_wood_yew: "$feature_bow_wood_yew$"
  feature_composite_wood_bamboo: "$feature_bow_wood_bamboo$"

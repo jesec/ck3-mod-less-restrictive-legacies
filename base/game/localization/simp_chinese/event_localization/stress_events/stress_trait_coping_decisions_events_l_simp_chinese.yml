@@ -44,7 +44,7 @@
  stress_trait_coping_decisions.3001.a: "还有#EMP 你#!！别以为我没看到你！"
  stress_trait_coping_decisions.3501.t: "压力应对：让人镇静的痛苦"
  stress_trait_coping_decisions.3501.desc: "#EMP 啪！#!\n\n鞭子抽打在我的背上，我因它带来的清晰而颤抖。我只能感觉到痛苦，而我的脑海里也全都是痛苦。\n\n#EMP 啪！#!\n\n#EMP 啪！#!"
- stress_trait_coping_decisions.3501.a: "呃——甜美，甜美的痛苦！"
+ stress_trait_coping_decisions.3501.a: "哼——甜美，甜美的痛苦！"
  stress_trait_coping_decisions.4001.t: "压力应对：买买买"
  stress_trait_coping_decisions.4001.desc: "我穿过[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]的集市，兴奋且眼花缭乱——布料、珠宝、丝线、饰品……我都想要！\n\n我最后在一个老[ROOT.Char.Custom('RandomWomanMan')]的摊位上停了下来，这位老人非常了解我的困扰，承诺会帮我挑选。"
  stress_trait_coping_decisions.4001.a: "挑两个。不，等等。#EMP 三个#!！"

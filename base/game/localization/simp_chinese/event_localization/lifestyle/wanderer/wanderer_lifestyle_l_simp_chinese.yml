@@ -69,19 +69,19 @@
  wanderer_lifestyle_events.40.success_title: "你成功与[provisions_merchant.GetHerHim]交易"
  wanderer_lifestyle_events.40.fail_title: "[provisions_merchant.GetFirstNameNoTooltip]不为所动"
  DistantLandsEurope1: "野牛"
- DistantLandsEurope2: "狞猫"
+ DistantLandsEurope2: "黑耳猫"
  DistantLandsAfrica1: "非洲象"
  DistantLandsAfrica2: "羚羊"
  DistantLandsAfrica3: "耳廓狐"
  DistantLandsAsia1: "剑羚"
  DistantLandsAsia2: "阿拉伯豹"
  DistantLandsAsia3: "狞猫"
- DistantLandsIndia1: "孟加拉虎"
+ DistantLandsIndia1: "旁伽罗虎"
  DistantLandsIndia2: "印度象"
  DistantLandsIndia3: "白肢野牛"
  DistantLandsTibet1: "雪豹"
  DistantLandsTibet2: "鼠兔"
- DistantLandsTibet3: "耗牛"
+ DistantLandsTibet3: "牦牛"
  DistantLandsSteppe1: "草原雕"
  DistantLandsSteppe2: "野马"
  DistantLandsSteppe3: "高鼻羚羊"
@@ -151,7 +151,7 @@
  DistantLandsIndia3_description: "体型壮硕，犄角很大，身体黑色" #Gaur
  DistantLandsTibet1_description: "体型矫捷，灰白毛发，十分罕见" #Leopard
  DistantLandsTibet2_description: "体型玲珑，圆形耳朵，毛皮浓密" #Pika
- DistantLandsTibet3_description: "体型壮硕，鬃毛浓密，犄角很大" #Yak
+ DistantLandsTibet3_description: "体态笨重，鬃毛蓬乱，犄角很大" #Yak
  DistantLandsSteppe1_description: "翼展宽阔，姿态威严" #Steppe Eagle
  DistantLandsSteppe2_description: "鬃毛飘逸，四肢强壮" #Wild Horses
  DistantLandsSteppe3_description: "鼻子很有特点，浅色毛皮，犄角上有环纹" #Saiga

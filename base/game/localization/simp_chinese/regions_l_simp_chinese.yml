@@ -64,7 +64,7 @@
  world_mesopotamia: "美索不达米亚"
  world_jazira: "杰济拉"
  custom_roman_empire: "罗马腹地"
- custom_roman_syria_palestina: "叙利亚-巴勒斯坦"
+ custom_roman_syria_palestina: "叙利亚‑巴勒斯坦"
  custom_roman_aegyptus: "埃古普托斯"
  custom_roman_cyrenaica: "昔兰尼加"
  custom_roman_africa: "罗马阿非利加"
@@ -151,11 +151,11 @@
  sea_indian_ocean: "印度洋"
  sea_bay_of_somalia: "索马里湾"
  #sea_red_sea: "the Red Sea" Entry in map_items_l_english
- sea_gulf_of_aden: "亚丁湾"
+ sea_gulf_of_aden: "阿丹湾"
  #sea_persian_gulf: "the Persian Gulf" Entry in map_items_l_english
  #sea_arabian_sea: "the Arabian Sea" Entry in map_items_l_english
  #sea_bay_of_bengal: "the Bay of Bengal" Entry in map_items_l_english
- sea_inland_steppe_seas: "咸海-里海"
+ sea_inland_steppe_seas: "咸海‑里海"
  sea_caspian_sea: "里海"
  sea_aral_sea: "咸海"
  #EP3

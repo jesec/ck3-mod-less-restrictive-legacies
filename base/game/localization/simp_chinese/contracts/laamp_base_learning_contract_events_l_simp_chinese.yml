@@ -135,7 +135,7 @@
  #Create a work of learning for a ruler
  laamp_base_4021_request: "该[task_contract|E]需要你为[TaskContract.GetEmployer.GetPrimaryTitle.GetNameNoTier][TaskContract.GetEmployer.GetTitleAsNameNoTooltip]创作手稿，主要通过[learning|E][skill|E]挑战，但也可能存在其他相关[skills|E]、[lifestyle_traits|E]和[travel|E]经验的挑战。"
  laamp_base_learning_contract_events_prefix.4021: "手稿"
- laamp_base_learning_contract_events.4021.t: "$laamp_base_learning_contract_events_prefix.4021$：作品中些什么"
+ laamp_base_learning_contract_events.4021.t: "$laamp_base_learning_contract_events_prefix.4021$：作品中写什么"
  laamp_base_learning_contract_events.4021.desc: "我哼着曲子环顾[employer.GetTitledFirstNamePossessive]的书房。大量手稿和短篇小说整齐地堆放在书架上。\n\n作品没必要以长度来评判，对吧？即使只提到一个词也能调动起复杂的情绪。\n\n但首先要决定的是：我的作品工作量应该多大？"
  laamp_base_learning_contract_events.4021.a: "随便写点就行了。"
  laamp_base_learning_contract_events.4021.a.tt: "满足于#V 3#!个章节"
@@ -204,7 +204,7 @@
  #Conclusion
  laamp_base_learning_contract_events.4027.t: "$laamp_base_learning_contract_events_prefix.4021$：结束"
  laamp_base_learning_contract_events.4027.desc.success.critical: "[employer.GetTitledFirstName]翻阅完手稿的每一页，停下来思考每一页的文章。“我得说……”\n\n[employer.GetSheHe|U]转过身，小心地将手稿交给[employer.GetHerHis]的侍从。“你看到了吗？我也许应该将它放在#EMP 陈列架#!上。真是令人难以想象的文章。”\n\n[employer.GetSheHe]轻轻鼓掌，调皮地靠了过来。“我尤其喜欢#EMP 这部分#!的旁注。做得好！拿着你的报酬，下次回[employer.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]一定要通知我。”\n\n我骄傲地伸了个懒腰，点了点头。"
- laamp_base_learning_contract_events.4027.desc.success.standard: "[employer.GetTitledFirstName]好奇地看着手稿，点了点头。“总的来说写得不错——我会把它和其他作品一起放在我的书架上。”\n\n[employer.GetSheHe|U]递过来一个大小适中的钱袋。“我想这能补偿你花费的时间。”\n\n“如果你什么时候想再试一次，一定要让我知道，”[employer.GetSheHe]说完转身离开。\n\n我结果钱袋，礼貌地点了点头。"
+ laamp_base_learning_contract_events.4027.desc.success.standard: "[employer.GetTitledFirstName]好奇地看着手稿，点了点头。“总的来说写得不错——我会把它和其他作品一起放在我的书架上。”\n\n[employer.GetSheHe|U]递过来一个大小适中的钱袋。“我想这能补偿你花费的时间。”\n\n“如果你什么时候想再试一次，务必要告诉我，”[employer.GetSheHe]说完转身离开。\n\n我接过钱袋，礼貌地点了点头。"
  laamp_base_learning_contract_events.4027.desc.success.qualified: "“跟我预想的……有些差距。不过倒也#EMP 还算可以#!……”[employer.GetTitledFirstName]皱了皱鼻子，把手稿递给[employer.GetHerHis]的侍从。\n\n“……也许我会把它放进某个书库里。我想你能自己出去吧？”没等我答复，[employer.GetSheHe]已经离开了房间。\n\n我拿起门旁边的那个瘪瘪的钱袋，开始在大厅里寻找出去的路。"
  laamp_base_learning_contract_events.4027.desc.failure: "“这写的什么……”[employer.GetTitledFirstName]停顿了一会儿，然后将手稿扔给了[employer.GetHerHis]的侍从。\n\n“你竟敢浪费我来之不易的墨水和纸张，来写这种……#EMP 胡言乱语#!？”\n\n[employer.GetSheHe]揉着[employer.GetHerHis]的太阳穴，疯狂地转着小圈子：“我请你来我家。我的#EMP 书房#!！你就写出#EMP 这玩意#!？我有点想叫卫兵来处理这种背叛了！”"
  laamp_base_learning_contract_events.4027.a: "“想想看：你手中拿着一份独一无二的手稿。”"

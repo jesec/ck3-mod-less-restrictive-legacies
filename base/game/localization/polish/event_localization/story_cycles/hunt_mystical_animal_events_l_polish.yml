@@ -29,7 +29,7 @@
  hunt_mystical_animal.1007.b.failure: "Ugh, nie czuję się najlepiej…"
  hunt_mystical_animal.1008.desc: "Czuję niepokój, jako że dni mijają, a [ROOT.Char.Custom('GetAnimalType')] i [ROOT.Char.Custom('GetLegendaryColor')] umaszczenie tego zwierza pozostają nieuchwytne…\n\nKtoś z pewnością musiał coś widzieć. Co z tymi wszystkimi chłopami, którzy zaśmiecają [legendary_county.GetCountyData.GetCapital.Custom('GetTerrainTypePlural')]? Może trzeba poprosić o ich pomoc…"
  hunt_mystical_animal.1008.a: "Wyślij pismo!"
- hunt_mystical_animal.1008.b: "Nie zniżę się tak nisko."
+ hunt_mystical_animal.1008.b: "Nie zniżę się do tego poziomu."
  hunt_mystical_animal.1008.c: "Niech [knight.GetFirstNameNoTooltip] się tym zajmie."
  hunt_mystical_animal.1009.desc: "– [ROOT.Char.GetLadyLord|U] raczy wysłuchać, tyle wysiłku, żeby znaleźć zwykłe zwierzę? Muszę przyznać, że mnie to martwi.\n\n[court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)|U] podchodzi do mnie, gdy przeglądam zgłoszone przypadki, w których [ROOT.Char.Custom('GetAnimalType')] i [ROOT.Char.Custom('GetLegendaryColor')] umaszczenie tego zwierza dały się zaobserwować.\n\n– Najwyraźniej wszystko, co wymaga tak wielkiej uwagi, mogło zostać wysłane za sprawą jednej tylko postaci. To [ROOT.Char.GetFaith.DevilName]! Nie zakładaj tylko, że to [ROOT.Char.GetFaith.HighGodNameAlternate] stoi za pojawieniem się tej bestii!"
  hunt_mystical_animal.1009.a: "[ROOT.Char.Custom('GetAnimalType')|U] jest posłańcem [ROOT.Char.GetFaith.HighGodNamePossessive]."

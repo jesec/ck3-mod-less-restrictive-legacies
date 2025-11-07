@@ -68,7 +68,7 @@
  east_europe.0111.desc: "有谁知道所谓的[heretic.GetFaith.GetAdherentNamePluralNoTooltip]被忽视多久了？十年？一个世纪？自有福的圣玛尔定拜访以来？\n\n不论这支异端被允许在波斯尼亚的荒野毒害了多久，我们祖先的宽容毕竟结出了毒果，而我不能容忍！尤其是看到了像[heretic.GetTitledFirstName]这样的[heretic.Custom('InsultNoun')]公然以[accuser.GetFaith.HighGodName]标榜自己！\n\n全世界无知地假设[accuser.GetFaith.GetAdherentNamePluralNoTooltip]他们尽管是乡下人，大体上还是善良的。给[hof.GetTitledFirstName]说几句添油加醋的话，也许这种状况可以改变……"
  east_europe.0111.a: "拿纸笔来！"
  east_europe.0111.a.tt: "一封信写好了"
- east_europe.0111.b: "我有更要紧的事情要做..."
+ east_europe.0111.b: "我有更要紧的事情要做……"
  east_europe.0112.t: "[hof.Custom2('AppropriateGreeting',accuser)]"
  east_europe.0112.desc.intro: "你坚持说[heretic.GetFaith.GetAdherentNamePluralNoTooltip]是异端，简直荒谬。"
  east_europe.0112.desc.culture: "[accuser.GetTitledFirstName]与我同乡，你对我们的生活一无所知。"

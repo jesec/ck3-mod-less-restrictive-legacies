@@ -406,6 +406,19 @@
 				}
 			}
 
+			# ACH PURGE PRETENDERS OATH
+			if = {
+				limit = {
+					house ?= {
+						has_house_modifier = oath_of_purge_pretenders_house
+					}
+				}
+				add = {
+					value = 50
+					desc = oath_of_purge_pretenders_house
+				}
+			}
+
 			#ADJUST BASED ON GENDER LAW - MUST GO AT THE END
 			if = {
 				limit = {

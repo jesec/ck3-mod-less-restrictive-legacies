@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
  PASS_LAW_TOOLTIP_TITLE: "[SelectLocalization( GuiLaw.IsEnacted, Law.GetNameNoTooltip, Law.GetPassLawPhrase)]"
- PASS_LAW_TITLE_DEFAULT: "通过[Law.GetNameNoTooltip]"
+ PASS_LAW_TITLE_DEFAULT: "[AddLocalizationIf( Not(Law.GetLawGroup.HasFlag( 'realm_no_pass' ) ), '通过' )][Law.GetNameNoTooltip]"
  ADD_LAW_CONFIRMATION_TITLE: "[Law.GetAddLawConfirmationTitle]"
  ADD_LAW_CONFIRMATION_TITLE_DEFAULT: "通过[Law.GetNameNoTooltip]法律"
  ADD_LAW_CONFIRMATION_ACCEPT: "[Law.GetAddLawConfirmationButtonText]"
@@ -40,7 +40,7 @@
  MY_DYNASTY_MEMBER_LEADS_THE_ELECTION: "你[dynasty|E]的一位成员（[CHARACTER.GetPrimaryTitle.GetHeir.GetShortUIName|V]）正在你的[primary_title|E]的选举中领先"
  I_HAVE_POWERFUL_VASSAL_WITH_NEGATIVE_OPINION: "有至少一个[powerful_vassals|E]对你的好感为负且反对所有[succession_law|E]更改"
  designate_heir: "指定为继承人"
- CROWN_AUTHORITY_IS_ON_COOLDOWN: "你最近已修改了君权。\n    @alert_icon!#alert_trial [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'crown_authority_cooldown') )]以后才能再次修改#!"
+ CROWN_AUTHORITY_IS_ON_COOLDOWN: "你最近已修改了君权。\n   @alert_icon!#alert_trial [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'crown_authority_cooldown') )]以后才能再次修改#!"
  TRIBAL_AUTHORITY_IS_ON_COOLDOWN: "你近期已修改过部落权威。\n    @alert_icon!#alert_trial [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'tribal_authority_cooldown') )]后可以再次修改#!"
  tribal_authority: "[tribal_authority|E]"
  tribal_authority_0: "松散部落"

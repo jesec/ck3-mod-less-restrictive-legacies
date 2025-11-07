@@ -11,7 +11,7 @@
  councillor_spouse_learning.1302.t: "Cónyuge: Influencia sobre conversión cultural"
  councillor_spouse_learning.1303.desc: "Cónyuge patrocina a teólogos"
  #General learning notifications
- councillor_spouse_learning.1601.desc: "Tu cónyuge te ayuda con tus estudios de [ROOT.Char.Custom('LifestyleFocus')|U]"
+ councillor_spouse_learning.1601.desc: "Cónyuge ayuda a pupilo a estudiar [ROOT.Char.Custom('LifestyleFocus')|l]"
  councillor_spouse_learning.1602.t: "[tutored_child.Custom('GetDaughterSon')] florece bajo la tutela [councillor.Custom('ES_DelDela')] cónyuge"
  councillor_spouse_learning.1603.root_guardian.t: "Pupilo aprecia la tutela [councillor.Custom('ES_DelDela')] cónyuge"
  councillor_spouse_learning.1603.spouse_guardian.t: "Pupilo [councillor.Custom('ES_DelDela')] cónyuge aprecia su tutela"

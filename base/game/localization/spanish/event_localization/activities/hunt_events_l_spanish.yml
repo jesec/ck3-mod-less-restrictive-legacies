@@ -107,7 +107,7 @@
  hunt_opening_entourage_normal_dangerous: "#EMP Deberíamos#! ser suficientes para encontrar y acorralar a la bestia sin demasiados problemas."
  hunt_opening_entourage_many_dangerous: "Tenemos un montón de ojos, por no hablar de lanzas… ¡El reinado de terror de la bestia termina hoy!"
  hunt.0520.a: "No hay tiempo que perder."
- hunt_header: "Cacería:"
+ hunt_header: "[ROOT.Char.Custom('HuntHeader')]:"
  hunt.1001.t: "Acorralando al/a la [activity.Custom('GetAnimalType')]"
  hunt.1001.desc_opening_courtier: "Mi [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)], [hunt_participant.Custom('ES_ElLa')] [hunt_participant.GetTitledFirstName|l], es quien primero avista su/s [activity.Custom('GetAnimalFeature')]."
  hunt.1001.desc_opening: "Echando un vistazo por el paisaje, me sorprendo de verlo. ¡Ahí está, [activity.Custom('GetAnimalFeature')] y todo!"

@@ -124,9 +124,9 @@
  court.7640.title: "Znęcanie się nad ptakami"
  court.7640.desc: "„Pojmać [Select_CString(avian_abuser.IsFemale, 'ją', 'go' )]!” – krzyczy łowczy [huntmaster.GetFirstName], wskazując miejsce, gdzie stoi [avian_abuser.GetName]. Moja straż przyboczna z wahaniem rusza do przodu, niepewna, czy wykonać rozkaz. Podnoszę rękę, by ich zatrzymać i pytam, dlaczego [huntmaster.GetFirstNameNoTooltip] robi takie zamieszanie.\n\n„[Select_CString(ROOT.Char.IsFemale, ' Moja pani', 'Mój panie' )], [Select_CString(avian_abuser.IsFemale, 'ta', 'ten' )] #EMP potw[Select_CString(avian_abuser.IsFemale, 'orzyca', 'ór' )]#! celowo skrzywdził[Select_CString(avian_abuser.IsFemale, 'a', '' )] swojego sokoła podczas naszego ostatniego polowania! Musi ponieść surową karę, tego #EMP wymaga#! honor”."
  court.7640.a: "To tylko ptak, puścić [Select_CString(avian_abuser.IsFemale, 'ją', 'go' )]."
- court.7640.b: "Uwięzić [Select_CString(avian_abuser.IsFemale, 'tę #EMP łajdaczkę!#', 'tego #EMP łajdaka!#' )]!"
- court.7640.c: "Ukarać grzywną [Select_CString(avian_abuser.IsFemale, 'tę #EMP szubrawczynię!#', 'tego #EMP szubrawcę!#' )]!"
- court.7640.d: "Wychłostać [Select_CString(avian_abuser.IsFemale, 'tę #EMP sukę!#', 'tego #EMP kundla!#' )]!"
+ court.7640.b: "Uwięzić tę #EMP szuję!#!"
+ court.7640.c: "Ukarać grzywną tę #EMP łachudrę!#!"
+ court.7640.d: "Wychłostać tę #EMP kanalię!#!"
  ## Spymaster has a reverse carrier pigeon
  court.7700.t: "Ptaszek złodziejaszek"
  court.7700.desc: "[spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ma dziś na ramieniu bardzo interesującego kruka. Wykorzystując panujący na sali tronowej zgiełk jako ochronę przed podsłuchem, [spymaster.GetFirstNameNoTooltip] wychwala niesamowite cechy ptaka.\n\n– Proszę mi wierzyć, że doskonale sprawdza się w roli złodzieja. Nie kradnie złota ani klejnotów, tylko notatki, klucze i listy – czyli wszystkie te drobiazgi, w których ich właściciele ukrywają niewygodną prawdę na swój temat."

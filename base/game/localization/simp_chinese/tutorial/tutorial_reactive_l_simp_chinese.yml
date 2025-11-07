@@ -176,7 +176,7 @@
  ra_tours_picking_vassals_stops: "$REACTIVE_ADVICE_TOURS$"
  ra_tours_picking_vassals_stops_desc: "在巡游的每处[stop|E]，你可以选择以下之一：\n$BULLET_WITH_TAB$[tour_the_grounds|E]，提高[county_control|E]\n$BULLET_WITH_TAB$要求[hosted_dinner|E]，建立[hooks|E]和[relations|E]\n$BULLET_WITH_TAB$要求你的[vassal|E]组织[cultural_festival|E]，提高[county_opinion|E]和[cultural_acceptance|E]"
  ra_tours_picking_vassals_conclusion: "$REACTIVE_ADVICE_TOURS$"
- ra_tours_picking_vassals_conclusion_desc: "\"一旦你对[stops|E]和它们的顺序感到满意了，就可以进入下一个步骤了。"
+ ra_tours_picking_vassals_conclusion_desc: "一旦你对[stops|E]和它们的顺序感到满意了，就可以进入下一个步骤了。"
  #Active Regency Liege Side
  REACTIVE_ADVICE_REGENCY_TERM: "摄政"
  REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT: "打开摄政界面（已高亮）"
@@ -381,7 +381,7 @@
  action_reactive_advice_favorite_child_click: "$click_to_open_lesson$"
  reactive_advice_favorite_child: "最宠爱的孩子"
  ra_favorite_child_1: "$reactive_advice_favorite_child$"
- ra_favorite_child_1_desc: "现在你可以选择你[favorite_child|E]。这意味着该角色对你的[opinion|E]会更高，并且当你死后，你可以以该角色，而不是你的继承人，来继续你的传承。\n\n你最宠爱的孩子可以说：\n$BULLET_WITH_TAB$子女\n$BULLET_WITH_TAB$孙辈\n$BULLET_WITH_TAB$重孙辈\n只要对方属于你的[dynasty|E]。"
+ ra_favorite_child_1_desc: "现在你可以选择你[favorite_child|E]。这意味着该角色对你的[opinion|E]会更高，并且当你死后，你可以以该角色，而不是你的继承人，来继续你的传承。\n\n你最宠爱的孩子可以是：\n$BULLET_WITH_TAB$子女\n$BULLET_WITH_TAB$孙辈\n$BULLET_WITH_TAB$重孙辈\n只要对方属于你的[dynasty|E]。"
  ra_favorite_child_1_prompt: "打开你的角色界面（已高亮）"
  ra_favorite_child_2: "$reactive_advice_favorite_child$"
  ra_favorite_child_2_desc: "在角色界面中，找到你要指定为最爱的孩子。\n\n右键点击该孩子进行交互，然后寻找“选择最宠爱的孩子”选项。或者在你的子女中点击该孩子。\n\n记住，选择$game_concept_favorite_child$也意味着其他孩子对你的好感度可能降低。"

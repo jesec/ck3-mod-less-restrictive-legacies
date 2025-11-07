@@ -242,6 +242,7 @@
  SCHEME_SEDUCE_UNWILLING_INCEST: "당신이 [family|E]임: $VALUE|0=-+$"
  SCHEME_SEDUCE_UNWILLING_INCEST_TOO_YOUNG: "당신은 [family|E]이며, [TARGET_CHARACTER.GetShortUIName|U](이)가 당신을 다른 눈으로 보기에는 너무 어립니다."
  SCHEME_SEDUCE_TABOO_SODOMY: "동성애는 금기임: $VALUE|0=-+$"
+ SCHEME_CONVINCED_AT_FEAST: "연회에서 설득: $VALUE|0=-+$"
  COMPASSIONATE_REASON: "[ROOT.Char.GetAIPersonality](이)가 이것이 부도덕하다고 판단함: $VALUE|+0=$"
  COMPASSIONATE_NEGATIVE_REASON: "[ROOT.Char.GetAIPersonality](이)가 이 방식에 찬성함: $VALUE|+0=$"
  SCHEME_NOT_AGAINST_DESCENDANTS: "후손을 해치지 않을 것임: $VALUE|+0=$"
@@ -459,3 +460,5 @@
  ai_acceptance_trait_vengeful: "내가 [GetTrait('vengeful').GetName( GetNullCharacter )] 특성을 보유함: $VALUE|+0=$"
  ai_acceptance_trait_forgiving: "내가 [GetTrait('forgiving').GetName( GetNullCharacter )] 특성을 보유함: $VALUE|+0=$"
  ai_acceptance_trait_eccentric: "내가 [GetTrait('eccentric').GetName( GetNullCharacter )] 특성을 보유함: $VALUE|+0=$"
+ ai_acceptance_trait_pilgrim: "내가 [GetTrait('pilgrim').GetName( GetNullCharacter )]임: $VALUE|+0=$"
+ ai_acceptance_trait_faith_warrior: "내가 [GetTrait('faith_warrior').GetName( GetNullCharacter )]임: $VALUE|+0=$"

@@ -241,7 +241,7 @@
  bp2_adult_education.1090.c: "Muy interesante."
  #APAs
  apa_leveraging_language_skills_title: "se alabó la interpretación que [first.GetShortUIName] [Select_CString( first.IsLocalPlayer, 'hiciste', 'hizo' )] de los manuscritos en [second.Custom('GetFaithSacredLanguage')]"
- apa_bonded_during_studies_title: "[first.GetShortUIName|U] y [second.GetShortUIName|U] [Select_CString( first.IsLocalPlayer, 'congeniasteis', 'congeniaron' )] durante sus estudios"
+ apa_bonded_during_studies_title: "[first.GetShortUIName|U] y [second.GetShortUIName|U] [Select_CString(Or(first.IsLocalPlayer, second.IsLocalPlayer),'congeniasteis', 'congeniaron')] durante [Select_CString(Or(first.IsLocalPlayer, second.IsLocalPlayer), 'vuestros', 'sus')] estudios"
  apa_procrastination_title: "[first.GetShortUIName|U] no [Select_CString( first.IsLocalPlayer, 'estudiaste', 'estudió' )] para un examen importante"
  apa_university_discussions_title: "[first.GetShortUIName|U] no [Select_CString( first.IsLocalPlayer, 'debatiste', 'debatió' )] sobre [second.Custom('education_conversation_subject')|l] con [second.LocalPlayerString( 'tu persona', second.GetShortUIName )]"
  apa_night_on_books_title: "[first.GetShortUIName|U] [Select_CString( first.IsLocalPlayer, 'pasaste', 'pasó' )] la noche enfrascándose en libros"

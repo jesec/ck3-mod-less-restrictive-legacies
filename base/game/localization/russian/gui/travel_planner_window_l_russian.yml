@@ -91,7 +91,7 @@
  TRAVEL_COMPANION_DESC: "Этот персонаж примкнул к вам [TRAVEL_PLAN_COMPANION.GetJoinDate.GetStringShort] в месте [TRAVEL_PLAN_COMPANION.GetJoinLocation.GetName]"
  TRAVEL_COMPANION_DESC_TRAVEL_LEADER: "Участвует как караванщик"
  TRAVEL_COMPANION_DESC_ACTIVITY: "Причина участия: тип занятия"
- TRAVEL_COMPANION_DESC_ACTIVITY_OPTION: "Причина участия: вариант занятия"
+ TRAVEL_COMPANION_DESC_ACTIVITY_OPTION: "Причина участия: параметр занятия"
  TRAVEL_COMPANION_DESC_TRAVEL_OPTION: "Причина участия: [TRAVEL_PLAN_COMPANION.GetTravelOption.GetName]"
  PROVINCE_TRAVEL_DANGER_TOOLTIP: "#T [Province.GetBaronyNameExplicitly]#!"
  INVALID_TRAVEL_ROUTE_DEVIATION_TOO_LARGE: "@warning_icon! #X Слишком серьезное отклонение от маршрута — на $PATH_DURATION_DIFF|0$ дн. больше предела#!"

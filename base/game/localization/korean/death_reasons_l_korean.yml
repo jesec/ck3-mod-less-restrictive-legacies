@@ -380,3 +380,6 @@
  death_snake: "뱀에게 물려 사망"
  death_shot_by_arrows: "화살 세례에 맞아 사망"
  death_shot_by_arrows_killer: "[TARGET_CHARACTER.GetUINamePossessive] 기수들이 일으킨 $death_slain_in_riot$"
+ #ACH
+ death_crowd_stampede: "쇄도하는 군중에 의해 짓밟힘"
+ death_crowd_stampede_killer: "[TARGET_CHARACTER.GetUIName] 대관식 도중 $death_slain_in_riot$"

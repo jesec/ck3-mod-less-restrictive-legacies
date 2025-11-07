@@ -242,6 +242,7 @@
  SCHEME_SEDUCE_UNWILLING_INCEST: "Вы [Concept( 'family', 'состоите в родстве' )|E]: $VALUE|0=-+$"
  SCHEME_SEDUCE_UNWILLING_INCEST_TOO_YOUNG: "Вы [Concept( 'family', 'родственники' )|E], а [TARGET_CHARACTER.GetShortUIName|U] слишком [Select_CString(TARGET_CHARACTER.IsFemale, 'молода', 'молод' )], чтобы воспринимать вас иначе."
  SCHEME_SEDUCE_TABOO_SODOMY: "Гомосексуализм под запретом: $VALUE|0=-+$"
+ SCHEME_CONVINCED_AT_FEAST: "Убеждение на пиру: $VALUE|0=-+$"
  COMPASSIONATE_REASON: "[ROOT.Char.GetAIPersonality] считает это аморальным: $VALUE|+0=$"
  COMPASSIONATE_NEGATIVE_REASON: "[ROOT.Char.GetAIPersonality] одобряет эти методы: $VALUE|+0=$"
  SCHEME_NOT_AGAINST_DESCENDANTS: "Я не наврежу своим потомкам: $VALUE|+0=$"
@@ -459,3 +460,5 @@
  ai_acceptance_trait_vengeful: "Моя [GetTrait('vengeful').GetName( GetNullCharacter )|l]: $VALUE|+0=$"
  ai_acceptance_trait_forgiving: "Моя [GetTrait('forgiving').GetName( GetNullCharacter )|l]: $VALUE|+0=$"
  ai_acceptance_trait_eccentric: "Мое [GetTrait('eccentric').GetName( GetNullCharacter )|l]: $VALUE|+0=$"
+ ai_acceptance_trait_pilgrim: "Я [GetTrait('pilgrim').GetName( GetNullCharacter )|l]: $VALUE|+0=$"
+ ai_acceptance_trait_faith_warrior: "Я [GetTrait('faith_warrior').GetName( GetNullCharacter )|l]: $VALUE|+0=$"

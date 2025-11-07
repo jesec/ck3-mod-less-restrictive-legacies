@@ -36,6 +36,7 @@
  DLC018_CP4: "Arctic Attire"
  DLC019_SP4: "Crowns of the World"
  DLC020_CE2: "Khans of the Steppe"
+ DLC021_BP4: "Coronations"
  dlc_001: "$DLC001_PREORDER$"
  dlc_001_desc: "Taucht ein in das Heilige Römische Reich mit einer Sammlung von Gewandungen für Gemeine, Krieger und Herrscher Zentraleuropas."
  dlc_002: "$DLC002_SP_DAY1$"
@@ -76,3 +77,5 @@
  dlc_019_desc: "Verleiht Eurer Herrschaft mit Crowns of the World ein königliches Ambiente, denn mit dieser Sammlung kosmetischer Optionen poliert man das Erscheinungsbild des eigenen Herrschers auf. Exklusiv für Besitzer von Kapitel IV."
  dlc_020: "$DLC020_CE2$"
  dlc_020_desc: "Herrschen oder beherrscht werden. Umsiedeln oder vergehen. Bei Khans of the Steppe überleben nur die Stärksten die Strapazen des Grasmeers. Werdet Ihr Euch zu wahrer Größe aufschwingen und ein Vermächtnis der Eroberung schaffen? Oder wird Euer Volk in den Annalen der Geschichte verschwinden? Die Entscheidung liegt bei Euch."
+ dlc_021: "$DLC021_BP4$"
+ dlc_021_desc: "Beginnt Eure Herrschaft majestätisch! Legitimiert Eure Macht durch ehrfurchtgebietende Zeremonien, die Vasallen wie Rivalen Respekt abnötigen. Sobald die Krone erstmals Euer Haupt ziert, wird Euer Vermächtnis in Coronations prachtvoll sein."

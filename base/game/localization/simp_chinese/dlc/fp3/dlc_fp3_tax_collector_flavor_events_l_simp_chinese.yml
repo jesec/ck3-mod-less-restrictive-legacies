@@ -1,10 +1,10 @@
 ﻿l_simp_chinese:
  fp3_clan.1000.t: "比黄金还值钱？"
- fp3_clan.1000.desc: "我的税吏[target_tax_collector.GetFirstName]刚刚从[target_tax_collector.GetHerHis]最近一次的领地巡回中回来。[target_tax_collector.GetSheHe|U]要求召集观众，并声称带回来了一些比黄金#EMP 更有价值#!的东西。\n\n“大人，我最近在[secret_holder.GetCapitalLocation.GetName]征缴纳税。在我逗留期间，我听说了一些谣言，关于[secret_holder.GetTitledFirstName][target_secret.Custom('SecretDescriptionThirdPerson')]……”\n\n“……经进一步调查，这些传闻确实属实。”"
+ fp3_clan.1000.desc: "我的税吏[target_tax_collector.GetFirstName]刚刚从[target_tax_collector.GetHerHis]最近一次的领地巡回中回来。[target_tax_collector.GetSheHe|U]要求觐见，并声称带回来了一些比黄金#EMP 更有价值#!的东西。\n\n“大人，我最近在[secret_holder.GetCapitalLocation.GetName]征缴纳税。在我逗留期间，我听说了一些谣言，关于[secret_holder.GetTitledFirstName][target_secret.Custom('SecretDescriptionThirdPerson')]……”\n\n“……经进一步调查，这些传闻确实属实。”"
  fp3_clan.1000.a: "你蛮努力的，这些钱赏你。"
  fp3_clan.1000.b: "如此出色的工作值得褒奖！"
  fp3_clan.1000.c: "#EMP 太棒了#!！干的很好，[target_tax_collector.GetFirstNameNoTooltip]！"
- fp3_clan.1010.t: "[target_tax_collector.GetHerHis|U]杯满溢"
+ fp3_clan.1010.t: "[target_tax_collector.GetHerHis|U]赚得盆满钵满"
  fp3_clan.1010.desc: "我的财政总管[steward.GetTitledFirstName]一直在审查税务分账，并且发现了一些关于[target_tax_collector.GetFirstNamePossessive]收款记录的不一致之处——数额接近[ROOT.Var('embezzled_gold').GetValue]金……\n\n造成这种差异的唯一合理原因是[target_tax_collector.GetFirstNameNoTooltip]挪用了君主的钱。我已召[target_tax_collector.GetHerHim]过来回应这些指控。\n\n“这是真的，大人。虽然我有些惭愧，但我恳请你看到我行为中的狡猾——这项能力你在未来可能会用的到……”"
  fp3_clan.1010.a: "#EMP 马上#!把钱还回来！"
  fp3_clan.1010.a.success: "你说服[target_tax_collector.GetFirstNameNoTooltip]还钱"

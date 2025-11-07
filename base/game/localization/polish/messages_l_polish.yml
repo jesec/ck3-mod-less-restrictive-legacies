@@ -400,7 +400,7 @@
  msg_letter_event_timeout_tt: "$EVENT_TIMEOUT_EFFECTS$"
  msg_court_amenity_setting_invalidated: "Unieważniono ustawienia dworskich udogodnień"
  msg_court_amenity_setting_invalidated_desc: "Ustawienie udogodnień dworu na $INVALID_SETTING$ zostało unieważnione i zastąpione przez $DEFAULT_SETTING$."
- msg_catalyst_triggered: "$STRUGGLE_NAME$: Aktywowano katalizator"
+ msg_catalyst_triggered: "$STRUGGLE_NAME$: aktywowano katalizator"
  msg_catalyst_triggered_desc: "[CHARACTER.GetTitledFirstName] aktywował[Select_CString( CHARACTER.IsFemale, 'a', '' )] [struggle_catalyst|El]: $CATALYST_INFO$\n\nPostęp w kierunku [struggle_phase_phases|El] $STRUGGLE_PHASE$: $CATALYST_VALUE|+=$"
  msg_catalyst_triggered_tt: "$msg_catalyst_triggered_desc$"
  msg_catalyst_triggered_no_character: "$msg_catalyst_triggered$"

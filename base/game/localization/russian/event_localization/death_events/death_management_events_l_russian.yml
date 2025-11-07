@@ -49,7 +49,7 @@
  death_management.parent.desc: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [dead_character.Custom('MotherFather')|l], [dead_character.GetFullName], [dead_character.GetDeathReason]."
  death_management.sibling.desc: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [dead_character.Custom('SisterBrother')|l], [dead_character.GetFullName], [dead_character.GetDeathReason]."
  death_management.betrothed.desc: "[dead_character.GetFullName], с кем вы [Concept( 'betrothed', 'помолвлены' )|E] [dead_character.GetDeathReason]."
- death_management.liege_councillor.desc: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [Concept( 'councillor', 'советник' )], [dead_character.GetFullName], [dead_character.GetDeathReason]."
+ death_management.liege_councillor.desc: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [Concept( 'councillor', 'советник' )|E], [dead_character.GetFullName], [dead_character.GetDeathReason]."
  death_management.liege.desc: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [Concept( 'vassal', 'вассал' )|E], [dead_character.GetFullName], [dead_character.GetDeathReason]."
  death_management.pinned.desc: "[dead_character.GetFullName], [Select_CString(dead_character.IsFemale, 'которой', 'которым' )] вы интересовались, [dead_character.GetDeathReason]."
  death_management.1008.desc: "[dead_character.GetTitledFirstName], с кем состоит браке [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse_of_dead_character'))] [spouse_of_dead_character.GetFirstName], уходит в мир иной. Все тщательно продуманные планы были разрушены случайной смертью, хотя наши беды кажутся мелкими на фоне горя, что постигло семью [Select_CString(dead_character.IsFemale, 'умершей', 'умершего' )]..."

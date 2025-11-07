@@ -15,7 +15,7 @@
  activity_playdate_desc: "邀请领地内每一位年龄小于[EmptyScope.ScriptValue('less_than_two_years_to_adulthood_value')|0V]岁的男女小贵族，在其他孩子的陪伴下玩耍是一种自由且有趣的体验！"
  activity_playdate_host_desc: "$BULLET_WITH_TAB$参与者可能会获得出席角色的[opinion|E]"
  activity_playdate_owner: "东道主"
- playdate_phase_desc: "与你的同龄人社交。"
+ playdate_phase_desc: "与你的同辈交际。"
  activity_playdate_conclusion_desc: "我的领地内的许多孩子来和我一起社交娱乐！"
  activity_playdate_guest_desc: "可能会提高你的领主对你的[opinion|E]"
  activity_playdate_guest_help_text: "$activity_playdate_desc$"

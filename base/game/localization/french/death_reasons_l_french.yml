@@ -380,3 +380,6 @@
  death_snake: "est mort[CHARACTER.Custom('FR_E')] d’une morsure de serpent"
  death_shot_by_arrows: "a été criblé[CHARACTER.Custom('FR_E')] de flèches"
  death_shot_by_arrows_killer: "$death_shot_by_arrows$ lancées par les cavaliers [TARGET_CHARACTER.Custom('FR_du_Char_U_P')][TARGET_CHARACTER.GetUIName]"
+ #ACH
+ death_crowd_stampede: "a été piétiné[CHARACTER.Custom('FR_E')] par une foule"
+ death_crowd_stampede_killer: "$death_slain_in_riot$ pendant le couronnement [TARGET_CHARACTER.Custom('FR_du_Char_U_P')][TARGET_CHARACTER.GetUIName]"

@@ -303,6 +303,7 @@
  TARGET_GOVERNOR_EFFICIENCY_DESC: "[target.GetShortUINamePossessive|U] [governor_efficiency|E]: $VALUE|+=0$"
  TARGET_HOLDER_GOVERNOR_EFFICIENCY_DESC: "[target.GetHolder.GetShortUINamePossessive|U] [governor_efficiency|E]: $VALUE|+=0$"
  HOUSE_HEAD_SCHEME_SUPPORT_DESC: "$house_head_request_interaction$: $VALUE|+=0$"
+ coronation_spouse_despised_modifier: "[target.GetShortUIName](을)를 제거하겠다는 [owner.GetShortUINamePossessive|U] 대관식 맹세: $VALUE|+=0$"
  #Found Despotate
  found_despotate: "총독령 승격"
  found_despotate_action: "총독령 승격:"

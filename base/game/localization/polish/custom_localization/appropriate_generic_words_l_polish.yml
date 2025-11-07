@@ -60,7 +60,7 @@
  #GetExpensiveDrink
  expensive_drink_hippocras: "wykwintne hipokrasy"
  expensive_drink_imported_wine: "sprowadzane wina"
- expensive_drink_bordeaux_claret: "Bordeaux claret"
+ expensive_drink_bordeaux_claret: "wina bordoskie"
  expensive_drink_aqua_vitae: "zdrowe okowity"
  expensive_drink_brandy: "nowoodkryte brandy"
  expensive_drink_spiced_wine: "wina korzenne"
@@ -73,7 +73,7 @@
  #GetExpensiveDrink_Singular
  expensive_drink_singular_hippocras: "$expensive_drink_hippocras$"
  expensive_drink_singular_imported_wine: "sprowadzane wino"
- expensive_drink_singular_bordeaux_claret: "bordeaux claret"
+ expensive_drink_singular_bordeaux_claret: "wino bordoskie"
  expensive_drink_singular_aqua_vitae: "zdrowa okowita"
  expensive_drink_singular_brandy: "nowoodkryta brandy"
  expensive_drink_singular_spiced_wine: "wino korzenne"

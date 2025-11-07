@@ -160,7 +160,7 @@
  death_management.3002.t: "长眠"
  death_management.3002.child: "[dead_character.Custom('MotherFather')|U]？为什么你要离开？人们说你对此无能为力，而我才是造成你离去的理由。但是，[dead_character.Custom('MotherFather')]，这一点也没道理，对吧？"
  death_management.3002.like: "哦，[dead_character.Custom('MotherFather')]。我或许成长为人，但我却始终是你的孩子。当我不幸造成你的逝去时，我该怎么做呢？当我的双眼被泪水蒙蔽时，谁又能张开双臂抱住我呢？"
- death_management.3002.neutral: "我们的关系或许没有那么亲密，我或许造成了你的死亡[dead_character.GetFirstName]，但你始终是我的[dead_character.Custom('MotherFather')]。\n\n当你离开这个世界时，我的脑海被成百上千的问题塞满。我是否得到了你的原谅？ 你的死亡是否是一个我本可以避免的错误？[dead_character.Custom('MotherFather')|U]……你是否真的爱我？"
+ death_management.3002.neutral: "我们的关系或许没有那么亲密，我或许造成了你的死亡[dead_character.GetFirstName]，但你始终是我的[dead_character.Custom('MotherFather')]。\n\n当你离开这个世界时，我的脑海被成百上千的问题塞满。我是否得到了你的原谅？你的死亡是否是一个我本可以避免的错误？[dead_character.Custom('MotherFather')|U]……你是否真的爱我？"
  death_management.3002.dislike: "你的血或许在我的血管中流淌，但你不是我真正的[dead_character.Custom('MotherFather')]。对于你的离世，我除了如释重负什么都没感受到，甚至没有因为亲手造成这一切而感到愧疚。终于，你的阴影不用再在我的头顶萦绕了。"
  death_management.3002.a: "我永远爱您，[dead_character.Custom('MotherFather')]。"
  death_management.3002.b: "我想我永远不会知道……"

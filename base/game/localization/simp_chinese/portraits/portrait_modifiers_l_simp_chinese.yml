@@ -509,7 +509,7 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_common_02: "@abbasid_icon! 贝都因裹头巾"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_nobility_01: "宽头巾"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_high_nobility_01: "贵族头巾带刺绣"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_royalty_01: "宝石头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_royalty_01: "珠宝头巾"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_imperial_01: "大头巾"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_mena_war_nob_01_lo: "阿拉伯低等贵族头盔"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_mena_war_nob_01_hi: "阿拉伯高等贵族头盔"
@@ -551,7 +551,7 @@
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_indian_war_nob_01_roy: "印度皇家头盔"
  ### Female ###
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_indian_common_01: "简易双缦"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_indian_nobility_02: "纹饰双缦"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_indian_nobility_02: "装饰双缦"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_indian_royalty_01: "金头冠"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_indian_war_nob_01_lo: "印度低等贵族头盔"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_indian_war_nob_01_hi: "印度高等贵族头盔"
@@ -561,7 +561,7 @@
  ###################
  ### Male ###
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_common_01: "头巾附带裹头巾"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_high_nobility_01: "纹饰头巾附带裹头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_high_nobility_01: "装饰头巾附带裹头巾"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_royalty_01: "王冠附带头巾"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_01: "皇冠附带裹头巾"
  ### Female ###
@@ -912,7 +912,7 @@
  PORTRAIT_MODIFIER_custom_hair_female_hair_northern_01: "后髻"
  PORTRAIT_MODIFIER_custom_hair_female_hair_northern_02: "单辫"
  PORTRAIT_MODIFIER_custom_hair_female_hair_northern_03: "长发及冠型发辫"
- PORTRAIT_MODIFIER_custom_hair_female_hair_steppe_01: "双发辫及绑带"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_steppe_01: "双发辫及丝带"
  PORTRAIT_MODIFIER_custom_hair_female_hair_steppe_02: "盘绕发辫"
  PORTRAIT_MODIFIER_custom_hair_female_empty: "$PORTRAIT_MODIFIER_custom_hair_no_hair$"
  PORTRAIT_MODIFIER_custom_hair_girl_empty: "$PORTRAIT_MODIFIER_custom_hair_no_hair$"
@@ -1076,12 +1076,12 @@
  PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_afr_high_nob_01: "@northafrican_icon! 塔米扎尔特披风配塔萨里特"
  ### CCP4 Sami ###
  #Male #
- PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ccp4_sami_com_01: "@arctic_attire_icon!平民卢哈和套索"
- PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ccp4_sami_com_01b: "@arctic_attire_icon!平民卢哈"
- PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ccp4_sami_lo_nob_01: "@arctic_attire_icon!卢哈和套索"
- PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ccp4_sami_lo_nob_01b: "@arctic_attire_icon!卢哈"
- PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ccp4_sami_hi_nob_01: "@arctic_attire_icon!华丽卢哈和套索"
- PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ccp4_sami_hi_nob_01b: "@arctic_attire_icon!华丽卢哈"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ccp4_sami_com_01: "@arctic_attire_icon!带套索平民卢赫卡"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ccp4_sami_com_01b: "@arctic_attire_icon!平民卢赫卡"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ccp4_sami_lo_nob_01: "@arctic_attire_icon!带套索卢赫卡"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ccp4_sami_lo_nob_01b: "@arctic_attire_icon!卢赫卡"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ccp4_sami_hi_nob_01: "@arctic_attire_icon!带套索华丽卢赫卡"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_ccp4_sami_hi_nob_01b: "@arctic_attire_icon!华丽卢赫卡"
  #Female #
  PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_ccp4_sami_com_01: "@arctic_attire_icon!萨米披巾"
  PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_ccp4_sami_lo_nob_01: "@arctic_attire_icon!萨米贵族披巾"
@@ -1387,10 +1387,10 @@
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era1_nob_03_hi: "@roadstopower_icon!精致科普特风格连衣裙"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era2_nob_01_lo: "@roadstopower_icon!达尔马提亚长袍"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era2_nob_02_lo: "@roadstopower_icon!宽袖达尔马提亚长袍"
- PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era2_nob_03_lo: "@roadstopower_icon!腓阿利翁装饰的长裙"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era2_nob_03_lo: "@roadstopower_icon!碗形披肩装饰的连衣裙"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era2_nob_01_hi: "@roadstopower_icon!达尔马提亚长袍配项链"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era2_nob_02_hi: "@roadstopower_icon!宽袖达尔马提亚长袍配项链"
- PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era2_nob_03_hi: "@roadstopower_icon!腓阿利翁和项链装饰的长裙"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era2_nob_03_hi: "@roadstopower_icon!带碗形披肩和项链的连衣裙"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep3_byzantine_era2_roy_01: "@roadstopower_icon!皇家袍服"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era2_roy_01: "@roadstopower_icon!皇家达尔马提亚长袍"
  #Imperial
@@ -1399,7 +1399,7 @@
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep3_byzantine_era2_imp_01: "@roadstopower_icon!帝国袍服配饰带"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era2_imp_01: "@roadstopower_icon!帝国达尔马提亚长袍配皇冠"
  #Armor
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep3_byzantine_era1_war_nob_01: "@roadstopower_icon!配有克利瓦尼翁和普忒律革斯的盔甲"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep3_byzantine_era1_war_nob_01: "@roadstopower_icon!配有炉甲和翼片的铠甲"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep3_byzantine_era2_war_nob_01_lo: "@roadstopower_icon!带镀金胸背甲和条板的铠甲"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep3_byzantine_era2_war_nob_01_hi: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep3_byzantine_era2_war_nob_01_lo$"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ep3_byzantine_era1_war_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ep3_byzantine_era1_war_nob_01$"
@@ -1650,6 +1650,7 @@
  bribing: "行贿"
  chess_certain_win: "下棋，获胜"
  chess_cocky: "下棋，狂傲"
+ crowning: "加冕"
  dancing: "舞蹈"
  dancing_plague: "舞蹈瘟疫"
  debating: "辩论"
@@ -1783,7 +1784,7 @@
  wedding_priest: "司仪"
  reception_groom_left: "新郎，左侧"
  reception_bride_right: "新娘，右侧"
- wedding_objection_start: "异议！"
+ wedding_objection_start: "我反对！"
  map_worry: "担忧#weak （静止）#!"
  map_ecstasy: "狂喜#weak （静止）#!"
  map_dismissal: "退下#weak （静止）#!"

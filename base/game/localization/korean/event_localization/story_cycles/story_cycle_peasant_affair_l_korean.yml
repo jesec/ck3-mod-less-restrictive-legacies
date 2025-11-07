@@ -61,7 +61,7 @@
  peasant_affair.3003.a: "[ROOT.Char.GetFaith.HighGodName](이)시여, 제가 어찌 거절할 수 있겠습니까?"
  peasant_affair.3003.b: "둘이 같이 있는 걸 누가 본다면 어쩌려고 이러나!"
  peasant_affair.3004.t: "기회"
- peasant_affair.3004.desc: "[peasant_character.GetTitledFirstName](은)는 [peasant_character.Custom('quirk_pos_present_type4_KR')] 때면 생각에 잠긴 듯이 보인다. \"당신에겐 [peasant_character.Custom('WifeHusband')](이)가 필요해요.\" 마침내 그이가 입을 뗐다. \"제가 귀족 출신이 아니란 건 저도 잘 알아요. 하지만 우리가 함께해왔던 모든 걸 생각하시면...\""
+ peasant_affair.3004.desc: "[peasant_character.GetTitledFirstName](은)는 생각에 잠긴 듯 [peasant_character.Custom('quirk_pos_present')]. \"당신에겐 [peasant_character.Custom('WifeHusband')](이)가 필요해요.\" 마침내 그이가 입을 뗐다. \"제가 귀족 출신이 아니란 건 저도 잘 알아요. 하지만 우리가 함께해왔던 모든 걸 생각하시면...\""
  peasant_affair.3004.a: "내겐 당신 밖에 없소."
  peasant_affair.3004.b: "결혼은 불가능하지만 그렇다고 우리가 함께할 수 없다는 것은 아니오."
  peasant_affair.3004.c: "당신은 내 [peasant_character.Custom('WifeHusband')](이)가 될 수는 없소. 하지만 내 곁에 함께할 수는 있소."

@@ -93,7 +93,7 @@
  befriend_outcome.4004.spouse: "尽管我尽了最大努力给[target.GetTitledFirstName]留下深刻印象，但我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))]仍然对我充满不信任和冷漠。"
  befriend_outcome.4004.relative: "我曾认为加强我[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))]和我之间的纽带是一项简单的任务……但我错了。尽管我尽了最大努力，[target.GetTitledFirstName]似乎对花时间和我在一起或更多地了解我的兴趣完全不感兴趣。"
  befriend_outcome.4004.vassal: "尽管我多次试图赢得[target.GetTitledFirstNamePossessive]的信任，[target.GetSheHe]在与我交谈时仍然保持着[target.GetHerHis]距离。我们在阶级上的差异似乎是[target.GetHerHim]无法克服的一个巨大障碍。"
- befriend_outcome.4004.liege: "我无数次试图获取[target.GetTitledFirstName]的信任，[target.GetHerHis]却对我没有丝毫好印象。听到[target.GetHerHis]宫廷流传的谣言之后，我意识到[target.GetSheHe]只把我当做一个讨好[target.GetHerHis]的马屁精。"
+ befriend_outcome.4004.liege: "我无数次试图获取[target.GetTitledFirstName]的信任，[target.GetHerHis]却对我没有丝毫好印象。听到[target.GetHerHis]宫廷流传的谣言之后，我意识到[target.GetSheHe]只把我当作一个讨好[target.GetHerHis]的马屁精。"
  befriend_outcome.4004.outsider: "不幸的是，我和[target.GetTitledFirstName]之间的差异和距离似乎太大了，无论如何都无法克服。在我为[target.GetHerHis]花了这么长时间以试图赢得[target.GetHerHis]的信任之后，[target.GetTitledFirstNameNoTooltip]对我的态度没有任何改变。"
  befriend_outcome.4004.ending: "\n\n恐怕此时我已无能为力，无法弥补我们之间的裂隙。"
  befriend_outcome.8005.desc: "我真傻，真的，居然希望改变[target.GetTitledFirstNamePossessive]对我的看法。\n\n[target.GetSheHe|U]只是利用我最近对[target.GetHerHim]的坦诚和亲切，公然嘲笑我，还声称我只是一个可怜的，没有朋友的[owner.GetWomanMan]，因为害怕孤独而急于羞辱[owner.GetHerselfHimself]自己。"

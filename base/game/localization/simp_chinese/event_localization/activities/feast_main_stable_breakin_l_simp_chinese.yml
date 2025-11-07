@@ -1,5 +1,5 @@
 ﻿l_simp_chinese:
- feast_main_stable_breakin.0002.t: "驯马"
+ feast_main_stable_breakin.0002.t: "走马上宴"
  feast_main_stable_breakin.0002.breakin_with_helper: "大家吃吃喝喝上了头，[breakin_stager.GetTitledFirstName]决定得搞一些骑马的活动。马厩却被紧紧地锁上了，但在[breakin_helper.GetTitledFirstName]的指引下，[breakin_stager.GetFirstName]很快带着一群跃跃欲试的骑手进去了。\n\n由于无法控制住这些畜生，只见男男女女纷纷落马，大厅里马匹四处徘徊，空气中满是咒骂、欢笑和骨折的声音！"
  feast_main_stable_breakin.0002.breakin_with_deviant: "用餐进行得很顺利，但酒劲上头了，[breakin_stager.GetTitledFirstName]决定得搞一些骑马的活动。马厩却被紧紧地锁上了，但在[breakin_deviant.GetTitledFirstName]的指引下，[breakin_stager.GetFirstName]很快带着一群跃跃欲试的骑手进去了。\n\n由于完全无法控制这些畜生，只见男男女女纷纷落马，大厅里马匹四处徘徊，空气中满是咒骂、欢笑和骨折的声音！"
  feast_main_stable_breakin.0002.breakin_with_noone: "用餐进行得很顺利，但酒劲上头了，[breakin_stager.GetTitledFirstName]决定得搞一些骑马的活动。马厩却被紧紧地锁上了，但是[breakin_stager.GetFirstName]神不知鬼不觉地让一群跃跃欲试的骑手进去了。\n\n由于完全无法控制这些畜生，只见男男女女纷纷落马，大厅里马匹四处徘徊，空气中满是咒骂、欢笑和骨折的声音！"

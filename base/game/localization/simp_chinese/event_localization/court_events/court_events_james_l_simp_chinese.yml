@@ -83,7 +83,7 @@
  court.0110.desc.intro: "我在宫廷内大摇大摆地走着，准备享受又一个充满淫欲和激情的夜晚，却被[parent.Custom2('MyCharacterIntroduction', ROOT.Char)]和[chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)]拦住了去路！他们都用一种介乎于厌恶、围捕和担忧的眼神打量着我。\n“这什么意思？”我问道。\n\n"
  court.0110.desc.deviant: "“我的[ROOT.Char.Custom('GetDaughterSon')]啊，我很担心你的灵魂。你每天晚上都放纵自我，做出如此禽兽的事，让[ROOT.Char.GetFaith.FertilityGodName]来了都会厌恶地折回。”"
  court.0110.desc.pox: "“你养的情人比野狗身上的跳蚤还多。我担心在你的欲望满足之后，情人的疱疹不是唯一伤害你身体的东西。”"
- court.0110.desc.notspecial: "“你的身体本是一座神殿，而你却把它当做妓院！你灵魂上的空洞是不是有多少情人也无法填满？”"
+ court.0110.desc.notspecial: "“你的身体本是一座神殿，而你却把它当作一家妓院！你灵魂上的空洞是不是有多少情人也无法填满？”"
  court.0110.desc.outro: "[parent.GetMotherFather]毫不自责地训斥着我。\n\n“每天晚上你都忙着享受世俗的愉悦，你正在一步步走向[ROOT.Char.GetFaith.NegativeAfterLife]！”[chaplain.GetNameNoTooltip]补充道，“好孩子，我们现在来见你就是要拯救你的灵魂。发下禁欲誓言吧，只有这样才能将你的灵魂从永恒的折磨中拯救出来。”"
  court.0110.a: "真是太傲慢了！去地牢里吧！"
  court.0110.b: "你是对的，我为灵魂是否能够不朽担忧。"

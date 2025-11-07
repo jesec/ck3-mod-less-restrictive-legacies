@@ -242,6 +242,7 @@
  SCHEME_SEDUCE_UNWILLING_INCEST: "你是[family|E]：$VALUE|0=-+$"
  SCHEME_SEDUCE_UNWILLING_INCEST_TOO_YOUNG: "[TARGET_CHARACTER.GetShortUIName|U]过于年幼，仅仅将你视作[family|E]，并无其他念想。"
  SCHEME_SEDUCE_TABOO_SODOMY: "同性恋是禁忌：$VALUE|0=-+$"
+ SCHEME_CONVINCED_AT_FEAST: "在宴会上说服：$VALUE|0=-+$"
  COMPASSIONATE_REASON: "[ROOT.Char.GetAIPersonality]认为这是不道德的：$VALUE|+0=$"
  COMPASSIONATE_NEGATIVE_REASON: "[ROOT.Char.GetAIPersonality]同意这些方法：$VALUE|+0=$"
  SCHEME_NOT_AGAINST_DESCENDANTS: "我不能伤害我的后代：$VALUE|+0=$"
@@ -459,3 +460,5 @@
  ai_acceptance_trait_vengeful: "我[GetTrait('vengeful').GetName( GetNullCharacter )]：$VALUE|+0=$"
  ai_acceptance_trait_forgiving: "我[GetTrait('forgiving').GetName( GetNullCharacter )]：$VALUE|+0=$"
  ai_acceptance_trait_eccentric: "我很[GetTrait('eccentric').GetName( GetNullCharacter )]：$VALUE|+0=$"
+ ai_acceptance_trait_pilgrim: "我是[GetTrait('pilgrim').GetName( GetNullCharacter )]：$VALUE|+0=$"
+ ai_acceptance_trait_faith_warrior: "我是[GetTrait('faith_warrior').GetName( GetNullCharacter )]：$VALUE|+0=$"

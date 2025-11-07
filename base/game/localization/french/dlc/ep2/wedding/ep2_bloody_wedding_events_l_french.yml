@@ -14,7 +14,7 @@
  ep2_wedding.0101.c.tt: "Choix intime"
  ep2_wedding.0101.d.tt: "Le mariage commence, sans le moindre dommage"
  ep2_wedding.0200.desc.murder: "$ep2_wedding.0200.desc.murder_intro$« Soyez remercié[ROOT.Char.Custom('FR_E')] de votre bienveillance, [ROOT.Char.Custom('FR_MonseigneurMadame')|U], elle réchauffe mon cœur. »"
- ep2_wedding.0200.desc.murder_intro: "Je m’attarde, tandis que les invités entrent dans la salle, en parlant de [ROOT.Char.Custom('my_subject_of_interest')] à un groupe d’invités. « Quel hôte généreux ! » entends-je en prenant congé pour me rendre à la table d’honneur. Mes gardes sont partout et prêts à agir. En prenant place, je croise le regard [spouse_2.Custom('FR_du_Char_Pi')][spouse_2.GetTitledFirstName] :\n\n"
+ ep2_wedding.0200.desc.murder_intro: "Je m’attarde, tandis que les invités entrent dans la salle, en parlant [ROOT.Char.Custom('my_subject_of_interest')] à un groupe d’invités. « Quel hôte généreux ! » entends-je en prenant congé pour me rendre à la table d’honneur. Mes gardes sont partout et prêts à agir. En prenant place, je croise le regard [spouse_2.Custom('FR_du_Char_Pi')][spouse_2.GetTitledFirstName] :\n\n"
  ep2_wedding.0200.desc.murder_spouse: "$ep2_wedding.0200.desc.murder_intro$« Bientôt, il n’y aura plus que vous et moi », lui promets-je en levant ma coupe."
  ep2_wedding.0200.a.murder: "Bon appétit !"
  ep2_wedding.0202.t.spouse: "... nous sépare"

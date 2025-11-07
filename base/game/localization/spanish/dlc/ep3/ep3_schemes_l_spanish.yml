@@ -303,6 +303,7 @@
  TARGET_GOVERNOR_EFFICIENCY_DESC: "La [governor_efficiency|lE] de [Select_CString( target.IsLocalPlayer, 'tu persona', target.GetShortUIName )]: $VALUE|+=0$"
  TARGET_HOLDER_GOVERNOR_EFFICIENCY_DESC: "La [governor_efficiency|lE] de [Select_CString( target.GetHolder.IsLocalPlayer, 'tu persona', target.GetHolder.GetShortUIName )]: $VALUE|+=0$"
  HOUSE_HEAD_SCHEME_SUPPORT_DESC: "$house_head_request_interaction$: $VALUE|+=0$"
+ coronation_spouse_despised_modifier: "Promesa de coronación de [Select_CString( host.IsLocalPlayer, 'tu persona', host.GetShortUIName)] de librarse de [Select_CString(target.IsLocalPlayer,'ti', target.GetShortUIName)]: $VALUE|+=0$"
  #Found Despotate
  found_despotate: "Ascender gobernación"
  found_despotate_action: "Ascender gobernación a"

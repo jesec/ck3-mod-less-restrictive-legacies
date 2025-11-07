@@ -1,5 +1,5 @@
 ﻿l_russian:
- SITUATION_TOOLTIP_INVOLVEMENT: "[Character.GetShortUINameNoTooltip|U] — участник группы #EMP «[Situation.GetParticipantGroupByCharacter( Character.Self ).GetNameNoTooltip]»#! в этой [Concept('situation', 'ситуации')|E].\n$SITUATION_START_DATE$"
+ SITUATION_TOOLTIP_INVOLVEMENT: "В этой [Concept('situation', 'ситуации')|E] [Character.GetShortUINameNoTooltip] — участник группы #EMP «[Situation.GetParticipantGroupByCharacter( Character.Self ).GetNameNoTooltip]»#!.\n$SITUATION_START_DATE$"
  SITUATION_START_DATE: "#weak Дата возникновения ситуации: #! [Situation.GetStartDate.GetStringLong]"
  SITUATION_TOOLTIP_CURRENT_PHASE: "Текущая фаза: [SituationPhase.GetName]"
  SITUATION_PARTICIPATION_WINDOW_HEADER: "Участники ситуации"

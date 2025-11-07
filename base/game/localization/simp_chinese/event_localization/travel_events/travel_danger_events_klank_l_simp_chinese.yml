@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
  travel_danger_events.3000.t: "$travel_danger_prefix$山间小径"
  travel_danger_events.3000.desc.first_time: "我一步接一步，缓慢地在狭窄的山路上前行。突然，轰隆隆一声响，紧接着传来了一声很快就消失的尖叫。\n\n我被这骚动吓了一跳，猛一回头，发现本应走在我身后的[fallen_victim.GetFirstName]不见了，只剩下[char_next_in_line.GetFirstName]站在刚刚翻过的岩石前，一脸同样的困惑和疲惫。\n\n“[fallen_victim.GetFirstNameNoTooltip]呢？”我张开发干的嘴勉强问道。\n\n唯一的回应是风模糊的呼啸声。"
- travel_danger_events.3000.desc.second_time: "我走在看似永无止境的狭窄山道上，感觉疲劳的面纱笼罩着我的头脑。恍惚间，我再次听到了已经模糊的记忆中的尖叫声和风微弱的呼啸声。\n\n但是[fallen_victim.GetFirstName]刺耳的尖叫声听起来似乎非常真实。我脊背发凉，缓缓转过身，再次看到前进的队伍中少了一个人。\n\n“我们是不是……刚刚……又失去了一个人？”我慢慢说道。 [char_next_in_line.GetFirstName]不需要说话。[char_next_in_line.GetHerHis|U]脸上凝固的惊恐足以说明答案。"
+ travel_danger_events.3000.desc.second_time: "我走在看似永无止境的狭窄山道上，感觉疲劳的面纱笼罩着我的头脑。恍惚间，我再次听到了已经模糊的记忆中的尖叫声和风微弱的呼啸声。\n\n但是[fallen_victim.GetFirstName]刺耳的尖叫声听起来似乎非常真实。我脊背发凉，缓缓转过身，再次看到前进的队伍中少了一个人。\n\n“我们是不是……刚刚……又失去了一个人？”我慢慢说道。[char_next_in_line.GetFirstName]不需要说话。[char_next_in_line.GetHerHis|U]脸上凝固的惊恐足以说明答案。"
  travel_danger_events.3000.a.first_time: "小心脚下！我们必须前进。"
  travel_danger_events.3000.a.second_time: "啊，[fallen_victim.GetFirstNameNoTooltip]！我跟你#EMP 说过#!走路要小心！"
  travel_danger_events.3000.a.tt: "危险的地形夺走了又一名受害者的生命，这不是第一个，也决不会是最后一个。"

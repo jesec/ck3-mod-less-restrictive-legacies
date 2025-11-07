@@ -35,7 +35,7 @@
  ACTIVITY_LIST_DETAIL_JOIN_TITLE: "Приглашение на занятие «[Activity.GetNameNoTooltip]»"
  ACTIVITY_LIST_DETAIL_JOIN_EFFECTS: "Вы присоединяетесь к занятию «[Activity.GetNameNoTooltip]» во владении $ACTIVITY_CURRENT_LOCATION$\n[Activity.GetGuestDescription( GetPlayer )]"
  ACTIVITY_LIST_DETAIL_JOIN_CONFIRM: "Присоединиться к занятию «[Activity.GetNameNoTooltip]»"
- ACTIVITY_LIST_DETAIL_JOIN_PHASES_HEADER: "[Concept( 'activity_phases', 'фазы занятия' )|E]"
+ ACTIVITY_LIST_DETAIL_JOIN_PHASES_HEADER: "[Concept( 'activity_phases', 'Фазы занятия' )|E]"
  ACTIVITY_LIST_DETAIL_JOIN_LOCATION: "Место проведения: $ACTIVITY_CURRENT_LOCATION$"
  ACTIVITY_LIST_DETAIL_JOIN_TRAVEL_TIME: "Время путешествия: #V ~[GetTimeDifferenceWithDays( ActivityListDetailJoinView.GetEstimatedTravelTime )]#!"
  ACTIVITY_LIST_INVITATION: "[Activity.GetHost.Custom2( 'AppropriateGreeting', GetPlayer )]\n[Activity.GetHost.Custom2('GetInviteToActivityFlavor', GetPlayer)][Activity.GetHost.Custom2('GetTournamentPrizeFlavor', GetPlayer)]"
@@ -70,3 +70,4 @@
  activity_chariot_race_host_an_a: "$host_activity_a$"
  activity_playdate_host_an_a: "$host_activity_a$"
  activity_witch_ritual_host_an_a: "$host_activity_a$"
+ activity_coronation_host_an_a: "$host_activity_a$"

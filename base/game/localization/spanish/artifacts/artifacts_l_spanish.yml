@@ -1036,6 +1036,7 @@
  artifact_crossbow: "Ballesta"
  artifact_crossbow_name: "Ballesta $artifact_name_prefix$"
  artifact_crossbow_description: "Una ballesta de factura [SCOPE.Custom('ArtifactQuality')] armada en [newly_created_artifact.GetFeatureText( 'bow_wood' )], con hierros arqueados que tiran de tendones. Extremadamente potente y capaz de mantenerse cargada, pero lenta de recargar."
+ create_artifact_bow_tooltip: "[inspiration_owner.GetShortUIName] ha creado [SCOPE.Custom('ArtifactBowType')] de [SCOPE.Custom('ArtifactQuality')] factura"
  feature_longbow_wood_elm: "$feature_bow_wood_elm$"
  feature_longbow_wood_yew: "$feature_bow_wood_yew$"
  feature_composite_wood_bamboo: "$feature_bow_wood_bamboo$"
