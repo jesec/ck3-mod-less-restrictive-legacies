@@ -260,7 +260,7 @@
  bp1_yearly.5719.c: "Возможно, мы сможем договориться?"
  bp1_yearly.5719.d: "Просто... Просто больше так не делай!"
  bp1_yearly.5720.t: "Испытание силы"
- bp1_yearly.5720.desc: "Во мне плещется [ROOT.Char.Custom('RegionalDrink')], но обычного веселья нет и в помине. Ведь по ту сторону стола от меня сидит [rival_challenger.GetFirstName], а значит вечер безнадежно испорчен.\n\nСтоит [rival_challenger.GetHerHim] лишь рот открыть, как мы уже нависаем над столом и орем друг на друга во все глотки.\n\n«Ах ты [ROOT.Char.Custom('InsultNoun')]! [ROOT.Char.Custom('InsultNoun')]! — вопит [rival_challenger.GetSheHe]. — Да тебя и ребенок одолеет! Я твою руку хоть сейчас в столешницу вобью, и даже не вспотею!»"
+ bp1_yearly.5720.desc: "Во мне плещется [ROOT.Char.Custom('RegionalDrink')], но [rival_challenger.GetFirstName] портит вечер одним своим присутствием.\n\n«Ах ты [ROOT.Char.Custom('InsultNoun')]! [ROOT.Char.Custom('InsultNoun')]! — вопит [Select_CString(rival_challenger.IsFemale, 'она','он' )]. — Да тебя и ребенок одолеет! Я твою руку хоть сейчас в столешницу вобью и даже не вспотею!»"
  bp1_yearly.5720.a: "Да, конечно. #EMP Левыми#! руками, да?"
  bp1_yearly.5720.a.tt: "Может, [THIS.Char.Custom('GetCourt')|l] это и не оценит, но как же будет #EMP здорово#!..."
  bp1_yearly.5720.b: "Ха! Ну так давай, чего медлить?"

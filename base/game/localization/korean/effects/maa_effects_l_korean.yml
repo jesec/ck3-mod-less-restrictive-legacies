@@ -1,5 +1,6 @@
 ﻿l_korean:
  transfer_title_maa_global: "[Regiment.GetName](을)를 [TARGET_TITLE.GetName](으)로 이전"
+ transfer_title_maa_ownership_global: "[TITLE.GetNameNoTier]의 모든 [title_men_at_arms|E] 소유권을 [TARGET_TITLE.GetNameNoTier]에게 이전"
  destroy_maa_regiment_global: "[REGIMENT.GetName](이)가 파괴됨"
  destroy_maa_regiment: "[REGIMENT.GetName](이)가 파괴됨"
  destroy_maa_regiment_first: "[REGIMENT.GetName](이)가 파괴됨"

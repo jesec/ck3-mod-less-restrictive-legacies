@@ -6,7 +6,7 @@
  learn_language_outcome.1000.b.success: "Impresiono a [target.GetFirstNameNoTooltip] con mi conocimiento"
  learn_language_outcome.1000.b.failure: "Mi carta acaba pareciendo una burla descarada"
  target_responds: "[target.GetTitledFirstName] responde a tu carta"
- learn_language_outcome.1001.opening: "[owner.Custom2('AppropriateGreeting', target)]"
+ learn_language_outcome.1001.opening: "[owner.Custom2('AppropriateGreetingPositive', target)]"
  learn_language_outcome.1001.desc: "He estudiado [target.GetCulture.GetLanguage.GetName] durante muchas lunas. Os dedico esta misiva, escrita personalmente en el alfabeto [target.GetCulture.GetLanguage.GetNameNoTooltip]. ¡Una carta de amistad de un[owner.Custom('ES_XA')] hablante de [owner.GetCulture.GetLanguage.GetName] a otr[target.Custom('ES_OA')]!\n\n¡Ojalá que nuestros futuros tratos diplomáticos beneficien enormemente a nuestros señoríos!"
  learn_language_outcome.1001.a: "¿Ha aprendido [target.GetCulture.GetLanguage.GetNameNoTooltip]? ¡Impresionante, enviadle saludos!"
  learn_language_outcome.1001.b: "¡Ja! ¡Su vano intento de conseguir gloria es risible!"

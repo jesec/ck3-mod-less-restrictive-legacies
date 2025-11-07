@@ -260,7 +260,7 @@
  bp1_yearly.5719.c: "也许我们能达成共识？"
  bp1_yearly.5719.d: "下……下不为例！"
  bp1_yearly.5720.t: "力量测试"
- bp1_yearly.5720.desc: "这顿饭中我喝了好几杯[ROOT.Char.Custom('RegionalDrink')]，通常来说，这时候我会很高兴。但糟糕的是，[rival_challenger.GetFirstName]到场并且坐在了我的斜对角上，让我一晚上都很扫兴。\n\n[rival_challenger.GetHerHis]开始话里有话地冒犯我，这就已经足够，我们身子前倾，用手指指着对方，以最大的声音喊叫。\n\n“[ROOT.Char.Custom('InsultNoun')]！[ROOT.Char.Custom('InsultNoun')]！”[rival_challenger.GetSheHe]吼道，“你的力气还不如一个小孩！我现在就可以毫不费力地把你的胳膊按在桌子上”"
+ bp1_yearly.5720.desc: "这顿饭中我喝了好几杯[ROOT.Char.Custom('RegionalDrink')]，但[rival_challenger.GetFirstName]的到场毁了这一晚。\n\n“[ROOT.Char.Custom('InsultNoun')]！[ROOT.Char.Custom('InsultNoun')]！”[rival_challenger.GetSheHe]吼道，“你的力气还不如一个小孩！我现在就可以毫不费力地把你的胳膊按在桌子上”"
  bp1_yearly.5720.a: "是吗？用我们的#EMP 左#!臂，对吧？"
  bp1_yearly.5720.a.tt: "这或许不会让我在[THIS.Char.Custom('GetCourt')]中受欢迎，但这感觉#EMP 真棒#!……"
  bp1_yearly.5720.b: "哈哈！那就来试试！"

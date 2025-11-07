@@ -82,5 +82,5 @@
  game_concept_reforge_artifact_desc: "一些[inventory_artifacts|E]可以被重铸，将其转变为[court_artifacts|E]。\n\n你需要有一位[GetCourtPositionType('antiquarian_court_position').GetName()]，并花费[gold|E]来重铸一件[artifact|E]，更老旧的宝物重铸费用更低。\n\n和[repair|E][artifact|E]一样，重铸后[durability|E]会恢复。\n\n只有武器、铠甲、冠冕和礼器可以重铸，它们会变成台座放置品。"
  game_concept_repair_artifact: "修复宝物"
  game_concept_repair: "修复"
- game_concept_repair_artifact_desc: "[artifact|E][durability|E]较低时，你可以选择修复它。\n\n你需要有一位[GetCourtPositionType('antiquarian_court_position').GetName()]，并花费[gold|E]来修复宝物。[SelectLocalization( HasDlcFeature( 'court_artifacts' ), 'game_concept_repair_artifact_desc_DLC', '' )]"
+ game_concept_repair_artifact_desc: "[artifact|E][durability|E]较低时，你可以选择修复它。\n\n你需要花费[gold|E]来修复宝物。[SelectLocalization( HasDlcFeature( 'court_artifacts' ), 'game_concept_repair_artifact_desc_DLC', '' )]"
  game_concept_repair_artifact_desc_DLC: "\n\n此外，你还可以选择[reforge|E]宝物。"

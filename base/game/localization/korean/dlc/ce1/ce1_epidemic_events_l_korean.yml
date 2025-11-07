@@ -474,6 +474,7 @@
  epidemic_events.5906.b: "이 사람의 말이 맞을지도..."
  epidemic_events.5906.c: "\"이 녀석을 가둬라, [marshal.GetFirstNameNoTooltip].\""
  epidemic_events.5906.d: "풀어줘라. 해를 끼치진 않을 것이다."
+ epidemic_events.5906.d.tt: "[doomsday_province.GetName]에 인접한 모든 남작령이 #color_white 25%#! 확률로 동일한 변화 요소를 획득함"
  fervor_loss_flagellants: "자유롭게 돌아다니는 채찍 고행자"
  epidemic_events.5907.t: "약간의 간지러움"
  epidemic_events.5907.desc: "아침 햇살이 쏟아져 눈꺼풀이 서서히 열렸다. 일어나서 몸을 돌리고 기지개를 켜며 하품을 하다가... #EMP 기침#!이 나왔다.\n\n목이 조금 아프다. 눈도 어쩐지 조금 흐릿해 보인다. 코도 조금 막히는 기분이다.\n\n이러면 안 돼. 왜 나한테... 신이시여, 저를 구해주십시오. 저 무시무시한 역병이 이 땅에 퍼지면 안 됩니다. 저를 잡아가게 두지 말아 주십시오..."

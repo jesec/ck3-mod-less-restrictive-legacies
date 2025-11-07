@@ -305,7 +305,7 @@
  travel_events.4036.a: "Je paierai ce que vous voulez !"
  travel_events.4036.b: "Je vais la voler !"
  travel_events.4036.d: "Peut-être que nous pouvons faire un marché."
- travel_events.4036.c: "Je ne suis pas intéressé[ROOT.Char.Custom('FR_E')] par une babiole [ROOT.Char.GetCurrentLocation.GetCounty.GetCulture.GetNameNoTooltip] sans valeur."
+ travel_events.4036.c: "Je ne suis pas intéressé[ROOT.Char.Custom('FR_E')] par une babiole [ROOT.Char.GetCurrentLocation.GetCounty.GetCulture.GetNameNoTooltip]."
  travel_events.4037.t: "$travel_event_prefix$ les fois [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] et [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.GetAdjectiveNoTooltip]"
  travel_events.4037.desc: "J’ai entendu dire que les habitants de [ROOT.Char.GetCurrentLocation.GetCounty.GetName] pratiquaient la religion [ROOT.Char.GetFaith.GetReligion.GetAdjective] conjointement avec leur foi [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.GetAdjective], et maintenant que je suis ici, j’observe cette imbrication religieuse partout.\n\n[Select_CString(fanboy_character_scope.IsFemale,'Une paysanne','Un paysan')] se faisant appeler [fanboy_character_scope.GetFirstName] s’approche avec enthousiasme de ma caravane et commence à étudier notre iconographie religieuse avec vigueur. « Par [fanboy_character_scope.GetFaith.HighGodName], un groupe de [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] ici-même ! Dites-moi, [ROOT.Char.Custom('FR_MonseigneurMadame')|U], vous nous enseigneriez le culte [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] ? »"
  travel_events.4037.a: "Je leur apprendrai !"

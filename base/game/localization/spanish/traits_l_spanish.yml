@@ -330,7 +330,7 @@
  trait_loyal_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] se toma sus relaciones con más seriedad que el resto."
  TRAIT_FLAG_DESC_join_factions_less: "Menos probable que se una a [factions|lE] contra su [liege|lE]"
  TRAIT_FLAG_DESC_join_factions_more: "Más probable que se una a [factions|lE] contra su [liege|lE]"
- TRAIT_FLAG_DESC_cannot_inherit_titles: "@warning_icon! #N No puede heredar [titles|lE]#!"
+ TRAIT_FLAG_DESC_cannot_inherit_titles: "@warning_icon! #X No puede heredar [titles|lE]#!"
  trait_disloyal: "Desleal"
  trait_disloyal_desc: "Donde la mayoría de la gente ve una relación, esta persona ve una oportunidad."
  trait_disloyal_character_desc: "Donde la mayoría de la gente ve una relación, [ROOT.GetCharacter.GetFirstNameNoTooltip] ve una oportunidad."

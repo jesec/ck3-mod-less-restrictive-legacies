@@ -83,3 +83,5 @@
  GREEK_ANARCHY_CB_NAME: "Toma del ducado imperial"
  ep3_laamp_peasant_war: "Revuelta campesina"
  ep3_laamp_peasant_war.peasant_army: "Los campesinos de todos los condados se alzarán como [levies|lE] y se unirán a tu bando"
+ ep3_join_war_payment_tt: "Por un [task_contract|lE] de [GetTaskContractType('laamp_join_war_contract').GetName|l]:"
+ ep3_hire_laamp_mercs_payment_tt: "Por trabajo de [mercenary|lE]:"

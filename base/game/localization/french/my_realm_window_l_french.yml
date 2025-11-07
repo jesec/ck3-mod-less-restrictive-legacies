@@ -3,6 +3,7 @@
  realm_tab_domain: "Domaine"
  realm_tab_vassals: "Vassaux"
  realm_tab_succession: "Succession"
+ realm_tab_admin_laws: "Administration"
  MY_REALM_WINDOW_MY_LIEGE: "Votre [liege|El]"
  MY_REALM_WINDOW_MY_OBLIGATIONS: "$VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE$ : [VassalContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]\n$VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE_LEVIES$ : [VassalContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_levies' )]"
  MY_REALM_WINDOW_MY_TAX_LEVEL: "$VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE$ : [VassalContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]"
@@ -163,3 +164,4 @@
  THEME_ADMINISTRATION_INFO: "#P Choisissez une [Character.Custom('GetProvinceAdministrationConcept')|l] pour ce [Character.Custom( 'GetProvinceConcept' )|l]. Si un autre [Character.Custom( 'GetGovernorConcept' )|l] devait en reprendre la gestion, il garderait ce type jusqu’à ce qu’il soit à nouveau modifié."
  THEME_ADMINISTRATION_LABEL: "Types d’administration disponibles"
  VASSAL_CONTRACT_VASSAL_TITLE_ADMIN: "Modification de l’administration de\n#high [VassalContract.GetVassal.GetPrimaryTitle.GetNameNoTooltip]\nGouverné par [VassalContract.GetVassal.GetFirstNameNoTooltip] [VassalContract.GetVassal.GetHouse.GetNameNoTooltip]#!"
+ MY_REALM_ADMIN_LAWS_HEADER: "Administration de [GetPlayer.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]"

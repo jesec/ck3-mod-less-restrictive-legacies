@@ -229,6 +229,8 @@
  relation_akolouthos_female_possessive: "아콜루토스의"
  relation_liege_female: "주군"
  relation_liege_male: "주군"
+ relation_leader_female: "지도자"
+ relation_leader_male: "지도자"
  relation_ward: "피후견인"
  relation_guardian: "후견인"
  relation_spymaster_female: "첩보장"

@@ -37,7 +37,7 @@
  hostile_scheme_discovery.2001.target_me: "moi !"
  hostile_scheme_discovery.2001.a: "Nous devons arrêter le coupable !"
  hostile_scheme_discovery.3001.t: "Agent découvert"
- hostile_scheme_discovery.3001.intro: "[agent.Custom('FR_le_Char_Pi')|U][agent.GetTitledFirstName], mon agent à la Cour [court_owner.Custom('FR_du_Char_Pi')][court_owner.GetTitledFirstName], a été découvert[agent.Custom('FR_E')] !"
+ hostile_scheme_discovery.3001.intro: "[agent.Custom('FR_le_Char_Pi')|U][agent.GetTitledFirstName], mon agent du [scheme.GetName|l] [court_owner.Custom('FR_du_Char_Pi')][court_owner.GetTitledFirstName], a été découvert[agent.Custom('FR_E')] !"
  hostile_scheme_discovery.3001.imprisoned: "\n\n[court_owner.Custom('FR_le_Char_L')|U][court_owner.GetTitleAsName] l’a placé[agent.Custom('FR_E')] sous les verrous."
  hostile_scheme_discovery.3001.accused: "\n\nMaintenant qu’[agent.Custom('FR_IlElle')] est jugé[agent.Custom('FR_E')] indigne de confiance, [agent.Custom('FR_IlElle')] ne peut plus aider ma cause."
  hostile_scheme_discovery.3001.a: "Maudits soient [court_owner.Custom('FR_le_Char_Pi')][court_owner.GetTitledFirstNameNoTooltip] et son [spymaster.GetCouncilTitle|l] !"

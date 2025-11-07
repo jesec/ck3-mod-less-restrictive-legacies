@@ -180,7 +180,7 @@
  doctrine_parameter_mandatory_feast_attendance: "[vassals|E] nehmen mit größerer Wahrscheinlichkeit an Festmahlen des Lehnsherrn teil; wenn sie sich weigern, verlieren sie [piety|E]"
  tenet_sky_burials_name: "Himmelsbestattungen"
  tenet_sky_burials_desc: "Die Toten sollten nicht unter der Erde eingesperrt sein: Es ist besser, wenn sie von aasfressenden Vögeln gefressen werden. Mit diesem letzten Akt der Großzügigkeit können sie die Welt nähren, die sie genährt hat."
- doctrine_parameter_sky_burials_active: "[rulers|E] können ihre Ahnen mit einer Himmelsbestattung beisetzen. So erhalten sie [piety|E] und erfreuen ihre [vassals|E]\n$EFFECT_LIST_BULLET$[duchy_building|E] „Leichengründe“ kann gebaut werden"
+ doctrine_parameter_sky_burials_active: "[rulers|E] können ihre Ahnen mit einer Himmelsbestattung beisetzen. So erhalten sie [piety|E] und erfreuen ihre [vassals|E]\n$EFFECT_LIST_BULLET$[duchy_building|E] „[GetBuilding('charnel_grounds_01').GetName]“ kann gebaut werden"
  can_build_towers_of_silence_active_name: "Bau von [duchy_building|E] „[GetBuilding('tower_of_silence_01').GetName]“"
  doctrine_parameter_can_build_towers_of_silence_active: "[vassals|E] können das [duchy_building|E] „[GetBuilding('tower_of_silence_01').GetName]“ bauen, um den [county|E]-Eifer zu stärken – #EMP wenn#! der [faith|E] des eigenen [Concept('liege', 'Lehnsherrn')|E] keine $tenet_sky_burials_name$ kennt."
  tenet_sacred_childbirth_name: "Heiliges Kindbett"

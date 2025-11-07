@@ -83,3 +83,5 @@
  GREEK_ANARCHY_CB_NAME: "Захватить имперское герцогство"
  ep3_laamp_peasant_war: "Крестьянский бунт"
  ep3_laamp_peasant_war.peasant_army: "Крестьяне во всех графствах восстанут в качестве [Concept('levies','ополчения')|E] и примкнут к вашей стороне"
+ ep3_join_war_payment_tt: "Из-за [Concept('task_contract', 'контракта')|E] «[GetTaskContractType('laamp_join_war_contract').GetName]»:"
+ ep3_hire_laamp_mercs_payment_tt: "Из-за работы [Concept('mercenary','наемником')|E]:"

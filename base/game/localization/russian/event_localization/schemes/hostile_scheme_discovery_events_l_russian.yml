@@ -37,7 +37,7 @@
  hostile_scheme_discovery.2001.target_me: "я!"
  hostile_scheme_discovery.2001.a: "Мы должны остановить негодяя!"
  hostile_scheme_discovery.3001.t: "Заговорщик разоблачен!"
- hostile_scheme_discovery.3001.intro: "[court_owner.GetTitledFirstNamePossessive] [Select_CString(court_owner.IsFemale, 'узнала', 'узнал' )], что [agent.GetTitledFirstName] [Select_CString(agent.IsFemale, 'участвовала', 'участвовал' )] в заговоре у н[SCOPE.sC('court_owner').GetHerHis] при дворе !"
+ hostile_scheme_discovery.3001.intro: "[court_owner.GetTitledFirstName] [Select_CString(court_owner.IsFemale, 'узнала', 'узнал' )], что [agent.GetTitledFirstName] [Select_CString(agent.IsFemale, 'участвовала', 'участвовал' )] в заговоре «[scheme.GetName]»!"
  hostile_scheme_discovery.3001.imprisoned: "\n\n[court_owner.GetTitleAsName] [Select_CString(court_owner.IsFemale, 'посадила', 'посадил' )] [SCOPE.sC('court_owner').GetHerHis] под замок."
  hostile_scheme_discovery.3001.accused: "\n\nТеперь [agent.GetSheHe] лишится всеобщего доверия и будет мне [Select_CString(agent.IsFemale, 'бесполезна', 'бесполезен' )]."
  hostile_scheme_discovery.3001.a: "Будь [Select_CString(court_owner.IsFemale, 'проклята', 'проклят' )] [court_owner.GetTitledFirstNameNoTooltip] и [court_owner.GetHerHis] [spymaster.GetCouncilTitle|l]!"

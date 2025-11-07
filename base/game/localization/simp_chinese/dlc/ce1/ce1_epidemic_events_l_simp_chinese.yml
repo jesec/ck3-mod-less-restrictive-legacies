@@ -474,6 +474,7 @@
  epidemic_events.5906.b: "也许[flagellant.GetSheHe]说的有道理……"
  epidemic_events.5906.c: "“[marshal.GetFirstNameNoTooltip]，把[flagellant.GetHerHim]铐起来。”"
  epidemic_events.5906.d: "让[flagellant.GetHerHim]走吧。他们没有造成任何伤害。"
+ epidemic_events.5906.d.tt: "[doomsday_province.GetName]周围所有男爵领有#color_white 25%#!概率获得相同修正"
  fervor_loss_flagellants: "自笞者自由游荡"
  epidemic_events.5907.t: "小痒痒"
  epidemic_events.5907.desc: "晨光照在我的眼皮上，我微微睁开了眼。我翻身，伸伸懒腰，打呵欠……#EMP 咳嗽#!。\n\n我的喉咙有点痛。我的眼睛也比平时模糊了一些。我甚至觉得有点流鼻涕。\n\n哦，不。拜托别这样。救我脱离这命运。[ROOT.Char.GetFaith.HighGodName]啊，请告诉我，可怕的瘟疫没有蔓延到这些土地，没让我成为受害者……"

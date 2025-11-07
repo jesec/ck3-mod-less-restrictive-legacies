@@ -305,7 +305,7 @@
  travel_events.4036.a: "Ich zahle jeden Preis."
  travel_events.4036.b: "Ich werde es stehlen!"
  travel_events.4036.d: "Vielleicht kommen wir irgendwie ins Geschäft …"
- travel_events.4036.c: "Ich bin nicht an wertlosem [ROOT.Char.GetCurrentLocation.GetCounty.GetCulture.GetNameNoTooltip|l]en Tand interessiert."
+ travel_events.4036.c: "Ich bin nicht an [ROOT.Char.GetCurrentLocation.GetCounty.GetCulture.GetNameNoTooltip|l]em Tand interessiert."
  travel_events.4037.t: "$travel_event_prefix$ [ROOT.Char.GetFaith.GetReligion.GetNameNoTooltip] und [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.GetNameNoTooltip]"
  travel_events.4037.desc: "Ich hatte gehört, die Menschen in [ROOT.Char.GetCurrentLocation.GetCounty.GetName] üben den [ROOT.Char.GetFaith.GetReligion.GetAdjective|l]en Glauben in Verbindung mit ihrem eigenen [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.GetAdjective|l]en Glauben aus, und da ich nun hier bin, kann ich diese religiöse Verflechtung überall sehen.\n\n[Select_CString(fanboy_character_scope.IsFemale, 'Eine eigenartige und begeisterte Bäuerin, die', 'Ein eigenartiger und begeisterter Bauer, der')|U] sich selbst [fanboy_character_scope.GetFirstName] nennt, nähert sich meinem Gefolge und beginnt augenblicklich, unsere religiöse Ikonografie zu mustern.\n\n„Bei den höchsten Mächten ([fanboy_character_scope.GetFaith.HighGodName])! Einer Gruppe [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] ausgerechnet hier zu begegnen! Sagt mir bitte, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]: Würdet Ihr uns etwas über die [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|l]en Wege der Anbetung beibringen?“"
  travel_events.4037.a: "Ich werde sie Euch lehren!"

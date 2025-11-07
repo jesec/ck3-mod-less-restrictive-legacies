@@ -37,7 +37,7 @@
  hostile_scheme_discovery.2001.target_me: "mich!"
  hostile_scheme_discovery.2001.a: "Wir müssen den Übeltäter, der hinter dieser Sache steckt, aufhalten!"
  hostile_scheme_discovery.3001.t: "Agent aufgeflogen!"
- hostile_scheme_discovery.3001.intro: "[agent.GetTitledFirstName], mein[agent.Custom('DE_END_PRO_S_N')] Agent[agent.Custom('DE_END_NOU_S_GS_N')] am Hof von [court_owner.GetTitledFirstName], ist aufgeflogen!"
+ hostile_scheme_discovery.3001.intro: "[agent.GetTitledFirstName|U], mein[agent.Custom('DE_END_PRO_S_N')] Agent[agent.Custom('DE_END_NOU_S_GS_N')] im Komplott von [court_owner.GetTitledFirstName], ist aufgeflogen!"
  hostile_scheme_discovery.3001.imprisoned: "\n\nJetzt hat [court_owner.GetTitleAsName] [agent.Custom('DE_PRO_PER_S_3P_A')] wegsperren lassen."
  hostile_scheme_discovery.3001.accused: "\n\nJetzt ist [agent.Custom('DE_PRO_PER_S_3P_N')] als vertrauensunwürdig bekannt und kann meiner Sache nicht mehr weiterhelfen."
  hostile_scheme_discovery.3001.a: "Verflucht seien [court_owner.GetTitledFirstNameNoTooltip] und [court_owner.Custom('DE_PRO_POS_S_3P')] [spymaster.GetCouncilTitle]!"

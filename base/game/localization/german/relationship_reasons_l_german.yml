@@ -204,6 +204,8 @@
  friend_coping_motivation_corresponding: "[CHARACTER.GetShortUIName|U] und [TARGET_CHARACTER.GetShortUIName] wurden Freunde, nachdem sich [TARGET_CHARACTER.GetShortUIName] von [CHARACTER.GetShortUIName] anstacheln ließ."
  friend_motivated_by_parent: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'wurdet', 'wurde')] von [TARGET_CHARACTER_2.GetShortUIName] ermutigt, sich mit [TARGET_CHARACTER.GetShortUIName] anzufreunden."
  friend_motivated_by_parent_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'wurdet', 'wurde')] von [TARGET_CHARACTER_2.GetShortUIName] ermutigt, sich mit [TARGET_CHARACTER.GetShortUIName] anzufreunden."
+ friend_helped_me_marry: "[TARGET_CHARACTER.GetShortUIName|U] wurde von [CHARACTER.GetShortUIName] bei der Heirat mit [TARGET_CHARACTER_2.GetShortUIName] geholfen."
+ friend_helped_me_marry_corresponding: "[CHARACTER.GetShortUIName|U] half [TARGET_CHARACTER.GetShortUIName] bei der Heirat mit [TARGET_CHARACTER_2.GetShortUIName]."
  friend_good_chats: "[CHARACTER.GetShortUIName] lernte noch als Kind viel durch Plaudereien mit [TARGET_CHARACTER.GetShortUIName]."
  friend_good_chats_corresponding: "[TARGET_CHARACTER.GetShortUIName] lernte noch als Kind viel durch Plaudereien mit [CHARACTER.GetShortUIName]."
  friend_pedagogy: "Die sorgfältige Erziehung und das Mündeltum von [CHARACTER.GetShortUIName] durch [TARGET_CHARACTER.GetShortUIName] pflanzte die Saat einer lang anhaltenden Freundschaft."

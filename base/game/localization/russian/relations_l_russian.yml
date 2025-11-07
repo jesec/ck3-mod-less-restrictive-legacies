@@ -229,6 +229,8 @@
  relation_akolouthos_female_possessive: "аколуфа"
  relation_liege_female: "сюзерен"
  relation_liege_male: "сюзерен"
+ relation_leader_female: "лидер"
+ relation_leader_male: "лидер"
  relation_ward: "подопечный"
  relation_guardian: "опекун"
  relation_spymaster_female: "тайная советница"

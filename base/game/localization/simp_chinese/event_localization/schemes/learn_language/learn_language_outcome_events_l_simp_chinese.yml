@@ -6,7 +6,7 @@
  learn_language_outcome.1000.b.success: "我的学识让[target.GetFirstNameNoTooltip]对我印象深刻"
  learn_language_outcome.1000.b.failure: "我的信件被人当作不诚实的愚弄"
  target_responds: "[target.GetTitledFirstName]回复了你的信"
- learn_language_outcome.1001.opening: "[owner.Custom2('AppropriateGreeting', target)]"
+ learn_language_outcome.1001.opening: "[owner.Custom2('AppropriateGreetingPositive', target)]"
  learn_language_outcome.1001.desc: "我已经学习[target.GetCulture.GetLanguage.GetName]很久了。我亲自用[target.GetCulture.GetLanguage.GetNameNoTooltip]撰写了这封信——一封来自[owner.GetCulture.GetLanguage.GetName]使用者的友谊之信！\n\n我希望我们今后的外交往来可以使双方都获益良多！"
  learn_language_outcome.1001.a: "[owner.GetSheHe|U]已经学会了[target.GetCulture.GetLanguage.GetNameNoTooltip]？这可真是不得了，快送去我的问候！"
  learn_language_outcome.1001.b: "哈！[owner.GetHerHis|U]也妄想获得荣耀，真可笑！"

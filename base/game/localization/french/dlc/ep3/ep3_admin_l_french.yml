@@ -13,7 +13,7 @@
  army_quartermasters_house_power: "Fourriers"
  respected_despots_house_power: "Despotes respectés"
  lofty_architects_house_power: "Architectes hautains"
- members_in_realm_desc: "Membres en vie de la [house|E] dans le [realm|El]"
+ members_in_realm_desc: "Membres en vie de la [house|E]"
  house_head_influence_level_desc: "[influence_level|E] du [house_head|El]"
  house_members_on_council_desc: "Membres de la [house|E] au [council|E] du [top_liege|El]"
  estate_buildings_desc: "[estate_buildings|E]"
@@ -112,3 +112,4 @@
  ep3_admin_events.0005.desc_still_admin: "Notre grand pays n’est plus et je suis hors de l’influence de [gov_liege.GetFirstName]. Je suis donc en charge de [ROOT.Char.GetPrimaryTitle.GetNameNoTier]. En dehors de mon indépendance, peu de choses changeront. L’administratif fait partie intégrante de notre mode de vie et le restera."
  ep3_admin_events.0005.desc_lost_admin: "Les circonstances ont conduit à la fin de notre grand pays. De l’administratif qui régissait nos vies, il ne reste que des cendres. Je n’ai pas d’autre choix que d’adapter mon gouvernement à cette nouvelle réalité."
  ep3_admin_events.0005.a: "Laissons le passé derrière nous et regardons vers l’avenir !"
+ demand_admin_tribal: "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUIName|U] [Select_CString(recipient.IsLocalPlayer,'êtes','est')] [tribal|El][recipient.Custom('FR_E')|E] - Seuls les [governments|El] installés peuvent devenir [Concept('administrative','administratifs')|E]"

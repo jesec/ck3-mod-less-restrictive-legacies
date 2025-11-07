@@ -4064,7 +4064,6 @@ light_cavalry_captain_camp_officer = {
 		excellent = {
 			light_cavalry_damage_mult = 0.5
 			light_cavalry_pursuit_mult = 0.5
-			light_cavalry_max_size_add = 1
 		}
 	}
 
@@ -4288,7 +4287,6 @@ camelry_captain_camp_officer = {
 		excellent = {
 			camel_cavalry_damage_mult = 0.5
 			camel_cavalry_pursuit_mult = 0.5
-			camel_cavalry_max_size_add = 1
 		}
 	}
 
@@ -4732,7 +4730,6 @@ heavy_cavalry_captain_camp_officer = {
 		excellent = {
 			heavy_cavalry_damage_mult = 0.5
 			heavy_cavalry_pursuit_mult = 0.5
-			heavy_cavalry_max_size_add = 1
 		}
 	}
 
@@ -4952,7 +4949,6 @@ horse_archer_captain_camp_officer = {
 		excellent = {
 			archer_cavalry_damage_mult = 0.5
 			archer_cavalry_pursuit_mult = 0.5
-			archer_cavalry_max_size_add = 1
 		}
 	}
 
@@ -5172,7 +5168,6 @@ archer_captain_camp_officer = {
 		excellent = {
 			archers_damage_mult = 0.5
 			archers_screen_mult = 0.5
-			archers_max_size_add = 1
 		}
 	}
 
@@ -5392,7 +5387,6 @@ heavy_infantry_captain_camp_officer = {
 		excellent = {
 			heavy_infantry_damage_mult = 0.5
 			heavy_infantry_screen_mult = 0.5
-			heavy_infantry_max_size_add = 1
 		}
 	}
 
@@ -5612,7 +5606,6 @@ light_infantry_captain_camp_officer = {
 		excellent = {
 			skirmishers_damage_mult = 0.5
 			skirmishers_screen_mult = 0.5
-			skirmishers_max_size_add = 1
 		}
 	}
 
@@ -5832,7 +5825,6 @@ pike_captain_camp_officer = {
 		excellent = {
 			pikemen_damage_mult = 0.5
 			pikemen_toughness_mult = 0.25
-			pikemen_max_size_add = 1
 		}
 	}
 

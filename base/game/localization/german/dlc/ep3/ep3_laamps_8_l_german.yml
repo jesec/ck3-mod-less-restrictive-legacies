@@ -100,7 +100,7 @@
  friend_gave_them_a_dog_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] schenkte [CHARACTER.GetShortUIName] einen starken und treuen Jagdhund"
  friend_eccentric: "[CHARACTER.GetShortUIName|U] und [TARGET_CHARACTER.GetShortUIName] kamen einander über gemeinsame Verschrobenheiten näher."
  artifact_durable_materials_02: "Haltbares Material"
- cultural_acceptance_fled_persecution: "Ein Abenteurer half einigen Minderheiten, einer Verfolgung zu entgehen."
+ cultural_acceptance_fled_persecution: "Ein Abenteurer half einigen Minderheiten, einer Verfolgung zu entgehen"
  friend_treasured_more_than_food: "[TARGET_CHARACTER.GetShortUIName|U] bot [CHARACTER.GetShortUIName] in Zeiten der Not Unterstützung an."
  friend_treasured_more_than_food_corresponding: "[CHARACTER.GetShortUIName|U] bot [TARGET_CHARACTER.GetShortUIName] in Zeiten der Not Unterstützung an."
  #Legitimist

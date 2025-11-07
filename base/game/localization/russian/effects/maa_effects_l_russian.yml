@@ -1,5 +1,6 @@
 ﻿l_russian:
  transfer_title_maa_global: "Прикрепить полк [Regiment.GetName] к титулу [TARGET_TITLE.GetName]"
+ transfer_title_maa_ownership_global: "Передать контроль над всеми [Concept('title_men_at_arms','титулярными профессионалами')|E] от владения [TITLE.GetNameNoTier] владению [TARGET_TITLE.GetNameNoTier]"
  destroy_maa_regiment_global: "Полк [REGIMENT.GetName] уничтожен"
  destroy_maa_regiment: "Полк [REGIMENT.GetName] уничтожен"
  destroy_maa_regiment_first: "Полк [REGIMENT.GetName] уничтожен"

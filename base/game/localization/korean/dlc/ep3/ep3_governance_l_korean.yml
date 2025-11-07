@@ -422,6 +422,7 @@
  admin_contract_success_tt_xp: "[GetTrait('governor').GetName( GetNullCharacter )] [trait|E]의 [trait_level_track_xp|E]"
  admin_contract_success_tt_rewards: "다음과 같은 다양한 보상 중에서 선택할 수 있음:#indent_newline:3 \n$EFFECT_LIST_BULLET$$admin_contract_success_tt_xp$\n$EFFECT_LIST_BULLET$[gold_i|E][gold|E]\n$EFFECT_LIST_BULLET$[influence_i|E][influence|E]\n$EFFECT_LIST_BULLET$[prestige_i|E][prestige|E]\n$EFFECT_LIST_BULLET$[piety_i|E][piety|E]\n$EFFECT_LIST_BULLET$당신의 [counties|E] 또는 [holdings|E] 개선#!"
  admin_contract_failure_tt: "[prestige_i|E][prestige|E] 또는 [influence_i|E][influence|E]을 잃는 등, 가벼운 불이익을 받을 수 있음"
+ has_active_governance_issue: "이미 진행 중인 [governance_issue|E]이 존재함"
  task_contract_reward_effect_taxes_governor_desc: "잠재적 결과:"
  task_contract_reward_effect_taxes_paid_in_full_desc: "$label_success_standard$"
  task_contract_reward_effect_taxes_paid_partially_desc: "$label_success_standard$"

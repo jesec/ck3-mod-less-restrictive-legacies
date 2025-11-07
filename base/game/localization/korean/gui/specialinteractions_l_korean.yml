@@ -571,3 +571,5 @@
  WILL_BE_VASSALIZED_REASON: "당신의 [vassal|E]이 될 것임: $VALUE|=+0$"
  RIVAL_VASSAL_REASON: "[realm|E] 내에 경쟁자 [vassal|E]: $VALUE|=+0$"
  negotiate_settlement_title_cant_receive_reason_higher_tier_without_county: "[recipient.GetShortUINameNotMe] (이)가 [target.GetName](을)를 포함한 하나 이상의 백작령을 받거나 보유하고 있어야 합니다"
+ STATE_FAITH_CREATE_FAITH_REASON: "당신이 [realm|E] 내에서 많은 환심을 보유: $VALUE|=+0$"
+ HAS_PERK_PROPHET_REASON: "당신이 [GetPerk('prophet_perk').GetName(GetPlayer)] [perk|E] 보유: $VALUE|=+0$"

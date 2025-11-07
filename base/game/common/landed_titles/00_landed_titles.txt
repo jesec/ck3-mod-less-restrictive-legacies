@@ -7938,7 +7938,7 @@ e_byzantium = {
 			capital = c_mosynopolis # Mosynopolis
 
 			c_mosynopolis = {
-				color = { 49 43 135 }
+				color = { 39 53 135 }
 
 				b_mosynopolis = {
 					province = 492

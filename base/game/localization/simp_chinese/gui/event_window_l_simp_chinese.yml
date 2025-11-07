@@ -35,6 +35,7 @@
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_QUARTERMASTER: "此选项可用，因为你解锁了[GetCourtPositionType('quartermaster_camp_officer').GetName()][officer|E]"
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_ARMORER: "此选项可用，因为你解锁了[GetCourtPositionType('armorer_camp_officer').GetName()][officer|E]"
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_MASTER_OF_ARMS: "此选项可用，因为你解锁了[GetCourtPositionType('master_of_arms_camp_officer').GetName()][officer|E]"
+ EVENT_WINDOW_OPTION_AVAILABLE_PERSON_HAGGLER: "此选项可用，因为你解锁了[GetCourtPositionType('person_haggler_camp_officer').GetName()][officer|E]"
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_GOVERNOR_EFFICIENCY: "此选项可用，因为你的[governor_efficiency|E]"
  EVENT_WINDOW_OPTION_AVAILABLE_MANY_FOLLOWERS: "如果你拥有至少#V [EmptyScope.ScriptValue('many_followers_value')|0]#![followers|E]，此选项可用"
  EVENT_WINDOW_OPTION_AVAILABLE_VISIT_SETTLEMENT_PROVISIONS: "该选项允许你购买[provisions|E]"

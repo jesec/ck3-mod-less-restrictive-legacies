@@ -13,7 +13,7 @@
  army_quartermasters_house_power: "Военные интенданты"
  respected_despots_house_power: "Уважаемые деспоты"
  lofty_architects_house_power: "Амбициозные архитекторы"
- members_in_realm_desc: "Ныне живущие члены [Concept( 'house', 'дома' )|E] в пределах [Concept( 'realm', 'державы' )|E]"
+ members_in_realm_desc: "Живые члены [Concept('house','дома')|E]"
  house_head_influence_level_desc: "[Concept( 'influence_level', 'Уровень влияния' )|E] [Concept( 'house_heads_possessive', 'главы дома' )|E]"
  house_members_on_council_desc: "Члены [Concept( 'house', 'дома' )|E] в [Concept( 'council', 'совете' )|E] [Concept( 'top_liege', 'верховного сюзерена' )|E]"
  estate_buildings_desc: "[estate_buildings|E]"
@@ -112,3 +112,4 @@
  ep3_admin_events.0005.desc_still_admin: "Нашей некогда великой державе пришел конец, [gov_liege.GetFirstName] больше не имеет надо мной власти. [ROOT.Char.GetPrimaryTitle.GetNameNoTier] теперь под моим началом. Не считая независимости и возможности поступать не по указке, почти ничего не изменилось. Бюрократия была и остается неотъемлемой частью нашего образа жизни."
  ep3_admin_events.0005.desc_lost_admin: "По воле обстоятельств нашей великой державе пришел конец. А с ней обратилась в прах бюрократия, определявшая наш образ жизни. У меня нет выбора, кроме как приспосабливать свое правительство к новым реалиям."
  ep3_admin_events.0005.a: "Забудем о прошлом, надо смотреть в будущее!"
+ demand_admin_tribal: "[recipient.GetShortUIName|U] [Concept('tribal','племя')|E] — Только оседлые [Concept('governments','правительства')|E] могут стать [Concept('administrative','бюрократическими')|E]"

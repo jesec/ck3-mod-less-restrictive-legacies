@@ -260,7 +260,7 @@
  bp1_yearly.5719.c: "¿Podríamos llegar quizá a un compromiso?"
  bp1_yearly.5719.d: "Solo… ¡no lo volváis a hacer!"
  bp1_yearly.5720.t: "Prueba de fuerza"
- bp1_yearly.5720.desc: "Llevo varias copas de [ROOT.Char.Custom('RegionalDrink')] y, normalmente, ya estaría bastante content[ROOT.Char.Custom('ES_OA')]. Por desgracia, la maldita presencia de [rival_challenger.GetFirstName] en una mesa diagonalmente frente a mí me arruina la velada.\n\nLo único que hace falta es el más mínimo indicio de un desaire de su boca y nos inclinamos a través de la superficie, señalándonos y chillando a pleno pulmón.\n\n«¡[ROOT.Char.Custom('InsultNoun')], so [ROOT.Char.Custom('InsultNoun')]!», brama. «¡No vencerías a un niño en una prueba de fuerza! ¡Te podría aplastar el brazo contra la madera ahora mismo sin ningún esfuerzo!"
+ bp1_yearly.5720.desc: "Llevo varias copas de [ROOT.Char.Custom('RegionalDrink')] durante esta comida, pero la maldita presencia de [rival_challenger.GetFirstName] me arruina la velada.\n\n«¡[ROOT.Char.Custom('InsultNoun')], so [ROOT.Char.Custom('InsultNoun')|l]!», brama. «¡No vencerías a un niño en un pulso! ¡Podría aplastarte el brazo contra la mesa ahora mismo, sin ningún esfuerzo!"
  bp1_yearly.5720.a: "Claro; con el brazo #EMP izquierdo#!, ¿verdad?"
  bp1_yearly.5720.a.tt: "Puede que esto no me haga popular en mi [THIS.Char.Custom('GetCourt')], pero me sentará #EMP genial#!…"
  bp1_yearly.5720.b: "¡Ja! ¡Ja! ¡Pues a por ti, entonces!"

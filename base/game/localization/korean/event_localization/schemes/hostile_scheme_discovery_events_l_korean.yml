@@ -37,7 +37,7 @@
  hostile_scheme_discovery.2001.target_me: "나였다!"
  hostile_scheme_discovery.2001.a: "배후자를 밝혀내서 계획을 저지해야 한다!"
  hostile_scheme_discovery.3001.t: "공모자 발각!"
- hostile_scheme_discovery.3001.intro: "[court_owner.GetTitledFirstNamePossessive] 궁정에 있던 공모자 [agent.GetTitledFirstName](이)가 발각되었다!"
+ hostile_scheme_discovery.3001.intro: "[court_owner.GetTitledFirstNamePossessive] [scheme.GetName|l]에 손을 보탠 내 공모자 [agent.GetTitledFirstName](이)가 발각되었다!"
  hostile_scheme_discovery.3001.imprisoned: "\n\n[court_owner.GetTitleAsName](은)는 그대로 [agent.GetHerHim]를 감금해버렸다."
  hostile_scheme_discovery.3001.accused: "\n\n[agent.GetSheHe]가 신뢰할 수 없는 자라고 소문이 나버리는 바람에, 더는 내게 도움이 되지 못한다."
  hostile_scheme_discovery.3001.a: "망할 [court_owner.GetTitledFirstNameNoTooltip](와)과 [spymaster.GetCouncilTitle] 같으니!"

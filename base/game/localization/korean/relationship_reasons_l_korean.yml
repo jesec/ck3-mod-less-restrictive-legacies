@@ -204,6 +204,8 @@
  friend_coping_motivation_corresponding: "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 [TARGET_CHARACTER.GetShortUIName](이)가 [CHARACTER.GetShortUIName](을)를 통해 의욕을 얻은 이후로 친구가 됨"
  friend_motivated_by_parent: "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER_2.GetShortUIName]에 의해 [TARGET_CHARACTER.GetShortUIName](과)와 친근해지도록 독려받음"
  friend_motivated_by_parent_corresponding: "[TARGET_CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER_2.GetShortUIName]에 의해 [CHARACTER.GetShortUIName](과)와 친근해지도록 독려받음"
+ friend_helped_me_marry: "[TARGET_CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER_2.GetShortUIName](와)과의 결혼에서 [CHARACTER.GetShortUIName]의 도움을 받았음."
+ friend_helped_me_marry_corresponding: "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 [TARGET_CHARACTER_2.GetShortUIName](와)과 결혼하도록 도왔음."
  friend_good_chats: "어린 시절 [CHARACTER.GetShortUIName](은)는 [TARGET_CHARACTER.GetShortUIName](와)과 대화를 나누면서 많은 것을 배웠음"
  friend_good_chats_corresponding: "어린 시절 [TARGET_CHARACTER.GetShortUIName](은)는 [CHARACTER.GetShortUIName](와)과 대화를 나누면서 많은 것을 배웠음"
  friend_pedagogy: "[TARGET_CHARACTER.GetShortUINamePossessive|U] 세심한 교육과 [CHARACTER.GetShortUIName]의 보호 아래 오랫동안 이어 나갈 우정의 씨앗을 심음"

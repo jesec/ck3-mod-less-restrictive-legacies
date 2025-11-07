@@ -330,7 +330,7 @@
  trait_loyal_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 본인의 관계를 그 무엇보다 중시합니다."
  TRAIT_FLAG_DESC_join_factions_less: "자신의 [liege|E]에 맞서 [factions|E]에 가담할 확률이 줄어듦"
  TRAIT_FLAG_DESC_join_factions_more: "자신의 [liege|E]에 맞서 [factions|E]에 가담할 확률이 높아짐"
- TRAIT_FLAG_DESC_cannot_inherit_titles: "@warning_icon! #N [titles|E]를 상속할 수 없음#!"
+ TRAIT_FLAG_DESC_cannot_inherit_titles: "@warning_icon! #X [titles|E]를 상속할 수 없음#!"
  trait_disloyal: "불충함"
  trait_disloyal_desc: "대부분이 관계를 의식할 때, 해당 인물은 기회를 봅니다."
  trait_disloyal_character_desc: "대부분이 관계를 의식할 때, [ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 기회를 봅니다."

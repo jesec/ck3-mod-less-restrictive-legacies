@@ -3,6 +3,7 @@
  realm_tab_domain: "직할령"
  realm_tab_vassals: "봉신"
  realm_tab_succession: "승계"
+ realm_tab_admin_laws: "행정"
  MY_REALM_WINDOW_MY_LIEGE: "나의 [liege|E]"
  MY_REALM_WINDOW_MY_OBLIGATIONS: "$VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE$: [VassalContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]\n$VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE_LEVIES$: [VassalContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_levies' )]"
  MY_REALM_WINDOW_MY_TAX_LEVEL: "$VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE$: [VassalContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]"
@@ -163,3 +164,4 @@
  THEME_ADMINISTRATION_INFO: "#P 해당 [Character.Custom( 'GetProvinceConcept' )]의 [Character.Custom('GetProvinceAdministrationConcept')](을)를 선택하십시오. 다른 [Character.Custom( 'GetGovernorConcept' )]이 해당 [Character.Custom( 'GetProvinceConceptNoTooltip' )](을)를 경영하게 될 경우 기존의 선택한 유형을 유지하며, 후에 변경할 수도 있습니다."
  THEME_ADMINISTRATION_LABEL: "이용 가능한 행정 유형"
  VASSAL_CONTRACT_VASSAL_TITLE_ADMIN: "행정 수정\n#high [VassalContract.GetVassal.GetPrimaryTitle.GetNameNoTooltip]\n[VassalContract.GetVassal.GetFirstNameNoTooltip] [VassalContract.GetVassal.GetHouse.GetNameNoTooltip] 관할#!"
+ MY_REALM_ADMIN_LAWS_HEADER: "[GetPlayer.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]의 행정"

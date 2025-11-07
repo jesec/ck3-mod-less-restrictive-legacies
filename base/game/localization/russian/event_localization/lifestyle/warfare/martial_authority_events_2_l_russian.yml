@@ -27,7 +27,7 @@
  martial_authority_disfigured_child_title: "$trait_disfigured$!"
  martial_authority_disfigured_child: "[fighting_child.GetNameNoTooltip] получает обезображенное лицо после травмы на турнире."
  martial_authority_unremarkable_child_title: "Ваш ребенок посредственность!"
- martial_authority.8000_injury: "[fighting_child.GetName] получает ранение."
+ martial_authority.8000_injury: "[fighting_child.GetName] получает ранение"
  martial_authority_unremarkable_child: "[fighting_child.GetNameNoTooltip] никак не проявляет себя на турнире."
  martial_authority.8100.desc: "Бойцы изображают нелепый танец, в центре которого находится [fighting_child.GetName]. Несомненно, они боятся причинить [fighting_child.GetHerHim] вред. А вот [fighting_child.GetSheHe] отвечает грязными ударами, нарушающими все правила турниров.\n\nВот [fighting_child.GetSheHe] наносит удар четырнадцатифутовым древком, и [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] [murdered_knight.GetName] падает с пробитым черепом. Бойцы продолжают наносить символические удары, а [fighting_child.GetSheHe] тем временем выбивает мозги другому участнику.\n\n«Прекратите это, [ROOT.Char.GetLadyLord|U]!» — молит меня [marshal.GetTitledFirstName]."
  martial_authority.8100.a: "Похоже, у нас есть победитель!"

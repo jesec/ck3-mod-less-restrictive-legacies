@@ -526,6 +526,7 @@
  invalidated_laamp_help_find_secrets_contract: "Contrat [GetTaskContractType('laamp_help_find_secrets_contract').GetName]"
  invalidated_laamp_help_fabricate_claim_contract: "Contrat [GetTaskContractType('laamp_help_fabricate_claim_contract').GetName]"
  invalidated_laamp_help_increase_control_contract: "Contrat [GetTaskContractType('laamp_help_increase_control_contract').GetName]"
+ invalidated_laamp_base_4100: "Contrat [GetTaskContractType('laamp_base_4100').GetName]"
  ep3_contract_event.0070.t: "$contract_event_prefix$ $laamp_join_faction_contract_contract$"
  ep3_contract_event.0070.desc: "Un grand contingent armé sous la bannière [task_contract_employer.Custom('FR_du_Char_Pi')][task_contract_employer.GetTitledFirstName], visite mon camp.\n\n« Je vous salue, [ROOT.Char.GetTitledFirstNameNoTooltip] ! J’ai entendu dire que vous vous intéressiez à notre cause ! Laissez-moi vous parler de notre [task_contract_target.Custom('InsultAdjective')] ennemi[task_contract_target.Custom('FR_E')], [task_contract_target.Custom('FR_le_Char_Pi')][task_contract_target.GetTitledFirstName]. "
  ep3_contract_event.0070.desc_fallback_faction: "$ep3_contract_event.0070.desc$Comme [task_contract_target.GetSheHe] s’insinue au cœur de ses sujets, nous déchirant de l’intérieur ! Nous souhaitons [task_contract_target.Custom('FR_LeLa')] pousser dans la Lumière, l’exposer comme la minable vipère qu’[task_contract_target.Custom('FR_IlElle')] est ! »\n\n« Pire encore..."

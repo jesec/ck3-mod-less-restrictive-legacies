@@ -229,6 +229,8 @@
  relation_akolouthos_female_possessive: "从者"
  relation_liege_female: "领主"
  relation_liege_male: "领主"
+ relation_leader_female: "领袖"
+ relation_leader_male: "领袖"
  relation_ward: "被监护人"
  relation_guardian: "监护人"
  relation_spymaster_female: "间谍首脑"

@@ -35,6 +35,7 @@
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_QUARTERMASTER: "Diese Möglichkeit ist verfügbar, da Ihr den [officer|E] „[GetCourtPositionType('quartermaster_camp_officer').GetName()]“ freigeschaltet habt"
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_ARMORER: "Diese Möglichkeit ist verfügbar, da Ihr den [officer|E] „[GetCourtPositionType('armorer_camp_officer').GetName()]“ freigeschaltet habt"
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_MASTER_OF_ARMS: "Diese Möglichkeit ist verfügbar, da Ihr den [officer|E] „[GetCourtPositionType('master_of_arms_camp_officer').GetName()]“ freigeschaltet habt"
+ EVENT_WINDOW_OPTION_AVAILABLE_PERSON_HAGGLER: "Diese Möglichkeit ist verfügbar, da Ihr den [officer|E] „[GetCourtPositionType('person_haggler_camp_officer').GetName()]“ freigeschaltet habt"
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_GOVERNOR_EFFICIENCY: "Diese Auswahl ist verfügbar aufgrund Eurer [governor_efficiency|E]"
  EVENT_WINDOW_OPTION_AVAILABLE_MANY_FOLLOWERS: "Diese Möglichkeit ist verfügbar, da Ihr mindestens #V [EmptyScope.ScriptValue('many_followers_value')|0]#! [followers|E] habt"
  EVENT_WINDOW_OPTION_AVAILABLE_VISIT_SETTLEMENT_PROVISIONS: "Diese Auswahl erlaubt es Euch, [provisions|E] zu kaufen"

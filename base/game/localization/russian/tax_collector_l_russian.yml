@@ -168,7 +168,7 @@
  VASSAL_IS_NOT_FAR_ENOUGH: "[CHARACTER.GetShortUIName] слишком близко к вашей [Concept( 'capital', 'столице' )|E]"
  VASSAL_HAS_THE_WRONG_RELIGION: "[CHARACTER.GetShortUIName] исповедует ту же [Concept( 'religion', 'религию' )|E], что и вы"
  VASSAL_HAS_THE_WRONG_FAITH: "[CHARACTER.GetShortUIName] #Bold не исповедует#! ту же [Concept( 'faith', 'веру' )|E], что и вы"
- NO_TAX_SLOT_AVAILABLE: "#D Для вас нет налоговых ячеек#!"
+ NO_TAX_SLOT_AVAILABLE: "#X Нет подходящих налоговых ячеек, они могут появиться в следующем месяце#!"
  TAX_SLOT_OBLIGATION_LIEGE_MODIFIER: "#S [Concept( 'liege', 'Сюзерену' )|E] за каждого вассала:#!"
  TAX_SLOT_OBLIGATION_VASSAL_MODIFIER: "#S [vassals|E]:#!"
  TAX_SLOT_OBLIGATION_SELECT_WARNING_TOOLTIP: "[JoinText( '\n\n', TaxSlotObligationsWindow.CanSelectObligationDesc( TaxSlotObligation.Self ), TaxSlotObligationsWindow.GetInvalidVassalsForObligationDesc( TaxSlotObligation.Self ) )]"

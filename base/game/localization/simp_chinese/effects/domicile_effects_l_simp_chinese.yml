@@ -6,3 +6,7 @@
  remove_domicile_building_global_past: "[DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )]的[DomicileBuilding.GetName]被拆除了"
  remove_domicile_building_third: "$remove_domicile_building_global$"
  remove_domicile_building_third_past: "$remove_domicile_building_global_past$"
+ lower_domicile_building_global: "[DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )]的[DomicileBuilding.GetName]被降级"
+ lower_domicile_building_global_past: "[DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )]的[DomicileBuilding.GetName]被降级"
+ lower_domicile_building_third: "$lower_domicile_building_global$"
+ lower_domicile_building_third_past: "$lower_domicile_building_global_past$"

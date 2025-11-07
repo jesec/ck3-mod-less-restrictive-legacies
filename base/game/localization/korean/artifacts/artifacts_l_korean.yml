@@ -1116,3 +1116,5 @@
  warenne_coin_description: "앞면에 파란색과 워린 가문의 노란색 체크무늬 문양이 있는 주화입니다. 가장자리에는 짙은 핏자국이 보입니다."
  traitors_head: "배신자의 머리"
  traitors_head_description: "본래 몸뚱이에서 깔끔하게 잘린 머리입니다. 기념품보다는 메시지에 가깝습니다."
+ artifact_: "파괴된 유물"
+ artifact_slot_untyped: "파괴된 유물" #Yes the tabs are intended

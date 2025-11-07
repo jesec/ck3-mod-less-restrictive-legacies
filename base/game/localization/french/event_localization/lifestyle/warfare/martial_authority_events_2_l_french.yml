@@ -27,7 +27,7 @@
  martial_authority_disfigured_child_title: "$trait_disfigured$ !"
  martial_authority_disfigured_child: "[fighting_child.Custom('FR_le_Char')|U][fighting_child.GetNameNoTooltip] a été défiguré[fighting_child.Custom('FR_E')] après une blessure dans le tournoi."
  martial_authority_unremarkable_child_title: "Votre enfant est médiocre !"
- martial_authority.8000_injury: "[fighting_child.Custom('FR_le_Char')|U][fighting_child.GetName] se blesse."
+ martial_authority.8000_injury: "[fighting_child.Custom('FR_le_Char')|U][fighting_child.GetName] se blesse"
  martial_authority_unremarkable_child: "[fighting_child.Custom('FR_le_Char')|U][fighting_child.GetNameNoTooltip] se montre quelconque dans le tournoi."
  martial_authority.8100.desc: "Les combattants dans la mêlée tournent maladroitement autour [fighting_child.Custom('FR_du_Char')][fighting_child.GetName], craignant clairement de lui faire du mal. Cependant, [fighting_child.Custom('FR_IlElle')] riposte avec des coups bas, ignorant toutes les règles du tournoi.\n\nJe le regarde enfoncer le manche de 14 pieds à l’arrière du crâne de mon [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] [murdered_knight.Custom('FR_le_Char')][murdered_knight.GetName]. Les combattants continuent à ne lui porter que des coups symboliques, tandis qu’[fighting_child.Custom('FR_IlElle')] empale le cerveau d’un autre combattant.\n\n« Mettez-y fin, [ROOT.Char.Custom('FR_MonseigneurMadame')|U] ! », supplie [marshal.Custom('FR_le_Char_Pi')][marshal.GetTitledFirstName]."
  martial_authority.8100.a: "On dirait qu’on a un gagnant !"

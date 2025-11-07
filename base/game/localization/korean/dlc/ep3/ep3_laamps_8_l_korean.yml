@@ -100,7 +100,7 @@
  friend_gave_them_a_dog_corresponding: "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게 강하고 충성스러운 사냥개를 선물함"
  friend_eccentric: "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 같은 기벽을 통해 유대를 형성함"
  artifact_durable_materials_02: "튼튼한 재료"
- cultural_acceptance_fled_persecution: "어떤 모험가가 박해받던 일부 소수 민족의 탈출을 도왔습니다."
+ cultural_acceptance_fled_persecution: "어떤 모험가가 박해받던 일부 소수 민족의 탈출을 도왔습니다"
  friend_treasured_more_than_food: "[TARGET_CHARACTER.GetShortUIName|U](이)가 곤경에 처한 [CHARACTER.GetShortUIName]에게 저장품을 제공함"
  friend_treasured_more_than_food_corresponding: "[CHARACTER.GetShortUIName|U](이)가 곤경에 처한 [TARGET_CHARACTER.GetShortUIName]에게 저장품을 제공함"
  #Legitimist

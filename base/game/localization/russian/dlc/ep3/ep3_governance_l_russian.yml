@@ -422,6 +422,7 @@
  admin_contract_success_tt_xp: "[Concept('trait_level_track_xp','Опыт')|E] [Concept('trait','свойства')|E] «[GetTrait('governor').GetName( GetNullCharacter )]»"
  admin_contract_success_tt_rewards: "Вы можете получить различные награды:#indent_newline:3 \n$EFFECT_LIST_BULLET$$admin_contract_success_tt_xp$\n$EFFECT_LIST_BULLET$[gold_i|E][Concept('gold','золото')|E]\n$EFFECT_LIST_BULLET$[influence_i|E][Concept('influence','влияние')|E]\n$EFFECT_LIST_BULLET$[prestige_i|E][Concept('prestige','престиж')|E]\n$EFFECT_LIST_BULLET$[piety_i|E][Concept('piety','благочестие')|E]\n$EFFECT_LIST_BULLET$возможность улучшить свои [Concept('counties','графства')|E] или [Concept('holdings','владения')|E]#!"
  admin_contract_failure_tt: "Вы можете получить незначительные штрафы — например, потерять [prestige_i|E][prestige|El] или [influence_i|E][influence|El]"
+ has_active_governance_issue: "У вас уже есть [Concept('governance_issue','$task_contract_issue$')|El]"
  task_contract_reward_effect_taxes_governor_desc: "Возможный результат:"
  task_contract_reward_effect_taxes_paid_in_full_desc: "$label_success_standard$"
  task_contract_reward_effect_taxes_paid_partially_desc: "$label_success_standard$"

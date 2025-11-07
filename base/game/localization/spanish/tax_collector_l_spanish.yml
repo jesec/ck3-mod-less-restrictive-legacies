@@ -168,7 +168,7 @@
  VASSAL_IS_NOT_FAR_ENOUGH: "[CHARACTER.GetShortUIName] está demasiado cerca de tu [capital|lE]"
  VASSAL_HAS_THE_WRONG_RELIGION: "[CHARACTER.GetShortUIName] es de tu misma [religion|lE]"
  VASSAL_HAS_THE_WRONG_FAITH: "[CHARACTER.GetShortUIName] #Bold no#! es de tu misma [faith|lE]"
- NO_TAX_SLOT_AVAILABLE: "#D No te quedan casillas de impuestos válidas#!"
+ NO_TAX_SLOT_AVAILABLE: "#X Sin casillas de impuestos válidas; pueden activarse el mes que viene#!"
  TAX_SLOT_OBLIGATION_LIEGE_MODIFIER: "#S [liege|E] por vasallo:#!"
  TAX_SLOT_OBLIGATION_VASSAL_MODIFIER: "#S [vassal|E]:#!"
  TAX_SLOT_OBLIGATION_SELECT_WARNING_TOOLTIP: "[JoinText( '\n\n', TaxSlotObligationsWindow.CanSelectObligationDesc( TaxSlotObligation.Self ), TaxSlotObligationsWindow.GetInvalidVassalsForObligationDesc( TaxSlotObligation.Self ) )]"

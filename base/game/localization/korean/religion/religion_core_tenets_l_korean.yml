@@ -180,7 +180,7 @@
  doctrine_parameter_mandatory_feast_attendance: "[vassals|E]이 연회에 참여할 확률 높아짐. 참여를 거부하는 자는 [piety|E]을 잃게 됨."
  tenet_sky_burials_name: "풍장"
  tenet_sky_burials_desc: "시체를 지하에 가둬두는 것은 옳지 않습니다. 그들을 먹여주었던 세상에 대한 보답이자 마지막 자애로운 행동으로써 새들이 먹게 두는 것이 더 옳다고 할 수 있습니다."
- doctrine_parameter_sky_burials_active: "[rulers|E]가 조상의 장례를 풍장으로 치를 수 있으며, [piety|E]를 획득하고 [vassals|E]을 만족시킬 수 있음\n$EFFECT_LIST_BULLET$안치소 부지 [duchy_building|E] 건설 가능"
+ doctrine_parameter_sky_burials_active: "[rulers|E]가 조상의 장례를 풍장으로 치를 수 있으며, [piety|E]를 획득하고 [vassals|E]을 만족시킬 수 있음\n$EFFECT_LIST_BULLET$[GetBuilding('charnel_grounds_01').GetName] [duchy_building|E] 건설 가능"
  can_build_towers_of_silence_active_name: "[GetBuilding('tower_of_silence_01').GetName] [duchy_building|E] 사용 가능"
  doctrine_parameter_can_build_towers_of_silence_active: "[vassals|E]이 [GetBuilding('tower_of_silence_01').GetName] [duchy_building|E]을 건설하여 [Concept( 'counties', '영지' )|E]의 광신 증폭 가능. #EMP 단#!, 봉신 [liege|E]의 [faith|E]에 $tenet_sky_burials_name$ 원리가 없어야 함"
  tenet_sacred_childbirth_name: "신성한 탄생"

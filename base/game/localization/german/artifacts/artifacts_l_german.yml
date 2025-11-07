@@ -1116,3 +1116,5 @@
  warenne_coin_description: "Diese Münze trägt auf der Vorderseite das blau-gelbe Schachbrettmuster der Warenne-Dynastie. Ein dunkler Blutspritzer verunziert den Rand."
  traitors_head: "Verräterkopf"
  traitors_head_description: "Ein sauber am Hals abgetrennter Kopf. Er ist eher eine Botschaft als ein Andenken."
+ artifact_: "Artefakt vernichtet"
+ artifact_slot_untyped: "Artefakt vernichtet" #Yes the tabs are intended

@@ -13,7 +13,7 @@
  army_quartermasters_house_power: "부대 병참장"
  respected_despots_house_power: "존중받는 데스포티스"
  lofty_architects_house_power: "고결한 건축가"
- members_in_realm_desc: "[realm|E] 내 생존한 [house|E] 구성원"
+ members_in_realm_desc: "생존한 [house|E] 구성원"
  house_head_influence_level_desc: "[house_heads_possessive|E] [influence_level|E]"
  house_members_on_council_desc: "[top_liege|E]의 [council|E] 내 [house|E] 구성원"
  estate_buildings_desc: "[estate_buildings|E]"
@@ -112,3 +112,4 @@
  ep3_admin_events.0005.desc_still_admin: "한때 위대했던 봉역은 더 이상 존재하지 않는다. [gov_liege.GetFirstNamePossessive] 영향력은 더 이상 내 발목을 잡지 못한다. 마침내 [ROOT.Char.GetPrimaryTitle.GetNameNoTier](이)가 내 손아귀에 들어왔다. 족쇄가 사라지고 통치권이 온전히 들어왔으며, 그 외에는 크게 달라진 것이 없다. 관료주의는 앞으로도 삶의 방식으로 이어질 것이다."
  ep3_admin_events.0005.desc_lost_admin: "상황이 바뀌었다. 위대한 봉역이 사라졌다. 동시에 우리의 삶을 지배했던 관료주의 재가 되어 흩어졌다. 이젠 정부 형태를 새로운 현실에 맞게 바꿀 수밖에 없다."
  ep3_admin_events.0005.a: "과거는 잊고 미래를 바라보자!"
+ demand_admin_tribal: "[recipient.GetShortUIName|U](이)가 [tribal|E] - 정착 [governments|E]만이 [administrative|E]가 될 수 있음"

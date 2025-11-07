@@ -83,3 +83,5 @@
  GREEK_ANARCHY_CB_NAME: "제국 공작령 점령"
  ep3_laamp_peasant_war: "농노 봉기"
  ep3_laamp_peasant_war.peasant_army: "모든 영지의 농노들이 [levies|E]으로 나서서 당신의 편에 합류함"
+ ep3_join_war_payment_tt: "[GetTaskContractType('laamp_join_war_contract').GetName] [task_contract|E]에 의해:"
+ ep3_hire_laamp_mercs_payment_tt: "[mercenary|E] 업무에 의해:"

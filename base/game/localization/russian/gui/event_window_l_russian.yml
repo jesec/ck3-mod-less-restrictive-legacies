@@ -35,6 +35,7 @@
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_QUARTERMASTER: "Этот вариант доступен, так как разблокирован [Concept( 'officer', 'подручный' )|E] «[GetCourtPositionType('quartermaster_camp_officer').GetName()]»"
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_ARMORER: "Этот вариант доступен, так разблокирован [Concept( 'officer', 'подручный' )|E] «[GetCourtPositionType('armorer_camp_officer').GetName()]»"
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_MASTER_OF_ARMS: "Этот вариант доступен, так как разблокирован [Concept( 'officer', 'подручный' )|E] «[GetCourtPositionType('master_of_arms_camp_officer').GetName()]»"
+ EVENT_WINDOW_OPTION_AVAILABLE_PERSON_HAGGLER: "Этот вариант доступен, так как разблокирован [Concept( 'officer', 'подручный' )|E] «[GetCourtPositionType('person_haggler_camp_officer').GetName()]»"
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_GOVERNOR_EFFICIENCY: "Этот вариант доступен из-за вашей [Concept('governor_efficiency','эффективности губернатора')|E]"
  EVENT_WINDOW_OPTION_AVAILABLE_MANY_FOLLOWERS: "Этот вариант доступен, когда ваших [Concept( 'followers', 'последователей' )|E] не менее #V [EmptyScope.ScriptValue('many_followers_value')|0]#!"
  EVENT_WINDOW_OPTION_AVAILABLE_VISIT_SETTLEMENT_PROVISIONS: "Этот вариант позволяет вам купить [Concept('provisions','припасы лагеря')|E]"

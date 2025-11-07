@@ -153,7 +153,7 @@
  fp3_clan.8017.corrupt.desc: "Увы, сдается мне, что руководит [Select_CString(tax_collector.IsFemale, 'ей', 'им' )] совсем не благочестие — [Select_CString(tax_collector.IsFemale, 'она', 'он' )] всегда готов не замечать нарушений в обмен на серебро."
  fp3_clan.8017.cruel.desc: "Боюсь, [Select_CString(tax_collector.IsFemale, 'она сделалась', 'он сделался' )] особенно жестоким и теперь приговаривает людей к бичеванию и даже побиванию камнями за малейшую провинность."
  fp3_clan.8017.generic.desc: "Быть ревностным не порок, но сребролюбие и жестокость — другое дело. Народ ненавидит [Select_CString(tax_collector.IsFemale, 'ее', 'его' )]»."
- fp3_clan.8017.ending.desc: "\n\n«Прошу! Я знаю, что [Select_CString(tax_collector.IsFemale, 'она', 'он' )] тебе родня, но все же прикажи [Select_CString(tax_collector.IsFemale, 'ей', 'ему' )] остановиться»."
+ fp3_clan.8017.ending.desc: "\n\n«Прошу! Я знаю, что [Select_CString(tax_collector.IsFemale, 'она твоя', 'он твой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('tax_collector'))], но все же прикажи [Select_CString(tax_collector.IsFemale, 'ей', 'ему' )] остановиться»."
  fp3_clan.8017.a: "[Select_CString(tax_collector.IsFemale, 'Она', 'Он' )] делает то, чего хочет [ROOT.Char.GetFaith.HighGodNameAlternate]."
  fp3_clan.8017.b: "Не боишься ли ты, что [tax_collector.GetNameNoTooltip] прознает и про твои грехи?"
  fp3_clan.8017.c: "Хорошо, но помни теперь, что ты у меня в долгу."

@@ -180,7 +180,7 @@
  doctrine_parameter_mandatory_feast_attendance: "[vassals|E]更有可能参与你的宴会，如果他们仍拒绝前来，将因此而失去[piety|E]。"
  tenet_sky_burials_name: "天葬"
  tenet_sky_burials_desc: "死者不应被禁锢在地下，更好的结局是由食腐鸟类吞食，这种最后的慷慨使他们得以反哺这个曾经哺育他们的世界。"
- doctrine_parameter_sky_burials_active: "[rulers|E]可为其祖先举行天葬，获得[piety|E]并使其[vassals|E]满意\n$EFFECT_LIST_BULLET$可以建造停尸场[duchy_building|E]"
+ doctrine_parameter_sky_burials_active: "[rulers|E]可为其祖先举行天葬，获得[piety|E]并使其[vassals|E]满意\n$EFFECT_LIST_BULLET$可以建造[GetBuilding('charnel_grounds_01').GetName][duchy_building|E]"
  can_build_towers_of_silence_active_name: "使用[GetBuilding('tower_of_silence_01').GetName][duchy_building|E]的能力"
  doctrine_parameter_can_build_towers_of_silence_active: "[vassals|E]可以建造[GetBuilding('tower_of_silence_01').GetName][duchy_building|E]来增强[county|E]热情——#EMP 如果#!他们[liege|E]的[faith|E]不会举行$tenet_sky_burials_name$"
  tenet_sacred_childbirth_name: "圣分娩"

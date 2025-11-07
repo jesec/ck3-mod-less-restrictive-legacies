@@ -474,6 +474,7 @@
  epidemic_events.5906.b: "Peut-être qu’[flagellant.GetSheHe] a raison..."
  epidemic_events.5906.c: "« Enfermez-[flagellant.Custom('FR_LeLa')], [marshal.GetFirstNameNoTooltip]. »"
  epidemic_events.5906.d: "Laissez-[flagellant.Custom('FR_LeLa')] partir. [flagellant.GetSheHe|U] ne fait rien de mal."
+ epidemic_events.5906.d.tt: "Toutes les baronnies autour de [doomsday_province.GetName] ont #color_white 25%#! de chances d’obtenir le même modificateur"
  fervor_loss_flagellants: "Flagellants en liberté"
  epidemic_events.5907.t: "Un petit picotement"
  epidemic_events.5907.desc: "Le soleil matinal me pousse à ouvrir les paupières. Je me redresse, m’étire, bâille et... tousse !\n\nJ’ai un peu mal à la gorge. Mes yeux aussi sont plus fatigués que d’habitude. J’ai même un léger rhume.\n\nOh non. Pas moi, par pitié. Épargnez-moi ce destin. Dites-moi, [ROOT.Char.GetFaith.HighGodName], que ce terrible fléau n’est pas arrivé sur ces terres et qu’il n’a pas fait de moi sa victime..."

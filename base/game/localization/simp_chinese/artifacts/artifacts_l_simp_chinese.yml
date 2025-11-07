@@ -1116,3 +1116,5 @@
  warenne_coin_description: "这枚硬币正面带有瓦雷讷宗族蓝黄相间的棋盘徽章。硬币边缘有一片暗沉的血渍。"
  traitors_head: "叛徒首级"
  traitors_head_description: "一颗被整齐砍下的头颅。与其说是一件纪念品，不如说是一条信息。"
+ artifact_: "被毁的宝物"
+ artifact_slot_untyped: "被毁的宝物" #Yes the tabs are intended

@@ -27,7 +27,7 @@
  martial_authority_disfigured_child_title: "$trait_disfigured$！"
  martial_authority_disfigured_child: "[fighting_child.GetNameNoTooltip]在比武大会中受伤毁容。"
  martial_authority_unremarkable_child_title: "你的孩子难成大器！"
- martial_authority.8000_injury: "[fighting_child.GetName]受伤了。"
+ martial_authority.8000_injury: "[fighting_child.GetName]受伤了"
  martial_authority_unremarkable_child: "[fighting_child.GetNameNoTooltip]在比武大会中的表现证明[fighting_child.GetHerselfHimself]完全不是这块料。"
  martial_authority.8100.desc: "混战中的斗士们围着[fighting_child.GetName]笨拙地绕着圈，显然是害怕伤到[fighting_child.GetHerHim]。然而，[fighting_child.GetSheHe]却回敬以种种阴招，完全无视比赛规则。\n\n我看着[fighting_child.GetSheHe]将十四尺的长柄插入我的[ROOT.Char.Custom('KnightCultureNoTooltipLowercase')][murdered_knight.GetNamePossessive]的后脑勺。斗士们还是只用象征性的攻击打在[fighting_child.GetHerHim]身上，而[fighting_child.GetSheHe]又刺穿了另一位战斗者的大脑。\n\n“叫停吧，[ROOT.Char.GetLadyLord|U]！”[marshal.GetTitledFirstName]恳求道。"
  martial_authority.8100.a: "看来我们有一位赢家了！"

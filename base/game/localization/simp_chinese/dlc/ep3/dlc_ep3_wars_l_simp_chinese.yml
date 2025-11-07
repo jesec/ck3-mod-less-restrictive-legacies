@@ -83,3 +83,5 @@
  GREEK_ANARCHY_CB_NAME: "夺取帝国公国"
  ep3_laamp_peasant_war: "农民起义"
  ep3_laamp_peasant_war.peasant_army: "所有伯爵领的农民都会起义为[levies|E]并加入你这一方"
+ ep3_join_war_payment_tt: "由于[GetTaskContractType('laamp_join_war_contract').GetName][task_contract|E]："
+ ep3_hire_laamp_mercs_payment_tt: "由于[mercenary|E]工作："

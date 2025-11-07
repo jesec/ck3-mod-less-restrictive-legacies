@@ -153,7 +153,7 @@
  fp3_clan.8017.corrupt.desc: "Ay, parece que [tax_collector.GetNameNoTooltip] no ha sido ni ecuánime ni just[tax_collector.Custom('ES_OA')] al quedarse con plata a cambio de desviar la mirada."
  fp3_clan.8017.cruel.desc: "Me temo que [tax_collector.GetNameNoTooltip] ha demostrado ser bastante cruel e impaciente por usar la flagelación o la lapidación como castigos para los delitos más leves."
  fp3_clan.8017.generic.desc: "Ser fervoros[tax_collector.Custom('ES_OA')], corrupt[tax_collector.Custom('ES_OA')] o cruel no es un delito, pero los lugareños [tax_collector.GetHerHim] odian."
- fp3_clan.8017.ending.desc: "\n\n«Por favor, sé que [tax_collector.GetNameNoTooltip] es pariente vuestr[tax_collector.Custom('ES_OA')], pero debéis decirle que pare»."
+ fp3_clan.8017.ending.desc: "\n\n«Por favor, sé que [tax_collector.GetFirstNameNoTooltip] es vuestr[tax_collector.Custom('ES_OA')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('tax_collector'))], pero debéis decirle que pare»."
  fp3_clan.8017.a: "[tax_collector.GetSheHe|U] hace la obra [ROOT.Char.GetFaith.HighGodNameAlternatePossessive]."
  fp3_clan.8017.b: "¿Qué es lo que teméis que descubra [tax_collector.GetNameNoTooltip]?"
  fp3_clan.8017.c: "Sea, pero no olvidéis esta gracia."

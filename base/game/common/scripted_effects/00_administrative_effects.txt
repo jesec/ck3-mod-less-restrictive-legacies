@@ -32,6 +32,10 @@ change_to_administrative_effect = {
 	if = {
 		limit = {
 			primary_title.tier >= tier_duchy
+			liege = {
+				is_independent_ruler = yes
+				government_allows = administrative
+			}
 			house.house_head = {
 				NOT = {
 					any_held_title = { is_noble_family_title = yes }

@@ -1116,3 +1116,5 @@
  warenne_coin_description: "Cette pièce porte sur l’avers le damier bleu et jaune de la dynastie Warenne. Une éclaboussure de sang sombre entache le bord."
  traitors_head: "Tête de traître"
  traitors_head_description: "Une tête proprement coupée au niveau du cou. Il s’agit plus d’un message que d’un souvenir."
+ artifact_: "Artefact détruit"
+ artifact_slot_untyped: "Artefact détruit             " #Yes the tabs are intended

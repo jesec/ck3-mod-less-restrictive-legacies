@@ -111,8 +111,8 @@
  more_zealot: "$zealot_vassals$更加常见"
  more_courtly: "$courtly_vassals$更加常见"
  #Requires you to save root_scope in the immediate of your event
- every_glory_hound_vassal: "所有$glory_hound_vassal$（[root_scope.MakeScope.ScriptValue('number_of_glory_hound_vassals')|V0]）"
- every_courtly_vassal: "所有$courtly_vassal$（[root_scope.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]）"
+ every_glory_hound_vassal: "所有$glory_hound_vassal$（[THIS.ScriptValue('number_of_glory_hound_vassals')|V0]）"
+ every_courtly_vassal: "所有$courtly_vassal$（[THIS.ScriptValue('number_of_courtly_vassals')|V0]）"
  every_parochial_vassal: "所有$parochial_vassal$（[root_scope.MakeScope.ScriptValue('number_of_parochial_vassals')|V0]）"
  every_parochial_vassal_no_count: "所有$parochial_vassal$"
  every_baron_vassal: "所有$barons_and_minor_landholders_vassal$（[THIS.ScriptValue('number_of_barons_and_minor_landholders_vassals')|V0]）"

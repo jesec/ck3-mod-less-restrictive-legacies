@@ -62,6 +62,7 @@
 			if = {
 				limit = {
 					has_trait = disfigured
+					scope:title.holder.culture = { has_cultural_parameter = physical_disfigurement_blocks_inheritance }
 				}
 				subtract = {
 					value = 1000
@@ -114,35 +115,50 @@
 				}
 			}
 			if = {
-				limit = { has_trait = incapable }
+				limit = {
+					has_trait = incapable
+					scope:title.holder.culture = { has_cultural_parameter = physical_disfigurement_blocks_inheritance }
+				}
 				subtract = {
 					value = 1000
 					desc = trait_incapable
 				}
 			}
 			if = {
-				limit = { has_trait = blind }
+				limit = {
+					has_trait = blind
+					scope:title.holder.culture = { has_cultural_parameter = physical_disfigurement_blocks_inheritance }
+				}
 				subtract = {
 					value = 1000
 					desc = trait_blind
 				}
 			}
 			if = {
-				limit = { has_trait = eunuch_1 }
+				limit = {
+					has_trait = eunuch_1
+					scope:title.holder.culture = { has_cultural_parameter = physical_disfigurement_blocks_inheritance }
+				}
 				subtract = {
 					value = 1000
 					desc = trait_eunuch
 				}
 			}
 			if = {
-				limit = { has_trait = beardless_eunuch }
+				limit = {
+					has_trait = beardless_eunuch
+					scope:title.holder.culture = { has_cultural_parameter = physical_disfigurement_blocks_inheritance }
+				}
 				subtract = {
 					value = 1500
 					desc = trait_beardless_eunuch
 				}
 			}
 			if = {
-				limit = { has_trait = disinherited }
+				limit = {
+					has_trait = disinherited
+					scope:title.holder.culture = { has_cultural_parameter = physical_disfigurement_blocks_inheritance }
+				}
 				subtract = {
 					value = 1000
 					desc = trait_disinherited

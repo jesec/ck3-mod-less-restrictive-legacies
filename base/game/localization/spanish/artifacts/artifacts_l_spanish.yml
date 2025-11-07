@@ -1116,3 +1116,5 @@
  warenne_coin_description: "Esta moneda porta la insignia ajedrezada azul y amarilla de la dinastía de Warenne en el reverso. Una salpicadura oscura de sangre marca el borde."
  traitors_head: "La cabeza de un traidor"
  traitors_head_description: "Una cabeza cortada, cercenada hábilmente a su propietario anterior. Más un mensaje que un recuerdo."
+ artifact_: "Artefacto destruido"
+ artifact_slot_untyped: "Artefacto destruido" #Yes the tabs are intended

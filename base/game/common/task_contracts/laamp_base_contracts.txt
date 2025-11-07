@@ -6129,7 +6129,7 @@ laamp_base_4100 = {
 			set_task_contract_target = scope:task_contract_target
 			set_variable = {
 				name = task_contract_target
-				value = scope:task_contract_target
+				value = scope:task_contract.task_contract_target
 			}
 			# Make our gold rewards static.
 			grab_gold_fuzz_number_effect = yes
@@ -6192,6 +6192,69 @@ laamp_base_4100 = {
 		}
 	}
 
+	on_invalidated = {
+		task_contract_taker = {
+			remove_character_flag = is_in_task_contract_event_chain 
+		}
+		if = {
+			limit = {
+				root.task_contract_taker = {
+					any_character_active_contract = {
+						this = root
+					}
+				}
+			}
+			task_contract_employer = {
+				save_scope_as = task_contract_employer
+			}
+			save_scope_value_as = {
+				name = task_contract_tier
+				value = root.task_contract_tier
+			}
+			var:task_contract_target = {
+				save_scope_as = task_contract_target
+			}
+
+			task_contract_taker = {
+				set_variable = {
+					name = invalidated_task_contract_type
+					value = flag:laamp_base_4100
+				}
+			}
+			if = {
+				limit = {
+					task_contract_employer = {
+						is_alive = no
+					}
+				}
+				task_contract_employer.primary_title.holder ?= {
+					save_scope_as = employer_heir
+				}
+				task_contract_taker = {
+					save_scope_value_as = {
+						name = task_contract_invalidation_reason
+						value = flag:employer_dead
+					}
+					trigger_event = ep3_contract_event.0012
+				
+				}
+			}
+			else_if = {
+				limit = {
+					scope:task_contract_target = {
+						is_alive = no
+					}
+				}
+				task_contract_taker = {
+					save_scope_value_as = {
+						name = task_contract_invalidation_reason
+						value = flag:target_dead
+					}
+					trigger_event = ep3_contract_event.0012
+				}
+			}
+		}
+	}
 	# Rewards
 	task_contract_reward = {
 		#Need at least 2 successful teaching moments

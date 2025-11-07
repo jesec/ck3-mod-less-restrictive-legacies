@@ -83,3 +83,5 @@
  GREEK_ANARCHY_CB_NAME: "Kaiserliches Herzogtum beschlagnahmen"
  ep3_laamp_peasant_war: "Bauernaufstand"
  ep3_laamp_peasant_war.peasant_army: "Die Bauern in allen Gemeinden werden als [levies|E] ausgehoben und schließen sich Eurer Seite an"
+ ep3_join_war_payment_tt: "Aufgrund des [GetTaskContractType('laamp_join_war_contract').GetName]s-[task_contract|E]:"
+ ep3_hire_laamp_mercs_payment_tt: "Aufgrund von [mercenary|E]-Arbeit:"

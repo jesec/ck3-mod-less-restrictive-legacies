@@ -3218,10 +3218,28 @@ tradition_city_keepers = {
 	}
 	
 	can_pick = {
-		scope:character = {
-			OR = {
-				government_has_flag = government_is_feudal
-				government_has_flag = government_is_clan #Update for FP3
+		trigger_if = {
+			limit = { has_ep3_dlc_trigger = yes }
+			custom_tooltip = {
+				scope:character = {
+					OR = {
+						government_has_flag = government_is_feudal
+						government_has_flag = government_is_clan #Update for FP3
+						government_has_flag = government_is_administrative
+					}
+				}
+				text = must_be_feudal_clan_or_admin
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				scope:character = {
+					OR = {
+						government_has_flag = government_is_feudal
+						government_has_flag = government_is_clan #Update for FP3
+					}
+				}
+				text = must_be_feudal_or_clan
 			}
 		}
 		custom_tooltip = {

@@ -229,6 +229,8 @@
  relation_akolouthos_female_possessive: "de la akolouthos"
  relation_liege_female: "señora"
  relation_liege_male: "señor"
+ relation_leader_female: "líder"
+ relation_leader_male: "líder"
  relation_ward: "pupil[second.Custom('ES_OA')]"
  relation_guardian: "tutor[second.Custom('ES_XA')]"
  relation_spymaster_female: "jefa de espías"

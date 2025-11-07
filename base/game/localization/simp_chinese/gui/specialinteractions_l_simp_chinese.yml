@@ -571,3 +571,5 @@
  WILL_BE_VASSALIZED_REASON: "会成为你的[vassal|E]：$VALUE|=+0$"
  RIVAL_VASSAL_REASON: "[realm|E]内的仇敌[vassal|E]：$VALUE|=+0$"
  negotiate_settlement_title_cant_receive_reason_higher_tier_without_county: "[recipient.GetShortUINameNotMe]必须和[target.GetName]一起持有或者获得至少一个伯爵领"
+ STATE_FAITH_CREATE_FAITH_REASON: "你在[realm|E]内很有影响力：$VALUE|=+0$"
+ HAS_PERK_PROPHET_REASON: "你拥有[GetPerk('prophet_perk').GetName(GetPlayer)][perk|E]：$VALUE|=+0$"

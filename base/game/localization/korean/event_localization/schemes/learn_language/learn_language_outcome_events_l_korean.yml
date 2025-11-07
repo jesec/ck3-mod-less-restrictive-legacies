@@ -6,7 +6,7 @@
  learn_language_outcome.1000.b.success: "지식으로 [target.GetFirstNameNoTooltip]에게 감명을 줌"
  learn_language_outcome.1000.b.failure: "내 편지가 부정직한 조롱으로 인식됨"
  target_responds: "[target.GetTitledFirstName](이)가 당신의 편지에 응답함"
- learn_language_outcome.1001.opening: "[owner.Custom2('AppropriateGreeting', target)]"
+ learn_language_outcome.1001.opening: "[owner.Custom2('AppropriateGreetingPositive', target)]"
  learn_language_outcome.1001.desc: "난 [target.GetCulture.GetLanguage.GetName] 언어를 아주 오랜 시간 공부했다오. 이 서한은 내가 [target.GetCulture.GetLanguage.GetNameNoTooltip] 글자로 직접 쓴 편지요. 그대에게 바치는 헌사라고 할 수 있지! [owner.GetCulture.GetLanguage.GetName] 언어 사용자로서 보내는 우정의 헌사 말이외다!\n\n훗날 서로에게 큰 보탬이 되는 협약을 맺을 수 있길 고대하겠소!"
  learn_language_outcome.1001.a: "[target.GetCulture.GetLanguage.GetNameNoTooltip] 언어를 배웠단 말이지? 대단하군. 안부를 전해야겠어!"
  learn_language_outcome.1001.b: "하! 영광을 얻겠답시고 헛수고를 자처하는 꼴을 보니 가소롭구나!"

@@ -260,7 +260,7 @@
  bp1_yearly.5719.c: "Nous pourrions peut-être trouver un compromis ?"
  bp1_yearly.5719.d: "Mais... alors ne le refaites plus !"
  bp1_yearly.5720.t: "Épreuve de force"
- bp1_yearly.5720.desc: "J’ai déjà bu plusieurs verres [ROOT.Char.Custom('RegionalDrink')] au cours de ce repas, et en temps normal, je devrais ressentir depuis longtemps les effets de l’alcool. Malheureusement, la présence de c[rival_challenger.Custom('FR_EEtte')] maudit[rival_challenger.Custom('FR_E')] [rival_challenger.GetFirstName], assis[rival_challenger.Custom('FR_E')] en diagonale face à moi, me gâche la soirée.\n\nIl suffit d’un simple mot de sa bouche pour que nous nous insultions par-dessus la table.\n\n« Espèce de [ROOT.Char.Custom('InsultNoun')] ! Sale [ROOT.Char.Custom('InsultNoun')] ! », beugle-t-[rival_challenger.Custom('FR_IlElle')]. « Vous ne pourriez même pas battre un enfant au bras de fer ! Je vous parie que je vous écrase comme un vulgaire insecte ! »"
+ bp1_yearly.5720.desc: "J’ai déjà bu plusieurs verres [ROOT.Char.Custom('RegionalDrink')] au cours de ce repas, mais la présence de c[rival_challenger.Custom('FR_EEtte')] maudit[rival_challenger.Custom('FR_E')] [rival_challenger.GetFirstName] me gâche la soirée.\n\n« Espèce de [ROOT.Char.Custom('InsultNoun')] ! Sale [ROOT.Char.Custom('InsultNoun')] ! beugle-t-[rival_challenger.Custom('FR_IlElle')]. Vous ne pourriez même pas battre un enfant au bras de fer ! Je vous parie que je vous écrase comme un vulgaire insecte ! »"
  bp1_yearly.5720.a: "D’accord, avec le bras gauche, entendu ?"
  bp1_yearly.5720.a.tt: "Cela ne devrait pas me rendre plus populaire [THIS.Char.Custom('FR_GetCourt_Au')], mais je sens que je vais m’amuser..."
  bp1_yearly.5720.b: "Ha ha ! Vous allez voir ce que vous allez voir !"

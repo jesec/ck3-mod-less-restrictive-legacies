@@ -498,10 +498,10 @@ court_position_grant_effect = { # Give position, and revoke old holder's if they
 			ordered_court_position_holder = {
 				type = $POS$_court_position
 				order_by = {
-					value = prowess
+					value = aptitude:$POS$_court_position 
 					multiply = -1
 				}
-				save_scope_as = old_holder #Should be the one with worst prowess
+				save_scope_as = old_holder #Should be the one with worst aptitude
 			}
 		}
 	}

@@ -260,7 +260,7 @@
  bp1_yearly.5719.c: "Vielleicht können wir uns auf einen Kompromiss einigen?"
  bp1_yearly.5719.d: "Tut … Tut das einfach nie wieder!"
  bp1_yearly.5720.t: "Armdrücken"
- bp1_yearly.5720.desc: "Ich hatte bereits mehrere Becher [ROOT.Char.Custom('RegionalDrink')], und für gewöhnlich wäre ich nun schon recht angeheitert, doch leider verdirbt mir die Anwesenheit von [rival_challenger.GetFirstName], [rival_challenger.Custom('DE_ART_DEF_S_N')] mir schräg gegenüber am Tisch sitzt, den Abend.\n\nEs bedarf nur der leisesten Andeutung einer Beleidigung aus [rival_challenger.Custom('DE_PRO_POS_S_3P')]em Mund, und schon lehnen wir uns beide über den Tisch, zeigen mit den Fingern und schreien lauthals.\n\n„[ROOT.Char.Custom('InsultNoun')]! [ROOT.Char.Custom('InsultNoun')]!“, brüllt [rival_challenger.Custom('DE_PRO_PER_S_3P_N')]. „Ihr könntet nicht einmal ein Kind im Armdrücken besiegen! Ich würde Euren Arm sofort auf das Holz nageln, ohne mich auch nur anstrengen zu müssen!“"
+ bp1_yearly.5720.desc: "Ich hatte bereits mehrere Becher [ROOT.Char.Custom('RegionalDrink')], doch leider verdirbt mir die Anwesenheit von [rival_challenger.GetFirstName] den Abend.\n\n„[ROOT.Char.Custom('InsultNoun')]! [ROOT.Char.Custom('InsultNoun')]!“, brüllt [rival_challenger.Custom('DE_PRO_PER_S_3P_N')]. „Ihr könntet nicht einmal ein Kind im Armdrücken besiegen! Ich würde Euren Arm sofort auf den Tisch nageln, ohne mich auch nur anstrengen zu müssen!“"
  bp1_yearly.5720.a: "Natürlich … Aber mit dem #EMP linken#! Arm, richtig?"
  bp1_yearly.5720.a.tt: "Damit werde ich mich am [THIS.Char.Custom('GetCourt')] vielleicht nicht beliebt machen, doch es wird sich #EMP gut#! anfühlen …"
  bp1_yearly.5720.b: "Ha! Ha! Dann werde ich Euch mal fertigmachen!"

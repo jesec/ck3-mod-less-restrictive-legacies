@@ -260,7 +260,7 @@
  bp1_yearly.5719.c: "타협할 만한 부분이 있나?"
  bp1_yearly.5719.d: "그냥... 그냥 다신 그러지 마시오!"
  bp1_yearly.5720.t: "힘의 대결"
- bp1_yearly.5720.desc: "나는 식사를 하면서 [ROOT.Char.Custom('RegionalDrink')] 몇 잔을 마셨고, 보통은 꽤 즐거워야 한다. 불행하게도, 식탁에 대각선으로 마주 앉아 있는 혐오스러운 [rival_challenger.GetFirstName] 때문에 저녁을 망쳤다.\n\n [rival_challenger.GetHerHis] 입에서 나온 사소한 말 한마디 때문에 우리는 몸을 앞으로 내밀고 삿대질하며 목청껏 소리를 지르며 싸웠다.\n\n이 [ROOT.Char.Custom('InsultNoun')]! 이 [ROOT.Char.Custom('InsultNoun')] 자식!\" [rival_challenger.GetSheHe]가 고함쳤다. \"너는 힘으로는 나를 이길 수 없어! 네 팔 정도는 당장이라도 가뿐하게 제압할 수 있어!\""
+ bp1_yearly.5720.desc: "나는 식사를 하면서 [ROOT.Char.Custom('RegionalDrink')] 몇 잔을 들이켰지만, 저 혐오스러운 [rival_challenger.GetFirstName]의 존재 자체가 저녁을 망쳤다.\n\n\"[ROOT.Char.Custom('InsultNoun')]! 이 [ROOT.Char.Custom('InsultNoun')] 자식!\" [rival_challenger.GetSheHe]가 고함쳤다. \"힘으로는 어린애 하나도 못 이기는 주제에! 네 팔 정도는 당장이라도 가뿐하게 제압할 수 있어!\""
  bp1_yearly.5720.a: "#EMP 웬 팔#!? 왼팔 말이야?"
  bp1_yearly.5720.a.tt: "[THIS.Char.Custom('GetCourt')]에서 인기를 얻을 수 있는 농담은 아니지만, 기분은 #EMP 끝내줄 것 같음#!..."
  bp1_yearly.5720.b: "하하! 그럼 시작해볼까!"

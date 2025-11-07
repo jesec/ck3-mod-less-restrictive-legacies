@@ -6,7 +6,7 @@
  learn_language_outcome.1000.b.success: "Ich beeindrucke [target.GetFirstNameNoTooltip] mit meinem Wissen"
  learn_language_outcome.1000.b.failure: "Mein Brief liest sich wie eine unaufrichtige Verhöhnung"
  target_responds: "[target.GetTitledFirstName] antwortet auf Euren Brief"
- learn_language_outcome.1001.opening: "[owner.Custom2('AppropriateGreeting', target)]"
+ learn_language_outcome.1001.opening: "[owner.Custom2('AppropriateGreetingPositive', target)]"
  learn_language_outcome.1001.desc: "Ich habe die [target.GetCulture.GetLanguage.GetName|l]e Sprache viele Monde lang studiert und diesen Brief persönlich in der [target.GetCulture.GetLanguage.GetNameNoTooltip|l]en Schrift verfasst und Euch gewidmet – ein Freundschaftsbrief von jemandem, der auch [owner.GetCulture.GetLanguage.GetName] spricht!\n\nIch wünsche mir, dass unsere zukünftigen diplomatischen Beziehungen für uns beide von großem Nutzen sein werden!"
  learn_language_outcome.1001.a: "[owner.Custom('DE_PRO_PER_S_3P_N')|U] hat [target.GetCulture.GetLanguage.GetNameNoTooltip] gelernt? Beeindruckend. Entsendet meine Grüße!"
  learn_language_outcome.1001.b: "Ha! [owner.Custom('DE_PRO_POS_S_3P')|U] vergeblicher Versuch, Ruhm zu ernten, ist lächerlich!"

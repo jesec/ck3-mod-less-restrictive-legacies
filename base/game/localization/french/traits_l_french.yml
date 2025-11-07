@@ -330,7 +330,7 @@
  trait_loyal_character_desc: "Ce personnage prend ses relations plus au sérieux que la plupart des autres."
  TRAIT_FLAG_DESC_join_factions_less: "Moins susceptible de rejoindre des [factions|El] contre son [liege|El]"
  TRAIT_FLAG_DESC_join_factions_more: "Plus susceptible de rejoindre des [factions|El] contre son [liege|El]"
- TRAIT_FLAG_DESC_cannot_inherit_titles: "@warning_icon! #N Ne peut pas hériter de [titles|El]#!"
+ TRAIT_FLAG_DESC_cannot_inherit_titles: "@warning_icon! #X Ne peut pas hériter de [titles|El]#!"
  trait_disloyal: "Déloyal"
  trait_disloyal_desc: "Là où la plupart des personnages voient une relation, ce personnage voit une opportunité."
  trait_disloyal_character_desc: "Là où la plupart des personnages voient une relation, ce personnage voit une opportunité."

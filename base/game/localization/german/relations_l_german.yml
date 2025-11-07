@@ -229,6 +229,8 @@
  relation_akolouthos_female_possessive: "der Akolouthos"
  relation_liege_female: "Lehnsherrin"
  relation_liege_male: "Lehnsherr"
+ relation_leader_female: "Anführerin"
+ relation_leader_male: "Anführer"
  relation_ward: "Mündel"
  relation_guardian: "Vormund"
  relation_spymaster_female: "Ratsspitzel"

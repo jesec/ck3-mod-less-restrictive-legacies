@@ -37,7 +37,7 @@
  hostile_scheme_discovery.2001.target_me: "¡mi persona!"
  hostile_scheme_discovery.2001.a: "¡Debemos detener a quien esté maquinando esto!"
  hostile_scheme_discovery.3001.t: "¡Agente descubierto!"
- hostile_scheme_discovery.3001.intro: "¡Han descubierto a [agent.GetTitledFirstName|l], mi agente en la corte de [court_owner.GetTitledFirstName|l]!"
+ hostile_scheme_discovery.3001.intro: "¡Han descubierto [agent.Custom('ES_AlAla')] [agent.GetTitledFirstName|l], mi agente en la [scheme.GetName|l] [court_owner.Custom('ES_DelDela')] [court_owner.GetTitledFirstName|l]!"
  hostile_scheme_discovery.3001.imprisoned: "\n\n¡Ahora el/la [court_owner.GetTitleAsName] [agent.GetHerHim] ha encerrado bajo siete llaves!"
  hostile_scheme_discovery.3001.accused: "\n\nAhora saben que [agent.GetSheHe] no es dign[agent.Custom('ES_OA')] de confianza y ya no podrá ayudar más a mi causa."
  hostile_scheme_discovery.3001.a: "¡Malditos sean [court_owner.GetTitledFirstNameNoTooltip|l] y su [spymaster.GetCouncilTitle]!"

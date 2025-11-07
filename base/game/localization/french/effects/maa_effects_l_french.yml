@@ -1,5 +1,6 @@
 ﻿l_french:
  transfer_title_maa_global: "Transfère le régiment [Regiment.GetName] à [TARGET_TITLE.GetName]"
+ transfer_title_maa_ownership_global: "Transférer la propriété de tous les [title_men_at_arms|El] de [TITLE.GetNameNoTier] à [TARGET_TITLE.GetNameNoTier]"
  destroy_maa_regiment_global: "Le régiment [REGIMENT.GetName] est détruit"
  destroy_maa_regiment: "Le régiment [REGIMENT.GetName] est détruit"
  destroy_maa_regiment_first: "Le régiment [REGIMENT.GetName] est détruit"

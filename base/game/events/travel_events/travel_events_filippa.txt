@@ -1943,7 +1943,7 @@ travel_events.2005 = {
 	#Friendly: improve their pastures for friendship!
 	option = { 
 		name = travel_events.2005.b
-		skill = stewardship
+		
 		location.county = {
 			add_county_modifier = {
 				modifier = travel_improved_pasture_modifier
@@ -4463,7 +4463,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 								type = event_toast_effect_good
 								left_icon = root
 								title = travel_events.2013.a_success.tt
-								remove_short_term_gold = medium_gold_value
+								remove_short_term_gold = tiny_gold_value
 								add_trait = reckless
 							}
 						}
@@ -4475,7 +4475,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 								left_icon = root
 								title = travel_events.2013.a_failure.tt
 								desc = travel_events.2013.a_failed
-								remove_short_term_gold = medium_gold_value
+								remove_short_term_gold = tiny_gold_value
 							}
 						}
 					}
@@ -4496,7 +4496,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 									left_icon = root
 									right_icon = $CHARACTER_SCOPE$
 									title = travel_events.2013.a_success.tt
-									remove_short_term_gold = medium_gold_value
+									remove_short_term_gold = tiny_gold_value
 									$CHARACTER_SCOPE$ = { add_trait = reckless }
 								}
 							}
@@ -4511,7 +4511,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 									right_icon = $CHARACTER_SCOPE$
 									title = travel_events.2013.a_failure.tt
 									desc = travel_events.2013.a_failed
-									remove_short_term_gold = medium_gold_value
+									remove_short_term_gold = tiny_gold_value
 								}
 							}
 						}
@@ -4528,7 +4528,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 									left_icon = root
 									right_icon = $CHARACTER_SCOPE$
 									title = travel_events.2013.a_success.tt
-									remove_short_term_gold = medium_gold_value
+									remove_short_term_gold = tiny_gold_value
 									$CHARACTER_SCOPE$ = { add_trait = reckless }
 								}
 							}
@@ -4543,7 +4543,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 									right_icon = $CHARACTER_SCOPE$
 									title = travel_events.2013.a_failure.tt
 									desc = travel_events.2013.a_failed
-									remove_short_term_gold = medium_gold_value
+									remove_short_term_gold = tiny_gold_value
 								}
 							}
 						}
@@ -4564,7 +4564,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 								type = event_toast_effect_good
 								left_icon = root
 								title = travel_events.2013.a_success.tt
-								remove_short_term_gold = medium_gold_value
+								remove_short_term_gold = tiny_gold_value
 								add_trait = rough_terrain_expert
 							}
 						}
@@ -4576,7 +4576,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 								left_icon = root
 								title = travel_events.2013.a_failure.tt
 								desc = travel_events.2013.a_failed
-								remove_short_term_gold = medium_gold_value
+								remove_short_term_gold = tiny_gold_value
 							}
 						}
 					}
@@ -4597,7 +4597,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 									left_icon = root
 									right_icon = $CHARACTER_SCOPE$
 									title = travel_events.2013.a_success.tt
-									remove_short_term_gold = medium_gold_value
+									remove_short_term_gold = tiny_gold_value
 									$CHARACTER_SCOPE$ = { add_trait = rough_terrain_expert }
 								}
 							}
@@ -4612,7 +4612,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 									right_icon = $CHARACTER_SCOPE$
 									title = travel_events.2013.a_failure.tt
 									desc = travel_events.2013.a_failed
-									remove_short_term_gold = medium_gold_value
+									remove_short_term_gold = tiny_gold_value
 								}
 							}
 						}
@@ -4629,7 +4629,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 									left_icon = root
 									right_icon = $CHARACTER_SCOPE$
 									title = travel_events.2013.a_success.tt
-									remove_short_term_gold = medium_gold_value
+									remove_short_term_gold = tiny_gold_value
 									$CHARACTER_SCOPE$ = { add_trait = rough_terrain_expert }
 								}
 							}
@@ -4644,7 +4644,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 									right_icon = $CHARACTER_SCOPE$
 									title = travel_events.2013.a_failure.tt
 									desc = travel_events.2013.a_failed
-									remove_short_term_gold = medium_gold_value
+									remove_short_term_gold = tiny_gold_value
 								}
 							}
 						}
@@ -4665,7 +4665,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 								left_icon = root
 								title = travel_events.2013.a_success.tt
 								desc = travel_events.2013.a_rough_terrain
-								remove_short_term_gold = medium_gold_value
+								remove_short_term_gold = tiny_gold_value
 								add_trait = rough_terrain_expert
 							}
 						}
@@ -4677,7 +4677,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 								left_icon = root
 								title = travel_events.2013.a_success.tt
 								desc = travel_events.2013.a_reckless
-								remove_short_term_gold = medium_gold_value
+								remove_short_term_gold = tiny_gold_value
 								add_trait = reckless
 							}
 						}
@@ -4699,7 +4699,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 									left_icon = root
 									right_icon = $CHARACTER_SCOPE$
 									title = travel_events.2013.a_success.tt
-									remove_short_term_gold = medium_gold_value
+									remove_short_term_gold = tiny_gold_value
 									$CHARACTER_SCOPE$ = { add_trait = rough_terrain_expert }
 								}
 							}
@@ -4713,7 +4713,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 									left_icon = root
 									right_icon = $CHARACTER_SCOPE$
 									title = travel_events.2013.a_success.tt
-									remove_short_term_gold = medium_gold_value
+									remove_short_term_gold = tiny_gold_value
 									$CHARACTER_SCOPE$ = { add_trait = reckless }
 								}
 							}
@@ -4731,7 +4731,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 									left_icon = root
 									right_icon = $CHARACTER_SCOPE$
 									title = travel_events.2013.a_success.tt
-									remove_short_term_gold = medium_gold_value
+									remove_short_term_gold = tiny_gold_value
 									$CHARACTER_SCOPE$ = { add_trait = rough_terrain_expert }
 								}
 							}
@@ -4745,7 +4745,7 @@ scripted_effect check_traits_apply_appropriate_effect = {
 									left_icon = root
 									right_icon = $CHARACTER_SCOPE$
 									title = travel_events.2013.a_success.tt
-									remove_short_term_gold = medium_gold_value
+									remove_short_term_gold = tiny_gold_value
 									$CHARACTER_SCOPE$ = { add_trait = reckless }
 								}
 							}

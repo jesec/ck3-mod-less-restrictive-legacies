@@ -204,6 +204,8 @@
  friend_coping_motivation_corresponding: "[TARGET_CHARACTER.GetShortUIName]用[CHARACTER.GetShortUIName]来激发动力之后，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成为了朋友。"
  friend_motivated_by_parent: "[CHARACTER.GetShortUIName|U]被[TARGET_CHARACTER_2.GetShortUIName]鼓励要与[TARGET_CHARACTER.GetShortUIName]友好相处。"
  friend_motivated_by_parent_corresponding: "[TARGET_CHARACTER.GetShortUIName|U]被[TARGET_CHARACTER_2.GetShortUIName]鼓励要与[CHARACTER.GetShortUIName]友好相处。"
+ friend_helped_me_marry: "[TARGET_CHARACTER.GetShortUIName|U]在[CHARACTER.GetShortUIName]的帮助下与[TARGET_CHARACTER_2.GetShortUIName]结婚。"
+ friend_helped_me_marry_corresponding: "[CHARACTER.GetShortUIName|U]帮助[TARGET_CHARACTER.GetShortUIName]与[TARGET_CHARACTER_2.GetShortUIName]结婚。"
  friend_good_chats: "还是孩童的时候，[CHARACTER.GetShortUIName]从与[TARGET_CHARACTER.GetShortUIName]的闲聊中学会了很多。"
  friend_good_chats_corresponding: "还是孩童的时候，[TARGET_CHARACTER.GetShortUIName]从与[CHARACTER.GetShortUIName]的闲聊中学会了很多。"
  friend_pedagogy: "[TARGET_CHARACTER.GetShortUINamePossessive|U]对[CHARACTER.GetShortUIName]细致教育和看护种下了持久的友谊种子。"

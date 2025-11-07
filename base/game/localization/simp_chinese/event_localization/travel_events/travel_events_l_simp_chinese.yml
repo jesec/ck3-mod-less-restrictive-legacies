@@ -305,7 +305,7 @@
  travel_events.4036.a: "你要多少我就给多少！"
  travel_events.4036.b: "我会偷走它！"
  travel_events.4036.d: "也许我们能达成交易。"
- travel_events.4036.c: "我对没有价值的[ROOT.Char.GetCurrentLocation.GetCounty.GetCulture.GetNameNoTooltip]人饰品不感兴趣。"
+ travel_events.4036.c: "我对[ROOT.Char.GetCurrentLocation.GetCounty.GetCulture.GetNameNoTooltip]人的饰品不感兴趣。"
  travel_events.4037.t: "$travel_event_prefix$[ROOT.Char.GetFaith.GetReligion.GetNameNoTooltip]和[ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.GetNameNoTooltip]"
  travel_events.4037.desc: "我听说[ROOT.Char.GetCurrentLocation.GetCounty.GetName]的人们所信仰的[ROOT.Char.GetFaith.GetReligion.GetName]融合了他们自己的[ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.GetAdjective]信仰，现在我到了这里，我可以看到宗教交融无处不在。\n\n有个很有意思也很热情的农民，[fanboy_character_scope.GetHerselfHimself]自称为[fanboy_character_scope.GetFirstName]，热情地接触我的队伍，并开始充满活力地研究我们的宗教形象。\n\n“因着[fanboy_character_scope.GetFaith.HighGodName]的意愿，一群[ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]偏偏来到了这里！我的[ROOT.Char.GetLadyLord]，请为我祈祷吧，你愿意教给我[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]的崇拜方式吗？”"
  travel_events.4037.a: "我会教教他们！"

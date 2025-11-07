@@ -100,7 +100,7 @@
  friend_gave_them_a_dog_corresponding: "[TARGET_CHARACTER.Custom('FR_le_Char_U_Pi')|U][TARGET_CHARACTER.GetShortUIName|U] a offert [CHARACTER.Custom('FR_au_Char_U_Pi')][CHARACTER.GetShortUIName] un limier fort et loyal"
  friend_eccentric: "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName|U] et [TARGET_CHARACTER.Custom('FR_le_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName] [Select_CString(Or(CHARACTER.IsLocalPlayer, TARGET_CHARACTER.IsLocalPlayer), 'vous êtes', 'se sont')] rapproché[Select_CString(And(CHARACTER.IsFemale, TARGET_CHARACTER.IsFemale), 'e', '')]s grâce à des excentricités communes"
  artifact_durable_materials_02: "Matériaux durables"
- cultural_acceptance_fled_persecution: "Un aventurier a aidé une minorité culturelle à échapper aux persécutions."
+ cultural_acceptance_fled_persecution: "Un aventurier a aidé une minorité culturelle à échapper aux persécutions"
  friend_treasured_more_than_food: "[TARGET_CHARACTER.Custom('FR_le_Char_U_Pi')|U][TARGET_CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'avez','a')] offert des provisions [CHARACTER.Custom('FR_au_Char_U_Pi')][CHARACTER.GetShortUIName] quand [CHARACTER.GetSheHe] était dans le besoin."
  friend_treasured_more_than_food_corresponding: "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsLocalPlayer,'avez','a')] offert des provisions [TARGET_CHARACTER.Custom('FR_au_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName] quand [TARGET_CHARACTER.GetSheHe] était dans le besoin."
  #Legitimist

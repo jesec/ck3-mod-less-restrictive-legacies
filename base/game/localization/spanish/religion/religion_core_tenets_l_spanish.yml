@@ -180,7 +180,7 @@
  doctrine_parameter_mandatory_feast_attendance: "Es más probable que asistan [vassals|lE] a tus banquetes y, si se niegan, perderán [piety|lE] por ello"
  tenet_sky_burials_name: "Entierros celestiales"
  tenet_sky_burials_desc: "No se debe encerrar a los muertos bajo tierra. Es mucho mejor dejar que sean consumidos por aves carroñeras para que, en un acto final de generosidad, puedan alimentar al mundo que les alimentó."
- doctrine_parameter_sky_burials_active: "Los [rulers|lE] pueden dar a sus antepasados un entierro celestial para ganar [piety|lE] y contentar a sus [vassals|lE]\n$EFFECT_LIST_BULLET$Se puede construir el [duchy_building|E] osario"
+ doctrine_parameter_sky_burials_active: "Los [rulers|lE] pueden dar a sus antepasados un entierro celestial para ganar [piety|lE] y contentar a sus [vassals|lE]\n$EFFECT_LIST_BULLET$Se puede construir el [duchy_building|lE] [GetBuilding('charnel_grounds_01').GetName|l]"
  can_build_towers_of_silence_active_name: "capacidad para usar el [duchy_building|lE] [GetBuilding('tower_of_silence_01').GetName|l]"
  doctrine_parameter_can_build_towers_of_silence_active: "Los [vassals|lE] pueden construir el [duchy_building|lE] [GetBuilding('tower_of_silence_01').GetName|l] para aumentar el celo del [county|lE] — #EMP si#! la [faith|lE] de su [liege|lE] no toma parte en $tenet_sky_burials_name$"
  tenet_sacred_childbirth_name: "Parto sagrado"

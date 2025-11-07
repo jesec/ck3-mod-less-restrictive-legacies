@@ -37,7 +37,7 @@
  hostile_scheme_discovery.2001.target_me: "我！"
  hostile_scheme_discovery.2001.a: "我们必须阻止这背后的奸徒！"
  hostile_scheme_discovery.3001.t: "同谋暴露！"
- hostile_scheme_discovery.3001.intro: "我在[court_owner.GetTitledFirstNamePossessive]宫廷的同谋[agent.GetTitledFirstName]暴露了！"
+ hostile_scheme_discovery.3001.intro: "我在[court_owner.GetTitledFirstNamePossessive]的[scheme.GetName|l]中的同谋[agent.GetTitledFirstName]暴露了！"
  hostile_scheme_discovery.3001.imprisoned: "\n\n现在[court_owner.GetTitleAsName]把[agent.GetHerHim]关押了起来。"
  hostile_scheme_discovery.3001.accused: "\n\n现在[agent.GetSheHe]已经失去了信任，再无法协助我的事业了。"
  hostile_scheme_discovery.3001.a: "天杀的[court_owner.GetTitledFirstNameNoTooltip]，还有[court_owner.GetHerHis]那该死的[spymaster.GetCouncilTitle]！"

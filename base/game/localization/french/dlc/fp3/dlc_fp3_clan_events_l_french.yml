@@ -153,7 +153,7 @@
  fp3_clan.8017.corrupt.desc: "Hélas ! [tax_collector.GetSheHe|U] ne se montre ni juste ni équitable et accepte de l’argent pour fermer les yeux."
  fp3_clan.8017.cruel.desc: "Je crains qu’[tax_collector.GetSheHe] n’ait fait étalage de sa cruauté, recourant à la flagellation, voire à la lapidation, pour punir le moindre délit."
  fp3_clan.8017.generic.desc: "Le zèle n’est pas un vice, pas plus que la corruption ou la cruauté, mais la population [tax_collector.Custom('FR_LeLa')] méprise. »"
- fp3_clan.8017.ending.desc: "\n\n« Je vous en prie, je sais qu’[tax_collector.GetSheHe] est de votre clan, mais vous devez lui dire d’arrêter. »"
+ fp3_clan.8017.ending.desc: "\n\n« Je vous en prie, je sais qu’[tax_collector.GetSheHe] est votre [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('tax_collector'))], mais vous devez lui dire d’arrêter. »"
  fp3_clan.8017.a: "[tax_collector.GetSheHe|U] œuvre au nom [ROOT.Char.GetFaith.HighGodNameAlternatePossessive]."
  fp3_clan.8017.b: "Que craignez-vous que [tax_collector.Custom('FR_le_Char')][tax_collector.GetNameNoTooltip] ne découvre ?"
  fp3_clan.8017.c: "Très bien, mais n’oubliez pas que je vous fais une faveur."

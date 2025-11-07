@@ -1,5 +1,6 @@
 ﻿l_spanish:
  transfer_title_maa_global: "Transferir [Regiment.GetName] a [TARGET_TITLE.GetName]"
+ transfer_title_maa_ownership_global: "Transferir la propiedad de todos los [title_men_at_arms|lE] de [TITLE.GetNameNoTier] a [TARGET_TITLE.GetNameNoTier]"
  destroy_maa_regiment_global: "[REGIMENT.GetName] queda destruido"
  destroy_maa_regiment: "[REGIMENT.GetName] queda destruido"
  destroy_maa_regiment_first: "[REGIMENT.GetName] queda destruido"

@@ -229,6 +229,8 @@
  relation_akolouthos_female_possessive: "acolouthos"
  relation_liege_female: "dame lige"
  relation_liege_male: "seigneur lige"
+ relation_leader_female: "cheffe"
+ relation_leader_male: "chef"
  relation_ward: "pupille"
  relation_guardian: "tut[second.Custom('FR_EurRice')]"
  relation_spymaster_female: "maître-espionne"

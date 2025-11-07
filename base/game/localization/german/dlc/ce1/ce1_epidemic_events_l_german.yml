@@ -474,6 +474,7 @@
  epidemic_events.5906.b: "Vielleicht hat [flagellant.Custom('DE_PRO_PER_S_3P_N')] da nicht ganz unrecht …"
  epidemic_events.5906.c: "„Werft [flagellant.Custom('DE_PRO_PER_S_3P_A')] in den Kerker, [marshal.GetFirstNameNoTooltip].“"
  epidemic_events.5906.d: "Lasst [flagellant.Custom('DE_PRO_PER_S_3P_A')] gehen. [flagellant.Custom('DE_PRO_PER_S_3P_N')|U] tut doch niemandem außer sich selbst weh."
+ epidemic_events.5906.d.tt: "Alle Baronien, die „[doomsday_province.GetName]“ umgeben, haben eine Chance von #color_white 25 %#!, denselben Modifikator zu erhalten"
  fervor_loss_flagellants: "Frei herumlaufende Flagellanten"
  epidemic_events.5907.t: "Ein kleines Kitzeln"
  epidemic_events.5907.desc: "Meine Augenlider zucken und öffnen sich, als die Morgensonne auf sie herabstrahlt. Ich richte mich auf, strecke mich, gähne und … #EMP huste#!.\n\nMein Hals tut etwas weh. Auch mein Blick ist ein wenig getrübter als sonst. Ich spüre sogar einen leichten Schnupfen.\n\nO nein. Bitte. Nicht ich. Bewahrt mich von diesem Schicksal. Sagt mir, o höchste Mächte ([ROOT.Char.GetFaith.HighGodName]), dass sich die gefürchtete Seuche nicht auch in meinem Land ausgebreitet und mich zu ihrem Opfer gemacht hat …"

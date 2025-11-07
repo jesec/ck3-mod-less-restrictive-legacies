@@ -474,6 +474,7 @@
  epidemic_events.5906.b: "Возможно, [Select_CString(flagellant.IsFemale, 'она права', 'он прав' )]..."
  epidemic_events.5906.c: "«Заприте [Select_CString(flagellant.IsFemale, 'ее', 'его' )], [marshal.GetFirstNameNoTooltip]»."
  epidemic_events.5906.d: "Отпустите [Select_CString(flagellant.IsFemale, 'ее', 'его' )]. [Select_CString(flagellant.IsFemale, 'Она', 'Он' )] никому не причиняет вреда."
+ epidemic_events.5906.d.tt: "Все баронства вокруг провинции [doomsday_province.GetName] с шансом #color_white 25%#! получат такой же модификатор"
  fervor_loss_flagellants: "Самобичевание продолжается беспрепятственно"
  epidemic_events.5907.t: "Легкая щекотка"
  epidemic_events.5907.desc: "Мои веки раскрываются под лучами утреннего солнца. Я встаю, потягиваюсь, зеваю и... #EMP кашляю#!.\n\nГорло немного побаливает. Зрение тоже немного затуманилось. И в носу вдруг захлюпало.\n\nО нет. Пожалуйста, только не я. Избавьте меня от подобной участи. [ROOT.Char.GetFaith.HighGodName], скажи, что это жуткое поветрие не перекинулось на эти земли и что я не [Select_CString(ROOT.Char.IsFemale, 'стала', 'стал' )] его жертвой..."

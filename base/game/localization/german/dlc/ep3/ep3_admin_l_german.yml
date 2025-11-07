@@ -13,7 +13,7 @@
  army_quartermasters_house_power: "Armeequartiermeister"
  respected_despots_house_power: "Angesehene Despoten"
  lofty_architects_house_power: "Erhaben Architekten"
- members_in_realm_desc: "Lebende [house|E]-Mitglieder im [realm|E]"
+ members_in_realm_desc: "Lebende [house|E]-Mitglieder"
  house_head_influence_level_desc: "[influence_level|E] des [Concept('house_head', 'Hausoberhaupts')|E]"
  house_members_on_council_desc: "[house|E]-Mitglieder im [council|E] des [Concept('top_liege', 'Obersten Lehnsherrn')|E]"
  estate_buildings_desc: "[estate_buildings|E]"
@@ -112,3 +112,4 @@
  ep3_admin_events.0005.desc_still_admin: "Unser einst großes Reich war einmal, denn ich liege nun außerhalb des Einflusses von [gov_liege.GetFirstName]. Womit ich nun das Sagen im Land ([ROOT.Char.GetPrimaryTitle.GetNameNoTier]) habe. Abgesehen von meiner Unabhängigkeit und freien Herrschaft wird sich nur wenig ändern. Die Bürokratie ist viel zu sehr Teil unserer Lebensart und wird dies auch bleiben."
  ep3_admin_events.0005.desc_lost_admin: "Die Umstände führten dazu, dass unser großes Reich zu Ende ging. Und so ist auch von der Bürokratie, die einst unser Leben bestimmte, nur noch Asche und Staub übrig. Ich habe keine andere Wahl, als meine Regierung an diese neuen Bedingungen anzupassen."
  ep3_admin_events.0005.a: "Lassen wir die Vergangenheit ruhen und blicken wir in die Zukunft!"
+ demand_admin_tribal: "[recipient.GetShortUIName|U] ist ein [Concept('tribal', 'Stammes')|E]-Reich - Nur angesiedelte [governments|E] können [Concept('administrative', 'Verwaltungs')|E]-Reiche werden"

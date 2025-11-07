@@ -35,6 +35,7 @@
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_QUARTERMASTER: "당신이 [GetCourtPositionType('quartermaster_camp_officer').GetName()] [officer|E]을 잠금 해제한 덕분에 이 선택지를 사용할 수 있음"
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_ARMORER: "당신이 [GetCourtPositionType('armorer_camp_officer').GetName()] [officer|E]을 잠금 해제한 덕분에 이 선택지를 사용할 수 있음"
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_MASTER_OF_ARMS: "당신이 [GetCourtPositionType('master_of_arms_camp_officer').GetName()] [officer|E]을 잠금 해제한 덕분에 이 선택지를 사용할 수 있음"
+ EVENT_WINDOW_OPTION_AVAILABLE_PERSON_HAGGLER: "당신이 [GetCourtPositionType('person_haggler_camp_officer').GetName()] [officer|E]을 잠금 해제한 덕분에 이 선택지를 사용할 수 있음"
  EVENT_WINDOW_OPTION_AVAILABLE_UNLOCKED_GOVERNOR_EFFICIENCY: "당신의 [governor_efficiency|E] 덕분에 이 선택지를 사용할 수 있음"
  EVENT_WINDOW_OPTION_AVAILABLE_MANY_FOLLOWERS: "#V [EmptyScope.ScriptValue('many_followers_value')|0]#! 이상의 [followers|E]를 보유 중이므로 이 선택지를 선택할 수 있음"
  EVENT_WINDOW_OPTION_AVAILABLE_VISIT_SETTLEMENT_PROVISIONS: "이 선택지를 통해 [provisions|E]을 구매할 수 있음"

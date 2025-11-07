@@ -168,7 +168,7 @@
  VASSAL_IS_NOT_FAR_ENOUGH: "[CHARACTER.GetShortUIName]离你的[capital|E]太近"
  VASSAL_HAS_THE_WRONG_RELIGION: "[CHARACTER.GetShortUIName]与你同[religion|E]"
  VASSAL_HAS_THE_WRONG_FAITH: "[CHARACTER.GetShortUIName]与你[faith|E]#Bold 不同#!"
- NO_TAX_SLOT_AVAILABLE: "#D 你没有有效的税务槽位#!"
+ NO_TAX_SLOT_AVAILABLE: "#X 没有有效的税务槽位，可能下个月启用#!"
  TAX_SLOT_OBLIGATION_LIEGE_MODIFIER: "#S 每位封臣使[liege|E]：#!"
  TAX_SLOT_OBLIGATION_VASSAL_MODIFIER: "#S [vassal|E]：#!"
  TAX_SLOT_OBLIGATION_SELECT_WARNING_TOOLTIP: "[JoinText( '\n\n', TaxSlotObligationsWindow.CanSelectObligationDesc( TaxSlotObligation.Self ), TaxSlotObligationsWindow.GetInvalidVassalsForObligationDesc( TaxSlotObligation.Self ) )]"

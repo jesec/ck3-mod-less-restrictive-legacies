@@ -4,6 +4,7 @@ visit_settlement_minimum_cooldown_months = 3 #Sync with visit_settlement_minimum
 visit_settlement_small_cooldown_days = 180 #6 months
 visit_settlement_small_cooldown_months = 6 #Sync with visit_settlement_small_cooldown_days
 visit_settlement_medium_cooldown_days = 365 #1 year
+visit_settlement_medium_cooldown_year = 1 #Sync with visit_settlement_medium_cooldown_days
 visit_settlement_cooldown_days = 730 #2 years
 visit_settlement_large_cooldown_days = 1460 #4 years
 

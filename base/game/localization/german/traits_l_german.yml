@@ -330,7 +330,7 @@
  trait_loyal_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] nimmt [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]e Beziehungen ernster als die meisten."
  TRAIT_FLAG_DESC_join_factions_less: "Schließt sich mit geringerer Wahrscheinlichkeit [factions|E] gegen den eigenen [Concept('liege', 'Lehnsherrn')|E] an"
  TRAIT_FLAG_DESC_join_factions_more: "Schließt sich mit höherer Wahrscheinlichkeit [factions|E] gegen den eigenen [Concept('liege', 'Lehnsherrn')|E] an"
- TRAIT_FLAG_DESC_cannot_inherit_titles: "@warning_icon! #N Kann keine [titles|E] erben#!"
+ TRAIT_FLAG_DESC_cannot_inherit_titles: "@warning_icon! #X Kann keine [titles|E] erben#!"
  trait_disloyal: "Untreu"
  trait_disloyal_desc: "Wo die meisten Menschen eine Beziehung sehen, sieht dieser Charakter eine Gelegenheit."
  trait_disloyal_character_desc: "Wo die meisten Menschen eine Beziehung sehen, sieht [ROOT.GetCharacter.GetFirstNameNoTooltip] eine Gelegenheit."

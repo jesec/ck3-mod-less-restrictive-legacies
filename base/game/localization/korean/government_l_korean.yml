@@ -401,7 +401,7 @@
  admin_theme_frontier: "@frontier_administration! 국경 행정"
  admin_theme_frontier_short: "@frontier_administration! 국경"
  admin_theme_frontier_text_icon: "@frontier_administration!"
- admin_theme_frontier_benefits: "#emphasis #bold [liege|E] 혜택:#!#!\n타국의 [duchy|E] 등급 [title|E]를 위한 전쟁 선포를 주군이 [vassal|E]에게 요청할 수 있는 #high $frontier_influence_war_interaction$#! [interaction|E] 잠금 해제\n\n#emphasis #bold [vassal|E] 혜택:#!#!\n[prowess|E]에 따라 [governor_efficiency|E] 증가#indent_newline:4 \n#weak 각 [skill|E] 점수마다 [EmptyScope.ScriptValue('efficiency_skill_increase_value')|+1%/] 추가로 증가#!#!\n#high $EXPANSION_DUCHY_CB_NAME$#! [casus_belli|E] 잠금 해제"
+ admin_theme_frontier_benefits: "#emphasis #bold [liege|E] 혜택:#!#!\n타국의 [duchy|E] 등급 [title|E]를 위한 전쟁 선포를 주군이 [vassal|E]에게 요청할 수 있는 #high $frontier_influence_war_interaction$#! [interaction|E] 잠금 해제\n\n#emphasis #bold [vassal|E] 혜택:#!#!\n[prowess|E]에 따라 [governor_efficiency|E] 증가#indent_newline:4 \n#weak 각 [skill|E] 점수마다 [EmptyScope.ScriptValue('efficiency_skill_increase_value')|+1%/] 추가로 증가#!#!\n#high $EXPANSION_DUCHY_CB_NAME$#! [casus_belli|E] 잠금 해제\n[raiding|E] 활성화"
  admin_theme_frontier_desc: "#flavor 국경을 무방비하게 방치할 순 없습니다. 국경 행정은 영토의 방어를 보장하고 잠재적인 침입자를 격퇴할 준비를 갖춥니다.#!"
  admin_theme_imperial: "@imperial_administration! 제국 행정"
  admin_theme_imperial_short: "@imperial_administration! 제국"

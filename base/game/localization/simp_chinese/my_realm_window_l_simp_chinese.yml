@@ -3,6 +3,7 @@
  realm_tab_domain: "直辖领地"
  realm_tab_vassals: "封臣"
  realm_tab_succession: "继承"
+ realm_tab_admin_laws: "行政"
  MY_REALM_WINDOW_MY_LIEGE: "我的[liege|E]"
  MY_REALM_WINDOW_MY_OBLIGATIONS: "$VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE$：[VassalContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]\n$VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE_LEVIES$：[VassalContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_levies' )]"
  MY_REALM_WINDOW_MY_TAX_LEVEL: "$VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE$：[VassalContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]"
@@ -163,3 +164,4 @@
  THEME_ADMINISTRATION_INFO: "#P 为该[Character.Custom( 'GetProvinceConcept' )]选择[Character.Custom('GetProvinceAdministrationConcept')]。如果另一名[Character.Custom( 'GetGovernorConcept' )]接管了该[Character.Custom( 'GetProvinceConceptNoTooltip' )]的管理，所选的类型会被保留，直到再次被改变。"
  THEME_ADMINISTRATION_LABEL: "可用行政类型"
  VASSAL_CONTRACT_VASSAL_TITLE_ADMIN: "修改行政制度：\n#high [VassalContract.GetVassal.GetPrimaryTitle.GetNameNoTooltip]\n现由[VassalContract.GetVassal.GetHouse.GetNameNoTooltip]家族的[VassalContract.GetVassal.GetFirstNameNoTooltip]管治#!"
+ MY_REALM_ADMIN_LAWS_HEADER: "[GetPlayer.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]的行政"

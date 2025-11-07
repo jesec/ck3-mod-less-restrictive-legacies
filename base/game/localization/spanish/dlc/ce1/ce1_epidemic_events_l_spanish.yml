@@ -474,6 +474,7 @@
  epidemic_events.5906.b: "Puede que tenga algo de razón…"
  epidemic_events.5906.c: "«Encerrad[flagellant.GetHerHim], [marshal.GetFirstNameNoTooltip]»."
  epidemic_events.5906.d: "Dejad[flagellant.GetHerHim] marchar. No hace ningún daño."
+ epidemic_events.5906.d.tt: "Todas las baronías que rodean [doomsday_province.GetName] tienen un #color_white 25 %#! de probabilidad de obtener el mismo modificador"
  fervor_loss_flagellants: "Los flagelantes deambulan libremente"
  epidemic_events.5907.t: "Un pequeño picor"
  epidemic_events.5907.desc: "Abro los párpados de golpe cuando el sol de la mañana cae sobre ellos. Me incorporo, me estiro, bostezo y… #EMP toso#!.\n\nMe pica un poco la garganta. Tengo los ojos algo más nublados que de costumbre. Incluso noto un cierto moqueo.\n\nOh, no. Por favor, yo no. Líbradme de este destino. Decidme, oh, [ROOT.Char.GetFaith.HighGodName], que la temida peste no se ha extendido por estas tierras y me ha hecho su víctima…"

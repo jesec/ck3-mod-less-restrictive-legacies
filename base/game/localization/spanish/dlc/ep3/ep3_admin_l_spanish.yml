@@ -13,7 +13,7 @@
  army_quartermasters_house_power: "Intendentes del ejército"
  respected_despots_house_power: "Déspotas respetados"
  lofty_architects_house_power: "Arquitectos altivos"
- members_in_realm_desc: "Miembros de la [house|lE] que viven en el [realm|lE]"
+ members_in_realm_desc: "Miembros de la [house|lE] vivos"
  house_head_influence_level_desc: "[influence_level|E] de [house_heads|lE]"
  house_members_on_council_desc: "Miembros de la [house|lE] en el [council|lE] del [top_liege|lE]"
  estate_buildings_desc: "[estate_buildings|E]"
@@ -112,3 +112,4 @@
  ep3_admin_events.0005.desc_still_admin: "Nuestro antaño gran señorío ya no existe y me encuentro fuera de la influencia de [gov_liege.GetFirstName], lo cual me deja a cargo de [ROOT.Char.GetPrimaryTitle.GetNameNoTier]. Aparte de mi independencia y de tener la mano libre, pocas cosas cambiarán. La burocracia está arraigada en nuestro modo de vida y seguirá así."
  ep3_admin_events.0005.desc_lost_admin: "Debido a las circunstancias, nuestro gran señorío se ha perdido. Y con este, la burocracia que regía nuestro modo de vida ha quedado reducida a cenizas. Tengo pocas opciones aparte de adaptar mi gobierno a esta nueva realidad."
  ep3_admin_events.0005.a: "¡Dejemos el pasado atrás y miremos al futuro!"
+ demand_admin_tribal: "[recipient.GetShortUIName|U] [Select_CString( recipient.IsLocalPlayer, 'eres', 'es' )] [tribal|lE] y solo los [governments|lE] asentados pueden convertirse en [Concept('administrative', 'administraciones')|E]"

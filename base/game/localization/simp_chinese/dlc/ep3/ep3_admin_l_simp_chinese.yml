@@ -13,7 +13,7 @@
  army_quartermasters_house_power: "军队军需官"
  respected_despots_house_power: "受尊敬的专制君主"
  lofty_architects_house_power: "崇高的建筑师"
- members_in_realm_desc: "[realm|E]内的在世[house|E]成员"
+ members_in_realm_desc: "在世[house|E]成员"
  house_head_influence_level_desc: "[house_heads_possessive|E]的[influence_level|E]"
  house_members_on_council_desc: "[top_liege|E][council|E]里的[house|E]成员"
  estate_buildings_desc: "[estate_buildings|E]"
@@ -112,3 +112,4 @@
  ep3_admin_events.0005.desc_still_admin: "我们曾经伟大的国家已不复存在，我已不再处于[gov_liege.GetFirstNamePossessive]的影响范围内。这使得[ROOT.Char.GetPrimaryTitle.GetNameNoTier]落入了我的手中。除了我获得了独立，不再听命于人，几乎没有什么改变。官僚制度深深扎根于我们的生活，并将继续如此。"
  ep3_admin_events.0005.desc_lost_admin: "形势所迫，我们伟大的国家已不复存在。统治我们生活的官僚制度也因此灰飞烟灭。我别无选择，只能接受这种新的现实。"
  ep3_admin_events.0005.a: "让我们放下过去向前看！"
+ demand_admin_tribal: "[recipient.GetShortUIName|U]是[tribal|E]——只有稳定[governments|E]可以成为[administrative|E]"

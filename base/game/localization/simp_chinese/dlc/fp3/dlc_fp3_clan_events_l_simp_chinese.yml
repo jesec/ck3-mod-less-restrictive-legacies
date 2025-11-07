@@ -153,7 +153,7 @@
  fp3_clan.8017.corrupt.desc: "“唉，但[tax_collector.GetSheHe]看起来一点也不公正，只是在变着法捞钱。”"
  fp3_clan.8017.cruel.desc: "“恐怕事实已经证明[tax_collector.GetSheHe]相当残忍，渴望用鞭打甚至石刑来惩罚最轻微的罪行。”"
  fp3_clan.8017.generic.desc: "“狂热、腐败或残忍都不是罪行，但当地人厌恶[tax_collector.GetHerHim]。”"
- fp3_clan.8017.ending.desc: "\n\n“拜托，我知道[tax_collector.GetSheHe]是你亲戚，但你必须让[tax_collector.GetHerHim]停下。”"
+ fp3_clan.8017.ending.desc: "\n\n“拜托，我知道[tax_collector.GetSheHe]是你的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('tax_collector'))]，但你必须让[tax_collector.GetHerHim]停下。”"
  fp3_clan.8017.a: "[tax_collector.GetSheHe|U]这是在为[ROOT.Char.GetFaith.HighGodNameAlternatePossessive]工作。"
  fp3_clan.8017.b: "你在怕[tax_collector.GetNameNoTooltip]发现什么？"
  fp3_clan.8017.c: "好吧，但不要忘记这次恩惠。"

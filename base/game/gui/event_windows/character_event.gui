@@ -449,9 +449,10 @@
 							# Has a parent hbox to hack around layout set in type so it can be placed differently here and in Activity events. 
 							hbox = {
 								layoutpolicy_horizontal = expanding
-								
+
 								hbox = {
 									name = "custom_widgets_container"
+									layoutpolicy_horizontal = expanding
 									margin = { 15 0 }
 
 									state = {

@@ -168,7 +168,7 @@
  VASSAL_IS_NOT_FAR_ENOUGH: "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] est trop proche de votre [capital|El]"
  VASSAL_HAS_THE_WRONG_RELIGION: "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] est de votre [religion|El]"
  VASSAL_HAS_THE_WRONG_FAITH: "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] n’a pas la même [faith|El] que vous"
- NO_TAX_SLOT_AVAILABLE: "#D Il n’y a pas d’emplacement fiscal valide pour vous#!"
+ NO_TAX_SLOT_AVAILABLE: "#X Pas de créneau fiscal valable, il pourrait être activé le mois prochain#!"
  TAX_SLOT_OBLIGATION_LIEGE_MODIFIER: "#S [liege|E] par vassal :#!"
  TAX_SLOT_OBLIGATION_VASSAL_MODIFIER: "#S [vassal|E] :#!"
  TAX_SLOT_OBLIGATION_SELECT_WARNING_TOOLTIP: "[JoinText( '\n\n', TaxSlotObligationsWindow.CanSelectObligationDesc( TaxSlotObligation.Self ), TaxSlotObligationsWindow.GetInvalidVassalsForObligationDesc( TaxSlotObligation.Self ) )]"

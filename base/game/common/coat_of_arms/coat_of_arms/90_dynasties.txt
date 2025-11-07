@@ -14506,3 +14506,5 @@ house_lautrec = { # Lautrec
 
 vanity_ronnback = c_oland
 vanity_lager = k_maghreb
+
+house_dreux = 86

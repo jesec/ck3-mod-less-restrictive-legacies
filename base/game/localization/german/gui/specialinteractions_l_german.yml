@@ -571,3 +571,5 @@
  WILL_BE_VASSALIZED_REASON: "Wird Euer [vassal|E] werden: $VALUE|=+0$"
  RIVAL_VASSAL_REASON: "Rivalisierender [vassal|E] innerhalb des [Concept('realm', 'Reichs')|E]: $VALUE|=+0$"
  negotiate_settlement_title_cant_receive_reason_higher_tier_without_county: "[recipient.GetShortUINameNotMe|U] muss mindestens eine Gemeinde zusammen mit [target.GetName] (er-)halten"
+ STATE_FAITH_CREATE_FAITH_REASON: "Ihr habt im [realm|E] großen Einfluss: $VALUE|=+0$"
+ HAS_PERK_PROPHET_REASON: "Ihr habt den [perk|E] „[GetPerk('prophet_perk').GetName(GetPlayer)]“: $VALUE|=+0$"

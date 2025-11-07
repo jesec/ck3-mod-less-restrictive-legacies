@@ -571,3 +571,5 @@
  WILL_BE_VASSALIZED_REASON: "Deviendra votre [vassal|El] : $VALUE|=+0$"
  RIVAL_VASSAL_REASON: "[vassal|E] rival dans le [realm|El] : $VALUE|=+0$"
  negotiate_settlement_title_cant_receive_reason_higher_tier_without_county: "[recipient.Custom('FR_le_Char_Pi')|U][recipient.GetShortUINameNotMe] doit posséder ou recevoir au moins un comté avec le [target.GetName]"
+ STATE_FAITH_CREATE_FAITH_REASON: "Vous avez beaucoup d’influence dans le [realm|El] : $VALUE|=+0$"
+ HAS_PERK_PROPHET_REASON: "Vous avez l’[perk|El] [GetPerk('prophet_perk').GetName(GetPlayer)] : $VALUE|=+0$"

@@ -401,7 +401,7 @@
  admin_theme_frontier: "@frontier_administration!边疆管理"
  admin_theme_frontier_short: "@frontier_administration!边疆"
  admin_theme_frontier_text_icon: "@frontier_administration!"
- admin_theme_frontier_benefits: "#emphasis #bold [liege|E]增益：#!#!\n解锁#high $frontier_influence_war_interaction$#![interaction|E]，允许领主要求[vassal|E]宣战夺取外国的[duchy|E]级[title|E]\n\n#emphasis #bold [vassal|E]增益：#!#!\n根据[prowess|E]提高[governor_efficiency|E]#indent_newline:4 \n#weak 每点[skill|E]额外增加[EmptyScope.ScriptValue('efficiency_skill_increase_value')|+1%/]#!#!\n解锁#high $EXPANSION_DUCHY_CB_NAME$#![casus_belli|E]"
+ admin_theme_frontier_benefits: "#emphasis #bold [liege|E]增益：#!#!\n解锁#high $frontier_influence_war_interaction$#![interaction|E]，允许领主要求[vassal|E]宣战夺取外国的[duchy|E]级[title|E]\n\n#emphasis #bold [vassal|E]增益：#!#!\n根据[prowess|E]提高[governor_efficiency|E]#indent_newline:4 \n#weak 每点[skill|E]额外增加[EmptyScope.ScriptValue('efficiency_skill_increase_value')|+1%/]#!#!\n解锁#high $EXPANSION_DUCHY_CB_NAME$#![casus_belli|E]\n启用[raiding|E]"
  admin_theme_frontier_desc: "#flavor 边疆决不能不设防。边境管理区将确保领地的防御，随时准备击退任何潜在的入侵者。#!"
  admin_theme_imperial: "@imperial_administration!帝国管理"
  admin_theme_imperial_short: "@imperial_administration!帝皇"

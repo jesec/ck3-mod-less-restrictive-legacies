@@ -330,7 +330,7 @@
  trait_loyal_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]对待[ROOT.GetCharacter.GetHerHis]自己的关系比起大部分人要更加严肃认真。"
  TRAIT_FLAG_DESC_join_factions_less: "不太可能加入针对其[liege|E]的[factions|E]"
  TRAIT_FLAG_DESC_join_factions_more: "更有可能加入针对其[liege|E]的[factions|E]"
- TRAIT_FLAG_DESC_cannot_inherit_titles: "@warning_icon!#N 不能继承[titles|E]#!"
+ TRAIT_FLAG_DESC_cannot_inherit_titles: "@warning_icon!#X 不能继承[titles|E]#!"
  trait_disloyal: "奸猾"
  trait_disloyal_desc: "大部分人珍视的关系，此人却从中看到了机遇。"
  trait_disloyal_character_desc: "大部分人珍视的关系，[ROOT.GetCharacter.GetFirstNameNoTooltip]却从中看到了机遇。"
