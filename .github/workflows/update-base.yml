@@ -304,6 +304,12 @@ jobs:
             exit 1
           fi
 
+          # Remove old game directory to ensure clean extraction
+          if [ -d "$GAME_DIR" ]; then
+            echo "   Removing old game directory..."
+            rm -rf "$GAME_DIR"
+          fi
+
           cd "$AUTOMATION_DIR"
           # Extract from game/ subdirectory only, not launcher/ or other dirs
           node index.js extract "$DOWNLOAD_GAME_DIR" "$GAME_DIR"
