@@ -2578,8 +2578,8 @@
  cn_candia: "칸디아"
  cn_candia_adj: "칸디아"
  cn_la_canea: "라 카네아"
- cn_kara_khitai: "흑거란"
- cn_kara_khitai_adj: "흑거란"
+ cn_kara_khitai: "서요"
+ cn_kara_khitai_adj: "서요"
  #Crimea
  cn_kerkinitis: "케르키니티스"
  cn_kerkinitis_adj: "케르키니티스"
@@ -2826,7 +2826,7 @@
  cn_yankemosir_adj: "$cn_yankemosir$"
  cn_boluo: "바라" #波羅
  cn_guohuo: "과화" #果夥
- cn_nanghaer: "낭합인" #嚢哈儿
+ cn_nanghaer: "낭하르" #嚢哈儿
  cn_yidui: "이대" #伊対
  cn_wulie: "올렬" #兀烈
  cn_shimajiri: "시마지리" #島尻
@@ -2875,7 +2875,7 @@
  cn_xiazhou: "하주" #瑕州
  cn_zhengjie: "정힐" #鄭颉
  cn_zhengjie_adj: "$cn_zhengjie$"
- cn_zhengzhou: "정저우" #鄭颉
+ cn_zhengzhou: "정주" #鄭颉
  cn_zhengzhou_adj: "$cn_zhengzhou$"
  cn_annan: "안남" #安南
  cn_jiaozhou: "교주" #交州
@@ -2886,12 +2886,12 @@
  cn_changshang: "장상" #长上
  cn_junzhou: "군주" #郡州
  cn_junkou: "군구" #郡口
- cn_anle: "안악" #安乐
+ cn_anle: "안락" #安乐
  cn_wuan: "무안" #武安
  cn_sumao: "소무" #苏茂
  cn_guihua: "귀화" #归化
  cn_wenliang: "문량" #文谅
- cn_guangyuan: "엄원" #广源
+ cn_guangyuan: "광원" #广源
  cn_huanzhou: "환주" #驩州
  cn_jiude: "구덕" #九德
  cn_huaihuan: "회환" #怀驩
@@ -2914,10 +2914,10 @@
  #Korea
  cn_goryeo: "고려"
  cn_silla_throne: "신라 왕위"
- cn_shangjing: "상징"
- cn_dongjing: "동징"
- cn_zhongjing: "중징"
- cn_xingqing: "싱칭"
+ cn_shangjing: "상경"
+ cn_dongjing: "동경"
+ cn_zhongjing: "중경"
+ cn_xingqing: "흥경"
  cn_wamo: "와모"
  cn_gemen: "합문" #閤门
  cn_michuan: "미천" #米川

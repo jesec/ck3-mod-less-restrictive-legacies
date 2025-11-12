@@ -2633,6 +2633,26 @@ m_headgear_sec_tgp_southeast_nob_01 = {
 	entity = { required_tags = ""		    shared_pose_entity = head		entity = m_headgear_sec_tgp_southeast_nob_01_entity }
 }
 
+m_headgear_sec_tgp_southeast_roy_01_a = {
+	set_tags = "hat,snug_headgear"
+	entity = { required_tags = ""		    shared_pose_entity = head		entity = m_headgear_sec_tgp_southeast_roy_01_a_entity }
+}
+
+m_headgear_sec_tgp_southeast_roy_01_b = {
+	set_tags = "hat,snug_headgear"
+	entity = { required_tags = ""		    shared_pose_entity = head		entity = m_headgear_sec_tgp_southeast_roy_01_b_entity }
+}
+
+m_headgear_sec_tgp_southeast_nob_02 = {
+	set_tags = "no_hair,snug_headgear"
+	entity = { required_tags = ""		    shared_pose_entity = head		entity = m_headgear_sec_tgp_southeast_nob_02_entity }
+}
+
+m_headgear_sec_tgp_southeast_nob_03 = {
+	set_tags = "no_hair,snug_headgear"
+	entity = { required_tags = ""		    shared_pose_entity = head		entity = m_headgear_sec_tgp_southeast_nob_03_entity }
+}
+
 m_headgear_sec_tgp_korean_imp_01 = {
 	set_tags = "hat,snug_headgear"
 	entity = { required_tags = ""		    shared_pose_entity = head		entity = m_headgear_sec_tgp_korean_imp_01_entity }
@@ -2653,6 +2673,13 @@ m_headgear_sec_tgp_chinese_face_mask = {
 	entity = { required_tags = "stealth"		shared_pose_entity = head	 }
 	entity = { required_tags = "no_mask"		shared_pose_entity = head	 }
 	entity = { required_tags = ""			shared_pose_entity = head		entity = m_headgear_sec_tgp_chinese_face_mask_entity 	 }
+}
+
+m_headgear_sec_tgp_japanese_face_mask = {
+	set_tags = "mask,no_beard,snug_headgear"
+	entity = { required_tags = "stealth"		shared_pose_entity = head	 }
+	entity = { required_tags = "no_mask"		shared_pose_entity = head	 }
+	entity = { required_tags = ""			shared_pose_entity = head		entity = m_headgear_sec_tgp_japanese_face_mask_entity 	 }
 }
 
 ## FEMALE ##
@@ -2700,6 +2727,16 @@ f_headgear_rel_tgp_shinto_priest = {
 f_headgear_sec_tgp_southeast_nob_01 = {
 	set_tags = "crown,fit_over_headgear"
 	entity = { required_tags = ""		    shared_pose_entity = head		entity = f_headgear_sec_tgp_southeast_nob_01_entity }
+}
+
+f_headgear_sec_tgp_southeast_nob_02 = {
+	set_tags = "no_hair,snug_headgear,stretched_earlobe"
+	entity = { required_tags = ""		    shared_pose_entity = head		entity = f_headgear_sec_tgp_southeast_nob_02_entity }
+}
+
+f_headgear_sec_tgp_southeast_roy_01 = {
+	set_tags = "no_hair,fit_over_headgear"
+	entity = { required_tags = ""		    shared_pose_entity = head		entity = f_headgear_sec_tgp_southeast_roy_01_entity }
 }
 
 f_headgear_sec_tgp_japanese_war_nob_01 = {

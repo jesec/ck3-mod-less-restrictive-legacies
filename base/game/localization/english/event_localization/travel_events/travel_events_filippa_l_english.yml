@@ -221,8 +221,8 @@
 
 #Visit a logging camp - Burn off some stress chopping wood
  travel_events.2014.t:0 "Chop, Chop"
- travel_events.2014.desc:0 "The massive chopping block in the middle of the logging camp of [ROOT.Char.GetCurrentLocation.GetName] has seen much use. It looks like it's always been there, even before man walked this earth.\n\nMy shoulders are tense and my forearm trembles slightly from built up stress as I approach the magnificent wooden trunk.\n\nI carefully place a piece of discarded timber at the podium and, in one swift motion, I raise my axe."
- travel_events.2014.a:0 "#EMP Huraagh!#!"
+ travel_events.2014.desc:0 "The massive chopping block in the middle of the logging camp of [ROOT.Char.GetCurrentLocation.GetName] has seen much use. It looks to have always been here, before man walked this earth.\n\nAll around me, laborers toil resplendent with sweat and though low of birth, appear free of the weight of the world.\n\nI stare at the splitting axe stood upright in the giant stump. My tense shoulders, laden with stress, beg for an opportunity at release."
+ travel_events.2014.a:0 "I grasp the shaft and #EMP Huraagh!#!"
  travel_events.2014.a_flavor:0 "Take #EMP that#!, stress!"
  travel_events.2014.a_stress_tt:0 "Stress Decreased"
  travel_events.2014.a_great_stress_desc:0 "You greatly reduce your stress"

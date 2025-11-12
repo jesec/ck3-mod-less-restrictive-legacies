@@ -1705,8 +1705,8 @@ viet_dam_3 = {
 }
 
 ly_do_doc_1 = { # Landless Martial adventurer
-	name = "Ly_Do_Doc"
-	dynasty = hchar_taohua
+	name = "Do_Doc"
+	dynasty = hchar_ly
 	religion = dhyana
 	culture = viet
 	trait = education_martial_3

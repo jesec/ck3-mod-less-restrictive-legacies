@@ -24,7 +24,6 @@
  you_have_a_military_career_desc: "你拥有[military_career|E]"
  change_to_civilian_career_desc: "你将官宦之路更改为[civilian_career|E]，有资格在[GetLaw('celestial_appointment_succession_law').GetName]下获得文职的[GetPlayer.Custom('GetProvincePluralConcept')]"
  change_to_military_career_desc: "你将官宦之路更改为[military_career|E]，有资格在[GetLaw('celestial_military_appointment_succession_law').GetName]下获得武职的[GetPlayer.Custom('GetProvincePluralConcept')]"
- 
  tgp_command_family_to_take_exams_decision: "命令家族参加考试"
  tgp_command_family_to_take_exams_decision_desc: "若尚未通过科举，命令你的[family|E]参加[GetActivityType('activity_local_examination').GetName]与[GetActivityType('activity_imperial_examination').GetName][activities|E]。"
  tgp_command_family_to_take_exams_decision_tooltip: "$tgp_command_family_to_take_exams_decision_desc$"
@@ -41,7 +40,6 @@
  command_to_stop_attending_requirements_desc: "$command_to_attend_requirements_desc$"
  activity_invite_rule_player_family_opt_in_local_exam: "被命令的家族成员"
  activity_invite_rule_player_family_opt_in_imperial_exam: "$activity_invite_rule_player_family_opt_in_local_exam$"
- 
  tgp_refuse_appointments_decision: "辞谢后续任命"
  tgp_refuse_appointments_decision_accept_t: "接受任命"
  tgp_refuse_appointments_decision_desc: "治理并非轻松之事。我真的适合统领如此广袤的土地——做出那些关乎大局的艰难决策吗？也许，是时候辞谢后续任命，安然留在此地了。"

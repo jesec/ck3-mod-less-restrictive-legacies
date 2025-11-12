@@ -51,7 +51,7 @@
  bp1_yearly.1021.c: "편히 잠들기를, [friend.GetFirstNameNoTooltip]."
  #Till the Bitter End
  bp1_yearly.1030.t: "쓰라린 최후"
- bp1_yearly.1030.desc: "\n\n\"하! 지금 네 꼴을 좀 보라지! 이젠 그렇게 무섭지도 않은데? [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC(rival))] [ROOT.Char.Custom2('InsultNoun', SCOPE.sC(rival))], 날 알아보기는 했나? 나다, [rival.GetFirstName]. 운이 따라주는군. 그렇게 오랫동안 네가 무너지는 모습을 꿈꿨는데!\""
+ bp1_yearly.1030.desc: "\n\n\"하! 지금 네 꼴을 좀 보라지! 이젠 그렇게 무섭지도 않은데? [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('rival'))] [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('rival'))], 날 알아보기는 했나? 나다, [rival.GetFirstName]. 운이 따라주는군. 그렇게 오랫동안 네가 무너지는 모습을 꿈꿨는데!\""
  bp1_yearly.1030.desc_nemesis: "\n\n\"아니, 그럴 리가.\" [nemesis.GetSheHe]는 이렇게 대답했다. [nemesis.GetFirstNameNoTooltip](이)가 침상에 가까이 오기 전까지는 두 눈에 번뜩이는 위험한 눈빛조차 알아보지 못했다. 얼굴에 가득 담긴 차가운 미소마저도."
  bp1_yearly.1030.desc_nemesis_guard: "[GetCourtPositionType('bodyguard_court_position').GetName()] [guard.GetFirstName](이)가 방으로 뛰어들었을 때, 난 이미 모든 희망을 잃은 상태였다."
  bp1_yearly.1030.desc_nemesis_no_guard: "움직이려고, 달아나려고, 비명을 지르려고, #EMP 뭐라도#! 해 보려고 온갖 애를 썼다. 하지만 망가진 몸은 내 말을 듣지 않게 된 지 오래였다..."

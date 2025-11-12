@@ -1,10 +1,10 @@
 ﻿l_french:
- tribute_mission_header: "Mission de tribut :"
+ tribute_mission_header: "Mission de tributaire :"
  #Tributary: Fork over Tribute
  tribute_mission_suzerain_legitimacy_gain_title: "Gain de légitimité en raison du tribut"
- tribute_mission_tributary_subject_standing_gain_title: "Gain de [tributary_scope.Custom('SubjectStanding')|l]"
- tribute_mission_tributary_subject_standing_gain_tt_minor: "[tributary_scope.Custom('FR_le_Char_U_Pi')|U][tributary_scope.GetShortUIName|U] a gagné en [tributary_scope.Custom('SubjectStanding')|l]"
- tribute_mission_tributary_subject_standing_gain_tt_major: "[tributary_scope.Custom('FR_le_Char_U_Pi')|U][tributary_scope.GetShortUIName|U] a beaucoup gagné en [tributary_scope.Custom('SubjectStanding')|l]"
+ tribute_mission_tributary_subject_standing_gain_title: "Gain de [tributary_scope.Custom('SubjectStanding')|l][ConcatIfNeitherEmpty(' ',GetPlayer.Custom('SubjectStandingIcon'))]"
+ tribute_mission_tributary_subject_standing_gain_tt_minor: "[tributary_scope.Custom('FR_le_Char_U_Pi')|U][tributary_scope.GetShortUIName|U] a gagné en [tributary_scope.Custom('SubjectStanding')|l][ConcatIfNeitherEmpty(' ',GetPlayer.Custom('SubjectStandingIcon'))]"
+ tribute_mission_tributary_subject_standing_gain_tt_major: "[tributary_scope.Custom('FR_le_Char_U_Pi')|U][tributary_scope.GetShortUIName|U] a beaucoup gagné en [tributary_scope.Custom('SubjectStanding')|l][ConcatIfNeitherEmpty(' ',GetPlayer.Custom('SubjectStandingIcon'))]"
  tribute_mission.1000.t: "$tribute_mission_header$ verser le tribut"
  tribute_mission.1000.intro: "Nous entrons dans la grande salle de [overlord_scope.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip] et sommes accueillis par"
  tribute_mission.1000.intro.overlord: "[overlord_scope.Custom('FR_le_Char_Pi')][overlord_scope.GetTitledFirstName], qui nous signifie majestueusement de nous approcher."
@@ -12,6 +12,7 @@
  tribute_mission.1000.intro.councillor: "[receiving_character.Custom('FR_le_Char_Pi')][receiving_character.GetTitledFirstName], [receiving_character.Custom('CouncilPosition')|l] [overlord_scope.Custom('FR_du_Char_Pi')][overlord_scope.GetTitledFirstNameNoTooltip], qui s’incline et nous signifie de nous approcher."
  tribute_mission.1000.intro.attendant: "un préposé de haut rang [overlord_scope.Custom('FR_du_Char_Pi')][overlord_scope.GetTitledFirstName], qui sourit en s’excusant et nous fait signe de nous approcher."
  tribute_mission.1000.desc.segway: "\n\nSans attendre, je déclare :"
+ tribute_mission.1000.desc.bunga_mas: " « Admirez cette splendeur, un ensemble d’arbres bunga mas de la plus haute qualité, créés uniquement pour [overlord_scope.Custom('FR_le_Char_Pi')][overlord_scope.GetTitledFirstName] ! » La foule écarquille les yeux et plusieurs murmures se font entendre dans la salle."
  tribute_mission.1000.desc.small_gold: " « Permettez-moi de vous présenter un modeste tribut, petit par la taille, mais grand par l’esprit ! » Je m’incline tandis que mes serviteurs apportent de petites boîtes de produits commerciaux."
  tribute_mission.1000.desc.adequate_gold: " « Nous présentons un fantastique tribut qui témoigne de la gratitude pour notre [overlord_scope.Custom('FR_SeigneurDame')] ! » Je souris et hoche la tête lorsque les paniers et urnes sont présentés dans la pièce."
  tribute_mission.1000.desc.excessive_gold: " « Régalez-vous de cette splendeur ! » Je souris fièrement alors que la salle s’ébaudit devant l’opulence du tribut – boîtes, urnes, paniers et statues."
@@ -66,6 +67,8 @@
  tribute_mission.1002.d.tt: "[human_tribute.Custom('FR_le_Char_U_Pi')|U][human_tribute.GetShortUIName] est reconduit[human_tribute.Custom('FR_E')] en [tributary_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTier]"
  #Recipient: What do you get/give?
  tribute_mission.1005.t: "$tribute_mission_header$ le tribut"
+ tribute_mission.1005.t.ai.bunga_mas: "$tribute_mission_header$ [newly_created_bunga_mas.GetNameNoTooltip]"
+ tribute_mission.1005.t.bunga_mas: "$tribute_mission_header$ les fleurs dorées [tributary_scope.Custom('FR_du_Char_Pi')][tributary_scope.GetTitledFirstNameNoTooltip]"
  tribute_mission.1005.t.gold: "$tribute_mission_header$ l’or [tributary_scope.Custom('FR_du_Char_Pi')][tributary_scope.GetTitledFirstNameNoTooltip]"
  tribute_mission.1005.t.herd: "$tribute_mission_header$ le troupeau [tributary_scope.Custom('FR_du_Char_Pi')][tributary_scope.GetTitledFirstNameNoTooltip]"
  tribute_mission.1005.t.concubine: "$tribute_mission_header$ les fleurs [tributary_scope.Custom('FR_du_Char_Pi')][tributary_scope.GetTitledFirstNameNoTooltip]"
@@ -73,6 +76,7 @@
  tribute_mission.1005.t.artifact: "$tribute_mission_header$ les objets [tributary_scope.Custom('FR_du_Char_Pi')][tributary_scope.GetTitledFirstNameNoTooltip]"
  tribute_mission.1005.intro.human_tribute: "[tributary_scope.Custom('FR_le_Char_Pi')|U][tributary_scope.GetTitledFirstName] s’appuie sur un pied puis sur un autre en attendant ma décision et regarde de temps en temps [human_tribute.Custom('FR_le_Char_Pi')][human_tribute.GetTitledFirstName] du coin de l’œil."
  tribute_mission.1005.intro: "[tributary_scope.Custom('FR_le_Char_Pi')|U][tributary_scope.GetTitledFirstName] entre à grands pas dans la grande salle, s’approche de moi comme si de rien n’était et me présente son tribut avec un sourire obséquieux :"
+ tribute_mission.1005.desc.bunga_mas: "\n\nUn arbre aux fleurs dorées ! Cet objet raffiné domine le reste du tribut, insignifiant en comparaison. Ses petites feuilles captent la lumière et semblent émettre une splendeur à la hauteur de la mienne.\n\nJe me ressaisis rapidement, essayant de ne pas trop en montrer, tout en me demandant quelle faveur je dois accorder en échange de ce magnifique cadeau..."
  tribute_mission.1005.desc.small_gold: "\n\nJe fronce les sourcils alors que les serviteurs examinent la poignée de pièces et de bijoux qui constituent ce modeste tribut.\n\nCela ne remplira pas nos coffres, mais au moins, [tributary_scope.Custom('FR_le_Char_Pi')][tributary_scope.GetTitledFirstNameNoTooltip] s’est acquitté[tributary_scope.Custom('FR_E')] de ses obligations tributaires. Maintenant, quelle faveur devrais-je lui accorder en retour..."
  tribute_mission.1005.desc.adequate_gold: "\n\nJe m’assois légèrement devant le tribut respectable ; les métaux et les tissus précieux captent la lumière de temps en temps, brillant légèrement.\n\nPassons maintenant au point suivant : quelle faveur devrais-je lui accorder en retour..."
  tribute_mission.1005.desc.excessive_gold: "\n\nDe l’or, des tissus, des pierres précieuses – une démonstration ostentatoire, mais réjouissante d’opulence m’accueille. Je travaille soigneusement mon expression faciale et m’efforce de ne pas paraître trop impressionné[ROOT.Char.Custom('FR_E')].\n\nC’est parfait. Maintenant, comment récompenser cette générosité..."
@@ -126,6 +130,7 @@
  tribute_mission.3000.intro.councillor: "$tribute_mission.1000.intro.councillor$"
  tribute_mission.3000.intro.attendant: "$tribute_mission.1000.intro.attendant$"
  tribute_mission.3000.desc.segway: "$tribute_mission.1000.desc.segway$"
+ tribute_mission.3000.desc.bunga_mas: "$tribute_mission.1000.desc.bunga_mas$"
  tribute_mission.3000.desc.small_gold: "$tribute_mission.1000.desc.small_gold$"
  tribute_mission.3000.desc.adequate_gold: "$tribute_mission.1000.desc.adequate_gold$"
  tribute_mission.3000.desc.excessive_gold: "$tribute_mission.1000.desc.excessive_gold$"
@@ -154,7 +159,7 @@
  tribute_mission.3000.abstain.innovation.desc: "$tribute_mission.1000.abstain.innovation.desc$"
  tribute_mission.3000.abstain.development.desc: "$tribute_mission.1000.abstain.development.desc$"
  tribute_mission.3000.abstain.monk.desc: "$tribute_mission.1000.abstain.monk.desc$"
- #Recipient: Decide on the human tribute
+ #Recipient: Decide on the human tribute DECOMMISSIONED
  tribute_mission.3002.t: "$tribute_mission.1002.t$"
  tribute_mission.3002.segway: "$tribute_mission.1002.segway$"
  tribute_mission.3002.desc.concubine: "$tribute_mission.1002.desc.concubine$"
@@ -176,7 +181,7 @@
  tribute_mission.3002.c: "$tribute_mission.1002.c$"
  tribute_mission.3002.d: "$tribute_mission.1002.d$"
  tribute_mission.3002.d.tt: "$tribute_mission.1002.d.tt$"
- #Recipient: What do you get/give?
+ #Recipient: What do you get/give? DECOMISSIONED
  tribute_mission.3005.t: "$tribute_mission.1005.t$"
  tribute_mission.3005.t.gold: "$tribute_mission.1005.t.gold$"
  tribute_mission.3005.t.herd: "$tribute_mission.1005.t.herd$"
@@ -217,8 +222,8 @@
  tribute_mission.1007.desc: "Après une pause appuyée, [receiving_character.Custom('FR_le_Char_Pi')][receiving_character.GetTitledFirstName] se lève cérémonieusement. Le scribe impérial, [scribe_character.Custom('FR_le_Char_Pi')][scribe_character.GetTitledFirstName], émerge de la foule à point nommé, portant un $game_concept_seal_of_investiture|l$ élégamment sculpté, sur lequel figure mon nom !\n\n[receiving_character.Custom('FR_le_Char_Pi')|U][receiving_character.GetTitledFirstName] le prend délicatement et me prie de me lever. Le public est très attentif.\n\nAlors que je reçois la bénédiction du Fils du Ciel, une pensée m’assaille : quelles portes cette précieuse alliance va-t-elle ouvrir ?"
  tribute_mission.1007.a: "Cela change tout."
  tribute_mission.1008.t: "$tribute_mission_header$ tribut continu"
- tribute_mission.1008.desc: "Alors que les cadeaux sont échangés lors de la cérémonie, je sens que l’attente monte à la Cour, comme s’il restait encore certaines paroles à prononcer. Bien que cela n’ait jamais été exprimé directement, les attentes à mon égard deviennent peu à peu évidentes.\n\n[receiving_character.Custom('FR_le_Char_Pi')|U][receiving_character.GetTitledFirstNameNoTooltip] souhaite que je promette que ces cadeaux continueront d’arriver, en échange de la bienveillance de [receiving_character.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\nIl est encore temps de refuser honorablement l’offre et de conserver mon indépendance, avec tout ce que cela implique."
- tribute_mission.1008.a: "« ... et, bien sûr, le pays acheminerait régulièrement des cadeaux en [receiving_character.GetCapitalLocation.GetNameNoTooltip]. »"
+ tribute_mission.1008.desc: "Alors que les cadeaux sont échangés lors de la cérémonie, je sens que l’attente monte à la Cour, comme s’il restait encore certaines paroles à prononcer. Bien que cela n’ait jamais été exprimé directement, les attentes à mon égard deviennent peu à peu évidentes.\n\n[receiving_character.Custom('FR_le_Char_Pi')|U][receiving_character.GetTitledFirstNameNoTooltip] souhaite que je promette que ces cadeaux continueront d’arriver, en échange de la bienveillance de [receiving_character.GetLiege.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\nIl est encore temps de refuser honorablement l’offre et de conserver mon indépendance, avec tout ce que cela implique."
+ tribute_mission.1008.a: "« ... et, bien sûr, le pays acheminerait régulièrement des cadeaux en [receiving_character.GetLiege.GetCapitalLocation.GetNameNoTooltip]. »"
  tribute_mission.1008.b: "Le pays ne s’inclinera pas."
  tribute_mission.3006.t: "$tribute_mission.1006.t$"
  tribute_mission.3006.desc: "$tribute_mission.1006.desc$"
@@ -301,3 +306,8 @@
  #MODIFIERS
  suzerain_trade_post_modifier: "Comptoirs du suzerain"
  suzerain_trade_post_modifier_desc: "Ce comté reçoit un afflux constant de marchands en provenance des comptoirs du suzerain."
+ #ARTIFACTS
+ tribute_mission_common_bunga_mas_desc: "Un [Glossary( 'bunga mas', 'BUNGA_MAS_GLOSS' )] présenté comme tribut [overlord_scope.Custom('FR_au_Char_Pi')][overlord_scope.GetTitledFirstName] par [tributary_scope.Custom('FR_le_Char_Pi')][tributary_scope.GetTitledFirstName]."
+ tribute_mission_masterwork_bunga_mas_desc: "Offert au départ comme tribut [overlord_scope.Custom('FR_au_Char_Pi')][overlord_scope.GetTitledFirstName] par [tributary_scope.Custom('FR_le_Char_Pi')][tributary_scope.GetTitledFirstName], ce magnifique ensemble de [Glossary( 'bunga mas', 'BUNGA_MAS_GLOSS' )] capte la lumière de manière spectaculaire."
+ tribute_mission_famed_bunga_mas_desc: "Deux arbres exquis d’or et d’argent, ces [Glossary( 'bunga mas', 'BUNGA_MAS_GLOSS' )] ont été présentés [overlord_scope.Custom('FR_au_Char_Pi')][overlord_scope.GetTitledFirstName] par [tributary_scope.Custom('FR_le_Char_Pi')][tributary_scope.GetTitledFirstName] comme tribut. L’orfèvrerie et les gravures témoignent d’un travail d’excellente qualité."
+ tribute_mission_illustrious_bunga_mas_desc: "Offert comme tribut [overlord_scope.Custom('FR_au_Char_Pi')][overlord_scope.GetTitledFirstName] par [tributary_scope.Custom('FR_le_Char_Pi')][tributary_scope.GetTitledFirstName], le [Glossary( 'bunga mas', 'BUNGA_MAS_GLOSS' )] est un magnifique ensemble d’arbres en or et en argent, méticuleusement forgés et sculptés dans les métaux les plus fins, avec des fleurs figées dans une floraison éternelle."

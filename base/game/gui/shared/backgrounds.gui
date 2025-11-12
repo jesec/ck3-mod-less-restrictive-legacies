@@ -686,15 +686,25 @@ template Background_DropDown
 template Background_Header {
 	texture = "gfx/interface/skinned/color_theme.dds"
 	spriteType = Corneredtiled
-	
+	using = Mask_Rough_Edges
+
 	modify_texture = {
 		texture = "gfx/interface/colors/grey.dds"
-		alpha = 0.2
+		alpha = 0.1
 	}
 
+	# Masks
 	modify_texture = {
 		texture = "gfx/interface/component_masks/mask_header.dds"
 		blend_mode = alphaMultiply
+	}
+
+	# Overlays
+	modify_texture = {
+		texture = "gfx/interface/component_overlay/overlay_noise.dds"
+		blend_mode = overlay
+		spriteType = Corneredtiled
+		spriteborder = { 20 20 }
 	}
 
 	modify_texture = {
@@ -702,16 +712,13 @@ template Background_Header {
 		blend_mode = overlay
 		alpha = 0.3
 	}
-}
-
-template Background_Window_Header {
-	
-	using = Background_Header
 
 	modify_texture = {
-		texture = "gfx/interface/component_masks/mask_fade_horizontal_middle_thick.dds"
-		blend_mode = alphaMultiply
-		alpha = 0.6
+		texture = "gfx/interface/component_overlay/overlay_window.dds"
+		blend_mode = overlay
+		spriteType = Corneredstretched
+		spriteborder = { 0 0 }
+		alpha = 0.7
 	}
 }
 
@@ -720,6 +727,7 @@ template Background_Header_Pattern {
 	alpha = 0.8
 	using = Mask_Rough_Edges
 
+	# Masks
 	modify_texture = {
 		texture = "gfx/interface/component_masks/mask_header.dds"
 		blend_mode = alphaMultiply
@@ -733,19 +741,31 @@ template Background_Header_Pattern {
 	}
 
 	modify_texture = {
+		texture = "gfx/interface/component_masks/mask_fade_horizontal_middle_thick.dds"
+		blend_mode = alphamultiply
+		alpha = 0.4
+	}
+
+	modify_texture = {
+		texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
+		blend_mode = alphamultiply
+		alpha = 0.4
+	}
+
+	# Overlays
+	modify_texture = {
 		texture = "gfx/interface/component_masks/mask_fade_horizontal_middle_solid.dds"
 		blend_mode = overlay
 		alpha = 0.3
 	}
-}
 
-template Background_Window_Header_Pattern {
-		using = Background_Header_Pattern
-
-		modify_texture = {
-			texture = "gfx/interface/component_masks/mask_fade_horizontal_middle_thick.dds"
-			blend_mode = alphaMultiply
-		}
+	modify_texture = {
+		texture = "gfx/interface/component_overlay/overlay_window.dds"
+		blend_mode = overlay
+		spriteType = Corneredstretched
+		spriteborder = { 0 0 }
+		alpha = 0.1
+	}
 }
 
 template Background_Color {

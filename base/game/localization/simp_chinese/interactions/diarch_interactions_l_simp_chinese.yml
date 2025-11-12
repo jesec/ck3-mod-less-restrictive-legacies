@@ -180,7 +180,7 @@
  diarch_demand_despotate_interaction_stake_to_raise_major_value.tt.liege_can_refuse: "#WEAK [recipient.GetShortUIName|U]可以拒绝，因为[recipient.GetSheHe]能支付的[influence|e]两倍于你押上的[EmptyScope.ScriptValue('diarch_demand_despotate_interaction_stake_to_raise_major_inverted_value')|0][influence_i]#!"
  diarch_demand_despotate_interaction_stake_to_raise_medium_value.tt.liege_can_refuse: "#WEAK [recipient.GetShortUIName|U]可以拒绝，因为[recipient.GetSheHe]能支付的[influence|e]两倍于你押上的[EmptyScope.ScriptValue('diarch_demand_despotate_interaction_stake_to_raise_medium_inverted_value')|0][influence_i]#!"
  diarch_demand_despotate_interaction_stake_to_raise_minor_value.tt.liege_can_refuse: "#WEAK [recipient.GetShortUIName|U]可以拒绝，因为[recipient.GetSheHe]能支付的[influence|e]两倍于你押上的[EmptyScope.ScriptValue('diarch_demand_despotate_interaction_stake_to_raise_minor_inverted_value')|0][influence_i]#!"
- scapegoat_counterpart_interaction: "甩锅另一位[actor.GetTopLiege.GetTitleAsNameNoTooltip]"
+ scapegoat_counterpart_interaction: "甩锅共治者"
  scapegoat_counterpart_interaction_desc: "让大家都知道，领地内的所有弊病都是来自于#EMP [recipient.GetFirstNamePossessive]#!——以燃烧[opinion|E]为代价获取[influence_i][influence|E]\n\n#WEAK 你的[diplomacy|E]或[intrigue|E]比对方越高，你获得的$game_concept_influence$越多#!"
  is_in_scapegoating_diarchy_visibility_trigger.tt.explanation: "[scales_of_power|E]对[actor.GetShortUIName]太过有利[SelectLocalization( actor.IsLocalPlayer, 'is_in_scapegoating_diarchy_visibility_trigger.tt.explanation.liege', '' )]"
  is_in_scapegoating_diarchy_visibility_trigger.tt.explanation.liege: "——你无法甩锅另一位统治者，至少要让其拥有权力的幻觉"

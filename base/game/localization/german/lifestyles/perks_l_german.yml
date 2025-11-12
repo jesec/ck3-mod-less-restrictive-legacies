@@ -215,6 +215,7 @@
  SOUVENIRS_APLENTY_SEASONS_EFFECT: "Erhöht die @county_fertility_icon![county_fertility|E] und @control_icon![control|E] in der [domain|E], wenn eine [steppe_season|E] wechselt"
  OF_THE_PEOPLE_EXPLORE_CULTURES_EFFECT: "Erhöht die Auswirkungen der [councillor_task|E] #V $task_kurultai_culture_1$#!"
  task_kurultai_culture_1_of_the_people_bonus_desc: "\n$TAB$[GetPerk('of_the_people_perk').GetName(GetPlayer)|U]: #P [cultural_acceptance_i]-[SCOPE.ScriptValue('kurultai_culture_perk_monthly_increase')|2] %#!"
+ loyalty_and_respect_perk_name_desc: "[perk|E] „[GetPerk('loyalty_and_respect_perk').GetName(GetPlayer)]“"
  a_life_of_glory_perk_radiance: "[GetPerk('a_life_of_glory_perk').GetName(GetPlayer)]"
  absolute_control_perk_radiance: "[GetPerk('absolute_control_perk').GetName(GetPlayer)]"
  honored_to_serve_perk_radiance: "[GetPerk('honored_to_serve_perk').GetName(GetPlayer)]"

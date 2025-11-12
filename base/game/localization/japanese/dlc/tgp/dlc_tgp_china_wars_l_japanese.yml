@@ -16,7 +16,7 @@
  grand_campaign_kingdom_invasion_cb: "[GetTitleByKey('h_china').Custom('OrdinalChineseConquest')][GetTitleByKey('h_china').GetNameNoTierPossessiveNoTooltip]の大軍事作戦"
  GP_KINGDOM_INVASION_WAR_NAME: "$grand_campaign_kingdom_invasion_cb$"
  GP_KINGDOM_INVASION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
- GP_KINGDOM_INVASION_CB_NAME: "$grand_campaign_kingdom_invasion_cb$（[GetGreatProjectType('grand_campaign_project').GetName]の[great_project|E]）"
+ GP_KINGDOM_INVASION_CB_NAME: "$grand_campaign_kingdom_invasion_cb$（[great_project|E]）"
  grand_campaign_kingdom_invasion_cb_victory_desc_attacker: "[attacker.GetTopLiege.GetShortUIName|U]は係争中の[titles|E]を手に入れる。"
  grand_campaign_kingdom_invasion_cb_victory_desc: "[attacker.GetTopLiege.GetShortUIName|U]は係争中の[title|E]を手に入れます。"
  ### CB for neighbors to attempt to seize the mandate of heaven and become hegemon of China

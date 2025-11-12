@@ -94,7 +94,7 @@
  migration_events.1050.a: "[warrior.GetFirstNamePossessiveNoTooltip] 흉포한 맹위는 보상받아 마땅하다."
  migration_events.1050.b: "\"#EMP 나의 전사들이여, 우리가 지나가는 모든 땅을 덮쳐라!#!\""
  migration_events.1050.c: "전리품을 돌려주고 그 주인의 용서를 구한다."
- migration_events.1050.d: "전리품을 내 전사들에게 나누어준다."
+ migration_events.1050.d: "노획물을 내 전사들에게 나누어준다."
  migration_events.1050.e: "[ROOT.Char.GetCurrentLocation.GetTitle.GetNameNoTierNoTooltip]의 전리품을 내 것으로 취한다."
  migration_events.1060.t: "양처럼 천천히"
  migration_events.1060.desc_desert: "내 유목 집단의 동물들이 갈증을 느끼고 있다. 마침 [root_location.GetName](을)를 지나가는 길에 작고 소중한 수원이 나타났다. 우리는 불타는 태양 아래 천천히 걸어갔다."

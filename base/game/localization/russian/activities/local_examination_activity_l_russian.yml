@@ -1,9 +1,9 @@
 ﻿l_russian:
  ### SETUP
- activity_local_examination: "Местный экзамен"
- activity_local_examination_plural: "Местные экзамены"
+ activity_local_examination: "Провинциальный экзамен"
+ activity_local_examination_plural: "Провинциальные экзамены"
  activity_local_examination_destination_selection: "Устроить местный экзамен можно только в [Concept('capital', 'столице')|E]."
- activity_local_examination_selection_tooltip: "Провести #TOOLTIP:ACTIVITY_TYPE,activity_local_examination #L местный экзамен#!#!, чтобы оценить навыки и [Concept('merit', 'заслуги')|E] ваших подданных $activity_local_examination_host_rewards$"
+ activity_local_examination_selection_tooltip: "Провести #TOOLTIP:ACTIVITY_TYPE,activity_local_examination #L провинциальный экзамен#!#!, чтобы оценить навыки и [Concept('merit', 'заслуги')|E] ваших подданных $activity_local_examination_host_rewards$"
  activity_local_examination_desc: "На нас возложена почетная обязанность поддерживать государственное устройство и проводить эти экзамены. С их помощью мы можем оценить, определить и подчеркнуть [Concept('merit', 'заслуги')|E] наиболее подходящих личностей. Все ради будущего процветания державы."
  activity_local_examination_host_desc: "$activity_local_examination_host_rewards$$activity_local_examination_guest_rewards$"
  activity_local_examination_host_rewards: "\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i|E] [prestige|E]"
@@ -15,7 +15,7 @@
  activity_local_examination_expected_frequency: "Ожидается каждый год"
  activity_local_examination_can_complete_tt: "$activity_local_examination_not_available_tt$"
  activity_local_examination_not_available_tt: "#T [GetActivityType( 'activity_local_examination' ).GetNameNoTooltip]#!\nУчастники этого [Concept('activity', 'занятия')|E] могут сдать:\n@provincial_exam_icon! провинциальный экзамен\n\n$activity_local_examination_expected_frequency$"
- activity_local_exam_not_passed_tt: "Вы не сдали местный экзамен"
+ activity_local_exam_not_passed_tt: "Вы не сдали провинциальный экзамен"
  # Province Selection
  activity_local_examination_province_kaifeng_palace_desc: "#P ++ $building_type_kaifeng_palace_01$#!"
  activity_local_examination_province_examination_hall_desc: "#P ++ $building_type_examination_hall_01$#!"

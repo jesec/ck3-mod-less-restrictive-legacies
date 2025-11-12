@@ -95,6 +95,10 @@
  artifact_wall_sword_muhammad_alqadib: "알 카디브로, 무함마드의 집안에 남겨진 것입니다"
  artifact_wall_sword_attila_name: "신의 검"
  artifact_wall_sword_attila_description: "신의 재앙으로 불리는 훈족의 왕, 아틸라의 전설적인 검입니다. 마르스의 검이라는 명칭으로도 유명합니다."
+ artifact_sword_goujian_name: "구천의 검"
+ artifact_sword_goujian: "이 고대의 검은 월왕 구천의 소유였다고 전해집니다. 디자인은 다소 고풍스럽지만 정교한 장인정신이 돋보입니다. 자루 근처에는 금박 글귀가 조충서로 새겨져 있습니다."
+ artifact_sword_goujian_refulgence: "[gujian_sword.GetDesc]\n\n이 검은 구천이 공자의 조언을 구하러 갔을 때 착용했던 \"담로\"라는 이름의 검으로 여겨집니다."
+ artifact_sword_goujian_purity: "[gujian_sword.GetDesc]\n\n이 검은 \"순구\"라는 이름으로 불린 것으로 전해집니다."
  #Animals (used in ArtifactAnimalType)
  animal_type_cat: "고양이"
  animal_type_dog: "개"
@@ -730,15 +734,27 @@
  artifact_scepter_pedestal: "왕홀"
  artifact_wall_icon_court_large: "대형 이콘"
  artifact_wall_icon_court_small: "소형 이콘"
- artifact_wall_sakanoue_sword_name: "반가의 보검"
- artifact_wall_sakanoue_sword_desc: "이 검은 $dynn_Sakanoue$ $Tamuramaro$ 장군이 휘둘렀던 것으로, 황실을 수호한다고 전해집니다. $Tamuramaro$가 사망하자 $Saga_JP$ $king_tenno_male_japanese$에게 바쳐졌습니다."
- artifact_higekiri_sword_name: "히게키리"
+ artifact_pedestal_sakanoue_sword_name: "반가의 보검" #坂家宝剣
+ artifact_pedestal_sakanoue_sword_desc: "이 검은 $dynn_Sakanoue$ $Tamuramaro$ 장군이 휘둘렀던 것으로, 황실을 수호한다고 전해집니다. $Tamuramaro$가 사망하자 $Saga_JP$ $king_tenno_male_japanese$에 의해 황궁에 바쳐졌습니다."
+ artifact_higekiri_sword_name: "히게키리" #髭切
  artifact_higekiri_sword_desc: "일명 '수염을 베는 칼'로 불리는 이 검은 $dynn_Minamoto$ $Mitsunaka$가 히자마루와 함께 제작을 의뢰했으며, $Seiwa$ $dynn_Minamoto$ 가문에 대대로 전해졌습니다."
- artifact_hizamaru_sword_name: "히자마루"
+ artifact_hizamaru_sword_name: "히자마루" #膝丸
  artifact_hizamaru_sword_desc: "이 검은 $dynn_Minamoto$ $Mitsunaka$가 히게키리와 함께 제작을 의뢰했으며, $Seiwa$ $dynn_Minamoto$ 가문에 대대로 전해졌습니다."
- artifact_dojigiri_sword_name: "도지기리"
- artifact_dojigiri_sword_desc: "이 검은 명공 $Yasutsuna_4$가 제작했으며, $Seiwa$ $dynn_Minamoto$ 가문의 $dynn_Nitta$ 분가에 전해졌습니다."
- artifact_mikazuki_munechika_sword_name: "미카즈키"
- artifact_mikazuki_munechika_sword_desc: "일명 '초승달'로 불리는 이 검은 $IchijO_$ $king_tenno_male_japanese$의 치세에 명공 $dynn_SanjO_$ $Munechika_2$가 제작했습니다."
- artifact_odenta_sword_name: "오텐타"
- artifact_odenta_sword_desc: "이 검은 $Shirakawa$ $king_tenno_male_japanese$의 치세에 명공 $Mitsuyo$가 제작했습니다."
+ artifact_dojigiri_sword_name: "도지기리" #童子切
+ artifact_dojigiri_sword_desc: "이 검은 명공 $Yasutsuna_4$가 $dynn_Fujiwara$ $Toshihito$를 위해 제작했으며, $dynn_Fujiwara$ 가문에 전해졌습니다."
+ artifact_mikazuki_munechika_sword_name: "미카즈키" #三日月
+ artifact_mikazuki_munechika_sword_desc: "초승달을 뜻하는 '미카즈키'로 불리는 이 검은 $IchijO_$ $king_tenno_male_japanese$의 치세에 명공 $dynn_SanjO_$ $Munechika_2$가 제작했습니다."
+ artifact_odenta_sword_name: "오텐타" #大典太
+ artifact_odenta_sword_desc: "$Shirakawa$ $king_tenno_male_japanese$의 치세에 명공 $Mitsuyo$가 제작한 검으로, '오오텐타'라는 이름을 갖고 있습니다."
+ artifact_pedestal_hamayumi_bow_name: "하마유미" #破魔弓
+ artifact_pedestal_hamayumi_bow_desc: "$dynn_Minamoto$ $Yorimasa$가 황궁에서 악령을 물리치는 데 사용했다고 전해지는 '마귀를 쏘는 활'입니다."
+ artifact_pedestal_seven_branched_sword_name: "시치시토" #七支刀
+ artifact_pedestal_seven_branched_sword_desc: "달리 '칠지도'라고도 불리며, 칼날에서 일곱 갈래의 불꽃 모양 가지가 뻗은 철제 검입니다. 오래전 백제 왕이 우호의 증표로 $king_tenno_male_japanese$에게 넘겼다는 이야기가 있습니다."
+ artifact_pedestal_gyerimro_dagger_name: "이국의 보검"
+ artifact_pedestal_gyerimro_dagger_desc: "금으로 정교하게 장식되고 보석이 박힌 칼자루와 칼집을 지닌 아름다운 단검으로, 신라 왕실의 보물입니다. 머나먼 서역에서 전해진 것으로 알려져 있습니다."
+ artifact_karakawa_armor_name: "가라카와" #唐皮
+ artifact_karakawa_armor_desc: "정교하게 제작된 대형 오요로이 갑옷 한 벌로, 타이라 가문의 가보입니다. $Kanmu$ $king_tenno_male_japanese$의 조카가 선물한 것으로 전해집니다."
+ artifact_nukemaru_sword_name: "누케마루" #抜丸
+ artifact_nukemaru_sword_desc: "아마테라스가 이세의 사냥꾼에게 내렸다고 전해지는 검입니다. 이후 $dynn_Taira$ $Tadamori$가 구매했으며, 그가 잠에 빠진 사이에 뱀이 다가오자 스스로 칼집에서 빠져나와 주인을 지켰다고 전해집니다."
+ artifact_kogarasumaru_sword_name: "코가라스마루" #小烏丸
+ artifact_kogarasumaru_sword_desc: "도공 아마쿠니가 황실을 위해 단조한 검으로, 그 이름은 '작은 까마귀'를 뜻합니다. 이후 $Suzaku$ $king_tenno_male_japanese$이 죠헤이 덴교의 난에서 공을 세운 $dynn_Taira$ $Sadamori$에게 하사했습니다."

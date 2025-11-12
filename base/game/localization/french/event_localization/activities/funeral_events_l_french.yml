@@ -137,7 +137,7 @@
  funeral.1010.d: "Rien de moins que [illustrious_grave_good.GetNameNoTooltip] n’est digne."
  funeral.1010.e: "N’y pensons plus."
  funeral.1020.t: "[Select_CString(host.IsFemale,'La fausse','Le faux')] [host.GetTitleAsNameNoTooltip|l]"
- funeral.1020.desc: "Le cortège funèbre entoure [host.Custom('FR_le_Char_Pi')][host.GetTitledFirstName], offrant leurs politesses et leurs vœux [host.Custom('FR_AuAla')] soi-disant « [host.GetTitleAsNameNoTooltip|U] ». Aucun d’entre eux ne fait de même à mon égard, malgré mon statut évident.\n\n[deceased.Custom('FR_le_Char_Pi')|U][deceased.GetTitledFirstName] aurait-[deceased.Custom('FR_IlElle')] vraiment voulu que [host.GetFirstNameNoTooltip] lui succède ?"
+ funeral.1020.desc: "Le cortège funèbre entoure [host.Custom('FR_le_Char_Pi')][host.GetTitledFirstName], offrant leurs politesses et leurs vœux [host.Custom('FR_AuAla')] soi-disant[host.Custom('FR_E')] « [host.GetTitleAsNameNoTooltip|l] ». Aucun d’entre eux ne fait de même à mon égard, malgré mon statut évident.\n\n[deceased.Custom('FR_le_Char_Pi')|U][deceased.GetTitledFirstName] aurait-[deceased.Custom('FR_IlElle')] vraiment voulu que [host.GetFirstNameNoTooltip] lui succède ?"
  funeral.1020.c: "[deceased.GetFirstNameNoTooltip] aurait voulu que je [host.Custom('FR_LeLa')] soutienne."
  funeral.1020.a: "Il faut que tout le monde sache ce que je revendique !"
  funeral.1020.b: "Ce n’est pas le moment."

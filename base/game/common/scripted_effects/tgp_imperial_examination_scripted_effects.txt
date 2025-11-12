@@ -1195,6 +1195,7 @@ imperial_examination_clean_up_variables_effect = {
 	remove_variable ?= has_great_score
 	remove_variable ?= has_decent_score
 	remove_variable ?= has_questionable_score
+	remove_variable ?= your_exam_position
 	#Cheats
 	remove_variable ?= has_exam_taker
 	remove_variable ?= has_bribed_examiner
@@ -1972,5 +1973,21 @@ local_examination_grab_nr_of_family_entrants_effect = {
 				add = 1
 			}
 		}
+	}
+}
+
+exam_grab_entrant_position_effect = {
+	scope:activity = {
+		every_attending_character = {
+			limit = {
+				exists = var:imperial_examination_score
+				var:imperial_examination_score >= root.var:imperial_examination_score
+			}
+			add_to_list = exam_position_list
+		}
+	}
+	set_variable = {
+		name = your_exam_position
+		value = list_size:exam_position_list
 	}
 }

@@ -4,7 +4,7 @@
  feast_default_laurence.100.a: "Niech twoje ostrze zatopi się głęboko!"
  feast_default_laurence.100.a.tt.success: "[intent_target.GetTitledFirstName] krwawi niczym składana ofiara"
  feast_default_laurence.100.a.tt.failure: "[intent_target.GetTitledFirstName] wykazuje się niezwykłą przebiegłością"
- feast_default_laurence.100.b: "Na myśl o jego śmierci coś we mnie drga, ale poczekajmy i popatrzmy."
+ feast_default_laurence.100.b: "Na myśl o [intent_target.Custom('PL_jego_jej')] śmierci coś we mnie drga, ale poczekajmy i popatrzmy."
  feast_default_laurence.100.c: "Zapomnij o tych nieroztropnych słowach, ale wiedz, że ja będę to pamiętać."
  feast_default_laurence.101.desc: "Mój gospodarz uczynił, co mógł, by zaserwować wykwintne danie. Choć nie dorównuje ono okazałością wystawnym przysmakom miejsca znanego jako [intent_target.GetCapitalLocation.GetName], doceniam oddanie mojego wasala oraz jego dbałość o okazywanie gościnności.\n\nNagle uświadamiam sobie, że w sali zrobiło się pusto. No tak, strażnicy musieli już wyjść.\n\nCoś mnie zakłuło w boku. Pchła? Coś ciepłego koi swędzenie… Spoglądam w dół, by między żebrami dostrzec rękojeść ostrza. Co ona tam robi?"
  feast_default_laurence.101.a: "Śmierć mnie odnalazła."

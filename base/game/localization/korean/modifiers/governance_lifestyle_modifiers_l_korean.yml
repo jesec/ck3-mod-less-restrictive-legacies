@@ -99,7 +99,7 @@
  stewardship_domain_crown_lands_modifier: "체계적인 여관"
  stewardship_domain_pecuniary_oversight_modifier: "금전상의 실수"
  stewardship_domain_expanded_public_works_modifier: "공공사업 확장"
- stewardship_general_bartering_strategies_modifier: "흥정 전략"
+ stewardship_general_bartering_strategies_modifier: "물물 교환 전략"
  stewardship_general_bartering_strategies_modifier_desc: "어느 정도 무게감 있는 흥정을 할 줄 압니다."
  ### Perks
  county_extorted_modifier: "영지 갈취"

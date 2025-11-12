@@ -74,7 +74,7 @@
  court.6020.d.tt.2: "[court_physician.GetFirstNameNoTooltip] essaie une concoction à base de plantes"
  court.6020.e: "Ce n’est rien de plus qu’une maladie du cerveau. [court_physician.GetFirstNameNoTooltip] ?"
  court.6020.f: "Laissons-[possessed_char.Custom('FR_LeLa')] tranquille."
- court.6020.b.tt: "Avoir #EMP des visions prophétiques#! est considéré comme une grande aide pour un $court_poet_court_position|l$, un $court_musician_court_position|l$ ou un $court_cave_hermit_position|l$"
+ court.6020.b.tt: "Avoir #EMP des visions prophétiques#! est considéré comme une grande aide pour un $court_poet_court_position|l$, un $court_musician_court_position|l$ ou un $cave_hermit_court_position|l$"
  court_6020_all_courtiers_and_guests_christian: "Tous les [courtiers|El] et [guests|El] de votre religion"
  court_6020_all_courtiers_or_guests_polith: "Tous les autres [courtiers|El] et [guests|El] non cyniques"
  #The Ballad of the Garlic King

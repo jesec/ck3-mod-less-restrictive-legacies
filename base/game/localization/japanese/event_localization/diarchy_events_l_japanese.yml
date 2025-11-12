@@ -10,8 +10,8 @@
  diarch_coup_unequal_truce_for_usurper: "$diarch_coup_unequal_truce_for_liege$"
  ##################################################
  ##Notifications
- diarchies.0000.diarch_fulfills_mandate.t: "[liege.GetDiarchTitle|U]は[mandate|E]を促進する"
- diarchies.0000.diarch_fails_at_mandate.t: "[liege.GetDiarchTitle|U]は[mandate|E]の促進に失敗する"
+ diarchies.0000.diarch_fulfills_mandate.t: "[liege.GetDiarchTitle|U]は委任を推進する"
+ diarchies.0000.diarch_fails_at_mandate.t: "[liege.GetDiarchTitle|U]は委任の推進に失敗する"
  diarchies.0000.diarch_skims_mandate.t: "[liege.GetDiarchTitle|U]は[mandate|E]を悪用する"
  diarchies.0000.diarch_fails_to_skim_mandate.t: "[liege.GetDiarchTitle|U]は[mandate|E]の悪用に失敗する"
  diarchies.0000.diarch_rejects_mandate.t: "[personality_trait|E]のため、[liege.GetDiarchTitle|U]は[mandate|E]を拒絶する"

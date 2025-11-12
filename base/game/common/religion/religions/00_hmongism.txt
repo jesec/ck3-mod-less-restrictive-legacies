@@ -213,7 +213,7 @@
 			reformed_icon = dab_qhuas_reformed
 
 			holy_site = haripunjaya
-			holy_site = c_nguu_hong
+			holy_site = nguu_hong
 			holy_site = anlong
 			holy_site = yangtze
 			holy_site = zunyi

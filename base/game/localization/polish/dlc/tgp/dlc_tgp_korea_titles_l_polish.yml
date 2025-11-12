@@ -6,6 +6,8 @@
  c_nf_park_juksan_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_park_milyang: "$c_nf_korea_suffix$ Milseong $dynn_Bak_6734$"
  c_nf_park_milyang_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ c_nf_park_pyeongsan: "$c_nf_korea_suffix$ Pyeongsan $dynn_Bak_6734$"
+ c_nf_park_pyeongsan_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_park_silla: "$c_nf_korea_suffix$ Gyeongju $dynn_Bak_6734$"
  c_nf_park_silla_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  # BOK - 복
@@ -56,6 +58,8 @@
  c_nf_gim_gyeongju_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_gim_silla: "$c_nf_korea_suffix$ Gyeongju $dynn_Gim_91D1$"
  c_nf_gim_silla_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ c_nf_gim_ulleong: "$c_nf_korea_suffix$ Ulleong $dynn_Gim_91D1$"
+ c_nf_gim_ulleong_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_gim_yeonggwang: "$c_nf_korea_suffix$ Yeonggwang $dynn_Gim_91D1$"
  c_nf_gim_yeonggwang_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  # GO - 경
@@ -148,3 +152,6 @@
  # YANG - 양
  c_nf_yang_balhae: "$c_nf_korea_suffix$ Seoggyeong $dynn_Yang_6881$"
  c_nf_yang_balhae_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ # SONG - 송
+ c_nf_song: "$c_nf_korea_suffix$ Ulju $dynn_Song_5B8B_KO$"
+ c_nf_song_article: "$DEFAULT_TITLE_NAME_ARTICLE$"

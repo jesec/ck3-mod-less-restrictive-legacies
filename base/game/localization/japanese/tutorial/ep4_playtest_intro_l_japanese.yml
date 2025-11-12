@@ -1,15 +1,4 @@
 ﻿l_japanese:
- ### JAPAN
- lesson_tgp_playtest_intro_japan_step_government: "政府"
- lesson_tgp_playtest_intro_japan_step_government_desc: "日本は、純粋な[feudal|E]や[administrative|E]の[realm|E]ではありません。\n\n[vassals|E]は[ritsuryo_i] [ritsuryo|E]制または[soryo_i] [soryo|E]制の[government|E]を持ち、これは朝廷の官僚と地方の武士の分裂を表しています。\n\n日本の[vassals|E]は通常、1つの[county|E]のみを統治します。\n\n#I 日本政府に関する情報は、「政府行政」パネルで確認できます。#!"
- lesson_tgp_playtest_intro_japan_step_emperor_and_regent: "天皇と摂政"
- lesson_tgp_playtest_intro_japan_step_emperor_and_regent_desc: "本作における日本の実際の統治者は[japanese_emperor|E]（[tenno|E]）では#BOLD ありません#!。\n\nゲーム開始時は[kampaku|E]が日本を統治し、天皇は象徴的な存在として登場します。\n\n[ritsuryo|E]制の統治者は次の[kampaku|E]の座をめぐって争うことができますが、[soryo|E]制の統治者は#V $replace_ceremonial_regent_faction_name$#![faction|E]を介してのみ権力を握ることができます。\n\n天皇は直接統治は行いませんが、自身の[japanese_manor|E]を持ち、[kampaku|E]を任命し、[cloistered_emperor|E]として統治することができます。\n\n日本の統治者は誰であれ、帝国全体に影響を与える[imperial_policy|E]の[law|E]を定めることができます。"
- lesson_tgp_playtest_intro_japan_step_house_aspirations: "一族の野望"
- lesson_tgp_playtest_intro_japan_step_house_aspirations_desc: "日本のすべての[houses|E]は[house_aspiration|E]を持っています。\n\nこの特性は$game_concept_house$に所属する者すべてに影響を与え、[house_head|E]によって徐々に向上可能です。\n\n#I 「$ADMINISTRATIVE_GOVERNMENT_HEADER$」パネルから$game_concept_house_aspiration$を確認したり、アップグレードしたりできます#!"
- lesson_tgp_playtest_intro_japan_step_blocs: "氏族陣営"
- lesson_tgp_playtest_intro_japan_step_blocs_desc: "あなたの[house|E]は[houses|E]の防衛同盟である[house_bloc|E]に所属しています。\n\n$game_concept_house_bloc$の加盟者たちは通常同じ[house_aspiration|E]を持ち、良好な[house_relations|E]を保っています。そうでない場合、[bloc_cohesion|E]が下がり、[leading_house|E]が問題となっている$game_concept_houses$を$game_concept_bloc$から追放する可能性があります。\n\n#I ハイライトされたボタンをクリックすれば、$game_concept_bloc$の状態を確認することができます。#!"
- lesson_tgp_playtest_intro_japan_step_end: "日本"
- lesson_tgp_playtest_intro_japan_step_end_desc: "日本の政界では、常に2つの勢力が争っています。自分の[house|E]をうまく動かせば、あなたが日本の未来を決めることになるでしょう。"
  ### MANDALA
  action_lesson_tgp_playtest_intro_mandala: "マンダラ制政府"
  action_lesson_tgp_playtest_intro_mandala_desc: "マンダラ制政府は敬虔さと諸侯が重視される特殊な政府です。ここからこの政府のチュートリアルを確認しましょう。"

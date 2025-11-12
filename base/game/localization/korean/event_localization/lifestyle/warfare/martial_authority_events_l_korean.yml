@@ -67,7 +67,7 @@
  martial_authority_special.1100.c: "선례를 만들어줘야겠군."
  martial_authority_special.1100.d: "빠져나가 병사의 생각을 그대로 실행한다."
  martial_authority_special.1101.desc: "훈련이 성과를 보였다. 나는 얼마 안 있어 [officer.GetTitledFirstName](을)를 완전히 제압해버렸다. \"이걸 교훈으로 삼도록.\" 모두에게 들리도록 나는 크게 말했다. \"여러분의 [ROOT.Char.GetTitleTierName]께서는 꽉 막힌 멍청이들에겐 친절하지 않거든. 계급에 상관 없이 말이다.\""
- martial_authority_special.1101.end.desc: "\n\n병사가 활짝 웃으며 감사를 표했다. \"감사합니다, [ROOT.Char.Custom('FormOfAddressForLiege')]. 저 [soldier_friend.GetFirstName] [soldier_friend.GetDynastyName](은)는 누구보다도 신실히 주군을 섬길 것입니다.\""
+ martial_authority_special.1101.end.desc: "\n\n병사가 활짝 웃으며 감사를 표했다. \"감사합니다, [ROOT.Char.Custom('FormOfAddressForLiege')]. 저 [soldier_friend.GetFullNameNoTooltip](은)는 누구보다도 신실히 주군을 섬길 것입니다.\""
  martial_authority_special.1101.a: "[soldier_friend.GetFirstNamePossessiveNoTooltip] 전략을 차용한다."
  martial_authority_special.1101.b: "전투 자체에 대한 지식을 쌓기 위해 전략에 대한 토론을 한다."
  martial_authority_special.1102.desc: "지휘관을 공격하면 어떻게 되는지 알기에 병사는 가만히 맞고만 있었다. 병사가 피를 흘리기 시작하자 나는 둘 사이를 갈라섰다.\n\n경험 많은 전사와 개싸움을 하는 멍청한 짓은 하지 않았어야 했다. 결국 [officer.GetTitledFirstName]에게 내 정체를 밝히고 이제 그만 보내 달라고 해야만 했다. 소문이 퍼지기 전에 나는 몰래 천막으로 돌아갔다..."

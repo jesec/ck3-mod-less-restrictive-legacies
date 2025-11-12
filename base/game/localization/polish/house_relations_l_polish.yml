@@ -19,7 +19,7 @@
  default_house_relation_level_cordial_desc: "#F Ziarna przyjaźni sieje się wspólnie#!\n"
  default_house_relation_level_friendly: "Przyjacielskość"
  default_house_relation_level_friendly_desc: "#F Ziarna przyjaźni zakwitły i wydały owoce#!\n"
- default_house_relation_level_amity: "Wierni"
+ default_house_relation_level_amity: "Wierność"
  default_house_relation_level_amity_desc: "#F Czas pokazał, że więzy stworzone dawno temu są nierozerwalne#!\n"
  # Change reasons
  default_house_relation_change_reason_marriage: "Małżeństwo osób znanych jako [the_one.GetName] i [the_other.GetName]"
@@ -100,7 +100,7 @@
  house_relation_reason_feud_raid_estate: "Majątek osoby, którą jest [house_feud_victim.GetFirstName], został najechany przez osobę o imieniu [house_feud_attacker.GetFirstName]"
  house_relation_reason_feud_stolen_herd: "Osoba znana jako [house_feud_attacker.GetFirstName] ukradła stado osoby o imieniu [house_feud_victim.GetFirstName]"
  # Effects
- clear_house_relation_third: "Kończy [house_relation|El]: [HOUSE_RELATION.GetName()|l]"
+ clear_house_relation_third: "Kończy [Concept('house_relation', 'relację międzyrodową')|E]: [HOUSE_RELATION.GetName()|l]"
  # Parameters
  house_relation_parameter_may_use_eradicate_cb: "Odblokowuje [casus_belli|El] „[GetCasusBelliType('eradicate_house_cb').GetName|V]”"
  house_relation_parameter_less_likely_war_target: "#P Zmniejszone#! prawdopodobieństwo wypowiadania [Concept('wars', 'wojen')|E]"
@@ -136,3 +136,4 @@
  house_relation_damaged_minor_desc: "[houses|E] [CHARACTER.GetHouse.GetName] i [TARGET_CHARACTER.GetHouse.GetName] stają się wobec siebie #N nieco bardziej wrogie#!"
  house_relation_damaged_medium_desc: "[houses|E] [CHARACTER.GetHouse.GetName] i [TARGET_CHARACTER.GetHouse.GetName] stają się wobec siebie #N bardziej wrogie#!"
  house_relation_damaged_major_desc: "[houses|E] [CHARACTER.GetHouse.GetName] i [TARGET_CHARACTER.GetHouse.GetName] stają się wobec siebie #N znacznie bardziej wrogie#!"
+ house_relation_your_relation_with: "Relacja twojego [Concept('house', 'rodu')|E] z rodem [DynastyHouse.GetName]"

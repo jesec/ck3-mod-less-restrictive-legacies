@@ -99,7 +99,7 @@
  #Rogue Administration by Jason Cantalini
  stewardship_wealth.7000.t: "不正な行政"
  stewardship_wealth.7000.desc: "私の$knight_culture_player_no_tooltip_lowercase$[enforcer.GetTitledFirstName]は、自己満足の儀式を終えると、膨らんだ袋を私の前にドスンと置く。\n\n「見てください」と[enforcer.GetSheHe]が言う。\n\n私は袋の中身を取り出す。貴金属、家宝、装身具。\n\n「[victim.GetTitledFirstNamePossessive]の平民の一部を#EMP 説得#!しました」と[enforcer.GetFirstNameNoTooltip]は笑う。「平民の税金は主君であるあなたのものです。」\n\n何たる棚ぼた！[victim.GetTitleAsNamePossessiveNoTooltip]の忌まわしい顔に憤怒の表情が浮かぶ様子が想像できて、さらに良い。"
- stewardship_wealth.7000.a: "[victim.Custom2('InsultAdjective', ROOT.Char)] [victim.GetFirstNameNoTooltip]の辛さたるや！"
+ stewardship_wealth.7000.a: "[victim.Custom2('InsultAdjective', ROOT.Char)][victim.GetFirstNameNoTooltip]の辛さたるや！"
  stewardship_wealth.7000.b: "この強制取り立ては正当化できる。"
  stewardship_wealth.7000.b.tt: "責任転嫁、真実の混乱、微々たる還付...暴政の非難を和らげるためなら何でも"
  stewardship_wealth.7000.c: "この富を受け取れ。そしてもっとたくさん私に持って来い。"

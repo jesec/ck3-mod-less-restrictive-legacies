@@ -117,7 +117,7 @@
  bp2_yearly.2021.c: "#EMP ここまでだ#!、[ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]！"
  #Murder Successful
  bp2_yearly.2022.t: "$bp2_yearly.2020.t$"
- bp2_yearly.2022.desc: "「#EMP よくやった、[ROOT.Char.GetFirstNameNoTooltip]#!…」\n\n「上出来だ、我が友よ」[ROOT.Char.Custom2( 'RelationToMeShort', target )]である[target.GetFirstName]を殺すことに成功した私を、[ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]が祝福した。\n\n「すべてあの[target.Custom2('InsultAdjective', ROOT.Char)] [target.Custom2('InsultNoun', ROOT.Char)]の自業自得だ。君と私は#EMP 最高の#!チームだね」[ROOT.Char.Custom('GetSheHeOpposite')] が続けた。「ほら、気分が良くなっただろう？私が約束した通りだ…」\n\n"
+ bp2_yearly.2022.desc: "「#EMP よくやった、[ROOT.Char.GetFirstNameNoTooltip]#!…」\n\n「上出来だ、我が友よ」[ROOT.Char.Custom2( 'RelationToMeShort', target )]である[target.GetFirstName]を殺すことに成功した私を、[ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]が祝福した。\n\n「すべてあの[target.Custom2('InsultAdjective', ROOT.Char)][target.Custom2('InsultNoun', ROOT.Char)]の自業自得だ。君と私は#EMP 最高の#!チームだね」[ROOT.Char.Custom('GetSheHeOpposite')]が続けた。「ほら、気分が良くなっただろう？私が約束した通りだ…」\n\n"
  bp2_yearly.2022.desc.next_target: "「でも、ぐずぐずしてはいられない。楽しいことはまだあるんだ。[new_murder_target.GetFirstName]は#EMP もう殺しても良い頃合いだ…#!」"
  bp2_yearly.2022.a: "すごく…#EMP 良い気分だった#!。"
  bp2_yearly.2022.b: "やめろ！頼むからもう消えてくれ…"

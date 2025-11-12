@@ -846,15 +846,12 @@ career_score_major_base_value = 100
 
 career_score_minor_total_value = {
 	value = career_score_minor_base_value
-	multiply = career_score_actor_multiplier_value
 }
 career_score_medium_total_value = {
 	value = career_score_medium_base_value
-	multiply = career_score_actor_multiplier_value
 }
 career_score_major_total_value = {
 	value = career_score_major_base_value
-	multiply = career_score_actor_multiplier_value
 }
 career_score_actor_multiplier_value = {
 	# 100% is the default
@@ -1101,3 +1098,6 @@ poet_trait_provides_candidate_score_1_value = 0.25
 poet_trait_provides_candidate_score_2_value = 0.5
 poet_trait_provides_candidate_score_3_value = 0.75
 poet_trait_provides_candidate_score_4_value = 1
+
+candidate_pool_ducal_conquest_perk_score_value = 20
+candidate_pool_loyalty_and_respect_perk_score_value = 15

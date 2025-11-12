@@ -47,6 +47,7 @@ any_hooked_character_all = {
 #CLAIMANT
 any_claimant = {
 	global = ANY_CLAIMANT
+	global_not = NOT_ANY_CLAIMANT
 }
 any_claimant_all = {
 	global = ALL_CLAIMANTS

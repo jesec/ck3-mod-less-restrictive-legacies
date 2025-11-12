@@ -136,3 +136,4 @@
  house_relation_damaged_minor_desc: "Las [houses|lE] [CHARACTER.GetHouse.GetName] y [TARGET_CHARACTER.GetHouse.GetName] se vuelven #N ligeramente más hostiles#!"
  house_relation_damaged_medium_desc: "Las [houses|lE] [CHARACTER.GetHouse.GetName] y [TARGET_CHARACTER.GetHouse.GetName] se vuelven #N más hostiles#!"
  house_relation_damaged_major_desc: "Las [houses|lE] [CHARACTER.GetHouse.GetName] y [TARGET_CHARACTER.GetHouse.GetName] se vuelven #N mucho más hostiles#!"
+ house_relation_your_relation_with: "La relación de tu [house|El] con la casa [DynastyHouse.GetName]"

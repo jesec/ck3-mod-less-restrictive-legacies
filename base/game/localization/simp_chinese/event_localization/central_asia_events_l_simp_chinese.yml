@@ -4,7 +4,7 @@
  central_asia.0001.a: "我的征服自此而始。"
  central_asia.0001.mongol_invasion_cb: "我可以使用[mongol_invasion_casus_belli|E]"
  central_asia.0002.t: "成吉思汗"
- central_asia.0002.desc: "我被我的领主召来参加大忽里勒台，国内每一个氏族首领和封臣都汇聚于此。我们都知道为何，并在烟雾缭绕的穹庐内进行了整夜的商议，其间没有产生任何怀疑。[genghis_khan.GetFirstName]·[genghis_khan.GetDynastyName]就是世界的[genghis_khan.GetLadyLord]——成吉思汗。\n\n没有任何加冕典礼，谁又有资格评判[genghis_khan.GetHerHim]呢？相反，[genghis_khan.GetSheHe]只在[genghis_khan.GetHerHis]军队前发表了一段宣言。\n\n“今日我们将出发去征服所有苍天之下的土地！”"
+ central_asia.0002.desc: "我被我的领主召来参加大忽里勒台，国内每一个氏族首领和封臣都汇聚于此。我们都知道为何，并在烟雾缭绕的穹庐内进行了整夜的商议，其间没有产生任何怀疑。[genghis_khan.GetFullNameNoTooltip]就是世界的[genghis_khan.GetLadyLord]——成吉思汗。\n\n没有任何加冕典礼，谁又有资格评判[genghis_khan.GetHerHim]呢？相反，[genghis_khan.GetSheHe]只在[genghis_khan.GetHerHis]军队前发表了一段宣言。\n\n“今日我们将出发去征服所有苍天之下的土地！”"
  central_asia.0002.a: "世界会在我们的面前颤抖！"
  central_asia.0003.desc: "信使给我们带来的消息称，大草原上有了一位新的统治者，自号“成吉思汗”，自称是全世界的统治者。骑手和武士们组成了一支上下一心的军队，奔涌如流水，降伏那些不肯屈膝的敌人。\n\n这些当然是很荒谬的说法，不过也有消息传来，说是许多伟大的城市在一位邪恶征服者面前相继陨落……"
  central_asia.0003.a.distant: "事态用不了多久就会平息下来的。"

@@ -209,8 +209,8 @@
  travel_events.2013.e: "Bedauerlicherweise haben wir es eilig."
  #Visit a logging camp - Burn off some stress chopping wood
  travel_events.2014.t: "Zack, zack"
- travel_events.2014.desc: "Der massive Holzklotz in der Mitte des Holzfällerlagers von [ROOT.Char.GetCurrentLocation.GetName] ist schon oft benutzt worden. Er sieht aus, als wäre er immer da gewesen und hätte dort schon gestanden, noch ehe der erste Mensch diese Erde betrat.\n\nMeine Schultern sind angespannt und mein Unterarm zittert leicht vor aufgestauter Erregung, als ich mich dem prächtigen Holzstamm nähere.\n\nIch lege vorsichtig ein Stück ausrangiertes Bauholz auf das kleine Podest und hebe meine Axt in einer flüssigen Bewegung."
- travel_events.2014.a: "#EMP Huraagh!#!"
+ travel_events.2014.desc: "Der massive Hackblock in der Mitte des Holzfällerlagers von [ROOT.Char.GetCurrentLocation.GetName] wurde schon viel genutzt. Er sieht aus, als wäre er schon immer hier gewesen, bereits bevor die Menschen auf der Erde wandelten.\n\nUm mich herum schuften Arbeiter, glänzend vor Schweiß und in erhabener Pracht, und obgleich sie von niederer Geburt sind, scheinen sie frei von der Last der Welt zu sein.\n\nIch blicke auf die Spaltaxt, die aufrecht in dem riesigen Stumpf steckt. Meine Schultern sind angespannt und tragen eine schwere Bürde – und sie flehen nach einer Gelegenheit zur Entlastung."
+ travel_events.2014.a: "Ich greife den Schaft und #EMP Hurrargh!#!"
  travel_events.2014.a_flavor: "Nimm #EMP das#!, Anspannung!"
  travel_events.2014.a_stress_tt: "Anspannung abgebaut"
  travel_events.2014.a_great_stress_desc: "Ihr verringert Eure Anspannung erheblich"

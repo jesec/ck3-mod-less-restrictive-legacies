@@ -267,7 +267,7 @@
  festival.103.b: "“请展示你的才华吧，[target_character.GetTitledFirstNameNoTooltip]。”"
  festival.103.c: "#EMP 我的#!朋友们才艺更出众。"
  friend_defended_talents: "[CHARACTER.GetShortUIName|U]在祭典上支持了[TARGET_CHARACTER.GetShortUINamePossessive|U]傲慢的宣称。"
- friend_defended_talents_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive|U]傲慢的宣称在祭典上得到了[TARGET_CHARACTER.GetShortUINamePossessive|U]的支持。"
+ friend_defended_talents_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive|U]傲慢的宣称在祭典上得到了[CHARACTER.GetShortUIName|U]的支持。"
  festival.103.b.success: "[target_character.GetTitledFirstName]被迫屈服了"
  festival.103.b.failure: "[target_character.GetTitledFirstName]对你的挑战不以为意"
  festival.103.b.success.toast: "[target_character.GetTitledFirstName]匆忙退走"

@@ -67,7 +67,7 @@
  martial_authority_special.1100.c: "На их примере я преподам урок всем остальным."
  martial_authority_special.1100.d: "Незаметно удалиться и присвоить идею солдата себе."
  martial_authority_special.1101.desc: "Мои навыки пригодились мне. Всего мгновение — и [officer.GetTitledFirstName] уже у меня в захвате. «Пусть это послужит вам уроком, — громко объявляю я, чтобы все могли слышать. — [ROOT.Char.GetTitleTierName] не одобряет тех, кто не видит дальше своего носа. Вне зависимости от звания»."
- martial_authority_special.1101.end.desc: "\n\nСолдат кланяется в знак признательности: «Спасибо, [ROOT.Char.Custom('FormOfAddressForLiege')]. У вас не будет слуги более верного, чем [soldier_friend.GetFirstName] [soldier_friend.GetDynastyName]»."
+ martial_authority_special.1101.end.desc: "\n\nСолдат кланяется в знак признательности: «Спасибо, [ROOT.Char.Custom('FormOfAddressForLiege')]. У вас не будет слуги более верного, чем [soldier_friend.GetFullNameNoTooltip]»."
  martial_authority_special.1101.a: "Принять стратегию, что предлагает [soldier_friend.GetFirstNameNoTooltip]."
  martial_authority_special.1101.b: "Обсудить стратегию, чтобы побольше узнать о военном деле."
  martial_authority_special.1102.desc: "Зная, что ждет поднявшего руку на командира, солдат даже не пытается защищаться от ударов. И когда проливается кровь, я встаю между ними.\n\nВозможно, следовало дважды подумать, прежде чем лезть в драку с опытным воином. В конечном счете мне приходится назвать свое имя, чтобы [officer.GetTitledFirstName] [Select_CString(officer.IsFemale, 'отпустила', 'отпустил' )] меня. Я тайком пробираюсь в свою палатку, пока новость не разлетелась по всему лагерю..."

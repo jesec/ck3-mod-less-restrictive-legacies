@@ -160,7 +160,7 @@
  loyalty_and_respect_perk_name: "忠誠と尊敬"
  chivalric_dominance_perk_name: "騎士の支配"
  never_back_down_perk_name: "不撓不屈"
- kingsguard_perk_name: "王の近衛兵"
+ kingsguard_perk_name: "近衛兵"
  peacemaker_perk_name: "調停者"
  gallant_perk_name: "勇士"
  #Wanderer Tree
@@ -215,6 +215,7 @@
  SOUVENIRS_APLENTY_SEASONS_EFFECT: "[steppe_season|E]が変わる度に、[domain|E]の@county_fertility_icon! [county_fertility|E]と@control_icon! [control|E]が変化する"
  OF_THE_PEOPLE_EXPLORE_CULTURES_EFFECT: "[councillor_task|E]「#V $task_kurultai_culture_1$#!」の効果を高める"
  task_kurultai_culture_1_of_the_people_bonus_desc: "\n$TAB$[GetPerk('of_the_people_perk').GetName(GetPlayer)]：#P [cultural_acceptance_i]-[SCOPE.ScriptValue('kurultai_culture_perk_monthly_increase')|2]%#!"
+ loyalty_and_respect_perk_name_desc: "[GetPerk('loyalty_and_respect_perk').GetName( GetPlayer )]の[perk|E]"
  a_life_of_glory_perk_radiance: "[GetPerk('a_life_of_glory_perk').GetName(GetPlayer)]"
  absolute_control_perk_radiance: "[GetPerk('absolute_control_perk').GetName(GetPlayer)]"
  honored_to_serve_perk_radiance: "[GetPerk('honored_to_serve_perk').GetName(GetPlayer)]"

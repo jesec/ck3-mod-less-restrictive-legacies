@@ -607,9 +607,9 @@ world_asia_southeast_mainland = {
 }
 world_asia_thailand = {
 	duchies = {
-		d_tengchong d_hai_dong d_nghe_an d_lam_tay d_thang_long d_ratanakiri d_mongnai d_sipsongpanna d_haripunjaya d_lop_buri d_sukhothai d_mukdahan 
-		d_muang_sua d_baigaur d_vyadhapura d_angkor d_vijaya d_indrapura d_dali d_yongchang
-		d_angkor_borey d_huichuan d_phonsavan
+		d_mongnai d_sipsongpanna d_haripunjaya d_lop_buri d_sukhothai d_mukdahan d_muang_sua d_yongchang d_phonsavan d_nghe_an
+		#Malaysia
+		d_MAL_langkasuka d_MAL_pahang d_tun_sun
 	}
 }
 world_asia_malaysia = {
@@ -666,6 +666,7 @@ custom_panda_region = {
 		k_xichuan k_xingyuan
 	}
 }
+
 custom_dynastic_cycle = {
 	regions = {
 		world_asia_china
@@ -1318,6 +1319,11 @@ custom_aragonese = {
 		d_aragon
 	}
 }
+custom_ryukyu = {
+	duchies = {
+		d_ruucuu
+	}
+} 
 custom_navarra = {
 	duchies = {
 		d_navarra d_viscaya

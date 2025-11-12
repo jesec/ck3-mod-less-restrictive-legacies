@@ -108,7 +108,7 @@
  ep2_wedding.0204.a.tt.success.host: "[murder_victim.GetShortUIName] muere"
  ep2_wedding.0204.a.tt.failure.host: "[murder_victim.GetShortUIName] sobrevive"
  ep2_wedding.0204.a.spouse_2_murder.tt: "[spouse_2.GetShortUIName] muere"
- ep2_wedding.0957.opening: "[ROOT.Char.Custom('ES_AlAla')|U] [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC(avenging_family))] [ROOT.Char.Custom('ES_DelDela')] [ROOT.Char.GetTitledFirstNameNoTooltip|l],"
+ ep2_wedding.0957.opening: "[ROOT.Char.Custom('ES_AlAla')|U] [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('avenging_family'))] [ROOT.Char.Custom('ES_DelDela')] [ROOT.Char.GetTitledFirstNameNoTooltip|l],"
  ep2_wedding.0957.desc.parent: "Puse a mi hij[spouse_2.Custom('ES_OA')] a vuestro cuidado, y no fuisteis capaz de proteger[spouse_2.Custom('ES_LoLa')].$ep2_wedding.0957.desc_ending$"
  ep2_wedding.0957.desc: "Se puso a mi querid[spouse_2.Custom('ES_OA')] [avenging_family.Custom2('RelationToMeShort', SCOPE.sC('spouse_2'))] bajo vuestra protección, ¿y así es cómo [spouse_2.Custom('ES_LoLa')] vigiláis?$ep2_wedding.0957.desc_ending$"
  ep2_wedding.0957.desc_ending: "\n\nMis ojos se llenan de lágrimas por la pérdida, pero mi corazón solo alberga odio.\n\nTendrán su merecido, de una forma u otra."

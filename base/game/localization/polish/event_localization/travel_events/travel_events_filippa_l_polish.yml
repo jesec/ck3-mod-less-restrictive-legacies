@@ -209,8 +209,8 @@
  travel_events.2013.e: "Niestety spieszy nam się."
  #Visit a logging camp - Burn off some stress chopping wood
  travel_events.2014.t: "Ciach, ciach"
- travel_events.2014.desc: "Ogromny kloc wykorzystywany do rąbania drewien pośrodku obozu drwali w miejscu nazwie [ROOT.Char.GetCurrentLocation.GetName] wiele przeszedł. Można odnieść wrażenie, że stał tu od zawsze, zanim jeszcze pojawili się pierwsi osadnicy.\n\nRamiona mam napięte od stresu. Z lekko drżącym przedramieniem zbliżam się do wspaniałego drewnianego pnia.\n\nOstrożnie kładę na niego kawałek drewna i jednym szybkim ruchem unoszę topór."
- travel_events.2014.a: "#EMP Haaaaaa!#!"
+ travel_events.2014.desc: "Ogromny pieniek pośrodku osady drwali w miejscu znanym jako [ROOT.Char.GetCurrentLocation.GetName] jest mocno sfatygowany. Wygląda, jakby stał tu od zawsze – jeszcze zanim na tej ziemi pojawił się człowiek.\n\nWszędzie wokół pracują ciężko oblepieni potem robotnicy, i chociaż są niskiego urodzenia, wydają się nieświadomi ciężaru świata.\n\nPatrzę na siekierę wbitą pionowo w gigantyczny pień. Moje napięte ramiona, obciążone stresem, błagają o okazję, by dać ujście emocjom."
+ travel_events.2014.a: "Chwytam za trzonek i #EMP hurra!#!"
  travel_events.2014.a_flavor: "A #EMP masz#!, stresie!"
  travel_events.2014.a_stress_tt: "Poziom stresu zredukowany"
  travel_events.2014.a_great_stress_desc: "Udaje ci się znacznie zmniejszyć poziom stresu"

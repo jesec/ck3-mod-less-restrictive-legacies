@@ -350,11 +350,13 @@ creation_children_trigger = {
 }
 
 creation_first_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 01 }
 	creation_children_trigger = yes
 }
 
 creation_second_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 02 }
 	creation_children_trigger = yes
 	custom_tooltip = {
@@ -371,6 +373,7 @@ creation_second_tier_trigger = {
 }
 
 creation_third_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 03 }
 	creation_children_trigger = yes
 	custom_tooltip = {
@@ -401,6 +404,7 @@ creation_third_tier_trigger = {
 }
 
 creation_fourth_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 04 }
 	creation_children_trigger = yes
 	custom_tooltip = {
@@ -431,6 +435,7 @@ creation_fourth_tier_trigger = {
 }
 
 creation_fifth_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 05 }
 	creation_children_trigger = yes
 	custom_tooltip = {
@@ -477,6 +482,7 @@ serenity_high_end_alliances_trigger = {
 }
 
 serenity_first_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 01 }
 	trigger_if = {
 		limit = { is_ai = no }
@@ -494,6 +500,7 @@ serenity_first_tier_trigger = {
 }
 
 serenity_second_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 02 }
 	trigger_if = {
 		limit = { is_ai = no }
@@ -519,6 +526,7 @@ serenity_second_tier_trigger = {
 }
 
 serenity_third_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 03 }
 	trigger_if = {
 		limit = { is_ai = no }
@@ -555,6 +563,7 @@ serenity_third_tier_trigger = {
 }
 
 serenity_fourth_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 04 }
 	trigger_if = {
 		limit = { is_ai = no }
@@ -591,6 +600,7 @@ serenity_fourth_tier_trigger = {
 }
 
 serenity_fifth_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 05 }
 	trigger_if = {
 		limit = { is_ai = no }
@@ -643,6 +653,7 @@ destruction_won_more_than_lost_trigger = {
 }
 
 destruction_first_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 01 }
 	trigger_if = {
 		limit = { is_ai = no }
@@ -670,6 +681,7 @@ destruction_first_tier_trigger = {
 }
 
 destruction_second_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 02 }
 	trigger_if = {
 		limit = { is_ai = no }
@@ -707,6 +719,7 @@ destruction_second_tier_trigger = {
 }
 
 destruction_third_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 03 }
 	trigger_if = {
 		limit = { is_ai = no }
@@ -744,6 +757,7 @@ destruction_third_tier_trigger = {
 }
 
 destruction_fourth_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 04 }
 	trigger_if = {
 		limit = { is_ai = no }
@@ -781,6 +795,7 @@ destruction_fourth_tier_trigger = {
 }
 
 destruction_fifth_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 05 }
 	trigger_if = {
 		limit = { is_ai = no }
@@ -820,6 +835,7 @@ destruction_fifth_tier_trigger = {
 
 #TRICKERY
 trickery_first_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 01 }
 	NOT = { has_character_modifier = disbelieved_mandala_modifier }
 	trigger_if = {
@@ -842,13 +858,14 @@ trickery_first_tier_trigger = {
 		}
 		custom_tooltip = {
 			text = rite_of_worthiness_trickery_house_married_to_rulers_t1
+			save_temporary_scope_as = root_scope
 			house = {
 				any_house_member = {
 					count >= num_trickster_mandala_house_married_to_rulers_t1
 					any_spouse = {
 						is_landed = yes
-						top_overlord != scope:owner
-						this != scope:owner
+						top_overlord != scope:root_scope
+						this != scope:root_scope
 						primary_title.tier >= tier_duchy
 					}
 				}
@@ -858,6 +875,7 @@ trickery_first_tier_trigger = {
 }
 
 trickery_second_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 02 }
 	trigger_if = {
 		limit = { is_ai = no }
@@ -879,13 +897,14 @@ trickery_second_tier_trigger = {
 		}
 		custom_tooltip = {
 			text = rite_of_worthiness_trickery_house_married_to_rulers_t2
+			save_temporary_scope_as = root_scope
 			house = {
 				any_house_member = {
 					count >= num_trickster_mandala_house_married_to_rulers_t2
 					any_spouse = {
 						is_landed = yes
-						top_overlord != scope:owner
-						this != scope:owner
+						top_overlord != scope:root_scope
+						this != scope:root_scope
 						primary_title.tier >= tier_duchy
 					}
 				}
@@ -907,6 +926,7 @@ trickery_second_tier_trigger = {
 }
 
 trickery_third_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 03 }
 	trigger_if = {
 		limit = { is_ai = no }
@@ -928,13 +948,14 @@ trickery_third_tier_trigger = {
 		}
 		custom_tooltip = {
 			text = rite_of_worthiness_trickery_house_married_to_rulers_t3
+			save_temporary_scope_as = root_scope
 			house = {
 				any_house_member = {
 					count >= num_trickster_mandala_house_married_to_rulers_t3
 					any_spouse = {
 						is_landed = yes
-						top_overlord != scope:owner
-						this != scope:owner
+						top_overlord != scope:root_scope
+						this != scope:root_scope
 						primary_title.tier >= tier_duchy
 					}
 				}
@@ -956,6 +977,7 @@ trickery_third_tier_trigger = {
 }
 
 trickery_fourth_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 04 }
 	NOT = { has_character_modifier = disbelieved_mandala_modifier }
 	trigger_if = {
@@ -978,13 +1000,14 @@ trickery_fourth_tier_trigger = {
 		}
 		custom_tooltip = {
 			text = rite_of_worthiness_trickery_house_married_to_rulers_t4
+			save_temporary_scope_as = root_scope
 			house = {
 				any_house_member = {
 					count >= num_trickster_mandala_house_married_to_rulers_t4
 					any_spouse = {
 						is_landed = yes
-						top_overlord != scope:owner
-						this != scope:owner
+						top_overlord != scope:root_scope
+						this != scope:root_scope
 						primary_title.tier >= tier_duchy
 					}
 				}
@@ -1018,6 +1041,7 @@ trickery_fourth_tier_trigger = {
 }
 
 trickery_fifth_tier_trigger = {
+	is_house_head = yes
 	has_pilgrimage_trait_level_trigger = { TIER = 05 }
 	NOT = { has_character_modifier = disbelieved_mandala_modifier }
 	trigger_if = {
@@ -1040,13 +1064,14 @@ trickery_fifth_tier_trigger = {
 		}
 		custom_tooltip = {
 			text = rite_of_worthiness_trickery_house_married_to_rulers_t5
+			save_temporary_scope_as = root_scope
 			house = {
 				any_house_member = {
 					count >= num_trickster_mandala_house_married_to_rulers_t5
 					any_spouse = {
 						is_landed = yes
-						top_overlord != scope:owner
-						this != scope:owner
+						top_overlord != scope:root_scope
+						this != scope:root_scope
 						primary_title.tier >= tier_duchy
 					}
 				}

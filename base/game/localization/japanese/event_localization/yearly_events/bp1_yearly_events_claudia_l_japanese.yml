@@ -51,7 +51,7 @@
  bp1_yearly.1021.c: "安らかに眠れ、大切な[friend.GetFirstNameNoTooltip]。"
  #Till the Bitter End
  bp1_yearly.1030.t: "苦々しい最後"
- bp1_yearly.1030.desc: "\n\n「ハッ！ざまあ見ろ！もうお前は恐れられる存在ではない、そうだろう？[ROOT.Char.Custom2('InsultAdjective', SCOPE.sC(rival))][ROOT.Char.Custom2('InsultNoun', SCOPE.sC(rival))]め、私が誰かもわからないのか？私だ！[rival.GetFirstName]だよ！お前が這いつくばっているところを見るのがずっと夢だったのだ！」"
+ bp1_yearly.1030.desc: "\n\n「ハッ！ざまあ見ろ！もうお前は恐れられる存在ではない、そうだろう？[ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('rival'))][ROOT.Char.Custom2('InsultNoun', SCOPE.sC('rival'))]め、私が誰かもわからないのか？私だ！[rival.GetFirstName]だよ！お前が這いつくばっているところを見るのがずっと夢だったのだ！」"
  bp1_yearly.1030.desc_nemesis: "\n\n「いや、違う。」と[nemesis.GetSheHe]は答える。[nemesis.GetHerHis]の目には、危険な輝きすらない。そして[nemesis.GetFirstNameNoTooltip]は、私の寝台の横で、[nemesis.GetHerHis]の顔に氷のような冷たい笑みを浮かべる。"
  bp1_yearly.1030.desc_nemesis_guard: "私は希望を失う。すると、私の[GetCourtPositionType('bodyguard_court_position').GetName()] [guard.GetFirstName]が部屋に突入してくる！"
  bp1_yearly.1030.desc_nemesis_no_guard: "私は動こうとし、逃げようとし、叫ぼうとし、#EMP あらゆること#!を試みるが、私の弱い体は思い通りにはいかなくなっている..."

@@ -56,7 +56,7 @@
  prelude_events.0040.desc: "La journée avait bien commencé, mais il a fallu que m[guest.Custom('FR_OnA')] détestable rival[guest.Custom('FR_E')], [guest.Custom('FR_le_Char_Pi')][guest.GetTitledFirstName], vienne la gâcher par sa présence.\n\n[guest.Custom('FR_IlElle')|U] fait semblant de ne pas me voir jusqu’à ce que je sois trop près d[guest.Custom('FR_EluiElle')]. « Oh, [ROOT.Char.Custom('FR_SeigneurDame')] [ROOT.Char.GetFirstNameNoTooltip] ! Avez-vous pour intention de vous offrir en spectacle au dîner ? Ou est-ce là la tenue que porte un[ROOT.Char.Custom('FR_E')] [ROOT.Char.GetTitleAsNameNoTooltip|l] lors d’un couronnement ? »"
  prelude_events.0040.a: "[guest.Custom('FR_IlElle')|U] ne sera plus aussi bavard[guest.Custom('FR_E')] quand j’en aurai terminé."
  prelude_events.0040.b: "« Je me suis inspiré[ROOT.Char.Custom('FR_E')] de votre mère. »"
- prelude_events.0040.c: "J’écouterai tout ce que [guest.Custom('FR_le_Char_Pi')][guest.GetTitledFirstNameNoTooltip] dira à ses amis ce soir."
+ prelude_events.0040.c: "J’écouterai chaque mot que prononcera [guest.GetFirstNameNoTooltip] ici."
  prelude_events.0040.c.tt: "Le [scheme|El] aura une [success_chance|El] plus #P élevée#!"
  prelude_events.0040.d: "« Ce n’est pas le lieu pour se disputer. »"
  every_callous_vengeful_wrathful_guest: "Chaque invité [GetTrait('callous').GetName( GetNullCharacter )|l], [GetTrait('vengeful').GetName( GetNullCharacter )|l] ou [GetTrait('wrathful').GetName( GetNullCharacter )|l]"

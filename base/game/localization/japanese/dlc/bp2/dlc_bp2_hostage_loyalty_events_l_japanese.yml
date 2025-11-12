@@ -3,7 +3,7 @@
  bp2_yearly.8050.desc.intro: "今日、[hostage.GetName]が眼下にいる人々を眺めながら、物思いに耽っているところを見た。\n\n私はうつむく[hostage.GetHerHis]の肩に手を置き、何を悩んでいるのか聞いてみた。\n\n「[ROOT.Char.Custom('GetAuntUncle')]、"
  bp2_yearly.8050.desc.mid.friendship: "あなたは私がかつて故郷と呼んだあの場所にいる誰よりも、私にとっては友人です。"
  bp2_yearly.8050.desc.mid.childhood_friendship: "[hostage_friend.GetFirstName]は私がかつて故郷と呼んだあの場所にいる誰よりも、私にとっては友人です。"
- bp2_yearly.8050.desc.mid.hatred: "[hated_parent.Custom2('MyCharacterIntroduction', SCOPE.sC('hostage'))]は[hated_parent.Custom2('InsultAdjective', SCOPE.sC('hostage'))] [hated_parent.Custom2('InsultNoun', SCOPE.sC('hostage'))]だったので、[hated_parent.GetHerHim]の元に戻ることを考えるのも耐えられません。"
+ bp2_yearly.8050.desc.mid.hatred: "[hated_parent.Custom2('MyCharacterIntroduction', SCOPE.sC('hostage'))]は[hated_parent.Custom2('InsultAdjective', SCOPE.sC('hostage'))][hated_parent.Custom2('InsultNoun', SCOPE.sC('hostage'))]だったので、[hated_parent.GetHerHim]の元に戻ることを考えるのも耐えられません。"
  bp2_yearly.8050.desc.mid.culture: "私はもう、[hated_parent.GetCulture.GetName]の文化に繋がりを感じられないのです。[hated_parent.GetMotherFather]にとっても、私は異質な存在でしょう。私には、ここで身に付けた[hostage.GetCulture.GetName]の慣習の方が合っています。"
  bp2_yearly.8050.desc.mid.faith: "私の[hated_parent.GetMotherFather]は[hated_parent.GetFaith.GetAdherentName]ですが、私は[hostage.GetFaith.GetAdherentName]です。相容れない信仰心を持っているのに、どうして自分が[hated_parent.GetHerHis]の[hostage.Custom('GetDaughterSon')]だといえるでしょうか？"
  bp2_yearly.8050.desc.mid.traits: "かつて故郷と呼んでいた地の人々よりも、はるかに多くの共通点を持っていると思います。"

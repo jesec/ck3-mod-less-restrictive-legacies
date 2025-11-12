@@ -35,7 +35,7 @@
  suggestion_increase_opinion_click: "#I Kliknij, aby rozpocząć spisek dotyczący przekonania do siebie#!"
  suggestion_raid_label: "Najazd"
  suggestion_raid: "Sugestia: najedź ziemie: [landed_title.GetNameNoTierNoTooltip]"
- suggestion_raid_desc: "Wysłanie swojej [Concept( 'army', 'armii' )|E] w celu dokonania [Concept( 'raid', 'najazdu' )|E] zapewni ci cenne łupy."
+ suggestion_raid_desc: "Wysłanie swojej [Concept('army', 'armii')|E] w celu dokonania [Concept('raid', 'najazdu')|E] na miejsce o nazwie [landed_title.GetNameNoTierNoTooltip] zapewni ci [loot|El]."
  suggestion_raid_click: "#I Kliknij, aby otworzyć widok wojskowy#!"
  suggestion_grant_title_label: "Nadaj tytuł"
  suggestion_grant_title: "Sugestia: nadaj postaci imieniem [recipient.GetShortUINameNotMeNoTooltip] ziemie: [landed_title.GetNameNoTierNoTooltip]"

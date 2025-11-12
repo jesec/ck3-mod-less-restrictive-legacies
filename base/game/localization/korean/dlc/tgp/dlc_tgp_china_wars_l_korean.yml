@@ -16,9 +16,9 @@
  grand_campaign_kingdom_invasion_cb: "[GetTitleByKey('h_china').Custom('OrdinalChineseConquest')] [GetTitleByKey('h_china').GetNameNoTierPossessiveNoTooltip] 대규모 작전"
  GP_KINGDOM_INVASION_WAR_NAME: "$grand_campaign_kingdom_invasion_cb$"
  GP_KINGDOM_INVASION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective] [DEFENDER.GetPrimaryTitle.GetName]"
- GP_KINGDOM_INVASION_CB_NAME: "$grand_campaign_kingdom_invasion_cb$ ([GetGreatProjectType('grand_campaign_project').GetName] [great_project|E])"
- grand_campaign_kingdom_invasion_cb_victory_desc_attacker: "[attacker.GetTopLiege.GetShortUIName|U](이)가 소유권을 두고 다투던 [titles|E]를 획득합니다."
- grand_campaign_kingdom_invasion_cb_victory_desc: "[attacker.GetTopLiege.GetShortUIName|U](이)가 소유권을 두고 다투던 [title|E]를 획득합니다."
+ GP_KINGDOM_INVASION_CB_NAME: "$grand_campaign_kingdom_invasion_cb$ ([great_project|E])"
+ grand_campaign_kingdom_invasion_cb_victory_desc_attacker: "[attacker.GetTopLiege.GetShortUIName|U](이)가 분쟁의 대상인 [titles|E]를 획득합니다."
+ grand_campaign_kingdom_invasion_cb_victory_desc: "[attacker.GetTopLiege.GetShortUIName|U](이)가 분쟁의 대상인 [title|E]를 획득합니다."
  ### CB for neighbors to attempt to seize the mandate of heaven and become hegemon of China
  claim_the_mandate_cb: "$CLAIM_THE_MANDATE_CB_NAME$"
  CLAIM_THE_MANDATE_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective]의 천명 점령"

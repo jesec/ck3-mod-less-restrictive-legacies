@@ -51,7 +51,7 @@
  bp1_yearly.1021.c: "Spoczywaj w pokoju, [friend.GetFirstNameNoTooltip], m[Select_CString( friend.IsFemale, 'oja najdroższa', 'ój najdroższy' )]."
  #Till the Bitter End
  bp1_yearly.1030.t: "Aż do gorzkiego końca"
- bp1_yearly.1030.desc: "\n\n– Ha! Spójrz na siebie teraz! Już nie napawasz takim strachem, prawda? Czy ty mnie w ogóle rozpoznajesz? Co za [ROOT.Char.Custom2('InsultNoun', SCOPE.sC(rival))]! To ja, [rival.GetFirstName]! Zobaczyć cię w tak podłym stanie było moim marzeniem od dawna!"
+ bp1_yearly.1030.desc: "\n\n– Ha! Spójrz na siebie teraz! Już nie napawasz takim strachem, prawda? Czy ty mnie w ogóle rozpoznajesz? Co za [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('rival'))]! To ja, [rival.GetFirstName]! Zobaczyć cię w tak podłym stanie było moim marzeniem od dawna!"
  bp1_yearly.1030.desc_nemesis: "\n\n„Nie, nie miał[Select_CString( nemesis.IsFemale, 'a', 'e' )]m” – odpowiada. Nie zdążam nawet zarejestrować niebezpiecznego błysku w [nemesis.GetHerHis] oczach, zanim [nemesis.GetFirstNameNoTooltip] znajdzie się przy moim łóżku, z lodowatym uśmiechem na twarzy."
  bp1_yearly.1030.desc_nemesis_guard: "Tracę wszelką nadzieję, gdy do sali wpada [GetCourtPositionType('bodyguard_court_position').GetName()] [guard.GetFirstName]!"
  bp1_yearly.1030.desc_nemesis_no_guard: "Próbuję się ruszyć, uciec, krzyczeć, #EMP cokolwiek#!, ale moje wątłe ciało już dawno przestało mnie słuchać…"

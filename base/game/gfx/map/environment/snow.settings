@@ -16,9 +16,9 @@
 "Frost.Terrain_Area_Constrast" = 0.5		# Contrast of frost noise mask, increase to soften mask
 "Frost.Multiplier" = 0.65					# Frost intensity multiplier
 
-"Snow.Hemisphere_Position" = 0.92			# (Use Snow.Extent)
-"Snow.Hemisphere_Constrast" = 0.35			# Contrast of hemisphere mask (top to bottom)
-"Snow.Terrain_Area_Position" = 0.01			# Position of snow noise mask, increase to cover more area
+"Snow.Hemisphere_Position" = 0.86			# (Use Snow.Extent)
+"Snow.Hemisphere_Constrast" = 0.40			# Contrast of hemisphere mask (top to bottom)
+"Snow.Terrain_Area_Position" = 0.3			# Position of snow noise mask, increase to cover more area
 "Snow.Terrain_Area_Constrast" = 0.9			# Contrast of snow noise mask, increase to soften mask
 
 "Snow.Area_Position" = 0.449				# Position of mesh snow noise mask, increase to cover more area

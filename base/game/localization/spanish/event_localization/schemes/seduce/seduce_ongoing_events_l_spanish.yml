@@ -392,7 +392,7 @@
  seduce_ongoing.5005.ending: "\n\n«¡Nunca imaginé que fuerais tan buena compañía, [ROOT.Char.GetFirstNameNoTooltip]!»."
  seduce_ongoing.5005.a: "¡Le demostraré la buena compañía que puedo ser!"
  seduce_ongoing.5006.conversation: "Tras casi una hora de conversación incómoda, [target.GetFirstName] parece más aburrid[target.Custom('ES_OA')] que nunca. Cuando cambio el tema de [target.Custom('herhis_subject_of_interest')] a [ROOT.GetCharacter.Custom('education_conversation_subject')], [target.Custom('ES_ElElla')] [target.Custom('quirk_neg_present')] y se excusa."
- seduce_ongoing.5006.mockery: "«¡[target.GetTitledFirstNameNoTooltip]! ¿Podéis creer que semejante [mocked_courtier.Custom2('InsultNoun', ROOT.Char)] de [mocked_courtier.GetFirstName] en realidad…?».\n\nMe callo rápidamente cuando el desdén en el rostro de [target.GetFirstName] se acentúa más."
+ seduce_ongoing.5006.mockery: "«¡[ROOT.Char.GetTitledFirstNameNoTooltip]! ¿Podéis creer que semejante [mocked_courtier.Custom2('InsultNoun', ROOT.Char)] de [mocked_courtier.GetFirstName] en realidad…?».\n\nMe callo rápidamente cuando el desdén en el rostro de [target.GetFirstName] se acentúa más."
  seduce_ongoing.5006.bodily: "Cuando me acerco a [target.GetFirstName] sonriendo [ROOT.Char.Custom('quirk_pos_adverb')] y levantando sugerentemente mi [ROOT.Char.Custom('GetUpperClothingArticle')], [target.GetSheHe] retrocede rápidamente con una mirada de asco puro."
  seduce_ongoing.5006.fallback: "Me quedo en silencio tratando de pensar algún tema en común con [target.GetFirstName], pero su desdén se hace más pronunciado cada minuto que pasa.\n\nEnseguida se excusa y huye de mi compañía."
  seduce_ongoing.5006.a: "¡¿Por qué intento yacer con semejante [target.Custom2('InsultNounSexual', ROOT.Char)]?!"

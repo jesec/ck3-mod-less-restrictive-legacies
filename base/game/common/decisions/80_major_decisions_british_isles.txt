@@ -1,4 +1,5 @@
 ﻿#The culture of the people both high and low is veering towards Celtic - embrace it?
+### Reclaim Britannia ###
 reclaim_britannia_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
@@ -107,6 +108,7 @@ reclaim_britannia_decision = {
 	}
 }
 
+### Embrace English Culture ###
 embrace_english_culture_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
@@ -303,6 +305,7 @@ embrace_english_culture_decision = {
 }
 
 # Request Laudabiliter - by Flavio
+### Request Claim on Ireland ###
 england_request_laudabiliter_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
@@ -439,6 +442,7 @@ england_request_laudabiliter_decision = {
 # Negotiate the Danelaw						#
 # by Linnéa Thimrén & Ewan Cowhig Croft		#
 #############################################
+### Negotiate the Danelaw ###
 negotiate_the_danelaw_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -540,6 +544,7 @@ negotiate_the_danelaw_decision = {
 	}
 }
 
+### Integrate English Duchy ###
 negotiate_the_danelaw_integrate_duchies_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
@@ -753,6 +758,7 @@ negotiate_the_danelaw_integrate_duchies_decision = {
 	}
 }
 
+### Formalize the Daneland ###
 formalise_the_daneland_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -845,6 +851,7 @@ formalise_the_daneland_decision = {
 # #Restore Dumnonia to the map				#
 # by Ewan Cowhig Croft						#
 #############################################
+### Restore the Kingdom of Cornwall ###
 restore_dumnonia_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"

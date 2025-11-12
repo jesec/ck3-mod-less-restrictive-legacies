@@ -67,7 +67,7 @@
  martial_authority_special.1100.c: "杀鸡儆猴。"
  martial_authority_special.1100.d: "悄悄溜走并把那名士兵的想法居为己有。"
  martial_authority_special.1101.desc: "我的训练对我很有用。几个回合后，我牢牢地反扭住[officer.GetTitledFirstName]的手臂。“这是个教训，”我大声阐明道，每个人都能听到。“你们的[ROOT.Char.GetTitleTierName]不会善待这种思想封闭的傻子。不论军衔大小。"
- martial_authority_special.1101.end.desc: "\n\n这名士兵由衷感谢。“谢谢你，[ROOT.Char.Custom('FormOfAddressForLiege')]。[soldier_friend.GetFirstName]·[soldier_friend.GetDynastyName]是你最忠信的仆人。”"
+ martial_authority_special.1101.end.desc: "\n\n这名士兵由衷感谢。“谢谢你，[ROOT.Char.Custom('FormOfAddressForLiege')]。[soldier_friend.GetFullNameNoTooltip]是你最忠信的仆人。”"
  martial_authority_special.1101.a: "采用[soldier_friend.GetFirstNamePossessiveNoTooltip]的策略。"
  martial_authority_special.1101.b: "探讨该策略，进一步了解战争。"
  martial_authority_special.1102.desc: "由于明了伤害军官的后果，该士兵没有采取任何行动保护[soldier_friend.GetHerselfHimself]自己免受来袭的拳头。在见血的一刹那我挡在了他们两人之间。\n\n或许我应该知道不该和久经沙场的战士交手。最后，我不得不向[officer.GetTitledFirstName]表示我的身份好放我走。在消息传开之前，我偷偷摸摸地回到了我的营帐……"

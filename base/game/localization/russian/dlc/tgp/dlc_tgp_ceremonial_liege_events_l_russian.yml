@@ -24,7 +24,7 @@
  tgp_ceremonial_liege_events.0020.desc_hunt: "упивается азартом охоты,"
  tgp_ceremonial_liege_events.0020.desc_pilgrimage: "путешествует подобно тому, как это [Select_CString(opposing_power.GetFaith.HighGod.isFemale, 'делала сама', 'делал сам' )] [opposing_power.GetFaith.HighGodName],"
  tgp_ceremonial_liege_events.0020.desc_festival: "укрепляет свой авторитет на празднестве,"
- tgp_ceremonial_liege_events.0020.desc_end: "мои руки скованы обязанностями.\n\nКакая нелепая ситуация..."
+ tgp_ceremonial_liege_events.0020.desc_end: "Мои руки скованы обязанностями.\n\nСитуация патовая, но она таит в себе возможность..."
  tgp_ceremonial_liege_events.0020.a: "Чем я хуже? Пожалуй, у меня тоже будет [opposing_power.GetInvolvedActivity.GetShortNameNoTooltip|l]."
  tgp_ceremonial_liege_events.0020.a_desc: "Вы организуете собственное [Concept('activity', 'занятие')|E], чтобы [opposing_power.GetFirstNameNoTooltip] [Select_CString(opposing_power.isFemale, 'оказалась посрамлена', 'оказался посрамлен' )]:\n$BULLET$[opposing_power.GetInvolvedActivity.GetShortNameNoTooltip|U] обойдется вам на #P 15%#! дешевле\n$BULLET$Если [opposing_power.GetInvolvedActivity.GetShortNameNoTooltip|l] увенчается успехом, вы получите [Concept('prestige', 'престиж')|E], а [opposing_power.GetFirstNameNoTooltip] его потеряет"
  tgp_ceremonial_liege_events_0020_discount_desc: "Гостеприимство как возмездие"

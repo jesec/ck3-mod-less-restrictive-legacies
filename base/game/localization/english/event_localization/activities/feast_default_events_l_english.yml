@@ -223,7 +223,7 @@
  feast_default.2003.a:0 "What a good evening!"
 
  feast_default.2005.t:1 "All Over My New [ROOT.Char.Custom('GetClothingArticle')|U]"
- feast_default.2005.desc:0 "We could all tell [drunk.GetTitledFirstName] had too much to drink, even though [drunk.GetSheHe] insisted on showing us how sober [drunk.GetSheHe] was.\n\nSimply rising from [drunk.GetHerHis] seat proved too much for [drunk.GetHerHim], and now I am covered in stinking vomit!"
+ feast_default.2005.desc:0 "We could all tell [drunk.GetTitledFirstName] had too much to drink, even though [drunk.GetSheHe] insisted on showing us how sober [drunk.GetSheHe] was.\n\nSimply rising from [drunk.GetHerHis] seat proved too much for [drunk.GetHerHim], and now I am spattered with stinking vomit!"
  feast_default.2005.a:0 ""You ought to be ashamed of yourself, [drunk.GetFirstNameNoTooltip]!""
  feast_default.2005.b:0 ""Ha! What a show you put on!""
 

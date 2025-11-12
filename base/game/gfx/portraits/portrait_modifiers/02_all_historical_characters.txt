@@ -8272,7 +8272,7 @@
 				mode = add
 				gene = headgear
 				template = tgp_southeast_royal
-				accessory = male_headgear_secular_ep1_indian_royalty_01
+				accessory = m_headgear_sec_tgp_southeast_roy_01_a
 			}
 		}
 		weight = {
@@ -8471,6 +8471,59 @@
 		}
 	}
 
+	japanese_minamoto_seiwa_6 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = tgp_japanese_beards
+				accessory = m_beard_tgp_japanese_03
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_minamoto_seiwa_6
+				this = character:japanese_minamoto_seiwa_6
+				highest_held_title_tier <= tier_kingdom
+			}
+		}
+	}
+
+	japanese_minamoto_seiwa_21 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_02
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = tgp_japanese_beards
+				accessory = m_beard_tgp_japanese_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_minamoto_seiwa_21
+				this = character:japanese_minamoto_seiwa_21
+			}
+		}
+	}
+
 	japanese_fujiwara_497 = {
 		dna_modifiers = {
 			accessory = {
@@ -8579,6 +8632,58 @@
 		}
 	}
 
+	japanese_fujiwara_132 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_01
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = no_beard
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_fujiwara_132
+				this = character:japanese_fujiwara_132
+			}
+		}
+	}
+
+	japanese_fujiwara_1122 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_01
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = no_beard
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_fujiwara_1122
+				this = character:japanese_fujiwara_1122
+			}
+		}
+	}
+
 	japanese_minamoto_seiwa_5 = {
 		dna_modifiers = {
 			accessory = {
@@ -8665,7 +8770,409 @@
 			}
 		}
 	}
+
+	japanese_yamato_376 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_yamato_376
+				this = character:japanese_yamato_376
+			}
+		}
+	}
+
+	japanese_yamato_45 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_01
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = no_beard
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_yamato_45
+				this = character:japanese_yamato_45
+			}
+		}
+	}
+
+	japanese_minamoto_murakami_12 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_02
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = no_beard
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_minamoto_murakami_12
+				this = character:japanese_minamoto_murakami_12
+			}
+		}
+	}
+
+	japanese_minamoto_murakami_13 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_02
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = tgp_japanese_beards
+				accessory = m_beard_tgp_japanese_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_minamoto_murakami_13
+				this = character:japanese_minamoto_murakami_13
+			}
+		}
+	}
+
+	japanese_kiyohara_15 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_02
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = tgp_japanese_beards
+				accessory = m_beard_tgp_japanese_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_kiyohara_15
+				this = character:japanese_kiyohara_15
+			}
+		}
+	}
+
+	japanese_kiyohara_16 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_02
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = tgp_japanese_beards
+				accessory = m_beard_tgp_japanese_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_kiyohara_16
+				this = character:japanese_kiyohara_16
+			}
+		}
+	}
+
+	japanese_minamoto_seiwa_365 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_02
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = tgp_japanese_beards
+				accessory = m_beard_tgp_japanese_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_minamoto_seiwa_365
+				this = character:japanese_minamoto_seiwa_365
+			}
+		}
+	}
+
+	japanese_minamoto_seiwa_139 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_02
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = tgp_japanese_beards
+				accessory = m_beard_tgp_japanese_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_minamoto_seiwa_139
+				this = character:japanese_minamoto_seiwa_139
+			}
+		}
+	}
+
+	japanese_taira_kanmu_65 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_02
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = tgp_japanese_beards
+				accessory = m_beard_tgp_japanese_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_taira_kanmu_65
+				this = character:japanese_taira_kanmu_65
+			}
+		}
+	}
+
+	japanese_taira_kanmu_36 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_02
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = tgp_japanese_beards
+				accessory = m_beard_tgp_japanese_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_taira_kanmu_36
+				this = character:japanese_taira_kanmu_36
+			}
+		}
+	}
+
+	japanese_fujiwara_514 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_02
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = tgp_japanese_beards
+				accessory = m_beard_tgp_japanese_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_fujiwara_514
+				this = character:japanese_fujiwara_514
+			}
+		}
+	}
+
+	japanese_fujiwara_516 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_02
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = no_beard
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_fujiwara_516
+				this = character:japanese_fujiwara_516
+			}
+		}
+	}
+
+	japanese_fujiwara_500 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_02
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = tgp_japanese_beards
+				accessory = m_beard_tgp_japanese_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_fujiwara_500
+				this = character:japanese_fujiwara_500
+			}
+		}
+	}
+
+	japanese_fujiwara_498 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_02
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = tgp_japanese_beards
+				accessory = m_beard_tgp_japanese_06
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_fujiwara_498
+				this = character:japanese_fujiwara_498
+			}
+		}
+	}
+
+	japanese_nakahara_kiso_5 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = f_hair_tgp_japanese_04
+				type = female
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_nakahara_kiso_5
+				this = character:japanese_nakahara_kiso_5
+			}
+		}
+	}
+
+	japanese_minamoto_seiwa_208 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_japanese_hairstyles
+				accessory = m_hair_tgp_japanese_02
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = no_beard
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:japanese_minamoto_seiwa_208
+				this = character:japanese_minamoto_seiwa_208
+			}
+		}
+	}
 }
-
-
-
