@@ -1,4 +1,4 @@
-
+﻿
 #Legacy of the Junzi
 tgp_chinese_legacy_1 = {
 	legacy = tgp_china_legacy_track
