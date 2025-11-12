@@ -24,6 +24,13 @@ no_aspect = {
 		}
 		ai_score = {
 			value = 0
+			if = {
+				limit = {
+					months_from_game_start < 1
+					highest_held_title_tier < tier_kingdom
+				}
+				add = 1000
+			}
 		}
 	}
 

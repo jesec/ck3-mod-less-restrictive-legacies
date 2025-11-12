@@ -149,7 +149,7 @@
  seduce_outcome.4001.regular.desc: "「あなたは[target.Custom2('ComplimentAdjectiveArticle', ROOT.Char)][ROOT.Char.GetWomanMan]です、[ROOT.Char.GetFirstNameNoTooltip]。ですが、あなたをそんな対象として好きになることはできません」、[target.GetTitledFirstName]彼はそう言い、[target.Custom('quirk_neg_present')]「私たちの未来がどうなるかは[target.GetFaith.HighGodName]にしかわかりません」"
  seduce_outcome.4001.a: "ああ… そう、その通りだ…"
  seduce_outcome.4002.desc: "夜中に[target.GetTitledFirstNamePossessive]の私室に入ると、私を出迎えたのは甘い抱擁ではなく、嘲笑う[target.Custom2('InsultNoun', ROOT.Char)]だった！\n\n「私を魅了しようなどというあなたの滑稽な努力に、これまでお情けで付き合ってきてあげましたが今度ばかりは我慢なりません！私に近寄らないでください、この[ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('target'))][ROOT.Char.Custom2('InsultNounSexual', SCOPE.sC('target'))]！」"
- seduce_outcome.4002.a: "ええと、あなたは… [target.Custom2('InsultAdjective', ROOT.Char)]… [target.Custom2('InsultNounSexual', ROOT.Char)]！"
+ seduce_outcome.4002.a: "ええと、あなたは… [target.Custom2('InsultAdjective', ROOT.Char)]…[target.Custom2('InsultNounSexual', ROOT.Char)]！"
  seduce_outcome.4003.t: "暴露"
  seduce_outcome.4003.plot.desc: "[target.GetTitledFirstName]は悪戯っぽく微笑んで私を歓迎すると、逸るような手つきですぐにボタンやレースに取りかかる瞬く間に、私は[target.GetHerHim]の前で裸になり身震いするだが、私が同じことをしようとすると、[target.GetFirstNameNoTooltip]は私を押しのけ… 大声で叫んだ！\n\n「衛兵！ 私の部屋に侵入者がいます！ #EMP 衛兵！#!」\n\n生まれたばかりの赤子のように素っ裸で、私は部屋を駆け抜けて窓から這い出る"
  seduce_outcome.4003.regular.desc: "私が[target.GetTitledFirstNamePossessive]の窓までよじ登ると、出迎えてくれたのは私の期待とは異なり[target.GetHerHis]の驚愕の悲鳴だった！[target.GetSheHe]が扉へと走り勢いよく開くのを止める時間は私にはなかった\n\n「助けて！「衛兵！ 私の部屋に侵入者がいます！」\n\nこれ以上ひどい夜になる前に、私は来た道を這い戻った"

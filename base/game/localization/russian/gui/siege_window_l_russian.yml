@@ -1,5 +1,5 @@
 ﻿l_russian:
- SW_TT_TIMER: "#T Следующее событие [Concept( 'siege', 'осады' )|E]: #V $DAYS$#!#!\nНовое событие каждые $TOTAL$"
+ SW_TT_TIMER: "#T Следующее событие [Concept( 'siege', 'осады' )|E] произойдет через #V $DAYS$#!#!\nНовое событие каждые $TOTAL$"
  SW_TT_TIMER_FROZEN: "Не будет никаких событий при [Concept( 'siege', 'осаде' )|E].\n"
  #SW_TT_CLOSE: "" delete this
  SW_TT_GARRISON: "#T [garrison|E]: #V [soldiers|El], [Siege.GetDefenderMen|0]#!#! \nУ осаждающего должно быть больше солдат, чем в гарнизоне, чтобы [siege|El] продвигалась"
@@ -17,7 +17,7 @@
  SW_TT_FORT_LEVEL_MULT: "[fort_level|E]"
  SW_TT_MORALE_LOSS_LABEL: "Ежедневный прогресс: $VALUE|+=1$"
  SW_TT_MORALE_LOSS_LABEL_MINIMUM: "#! #weak (минимум — $VALUE|=1$)#!"
- SIEGE_WINDOW_END_DATE: "При текущем прогрессе осада продлится еще $TIME$ ([DATE.GetString|V])"
+ SIEGE_WINDOW_END_DATE: "При текущем [Concept('siege_progress', 'прогрессе осады')|E] [Concept('siege', 'осаждающие')|E] добьются успеха в течение $TIME$ #weak ([DATE.GetString])#!\n\nСобытия осады могут ускорить ее прогресс и привести к более быстрому завершению."
  SIEGE_WINDOW_END_DATE_SHORT: "Еще не более $TIME$"
  SW_TT_SIEGING_REALM_TOOLTIP: "#T Осаждает: [Character.GetPrimaryTitle.GetName|VU]#!\n#I Щелкните, чтобы посмотреть#!"
  SW_TT_DEFENDING_REALM_TOOLTIP: "#T Обороняется: [Character.GetPrimaryTitle.GetName|VU]#!\n#I Щелкните, чтобы посмотреть#!"

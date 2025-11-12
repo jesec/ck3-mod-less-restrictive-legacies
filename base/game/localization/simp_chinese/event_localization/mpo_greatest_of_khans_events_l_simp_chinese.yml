@@ -195,3 +195,4 @@
  mpo_greatest_of_khans.0051.opening: "致所有[defender_primary.GetAdjective]的可怜虫，"
  mpo_greatest_of_khans.0051.desc: "伟大的[attacker.GetTitleAsName]——那位夺走你族人的一切、让战士如洪水般淹没你土地的人——如此命令你：\n\n向远方逃去，让风吹干你哭烂的脸。去告诉所有你见到的人，世界很快将属于[attacker.GetTitleAsNamePossessiveNoTooltip]的大军。"
  mpo_greatest_of_khans.0051.a: "我的领主败了……我完蛋了。"
+ gok_noble_army_name: "[army_culture.GetNameNoTooltip]贵族侍从"

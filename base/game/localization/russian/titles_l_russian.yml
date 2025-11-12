@@ -24643,12 +24643,12 @@
  d_laamp_karatzas_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_laamp_ding_hui: "Непокорные копья"
  d_laamp_ding_hui_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
- d_laamp_liang_zhu_quanzhong: "Железное войско Чжу"
- d_laamp_liang_zhu_quanzhong_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_zhu_quanzhong: "Железное войско Чжу"
+ d_laamp_zhu_quanzhong_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_laamp_miyoshi_kiyotsura: "Дозор Киёцуры"
  d_laamp_miyoshi_kiyotsura_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
- d_laamp_yangs_raiders: "Налетчики Яна"
- d_laamp_yangs_raiders_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_hidden_valley_banner: "Знамя Скрытой долины"
+ d_laamp_hidden_valley_banner_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_laamp_way_of_the_mountains: "Прирожденные горцы"
  d_laamp_way_of_the_mountains_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_laamp_pongyi_thaing_fellowship: "Братство Понджи Тайн"
@@ -25256,6 +25256,8 @@
  ##### JAPAN
  e_japan: "Япония"
  e_japan_adj: "Японск"
+ e_ruucuu: "Ручу" #琉球
+ e_ruucuu_adj: "Ручуск"
  k_chrysanthemum_throne_article: "$articleblank_blank$"
  k_chrysanthemum_throne: "Хризантемовый трон"
  k_chrysanthemum_throne_adj: "Хризантемск"
@@ -25451,7 +25453,7 @@
  c_iwase_adj: "Ивасэйск"
  c_tokisara: "Токисара" #都岐沙羅
  c_tokisara_adj: "Токисарск"
- c_nushiro: "Усиро" #渟代
+ c_nushiro: "Нусиро" #渟代
  c_nushiro_adj: "Усирск"
  c_tsugaru: "Цугару" #津軽
  c_tsugaru_adj: "Цугаруск"
@@ -27218,6 +27220,9 @@
  k_funan: "Ангкор"
  k_chenla: "Ченла"
  k_dvaravati: "Дваравати"
+ k_siam: "Сиам"
+ k_siam_adj: "Сиамск"
+ k_siam_pre: "Сиамско"
  e_viet: "Дайвьет"
  e_majapahit: "Маджапахит"
  e_suvarnabhumi: "Суварнабхуми"
@@ -27244,7 +27249,7 @@
  c_kusunkotan: "Кусункотан" #クシュンコタン
  c_kusunkotan_adj: "Кусюнкотанск"
  c_pogibi: "Погиби" #ポギビ
- c_pogibi_adj: "Погибийск"
+ c_pogibi_adj: "Погибинск"
  c_chupka: "Чупка" #チュプカ
  c_chupka_adj: "Чупкинск"
  b_tarayka: "Тарайка" #タライカ

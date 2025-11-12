@@ -155,7 +155,7 @@
  murder: "Mord"
  murder_action: "Ermorden"
  murder_desc: "Es ist an der Zeit für [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip], sich der höchsten Gerichtsbarkeit ([SCHEME.GetOwner.GetFaith.HighGodName]) zu stellen!"
- murder_desc_general: "$murder$ ist ein [Concept('hostile_scheme', 'Feindseliges Komplott')|E], an dessen Ende das Ziel sterben soll. Es handelt sich um ein [secret_scheme|E], das auf [intrigue|E] beruht und für das man [agents|E] anwerben kann.\n\nEin erfolgreicher $murder$ führt zum [character_death|E] des [Concept('scheme_target', 'Komplottziels')|E]. Ein Mord, der erfolgreich ist, wird geheim bleiben, aber dem [scheme_owner|E] ein Mord-[secret|E] geben.\n\nBei einem versuchten Mord entdeckt zu werden oder erfolgreich jemanden zu ermorden, ist ein schweres [crime|E]."
+ murder_desc_general: "$murder$ ist ein [Concept('hostile_scheme', 'feindseliges Komplott')|E], an dessen Ende das Ziel sterben soll. Es handelt sich um ein [secret_scheme|E], das auf [intrigue|E] beruht und für das man [agents|E] anwerben kann.\n\nEin erfolgreicher $murder$ führt zum [character_death|E] des [Concept('scheme_target', 'Komplottziels')|E]. Ein Mord, der erfolgreich ist, wird geheim bleiben, aber dem [scheme_owner|E] ein Mord-[secret|E] geben.\n\nBei einem versuchten Mord entdeckt zu werden oder erfolgreich jemanden zu ermorden, ist ein schweres [crime|E]."
  scheme_interaction_tt_murder_approved: "Versuchen, [recipient.GetShortUINameNoTooltip] zu ermorden"
  murder_successful_roll_tt: "[target.GetShortUIName] wird getötet!"
  murder_entourage_successful_roll_tt: "Alle Mitglieder des Gefolges von [target.GetShortUINameNoTooltip] werden getötet!"

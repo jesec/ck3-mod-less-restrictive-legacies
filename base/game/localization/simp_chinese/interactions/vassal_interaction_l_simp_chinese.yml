@@ -142,7 +142,7 @@
  pardon_interaction: "赐予赦免"
  pardon_interaction_desc: "你认为[recipient.GetName]犯下了[criminal|E]（[recipient.GetImprisonmentReasons( actor.Self )]），因此可以随时[imprison|E]该角色并且不会获得[tyranny|E]。\n\n如果你更想让其保持自由，也可以选择赦免。这将移除所有[imprison|E]理由，并提高此人对你的[opinion|E]。"
  pardon_interaction_minister_desc: "[recipient.GetLiege.GetShortUIName]认为[recipient.GetName]犯下[criminal|E]（[recipient.GetImprisonmentReasons( recipient.GetLiege.Self )]），允许你[imprison|E]对抗而不会获得[tyranny|E]。\n\n如果你希望其保持自由，可以选择赦免对方。这会移除[recipient.GetLiege.GetTitleAsNameNoTooltip][imprison|E]对方的任何理由，并提高其对你的[opinion|E]。"
- pardon_interaction_has_jirga_desc: "由于你的$tradition_fp3_jirga_name$#!传统，你会获得威望。"
+ pardon_interaction_has_jirga_desc: "由于你的#high $tradition_fp3_jirga_name$#!传统，你会获得威望。"
  pardon_interaction_toast: "你仁慈的领主[actor.GetFirstName]赦免了你的罪行！"
  pardon_interaction_toast_minister: "你仁慈的[minister_of_justice|E][actor.GetFirstName]赦免了你的罪行！"
  pardon_interaction_toast_minister_liege: "[minister_of_justice|E][actor.GetFirstName]赦免了[recipient.GetShortUIName]的罪行！"

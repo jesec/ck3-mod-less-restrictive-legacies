@@ -56,7 +56,7 @@
  mpo_events_ariana.0020.desc_intro: "[worried_spouse.GetName]が私の部屋に押しかけてきて、出しぬけにこう言った。「[sus_councillor.GetName]が[councillor_culture.GetName]であることを、あなたは知っていたのですか？」\n\nどう返事をするか考える間もなく、[worried_spouse.GetSheHe]が続けざまに言った。「"
  mpo_events_ariana.0020.desc_marshal: "我が軍にひとつでも[councillor_culture.GetNameNoTooltip]が率いる部隊があるなど許されぬことです。もしそれが事実なら、私は敵側の陣営を選ぶでしょう。それなのに、なぜ[sus_councillor.GetSheHe]が訓練場をうろついているのです？」"
  mpo_events_ariana.0020.desc_spymaster: "狡猾な[councillor_culture.GetNameNoTooltip]を自陣に引き入れるなどありえません。ましてやこちらの諜報活動に関与させるなど、言語道断です。[sus_councillor.GetHerHim]よりもヘビの方がまだ信用に値するでしょう」"
- mpo_events_ariana.0020.desc_end: "[worried_spouse.GetFirstNamePossessiveNoTooltip]の心配性には困ったものだが、一部の[councillor_culture.GetCollectiveNounNoTooltip][sus_councillor.Custom('mpo_yearly_ethos')]ことが知られている。\n\n「お願いします…」[worried_spouse.GetSheHe]が嘆いた。「どうか[sus_councillor.GetHerHim]の[sus_councillor.Custom2('InsultBehavior', SCOPE.sC(worried_spouse))]をやめさせてください。何をしでかすかわかったものではありません」"
+ mpo_events_ariana.0020.desc_end: "[worried_spouse.GetFirstNamePossessiveNoTooltip]の心配性には困ったものだが、一部の[councillor_culture.GetCollectiveNounNoTooltip][sus_councillor.Custom('mpo_yearly_ethos')]ことが知られている。\n\n「お願いします…」[worried_spouse.GetSheHe]が嘆いた。「どうか[sus_councillor.GetHerHim]の[sus_councillor.Custom2('InsultBehavior', SCOPE.sC('worried_spouse'))]をやめさせてください。何をしでかすかわかったものではありません」"
  mpo_yearly_bellicose: "はあまりに無謀で、ありもしないかもしれない復讐を果たそうとする"
  mpo_yearly_stoic: "は親族が死のうとも涙を流さない"
  mpo_yearly_bureaucratic: "は仲間の[sus_councillor.GetCulture.GetCollectiveNounNoTooltip]の命よりも巻物や本の方を大切にする"

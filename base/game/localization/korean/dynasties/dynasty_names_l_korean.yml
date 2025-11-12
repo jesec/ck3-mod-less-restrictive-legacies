@@ -88,8 +88,8 @@
  dynn_A_rpA_dy: "아르파디"
  dynn_A_sbrning: "아스블닝"
  dynn_A_sgeir: "아스게이어"
- dynn_A_thelfrithing: "애델프리팅"
- dynn_A_theling: "애델링"
+ dynn_A_thelfrithing: "에셀프리팅"
+ dynn_A_theling: "에셀링"
  dynn_A_valos: "알바로스"
  dynn_Aalborg: "알보르그"
  dynn_Aargau: "알가우"
@@ -2561,7 +2561,7 @@
  dynn_Mengtemu: "맹특목"
  dynn_moisusti: "모이수슈티"
  dynn_Khingan: "흥안"
- dynn_Wanyan: "완옌"
+ dynn_Wanyan: "완안"
  dynn_Ahanba: "아한파"
  dynn_AiS_I_n: "애신"
  dynn_Aotun: "오둔"
@@ -5195,7 +5195,7 @@
  dynn_Rheineck: "라이네크"
  dynn_Rheinfelden: "라인펠덴"
  dynn_Rhenen: "레이넨"
- dynn_Rhomaion: "로마이온"
+ dynn_Rhomaion: "로메온"
  dynn_Rhos: "흐로스"
  dynn_Rhosyr: "흐로시르"
  dynn_Rhuddlan: "루들란"
@@ -6402,7 +6402,7 @@
  dynn_Uuidoch: "우이도크"
  dynn_Uul: "오륵"
  dynn_Uvarov: "우바로프"
- dynn_Uvas_Mergid: "우바스 메르지트"
+ dynn_Uvas_Mergid: "우바스 메르키트"
  dynn_Uyunid: "우윤"
  dynn_U_yli_Boli: "윌리 볼리"
  dynn_UzE_s: "위제스"
@@ -10794,7 +10794,7 @@
  dynn_Fujiwara_Namba: "$dynn_Namba$" #難波
  dynn_Fujiwara_Nan_ke: "난케" #南家藤原
  dynn_Fujiwara_O_inomikado: "$dynn_O_inomikado$" #大炊御門
- dynn_Fujiwara_O_shU_: "오슈" #奥州藤原
+ dynn_Fujiwara_O_shU_: "$dynn_O_shU_$" #奥州藤原
  dynn_Fujiwara_Ononomiya: "오노노미야류" #小野宮流藤原
  dynn_Fujiwara_RokujO_: "$dynn_RokujO_$" #六条
  dynn_Fujiwara_Saionji: "사이온지" #西園寺
@@ -10990,7 +10990,7 @@
  dynn_Masunari: "마스나리" #益成
  dynn_Matano: "마타노" #俣野
  dynn_Matsudaira: "마츠다이라" #松平
- dynn_Matsura: "마츠라" #松浦
+ dynn_Matsura: "마츠우라" #松浦
  dynn_Matsuyama: "마츠야마" #松山
  dynn_MatsutO_: "마츠토" #松任
  dynn_Mibu: "미부" #壬生
@@ -11025,7 +11025,7 @@
  dynn_Minamoto_Murakami: "$Murakami$" #村上源
  dynn_Minamoto_Murakami_Shinano: "$Murakami$" #村上源
  dynn_Minamoto_NinmyO_: "$NinmyO_$" #仁明源
- dynn_Minamoto_O_shU__Ishikawa: "오슈 $dynn_Ishikawa$" #奥州石川
+ dynn_Minamoto_O_shU__Ishikawa: "$dynn_O_shU_$ $dynn_Ishikawa$" #奥州石川
  dynn_Minamoto_Saga: "$Saga_JP$" #嵯峨源
  dynn_Minamoto_SanjO_: "$SanjO_$" #三条源
  dynn_Minamoto_Sasaki: "$dynn_Sasaki$"
@@ -11122,6 +11122,7 @@
  dynn_O_nakatomi: "오오나카토미" #大中臣
  dynn_O_no: "오노" #大野
  dynn_O_shikO_chi: "오시코치" #凡河内
+ dynn_O_shU_: "오슈" #奥州
  dynn_O_suga: "오스가" #大須賀
  dynn_O_ta: "오타" #太田
  dynn_O_tawa: "오타와" #大多和
@@ -11361,7 +11362,7 @@
  dynn_Kimikobe: "키미코베" #吉弥候部
  dynn_Koreharu: "코레하루" #伊治
  dynn_Michishima: "미치시마" #道嶋
- dynn_Momunofu: "모무노후" #桃生
+ dynn_Momunofu: "모노" #桃生
  dynn_Nisana: "니사나" #爾散南
  dynn_Nisattai: "니삿타이" #爾薩体
  dynn_Nitoroshi: "니토로시" #仁土呂志
@@ -11389,9 +11390,9 @@
  #Ainu
  dynn_Akam: "아캄" #アカム
  dynn_Amamsuke: "아맘스케" #アママスケ
- dynn_Aptapet: "아타펫" #アプタペッ
+ dynn_Aptapet: "아푸타펫" #アプタペッ
  dynn_Atkeusi: "앗케우시" #アッケウシ
- dynn_Cipasir: "치파시르" #チパシリ
+ dynn_Cipasir: "치파시리" #チパシリ
  dynn_Ciroti: "치로티" #チリオティ
  dynn_Esausi: "에사우시" #エサウシ
  dynn_Huranuy: "후라누이" #フラヌイ
@@ -11399,9 +11400,9 @@
  dynn_Ioci: "이오치" #イオチ
  dynn_Iput: "이풋" #イプッ
  dynn_Iskar: "이시카라" #イシカラ
- dynn_Kusuri: "쿠수리" #クスリ
+ dynn_Kusuri: "쿠스리" #クスリ
  dynn_Maske: "마스케" #マシケ
- dynn_Menas: "메나스" #メナシ
+ dynn_Menas: "메나시" #メナシ
  dynn_Mopet: "모펫" #モペッ
  dynn_Moruran: "모루란" #モルラン
  dynn_Mukap: "무캅" #ムカップ
@@ -11424,13 +11425,13 @@
  dynn_Sikot: "시콧" #シコッ
  dynn_Simukap: "시무캅" #シムカップ
  dynn_Sipet: "시펫" #シペッ
- dynn_Sipicar: "시피차르" #シピチャリ
+ dynn_Sipicar: "시피차리" #シピチャリ
  dynn_Sirawoi: "시라오이" #シラオイ
  dynn_Sirpet: "시르펫" #シリペッ
- dynn_Sorapci: "소랍치" #ソラプチ
+ dynn_Sorapci: "소라푸치" #ソラプチ
  dynn_Soya: "소야" #ソーヤ
  dynn_Sum: "슈무" #シュム
- dynn_Tes_uni: "테수니" #テシウニ
+ dynn_Tes_uni: "테시우니" #テシウニ
  dynn_Tokapusi: "토카푸시" #トカプシ
  dynn_Tokor: "토코르" #トーコロ
  dynn_Toya: "토야" #トーヤ
@@ -11505,7 +11506,6 @@
  dynn_Zongbao: "쭝바오"
  dynn_Hiei: "히에이"
  dynn_Tsukushi: "츠쿠시"
- dynn_Nammhae: "남해"
  dynn_Shailendra: "샤일렌드라"
  dynn_Tian: "티안"
  dynn_Cheng: "승"
@@ -11711,12 +11711,12 @@
  dynn_Zubu: "조복"
  dynn_Poho: "포호"
  #Mohe
- dynn_Sumo: "스모" #粟末部 (속말부)
+ dynn_Sumo: "속말" #粟末部 (속말부)
  dynn_Baishan: "백산" #白山部 (백산부)
  dynn_Yulou: "우루" #虞婁 (우루)
  dynn_Boduo: "백돌" #伯咄部 (백돌부)
  dynn_Funie: "불열" #拂涅部 (불열)
- dynn_Yuexi: "악서" #越喜 (월희)
+ dynn_Yuexi: "월희" #越喜 (월희)
  dynn_Heishui: "흑수" #黑水部 (흑수부)
  dynn_Jiliemi: "길례미"
  dynn_Hoewon: "회원"
@@ -11741,7 +11741,7 @@
  dynn_Jiagu: "협곡"
  dynn_Zhange: "점할"
  dynn_Noulan_Wendun: "누완온돈"
- dynn_Tieli: "철려" #鐵利	(철리)
+ dynn_Tieli: "철리" #鐵利	(철리)
  dynn_Yalu: "야루"
  dynn_Poali: "포아리"
  dynn_Penuli: "페누리"
@@ -11806,7 +11806,7 @@
  dynn_Hae_89E3: "해" #解 (해)
  dynn_Heo_8F09: "허" #許 (허)
  dynn_Heuk_chi: "흑치" #黑齒 (흑치)
- dynn_Hong_6D2A: "굉" #洪 (홍)
+ dynn_Hong_6D2A: "홍" #洪 (홍)
  dynn_Hwangbo: "황보" #皇甫 (황보)
  dynn_I_5DF2: "이" #已 (이) - aka Lee/I, localised as Yi despite RR for clarity
  dynn_I_674E: "이" #李 (이) - aka Lee/I, localised as Yi despite RR for clarity
@@ -12080,3 +12080,13 @@
  dynn_Holchu: "홀추"
  #Custom Character
  dynn_Noble_Family: "귀족 가문"
+ #Senoi
+ dynn_Semai: "세마이"
+ dynn_Chewong: "체웡"
+ dynn_Temiar: "테미아르"
+ dynn_Ple: "플레"
+ dynn_Jah_Hut: "자 헛"
+ dynn_Semaq_Beri: "세막 베리"
+ dynn_Semelai: "세멜라이"
+ dynn_Temoq: "테목"
+ dynn_Mah_Meri: "마 메리"

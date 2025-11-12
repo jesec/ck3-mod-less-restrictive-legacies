@@ -69,7 +69,7 @@
  catalyst_hegemon_low_merit_vassals_yearly_desc: "Zmiany w ujęciu rocznym: ponad #V 50%#! [Concept('vassals', 'wasali')|E] [son_of_heaven_possessive|El] o [Concept('merit_level', 'randze zasług')|E] niższej niż $MERIT_LEVEL_LABEL_6$"
  catalyst_hegemon_appointing_low_merit_councillor: "[dynastic_cycle_catalyst|E]: [minister|El] o niskiej [Concept('merit_level', 'randze zasług')|E]"
  catalyst_hegemon_appointing_low_merit_councillor_desc: "[son_of_heaven|E] mianuje [Concept('minister', 'ministra')|E] o [Concept('merit_level', 'randze zasług')|E] niższej niż $MERIT_LEVEL_LABEL_7$"
- catalyst_hegemon_appointing_low_merit_governor: "[dynastic_cycle_catalyst|E]: [governor|El] o niskim poziomie [Concept('merit', 'zasług')|E]"
+ catalyst_hegemon_appointing_low_merit_governor: "[dynastic_cycle_catalyst|E]: [governor|El] o niskiej [Concept('merit_level', 'randze zasług')|E]"
  catalyst_hegemon_appointing_low_merit_governor_desc: "[son_of_heaven|E] mianuje [Concept('governor', 'gubernatora')|E] o niższej [Concept('merit_level', 'randze zasług')|E] niż wymagana w związku z [Concept('appointment_level', 'poziomem mianowania')|E]"
  catalyst_imperial_examinations_gap_long_yearly: "[dynastic_cycle_catalyst|E]: brak egzaminów od długiego czasu w ujęciu rocznym"
  catalyst_imperial_examinations_gap_long_yearly_desc: "Zmiany w ujęciu rocznym: [imperial_examinations|El] nie są organizowane od następującej liczby lat: #V [EmptyScope.ScriptValue('catalyst_imperial_examinations_gap_long_yearly_value')]#!"
@@ -104,7 +104,7 @@
  catalyst_hegemon_gains_mandate_of_heaven_desc: "Nowy [son_of_heaven|El] oznajmia, że posiada [mandate_of_heaven|El], i bierze we władanie miejsce znane jako [GetTitleByKey('h_china').GetDefinitiveName]"
  # Calamities
  catalyst_hegemon_in_civil_war: "[dynastic_cycle_catalyst|E]: wybuch [Concept('civil_war', 'wojny domowej')|E]"
- catalyst_hegemon_in_civil_war_desc: "[son_of_heaven|E] nie reaguje na żądania [Concept('faction', 'frakcji')|E], co prowadzi do [Concept('civil_war', 'wojny domowej')|E]"
+ catalyst_hegemon_in_civil_war_desc: "[son_of_heaven|E] odrzuca żądania [Concept('faction', 'frakcji')|E] lub staje się [Concept('tyrant', 'tyranem')|E], co prowadzi do [Concept('civil_war', 'wojny domowej')|E]"
  catalyst_hegemon_natural_disaster: "[dynastic_cycle_catalyst|E]: trwająca [natural_disaster|El] w ujęciu rocznym"
  catalyst_hegemon_natural_disaster_desc: "Zmiany w ujęciu rocznym: trwające [natural_disasters|El]"
  catalyst_hegemon_natural_disaster_recovered: "Zakończono usuwanie szkód po [Concept('natural_disaster', 'klęsce żywiołowej')|E]"
@@ -122,9 +122,9 @@
  catalyst_imperial_treasury_debt_desc: "Zmiany w ujęciu rocznym: bankructwo [Concept('imperial_treasury', 'cesarskiego skarbca')|E]"
  # Held Lands
  catalyst_hegemony_too_few_lands: "[dynastic_cycle_catalyst|E]: [son_of_heaven|El] ma za mało [Concept('titles', 'tytułów')|E] [de_jure|El] w ujęciu rocznym"
- catalyst_hegemony_too_few_lands_desc: "Zmiany w ujęciu rocznym: [son_of_heaven|El] [completely_controls|El] mniej niż #V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#! [Concept('titles', 'tytułów')|E] [de_jure|El]"
+ catalyst_hegemony_too_few_lands_desc: "Zmiany w ujęciu rocznym: [son_of_heaven|El] kontroluje mniej niż #V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#! [Concept('counties', 'hrabstw')|E] [de_jure|E] miejsca znanego jako [GetTitleByKey('h_china').GetDefinitiveName]"
  catalyst_hegemony_far_too_few_lands: "[dynastic_cycle_catalyst|E]: [son_of_heaven|El] ma za mało [Concept('titles', 'tytułów')|E] [de_jure|El]"
- catalyst_hegemony_far_too_few_lands_desc: "[son_of_heaven|El] [completely_controls|El] mniej niż #V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#! [Concept('titles', 'tytułów')|E] [de_jure|El]"
+ catalyst_hegemony_far_too_few_lands_desc: "[son_of_heaven|El] kontroluje mniej niż #V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#! [Concept('counties', 'hrabstw')|E] [de_jure|E] miejsca znanego jako [GetTitleByKey('h_china').GetDefinitiveName]"
  # Regency
  catalyst_diarch_mandate: "[dynastic_cycle_catalyst|E]: autonomia [grand_secretariat_possessive|El]"
  catalyst_diarch_mandate_desc: "[grand_secretariat|E] podjął działanie bez zgody [son_of_heaven_possessive|El]"
@@ -140,6 +140,8 @@
  # Great Projects
  catalyst_grand_campaign: "[dynastic_cycle_catalyst|E]: [son_of_heaven|El] wygrywa [great_project|El] o nazwie [GetGreatProjectType('grand_campaign_project').GetName]"
  catalyst_grand_campaign_desc: "[great_project|E] [son_of_heaven_possessive|El] – [GetGreatProjectType('grand_campaign_project').GetName] – zostaje zakończony sukcesem"
+ catalyst_grand_campaign_lost: "[dynastic_cycle_catalyst|E]: porażka [Concept('son_of_heaven', 'syna niebios')|E] w realizacji [Concept('great_project', 'wspaniałego projektu')|E] o nazwie [GetGreatProjectType('grand_campaign_project').GetName]"
+ catalyst_grand_campaign_lost_desc: "[great_project|E] [son_of_heaven_possessive|El] – [GetGreatProjectType('grand_campaign_project').GetName] – okazuje się porażką"
  catalyst_minister_project_culture: "[dynastic_cycle_catalyst|E]: [son_of_heaven|El] realizuje [great_project|El] o nazwie [GetGreatProjectType('minister_project_culture').GetName]"
  catalyst_minister_project_culture_desc: "[great_project|E] [son_of_heaven_possessive|El] – [GetGreatProjectType('minister_project_culture').GetName] – zostaje zakończony sukcesem"
  catalyst_great_wall: "[situation_catalyst|El]: budowa Wielkiego Muru Chińskiego"

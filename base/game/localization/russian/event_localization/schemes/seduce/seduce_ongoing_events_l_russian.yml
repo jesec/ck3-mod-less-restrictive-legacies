@@ -392,7 +392,7 @@
  seduce_ongoing.5005.ending: "\n\n«С вами мне удивительно хорошо, [ROOT.Char.GetFirstNameNoTooltip]!»"
  seduce_ongoing.5005.a: "Я еще покажу [target.GetHerHim], как со мной может быть хорошо!"
  seduce_ongoing.5006.conversation: "Через час неловких попыток общения [target.GetFirstName] смотрит на меня со вселенской скукой в глазах. Когда я решаю, что тема «[target.Custom('herhis_subject_of_interest')]» себя исчерпала и предлагаю другую — [ROOT.GetCharacter.Custom('education_conversation_subject')], — [target.GetSheHe] [target.Custom('quirk_neg_present')] и уходит."
- seduce_ongoing.5006.mockery: "«[target.GetTitledFirstNameNoTooltip]! Представляете, [mocked_courtier.Custom2('InsultNoun', ROOT.Char)] [mocked_courtier.GetFirstName] на самом деле...»\n\n[target.GetFirstNamePossessive] смотрит на меня с растущим презрением во взоре, и я быстро умолкаю."
+ seduce_ongoing.5006.mockery: "«[ROOT.Char.GetTitledFirstNameNoTooltip]! Представляете, [mocked_courtier.Custom2('InsultNoun', ROOT.Char)] [mocked_courtier.GetFirstName] на самом деле...»\n\n[target.GetFirstNamePossessive] смотрит на меня с растущим презрением во взоре, и я быстро умолкаю."
  seduce_ongoing.5006.bodily: "[target.GetFirstName] передо мной, я [ROOT.Char.Custom('quirk_pos_adverb')] улыбаюсь и многозначительно приподнимаю [ROOT.Char.Custom('GetUpperClothingArticle')], но [target.GetSheHe] в омерзении отшатывается."
  seduce_ongoing.5006.fallback: "Я изо всех сил пытаюсь найти точки соприкосновения, но [target.GetFirstName], похоже, с каждым мигом все сильнее тяготится моим обществом.\n\nВскоре [target.GetSheHe] бормочет извинения и оставляет меня в одиночестве."
  seduce_ongoing.5006.a: "И зачем мне в постели [target.Custom2('InsultNounSexual', ROOT.Char)]?!"

@@ -321,7 +321,7 @@
  chariot_race.4000.d.failure: "[target_governor.GetTitledFirstName](을)를 조종하는 데 실패함"
  chariot_race.4000.f: "요직에 있는 친구의 가치를 얕봐서는 안 되지."
  chariot_race.4000.g: "슬슬 [target_governor.GetFirstNameNoTooltip]의 콧대를 한 번 밟아놓을 때가 됐나..."
- chariot_race.4000.g.flavor: "[target_governor.GetFirstNameNoTooltip]에게 야망을 꺾일 만한 모욕을 퍼부음"
+ chariot_race.4000.g.flavor: "[target_governor.GetFirstNameNoTooltip]에게 야심을 꺾일 만한 모욕을 퍼부음"
  target_governor_change_appointment_investment_medium_loss: "[target_title.GetName]에 대한 [target_governor.GetTitledFirstNamePossessive] [candidate_score|E]가 [EmptyScope.ScriptValue('appointment_score_medium_value')|N0]만큼 감소함"
  chariot_race.4010.t: "[unpopular_official.GetTitledFirstNameNoTooltip]의 몰락"
  chariot_race.4010.desc: "관중 사이에서 우렁찬 포효가 울려 퍼지더니, 곧이어 반복되면서 퍼지다 구호가 되었다. 나는 고개를 앞으로 무슨 소리인지 들었다. [Glossary( '호이 폴로이', 'HOI_POLLOI_GLOSS')]가 발을 구르며 삿대질을 하고 이름을 외치고 있었다. #EMP \"[unpopular_official.GetTitledFirstName](을)를 몰아내자! [unpopular_official.GetTitledFirstNameNoTooltip](을)를 몰아내자!\"#!\n\n[unpopular_official.GetTitledFirstNameNoTooltip](이)가 다른 의미로 명성을 얻고 있다고는 들었는데, 설마 사람들이 이 정도로 화났을 줄은!"

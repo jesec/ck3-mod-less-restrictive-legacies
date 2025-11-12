@@ -1,6 +1,7 @@
 ﻿l_simp_chinese:
  ALL_CLAIMANTS: "所有[claimants|E]"
  ANY_CLAIMANT: "任一[claimant|E]"
+ NOT_ANY_CLAIMANT: "头衔没有[claimants|E]"
  ANY_CHILD: "任一子女："
  ANY_CHILD_FIRST: "我的任一子女："
  ANY_CHILD_THIRD: "[CHARACTER.GetShortUINamePossessive]的任一子女："

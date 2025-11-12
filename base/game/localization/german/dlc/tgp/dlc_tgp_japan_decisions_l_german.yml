@@ -8,7 +8,7 @@
  tgp_japan_establish_house_fief_decision_tooltip: "Herrscht über Eure [governorship|E] als persönliches Lehen und lehnt die zentrale Aufsicht ab"
  tgp_japan_establish_house_fief_decision_confirm: "$tgp_japan_establish_house_fief_decision$"
  tgp_japan_establish_house_fief_domicile_in_governorship_trigger: "Euer [domicile|E] muss in einem gehaltenen [county|E]-[governorship|E] liegen"
- tgp_japan_establish_house_fief_aspiration_trigger: "Euer [house|E] darf nicht das [house_aspiration|E] [GetHouseAspiration('service').GetName|V] oder [GetHouseAspiration('ceremony').GetName|V] haben"
+ tgp_japan_establish_house_fief_aspiration_trigger: "Euer [house|E] darf nicht die [house_aspiration|E] [GetHouseAspiration('service').GetName|V] oder [GetHouseAspiration('ceremony').GetName|V] haben"
  tgp_japan_establish_house_fief_domicile_building_trigger: "Euer [domicile|E] muss ein [domicile_building|E] „[GetDomicileBuilding('japanese_manor_main_02').GetName]“ oder höher haben"
  tgp_japan_establish_house_fief_capital_domicile_trigger: "Euer [domicile|E] darf nicht in der [capital|E]-[county|E] von „[THIS.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTier|U]“ liegen #weak ([THIS.Char.GetTopLiege.GetCapitalLocation.GetTitle.GetDeJureLiege.GetNameNoTier])#!"
  tgp_japan_establish_house_fief_centralization_trigger: "Euer [top_liege|E] darf nicht das [law|E] „[GetLaw('japanese_bureaucracy_3').GetName]“ haben"
@@ -114,7 +114,7 @@
  # Assert Regional Dominion (Become Soryo Duke i.e. SuperSoryoTM)
  tgp_japan_assert_regional_dominion_government_decision: "Regionale Vorherrschaft durchsetzen"
  tgp_japan_assert_regional_dominion_government_decision_desc: "Das Kaiserreich ist ruderlos! Es braucht starke Krieger, um die örtliche Führung zu lenken, während das Ruder des Staats unbemannt bleibt. Örtliche Fürsten werden die Weisheit darin erkennen oder von einer Flut aus Pfeilen und Feuer hinweggefegt werden."
- tgp_japan_assert_regional_dominion_government_decision_shogun_desc: "Nachdem die ohnmächtigen Bürokraten hinweggespült wurden, beginnt ein Zeitalter der Kriegermacht! Ein [shogun|EU] steht am Ruder und führt den Staat wie aus seinem Kriegszelt. Samurai müssen die örtliche Führung lenken! Eure Nachbarn werden die Weisheit darin erkennen oder von einem Meer aus Pfeilen und Feuer hinweggefegt werden."
+ tgp_japan_assert_regional_dominion_government_decision_shogun_desc: "Nachdem die ohnmächtigen Bürokraten hinweggespült wurden, beginnt ein Zeitalter der Kriegermacht! Ein [shogun|E] steht am Ruder und führt den Staat wie aus seinem Kriegszelt. Samurai müssen die örtliche Führung lenken! Eure Nachbarn werden die Weisheit darin erkennen oder von einem Meer aus Pfeilen und Feuer hinweggefegt werden."
  tgp_japan_assert_regional_dominion_government_decision_trigger_01: "Euer [domicile|E] muss das [domicile_building|E] „[GetDomicileBuilding('japanese_manor_main_03').GetName]“ oder höher haben"
  tgp_japan_assert_regional_dominion_government_decision_trigger_aspiration: "Euer [house|E] hat eine vollständig verbesserte [GetHouseAspiration('strength').GetName|V]- oder [GetHouseAspiration('determination').GetName|V]s-[house_aspiration|E]"
  tgp_japan_assert_regional_dominion_government_decision_trigger_bloc: "Ihr führt einen [bloc|E] mit der [GetHouseAspiration('strength').GetName|V]- oder [GetHouseAspiration('determination').GetName|V]s-[house_aspiration|E] der Stufe #V $house_bloc_level_03$#! an"
@@ -149,4 +149,3 @@
  tgp_japan_emperor_war_decision: "Den Wiederherstellungskrieg beginnen"
  tgp_japan_emperor_war_decision_desc: "Das Kaiserreich steht mir von Geburt her zu, und es sollte mir nicht nur dem Namen nach gehören. Nötigenfalls greife ich zur Gewalt. Ich werde nicht mehr schweigend zusehen, wie [ROOT.Char.GetTopLiege.GetShortUIName] meine Lande ruiniert."
  tgp_japan_emperor_war_decision_tooltip: "Eure [faction|E] beginnt einen [war|E], um Euch auf den Thron von [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName] zu setzen"
-

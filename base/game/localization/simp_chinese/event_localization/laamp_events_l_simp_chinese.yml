@@ -9,7 +9,7 @@
  ep3_laamps.0001.b: "一切归于[alt_1.GetFirstNameNoTooltipRegnal]。"
  target_character_government: "[government|E]：[TARGET_CHARACTER.GetGovernment.GetName]"
  target_character_independent: "[independent_ruler|E]"
- target_character_liege: "[Select_CString(TARGET_CHARACTER.IsIndependentRuler, '', TARGET_CHARACTER.GetLiege.GetName)][Select_CString(TARGET_CHARACTER.IsIndependentRuler, '独立的', '的封臣')]"
+ target_character_liege: "[Select_CString(TARGET_CHARACTER.IsIndependentRuler, '独立领主', '')][Select_CString(TARGET_CHARACTER.IsIndependentRuler, '', TARGET_CHARACTER.GetLiege.GetName)][Select_CString(TARGET_CHARACTER.IsIndependentRuler, '', '的封臣')]"
  ep3_laamps.0001.c: "[alt_2.GetFirstNameNoTooltipRegnal]必定能铸就我们家族的未来。"
  ep3_laamps.0001.d: "现在我们看向了[alt_3.GetFirstNameNoTooltipRegnal]。"
  ep3_laamps.0001.e: "时机已逝……"

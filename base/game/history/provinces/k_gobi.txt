@@ -49,7 +49,7 @@
 11545 = {	#Karepuri
 	culture = mongol
 	religion = tengri_pagan
-	holding = nomad_holding
+	holding = herder_holding
 }
 11559 = {	#Kukuchol
 	holding = none
@@ -92,7 +92,7 @@
 11568 = {	#Ulanhulud
 	culture = mongol
 	religion = tengri_pagan
-	holding = nomad_holding
+	holding = herder_holding
 }
 11584 = {	#Tsagaanuur
 	holding = none
@@ -156,7 +156,7 @@
 12556 = {	#b_GOBI_Sishajiang
 	culture = mongol
 	religion = tengri_pagan
-	holding = nomad_holding
+	holding = herder_holding
 }
 12557 = {	#b_GOBI_Liaoli
 	holding = none
@@ -176,7 +176,7 @@
 12570 = {	#b_GOBI_Durma
 	culture = mongol
 	religion = tengri_pagan
-	holding = nomad_holding
+	holding = herder_holding
 }
 12571 = {	#b_GOBI_Elsuul
 	holding = none
@@ -186,7 +186,7 @@
 12572 = {	#b_GOBI_Kur_Chagan
 	culture = khitan
 	religion = dhyana
-	holding = nomad_holding
+	holding = herder_holding
 }
 12573 = {	#b_GOBI_Abakhanar
 	holding = none

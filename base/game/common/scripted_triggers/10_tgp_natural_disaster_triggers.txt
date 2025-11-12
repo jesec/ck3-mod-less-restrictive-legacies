@@ -119,3 +119,21 @@ tgp_natural_disaster_character_is_affected_by_any_imminent_disaster_trigger = {
 		NOT = { situation_current_phase = recovery }
 	}
 }
+
+tgp_natural_disaster_character_is_valid_vassal_participant = {
+	OR = { # permits vassals and landless adventurers to contribute, but doesn't give them their own project
+		is_independent_ruler = no
+		is_landed = no
+	}
+	highest_held_title_tier >= tier_county
+	# Remove adventurers who leave the area
+	trigger_if = {
+		limit = {
+			exists = domicile
+			is_independent_ruler = yes
+		}
+		domicile.domicile_location.county ?= {
+			any_county_situation = { this = scope:situation }
+		}
+	}
+}

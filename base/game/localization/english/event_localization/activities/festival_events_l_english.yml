@@ -141,7 +141,7 @@
  festival.022.desc: "Two [rumbler_one.GetWomenMen] of neighboring villages have converged on the festival grounds to settle their differences as tradition dictates — by hoisting their palanquins aloft and slamming them into each other in attempt to bring their opponent's palanquin to the ground.\n\nSplinters fly with every impact! The crowd's riotous cheers move the combatants to increasingly explosive collisions."
  festival.022.a: "I'll not allow violence, no matter the tradition!"
  festival.022.b: "The winners will be well rewarded!"
- festival.022.c: "If the crowd wants a spectacle, they can pay see it."
+ festival.022.c: "If the crowd wants a spectacle, they can pay to see it."
 
  festival.023.t: "Procession Imperiled"
  festival.023.desc: "Deerhide drums thunder, announcing the beginning of the ceremonial procession. The banner-bearers proudly lead the march, resplendent in their festival garb, followed by the majestic palanquin, borne aloft on the shoulders of attendants.\n\n"Look out!" the picturesque procession is shattered as a palanquin bearer shouts, loosing his grip, resulting in the palanquin tipping dangerously."
@@ -345,7 +345,7 @@
  festival.103.b: ""Grace us with your talents, [target_character.GetTitledFirstNameNoTooltip].""
  festival.103.c: "The talents of #EMP my#! friends are much grander."
  friend_defended_talents: "[CHARACTER.GetShortUIName|U] backed [TARGET_CHARACTER.GetShortUINamePossessive|U] arrogant claims at a festival."
- friend_defended_talents_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive|U] arrogant claims were backed by [TARGET_CHARACTER.GetShortUINamePossessive|U] at a festival."
+ friend_defended_talents_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive|U] arrogant claims were backed by [CHARACTER.GetShortUIName|U] at a festival."
 
  festival.103.b.success: "[target_character.GetTitledFirstName] is cowed into submission"
  festival.103.b.failure: "[target_character.GetTitledFirstName] is unimpressed by your challenge"

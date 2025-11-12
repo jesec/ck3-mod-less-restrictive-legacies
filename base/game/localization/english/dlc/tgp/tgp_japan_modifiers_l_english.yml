@@ -21,8 +21,8 @@
  tgp_japan_instructive_plays_county_modifier_desc: "People in this county are reminded of their place even when they seek to forget it through a few hours spent enjoying a play."
 
  #Character Modifiers
- tpg_japan_hot_spring_relaxation_modifier: "Self-care"
- tpg_japan_hot_spring_relaxation_modifier_desc: "This character has practised the art of taking care of oneself."
+ tpg_japan_hot_spring_relaxation_modifier: "Relaxed from Onsen"
+ tpg_japan_hot_spring_relaxation_modifier_desc: "This character has taken a restorative bath in an [Glossary( 'onsen', 'ONSEN_GLOSS' )]."
 
  tgp_japan_hot_spring_mystic_positive_modifier: "Rejuvenating Spirit"
  tgp_japan_hot_spring_mystic_positive_modifier_desc: "This character understood how to align with their spiritual self."
@@ -39,13 +39,13 @@
  tgp_japan_sake_offering_character_modifier_desc: "This character showed respect to the deities during a cherry blossom celebration."
 
  tgp_japan_tengu_rumors_character_modifier: "Tengu Rumors"
- tgp_japan_tengu_rumors_character_modifier_desc: "This character are still searching for a [Glossary( 'Tengu', 'TENGU_GLOSS' )] in treacherous mountains or fruitful forests after hearing a rumor.\n\nIt is said that whoever comes across one and impresses them with their might will be handsomely rewarded."
+ tgp_japan_tengu_rumors_character_modifier_desc: "This character are still searching for a [Glossary( 'Tengu', 'TENGU_GLOSS' )] after hearing a rumor.\n\nIt is said that whoever comes across one and impresses them will be handsomely rewarded."
 
  tgp_japan_cautious_curiosity_character_modifier: "Cautious Curiosity"
  tgp_japan_cautious_curiosity_character_modifier_desc: "This character was recently tricked by a mere rumor."
 
- tpg_japan_take_a_breather_character_modifier: "Absent-Minded"
- tpg_japan_take_a_breather_character_modifier_desc: "This character is taking their time to just... exist."
+ tpg_japan_add_fish_to_pond_modifier: "Pond Teaming with Fish"
+ tpg_japan_add_fish_to_pond_modifier_desc: "This character's gardener has added extra fish to their pond, making it a popular place for courtiers to visit."
 
  tgp_japan_train_with_troops_modifier: "Inspired Troops"
  tgp_japan_train_with_troops_modifier_desc: "This character has given a speech, inspiring their troops before any battle to come."

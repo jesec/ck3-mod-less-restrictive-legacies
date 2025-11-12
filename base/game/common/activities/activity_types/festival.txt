@@ -259,6 +259,8 @@
 									}
 								}
 							}
+							# Piety for Host from Ritual Celebrations and Hedonism tenets
+							disburse_festival_piety_reward_effect = yes
 							every_attending_character = {
 								limit = { this != root }
 								custom = every_guest_scope_tt

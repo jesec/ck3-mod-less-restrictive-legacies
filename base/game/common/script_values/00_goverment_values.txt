@@ -195,6 +195,14 @@ low_celestial_prestige_transfer = 0.05
 normal_celestial_prestige_transfer = 0.1
 high_celestial_prestige_transfer = 0.25
 
+# Hegemonic Tributary values
+low_hegemonic_tributary_tax = 0.1
+normal_hegemonic_tributary_tax = 0.15
+high_hegemonic_tributary_tax = 0.3
+low_hegemonic_prestige_transfer = 0.1
+normal_hegemonic_prestige_transfer = 0.15
+high_hegemonic_prestige_transfer = 0.3
+
 # Meritocratic Tributary values
 low_meritocratic_tributary_tax = 0.05
 normal_meritocratic_tributary_tax = 0.1

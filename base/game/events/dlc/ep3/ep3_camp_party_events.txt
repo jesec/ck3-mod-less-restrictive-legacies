@@ -3652,6 +3652,8 @@ ep3_camp_party.2100 = {
 			}
 			create_character = {
 				template = poet_template
+				culture = location.culture
+				faith = location.faith
 				location = root.location
 				save_scope_as = new_person
 			}
@@ -3669,6 +3671,8 @@ ep3_camp_party.2100 = {
 			}
 			create_character = {
 				template = merchant_template
+				culture = location.culture
+				faith = location.faith
 				location = root.location
 				save_scope_as = new_person
 			}

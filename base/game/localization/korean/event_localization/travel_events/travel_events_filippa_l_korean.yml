@@ -209,8 +209,8 @@
  travel_events.2013.e: "미안한데 우리가 좀 바빠서 말이야."
  #Visit a logging camp - Burn off some stress chopping wood
  travel_events.2014.t: "숭덩숭덩"
- travel_events.2014.desc: "[ROOT.Char.GetCurrentLocation.GetName] 벌목장 한가운데에 있는 거대한 모탕은 상당히 마모된 상태였다. 마치 인간이란 존재가 나타나기 전부터 그 자리에 있었던 것 같았다.\n\n이 위엄 넘치는 나무 밑동에 다가가니 그간 쌓인 스트레스로 인해 어깨에 힘이 들어가고 팔뚝이 부들부들 떨렸다.\n\n조심스러운 동작으로 버려진 재목을 모탕에 올린 후, 한 번의 날렵한 동작으로 도끼를 높이 치켜들었다."
- travel_events.2014.a: "#EMP 후아아압!#!"
+ travel_events.2014.desc: "[ROOT.Char.GetCurrentLocation.GetName] 벌목장 한가운데에 있는 거대한 모탕은 상당히 마모된 상태였다. 마치 인간이란 존재가 나타나기 전부터 그 자리에 있던 것 같았다.\n\n내 주위에서는 일꾼들이 반짝이는 땀을 흘리며 일하고 있었고, 이들은 비록 신분은 낮을지라도 이 세상의 무게를 벗어난 듯했다.\n\n나는 거대한 나무 둥치에 똑바로 꽂힌 장작 도끼를 바라보았다. 스트레스가 가득 쌓여 긴장된 어깨를 풀어 볼 좋은 기회 같았다."
+ travel_events.2014.a: "난 도끼를 집어 들었다. 그리고... #EMP 후아아압!#!"
  travel_events.2014.a_flavor: "#EMP 이거나 먹어라#!, 스트레스야!"
  travel_events.2014.a_stress_tt: "스트레스 감소"
  travel_events.2014.a_great_stress_desc: "스트레스가 크게 감소함"

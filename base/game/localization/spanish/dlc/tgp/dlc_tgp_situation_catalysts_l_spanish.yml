@@ -69,7 +69,7 @@
  catalyst_hegemon_low_merit_vassals_yearly_desc: "Deriva anual: más del #V 50 %#! de los [vassals|lE] del [son_of_heaven|E] tiene un [merit_level|El] inferior a $MERIT_LEVEL_LABEL_6$"
  catalyst_hegemon_appointing_low_merit_councillor: "[dynastic_cycle_catalyst|E] de [minister|El] con poco [merit_level|lE]"
  catalyst_hegemon_appointing_low_merit_councillor_desc: "El [son_of_heaven|E] nombra a un [minister|El] con un [merit_level|El] inferior a $MERIT_LEVEL_LABEL_7$"
- catalyst_hegemon_appointing_low_merit_governor: "[dynastic_cycle_catalyst|E] de [governor|lE] con poco [merit|lE]"
+ catalyst_hegemon_appointing_low_merit_governor: "[dynastic_cycle_catalyst|E] de [governor|lE] con poco [merit_level|lE]"
  catalyst_hegemon_appointing_low_merit_governor_desc: "El [son_of_heaven|E] nombra a un [governor|El] con un [merit_level|El] inferior al [appointment_level|El] esperado"
  catalyst_imperial_examinations_gap_long_yearly: "[dynastic_cycle_catalyst|E] anual de falta de exámenes larga"
  catalyst_imperial_examinations_gap_long_yearly_desc: "Deriva anual: no se han celebrado [imperial_examinations|lE] en #V [EmptyScope.ScriptValue('catalyst_imperial_examinations_gap_long_yearly_value')]#! años"
@@ -104,7 +104,7 @@
  catalyst_hegemon_gains_mandate_of_heaven_desc: "Un nuevo [son_of_heaven|E] reclama el [mandate_of_heaven|E] y posee [GetTitleByKey('h_china').GetDefinitiveName]"
  # Calamities
  catalyst_hegemon_in_civil_war: "[dynastic_cycle_catalyst|E] de estallido de [civil_war|El]"
- catalyst_hegemon_in_civil_war_desc: "El [son_of_heaven|E] fracasa a la hora de responder a las exigencias de la [faction|El], lo que lleva a una [civil_war|El]"
+ catalyst_hegemon_in_civil_war_desc: "El [son_of_heaven|E] rechaza las exigencias de la [faction|El] o se convierte en [tyrant|El] y provoca una [civil_war|lE]"
  catalyst_hegemon_natural_disaster: "[dynastic_cycle_catalyst|E] anual de [natural_disaster|El] en curso"
  catalyst_hegemon_natural_disaster_desc: "Deriva anual: [natural_disasters|El] en curso"
  catalyst_hegemon_natural_disaster_recovered: "Recuperación de [natural_disaster|lE]"
@@ -122,9 +122,9 @@
  catalyst_imperial_treasury_debt_desc: "Deriva anual: el [imperial_treasury|lE] está en bancarrota"
  # Held Lands
  catalyst_hegemony_too_few_lands: "[dynastic_cycle_catalyst|E] anual del [son_of_heaven|E] con pocos [titles|lE] [de_jure|lE]"
- catalyst_hegemony_too_few_lands_desc: "Deriva anual: el [son_of_heaven|E] [completely_controls|lE] menos de un #V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#! de los [titles|lE] [de_jure|lE]"
- catalyst_hegemony_far_too_few_lands: "[dynastic_cycle_catalyst|E] del [son_of_heaven|E] con pocos [titles|lE] [de_jure|lE]"
- catalyst_hegemony_far_too_few_lands_desc: "El [son_of_heaven|E] [completely_controls|lE] menos de un #V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#! de los [titles|lE] [de_jure|lE]"
+ catalyst_hegemony_too_few_lands_desc: "Deriva anual: el [son_of_heaven|E] controla menos de un #V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#! de los [counties|lE] [de_jure|lE] de [GetTitleByKey('h_china').GetDefinitiveName]"
+ catalyst_hegemony_far_too_few_lands: "[dynastic_cycle_catalyst|E] del [son_of_heaven|E] con muy pocos [titles|lE] [de_jure|lE]"
+ catalyst_hegemony_far_too_few_lands_desc: "El [son_of_heaven|E] controla menos de un #V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#! de los [counties|El] [de_jure|El] de [GetTitleByKey('h_china').GetDefinitiveName]"
  # Regency
  catalyst_diarch_mandate: "[dynastic_cycle_catalyst|E] de autonomía del [grand_secretariat|lE]"
  catalyst_diarch_mandate_desc: "El [grand_secretariat|lE] actuó sin la aprobación del [son_of_heaven|E]"
@@ -140,6 +140,8 @@
  # Great Projects
  catalyst_grand_campaign: "El [son_of_heaven|E] gana un [dynastic_cycle_catalyst|El] de [great_project|lE] [GetGreatProjectType('grand_campaign_project').GetName]"
  catalyst_grand_campaign_desc: "El [great_project|lE] [GetGreatProjectType('grand_campaign_project').GetName] del [son_of_heaven|E] tiene éxito"
+ catalyst_grand_campaign_lost: "El [son_of_heaven|E] fracasa en un [dynastic_cycle_catalyst|El] de [great_project|lE] [GetGreatProjectType('grand_campaign_project').GetName]"
+ catalyst_grand_campaign_lost_desc: "El [great_project|lE] [GetGreatProjectType('grand_campaign_project').GetName] del [son_of_heaven|E] es un fracaso"
  catalyst_minister_project_culture: "El [son_of_heaven|E] completa un [dynastic_cycle_catalyst|El] de [great_project|El] [GetGreatProjectType('minister_project_culture').GetName]"
  catalyst_minister_project_culture_desc: "El [great_project|lE] [GetGreatProjectType('minister_project_culture').GetName] del [son_of_heaven|E] tiene éxito"
  catalyst_great_wall: "[dynastic_cycle_catalyst|E] de construcción de $building_the_great_wall_01$"

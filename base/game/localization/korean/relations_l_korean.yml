@@ -241,6 +241,7 @@
  relation_liege_female: "주군"
  relation_liege_male: "주군"
  relation_suzerain: "종주"
+ relation_suzerain_possessive: "종주의"
  relation_leader_female: "지도자"
  relation_leader_male: "지도자"
  relation_ward: "피후견인"
@@ -675,3 +676,5 @@
  relation_elder: "좌주"
  relation_disciple_possessive: "문생의"
  relation_elder_possessive: "좌주의"
+ relation_tributary: "조공국"
+ relation_tributary_possessive: "조공국의"

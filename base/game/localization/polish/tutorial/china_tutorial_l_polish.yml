@@ -48,7 +48,7 @@
  lesson_china_resources_piety: "$lesson_basics_quick_resources_piety$"
  lesson_china_resources_piety_desc: "[piety_i|E] [piety|El] jest zasobem, który odzwierciedla cnotliwość postaci.\n\nTwój [piety_level|El] również zwiększa się wraz ze zgromadzoną pobożnością. Aby twoja postać stała się szczególnie pobożna, dobrym wyborem będzie skupienie się na [learning_i|E] [Concept('learning', 'nauce')|E]."
  lesson_china_resources_influence: "@influence_icon! $game_concept_influence$"
- lesson_china_resources_influence_desc: "[influence_i] [influence|E] to twoja zdolność sprawiania, że inni cię słuchają. Zdobywając wpływ zwiększasz również swój [influence_level|El].\n\nJako zasób, wpływ jest wykorzystywany przede wszystkim do promowania wybranego kandydata na stanowisko [Concept('governor', 'gubernatora')|E] [Concept('province', 'prowincji')|E]."
+ lesson_china_resources_influence_desc: "[influence_i] [influence|E] to twoja zdolność sprawiania, że inni cię słuchają. Zdobywając wpływ, zwiększasz również swój [influence_level|El].\n\nJako zasób, wpływ jest wykorzystywany przede wszystkim do promowania wybranego kandydata na stanowisko [Concept('governor', 'gubernatora')|E] [Concept('province', 'prowincji')|E]."
  lesson_china_resources_renown: "$lesson_basics_quick_resources_renown$"
  lesson_china_resources_renown_desc: "$lesson_basics_quick_resources_renown_desc$"
  lesson_china_estate_heading: "Twój majątek rodzinny"

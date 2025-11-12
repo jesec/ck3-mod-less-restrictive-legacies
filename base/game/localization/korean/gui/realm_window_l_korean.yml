@@ -72,7 +72,7 @@
  REALM_WINDOW_DIPLOMACY_TOOLTIP_RAID_BY: "#T [CHARACTER.GetUIName] 약탈 중#!\n"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_RAID_BY_INFO: "[DATE.GetString|V]까지 적대 상태"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_CONFEDERATION: "#T [CONFEDERATION.GetName] 구성원#!\n"
- REALM_WINDOW_DIPLOMACY_TOOLTIP_CONFEDERATION_INFO: "다른 [bloc_member_houses|E]"
+ REALM_WINDOW_DIPLOMACY_TOOLTIP_CONFEDERATION_INFO: "다른 [bloc_member_houses|E]:"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_CONFEDERATION_MEMBER_CHARACTER: "$TAB$[CHARACTER.GetUIName|U]\n$TAB$#TOOLTIP:STATIC_MODIFIER,prestige_level_[Character.GetPrestigeLevel] @prestige_level_[Character.GetPrestigeLevel]_icon!#!$TAB$[opinion|E]: #color:{[ToTextFormatColor(Character.GetOpinionOfTint( GetPlayer ))]} [CHARACTER.GetOpinionOf( GetPlayer )|=]#!"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_CONFEDERATION_MEMBER_HOUSE: "$TAB$[DYNASTY_HOUSE.GetName|U]: [DYNASTY_HOUSE.MakeScope.ScriptValue('tgp_bloc_house_member_count_value')|0V] #weak ([DYNASTY_HOUSE.GetDynasty.GetName])#!"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_CONFEDERATION_MEMBER_HOUSE_DYNASTY: "#weak ([DYNASTY_HOUSE.GetDynasty.GetName])#!"

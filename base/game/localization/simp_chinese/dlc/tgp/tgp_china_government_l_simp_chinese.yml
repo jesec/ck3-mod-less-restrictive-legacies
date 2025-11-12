@@ -87,6 +87,7 @@
  minister_of_revenue_desc_with_value: "[minister_of_revenue|E]：$VALUE|+0=$"
  is_a_minister_desc: "是[minister|E]"
  recipient_is_a_minister_desc: "[recipient.GetShortUIName|U]是[minister|E]"
+ target_is_a_minister_desc: "[CHARACTER.GetShortUIName|U]是[minister|E]"
  you_are_not_a_minister_desc: "你#bold 不是#![minister|E]"
  they_are_your_disciple_desc: "对方是你的[disciple|E]"
  is_a_civilian_governor_desc: "你是文职[GetPlayer.Custom('GetGovernorConcept')]"
@@ -135,3 +136,5 @@
  appointment_timeout_desc_retired_governor: "[CHARACTER.GetShortUIName|U]最近作为[governor|E]致仕"
  appointment_timeout_desc_retired_estate: "[CHARACTER.GetShortUIName|U]已决定退休，并在[CHARACTER.GetHerHis]的家族[estate|E]中度过余生"
  appointment_timeout_desc_examinations: "[CHARACTER.GetShortUIName|U]参加了[examinations|E]"
+ candidate_pool_ducal_conquest_perk_effect_first: "[civilian_career|E][candidate_score|E]：@appointment_score![EmptyScope.ScriptValue( 'candidate_pool_ducal_conquest_perk_score_value' )|+=0]"
+ candidate_pool_loyalty_and_respect_perk_effect_first: "[military_career|E][candidate_score|E]：@appointment_score![EmptyScope.ScriptValue( 'candidate_pool_loyalty_and_respect_perk_score_value' )|+=0]"

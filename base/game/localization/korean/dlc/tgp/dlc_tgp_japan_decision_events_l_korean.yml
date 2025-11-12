@@ -29,7 +29,6 @@
  japanese_house_name_flag: "[new_head.MakeScope.Var( 'new_japanese_house_name' ).GetFlagName]"
  japanese_house_name_fallback: "[old_head.GetHouse.GetName]"
  japanese_house_name: "[new_head.GetHouse.GetNameNoTooltip]"
- #tgp_japan_become_shogun_decision
  japanese_dynasty_name: "[new_head.GetDynasty.GetNameNoTooltip]"
  tgp_japan_decision.9005.t: "$tgp_japan_establish_house_fief_decision$: 가족 분열"
  tgp_japan_decision.9005.t.landless: "$tgp_japan_establish_soryo_manor_decision$: 가족 분열"
@@ -66,10 +65,10 @@
  will_found_noble_family_tt: "당신이 새로운 [noble_family|E]의 가주가 됨"
  # tgp_japan_emperor_restoration_decision
  tgp_japan_decision.9301.t: "열린 우리"
- tgp_japan_decision.9301.desc: "천황으로서, 나는 이 나라의 진정한 지도자로서 마땅한 자리를 되찾았다. 내 권세는 더 이상 제 욕심을 채우려는 자들의 손에 휘둘리지 않고, 필요한 모든 것이 황위에 회복되었다."
+ tgp_japan_decision.9301.desc: "천황으로서, 나는 이 나라의 진정한 지도자로서 마땅한 자리를 되찾았다. 내 권세는 더 이상 제 욕심을 채우려는 자들의 손에 휘둘리지 않고, 필요한 모든 것이 국화 옥좌에 회복되었다."
  tgp_japan_decision.9301.a: "나라를 인도하는 태양."
  tgp_japan_decision.9302.t: "승리한 [tenno.GetTitleAsNameNoTooltip]"
- tgp_japan_decision.9302.desc: "$game_concept_tenno_possessive$ 귀환이 들불처럼 퍼져 나가고 있다. [tenno.GetName](이)가 황실의 위상을 되찾으며, 게으르고 사악한 손에서 권력을 거둬들이기를 바랄 뿐이다.\n\n[tenno.GetSheHe|U]는 이제 황위에서 이 땅의 백성을 보다 직접적으로 다스릴 뜻을 드러냈으며, [tenno.GetHerHis] 치세는 더 이상 의례에 그치지 않을 것이다."
+ tgp_japan_decision.9302.desc: "$game_concept_tenno_possessive$ 귀환이 들불처럼 퍼져 나가고 있다. [tenno.GetName](이)가 황실의 위상을 되찾으며, 게으르고 사악한 손에서 권력을 거둬들이기를 바랄 뿐이다.\n\n[tenno.GetSheHe|U]는 이제 국화 옥좌에서 이 땅의 백성을 보다 직접적으로 다스릴 뜻을 드러냈으며, [tenno.GetHerHis] 치세는 더 이상 의례에 그치지 않을 것이다."
  tgp_japan_decision.9302.a: "이것이 질서로의 회귀가 되기를."
  # tgp_japan_become_a_poet_decision
  tgp_japan_decision.9401.t: "비유와 음절"
@@ -84,7 +83,7 @@
  tgp_japan_decision.9500.a: "천상의 순수한 땅이여, 그대를 받아들이겠다."
  # tgp_japan_establish_soryo_administration_decision
  tgp_japan_decision.9603.t: "총령 행정 수립: 행동 촉구"
- tgp_japan_decision.9603.desc: "[daijo_daijin.GetTitledFirstName]의 탐욕스러운 야망에는 끝이 없다. [daijo_daijin.GetSheHe]는 이제 노골적으로 개혁을 추진하며, [daijo_daijin.GetHerHis] 가문과 그 동맹의 권력을 굳히려 하고 있다.\n\n일본의 통치에 대해 우리가 어떠한 합의나 이견을 가지고 있든, [daijo_daijin.GetHouse.GetBaseNameNoTooltip](이)가 이처럼 지배적인 위치로 나아가는 것은 우리 모두가 경계해야 할 일이다."
+ tgp_japan_decision.9603.desc: "[daijo_daijin.GetTitledFirstName]의 탐욕스러운 야심에는 끝이 없다. [daijo_daijin.GetSheHe]는 이제 노골적으로 개혁을 추진하며, [daijo_daijin.GetHerHis] 가문과 그 동맹의 권력을 굳히려 하고 있다.\n\n일본의 통치에 대해 우리가 어떠한 합의나 이견을 가지고 있든, [daijo_daijin.GetHouse.GetBaseNameNoTooltip](이)가 이처럼 지배적인 위치로 나아가는 것은 우리 모두가 경계해야 할 일이다."
  tgp_japan_decision.9603.leader: "\n\n[leader.GetTitledFirstName](은)는 저항의 상징으로 떠올랐으며, 지금도 [leader.GetHerHis] 군세를 모으고 있다."
  tgp_japan_decision.9603.a: "[ROOT.Char.GetHouse.GetBaseNameNoTooltip](은)는 이를 좌시하지 않을 것이다."
  tgp_japan_decision.9603.a.bloc: "[ROOT.Char.GetConfederation.GetName](은)는 이를 좌시하지 않을 것이다."
@@ -105,10 +104,10 @@
  tgp_japan_decision.9607.a: "생각할 것이 많다."
  # tgp_japan_restore_japanese_monarchy_decision
  tgp_japan_decision.9901.t: "야마토 덴노 복권"
- tgp_japan_decision.9901.desc: "덴노가 굳건히 서고, 황위가 정당한 후계자에게 돌아왔다. 이 지배는 단순히 귀족의 작위나 지위에 관한 것이 아니라, 고대로부터 이어진 야마토와 이 땅 사이의 연속성을 반영한다."
+ tgp_japan_decision.9901.desc: "덴노가 굳건히 서고, 국화 옥좌가 정당한 후계자에게 돌아왔다. 이 지배는 단순히 귀족의 작위나 지위에 관한 것이 아니라, 고대로부터 이어진 야마토와 이 땅 사이의 연속성을 반영한다."
  tgp_japan_decision.9901.a: "[scion.GetHerHim]에게 조언하게 되어 영광이군."
  tgp_japan_decision.9901.a.scion: "드디어 이 순간이 왔다."
- tgp_japan_decision.9902.desc: "신성한 야마토 혈통이 다시금 황궁에 그 존재를 드러낸다. 아마테라스의 자손인 [scion.GetName](이)가 옛 시절과 같이 후계자로 서 있다.\n\n전통의 회귀와 함께, 봉역은 황위가 발하는 찬란한 빛 아래 다시 번영할 것이다."
+ tgp_japan_decision.9902.desc: "신성한 야마토 혈통이 다시금 황궁에 그 존재를 드러낸다. 아마테라스의 자손인 [scion.GetName](이)가 옛 시절과 같이 후계자로 서 있다.\n\n전통의 회귀와 함께, 봉역은 국화 옥좌가 발하는 찬란한 빛 아래 다시 번영할 것이다."
  tgp_japan_decision.9902.a: "덴노시여, 만세토록 번영하소서!"
  # tgp_restore_japanese_government_decision
  tgp_japan_decision.9911.t: "율령 관료주의 복원"

@@ -71,11 +71,11 @@ window = {
 				}
 
 				background = {
-					using = Background_Window_Header
+					using = Background_Header
 				}
 
 				background = {
-					using = Background_Window_Header_Pattern
+					using = Background_Header_Pattern
 				}
 
 				vbox = {

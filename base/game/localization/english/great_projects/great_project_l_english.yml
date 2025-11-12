@@ -29,6 +29,8 @@
  GREAT_PROJECT_CONTRIBUTOR_TYPE_TRIBUTARIES: "[CHARACTER.GetShortUINamePossessive] [tributaries|E]"
  GREAT_PROJECT_CONTRIBUTOR_TYPE_LIEGE: "[CHARACTER.GetShortUINamePossessive] [liege|E]"
  GREAT_PROJECT_CONTRIBUTOR_TYPE_TOP_LIEGE: "[CHARACTER.GetShortUINamePossessive] [top_liege|E]"
+ GREAT_PROJECT_CONTRIBUTOR_TYPE_ALLIES: "[CHARACTER.GetShortUINamePossessive] [allies|E]"
+ GREAT_PROJECT_CONTRIBUTOR_TYPE_OWNER: "[CHARACTER.GetShortUIName]"
  GREAT_PROJECT_FOUNDER_NEEDED: "Only a valid [ruler|E] may plan a [great_project|E]"
  GREAT_PROJECT_LOCATION_NEEDED: "[great_projects|E] may only be planned in a valid location"
  GREAT_PROJECT_CONTRIBUTION_UNAVAILABLE_TT: "#T Cannot contribute#!\n[ContributionItem.GetContributionUnavailableReason( GetPlayer )]\n\n[ContributionItem.GetPreviewTooltip]"
@@ -73,6 +75,7 @@
  GREAT_PROJECT_CONTRIBUTOR_RESTRICTION_TOP_LIEGE: "$EFFECT_LIST_BULLET$ They are the [top_liege|E] of the Project owner"
  GREAT_PROJECT_CONTRIBUTOR_RESTRICTION_DIRECT_LIEGE: "$EFFECT_LIST_BULLET$ They are the [liege|E] of the Project owner"
  GREAT_PROJECT_CONTRIBUTOR_RESTRICTION_ALLIES: "$EFFECT_LIST_BULLET$ They are an [ally|E] of the Project owner"
+ GREAT_PROJECT_CONTRIBUTOR_RESTRICTION_OWNER: "$EFFECT_LIST_BULLET$ They are the Project owner"
  CAN_AFFORD_CONTRIBUTION: "$EFFECT_LIST_BULLET$ They can afford it"
 
  great_project_list_optional_contributions: "Optional Contributions"
@@ -88,4 +91,4 @@
  cancel_great_project_dialog_desc: "Are you sure you want to cancel the planning of \"[GreatProject.GetName]\"? All [great_project_contributions|E] will be lost."
  cancel_great_project_dialog_confirm: "$CONFIRM$"
 
- great_project_cooltip_desc: "Owner: [GreatProject.GetOwner.GetShortUIName]\nLocation: [GreatProject.GetLocation.GetName]\n\n[GreatProject.GetType.GetDescription]"
+ great_project_cooltip_desc: "Owner: [GreatProject.GetOwner.GetShortUIName|U]\nLocation: [GreatProject.GetLocation.GetName]\n\n[GreatProject.GetType.GetDescription]"

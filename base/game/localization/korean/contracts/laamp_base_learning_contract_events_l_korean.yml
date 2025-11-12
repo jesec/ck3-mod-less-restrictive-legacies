@@ -309,7 +309,7 @@
  laamp_base_learning_contract_events.4100.c.stewardship.support_not_exists.tt: "[stewardship|E] [skill|E]을 충분히 지닌 [follower|E]가 없음"
  laamp_base_learning_contract_events.4100.c.intrigue.support_not_exists.tt: "[intrigue|E] [skill|E]을 충분히 지닌 [follower|E]가 없음"
  laamp_base_learning_contract_events.4100.c.learning.support_not_exists.tt: "[learning|E] [skill|E]을 충분히 지닌 [follower|E]가 없음"
- laamp_base_learning_contract_events.4100.c.prowess.support_not_exists.tt: "[prowess|E] 을 충분히 지닌 [follower|E]가 없음"
+ laamp_base_learning_contract_events.4100.c.prowess.support_not_exists.tt: "[prowess|E] [skill|E]을 충분히 지닌 [follower|E]가 없음"
  laamp_base_learning_contract_events.4100.d: "\"자, #EMP 지금부터 잘 듣거라!#!\""
  laamp_base_learning_contract_events.4100.child: "[child_to_educate.GetFirstNamePossessiveNoTooltip] 발전에 도움이 됨"
  laamp_base_learning_contract_events.4100.child_diplomacy.tt: "$laamp_base_learning_contract_events.4100.child$ [diplomacy|E] [education_focus|E]"

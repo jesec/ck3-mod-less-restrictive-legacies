@@ -18,6 +18,7 @@
 		}
 		herders_and_tributary_constraints = yes
 		tgp_dynastic_cycle_offensive_wars_ban_trigger = yes
+		tgp_war_ban_all_ministers_trigger = yes
 	}
 }
 
@@ -36,6 +37,7 @@ religious_disorganised = {
 		}
 		herders_and_tributary_constraints = yes
 		tgp_dynastic_cycle_offensive_wars_ban_trigger = yes
+		tgp_war_ban_all_ministers_trigger = yes
 	}
 }
 
@@ -45,6 +47,7 @@ religious_script_only = {
 	allowed_for_character = {
 		herders_and_tributary_constraints = yes
 		tgp_dynastic_cycle_offensive_wars_ban_trigger = yes
+		tgp_war_ban_all_ministers_trigger = yes
 	}
 }
 
@@ -52,6 +55,7 @@ de_jure = {
 	allowed_for_character = {
 		herders_and_tributary_constraints = yes
 		tgp_dynastic_cycle_offensive_wars_ban_trigger = yes
+		tgp_war_ban_all_ministers_trigger = yes
 	}
 }
 
@@ -67,6 +71,7 @@ claim = {
 	allowed_for_character = {
 		herders_and_tributary_constraints = yes
 		tgp_dynastic_cycle_offensive_wars_ban_trigger = yes
+		tgp_war_ban_all_ministers_trigger = yes
 	}
 }
 
@@ -82,6 +87,7 @@ invasion = {
 	allowed_for_character = {
 		herders_and_tributary_constraints = yes
 		tgp_dynastic_cycle_offensive_wars_ban_trigger = yes
+		tgp_war_ban_all_ministers_trigger = yes
 	}
 }
 
@@ -89,6 +95,7 @@ vassalization = {
 	allowed_for_character = {
 		herders_and_tributary_constraints = yes
 		tgp_dynastic_cycle_offensive_wars_ban_trigger = yes
+		tgp_war_ban_all_ministers_trigger = yes
 	}
 }
 
@@ -96,6 +103,7 @@ conquest = {
 	allowed_for_character = {
 		herders_and_tributary_constraints = yes
 		tgp_dynastic_cycle_offensive_wars_ban_trigger = yes
+		tgp_war_ban_all_ministers_trigger = yes
 	}
 }
 
@@ -104,6 +112,7 @@ struggle = {
 		can_use_struggle_cbs_trigger = yes
 		herders_and_tributary_constraints = yes
 		tgp_dynastic_cycle_offensive_wars_ban_trigger = yes
+		tgp_war_ban_all_ministers_trigger = yes
 	}
 }
 
@@ -111,6 +120,7 @@ subjugation = {
 	allowed_for_character = {
 		herders_and_tributary_constraints = yes
 		tgp_dynastic_cycle_offensive_wars_ban_trigger = yes
+		tgp_war_ban_all_ministers_trigger = yes
 	}
 }
 
@@ -145,5 +155,12 @@ humiliation = {
 mandala = {
 	allowed_for_character = {
 		herders_and_tributary_constraints = yes
+	}
+}
+
+celestial = {
+	allowed_for_character = {
+		herders_and_tributary_constraints = yes
+		tgp_war_ban_civilian_ministers_trigger = yes
 	}
 }

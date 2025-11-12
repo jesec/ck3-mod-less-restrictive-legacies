@@ -613,7 +613,7 @@
  #Brahmacharya Challenged
  pilgrimage.3401.t: "$pilgrimage_header$ zagrożona brahmaćarja"
  pilgrimage.3401.desc: "Nasza yatra zaprowadziła nas na brzeg. Przed naszymi oczami rozciąga się wspaniały widok – to [body_of_water.GetName]. Woda błyszczy w popołudniowym słońcu niczym płatki złota, zachęcając nas do kąpieli.\n\nMoje spojrzenie przykuwa [bather.GetName] – osoba, która razem ze mną odbywa yatrę. [bather.Custom('PL_Jego_Jej')] nagie ciało okrywa jedynie połyskująca toń.\n\n[ROOT.Char.GetInvolvedActivity.GetShortName] to czas, w którym trzeba przyjąć [Glossary('brahmaćarję', 'BRAHMACHARAYA_GLOSS')] niemalże godną mnichów, powstrzymując się od lubieżnych myśli i popędów…"
- pilgrimage.3401.a: "Mając pożądanie za przewodnika, kąpię się w pięknie osoby znanej jako [bather.GetName]."
+ pilgrimage.3401.a: "Mając pożądanie za przewodnika, kąpię się w pięknie osoby znanej jako [bather.GetFirstNameNoTooltip]."
  pilgrimage.3401.b: "Wchodzę do chłodnej wody, by ugasić swoją pożądliwość."
  pilgrimage.3401.b.flavor: "O krok bliżej do nirwany."
  BRAHMACHARAYA_GLOSS: "Sanskryckie wyrażenie oznaczające „prowadzenie życia zgodnego z naturą Brahmana”, czyli praktykowanie stylu życia sprzyjającego poszukiwaniu świętej wiedzy i duchowego wyzwolenia. Częściowo osiąga się to poprzez dążenie do stanu wolnego od pożądania."

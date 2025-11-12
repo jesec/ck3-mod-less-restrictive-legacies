@@ -4,7 +4,7 @@
  administraction_tab_families: "貴族"
  admin_vassal_tab_overview: "概要"
  admin_vassal_tab_appointment: "[GetPlayer.Custom('GetGovernorConceptNoTooltip')]の任命"
- ADMINISTRATIVE_GOVERNMENT_HEADER: "[GetPlayer.GetTopLiege.GetGovernment.GetNameNoTooltip]制"
+ ADMINISTRATIVE_GOVERNMENT_HEADER: "[GetPlayer.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip][GetPlayer.GetTopLiege.GetGovernment.GetNameNoTooltip]政府"
  ADMINISTRATIVE_GOVERNMENT_HOUSE_WITH_NAME: "#high [DynastyHouse.GetBaseNameNoTooltip]家#!"
  ADMINISTRATIVE_GOVERNMENT_HOUSE_HEAD: "[house_head_head|E]：[DynastyHouse.GetHeadOfHouse.GetShortUIName|U]"
  ADMINISTRATIVE_GOVERNMENT_FAMILY_RATING: "[powerful_family_rating_mid|E]：#V #underline [DynastyHouse.GetHousePower]#!#!"

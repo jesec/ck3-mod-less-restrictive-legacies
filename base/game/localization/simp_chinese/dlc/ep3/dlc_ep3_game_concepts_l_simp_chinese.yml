@@ -17,7 +17,7 @@
  game_concept_strategoi_possessive: "将军"
  game_concept_governorship: "总督"
  game_concept_governorships: "总督"
- game_concept_governor_desc: "$game_concept_governor$是[administrative_government|E]下[liege|E]的主要封臣。他们由领主任命，负责利用[governor_efficiency|E]管理[realm|E]内的土地。\n\n$game_concept_governor$的[title|E]，包括其下的[counties|E]，被称为[province|E]。[governance_issues|E]会在省份内出现，需要$game_concept_governor$解决。\n\n$game_concept_governors$可以积累[influence|E]，影响其他$game_concept_governorships$的[succession|E]。"
+ game_concept_governor_desc: "$game_concept_governor$是[government_bureaucratic_gov|E]下[liege|E]的主要封臣。他们由领主任命，负责利用[governor_efficiency|E]管理[realm|E]内的土地。\n\n$game_concept_governor$的[title|E]，包括其下的[counties|E]，被称为[province|E]。[governance_issues|E]会在省份内出现，需要$game_concept_governor$解决。\n\n$game_concept_governors$可以积累[influence|E]，影响其他$game_concept_governorships$的[succession|E]。"
  game_concept_candidate_score: "候选人分数"
  game_concept_candidate_scores: "候选人分数"
  game_concept_candidate_score_desc: "[characters|E]在[administrative_government|E][title|E]的[line_of_succession|E]中有一项$game_concept_candidate_score$。\n\n该分数决定了谁将在[succession|E]时获得头衔，可以通过从[scheming|E]到花费[influence|E]等各种方式改变分数。"

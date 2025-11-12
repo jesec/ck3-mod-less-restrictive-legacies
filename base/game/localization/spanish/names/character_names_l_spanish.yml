@@ -35467,6 +35467,7 @@
  Kiyotsune_2: "Kiyotsune" #清常
  Kiyotsune_3: "Kiyotsune" #清恒
  Kiyotsura: "Kiyotsura" #清貫
+ Kiyotsura_2: "Kiyotsura" #清行
  Kiyoyasu: "Kiyoyasu" #清康
  Kiyoyo: "Kiyoyo" #潔世
  Kiyoyoshi: "Kiyoyoshi" #清能
@@ -39852,6 +39853,7 @@
  Baek_eun: "Baek-eun" #白欣 (백흔)
  Baek_go: "Baek-go" #伯固 (백고)
  Baek_gye: "Baek-gye" #伯計 (백계)
+ Baek_ho: "Baek-ho" #白虎 (백호)
  Baek_seon: "Baek-seon" #伯仙 (백선)
  Bag_wi_geo: "Bag-wi-geo" #駮位居 (박위거)
  Bal_gi: "Bal-gi" #發岐 (발기)
@@ -40032,6 +40034,7 @@
  Do_jeol: "Do-jeol" #都切 (도절)
  Do_mong: "Do-mong" #都蒙 (도몽)
  Do_ri_haeng: "Do-ri-haeng" #都利行 (도리행)
+ Do_seon: "Do-seon" #道詵 (도선)
  Do_su: "Do-su" #道秀 (도수)
  Dol_go: "Dol-go" #咄固 (돌고)
  Don_jung: "Don-jung" #敦中 (돈중)
@@ -40134,7 +40137,7 @@
  Geun_89B2: "Geun" #覲 (근)
  Geun_8FD1: "Guen" #近 (근)
  Geun_cho_go: "Geun-cho-go" #近肖古 (근초고)
- Geun_gu_su: "Guen_gu_su" #近仇首 (근구수)
+ Geun_gu_su: "Guen-gu-su" #近仇首 (근구수)
  Geun_jil: "Geun-jil" #根質 (근질)
  Geung_5162: "Geung" #兢 (긍)
  Geung_dal: "Geung-dal" #兢達 (긍달)
@@ -40698,6 +40701,7 @@
  Mong_go: "Mong-go" #蒙固 (몽고)
  Mong_ju: "Mong-ju" #夢周 (몽주)
  Mu_6B66: "Mu" #武 (무)
+ Mu_che: "Mu-che" #無滯 (무체)
  Mu_deok: "Mu-deok" #武德 (무덕)
  Mu_hyul: "Mu-hyul" #無恤 (무휼)
  Mu_ryeok: "Mu-ryeok" #武力 (무력)
@@ -43741,18 +43745,74 @@
  Changming: "Changming"
  Fuwen: "Fuwen"
  Qianyi: "Qianyi"
- Kil: "Kil"
- Toson: "Tosŏn"
  Upali: "Upali"
- Ly_Do_Doc: "Ly Do Doc"
+ Do_Doc: "Do Doc"
  Jojin: "Jōjin"
  Saburo: "Saburō"
- Mu_Che: "Mu-ch'e"
- Baekho: "Baekho"
  Lo: "Lo"
  Nga_Yamankan: "Nga Yamankan"
  Mpu_Bharada: "Mpu Bharada"
  Lembong: "Lembong"
  Boc: "Boc"
- Jinul: "Jinul"
  Tajima: "Tajima"
+ #Senoi
+ Andak_Jameah: "Andak Jameah"
+ Atok_Balu: "Atok Balu"
+ Bei_Luus: "Bei' Luus"
+ Berchanggi_Besi: "Berchanggi Besi"
+ Busuw_Dmeet_Long: "Busuw Dmeet Long"
+ Cacat: "Cacat"
+ Camut: "Camut"
+ Cawog: "Cawog"
+ Cencog: "Cencog"
+ Chekedoi: "Chekedoi"
+ Churog: "Churog"
+ Curas: "Curas"
+ Grcang: "Grcang"
+ Han_Luj: "Han Luj"
+ Hang_Tuah: "Hang Tuah"
+ Inak: "Inak"
+ Jelondong: "Jelondong"
+ Jeludang: "Jeludang"
+ Jerangong: "Jerangong"
+ Judah: "Judah"
+ Kalib: "Kalib"
+ Kemaleg: "Kemaleg"
+ Ken_Pri: "Ken Pri"
+ Klip: "Klip"
+ Kning_Ledn: "Kning Ledn"
+ Luhj: "Luhj"
+ Mamak: "Mamak"
+ Manoij: "Manoij"
+ Mara_Semae: "Mara' Semae"
+ Mat: "Mat"
+ Meneh: "Meneh"
+ Merja: "Merja"
+ Minoor: "Minoor"
+ Mrlooh: "Mrlooh"
+ Nenek_Kerbau: "Nenek Kerbau"
+ Ngah: "Ngah"
+ Ngah_Hari: "Ngah Hari"
+ Nyenang_Raq: "Nyenang Raq"
+ Pagar: "Pagar"
+ Pegpeg: "Pegpeg"
+ Penjel: "Penjel"
+ Pl_iiimnh: "Pl'iiimnh"
+ Planken: "Planken"
+ Puntum: "Puntum"
+ Rintang: "Rintang"
+ Risan: "Risan"
+ Rmpent: "Rmpent"
+ Ruwek: "Ruwek"
+ Samad: "Samad"
+ Segandi: "Segandi"
+ Serani: "Serani"
+ Seri_Alam: "Seri Alam"
+ Taman: "Taman"
+ Tangge: "Tangge"
+ Tawal: "Tawal"
+ Tenggang: "Tenggang"
+ Tkooy: "Tkooy"
+ Wa_Rhii: "Wa' Rhii'"
+ Yam: "Yam"
+ Jinul: "Jinul"

@@ -16180,11 +16180,11 @@ tangut_liang = {
 	culture = naiman
 }
 2003011 = {
-	name = "dynn_Suo" #Guiyi Suo
+	name = "dynn_Suo_7D22" #Guiyi Suo
 	culture = han
 }
 2003012 = {
-	name = "dynn_Li" #Guiyi Li
+	name = "dynn_Li_674E" #Guiyi Li
 	culture = han
 }
 2003013 = {
@@ -16192,7 +16192,7 @@ tangut_liang = {
 	culture = bodpa
 }
 1055036 = {
-	name = "dynn_Cao"
+	name = "dynn_Cao_66F9"
 	culture = han
 }
 2003006 = {
@@ -17934,7 +17934,7 @@ salimid = {
 #	culture = "tangut"
 #}
 2003098 = {
-	name = "dynn_Xue" #Xue
+	name = "dynn_Xue_859B" #Xue
 	culture = "han"
 }
 
@@ -20993,4 +20993,24 @@ durres_dynasty = {
 	prefix = "dynnp_i_"
 	name = dynn_DurrE_s
 	culture = albanian	
+}
+
+dynn_Temoq = {
+	name = dynn_Temoq
+	culture = senoi
+}
+
+dynn_Chewong = {
+	name = dynn_Chewong
+	culture = senoi
+}
+
+dynn_Semai = {
+	name = dynn_Semai
+	culture = senoi
+}
+
+dynn_Semaq_Beri = {
+	name = dynn_Semaq_Beri
+	culture = senoi
 }

@@ -25,7 +25,7 @@
  study_confucian_classics_outcome.200.c: "[poet.GetFirstNameNoTooltip]值得收到一封仰慕信。"
  study_confucian_classics_outcome.200.d: "我应该再读一遍[ROOT.Char.Custom('GetRandomPoetryPassage')]。"
  friend_praised_privately: "[CHARACTER.GetShortUIName|U]称赞了[TARGET_CHARACTER.GetShortUIName]。"
- friend_praised_privately_corresponding: "[TARGET_CHARACTER.GetShortUIName|U]称赞了[TARGET_CHARACTER.GetShortUIName]。"
+ friend_praised_privately_corresponding: "[TARGET_CHARACTER.GetShortUIName|U]称赞了[CHARACTER.GetShortUIName]。"
  study_confucian_classics_outcome.300.t: "$study_confucian_classics_title$[ROOT.Char.Custom('GetSeason')|U]日灵感"
  study_confucian_classics_outcome.300.desc: "凝视着[location_province.Custom('ProvinceCompliment')][ROOT.Char.Custom('GetSeason')]景下的花园，我不由想起了大诗人[ROOT.Char.Custom('GetRandomAncientChinesePoet')]的诗句。微风拂过我的衣袖，将我的手引向毛笔——仿佛老天在邀请我写作。\n\n纸张铺在我面前，满怀期待地等待我的词句。"
  study_confucian_classics_outcome.300.a: "通过努力，总有一天我也会成为大诗人！"

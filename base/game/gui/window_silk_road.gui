@@ -49,6 +49,7 @@
 
 				vbox = {
 					layoutpolicy_horizontal = expanding
+					datacontext = "[SilkRoadWindow.GetSelectedSubRegion]"
 
 					header_pattern = {
 						layoutpolicy_horizontal = expanding
@@ -66,7 +67,8 @@
 						blockoverride "button_close"
 						{
 							onclick = "[SilkRoadWindow.Close]"
-							onclick = "[GetVariableSystem.Clear( 'silk_road_catalysts_window' )]"
+							onclick = "[SilkRoadWindow.CloseCatalystWindow(SituationSubRegion.Self)]"
+							onclick = "[SilkRoadWindow.AccessParticipantCharacterList.Close]"
 						}
 					}
 				}
@@ -164,8 +166,6 @@
 								align = nobaseline
 							}
 						}
-
-						blockoverride "right_icon" {}
 					}
 
 					hbox = {
@@ -256,7 +256,10 @@
 	}
 
 	silk_road_catalysts_window = {
-		visible = "[VariableSystem.Exists( 'silk_road_catalysts_window' )]"
+		datacontext = "[SilkRoadWindow.AccessParticipantCharacterList]"
+		datacontext = "[SituationParticipantCharacterList.AccessCharacterList]"
+		datacontext = "[SilkRoadWindow.GetSelectedSubRegion]"
+		visible = "[And(Not(SituationParticipantCharacterList.IsVisible), SilkRoadWindow.IsCurrentSubRegionToggled(SituationSubRegion.Self))]"
 
 		blockoverride "header_text"
 		{
@@ -575,7 +578,7 @@ types SilkRoad
 		layoutpolicy_vertical = expanding
 
 		oncreate = "[BindFoldOutContext]"
-		#oncreate = "[PdxGuiFoldOut.Unfold]"
+		visible = "[SituationSubRegion.IsValid]"
 
 		button_expandable_toggle_field_silk_road = {
 			datacontext = "[SituationSubRegion.GetBazaarBuilding]"
@@ -655,12 +658,14 @@ types SilkRoad
 
 								button_sidepanel_left = {
 									datacontext = "[SituationSubRegion.GetCurrentPhase]"
+									datacontext = "[SilkRoadWindow.AccessParticipantCharacterList]"
+									datacontext = "[SituationParticipantCharacterList.AccessCharacterList]"
 
-									onclick = "[SilkRoadWindow.ToggleSubRegionCatalyst(SituationSubRegion.Self)]"
-									onclick = "[GetVariableSystem.Toggle( 'silk_road_catalysts_window' )]"
+									onclick = "[SilkRoadWindow.SetSelectedSubRegion(SituationSubRegion.Self)]"
+									onclick = "[SilkRoadWindow.ToggleSubRegionCatalysts(SituationSubRegion.Self)]"
 									onclick = "[SilkRoadWindow.AccessParticipantCharacterList.Close]"
 
-									down = "[And( ObjectsEqual(SilkRoadWindow.GetSelectedSubRegion.Self, SituationSubRegion.Self), GetVariableSystem.Exists( 'silk_road_catalysts_window' ))]"
+									down = "[And(Not(SituationParticipantCharacterList.IsVisible), SilkRoadWindow.IsCurrentSubRegionToggled(SituationSubRegion.Self))]"
 
 									blockoverride "button_text"
 									{
@@ -737,9 +742,9 @@ types SilkRoad
 								text = "SITUATION_WINDOW_VIEW_PARTICIPANT_GROUPS"
 								max_width = 240
 
-								onclick = "[GetVariableSystem.Clear( 'silk_road_catalysts_window' )]"
 								onclick = "[SilkRoadWindow.SetSelectedSubRegion(SituationSubRegion.Self)]"
-								onclick = "[SilkRoadWindow.AccessParticipantCharacterList.Toggle]"
+								onclick = "[SilkRoadWindow.ToggleSubRegionParticipationList(SituationSubRegion.Self)]"
+								onclick = "[SilkRoadWindow.CloseCatalystWindow(SituationSubRegion.Self)]"
 							}
 
 							button_standard = {
@@ -791,16 +796,14 @@ types SilkRoad
 		vbox = {
 			using = Window_Margins
 
-			datacontext = "[SilkRoadWindow.GetSelectedSubRegion]"
-
-			datamodel = "[SilkRoadWindow.GetSelectedSubRegion.GetCurrentPhase.GetFuturePhases]"
+			datamodel = "[SituationSubRegion.GetCurrentPhase.GetFuturePhases]"
 
 			header_pattern = {
 				layoutpolicy_horizontal = expanding
 
 				blockoverride "button_close"
 				{
-					onclick = "[VariableSystem.Toggle( 'silk_road_catalysts_window' )]"
+					onclick = "[SilkRoadWindow.CloseCatalystWindow(SituationSubRegion.Self)]"
 				}
 
 				blockoverride "header_text" {
@@ -979,7 +982,6 @@ types SilkRoad
 											}
 
 											text_single = {
-												layoutpolicy_vertical = expanding
 												align = nobaseline|center
 												min_width = 70
 												raw_text = "[Select_CString( GreaterThan_int32( SituationPhase.GetNumCompletionsOfCatalystForPhase( 	SituationPhaseType.Self, SituationCatalystEntry.GetCatalyst ), '(int32)0' ), '#COLOR_GREEN ', '#COLOR_GRAY 	')]x[SituationPhase.GetNumCompletionsOfCatalystForPhase(SituationPhaseType.Self, 	SituationCatalystEntry.GetCatalyst)]#!"

@@ -172,11 +172,11 @@
  travel_events.3062.desc: "[hermit_owner.GetTitledFirstName] тепло принимает нас в своей цитадели. Однако, завидев нас, [hermit_owner.GetHerHis] стражники начинают подозрительно шушукаться и хихикать, показывая на мою свиту пальцами.\n\n«[Select_CString(ROOT.Char.IsFemale, 'Дражайшая', 'Дражайший' )] [ROOT.Char.GetTitleAsNameNoTooltip|l] [ROOT.Char.GetFirstNameNoTooltip]! Какая честь принимать вас в моем… — [hermit_owner.GetFirstNameNoTooltip] спотыкается посреди приветствия и [hermit_owner.GetHerHis] лицо багровеет. — Почему у вас #EMP [Select_CString(hermit_scope.IsFemale, 'моя', 'мой' )]#! [Select_CString(hermit_scope.IsFemale, 'отшельница', 'отшельник' )]?!»"
  travel_events.3062.a: "В мои намерения не входило переманивать ваших подданных."
  travel_events.3062.b: "Теперь [Select_CString(hermit_scope.IsFemale, 'она', 'он' )] — #EMP [Select_CString(hermit_scope.IsFemale, 'моя', 'мой' )]#! $cave_hermit_court_position$."
- travel_events.3062.b.tt: "В течение следующих #bold 5 лет#! [hermit_scope.GetShortUIName] согласится на меньшее жалованье, если получит должность «$cave_hermit_court_position$»"
+ travel_events.3062.b.tt: "В течение следующих #bold 5 лет#! [hermit_scope.GetShortUIName] согласится на меньшее жалование, если получит должность «$cave_hermit_court_position$»"
  travel_events.3062.c: "Может, пусть [Select_CString(hermit_scope.IsFemale, 'она', 'он' )] самостоятельно решит, кому служить?"
  travel_events.3062.c.success: "[hermit_scope.GetShortUINameNoTooltip] соглашается остаться с вами"
  travel_events.3062.c.failure: "[hermit_scope.GetShortUINameNoTooltip] останется при дворе персонажа [hermit_owner.GetShortUINameNoTooltip]"
- found_hermit_mod: "Назначить отшельнику жалованье"
+ found_hermit_mod: "Назначить отшельнику жалование"
  #Bandit event
  travel_events.3070.t: "$travel_danger_prefix$ разбойники на мосту"
  travel_events.3070.desc: "Мягкий рокот реки в отдалении начинает нарастать. Некоторые члены свиты предлагают устроить привал, пополнить запасы воды и отдохнуть.\n\nК парапету каменного моста у поворота прислонились двое мужчин. Один толкает товарища в бок и показывает на нашу процессию. [Select_CString(bandit_scope.IsFemale, 'Третья', 'Третий' )] [bandit_scope.GetWomanMan] поднимается по склону от реки, тоже смотрит на нас и сплевывает в воду.\n\n«Знаете, — говорит [bandit_scope.GetSheHe], — по мосту, вообще-то, проход платный»."

@@ -1,6 +1,7 @@
 ﻿l_russian:
  ALL_CLAIMANTS: "Все [claimants|El]"
  ANY_CLAIMANT: "Любой [claimant|El]"
+ NOT_ANY_CLAIMANT: "Нет [Concept('claimants', 'претендентов')|E] на титул"
  ANY_CHILD: "Любой ребенок:"
  ANY_CHILD_FIRST: "Любой из моих детей:"
  ANY_CHILD_THIRD: "Любой из детей [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]:"

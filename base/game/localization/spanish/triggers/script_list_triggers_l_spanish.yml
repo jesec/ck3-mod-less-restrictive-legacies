@@ -1,6 +1,7 @@
 ﻿l_spanish:
  ALL_CLAIMANTS: "Todos los [claimants|lE]"
  ANY_CLAIMANT: "Cualquier [claimant|lE]"
+ NOT_ANY_CLAIMANT: "El título no tiene [claimants|El]"
  ANY_CHILD: "Cualquier niño:"
  ANY_CHILD_FIRST: "Cualquiera de mis niños:"
  ANY_CHILD_THIRD: "Cualquier niño de [CHARACTER.GetShortUIName]:"

@@ -1,6 +1,6 @@
 ﻿l_polish:
  restore_mandala_capital_decision: "Odbudowa stolicy mandali"
- restore_mandala_capital_decision_desc: "Ruiny, gruzy, szczątki… Powstaniemy z popiołów by odbudować to, co zostało zniszczone. Nasz blask rozbłyśnie na nowo, rzucając cień na tych, którzy chcą nas zniszczyć."
+ restore_mandala_capital_decision_desc: "Ruiny, gruzy, szczątki… Powstaniemy z popiołów, by odbudować to, co zostało zniszczone. Nasz blask rozbłyśnie na nowo, rzucając cień na tych, którzy chcą nas zniszczyć."
  restore_mandala_capital_decision_tooltip: "Przywrócisz swojej stolicy jej dawną świetność"
  restore_mandala_capital_decision_confirm: "Odbuduj stolicę"
  convert_to_mandala_government_decision: "Ustanów rząd mandalowy"
@@ -85,3 +85,10 @@
  seize_mandala_capital_decision_desc: "W naszym sąsiedztwie znajduje się kompleks świątynny godny prawdziwego dewaradży? Powinniśmy się tam przenieść i stamtąd poszerzać swoją władzę. Powinno to leżeć w najlepszym interesie wszystkich lojalnych poddanych."
  seize_mandala_capital_decision_tooltip: "Przejmij od [Concept('subject', 'poddanego')|E] #V stołeczny kompleks świątynny#! położony w [Concept('de_jure_capital', 'stolicy de iure')|E]"
  seize_mandala_capital_decision_confirm: "Wszystko jest tak, jak być powinno."
+ create_bunga_mas_decision: "Stwórz bunga mas"
+ create_bunga_mas_decision_tooltip: "Zatrudnij lokalnego rzemieślnika, aby wykonał dla ciebie [artifact|El] [Glossary( 'bunga mas', 'BUNGA_MAS_GLOSS' )]"
+ create_bunga_mas_decision_desc: "Drzewa wykonane z najczystszej próby srebra i złota – najcenniejszy skarb, jaki można ofiarować w formie trybutu. Zabiorę go na dwór mojego suzerena i będę rozkoszować się jego chwałą!"
+ create_bunga_mas_decision_confirm: "Zarekwiruj bunga mas"
+ create_bunga_mas_decision_effect: "Stwórz [artifact|El] [Glossary( 'bunga mas', 'BUNGA_MAS_GLOSS' )]\n$BULLET_WITH_TAB$W chwili dostarczenia suzerenowi:\n$TAB$$BULLET_WITH_TAB$Kumulacja modyfikatora [GetModifier('bunga_mas_tribute_modifier').GetNameWithTooltip|l] #WEAK (maksymalnie trzy razy)#!"
+ create_bunga_mas_decision_effect_message: ""
+ BUNGA_MAS_GLOSS: "Bunga mas, czyli złoto-srebrne kwiaty, były formą trybutu stosowaną na Półwyspie Malajskim. Składały się one z dwóch małych drzewek wykonanych z najwyższej jakości złota i srebra."

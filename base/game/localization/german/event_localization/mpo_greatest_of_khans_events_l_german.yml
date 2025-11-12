@@ -195,3 +195,4 @@
  mpo_greatest_of_khans.0051.opening: "An alle [defender_primary.GetAdjective|l]en Schufte,"
  mpo_greatest_of_khans.0051.desc: "[Select_CString(attacker.IsFemale, 'Die große', 'Der große')] [attacker.GetTitleAsName] – [attacker.Custom('DE_PRO_PER_S_3P_N')], [Select_CString(attacker.IsFemale, 'die', 'der')] alles von Euren Leuten genommen hat, [Select_CString(attacker.IsFemale, 'deren', 'dessen')] Krieger in Eure Lande strömen – befiehlt Euch:\n\nWendet Euer tränenreiches Gesicht dem Wind zu und reitet weit weg. Erzählt allen, auf die Ihr unterwegs trefft, dass die Welt bald den Horden dieses Reichs ([attacker.GetTitleAsNameNoTooltip]) gehören wird."
  mpo_greatest_of_khans.0051.a: "Mein Lehnsherr ist gescheitert … Ich bin erledigt."
+ gok_noble_army_name: "Adlige [army_culture.GetNameNoTooltip|l]e Vasallen"

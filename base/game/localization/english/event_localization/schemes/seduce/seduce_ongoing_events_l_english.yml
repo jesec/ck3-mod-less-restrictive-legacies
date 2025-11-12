@@ -487,7 +487,7 @@
  seduce_ongoing.5005.a:0 "I will yet show [target.GetHerHim] just how good company I can be!"
 
  seduce_ongoing.5006.conversation:0 "After nearly an hour of awkward conversation [target.GetFirstName] looks as bored as I have ever seen [target.GetHerHim]. When I switch topic from [target.Custom('herhis_subject_of_interest')] to [ROOT.GetCharacter.Custom('education_conversation_subject')] [target.GetSheHe] [target.Custom('quirk_neg_present')] and excuses [target.GetHerselfHimself]."
- seduce_ongoing.5006.mockery:0 ""[target.GetTitledFirstNameNoTooltip]! Can you believe that the [mocked_courtier.Custom2('InsultNoun', ROOT.Char)] [mocked_courtier.GetFirstName] actually..."\n\nI quickly trail of as the disdain in [target.GetFirstNamePossessive] face grows more and more pronounced."
+ seduce_ongoing.5006.mockery:0 ""[ROOT.Char.GetTitledFirstNameNoTooltip]! Can you believe that the [mocked_courtier.Custom2('InsultNoun', ROOT.Char)] [mocked_courtier.GetFirstName] actually..."\n\nI quickly trail of as the disdain in [target.GetFirstNamePossessive] face grows more and more pronounced."
  seduce_ongoing.5006.bodily:0 "As I approach [target.GetFirstName], smiling [ROOT.Char.Custom('quirk_pos_adverb')] and suggestively lifting my [ROOT.Char.Custom('GetUpperClothingArticle')], [target.GetSheHe] quickly backs away with a look of pure disgust."
  seduce_ongoing.5006.fallback:0 "As I flounder, trying to find some common ground with [target.GetFirstName], [target.GetHerHis] disdain grows more pronounced by the minute.\n\nSoon enough [target.GetSheHe] excuses [target.GetHerselfHimself] and flees my company."
  seduce_ongoing.5006.a:0 "Why am I trying to bed such a [target.Custom2('InsultNounSexual', ROOT.Char)]?!"

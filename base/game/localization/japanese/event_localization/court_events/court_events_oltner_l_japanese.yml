@@ -90,7 +90,7 @@
  court_maintenance.0011.a.tooltip: "あなたは[royal_court|E]に入る"
  court_maintenance.0011.b: "私にはほかの用がある。"
  court_maintenance.0011.b.tooltip: "[royal_court|E]には後日入ることを選択できる。"
- court_maintenance.0011.b.tooltip.ach: "[coronation|E]は後で[host|E]できるようになる"
+ court_maintenance.0011.b.tooltip.ach: "[coronation|E]は後日執り行うことができるようになる"
  court_maintenance.0011.banner_tooltip: "[messenger.GetName]から2枚の新たな紋章旗が贈られる。1つはあなたの家、もう1つはあなたの王朝用だ。"
  court_maintenance.0011.banner_house_tooltip: "[messenger.GetName]からあなたの一族の紋章が入った新たな紋章旗が贈られる"
  court_maintenance.0011.banner_dynasty_tooltip: "[messenger.GetName]からあなたの王朝の紋章が入った新たな紋章旗が贈られる"

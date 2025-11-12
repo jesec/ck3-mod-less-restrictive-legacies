@@ -79,7 +79,7 @@
  birth.1006.bastard_explanation: "Te enteraste del nacimiento de [child.GetFirstName]. La madre, [mother.GetShortUIName] gana el secreto [secret.GetName]"
  birth.1010.t: "Vástago de mi sangre"
  birth.1010.t_twins: "Vástagos de mi sangre"
- birth.1010.desc.twin: "¡[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha dado a luz a dos [child.Custom('TwinDaughtersSonsChildren')]!\n\nComo estas criaturitas son parte de la dinastía [ROOT.Char.GetDynasty.GetName], debemos darles nombres."
+ birth.1010.desc.twin: "¡[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha dado a luz a dos [child.Custom('TwinDaughtersSonsChildren')]!\n\nComo estas criaturitas son parte de la dinastía [ROOT.Char.GetDynasty.GetName], debemos darles nombres dignos de su legado."
  birth.1010.desc: "¡[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha dado a luz a un[child.Custom('ES_XA')] [child.Custom('GetDaughterSon')]!\n\nComo esta criaturita es fruto del árbol [ROOT.Char.GetDynasty.GetName], debe recibir un nombre digno de su legado."
  birth.1100.title: "Nacimiento de [child.Custom('GetTaltosTerm')]"
  birth.1100.message: "Los [child.Custom('DefaultPriestTitlePlural')] han identificado a [child.Custom2('MyCharacterIntroduction', ROOT.Char)] como [child.Custom('GetTaltosTerm')].\n\nElegid[child.Custom('ES_OA')] por [child.GetFaith.PantheonTerm] para un propósito misterioso, ¿que le deparará el futuro?"

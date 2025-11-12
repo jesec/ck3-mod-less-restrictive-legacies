@@ -168,3 +168,4 @@
  NO_ROCO_NOT_ALIVE:0 "@warning_icon! #X You are dead#!"
  NO_ROCO_WRONG_TIER:0 "@warning_icon! #X You are not a [king|E] or [emperor|E]#!"
  NO_ROCO_WRONG_GOVERNMENT:1 "@warning_icon! #X You do not have [feudal|E], [clan|E] or [tribal|E] [government|E]#!"
+ NO_ROCO_LIEGE_BLOCKS_SUBJECT_GOVERNMENT: "@warning_icon! #X The government of your liege does not allow your [government|E] to have royal courts.#!"

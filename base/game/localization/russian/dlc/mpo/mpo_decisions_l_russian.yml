@@ -90,7 +90,7 @@
  heir_friend_6_or_more_common_trait_tt: "#P 6 или более общих [Concept('traits', 'свойств')|E] с персонажем [heir.GetFirstName]#!"
  heir_friend_lifestyle_tt: "#P Забавное общее [Concept('trait', 'свойство')|E] с персонажем [heir.GetFirstName]#!"
  heir_friend_sports_tt: "#P Общий фокус [Concept('trait', 'свойства')|E] «[GetTrait('tourney_participant').GetName( GetNullCharacter )]» с персонажем [heir.GetFirstName]#!"
- heir_friend_blood_brother_tt: "#P Является вашим [Concept('blood_brother', 'побратимом')|E]"
+ heir_friend_blood_brother_tt: "#P Является вашим [Concept('blood_brother', 'побратимом')|E]#!"
  heir_friend_positive_relation_tt: "#P В хороших [Concept('relation', 'отношениях')|E] с вами#!"
  heir_friend_house_tt: "#P Принадлежит к тому же [Concept('house', 'дому')|E], что и [heir.GetFirstName]#!"
  heir_friend_culture_tt: "#P Высокая [Concept('cultural_acceptance', 'терпимость')|E] к [Concept('culture', 'культуре')|E] персонажа [heir.GetFirstName]#!"

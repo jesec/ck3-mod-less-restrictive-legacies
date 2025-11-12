@@ -18,7 +18,7 @@
  bastard_interaction.0002.house_head: "我已宣布我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))][legitimized_bastard.GetFirstName]是我的合法子女，以及[actor.GetHouse.GetBaseName]家族的一员。我考虑良久才做出这个决定，尽管有些人可能不同意，但这是正确的。"
  bastard_interaction.0002.dynast: "我已宣布我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))][legitimized_bastard.GetFirstName]是[actor.GetDynasty.GetBaseName]宗族的合法成员。"
  bastard_interaction.0002.approved: "我已宣布我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))][legitimized_bastard.GetFirstName]是我的合法子女，以及[actor.GetHouse.GetBaseName]家族的一员。我考虑良久才做出这个决定，尽管有些人可能不同意，但这是正确的。"
- bastard_interaction.0002.a: "你的前途一片光明，[legitimized_bastard.GetFirstNameNoTooltip]·[actor.GetHouse.GetNameNoTooltip]。"
+ bastard_interaction.0002.a: "你的前途一片光明，[legitimized_bastard.GetFullNameNoTooltip]。"
  bastard_interaction.0003.t: "结果好就好"
  bastard_interaction.0003.desc: "作出这个决定花了[actor.GetHerHim]一些时间，但[actor.GetTitledFirstName]最终合法化了我们的[secondary_recipient.Custom('DaughterSon')][secondary_recipient.GetFirstName]。作为[actor.GetHouse.GetBaseName]家族的一员，现在[secondary_recipient.GetFirstName]有了我从不敢想的光明未来。"
  bastard_interaction.0003.a: "真让我们骄傲！"

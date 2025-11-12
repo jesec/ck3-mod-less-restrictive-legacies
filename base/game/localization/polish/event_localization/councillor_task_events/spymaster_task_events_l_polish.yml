@@ -40,7 +40,7 @@
  spymaster_task.0311.secret_lover.consort: "\n\n[Select_CString(secret_holder.IsFemale, 'Moja własna', 'Mój własny' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secret_holder'))] i [lover.Custom2('MyCharacterIntroduction', ROOT.Char)] są kochankami!"
  spymaster_task.0311.secret_lover.consort_is_lover: "\n\n[secret_holder.GetSheHe|U] i [Select_CString(lover.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))], [lover.GetTitledFirstName], są kochankami!"
  spymaster_task.0311.secret_lover.lover_close_to_me: "\n\n[secret_holder.GetSheHe|U] i [Select_CString(lover.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))], [lover.GetTitledFirstName], są kochankami. Nikt nie wie, jak to się stało, ale czeka ich hańba, jeśli to wyjdzie na jaw."
- spymaster_task.0311.secret_lover.lustful: "\n\n[secret_holder.GetSheHe|U] i [lover.GetTitledFirstName] kochają się, namiętnie całując się i splatając swoje ramiona… Ach, co to będzie za skandal, jeśli ten sekret wyjdzie na jaw!"
+ spymaster_task.0311.secret_lover.lustful: "\n\n[secret_holder.GetSheHe|U] i [lover.GetTitledFirstName] uprawiają miłość, namiętnie się całując i wodząc dłońmi po swych ciałach… Ach, co to będzie za skandal, jeśli ten sekret wyjdzie na jaw!"
  spymaster_task.0311.secret_lover: "\n\n[secret_holder.GetSheHe|U] i [lover.Custom2('MyCharacterIntroduction', ROOT.Char)] są kochankami."
  spymaster_task.0346.a.consort: "Oburzające!"
  spymaster_task.0346.a.close: "To się komplikuje."

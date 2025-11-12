@@ -3,7 +3,7 @@
  tooltip_feudal_elector_vote_myself: "나는 권력을 선호함: $VALUE|=+0$"
  tooltip_feudal_elector_vote_not_myself: "나는 권력을 싫어함: $VALUE|=+0$"
  tooltip_feudal_elector_vote_myself_heir: "내가 정당한 후계자임: $VALUE|=+0$"
- tooltip_feudal_elector_vote_myself_ambitious: "나에겐 야망이 있음: $VALUE|=+0$"
+ tooltip_feudal_elector_vote_myself_ambitious: "나에겐 야심이 있음: $VALUE|=+0$"
  tooltip_feudal_elector_vote_myself_ruler_choice: "내가 선택받았다고 생각함: $VALUE|=+0$"
  tooltip_feudal_elector_vote_myself_ruling_dynasty: "나는 지배 [dynasty|E]에 속함: $VALUE|=+0$"
  tooltip_feudal_elector_vote_myself_sick: "나는 통치할 상태가 아님: $VALUE|=+0$"

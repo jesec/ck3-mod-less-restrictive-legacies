@@ -50,7 +50,7 @@
  devaraja_overlord_radiance: "[mandala|E]-[overlord|E]-[radiance|E]: $VALUE|0+=$"
  other_devaraja_radiance: "[mandala|E]-[radiance|E] von benachbartem [ruler|E]: $VALUE|0+=$"
  recipient_overlord_has_greater_radiance: "[overlord|E] [recipient.GetOverlord.GetShortUIName] hat eine größere [radiance|E]: $VALUE|0+=$"
- actor_has_radiance: "[actor.GetShortUIName|U] ist [radiant|El]: $VALUE|+0=$"
+ actor_has_radiance: "[actor.GetShortUIName|U] ist [radiant|El]: $VALUE|0+=$"
  ASK_FOR_CONVERSION_ACTOR_IS_MANDALA: "Wir folgen dem Devaraja: $VALUE|=+0=$"
  ASK_FOR_CONVERSION_ACTOR_HAS_REVERENCE_DECREE: "Der [GetLaw('mandala_decree_reverence').GetName] gilt: $VALUE|=+0$"
  is_mandala_tributary: "Ist [mandala|E]-[tributary|E]: $VALUE|=+0$"
