@@ -16,7 +16,7 @@
  grand_campaign_kingdom_invasion_cb: "[GetTitleByKey('h_china').Custom('OrdinalChineseConquest')] [GetTitleByKey('h_china').GetAdjectiveNoTooltip|l]ая великая кампания"
  GP_KINGDOM_INVASION_WAR_NAME: "$grand_campaign_kingdom_invasion_cb$"
  GP_KINGDOM_INVASION_WAR_NAME_BASE: "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ое#! владение [DEFENDER.GetPrimaryTitle.GetName]"
- GP_KINGDOM_INVASION_CB_NAME: "$grand_campaign_kingdom_invasion_cb$ ([Concept('great_project', 'грандиозный проект')|E] «[GetGreatProjectType('grand_campaign_project').GetName]»)"
+ GP_KINGDOM_INVASION_CB_NAME: "$grand_campaign_kingdom_invasion_cb$ ([Concept('great_project', 'грандиозный проект')|E])"
  grand_campaign_kingdom_invasion_cb_victory_desc_attacker: "[attacker.GetTopLiege.GetShortUIName|U] [Select_CString(attacker.GetTopLiege.IsLocalPlayer, 'получили', Select_CString(attacker.GetTopLiege.IsFemale, 'получила', 'получил' ))] оспариваемые [Concept('titles', 'титулы')|E]."
  grand_campaign_kingdom_invasion_cb_victory_desc: "[attacker.GetTopLiege.GetShortUIName|U] [Select_CString(attacker.GetTopLiege.IsLocalPlayer, 'получили', Select_CString(attacker.GetTopLiege.IsFemale, 'получила', 'получил'))] оспариваемый [Concept('title', 'титул')|E]."
  ### CB for neighbors to attempt to seize the mandate of heaven and become hegemon of China

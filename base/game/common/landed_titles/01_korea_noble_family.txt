@@ -34,6 +34,21 @@ c_nf_park_milyang = { # Milyang Park
 	ai_primary_priority = { add = @never_primary_score }
 }
 
+c_nf_park_pyeongsan = { # Pyeongsan Park
+	color = { 100 100 100 }
+	capital = c_gokju
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
 c_nf_park_silla = { # Silla Park
 	color = { 100 100 100 }
 	capital = c_dangseong # Gyeong-ju
@@ -240,6 +255,21 @@ c_nf_gim_gwangsan = { # Gwangsan Kim - 이
 c_nf_gim_gyeongju = { # Gyeongju Kim - 경주김
 	color = { 100 100 100 }
 	capital = c_gyeongju # Gyeongju
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+c_nf_gim_ulleong = { # Ulleong Kim
+	color = { 100 100 100 }
+	capital = c_ulleong
 
 	definite_form = yes
 	landless = yes
@@ -668,6 +698,23 @@ c_nf_seo_icheon = { # Icheon Seo - 이천서
 c_nf_tak = { # Tak - 卓 (탁)
 	color = { 100 100 100 }
 	capital = c_myeongju
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+# SONG - 송
+
+c_nf_song = { # Song - 송
+	color = { 100 100 100 }
+	capital = c_ulju # Ulju
 
 	definite_form = yes
 	landless = yes
@@ -1152,9 +1199,9 @@ c_nf_korean_bak_seungju = {
 
 # 867
 
-d_laamp_yangs_raiders = { # Yang-kil, Yang's Raiders
+d_laamp_hidden_valley_banner = { # Ki Hwon, Hidden Valley Banner
 	color = { 100 100 100 }
-	capital = c_dongju
+	capital = c_dangseong
 
 	definite_form = yes
 	landless = yes
@@ -1194,7 +1241,7 @@ d_laamp_munheon_disciples = { # Kim Mu-ch’e, Munheon Disciples
 	ai_primary_priority = { add = @never_primary_score }
 }
 
-d_laamp_white_tigers = { # Baekho of Nammhae, White Tigers
+d_laamp_white_tigers = { # Baek_ho of the White Tigers
 	color = { 100 100 100 }
 	capital = c_boseong
 
@@ -1217,7 +1264,6 @@ d_laamp_samadhi_and_prajna_society = {
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
 	no_automatic_claims = yes
-	noble_family = yes
 	destroy_if_invalid_heir = yes
 
 	ai_primary_priority = { add = @never_primary_score }

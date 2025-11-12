@@ -73,7 +73,7 @@
  #Success
  learn_commander_trait.1301.desc: "[teacher.GetTitledFirstName](이)가 말을 타고 내게 다가오며 말한다. \"대단하시군요! 제 병력은 수송 행렬 근처에도 가지 못 했습니다.\""
  #Failure
- learn_commander_trait.1401.desc: "기병대가 눈속임이라는 사실을 깨닫기 전까지는 모든 게 순조로운 것만 같았다!\n\n말에 올라 [teacher.GetTitledFirstName]에게 다가가니 [teacher.GetTitledFirstName](은)는 내 화물 마차에서 꺼낸 사과를 들고 있었다. \"어디서 실수를 범하셨는지 알 것 같군요.\""
+ learn_commander_trait.1401.desc: "기병대가 눈속임이라는 사실을 깨닫기 전까지는 모든 게 순조로운 것만 같았다!\n\n말에 올라 [teacher.GetTitledFirstName]에게 다가가니 [teacher.GetTitledFirstName](은)는 내 화물 마차에서 꺼낸 사과를 들고 있었다. \"어디서 실수를 범하셨는지 알 것 같군요.\" 그리고 [teacher.Custom('quirk_pos_pp')]."
  #Military Engineer
  learn_commander_trait.02.t: "역량 키우기"
  #Offer:

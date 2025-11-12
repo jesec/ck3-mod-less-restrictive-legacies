@@ -514,9 +514,9 @@
  Aeronwen: "애이론웬"
  Aeronwy: "애이로뉘"
  Aesha: "애이샤"
- Aethelfred: "애델프레드"
- Aethelnoth: "애델노드"
- Aethelred: "애델레드"
+ Aethelfred: "에셀프레드"
+ Aethelnoth: "에셀노드"
+ Aethelred: "에셀레드"
  Aethon: "애손"
  Aetios: "애이티오스"
  Aetius: "애이티우스"
@@ -13414,7 +13414,7 @@
  Mena: "메나"
  Menahem: "메나헴"
  Menankouda: "메난쿠다"
- Menas: "메나스"
+ Menas: "메나시"
  Menashe: "메나쉬"
  Menbold: "멘볼트"
  Menchung: "멘충"
@@ -24730,7 +24730,7 @@
  Drashtaa: "드라슈타"
  Draupadi: "드라우파티"
  Drisana: "드리사나"
- Dristi: "드리ㅡ티"
+ Dristi: "드리스티"
  Durgesh: "두르게니"
  Dushyanta: "두샨타"
  Dwaipayan: "디우피얀"
@@ -25959,7 +25959,7 @@
  Vikesh: "비케쉬"
  Vikram: "비크람"
  Vimal: "비말"
- Vinaya: "율종"
+ Vinaya: "비나야"
  Vindhya: "빈디야"
  Vipin: "비핀"
  Vishvadeva: "비슈바데바"
@@ -33477,7 +33477,7 @@
  Bali: "발리"
  Begtegin: "베흐테긴"
  Behter: "베흐테르"
- Berenguer_Reverter: "베렌게르 레베르테르"
+ Berenguer_Reverter: "베렌게르 레베르터"
  Berkyaruq: "베르키아루크"
  Bozqush: "보즈쿠시"
  Bulgaro: "불가로"
@@ -35467,6 +35467,7 @@
  Kiyotsune_2: "키요츠네" #清常
  Kiyotsune_3: "키요츠네" #清恒
  Kiyotsura: "키요츠라" #清貫
+ Kiyotsura_2: "키요츠라" #清行
  Kiyoyasu: "기요야스" #清康
  Kiyoyo: "키요요" #潔世
  Kiyoyoshi: "기요요시" #清能
@@ -39750,7 +39751,7 @@
  Sri_Cudamani_Warmadewa: "스리 쿠다마니 와르마데와"
  Maharaj: "마하라지"
  Nul: "눌"
- Sri_Maravijayottungavarman: "스리 마라비자요툰가바르만"
+ Sri_Maravijayottungavarman: "스리 마라비자요퉁가바르만"
  Kanjana: "칸자나"
  Haji_Sumatrabhumi: "하지 스마트라부미"
  Chilanka: "칠란카"
@@ -39852,6 +39853,7 @@
  Baek_eun: "백흔" #白欣 (백흔)
  Baek_go: "백고" #伯固 (백고)
  Baek_gye: "백계" #伯計 (백계)
+ Baek_ho: "백호" #白虎 (백호)
  Baek_seon: "백선" #伯仙 (백선)
  Bag_wi_geo: "박위거" #駮位居 (박위거)
  Bal_gi: "발기" #發岐 (발기)
@@ -40032,6 +40034,7 @@
  Do_jeol: "도절" #都切 (도절)
  Do_mong: "도몽" #都蒙 (도몽)
  Do_ri_haeng: "도리행" #都利行 (도리행)
+ Do_seon: "도선" #道詵 (도선)
  Do_su: "도수" #道秀 (도수)
  Dol_go: "돌고" #咄固 (돌고)
  Don_jung: "돈중" #敦中 (돈중)
@@ -40698,6 +40701,7 @@
  Mong_go: "몽고" #蒙固 (몽고)
  Mong_ju: "몽주" #夢周 (몽주)
  Mu_6B66: "무" #武 (무)
+ Mu_che: "무체" #無滯 (무체)
  Mu_deok: "무덕" #武德 (무덕)
  Mu_hyul: "무휼" #無恤 (무휼)
  Mu_ryeok: "무력" #武力 (무력)
@@ -42326,9 +42330,9 @@
  Silabhadra: "실라부드라"
  Srindramaulideva: "스린드라마우리데바"
  Siddharsi: "싯다르시"
- Chao_5DE2: "차오"
- Shao_97F6: "샤오"
- Su_8F7C: "수"
+ Chao_5DE2: "소"
+ Shao_97F6: "소"
+ Su_8F7C: "식"
  #Nakkavaram Names
  Boa: "보아"
  Neo: "네오"
@@ -43093,8 +43097,8 @@
  Pha_Rueang: "파 르엉"
  Ai_Chueang: "아이 추엉"
  Ngoen_Rueang: "응오엔 르엉"
- Xi_71B9: "시"
- Xixian: "희헌"
+ Xi_71B9: "희"
+ Xixian: "습현"
  Yungong: "윤공"
  Sing: "싱"
  Rueang: "르엉"
@@ -43215,7 +43219,7 @@
  Balaputradewa: "발라푸트라데와"
  Pramodhawardhani: "프라모다와르다니"
  Sumatrabhumi: "수마트라부미"
- Maravijayottungavarman: "마라비자요툰가바르만"
+ Maravijayottungavarman: "마라비자요퉁가바르만"
  Trailokyaraja: "트라일로키야라자"
  Norabadi: "노라바디"
  Dharmasokarat: "다르마소카라트"
@@ -43741,18 +43745,74 @@
  Changming: "창밍"
  Fuwen: "푸원"
  Qianyi: "쳰이"
- Kil: "킬"
- Toson: "도선"
  Upali: "우팔리"
- Ly_Do_Doc: "리 도 독"
+ Do_Doc: "도 독"
  Jojin: "조진"
  Saburo: "사부로"
- Mu_Che: "무체"
- Baekho: "백호"
  Lo: "로"
  Nga_Yamankan: "응아 야만칸"
  Mpu_Bharada: "음푸 바라다"
  Lembong: "렘봉"
  Boc: "복"
- Jinul: "지눌"
  Tajima: "타지마"
+ #Senoi
+ Andak_Jameah: "안닥 자메아"
+ Atok_Balu: "아톡 발루"
+ Bei_Luus: "베이 루우스"
+ Berchanggi_Besi: "버창기 베시"
+ Busuw_Dmeet_Long: "부수 데밋 롱"
+ Cacat: "차찟"
+ Camut: "차무트"
+ Cawog: "차웍"
+ Cencog: "첸촉"
+ Chekedoi: "체케도이"
+ Churog: "추로그"
+ Curas: "쿠라스"
+ Grcang: "그르창"
+ Han_Luj: "한 루즈"
+ Hang_Tuah: "항 투아"
+ Inak: "이나크"
+ Jelondong: "젤론동"
+ Jeludang: "젤루당"
+ Jerangong: "제랑공"
+ Judah: "주다"
+ Kalib: "칼립"
+ Kemaleg: "케말렉"
+ Ken_Pri: "켄 프리"
+ Klip: "클립"
+ Kning_Ledn: "크닝 렛든"
+ Luhj: "루흐즈"
+ Mamak: "마막"
+ Manoij: "마노이즈"
+ Mara_Semae: "마라 세마에"
+ Mat: "맛"
+ Meneh: "메네"
+ Merja: "메르자"
+ Minoor: "미누어"
+ Mrlooh: "믈루흐"
+ Nenek_Kerbau: "넨넥 커르바우"
+ Ngah: "응아"
+ Ngah_Hari: "응아 하리"
+ Nyenang_Raq: "니에낭 락"
+ Pagar: "파가르"
+ Pegpeg: "펙펙"
+ Penjel: "펜젤"
+ Pl_iiimnh: "플리임느"
+ Planken: "플랑켄"
+ Puntum: "푼툼"
+ Rintang: "린탕"
+ Risan: "리산"
+ Rmpent: "럼펜트"
+ Ruwek: "루웩"
+ Samad: "사마드"
+ Segandi: "세간디"
+ Serani: "세라니"
+ Seri_Alam: "세리 알람"
+ Taman: "타만"
+ Tangge: "탕게"
+ Tawal: "타왈"
+ Tenggang: "텡강"
+ Tkooy: "트쿠이"
+ Wa_Rhii: "와 르히"
+ Yam: "얌"
+ Jinul: "지눌"

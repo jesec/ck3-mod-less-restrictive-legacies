@@ -241,6 +241,7 @@
  relation_liege_female: "领主"
  relation_liege_male: "领主"
  relation_suzerain: "宗主"
+ relation_suzerain_possessive: "宗主"
  relation_leader_female: "领袖"
  relation_leader_male: "领袖"
  relation_ward: "被监护人"
@@ -675,3 +676,5 @@
  relation_elder: "恩师"
  relation_disciple_possessive: "门生"
  relation_elder_possessive: "恩师"
+ relation_tributary: "朝贡者"
+ relation_tributary_possessive: "朝贡者"

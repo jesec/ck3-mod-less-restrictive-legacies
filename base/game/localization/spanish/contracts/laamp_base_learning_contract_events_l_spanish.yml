@@ -309,7 +309,7 @@
  laamp_base_learning_contract_events.4100.c.stewardship.support_not_exists.tt: "No tienes un [follower|lE] con una [skill|lE] de [stewardship|lE] lo bastante grande"
  laamp_base_learning_contract_events.4100.c.intrigue.support_not_exists.tt: "No tienes un [follower|lE] con una [skill|lE] de [intrigue|lE] lo bastante grande"
  laamp_base_learning_contract_events.4100.c.learning.support_not_exists.tt: "No tienes un [follower|lE] con una [skill|lE] de [learning|lE] lo bastante grande"
- laamp_base_learning_contract_events.4100.c.prowess.support_not_exists.tt: "No tienes un [follower|lE] con bastante [prowess|lE]"
+ laamp_base_learning_contract_events.4100.c.prowess.support_not_exists.tt: "No tienes un [follower|lE] con bastante [skill|lE] de [prowess|lE]"
  laamp_base_learning_contract_events.4100.d: "«¡Oye! #EMP ¡Aquí se viene a ESCUCHAR!#!»."
  laamp_base_learning_contract_events.4100.child: "Esto ayudará a la educación de [child_to_educate.GetFirstNameNoTooltip]"
  laamp_base_learning_contract_events.4100.child_diplomacy.tt: "$laamp_base_learning_contract_events.4100.child$ [education_focus|lE] en [diplomacy|lE]"

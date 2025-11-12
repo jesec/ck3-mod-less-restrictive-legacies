@@ -10,7 +10,7 @@
  local_exam_support_entrants_intent_desc: "$imperial_exam_support_entrants_intent_desc$"
  exam_assist_exam_intent: "Aider à l’examen"
  exam_assist_exam_intent_desc: "Vous souhaitez côtoyer des fonctionnaires potentiels et développer votre [GetTrait('confucian_education').GetName( GetNullCharacter )|l]."
- exam_recruit_courtiers_intent: "Recherche de talents"
+ exam_recruit_courtiers_intent: "Rechercher des talents"
  exam_recruit_courtiers_intent_desc: "Vous cherchez à découvrir des talents parmi des individus sélectionnés dans tout le pays."
  exam_give_favor_intent: "Favoritisme"
  exam_give_favor_intent_desc: "Vous tenterez d’améliorer les chances de vos [dynasty_members|El]."

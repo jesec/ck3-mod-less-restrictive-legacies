@@ -90,7 +90,7 @@
 
  birth.1010.t:0 "Child of My Blood"
  birth.1010.t_twins:0 "Children of My Blood"
- birth.1010.desc.twin:0 "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has given birth to two [child.Custom('TwinDaughtersSonsChildren')]!\n\nSince the little ones are part of the [ROOT.Char.GetDynasty.GetName] dynasty they should be bestowed with names ."
+ birth.1010.desc.twin:0 "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has given birth to two [child.Custom('TwinDaughtersSonsChildren')]!\n\nSince the little ones are part of the [ROOT.Char.GetDynasty.GetName] dynasty they should be bestowed with names worthy of their heritage."
  birth.1010.desc:0 "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has given birth to a [child.Custom('GetDaughterSon')]!\n\nSince the little one is a fruit of the [ROOT.Char.GetDynasty.GetName] tree, [child.GetSheHe] should be bestowed a name worthy of [child.GetHerHis] heritage."
 
  birth.1100.title:0 "[child.Custom('GetTaltosTerm')] Born"

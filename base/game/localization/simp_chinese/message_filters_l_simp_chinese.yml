@@ -394,4 +394,4 @@
  message_filter_custom_message: "@secret_icon!自定义消息"
  message_filter_custom_message_desc: "你写给自己的消息"
  #TRIBUTARY
- message_filter_tributary: "@tributary_icon! $CONTRACT_VASSAL_SIGNATURE_TRIBUTARY_TYPE$"
+ message_filter_tributary: "@tributary_icon!$CONTRACT_VASSAL_SIGNATURE_TRIBUTARY_TYPE$"

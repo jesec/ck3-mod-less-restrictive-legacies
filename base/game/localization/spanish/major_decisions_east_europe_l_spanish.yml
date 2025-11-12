@@ -66,7 +66,7 @@
  #[EmptyScope.ScriptValue('vengeful_scheme_success_chance_modifier')|0]
  east_europe.0111.t: "$east_europe.0111.t.setup$: cartas a [hof.Custom('ES_AlAla')] [hof.GetTitledFirstNameNoTooltip|l]"
  east_europe.0111.desc: "¿Quién sabe cuánto tiempo han pasado estos supuestos [heretic.GetFaith.GetAdherentNamePluralNoTooltip] sin ser descubiertos? ¿Una década? ¿Un siglo? ¿Desde la visita del bendito san Martín?\n\nPor mucho tiempo que se haya permitido que esta herejía se encone en las regiones inexploradas de Bosnia, la indulgencia de nuestros antepasados ha dado malos frutos, ¡y no puedo soportarlo! ¡Ver a un[heretic.Custom('ES_XA')] [heretic.Custom2('InsultNoun', ROOT.Char)] como [heretic.Custom('ES_ElLa')] [heretic.GetTitledFirstName|l] alardeando de [accuser.GetFaith.HighGodName] abiertamente!\n\nEl mundo asume que son buenos [accuser.GetFaith.GetAdherentNamePluralNoTooltip], aunque algo agrestes. Quizá con unas cuantas palabras imaginativas [hof.Custom('ES_AlAla')] [hof.GetTitledFirstName|l], no tendrá por qué ser así…"
- east_europe.0111.a: "¡Traedme [ROOT.Char.Custom('GetWritingInstrument')|l] y [ROOT.Char.Custom('GetWritingMaterial')|l]!"
+ east_europe.0111.a: "¡Traedme [ROOT.Char.Custom('WritingInstrument')|l] y [ROOT.Char.Custom('GetWritingMaterial')|l]!"
  east_europe.0111.a.tt: "Se escribe una carta"
  east_europe.0111.b: "Tengo mejores cosas que hacer…"
  east_europe.0112.t: "[hof.Custom2('AppropriateGreeting',accuser)]"

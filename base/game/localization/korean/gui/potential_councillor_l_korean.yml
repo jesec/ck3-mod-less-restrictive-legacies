@@ -1,5 +1,5 @@
 ﻿l_korean:
- POTENTIAL_COUNCILLOR_TITLE: "[CouncilPositionType.GetName] 임명"
+ POTENTIAL_COUNCILLOR_TITLE: "[CouncilPositionType.GetNameForPlayer] 임명"
  CHARACTER_SORT_ALL_SKILLS: "능력 총합"
  POTENTIAL_COUNCILLOR_REASSIGN: "재임명"
  POTENTIAL_COUNCILLOR_ASSIGN: "임명"

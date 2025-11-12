@@ -634,7 +634,6 @@ ep2_steppe_bow_01_a_left_hand = {
 	entity = {	required_tags = ""		node = "bn_l_prop"		entity = "ep2_steppe_bow_01_a_portrait_entity" }
 }
 
-
 ep2_mediterranean_bow_01_a_left_hand = {
 	entity = {	required_tags = ""		node = "bn_l_prop"		entity = "ep2_mediterranean_bow_01_a_portrait_entity" }
 }
@@ -642,7 +641,6 @@ ep2_mediterranean_bow_01_a_left_hand = {
 ep2_indian_bow_01_a_left_hand = {
 	entity = {	required_tags = ""		node = "bn_l_prop"		entity = "ep2_indian_bow_01_a_portrait_entity" }
 }
-
 
 ep2_long_bow_01_a_left_hand = {
 	entity = {	required_tags = ""		node = "bn_l_prop"		entity = "ep2_long_bow_01_a_portrait_entity" }
@@ -660,7 +658,9 @@ ep2_african_bow_01_left_hand = {
 	entity = {	required_tags = ""		node = "bn_l_prop"		entity = "ep2_african_bow_01_a_portrait_entity" }
 }
 
-
+tgp_japanese_bow_01_a_portrait = {
+	entity = {	required_tags = ""		node = "bn_l_prop"		entity = "tgp_japanese_bow_01_a_portrait_entity" }
+}
 
 #Bow Drawn
 
@@ -668,11 +668,9 @@ ep2_steppe_bow_01_a_drawn_left_hand = {
 	entity = {	required_tags = ""		node = "bn_l_prop"		entity = "ep2_steppe_bow_01_a_drawn_portrait_entity" }
 }
 
-
 ep2_mediterranean_bow_01_a_drawn_left_hand = {
 	entity = {	required_tags = ""		node = "bn_l_prop"		entity = "ep2_mediterranean_bow_01_a_drawn_portrait_entity" }
 }
-
 
 ep2_indian_bow_01_a_drawn_left_hand = {
 	entity = {	required_tags = ""		node = "bn_l_prop"		entity = "ep2_indian_bow_01_a_drawn_portrait_entity" }
@@ -692,6 +690,10 @@ ep2_short_bow_01_b_drawn_left_hand = {
 
 ep2_african_bow_01_drawn_left_hand = {
 	entity = {	required_tags = ""		node = "bn_l_prop"		entity = "ep2_african_bow_01_a_drawn_portrait_entity" }
+}
+
+tgp_japanese_bow_01_a_drawn_portrait = {
+	entity = {	required_tags = ""		node = "bn_l_prop"		entity = "tgp_japanese_bow_01_a_drawn_portrait_entity" }
 }
 
 ep2_western_longsword_01_a = {
@@ -1098,6 +1100,10 @@ steppe_bow = {
 	entity = {	required_tags = ""		node = "bn_l_prop"		entity = "ep2_steppe_bow_entity" }
 }
 
+japanese_bow = {
+	entity = {	required_tags = ""		node = "bn_l_prop"		entity = "tgp_japanese_bow_entity" }
+}
+
 ###########################################################################################################################################################
 
 skull_goblet = {
@@ -1120,8 +1126,8 @@ ep1_western_goblet_basic_01_a_prop = {
 	entity = {	required_tags = ""		node = "bn_r_prop"		entity = "ep1_western_goblet_basic_01_a_prop_entity" }
 }
 
-suzu_prop_01 = {
-	entity = {	required_tags = ""        node = "bn_r_prop"		entity = "suzu_prop_01_entity" }
+tgp_suzu_01_a = {
+	entity = {	required_tags = ""        node = "bn_r_prop"		entity = "tgp_suzu_01_a_entity" }
 }
 
 tgp_guqin_01_a_portrait = {

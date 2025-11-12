@@ -2,6 +2,7 @@
 
  ALL_CLAIMANTS:0 "All [claimants|E]"
  ANY_CLAIMANT:0 "Any [claimant|E]"
+ NOT_ANY_CLAIMANT: "Title has no [claimants|E]"
 
  ANY_CHILD:0 "Any Child:"
  ANY_CHILD_FIRST:0 "Any of my Children:"

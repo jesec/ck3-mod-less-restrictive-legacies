@@ -115,8 +115,45 @@ tribute_mission_chance_to_receive_seal_of_investiture = {
 	}
 }
 
+tribute_reward_treasury_cap = {
+	value = excessive_gold_tribute_value
+	multiply = 2
+	culture ?= {
+		if = {
+			limit = {
+				has_cultural_era_or_later = culture_era_late_medieval
+			}
+			multiply = 1.6
+		}
+		else_if = {
+			limit = {
+				has_cultural_era_or_later = culture_era_high_medieval
+			}
+			multiply = 1.4
+		}
+		else_if = {
+			limit = {
+				has_cultural_era_or_later = culture_era_early_medieval
+			}
+			multiply = 1.2
+		}
+		else = {
+			multiply = 1
+		}
+	}
+}
+
 tribute_treasury_reward_value = {
-	value = scope:tributary_scope.var:offered_gold_value
+	value = 0
+	if = {
+		limit = { 
+			scope:tributary_scope = { has_variable = offered_gold_value }
+		}
+		value = scope:tributary_scope.var:offered_gold_value
+	}
+	else = {
+		value = tribute_reward_treasury_cost
+	}
 	multiply = 3
 	multiply = {
 		value = scope:opinion_of_tributary
@@ -124,6 +161,7 @@ tribute_treasury_reward_value = {
 		min = 1
 	}
 	min = tribute_reward_treasury_cost
+	max = tribute_reward_treasury_cap
 }
 
 small_herd_tribute_value = {
@@ -155,8 +193,68 @@ herd_conversion_tribute_value = {
 
 small_gold_tribute_value = {
 	if = {
-		limit = { is_tributary = no } # Assume we're paying tribute to China
-		title:h_china.holder ?= { save_temporary_scope_as = tribute_target }
+		limit = { is_tributary = no }
+		if = {
+			limit = {
+				OR = {
+					has_variable = wants_to_become_tributary_of_china
+					any_neighboring_top_liege_realm_owner = {
+						primary_title = title:h_china
+					}
+				}
+			}
+			title:h_china.holder = {
+				save_temporary_scope_as = tribute_target
+			}
+		}
+		else_if = {
+			limit = {
+				any_neighboring_top_liege_realm_owner = {
+					primary_title = title:h_roman_empire
+				}
+			}
+			title:h_roman_empire.holder = {
+				save_temporary_scope_as = tribute_target
+			}
+		}
+		else_if = {
+			limit = {
+				any_neighboring_top_liege_realm_owner = {
+					primary_title = title:h_eastern_roman_empire
+				}
+			}
+			title:h_eastern_roman_empire.holder = {
+				save_temporary_scope_as = tribute_target
+			}
+		}
+		else_if = {
+			limit = {
+				any_neighboring_top_liege_realm_owner = {
+					primary_title = title:h_dar_al_islam
+				}
+			}
+			title:h_dar_al_islam.holder = {
+				save_temporary_scope_as = tribute_target
+			}
+		}
+		else_if = {
+			limit = {
+				any_neighboring_top_liege_realm_owner = {
+					primary_title = title:h_india
+				}
+			}
+			title:h_india.holder = {
+				save_temporary_scope_as = tribute_target
+			}
+		}
+		#For Exact Tribute rolling error
+		else_if = {
+			limit = { exists = scope:actor }
+			scope:actor = { save_temporary_scope_as = tribute_target }
+		}
+		else = {
+			suzerain ?= { save_temporary_scope_as = tribute_target } #Temporary error fix until widgets are evaluated after is_shown on decisions TIT-67694
+		}
 	}
 	else = {
 		suzerain ?= { save_temporary_scope_as = tribute_target }
@@ -220,7 +318,7 @@ small_gold_tribute_value = {
 	}
 	floor = yes
 	if = {
-		limit = { scope:tribute_target = title:h_china.holder }
+		limit = { scope:tribute_target = { highest_held_title_tier = tier_hegemony } }
 		if = {
 			limit = { primary_title.tier >= tier_empire }
 			min = 100
@@ -236,8 +334,63 @@ small_gold_tribute_value = {
 
 adequate_gold_tribute_value = {
 	if = {
-		limit = { is_tributary = no } # Assume we're paying tribute to China
-		title:h_china.holder = { save_temporary_scope_as = tribute_target }
+		limit = { is_tributary = no }
+		if = {
+			limit = {
+				OR = {
+					has_variable = wants_to_become_tributary_of_china
+					any_neighboring_top_liege_realm_owner = {
+						primary_title = title:h_china
+					}
+				}
+			}
+			title:h_china.holder = {
+				save_temporary_scope_as = tribute_target
+			}
+		}
+		else_if = {
+			limit = {
+				any_neighboring_top_liege_realm_owner = {
+					primary_title = title:h_roman_empire
+				}
+			}
+			title:h_roman_empire.holder = {
+				save_temporary_scope_as = tribute_target
+			}
+		}
+		else_if = {
+			limit = {
+				any_neighboring_top_liege_realm_owner = {
+					primary_title = title:h_eastern_roman_empire
+				}
+			}
+			title:h_eastern_roman_empire.holder = {
+				save_temporary_scope_as = tribute_target
+			}
+		}
+		else_if = {
+			limit = {
+				any_neighboring_top_liege_realm_owner = {
+					primary_title = title:h_dar_al_islam
+				}
+			}
+			title:h_dar_al_islam.holder = {
+				save_temporary_scope_as = tribute_target
+			}
+		}
+		else_if = {
+			limit = {
+				any_neighboring_top_liege_realm_owner = {
+					primary_title = title:h_india
+				}
+			}
+			title:h_india.holder = {
+				save_temporary_scope_as = tribute_target
+			}
+		}
+		else = {
+			suzerain ?= { save_temporary_scope_as = tribute_target } #Temporary error fix until widgets are evaluated after is_shown on decisions TIT-67694
+		}
 	}
 	else = {
 		suzerain ?= { save_temporary_scope_as = tribute_target }
@@ -302,16 +455,83 @@ adequate_gold_tribute_value = {
 		}
 	}
 	floor = yes
-	min = 5
+	if = {
+		limit = { scope:tribute_target = { highest_held_title_tier = tier_hegemony } }
+		if = {
+			limit = { primary_title.tier >= tier_empire }
+			min = 150
+		}
+		else_if = {
+			limit = { primary_title.tier >= tier_kingdom }
+			min = 100
+		}
+		else = { min = 75 }
+	}
+	else = { min = 5 }
 }
 
 excessive_gold_tribute_value = {
 	if = {
-		limit = { is_tributary = no } # Assume we're paying tribute to China
-		title:h_china.holder = { save_temporary_scope_as = tribute_target }
+		limit = { is_tributary = no }
+		if = {
+			limit = {
+				OR = {
+					has_variable = wants_to_become_tributary_of_china
+					any_neighboring_top_liege_realm_owner = {
+						primary_title = title:h_china
+					}
+				}
+			}
+			title:h_china.holder = {
+				save_temporary_scope_as = tribute_target
+			}
+		}
+		else_if = {
+			limit = {
+				any_neighboring_top_liege_realm_owner = {
+					primary_title = title:h_roman_empire
+				}
+			}
+			title:h_roman_empire.holder = {
+				save_temporary_scope_as = tribute_target
+			}
+		}
+		else_if = {
+			limit = {
+				any_neighboring_top_liege_realm_owner = {
+					primary_title = title:h_eastern_roman_empire
+				}
+			}
+			title:h_eastern_roman_empire.holder = {
+				save_temporary_scope_as = tribute_target
+			}
+		}
+		else_if = {
+			limit = {
+				any_neighboring_top_liege_realm_owner = {
+					primary_title = title:h_dar_al_islam
+				}
+			}
+			title:h_dar_al_islam.holder = {
+				save_temporary_scope_as = tribute_target
+			}
+		}
+		else_if = {
+			limit = {
+				any_neighboring_top_liege_realm_owner = {
+					primary_title = title:h_india
+				}
+			}
+			title:h_india.holder = {
+				save_temporary_scope_as = tribute_target
+			}
+		}
+		else = {
+			suzerain ?= { save_temporary_scope_as = tribute_target } #Temporary error fix until widgets are evaluated after is_shown on decisions TIT-67694
+		}
 	}
-	else= {
-		overlord ?= { save_temporary_scope_as = tribute_target }
+	else = {
+		suzerain ?= { save_temporary_scope_as = tribute_target }
 	}
 	value = 0
 	if = {
@@ -371,7 +591,19 @@ excessive_gold_tribute_value = {
 		}
 	}
 	floor = yes
-	min = 5
+	if = {
+		limit = { scope:tribute_target = { highest_held_title_tier = tier_hegemony } }
+		if = {
+			limit = { primary_title.tier >= tier_empire }
+			min = 250
+		}
+		else_if = {
+			limit = { primary_title.tier >= tier_kingdom }
+			min = 175
+		}
+		else = { min = 100 }
+	}
+	else = { min = 5 }
 }
 
 tribute_legitimacy_reward_value = minor_legitimacy_gain
@@ -382,3 +614,7 @@ tribute_generic_legitimacy_reward_value = {
 		multiply = 2
 	}
 }
+
+create_bunga_mas_cost = 50
+
+bunga_mas_tribute_modifier_cap = 3

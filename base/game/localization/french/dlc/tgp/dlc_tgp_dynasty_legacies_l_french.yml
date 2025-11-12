@@ -55,7 +55,7 @@
  tgp_southeast_asia_legacy_track_desc: "Incarner l’essence de la royauté divine"
  tgp_sea_legacy_1_name: "Consécration"
  tgp_sea_legacy_2_name: "Rajamandala"
- tgp_sea_legacy_2_modifier_desc: "$tgp_sea_legacy_2_name$: $VALUE|=+0$"
+ tgp_sea_legacy_2_modifier_desc: "$tgp_sea_legacy_2_name$ : $VALUE|=+0$"
  tgp_sea_legacy_3_name: "Service et dévotion"
  tgp_sea_legacy_4_name: "Gardiens du Dharma"
  tgp_sea_legacy_5_name: "Chakravarti"

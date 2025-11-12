@@ -81,7 +81,7 @@
  #[EmptyScope.ScriptValue('vengeful_scheme_success_chance_modifier')|0]
  east_europe.0111.t:0 "$east_europe.0111.t.setup$: Writing [hof.GetTitledFirstNameNoTooltip]"
  east_europe.0111.desc:0 "Who can say how long these so-called [heretic.GetFaith.GetAdherentNamePluralNoTooltip] have gone unnoticed? A decade? A century? Since the visit of blessed Saint Martin?\n\nHowever long this heresy has been allowed to fester in the wilds of Bosnia, the leniency of our ancestors has born ill-fruit, and I cannot stand it! Seeing such a [heretic.Custom2('InsultNoun', ROOT.Char)] as [heretic.GetTitledFirstName] flaunting [accuser.GetFaith.HighGodName] openly!\n\nThe world ignorantly assumes that they are basically good, if rural, [accuser.GetFaith.GetAdherentNamePluralNoTooltip]. Perhaps, with a few creative words to [hof.GetTitledFirstName], this need not be so..."
- east_europe.0111.a:0 "Bring me [ROOT.Char.Custom('GetWritingInstrument')] and [ROOT.Char.Custom('GetWritingMaterial')]!"
+ east_europe.0111.a:0 "Bring me [ROOT.Char.Custom('WritingInstrument')] and [ROOT.Char.Custom('GetWritingMaterial')]!"
  east_europe.0111.a.tt:0 "A letter is penned"
  east_europe.0111.b:0 "I have better things to do..."
  east_europe.0112.t:0 "[hof.Custom2('AppropriateGreeting',accuser)]"

@@ -93,7 +93,9 @@
  scandinavian_elective_candidates_tooltip: "ディングのもとで有効な候補者となるには、キャラクターが以下の条件のいずれかを満たしている必要があります\n$EFFECT_LIST_BULLET$現在の統治者の[extended_family|E]の正当なメンバーであり、神権制または共和制の継承権者ではない\n$EFFECT_LIST_BULLET$その称号の[claimant|E]であり、神権制または共和制の継承権者ではない"
  scandinavian_elective_electors: "$feudal_elective_electors$"
  scandinavian_elective_electors_tooltip: "ディングのもとで有効な[elector|E]となるには、封臣が以下の条件をすべて満たしている必要があります\n$EFFECT_LIST_BULLET$その称号の直臣である\n$EFFECT_LIST_BULLET$男爵ではない"
- succession_laws_must_have_organised_government_tooltip: "[feudal|E]または[clan|E]の[government|E]ではない"
+ succession_laws_must_have_organised_government_tooltip: "[SelectLocalization( HasDlcFeature( 'all_under_heaven' ), 'succession_laws_must_have_organised_government_tooltip_auh_tooltip', 'succession_laws_must_have_organised_government_tooltip_base_game_tooltip' )]"
+ succession_laws_must_have_organised_government_tooltip_auh_tooltip: "私は[feudal|E]、[clan|E]、[japan_feudal|E][government|E]を持っていない"
+ succession_laws_must_have_organised_government_tooltip_base_game_tooltip: "[feudal|E]または[clan|E]の[government|E]ではない"
  succession_laws_must_not_be_forced_partition: "私は自分の[vassal_contract|E]によって分割[succession|E]を強制されない"
  succession_laws_must_have_valid_tanistry_culture: "あなたは$goidelic_group$または$brythonic_group$の[heritage|E]を持って#bold いない#!"
  number_of_election_votes: "票数"
@@ -131,7 +133,7 @@
  #EP3:
  noble_family_succession_law: "貴族継承"
  noble_family_succession_law_subname: "[player_heir|E]が継承"
- noble_family_succession_law_effects: "貴族の[title|E]が[player_heir|E]に与えられます。"
+ noble_family_succession_law_effects: "貴族の[title|E]とその[domicile|E]が[player_heir|E]に与えられます。"
  #Appointment Succession Law
  appointment_succession_law: "任命継承"
  appointment_succession_law_subname: "最もスコアが高い候補者が継承"

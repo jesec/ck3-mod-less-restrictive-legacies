@@ -1,5 +1,5 @@
 ﻿l_japanese:
- steal_back_artifact_event_title: "宝物奪取："
+ steal_back_artifact_event_title: "宝物窃盗："
  steal_back_artifact_ongoing.1001.t: "$steal_back_artifact_event_title$好古家"
  steal_back_artifact_ongoing.1001.desc: "宝物を回収するにあたって無視できない問題となるのが、[target.GetTitledFirstNamePossessive]の好古家[antiquarian.GetTitledFirstName]だ。\n\nもちろん、人に#EMP 対処#!する方法はいくつもあるが、[antiquarian.GetFirstNameNoTooltip]は相応の賄賂を与えれば目を瞑ってくれるような人間かもしれない。"
  steal_back_artifact_ongoing.1001.a: "金は世界の共通語だ。"

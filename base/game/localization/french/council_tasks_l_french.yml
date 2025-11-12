@@ -1,5 +1,5 @@
 ﻿l_french:
- ACTIVE_COUNCIL_TASK_TT: "Votre [ActiveCouncilTask.GetPositionType.GetName|l] [ActiveCouncilTask.GetCouncillor.Custom('FR_le_Char_U_P')][ActiveCouncilTask.GetCouncillor.GetUIName] devra [ActiveCouncilTask.GetTaskType.GetName|Vl]"
+ ACTIVE_COUNCIL_TASK_TT: "Votre [ActiveCouncilTask.GetPositionType.GetNameForPlayer|l] [ActiveCouncilTask.GetCouncillor.GetFirstName|V] devra [ActiveCouncilTask.GetTaskType.GetName|Vl]"
  ACTIVE_COUNCIL_TASK_FROZEN_TT: "#T [ActiveCouncilTask.GetTaskType.GetName|V] #!\n@warning_icon! #X Affecter un personnage à ce poste du Conseil pour continuer à progresser dans la tâche#!"
  POTENTIAL_COUNCIL_TASK_TT: "[ActiveCouncilTask.GetCouncillor.Custom('FR_le_Char_U_P')|U][ActiveCouncilTask.GetCouncillor.GetUIName] devra [ActiveCouncilTask.GetTaskType.GetName|Vl]"
  COUNCIL_TASK_TT: "#T [ActiveCouncilTask.GetTaskType.GetName]#!\n[SelectLocalization( GuiPotentialCouncilTask.IsActive, 'ACTIVE_COUNCIL_TASK_TT', 'POTENTIAL_COUNCIL_TASK_TT' )]"
@@ -604,7 +604,7 @@
  kurultai_task.1356.notification: "Personnes exploitées"
  kurultai_task.1356.desc: "Le travail [councillor.Custom('FR_du_Char_U_Pi')][councillor.GetShortUIName] a eu des effets désastreux sur les tribus de [county.GetNameNoTier]."
  kurultai_task.1401.notification: "Pillards impressionnants"
- kurultai_task.1401.desc: "Nos pillards sont craints partout grâce aux entraînements [councillor.Custom('FR_du_Char_U_Pi')][councillor.GetShortUIName]."
+ kurultai_task.1401.desc: "Nos pillards sont craints partout grâce aux entraînements intensifs [councillor.Custom('FR_du_Char_U_Pi')][councillor.GetShortUIName]."
  kurultai_task.1406.notification: "Pillards redoutables"
  kurultai_task.1406.desc: "Nos pillards sèment la terreur parmi nos ennemis, tant à l’intérieur qu’à l’extérieur de nos frontières."
  kurultai_task.1451.notification: "Pillards peu impressionnants"

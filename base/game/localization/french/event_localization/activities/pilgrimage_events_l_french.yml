@@ -613,7 +613,7 @@
  #Brahmacharya Challenged
  pilgrimage.3401.t: "$pilgrimage_header$ brahmacharya mise à l’épreuve"
  pilgrimage.3401.desc: "Notre yatra nous a conduits sur les rives de [body_of_water.GetName]. Ses eaux scintillent comme des feuilles d’or sous le soleil de l’après-midi, nous invitant à nous baigner.\n\nMon regard se porte sur un[bather.Custom('FR_E')] autre yatri, [bather.Custom('FR_le_Char_Pi')][bather.GetTitledFirstName], dont le corps n’est vêtu que de l’éclat de l’eau.\n\nPendant le [ROOT.Char.GetInvolvedActivity.GetShortName|l], nous sommes censés adopter une [Glossary('brahmacharya', 'BRAHMACHARAYA_GLOSS')] quasi-monastique, nous abstenant de pensées et d’actes lubriques..."
- pilgrimage.3401.a: "Avec le désir comme guide, je baigne dans la beauté [bather.Custom('FR_du_Char_Pi')][bather.GetTitledFirstName]."
+ pilgrimage.3401.a: "Avec le désir comme guide, je baigne dans la beauté de [bather.GetFirstNameNoTooltip]."
  pilgrimage.3401.b: "J’entre dans l’eau froide, mes passions éteintes."
  pilgrimage.3401.b.flavor: "Un pas de plus vers le Nirvana."
  BRAHMACHARAYA_GLOSS: "« Pratiquer la conduite d’un brahmane » en sanskrit, ou adopter un mode de vie propice à la recherche de la connaissance sacrée et de la libération spirituelle. On y parvient en partie en s’efforçant d’atteindre un état sans désir."

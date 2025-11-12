@@ -9,6 +9,7 @@
 ##########
 #Become Genghis Khan
 # by Petter Vilberg
+### Become Greatest of Khans ###
 become_greatest_of_khans_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
@@ -123,6 +124,7 @@ become_greatest_of_khans_decision = {
 ##########
 #Enforce Bactrian Supremacy
 # by Petter Vilberg
+### Establish Bactrian Supremacy ###
 establish_bactrian_supremacy_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp3/fp3_decision_sunder.dds"
@@ -241,6 +243,7 @@ establish_bactrian_supremacy_decision = {
 ##########
 #Establish the Yamagate in Samarkand
 # by James Beaumont
+### Establish the Yamagate in Samarkand ###
 establish_yamagate_in_samarkand_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
@@ -378,6 +381,7 @@ establish_yamagate_in_samarkand_decision = {
 ##########
 #End the Old Ways
 # by James Beaumont
+### Break With the Old Ways ###
 break_with_the_old_ways_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"

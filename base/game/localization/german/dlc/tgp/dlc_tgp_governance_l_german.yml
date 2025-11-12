@@ -367,7 +367,7 @@
  tgp_governor_contract_event.0027.c: "Ihr Schiff ist an #EMP unseren#! Ufern zerschellt, was bedeutet, dass ihre Waren nun uns gehören."
  tgp_governor_contract_event.0027.d: "Wir mögen uns nicht mit Worten verständigen können, doch ich könnte es mit Gesten versuchen."
  tgp_governor_contract_event.0027.e: "Schafft sie hier weg – notfalls mit Gewalt."
- tgp_governor_contract_event.0027.f: "Ich kümmere mich selbst darum. Ihrem Aussehen nach zu urteilen, kenne ich ihre Sprache."
+ tgp_governor_contract_event.0027.f: "$epidemic_events.5902.a$"
  task_contract_reward_effect_temporary_housing_desc: "$label_success_standard$"
  task_contract_reward_effect_search_for_translator_desc: "$label_success_standard$"
  task_contract_reward_effect_confiscate_their_goods_desc: "$label_success_standard$"
@@ -433,7 +433,7 @@
  tgp_governor_contract_event.0032.a_tt: "Reist nach „[monopoly_in_the_marketplace_destination.GetName]“ und regelt die Geschäfte des Marktplatzes zu Eurer Zufriedenheit"
  tgp_governor_contract_event.0032.b: "Alles, was ich darin erkenne, ist nichts Ungewöhnlicheres als ein erfolgreicher Händler."
  tgp_governor_contract_event.0033.t: "Marktmonopol"
- tgp_governor_contract_event.0033.desc: "Obwohl sie selten ein Vorbild an Ehrlichkeit sind, scheinen die Worte der Händler in diesem Fall wahr zu sein.\n\nWährend wir uns unauffällig von einem Stand zum nächsten bewegen, sind bislang alle mit dem gleichen Zeichen versehen, das sie als Gemeinschaftseigentum eines einzigen Besitzers ausweist.\n\nDer letzte Stand, den wir besuchen, ist der größte und prächtigste, und die stattliche Person, die ihn leitet, ist in ein Gewand gehüllt, das für [Select_CString(merchant_magnate.IsFemale, 'eine Frau', 'einen Mann')] [merchant_magnate.Custom('DE_PRO_POS_S_3P')]es Standes unangemessen ist. Dies ist eindeutig [Select_CString(merchant_magnate.IsFemale, 'die Rivalin, von der', 'der Rivale, von dem')] alle sprachen."
+ tgp_governor_contract_event.0033.desc: "Obwohl sie selten ein Vorbild an Ehrlichkeit sind, scheinen die Worte der Händler in diesem Fall wahr zu sein.\n\nWährend wir uns unauffällig von einem Stand zum nächsten bewegen, sind bislang alle mit dem gleichen Zeichen versehen, das sie als Gemeinschaftseigentum eines einzigen Besitzers ausweist.\n\nDer letzte Stand, den wir besuchen, ist der größte und prächtigste, und die stattliche Person, die ihn leitet, lächelt stolz. Dies ist eindeutig [Select_CString(merchant_magnate.IsFemale, 'die Rivalin, von der', 'der Rivale, von dem')] alle sprachen."
  tgp_governor_contract_event.0033.a: "Kein Händler darf mehr als einen Stand haben." # (Special governor option)
  tgp_governor_contract_event.0033.b: "Erweitert den Marktplatz und versteigert neue Stände nur an Mitglieder der Vereinigung."
  tgp_governor_contract_event.0033.c: "Sofern [merchant_magnate.Custom('DE_PRO_PER_S_3P_N')] bereit ist, für das Privileg zu #EMP zahlen#!, kann [merchant_magnate.Custom('DE_PRO_PER_S_3P_N')] bleiben."

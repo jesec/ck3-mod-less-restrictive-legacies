@@ -84,6 +84,8 @@
  tenet_hedonistic_name: "享乐主义"
  tenet_hedonistic_desc: "神明让这世界充满了丰富的愉悦供我们沉迷享受——不参与这些事情就怠慢了创世的工程。"
  doctrine_parameter_piety_from_feasts_active: "举行[GetActivityType('activity_feast').GetName]获得[piety|E]"
+ doctrine_parameter_piety_from_festivals_active: "[AddLocalizationIf( HasDlcFeature( 'all_under_heaven' ), 'doctrine_parameter_piety_from_festivals_active_auh')]" #Only show if you have AUH
+ doctrine_parameter_piety_from_festivals_active_auh: "举行[GetActivityType('activity_festival').GetName]获得[piety|E]"
  tenet_carnal_exaltation_name: "肉欲高扬"
  tenet_carnal_exaltation_desc: "崇高的肉体欢愉某种意义上超越其他的世间体验，令我们更加靠近神性。我们应该赞美自己的性欲，为自己寻求机会满足之。"
  tenet_polyamory_name: "多边恋"

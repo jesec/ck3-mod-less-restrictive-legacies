@@ -198,7 +198,7 @@
  ep3_emperor_yearly.2160.b.tt2: "Tu [governor_efficiency|lE] disminuye un #N 5 %#!"
  #Secret Tunnels
  ep3_emperor_yearly.2170.t: "Túneles secretos"
- ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier] es una zona difícil, y nuestro control sobre ella suele ser endeble en el mejor de los casos. Sus habitantes son supervivientes curtidos, cuyo conocimiento y dominio de la ordenación de su tierra dura y salvaje no tiene rival.\n\nA esto les ayuda su propia creación: una extensa red de túneles, refugios escondidos y asentamientos subterráneos en los que pueden desaparecer fácilmente cada vez que el clima se vuelve hostil, el enemigo ataca o se acercan nuestros recaudadores de impuestos a exigir lo que es del César."
+ ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier] es una zona difícil, y nuestro control sobre ella suele ser endeble en el mejor de los casos. Sus habitantes son supervivientes curtidos, cuyo conocimiento y dominio de la ordenación de su tierra dura y salvaje no tiene rival.\n\nA esto les ayuda su propia creación: una extensa red de túneles, refugios escondidos y asentamientos subterráneos en los que pueden desaparecer fácilmente cada vez que el clima se vuelve hostil, el enemigo ataca o se acercan nuestros recaudadores de impuestos a exigir lo que es [ROOT.Char.GetTopLiege.Custom('ES_DelDela')] [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip|l]."
  ep3_emperor_yearly.2170.a: "Podría venirnos bien…"
  ep3_emperor_yearly.2170.b: "Hay que acabar con esta práctica ilegal."
  #A Warm Meal?
@@ -231,6 +231,7 @@
  #The Emperor's Gold
  ep3_emperor_yearly.2200.t: "El oro del emperador"
  ep3_emperor_yearly.2200.desc: "Si hay una persona total y absolutamente indigna de sentarse en el trono imperial, esa es [liege.GetFirstName].\n\n[governorship.GetName] sufre y padece, y todos nuestros impuestos van [Select_CString( liege.IsFemale, 'a la haragana', 'al haragán' )] de [capital.GetNameNoTier]. A no ser que…\n\nNuestros impuestos no #EMP tengan#! por qué ir allí; yo podría emplearlos mucho mejor…"
+ ep3_emperor_yearly.2200.desc.c_monarch: "[liege.Custom('ES_ElLa')|U] [liege.GetTitledFirstName|l] es total y absolutamente indign[liege.Custom('ES_OA')|l] de guiar [ceremonial_monarch.Custom('ES_AlAla')] [ceremonial_monarch.GetTitleAsName|l].\n\n[governorship.GetName] sufre y padece, y todos nuestros impuestos van [Select_CString( liege.IsFemale, 'a la haragana', 'al haragán' )] de [capital.GetNameNoTier]. A no ser que…\n\nNuestros impuestos no #EMP tengan#! por qué ir allí; yo podría emplearlos mucho mejor…»."
  ep3_emperor_yearly.2200.a: "[liege.GetFirstNameNoTooltip] no se merece nuestro oro."
  ep3_emperor_yearly.2200.b: "Mi lealtad es para con [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip], no con [ROOT.Char.GetTopLiege.Custom('ES_ElLa')] [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip|l]."
  ep3_emperor_yearly.2200.a.tt: "Indignos de lealtad"
@@ -274,7 +275,8 @@
  ep3_emperor_yearly.2240.desc_quote_b: "«[Glossary( 'Ho bíos brakhús, he dè tékhne makré', 'ARS_LONGA_GLOSS')]», suspira [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )] cuando [the_scholar.GetSheHe] tacha una línea de unos apuntes desordenados. ¡¿Cuándo se unió a mí?!"
  ep3_emperor_yearly.2240.desc_quote_c: "«[Glossary( 'Sophòn to saphés', 'SOPHON_GLOSS')]», gruñe [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )] mientras demuestra su incapacidad —otra vez— de seguir las instrucciones más básicas."
  ep3_emperor_yearly.2240.desc_quote_latin: "«[Glossary( 'Omnia vincit amor', 'AMOR_GLOSS')]», pontifica [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )] con expresión solemne. ¡¿Qué tiene eso que ver con lo que estábamos hablando?!"
- ep3_emperor_yearly.2240.desc_outro: "\n\n[the_scholar.GetFirstNameNoTooltip] #EMP siempre#! hace lo mismo ¡y no lo soporto! Siempre recurriendo a citas de los antiguos y echándoselas a la cara a los demás porque sí; y a veces en el contexto equivocado o con las palabras erróneas…\n\nMuchos de los que nos rodean gimen y ponen los ojos en blando. Una formación clásica sólida es imprescindible para una figura pública, pero sin la sabiduría para usarla correctamente, es un desperdicio."
+ ep3_emperor_yearly.2240.desc_quote_confucius: "«[Glossary( 'El hombre superior es modesto en sus palabras, pero soberbio en sus acciones', 'CONFUCIUS_GLOSS')]», pontifica [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )] con expresión solemne. ¡¿Qué tiene eso que ver con lo que estábamos hablando?!"
+ ep3_emperor_yearly.2240.desc_outro: "\n\n[the_scholar.GetFirstNameNoTooltip] #EMP siempre#! recurre a citas de los antiguos y se las echa a la cara a los demás porque sí; y a veces en el contexto equivocado o con las palabras erróneas…\n\nMuchos de los que nos rodean gimen y ponen los ojos en blanco. Una formación clásica sólida es imprescindible para una figura pública, pero sin la sabiduría para usarla correctamente, es un desperdicio."
  ep3_emperor_yearly.2240.a: "#EMP En realidad#!, la cita dice…"
  ep3_emperor_yearly.2240.a.flavor: "Intentas poner a [the_scholar.GetFirstNameNoTooltip] en su sitio mostrando cuánto se equivoca."
  ep3_emperor_yearly.2240.a_success: "Tu conocimiento eclipsa el suyo"

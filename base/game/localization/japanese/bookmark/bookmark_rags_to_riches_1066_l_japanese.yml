@@ -1,27 +1,32 @@
 ﻿l_japanese:
  bm_1066_rags_to_riches: "下剋上の世"
- bm_1066_rags_to_riches_desc: "#V #font:TitleFont #size:20 @legends_of_ck_icon! CRUSADER KINGS IIIの伝説 #!#!#!\n\nヨーロッパ全土を舞台に、あらゆる勢力が権力をめぐって争い、策略を巡らせている。領土をかけた戦いがあちこちで繰り広げられ、いくつもの国が誕生するも、新たな勢力の台頭により衰退の途をたどっていく。\n\n#bold 古い王として首をすげ替えられることになるか、あるいは新参者として王座に手を伸ばすか。果たしてあなたはどちらだろうか？#!"
+ bm_1066_rags_to_riches_desc: "#V #font:TitleFont #size:20 @legends_of_ck_icon! Crusader Kings IIIの伝説#!#!#!\n\nヨーロッパ全土を舞台に、あらゆる勢力が権力をめぐって争い、策略を巡らせている。領土をかけた戦いがあちこちで繰り広げられ、いくつもの国が誕生するも、新たな勢力の台頭により衰退の途をたどっていく。\n\n#bold 古い王として首をすげ替えられることになるか、あるいは新参者として王座に手を伸ばすか。果たしてあなたはどちらだろうか？#!"
  #Murchad Briain, Duke of Munster, Ireland
  bookmark_rags_to_riches_petty_king_murchad: "小王ムラハ"
- bookmark_rags_to_riches_petty_king_murchad_desc: "[diplomacy_lifestyle_i] #V #font:TitleFont #size:15 CRUSADER KINGS IIIの伝説#!#!#!\n11世紀初頭、アイルランドの貴族たちが領土争いとヴァイキングの入植者との戦いを繰り広げるなか、ブライアン家はアイルランドの上王権の獲得と喪失を繰り返していた。だが、王位に就くべきとされる家系の出身でありながら、マンスターという小さな地域を統治していたムラハの短い治世についてはあまり知られていない。\n\n#bold あなたの協力があれば、ブライアン家が再びアイルランドの王座に就くことができるかもしれない。#!"
+ bookmark_rags_to_riches_petty_king_murchad_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_rags_to_riches_petty_king_murchad_desc: "[diplomacy_lifestyle_i] #V #font:TitleFont #size:15 Crusader Kings IIIの伝説#!#!#!\n11世紀初頭、アイルランドの貴族たちが領土争いとヴァイキングの入植者との戦いを繰り広げるなか、ブライアン家はアイルランドの上王権の獲得と喪失を繰り返していた。だが、王位に就くべきとされる家系の出身でありながら、マンスターという小さな地域を統治していたムラハの短い治世についてはあまり知られていない。\n\n#bold あなたの協力があれば、ブライアン家が再びアイルランドの王座に就くことができるかもしれない。#!"
  bookmark_rags_to_riches_petty_king_murchad_alt_brian: "$Brian$"
  bookmark_rags_to_riches_petty_king_murchad_alt_bebinn: "$BE_binn$"
  #Matilda di Canossa, Duchess of Tuscany, Italy
  bookmark_rags_to_riches_duchess_matilda: "女侯爵マティルデ"
- bookmark_rags_to_riches_duchess_matilda_desc: "[learning_lifestyle_i] #V #font:TitleFont #size:15 CRUSADER KINGS IIIの伝説#!#!#!\n11世紀北イタリアが織りなす複雑なタペストリーのなかで、カノッサのマティルデは、身内に不幸な死が続いた結果、かなりの規模の領土を統治することになる。マティルデの信心深さを示す伝説や、魔術と関わりがあったという噂が、彼女の治世に神秘性を添えている。\n\n#bold あなたは移り変わりの激しい中世イタリアで、マティルデの統治を守り、カノッサ家を何世代にも渡って存続させることができるだろうか？#!"
+ bookmark_rags_to_riches_duchess_matilda_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_rags_to_riches_duchess_matilda_desc: "[learning_lifestyle_i] #V #font:TitleFont #size:15 Crusader Kings IIIの伝説#!#!#!\n11世紀北イタリアが織りなす複雑なタペストリーのなかで、カノッサのマティルデは、身内に不幸な死が続いた結果、かなりの規模の領土を統治することになる。マティルデの信心深さを示す伝説や、魔術と関わりがあったという噂が、彼女の治世に神秘性を添えている。\n\n#bold あなたは移り変わりの激しい中世イタリアで、マティルデの統治を守り、カノッサ家を何世代にも渡って存続させることができるだろうか？#!"
  #Yahya Dhunnunid, Emir (Duke) of Toldeo, Iberia
  bookmark_rags_to_riches_emir_yahya: "ヤフヤー首長"
- bookmark_rags_to_riches_emir_yahya_desc: "[intrigue_lifestyle_i] #V #font:TitleFont #size:15 CRUSADER KINGS IIIの伝説#!#!#!\nトレド王国は11世紀後半、レオン王が王国の名を冠した都市を占領したことから始まる。首長ヤフヤーとその影響力が排除されるということは、ズンヌーン家が何世代に渡って君臨してきたこの地域の支配力を失うことを意味する。\n\n#bold あなたは敵を操り、味方を増やしてイベリア半島の王に挑み、ズンヌーン家の歴史を変えることができるだろうか？#!"
+ bookmark_rags_to_riches_emir_yahya_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_rags_to_riches_emir_yahya_desc: "[intrigue_lifestyle_i] #V #font:TitleFont #size:15 Crusader Kings IIIの伝説#!#!#!\nトレド王国は11世紀後半、レオン王が王国の名を冠した都市を占領したことから始まる。首長ヤフヤーとその影響力が排除されるということは、ズンヌーン家が何世代に渡って君臨してきたこの地域の支配力を失うことを意味する。\n\n#bold あなたは敵を操り、味方を増やしてイベリア半島の王に挑み、ズンヌーン家の歴史を変えることができるだろうか？#!"
  bookmark_rags_to_riches_emir_yahya_alt_zahida: "$Zahida$"
  bookmark_rags_to_riches_emir_yahya_alt_yahya2: "$Yahya$"
  #Vratislav Premyslid, Duke of Bohemia, Czechia
  bookmark_rags_to_riches_duke_vratislav: "ブラチスラフ公爵"
- bookmark_rags_to_riches_duke_vratislav_desc: "[stewardship_lifestyle_i] #V #font:TitleFont #size:15 CRUSADER KINGS IIIの伝説#!#!#!\nプシェミスル家は何百年もの間、ボヘミア地方を支配してきた。後継者は年功序列に基づいて決まることがほとんどだったが、ブラチスラフ公爵の場合、最終的には兄弟間の深刻な争いに発展することになる。\n\n#bold ボヘミアの王となるため、ブラチスラフは物資や他の資源に関しても戦術を駆使する必要がある。果たしてあなたはブラチスラフを王にすることができるだろうか？#!"
+ bookmark_rags_to_riches_duke_vratislav_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_rags_to_riches_duke_vratislav_desc: "[stewardship_lifestyle_i] #V #font:TitleFont #size:15 Crusader Kings IIIの伝説#!#!#!\nプシェミスル家は何百年もの間、ボヘミア地方を支配してきた。後継者は年功序列に基づいて決まることがほとんどだったが、ブラチスラフ公爵の場合、最終的には兄弟間の深刻な争いに発展することになる。\n\n#bold ボヘミアの王となるため、ブラチスラフは物資や他の資源に関しても戦術を駆使する必要がある。果たしてあなたはブラチスラフを王にすることができるだろうか？#!"
  bookmark_rags_to_riches_duke_vratislav_alt_judita: "$Judita$"
  bookmark_rags_to_riches_duke_vratislav_alt_ota: "$Ota$$nick_the_handsome$"
  #Robert 'The Fox' de Hauteville, Duke of Apulia, Sicily
  bookmark_rags_to_riches_duke_robert: "ロベルト公爵"
- bookmark_rags_to_riches_duke_robert_desc: "[martial_lifestyle_i] #V #font:TitleFont #size:15 CRUSADER KINGS IIIの伝説#!#!#!\nロベルトはもともと盗賊であり、また追い剥ぎの頭領でもあった。多くの兄弟のなかでも冒険を好んだ彼が、広大な土地を支配する優秀な戦略家兼政治家になるとは、誰も予想していなかった。だが今や彼は南イタリアの有力な公爵として歴史の道を歩みはじめた。そしてオートヴィル家のため、100年以上に渡って存続する足場をシチリアに築くことになる。\n\n#bold 領国内で権力を強固にすれば、シチリア王国の支配者になれるだろう！#!"
+ bookmark_rags_to_riches_duke_robert_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_rags_to_riches_duke_robert_desc: "[martial_lifestyle_i] #V #font:TitleFont #size:15 Crusader Kings IIIの伝説#!#!#!\nロベルトはもともと盗賊であり、また追い剥ぎの頭領でもあった。多くの兄弟のなかでも冒険を好んだ彼が、広大な土地を支配する優秀な戦略家兼政治家になるとは、誰も予想していなかった。だが今や彼は南イタリアの有力な公爵として歴史の道を歩みはじめた。そしてオートヴィル家のため、100年以上に渡って存続する足場をシチリアに築くことになる。\n\n#bold 領国内で権力を強固にすれば、シチリア王国の支配者になれるだろう！#!"
  bookmark_rags_to_riches_duke_robert_alt_bohemond: "$Bohemond$"
  bookmark_rags_to_riches_duke_robert_alt_roger: "$Roger$"
  bookmark.1066.t: "マティルデの結婚の葛藤"

@@ -1,9 +1,9 @@
 ﻿l_japanese:
  # Meritocratic
- meritocratic_obligations: "能力主義制義務"
+ meritocratic_obligations: "科挙制義務"
  meritocratic_provinces: "$administrative_themes$"
  meritocratic_vassal: "$meritocratic_government$"
- meritocratic_government: "能力主義制"
+ meritocratic_government: "科挙制"
  meritocratic_government_adjective: "$meritocratic_government$"
  meritocratic_government_with_icon: "@government_type_meritocratic! $meritocratic_government$"
  meritocratic_government_desc: "\n$game_concept_meritocratic_desc$\n\n#F $meritocratic_government$とは、儒教的官僚制度から着想を得た、中国の周辺諸国における中央集権的行政を指す。#!"
@@ -35,7 +35,7 @@
  meritocratic_province_protectorate_text_icon: "@meritocratic_protectorate_administration!"
  meritocratic_province_protectorate_benefits: "#emphasis #bold [liege|E]の恩恵：#!#!\n$EFFECT_LIST_BULLET$[interaction|E]「#high $frontier_influence_war_interaction$#!」をアンロック。主君は、異国の[duchy|E]階級の[title|E]を求める戦争を宣言するよう、[vassal|E]に要請することができる\n\n#emphasis #bold [vassal|E]の恩恵：#!#!\n$EFFECT_LIST_BULLET$[martial|E]に応じて[governor_efficiency|E]が上昇する#indent_newline:4 \n#weak 1[skill|E]ポイントにつき[EmptyScope.ScriptValue('efficiency_skill_increase_value')|+1%/]追加#!#!\n$EFFECT_LIST_BULLET$[GetLaw('meritocratic_military_appointment_succession_law').GetName]を使用する\n\n#alert_trial @alert_icon! [EmptyScope.ScriptValue('meritocratic_province_protectorate_max_value')|V0]を上限とします#!"
  meritocratic_province_protectorate_amount_desc: "$meritocratic_province_protectorate_short$上限に達した"
- steppe_admin_government: "能力主義ハン国"
+ steppe_admin_government: "科挙制ハン国"
  steppe_admin_government_adjective: "$steppe_admin_government$"
  steppe_admin_government_with_icon: "@government_type_steppe_admin! $steppe_admin_government$"
  steppe_admin_icon_concept: "@government_type_steppe_admin!"

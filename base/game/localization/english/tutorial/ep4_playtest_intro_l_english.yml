@@ -1,22 +1,4 @@
 ﻿l_english:
-
-### JAPAN
-
- lesson_tgp_playtest_intro_japan_step_government: "Government"
- lesson_tgp_playtest_intro_japan_step_government_desc: "Japan is neither a purely [feudal|E] or [administrative|E] [realm|E].\n\nInstead, [vassals|E] either have the [ritsuryo_i][ritsuryo|E] or the [soryo_i][soryo|E] [government|E], representing the split between imperial officials and local warlords.\n\n[vassals|E] in Japan also typically only rule one [county|E].\n\n#I You can find any Japanese Government information in the Government Administration Panel#!"
-
- lesson_tgp_playtest_intro_japan_step_emperor_and_regent: "The Emperor and his Regent"
- lesson_tgp_playtest_intro_japan_step_emperor_and_regent_desc: "The actual [ruler|E] of Japan is #BOLD not#! the [japanese_emperor|E], known as the [tenno|E].\n\nInstead, at the start of the game, the [kampaku|E] rules Japan, and the Emperor is merely a figurehead.\n\n[ritsuryo|E] rulers may vie for appointment as the next [kampaku|E], while [soryo|E] rulers may only take power via the #V $replace_ceremonial_regent_faction_name$#! [faction|E]\n\nWhile the Ten'nō does not rule directly, he has his own [japanese_manor|E] and may be appointed [kampaku|E], ruling as a [cloistered_emperor|E].\n\nThe Ruler of Japan, whoever it may be, can set the [imperial_policy|E] [law|E] which affects the entire Empire."
-
- lesson_tgp_playtest_intro_japan_step_house_aspirations: "House Aspirations"
- lesson_tgp_playtest_intro_japan_step_house_aspirations_desc: "All Japanese [houses|E] have a [house_aspiration|E].\n\nThis attribute affects all members of the $game_concept_house$, and can be improved over time by the [house_head|E].\n\n#I You can see and upgrade your $game_concept_house_aspiration$ in the '$ADMINISTRATIVE_GOVERNMENT_HEADER$' Panel." 
-
- lesson_tgp_playtest_intro_japan_step_blocs: "House Blocs"
- lesson_tgp_playtest_intro_japan_step_blocs_desc: "Your [house|E] belongs to a [house_bloc|E], a defensive alliance of [houses|E].\n\nThe members of a $game_concept_house_bloc$ generally have the same [house_aspiration|E] and good [house_relations|E]. If they do not, [bloc_cohesion|E] is lowered and the [leading_house|E] may choose to eject controversial $game_concept_houses$ from the $game_concept_bloc$.\n\n#I You can view the status of your $game_concept_bloc$ by clicking the highlighted button#!" 
-
- lesson_tgp_playtest_intro_japan_step_end: "Japan"
- lesson_tgp_playtest_intro_japan_step_end_desc: "In Japan, politics is always a struggle of two sides. Lead your [house|E] wisely, and you will determine the future of Japan."
-
 ### MANDALA
 
  action_lesson_tgp_playtest_intro_mandala: "Mandala Government"

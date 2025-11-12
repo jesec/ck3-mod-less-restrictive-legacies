@@ -62,7 +62,7 @@
  activity_hunt_host_desc_recent:0 "\n@warning_icon! #negative_value All held [counties|E] have recently hosted a [GetActivityType('activity_hunt').GetName]"
  # Conclusion Desc
  activity_hunt_conclusion_desc_legendary_success:0 "The hunt for the fabled [activity.Custom('GetLegendaryColor')] [activity.Custom('GetAnimalType')] is at last complete! Songs will be sung of this day, and the talents required to lay low such a beast!"
- activity_hunt_conclusion_desc_legendary:0 "The hunt for the elusive [activity.Custom('GetLegendaryColor')|] [activity.Custom('GetAnimalType')] continues, with no end yet in sight..."
+ activity_hunt_conclusion_desc_legendary:0 "The hunt for the elusive [activity.Custom('GetLegendaryColor')] [activity.Custom('GetAnimalType')] continues, with no end yet in sight..."
  activity_hunt_conclusion_desc_falconry_success:0 "The [activity.Custom('GetRaptorPlural')] have done us proud in their hunt for [activity.Custom('GetAnimalPlural')]!"
  activity_hunt_conclusion_desc_falconry:1 "The [activity.Custom('GetRaptorPlural')] were not successful in their hunt for [activity.Custom('GetAnimalPlural')]..."
  activity_hunt_conclusion_desc_standard_success:1 "We return home from the [activity.Custom('GetAnimalPlural')] hunt in glory!"

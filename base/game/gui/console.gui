@@ -331,10 +331,16 @@ flowcontainer = {
 
 				dockable_button = {
 					name = "gold_console_button"
-					onclick = "[ExecuteConsoleCommand('gold 5000')]"
-					onrightclick = "[ExecuteConsoleCommand('gold -5000')]"
+					click_modifiers = {
+						ondefault = "[ExecuteConsoleCommand('gold 5000')]"
+						onshift = "[ExecuteConsoleCommand('change_treasury 5000')]"
+					}
+					rightclick_modifiers = {
+				        ondefault = "[ExecuteConsoleCommand('gold -5000')]"
+						onshift = "[ExecuteConsoleCommand('change_treasury -5000')]"
+				    }
 					button_ignore = none
-					raw_tooltip = "Left-click: Gain 5000 Gold, Right-click: Lose 5000 Gold"
+					raw_tooltip = "Left-click(+Shift): Gain 5000 Gold(Treasury), Right-click(+Shift): Lose 5000 Gold(Treasury)"
 					using = tooltip_ne
 
 					icon = {

@@ -1,5 +1,5 @@
 ﻿l_simp_chinese:
- POTENTIAL_COUNCILLOR_TITLE: "任命一个[CouncilPositionType.GetName]"
+ POTENTIAL_COUNCILLOR_TITLE: "任命一个[CouncilPositionType.GetNameForPlayer]"
  CHARACTER_SORT_ALL_SKILLS: "能力总和"
  POTENTIAL_COUNCILLOR_REASSIGN: "重新指派"
  POTENTIAL_COUNCILLOR_ASSIGN: "指派"

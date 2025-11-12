@@ -25,7 +25,7 @@
  gained_many_disciples: "获得[disciples|E][disciple_3.GetShortUIName|U]、[disciple_2.GetShortUIName]和[disciple_1.GetShortUIName|U]"
  gained_few_disciples: "获得[disciples|E][disciple_2.GetShortUIName|U]和[disciple_1.GetShortUIName]"
  gained_one_disciple: "获得[disciple|E][disciple_1.GetShortUIName|U]"
- gained_new_elder_tt: "获得恩师[ROOT.Char.MakeScope.Var('new_elder').Char.GetTitledFirstNameNotooltip]"
+ gained_new_elder_tt: "获得恩师[guest.MakeScope.Var('new_elder').Char.GetFirstName]"
  activity_window_character_honorary_guest_leader: "[Concept('movement_leader','受挑战领袖')|E]\n[Character.GetShortUINameNoTooltip|U]"
  ### GUEST INVITE RULES
  activity_invite_rule_debate_movement_members: "[GetPlayer.Custom('GetMyMovement')]成员"

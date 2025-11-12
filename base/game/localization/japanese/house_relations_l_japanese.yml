@@ -136,3 +136,4 @@
  house_relation_damaged_minor_desc: "[CHARACTER.GetHouse.GetName]と[TARGET_CHARACTER.GetHouse.GetName]の[house|E]が#N やや敵対的#!になる"
  house_relation_damaged_medium_desc: "[CHARACTER.GetHouse.GetName]と[TARGET_CHARACTER.GetHouse.GetName]の[house|E]が#N 敵対的#!になる"
  house_relation_damaged_major_desc: "[CHARACTER.GetHouse.GetName]と[TARGET_CHARACTER.GetHouse.GetName]の[house|E]が#N かなり敵対的#!になる"
+ house_relation_your_relation_with: "あなたの[house|E]と[DynastyHouse.GetName]家の関係"

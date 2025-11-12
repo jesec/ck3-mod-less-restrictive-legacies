@@ -25,7 +25,7 @@
  study_confucian_classics_outcome.200.c: "[poet.GetFirstNameNoTooltip|U] verdient ein Bewunderungsschreiben."
  study_confucian_classics_outcome.200.d: "Ich sollte diese Verse ([ROOT.Char.Custom('GetRandomPoetryPassage')]) noch einmal lesen."
  friend_praised_privately: "[CHARACTER.GetShortUIName|U] lobte [TARGET_CHARACTER.GetShortUIName]."
- friend_praised_privately_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] lobte [TARGET_CHARACTER.GetShortUIName]."
+ friend_praised_privately_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] lobte [CHARACTER.GetShortUIName]."
  study_confucian_classics_outcome.300.t: "$study_confucian_classics_title$Inspiration durch den [ROOT.Char.Custom('GetSeason')|U]"
  study_confucian_classics_outcome.300.desc: "Als ich mir den [location_province.Custom('ProvinceCompliment')|l]en Garten betrachte, wie er sich so im [ROOT.Char.Custom('GetSeason')] präsentiert, denke ich über das Werk des großen Dichters [ROOT.Char.Custom('GetRandomAncientChinesePoet')] nach. Ein leichter Wind zerrt an den Ärmeln meines Gewands und führt meine Hand zum Pinsel – als ob der Himmel selbst mich zum Schreiben auffordert.\n\nDas Blatt liegt vor mir, still und erwartungsvoll, und wartet darauf, meine Worte zu erhalten."
  study_confucian_classics_outcome.300.a: "Wenn ich mich anstrenge, werde auch ich eines Tages berühmt sein!"

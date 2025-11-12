@@ -1,4 +1,5 @@
 ﻿# Admin to Feudal
+### Establish Sōryō Fief ###
 tgp_japan_establish_house_fief_decision = {
 	decision_group_type = major
 	title = tgp_japan_establish_house_fief_decision
@@ -350,6 +351,22 @@ tgp_japan_establish_house_fief_decision = {
 			}
 		}
 		modifier = {
+			current_date <= 900.1.1
+			add = -75
+		}
+		modifier = {
+			current_date <= 1000.1.1
+			add = -75
+		}
+		modifier = {
+			current_date >= 1100.1.1
+			add = 75
+		}
+		modifier = {
+			current_date >= 1200.1.1
+			add = 75
+		}
+		modifier = {
 			vassal_contract_has_flag = japan_administrative_province_military
 			add = 75
 		}
@@ -392,6 +409,7 @@ tgp_japan_establish_house_fief_decision = {
 	}
 }
 
+### Abandon the Bureaucracy ###
 tgp_japan_establish_soryo_manor_decision = {
 	decision_group_type = major
 	title = tgp_japan_establish_soryo_manor_decision
@@ -535,6 +553,7 @@ tgp_japan_establish_soryo_manor_decision = {
 }
 
 # Become Soryo as Kampaku
+### Establish Sōryō Administration ###
 tgp_japan_establish_soryo_administration_decision = {
 	decision_group_type = major
 	title = tgp_japan_establish_soryo_administration_decision
@@ -574,7 +593,7 @@ tgp_japan_establish_soryo_administration_decision = {
 		has_realm_law = japanese_regency_succession_law
 		has_realm_law = japanese_bureaucracy_3
 		custom_tooltip = {
-			text = house_head_create_faction_cohesion_tt
+			text = house_head_create_faction_cohesion_hard_tt
 			house.house_confederation ?= {
 				leading_house ?= root.house
 				has_cohesion_level_parameter = house_head_adopt_soryo_regency
@@ -621,6 +640,7 @@ tgp_japan_establish_soryo_administration_decision = {
 }
 
 # Become Shogun
+### Formalize [ROOT.Char.GetHouse.GetNameNoTooltip] Shōgunate ###
 tgp_japan_become_shogun_decision = {
 	decision_group_type = major
 	title = tgp_japan_become_shogun_decision
@@ -708,6 +728,7 @@ tgp_japan_become_shogun_decision = {
 }
 
 # Emperor Restoration
+### Restore Direct Imperial Rule ###
 tgp_japan_emperor_restoration_decision = {
 	decision_group_type = major
 	title = tgp_japan_emperor_restoration_decision
@@ -801,6 +822,7 @@ tgp_japan_emperor_restoration_decision = {
 }
 
 # Yamato into Minamoto/Taira
+### Request Royal Honsei ###
 tgp_japan_imperial_branch_decision = {
 	decision_group_type = major
 	title = tgp_japan_imperial_branch_decision
@@ -1012,6 +1034,10 @@ tgp_japan_imperial_branch_decision = {
 			add = 25
 		}
 		modifier = {
+			has_trait = disinherited
+			add = 25
+		}
+		modifier = {
 			top_liege.primary_title.var:administrative_ui_special_title = {
 				any_past_holder = { is_parent_of = root }
 			}
@@ -1023,10 +1049,23 @@ tgp_japan_imperial_branch_decision = {
 			}
 			add = -25
 		}
+		modifier = {
+			house ?= {
+				any_house_member = { count < 25 }
+			}
+			add = -25
+		}
+		modifier = {
+			house ?= {
+				any_house_member = { count < 15 }
+			}
+			factor = 0
+		}
 	}
 }
 
 #Become a Poet - Ceremony - House Aspiration
+### Study Poetry ###
 tgp_japan_become_a_poet_decision = {
 	title = tgp_japan_become_a_poet_decision
 	desc = tgp_japan_become_a_poet_decision_desc
@@ -1100,6 +1139,7 @@ tgp_japan_become_a_poet_decision = {
 }
 
 #Inspire the Troops - Strength - House Aspiration
+### Inspire the Troops ###
 tgp_japan_train_with_troops_decision = {
 	title = tgp_japan_train_with_troops_decision
 	desc = tgp_japan_train_with_troops_decision_desc
@@ -1202,6 +1242,7 @@ tgp_japan_train_with_troops_decision = {
 }
 
 # Becoming a Buddhist monk near the end of your life (or when you become seriously ill)
+### In Search of the Pure Land ###
 tgp_japan_become_a_monk_decision = {
 	title = tgp_japan_become_a_monk_decision
 	desc = tgp_japan_become_a_monk_decision_desc
@@ -1328,6 +1369,7 @@ tgp_japan_become_a_monk_decision = {
 }
 
 # Restore Chrysanthemum Throne
+### Restore a Yamato Ten'nō ###
 tgp_japan_restore_japanese_monarchy_decision = {
 	decision_group_type = major
 	title = tgp_japan_restore_japanese_monarchy_decision
@@ -1389,6 +1431,7 @@ tgp_japan_restore_japanese_monarchy_decision = {
 }
 
 # Restore Ritsuryo
+### Restore Ritsuryō Bureaucracy ###
 tgp_japan_restore_japanese_government_decision = {
 	decision_group_type = major
 	title = tgp_japan_restore_japanese_government_decision
@@ -1460,6 +1503,7 @@ tgp_japan_restore_japanese_government_decision = {
 }
 
 # Assert Regional Dominion (Become Soryo Duke i.e. SuperSoryoTM)
+### Assert Regional Dominion ###
 tgp_japan_assert_regional_dominion_government_decision = {
 	decision_group_type = major
 	title = tgp_japan_assert_regional_dominion_government_decision
@@ -1619,6 +1663,7 @@ tgp_japan_assert_regional_dominion_government_decision = {
 }
 
 # Establish New Shogunate Court Decision
+### Move Shogunate Court Decision ###
 move_shogunate_court_decision = {
 	decision_group_type = major
 	title = tgp_japan_move_shogunate_court_decision
@@ -1698,6 +1743,7 @@ move_shogunate_court_decision = {
 }
 
 # Emperor Starting a Ceremonial Monarch War
+### Begin the Restoration War ###
 tgp_japan_emperor_war_decision = {
 	decision_group_type = major
 	confirm_text = commit_suicide_decision_confirm

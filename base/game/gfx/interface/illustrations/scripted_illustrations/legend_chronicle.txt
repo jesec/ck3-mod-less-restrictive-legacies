@@ -29,6 +29,13 @@
 	}
 
 	texture = {
+		reference = "legend_chronicle_frame_asian.dds"
+		trigger = {
+			current_or_last_legend_owner = { has_graphical_east_asia_region_trigger = yes }
+		}
+	}
+
+	texture = {
 		reference = "legend_chronicle_frame.dds"
 	}
 }
@@ -62,7 +69,14 @@ legend_chronicle_divider = {
 			}
 		}
 	}
-	
+
+	texture = {
+		reference = "marginalia_divider_asian.dds"
+		trigger = {
+			current_or_last_legend_owner = { has_graphical_east_asia_region_trigger = yes }
+		}
+	}
+
 	texture = {
 		reference = "marginalia_divider.dds"
 	}
@@ -95,6 +109,13 @@ legend_chronicle_illustration = {
 					#has_graphical_steppe_culture_group_trigger = yes
 				}
 			}
+		}
+	}
+
+	texture = {
+		reference = "marginalia_illustration_asian.dds"
+		trigger = {
+			current_or_last_legend_owner = { has_graphical_east_asia_region_trigger = yes }
 		}
 	}
 
@@ -163,12 +184,11 @@ legend_chronicle_portrait_frame = {
 				OR = {
 					government_has_flag = government_is_clan
 					government_has_flag = government_is_tribal
-					#has_graphical_steppe_culture_group_trigger = yes
 				}
 			}
 		}
 	}
-	
+
 	texture = {
 		reference = "marginalia_portrait_frame_illustrious_steppe_tribal.dds"
 		trigger = {
@@ -177,12 +197,11 @@ legend_chronicle_portrait_frame = {
 				OR = {
 					government_has_flag = government_is_clan
 					government_has_flag = government_is_tribal
-					#has_graphical_steppe_culture_group_trigger = yes
 				}
 			}
 		}
 	}
-	
+
 	texture = {
 		reference = "marginalia_portrait_frame_famed_steppe_tribal.dds"
 		trigger = {
@@ -190,9 +209,32 @@ legend_chronicle_portrait_frame = {
 				OR = {
 					government_has_flag = government_is_clan
 					government_has_flag = government_is_tribal
-					#has_graphical_steppe_culture_group_trigger = yes
 				}
 			}
+		}
+	}
+
+	# Asian
+	texture = {
+		reference = "marginalia_portrait_frame_famed_asian.dds"
+		trigger = {
+			current_or_last_legend_owner = { has_graphical_east_asia_region_trigger = yes }
+		}
+	}
+
+	texture = {
+		reference = "marginalia_portrait_frame_illustrious_asian.dds"
+		trigger = {
+			legend_quality = illustrious
+			current_or_last_legend_owner = { has_graphical_east_asia_region_trigger = yes }
+		}
+	}
+
+	texture = {
+		reference = "marginalia_portrait_frame_legendary_asian.dds"
+		trigger = {
+			legend_quality = mythical
+			current_or_last_legend_owner = { has_graphical_east_asia_region_trigger = yes }
 		}
 	}
 
@@ -281,7 +323,7 @@ legend_chronicle_portrait_small_frame = {
 			}
 		}
 	}
-	
+
 	texture = {
 		reference = "portrait_frame_illustrious_steppe_tribal.dds"
 		trigger = {
@@ -295,7 +337,7 @@ legend_chronicle_portrait_small_frame = {
 			}
 		}
 	}
-	
+
 	texture = {
 		reference = "portrait_frame_famed_steppe_tribal.dds"
 		trigger = {
@@ -308,6 +350,31 @@ legend_chronicle_portrait_small_frame = {
 			}
 		}
 	}
+
+	# Asian
+	texture = {
+		reference = "portrait_frame_famed_asian.dds"
+		trigger = {
+			current_or_last_legend_owner = { has_graphical_east_asia_region_trigger = yes }
+		}
+	}
+
+	texture = {
+		reference = "portrait_frame_illustrious_asian.dds"
+		trigger = {
+			legend_quality = illustrious
+			current_or_last_legend_owner = { has_graphical_east_asia_region_trigger = yes }
+		}
+	}
+
+	texture = {
+		reference = "portrait_frame_legendary_asian.dds"
+		trigger = {
+			legend_quality = mythical
+			current_or_last_legend_owner = { has_graphical_east_asia_region_trigger = yes }
+		}
+	}
+
 
 	# Western
 	texture = {

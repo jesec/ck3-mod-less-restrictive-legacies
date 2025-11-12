@@ -560,7 +560,7 @@
  feast_default.3010.t: "Моя шапка!"
  feast_default.3010.desc: "В празднестве наступает кратковременное затишье. Время как будто замедляет свой ход, все тревоги и заботы забываются...\n\nВдруг передо мной возникает [hat_knocker.GetName]. [Select_CString(hat_knocker.IsFemale, 'Она', 'Он' )] наносит резкий удар, подобно броску гадюки, и сбивает мою [Glossary('эбоси', 'EBOSHI_GLOSS')] с головы. Шапка катится по полу. Я пытаюсь скрыть позор, но все уже увидели мой растрепанный [Glossary('мотодори', 'MOTODORI_GLOSS')] — признак нерадивости и духовного ничтожества."
  feast_default.3010.a: "[Select_CString(hat_knocker.IsFemale, 'Она', 'Он' )] пожалеет об этом дне!"
- feast_default.3010.a.flavor: "Я покажу ему, как атакуют настоящие гадюки..."
+ feast_default.3010.a.flavor: "Я [Select_CString(hat_knocker.IsFemale, 'ей', 'ему' )] покажу, как атакуют настоящие гадюки..."
  feast_default.3010.a.tt: "Ваши [Concept('scheme', 'происки')|E] получают эффект «[GetModifier('scheme_apa_positive_2101_modifier').GetNameWithTooltip]»"
  feast_default.3010.b: "[hat_knocker.GetFirstNameNoTooltip]! Ты, кажется, немного [Select_CString(hat_knocker.IsFemale, 'перебрала', 'перебрал' )]..."
  feast_default.3010.b.flavor: "Ничто не нарушит моего покоя."

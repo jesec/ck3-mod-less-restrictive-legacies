@@ -367,7 +367,7 @@
  tgp_governor_contract_event.0027.c: "Statek rozbił się u #EMP naszego#! brzegu, a to oznacza, że ich dobra są nasze."
  tgp_governor_contract_event.0027.d: "Słowa zawiodły, ale mogę spróbować porozumieć się przy pomocy gestów."
  tgp_governor_contract_event.0027.e: "Po prostu ich stąd zabierz. Jeśli będzie trzeba, użyj siły."
- tgp_governor_contract_event.0027.f: "Ja się tym zajmę. Wydaje mi się, że znam ich język."
+ tgp_governor_contract_event.0027.f: "$epidemic_events.5902.a$"
  task_contract_reward_effect_temporary_housing_desc: "$label_success_standard$"
  task_contract_reward_effect_search_for_translator_desc: "$label_success_standard$"
  task_contract_reward_effect_confiscate_their_goods_desc: "$label_success_standard$"
@@ -433,7 +433,7 @@
  tgp_governor_contract_event.0032.a_tt: "Udaj się do miejsca o nazwie [monopoly_in_the_marketplace_destination.GetName] i zaprowadź porządek na targowisku wedle uznania."
  tgp_governor_contract_event.0032.b: "Z mojego punktu widzenia to po prostu historia o kupcu odnoszącym sukcesy."
  tgp_governor_contract_event.0033.t: "Monopol na targowisku"
- tgp_governor_contract_event.0033.desc: "Choć kupcy rzadko kiedy są symbolami uczciwości, słowa tych ludzi wydają mi się szczere.\n\nGdy przechodzimy niespiesznie między stoiskami, zauważamy, że wszystkie oznaczone są tym samym symbolem, należą zatem do jednego właściciela.\n\nOstatni stragan na naszej drodze jest od pozostałych znacznie większy i wytworniejszy. Urzęduje tam dostojna persona odziana w szaty rażąco nieodpowiednie dla kogoś o jej statusie. To bez wątpienia rywal, o którym mówili kupcy."
+ tgp_governor_contract_event.0033.desc: "Choć kupcy rzadko kiedy są symbolami uczciwości, słowa tych ludzi wydają mi się szczere.\n\nGdy przechodzimy niespiesznie między stoiskami, zauważamy, że wszystkie oznaczone są tym samym symbolem, należą zatem do jednego właściciela.\n\nOstatni stragan na naszej drodze jest od pozostałych znacznie większy i wytworniejszy. Urzęduje tam dostojna persona z dumnym uśmiechem na twarzy. To bez wątpienia rywal, o którym mówili kupcy."
  tgp_governor_contract_event.0033.a: "Każdemu kupcowi przysługuje tylko jeden stragan." # (Special governor option)
  tgp_governor_contract_event.0033.b: "Powiększ targowisko i sprzedaj nowe stragany wyłącznie członkom stowarzyszenia."
  tgp_governor_contract_event.0033.c: "[merchant_magnate.GetName] może tu zostać, jeśli tylko zechce #EMP zapłacić#! za ten przywilej."

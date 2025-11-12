@@ -136,3 +136,4 @@
  house_relation_damaged_minor_desc: "Отношения между [Concept('houses', 'домами')|E] [CHARACTER.GetHouse.GetName] и [TARGET_CHARACTER.GetHouse.GetName] становятся #N немного более враждебными#!"
  house_relation_damaged_medium_desc: "Отношения между [Concept('houses', 'домами')|E] [CHARACTER.GetHouse.GetName] и [TARGET_CHARACTER.GetHouse.GetName] становятся #N более враждебными#!"
  house_relation_damaged_major_desc: "Отношения между [Concept('houses', 'домами')|E] [CHARACTER.GetHouse.GetName] и [TARGET_CHARACTER.GetHouse.GetName] становятся #N значительно более враждебными#!"
+ house_relation_your_relation_with: "Отношения вашего [Concept('house', 'дома')|E] с домом [DynastyHouse.GetName]"

@@ -1,4 +1,5 @@
-﻿fp3_play_with_buzina_decision = { #by Ola Jentzsch
+﻿### Play with the Monkey ###
+fp3_play_with_buzina_decision = { #by Ola Jentzsch
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
 	}

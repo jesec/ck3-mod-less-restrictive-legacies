@@ -149,4 +149,3 @@
  tgp_japan_emperor_war_decision: "Comenzar la guerra de restauración"
  tgp_japan_emperor_war_decision_desc: "El imperio me corresponde por derecho, y pronto será mío más que de nombre, usando la fuerza si es preciso. Dejaré de ver en silencio cómo [ROOT.Char.GetTopLiege.GetShortUIName] arruina mis tierras."
  tgp_japan_emperor_war_decision_tooltip: "Tu [faction|lE] comenzará una [war|lE] para ponerte en el trono de [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName]."
-

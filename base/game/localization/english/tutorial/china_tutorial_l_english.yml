@@ -142,7 +142,7 @@
  lesson_china_schemes_list_desc: "This is your $study_confucian_classics$ [scheme|E].\n\nThis is a repeating $game_concept_scheme$. On its completion, it will resolve based on its [scheme_success_chance|E], and then start over.\n\nSince this $game_concept_scheme$ increases your [stress|E], you will eventually have to abandon it.\n\n#I To abandon a $game_concept_scheme$, use the button in the top right corner of the $game_concept_scheme$."
  
  lesson_china_unpause: "$lesson_basics_quick_resources_time$"
- lesson_china_unpause_desc: "Right now, the game is paused. You can control how fast time progresses in the world in the bottom right corner.\n\n#TUT Crusader Kings III is a game that plays out over the course of hundreds of years, so feel free to take your time.#!\n\nWhile the game is unpaused, no one will host an [imperial_examination|E] for you to attend, nor will your $study_confucian_classics$ [scheme|E] progress, so let's unpause the game and wait for an invite!"
+ lesson_china_unpause_desc: "Right now, the game is paused. You can control how fast time progresses in the world in the bottom right corner.\n\n#TUT Crusader Kings III is a game that plays out over the course of hundreds of years, so feel free to take your time.#!\n\nWhile the game is paused, no one will host an [imperial_examination|E] for you to attend, nor will your $study_confucian_classics$ [scheme|E] progress, so let's unpause the game and wait for an invite!"
  lesson_china_unpause_tt: "$lesson_basics_quick_unpause_tt$"
  
  lesson_china_done: "$lesson_basics_quick_done$"

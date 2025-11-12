@@ -93,7 +93,9 @@
  scandinavian_elective_candidates_tooltip: "要想成为庭选举制的有效候选人，角色必须符合以下条件之一：\n$EFFECT_LIST_BULLET$是当前统治者的合法[extended_family|E]成员，且不在神权制或共和制的继承顺位中。候选人的子女不能被提名\n$EFFECT_LIST_BULLET$是该头衔的[claimant|E]，且不在神权制或共和制的继承顺位中"
  scandinavian_elective_electors: "$feudal_elective_electors$"
  scandinavian_elective_electors_tooltip: "要想成为庭选举制的有效[elector|E]，封臣必须符合以下所有条件：\n$EFFECT_LIST_BULLET$是该头衔的直属封臣\n$EFFECT_LIST_BULLET$不是男爵"
- succession_laws_must_have_organised_government_tooltip: "我没有[feudal|E]或[clan|E][government|E]"
+ succession_laws_must_have_organised_government_tooltip: "[SelectLocalization( HasDlcFeature( 'all_under_heaven' ), 'succession_laws_must_have_organised_government_tooltip_auh_tooltip', 'succession_laws_must_have_organised_government_tooltip_base_game_tooltip' )]"
+ succession_laws_must_have_organised_government_tooltip_auh_tooltip: "我没有[feudal|E]、[clan|E]或[japan_feudal|E][government|E]"
+ succession_laws_must_have_organised_government_tooltip_base_game_tooltip: "我没有[feudal|E]或[clan|E][government|E]"
  succession_laws_must_not_be_forced_partition: "我未因[vassal_contract|E]而被迫施行分割[succession|E]"
  succession_laws_must_have_valid_tanistry_culture: "你#bold 不#!属于$goidelic_group$或$brythonic_group$[heritage|E]。"
  number_of_election_votes: "选票数"
@@ -131,7 +133,7 @@
  #EP3:
  noble_family_succession_law: "世族继承制"
  noble_family_succession_law_subname: "[player_heir|E]继承"
- noble_family_succession_law_effects: "世族[title|E]会被给予[player_heir|E]。"
+ noble_family_succession_law_effects: "世族[title|E]及其[domicile|E]会被给予[player_heir|E]。"
  #Appointment Succession Law
  appointment_succession_law: "任命继承制"
  appointment_succession_law_subname: "拥有最高分数的候选人继承"

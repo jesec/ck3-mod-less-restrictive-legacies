@@ -5080,6 +5080,23 @@ han_7436 = {
 	trait = lifestyle_poet
 	1021.12.8 = { birth = yes }
 	1038.1.1 = { add_spouse = han_5821 }
+	1066.1.1 = {
+		effect = {
+			add_character_flag = passed_provincial_exam
+			add_character_modifier = {
+				modifier = tgp_passed_provincial_exam_modifier
+			}
+			add_character_flag = passed_metropolitan_exam
+			add_character_modifier = {
+				modifier = tgp_passed_metropolitan_exam_modifier
+			}
+			add_character_flag = passed_palace_exam
+			add_character_modifier = {
+				modifier = tgp_passed_palace_exam_modifier
+			}
+			change_merit = 17000
+		}
+	}
 	1086.5.21 = { death = yes }
 }
 
@@ -19690,7 +19707,7 @@ han_13572 = {
 }
 
 han_13759 = {
-	name = "Hong_6D2A"
+	name = "Hong_6D2A_CN"
 	dynasty = yuan_8881_2
 	religion = "daoxue"
 	culture = "han"
@@ -28135,7 +28152,7 @@ han_9377 = {
 }
 
 han_11506 = {
-	name = "Hong_6D2A"
+	name = "Hong_6D2A_CN"
 	dynasty = xu_5F90_15
 	religion = "daoxue"
 	culture = "han"
@@ -81863,7 +81880,7 @@ han_9055 = {
 }
 
 han_12781 = {
-	name = "Hong_6D2A"
+	name = "Hong_6D2A_CN"
 	dynasty = wang_738B_135
 	religion = "daoxue"
 	culture = "han"
@@ -117617,7 +117634,7 @@ han_2089 = {
 }
 
 han_1809 = {
-	name = "Jin_9032"
+	name = "Jin_9032_CN"
 	dynasty = sun_5B6B_17
 	religion = "jingxue"
 	culture = "han"
@@ -119835,7 +119852,7 @@ han_2673 = {
 }
 
 han_217 = {
-	name = "Hong_6D2A"
+	name = "Hong_6D2A_CN"
 	dynasty = zhangsun_9577_1
 	religion = "jingxue"
 	culture = "han"
@@ -125077,7 +125094,7 @@ han_1704 = {
 }
 
 han_1726 = {
-	name = "Hong_6D2A"
+	name = "Hong_6D2A_CN"
 	dynasty = yuan_5143_12
 	religion = "jingxue"
 	culture = "han"
@@ -130633,7 +130650,7 @@ han_3284 = {
 }
 
 han_2548 = {
-	name = "Hong_6D2A"
+	name = "Hong_6D2A_CN"
 	dynasty = hou_4FAF_2
 	religion = "jingxue"
 	culture = "han"
@@ -141896,7 +141913,7 @@ bookmark_huang_chao = {
 	trait = ambitious
 	trait = stubborn
 	sexuality = heterosexual
-	835.1.1	= { 
+	835.1.1	= {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -145393,8 +145410,8 @@ ding_hui_1 = {
 		death = yes
 	}
 }
-liang_zhu_1 = {
-	name = "Wen_6E29"
+zhu_quanzhong_1 = {
+	name = "Quanzhong_5168_5FE0"
 	dynasty = hchar_zhu
 	religion = "jingxue"
 	culture = "han"
@@ -145415,7 +145432,7 @@ liang_zhu_1 = {
 	}
 }
 song_jiang_1 = {
-	name = "Jiang_734E"
+	name = "Jiang_6C5F"
 	dynasty = hchar_song
 	religion = "daoxue"
 	culture = "han"
@@ -145457,7 +145474,7 @@ yang_zongbao_1 = {
 furong_daokai_1 = {
 	name = "Daokai_9053_6977"
 	dynasty = hchar_furong
-	religion = "daoxue"
+	religion = "dhyana"
 	culture = "han"
 	trait = education_learning_3
 	trait = temperate
@@ -145465,6 +145482,7 @@ furong_daokai_1 = {
 	trait = patient
 	trait = lifestyle_poet
 	trait = journaller
+	trait = devoted
 	1043.1.1 = {
 		birth = yes
 		effect = {
@@ -145606,7 +145624,7 @@ imperial_han_10 = {
 }
 
 imperial_han_11 = {
-	name = "Hong_6D2A" # 劉鴻
+	name = "Hong_6D2A_CN" # 劉鴻
 	dynasty = han_imperial_liu
 	religion = "jingxue"
 	culture = "han"
@@ -145726,10 +145744,15 @@ imperial_jin_2 = {
 }
 
 imperial_jin_3 = {
-	name = "Yi_6613" # 司馬懿
+	name = "Yi_61FF" # 司馬懿
 	dynasty = jin_imperial_sima
 	religion = "jingxue"
 	culture = "han"
+	trait = education_martial_4
+    trait = patient
+    trait = deceitful
+    trait = ambitious
+    father = imperial_jin_24
 	179.1.1 = { birth = yes }
 	251.9.7 = { death = yes }
 }
@@ -145739,6 +145762,10 @@ imperial_jin_4 = {
 	dynasty = jin_imperial_sima
 	religion = "jingxue"
 	culture = "han"
+    trait = content
+    trait = honest
+    trait = trusting
+    trait = intellect_bad_3
 	father = imperial_jin_1
 	259.1.1 = { birth = yes }
 	307.1.8 = { death = yes }
@@ -145769,7 +145796,7 @@ imperial_jin_7 = {
 	dynasty = jin_imperial_sima
 	religion = "jingxue"
 	culture = "han"
-	#father = imperial_jin_8
+	father = imperial_jin_1_12
 	300.1.1 = { birth = yes }
 	318.2.7 = { death = yes }
 }
@@ -145779,7 +145806,7 @@ imperial_jin_8 = {
 	dynasty = jin_imperial_sima
 	religion = "jingxue"
 	culture = "han"
-	father = imperial_jin_4
+	father = imperial_jin_27_2_4
 	296.1.1 = { birth = yes }
 	320.1.1 = { death = yes }
 }
@@ -145795,11 +145822,11 @@ imperial_jin_9 = {
 }
 
 imperial_jin_10 = {
-	name = "Jin_6649" # 司馬覲 (Prince of Langya)
+	name = "Jin_89B2" # 司馬覲 (Prince of Langya)
 	dynasty = jin_imperial_sima
 	religion = "jingxue"
 	culture = "han"
-	father = imperial_jin_1
+	father = imperial_jin_3_3
 	256.1.1 = { birth = yes }
 	290.1.1 = { death = yes }
 }
@@ -145849,7 +145876,7 @@ imperial_jin_15 = {
 	dynasty = jin_imperial_sima
 	religion = "jingxue"
 	culture = "han"
-	father = imperial_jin_16
+	father = imperial_jin_12
 	341.1.1 = { birth = yes }
 	365.3.30 = { death = yes }
 }
@@ -145859,7 +145886,7 @@ imperial_jin_16 = {
 	dynasty = jin_imperial_sima
 	religion = "jingxue"
 	culture = "han"
-	father = imperial_jin_10
+	father = imperial_jin_9
 	320.1.1 = { birth = yes }
 	372.9.12 = { death = yes }
 }
@@ -145869,7 +145896,7 @@ imperial_jin_17 = {
 	dynasty = jin_imperial_sima
 	religion = "jingxue"
 	culture = "han"
-	father = imperial_jin_15
+	father = imperial_jin_16
 	362.1.1 = { birth = yes }
 	396.11.6 = { death = yes }
 }
@@ -146013,4 +146040,985 @@ chen_heqing_1 = {
 	1203.1.1 = {
 		death = yes
 	}
+}
+
+imperial_jin_21 = {
+	name = "Jun_921E" # 司馬鈞
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	55.1.1 = { birth = yes } # hypothetical
+	115.1.1 = { death = yes }
+}
+
+imperial_jin_22 = {
+	name = "Liang_91CF" # 司馬量
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_21
+	85.1.1 = { birth = yes } # hypothetical
+	145.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_23 = {
+	name = "Jun_5101" # 司馬儁
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_22
+	115.1.1 = { birth = yes } # hypothetical
+	175.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_24 = {
+	name = "Fang_9632" # 司馬防
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    trait = just
+    father = imperial_jin_23
+	149.1.1 = { birth = yes }
+	219.1.1 = { death = yes }
+}
+
+imperial_jin_25 = {
+	name = "Lang_6717" # 司馬朗
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_24
+	171.1.1 = { birth = yes }
+	217.1.1 = { death = yes }
+}
+
+imperial_jin_26 = {
+	name = "Fu_5B5A" # 司馬孚
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_24
+	180.1.1 = { birth = yes }
+	272.1.1 = { death = yes }
+}
+
+imperial_jin_27 = {
+	name = "Kui_9997" # 司馬馗
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_24
+	180.1.1 = { birth = yes } # hypothetical
+	272.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_28 = {
+	name = "Xun_6042" # 司馬恂
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_24
+	180.1.1 = { birth = yes } # hypothetical
+	272.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_29 = {
+	name = "Jin_9032_CN" # 司馬進
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_24
+	180.1.1 = { birth = yes } # hypothetical
+	272.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_30 = {
+	name = "Tong_901A" # 司馬通
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_24
+	180.1.1 = { birth = yes } # hypothetical
+	272.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_31 = {
+	name = "Min_654F" # 司馬敏
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_24
+	180.1.1 = { birth = yes } # hypothetical
+	272.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_32 = {
+	name = "Yi_907A" # 司馬遗
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_25
+	200.1.1 = { birth = yes } # hypothetical
+	270.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_33 = {
+	name = "Hong_6D2A_CN" # 司馬洪
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_32
+	221.1.1 = { birth = yes } # hypothetical
+	276.1.1 = { death = yes }
+}
+
+imperial_jin_34 = {
+	name = "Wei_5A01" # 司馬威
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_33
+	267.1.1 = { birth = yes }
+	301.1.1 = { death = yes }
+}
+
+imperial_jin_35 = {
+	name = "Hun_6DF7" # 司馬混
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_33
+	268.1.1 = { birth = yes } # hypothetical
+	311.1.1 = { death = yes }
+}
+
+imperial_jin_36 = {
+	name = "Tao_6ED4" # 司馬滔
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_35
+	284.1.1 = { birth = yes } # hypothetical
+	311.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_37 = {
+	name = "Xiu_4F11" # 司馬休
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_36
+	300.1.1 = { birth = yes } # hypothetical
+	328.1.1 = { death = yes }
+}
+
+imperial_jin_38 = {
+	name = "Zhen_73CD" # 司馬珍
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_36
+	320.1.1 = { birth = yes }
+	362.1.1 = { death = yes }
+}
+
+imperial_jin_38_1 = {
+	name = "Fanzhi_7BC4_4E4B" # 司馬范之
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_38
+	340.1.1 = { birth = yes } # hypothetical
+	391.1.1 = { death = yes }
+}
+
+imperial_jin_39 = {
+	name = "Wang_671B" # 司馬望
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    trait = greedy
+    father = imperial_jin_25
+	205.1.1 = { birth = yes }
+	271.1.1 = { death = yes }
+}
+
+imperial_jin_40 = {
+	name = "Yi_5955" # 司馬奕
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_39
+	225.1.1 = { birth = yes } # hypothetical
+	245.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_41 = {
+	name = "Zheng_6574" # 司馬整
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_39
+	235.1.1 = { birth = yes } # hypothetical
+	255.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_42 = {
+	name = "Mao_6959" # 司馬楙
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_39
+	245.1.1 = { birth = yes } # hypothetical
+	311.1.1 = { death = yes }
+}
+
+imperial_jin_43 = {
+	name = "Yong_9095" # 司馬邕
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_26
+	200.1.1 = { birth = yes } # hypothetical
+	260.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_43_1 = {
+	name = "Chong_5D07" # 司馬崇
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_43
+	240.1.1 = { birth = yes } # hypothetical
+	250.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_44 = {
+	name = "Fu_8F14" # 司馬輔
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_26
+	210.1.1 = { birth = yes } # hypothetical
+	284.1.1 = { death = yes }
+}
+
+imperial_jin_44_1 = {
+	name = "Hong_5F18" # 司馬弘
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_44
+	235.1.1 = { birth = yes } # hypothetical
+	293.1.1 = { death = yes }
+}
+
+imperial_jin_44_2 = {
+	name = "Ji_7DDD" # 司馬缉
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_44
+	240.1.1 = { birth = yes } # hypothetical
+	278.1.1 = { death = yes }
+}
+
+imperial_jin_44_2_1 = {
+	name = "Song_8BBC" # 司馬讼
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_44_2
+	270.1.1 = { birth = yes } # hypothetical
+	320.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_45 = {
+	name = "Yi_7FFC" # 司馬翼
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_26
+	215.1.1 = { birth = yes } # hypothetical
+	280.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_45_1 = {
+	name = "Cheng_627F" # 司馬承
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_45
+	240.1.1 = { birth = yes } # hypothetical
+	320.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_46 = {
+	name = "Huang_6643" # 司馬晃
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_26
+	220.1.1 = { birth = yes } # hypothetical
+	296.1.1 = { death = yes }
+}
+
+imperial_jin_46_1 = {
+	name = "Pou_88D2" # 司馬裒
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_46
+	240.1.1 = { birth = yes } # hypothetical
+	260.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_46_2 = {
+	name = "Chuo_7DBD" # 司馬绰
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_46
+	245.1.1 = { birth = yes } # hypothetical
+	295.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_46_3 = {
+	name = "Wei_2E9F5" # 司馬韡
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_46
+	250.1.1 = { birth = yes } # hypothetical
+	301.1.1 = { death = yes }
+}
+
+imperial_jin_47 = {
+	name = "Gui_7470" # 司馬瑰
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_26
+	225.1.1 = { birth = yes } # hypothetical
+	274.1.1 = { death = yes }
+}
+
+imperial_jin_47_1 = {
+	name = "Yong_9852" # 司馬颙
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47
+	250.1.1 = { birth = yes } # hypothetical
+	306.1.1 = { death = yes }
+}
+
+imperial_jin_47_1_1 = {
+	name = "Rong_878D" # 司馬融
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1
+	270.1.1 = { birth = yes } # hypothetical
+	320.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_47_1_1_1 = {
+	name = "Qin_6B3D" # 司馬钦
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1
+	300.1.1 = { birth = yes } # hypothetical
+	365.1.1 = { death = yes }
+}
+
+imperial_jin_47_1_1_1_1 = {
+	name = "Tanzhi_66C7_4E4B" # 司馬昙之
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1
+	320.1.1 = { birth = yes } # hypothetical
+	384.11.6 = { death = yes }
+}
+
+imperial_jin_47_1_1_1_1_1 = {
+	name = "Guozhen_570B_93AE" # 司馬国镇
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1_1
+	340.1.1 = { birth = yes } # hypothetical
+	399.1.1 = { death = yes }
+}
+
+imperial_jin_47_1_1_1_1_1_1 = {
+	name = "Daoci_9053_8CDC" # 司馬道赐
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1_1_1
+	360.1.1 = { birth = yes } # hypothetical
+	399.1.1 = { death = yes }
+}
+
+imperial_jin_47_1_1_1_1_2 = {
+	name = "Guofan_570B_74A0" # 司馬国璠
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1_1
+	350.1.1 = { birth = yes } # hypothetical
+	420.1.1 = { death = yes }
+}
+
+imperial_jin_47_1_1_1_1_3 = {
+	name = "Shufan_53D4_74A0" # 司馬叔璠
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1_1
+	360.1.1 = { birth = yes } # hypothetical
+	420.1.1 = { death = yes }
+}
+
+imperial_jin_47_1_1_1_1_3_1 = {
+	name = "Lingshou_9748_58FD" # 司馬灵寿
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1_1_3
+	400.1.1 = { birth = yes } # hypothetical
+	485.1.1 = { death = yes }
+}
+
+imperial_jin_47_1_1_1_1_3_1_1 = {
+	name = "Huian_60E0_5B89" # 司馬惠安
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1_1_3_1
+	430.1.1 = { birth = yes } # hypothetical
+	500.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_47_1_1_1_1_3_1_1_1 = {
+	name = "Zuzhen_7956_73CD" # 司馬祖珍
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1_1_3_1_1
+	460.1.1 = { birth = yes } # hypothetical
+	520.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_47_1_1_1_1_3_1_1_2 = {
+	name = "Zongpang_5B97_9F90" # 司馬宗庞
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1_1_3_1_1
+	470.1.1 = { birth = yes } # hypothetical
+	530.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_47_1_1_1_1_3_1_2 = {
+	name = "Zhian_76F4_5B89" # 司馬直安
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1_1_3_1
+	440.1.1 = { birth = yes } # hypothetical
+	523.1.1 = { death = yes }
+}
+
+imperial_jin_47_1_1_1_1_3_1_2_1 = {
+	name = "Longquan_9F8D_6CC9" # 司馬龙泉
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1_1_3_1_2
+	470.1.1 = { birth = yes } # hypothetical
+	530.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_47_1_1_1_1_3_2 = {
+	name = "Daoshou_9053_58FD" # 司馬道寿
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1_1_3
+	420.1.1 = { birth = yes } # hypothetical
+	480.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_47_1_1_1_1_3_2_1 = {
+	name = "Shao_7D39" # 司馬绍
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1_1_3_2
+	440.1.1 = { birth = yes } # hypothetical
+	510.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_47_1_1_1_1_3_2_1_1 = {
+	name = "Bing_661E" # 司馬昞
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1_1_3_2_1
+	460.1.1 = { birth = yes } # hypothetical
+	520.8.24 = { death = yes }
+}
+
+imperial_jin_47_1_1_1_1_3_2_2 = {
+	name = "Zhongming_4EF2_660E" # 司馬仲明
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1_1_3_2
+	450.1.1 = { birth = yes } # hypothetical
+	524.1.1 = { death = yes }
+}
+
+imperial_jin_47_1_1_1_1_3_2_2_1 = {
+	name = "Yanyong_5F65_9095" # 司馬彦邕
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_47_1_1_1_1_3_2_2
+	470.1.1 = { birth = yes } # hypothetical
+	537.1.1 = { death = yes }
+}
+
+imperial_jin_48 = {
+	name = "Gui_73EA" # 司馬珪
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_26
+	230.1.1 = { birth = yes } # hypothetical
+	274.1.1 = { death = yes }
+}
+
+imperial_jin_49 = {
+	name = "Heng_8861" # 司馬衡
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_26
+	235.1.1 = { birth = yes } # hypothetical
+	266.1.1 = { death = yes }
+}
+
+imperial_jin_50 = {
+	name = "Jing_666F" # 司馬景
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+    father = imperial_jin_26
+	240.1.1 = { birth = yes } # hypothetical
+	275.1.1 = { death = yes }
+}
+
+imperial_jin_3_1 = {
+	name = "Shi_5E2B" # 司馬師
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	208.1.1 = { birth = yes }
+	255.9.6 = { death = yes }
+}
+
+imperial_jin_3_3 = {
+	name = "Zhou_4F37" # 司馬伷
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	227.1.1 = { birth = yes }
+	283.1.1 = { death = yes }
+}
+
+imperial_jin_3_4 = {
+	name = "Liang_4EAE" # 司馬亮
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	230.1.1 = { birth = yes } # hypothetical
+	291.1.1 = { death = yes }
+}
+
+imperial_jin_3_5 = {
+	name = "Gun_5E72" # 司馬干
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	232.1.1 = { birth = yes }
+	311.1.1 = { death = yes }
+}
+
+imperial_jin_3_6 = {
+	name = "Jing_4EAC" # 司馬京
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	232.6.1 = { birth = yes } # hypothetical
+	280.1.1 = { death = yes } # hypothetical
+}
+
+imperial_jin_3_7 = {
+	name = "Jun_99FF" # 司馬骏
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	232.9.1 = { birth = yes }
+	286.1.1 = { death = yes }
+}
+
+imperial_jin_3_8 = {
+	name = "Rong_809C" # 司馬肜
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	235.1.1 = { birth = yes } # hypothetical
+	302.1.1 = { death = yes }
+}
+
+imperial_jin_3_9 = {
+	name = "Lun_502B" # 司馬伦
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	236.1.1 = { birth = yes } # hypothetical
+	301.1.1 = { death = yes }
+}
+
+imperial_jin_2_2 = {
+	name = "Zhao_5146" # 司馬兆
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	212.1.1 = { birth = yes } # hypothetical
+	265.9.6 = { death = yes } # hypothetical
+}
+
+imperial_jin_2_3 = {
+	name = "Dingguo_5B9A_570B" # 司馬定国
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	213.1.1 = { birth = yes } # hypothetical
+	265.9.6 = { death = yes } # hypothetical
+}
+
+imperial_jin_2_4 = {
+	name = "Guangde_5EE3_5FB7" # 司馬广德
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	214.1.1 = { birth = yes } # hypothetical
+	265.9.6 = { death = yes } # hypothetical
+}
+
+imperial_jin_2_5 = {
+	name = "Jian_9451" # 司馬鉴
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	230.1.1 = { birth = yes } # hypothetical
+	297.9.6 = { death = yes }
+}
+
+imperial_jin_2_6 = {
+	name = "Yongzuo_7E7C_795A" # 司馬永祚
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	231.1.1 = { birth = yes } # hypothetical
+	297.9.6 = { death = yes } # hypothetical
+}
+
+imperial_jin_2_7 = {
+	name = "Yanzuo_5EF6_795A" # 司馬延祚
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	232.1.1 = { birth = yes } # hypothetical
+	297.9.6 = { death = yes } # hypothetical
+}
+
+imperial_jin_2_8 = {
+	name = "You_6538" # 司馬攸
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	233.1.1 = { birth = yes } # hypothetical
+	283.1.1 = { death = yes }
+}
+
+imperial_jin_2_8_1 = {
+	name = "Jiong_56E7" # 司馬囧
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_2_8
+	263.1.1 = { birth = yes } # hypothetical
+	302.1.1 = { death = yes }
+}
+
+imperial_jin_2_9 = {
+	name = "Ji_673A" # 司馬机
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_3
+	234.1.1 = { birth = yes } # hypothetical
+	283.9.6 = { death = yes } # hypothetical
+}
+
+imperial_jin_1_1 = {
+	name = "Gui_8ECC" # 司馬轨
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	258.1.1 = { birth = yes } # hypothetical
+	307.1.8 = { death = yes } # hypothetical
+}
+
+imperial_jin_1_3 = {
+	name = "Jian_67EC" # 司馬柬
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	262.1.1 = { birth = yes }
+	291.1.8 = { death = yes }
+}
+
+imperial_jin_1_4 = {
+	name = "Jing_666F" # 司馬景
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	263.1.1 = { birth = yes } # hypothetical
+	270.1.8 = { death = yes }
+}
+
+imperial_jin_1_5 = {
+	name = "Wei_744B" # 司馬玮
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	271.1.1 = { birth = yes }
+	291.1.8 = { death = yes }
+}
+
+imperial_jin_1_6 = {
+	name = "Yi_4E42" # 司馬乂
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	277.1.1 = { birth = yes }
+	304.1.8 = { death = yes }
+}
+
+imperial_jin_1_7 = {
+	name = "Xian_5BAA" # 司馬宪
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	278.1.1 = { birth = yes } # hypothetical
+	304.1.8 = { death = yes } # hypothetical
+}
+
+imperial_jin_1_8 = {
+	name = "Zhi_7957" # 司馬祗
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	271.1.1 = { birth = yes }
+	273.1.8 = { death = yes }
+}
+
+imperial_jin_1_9 = {
+	name = "Yu_88D5" # 司馬裕
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	271.1.1 = { birth = yes }
+	277.1.8 = { death = yes }
+}
+
+imperial_jin_1_10 = {
+	name = "Yan_6F14" # 司馬演
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	271.1.1 = { birth = yes } # hypothetical
+	300.1.8 = { death = yes } # hypothetical
+}
+
+imperial_jin_1_11 = {
+	name = "Yun_5141" # 司馬允
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	272.1.1 = { birth = yes }
+	300.1.8 = { death = yes }
+}
+
+imperial_jin_1_12 = {
+	name = "Yan_664F" # 司馬晏
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	281.1.1 = { birth = yes }
+	311.1.1 = { death = yes }
+}
+
+imperial_jin_1_13 = {
+	name = "Gai_8A72" # 司馬该
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	272.1.1 = { birth = yes }
+	283.1.1 = { death = yes }
+}
+
+imperial_jin_1_14 = {
+	name = "Xia_9050" # 司馬遐
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	273.1.1 = { birth = yes }
+	300.1.1 = { death = yes }
+}
+
+imperial_jin_1_15 = {
+	name = "Mo_8B28" # 司馬谟
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	276.1.1 = { birth = yes }
+	286.1.1 = { death = yes }
+}
+
+imperial_jin_1_16 = {
+	name = "Ying_7A4E" # 司馬颖
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	279.1.1 = { birth = yes }
+	306.1.1 = { death = yes }
+}
+
+imperial_jin_1_18 = {
+	name = "Hui_6062" # 司馬恢
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_1
+	283.1.1 = { birth = yes }
+	384.1.1 = { death = yes }
+}
+
+imperial_jin_27_1 = {
+	name = "Quan_6B0A" # 司馬权
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_27
+	220.1.1 = { birth = yes }
+	275.1.1 = { death = yes }
+}
+
+imperial_jin_27_2 = {
+	name = "Tai_6CF0" # 司馬泰
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_27
+	230.1.1 = { birth = yes } # hypothetical
+	299.1.1 = { death = yes }
+}
+
+imperial_jin_27_3 = {
+	name = "Sui_7D8F" # 司馬绥
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_27
+	231.1.1 = { birth = yes } # hypothetical
+	279.1.1 = { death = yes }
+}
+
+imperial_jin_27_2_1 = {
+	name = "Yue_8D8A" # 司馬越
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_27_2
+	250.1.1 = { birth = yes } # hypothetical
+	311.1.1 = { death = yes }
+}
+
+imperial_jin_27_2_2 = {
+	name = "Teng_9A30" # 司馬腾
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_27_2
+	255.1.1 = { birth = yes } # hypothetical
+	307.1.1 = { death = yes }
+}
+
+imperial_jin_27_2_3 = {
+	name = "Lue_7565" # 司馬略
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_27_2
+	260.1.1 = { birth = yes } # hypothetical
+	309.1.1 = { death = yes }
+}
+
+imperial_jin_27_2_4 = {
+	name = "Mo_6A21" # 司馬模
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "han"
+	father = imperial_jin_27_2
+	265.1.1 = { birth = yes } # hypothetical
+	311.1.1 = { death = yes }
 }

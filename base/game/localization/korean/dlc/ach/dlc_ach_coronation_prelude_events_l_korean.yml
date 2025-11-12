@@ -56,7 +56,7 @@
  prelude_events.0040.desc: "어쩐지 하루가 너무 즐겁더라니. 내 증오스러운 경쟁자인 [guest.Custom2('InsultAdjective', ROOT.Char)] [guest.GetTitledFirstName](이)가 나타나며 기분을 망쳐 버렸다.\n\n\"아, [ROOT.Char.GetFirstNameNoTooltip] [ROOT.Char.GetLadyLord].\" [guest.GetSheHe]는 내가 가까이 가기 전까지 전혀 몰랐다는 시늉을 했다. \"혹시 만찬 때 직접 여흥을 돋울 생각인가? 아니면 설마 그게 [ROOT.Char.GetTitleAsNameNoTooltip](으)로서 대관식에 입고 갈 옷은 아니겠지?\""
  prelude_events.0040.a: "일이 다 끝나면 저렇게 입을 놀리지도 못할 거다."
  prelude_events.0040.b: "\"자네 어머니한테서 좀 배웠지.\""
- prelude_events.0040.c: "오늘 밤 모든 [guest.GetTitledFirstNameNoTooltip](이)가 자기 친구들한테 뭐라고 하는지 들어 볼 거다."
+ prelude_events.0040.c: "[guest.GetFirstNameNoTooltip](이)가 여기서 하는 모든 말에 귀를 기울이겠다."
  prelude_events.0040.c.tt: "[scheme|E] [success_chance|E]이 #P 증가#!할 것임"
  prelude_events.0040.d: "\"여긴 말다툼 따위 할 곳이 아니다.\""
  every_callous_vengeful_wrathful_guest: "모든 [GetTrait('callous').GetName( GetNullCharacter )], [GetTrait('vengeful').GetName( GetNullCharacter )] 또는 [GetTrait('wrathful').GetName( GetNullCharacter )] 성격의 문객"

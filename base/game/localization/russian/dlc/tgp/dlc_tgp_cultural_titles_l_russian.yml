@@ -93,6 +93,8 @@
  empire_unified_goryeo: "Объединенное Королевство"
  emperor_male_korean: "Хвандже" # 皇帝 (황제)
  emperor_female_korean: "Хванху" # 皇后 (황후)
+ hegemon_male_korean: "Хвандже" # 皇帝 (황제)
+ hegemon_female_korean: "Хванху" # 皇后 (황후)
  emperor_dictator_male_korean: "Чипчон" # 집정
  emperor_dictator_female_korean: "$emperor_dictator_male_korean$"
  emperor_prime_minister_male: "Первый министр"
@@ -145,3 +147,12 @@
  # HAN
  king_male_chinese: "Ван" # 王
  king_female_chinese: "Нуван" # 女王 (Nǚwáng)
+ # KOREAN CHAPLAINS
+ councillor_court_chaplain_buddhist_korean_county: "Тэса" # 大師
+ councillor_court_chaplain_buddhist_korean_duchy: "Чундэса" # 重大師
+ councillor_court_chaplain_buddhist_korean_kingdom: "Суджва" # 首座
+ councillor_court_chaplain_buddhist_korean_empire: "Сынтхон" # 僧統
+ councillor_court_chaplain_seon_korean_kingdom: "Сонса" # 禪師
+ councillor_court_chaplain_seon_korean_empire: "Тэсонса" # 大禪師
+ hegemon_male_japanese: "Котэй" # 黄帝
+ hegemon_female_japanese: "Котэй" # 黄帝

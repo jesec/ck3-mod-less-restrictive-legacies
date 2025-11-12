@@ -10,8 +10,8 @@
  diarch_coup_unequal_truce_for_usurper: "$diarch_coup_unequal_truce_for_liege$"
  ##################################################
  ##Notifications
- diarchies.0000.diarch_fulfills_mandate.t: "[liege.GetDiarchTitle|U] fördert [mandate|E]"
- diarchies.0000.diarch_fails_at_mandate.t: "[liege.GetDiarchTitle|U] fördert erfolglos [mandate|E]"
+ diarchies.0000.diarch_fulfills_mandate.t: "[liege.GetDiarchTitle|U] fördert Mandat"
+ diarchies.0000.diarch_fails_at_mandate.t: "[liege.GetDiarchTitle|U] scheitert, das Mandat zu fördern"
  diarchies.0000.diarch_skims_mandate.t: "[liege.GetDiarchTitle|U] beutet [mandate|E] aus"
  diarchies.0000.diarch_fails_to_skim_mandate.t: "[liege.GetDiarchTitle|U] kann [mandate|E] nicht ausbeuten"
  diarchies.0000.diarch_rejects_mandate.t: "[liege.GetDiarchTitle|U] verweigert [mandate|E] aufgrund einer [personality_trait|E]"

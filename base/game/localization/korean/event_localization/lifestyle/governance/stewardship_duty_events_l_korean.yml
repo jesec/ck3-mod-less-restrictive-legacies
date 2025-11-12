@@ -100,7 +100,7 @@
  stewardship_duty.4011.t: "탐욕에 손짓하는 유혹"
  stewardship_duty.4011.desc: "\n\n이에 [my_liege.GetSheHe]는 목적을 이루기 위해 나에게 큰돈을 제시했다. 파벌을 떠나 다른 곳으로 관심을 돌리기만 하면 된다고 말이다."
  stewardship_duty.4011.a: "합리적인 거래로군."
- stewardship_duty.4012.t: "야망에 손짓하는 유혹"
+ stewardship_duty.4012.t: "야심에 손짓하는 유혹"
  stewardship_duty.4012.desc: "\n\n[my_liege.GetSheHe|U]는 자신의 관점에서 생각해 보라며 내게 간청했다. 또한, 파벌에 대한 지지를 철회하면 호의를 베풀어 주겠노라는 제안도 받았다."
  stewardship_duty.4012.a: "상부상조하며 사는 거지."
  stewardship_duty.4013.t: "자존심에 손짓하는 유혹"

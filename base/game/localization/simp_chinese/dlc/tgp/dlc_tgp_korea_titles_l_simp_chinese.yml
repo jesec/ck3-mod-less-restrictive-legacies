@@ -6,6 +6,8 @@
  c_nf_park_juksan_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_park_milyang: "密城$dynn_Bak_6734$$c_nf_korea_suffix$"
  c_nf_park_milyang_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ c_nf_park_pyeongsan: "平山$dynn_Bak_6734$$c_nf_korea_suffix$"
+ c_nf_park_pyeongsan_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_park_silla: "庆州$dynn_Bak_6734$$c_nf_korea_suffix$"
  c_nf_park_silla_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  # BOK - 복
@@ -56,6 +58,8 @@
  c_nf_gim_gyeongju_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_gim_silla: "庆州$dynn_Gim_91D1$$c_nf_korea_suffix$"
  c_nf_gim_silla_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ c_nf_gim_ulleong: "郁陵$dynn_Gim_91D1$$c_nf_korea_suffix$"
+ c_nf_gim_ulleong_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_gim_yeonggwang: "灵光$dynn_Gim_91D1$$c_nf_korea_suffix$"
  c_nf_gim_yeonggwang_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  # GO - 경
@@ -148,3 +152,6 @@
  # YANG - 양
  c_nf_yang_balhae: "西京$dynn_Yang_6881$$c_nf_korea_suffix$"
  c_nf_yang_balhae_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ # SONG - 송
+ c_nf_song: "蔚州$dynn_Song_5B8B_KO$$c_nf_korea_suffix$"
+ c_nf_song_article: "$DEFAULT_TITLE_NAME_ARTICLE$"

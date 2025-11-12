@@ -59,6 +59,7 @@
  game_accolade_struct:0 "#TOOLTIP:ACCOLADE,$DESC_KEY$ $KEY_LOC|L$#!"
  game_accolade_type_struct:0 "#TOOLTIP:ACCOLADE_TYPE,$DESC_KEY$,$ACCOLADE_ID$ $KEY_LOC|L$#!"
  game_travel_option_struct:0 "#TOOLTIP:TRAVEL_OPTION,$DESC_KEY$ $KEY_LOC|L$#!"
+ game_house_relation_level_struct: "#TOOLTIP:HOUSE_RELATION_LEVEL,$DESC_KEY$ $KEY_LOC|L$#!"
  game_house_unity_stage_struct: "#TOOLTIP:HOUSE_UNITY_STAGE,$DESC_KEY$ $KEY_LOC|L$#!"
  game_decision_struct: "#ONCLICK:DECISION,$KEY$ #TOOLTIP:DECISION,$DESC_KEY$ $KEY_LOC|L$#!#!"
  game_tax_slot_obligation_struct: "#TOOLTIP:TAX_SLOT_OBLIGATION,$DESC_KEY$ $KEY_LOC|L$#!"

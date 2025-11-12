@@ -40,7 +40,7 @@
  spymaster_task.0311.secret_lover.consort: "\n\n私の[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secret_holder'))]が、[lover.Custom2('MyCharacterIntroduction', ROOT.Char)]と交際していた！"
  spymaster_task.0311.secret_lover.consort_is_lover: "\n\n[secret_holder.GetSheHe|U]が私の[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))]、[lover.GetTitledFirstName]と交際していた！"
  spymaster_task.0311.secret_lover.lover_close_to_me: "\n\n[secret_holder.GetSheHe|U]が私の[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))]、[lover.GetTitledFirstName]と交際していた。なぜこんなことになったのかわからないが、これが明るみに出れば2人とも大恥をかくだろう！"
- spymaster_task.0311.secret_lover.lustful: "\n\n[secret_holder.GetSheHe|U]は[lover.GetTitledFirstName]と肉欲にふけっている。[lover.GetTitleTierNamePossessive]の体に手を這わせ、ありとあらゆる方法で口づけしている…これが知れ渡れば、大変な醜聞になるだろう！"
+ spymaster_task.0311.secret_lover.lustful: "\n\n[secret_holder.GetSheHe|U]は[lover.GetTitledFirstName]と肉欲にふけっている。[lover.GetFirstNamePossessiveNoTooltip]の体に手を這わせ、ありとあらゆる方法で口づけしている…これが知れ渡れば、大変な醜聞になるだろう！"
  spymaster_task.0311.secret_lover: "\n\n[secret_holder.GetSheHe|U]が、秘密裏に[lover.Custom2('MyCharacterIntroduction', ROOT.Char)]と交際していた"
  spymaster_task.0346.a.consort: "けしからん！"
  spymaster_task.0346.a.close: "面倒なことになりそうだ"

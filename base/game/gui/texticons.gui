@@ -4338,6 +4338,16 @@ texticon = {
 }
 
 texticon = {
+	icon = imperial_grace
+	iconsize = {
+		texture = "gfx/interface/icons/icon_imperial_grace.dds"
+		size = { 18 18 }
+		offset = { 0 4 }
+		fontsize = 16
+	}
+}
+
+texticon = {
 	icon = military_administration
 	iconsize = {
 		texture = "gfx/interface/icons/theme_administration_types/icon_game_concept_military_administration.dds"
@@ -5443,7 +5453,17 @@ texticon = {
 texticon = {
 	icon = passed_examination
 	iconsize = {
-		texture = "gfx/interface/icons/flat_icons/passed_examination_icon_color.dds"
+		texture = "gfx/interface/icons/text_icons/passed_examination_icon_color.dds"
+		size = { 24 24 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = failed_examination
+	iconsize = {
+		texture = "gfx/interface/icons/text_icons/failed_examination_icon_color.dds"
 		size = { 24 24 }
 		offset = { 0 6 }
 		fontsize = 16
@@ -5454,6 +5474,16 @@ texticon = {
 	icon = expansion_decree_icon
 	iconsize = {
 		texture = "gfx/interface/icons/text_icons/tributaries.dds"
+		size = { 24 24 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = bunga_mas_icon
+	iconsize = {
+		texture = "gfx/interface/icons/artifact/tgp_artifact_golden_flower.dds"
 		size = { 24 24 }
 		offset = { 0 6 }
 		fontsize = 16

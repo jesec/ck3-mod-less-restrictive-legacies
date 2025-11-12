@@ -59,7 +59,7 @@
  STRUGGLE_PHASE_TOOLTIP_TOTAL_PROGRESS_LEADING: "#weak (Ведущая фаза)#!"
  STRUGGLE_PHASE_TOOLTIP_TOTAL_PROGRESS: "#high Общий прогресс [Concept( 'struggle_catalyst_catalyst', 'катализатора' )|E]: $POINT_BASED_PHASE_VALUE$#! [SelectLocalization( ObjectsEqual( Struggle.GetCurrentLeadingPhase, StrugglePhase.Self ), 'STRUGGLE_PHASE_TOOLTIP_TOTAL_PROGRESS_LEADING', '')]"
  STRUGGLE_PHASE_TOOLTIP_CURRENTLY_LEADING: "#weak Это основная фаза"
- STRUGGLE_PHASE_DESCRIPTION: "Это одна из [Concept( 'struggle_phase_phases', 'фаз' )|E] в борьбе [Struggle.GetNameNoTooltip].\n\n[Struggle.GetPhaseDescription(StrugglePhase.Self)]"
+ STRUGGLE_PHASE_DESCRIPTION: "Это одна из [Concept( 'struggle_phase_phases', 'фаз' )|E], из которых состоит [Struggle.GetNameNoTooltip].\n\n[Struggle.GetPhaseDescription(StrugglePhase.Self)]"
  STRUGGLE_TOOLTIP_CATALYST_HISTORY_HEADER: "Последний прогресс [Concept( 'struggle_catalyst_catalyst', 'катализатора' )|E]:"
  STRUGGLE_TOOLTIP_CATALYST_HISTORY_ENTRY_TRIGGER_CHARACTER: "[CatalystHistory.GetCharacter.GetName]"
  STRUGGLE_TOOLTIP_CATALYST_HISTORY_ENTRY_TRIGGER_PULSE: "$catalyst_passing_of_time$"

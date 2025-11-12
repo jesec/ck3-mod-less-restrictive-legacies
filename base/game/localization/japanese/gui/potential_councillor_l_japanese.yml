@@ -1,5 +1,5 @@
 ﻿l_japanese:
- POTENTIAL_COUNCILLOR_TITLE: "[CouncilPositionType.GetName]を任命"
+ POTENTIAL_COUNCILLOR_TITLE: "[CouncilPositionType.GetNameForPlayer]を任命"
  CHARACTER_SORT_ALL_SKILLS: "全能力の合計"
  POTENTIAL_COUNCILLOR_REASSIGN: "再任"
  POTENTIAL_COUNCILLOR_ASSIGN: "任命"

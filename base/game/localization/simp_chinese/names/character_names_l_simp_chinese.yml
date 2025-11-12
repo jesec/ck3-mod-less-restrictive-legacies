@@ -35467,6 +35467,7 @@
  Kiyotsune_2: "清常" #清常
  Kiyotsune_3: "清恒" #清恒
  Kiyotsura: "清行" #清貫
+ Kiyotsura_2: "清行" #清行
  Kiyoyasu: "清康" #清康
  Kiyoyo: "洁世" #潔世
  Kiyoyoshi: "清能" #清能
@@ -39852,6 +39853,7 @@
  Baek_eun: "白欣" #白欣 (백흔)
  Baek_go: "伯固" #伯固 (백고)
  Baek_gye: "伯计" #伯計 (백계)
+ Baek_ho: "白虎" #白虎 (백호)
  Baek_seon: "伯仙" #伯仙 (백선)
  Bag_wi_geo: "驳位居" #駮位居 (박위거)
  Bal_gi: "发岐" #發岐 (발기)
@@ -40032,6 +40034,7 @@
  Do_jeol: "都切" #都切 (도절)
  Do_mong: "都蒙" #都蒙 (도몽)
  Do_ri_haeng: "都利行" #都利行 (도리행)
+ Do_seon: "道诜" #道詵 (도선)
  Do_su: "道秀" #道秀 (도수)
  Dol_go: "咄固" #咄固 (돌고)
  Don_jung: "敦中" #敦中 (돈중)
@@ -40698,6 +40701,7 @@
  Mong_go: "蒙固" #蒙固 (몽고)
  Mong_ju: "梦周" #夢周 (몽주)
  Mu_6B66: "武" #武 (무)
+ Mu_che: "无滞" #無滯 (무체)
  Mu_deok: "武德" #武德 (무덕)
  Mu_hyul: "无恤" #無恤 (무휼)
  Mu_ryeok: "武力" #武力 (무력)
@@ -43741,18 +43745,74 @@
  Changming: "长明"
  Fuwen: "福温"
  Qianyi: "谦逸"
- Kil: "吉"
- Toson: "道诜"
  Upali: "优波离"
- Ly_Do_Doc: "李由独"
+ Do_Doc: "由独"
  Jojin: "成寻"
  Saburo: "三郎"
- Mu_Che: "无滞"
- Baekho: "百户"
  Lo: "路"
  Nga_Yamankan: "鄂耶曼甘"
  Mpu_Bharada: "姆普·婆罗荼"
  Lembong: "莱邦"
  Boc: "卜"
- Jinul: "知讷"
  Tajima: "但马"
+ #Senoi
+ Andak_Jameah: "安达克·贾梅阿"
+ Atok_Balu: "阿托克·巴卢"
+ Bei_Luus: "贝·卢斯"
+ Berchanggi_Besi: "贝尔昌吉·贝西"
+ Busuw_Dmeet_Long: "布苏·德米特·隆"
+ Cacat: "查查"
+ Camut: "卡缪"
+ Cawog: "卡沃"
+ Cencog: "森科"
+ Chekedoi: "切克多伊"
+ Churog: "丘罗"
+ Curas: "库拉斯"
+ Grcang: "格尔昌"
+ Han_Luj: "韩·卢杰"
+ Hang_Tuah: "汉都亚"
+ Inak: "伊纳"
+ Jelondong: "杰隆东"
+ Jeludang: "惹兰"
+ Jerangong: "杰隆贡"
+ Judah: "朱达"
+ Kalib: "卡立卜"
+ Kemaleg: "克马莱格"
+ Ken_Pri: "肯·普里"
+ Klip: "克勒普"
+ Kning_Ledn: "克宁·莱登"
+ Luhj: "卢赫"
+ Mamak: "马玛"
+ Manoij: "马诺伊"
+ Mara_Semae: "马拉·瑟梅"
+ Mat: "马特"
+ Meneh: "梅内"
+ Merja: "梅尔贾"
+ Minoor: "米诺"
+ Mrlooh: "默洛"
+ Nenek_Kerbau: "水牛奶奶"
+ Ngah: "雅"
+ Ngah_Hari: "雅·哈里"
+ Nyenang_Raq: "涅南·拉"
+ Pagar: "帕加尔"
+ Pegpeg: "佩佩"
+ Penjel: "彭杰"
+ Pl_iiimnh: "普利伊姆"
+ Planken: "普兰肯"
+ Puntum: "蓬图姆"
+ Rintang: "林当"
+ Risan: "里桑"
+ Rmpent: "伦彭"
+ Ruwek: "鲁韦"
+ Samad: "萨马德"
+ Segandi: "塞甘迪"
+ Serani: "塞兰"
+ Seri_Alam: "斯里·阿拉姆"
+ Taman: "塔曼"
+ Tangge: "唐格"
+ Tawal: "塔瓦尔"
+ Tenggang: "滕冈"
+ Tkooy: "特科伊"
+ Wa_Rhii: "瓦·里"
+ Yam: "亚姆"
+ Jinul: "知讷"

@@ -334,7 +334,7 @@
  laamp_base_learning_contract_events.4100.c.stewardship.support_not_exists.tt: "You don't have a [follower|E] with high enough [stewardship|E] [skill|E]"
  laamp_base_learning_contract_events.4100.c.intrigue.support_not_exists.tt: "You don't have a [follower|E] with high enough [intrigue|E] [skill|E]"
  laamp_base_learning_contract_events.4100.c.learning.support_not_exists.tt: "You don't have a [follower|E] with high enough [learning|E] [skill|E]"
- laamp_base_learning_contract_events.4100.c.prowess.support_not_exists.tt: "You don't have a [follower|E] with high enough [prowess|E]"
+ laamp_base_learning_contract_events.4100.c.prowess.support_not_exists.tt: "You don't have a [follower|E] with high enough [prowess|E] [skill|E]"
  laamp_base_learning_contract_events.4100.d: ""Oi! #EMP You LISTEN here!#!""
 
  laamp_base_learning_contract_events.4100.child: "This will further [child_to_educate.GetFirstNamePossessiveNoTooltip]"

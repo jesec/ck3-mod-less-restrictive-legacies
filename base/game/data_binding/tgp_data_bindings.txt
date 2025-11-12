@@ -81,3 +81,9 @@ macro = {
 	definition = "ProvincialLawCharacter(TargetCharacter)"
 	replace_with = "Or( TargetCharacter.GetGovernment.IsType( 'administrative_government' ), TargetCharacter.GetGovernment.IsType( 'celestial_government' ) )"
 }
+
+macro = {
+	description = "Is the character one that will hold Coronations?"
+	definition = "CoronationCharacter(TargetCharacter)"
+	replace_with = "Or( TargetCharacter.GetGovernment.IsType( 'feudal_government' ), Or( TargetCharacter.GetGovernment.IsType( 'tribal_government' ), Or( And( TargetCharacter.GetGovernment.IsType( 'administrative_government' ), TargetCharacter.IsIndependentRuler ), Or( TargetCharacter.GetGovernment.IsType( 'wanua_government' ), Or( TargetCharacter.GetGovernment.IsType( 'nomad_government' ), Or( TargetCharacter.GetGovernment.IsType( 'clan_government' ), Or( And( TargetCharacter.IsIndependentRuler, TargetCharacter.GetGovernment.IsType( 'meritocratic_government' ), ), Or( And( TargetCharacter.IsIndependentRuler, TargetCharacter.GetGovernment.IsType( 'steppe_admin_government' ), ), Or( TargetCharacter.GetGovernment.IsType( 'mandala_government' ), TargetCharacter.GetGovernment.IsType( 'japan_feudal_government' ) ) ) ) ) ) ) ) ) )"
+}

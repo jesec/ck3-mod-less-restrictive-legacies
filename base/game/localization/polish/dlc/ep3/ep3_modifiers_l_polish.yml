@@ -171,7 +171,7 @@
  ep3_governor_yearly_8050_imperial_recruiter_modifier_desc: "Ta postać bezinteresownie wysłała żołnierzy do pomocy w obronie imperium.\n[governor_efficiency|E]: @governor_efficiency! #P +5%#!"
  ep3_governor_yearly_8050_imperial_fortification_modifier: "Uzupełnienia dla imperium"
  ep3_governor_yearly_8050_imperial_fortification_modifier_desc: "Ta postać poprosiła o dodatkowe wsparcie w obronie jej prowincji."
- ep3_governor_yearly_8050_imperial_resources_modifier: "Imperialne zasoby"
+ ep3_governor_yearly_8050_imperial_resources_modifier: "Zasoby cesarskie"
  ep3_governor_yearly_8050_imperial_resources_modifier_desc: "Ta postać poprosiła o dodatkowe zasoby do obrony jej prowincji.\n[governor_efficiency|E]: @governor_efficiency! #N -5%#!"
  ep3_governor_yearly_8040_province_development_modifier: "Rozwój prowincji"
  ep3_governor_yearly_8040_province_development_modifier_desc: "Ta postać postanowiła skupić się na rozwoju prowincji, a nie swojego majątku."

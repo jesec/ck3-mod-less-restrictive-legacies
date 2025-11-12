@@ -101,7 +101,7 @@
  #A School for the People
  ep3_emperor_yearly.2080.t: "백성들의 학교"
  ep3_emperor_yearly.2080.desc: "[school_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U](은)는 단어 하나하나를 고민하며 신중하고 우아한 태도로 목소리를 높였다.\n\n\"[school_county.GetNameNoTier] 백성들은 최근 벌어진 건설 계획에 큰 투자가 이루어졌음을 알아차렸습니다. 도시의 성장에 누구나 자부심을 느끼고 있지만, 어떤 변화는 지위를 막론하고 백성의 마음을 더 울리기 마련입니다."
- ep3_emperor_yearly.2080.desc_byz: "\n\n\"국가에서 재정을 지원하여 명성 높은 [Glossary( '그라마티코이', 'GRAMMATIKOS_GLOSS' )]를 건설할 것을 건의합니다. 더 많은 평민이 좋은 교육을 받게 된다면, 제국 행정에 더 많은 인재가 지원하게 될 것입니다. 이는 우리에게 이로울 뿐만 아니라 백성들의 민생 또한 개선할 기회입니다!\""
+ ep3_emperor_yearly.2080.desc_byz: "\n\n\"국가에서 재정을 지원하여 명성 높은 [Glossary( '그라마티코스', 'GRAMMATIKOS_GLOSS' )]를 건설할 것을 건의합니다. 더 많은 평민이 좋은 교육을 받게 된다면, 제국 행정에 더 많은 인재가 지원하게 될 것입니다. 이는 우리에게 이로울 뿐만 아니라 백성들의 민생 또한 개선할 기회입니다!\""
  ep3_emperor_yearly.2080.desc_gen: "\n\n예를 들어, 계층을 가리지 않고 공부할 수 있는 학교에 재정을 지원하여 제국 행정에 지원할 환경을 만드는 방도가 있겠습니다!\""
  ep3_emperor_yearly.2080.a: "잘 정비된 관료 조직에는 늘 새로운 인재가 필요하다."
  ep3_emperor_yearly.2080.a.tt: "5년 후 학교가 완성되면 혜택을 누리게 됨"
@@ -198,7 +198,7 @@
  ep3_emperor_yearly.2160.b.tt2: "당신의 [governor_efficiency|E]이 #N 5%#!만큼 감소함"
  #Secret Tunnels
  ep3_emperor_yearly.2170.t: "비밀 통로"
- ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier](은)는 여러모로 쉽지 않은 곳이다. 아무리 최선을 다해도 통제가 너무 쉽게 흔들린다. 그곳 사람들은 강인한 생존자다. 거칠고 사나운 환경을 이해하고 대비하는 능력이 굉장히 뛰어나다.\n\n심지어 저들은 광범위한 규모의 통로와 안전 가옥, 지하 정착지를 직접 마련했다. 덕분에 가혹한 날씨가 찾아오거나 적이 공격할 때, 징세원이 찾아오거나 카이사르의 요구가 있을 때마다 아무렇지도 않게 모습을 숨기곤 한다."
+ ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier](은)는 여러모로 쉽지 않은 곳이다. 아무리 최선을 다해도 통제가 너무 쉽게 흔들린다. 그곳 사람들은 강인한 생존자다. 거칠고 사나운 환경을 이해하고 대비하는 능력이 굉장히 뛰어나다.\n\n심지어 저들은 광범위한 규모의 통로와 안전 가옥, 지하 정착지를 직접 마련했다. 덕분에 가혹한 날씨가 찾아오거나 적이 공격할 때, 징세원이 찾아오거나 [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]의 요구가 있을 때마다 아무렇지도 않게 모습을 숨기곤 한다."
  ep3_emperor_yearly.2170.a: "굉장히 유용해 보이는군..."
  ep3_emperor_yearly.2170.b: "불법적인 관행은 이제 끝이다."
  #A Warm Meal?
@@ -231,13 +231,14 @@
  #The Emperor's Gold
  ep3_emperor_yearly.2200.t: "황제의 금"
  ep3_emperor_yearly.2200.desc: "제국의 옥좌에 앉을 자격이 가장 없는 사람을 꼽자면 단연코 [liege.GetFirstName]일 것이다.\n\n온갖 고생은 [governorship.GetName](이)가 떠맡고 있는데, 세금은 모조리 [capital.GetNameNoTier]의 놈팡이들에게 돌아간다. 가만히 생각해 보면...\n\n우리의 세금을 거기로 보낼 #EMP 필요는#! 없다. 차라리 내가 훨씬 더 유용하게 쓸 수 있으니..."
+ ep3_emperor_yearly.2200.desc.c_monarch: "[liege.GetTitledFirstName](은)는 [ceremonial_monarch.GetTitleAsName](을)를 이끌 자격이 없다!\n\n온갖 고생은 [governorship.GetName](이)가 떠맡고 있는데, 세금은 모조리 [capital.GetNameNoTier]의 놈팡이들에게 돌아간다. 가만히 생각해 보면...\n\n우리의 세금을 거기로 보낼 #EMP 필요는#! 없다. 차라리 내가 훨씬 더 유용하게 쓸 수 있으니..."
  ep3_emperor_yearly.2200.a: "[liege.GetSheHe|U]는 우리의 금을 가질 자격이 없다."
  ep3_emperor_yearly.2200.b: "내 충성은 [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip](이)가 아니라 [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip](을)를 향한다."
  ep3_emperor_yearly.2200.a.tt: "가치 없는 충성"
  ep3_emperor_yearly.2200.b.tt: "제국을 향한 충성"
  #A Prophecy of Power
  ep3_emperor_yearly.2210.t: "권력의 예언"
- ep3_emperor_yearly.2210.desc: "어젯밤에 꿈을 꿨다. 천상의 손이 하늘에서 내려와 내 머리에 왕관을 씌웠다. 그리고 위엄 넘치는 목소리가 들렸다. \"가라! 내가 너에게 [potential_title.GetName]의 자리를 허하노라!\"\n\n야망이 너무 커서 꿈으로 나타난 건가... 그런데 혹시라도 [liege.GetTitledFirstName](을)를 납득시키면 어떻게 되는 거지? 이 꿈이 일종의 예언이며 천상의 진실한 증표였다고?"
+ ep3_emperor_yearly.2210.desc: "어젯밤에 꿈을 꿨다. 천상의 손이 하늘에서 내려와 내 머리에 왕관을 씌웠다. 그리고 위엄 넘치는 목소리가 들렸다. \"가라! 내가 너에게 [potential_title.GetName]의 자리를 허하노라!\"\n\n야심이 너무 커서 꿈으로 나타난 건가... 그런데 혹시라도 [liege.GetTitledFirstName](을)를 납득시키면 어떻게 되는 거지? 이 꿈이 일종의 예언이며 천상의 진실한 증표였다고?"
  ep3_emperor_yearly.2210.desc_believe: "어차피 #EMP 뭐든#! 믿는 멍청이니까. 안 그래?"
  ep3_emperor_yearly.2210.desc_jacob: "\n\n어차피 주님께서도 야콥의 꿈에 나타나셔서 약속의 땅을 허락하지 않으셨나?"
  ep3_emperor_yearly.2210.a: "해볼 가치는 있어!"
@@ -271,10 +272,11 @@
  #As The Philosopher Said...
  ep3_emperor_yearly.2240.t: "철학자의 말에 따르면..."
  ep3_emperor_yearly.2240.desc_quote_a: "\"[Glossary( '판타 레이', 'PANTA_RHEI_GLOSS')]!\" 어떤 하인이 넘어지며 물병을 놓쳐 내용물이 쏟아지자 [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )](이)가 서글프게 읊었다. 그런 의미가 #EMP 전혀#! 아닌데도!"
- ep3_emperor_yearly.2240.desc_quote_b: "\"[Glossary( 'Ho bíos brakhús, he dè tékhne makré', 'ARS_LONGA_GLOSS')]\" 어지러운 노트에서 한 줄을 지우며 [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )](이)가 한숨과 함께 말했다. [the_scholar.GetSheHe]가 언제 나와 뜻을 함께 한 거지?!"
- ep3_emperor_yearly.2240.desc_quote_c: "\"[Glossary( 'Sophòn to saphés', 'SOPHON_GLOSS')]\" 또 다시 기본 지침조차 제대로 따르지 못한 [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )](이)가 끙끙대며 읊었다."
- ep3_emperor_yearly.2240.desc_quote_latin: "\"[Glossary( 'Omnia vincit amor', 'AMOR_GLOSS')]\" [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )](은)는 엄숙한 표정으로 설교하듯 말했다. 그게 조금 전까지 얘기하던 내용과 무슨 상관이 있다고?!"
- ep3_emperor_yearly.2240.desc_outro: "\n\n[the_scholar.GetSheHe|U]는 #EMP 늘#! 이런 식이다. 진짜 진저리가 난다! 고대인의 말을 인용해서 다른 사람 얼굴에 무례하게 들이미는데... 맥락이나 내용이 틀린 경우가 부지기수다...\n\n나를 비롯한 수많은 사람이 한숨을 쉬며 눈을 흘긴다. 무릇 공인이라면 반드시 고전 교육을 철저히 받아야 한다. 하지만 고전을 제대로 사용할 지혜가 없으면 아는 것이 아무리 많더라도 의미가 없다."
+ ep3_emperor_yearly.2240.desc_quote_b: "\"[Glossary( '호 비오스 브라키스, 헤 데 테크네 마크레', 'ARS_LONGA_GLOSS')]\" 어지러운 노트에서 한 줄을 지우며 [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )](이)가 한숨과 함께 말했다. [the_scholar.GetSheHe]가 언제 나와 뜻을 함께 한 거지?!"
+ ep3_emperor_yearly.2240.desc_quote_c: "\"[Glossary( '소폰 토 사페스', 'SOPHON_GLOSS')]\" 또 다시 기본 지침조차 제대로 따르지 못한 [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )](이)가 끙끙대며 읊었다."
+ ep3_emperor_yearly.2240.desc_quote_latin: "\"[Glossary( '옴니아 빈시트 아모르', 'AMOR_GLOSS')]\" [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )](은)는 엄숙한 표정으로 설교하듯 말했다. 그게 조금 전까지 얘기하던 내용과 무슨 상관이 있다고?!"
+ ep3_emperor_yearly.2240.desc_quote_confucius: "\"[Glossary( '군자라면 말을 삼가고 행동으로 보여주는 법이다.', 'CONFUCIUS_GLOSS' )]\" [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )](은)는 엄숙한 표정으로 설교하듯 말했다. 그게 조금 전까지 얘기하던 내용과 무슨 상관이 있다고?!"
+ ep3_emperor_yearly.2240.desc_outro: "\n\n[the_scholar.GetSheHe|U]는 #EMP 늘#! 고대인의 말을 인용해서 다른 사람 얼굴에 무례하게 들이미는데... 맥락이나 내용이 틀린 경우가 부지기수다...\n\n나를 비롯한 수많은 사람이 한숨을 쉬며 눈을 흘긴다. 무릇 공인이라면 반드시 고전 교육을 철저히 받아야 한다. 하지만 고전을 제대로 사용할 지혜가 없으면 아는 것이 아무리 많더라도 의미가 없다."
  ep3_emperor_yearly.2240.a: "#EMP 사실#!, 그 인용문은..."
  ep3_emperor_yearly.2240.a.flavor: "당신은 [the_scholar.GetFirstNameNoTooltip](이)가 얼마나 틀렸는지 알려줌으로써 [the_scholar.GetSheHe]에게 현실을 보여주려 한다."
  ep3_emperor_yearly.2240.a_success: "당신의 지식이 [the_scholar.GetHerHis] 지식을 아득히 뛰어넘음"

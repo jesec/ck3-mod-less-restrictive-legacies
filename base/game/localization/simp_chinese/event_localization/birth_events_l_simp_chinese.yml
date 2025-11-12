@@ -79,7 +79,7 @@
  birth.1006.bastard_explanation: "你获知了[child.GetFirstName]的出生，其母亲[mother.GetShortUIName]获得了[secret.GetName]秘密"
  birth.1010.t: "我的骨血"
  birth.1010.t_twins: "我的骨血"
- birth.1010.desc.twin: "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U]生下了两个[child.Custom('TwinDaughtersSonsChildren')]！\n\n小家伙们是[ROOT.Char.GetDynasty.GetName]宗族的一分子，理应获赐名字。"
+ birth.1010.desc.twin: "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U]生下了两个[child.Custom('TwinDaughtersSonsChildren')]！\n\n小家伙们是[ROOT.Char.GetDynasty.GetName]宗族的一分子，理应获赐配得上其传承的名字。"
  birth.1010.desc: "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U]生下了一个[child.Custom('GetDaughterSon')]！\n\n小家伙是[ROOT.Char.GetDynasty.GetName]宗族的一分子，[child.GetSheHe]理应拥有一个配得上[child.GetHerHis]传承的名字。"
  birth.1100.title: "[child.Custom('GetTaltosTerm')]降世"
  birth.1100.message: "[child.Custom('DefaultPriestTitlePlural')]已确认[child.Custom2('MyCharacterIntroduction', ROOT.Char)]是一位[child.Custom('GetTaltosTerm')]。\n\n为[child.GetFaith.PantheonTerm]选中投身于特殊使命，这个孩子将来会如何呢？"

@@ -27,7 +27,7 @@
  fp3_clan.1020.b.none_improved.desc: "[target_tax_collector.GetFirstNameNoTooltip]が自分が学んだことをほかの徴税人に共有することに失敗した"
  fp3_clan.1020.c: "「お前の自尊心を満足させている暇はない！」"
  fp3_clan.1030.t: "税金紛争"
- fp3_clan.1030.desc: "「私は[target_tax_collector.Custom2('InsultAdjective', SCOPE.sC('target_taxed_vassal'))] [target_tax_collector.GetFaith.GetAdherentNameNoTooltip]に税金を払うことを拒否する！」[target_taxed_vassal.GetTitledFirstName]が[target_tax_collector.GetFirstName]に面と向かって叫んだ。\n\n「王室のために税を徴収するのは私の義務だ！私の人格を侮辱することは、[ROOT.Char.GetNameNoTooltip]を侮辱することに等しい！」[target_tax_collector.GetFirstNameNoTooltip]が言い返した。「我が主君よ、どうかこの問題を解決してください。そうでなければ仕事ができません」\n\n[target_taxed_vassal.GetTitledFirstNameNoTooltip]はいきり立ち、[target_tax_collector.GetFirstNameNoTooltip]は苛々と足をタンタンと踏み鳴らしている。どうやら私は封臣を宥めるべきか、徴税人を支持するか決めなければならないようだ…"
+ fp3_clan.1030.desc: "「私は[target_tax_collector.Custom2('InsultAdjective', SCOPE.sC('target_taxed_vassal'))][target_tax_collector.GetFaith.GetAdherentNameNoTooltip]に税金を払うことを拒否する！」[target_taxed_vassal.GetTitledFirstName]が[target_tax_collector.GetFirstName]に面と向かって叫んだ。\n\n「王室のために税を徴収するのは私の義務だ！私の人格を侮辱することは、[ROOT.Char.GetNameNoTooltip]を侮辱することに等しい！」[target_tax_collector.GetFirstNameNoTooltip]が言い返した。「我が主君よ、どうかこの問題を解決してください。そうでなければ仕事ができません」\n\n[target_taxed_vassal.GetTitledFirstNameNoTooltip]はいきり立ち、[target_tax_collector.GetFirstNameNoTooltip]は苛々と足をタンタンと踏み鳴らしている。どうやら私は封臣を宥めるべきか、徴税人を支持するか決めなければならないようだ…"
  fp3_clan.1030.a: "[target_tax_collector.GetFirstNameNoTooltip]は明らかにこの課税区域には向いていない。"
  tax_collector_fired_on_religious_grounds: "徴税人が信仰を理由に解雇された"
  fp3_clan.1030.b: "[target_taxed_vassal.GetFirstNameNoTooltip]は納めていない税金を払うだろう。"

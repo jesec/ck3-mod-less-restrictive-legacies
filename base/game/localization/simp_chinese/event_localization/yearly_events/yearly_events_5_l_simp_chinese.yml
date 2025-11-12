@@ -169,7 +169,7 @@
  yearly.5043.a.a: "这真是浪费时间……"
  yearly.5043.a.b: "他们为什么不说？"
  yearly.5050.t: "伴侣的指责"
- yearly.5050.desc.a: "“简直岂有此理！”\n\n[scoped_spouse.GetFirstName]冲进我的[ROOT.Char.Custom('GetChamber')]，[scoped_spouse.GetHerHis]的脸气得通红，嚷嚷得满[ROOT.Char.Custom('ResidenceBuilding')]都听得见[scoped_spouse.GetHerHim]。\n\n“[slighting_courtier.GetTitledFirstName]刚才羞辱了我！我要你马上把这[slighting_courtier.Custom2('InsultAdjective', SCOPE.sC(scoped_spouse))][slighting_courtier.Custom2('InsultNoun', SCOPE.sC(scoped_spouse))]给我赶出我们的[ROOT.Char.Custom('GetCourt')]！”"
+ yearly.5050.desc.a: "“简直岂有此理！”\n\n[scoped_spouse.GetFirstName]冲进我的[ROOT.Char.Custom('GetChamber')]，[scoped_spouse.GetHerHis]的脸气得通红，嚷嚷得满[ROOT.Char.Custom('ResidenceBuilding')]都听得见[scoped_spouse.GetHerHim]。\n\n“[slighting_courtier.GetTitledFirstName]刚才羞辱了我！我要你马上把这[slighting_courtier.Custom2('InsultAdjective', SCOPE.sC('scoped_spouse'))][slighting_courtier.Custom2('InsultNoun', SCOPE.sC('scoped_spouse'))]给我赶出我们的[ROOT.Char.Custom('GetCourt')]！”"
  yearly.5050.desc.b: "我的[scoped_spouse.GetWifeHusband]缩在书房的角落里，我发现的时候吓了一跳。[scoped_spouse.GetFirstName]的脸色十分不好，一看就知道[scoped_spouse.GetHerHis]心中有事。我好一阵开导才说服[scoped_spouse.GetHerHim]和我说[scoped_spouse.GetHerHis]的忧虑。\n\n“亲爱的，听我说，[slighting_courtier.GetFirstName]侮辱了我。我实在受不了身边有这么一个粗鲁的[slighting_courtier.GetWomanMan]了。”"
  yearly.5050.a.a: "明天就让[slighting_courtier.GetSheHe|U]给我滚蛋！"
  yearly.5050.b.a: "别拿这种破事烦我。"

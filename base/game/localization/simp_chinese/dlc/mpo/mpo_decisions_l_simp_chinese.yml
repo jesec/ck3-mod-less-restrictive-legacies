@@ -90,7 +90,7 @@
  heir_friend_6_or_more_common_trait_tt: "#P 与[heir.GetFirstName]拥有6个或更多相同[traits|E]#!"
  heir_friend_lifestyle_tt: "#P 与[heir.GetFirstName]拥有相同的生活方式[trait|E]#!"
  heir_friend_sports_tt: "#P 与[heir.GetFirstName]拥有相同的[GetTrait('tourney_participant').GetName( GetNullCharacter )][trait|E]重心#!"
- heir_friend_blood_brother_tt: "#P 是你的[blood_brother|E]"
+ heir_friend_blood_brother_tt: "#P 是你的[blood_brother|E]#!"
  heir_friend_positive_relation_tt: "#P 与你有正面[relation|E]#!"
  heir_friend_house_tt: "#P 是[heir.GetFirstNamePossessive]的[house|E]成员#!"
  heir_friend_culture_tt: "#P 与[heir.GetFirstNamePossessive]的[culture|E]有较高[cultural_acceptance|E]#!"

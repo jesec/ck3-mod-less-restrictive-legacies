@@ -145,7 +145,7 @@
  bp1_house_feud.0500.a: "[house_feud_rival.GetFirstNameNoTooltip]家に後悔させてやる。"
  bp1_house_feud.0500.b: "私にはもっと大きな気がかりがある。"
  bp1_house_feud.0501.t: "$story_cycle_house_feud_title$：[house_feud_attacker.GetHouse.GetBaseNameNoTooltip]の対立"
- bp1_house_feud.0501.reciprocating: "[house_feud_attacker.Custom2('InsultAdjective', ROOT.Char)] [house_feud_attacker.GetFirstName]は[house_feud_attacker.GetHerHis]に対する我々の家族の憎悪を返し、我々の当然の不満に哀れで抽象的な返答を寄こした。"
+ bp1_house_feud.0501.reciprocating: "[house_feud_attacker.Custom2('InsultAdjective', ROOT.Char)][house_feud_attacker.GetFirstName]は[house_feud_attacker.GetHerHis]に対する我々の家族の憎悪を返し、我々の当然の不満に哀れで抽象的な返答を寄こした。"
  bp1_house_feud.0501.new: "卑劣な[house_feud_attacker.Custom2('InsultNoun', ROOT.Char)]の[house_feud_attacker.GetTitledFirstName]は、[ROOT.Char.GetHouse.GetBaseName]が[house_feud_attacker.GetHerHis]の家族の永遠の敵になることを誓ったという。"
  bp1_house_feud.0501.desc: "\n\nハハ、[relation.Custom('GetFamilyFeudShortFlavor')]は本当に[house_feud_attacker.GetDynastyHouseName]の怒りを買ったようだな！"
  bp1_house_feud.0501.a: "おお、私も#EMP 同じ#!気持ちだ！"
