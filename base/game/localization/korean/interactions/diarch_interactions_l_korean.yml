@@ -180,7 +180,7 @@
  diarch_demand_despotate_interaction_stake_to_raise_major_value.tt.liege_can_refuse: "#WEAK [recipient.GetShortUIName|U](은)는 당신의 [influence|e] 의탁량의 2배를 감당할 수 있으므로 이 제안을 거부할 수 있음 ([EmptyScope.ScriptValue('diarch_demand_despotate_interaction_stake_to_raise_major_inverted_value')|0][influence_i])#!"
  diarch_demand_despotate_interaction_stake_to_raise_medium_value.tt.liege_can_refuse: "#WEAK [recipient.GetShortUIName|U](은)는 당신의 [influence|e] 의탁량의 2배를 감당할 수 있으므로 이 제안을 거부할 수 있음 ([EmptyScope.ScriptValue('diarch_demand_despotate_interaction_stake_to_raise_medium_inverted_value')|0][influence_i])#!"
  diarch_demand_despotate_interaction_stake_to_raise_minor_value.tt.liege_can_refuse: "#WEAK [recipient.GetShortUIName|U](은)는 당신의 [influence|e] 의탁량의 2배를 감당할 수 있으므로 이 제안을 거부할 수 있음 ([EmptyScope.ScriptValue('diarch_demand_despotate_interaction_stake_to_raise_minor_inverted_value')|0][influence_i])#!"
- scapegoat_counterpart_interaction: "동료 [actor.GetTopLiege.GetTitleAsNameNoTooltip] 희생양"
+ scapegoat_counterpart_interaction: "동료 영주 희생양"
  scapegoat_counterpart_interaction_desc: "봉역의 모든 문제는 #EMP [recipient.GetFirstNamePossessive]#! 탓이란 사실을 공개적으로 알립니다. [opinion|E]을 소모하여 [influence_i][influence|E]으로 교환합니다\n\n #WEAK $game_concept_influence$ 획득량은 당신이 상대보다 [diplomacy|E] 또는 [intrigue|E]을 얼마나 더 많이 갖고 있는지에 따라 달라집니다#!"
  is_in_scapegoating_diarchy_visibility_trigger.tt.explanation: "[scales_of_power|E]이 [actor.GetShortUIName]에게 지나치게 유리합니다.[SelectLocalization( actor.IsLocalPlayer, 'is_in_scapegoating_diarchy_visibility_trigger.tt.explanation.liege', '' )]"
  is_in_scapegoating_diarchy_visibility_trigger.tt.explanation.liege: "상대가 권력이 있다는 환상조차 품지 않는다면 희생양으로 삼을 수 없습니다."

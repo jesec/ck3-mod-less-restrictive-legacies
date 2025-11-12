@@ -209,8 +209,8 @@
  travel_events.2013.e: "Por desgracia, tenemos prisa."
  #Visit a logging camp - Burn off some stress chopping wood
  travel_events.2014.t: "Cortar, cortar"
- travel_events.2014.desc: "El enorme bloque de cortar en medio del campamento maderero de [ROOT.Char.GetCurrentLocation.GetName] ha visto mucho uso. Parece que siempre haya estado allí, antes incluso de que los hombres caminasen sobre la tierra.\n\nTengo los hombros tensos y me tiembla ligeramente el antebrazo por la tensión acumulada mientras me acerco al magnífico tronco de madera.\n\nColoco con cuidado un trozo de madera desechada en el estrado y, con un rápido movimiento, alzo el hacha."
- travel_events.2014.a: "#EMP ¡Haaaragh!#!"
+ travel_events.2014.desc: "El enorme bloque de cortar en medio del campamento maderero de [ROOT.Char.GetCurrentLocation.GetName] ha tenido mucho uso. Parece que siempre haya estado allí, antes incluso de que los hombres caminasen sobre la Tierra.\n\nA mi alrededor, los obreros trabajan y resplandecen con el sudor y, aunque de cuna humilde, parecen liberados del peso del mundo.\n\nMiro al hacha clavada en el tocón gigante. Tengo los hombros tensos del estrés e imploran una oportunidad de liberarse."
+ travel_events.2014.a: "Agarro el mango y #EMP ¡Uaaargh!#!"
  travel_events.2014.a_flavor: "¡Chúpate #EMP esa#!, estrés!"
  travel_events.2014.a_stress_tt: "Estrés reducido"
  travel_events.2014.a_great_stress_desc: "Reduces enormemente tu estrés"

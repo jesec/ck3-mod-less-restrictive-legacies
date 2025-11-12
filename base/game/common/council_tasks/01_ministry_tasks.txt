@@ -423,7 +423,7 @@ task_lead_troops = {
 		enemy_hard_casualty_modifier = 0.01
 		#maa_damage_mult = 0.01
 		#maa_pursuit_add = 1
-		advantage = 0.15
+		advantage = 1
 		scale = task_lead_troops_total_scale_value
 	}
 

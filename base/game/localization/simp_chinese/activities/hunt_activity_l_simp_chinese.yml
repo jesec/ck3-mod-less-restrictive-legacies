@@ -62,7 +62,7 @@
  activity_hunt_host_desc_recent: "\n@warning_icon!#negative_value 持有的所有[counties|E]最近都举办过[GetActivityType('activity_hunt').GetName]"
  #Conclusion Desc
  activity_hunt_conclusion_desc_legendary_success: "对传说中的[activity.Custom('GetLegendaryColor')][activity.Custom('GetAnimalType')]的狩猎终于完成了！歌谣将会传唱这一天，以及打到这样一只野兽所需的才能！"
- activity_hunt_conclusion_desc_legendary: "对那难捉的[activity.Custom('GetLegendaryColor')|][activity.Custom('GetAnimalType')]的狩猎仍在继续，目前还看不到尽头……"
+ activity_hunt_conclusion_desc_legendary: "对那难捉的[activity.Custom('GetLegendaryColor')][activity.Custom('GetAnimalType')]的狩猎仍在继续，目前还看不到尽头……"
  activity_hunt_conclusion_desc_falconry_success: "[activity.Custom('GetRaptorPlural')]狩猎[activity.Custom('GetAnimalPlural')]时的表现让我们感到骄傲！"
  activity_hunt_conclusion_desc_falconry: "[activity.Custom('GetRaptorPlural')]未能成功狩猎[activity.Custom('GetAnimalPlural')]……"
  activity_hunt_conclusion_desc_standard_success: "我们结束了对[activity.Custom('GetAnimalPlural')]的狩猎，带着荣耀回家了！"

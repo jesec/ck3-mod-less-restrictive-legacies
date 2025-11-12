@@ -195,3 +195,4 @@
  mpo_greatest_of_khans.0051.opening: "A todos los desdichados del país [defender_primary.GetAdjective],"
  mpo_greatest_of_khans.0051.desc: "[attacker.Custom('ES_ElLa')|U] gran [attacker.GetTitleAsName|l], quien os lo ha arrebatado todo, cuyos guerreros inundan vuestras tierras, declara esto:\n\nPoned vuestros rostros lagrimosos al viento y cabalgad lejos. Decidles a todos los que encontréis que pronto el mundo entero pertenecerá a las hordas [attacker.Custom('ES_DelDela')] [attacker.GetTitleAsNameNoTooltip|l]."
  mpo_greatest_of_khans.0051.a: "Mi señor ha fracasado… Estoy perdid[ROOT.Char.Custom('ES_OA')]."
+ gok_noble_army_name: "Partida noble [army_culture.GetNameNoTooltip]"

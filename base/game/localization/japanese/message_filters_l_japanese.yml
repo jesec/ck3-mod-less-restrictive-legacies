@@ -304,8 +304,8 @@
  message_filter_tournament_knight_arrives_desc: "著名な[knight|E]が[activity_guest|E]としてあなたの[GetActivityType( 'activity_tournament' ).GetName]に到着する"
  message_filter_tournament_qualification: "@tournament_icon! 参加資格"
  message_filter_tournament_qualification_desc: "[GetActivityType( 'activity_tournament' ).GetName][contest|E]へのあなたの[contest_qualification|E]が変わる"
- message_filter_tournament_qualification_champion: "@tournament_icon! チャンピオンの参加資格"
- message_filter_tournament_qualification_champion_desc: "[GetActivityType( 'activity_tournament' ).GetName][contest|E]へのあなたのチャンピオンの[contest_qualification|E]が変わる"
+ message_filter_tournament_qualification_champion: "@tournament_icon! 代闘士の参加資格"
+ message_filter_tournament_qualification_champion_desc: "[GetActivityType( 'activity_tournament' ).GetName][contest|E]へのあなたの代闘士の[contest_qualification|E]が変わる"
  message_filter_tournament_qualification_knight: "@tournament_icon! 騎士の参加資格"
  message_filter_tournament_qualification_knight_desc: "[GetActivityType( 'activity_tournament' ).GetName][contest|E]へのあなたの[knights_possessive|E]の[contest_qualification|E]が変わる"
  #HOLY ORDER

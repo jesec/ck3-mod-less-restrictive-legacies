@@ -7,7 +7,7 @@
  tgp_genpei_character.1000.b: "我ら[ruler.GetDynasty.GetNameNoTooltip]は結束して抗わなければならない。"
  tgp_genpei_character.1000.b.flavor: "ほとんど無敵と言っていい[kiyomori_taira.GetDynastyName]を倒すには、違いを受け入れねばならない。"
  tgp_genpei_character.1010.t: "$genpei_intro$ 解き放たれたリンドウ"
- tgp_genpei_character.1010.desc.intro: "[kiyomori_taira.GetFirstName]！[kiyomori_taira.GetHerHis]の権力欲は、まるで止めどない奔流のように、貴族の伝統も礼節も蹂躙している。その上自らを日本の支配者である[kiyomori_taira.GetTitleAsName]と称し、その身の程知らずの欲望はついぞ尽きることがない。[Glossary( '平', 'TAIRA_GLOSS' )]家の絶対的な支配力に酔いしれた[kiyomori_taira.GetSheHe]は、[Glossary( '天皇', 'TENNO_GLOSS' )][old_emperor.GetTitledFirstName]を退け、自らの孫、[new_emperor.GetFirstName]を[GetTitleByKey('k_chrysanthemum_throne').GetDefinitiveName|l]に据えようとしている。"
+ tgp_genpei_character.1010.desc.intro: "[kiyomori_taira.GetFirstName]め！[kiyomori_taira.GetHerHis]の権力欲は、まるで止めどない奔流のように、貴族の伝統も礼節も蹂躙している。その上自らを日本の支配者である[kiyomori_taira.GetTitleAsName]と称し、その身の程知らずの欲望はついぞ尽きることがない。[Glossary( '平', 'TAIRA_GLOSS' )]家の絶対的な支配力に酔いしれた[kiyomori_taira.GetSheHe]は、[Glossary( '天皇', 'TENNO_GLOSS' )][old_emperor.GetTitledFirstName]を退け、自らの孫、[new_emperor.GetFirstName]を[GetTitleByKey('k_chrysanthemum_throne').GetDefinitiveName|l]に据えようとしている。"
  tgp_genpei_character.1010.desc.blocboss: "[Glossary( '源', 'MINAMOTO_GLOSS' )]の槍の穂先として、責任を取るべきは私である。我々は[kiyomori_taira.GetDynasty.GetNameNoTooltip]の野望を食い止める防壁とならねばならない。さもなければ、我々自身が奴らのみこしを担ぐ羽目となるだろう！"
  tgp_genpei_character.1010.desc.notblocboss: "\n\n我が一族は何年もの間、[kiyomori_taira.GetDynasty.GetNameNoTooltip]の野望を食い止める防壁となってきた。だが今、無能な[Glossary( '源', 'MINAMOTO_GLOSS' )]氏の指導者が、我々に奴らのみこしを担がせようとしている。[minamoto_ruler.GetFirstName]は弱すぎる。賢明な父がここにいれば、このような事態は決して許さなかっただろう。"
  tgp_genpei_character.1010.a: "私が[ruler.GetDynasty.GetNameNoTooltip]を率いねばならない。"

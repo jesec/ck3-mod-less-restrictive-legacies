@@ -84,6 +84,8 @@
  tenet_hedonistic_name: "Hedonismus"
  tenet_hedonistic_desc: "Das Göttliche will die Welt mit einem Füllhorn der Freuden überschütten, an denen wir teilhaben und die wir genießen sollen: Sich ihrem Genuss zu verweigern, hieße, die Schöpfung selbst zu missachten."
  doctrine_parameter_piety_from_feasts_active: "Ein [GetActivityType('activity_feast').GetName] auszurichten, erhöht die [piety|E]"
+ doctrine_parameter_piety_from_festivals_active: "[AddLocalizationIf(HasDlcFeature('all_under_heaven'), 'doctrine_parameter_piety_from_festivals_active_auh')]" #Only show if you have AUH
+ doctrine_parameter_piety_from_festivals_active_auh: "Ein [GetActivityType('activity_festival').GetName] auszurichten, erhöht die [piety|E]"
  tenet_carnal_exaltation_name: "Fleischliche Erhabenheit"
  tenet_carnal_exaltation_desc: "Die Genüsse des Fleisches sind in einer Art und Weise erhaben, die andere irdische Erfahrungen übersteigt, sodass wir durch sie dem Göttlichen näherkommen. Wir sollten daher unsere geschlechtlichen Triebe feiern und jede Gelegenheit nutzen, ihnen nachzugeben."
  tenet_polyamory_name: "Polyamorie"
@@ -245,7 +247,7 @@
  doctrine_parameter_eastern_syncretic_recipient_opinion_active: "Gegenseitiger [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [Concept('opinion', 'Meinungs')|E]-Bonus bei [faiths|E], die den [core_tenet|E] „$tenet_eastern_syncretism_name$“ haben"
  doctrine_parameter_opinion_of_eastern_syncretic_actor_opinion_active: ""
  tenet_sinitic_syncretism_name: "Sinitischer Synkretismus"
- tenet_sinitic_syncretism_desc: "Wir können viel von den uralten sinitischen Religionen lernen. Über Jahrhunderte und Jahrtausende förderten sie rechtschaffenes Leben und gute Ideale."
+ tenet_sinitic_syncretism_desc: "Wir können viel von den uralten sinitischen Religionen lernen. Über Jahrhunderte und Jahrtausende förderten sie rechtschaffenes Leben und gute Moral."
  doctrine_parameter_hostility_override_sinitic_hostility_doctrine: "Sinitische [faiths|E] gelten nur als [GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V]"
  #Instead, add these doctrine parameters to appropriate tenets (presently Dharmic Syncretism).
  doctrine_parameter_is_sinitic_faith_bilateral_loc_override: "Betrachtet sinitische [faiths|E] und wird wiederum von sinitischen $game_concept_faiths$ als [GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V] und nicht als $hostility_evil_tooltippable$ betrachtet"

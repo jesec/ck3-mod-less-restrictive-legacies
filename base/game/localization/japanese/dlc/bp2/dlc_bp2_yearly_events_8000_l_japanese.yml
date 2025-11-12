@@ -37,7 +37,7 @@
  bp2_yearly.8081.desc: "私は[ward.GetFirstName]を私の好意の対象に送ると、すぐに[target.GetFirstName]は私の方を振り向き、笑顔を浮かべている。[target.GetSheHe]は私の若い後見人と話している。"
  bp2_yearly.8081.a: "なんて素晴らしい子供だろう。"
  bp2_yearly.8082.t: "侮辱された"
- bp2_yearly.8082.desc: "私は[ward.GetFirstName]を私の好意の対象に送るが、心の中では最高の期待しか持っていない。しかし、しばらくすると[target.GetFirstName]は私の方をちらりと\n\n見て、[ward.GetFirstNameNoTooltip]が口を開くたびに大笑いしているのが見える。あまり聞こえはしないが、「[ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('ward'))]」、「[ROOT.Char.Custom2('InsultNoun', SCOPE.sC('ward'))]」、そして「くさい」という言葉がたくさん投げつけられているのが聞こえる。"
+ bp2_yearly.8082.desc: "私は[ward.GetFirstName]を私の好意の対象に送るが、心の中では最高の期待しか持っていない。しかし、しばらくすると[target.GetFirstName]は私の方をちらりと\n\n見て、[ward.GetFirstNameNoTooltip]が口を開くたびに大笑いしているのが見える。あまり聞こえはしないが、「[ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('ward'))]」奴、「[ROOT.Char.Custom2('InsultNoun', SCOPE.sC('ward'))]」、そして「くさい」という言葉がたくさん投げつけられているのが聞こえる。"
  bp2_yearly.8082.a: "くそっ、子供め！"
  bp2_yearly.8082.b: "くさい？私が介入しなければ！"
  bp2_yearly.8090.t: "馴染みのあるおもちゃ"

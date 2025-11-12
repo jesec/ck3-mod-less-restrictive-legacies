@@ -3044,11 +3044,6 @@ malay_rasunga = {	#fic dynasty for late Palembang
 	culture = malay
 }
 
-malay_koli = {	#fic dynasty for Pahang
-	name = "dynn_Koli"
-	culture = malay
-}
-
 malay_mahawangsa = {	#fic dynasty for Langkasuka and Kedah
 	name = "dynn_Mahawangsa"
 	culture = malay
@@ -3059,18 +3054,8 @@ malay_suvarnatata = {	#fic dynasty for Kelantan
 	culture = malay
 }
 
-malay_nadinaga = {	#fic dynasty for Gangganegara
-	name = "dynn_Nadinaga"
-	culture = malay
-}
-
 malay_sarudi = {	#fic dynasty for Gelangi
 	name = "dynn_Sarudi"
-	culture = malay
-}
-
-malay_semantan = {	#fic dynasty for Semantan
-	name = "dynn_Semantan"
 	culture = malay
 }
 
@@ -25490,12 +25475,12 @@ guiyi_yin = {
 }
 
 guiyi_yan = {
-	name = "dynn_Yan"
+	name = "dynn_Yan_71D5"
 	culture = han
 }
 
 guiyi_kang = {
-	name = "dynn_Kang"
+	name = "dynn_Kang_5EB7"
 	culture = han
 }
 

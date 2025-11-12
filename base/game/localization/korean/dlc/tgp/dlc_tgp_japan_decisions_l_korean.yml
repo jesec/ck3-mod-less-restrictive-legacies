@@ -2,9 +2,9 @@
  ##################################################
  # JAPANESE DECISIONS
  ##################################################
- #Establish House Fief
+ # Establish House Fief
  tgp_japan_establish_house_fief_decision: "$japan_feudal_government_adjective$ 봉지 수립"
- tgp_japan_establish_house_fief_decision_desc: "낡은 관료제는 수많은 위기와 이 시대의 고삐 풀린 야망 속에서 무너지고 있다. 내 집안의 미래를 보장하고 속주에 안정을 가져오려면 영구적인 근거지를 마련해야 한다."
+ tgp_japan_establish_house_fief_decision_desc: "낡은 관료제는 수많은 위기와 이 시대의 고삐 풀린 야심 속에서 무너지고 있다. 내 집안의 미래를 보장하고 속주에 안정을 가져오려면 영구적인 근거지를 마련해야 한다."
  tgp_japan_establish_house_fief_decision_tooltip: "중앙의 감시를 배제하고 당신의 [governorship|E]을 개인 봉지로 삼음"
  tgp_japan_establish_house_fief_decision_confirm: "$tgp_japan_establish_house_fief_decision$"
  tgp_japan_establish_house_fief_domicile_in_governorship_trigger: "당신의 [domicile|E]가 소유한 [county|E] [governorship|E] 내에 있어야 함"
@@ -103,7 +103,7 @@
  tgp_restore_japanese_monarchy_yamato_scion_last_close_family_tt: "[last_tenno.GetShortUIName]의 가까운 친척이 [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier] 자리에 오르게 됨"
  # Restore Japanese Government
  tgp_japan_restore_japanese_government_decision: "율령 관료주의 복원"
- tgp_japan_restore_japanese_government_decision_desc: "격변과 편의주의로 인해 우리 조상들의 전통은 산산조각이 났습니다. 이제 선조들의 입증된 좋은 거버넌스 사례로 돌아갈 때입니다."
+ tgp_japan_restore_japanese_government_decision_desc: "격변과 편의주의로 인해 우리 조상들의 전통은 산산조각이 났습니다. 이제 선조들의 입증된 좋은 국정 사례로 돌아갈 때입니다."
  tgp_japan_restore_japanese_government_decision_tooltip: "일본의 옛 관료주의를 되살림"
  tgp_japan_restore_japanese_government_decision_confirm: "$tgp_japan_restore_japanese_government_decision$"
  tgp_japan_restore_japanese_government_decision_government_tt: "당신이 [GetGovernment('administrative_government').GetName] 또는 [GetGovernment('feudal_government').GetName] [government|E]를 보유함"
@@ -149,5 +149,3 @@
  tgp_japan_emperor_war_decision: "복권 전쟁 시작"
  tgp_japan_emperor_war_decision_desc: "제국은 선대의 유산이며, 곧 이름뿐만 아니라 실질적으로도 나의 것이 될 것이다. 필요하다면 무력을 써서라도 그렇게 만들리라. 더 이상 [ROOT.Char.GetTopLiege.GetShortUIName](이)가 조용히 내 땅을 파괴하는 모습을 가만히 지켜보진 않겠다."
  tgp_japan_emperor_war_decision_tooltip: "당신의 [faction|E]은 당신을 모든 [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName]의 옥좌로 올리기 위해 [war|E]을 일으킬 것임"
- tgp_destroy_chrysanthemum_throne_title: "제국 옥좌 해체"
-

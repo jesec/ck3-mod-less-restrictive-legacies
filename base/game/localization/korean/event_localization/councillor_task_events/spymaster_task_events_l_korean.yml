@@ -40,7 +40,7 @@
  spymaster_task.0311.secret_lover.consort: "\n\n나의 [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secret_holder'))](이)가 [lover.Custom2('MyCharacterIntroduction', ROOT.Char)](을)를 연인으로 삼았다!"
  spymaster_task.0311.secret_lover.consort_is_lover: "\n\n[secret_holder.GetSheHe|U]가 내 [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))]인 [lover.GetTitledFirstName](을)를 연인으로 삼았다!"
  spymaster_task.0311.secret_lover.lover_close_to_me: "\n\n[secret_holder.GetSheHe|U]가 내 [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))]인 [lover.GetTitledFirstName](을)를 연인으로 삼았다. 어떻게 이런 일이 일어날 수 있었던 것인지 누가 알겠느냐만은, 이 사실이 까발려지면 둘은 엄청난 수치를 맛보게 될 것이다!"
- spymaster_task.0311.secret_lover.lustful: "\n\n[secret_holder.GetSheHe|U]는 [lover.GetTitledFirstName](와)과 육적인 관계를 맺었다. [lover.GetTitleTierNamePossessive] 몸을 더듬거리고, 온갖 방법을 써 입을 맞추고... 이 추문을 사람들이 알기라도 하면...!"
+ spymaster_task.0311.secret_lover.lustful: "\n\n[secret_holder.GetSheHe|U]는 [lover.GetTitledFirstName](와)과 육체적 관계를 맺었다. [lover.GetFirstNamePossessiveNoTooltip] 몸을 더듬거리고, 온갖 방법을 써 입을 맞추고... 이 추문을 사람들이 알기라도 하면...!"
  spymaster_task.0311.secret_lover: "\n\n[secret_holder.GetSheHe|U]는 남몰래 [lover.Custom2('MyCharacterIntroduction', ROOT.Char)](을)를 연인으로 삼았다."
  spymaster_task.0346.a.consort: "정말 화가 나는군!"
  spymaster_task.0346.a.close: "일이 복잡해지겠어."

@@ -189,7 +189,7 @@
  msg_governor_supports_rule.t: "[root_scope.GetTitleAsNameNoTooltip]があなたの権限を擁護"
  msg_governor_supports_rule.desc: "[root_scope.GetName|V]は、あなたの正統性を疑う者たちからあなたを公然と守っている。"
  ep3_governor_yearly.3050.t: "[ROOT.Char.GetFaith.NegativeAfterLife|U]の小悪魔の仲間"
- ep3_governor_yearly.3050.desc: "[emperor.GetHouse.GetName]の[emperor.GetFirstName]、我々の[emperor.GetTitleAsNameNoTooltip]の皇位が揺らいでいるという奇妙な情報が出回っている。"
+ ep3_governor_yearly.3050.desc: "我らの[emperor.GetTitleAsNameNoTooltip]、[emperor.FullNameNoTooltip]について奇妙な噂が出回っており、その皇位が揺らいでいる。"
  ep3_governor_yearly.3050.mess: "\n\n治療薬の商人が、宮殿から注文を受けた不吉な品々について話していた。ロブスターの目、子供の指の爪、マンドレイクとタールの飲み薬、それらはすべて[emperor.GetTitleAsNameNoTooltip]がその意味不明な言葉を吐く口で食らうためのものである！そのけだものは全裸で宮殿を歩き回り、奇妙な薬を体に塗り、[emperor.GetFaith.HighGodName]を罵る！"
  ep3_governor_yearly.3050.shiftless: "\n\n[emperor.GetHerHis]から逃げてきた使用人たちは、古い香水の臭いがする、地獄のような空間について説明する…ぼそぼそとつぶやく手足の細い#EMP 生き物#!に支配され、[emperor.GetTitleAsNameNoTooltip]は暗闇の中で長い時間横たわっている。大臣が呼んでも、[emperor.GetTitleAsNameNoTooltip]はほとんど動かない…しかし、悪魔がその重い唇を動かすと、[emperor.GetTitleAsNameNoTooltip]はワインやケーキ、救済を求めて叫ぶ。"
  ep3_governor_yearly.3050.coward: "\n\n[emperor.GetHerHis|U]の親族は一族の伝説をうわさしている。彼らの祖国では、聖女が犯され、その女が身籠った際にこぼれ落ちたのは子供ではなく…#EMP うじ虫#!だったという。この悪臭を放つうじ虫はネズミに食われ、ネズミはカモメに食われ、カモメは[emperor.GetFirstNameNoTooltip]に食われた。今、[emperor.GetTitleAsNameNoTooltip]はヤマネの鳴き声にすら震えて泣いている！"

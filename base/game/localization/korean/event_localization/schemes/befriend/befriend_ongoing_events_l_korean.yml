@@ -240,7 +240,7 @@
  befriend_ongoing.5004.a: "도를 넘은 것을 사죄해야겠다."
  befriend_ongoing.5004.b: "고마운 줄도 모르는 [target.Custom2('InsultNoun', ROOT.Char)] 같으니!"
  befriend_ongoing.5005.t: "친교: 행동 개시"
- befriend_ongoing.5005.desc: "[target.GetTitledFirstName](이)가 나를 더 잘 이해하도록 만들려고 노력하고 있지만, 하면 할수록 [target.GetHerHim]를 더욱 이해하지 못하게 될 뿐이다. 패기와 야망이라곤 없는 건가? [target.GetSheHe]라면 상황이 지금과 똑같이 유지되어도 전혀 개의치 않을 것 같은데."
+ befriend_ongoing.5005.desc: "[target.GetTitledFirstName](이)가 나를 더 잘 이해하도록 만들려고 노력하고 있지만, 하면 할수록 [target.GetHerHim]를 더욱 이해하지 못하게 될 뿐이다. 패기와 야심이라곤 없는 건가? [target.GetSheHe]라면 상황이 지금과 똑같이 유지되어도 전혀 개의치 않을 것 같은데."
  befriend_ongoing.5005.a: "동의하진 못하겠지만, 이해는 할 수 있어."
  befriend_ongoing.5005.b: "굳이 이런 사람과 알고 지낼 필요가 있나?"
  befriend_ongoing.5006.t: "친교: 간극 메우기"

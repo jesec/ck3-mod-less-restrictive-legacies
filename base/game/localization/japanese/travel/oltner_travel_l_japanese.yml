@@ -228,7 +228,7 @@
  lover_moonlit_evening_on_the_road_corresponding: "[CHARACTER.GetShortUIName|U]と[TARGET_CHARACTER.GetShortUIName]は、[TARGET_CHARACTER_2.GetFirstNamePossessive]の随行員として[PROVINCE.GetName]を旅するなかで、共に星を眺めて恋に落ちた。"
  i_saw_nothing: "いや、私は見ていない。#EMP 何も#!見ていないぞ。全部忘れた方が身のためだ。"
  travel_events_oltner_2.1190.t: "盗まれた形見"
- travel_events_oltner_2.1190.desc: "[location.GetName]近くに設置した野営地の静寂を、甲高い叫び声が切り裂いた。[ROOT.Char.Custom2('RelationToMeShort', entourage_member_1 )]の[entourage_member_1.GetFirstName]が、[ROOT.Char.Custom2('RelationToMeShort', entourage_member_2 )] [entourage_member_2.GetFirstName]に対峙している。[entourage_member_2.GetFirstName]の手には[entourage_member_1.Custom('GetRandomSmallPreciousItem')]が握られていた。\n\n「泥棒！それは私が母からもらったものだ！」[entourage_member_1.GetFirstNameNoTooltip]が怒りに燃えた目で叫ぶと、[entourage_member_2.GetFirstNameNoTooltip]が激しく反論した。「この嘘つきの[entourage_member_1.Custom2('InsultNoun', SCOPE.sC(entourage_member_2))]め！これは最初から私のものだ！」"
+ travel_events_oltner_2.1190.desc: "[location.GetName]近くに設置した野営地の静寂を、甲高い叫び声が切り裂いた。[ROOT.Char.Custom2('RelationToMeShort', entourage_member_1 )]の[entourage_member_1.GetFirstName]が、[ROOT.Char.Custom2('RelationToMeShort', entourage_member_2 )] [entourage_member_2.GetFirstName]に対峙している。[entourage_member_2.GetFirstName]の手には[entourage_member_1.Custom('GetRandomSmallPreciousItem')]が握られていた。\n\n「泥棒！それは私が母からもらったものだ！」[entourage_member_1.GetFirstNameNoTooltip]が怒りに燃えた目で叫ぶと、[entourage_member_2.GetFirstNameNoTooltip]が激しく反論した。「この嘘つきの[entourage_member_1.Custom2('InsultNoun', SCOPE.sC('entourage_member_2'))]め！これは最初から私のものだ！」"
  travel_events_oltner_2.1190.a: "「それは[entourage_member_1.GetFirstNameNoTooltip]のものだ」"
  travel_events_oltner_2.1190.b: "「[entourage_member_2.GetFirstNameNoTooltip]が持っておきなさい」"
  travel_events_oltner_2.1190.c: "「何を子供のようなことを。それをよこせ！」"

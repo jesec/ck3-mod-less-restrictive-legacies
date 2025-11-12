@@ -3,6 +3,7 @@
  # JAPANESE DECISIONS
  ##################################################
  # Establish House Fief
+ tgp_japan_establish_house_fief_decision: "Ustanów lenno sōryō"
  tgp_japan_establish_house_fief_decision_desc: "Stara administracja rozpada się pod wpływem niezliczonych kryzysów i niepohamowanych ambicji naszych czasów. Należy ustanowić stałą bazę, aby zapewnić przyszłość mojej rodzinie i przynieść stabilność prowincjom."
  tgp_japan_establish_house_fief_decision_tooltip: "Władaj swoim [Concept('governorship', 'gubernatorstwem')|E], traktując je jako własne lenno i odrzucając nadzór centralny"
  tgp_japan_establish_house_fief_decision_confirm: "$tgp_japan_establish_house_fief_decision$"
@@ -148,6 +149,3 @@
  tgp_japan_emperor_war_decision: "Rozpocznij wojnę o odbudowę"
  tgp_japan_emperor_war_decision_desc: "Imperium jest moim dziedzictwem i wkrótce będzie moje nie tylko z nazwy. Jeśli trzeba, przejmę je siłą. Nie będę trwać w bezczynności, gdy [ROOT.Char.GetTopLiege.GetShortUINameNotMe] niszczy moją ziemię."
  tgp_japan_emperor_war_decision_tooltip: "Twoja [faction|El] wywoła [Concept('war', 'wojnę')|E], aby umieścić cię na tronie miejsca znanego jako [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName]."
- tgp_japan_establish_house_fief_decision: "Ustanów lenno $japan_feudal_government_adjective$"
- 
-

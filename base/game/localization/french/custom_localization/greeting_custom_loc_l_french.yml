@@ -73,7 +73,7 @@
  greeting_supplimentary.positive.flattery.6: "Votre appétit insatiable est connu dans le monde entier."
  form_of_address_your_excellency: "Votre Excellence"
  form_of_address_excellency: "Excellence"
- form_of_address_my_ladylord: "[ROOT.Char.Custom('FR_MonseigneurMadame')|U],"
+ form_of_address_my_ladylord: "[ROOT.Char.Custom('FR_MonseigneurMadame')|U]"
  form_of_address_ladylord_regent: "[Select_CString(ROOT.Char.IsFemale,'Dame régente','Seigneur régent')]"
  form_of_address_your_holiness: "Votre Sainteté"
  form_of_address_your_highness: "Votre Altesse"

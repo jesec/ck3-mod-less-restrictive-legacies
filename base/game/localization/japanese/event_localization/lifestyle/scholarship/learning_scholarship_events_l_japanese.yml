@@ -156,7 +156,7 @@
  learning_scholarship_special.3099.termination.desc.prison: "牢獄で変成実験を続けることはできない。"
  learning_scholarship_special.3099.termination.desc.incapable: "この状態で変成実験を続けることはできない。"
  #Dear god, go outside by Isabella Welch
- learning_scholarship.4000.t: "外へ出なさい！"
+ learning_scholarship.4000.t: "外へ出よ！"
  learning_scholarship.4000.desc: "夜も更け、私は古典文法に関する興味深い論文に夢中になっている。ちょうど私が前の読者が余白に書き残した愉快で悪趣味な注釈を見てニヤニヤとしはじめたとき、[ROOT.Char.Custom('GetRoom')]に[spouse_uninterested_in_study.GetWifeHusband]が入ってくる。\n\n「なんと情けない！勉強以外のすべてをおろそかにし、夕暮れから夜明けまで一人で部屋にこもって本を読んでいるとは。その埃まみれの巻物を読むのをやめないのなら、今夜は私のベッドに来ることは許さない」"
  learning_scholarship.4000.a: "望みのままに。"
  learning_scholarship.4000.b: "それなら、これからは抄録を読むようにしよう。"

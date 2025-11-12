@@ -1,4 +1,5 @@
-﻿form_portugal_decision = {
+﻿### Form Portugal ###
+form_portugal_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
 	}
@@ -133,6 +134,7 @@
 	}
 }
 
+### Unite the Spanish Thrones ###
 unite_the_spanish_thrones_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -252,6 +254,7 @@ unite_the_spanish_thrones_decision = {
 	}
 }
 
+### Unite Africa ###
 unite_africa_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
@@ -371,6 +374,7 @@ unite_africa_decision = {
 	}
 }
 
+### Avenge the Battle of Tours ###
 avenge_the_battle_of_tours_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
@@ -466,6 +470,7 @@ avenge_the_battle_of_tours_decision = {
 }
 
 #Kingdom of Canarias
+### Consolidate the Canaries ###
 declare_canarias_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -611,6 +616,7 @@ declare_canarias_decision = {
 # by Sean Hughes & Ewan Cowhig Croft
 ##################################################
 
+### Found the Kingdom of Aragon ###
 form_the_kingdom_of_aragon_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -775,6 +781,7 @@ form_the_kingdom_of_aragon_decision = {
 # Bind the Faith to Rome
 # by Ewan Cowhig Croft
 ##################################################
+### Bind the Faith to Rome ###
 mozarabic_bind_the_faith_to_rome_decision = {
 	picture = {
 		trigger = {
@@ -1022,6 +1029,7 @@ mozarabic_bind_the_faith_to_rome_decision = {
 # by Ewan Cowhig Croft
 ##################################################
 
+### Break with Rome ###
 mozarabic_break_with_rome_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
@@ -1180,6 +1188,7 @@ mozarabic_break_with_rome_decision = {
 # by Ewan Cowhig Croft
 ##################################################
 
+### Champion the Faith of the Country Basques ###
 favour_the_countryside_basques_decision = {
 	picture = {
 		trigger = {
@@ -1433,6 +1442,7 @@ favour_the_countryside_basques_decision = {
 # by Joe Parkin
 ################
 
+### Restore Old Vasconia ###
 restore_old_vasconia_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"

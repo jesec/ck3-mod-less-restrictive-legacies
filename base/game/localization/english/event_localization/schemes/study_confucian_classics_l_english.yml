@@ -27,7 +27,7 @@
  study_confucian_classics_outcome.200.c: "[poet.GetFirstNameNoTooltip] deserves a letter of admiration."
  study_confucian_classics_outcome.200.d: "I should re-read the [ROOT.Char.Custom('GetRandomPoetryPassage')]."
  friend_praised_privately: "[CHARACTER.GetShortUIName|U] praised [TARGET_CHARACTER.GetShortUIName]."
- friend_praised_privately_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] praised [TARGET_CHARACTER.GetShortUIName]."
+ friend_praised_privately_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] praised [CHARACTER.GetShortUIName]."
  
  study_confucian_classics_outcome.300.t: "$study_confucian_classics_title$[ROOT.Char.Custom('GetSeason')|U] Inspiration"
  study_confucian_classics_outcome.300.desc: "As I gaze upon the [location_province.Custom('ProvinceCompliment')] [ROOT.Char.Custom('GetSeason')] garden, I reflect on the verses of the great poet [ROOT.Char.Custom('GetRandomAncientChinesePoet')]. A breeze stirs the sleeve of my robe, guiding my hand to the brush — as though Heaven itself invites me to write.\n\nThe paper lies before me, still and expectant, waiting to receive my words."

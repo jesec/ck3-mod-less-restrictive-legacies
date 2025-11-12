@@ -4,7 +4,7 @@
  feast_default_laurence.100.a: "Eure Klinge soll ihren Durst stillen!"
  feast_default_laurence.100.a.tt.success: "[intent_target.GetTitledFirstName|U] blutete aus wie ein Opfertier"
  feast_default_laurence.100.a.tt.failure: "[intent_target.GetTitledFirstName|U] war zu gerissen"
- feast_default_laurence.100.b: "Der Gedanke an [intent_target.Custom('DE_PRO_POS_S_3P')]en Tod regt etwas in mir, aber schauen wir zu und warten wir ab."
+ feast_default_laurence.100.b: "Der Gedanke an [intent_target.Custom('DE_PRO_POS_S_3P')]en Tod regt etwas in mir, doch schauen wir zu und warten wir ab."
  feast_default_laurence.100.c: "Vergesst diese törichten Worte, aber erinnert Euch daran, dass ich mich erinnern werde."
  feast_default_laurence.101.desc: "Mein Gastgeber hat sein Bestes gegeben, um schön aufzutafeln. Es mag im Vergleich zu den köstlichen Wonnen von [intent_target.GetCapitalLocation.GetName] bescheiden sein, doch ich weiß die gastfreundschaftlichen Mühen zu schätzen.\n\nDoch dann wird mir bewusst, dass weniger Leute in der Halle sind. Ja, die Wachen scheinen sich verabschiedet zu haben.\n\nEin Zwicken an meiner Seite! Ist das ein Floh? Etwas Warmes lindert das Jucken. Ich schaue hinunter und sehe den Griff einer Klinge, die zwischen meinen Rippen steckt. Was soll die denn da?"
  feast_default_laurence.101.a: "Der Tod hat mich ereilt."

@@ -65,7 +65,7 @@
  court_ongoing.1000.c: "그냥 조용히 있는 게 나을지도..."
  #Defend their honor through duel or diplomacy, by Mathilda Bjarnehed
  court_ongoing.1010.t: "$court_event_title$ 명예 훼손"
- court_ongoing.1010.desc: "\"[insulter.GetFaith.HighGodName]께 맹세컨대 [target.GetTitledFirstName](은)는 상종할 수 없는 [target.Custom2('InsultNoun', SCOPE.sC('insulter'))](이)라오! [target.GetSheHe]가 [target.Custom('quirk_neg_present')]는 얘기는 들으셨겠지. 실제로 그 꼴을 본 적 있소? 아주 가관이더군!\"\n\n[insulter.Custom2('MyCharacterIntroduction', ROOT.Char)|U](은)는 고개가 젖혀질 정도로 크게 폭소를 터트렸다.\n\n[target.GetFirstNameNoTooltip](은)는 친구들과 얘기를 나누고 있었다. 그래도 [insulter.GetHerHim]가 한 이야기는 들었을 테지. [target.GetFirstNameNoTooltip](이)가 상처받는 꼴을 보고 싶지가 않았다."
+ court_ongoing.1010.desc: "\"[insulter.GetFaith.HighGodName]께 맹세컨대 [target.GetTitledFirstName](은)는 상종할 수 없는 [target.Custom2('InsultNoun', SCOPE.sC('insulter'))](이)라오! [target.GetSheHe]가 [target.Custom('quirk_neg_present')]고 하던데, 얘기는 들으셨겠지. 실제로 그 꼴을 본 적 있소? 아주 가관이더군!\"\n\n[insulter.Custom2('MyCharacterIntroduction', ROOT.Char)|U](은)는 고개가 젖혀질 정도로 크게 폭소를 터트렸다.\n\n[target.GetFirstNameNoTooltip](은)는 친구들과 얘기를 나누고 있었다. 그래도 [insulter.GetHerHim]가 한 이야기는 들었을 테지. [target.GetFirstNameNoTooltip](이)가 상처받는 꼴을 보고 싶지가 않았다."
  court_ongoing.1010.a: "악독한 거짓말쟁이 같으니! 검을 뽑아라, [insulter.Custom2('InsultNoun', ROOT.Char)]!"
  court_ongoing.1010.b: "그분께 사과하시오."
  court_ongoing.1010.c: "[target.GetFirstNameNoTooltip], 저자는 헛소리만 해대는구려!"
@@ -172,7 +172,7 @@
  court_ongoing.1100.compassionate: "다정다감한 마음씨를 주제로 시를 쓰는 게 좋겠어."
  court_ongoing.1100.bold: "용감무쌍한 패기를 주제로 시를 쓰는 게 좋겠어."
  court_ongoing.1100.honorable: "고결한 성품을 주제로 시를 쓰는 게 좋겠어."
- court_ongoing.1100.greed: "원대한 야망을 주제로 시를 쓰는 게 좋겠어."
+ court_ongoing.1100.greed: "원대한 야심을 주제로 시를 쓰는 게 좋겠어."
  court_ongoing.1100.rational: "끝없는 지혜를 주제로 시를 쓰는 게 좋겠어."
  court_ongoing.1100.zealous: "불타는 신앙심을 주제로 시를 쓰는 게 좋겠어."
  court_ongoing.1100.energetic: "넘치는 활기를 주제로 시를 쓰는 게 좋겠어."

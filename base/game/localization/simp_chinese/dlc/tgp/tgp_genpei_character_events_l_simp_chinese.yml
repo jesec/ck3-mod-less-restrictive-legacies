@@ -7,7 +7,7 @@
  tgp_genpei_character.1000.b: "我们[ruler.GetDynasty.GetNameNoTooltip]氏必须团结一致对外。"
  tgp_genpei_character.1000.b.flavor: "如果你们打算扳倒几乎是无懈可击的[kiyomori_taira.GetDynastyName]氏，就必须调和你们的分歧。"
  tgp_genpei_character.1010.t: "$genpei_intro$野龙胆"
- tgp_genpei_character.1010.desc.intro: "[kiyomori_taira.GetFirstName]此獠！他的权欲如一条奔流无阻的河流，冲毁了贵族的传统与礼法。甚至自封为[kiyomori_taira.GetTitleAsName]，总领日本，也犹未能餍足他无度的渴求。[kiyomori_taira.GetSheHe]沉醉于[Glossary( '平', 'TAIRA_GLOSS' )]氏独霸的痴狂中，决意废黜[Glossary( '天皇', 'TENNO_GLOSS' )][old_emperor.GetTitledFirstName]，将[kiyomori_taira.GetHerHis]的孙子[new_emperor.GetFirstName]扶上[GetTitleByKey('k_chrysanthemum_throne').GetDefinitiveName|l]。"
+ tgp_genpei_character.1010.desc.intro: "[kiyomori_taira.GetFirstName]此獠！他的权欲如一条奔流无阻的河流，冲毁了贵族的传统与礼法。甚至自封为[kiyomori_taira.GetTitleAsName]，总领日本，也犹未能餍足[kiyomori_taira.GetHerselfHimself]无度的渴求。[kiyomori_taira.GetSheHe]沉醉于[Glossary( '平', 'TAIRA_GLOSS' )]氏独霸的痴狂中，决意废黜[Glossary( '天皇', 'TENNO_GLOSS' )][old_emperor.GetTitledFirstName]，将[kiyomori_taira.GetHerHis]的孙子[new_emperor.GetFirstName]扶上[GetTitleByKey('k_chrysanthemum_throne').GetDefinitiveName|l]。"
  tgp_genpei_character.1010.desc.blocboss: "既然是[Glossary( '源', 'MINAMOTO_GLOSS' )]氏利兵之首，我必须担负起责任。我们必须成为抵御[kiyomori_taira.GetDynasty.GetNameNoTooltip]氏野心的屏障，否则就只剩为其抬轿扶舆的份！"
  tgp_genpei_character.1010.desc.notblocboss: "\n\n在过去的岁月里，我的家族世代皆为抵御[kiyomori_taira.GetDynasty.GetNameNoTooltip]氏野心的屏障。如今的[Glossary( '源', 'MINAMOTO_GLOSS' )]氏庸主当道，竟让我们沦为舆夫。[minamoto_ruler.GetFirstName]过于孱弱，若是先父在世，断不会坐视此事发生。"
  tgp_genpei_character.1010.a: "我必须将[ruler.GetDynasty.GetNameNoTooltip]氏一族集结起来。"

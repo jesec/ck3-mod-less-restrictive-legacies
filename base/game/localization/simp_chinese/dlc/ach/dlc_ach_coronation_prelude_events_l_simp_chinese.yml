@@ -56,7 +56,7 @@
  prelude_events.0040.desc: "这天本该愉快，结果却被我那令人厌恶的仇敌，[guest.Custom2('InsultAdjective', ROOT.Char)][guest.GetTitledFirstName]的出现破坏了。\n\n“哦，[ROOT.Char.GetLadyLord][ROOT.Char.GetFirstNameNoTooltip]，”[guest.GetHerHim]假装没看到我，直到我走近。[guest.GetSheHe]讥讽道：“你是打算晚餐时给我们表演节目？还是说这就是你作为[ROOT.Char.GetTitleAsNameNoTooltip]出席加冕典礼的行头？”"
  prelude_events.0040.a: "等我收拾完[guest.GetSheHe|U]就不会这么嘴碎了。"
  prelude_events.0040.b: "“跟你妈学的。”"
- prelude_events.0040.c: "今晚我会暗中倾听[guest.GetTitledFirstNameNoTooltip]跟[guest.GetHerHis]朋友们说的每一句话。"
+ prelude_events.0040.c: "我会仔细聆听[guest.GetFirstNameNoTooltip]在这里说的每一句话。"
  prelude_events.0040.c.tt: "该[scheme|E]将#P 提高#![success_chance|E]"
  prelude_events.0040.d: "“这里可不是争吵的地方。”"
  every_callous_vengeful_wrathful_guest: "所有拥有[GetTrait('callous').GetName( GetNullCharacter )]、[GetTrait('vengeful').GetName( GetNullCharacter )]或[GetTrait('wrathful').GetName( GetNullCharacter )]特质的宾客"

@@ -9352,8 +9352,8 @@
  Hughes: "ユーグ"
  Hugo: "フーゴ"
  Hugolina: "フゴリナ"
- Hugues-Aymery: "ユゲス・イムリー"
- Hugues: "ユゲス"
+ Hugues-Aymery: "ユーグ・エメリー"
+ Hugues: "ユーグ"
  Hui: "暉"
  Huiarnal: "ヒュイアルナル"
  Huiarnbili: "ヒュイアルンビーリ"
@@ -18681,7 +18681,7 @@
  Stephanos: "ステファノス"
  Stephanou: "ステファノウ"
  Stephanus: "ステファヌス"
- Stephen: "ステファン"
+ Stephen: "スティーヴン"
  Steren: "ステーレン"
  Steven: "ステーヴェン"
  Steyn: "ステイン"
@@ -21238,7 +21238,7 @@
  Waldrada: "ワルトラーダ"
  Waldrade: "ヴァルトラーデ"
  Walenty: "ヴァレンティ"
- Waleran: "ウォールラン"
+ Waleran: "ワレラン"
  Walfredo: "ヴァルフレード"
  Walid: "ワリード"
  Walkelin: "ウォークラン"
@@ -35467,6 +35467,7 @@
  Kiyotsune_2: "清常" #清常
  Kiyotsune_3: "喜代常" #清恒
  Kiyotsura: "清面" #清貫
+ Kiyotsura_2: "清連" #清行
  Kiyoyasu: "清康" #清康
  Kiyoyo: "清代" #潔世
  Kiyoyoshi: "清吉" #清能
@@ -39852,6 +39853,7 @@
  Baek_eun: "ベクウン" #白欣 (백흔)
  Baek_go: "ベクゴ" #伯固 (백고)
  Baek_gye: "ベクギ" #伯計 (백계)
+ Baek_ho: "ベクホ" #白虎 (백호)
  Baek_seon: "ベクソン" #伯仙 (백선)
  Bag_wi_geo: "バッグウィゲオ" #駮位居 (박위거)
  Bal_gi: "バルギ" #發岐 (발기)
@@ -40032,6 +40034,7 @@
  Do_jeol: "ドジェル" #都切 (도절)
  Do_mong: "ドモン" #都蒙 (도몽)
  Do_ri_haeng: "ドリヘン" #都利行 (도리행)
+ Do_seon: "ドセオン" #道詵 (도선)
  Do_su: "ドス" #道秀 (도수)
  Dol_go: "ドルゴ" #咄固 (돌고)
  Don_jung: "ドンジュン" #敦中 (돈중)
@@ -40134,7 +40137,7 @@
  Geun_89B2: "ゲゥン" #覲 (근)
  Geun_8FD1: "グエン" #近 (근)
  Geun_cho_go: "グンチョゴ" #近肖古 (근초고)
- Geun_gu_su: "グエングス" #近仇首 (근구수)
+ Geun_gu_su: "グエン・グ・ス" #近仇首 (근구수)
  Geun_jil: "ゲゥンジル" #根質 (근질)
  Geung_5162: "グング" #兢 (긍)
  Geung_dal: "グンダル" #兢達 (긍달)
@@ -40698,6 +40701,7 @@
  Mong_go: "モンゴ" #蒙固 (몽고)
  Mong_ju: "モンジュー" #夢周 (몽주)
  Mu_6B66: "ムー" #武 (무)
+ Mu_che: "ムチェ" #無滯 (무체)
  Mu_deok: "ムードク" #武德 (무덕)
  Mu_hyul: "ムヒュル" #無恤 (무휼)
  Mu_ryeok: "ムリョク" #武力 (무력)
@@ -43741,18 +43745,74 @@
  Changming: "チャンミン"
  Fuwen: "フウェン"
  Qianyi: "チェンイ"
- Kil: "キル"
- Toson: "トソン"
  Upali: "ウパリ"
- Ly_Do_Doc: "リ・ド・ドク"
+ Do_Doc: "ド・ドク"
  Jojin: "ジョジン"
  Saburo: "サブロウ"
- Mu_Che: "ムチェ"
- Baekho: "ベクホ"
  Lo: "ロー"
  Nga_Yamankan: "ンガ・ヤマンカン"
  Mpu_Bharada: "ムプ・バラダ"
  Lembong: "レンボン"
  Boc: "ボック"
- Jinul: "ジンル"
  Tajima: "タジマ"
+ #Senoi
+ Andak_Jameah: "アンダク・ジャメア"
+ Atok_Balu: "アトック・バル"
+ Bei_Luus: "ベイ・ルース"
+ Berchanggi_Besi: "ベルチャンギ・ベシ"
+ Busuw_Dmeet_Long: "ブスウ・ドミート・ロング"
+ Cacat: "チャチャット"
+ Camut: "チャムット"
+ Cawog: "チャウォグ"
+ Cencog: "チェンチョグ"
+ Chekedoi: "チェケドイ"
+ Churog: "チュログ"
+ Curas: "チュラス"
+ Grcang: "グルチャン"
+ Han_Luj: "ハン・ルジ"
+ Hang_Tuah: "ハン・トゥア"
+ Inak: "イナク"
+ Jelondong: "ジェロンドン"
+ Jeludang: "ジェルダン"
+ Jerangong: "ジェランゴン"
+ Judah: "ユダ"
+ Kalib: "カリブ"
+ Kemaleg: "ケマレグ"
+ Ken_Pri: "ケン・プリ"
+ Klip: "クリプ"
+ Kning_Ledn: "クニング・レドゥン"
+ Luhj: "ルージ"
+ Mamak: "ママク"
+ Manoij: "マノイジ"
+ Mara_Semae: "マラ・セマエ"
+ Mat: "マット"
+ Meneh: "メネ"
+ Merja: "メルジャ"
+ Minoor: "ミノール"
+ Mrlooh: "ムルロー"
+ Nenek_Kerbau: "ネネッ・カルバウ"
+ Ngah: "ンガー"
+ Ngah_Hari: "ンガー・ハリ"
+ Nyenang_Raq: "ニェナン・ラク"
+ Pagar: "パガール"
+ Pegpeg: "ペグペグ"
+ Penjel: "ペンジェル"
+ Pl_iiimnh: "プリームン"
+ Planken: "プランケン"
+ Puntum: "プントゥム"
+ Rintang: "リンタン"
+ Risan: "リサン"
+ Rmpent: "ルムペント"
+ Ruwek: "ルウェク"
+ Samad: "サマド"
+ Segandi: "セガンディ"
+ Serani: "セラニ"
+ Seri_Alam: "セリ・アラム"
+ Taman: "タマン"
+ Tangge: "タンゲ"
+ Tawal: "タワル"
+ Tenggang: "テンガン"
+ Tkooy: "トゥクーイ"
+ Wa_Rhii: "ワ・リー"
+ Yam: "ヤム"
+ Jinul: "ジンル"

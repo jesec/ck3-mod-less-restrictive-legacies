@@ -1,5 +1,5 @@
 ﻿l_german:
- POTENTIAL_COUNCILLOR_TITLE: "Einen [CouncilPositionType.GetName] ernennen"
+ POTENTIAL_COUNCILLOR_TITLE: "Einen [CouncilPositionType.GetNameForPlayer] ernennen"
  CHARACTER_SORT_ALL_SKILLS: "Summe aller Werte"
  POTENTIAL_COUNCILLOR_REASSIGN: "Neu zuweisen"
  POTENTIAL_COUNCILLOR_ASSIGN: "Zuweisen"

@@ -558,7 +558,7 @@
  fp3_scholarship.2010.a: "[ROOT.Char.GetFaith.HighGodName]에 대한 의무가 먼저다."
  fp3_scholarship.2010.b: "차를 마시는 거 아니겠나?"
  fp3_scholarship.2020.t: "병적인 통찰력"
- fp3_scholarship.2020.desc: "\"제 연구가 벽에 부딪혔습니다.\" 나의 궁정 학자 [court_scholar.GetTitledFirstNameNoTooltip](이)가 말했다. \"책에서 얻을 수 있는 정보에는 한계가 있습니다. 잠시만이라도 [specimen.GetTitledFirstName](을)를 빌려주신다면 획기적인 발견을 함께 이룰 수 있을 겁니다.\"\n\n[court_scholar.GetSheHe|U]는 [specimen.GetTitledFirstNamePossessiveNoTooltip] 안전을 보장하지 못했다."
+ fp3_scholarship.2020.desc: "\"제 연구가 벽에 부딪혔습니다.\" 나의 궁정 학자 [court_scholar.GetTitledFirstNameNoTooltip](이)가 [ROOT.Char.Custom2('QuirkAdverbPosOrNeg', court_scholar)] 말했다. \"책에서 얻을 수 있는 정보에는 한계가 있습니다. 잠시만이라도 [specimen.GetTitledFirstName](을)를 빌려주신다면 획기적인 발견을 함께 이룰 수 있을 겁니다.\"\n\n[court_scholar.GetSheHe|U]는 [specimen.GetTitledFirstNamePossessiveNoTooltip] 안전을 보장하지 못했다."
  fp3_scholarship.2020.a: "얼마든지 그래도 좋다."
  fp3_scholarship.2020.b: "너의 뒤틀린 실험은 네 일지에나 간직하라."
  fp3_scholarship.2030.t: "공개한 결과"

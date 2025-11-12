@@ -19,7 +19,7 @@
  ep3_extra_security_modifier: "벽을 더 높이 쌓아라!"
  ep3_extra_security_modifier_desc: "해당 인물은 첩자에 대한 우려 때문에 장원의 보안을 보강했습니다."
  ep3_landless_admin.1020.t: "금화 약간만 있다면..."
- ep3_landless_admin.1020.desc.intro: "돈이 든 주머니에서 나는 소리는 놓치기 힘들다. [steward.GetTitledFirstName](이)가 문을 열어젖혔다.\n\n\"주군! 정말 찬란한 장원입니다! 하인들이"
+ ep3_landless_admin.1020.desc.intro: "돈이 든 주머니에서 나는 소리는 놓치기 힘들다. [steward.GetTitledFirstName](이)가 문을 열더니 [steward.Custom('quirk_pos_pp')].\n\n\"주군! 정말 찬란한 장원입니다! 하인들이"
  ep3_landless_admin.1020.desc.market: "시장"
  ep3_landless_admin.1020.desc.garden: "정원"
  ep3_landless_admin.1020.desc.guardhouse: "위병소"
@@ -40,7 +40,7 @@
  ep3_landless_admin.1020.h.flavor: "금화는 나와 함께 있어야 더 안전하겠지..."
  ep3_landless_admin.1020.j: "\"좋은 차야말로 품위의 상징이라 할 수 있지.\"" #Brit maxxing 101
  ep3_landless_admin.1030.t: "비밀의 비밀"
- ep3_landless_admin.1030.desc: "[liege.GetTitledFirstNamePossessive] 궁정에서 온 손님이 도착해 내 앞에 섰다.\n\n\"제가 한 말씀 올리겠습니다, [ROOT.Char.Custom('FormOfAddressForLiege')]. 당신께서 우리 주군께 관심이 있다고 들었는데... 전 그분을 잘 알죠. 궁정의 모두가 그분을 알고 있습니다. 그런데 비밀의 정도는 가장 약한 고리에 의해 결정되는 법 아닙니까.\" [courtier.GetSheHe]가 씩 웃었다.\n\n\"어떻습니까, 비밀에는 비밀로 보답하기로 하죠.\""
+ ep3_landless_admin.1030.desc: "[liege.GetTitledFirstNamePossessive] 궁정에서 온 손님이 도착해 내 앞에 서서 [courtier.Custom('quirk_pos_pp')].\n\n\"제가 한 말씀 올리겠습니다, [ROOT.Char.Custom('FormOfAddressForLiege')]. 당신께서 우리 주군께 관심이 있다고 들었는데... 전 그분을 잘 알죠. 궁정의 모두가 그분을 알고 있습니다. 그런데 비밀의 정도는 가장 약한 고리에 의해 결정되는 법 아닙니까.\" [courtier.GetSheHe]가 씩 웃었다.\n\n\"어떻습니까, 비밀에는 비밀로 보답하기로 하죠.\""
  ep3_landless_admin.1030.a: "\"그쪽이 #EMP 내#! 비밀을 누설할 수도 있잖나!?\""
  ep3_landless_admin.1030.b: "\"명예도 모르는 [courtier.GetWomanMan]은 상을 받을 자격도 없다.\""
  ep3_landless_admin.1030.c: "\"참 흥미로운 제안이로군...\""

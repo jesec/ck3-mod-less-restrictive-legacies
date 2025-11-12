@@ -316,12 +316,13 @@ hoarding_mayor = {
 		mayor_claim_gold = {
 			visible = no
 			effect = {
+				save_scope_as = task_contract
 				task_contract_taker = {
 					play_sound_effect = "event:/DLC/EP3/SFX/UI/Contracts/ep3_ui_contracts_success_on_contract"
 					if = {
 						limit = {
 							secret_siphoned_treasury_is_valid_trigger = {
-								OWNER = root
+								OWNER = scope:task_contract.task_contract_taker
 								TARGET = top_liege
 							}
 						}
@@ -331,7 +332,6 @@ hoarding_mayor = {
 						}
 					}
 				}
-				save_scope_as = task_contract
 				task_contract_employer ?= {
 					pay_short_term_gold = {
 						target = scope:task_contract.task_contract_taker
@@ -637,7 +637,7 @@ bountiful_harvest = {
 					if = {
 						limit = {
 							secret_siphoned_treasury_is_valid_trigger = {
-								OWNER = root
+								OWNER = scope:task_contract.task_contract_taker
 								TARGET = top_liege
 							}
 						}

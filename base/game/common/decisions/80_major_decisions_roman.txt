@@ -1,4 +1,5 @@
 ﻿#Restoring the Roman Empire (as Byzantium)
+### Restore the Roman Empire ###
 restore_roman_empire_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/ep3_decision_roman_restoration.dds"
@@ -106,6 +107,7 @@ restore_roman_empire_decision = {
 }
 
 #Restoring the Roman Empire (as HRE)
+### Restore the Roman Empire ###
 restore_roman_empire_holy_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
@@ -210,6 +212,7 @@ restore_roman_empire_holy_decision = {
 }
 
 #Restoring the Roman Empire (as Italia)
+### Restore the Roman Empire ###
 restore_roman_empire_italian_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
@@ -322,6 +325,7 @@ restore_roman_empire_italian_decision = {
 }
 
 #Restore the real Roman Empire
+### Form the Sultanate of Rum ###
 form_rum_sultanate_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp3/fp3_decision_concession.dds"
@@ -429,6 +433,7 @@ form_rum_sultanate_decision = {
 	}
 }
 
+### Mend the Great Schism ###
 mend_the_great_schism_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
@@ -523,6 +528,7 @@ mend_the_great_schism_decision = {
 	}
 }
 
+### Reclaim Constantinople ###
 set_capital_constantinople_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
@@ -612,6 +618,7 @@ set_capital_constantinople_decision = {
 	}
 }
 
+### Reclaim Rome ###
 set_capital_rome_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
@@ -680,6 +687,7 @@ set_capital_rome_decision = {
 	}
 }
 
+### Establish Iconoclast Patriarchate ###
 establish_iconoclast_patriarchate_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
@@ -740,6 +748,7 @@ establish_iconoclast_patriarchate_decision = {
 	}
 }
 
+### Restore Ecumenical Patriarchate ###
 restore_ecumenical_patriarchate_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
@@ -800,6 +809,7 @@ restore_ecumenical_patriarchate_decision = {
 	}
 }
 
+### Restore the Papacy ###
 restore_papacy_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
@@ -869,6 +879,7 @@ restore_papacy_decision = {
 	}
 }
 
+### Restore Pope in Rome ###
 restore_pope_in_rome_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
@@ -986,6 +997,7 @@ restore_pope_in_rome_decision = {
 	}
 }
 
+### Dismantle the Papacy ###
 dismantle_papacy_decision = { #For Muslims and Pagans.
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
@@ -1030,7 +1042,7 @@ dismantle_papacy_decision = { #For Muslims and Pagans.
 			limit = {
 				exists = title:k_papal_state.holder
 			}
-			title:k_papal_state.holder = { is_playable_character = no } #If he fled elsewhere, it cannot be done, the Pope must be landless.
+			title:k_papal_state.holder = { is_landed = no } #If he fled elsewhere, it cannot be done, the Pope must be landless.
 			title:k_papal_state.holder = { is_at_war = no } #Shouldn't be possible during a Crusade
 		}
 		completely_controls_region = world_europe_south_italy
@@ -1070,6 +1082,7 @@ dismantle_papacy_decision = { #For Muslims and Pagans.
 }
 
 #Uniting Italy
+### Unify Italy ###
 unify_italian_empire_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
@@ -1158,6 +1171,7 @@ unify_italian_empire_decision = {
 }
 
 #Roman Empires showdown decision.
+### Dismantle German Pretenders ###
 dismantle_holy_pretender_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
@@ -1233,6 +1247,7 @@ dismantle_holy_pretender_decision = {
 	}
 }
 
+### Dismantle Greek Pretenders ###
 dismantle_byz_pretender_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"

@@ -1574,7 +1574,10 @@ shirazi = {
 goryeo_hybrid = {
 	trigger = {
 		scope:culture = culture:goguryeo
-		scope:other_culture = { has_cultural_pillar = heritage_korean }
+		OR = {
+			scope:other_culture = culture:baekje
+			scope:other_culture = culture:silla
+		}
 	}
 	hybrid = yes
 }
@@ -1582,10 +1585,15 @@ goryeo_hybrid = {
 samhan_hybrid = {
 	trigger = {
 		OR = {
-			scope:culture = culture:silla
 			scope:culture = culture:baekje
+			scope:culture = culture:silla
 		}
-		scope:other_culture = { has_cultural_pillar = heritage_korean }
+		scope:other_culture = {
+			OR = {
+				has_cultural_pillar = heritage_buyeo
+				has_cultural_pillar = heritage_korean
+			}
+		}
 	}
 	hybrid = yes
 }

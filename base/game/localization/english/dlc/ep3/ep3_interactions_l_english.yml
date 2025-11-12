@@ -75,7 +75,7 @@
  admin_no_valid_appointment: "[recipient.GetShortUIName] does #bold not#! have a valid appointment to [revoke|E]"
 
  demand_admin_interaction: "Demand Administrative Governance"
- demand_admin_interaction_desc: "Ask [recipient.GetShortUIName|U] to abandon [recipient.GetGovernment.GetAdjective] [government|E] and become an [GetGovernment('administrative_government').GetName] [governor|E]"
+ demand_admin_interaction_desc: "Ask [recipient.GetShortUIName|U] to abandon [recipient.GetGovernment.GetAdjective] [government|E] — to embrace the [actor.GetGovernment.GetName] ways and serve as a [governor|E]"
  demand_admin_interaction_accept: "[recipient.GetShortUINameNoTooltip] Accepts Your Request"
  demand_admin_interaction_refuse: "[recipient.GetShortUINameNoTooltip] Refuses Your Request"
  demand_admin_interaction_extra_icon: "$hook_extra_icon$"
@@ -95,7 +95,7 @@
  ep3_interactions_events.0005.b: "My grace in this matter should be remembered."
  ep3_interactions_events.0005.c: "I could be persuaded, for just a little more..."
  ep3_interactions_events.0005.d: "Never! I am [recipient.GetPrimaryTitle.GetBaseNameNoTierPossessiveNoTooltip] rightful #EMP [recipient.GetTitleAsNameNoTooltip]#!!"
- demand_admin_interaction_vassal_refuses: "[recipient.GetShortUIName|U] will not become [administrative|E]"
+ demand_admin_interaction_vassal_refuses: "[recipient.GetShortUIName|U] will not become [actor.GetGovernment.GetName]"
  head_of_faith_unable_to_change_government_desc: "Cannot make a [head_of_faith|E] change [government|E]"
  demand_admin_hereditary_tt: "House [recipient.GetHouse.GetBaseName] must have at least #V 2#! living members"
  demand_admin_hereditary_exists_tt: "[recipient.GetPrimaryTitle.GetBaseNameNoTier] is already a hereditary governorship of House [recipient.GetPrimaryTitle.MakeScope.Var('petition_house_rights').House.GetBaseName]"
@@ -319,6 +319,7 @@
  char_interaction.0351.desc: "I have no need of eunuchs, [eunuch.GetName] may return home to you."
  char_interaction.0351.a: "Damn."
  eunuch_will_be_given_a_position_tt: "[secondary_recipient.GetName] will be given a [court_position|E] if able"
+ eunuch_offered_to_someone_else_tt: "This eunuch has already been offered to another character."
  offer_eunuch_interaction_extra_icon: "$hook_extra_icon$"
 
  cabinet_of_curiosities_interaction: "Add Artifact to Estate"

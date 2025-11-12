@@ -84,6 +84,8 @@
  tenet_hedonistic_name: "쾌락주의"
  tenet_hedonistic_desc: "신께서는 우리가 빠져들어 즐길 수 있도록 기쁨의 포상으로 세상을 가득 채우셨습니다. 이에 부응하지 않는 건 창조 그 자체를 부정하는 거나 매한가지입니다."
  doctrine_parameter_piety_from_feasts_active: "[GetActivityType('activity_feast').GetName] 주최 시 [piety|E] 획득"
+ doctrine_parameter_piety_from_festivals_active: "[AddLocalizationIf( HasDlcFeature( 'all_under_heaven' ), 'doctrine_parameter_piety_from_festivals_active_auh')]" #Only show if you have AUH
+ doctrine_parameter_piety_from_festivals_active_auh: "[GetActivityType('activity_festival').GetName] 주최 시 [piety|E] 획득"
  tenet_carnal_exaltation_name: "육욕의 쾌락"
  tenet_carnal_exaltation_desc: "육욕의 쾌락은 다른 체험을 뛰어넘는 숭고한 행위인지라 신께 더 가까이 다가갈 수 있는 매개이기도 합니다. 우리는 우리의 성욕을 찬양하고 충족시킬 수 있는 방법을 찾아야 합니다."
  tenet_polyamory_name: "다자연애"
@@ -170,7 +172,7 @@
  tenet_warmonger_name: "전쟁광"
  tenet_warmonger_desc: "신앙과 전쟁은 한 끗 차이입니다. 신의 이름으로 싸우길 거부하는 자는 참된 신자라 할 수 없습니다."
  doctrine_parameter_conquest_cb_enabled: "[rulers|E]가 인접한 영주들을 상대로 정복 [casus_belli|E]을 갖게 됨"
- doctrine_parameter_faith_can_raid: "외세 [Concept( 'counties', '영지' )|E]를 [raiding|E]해 전리품 획득 가능"
+ doctrine_parameter_faith_can_raid: "외세 [Concept( 'counties', '영지' )|E]를 [raiding|E]해 노획물 획득 가능"
  doctrine_parameter_invasion_cb_enabled: "명망 있는 [rulers|E]라면 인생에 딱 한 번 침략 [casus_belli|E]을 사용할 수 있음"
  doctrine_parameter_great_holy_wars_active_if_reformed: "[head_of_faith|E]가 존재하면서 [faith|E]이 [organized|E] 상태일 경우, [great_holy_wars|E]을 선포할 수 있음"
  tenet_ancestor_worship_name: "조상 숭배"

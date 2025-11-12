@@ -201,7 +201,7 @@
  epidemic_events.1100.a.eccentric: "Ne pourrais-je pas simplement attendre sur un bateau ?"
  epidemic_events.1100.a.zealous: "[ROOT.Char.GetFaith.HealthGodName|U] nous protège."
  epidemic_events.1100.a: "Que quelqu’un fasse quelque chose."
- epidemic_events.1100.b: "Appelez un médecin !"
+ epidemic_events.1100.b: "Faites venir un médecin !"
  epidemic_events.1100.c: "Faites venir un médecin !"
  look_for_physician_epidemic_tt: "Vous ferez appel à un [GetCourtPositionType('court_physician_court_position').GetName()|l] pour aider à lutter contre l’[epidemic|El]"
  physician_will_help_epidemic_tt: "Votre [GetCourtPositionType('court_physician_court_position').GetName()|l] vous donnera plusieurs options pour lutter contre l’[epidemic|El]"

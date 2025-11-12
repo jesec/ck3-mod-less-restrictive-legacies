@@ -198,7 +198,7 @@
  ep3_emperor_yearly.2160.b.tt2: "あなたの[governor_efficiency|E]が#N 5%#!減少する"
  #Secret Tunnels
  ep3_emperor_yearly.2170.t: "秘密のトンネル"
- ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier]は厄介な地域であり、我々の支配力がほとんど及ばない。この地域の人々は過酷な地で生き抜いてきた者であり、その険しく荒涼とした土地に関する知識と熟練度は比類がない。\n\n彼らは広大な地下道網や、安全な隠れ家、地下の住居を自作することで難を逃れる。天候が不利になったり、敵が攻めてきたり、皇帝に支払うべきものを要求する徴税人が近づいてきたりするたびに、彼らは簡単に姿を消すことができる。"
+ ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier]は厄介な地域であり、我々の支配力がほとんど及ばない。この地域の人々は過酷な地で生き抜いてきた者であり、その険しく荒涼とした土地に関する知識と熟練度は比類がない。\n\n彼らは広大な地下道網や、安全な隠れ家、地下の住居を自作することで難を逃れる。天候が不利になったり、敵が攻めてきたり、[ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]に支払うべきものを要求する徴税人が近づいてきたりするたびに、彼らは簡単に姿を消すことができる。"
  ep3_emperor_yearly.2170.a: "これは役に立つかもしれない…"
  ep3_emperor_yearly.2170.b: "この不法な慣習をやめさせなければならない。"
  #A Warm Meal?
@@ -231,6 +231,7 @@
  #The Emperor's Gold
  ep3_emperor_yearly.2200.t: "皇帝の金"
  ep3_emperor_yearly.2200.desc: "帝国の玉座にまったくふさわしくない者がいるとすれば、それは[liege.GetFirstName]だ。\n\n[governorship.GetName]が骨を折り、苦しみ、そして我々の税金はすべて[capital.GetNameNoTier]の怠け者の手に渡る。だが…\n\n我々の税金は#EMP 必ずしも#!支払わなければならないものではない。私ならもっとうまく使える…"
+ ep3_emperor_yearly.2200.desc.c_monarch: "[liege.GetTitledFirstName]に[ceremonial_monarch.GetTitleAsName]を導く資格など全くない！\n\n[governorship.GetName]が骨を折り、苦しみ、そして我々の税金はすべて[capital.GetNameNoTier]の怠け者の手に渡る。だが…\n\n我々の税金は#EMP 必ずしも#!支払わなければならないものではない。私ならもっとうまく使える…」"
  ep3_emperor_yearly.2200.a: "奴に我々の金を得る資格はない。"
  ep3_emperor_yearly.2200.b: "私の忠誠心は[ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]ではなく、[ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip]にある。"
  ep3_emperor_yearly.2200.a.tt: "価値のない忠誠"
@@ -274,7 +275,8 @@
  ep3_emperor_yearly.2240.desc_quote_b: "「[Glossary( 'Ho bíos brakhús, he dè tékhne makré', 'ARS_LONGA_GLOSS')]」[the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )]が溜め息をつき、乱雑なメモから一文を消す。一体いつ[the_scholar.GetSheHe]は私の仲間になったのだ！？"
  ep3_emperor_yearly.2240.desc_quote_c: "「[Glossary( 'Sophòn to saphés', 'SOPHON_GLOSS')]」[the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )]はまた基本通りにできず、愚痴を漏らす。"
  ep3_emperor_yearly.2240.desc_quote_latin: "「[Glossary( 'Omnia vincit amor', 'AMOR_GLOSS')]」[the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )]が険しい表情でもったいぶって話す。それがさっきまでの話とどう関係がある！？"
- ep3_emperor_yearly.2240.desc_outro: "\n\n[the_scholar.GetSheHe|U]は#EMP いつも#!こうだ。気に食わん！いつも、古代人から借りた言葉を思い付くと、頼んでもいないのに聞かせてくるのだ。それに文脈や内容を間違えていることも多い…\n\n周囲の多くの者が不満を言い、あきれている。有名人にはしっかりとした古典教育が必須だが、適切に使える知恵がなければ宝の持ち腐れだ。"
+ ep3_emperor_yearly.2240.desc_quote_confucius: "「[Glossary( '君子は言に訥にして、行いに敏ならんと欲す', 'CONFUCIUS_GLOSS' )]」[the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )]が厳めしい表情でもったいぶって述べた。それがさっきまでの話とどう関係がある！？"
+ ep3_emperor_yearly.2240.desc_outro: "\n\n[the_scholar.GetSheHe|U]は#EMP いつも#!こうして、古人の言葉の引用を頼んでもいないのに聞かせてくるのだ。それに文脈や内容を間違えていることも多い…\n\n周囲の多くの者が不満を言い、あきれている。公人にはしっかりとした古典教育が必須だが、適切に使える知恵がなければ宝の持ち腐れだ。"
  ep3_emperor_yearly.2240.a: "その引用句は#EMP 実際#!は…"
  ep3_emperor_yearly.2240.a.flavor: "あなたは間違いを示すことで、[the_scholar.GetFirstNameNoTooltip]に自分の立場をわからせようとする。"
  ep3_emperor_yearly.2240.a_success: "あなたの知識は[the_scholar.GetHersHis]よりも優れている"

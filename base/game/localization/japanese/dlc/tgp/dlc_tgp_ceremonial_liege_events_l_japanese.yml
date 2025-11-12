@@ -24,7 +24,7 @@
  tgp_ceremonial_liege_events.0020.desc_hunt: "狩りの楽しさを味わっている間、"
  tgp_ceremonial_liege_events.0020.desc_pilgrimage: "旅の道中で[opposing_power.GetFaith.HighGodName]との関係を深めている間、"
  tgp_ceremonial_liege_events.0020.desc_festival: "祭典で自らの権威を示している間、"
- tgp_ceremonial_liege_events.0020.desc_end: "私は依然として職務に縛られている。\n\n状況はさらに深刻になり得るが、機会が巡ってこない…"
+ tgp_ceremonial_liege_events.0020.desc_end: "私は依然として職務に縛られている。\n\n状況はさらに深刻になり得るが、機会が巡ってきた…"
  tgp_ceremonial_liege_events.0020.a: "そろそろ私自身の[opposing_power.GetInvolvedActivity.GetShortNameNoTooltip|l]を主催するべき時かもしれない。"
  tgp_ceremonial_liege_events.0020.a_desc: "あなたは自分の[activity|E]で[opposing_power.GetFirstNameNoTooltip]を凌ごうとする：\n$BULLET$自分の[opposing_power.GetInvolvedActivity.GetShortNameNoTooltip|l]の開催が#P 15%#!割引になる\n$BULLET$次の[opposing_power.GetInvolvedActivity.GetShortNameNoTooltip|l]が成功した場合、[prestige|E]を獲得し、[opposing_power.GetFirstNameNoTooltip]は一部の[prestige|E]を失う"
  tgp_ceremonial_liege_events_0020_discount_desc: "開催による報復"

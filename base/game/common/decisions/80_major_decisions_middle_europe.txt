@@ -1,4 +1,5 @@
 ﻿#Creating Switzerland "Kingdom"
+### Form the Swiss Confederation ###
 form_switzerland_kingdom_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -110,6 +111,7 @@ form_switzerland_kingdom_decision = {
 }
 
 #Creating Austrian Archduchy
+### Form Archduchy of Austria ###
 form_austria_kingdom_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -234,6 +236,7 @@ form_austria_kingdom_decision = {
 }
 
 #Reform Carolingian Empire
+### Restore Carolingian Borders ###
 reform_carolingian_empire_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
@@ -324,6 +327,7 @@ reform_carolingian_empire_decision = {
 }
 
 #Uniting the Burgundies
+### Unify the Burgundies ###
 unify_burgundy_kingdom_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -430,6 +434,7 @@ unify_burgundy_kingdom_decision = {
 	}
 }
 
+### Empower Sicilian Parliament ###
 empower_sicilian_parliament_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
@@ -550,6 +555,7 @@ empower_sicilian_parliament_decision = {
 }
 
 #Little Medieval French Renaissance.
+### Inspire Opus Francigenum ###
 promote_gothic_innovations_decision = { #12th century Renaissance
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
@@ -671,6 +677,7 @@ promote_gothic_innovations_decision = { #12th century Renaissance
 # Refound HRE 				#
 # by Ewan Cowhig Croft		#
 #############################
+### Restore the Holy Roman Empire ###
 restore_holy_roman_empire_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
@@ -957,6 +964,7 @@ restore_holy_roman_empire_decision = {
 # by Sean Hughes			#
 #############################
 
+### Establish Norman Culture ###
 establish_norman_culture_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
@@ -1145,6 +1153,7 @@ establish_norman_culture_decision = {
 # by James Beaumont			 		 #
 ######################################
 
+### Establish the Electorate of Saxony ###
 establish_the_electorate_of_saxony_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"

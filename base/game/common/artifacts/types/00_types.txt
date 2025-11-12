@@ -40,6 +40,14 @@ seal_of_investiture = {
 	}
 }
 
+seal_of_investiture_court = {
+	slot = pedestal
+	required_features = {
+		decoration_material_slate # Base material for seal's foundation
+		decoration_material_ink # Ink required for the calligraphy
+	}
+}
+
 # Armor
 armor_mail = {
 	slot = armor

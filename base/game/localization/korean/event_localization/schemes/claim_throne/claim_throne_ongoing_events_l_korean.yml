@@ -1,7 +1,7 @@
 ﻿l_korean:
  #Target is followed by ill omens
  claim_throne_ongoing.1001.t: "흉조"
- claim_throne_ongoing.1001.desc: "[target_title.GetNameNoTooltip](을)를 다스리고자 하는 나의 야망을 하늘이 알아주는구나! 까마귀 떼가 [target.GetTitledFirstNamePossessive] [target.Custom('ResidenceBuilding')] 지붕에 모여든 데다가, 며칠 전에는 온 [target_title.GetNameNoTierNoTooltip]에 별이 떨어지는 것만 같은 상황도 벌어졌다.\n\n농노나 귀족 할 것 없이 다들 [target.GetFirstNameNoTooltip](이)가 [ROOT.Char.GetFaith.PantheonTerm]의 가호를 잃었음을 나타내는 징조가 아니냐면서 수군대고 있다."
+ claim_throne_ongoing.1001.desc: "[target_title.GetNameNoTooltip](을)를 다스리고자 하는 나의 야심을 하늘이 알아주는구나! 까마귀 떼가 [target.GetTitledFirstNamePossessive] [target.Custom('ResidenceBuilding')] 지붕에 모여든 데다가, 며칠 전에는 온 [target_title.GetNameNoTierNoTooltip]에 별이 떨어지는 것만 같은 상황도 벌어졌다.\n\n농노나 귀족 할 것 없이 다들 [target.GetFirstNameNoTooltip](이)가 [ROOT.Char.GetFaith.PantheonTerm]의 가호를 잃었음을 나타내는 징조가 아니냐면서 수군대고 있다."
  claim_throne_ongoing.1001.a: "새로운 [target.GetTitleAsNameNoTooltip](을)를 맞이할 때가 되었노라!"
  claim_throne_ongoing.1001.b: "이러한 징조를 제대로 해석할 만한 이들은 [ROOT.Char.GetFaith.AltPriestTermPlural]뿐이야."
  #Gradually take on more responsibility in the realm

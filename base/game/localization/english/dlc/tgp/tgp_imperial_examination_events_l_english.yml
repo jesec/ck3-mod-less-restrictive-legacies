@@ -146,7 +146,11 @@
  imperial_examination.3005.desc.martial: "Sweat runs down my back from carrying arrows to refill quivers, small cuts covers my hands from sharpening blades."
  imperial_examination.3005.desc.scholar: "Sweat runs down my back from carrying scrolls back and forth between examination booths, ink stains my fingertips black from refilling ink cartridges."
  imperial_examination.3006.a: "Now, the real work begins."
- 
+
+ imperial_examination.3007.t: "$imperial_examination.3000.t$"
+ imperial_examination.3007.desc: "With a groan and the heavy thud, the gates to the examination compound are shut. The courtyard bells ring out, calling on us to assemble."
+ imperial_examination.3007.a: "Time to prove my worth."
+ imperial_examination.3007.a.success_tooltip_first: "#weak To pass the Metropolitan Examination, you need a score of #V 50#!. To take the Palace Exam, you need to place in the top ten bracket.#!"
  # Entrant caught cheating
  imperial_examination.3010.t: "A Weed Among the Flowers"
  imperial_examination.3010.desc: "I pause outside the examiners' office, caught by their hushed conversation. "I have never seen such an ingenious cheater before," examiner [examiner.GetTitledFirstName] says."
@@ -261,10 +265,10 @@
  imperial_examination.8000.a: "The eyes of heaven gaze upon me!"
 
  imperial_examination.8010.t: "At the Tavern"
- imperial_examination.8010.desc: "I am no longer confined to the examination compound, but still I take a few moments before I face my friends and family."
+ imperial_examination.8010.desc: "I did not receive an invitation to the Palace Examination. My actual score has not been released yet. In the interim, I am no longer confined to the examination compound.\n\n"
  imperial_examination.8010.desc_worried: "The bustle of the tavern fails to reach me, as I sit and ponder what I possibly could have done differently."
  imperial_examination.8010.desc_fallback: "The examination is finally over, and I can breathe a sigh of relief."
- imperial_examination.8010.a: "I should focus on studying."
+ imperial_examination.8010.a: "I need to study hard for the next one."
  imperial_examination.8010.b: "Still, I am pleased with my result."
 
  imperial_examination.9000.t: "A Most Esteemed Gathering"
@@ -307,7 +311,7 @@
  imperial_examination.5000.desc_bridge: "\n\nI am asked to address the following topic:"
  governance_weaponry: ""Someone claims to only own a spear, while in secret possession of crossbows. What punishment should be imposed?""
  governance_reinstatement: ""A deserving official is denied reinstatement, while an undeserving official is granted reinstatement. How should the situation be judged?""
- governance_documents: "If an officer opens a sealed document without proper authorization, how should they be disciplined?"
+ governance_documents: ""If an officer opens a sealed document without proper authorization, how should they be disciplined?""
  governance_filial: ""If a criminal with no known relatives who has been sentenced to death has been pardoned after the execution, should the proper documents be changed to restore their reputation?""
  imperial_examination.5000.a: "Where is my brush!"
  imperial_examination.5000.a.cheater: "I'll do my best..."
@@ -414,7 +418,7 @@
  other_entrant_practiced_ride: "gallop with practiced ease across the range, but lacks the courage to draw [other_entrant.GetHerHis] bow, making for a sorry display."
  other_entrant_spooked_horse: "dig his spurs in to spook the poor creature, who successfully bucks him off. It is a pitiful, but somewhat comforting, sight."
  other_entrant_swift_success: "drive swiftly across the plain, sending a volley of shots in rapid succession, [other_entrant.GetHerHis] movements flowing like the water."
- other_entrant_shortstop_fail: "gallop across the field, leaning forward just right over the saddle, but none of [other_entrant.GetHerHis] land where they should."
+ other_entrant_shortstop_fail: "gallop across the field, leaning forward just right over the saddle, but none of [other_entrant.GetHerHis] arrows land where they should."
 
  imperial_examination.duel.riding.critical_success.tt: "Your technique is perfect"
  imperial_examination.duel.riding.great_success.tt: "Your technique is impressive"
@@ -480,7 +484,7 @@
  imperial_examination.7000.t: "Releasing the Roll"
  imperial_examination.7000.desc.emperor: "The academy drums sound once more at the releasing of the roll. Entrants gather before the posted results, quiet in expectation and reverence, hoping to have climbed the stairway to high office.\n\nThe Palace entrants are set before all of their peers as example and reward, while the lesser students bow their heads in turn."
  imperial_examination.7000.desc.cheater: "The academy drums shake me from my reprieve where I am standing on the outskirts of the examination compound. I watch as my peers rush to the releasing of the roll, hopeful of their examination results.\n\nBeyond them, I catch a glimpse of the Palace Examination entrants, who are posed at the front of the imperial palace's courtyard. The day is clear, and heaven is watching."
- imperial_examination.7000.desc.entrant: "The academy drums signal the end of the examination. I rush to the releasing of the roll to find that I received a [ROOT.Char.Custom('PlayerGetExamScoreAdjective')] score of #V [ROOT.Char.MakeScope.Var('imperial_examination_score').GetValue|0]#!.\n\nMeanwhile, the highest ranking entrants from the Palace Examination are posed at the front of the imperial palace's courtyard. I look up at [first_place_entrant.GetFirstName], who placed first among them, becoming the [host.GetTitleAsNamePossessiveNoTooltip] favorite."
+ imperial_examination.7000.desc.entrant: "The academy drums signal the end of the examination. I rush to the releasing of the roll to find that I received a [ROOT.Char.Custom('PlayerGetExamScoreAdjective')] score of #V [ROOT.Char.MakeScope.Var('imperial_examination_score').GetValue|0]#!, placing me [ROOT.Char.MakeScope.Var('your_exam_position').GetValue|O] in the roll.\n\nMeanwhile, the highest ranking entrants from the Palace Examination are posed at the front of the imperial palace's courtyard. I look up at [first_place_entrant.GetFirstName], who placed first among them, becoming the [host.GetTitleAsNamePossessiveNoTooltip] favorite."
  imperial_examination.7000.desc.palace_entrant: "The academy drums signal the end of the examination. I stand with my peers from the Palace Examination, posed at the front of the imperial palace's courtyard, overlooking the lower-level entrants who gather before the releasing of the roll below us.\n\nWhen the Metropolitan entrants notice us, they bow and bend their heads in reverence. I feel a sense of the glory and power that awaits me."
  imperial_examination.7000.desc.fallback: "By the glory of the benign [host.GetTitleAsNameNoTooltip], another [GetActivityType('activity_imperial_examination').GetName] is complete. With it, a host of scholars have climbed the stairway to high office."
  imperial_examination.7000.a: "All is well under the heavens."
@@ -495,15 +499,19 @@
  imperial_examination.7001.desc.fallback: "\n\nWith that, a fresh host of scholars have taken their first, but most important step along the stairway to high office."
  imperial_examination.7001.a: "This is a day to remember."
 
+ imperial_examination.7003.desc: "The bell chimes, signaling that the [GetActivityType('activity_imperial_examination').GetName] has ended and its results published."
+
  # CLOSE FAMILY NOTIFICATION EVENTS
 
  # Intro event
  imperial_examination.7100.t: "Family Represented at Examination"
- imperial_examination.7100.desc: "By the glory our benign [host.GetTitleAsNameNoTooltip], we have a fresh batch of prospective governors following the Central Examination in [location.GetName]."
- imperial_examination.7100.desc.intro_nr_of_relatives_singular: "Only my [ROOT.Char.Custom2('RelationToMeShort', house_member)|U] [house_member.GetTitledFirstName] attended the event, to the great shame of house [ROOT.Char.GetHouse.GetNameNoTooltip]."
- imperial_examination.7100.desc.intro_nr_of_relatives: "\n\n[ROOT.Char.MakeScope.Var('num_exam_family_entrants').GetValue] members of house [ROOT.Char.GetHouse.GetNameNoTooltip] undertook the examination."
+ imperial_examination.7100.desc: "By the glory our benign [host.GetTitleAsNameNoTooltip], we have a fresh batch of prospective governors following the Capital Examination in [location.GetName]."
+ imperial_examination.7100.desc.intro_nr_of_relatives_singular: "Only my [ROOT.Char.Custom2('RelationToMeShort', house_member)|U] [house_member.GetTitledFirstName] attended as entrant."
+ imperial_examination.7100.desc.intro_nr_of_relatives: "\n\n[ROOT.Char.MakeScope.Var('num_exam_family_entrants').GetValue] members of house [ROOT.Char.GetHouse.GetNameNoTooltip] attended as entrants."
  imperial_examination.7100.desc.all_failed: "[ROOT.Char.Custom('ActivityGetFaileesBothAll')] of them failed."
- imperial_examination.7100.desc.all_passed: "[ROOT.Char.Custom('ActivityGetSuccessfulBothAll')] of them honored our good name."
+ imperial_examination.7100.desc.all_passed_provincial: "[ROOT.Char.Custom('ActivityGetSuccessfulBothAll')] of them honored our good name and passed their Examination."
+ imperial_examination.7100.desc.all_passed_metropolitan: "[ROOT.Char.Custom('ActivityGetSuccessfulBothAll')] of them honored our good name and passed the Provincial Examination."
+ imperial_examination.7100.desc.all_passed: "[ROOT.Char.Custom('ActivityGetFaileesBothAll')] of them honored our good name."
  imperial_examination.7100.desc.one_passed: "Only one of them honored our good name."
  imperial_examination.7100.desc.win_lose_ratio: "[ROOT.Char.MakeScope.Var('num_exam_family_entrants_passed').GetValue] passed, while [ROOT.Char.MakeScope.Var('num_exam_family_entrants_failed').GetValue] failed the test."
  imperial_examination.7100.desc.won_palace: "Out of these, [ROOT.Char.MakeScope.Var('num_exam_family_passed_palace').GetValue] made it to the Palace Examination."
@@ -537,7 +545,7 @@
  
  #Palace event
  imperial_examination.7055.t: "Family Honored at Palace Examination"
- imperial_examination.7055.desc: "It is truly a blessing to have the house [ROOT.Char.GetHouse.GetNameNoTooltip] represented at the Palace Examination. My kin has stood before the [host.top_liege.Custom('GetDaughterSon')] of Heaven [host.top_liege.GetHerselfHimself], and proved worthy of [host.top_liege.GetHerHis] commendation.\n\nThis is surely a sign of prosperous times to come."
+ imperial_examination.7055.desc: "It is truly a blessing to have house [ROOT.Char.GetHouse.GetNameNoTooltip] represented at the Palace Examination. My kin has stood before the [host.Custom('GetDaughterSon')] of Heaven [host.GetHerselfHimself], and proved worthy of [host.GetHerHis] commendation.\n\nThis is surely a sign of prosperous times to come."
  imperial_examination.7055.b: "As expected from a member of house [ROOT.Char.GetHouse.GetNameNoTooltip]"
 
  #Failee event

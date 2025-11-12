@@ -40,7 +40,7 @@
  spymaster_task.0311.secret_lover.consort: "\n\n¡Mi propi[secret_holder.Custom('ES_OA')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secret_holder'))] ha tomado a [lover.Custom2('MyCharacterIntroduction', ROOT.Char)] como amante!"
  spymaster_task.0311.secret_lover.consort_is_lover: "\n\n¡Ha tomado a [lover.GetTitledFirstName|l], mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))], como amante!"
  spymaster_task.0311.secret_lover.lover_close_to_me: "\n\nHa tomado a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))], [lover.GetTitledFirstName|l], como amante. ¡Quién sabe cómo empezó, pero qué desgracia para la pareja si se llega a saber!"
- spymaster_task.0311.secret_lover.lustful: "\n\nHa entrado en tratos carnales con [lover.GetTitledFirstName|l], recorriendo su cuerpo con sus manos, besándose de toda clase de formas… ¡Qué escándalo si se hiciera público!"
+ spymaster_task.0311.secret_lover.lustful: "\n\nHa entrado en tratos carnales con [lover.Custom('ES_ElLa')] [lover.GetTitledFirstName|l], recorre el cuerpo de [lover.GetFirstNameNoTooltip] con sus manos, se besan de toda clase de formas… ¡Qué escándalo si esto se hiciera público!"
  spymaster_task.0311.secret_lover: "\n\nHa tomado en secreto a [lover.Custom2('MyCharacterIntroduction', ROOT.Char)] como amante."
  spymaster_task.0346.a.consort: "¡Es indignante!"
  spymaster_task.0346.a.close: "Esto va a ser complicado."

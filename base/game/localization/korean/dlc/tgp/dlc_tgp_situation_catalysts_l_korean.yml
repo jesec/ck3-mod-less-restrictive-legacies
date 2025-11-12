@@ -54,7 +54,7 @@
  catalyst_hegemon_above_maa_limit_yearly_desc: "연간 변화 추이: [son_of_heaven|E]가 [men_at_arms|E] 최대치를 초과함"
  catalyst_hegemon_below_maa_limit_yearly: "연간 [men_at_arms|E] 한도 미달 [dynastic_cycle_catalyst|E]"
  catalyst_hegemon_below_maa_limit_yearly_desc: "연간 변화 추이: [son_of_heaven|E]가 [men_at_arms|E] 최대치에 미달함"
- catalyst_hegemon_outdated_maa_yearly: "연간 구식 [men_at_armss|E] [dynastic_cycle_catalyst|E]"
+ catalyst_hegemon_outdated_maa_yearly: "연간 구식 [men_at_arms|E] [dynastic_cycle_catalyst|E]"
  catalyst_hegemon_outdated_maa_yearly_desc: "연간 변화 추이: [son_of_heaven|E]가 구식 [men_at_arms|E] [regiments|E]를 보유함"
  catalyst_hegemon_lost_defensive_territorial_war: "방어 영토 상실 [war|E] [dynastic_cycle_catalyst|E]"
  catalyst_hegemon_lost_defensive_territorial_war_desc: "[son_of_heaven|E]가 방어 [war|E]에서 영토를 상실함"
@@ -66,11 +66,11 @@
  catalyst_hegemon_won_war_desc: "[son_of_heaven|E]가 [war|E]에서 승리함"
  # Merit
  catalyst_hegemon_low_merit_vassals_yearly: "연간 낮은 [merit_level|E] [vassals|E] [dynastic_cycle_catalyst|E]"
- catalyst_hegemon_low_merit_vassals_yearly_desc: "연간 변화 추이: [son_of_heaven_possessive|E] [vassals|E] 중 #V 50%#! 이상의 [merit_level|E]이 $MERIT_LEVEL_LABEL_6$보다 낮음"
+ catalyst_hegemon_low_merit_vassals_yearly_desc: "연간 변화 추이: [son_of_heaven_possessive|E] [vassals|E] 중 #V 50%#! 이상의 [merit_level|E]가 $MERIT_LEVEL_LABEL_6$보다 낮음"
  catalyst_hegemon_appointing_low_merit_councillor: "낮은 [merit_level|E] [minister|E] [dynastic_cycle_catalyst|E]"
- catalyst_hegemon_appointing_low_merit_councillor_desc: "[son_of_heaven|E]가 [merit_level|E]이 $MERIT_LEVEL_LABEL_7$보다 낮은 [minister|E]를 임명함"
- catalyst_hegemon_appointing_low_merit_governor: "낮은 [merit|E] [governor|E] [dynastic_cycle_catalyst|E]"
- catalyst_hegemon_appointing_low_merit_governor_desc: "[son_of_heaven|E]가 [merit_level|E]이 기대 [appointment_level|E]보다 낮은 [governor|E]을 임명함"
+ catalyst_hegemon_appointing_low_merit_councillor_desc: "[son_of_heaven|E]가 [merit_level|E]가 $MERIT_LEVEL_LABEL_7$보다 낮은 [minister|E]를 임명함"
+ catalyst_hegemon_appointing_low_merit_governor: "낮은 [merit_level|E] [governor|E] [dynastic_cycle_catalyst|E]"
+ catalyst_hegemon_appointing_low_merit_governor_desc: "[son_of_heaven|E]가 [merit_level|E]가 기대 [appointment_level|E]보다 낮은 [governor|E]을 임명함"
  catalyst_imperial_examinations_gap_long_yearly: "연간 과거 없음 [dynastic_cycle_catalyst|E]"
  catalyst_imperial_examinations_gap_long_yearly_desc: "연간 변화 추이: #V [EmptyScope.ScriptValue('catalyst_imperial_examinations_gap_long_yearly_value')]#!년 동안 개최된 [imperial_examinations|E] 없음"
  catalyst_imperial_examinations_gap_short_yearly: "연간 단기 과거 없음 [dynastic_cycle_catalyst|E]"
@@ -104,7 +104,7 @@
  catalyst_hegemon_gains_mandate_of_heaven_desc: "새로운 [son_of_heaven|E]가 [mandate_of_heaven|E]에 대한 명분을 주장하고 [GetTitleByKey('h_china').GetDefinitiveName](을)를 차지함"
  # Calamities
  catalyst_hegemon_in_civil_war: "[civil_war|E] 발발 [dynastic_cycle_catalyst|E]"
- catalyst_hegemon_in_civil_war_desc: "[son_of_heaven|E]가 [faction|E]의 요구에 대응하지 못하여 [civil_war|E]이 벌어짐"
+ catalyst_hegemon_in_civil_war_desc: "[son_of_heaven|E]가 [faction|E]의 요구를 거부하거나 [tyrant|E]이 되어 [civil_war|E]으로 이어짐"
  catalyst_hegemon_natural_disaster: "연간 진행 중인 [natural_disaster|E] [dynastic_cycle_catalyst|E]"
  catalyst_hegemon_natural_disaster_desc: "연간 변화 추이: [natural_disasters|E] 진행 중"
  catalyst_hegemon_natural_disaster_recovered: "[natural_disaster|E] 복구 완료"
@@ -120,11 +120,11 @@
  catalyst_imperial_treasury_raided_desc: "[imperial_treasury|E]가 [raided|E] 또는 [besieged|E]당함"
  catalyst_imperial_treasury_debt: "[imperial_treasury|E] 파산"
  catalyst_imperial_treasury_debt_desc: "연간 변화 추이: [imperial_treasury|E]가 파산함"
-# Held Lands
+ # Held Lands
  catalyst_hegemony_too_few_lands: "연간 [son_of_heaven|E]가 너무 적은 [de_jure|E] [titles|E] 보유 [dynastic_cycle_catalyst|E]"
- catalyst_hegemony_too_few_lands_desc: "연간 변화 추이: [son_of_heaven|E]가 [completely_controls|E]한 [de_jure|E] [titles|E]가 #V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#! 미만"
- catalyst_hegemony_far_too_few_lands: "[son_of_heaven|E]가 너무 적은 [de_jure|E] [titles|E] 보유 [dynastic_cycle_catalyst|E]"
- catalyst_hegemony_far_too_few_lands_desc: "[son_of_heaven|E]가 [completely_controls|E]한 [de_jure|E] [titles|E]가 #V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#! 미만"
+ catalyst_hegemony_too_few_lands_desc: "연간 변화 추이: [son_of_heaven|E]가 [GetTitleByKey('h_china').GetDefinitiveName] [de_jure|E] [Concept( 'counties', '영지' )|E]의 #V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#! 미만을 통제함"
+ catalyst_hegemony_far_too_few_lands: "[son_of_heaven|E]가 너무 적은 [de_jure|E] [titles|E] [dynastic_cycle_catalyst|E]를 보유함"
+ catalyst_hegemony_far_too_few_lands_desc: "[son_of_heaven|E]가 [GetTitleByKey('h_china').GetDefinitiveName] [de_jure|E] [Concept( 'counties', '영지' )|E]의 #V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#! 미만을 통제함"
  # Regency
  catalyst_diarch_mandate: "[grand_secretariat_possessive|E] 자치 [dynastic_cycle_catalyst|E]"
  catalyst_diarch_mandate_desc: "[grand_secretariat|E]이 [son_of_heaven_possessive|E] 찬성 없이 행동함"
@@ -140,6 +140,8 @@
  # Great Projects
  catalyst_grand_campaign: "[son_of_heaven|E]가 [GetGreatProjectType('grand_campaign_project').GetName] [great_project|E] 획득 [dynastic_cycle_catalyst|E]"
  catalyst_grand_campaign_desc: "[son_of_heaven_possessive|E] [GetGreatProjectType('grand_campaign_project').GetName] [great_project|E]이 성공적입니다"
+ catalyst_grand_campaign_lost: "[son_of_heaven|E]가 [GetGreatProjectType('grand_campaign_project').GetName] [great_project|E] [dynastic_cycle_catalyst|E] 실패"
+ catalyst_grand_campaign_lost_desc: "[son_of_heaven_possessive|E] [GetGreatProjectType('grand_campaign_project').GetName] [great_project|E]이 실패함"
  catalyst_minister_project_culture: "[son_of_heaven|E]가 [GetGreatProjectType('minister_project_culture').GetName] [great_project|E] 완료 [dynastic_cycle_catalyst|E]"
  catalyst_minister_project_culture_desc: "[son_of_heaven_possessive|E] [GetGreatProjectType('minister_project_culture').GetName] [great_project|E]이 성공적입니다"
  catalyst_great_wall: "$building_the_great_wall_01$ 건설 [situation_catalyst|E]"

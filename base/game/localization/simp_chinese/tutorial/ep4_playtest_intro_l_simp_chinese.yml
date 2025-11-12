@@ -1,15 +1,4 @@
 ﻿l_simp_chinese:
- ### JAPAN
- lesson_tgp_playtest_intro_japan_step_government: "政体"
- lesson_tgp_playtest_intro_japan_step_government_desc: "日本不是纯粹的[feudal|E]或[administrative|E][realm|E]。\n\n相反，[vassals|E]可以拥有[ritsuryo_i][ritsuryo|E]或[soryo_i][soryo|E][government|E]，代表帝国朝廷与地方豪强的分裂。\n\n位于日本的[vassals|E]通常也只统治一个[county|E]。\n\n#I 你可以在政府行政面板找到日本政体信息#!"
- lesson_tgp_playtest_intro_japan_step_emperor_and_regent: "天皇和摄关"
- lesson_tgp_playtest_intro_japan_step_emperor_and_regent_desc: "日本的实际[ruler|E]#BOLD 不是#![japanese_emperor|E]。\n\n在游戏开局时，[kampaku|E]统治着日本，天皇只是傀儡。\n\n[ritsuryo|E]统治者可以争夺[kampaku|E]之位，而[soryo|E]统治者只能通过#V $replace_ceremonial_regent_faction_name$#![faction|E]夺权。\n\n虽然[tenno|E]并不直接统治，不过他拥有自己的[japanese_manor|E]，并可以被任命为[kampaku|E]，作为[cloistered_emperor|E]统治。\n\n日本统治者，无论是谁，都可以设置[imperial_policy|E][law|E]影响整个帝国。"
- lesson_tgp_playtest_intro_japan_step_house_aspirations: "家族志向"
- lesson_tgp_playtest_intro_japan_step_house_aspirations_desc: "所有日本[houses|E]都拥有一项[house_aspiration|E]。\n\n这项属性影响所有$game_concept_house$成员，并且可以由[house_head|E]逐渐提高。\n\n#I 你可以在“$ADMINISTRATIVE_GOVERNMENT_HEADER$”面板查看和升级你的$game_concept_house_aspiration$。"
- lesson_tgp_playtest_intro_japan_step_blocs: "家族集团"
- lesson_tgp_playtest_intro_japan_step_blocs_desc: "你的[house|E]属于一个[house_bloc|E]，这是一种[houses|E]间的防御性同盟。\n\n$game_concept_house_bloc$的成员退出拥有相同的[house_aspiration|E]和良好的[house_relations|E]。否则，[bloc_cohesion|E]会降低，[leading_house|E]可以选择将引发争议的$game_concept_houses$逐出$game_concept_bloc$。\n\n#I 你可以点击高亮按钮查看你的$game_concept_bloc$的状况。#!"
- lesson_tgp_playtest_intro_japan_step_end: "日本"
- lesson_tgp_playtest_intro_japan_step_end_desc: "在日本，政治始终是两方之间的较量。明智地领导你的[house|E]，日本的未来将由你决定。"
  ### MANDALA
  action_lesson_tgp_playtest_intro_mandala: "曼荼罗制政体"
  action_lesson_tgp_playtest_intro_mandala_desc: "曼荼罗制是注重虔诚和朝贡者的特殊政体。点击此处了解更多关于该政体的信息。"

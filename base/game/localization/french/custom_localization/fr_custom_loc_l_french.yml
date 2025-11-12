@@ -353,6 +353,7 @@
  relation_fellow_subject_male_FR_OnA: "on pair sujet"
  relation_servant_of_china_female_FR_OnA: "a camarade servante de [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTier]"
  relation_servant_of_china_male_FR_OnA: "on camarade serviteur de [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTier]"
+ relation_tributary_FR_OnA: "[second.Custom('FR_OnA')] tributaire"
 
  daughter_in_law_FR_Le: "la belle-fille"
  relation_acquaintance_female_FR_Le: "la connaissance"
@@ -606,6 +607,8 @@
  relation_suzerain_FR_Le: "[second.Custom('FR_LeLa')] suzerain[second.Custom('FR_E')]"
  relation_fellow_subject_female_FR_Le: "le pair sujet"
  relation_fellow_subject_male_FR_Le: "le pair sujet"
+ relation_tributary_FR_Le: "[second.Custom('FR_LeLa')] tributaire"
+
 
  # FR_CompositionType_lela
  CompositionType_song_FR_Le: "la chanson"

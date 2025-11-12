@@ -1,6 +1,7 @@
 ﻿l_japanese:
  ALL_CLAIMANTS: "すべての[claimants|E]"
  ANY_CLAIMANT: "任意の[claimant|E]"
+ NOT_ANY_CLAIMANT: "称号には[claimants|E]がいない"
  ANY_CHILD: "任意の子供："
  ANY_CHILD_FIRST: "任意の我が子："
  ANY_CHILD_THIRD: "任意の[CHARACTER.GetShortUINamePossessive]の子供："

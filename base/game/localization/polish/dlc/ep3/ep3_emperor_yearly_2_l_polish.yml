@@ -198,7 +198,7 @@
  ep3_emperor_yearly.2160.b.tt2: "Twoja [governor_efficiency|El] spada o #N 5%#!"
  #Secret Tunnels
  ep3_emperor_yearly.2170.t: "Tajne tunele"
- ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier] to trudny teren, który ledwo kontrolujemy. Mieszka tu hardy lud, któremu nikt nie jest w stanie dorównać, jeśli chodzi o radzenie sobie na tak nieprzyjaznym, dzikim obszarze.\n\nW przetrwaniu pomaga im ich własne dzieło: rozległa sieć tuneli, kryjówek i podziemnych osad, gdzie mogą z łatwością się schować, gdy uderza w nich gwałtowna pogoda, atakuje wróg lub przybywają poborcy podatkowi, domagając się tego, co należne cezarowi."
+ ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier] to trudny teren, który ledwo kontrolujemy. Mieszka tu hardy lud, któremu nikt nie jest w stanie dorównać, jeśli chodzi o radzenie sobie na tak nieprzyjaznym, dzikim obszarze.\n\nW przetrwaniu pomaga im ich własne dzieło: rozległa sieć tuneli, kryjówek i podziemnych osad, gdzie mogą z łatwością się schować, gdy uderza w nich gwałtowna pogoda, atakuje wróg lub przybywają poborcy podatkowi, domagając się tego, co należne osobie znanej jako [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]."
  ep3_emperor_yearly.2170.a: "To się może przydać…"
  ep3_emperor_yearly.2170.b: "Trzeba ukrócić ten nielegalny proceder."
  #A Warm Meal?
@@ -231,6 +231,7 @@
  #The Emperor's Gold
  ep3_emperor_yearly.2200.t: "Złoto cesarza"
  ep3_emperor_yearly.2200.desc: "Jeśli mam wymienić osobę niegodną zasiadania na tronie cesarskim, jest to [liege.GetFirstName].\n\nW miejscu znanym jako [governorship.GetName] ludzie harują i cierpią, a nasze podatki idą do tego próżniaka w mieście o nazwie [capital.GetNameNoTier]. A może…\n\nNasze podatki nie #EMP muszą#! tam trafiać. Wiem, jak zrobić z nich lepszy użytek…"
+ ep3_emperor_yearly.2200.desc.c_monarch: "[liege.GetTitledFirstName] to osoba niegodna, aby wskazywać drogę komuś takiemu jak [ceremonial_monarch.GetTitleAsName]!\n\nW miejscu znanym jako [governorship.GetName] ludzie harują i cierpią, a nasze podatki idą do tego próżniaka w mieście o nazwie [capital.GetNameNoTier]. A może…\n\nNasze podatki nie #EMP muszą#! tam trafiać. Wiem, jak zrobić z nich lepszy użytek…"
  ep3_emperor_yearly.2200.a: "[liege.GetSheHe|U] nie zasługuje na nasze złoto."
  ep3_emperor_yearly.2200.b: "To [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip|l] zasługuje na moją lojalność, a nie [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]."
  ep3_emperor_yearly.2200.a.tt: "Osoba niewarta lojalności"
@@ -274,7 +275,8 @@
  ep3_emperor_yearly.2240.desc_quote_b: "– [Glossary( 'Ho bíos brakhús, he dè tékhne makré', 'ARS_LONGA_GLOSS')] – wzdycha [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )], wykreślając zdanie z zapisanych niedbale notatek. Jak to się stało, że [the_scholar.GetSheHe] w ogóle ze mną pracuje?!"
  ep3_emperor_yearly.2240.desc_quote_c: "– [Glossary( 'Sophòn to saphés', 'SOPHON_GLOSS')] – burczy pod nosem [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )], gdy po raz kolejny nie jest w stanie wykonać prostego polecenia."
  ep3_emperor_yearly.2240.desc_quote_latin: "– [Glossary( 'Omnia vincit amor', 'AMOR_GLOSS')] – komentuje [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )] z poważnym wyrazem twarzy. Co to ma w ogóle wspólnego z tematem naszej rozmowy?!"
- ep3_emperor_yearly.2240.desc_outro: "\n\n[the_scholar.GetSheHe|U] #EMP zawsze#! to robi, a ja tego nie znoszę! Zaczyna cytować starożytnych, choć nikt o to nie prosi – w dodatku często w niewłaściwym kontekście lub z błędami…\n\nWielu z nas w odpowiedzi tylko stęka lub wywraca oczami. Porządne klasyczne wykształcenie jest niezbędne u osoby publicznej, lecz cała ta wiedza idzie na marne, jeśli ktoś nie potrafi mądrze z niej korzystać."
+ ep3_emperor_yearly.2240.desc_quote_confucius: "– [Glossary( 'The superior man is modest in his speech, but exceeds in his actions.', 'CONFUCIUS_GLOSS' )] – komentuje [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )] z poważnym wyrazem twarzy. Co to ma w ogóle wspólnego z tematem naszej rozmowy?!"
+ ep3_emperor_yearly.2240.desc_outro: "\n\n[the_scholar.GetSheHe|U] #EMP zawsze#! cytuje starożytnych, choć nikt o to nie prosi – w dodatku często w niewłaściwym kontekście lub z błędami…\n\nWielu z nas w odpowiedzi tylko stęka lub wywraca oczami. Porządne klasyczne wykształcenie jest niezbędne u osoby publicznej, lecz cała ta wiedza idzie na marne, jeśli ktoś nie potrafi mądrze z niej korzystać."
  ep3_emperor_yearly.2240.a: "#EMP Właściwie#! to ten cytat brzmi…"
  ep3_emperor_yearly.2240.a.flavor: "Chcesz pokazać osobie znanej jako [the_scholar.GetFirstNameNoTooltip], gdzie [the_scholar.Custom('PL_jego_jej')] miejsce i uświadomić [the_scholar.Custom('PL_go_ja')], jak bardzo się myli."
  ep3_emperor_yearly.2240.a_success: "Udaje ci się przewyższyć [the_scholar.Custom('PL_go_ja')] swoją wiedzą"

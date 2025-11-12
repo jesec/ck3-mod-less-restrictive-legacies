@@ -65,7 +65,7 @@
  japanese_fields_04_domicile_building: "Grandes rizières"
  japanese_fields_05_domicile_building: "Vastes rizières"
  japanese_fields_06_domicile_building: "Rizières à perte de vue"
- japanese_granary_01_domicile_building: "Petit stock de riz"
+ japanese_granary_01_domicile_building: "Réserves de riz"
  japanese_granary_02_domicile_building: "$japanese_granary_01_domicile_building$"
  japanese_granary_03_domicile_building: "$japanese_granary_01_domicile_building$"
  japanese_granary_04_domicile_building: "$japanese_granary_01_domicile_building$"

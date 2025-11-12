@@ -84,7 +84,7 @@
  pray_to_protective_amulet_decision_desc: "Une amulette consacrée à des fins protectrices."
  pray_to_protective_amulet_decision_confirm: "Prier"
  pray_to_protective_amulet_decision_tooltip: "Perdre du [stress|El] par la prière"
- pray_to_protective_amulet_decision_valid_tt: "L’[Concept('artifact','$magic_amulet|q$')|El] doit être équipée"
+ pray_to_protective_amulet_decision_valid_tt: "L’[Concept('artifact','$magic_amulet|ql$')|E] doit être équipée"
  pray_to_protective_amulet_decision_toast: "La prière vous calme"
  nomad_events.0009.t: "$nomad_events.ill_advised.header$ : du sang sur les os"
  nomad_events.0009.desc: "$nomad_events.0008_0009.desc.intro$« Que la colère [achmach_scope.GetFaith.HighGodNamePossessive] s’abatte sur [ROOT.Char.Custom('FR_le_Char_Pi')][ROOT.Char.GetTitledFirstNameNoTooltip] ! Que sa vie soit courte et pleine de souffrances ! »\n\nEn se retournant, [achmach_scope.GetSheHe] me remarque et saisit l’amulette protectrice accrochée à sa poitrine."

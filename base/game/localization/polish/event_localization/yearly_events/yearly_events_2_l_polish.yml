@@ -96,7 +96,7 @@
  yearly.1020.b.success.tt: "[vip.GetTitledFirstName] nigdy się nie dowie o moich działaniach za [vip.GetHerHis] plecami"
  yearly.1020.b.failure.desc: "[vip.GetTitledFirstNameNoTooltip] dowiaduje się, że [enemy.GetTitledFirstNameNoTooltip] został[Select_CString(enemy.IsFemale, 'a', '' )] przeze mnie ostrzeżon[Select_CString(enemy.IsFemale, 'a', 'y' )]"
  yearly.1020.c: "Ta oferta brzmi zbyt niebezpiecznie."
- yearly.1021.desc: "Mój szpieg udający jednego z członków grupy, nad którą pieczę ma [enemy.GetTitledFirstName], wysłał do mnie raport. Ależ to emocjonująca lektura! Nareszcie ten próżny uśmieszek zniknie z [enemy.GetHerHis] twarzyczki!\n\nŻołnierze są już w drodze po [enemy.Custom('PL_niego_nia')]. Mają ze sobą złoto. [enemy.Custom2('InsultNoun', SCOPE.sC(vip))|U] dostanie za swoje.\n\nTo była przyjemność robić z Tobą interesy, [ROOT.Char.GetFirstNameNoTooltip]. Żywię nadzieję, że nasze drogi znów się skrzyżują."
+ yearly.1021.desc: "Mój szpieg udający jednego z członków grupy, nad którą pieczę ma [enemy.GetTitledFirstName], wysłał do mnie raport. Ależ to emocjonująca lektura! Nareszcie ten próżny uśmieszek zniknie z [enemy.GetHerHis] twarzyczki!\n\nŻołnierze są już w drodze po [enemy.Custom('PL_niego_nia')]. Mają ze sobą złoto. [enemy.Custom2('InsultNoun', SCOPE.sC('vip'))|U] dostanie za swoje.\n\nTo była przyjemność robić z Tobą interesy, [ROOT.Char.GetFirstNameNoTooltip]. Żywię nadzieję, że nasze drogi znów się skrzyżują."
  yearly.1021.a: "Och, cała przyjemność po mojej stronie."
  yearly.1021.b: "Właściwie myślę, że [Select_CString(enemy.IsFemale, 'ją', 'go' )] zatrzymam!"
  yearly.1021.b.tt: "[enemy.GetTitledFirstName] pozostanie moim więźniem"

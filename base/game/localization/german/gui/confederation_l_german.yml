@@ -1,6 +1,6 @@
 ﻿l_german:
  CONFEDERATION_WINDOW_HEADER: "[Confederation.GetName]"
- CONFEDERATION_WINDOW_TYPE: "Art: [Confederation.GetName|U]"
+ CONFEDERATION_WINDOW_TYPE: "Art: [Confederation.GetType.GetName|U]"
  CONFEDERATION_WINDOW_LEADING_HOUSE: "[leading_house|E]: [Confederation.GetLeadingHouse.GetName]"
  CONFEDERATION_WINDOW_LEADING_HOUSE_HEAD: "[house_head|E] des [Concept('leading_house', 'Führungshauses')|E]"
  CONFEDERATION_WINDOW_COHESION: "#T [bloc_cohesion|E]: [Confederation.GetCohesion|V2]#!"
@@ -28,7 +28,7 @@
  CONFEDERATION_WINDOW_HOUSE_MILITARY_STRENGTH_TOOLTIP: "[ConfederationWindow.GetHouseMilitaryStrengthTooltip(DynastyHouse.Self)]"
  CONFEDERATION_WINDOW_CHARACTER_TITLE: "#T [Character.GetName]#!"
  CONFEDERATION_WINDOW_HOUSE_TITLE: "#T [DynastyHouse.GetName]#!"
- CONFEDERATION_WINDOW_CONFEDERATION_TITLE: "#T Gesamtstärke von „[Confederation.GetName]“#!"
+ CONFEDERATION_WINDOW_CONFEDERATION_TITLE: "#T Gesamtstärke von „[Confederation.GetName|U]“#!"
  CONFEDERATION_WINDOW_COHESION_BREAKDOWN_FROM_HOUSE: "$EFFECT_LIST_BULLET$ durch [DYNASTY_HOUSE.GetName]:"
  CONFEDERATION_WINDOW_COHESION_BREAKDOWN_FROM_BASE_CHANGE_MONTHLY: "Grundwert für [cohesion|E]"
  CONFEDERATION_WINDOW_COHESION_BREAKDOWN_FROM_SOFT_CAP: "Schrumpfende Zunahme durch hohen [cohesion|E]:"

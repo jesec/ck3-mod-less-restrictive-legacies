@@ -1,4 +1,4 @@
-﻿l_english: 
+﻿l_english:
  MOD_DIPLOMACY:0 "[diplomacy|E]"
  MOD_INTRIGUE:0 "[intrigue|E]"
  MOD_STEWARDSHIP:0 "[stewardship|E]"
@@ -1623,7 +1623,7 @@
  desert_mountains_provisions_use_mult: "[GetTerrain( 'desert_mountains' ).GetName] [provisions|E] Use"
  drylands_provisions_use_mult: "[GetTerrain( 'drylands' ).GetName] [provisions|E] Use"
  terraced_hills_provisions_use_mult: "[GetTerrain( 'terraced_hills' ).GetName] [provisions|E] Use"
- 
+
  plains_barter_goods_mult: "[GetTerrain( 'plains' ).GetName] [barter_goods|E]"
  farmlands_barter_goods_mult: "[GetTerrain( 'farmlands' ).GetName] [barter_goods|E]"
  hills_barter_goods_mult: "[GetTerrain( 'hills' ).GetName] [barter_goods|E]"
@@ -2069,7 +2069,7 @@
  MOD_MONTHLY_BARTER_GOODS_MULT: "Monthly [barter_goods|E]"
  MOD_MONTHLY_WAR_BARTER_GOODS_INCOME_ADD: "[barter_goods|E] [income|E] while at [war|E]"
  MOD_MONTHLY_WAR_BARTER_GOODS_INCOME_MULT: "Monthly [barter_goods|E] [income|E] while at [war|E]"
- 
+
  celestial_movement_power_promote_scheme_phase_duration_add: "[GetScheme('celestial_movement_power_promote').GetTypeName] [scheme_speed_single|E]"
  study_confucian_classics_scheme_phase_duration_add: "[GetScheme('study_confucian_classics').GetTypeName] [scheme_speed_single|E]"
  mentoring_scheme_phase_duration_add: "[GetScheme('mentoring').GetTypeName] [scheme_speed_single|E]"
@@ -2081,5 +2081,7 @@
  merit_income_regiment_value_entry: "[Concept( 'title_men_at_arms', 'Men-at-Arms' )|E] Recruitment Value"
  merit_base_income_entry: "Base [merit|E] gain"
  merit_income_breakdown_title: "Monthly [merit|E] income"
- 
+
  lifestyle_poet_xp_gain_mult: "[GetTrait('lifestyle_poet').GetName( GetNullCharacter )] [trait_level_track_xp|E] Gain"
+
+ MOD_CAN_VASSALS_BE_ATTACKED: "Can vassals be attacked"

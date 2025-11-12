@@ -62,7 +62,7 @@
  activity_hunt_host_desc_recent: "\n@warning_icon! #negative_value Todos los [counties|lE] en tu posesión han celebrado recientemente una [GetActivityType('activity_hunt').GetName|l]"
  #Conclusion Desc
  activity_hunt_conclusion_desc_legendary_success: "¡La caza del/de la célebre [activity.Custom('GetAnimalType')] de pelaje [activity.Custom('GetLegendaryColor')] al fin ha terminado! ¡Se cantarán canciones sobre este día y sobre los talentos necesarios para abatir a semejante bestia!"
- activity_hunt_conclusion_desc_legendary: "La cacería del/de la escurridizo/a [activity.Custom('GetAnimalType')] de pelaje [activity.Custom('GetLegendaryColor')] continúa y aún no se vislumbra el final…"
+ activity_hunt_conclusion_desc_legendary: "La cacería del escurridizo ejemplar de [activity.Custom('GetAnimalType')] de pelaje [activity.Custom('GetLegendaryColor')] continúa y aún no se vislumbra el final…"
  activity_hunt_conclusion_desc_falconry_success: "¡Las [activity.Custom('GetRaptorPlural')|l] han hecho que nos enorgullezcamos de su cacería de [activity.Custom('GetAnimalPlural')]!"
  activity_hunt_conclusion_desc_falconry: "Los [activity.Custom('GetRaptorPlural')] no tuvieron éxito en su caza de [activity.Custom('GetAnimalPlural')]…"
  activity_hunt_conclusion_desc_standard_success: "¡Volvemos a casa de la cacería de [activity.Custom('GetAnimalPlural')] con gloria!"

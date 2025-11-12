@@ -142,7 +142,7 @@
  pardon_interaction: "恩赦を与える"
  pardon_interaction_desc: "あなたは[recipient.GetName]を[criminal|E]（[recipient.GetImprisonmentReasons]）と見なしているため、[tyranny|E]を得ることなくいつでも相手を[imprison|E]可能です。\n\n相手を自由にさせたい場合は、恩赦を与えることも選択可能です。これにより相手を[imprison|E]するありとあらゆる理由がなくなり、相手のあなたへの[opinion|E]が上昇します。"
  pardon_interaction_minister_desc: "[recipient.GetLiege.GetShortUIName]は[recipient.GetName]を[criminal|E]（[recipient.GetImprisonmentReasons( recipient.GetLiege.Self )]）と見なしているため、[tyranny|E]を得ることなくいつでも相手を[imprison|E]可能です。\n\n相手を自由にさせたい場合は、恩赦を与えることも選択可能です。これにより、[recipient.GetLiege.GetTitleAsNameNoTooltip]が相手を[imprison|E]するありとあらゆる理由がなくなり、相手のあなたへの[opinion|E]が上昇します。"
- pardon_interaction_has_jirga_desc: "あなたは、自身の$tradition_fp3_jirga_name$#!の伝統によって威信点を得る。"
+ pardon_interaction_has_jirga_desc: "あなたは自身の#high $tradition_fp3_jirga_name$#!の伝統によって威信点を得る。"
  pardon_interaction_toast: "慈悲深き主君、[actor.GetFirstName]があなたの罪を恩赦した！"
  pardon_interaction_toast_minister: "慈悲深き[minister_of_justice|E]、[actor.GetFirstName]があなたの罪を恩赦した！"
  pardon_interaction_toast_minister_liege: "[minister_of_justice|E]、[actor.GetFirstName]が[recipient.GetShortUIName]の罪を恩赦した！"

@@ -56,7 +56,7 @@
  ra_soryo_open_decisions_prompt: "$TUTORIAL_OPEN_DECISION_PANEL_PROMPT$"
 
  ra_soryo_regional_dominion: "$reactive_advice_soryo_intro_NAME$"
- ra_soryo_regional_dominion_desc: "The first [decision|E] to aim for is '$tgp_japan_assert_regional_dominion_government_decision|V$'.\n\nThis allows you to conquer the [duchy|E] of your local region. While it is not required to become [shogun|E], it is a useful stepping stone."
+ ra_soryo_regional_dominion_desc: "The first [decision|E] to aim for is '$tgp_japan_assert_regional_dominion_government_decision|V$'.\n\nThis allows you to conquer the [duchy|E] of your local region. While it is not required to become [shogun|E], it is a useful stepping stone.\n\n#TUT If you are already of [duke|E] [rank|E], this $game_concept_decision$ is not available.#!"
 
  ra_soryo_shogunate: "$reactive_advice_soryo_intro_NAME$"
  ra_soryo_shogunate_desc: "The actual [decision|E] to become [shogun|E] is '$tgp_japan_become_shogun_decision_TUTORIAL|V$'.\n\nHowever, to even begin considering this, you first need to be the [ceremonial_regent|E]."
@@ -94,7 +94,7 @@
  ra_soryo_bloc_leader_strength_details_desc: "The strength of the all the members of the [bloc|E] is shown here.\n\nThe stronger your $game_concept_bloc$, the more likely your [faction|E] will be able to enforce their demands and install you as [ceremonial_regent|E]."
 
  ra_soryo_bloc_leader_expanding: "$action_reactive_advice_lead_your_soryo_bloc_NAME$"
- ra_soryo_bloc_leader_expanding_desc: "A strong [bloc|E] is one with many and powerful [houses|E].\n\nWith the map showing the extents of all $game_concept_blocs$, you can find [house_heads|E] without a $game_concept_bloc$ and use the $invite_to_house_bloc_interaction|V$ [character_interaction|E]. However, they are unlikely to accept...\n\nInstead, as a [GetGovernment('japan_feudal_government').GetName] [ruler|E], you can expand your $game_concept_bloc$ through [war|E].\n\nYou have two different options:\n$EFFECT_LIST_BULLET$[bloc_expansion|E] lets you conquer land which comes under the control of your $game_concept_bloc$.\n$EFFECT_LIST_BULLET$[bloc_supremacy|E] is an all out war between two $game_concept_blocs$, where members of the losing $game_concept_bloc$ may join the victor."
+ ra_soryo_bloc_leader_expanding_desc: "A strong [bloc|E] is one with many and powerful [houses|E].\n\nOn the map, you can see the extents of all $game_concept_blocs$, and find any [house_heads|E] without a $game_concept_bloc$. You can try to convince them to join your $game_concept_bloc$ by using the $invite_to_house_bloc_interaction|V$ [character_interaction|E].\n\nHowever, they may not always accept... Instead, as a [GetGovernment('japan_feudal_government').GetName] [ruler|E], you can expand your $game_concept_bloc$ through [war|E].\n\nYou have two different options:\n$EFFECT_LIST_BULLET$[bloc_expansion|E] lets you conquer land which comes under the control of your $game_concept_bloc$.\n$EFFECT_LIST_BULLET$[bloc_supremacy|E] is an all out war between two $game_concept_blocs$, where members of the losing $game_concept_bloc$ may join the victor."
 
  ra_soryo_bloc_leader_cohesion: "$action_reactive_advice_lead_your_soryo_bloc_NAME$"
  ra_soryo_bloc_leader_cohesion_desc: "Trying to unify disparate [houses|E] into a large [bloc|E] comes with its challenges, as each $game_concept_house$ contributes to the overall [cohesion|E] of the $game_concept_bloc$.\n\nBeyond the bonuses granted by a high $game_concept_cohesion$, you need a certain amount of $game_concept_cohesion$ to even form a [faction|E]."
@@ -122,7 +122,7 @@
  ra_become_shogun_open_decisions_prompt: "$TUTORIAL_OPEN_DECISION_PANEL_PROMPT$"
 
  ra_become_shogun_decision: "$reactive_advice_soryo_regent_become_shogun_NAME$"
- ra_become_shogun_decision_desc: "'$tgp_japan_become_shogun_decision_TUTORIAL|V$' is the [decision|E] to enact in order to become [shogun|E].\n\nHowever, to do so, there are two major obstacles to overcome:\n$EFFECT_LIST_BULLET$Enact the [GetLaw('japanese_bureaucracy_2').GetName] [law|E]\n$EFFECT_LIST_BULLET$Evict any [GetGovernment('japan_administrative_government').GetNameWithIcon] [rulers|E] in [GetTitleByKey('e_japan').GetName]"
+ ra_become_shogun_decision_desc: "'$tgp_japan_become_shogun_decision_TUTORIAL|V$' is the [decision|E] to enact in order to become [shogun|E].\n\nHowever, to do so, there are three major obstacles to overcome:\n$EFFECT_LIST_BULLET$Enact the [GetLaw('japanese_bureaucracy_2').GetName] [law|E]\n$EFFECT_LIST_BULLET$Your [prestige_level|E] is [prestige_i][GetModifier( 'prestige_level_4' ).GetNameWithTooltip|L] or above\n$EFFECT_LIST_BULLET$Your [legitimacy_level|E] is greater or equal to #V 4#!"
 
  ra_become_shogun_open_laws: "$reactive_advice_soryo_regent_become_shogun_NAME$"
  ra_become_shogun_open_laws_desc: "First, let's look at the state of your [laws|E]."

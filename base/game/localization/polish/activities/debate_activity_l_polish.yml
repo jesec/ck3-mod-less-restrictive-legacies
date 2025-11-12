@@ -25,7 +25,7 @@
  gained_many_disciples: "Pozyskujesz osoby znane jako [disciple_3.GetShortUINameNotMe], [disciple_2.GetShortUINameNotMe] i [disciple_1.GetShortUINameNotMe] do grona swoich [Concept('disciples', 'adeptów')|E]"
  gained_few_disciples: "Pozyskujesz osoby znane jako [disciple_2.GetShortUINameNotMe] i [disciple_1.GetShortUINameNotMe] do grona swoich [Concept('disciples', 'adeptów')|E]"
  gained_one_disciple: "Pozyskujesz osobę znaną jako [disciple_1.GetShortUINameNotMe] do grona swoich [Concept('disciples', 'adeptów')|E]"
- gained_new_elder_tt: "Osoba znana jako [ROOT.Char.MakeScope.Var('new_elder').Char.GetTitledFirstNameNotooltip] zostaje twoim starszym"
+ gained_new_elder_tt: "Osoba znana jako [guest.MakeScope.Var('new_elder').Char.GetFirstName] zostaje twoim starszym"
  activity_window_character_honorary_guest_leader: "[Concept('movement_leader', 'Zakwestionowany przywódca')|E]\n[Character.GetShortUINameNotMeNoTooltip]"
  ### GUEST INVITE RULES
  activity_invite_rule_debate_movement_members: "[GetPlayer.Custom('GetMyMovement')] – członkowie"

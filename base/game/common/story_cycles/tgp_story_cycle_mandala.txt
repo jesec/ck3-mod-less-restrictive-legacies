@@ -200,6 +200,74 @@
 					#Try to upgrade, if you can
 					if = {
 						limit = { is_house_head = yes }
+						#No Aspect - yet
+						if = {
+							limit = {
+								house = { has_house_power_parameter = no_aspect }
+							}
+							random_list = {
+								1 = {
+									trigger = {
+										NOT = { lowest_skill = stewardship }
+									}
+									modifier = {
+										highest_skill = stewardship
+										add = 1000
+									}
+									house = {
+										set_house_aspiration = {
+											type = aspect_of_creation
+											level = 1
+										}
+									}
+								}
+								1 = {
+									trigger = {
+										NOT = { lowest_skill = diplomacy }
+									}
+									modifier = {
+										highest_skill = diplomacy
+										add = 1000
+									}
+									house = {
+										set_house_aspiration = {
+											type = aspect_of_serenity
+											level = 1
+										}
+									}
+								}
+								1 = {
+									trigger = {
+										NOT = { lowest_skill = martial }
+									}
+									modifier = {
+										highest_skill = martial
+										add = 1000
+									}
+									house = {
+										set_house_aspiration = {
+											type = aspect_of_destruction
+											level = 1
+										}
+									}
+								}	
+								1 = {
+									trigger = {
+										NOT = { lowest_skill = intrigue }
+									}
+									modifier = {
+										highest_skill = intrigue
+										add = 1000
+									}
+									house = {
+										set_house_aspiration = {
+											type = aspect_of_trickery
+											level = 1
+										}
+									}
+								}
+							}
+						}
 						#Aspect of Creation
 						if = {
 							limit = {

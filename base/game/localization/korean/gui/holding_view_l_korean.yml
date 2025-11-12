@@ -209,7 +209,7 @@
  CONSTRUCT_BUILDING_SEE_UPGRADE_PROJECT: "대규모 사업 보기"
  REBUILD_GREAT_BUILDING_BUTTON: "재건"
  RAID_TT_NO_LOOT_RAIDED: "@warning_icon! #X 약탈당한 지 얼마 되지 않아 노획할 물건이 없습니다.#!"
- BARTER_TT_NO_LOOT_RAIDED: "@warning_icon! #X 흥정한 지 얼마 되지 않아 노획할 물건이 없습니다#!"
+ BARTER_TT_NO_LOOT_RAIDED: "@warning_icon! #X 물물 교환한 지 얼마 되지 않아 노획할 물건이 없습니다#!"
  HOLDING_VIEW_YOUR_COUNTY: "당신의 [Concept( 'county', '영지' )|E]"
  HOLDING_VIEW_TOP_REALM_COUNTY: "당신의 [realm|E] 내에 있는 [Concept( 'county', '영지' )|E]"
  HOLDING_VIEW_FOREIGN_COUNTY: "[Character.GetTopLiege.GetPrimaryTitle.GetNameNoTooltip]의 [Concept( 'county', '영지' )|E]"

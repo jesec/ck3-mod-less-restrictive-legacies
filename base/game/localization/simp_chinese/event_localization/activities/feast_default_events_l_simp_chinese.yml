@@ -560,7 +560,7 @@
  feast_default.3010.t: "我的帽子！"
  feast_default.3010.desc: "节日的欢庆稍稍停顿了一下。片刻之间，仿佛时间变慢了，世间的烦恼和眼前的压力都消失了。\n\n而后[hat_knocker.GetName]如阴影中的毒蛇般出手，击落我的[Glossary('乌帽子', 'EBOSHI_GLOSS')]。我难以置信地看着它滚落在地。我试图遮掩窘态，但凌乱的[Glossary('髻', 'MOTODORI_GLOSS')]已暴露在众目睽睽之下，我精神上的懈怠一览无余。"
  feast_default.3010.a: "[hat_knocker.GetSheHe|U]会为今天后悔！"
- feast_default.3010.a.flavor: "我会让他见识见识毒蛇的真正样子！"
+ feast_default.3010.a.flavor: "我会让[hat_knocker.GetHerHim|U]见识见识毒蛇的真正样子！"
  feast_default.3010.a.tt: "你的[scheme|E]获得[GetModifier('scheme_apa_positive_2101_modifier').GetNameWithTooltip]"
  feast_default.3010.b: "你可能喝多了，[hat_knocker.GetFirstNameNoTooltip]。"
  feast_default.3010.b.flavor: "我的宁和不会被打破。"

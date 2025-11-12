@@ -100,7 +100,7 @@
  ep2_wedding_ewan.0011.desc.t1.hate.patient: "\"진행을 왜 이렇게 쫓기는 것처럼 하는지 모르겠군.\" [char_2.GetFirstNameNoTooltip](이)가 불평을 늘어놓았다. \"여기까지 오는 데 시간이 얼마나 걸렸는데, 이젠 식사까지 빨리 먹으라고?\""
  ep2_wedding_ewan.0011.desc.t1.hate.trusting: "\"다양성이 약간 떨어지는데.\" [char_2.GetFirstNameNoTooltip](이)가 투덜거렸다. \"요리 좀 다양하게 준비하면 어디 덧나나?\""
  ep2_wedding_ewan.0011.desc.t1.hate.fickle: "$ep2_wedding_ewan.0011.desc.t1.hate.trusting$"
- ep2_wedding_ewan.0011.desc.t2.hate.ambitious: "\"조악하군.\" [char_2.GetFirstNameNoTooltip](이)가 코를 킁킁거렸다. \"야망이 이렇게 부족해서야.\""
+ ep2_wedding_ewan.0011.desc.t2.hate.ambitious: "\"조악하군.\" [char_2.GetFirstNameNoTooltip](이)가 코를 킁킁거렸다. \"야심이 이렇게 부족해서야.\""
  ep2_wedding_ewan.0011.desc.t2.hate.arrogant: "$ep2_wedding_ewan.0011.desc.t2.hate.ambitious$"
  ep2_wedding_ewan.0011.desc.t2.hate.greedy: "\"음식은 맛있지만.\" [char_2.GetFirstNameNoTooltip]의 평가가 이어졌다. \"하지만 #EMP 환상적#!으로 만들지 않고 이 많은 돈을 써버린 게 이해가 되진 않아.\""
  ep2_wedding_ewan.0011.desc.t2.hate.wrathful: "\"괜찮군.\" [char_2.GetFirstNameNoTooltip](이)가 툭 내뱉었다. \"하지만 내 기준에는 미달이오. 개인적으로는 이것보다 더 부산한 연회가 취향이거든.\""

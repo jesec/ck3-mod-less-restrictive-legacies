@@ -83,7 +83,7 @@
  TT_RAISE_ALL_MAA_INFO: "[men_at_arms|E], [special_troops|E], [mercenaries|E], [holy_orders|E]을 [realm_capital|E]에서 가장 가까운 [rally_point|E]에 소집합니다."
  TT_RAISE_ALL: "#T 모든 부대 소집#!\n[levies|E]을 가장 가까운 [rally_point|E]에 소집합니다.\n\n$TT_RAISE_ALL_MAA_INFO$"
  TT_RAISE_ALL_RAIDERS: "#T 모든 약탈 부대 소집#!\n모든 부대를 소집하고 [raiders|E]용 장비를 갖추게 합니다. "
- TT_RAISE_ALL_BARTERERS: "#T 모든 흥정 부대 소집#!\n모든 부대를 소집하고 [barterers|E]용 장비를 갖추게 합니다."
+ TT_RAISE_ALL_BARTERERS: "#T 모든 물물 교환 부대 소집#!\n모든 부대를 소집하고 [barterers|E]용 장비를 갖추게 합니다."
  TT_RAISE_ALL_MEN_AT_ARMS: "#T 모든 무장병 소집#!\n[men_at_arms|E]이 [realm_capital|E]에서 가장 가까운 [rally_point|E]에 소집됩니다."
  TT_RAISE_ALL_LEVIES: "소집되지 않은 [levies|E]: $UNRAISED|0V$명/$RAISE_MAX|0V$명"
  TT_RAISE_ALL_MAA: "소집되지 않은 [men_at_arms|E]: $UNRAISED|0V$명/$RAISE_MAX|0V$명"

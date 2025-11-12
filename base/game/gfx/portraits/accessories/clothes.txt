@@ -3346,3 +3346,8 @@ f_clothes_sec_tgp_southeast_nob_02_hi = {
 set_tags = ""
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_tgp_southeast_nob_02_hi_entity }
 }
+
+m_clothes_sec_tgp_southeast_com_01 = {
+set_tags = ""
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_tgp_southeast_com_01_entity }
+}

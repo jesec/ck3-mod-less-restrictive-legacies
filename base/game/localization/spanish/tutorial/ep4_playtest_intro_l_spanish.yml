@@ -1,15 +1,4 @@
 ﻿l_spanish:
- ### JAPAN
- lesson_tgp_playtest_intro_japan_step_government: "Gobierno"
- lesson_tgp_playtest_intro_japan_step_government_desc: "Japón no es un [realm|lE] [feudal|lE] o [administrative|lE] puro.\n\nAl contrario, los [vassals|lE] tienen el [government|lE] [ritsuryo|lE] [ritsuryo_i] o [soryo|lE] [soryo_i], que representa la división entre los funcionarios imperiales y los caudillos locales.\n\nTambién es típico que los [vassals|lE] de Japón solo gobiernen un [county|lE].\n\n#I Puedes encontrar información sobre el gobierno japonés en la pantalla «Administración del gobierno»#!"
- lesson_tgp_playtest_intro_japan_step_emperor_and_regent: "El emperador y su regente"
- lesson_tgp_playtest_intro_japan_step_emperor_and_regent_desc: "El verdadero [ruler|lE] de Japón #BOLD no#! es el [japanese_emperor|lE], al que se llama [tenno|El].\n\nEn su lugar, al principio de la partida el [kampaku|lE] gobierna Japón y el emperador es una figura decorativa.\n\nLos gobernantes [ritsuryo|lE] pueden competir para ser nombrados el siguiente [kampaku|lE], mientras que los [soryo|lE] solo pueden tomar el poder mediante la [faction|lE] #V $replace_ceremonial_regent_faction_name$.#!\n\nSi bien el ten'nō no gobierna directamente, tiene una [japanese_manor|lE] propia y se le puede nombrar [kampaku|lE] para reinar como [cloistered_emperor|lE].\n\nEl gobernante de Japón, sea quien sea, puede decidir la [law|lE] de la [imperial_policy|lE], que afecta al imperio entero."
- lesson_tgp_playtest_intro_japan_step_house_aspirations: "Aspiraciones de casa"
- lesson_tgp_playtest_intro_japan_step_house_aspirations_desc: "Todas las [houses|lE] japonesas tienen una [Concept('house_aspiration', 'aspiración')|E].\n\nEste atributo afecta a todos los miembros de la $game_concept_house$ y el [house_head|lE] puede mejorarlo con el tiempo.\n\n#I Puedes ver y mejorar tu $game_concept_house_aspiration$ en la pantalla «$ADMINISTRATIVE_GOVERNMENT_HEADER$»"
- lesson_tgp_playtest_intro_japan_step_blocs: "Bloques de casas"
- lesson_tgp_playtest_intro_japan_step_blocs_desc: "Tu [house|lE] pertenece a un [house_bloc|lE], una alianza defensiva de [houses|lE].\n\nLos miembros de un bloque tienen generalmente la misma [Concept('house_aspiration', 'aspiración')|E] y buenas [Concept('house_relations', 'relaciones')|E]. Si no es así, se reduce la [Concept('bloc_cohesion', 'cohesión del bloque')|E] y la [leading_house|lE] puede elegir expulsar a las $game_concept_houses$ problemáticas del $game_concept_bloc$.\n\n#I Puedes ver la posición de tu bloque con solo presionar el botón resaltado#!"
- lesson_tgp_playtest_intro_japan_step_end: "Japón"
- lesson_tgp_playtest_intro_japan_step_end_desc: "En Japón, la política siempre es una lucha de dos bandos. Dirige a tu [house|lE] con sabiduría y decidirás el futuro de Japón."
  ### MANDALA
  action_lesson_tgp_playtest_intro_mandala: "Gobierno mandala"
  action_lesson_tgp_playtest_intro_mandala_desc: "El mandala es un gobierno especial que se centra en la piedad y los tributarios. Abre esto para acceder a una presentación de este gobierno."

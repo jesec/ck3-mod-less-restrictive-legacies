@@ -2,9 +2,9 @@
  tribute_mission_header: "貢ぎ物の任務："
  #Tributary: Fork over Tribute
  tribute_mission_suzerain_legitimacy_gain_title: "貢ぎ物から正統性を獲得"
- tribute_mission_tributary_subject_standing_gain_title: "[tributary_scope.Custom('SubjectStanding')]を獲得"
- tribute_mission_tributary_subject_standing_gain_tt_minor: "[tributary_scope.GetShortUIName|U]はある程度の[tributary_scope.Custom('SubjectStanding')]を得た"
- tribute_mission_tributary_subject_standing_gain_tt_major: "[tributary_scope.GetShortUIName|U]は#EMP 高い#![tributary_scope.Custom('SubjectStanding')]を得た"
+ tribute_mission_tributary_subject_standing_gain_title: "[ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')]を獲得した"
+ tribute_mission_tributary_subject_standing_gain_tt_minor: "[tributary_scope.GetShortUIName|U]がある程度の[ConcatIfNeitherEmpty(tributary_scope.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')]を獲得した"
+ tribute_mission_tributary_subject_standing_gain_tt_major: "[tributary_scope.GetShortUIName|U]が#EMP 大量の#![ConcatIfNeitherEmpty(tributary_scope.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')]を獲得した"
  tribute_mission.1000.t: "$tribute_mission_header$貢ぎ物の献上"
  tribute_mission.1000.intro: "[overlord_scope.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]の大広間に入ると、"
  tribute_mission.1000.intro.overlord: "[overlord_scope.GetTitledFirstName]が我々を迎え、堂々とした態度で近くに寄るよう合図した。"
@@ -12,6 +12,7 @@
  tribute_mission.1000.intro.councillor: "[overlord_scope.GetTitledFirstNamePossessive]の[receiving_character.Custom('CouncilPosition')]、[receiving_character.GetTitledFirstName]が頷き、近くに寄るよう合図した。"
  tribute_mission.1000.intro.attendant: "[overlord_scope.GetTitledFirstNamePossessive]の位の高い従者が、申し訳なさそうに微笑みを浮かべながら、近くに寄るよう合図した。"
  tribute_mission.1000.desc.segway: "\n\n私は間を置かずに、こう宣言した。"
+ tribute_mission.1000.desc.bunga_mas: " 「ご覧あれ、この壮麗さを！最も偉大なる[overlord_scope.GetTitledFirstNameNoTooltip]のためだけに作られた、至高のブンガ・マスの樹々である！」群衆の目は見開かれ、ざわめきが広間に広がった。"
  tribute_mission.1000.desc.small_gold: " 「つまらない物ですが、どうぞお納めください。物自体は小さくとも、真心を込めました！」私は頭を下げ、その間に私の従者が交易品の入った小さな箱を差し出した。"
  tribute_mission.1000.desc.adequate_gold: " 「我が主君への感謝の意を示すため、最高の品をお持ちしました！」たくさんの籠と壺が部屋に並べられていき、私は笑顔で頷いた。"
  tribute_mission.1000.desc.excessive_gold: " 「この素晴らしい品々をご覧ください！」贅沢な貢ぎ物の数々に、あちこちから#EMP 歓声#!が上がった。箱に壺、籠、彫像と、#EMP 贅沢な品々#!がズラリと並べられている。"
@@ -66,6 +67,8 @@
  tribute_mission.1002.d.tt: "[human_tribute.GetShortUIName]が[tributary_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTier]に送り返される"
  #Recipient: What do you get/give?
  tribute_mission.1005.t: "$tribute_mission_header$貢ぎ物"
+ tribute_mission.1005.t.ai.bunga_mas: "$tribute_mission_header$[newly_created_bunga_mas.GetNameNoTooltip]"
+ tribute_mission.1005.t.bunga_mas: "$tribute_mission_header$[tributary_scope.GetTitledFirstNamePossessiveNoTooltip]の黄金の花"
  tribute_mission.1005.t.gold: "$tribute_mission_header$[tributary_scope.GetTitledFirstNamePossessiveNoTooltip]の金"
  tribute_mission.1005.t.herd: "$tribute_mission_header$[tributary_scope.GetTitledFirstNamePossessiveNoTooltip]の遊牧群"
  tribute_mission.1005.t.concubine: "$tribute_mission_header$[tributary_scope.GetTitledFirstNamePossessiveNoTooltip]の花"
@@ -73,6 +76,7 @@
  tribute_mission.1005.t.artifact: "$tribute_mission_header$[tributary_scope.GetTitledFirstNamePossessiveNoTooltip]の宝物"
  tribute_mission.1005.intro.human_tribute: "[tributary_scope.GetTitledFirstName]は私の決断を待つ間、体重をかける足を左右に変えながら、時折[human_tribute.GetTitledFirstName]に横目で視線を送っている。"
  tribute_mission.1005.intro: "[tributary_scope.GetTitledFirstName]は大股で大広間に入り、私の方へ近付いてくると、媚びるような笑顔を浮かべて貢ぎ物を差し出してきた。"
+ tribute_mission.1005.desc.bunga_mas: "\n\n黄金の花の樹！他のささやかな貢ぎ物など目に入らなくなるほど、この精緻な宝物は一際素晴らしい。小さな葉は光を受けて煌めき、その輝きは私の威厳に匹敵するかのようだ。\n\n私はすぐに心を落ち着け、感情を悟られまいと努める。この壮麗な贈り物の見返りとして、どのような恩恵を授けるべきだろうか…"
  tribute_mission.1005.desc.small_gold: "\n\n使用人たちがささやかな貢ぎ物である一握りの硬貨と装飾品を調べているのを見て、私は片眉を上げた。\n\n我々の金庫を満杯にするほどではないが、少なくとも[tributary_scope.GetTitledFirstNameNoTooltip]は諸侯としての義務を果たした。さて、その見返りにどんな恩恵を与えるべきか…"
  tribute_mission.1005.desc.adequate_gold: "\n\n私は立派な貢ぎ物を見て、軽く頷いた。貴金属や織物が時折光を捉えて、かすかに煌めく。\n\nさて、次の仕事に取り掛かろう。この見返りとして、どんな恩恵を与えるべきか決めなくては…"
  tribute_mission.1005.desc.excessive_gold: "\n\n金に織物、そして宝石。派手な品々が並べられているのを見て、私は#EMP 愉快#!な気持ちになった。感心していることが顔に出ないよう、注意を払う。\n\nこれで十分だ。さて、この豪華な品々に対してどう報いるか…"
@@ -126,6 +130,7 @@
  tribute_mission.3000.intro.councillor: "$tribute_mission.1000.intro.councillor$"
  tribute_mission.3000.intro.attendant: "$tribute_mission.1000.intro.attendant$"
  tribute_mission.3000.desc.segway: "$tribute_mission.1000.desc.segway$"
+ tribute_mission.3000.desc.bunga_mas: "$tribute_mission.1000.desc.bunga_mas$"
  tribute_mission.3000.desc.small_gold: "$tribute_mission.1000.desc.small_gold$"
  tribute_mission.3000.desc.adequate_gold: "$tribute_mission.1000.desc.adequate_gold$"
  tribute_mission.3000.desc.excessive_gold: "$tribute_mission.1000.desc.excessive_gold$"
@@ -154,7 +159,7 @@
  tribute_mission.3000.abstain.innovation.desc: "$tribute_mission.1000.abstain.innovation.desc$"
  tribute_mission.3000.abstain.development.desc: "$tribute_mission.1000.abstain.development.desc$"
  tribute_mission.3000.abstain.monk.desc: "$tribute_mission.1000.abstain.monk.desc$"
- #Recipient: Decide on the human tribute
+ #Recipient: Decide on the human tribute DECOMMISSIONED
  tribute_mission.3002.t: "$tribute_mission.1002.t$"
  tribute_mission.3002.segway: "$tribute_mission.1002.segway$"
  tribute_mission.3002.desc.concubine: "$tribute_mission.1002.desc.concubine$"
@@ -176,7 +181,7 @@
  tribute_mission.3002.c: "$tribute_mission.1002.c$"
  tribute_mission.3002.d: "$tribute_mission.1002.d$"
  tribute_mission.3002.d.tt: "$tribute_mission.1002.d.tt$"
- #Recipient: What do you get/give?
+ #Recipient: What do you get/give? DECOMISSIONED
  tribute_mission.3005.t: "$tribute_mission.1005.t$"
  tribute_mission.3005.t.gold: "$tribute_mission.1005.t.gold$"
  tribute_mission.3005.t.herd: "$tribute_mission.1005.t.herd$"
@@ -217,8 +222,8 @@
  tribute_mission.1007.desc: "意味ありげな沈黙の後、[receiving_character.GetTitledFirstName]が恭しく立ち上がる。合図とともに、帝国の書記官、[scribe_character.GetShortUIName]が私の名前が記された$game_concept_seal_of_investiture$を携え、群衆の中から現れる。\n\n[receiving_character.GetTitledFirstName]は慎重にそれを手に取り、私に立ち上がるよう促す。観衆の視線はその様子に釘付けになっている。\n\n天子の祝福を受け、ある考えが頭をよぎる。この貴重な契約は、どんな新しい扉を開くのだろうか？"
  tribute_mission.1007.a: "これですべてが変わる。"
  tribute_mission.1008.t: "$tribute_mission_header$貢ぎ物の続行"
- tribute_mission.1008.desc: "式典で贈り物が交わされる中、まるでまだ発せられていない言葉があるかのように、宮廷全体が期待に満ちていくのを感じる。誰も口には出さなかったが、私への期待が徐々にあからさまになっていく。\n\n[receiving_character.GetTitledFirstNameNoTooltip]は、私が[receiving_character.GetPrimaryTitle.GetNameNoTierPossessiveNoTooltip]の厚情に報いるため、絶え間なくこのような貢ぎ物を捧げると誓うことを望んでいる。\n\nこの提案を丁重に断り、その代償を受け入れて、独立性を保つことはまだ可能だ。"
- tribute_mission.1008.a: "「…そしてもちろん、[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]は定期的に[receiving_character.GetCapitalLocation.GetNameNoTooltip]に贈り物をお届けします」"
+ tribute_mission.1008.desc: "式典で贈り物が交わされるなか、まるでまだ発せられていない言葉があるかのように、宮廷全体が期待に満ちていくのを感じる。誰も口には出さなかったが、私への期待が徐々にあからさまになっていく。\n\n[receiving_character.GetTitledFirstNameNoTooltip]は、私が[receiving_character.GetLiege.GetPrimaryTitle.GetNameNoTierPossessiveNoTooltip]の厚情に報いるため、絶え間なくこのような貢ぎ物を捧げると誓うことを望んでいる。\n\nこの提案を丁重に断り、その代償を受け入れて、独立性を保つことはまだ可能だ。"
+ tribute_mission.1008.a: "「…そしてもちろん、[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]は定期的に[receiving_character.GetLiege.GetCapitalLocation.GetNameNoTooltip]に贈り物をお届けします」"
  tribute_mission.1008.b: "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]は屈しない。"
  tribute_mission.3006.t: "$tribute_mission.1006.t$"
  tribute_mission.3006.desc: "$tribute_mission.1006.desc$"
@@ -301,3 +306,8 @@
  #MODIFIERS
  suzerain_trade_post_modifier: "宗主国の交易所"
  suzerain_trade_post_modifier_desc: "この伯爵領には、宗主国の交易所から商人が次々とやってくる。"
+ #ARTIFACTS
+ tribute_mission_common_bunga_mas_desc: "[tributary_scope.GetTitledFirstName]が[overlord_scope.GetTitledFirstName]への貢ぎ物として捧げた[Glossary('ブンガ・マス','BUNGA_MAS_GLOSS')]。"
+ tribute_mission_masterwork_bunga_mas_desc: "最初に[tributary_scope.GetTitledFirstName]が[overlord_scope.GetTitledFirstName]に貢ぎ物として捧げた、この精緻な[Glossary('ブンガ・マス','BUNGA_MAS_GLOSS')]は、光を受けて見事に輝く。"
+ tribute_mission_famed_bunga_mas_desc: "金と銀の2本の精巧な樹であるこの[Glossary('ブンガ・マス','BUNGA_MAS_GLOSS')]は、[tributary_scope.GetTitledFirstName]から[overlord_scope.GetTitledFirstName]へ貢ぎ物として献上された。金属細工と彫刻は、卓越した芸術を物語る。"
+ tribute_mission_illustrious_bunga_mas_desc: "[tributary_scope.GetTitledFirstName]が[overlord_scope.GetTitledFirstName]に貢ぎ物として捧げた[Glossary('ブンガ・マス','BUNGA_MAS_GLOSS')]は、最上の金と銀を鍛え、彫り上げた壮大な一対の樹から成り、花は永遠に咲き誇るかのように表現されている。"

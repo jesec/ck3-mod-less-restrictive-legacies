@@ -838,8 +838,8 @@ malay_kampar_20_fic = {	#fictional Kampar & Meranti 1178
 
 ## Pahang
 malay_pahang_01_fic = {	#fictional Pahang 867
-	name = "Bhadravarman"
-	dynasty = malay_koli
+	name = "Chekedoi"
+	dynasty = dynn_Temoq
 	religion = mahayana
 	culture = senoi
 	831.7.19 = {
@@ -851,8 +851,8 @@ malay_pahang_01_fic = {	#fictional Pahang 867
 }
 
 malay_pahang_10_fic = {	#fictional Pahang 1066
-	name = "Demang"
-	dynasty = malay_koli
+	name = "Luhj"
+	dynasty = dynn_Chewong
 	religion = mahayana
 	culture = senoi
 	1040.5.9 = {
@@ -864,8 +864,8 @@ malay_pahang_10_fic = {	#fictional Pahang 1066
 }
 
 malay_pahang_20_fic = {	#fictional Pahang 1178
-	name = "Anindya"
-	dynasty = malay_koli
+	name = "Nyenang_Raq"
+	dynasty = dynn_Chewong
 	religion = mahayana
 	culture = senoi
 	1149.9.23 = {
@@ -892,8 +892,8 @@ malay_kelantan_20_fic = {	#fictional Kelantan 1178
 
 ## Gangganegara
 malay_gangganera_01_fic = {	#fictional Gangganegara 867
-	name = "Ratnacandra"
-	dynasty = malay_nadinaga
+	name = "Jeludang"
+	dynasty = dynn_Semai
 	religion = shaivism
 	culture = senoi
 	826.7.18 = {
@@ -946,8 +946,8 @@ malay_gelanggi_20_fic = {	#fictional Gelanggi & Johor 1178
 
 ## Semantan
 malay_semantan_01_fic = {	#fictional Semantan 867
-	name = "Panca"
-	dynasty = malay_semantan
+	name = "Mara_Semae"
+	dynasty = dynn_Semaq_Beri
 	religion = mahayana
 	culture = senoi
 	847.9.25 = {
@@ -959,8 +959,8 @@ malay_semantan_01_fic = {	#fictional Semantan 867
 }
 
 malay_semantan_10_fic = {	#fictional Semantan 1066
-	name = "Sapta"
-	dynasty = malay_semantan
+	name = "Nyenang_Raq"
+	dynasty = dynn_Semaq_Beri
 	religion = mahayana
 	culture = senoi
 	1010.2.5 = {

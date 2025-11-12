@@ -273,7 +273,7 @@
  domicile_building_parameter_estate_additional_internal_slots_desc: "Nombre d’emplacements d’[domicile_building_upgrade|El] : #P +2#!"
  domicile_building_parameter_estate_powerful_family_rating_per_dynasty_level: "[powerful_family_rating|E] par [dynasty_prestige_level|El] : #P +[EmptyScope.ScriptValue('estate_increase_powerful_famil_rating_per_dynasty_level_value')|0]#!"
  domicile_building_parameter_estate_unlock_granary_decision: "Débloque la [decision|El] #high $estate_granary_decision$#!#indent_newline:4 \n#weak La décision s’échelonne avec le [location|El] de la [estate|El] et le [building|El] [GetDomicileBuilding('grain_field_01').GetName]#!#!"
- estate_increase_influence_on_building_construction_desc: "[influence_i|E][influence|E] gagné lors de la construction de [buildings|El] dans les [counties|El] détenus :"
+ estate_increase_influence_on_building_construction_desc: "[influence_i|E][influence|E] gagnée lors de la construction de [buildings|El] dans les [counties|El] détenus :"
  domicile_building_parameter_estate_increase_influence_on_building_construction_1: "$estate_increase_influence_on_building_construction_desc$ #P +[EmptyScope.ScriptValue('estate_construction_influence_bonus_1_value')|+0%]#!"
  domicile_building_parameter_estate_increase_influence_on_building_construction_2: "$estate_increase_influence_on_building_construction_desc$ #P +[EmptyScope.ScriptValue('estate_construction_influence_bonus_2_value')|+0%]#!"
  domicile_building_parameter_estate_increase_influence_on_building_construction_3: "$estate_increase_influence_on_building_construction_desc$ #P +[EmptyScope.ScriptValue('estate_construction_influence_bonus_3_value')|+0%]#!"

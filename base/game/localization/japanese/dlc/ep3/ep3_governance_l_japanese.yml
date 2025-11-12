@@ -422,7 +422,7 @@
  admin_contract_success_tt_trait: "[GetTrait('governor').GetName( GetNullCharacter )]の[trait|E]を獲得する可能性あり"
  admin_contract_success_tt_xp: "[GetTrait('governor').GetName( GetNullCharacter )]の[trait|E]の[trait_level_track_xp|E]"
  admin_contract_success_tt_rewards: "以下のさまざまな報酬から選択可能：#indent_newline:3 \n$EFFECT_LIST_BULLET$$admin_contract_success_tt_xp$\n$EFFECT_LIST_BULLET$[gold_i|E] [gold|E]\n$EFFECT_LIST_BULLET$[influence_i|E] [influence|E]\n$EFFECT_LIST_BULLET$[prestige_i|E] [prestige|E]\n$EFFECT_LIST_BULLET$[piety_i|E] [piety|E]\n$EFFECT_LIST_BULLET$あなたの[counties|E]または[holdings|E]を改善[AddLocalizationIf( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_has_merit' ), 'admin_contract_merit_bullet' )]#!"
- admin_contract_merit_bullet: "\n$EFFECT_LIST_BULLET$[merit_i|E]"
+ admin_contract_merit_bullet: "\n$EFFECT_LIST_BULLET$[merit_i|E] [merit|E]"
  admin_contract_failure_tt: "[prestige_i|E] [prestige|E]または[influence_i|E] [influence|E]を失うといったような小さなペナルティを受ける可能性あり"
  has_active_governance_issue: "すでに進行中の[governance_issue|E]がある"
  task_contract_reward_effect_taxes_governor_desc: "起こりうる結果："
