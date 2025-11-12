@@ -79,7 +79,7 @@ This mod relaxes the cultural and governmental restrictions on dynasty legacy tr
 
 ## Compatibility
 
-- **Game Version:** 1.18.* (Majesty update and later)
+- **Game Version:** 1.18.* (Crane)
 - **DLC Required:** Each legacy track requires its respective DLC:
   - Northern Lords (FP1): Adventure and Pillage legacies
   - Fate of Iberia (FP2): Metropolitan and Coterie legacies
