@@ -3,13 +3,14 @@
  # INSTALL REGENT FACTION WAR
  ##################################################
  JAPANESE_REGENT_FACTION_WAR: "[CLAIMANT.GetTitledFirstName]의 섭정 취임을 위한 전쟁"
+ replace_ceremonial_regent_faction_war_name: "$game_concept_ceremonial_regent$ 임명"
+ replace_ceremonial_regent_faction_war: "$replace_ceremonial_regent_faction_war_name$"
  replace_ceremonial_regent_faction_war_victory_defender_desc: "당신이 [imprisoned|E]되며, 모든 토지는 [attacker.GetShortUIName]에 의해 몰수될 것입니다."
  replace_ceremonial_regent_faction_war_victory_desc: "[defender.GetShortUIName|U](이)가 [imprisoned|E]되며, 모든 토지는 [attacker.GetShortUIName]에 의해 몰수될 것입니다."
  replace_ceremonial_regent_faction_war_white_peace_defender_desc: "당신이 당신의 [titles|E]를 유지하며 반란에 가담한 모든 [vassal|E]과 [truce|E]합니다."
  replace_ceremonial_regent_faction_war_white_peace_desc: "[defender.GetShortUIName|U](이)가 [defender.GetHerHis] [titles|E]를 유지합니다. 반란에 가담한 모든 [vassal|E]에게는 [revoke_title_reason|E]가 부여됩니다."
  replace_ceremonial_regent_faction_war_defeat_defender_desc: "당신이 당신의 [titles|E]를 유지하며 반란에 가담한 모든 [vassals|E]을 투옥합니다."
  replace_ceremonial_regent_faction_war_defeat_desc: "[defender.GetShortUIName|U](이)가 [defender.GetHerHis] [titles|E]를 유지하며 반란에 가담한 모든 [vassals|E]을 투옥합니다."
- replace_ceremonial_regent_faction_war: "$replace_ceremonial_regent_faction_name$"
  ##################################################
  # RESTORE EMPEROR FACTION WAR
  ##################################################
@@ -27,7 +28,7 @@
  JAPAN_INSTALL_BLOC_MEMBER_CB_NAME: "[ATTACKER.GetConfederation.GetLeadingHouse.GetBaseNameNoTooltip] [bloc_expansion|E]"
  JAPAN_INSTALL_BLOC_MEMBER_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetConfederation.GetName] 확장 전쟁"
  JAPAN_INSTALL_BLOC_MEMBER_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective] [DEFENDER.GetPrimaryTitle.GetName]"
- japan_install_bloc_member_cb_victory_desc: "[attacker.GetShortUIName|U](이)가 [attacker.GetConfederation.GetName](을)를 위해 분쟁 중인 [titles|E]를 장악하고, 그 분배 방식을 결정할 것입니다."
+ japan_install_bloc_member_cb_victory_desc: "[attacker.GetShortUIName|U](이)가 [attacker.GetConfederation.GetName](을)를 위해 분쟁의 대상인 [titles|E]를 장악하고, 그 분배 방식을 결정할 것입니다."
  japan_install_bloc_member_cb_white_peace_desc: "[defender.GetShortUIName|U](이)가 [defender.GetHerHis] 땅을 지키게 됩니다."
  japan_install_bloc_member_cb_defeat_desc: "[attacker.GetShortUIName|U](이)가 망신을 당합니다."
  japan_install_bloc_member_cb_ended_invalid.desc: "$japan_install_bloc_member_cb$이 무효화되었습니다"
@@ -75,9 +76,9 @@
  JAPAN_IMPERIAL_EXPANSION_CB_NAME: "제국 [county|E] 평정"
  JAPAN_IMPERIAL_EXPANSION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][TITLE.GetBaseName] 평정"
  JAPAN_IMPERIAL_EXPANSION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
- japan_imperial_expansion_cb_victory_desc_attacker: "분쟁 중인 [title|E]가 당신에게 귀속됩니다."
- japan_imperial_expansion_cb_victory_desc: "분쟁 중인 [title|E]가 [attacker.GetTopLiege.GetTitleAsNameNoTooltip]에게 귀속됩니다."
- japan_imperial_expansion_cb_ended_invalid.desc.attacker: "[war.GetName] 종료: [attacker.GetShortUIName](이)가 [ritsuryo|E] 및 [soryo|E] 체제가 아니거나 [ceremonial_liege|E]이 없음"
+ japan_imperial_expansion_cb_victory_desc_attacker: "분쟁의 대상인 [title|E]가 당신에게 귀속됩니다."
+ japan_imperial_expansion_cb_victory_desc: "분쟁의 대상인 [title|E]가 [attacker.GetTopLiege.GetTitleAsNameNoTooltip]에게 귀속됩니다."
+ japan_imperial_expansion_cb_ended_invalid.desc.attacker: "[war.GetName] 종료: [attacker.GetShortUIName](이)가 [ritsuryo|E] 및 [soryo|E] 체제가 아니거나 [ceremonial_liege|E]가 없음"
  japan_imperial_expansion_cb_ended_invalid.desc: "[war.GetName] 종료: [defender.GetShortUIName](이)가 [realm|E]에 합류했거나 유효한 대상 [county|E]을 보유하지 않음"
  japan_imperial_expansion_cb_warning_japan_tt: "@warning_icon! #X 당신이 [war|E]에서 패배할 경우, [recipient.GetShortUIName] 및 [recipient.GetHerHis] [allies|E]들은 [independent|E] [soryo|E] [realms|E]이 됩니다."
  japan_imperial_expansion_cb_neighbour_tt: "[defender.GetShortUIName|U](이)가 [attacker.GetTopLiege.GetPrimaryTitle.GetName]에 인접한 [county|E]을 보유하지 않음"
@@ -91,8 +92,8 @@
  JAPAN_IMPERIAL_RECONQUEST_CB_NAME: "황실의 일본 수복 #weak ([de_jure|E])#!"
  JAPAN_IMPERIAL_RECONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]황실의 일본 수복"
  JAPAN_IMPERIAL_RECONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
- japan_imperial_reconquest_cb_victory_desc: "[attacker.GetTopLiege.GetShortUIName](이)가 분쟁 중인 [titles|E]를 차지합니다."
- japan_imperial_reconquest_cb_ended_invalid.desc.attacker: "[war.GetName] 종료: [attacker.GetShortUIName](이)가 [ritsuryo|E] 및 [soryo|E] 체제가 아니거나 [ceremonial_liege|E]이 없음"
+ japan_imperial_reconquest_cb_victory_desc: "[attacker.GetTopLiege.GetShortUIName](이)가 분쟁의 대상인 [titles|E]를 차지합니다."
+ japan_imperial_reconquest_cb_ended_invalid.desc.attacker: "[war.GetName] 종료: [attacker.GetShortUIName](이)가 [ritsuryo|E] 및 [soryo|E] 체제가 아니거나 [ceremonial_liege|E]가 없음"
  japan_imperial_reconquest_cb_ended_invalid.desc: "[war.GetName] 종료: [defender.GetShortUIName](이)가 [realm|E]에 합류했거나 유효한 대상 [county|E]을 보유하지 않음"
  japan_imperial_reconquest_cb_warning_japan_tt: "@warning_icon! #X 당신이 [war|E]에서 패배할 경우, [recipient.GetShortUIName] 및 [recipient.GetHerHis] [allies|E]들은 [independent|E] [soryo|E] [realms|E]이 됩니다."
  japan_imperial_reconquest_cb_neighbour_tt: "[defender.GetShortUIName|U](은)는 인접한 [county|E]을 보유하지 않음"
@@ -137,9 +138,9 @@
  ##################################################
  ceremonial_claimant_faction_war: "의례적 주장자 파벌"
  CEREMONIAL_CLAIMANT_WAR_NAME: "[TITLE.GetDefinitiveName|l]에 대한 [CLAIMANT.GetTitledFirstNamePossessive] 명분을 위한 전쟁"
- ceremonial_claimant_faction_war_victory_desc: "[claimant|E]가 [ceremonial_liege|E]이 됩니다."
- ceremonial_claimant_faction_war_white_peace_desc: "[ceremonial_liege|E]은 변하지 않습니다. 반란을 일으킨 모든 봉신에게 [revoke_title_reason|E]가 부여됩니다."
- ceremonial_claimant_faction_war_defeat_desc: "[ceremonial_liege|E]은 변하지 않습니다. 반란을 일으킨 모든 [vassals|E]이 [imprisoned|E]됩니다."
+ ceremonial_claimant_faction_war_victory_desc: "[claimant|E]가 [ceremonial_liege|E]가 됩니다."
+ ceremonial_claimant_faction_war_white_peace_desc: "[ceremonial_liege|E]는 변하지 않습니다. 반란을 일으킨 모든 봉신에게 [revoke_title_reason|E]가 부여됩니다."
+ ceremonial_claimant_faction_war_defeat_desc: "[ceremonial_liege|E]는 변하지 않습니다. 반란을 일으킨 모든 [vassals|E]이 [imprisoned|E]됩니다."
  ##################################################
  # BLOC WAR
  ##################################################

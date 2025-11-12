@@ -356,7 +356,7 @@
  lover.7004.a.tt: "#F 이렇게 갑작스레 가슴이 널뛰는 이유가 뭔데?#!"
  lover.7004.b: "날 좀 내버려 두란 말이야, [proposing_rival.GetFirstNameNoTooltip]."
  lover.7005.t: "사랑스러운 [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('potential_lover') )|U]"
- lover.7005.desc: "[ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('potential_lover') )]인 [potential_lover.GetTitledFirstName](이)가 수려한 용모를 지녔다는 것쯤은 잘 알고 있다. 그래선지 [potential_lover.GetSheHe]가 웃거나 [potential_lover.Custom('quirk_pos_present_type4_KR')] 때면 언제나 가슴이 널뛰곤 한다."
+ lover.7005.desc: "[ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('potential_lover') )]인 [potential_lover.GetTitledFirstName](이)가 수려한 용모를 지녔다는 것쯤은 잘 알고 있다. [potential_lover.GetSheHe]는 자주 웃고 [potential_lover.Custom('quirk_pos_present')]. 그리고 그럴 때면 언제나 가슴이 널뛰곤 한다."
  lover.7005.a: "[ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('potential_lover') )]에게 이런 감정을 품는 게 평범한 걸까?"
  lover.7005.a.tt: "#F 무슨 의미인지는 몰라도, 이런 감정을 더 느끼고 싶어!#!"
  lover.7005.b: "[potential_lover.GetSheHe|U]는 내 [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('potential_lover') )](이)잖아. 정신 차리자, [ROOT.Char.GetFirstNameNoTooltip]!"

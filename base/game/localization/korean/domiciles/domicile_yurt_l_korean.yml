@@ -125,7 +125,7 @@
  herd_conversion_yurt_04_domicile_building: "$herd_conversion_yurt_01_domicile_building$"
  herd_conversion_yurt_05_domicile_building: "$herd_conversion_yurt_01_domicile_building$"
  herd_conversion_yurt_06_domicile_building: "$herd_conversion_yurt_01_domicile_building$"
- raiding_yurt_01_domicile_building: "대형 전리품 자루"
+ raiding_yurt_01_domicile_building: "대형 노획물 자루"
  raiding_yurt_02_domicile_building: "$raiding_yurt_01_domicile_building$"
  raiding_yurt_03_domicile_building: "$raiding_yurt_01_domicile_building$"
  raiding_yurt_04_domicile_building: "$raiding_yurt_01_domicile_building$"

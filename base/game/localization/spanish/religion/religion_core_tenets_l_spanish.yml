@@ -84,6 +84,8 @@
  tenet_hedonistic_name: "Hedonista"
  tenet_hedonistic_desc: "La divinidad llenó este mundo con un abundancia de placeres para que nos entreguemos y disfrutemos. No participar de tales cosas es rechazar la obra misma de la Creación."
  doctrine_parameter_piety_from_feasts_active: "Celebrar un [GetActivityType('activity_feast').GetName|l] gana [piety|lE]"
+ doctrine_parameter_piety_from_festivals_active: "[AddLocalizationIf( HasDlcFeature( 'all_under_heaven' ), 'doctrine_parameter_piety_from_festivals_active_auh')]" #Only show if you have AUH
+ doctrine_parameter_piety_from_festivals_active_auh: "Celebrar un [GetActivityType('activity_festival').GetName|l] proporciona [piety|lE]"
  tenet_carnal_exaltation_name: "Exaltación carnal"
  tenet_carnal_exaltation_desc: "Los placeres de la carne son sublimes de un modo que transciende otras experiencias terrenales y nos acerca a la divinidad. Debemos glorificar nuestros deseos sexuales y buscar oportunidades para realizarlos."
  tenet_polyamory_name: "Poliamor"
@@ -245,7 +247,7 @@
  doctrine_parameter_eastern_syncretic_recipient_opinion_active: "Bonificación mutua de [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] de [opinion|E] con [faiths|lE] cuyo [core_tenet|lE] es el $tenet_eastern_syncretism_name$"
  doctrine_parameter_opinion_of_eastern_syncretic_actor_opinion_active: ""
  tenet_sinitic_syncretism_name: "Sincretismo sinítico"
- tenet_sinitic_syncretism_desc: "Podemos aprender de las antiguas religiones siníticas. A través de siglos y milenios, han inspirado un estilo de vida noble y bueno."
+ tenet_sinitic_syncretism_desc: "Podemos aprender de las antiguas religiones siníticas. Durante siglos y milenios han inspirado un estilo de vida noble y un buen sentido moral."
  doctrine_parameter_hostility_override_sinitic_hostility_doctrine: "Las [faiths|lE] siníticas solo se consideran [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  #Instead, add these doctrine parameters to appropriate tenets (presently Dharmic Syncretism).
  doctrine_parameter_is_sinitic_faith_bilateral_loc_override: "Considera que las [faiths|lE] siníticas son [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en vez de $hostility_evil_tooltippable$, y viceversa"

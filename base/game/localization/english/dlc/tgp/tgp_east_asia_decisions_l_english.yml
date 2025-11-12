@@ -103,3 +103,10 @@
  seize_mandala_capital_decision_tooltip: "Seize a #V $building_type_mandala_capital_01$#! located within your [de_jure_capital|E] from a [subject|E]"
  seize_mandala_capital_decision_confirm: "All is as it should be."
  
+ create_bunga_mas_decision: "Create Bunga Mas"
+ create_bunga_mas_decision_tooltip: "Hire a local artisan to create a [Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )] [artifact|E] for you"
+ create_bunga_mas_decision_desc: "The trees made of the finest silver and gold — a prime treasure to award as tribute. I shall bring it to my suzerain's court and bask in its glory!"
+ create_bunga_mas_decision_confirm: "Requisition Bunga Mas"
+ create_bunga_mas_decision_effect: "Create a [Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )] [artifact|E]\n$BULLET_WITH_TAB$On delivery to Suzerain:\n$TAB$$BULLET_WITH_TAB$Gain stack(s) of [GetModifier('bunga_mas_tribute_modifier').GetNameWithTooltip] #WEAK (max 3)#!"
+ create_bunga_mas_decision_effect_message: ""
+ BUNGA_MAS_GLOSS: "The Bunga Mas, or Golden and Silver Flowers, was a form of tribute utilized in the Malay Peninsula. It consisted of two small trees made of the finest quality gold and silver."

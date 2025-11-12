@@ -306,6 +306,7 @@
  HOUSE_HEAD_SCHEME_SUPPORT_DESC: "$house_head_request_interaction$: $VALUE|+=0$"
  house_relation_personal_scheme_bonus_desc: "Por [house_relation|El]: $VALUE|+=0$"
  coronation_spouse_despised_modifier: "Promesa de coronación de [Select_CString( host.IsLocalPlayer, 'tu persona', host.GetShortUIName)] de librarse de [Select_CString(target.IsLocalPlayer,'ti', target.GetShortUIName)]: $VALUE|+=0$"
+ house_relation_hostile_scheme_bonus_desc: "[house_relation|E] hostil: $VALUE|+=0$"
  #Found Despotate
  found_despotate: "Ascender gobernación"
  found_despotate_action: "Ascender gobernación a"

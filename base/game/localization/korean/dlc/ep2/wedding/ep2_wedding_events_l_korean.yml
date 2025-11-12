@@ -520,7 +520,7 @@
  ep2_wedding.1070.desc_bad_target: "\n\n[1070_target.GetTitledFirstName](은)는 눈 깜짝할 사이에 포위되었다."
  ep2_wedding.1070.a: "정말 멋진 공연이었어."
  wedding_beasts_entertain_log_title: "즐거운 야수"
- wedding_beasts_entertain_log: "[CHARACTER.GetUIName|U](이)가 야수를 길드여 모든 문객을 유혹함"
+ wedding_beasts_entertain_log: "[CHARACTER.GetUIName|U](이)가 야수를 길들여 모든 문객을 유혹함"
  ep2_wedding.1070.b: "내가 해결하지!"
  ep2_wedding.1070.b.success: "야수를 진정시킴"
  ep2_wedding.1070.b.tt.success: "야수를 진정시킴"

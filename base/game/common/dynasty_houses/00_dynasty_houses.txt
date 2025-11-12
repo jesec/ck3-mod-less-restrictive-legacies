@@ -1158,10 +1158,10 @@ house_thiern = { # Auvergne cadets
 	dynasty = 733 #Auvergne
 }
 
-house_armagnac = { # Barcelona cadets
+house_armagnac = { # Vasconia cadets
 	prefix = "dynnp_d_"
 	name = "dynn_Armagnac"
-	dynasty = 100204 #Barcelona
+	dynasty = 388 #Vasconia
 }
 
 # Frisian

@@ -1,8 +1,8 @@
 ﻿l_korean:
- grand_ambitions_header: "원대한 야망"
+ grand_ambitions_header: "원대한 야심"
  #Starting Event: Powerful Family Coup (grand_ambitions.0001)
  grand_ambitions.0001.t: "$grand_ambitions_header$"
- grand_ambitions.0001.desc: "[ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier|l] 최고 권세가의 수장으로서 내 영향력은 닿지 않는 곳이 없고, 금력은 그 끝을 모르며, 야망에는 한계가 없다.\n\n[target_char.GetTitledFirstName](은)는 옥좌에 앉을 자격이 없다. [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNamePossessiveNoTooltip|l] 장대한 태피스트리에서 실 한 올에 지나지 않는 자다. [ROOT.Char.GetHouse.GetName] 가문의 명성을 등에 업은 나야말로 우리네 위대한 제국의 영광을 돌려놓은 자질을 갖추었다고 할 수 있으리라.\n\n나의 행동이 가문의 미래를 결정할 것이고, 나아가 세상의 역사에 반향을 일으키리라."
+ grand_ambitions.0001.desc: "[ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier|l] 최고 권세가의 수장으로서 내 영향력은 닿지 않는 곳이 없고, 금력은 그 끝을 모르며, 야심에는 한계가 없다.\n\n[target_char.GetTitledFirstName](은)는 옥좌에 앉을 자격이 없다. [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNamePossessiveNoTooltip|l] 장대한 태피스트리에서 실 한 올에 지나지 않는 자다. [ROOT.Char.GetHouse.GetName] 가문의 명성을 등에 업은 나야말로 우리네 위대한 제국의 영광을 돌려놓은 자질을 갖추었다고 할 수 있으리라.\n\n나의 행동이 가문의 미래를 결정할 것이고, 나아가 세상의 역사에 반향을 일으키리라."
  grand_ambitions.0001.a: "[target_char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]의 운명을 강철로 다시 벼려내리라!"
  grand_ambitions.0001.a.flavor: "[target_char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip](이)가 미덕과 힘을 겸비한 군주를 부르짖고 있다. 제국 신민 모두를 나의 대의 아래로 집결시키리라!"
  grand_ambitions.0001.b: "[target_char.GetTitleAsNameNoTooltip](을)를 옥좌에서 끌어낼 수단은 전쟁이 아니라 은밀한 간계이니라."
@@ -82,7 +82,7 @@
  grand_ambitions.0155.c: "근데 생각해 보면, [agent_choice_3.GetFirstNameNoTooltip]도..."
  grand_ambitions.0155.d: "이 중에 적당한 인재는 없구나."
  grand_ambitions.0160.t: "$grand_ambitions_header$: 권모술수의 실타래"
- grand_ambitions.0160.desc: "[ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.GetFirstName](이)가 [target_char.GetTitledFirstName] 퇴위 계획과 관련된 소식을 들고 찾아왔다. \"원대한 야망을 위한 토대를 마련했습니다.\" 안정적이고 확신에 찬 목소리였다.\n\n\"요직은 물론 한미한 직책에도 아군을 확보했습니다. 각자 원대한 계획에서 맡은 바 역할을 수행할 준비가 되어 있지요. 누구에게 신뢰를 실어주시겠습니까?\""
+ grand_ambitions.0160.desc: "[ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.GetFirstName](이)가 [target_char.GetTitledFirstName] 퇴위 계획과 관련된 소식을 들고 찾아왔다. \"원대한 야심을 위한 토대를 마련했습니다.\" 안정적이고 확신에 찬 목소리였다.\n\n\"요직은 물론 한미한 직책에도 아군을 확보했습니다. 각자 원대한 계획에서 맡은 바 역할을 수행할 준비가 되어 있지요. 누구에게 신뢰를 실어주시겠습니까?\""
  grand_ambitions.0160.a: "궁정 관료가 핵심적인 아군이 되겠지."
  grand_ambitions.0160.b: "상인이 우리의 전언을 신속하고 안전하게 전달해줄 터."
  grand_ambitions.0160.c: "황실 필경사가 우리의 정체를 확실하게 숨겨줄 것이다."
@@ -91,7 +91,7 @@
  grand_ambitions.0170.a: "어떤 대가를 치르더라도 조건을 맞춰주도록 하지."
  grand_ambitions.0170.b: "향후 보상을 약속하는 조건으로 우리 쪽에 묶어 둔다."
  grand_ambitions.0170.c: "가문 간의 거룩한 결합을 맺는 게 좋겠구나."
- grand_ambitions.0170.d: "내 야망은 빚 같은 족쇄에 얽매이지 않는다."
+ grand_ambitions.0170.d: "내 야심은 빚 같은 족쇄에 얽매이지 않는다."
  grand_ambitions.0180.t: "$grand_ambitions_header$: 제대로 된 대관식"
  grand_ambitions.0180.intro_hagia_sofia: "아야 소피아의 드넓고 위협적인 황금빛 돔 아래."
  grand_ambitions.0180.desc: "나는 민족의 정신적 지도자 [hof.GetTitleAsName] 앞에 섰다. 짙은 향 냄새와 수백년의 세월의 무게감으로 인해 공기는 무겁기 그지없었다.\n\n[hof.GetTitleAsName]의 호의를 얻으면 [target_title.GetName]에 대한 정통성을 확보할 수 있는 것은 물론이요, 제국 전역의 신자를 내 지지자로 만들 수 있다. 그러니 반드시 [hof.GetSheHe|U]에게 군주로서 인정받아야 한다.\n\n[hof.GetTitleAsNameNoTooltip](은)는 한낱 평범한 종교인이 아니다. [hof.GetSheHe]는 [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNamePossessiveNoTooltip|l] 정세를 냉철하게 파악하고 있다."
@@ -171,7 +171,7 @@
  ep3_grand_ambitions_rioting_county_modifier: "제국의 소문"
  ep3_grand_ambitions_hushed_rumors: "속삭이는 소문"
  ### SCHEME MODIFIERS
- scheme_grand_ambitions_modifier: "굳건한 야망"
+ scheme_grand_ambitions_modifier: "굳건한 야심"
  scheme_grand_ambitions_modifier_desc: "해당 인물은 거대한 목표를 노리고 있습니다."
  scheme_grand_ambitions_bribed_functionaries_modifier: "매수된 관리"
  scheme_grand_ambitions_bribed_functionaries_modifier_desc: "현재의 통치에 환멸을 느낀 황궁 관리들이 은밀하게 동맹을 맺어 순조로운 권력 이양을 위한 토대를 마련하고 있습니다."

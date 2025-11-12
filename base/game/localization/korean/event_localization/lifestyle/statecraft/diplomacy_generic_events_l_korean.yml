@@ -10,7 +10,7 @@
  diplomacy_generic.0012.vassal.desc: "봉신들도 모른 척 넘기지는 못할 것이다."
  diplomacy_generic.0012.end.desc: "\n\n이렇게 한계를 시험하려 들 줄은 몰랐다. 그에 걸맞은 처벌을 내리지 않는다면, 다른 이들 역시 이에 동조할지도 모르는 상황이다."
  diplomacy_generic.0012.a: "[disobedient_subject.GetFirstName](을)를 무시하면서 [disobedient_subject.GetHerHim]가 제안한 안건을 슬쩍 도용하자."
- make_invisible_option.tt: "[disobedient_subject.GetFirstName](을)를 내성적이면서 무기력하고 야망이 없는 인물로 여깁니다."
+ make_invisible_option.tt: "[disobedient_subject.GetFirstName](을)를 내성적이면서 무기력하고 야심이 없는 인물로 여깁니다."
  diplomacy_generic.0012.b: "[disobedient_subject.Custom2('PointOfRidicule', ROOT.Char)](을)를 언급하며 조롱한다면, 입을 다물지도 몰라."
  ridicule_option.tt: "[disobedient_subject.GetFirstName](을)를 자의식이 강하며 남의 시선을 신경 쓰는 인물로 여깁니다."
  diplomacy_generic.0012.c: "상황 파악을 못 하게끔 \"깜빡\" 잊고 초대하지 못한 척하자."

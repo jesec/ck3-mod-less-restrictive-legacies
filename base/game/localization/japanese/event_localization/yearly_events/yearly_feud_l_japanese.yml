@@ -1,6 +1,6 @@
 ﻿l_japanese:
  bp1_yearly.6000.t: "[my_rival.GetMotherFather|U]の罪に対して"
- bp1_yearly.6000.desc: "大声が[ROOT.Char.Custom('ResidenceBuilding')]の外の喧噪を切り裂いた。\n\n「忌まわしき[ROOT.Char.Custom2('InsultNoun', SCOPE.sC(rivals_child))|U]よ！私は[my_rival.GetTitledFirstName]の[rivals_child.Custom('GetDaughterSon')]だ！今こそ下劣な悪行の報いを受けるがいい。\n私と戦え！さもなくば貴様には己の名誉すら守るつもりがないということが世に知れるぞ！」\n\n振り返ると、そこには[my_rival.GetMotherFather]の名誉を守ろうと、目に復讐の炎を宿した[rivals_child.GetWomanMan]がいた。\n\n衛兵はまだ近くにいる。その気になれば、この短気な[rivals_child.GetWomanMan]に屈辱を与え、打ちのめして放りだすことはできる。"
+ bp1_yearly.6000.desc: "大声が[ROOT.Char.Custom('ResidenceBuilding')]の外の喧噪を切り裂いた。\n\n「忌まわしき[ROOT.Char.Custom2('InsultNoun', SCOPE.sC('rivals_child'))|U]よ！私は[my_rival.GetTitledFirstName]の[rivals_child.Custom('GetDaughterSon')]だ！今こそ下劣な悪行の報いを受けるがいい。\n私と戦え！さもなくば貴様には己の名誉すら守るつもりがないということが世に知れるぞ！」\n\n振り返ると、そこには[my_rival.GetMotherFather]の名誉を守ろうと、目に復讐の炎を宿した[rivals_child.GetWomanMan]がいた。\n\n衛兵はまだ近くにいる。その気になれば、この短気な[rivals_child.GetWomanMan]に屈辱を与え、打ちのめして放りだすことはできる。"
  bp1_yearly.6000.a: "私の喧嘩はあなたとではなく、あなたの[my_rival.GetMotherFather]とのものだ。"
  bp1_yearly.6000.b: "私は挑戦を受け入れる！"
  bp1_yearly.6000.c: "衛兵！この#EMP 子供#!をここから連れ出してくれ。"

@@ -87,3 +87,52 @@ mentor_balanced_evaluation_modifiers = {
 		has_trait = compassionate
 	}
 }
+
+# Tribute Mission common AI modifiers
+tribute_mission_decision_ai_will_do_modifiers = {
+	modifier = {
+		subject_standing >= 0 
+		add = {
+			add = "opinion(overlord)"
+			subtract = subject_standing
+			min = 0
+		}
+		desc = ai_will_do_debug
+	}
+
+	modifier = { # AIs who can give gold are more likely
+		add = 50
+		gold >= small_gold_tribute_value
+		ai_greed < 50
+		primary_title.tier > tier_county
+		desc = ai_will_do_debug
+	}
+	modifier = { # AIs who can give herd are more likely
+		add = 50
+		domicile ?= { herd >= small_herd_tribute_value }
+		ai_greed < 50
+		primary_title.tier > tier_county
+		desc = ai_will_do_debug
+	}
+
+	modifier = {
+		add = -50
+		has_relation_rival = overlord
+		desc = ai_will_do_debug
+	}
+
+	modifier = {
+		add = -25
+		opinion = {
+			target = overlord
+			value < 0
+		}
+		desc = ai_will_do_debug
+	}
+
+	modifier = { # Dukes and above should be more weighted
+		add = 25
+		primary_title.tier >= tier_duchy
+		desc = ai_will_do_debug
+	}
+}

@@ -367,7 +367,7 @@
  tgp_governor_contract_event.0027.c: "저들의 배가 #EMP 우리#! 해안에 난파했지. 그러니 저들의 물건은 우리가 몰수해야 한다."
  tgp_governor_contract_event.0027.d: "말은 안 통할지 몰라도, 몸짓으로 소통해 볼 수는 있겠지."
  tgp_governor_contract_event.0027.e: "저들을 여기서 몰아내라. 필요하다면 무력을 사용해도 좋다."
- tgp_governor_contract_event.0027.f: "내가 직접 처리하지. 저들의 모습을 보니, 내가 아는 언어를 쓰는 것 같군."
+ tgp_governor_contract_event.0027.f: "$epidemic_events.5902.a$"
  task_contract_reward_effect_temporary_housing_desc: "$label_success_standard$"
  task_contract_reward_effect_search_for_translator_desc: "$label_success_standard$"
  task_contract_reward_effect_confiscate_their_goods_desc: "$label_success_standard$"
@@ -433,7 +433,7 @@
  tgp_governor_contract_event.0032.a_tt: "[monopoly_in_the_marketplace_destination.GetName](으)로 이동해 시장의 일을 만족스럽게 처리함."
  tgp_governor_contract_event.0032.b: "한 상인이 성공 가도를 달리고 있다는 이야기 아닌가. 특이한 점은 못 느끼겠군."
  tgp_governor_contract_event.0033.t: "시장 내 독점"
- tgp_governor_contract_event.0033.desc: "상인을 사실 정직함의 전형이라고 하기는 힘들다. 그래도 이번에는 이 상인들의 말이 진실인 듯했다.\n\n가판대 사이를 신중하게 천천히 거닐어 봤는데, 지금까지 본 모든 가판대에 대놓고 같은 표식이 새겨져 있었다. 모두 한 소유주의 재산이라는 얘기였다.\n\n마지막으로 다가간 가판대가 가장 컸으며 몇 배는 더 웅장하고 정교했다. 거기다 그 옆에 있는 위풍당당한 [merchant_magnate.GetWomanMan]은 상인의 지위에 걸맞지 않을 만큼 화려한 의복을 두르고 있었다. 이 사람이야말로 상인들이 얘기한 경쟁자임이 틀림없었다."
+ tgp_governor_contract_event.0033.desc: "상인을 사실 정직함의 전형이라고 하기는 힘들다. 그래도 이번에는 이 상인들의 말이 진실인 듯했다.\n\n가판대 사이를 신중하게 천천히 거닐어 봤는데, 지금까지 본 모든 가판대에 대놓고 같은 표식이 새겨져 있었다. 모두 한 소유주의 재산이라는 얘기였다.\n\n마지막으로 다가간 가판대가 가장 크고 정교했으며, 가판대를 관리하는 위풍당당한 [merchant_magnate.GetWomanMan]은 자랑스럽게 미소를 짓고 있었다. 이 사람이야말로 상인들이 얘기한 경쟁자임이 틀림없었다."
  tgp_governor_contract_event.0033.a: "모든 상인은 가판대를 하나씩만 소유할 수 있게 하라." # (Special governor option)
  tgp_governor_contract_event.0033.b: "시장을 확장하고 새로운 가판대는 협회 구성원들에게만 경매로 넘긴다."
  tgp_governor_contract_event.0033.c: "[merchant_magnate.GetSheHe|U]는 여기 있어도 좋다. 이 특권에 맞는 #EMP 값을#! 치를 생각이 있다면야."

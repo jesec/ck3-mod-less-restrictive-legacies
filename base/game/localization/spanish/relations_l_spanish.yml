@@ -241,6 +241,7 @@
  relation_liege_female: "señora"
  relation_liege_male: "señor"
  relation_suzerain: "soberano"
+ relation_suzerain_possessive: "del soberano"
  relation_leader_female: "líder"
  relation_leader_male: "líder"
  relation_ward: "pupil[second.Custom('ES_OA')]"
@@ -675,3 +676,5 @@
  relation_elder: "anciano"
  relation_disciple_possessive: "del discípulo"
  relation_elder_possessive: "del anciano"
+ relation_tributary: "tributario"
+ relation_tributary_possessive: "del tributario"

@@ -56,7 +56,7 @@
  epidemic_events.1000.desc: "Kapłan imieniem [charismatic_priest.GetFirstName], osoba o szalonym wzroku, głosi, że [cult_epidemic.GetName|l] to boska kara i jedynie oddanie wobec [charismatic_priest.GetFaith.HighGodNamePossessive] może nas zbawić. Ciągną do [charismatic_priest.Custom('PL_niego_niej')] tłumy ludzi wiedzionych strachem i ogniem.\n\nJeśli nic z tym nie zrobimy, ta sekta zarazy może sprawić, że [ROOT.Char.GetFaith.GetAdjective|l] dominacja w miejscu o nazwie [infected_county.GetNameNoTier] i poza nim zostanie obalona."
  epidemic_events.1000.a: "Spalić tego obłąkańca!"
  epidemic_events.1000.b: "Mam pewność, że nic nam nie grozi."
- epidemic_events.1000.c: "Nareszcie, udało mi się odnaleźć [charismatic_priest.GetFaith.HighGodNamePossessive]!"
+ epidemic_events.1000.c: "Nareszcie, udało mi się odnaleźć łaskę [charismatic_priest.GetFaith.HighGodNamePossessive]!"
  epidemic_events.1010.t: "Romantyczna zjawa"
  epidemic_events.1010.desc: "Na moich ziemiach rozszalała się zaraza; to [epidemic_scope.GetName|l]. Teraz [superstitious_courtier.GetFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('superstitious_courtier'))], sugeruje coś jeszcze gorszego.\n\n– Niech [ROOT.Char.GetTitleAsNameNoTooltip] zechce mnie wysłuchać – błaga. – Wszyscy wiemy, że [dead_lover.GetFirstName] zajmuje wyjątkowe miejsce w twoim sercu. Lecz zaraza roznosi się przez zmarłych. Musimy zapieczętować [dead_lover.Custom('PL_jego_jej')] trumnę, by była szczelnie zamknięta. Inaczej [dead_lover.GetFirstName] powstanie z martwych i rozprzestrzeni tę zarazę."
  epidemic_events.1010.a: "– Jak śmiesz!"

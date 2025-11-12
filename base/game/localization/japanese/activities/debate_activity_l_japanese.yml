@@ -25,7 +25,7 @@
  gained_many_disciples: "[disciple_3.GetShortUIName|U]、[disciple_2.GetShortUIName]、[disciple_1.GetShortUIName|U]が[disciples|E]になった"
  gained_few_disciples: "[disciple_2.GetShortUIName|U]、[disciple_1.GetShortUIName]が[disciples|E]になった"
  gained_one_disciple: "[disciple_1.GetShortUIName|U]が[disciple|E]になった"
- gained_new_elder_tt: "[ROOT.Char.MakeScope.Var('new_elder').Char.GetTitledFirstNameNotooltip]が長老になった"
+ gained_new_elder_tt: "[guest.MakeScope.Var('new_elder').Char.GetFirstName]が導師になった"
  activity_window_character_honorary_guest_leader: "[Concept('movement_leader','挑戦を受けた指導者')|E]\n[Character.GetShortUINameNoTooltip|U]"
  ### GUEST INVITE RULES
  activity_invite_rule_debate_movement_members: "[GetPlayer.Custom('GetMyMovement')]の参加者"

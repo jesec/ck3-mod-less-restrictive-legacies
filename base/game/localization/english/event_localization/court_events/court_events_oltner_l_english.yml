@@ -97,7 +97,7 @@
  court_maintenance.0011.a.tooltip:0 "You will enter the [royal_court|E]"
  court_maintenance.0011.b:0 "Other matters call my attention."
  court_maintenance.0011.b.tooltip:0 "You can choose to enter your [royal_court|E] at a later time"
- court_maintenance.0011.b.tooltip.ach: "You will be able to [host|E] a [coronation|E] at a later time"
+ court_maintenance.0011.b.tooltip.ach: "You will be able to host a [coronation|E] at a later time"
  court_maintenance.0011.banner_tooltip:1 "[messenger.GetName] presents two new banners, one for your house and one for your dynasty"
  court_maintenance.0011.banner_house_tooltip:0 "[messenger.GetName] presents a new banner of your house's emblem"
  court_maintenance.0011.banner_dynasty_tooltip:0 "[messenger.GetName] presents a new banner of your dynasty's emblem"

@@ -93,9 +93,11 @@
  empire_unified_goryeo: "통일 왕국"
  emperor_male_korean: "황제" # 皇帝 (황제)
  emperor_female_korean: "황후" # 皇后 (황후)
+ hegemon_male_korean: "황제" # 皇帝 (황제)
+ hegemon_female_korean: "황후" # 皇后 (황후)
  emperor_dictator_male_korean: "집정" # 집정
  emperor_dictator_female_korean: "$emperor_dictator_male_korean$"
- emperor_prime_minister_male: "상서령"
+ emperor_prime_minister_male: "문하시중"
  emperor_prime_minister_female: "$emperor_prime_minister_male$"
  estate_holder_male_korean: "호장" # 戶長 (호장)
  estate_holder_female_korean: "대인"
@@ -145,3 +147,12 @@
  # HAN
  king_male_chinese: "왕" # 王
  king_female_chinese: "여왕" # 女王 (Nǚwáng)
+ # KOREAN CHAPLAINS
+ councillor_court_chaplain_buddhist_korean_county: "대사" # 大師
+ councillor_court_chaplain_buddhist_korean_duchy: "중대사" # 重大師
+ councillor_court_chaplain_buddhist_korean_kingdom: "수좌" # 首座
+ councillor_court_chaplain_buddhist_korean_empire: "승통" # 僧統
+ councillor_court_chaplain_seon_korean_kingdom: "선사" # 禪師
+ councillor_court_chaplain_seon_korean_empire: "대선사" # 大禪師
+ hegemon_male_japanese: "황제" # 黄帝
+ hegemon_female_japanese: "황제" # 黄帝

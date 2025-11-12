@@ -199,7 +199,7 @@
  ep3_emperor_yearly.2160.b.tt2: "Your [governor_efficiency|E] decreases by #N 5%#!"
  # Secret Tunnels
  ep3_emperor_yearly.2170.t: "Secret Tunnels"
- ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier] is a difficult area, and our control over it is often tenuous at best. Its people are hardened survivors, whose knowledge and mastery of the lay of their hard and wild land is peerless.\n\nIn this, they are helped by their own creation: an extensive net of tunnels, hidden safehouses, and underground settlements in which they can easily disappear whenever the weather turns hostile, an enemy attacks, or our tax collectors approach, demanding what's due to Caesar."
+ ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier] is a difficult area, and our control over it is often tenuous at best. Its people are hardened survivors, whose knowledge and mastery of the lay of their hard and wild land is peerless.\n\nIn this, they are helped by their own creation: an extensive net of tunnels, hidden safehouses, and underground settlements in which they can easily disappear whenever the weather turns hostile, an enemy attacks, or our tax collectors approach, demanding what's due to the [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]."
  ep3_emperor_yearly.2170.a: "This might just come in handy..."
  ep3_emperor_yearly.2170.b: "This illegal practice must come to an end."
  # A Warm Meal?
@@ -232,6 +232,7 @@
  # The Emperor's Gold
  ep3_emperor_yearly.2200.t: "The Emperor's Gold"
  ep3_emperor_yearly.2200.desc: "If there ever was someone utterly unworthy to sit on the Imperial throne, it must be [liege.GetFirstName].\n\nThe [governorship.GetName] toils and suffers, and and all our taxes go to the sluggard in [capital.GetNameNoTier]. Unless...\n\nOur taxes don't #EMP have#! to go there; I could make so much better use of them..."
+ ep3_emperor_yearly.2200.desc.c_monarch: "[liege.GetTitledFirstName] is utterly unworthy to guide the [ceremonial_monarch.GetTitleAsName]!\n\nThe [governorship.GetName] toils and suffers, and and all our taxes go to the sluggard in [capital.GetNameNoTier]. Unless...\n\nOur taxes don't #EMP have#! to go there; I could make so much better use of them...""
  ep3_emperor_yearly.2200.a: "[liege.GetSheHe|U] doesn't deserve our gold."
  ep3_emperor_yearly.2200.b: "My loyalty is to the [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip], not the [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]."
  ep3_emperor_yearly.2200.a.tt: "Loyalty Unworthy"
@@ -275,7 +276,8 @@
  ep3_emperor_yearly.2240.desc_quote_b: ""[Glossary( 'Ho bíos brakhús, he dè tékhne makré', 'ARS_LONGA_GLOSS')]" sighs [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )] as [the_scholar.GetSheHe] strikes off a line from some messy notes. When did [the_scholar.GetSheHe] even join me?!"
  ep3_emperor_yearly.2240.desc_quote_c: ""[Glossary( 'Sophòn to saphés', 'SOPHON_GLOSS')]" grumbles [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )] as [the_scholar.GetSheHe] fails — again — to follow some basic instructions."
  ep3_emperor_yearly.2240.desc_quote_latin: ""[Glossary( 'Omnia vincit amor', 'AMOR_GLOSS')]" pontificates [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )] with a solemn expression. What does that have to do with what we were talking about?!"
- ep3_emperor_yearly.2240.desc_outro: "\n\n[the_scholar.GetSheHe|U] is #EMP always#! doing this, and I hate it! Always coming up with quotations from the Ancients and shoving them into other people's faces unprompted — and often in the wrong context or with the wrong words too...\n\nMany around us groan and roll their eyes. A solid Classical education is a must-have for a public figure, but it is wasted without the wisdom to properly use it."
+ ep3_emperor_yearly.2240.desc_quote_confucius: ""[Glossary( 'The superior man is modest in his speech, but exceeds in his actions.', 'CONFUCIUS_GLOSS' )]" pontificates [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )] with a solemn expression. What does that have to do with what we were talking about?!"
+ ep3_emperor_yearly.2240.desc_outro: "\n\n[the_scholar.GetSheHe|U] is #EMP always#! quoting the Ancients and shoving them into other people's faces unprompted — and often in the wrong context or with the wrong words too...\n\nMany around us groan and roll their eyes. A solid Classical education is a must-have for a public figure, but it is wasted without the wisdom to properly use it."
  ep3_emperor_yearly.2240.a: "#EMP Actually#!, the quotation goes..."
  ep3_emperor_yearly.2240.a.flavor: "You try to put [the_scholar.GetFirstNameNoTooltip] back into [the_scholar.GetHerHis] place by showing how wrong [the_scholar.GetSheHe] is."
  ep3_emperor_yearly.2240.a_success: "Your knowledge outshines [the_scholar.GetHersHis]"

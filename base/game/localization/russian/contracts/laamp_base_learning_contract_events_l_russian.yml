@@ -309,7 +309,7 @@
  laamp_base_learning_contract_events.4100.c.stewardship.support_not_exists.tt: "У вас нет [Concept('follower', 'последователей')|E] с достаточно высоким [Concept('skill', 'навыком')|E] [Concept('stewardship', 'управления')|E]"
  laamp_base_learning_contract_events.4100.c.intrigue.support_not_exists.tt: "У вас нет [Concept('follower', 'последователей')|E] с достаточно высоким [Concept('skill', 'навыком')|E] [Concept('intrigue', 'интриг')|E]"
  laamp_base_learning_contract_events.4100.c.learning.support_not_exists.tt: "У вас нет [Concept('follower', 'последователей')|E] с достаточно высоким [Concept('skill', 'навыком')|E] [Concept('learning', 'учености')|E]"
- laamp_base_learning_contract_events.4100.c.prowess.support_not_exists.tt: "У вас нет достаточно [Concept('prowess', 'доблестных')|E] [Concept('follower', 'последователей')|E]"
+ laamp_base_learning_contract_events.4100.c.prowess.support_not_exists.tt: "У вас нет [Concept('follower', 'последователей')|E] с достаточно высоким [Concept('skill', 'навыком')|E] [Concept('prowess', 'доблести')|E]"
  laamp_base_learning_contract_events.4100.d: "«Эй! А ну #EMP СЛУШАЙ#! меня!»"
  laamp_base_learning_contract_events.4100.child: "[child_to_educate.GetFirstNameNoTooltip] продвинется в [Concept( 'education_focus', 'обучении' )|E]"
  laamp_base_learning_contract_events.4100.child_diplomacy.tt: "$laamp_base_learning_contract_events.4100.child$ [Concept('education_focus', 'основам')|E] [Concept('diplomacy', 'дипломатии')|E]"

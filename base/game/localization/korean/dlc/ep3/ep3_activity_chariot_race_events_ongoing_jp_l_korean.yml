@@ -149,7 +149,7 @@
  chariot_race_ongoing_jp.0600.intro: "마권업자 [bookmaker.GetTitledFirstName](이)가 만족한 듯 내가 힘들게 번 돈을 자기 허리띠에 걸었다. 동전이 짤랑거리며 도망가자마자 내 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('castigator'))] [castigator.GetTitledFirstNamePossessive] 경악한 비명이 들렸다.\n\n\"#EMP 오...!#! #EMP 맙소사#!, [castigator.Custom2('RelationToMeShort', ROOT.Char)]!\""
  chariot_race_ongoing_jp.0600.kathisma: "[Glossary( '카티스마', 'KATHISMA_GLOSS')] 위로 침묵이 깔렸다. 다들 술잔을 떨구고 고개를 돌려 바라보았다."
  chariot_race_ongoing_jp.0600.stands: "주변 좌석에 침묵이 깔리고, 모두가 고성이 나온 곳을 얼빠진 듯이 바라보았다."
- chariot_race_ongoing_jp.0600.desc: "\n\n\"아니라고 말해줘! 설마... 도박으로 돈을 #EMP 모조리#! 날려 버린 거야?\" [castigator.GetSheHe]가 계속 [castigator.Custom('quirk_neg_adverb')] 모습으로 다그쳤다. \"이러다 전부 털릴 거야! #EMP 대책#!은 있는 거야?!\" 마권업자는 [castigator.GetFirstNamePossessiveNoTooltip] 날카로운 눈빛을 피해 시야에서 사라졌다."
+ chariot_race_ongoing_jp.0600.desc: "\n\n\"아니라고 말해줘! 설마... 도박으로 돈을 #EMP 모조리#! 날려 버린 거야?\" [castigator.GetSheHe]가 계속 [castigator.Custom('quirk_neg_adverb')] 다그쳤다. \"이러다 전부 털릴 거야! #EMP 대책#!은 있는 거야?!\" 마권업자는 [castigator.GetFirstNamePossessiveNoTooltip] 날카로운 눈빛을 피해 시야에서 사라졌다."
  chariot_race_ongoing_jp.0600.a: "누가 [castigator.GetFirstNameNoTooltip] 좀 데려가! 경주 보러 가야 해!"
  chariot_race_ongoing_jp.0600.b: "그럼 내 판돈을 줄이도록 하지..."
  halve_wager_effect_tt: "당신의 판돈이 #M 절반으로 감소#!"

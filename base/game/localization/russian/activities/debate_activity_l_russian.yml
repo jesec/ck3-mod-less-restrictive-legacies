@@ -25,7 +25,7 @@
  gained_many_disciples: "Получены [disciple_3.GetShortUIName], [disciple_2.GetShortUIName] и [disciple_1.GetShortUIName] в качестве [Concept('disciples', 'послушников')|E]"
  gained_few_disciples: "Получены [disciple_2.GetShortUIName] и [disciple_1.GetShortUIName] в качестве [Concept('disciples', 'послушников')|E]"
  gained_one_disciple: "[Select_CString(disciple_1.IsFemale, 'Получена', 'Получен' )] [disciple_1.GetShortUIName] в качестве [Concept('disciple', 'послушника')|E]"
- gained_new_elder_tt: "[Select_CString(ROOT.Char.MakeScope.Var('new_elder').Char.IsFemale, 'Получена', 'Получен' )] [ROOT.Char.MakeScope.Var('new_elder').Char.GetTitledFirstNameNotooltip] в качестве старейшины"
+ gained_new_elder_tt: "[Select_CString(guest.MakeScope.Var('new_elder').Char.IsFemale, 'Получена', 'Получен' )] [guest.MakeScope.Var('new_elder').Char.GetFirstName] в качестве старейшины"
  activity_window_character_honorary_guest_leader: "[Concept('movement_leader', 'Получивший вызов лидер')|E]\n[Character.GetShortUINameNoTooltip|U]"
  ### GUEST INVITE RULES
  activity_invite_rule_debate_movement_members: "Участники движения «[GetPlayer.Custom('GetMyMovement')]»"

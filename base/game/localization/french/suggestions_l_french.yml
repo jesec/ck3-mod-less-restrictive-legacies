@@ -35,7 +35,7 @@
  suggestion_increase_opinion_click: "#I Cliquer pour commencer un complot d’influence#!"
  suggestion_raid_label: "Piller"
  suggestion_raid: "Suggestion : piller [landed_title.GetNameNoTierNoTooltip]"
- suggestion_raid_desc: "Envoyer votre armée [Concept( 'raid', 'piller' )|E] [landed_title.GetNameNoTierNoTooltip] vous apporterait du butin."
+ suggestion_raid_desc: "Envoyer votre armée [Concept( 'raid', 'piller' )|E] [landed_title.GetNameNoTierNoTooltip] vous apporterait du [loot|El]."
  suggestion_raid_click: "#I Cliquer pour voir vos armées#!"
  suggestion_grant_title_label: "Accorder un titre"
  suggestion_grant_title: "Suggestion : accorder [landed_title.GetNameNoTierNoTooltip] [recipient.Custom('FR_au_Char_U_Pi')][recipient.GetShortUINameNoTooltip]"

@@ -95,6 +95,10 @@
  artifact_wall_sword_muhammad_alqadib: "盖迪卜——留存于穆罕默德家族中的剑"
  artifact_wall_sword_attila_name: "上帝之剑"
  artifact_wall_sword_attila_description: "上帝之鞭，匈人酋长阿提拉的传奇宝剑。也被称为玛尔斯之剑。"
+ artifact_sword_goujian_name: "勾践剑"
+ artifact_sword_goujian: "这把古剑据说曾属于越王勾践。虽然款式略显陈旧，但锻造工艺精良。剑柄处可见镀金的鸟虫篆文。"
+ artifact_sword_goujian_refulgence: "[gujian_sword.GetDesc]\n\n这把剑据信就是“步光”，为勾践请教孔子时所带。"
+ artifact_sword_goujian_purity: "[gujian_sword.GetDesc]\n\n这把剑据信就是“纯钧”。"
  #Animals (used in ArtifactAnimalType)
  animal_type_cat: "猫"
  animal_type_dog: "狗"
@@ -730,15 +734,27 @@
  artifact_scepter_pedestal: "权杖"
  artifact_wall_icon_court_large: "大型圣像"
  artifact_wall_icon_court_small: "小型圣像"
- artifact_wall_sakanoue_sword_name: "坂家宝剑"
- artifact_wall_sakanoue_sword_desc: "这把剑由著名将军$dynn_Sakanoue$$Tamuramaro$所持，据说能守护皇室。它由$Saga_JP$$king_tenno_male_japanese$在$Tamuramaro$去世时收取。"
- artifact_higekiri_sword_name: "髭切"
+ artifact_pedestal_sakanoue_sword_name: "坂家宝剑" #坂家宝剣
+ artifact_pedestal_sakanoue_sword_desc: "这把剑由著名将军$dynn_Sakanoue$$Tamuramaro$所持，据说能守护皇室。它由$Saga_JP$$king_tenno_male_japanese$在$Tamuramaro$去世时收入皇宫。"
+ artifact_higekiri_sword_name: "髭切" #髭切
  artifact_higekiri_sword_desc: "髭切与膝丸一起由$dynn_Minamoto$$Mitsunaka$订制，在$Seiwa$$dynn_Minamoto$氏中代代相传。"
- artifact_hizamaru_sword_name: "膝丸"
+ artifact_hizamaru_sword_name: "膝丸" #膝丸
  artifact_hizamaru_sword_desc: "这把刀与髭切一起由$dynn_Minamoto$$Mitsunaka$订制，在$Seiwa$$dynn_Minamoto$氏中代代相传。"
- artifact_dojigiri_sword_name: "童子切"
- artifact_dojigiri_sword_desc: "这把刀由著名刀匠$Yasutsuna_4$锻造，并在$Seiwa$$dynn_Minamoto$氏的$dynn_Nitta$支系中代代相传。"
- artifact_mikazuki_munechika_sword_name: "三日月"
+ artifact_dojigiri_sword_name: "童子切" #童子切
+ artifact_dojigiri_sword_desc: "这把刀由著名刀匠$Yasutsuna_4$为$dynn_Fujiwara$$Toshihito$锻造，并在$dynn_Fujiwara$氏代代相传。"
+ artifact_mikazuki_munechika_sword_name: "三日月" #三日月
  artifact_mikazuki_munechika_sword_desc: "这把以新月为名的太刀由$IchijO_$$king_tenno_male_japanese$时期的著名刀匠$dynn_SanjO_$$Munechika_2$锻造。"
- artifact_odenta_sword_name: "大典太"
- artifact_odenta_sword_desc: "这把刀由$Shirakawa$$king_tenno_male_japanese$时期的著名刀匠$Mitsuyo$锻造。"
+ artifact_odenta_sword_name: "大典太" #大典太
+ artifact_odenta_sword_desc: "大典太由$Shirakawa$$king_tenno_male_japanese$时期的著名刀匠、人称典太的$Mitsuyo$锻造。"
+ artifact_pedestal_hamayumi_bow_name: "破魔弓" #破魔弓
+ artifact_pedestal_hamayumi_bow_desc: "破魔弓由$dynn_Minamoto$$Yorimasa$被召入宫中袪魔时所用。"
+ artifact_pedestal_seven_branched_sword_name: "七支刀" #七支刀
+ artifact_pedestal_seven_branched_sword_desc: "七支刀，一把有着七股火焰状分叉的铁刃，据说是古时百济王赠与一海之隔$king_tenno_male_japanese$的睦谊之礼。"
+ artifact_pedestal_gyerimro_dagger_name: "鸡林路宝剑"
+ artifact_pedestal_gyerimro_dagger_desc: "这把精工锻造的短剑，剑柄剑鞘都镶金嵌宝，是一件新罗宫廷的珍宝，据说来自西域远地。"
+ artifact_karakawa_armor_name: "唐皮" #唐皮
+ artifact_karakawa_armor_desc: "这副做工精良的大铠是平氏的传家宝，相传为$Kanmu$$king_tenno_male_japanese$之侄所赠。"
+ artifact_nukemaru_sword_name: "拔丸" #抜丸
+ artifact_nukemaru_sword_desc: "此刀相传由天照赐予伊势国一位猎师，后由$dynn_Taira$$Tadamori$购得，据说在大蛇扰其清梦时，此刀从鞘中自行拔出。"
+ artifact_kogarasumaru_sword_name: "小乌丸" #小烏丸
+ artifact_kogarasumaru_sword_desc: "小乌丸由天国为朝廷锻造，后因平定承平天庆之乱，被$Suzaku$$king_tenno_male_japanese$赐予$dynn_Taira$$Sadamori$。"

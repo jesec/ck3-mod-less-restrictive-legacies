@@ -1,4 +1,4 @@
-﻿@correct_culture_primary_score = 100
+@correct_culture_primary_score = 100
 @better_than_the_alternatives_score = 50
 @always_primary_score = 1000
 @never_primary_score = -1000
@@ -9,7 +9,7 @@
 
 9858 = { # b_Goryeo_Donggye_Myeongju
 	culture = silla
-	religion = vinaya
+	religion = dhyana	#사굴산문, Sa-gul-san-mun, Famous Dhyana School.
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -55,7 +55,7 @@
 
 9865 = { # b_Goryeo_Donggye_Deungju
 	culture = silla
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -80,7 +80,7 @@
 
 9869 = { # b_Goryeo_Donggye_Ulleung
 	culture = silla
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -97,7 +97,7 @@
 
 9906 = { # b_Goryeo_Gaeseong_Gaeseong
 	culture = goguryeo
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	special_building_slot = byeokran_port_01
 
@@ -107,6 +107,13 @@
 	}
 	1000.1.1 = {
 		culture = goryeo
+		religion = yogacara	# Hyeonhwasa, temple sponsored by the king.
+	}
+	1097.1.1 = {	#Ui-cheon's Pundarika Reform.
+		religion = pundarika
+	}
+	1110.1.1 = {	#Return
+		religion = avatamsaka
 	}
 }
 
@@ -140,6 +147,7 @@
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
+		religion = avatamsaka
 	}
 }
 
@@ -149,7 +157,7 @@
 
 9912 = { # b_Goryeo_Seohae_Hwangju
 	culture = goguryeo
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -174,7 +182,7 @@
 
 9916 = { # b_Goryeo_Seohae_Pungju
 	culture = goguryeo
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -195,8 +203,11 @@
 
 9919 = { # b_Goryeo_Seohae_Haeju
 	culture = goguryeo
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
+	932.1.1 = {	#수미산문 Su-mi-san-mun, Famous Dhyana school.
+		religion = dhyana
+	}	
 	1000.1.1 = {
 		culture = goryeo
 	}
@@ -216,7 +227,7 @@
 
 9922 = { # b_Goryeo_Seohae_Pyeongju
 	culture = goguryeo
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -237,7 +248,7 @@
 
 9925 = { # b_Goryeo_Yanggwan_Yangju
 	culture = goguryeo
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -246,7 +257,7 @@
 
 9939 = { # b_Goryeo_Yanggwan_Gwangju
 	culture = goguryeo
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -261,6 +272,9 @@
 	culture = goguryeo
 	religion = mu
 	holding = castle_holding
+	882.1.1 = {	#사자산문 Sa-ja-san-mun, Famous Dhyana school.
+		religion = dhyana
+	}	
 	1000.1.1 = {
 		culture = goryeo
 	}
@@ -300,8 +314,11 @@
 
 9933 = { # b_Goryeo_Yanggwan_Chungju
 	culture = baekje
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
+	847.1.1 = {	#성주산문 Seong-ju-san-mun, Famous Dhyana school.
+		religion = dhyana
+	}	
 	1000.1.1 = {
 		culture = goryeo
 	}
@@ -325,7 +342,7 @@
 
 9936 = { # b_Goryeo_Yanggwan_Cheongju
 	culture = baekje
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -350,7 +367,7 @@
 
 9943 = { # b_Goryeo_Yanggwan_Hongju
 	culture = baekje
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -367,7 +384,7 @@
 
 9937 = { # b_Goryeo_Yanggwan_Gongju
 	culture = baekje
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -394,7 +411,7 @@
 
 9946 = { # b_Goryeo_Yanggwan_Dangseong
 	culture = goguryeo
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -434,6 +451,12 @@
 	culture = baekje
 	religion = mu
 	holding = castle_holding
+	1000.1.1 = {	#The introduction of Buddhism to Jeju is believed to have occurred in the 7th century, but the earliest documentary evidence confirming the presence of Buddhism there dates to the 11th century.
+		religion = avatamsaka
+	}
+	1105.1.1 = {	#Losing its vassal status and direct control under Goryeo governent
+		culture = goryeo
+	}	
 }
 
 # k_goryeo
@@ -450,7 +473,7 @@
 
 9953 = { # b_Goryeo_Jeolla_Jeonju
 	culture = baekje
-	religion = pundarika
+	religion = yogacara	#금산사 Geum-san-sa, lit:Golden Mountain Temple. Location is Gimje, close to Jeonju
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -463,7 +486,7 @@
 
 9954 = { # b_Goryeo_Jeolla_Jangheung
 	culture = baekje
-	religion = dhyana
+	religion = dhyana	#가지산문 Ga-zi-san-mum, Famous Dhyana school.
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -488,7 +511,7 @@
 
 9958 = { # b_Goryeo_Jeolla_Jillye
 	culture = baekje
-	religion = pundarika
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -509,7 +532,7 @@
 
 9961 = { # b_Goryeo_Jeolla_Namwon
 	culture = baekje
-	religion = pundarika
+	religion = dhyana	#실상산문 Sil-sang-san-mun, Famous Dhyana school.
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -547,7 +570,7 @@
 
 9966 = { # b_Goryeo_Jeolla_Neungseong
 	culture = baekje
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -576,7 +599,7 @@
 
 9973 = { # b_Goryeo_Gyeongsang_Gyeongju
 	culture = silla
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	special_building_slot = hwangnyongsa_01
 
@@ -599,7 +622,7 @@
 
 9981 = { # b_Goryeo_Gyeongsang_Jinju
 	culture = silla
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -616,7 +639,7 @@
 
 9974 = { # b_Goryeo_Gyeongsang_Ulju
 	culture = silla
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -658,7 +681,7 @@
 
 9984 = { # b_Goryeo_Gyeongsang_Sangju
 	culture = silla
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -704,7 +727,7 @@
 
 9991 = { # b_Goryeo_Gyeongsang_Ilseon
 	culture = silla
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -729,7 +752,7 @@
 
 9995 = { # b_Goryeo_Gyeongsang_Guemju
 	culture = silla
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -759,7 +782,7 @@
 
 9873 = { # b_Goryeo_Gyoju_Gyoju
 	culture = goguryeo
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -792,7 +815,7 @@
 
 9879 = { # b_Goryeo_Gyoju_Dongju
 	culture = goguryeo
-	religion = vinaya
+	religion = avatamsaka
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
@@ -876,6 +899,7 @@
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
+		religion = avatamsaka		
 	}
 }
 
@@ -893,6 +917,7 @@
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
+		religion = avatamsaka		
 	}
 }
 
@@ -914,6 +939,7 @@
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
+		religion = avatamsaka		
 	}
 }
 
@@ -943,6 +969,7 @@
 	holding = castle_holding
 	1000.1.1 = {
 		culture = goryeo
+		religion = avatamsaka		
 	}
 	867.1.1 = { #Taeha
 		special_building = generic_university

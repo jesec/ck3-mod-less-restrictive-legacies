@@ -2317,7 +2317,7 @@
  building_examination_hall_03: "Имперская академия"
  building_examination_hall_03_desc: "Комплекс лекториев, залов для экзаменов, кабинетов и хранилищ обеспечивает всё необходимое для проведения любой части государственного экзамена надлежащим образом и с должной эффективностью."
  examination_hall_effects_desc: "[SelectLocalization( HasDlcFeature( 'all_under_heaven' ), 'examination_hall_effect_desc', 'examination_hall_cost_discount_max_desc' )]"
- examination_hall_effect_desc: "Снижены затраты на [Concept('activities', 'проведение')|E] [GetActivityType('activity_imperial_examination').GetTextIcon] #TOOLTIP:ACTIVITY_TYPE,activity_imperial_examination #L государственного#!#! и [GetActivityType('activity_local_examination').GetTextIcon] #TOOLTIP:ACTIVITY_TYPE,activity_local_examination #L местного экзамена#!# в этом [Concept('holding', 'владении')|E]: [EmptyScope.ScriptValue('imperial_examination_cost_discount_max_value')|P0%]"
+ examination_hall_effect_desc: "Снижены затраты на [Concept('activities', 'проведение')|E] [GetActivityType('activity_imperial_examination').GetTextIcon] #TOOLTIP:ACTIVITY_TYPE,activity_imperial_examination #L государственного#!#! и [GetActivityType('activity_local_examination').GetTextIcon] #TOOLTIP:ACTIVITY_TYPE,activity_local_examination #L провинциального экзамена#!# в этом [Concept('holding', 'владении')|E]: [EmptyScope.ScriptValue('imperial_examination_cost_discount_max_value')|P0%]"
  examination_hall_cost_discount_max_desc: "$examination_hall_effect_desc$[EmptyScope.ScriptValue('imperial_examination_cost_discount_max_value')|P0%]"
  imperial_examination_cost_discount_examination_hall: "В этом месте есть $building_type_examination_hall_01$"
  building_can_benefit_requirements: "#S Если вы отвечаете требованиям:#!\n"

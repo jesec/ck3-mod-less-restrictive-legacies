@@ -1259,7 +1259,7 @@ qasi.0006 = {
 	stewardship = 7
 	religion = catholic
 	culture = basque
-	trait = disfigured
+	trait = one_eyed
 	trait = education_diplomacy_4
 
 	father = 70292 # King García I of Navarra
@@ -1270,6 +1270,7 @@ qasi.0006 = {
 	}
 	867.1.1 = {
 		add_spouse = 73783 # Awriyah ibn Lubb
+		give_nickname = nick_the_one_eyed
 	}
 	905.1.1 = {
 		trait = devoted # Dethroned and sent to a monastery

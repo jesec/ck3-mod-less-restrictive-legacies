@@ -38,8 +38,8 @@
  petition_liege_decision_option_council_seat_family: "$petition_liege_council_seat_family$\n#low [council|E]에 [house|E] 구성원 자리 부여#!"
  petition_liege_council_seat_family_tooltip: "$petition_liege_decision_second_tooltip$"
  petition_liege_council_seat_family_tt: "[house|E] 구성원이 [liege|E]의 [council|E]에 걸맞은 자격을 갖춰야 함"
- council_appointment_toast_desc_liege_family: "[petition_char.GetTitledFirstNameNoTooltip](은)는 이제 당신의 [petition_char.GetCouncilTitle]임"
- council_appointment_toast_desc_vassal_family: "[petition_char.GetTitledFirstNameNoTooltip](은)는 이제 [petition_liege.GetTitledFirstNamePossessiveNoTooltip] [petition_char.GetCouncilTitle]임"
+ council_appointment_toast_desc_liege_family: "[petition_char.GetTitledFirstNameNoTooltip](은)는 이제 당신의 [petition_char.GetCouncilTitle]입니다"
+ council_appointment_toast_desc_vassal_family: "[petition_char.GetTitledFirstNameNoTooltip](은)는 이제 [petition_liege.GetTitledFirstNamePossessiveNoTooltip] [petition_char.GetCouncilTitle]입니다"
  ### GOLD
  petition_liege_gold: "금화"
  petition_liege_gold_desc: "[ROOT.Char.GetLiege.GetTitledFirstName]에게 [gold|E]를 달라고 요청합니다."

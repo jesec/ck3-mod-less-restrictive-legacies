@@ -10672,8 +10672,6 @@
  dynn_BoseH: "Bose Holmqvist"
  dynn_Kopparvall: "Kopparvall"
  dynn_freddi: "Freddi"
-
- dynn_Furuichi: "Furuichi" # 古市
  dynn_collinder: "Collinder"
  #TGP
  dynn_Tang: "Tang"
@@ -10796,7 +10794,7 @@
  dynn_Fujiwara_Namba: "$dynn_Namba$" #難波
  dynn_Fujiwara_Nan_ke: "Nan-ke" #南家藤原
  dynn_Fujiwara_O_inomikado: "$dynn_O_inomikado$" #大炊御門
- dynn_Fujiwara_O_shU_: "Ōshū" #奥州藤原
+ dynn_Fujiwara_O_shU_: "$dynn_O_shU_$" #奥州藤原
  dynn_Fujiwara_Ononomiya: "Ononomiya-ryū" #小野宮流藤原
  dynn_Fujiwara_RokujO_: "$dynn_RokujO_$" #六条
  dynn_Fujiwara_Saionji: "Saionji" #西園寺
@@ -10816,6 +10814,7 @@
  dynn_Fun_ya: "Fun’ya" #文室
  dynn_FurugO_ri: "Furugōri" #古郡
  dynn_Furuya: "Furuya" #古屋
+ dynn_Furuichi: "Furuichi" #古市
  dynn_Fushimi: "Fushimi" #伏見
  dynn_GO_do: "Gōdo" #額戸
  dynn_GojO_: "Gojō" #五条
@@ -11026,7 +11025,7 @@
  dynn_Minamoto_Murakami: "$Murakami$" #村上源
  dynn_Minamoto_Murakami_Shinano: "$Murakami$" #村上源
  dynn_Minamoto_NinmyO_: "$NinmyO_$" #仁明源
- dynn_Minamoto_O_shU__Ishikawa: "Ōshū $dynn_Ishikawa$" #奥州石川
+ dynn_Minamoto_O_shU__Ishikawa: "$dynn_O_shU_$ $dynn_Ishikawa$" #奥州石川
  dynn_Minamoto_Saga: "$Saga_JP$" #嵯峨源
  dynn_Minamoto_SanjO_: "$SanjO_$" #三条源
  dynn_Minamoto_Sasaki: "$dynn_Sasaki$"
@@ -11123,6 +11122,7 @@
  dynn_O_nakatomi: "Ōnakatomi" #大中臣
  dynn_O_no: "Ōno" #大野
  dynn_O_shikO_chi: "Ōshikōchi" #凡河内
+ dynn_O_shU_: "Ōshū" #奥州
  dynn_O_suga: "Ōsuga" #大須賀
  dynn_O_ta: "Ōta" #太田
  dynn_O_tawa: "Ōtawa" #大多和
@@ -11506,7 +11506,6 @@
  dynn_Zongbao: "Zongbao"
  dynn_Hiei: "Hiei"
  dynn_Tsukushi: "Tsukushi"
- dynn_Nammhae: "Nammhae"
  dynn_Shailendra: "Shailendra"
  dynn_Tian: "Tian"
  dynn_Cheng: "Cheng"
@@ -12081,3 +12080,13 @@
  dynn_Holchu: "Holchu"
  #Custom Character
  dynn_Noble_Family: "Famille noble"
+ #Senoi
+ dynn_Semai: "Semai"
+ dynn_Chewong: "Chewong"
+ dynn_Temiar: "Temiar"
+ dynn_Ple: "Ple"
+ dynn_Jah_Hut: "Jah Hut"
+ dynn_Semaq_Beri: "Semaq Beri"
+ dynn_Semelai: "Semelai"
+ dynn_Temoq: "Temoq"
+ dynn_Mah_Meri: "Mah Meri"

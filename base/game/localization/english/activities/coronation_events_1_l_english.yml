@@ -175,7 +175,7 @@
  bp4_empowered_tax_collectors_modifier: "Empowered Tax Collectors"
 
  coronation_events.1022.t: "A Silken Offer"
- coronation_events.1022.desc: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('supporter'))], [supporter.GetName], kneels before me, lifting a chest of embroidered vestments, saying:\n\n"Your Grace, I remember clearly when [supporter_memory.GetName]. As a reminder of those cherished times, it would be my greatest honor if you were to accept these silken robes, enough to furnish your entire court. I ask only that you dress the fine [ROOT.Char.Custom('KnightCulturePluralNoTooltip')] of your retinue, always, in unmatched finery."
+ coronation_events.1022.desc: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('supporter'))], [supporter.GetName], kneels before me, lifting a chest of embroidered vestments, saying:\n\n"Your Grace, my mind is a garden that flowers with memories we have shared. As a testament to the beauty of the past, I offer these silken robe, sufficient to furnish all your court. I ask only that you dress the noble [ROOT.Char.Custom('KnightCulturePluralNoTooltip')] of your retinue, always, in unmatched finery."
  coronation_events.1022.a: "A gracious gift, and a fine counsel!"
  coronation_events.1022.b: ""Increase your offer, and I will be indebted to you!""
  coronation_events.1022.c: "We should make a profit from those!"
@@ -350,7 +350,7 @@
  ach_maintenance_events.0101.desc: "On the eve of [host.GetHerHis] ascension to the throne, [host.GetName] was imprisoned by [gaoler.GetName]. The details of this daring act are still unknown; [gaoler.GetHerHis] intentions with [gaoler.GetHerHis] newfound prisoner are equally shrouded in mystery. Little is left for me to do but to gather my entourage and depart."
  ach_maintenance_events.0101.a: "$ach_maintenance_events.0100.a$"
  ach_maintenance_events.0102.t: "$ach_maintenance_events.0101.t$"  #Coronation host has been imprisoned, notify host and cancellation
- ach_maintenance_events.0102.desc: "That [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNoun')], [gaoler.Custom('GetDaughterSon')] of [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNounPlural')] has imprisoned me during #EMP my own coronation#! The ceremony is cancelled and my fate uncertain."
+ ach_maintenance_events.0102.desc: "That [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNoun')], [gaoler.Custom('GetDaughterSon')] of [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNounPlural')] has imprisoned me during #EMP my own coronation!#! The ceremony is cancelled and my fate uncertain."
  ach_maintenance_events.0102.a: "$ach_maintenance_events.0100.a$"
  ach_maintenance_events.0103.t: "[host.GetTitleAsNamePossessiveNoTooltip] Solitude" #No one shows up, notify host
  ach_maintenance_events.0103.desc: "No one arrived at my coronation! Without my subjects witnessing my ascension, I am but a [host.GetTitleAsNameNoTooltip] to myself and to my delusion.\n\nI must cancel the ceremonies. This insult will not be forgotten."
@@ -401,7 +401,7 @@
  coronation_events.1037.t: "[ROOT.Char.GetFaith.HighGodName|U] Speaks"
  coronation_events.1037.desc: "A low murmur ripples through the court. The [omen_happening.GetNameNoTooltip] has just been reported, tongues wagging as if [ROOT.Char.GetFaith.HighGodName] [ROOT.Char.GetFaith.HighGodHerselfHimself] had spoken.\n\nWith a troubled glance, [skeptical_guest.Custom2('MyCharacterIntroduction', ROOT.Char)] leans close: "The news spreads quickly, [ROOT.Char.Custom('FormOfAddressForLiege')]. Many here are unsettled. They wonder if [ROOT.Char.GetFaith.HighGodName] sends a warning.""
  coronation_events.1037.a: ""Those before me have endured worse.""
- coronation_events.1037.b: ""Let [respected_elder.GetTitledFirstName] speak.""
+ coronation_events.1037.b: ""Let [respected_elder.GetTitledFirstNameNoTooltip] speak.""
  coronation_events.1037.c: ""Out with this fearmonger!""
  coronation_events.1037.d: ""[ROOT.Char.GetFaith.HighGodName|U] stirs, but we proceed.""
 

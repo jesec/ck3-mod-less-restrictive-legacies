@@ -4,7 +4,7 @@
 
 c_nf_yamato = { # Yamato
 	867.1.1 = {
-		liege = k_chrysanthemum_throne
+		liege = e_japan
 		holder = japanese_yamato_30 # Seiwa
 		government = japan_administrative_government
 		succession_laws = { noble_family_succession_law }
@@ -276,6 +276,26 @@ c_nf_fujiwara_matsudono = { # Matsudono Fujiwara
 		government = japan_administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+}
+
+c_nf_fujiwara_michitsuna = { # Michitsuna Fujiwara
+	1066.1.1 = {
+		liege = e_japan
+		holder = japanese_fujiwara_829 # Akitsuna
+		government = japan_administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1178.1.1 = { holder = japanese_fujiwara_839 } # Sadayoshi
 	1178.10.1 = {
 		effect = {
 			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.10.1 }

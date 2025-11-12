@@ -74,3 +74,11 @@ msg_vassal_decision_good = {
 	style = good
 	message_filter_type = council_task
 }
+
+msg_tributary_invalidated = {
+	icon = "vassal"
+	title = msg_tributary_invalidated_title
+	desc = msg_tributary_invalidated_desc
+	style = neutral
+	message_filter_type = independence_gained
+}

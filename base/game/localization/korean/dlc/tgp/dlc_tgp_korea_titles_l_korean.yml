@@ -6,6 +6,8 @@
  c_nf_park_juksan_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_park_milyang: "밀성 $dynn_Bak_6734$ $c_nf_korea_suffix$"
  c_nf_park_milyang_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ c_nf_park_pyeongsan: "평산 $dynn_Bak_6734$ $c_nf_korea_suffix$"
+ c_nf_park_pyeongsan_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_park_silla: "경주 $dynn_Bak_6734$ $c_nf_korea_suffix$"
  c_nf_park_silla_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  # BOK - 복
@@ -56,6 +58,8 @@
  c_nf_gim_gyeongju_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_gim_silla: "경주 $dynn_Gim_91D1$ $c_nf_korea_suffix$"
  c_nf_gim_silla_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ c_nf_gim_ulleong: "울릉 $dynn_Gim_91D1$ $c_nf_korea_suffix$"
+ c_nf_gim_ulleong_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_gim_yeonggwang: "영광 $dynn_Gim_91D1$ $c_nf_korea_suffix$"
  c_nf_gim_yeonggwang_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  # GO - 경
@@ -118,8 +122,8 @@
  # WANG - 왕
  c_nf_wang_goryeo: "개성 $dynn_Wang_738B_KO$ $c_nf_korea_suffix$"
  c_nf_wang_goryeo_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
- #YANG - 양
- c_nf_yang_anak: "안악 $dynn_Yang_694A_KO$$c_nf_korea_suffix$"
+ # YANG - 양
+ c_nf_yang_anak: "안악 $dynn_Yang_694A_KO$ $c_nf_korea_suffix$"
  c_nf_yang_anak_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_yang_wonju: "원주 $dynn_Yang_6881$ $c_nf_korea_suffix$"
  c_nf_yang_wonju_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
@@ -148,3 +152,6 @@
  # YANG - 양
  c_nf_yang_balhae: "서경 $dynn_Yang_6881$ $c_nf_korea_suffix$"
  c_nf_yang_balhae_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ # SONG - 송
+ c_nf_song: "울주 $dynn_Song_5B8B_KO$ $c_nf_korea_suffix$"
+ c_nf_song_article: "$DEFAULT_TITLE_NAME_ARTICLE$"

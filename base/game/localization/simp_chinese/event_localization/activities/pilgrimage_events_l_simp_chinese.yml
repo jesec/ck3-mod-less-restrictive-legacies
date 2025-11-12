@@ -613,7 +613,7 @@
  #Brahmacharya Challenged
  pilgrimage.3401.t: "$pilgrimage_header$被考验的梵行"
  pilgrimage.3401.desc: "我们的巡礼来到[body_of_water.GetName]湖畔。夕阳下，湖面如金箔般闪烁，诱人下水沐浴。\n\n我的目光飘向同行的巡礼者[bather.GetName]，[bather.GetHerHis]赤裸的身影在水波映出的光芒中若隐若现。\n\n在[ROOT.Char.GetInvolvedActivity.GetShortName]期间，应遵循近乎僧侣般的[Glossary('梵行', 'BRAHMACHARAYA_GLOSS')]，戒除欲望与冲动……"
- pilgrimage.3401.a: "任凭欲念引导，我沉醉于[bather.GetName]的美貌之中。"
+ pilgrimage.3401.a: "任凭欲念引导，我沉醉于[bather.GetFirstNamePossessiveNoTooltip]的美貌之中。"
  pilgrimage.3401.b: "我迈入清凉水中，熄灭了内心的欲火。"
  pilgrimage.3401.b.flavor: "又向涅槃迈进一步。"
  BRAHMACHARAYA_GLOSS: "梵语，意为“从事婆罗门之行”，指践行一种有助于追求神圣知识和精神解脱的生活方式。这在一定程度上是通过努力达到一种无欲无求的状态来实现的。"

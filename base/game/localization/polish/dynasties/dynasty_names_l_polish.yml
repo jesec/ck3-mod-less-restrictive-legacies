@@ -10672,7 +10672,6 @@
  dynn_BoseH: "Bose Holmqvistów"
  dynn_Kopparvall: "Kopparvallów"
  dynn_freddi: "Freddich"
-
  dynn_collinder: "Collinderów"
  #TGP
  dynn_Tang: "Tangów"
@@ -10795,7 +10794,7 @@
  dynn_Fujiwara_Namba: "$dynn_Namba$" #難波
  dynn_Fujiwara_Nan_ke: "Nan-ke" #南家藤原
  dynn_Fujiwara_O_inomikado: "$dynn_O_inomikado$" #大炊御門
- dynn_Fujiwara_O_shU_: "Ōshū" #奥州藤原
+ dynn_Fujiwara_O_shU_: "$dynn_O_shU_$" #奥州藤原
  dynn_Fujiwara_Ononomiya: "Ononomiya-ryū" #小野宮流藤原
  dynn_Fujiwara_RokujO_: "$dynn_RokujO_$" #六条
  dynn_Fujiwara_Saionji: "Saionjich" #西園寺
@@ -11005,7 +11004,7 @@
  dynn_Mimura: "Mimurów" #三村
  dynn_Minabuchi: "Minabuchich" #南淵
  dynn_Minaga: "Minagów" #御長
- dynn_Minamoto: "Minamoto" #源
+ dynn_Minamoto: "Minamotów" #源
  dynn_Minamoto_Daigo: "$Daigo$" #醍醐源
  dynn_Minamoto_Go_SanjO_: "$Go_SanjO_$" #後三条源
  dynn_Minamoto_Hiraga: "$dynn_Hiraga$" #平賀
@@ -11026,7 +11025,7 @@
  dynn_Minamoto_Murakami: "$Murakami$" #村上源
  dynn_Minamoto_Murakami_Shinano: "$Murakami$" #村上源
  dynn_Minamoto_NinmyO_: "$NinmyO_$" #仁明源
- dynn_Minamoto_O_shU__Ishikawa: "Ōshū $dynn_Ishikawa$" #奥州石川
+ dynn_Minamoto_O_shU__Ishikawa: "$dynn_O_shU_$ $dynn_Ishikawa$" #奥州石川
  dynn_Minamoto_Saga: "$Saga_JP$" #嵯峨源
  dynn_Minamoto_SanjO_: "$SanjO_$" #三条源
  dynn_Minamoto_Sasaki: "$dynn_Sasaki$"
@@ -11123,6 +11122,7 @@
  dynn_O_nakatomi: "Ōnakatomich" #大中臣
  dynn_O_no: "Ōno" #大野
  dynn_O_shikO_chi: "Ōshikōchich" #凡河内
+ dynn_O_shU_: "Ōshū" #奥州
  dynn_O_suga: "Ōsugaich" #大須賀
  dynn_O_ta: "Ōtów" #太田
  dynn_O_tawa: "Ōtawów" #大多和
@@ -11332,7 +11332,7 @@
  dynn_Yamamoto: "Yamamoto" #山本
  dynn_Yamana: "Yamanów" #山名
  dynn_Yamashina: "Yamashinów" #山科
- dynn_Yamato: "Yamato" #大和
+ dynn_Yamato: "Yamatów" #大和
  dynn_Yamauchi: "Yamauchich" #山内
  dynn_Yamauchi_Onodera: "$dynn_Onodera$" #小野寺
  dynn_Yanami: "Yanamich" #八並
@@ -11506,7 +11506,6 @@
  dynn_Zongbao: "Zongbao"
  dynn_Hiei: "Hieich"
  dynn_Tsukushi: "Tsukushich"
- dynn_Nammhae: "Nammhae"
  dynn_Shailendra: "Shailendrów"
  dynn_Tian: "Tianów"
  dynn_Cheng: "Chengów"
@@ -12081,3 +12080,13 @@
  dynn_Holchu: "Holchu"
  #Custom Character
  dynn_Noble_Family: "Szlacheckich"
+ #Senoi
+ dynn_Semai: "Semaich"
+ dynn_Chewong: "Chewongów"
+ dynn_Temiar: "Temiarów"
+ dynn_Ple: "Pleich"
+ dynn_Jah_Hut: "Jah Hutów"
+ dynn_Semaq_Beri: "Semaqów Berich"
+ dynn_Semelai: "Semelaich"
+ dynn_Temoq: "Temoqów"
+ dynn_Mah_Meri: "Mah Merich"

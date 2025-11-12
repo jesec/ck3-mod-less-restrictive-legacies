@@ -613,7 +613,7 @@
  #Brahmacharya Challenged
  pilgrimage.3401.t: "$pilgrimage_header$ brahmacharia desafiada"
  pilgrimage.3401.desc: "Nuestra yatra nos ha llevado a orillas de [body_of_water.GetName]. Sus aguas relucen como hebras de pan de oro al sol de la tarde, incitándonos a bañarnos.\n\nMi mirada se desvía a otr[bather.Custom('ES_OA')] de mis compañer[bather.Custom('ES_OA')]s yatri, [bather.GetName], su cuerpo desnudo solo vestido con el centelleo del agua.\n\nSi bien durante la [ROOT.Char.GetInvolvedActivity.GetShortName|l] se supone que hemos de adoptar una [Glossary('brahmacharia', 'BRAHMACHARAYA_GLOSS')] cuasi monástica, abstenerse de pensamientos e impulsos lujuriosos…"
- pilgrimage.3401.a: "Con el deseo como guía, me baño en la belleza de [bather.GetName]."
+ pilgrimage.3401.a: "Con el deseo como guía, me baño en la belleza de [bather.GetFirstNameNoTooltip]."
  pilgrimage.3401.b: "Me introduzco en el agua fría, mis pasiones quedan extinguidas."
  pilgrimage.3401.b.flavor: "Un paso más cerca del nirvana"
  BRAHMACHARAYA_GLOSS: "«Practicar la conducta de un brahmán» en sánscrito, o llevar un estilo de vida que conduzca a la búsqueda del conocimiento sagrado y la liberación espiritual. Esto en parte se consigue luchando por llegar a un estado libre de deseo."

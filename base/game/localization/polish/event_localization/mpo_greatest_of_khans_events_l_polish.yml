@@ -195,3 +195,4 @@
  mpo_greatest_of_khans.0051.opening: "Niech mnie usłyszy cała [defender_primary.GetAdjective|l] dzicz,"
  mpo_greatest_of_khans.0051.desc: "wielki władca, którym jest [attacker.GetTitleAsName], a który zabrał waszemu ludowi wszystko i którego wojownicy zalewają wasze ziemie – oto wydaje wam rozkaz.\n\nNiech wasze załzawione twarze poczują wiatr – odjedźcie daleko. Przekażcie każdej napotkanej duszy, że [attacker.GetTitleAsNameNoTooltip] i [attacker.GetHerHis] horda wkrótce podbiją cały świat."
  mpo_greatest_of_khans.0051.a: "Mój senior zawiódł… Nadszedł mój koniec."
+ gok_noble_army_name: "[army_culture.GetNameNoTooltip] służba szlachecka"

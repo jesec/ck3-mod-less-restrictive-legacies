@@ -1,4 +1,5 @@
-﻿restore_badd_fortress_decision = { #This allows a ruler with a Zandik or Chthonic Redoubts faith to restore the Badd fortress (it's in the barony Ahar, which you'll need to capture) and make it his capital.
+﻿### Establish [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] Stronghold ###
+restore_badd_fortress_decision = { #This allows a ruler with a Zandik or Chthonic Redoubts faith to restore the Badd fortress (it's in the barony Ahar, which you'll need to capture) and make it his capital.
 	title = restore_badd_fortress_decision
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp3/fp3_decision_sunder.dds"
@@ -126,6 +127,7 @@
 	}
 }
 
+### Reform the [ROOT.Char.GetFaith.random_AltPriestTermPlural] ###
 destroy_the_magi_decision = { #This allows a ruler with sufficient piety and control of holy sites to reform the Zoroastrian priesthood's hierarchy. 
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp3/fp3_decision_strength.dds"
@@ -244,6 +246,7 @@ destroy_the_magi_decision = { #This allows a ruler with sufficient piety and con
 	}
 }
 
+### Kindle Royal Fire ###
 kindle_royal_fire_decision = {
 	title = kindle_royal_fire_decision
 	picture = {
@@ -317,6 +320,7 @@ kindle_royal_fire_decision = {
 # Embrace Zoroastrianism
 # Adopt a Zoroastrian faith in secret, provided one of your counties follows the chosen faith
 ###################################
+### Embrace Zoroastrianism ###
 fp3_embrace_zoroastrianism_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/event_scenes/fp3_temple.dds"

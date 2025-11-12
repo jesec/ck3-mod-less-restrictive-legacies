@@ -72,7 +72,7 @@
  REALM_WINDOW_DIPLOMACY_TOOLTIP_RAID_BY: "#T Asaltando a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]#!\n"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_RAID_BY_INFO: "Hostil hasta [DATE.GetString|V]"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_CONFEDERATION: "#T Miembro de [CONFEDERATION.GetName]#!\n"
- REALM_WINDOW_DIPLOMACY_TOOLTIP_CONFEDERATION_INFO: "Otras [Concept('bloc_member_houses|El', 'casas del bloque')|E]"
+ REALM_WINDOW_DIPLOMACY_TOOLTIP_CONFEDERATION_INFO: "Otras [Concept('bloc_member_houses|El', 'casas del bloque')|E]:"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_CONFEDERATION_MEMBER_CHARACTER: "$TAB$[CHARACTER.GetUIName|U]\n$TAB$#TOOLTIP:STATIC_MODIFIER,prestige_level_[Character.GetPrestigeLevel] @prestige_level_[Character.GetPrestigeLevel]_icon!#!$TAB$[opinion|E]: #color:{[ToTextFormatColor(Character.GetOpinionOfTint( GetPlayer ))]} [CHARACTER.GetOpinionOf( GetPlayer )|=]#!"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_CONFEDERATION_MEMBER_HOUSE: "$TAB$[DYNASTY_HOUSE.GetName|U]: [DYNASTY_HOUSE.MakeScope.ScriptValue('tgp_bloc_house_member_count_value')|0V] #weak ([DYNASTY_HOUSE.GetDynasty.GetName])#!"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_CONFEDERATION_MEMBER_HOUSE_DYNASTY: "#weak ([DYNASTY_HOUSE.GetDynasty.GetName])#!"

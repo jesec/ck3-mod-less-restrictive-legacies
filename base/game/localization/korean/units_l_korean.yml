@@ -37,7 +37,7 @@
  UNIT_STATE_GATHERING: "소집 중: $VALUE$ 남음"
  UNIT_STATE_MOVING: "이동 중"
  UNIT_STATE_RAIDING: "약탈 중"
- UNIT_STATE_BARTERING: "흥정 중"
+ UNIT_STATE_BARTERING: "물물 교환 중"
  UNIT_STATE_RETREATING: "[PROVINCE.GetName](으)로 퇴각 중"
  ARMY_STATUS_ICON_TOOLTIP: "$DESC$"
  KNIGHT_IN_THIS_ARMY_TOOLTIP: "이 [army|E]의 $knight_culture_player$(으)로 활약 중"

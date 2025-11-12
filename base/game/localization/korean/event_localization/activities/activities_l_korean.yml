@@ -85,7 +85,7 @@
  honorary_guest_desc_for_host: "$honorary_guest_for_host$이 없으면 $feast_type_murder$라고 할 수 없겠지요. 주최자는 신중하게 희생양을 선택하여 목숨을 거두어야 합니다. 여기서 주최자의 뜻에 따라 수행단 전체를 처리하는 것도 가능합니다. 하지만 방심은 금물입니다. 희생양이 사라졌다는 걸 누가 눈치채기라도 하면 결과가 뒤따를 테니 말입니다."
  honorary_guest_regular_desc: "$honorary_guest_desc$"
  honorary_guest_regular_desc_for_host: "$honorary_guest_desc$"
- activity_window_character_honorary_guest: "[SelectLocalization( ObjectsEqual(Activity.GetHost.Self, GetPlayer), '$honorary_guest_for_host|q$', 'honorary_guest|E' )]\n[Character.GetShortUINameNoTooltip|U]"
+ activity_window_character_honorary_guest: "[SelectLocalization( ObjectsEqual(Activity.GetHost.Self, GetPlayer), 'honorary_guest_for_host', 'honorary_guest_concept' )]\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_honorary_guest_regular: "[honorary_guest|E]\n[Character.GetShortUINameNoTooltip|U]"
  feast_cost_discount_longhouses: "장소에 $building_type_longhouses_01$ 존재"
  feast_cost_discount_farm_estates: "장소에 $building_type_farm_estates_01$ 존재"

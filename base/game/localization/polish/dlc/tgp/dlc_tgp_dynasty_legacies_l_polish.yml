@@ -44,7 +44,7 @@
  tgp_legitimacy_pilgrimages: "Odbycie [Concept('pilgrimage', 'pielgrzymki')|E] zapewnia [legitimacy_i] [EmptyScope.ScriptValue('tgp_legitimacy_from_pilgrimage')|+0]"
  tgp_sea_legacy_tributary_acceptance: "Akceptacja przyjęcia jako [Concept('tributary', 'trybutariusza')|E]: #P +[EmptyScope.ScriptValue('tgp_sea_legacy_tributary_acceptance_value')|0]#!"
  tgp_sea_legacy_more_likely_to_contribute_to_gp: "Poddani są bardziej skłonni do zaakceptowania [Concept('interaction', 'interakcji')|E] „[GetPlayer.GetPlayerInteractionName('request_great_project_contribution_interaction')]”"
- tgp_sea_legacy_new_great_project_contributions: "Odblokowuje dodatkowy, opcjonalny [great_project_contributions|El] w [great_project|El] [GetGreatProjectType('mandala_capital_01').GetName]"
+ tgp_sea_legacy_new_great_project_contributions: "Odblokowuje dodatkowy, opcjonalny [great_project_contributions|El] we [great_project|El] [GetGreatProjectType('mandala_capital_01').GetName]"
  tgp_sea_legacy_pass_one_succession_challenge: "Twój [heir|El] może natychmiast ukończyć jedno wybrane przez siebie wyzwanie podczas [Concept('mandala_succession_succession', 'sukcesji')|E] [Concept('mandala', 'mandalowej')|E]"
  sea_succession_legacy_spent_global: "#weak Ta opcja spowoduje zużycie atrybutu „[dynasty_perk|E]” do pominięcia tą postacią jednego z wyzwań [Concept('mandala_succession_succession', 'sukcesji')|E] [Concept('mandala', 'mandalowej')|E]#!"
  sea_succession_legacy_spent_first: "$sea_succession_legacy_spent_global$"

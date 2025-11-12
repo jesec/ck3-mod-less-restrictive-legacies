@@ -29,6 +29,7 @@
  CULTURE_CREATION_LANGUAGE: "[language|E]"
  CULTURE_CREATION_MARTIAL_CUSTOM: "[martial_custom|E]"
  CULTURE_CREATION_NAMING_LIST: "Praktyki nazewnicze"
+ CULTURE_CREATION_NAMING_ORDER: "Kolejność imienia i nazwiska"
  CULTURE_CREATION_BUILDINGS: "Architektura"
  CULTURE_CREATION_CLOTHING: "Moda"
  CULTURE_CREATION_COAS: "Herby"
@@ -57,4 +58,4 @@
  HYBRID_FASHION_DESC: "Wykorzysta modę obu kultur"
  HYBRID_NAMES: "Wykorzysta nazwy obu kultur"
  CULTURE_CREATION_TRADITIONS_COUNT: "Wybierz do [GetPlayer.GetCulture.GetMaxNumberOfTraditions] [Concept( 'traditions', 'tradycji' )|E] z obu [Concept( 'culture', 'kultur' )|E] (wybrano [HybridizationWindow.GetTraditionPicksTotal])"
- USE_CULTURE_FRAME_STYLE: "Użyj obramowania takiego, jak [Culture.GetCollectiveNounNoTooltip]"
+ USE_CULTURE_FRAME_STYLE: "[Culture.GetNameNoTooltip]"

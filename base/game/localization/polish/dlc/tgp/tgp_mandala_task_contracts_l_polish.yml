@@ -338,7 +338,7 @@
  mandala_realm_contract_0028_request: "Zjaw się w miejscu znanym jako [TaskContract.GetLocation.GetName] i dokonaj wyboru w oparciu o swój [mandala_aspect|El]"
  tgp_east_asia_mandala_task_contract_events.3700.t: "$mandala_ritual_prefix$ ośmioraka ścieżka"
  tgp_east_asia_mandala_task_contract_events.3700.desc: "– Miejsce znane jako [ritual_location.GetName] jest pełne wiosek, ale też zmęczenia, rywalizacji i występków – mówi członek starszyzny, obracając się powoli i zataczając dłonią szerokie koło. – Osiem z nich otacza [ritual_location.Custom('GetRandomRegionalDangerSingular')], a każda położona jest w innym kierunku świata.\n\n– Aby nauczyć ich, czym jest [Glossary('ośmioraka ścieżka', 'EIGHTFOLD_PATH_GLOSS')], musisz dać przykład i nią podążyć. Osiem wiosek, osiem brzemion – bez odpoczynku i wygód. Tylko wtedy zobaczą, co tak naprawdę oznacza cnotliwy wysiłek."
- tgp_east_asia_mandala_task_contract_events.3700.a: "Przetrwam to tak, jak Bodhisattwa."
+ tgp_east_asia_mandala_task_contract_events.3700.a: "Przetrwam to, jak przystało na bodhisattwę."
  tgp_east_asia_mandala_task_contract_events.3700.b: "Podążę tą ścieżką, ale nawet ja potrzebuję odpoczynku."
  tgp_east_asia_mandala_task_contract_events.3700.c: "Szybciej przemierzę te ścieżki na końskim grzbiecie…"
  EIGHTFOLD_PATH_GLOSS: "Centralna doktryna buddyzmu, obejmująca osiem zasad prawego życia, na które składają się: słuszny pogląd, słuszne myślenie, słuszne słowo, słuszne postępowanie, słuszny sposób na życie, słuszny wysiłek, słuszna uważność i słuszna medytacja.\n\nPodobne ideały były szanowane również w tradycjach hinduistycznych, animistycznych i synkretycznych w Azji Południowej i Południowo-Wschodniej jako drogowskaz do osobistej i społecznej harmonii."

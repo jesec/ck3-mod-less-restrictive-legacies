@@ -169,7 +169,7 @@
  yearly.5043.a.a: "이런 시간 낭비가..."
  yearly.5043.a.b: "왜 말하지 않은 것이지?"
  yearly.5050.t: "부부간의 맞싸움"
- yearly.5050.desc.a: "\"절대로 용납할 수 없어요!\"\n\n[scoped_spouse.GetFirstName](이)가 내 [ROOT.Char.Custom('GetChamber')](을)를 박차고 들어왔다. 화가 나서 새빨개진 얼굴을 하고 [ROOT.Char.Custom('ResidenceBuilding')] 전체에 들릴 정도로 쩌렁쩌렁 고함친다. \n\n\"[slighting_courtier.GetTitledFirstName](이)가 내 명예를 더럽혔어요! 그 [slighting_courtier.Custom2('InsultAdjective', SCOPE.sC(scoped_spouse))] [slighting_courtier.Custom2('InsultNoun', SCOPE.sC(scoped_spouse))](을)를 [ROOT.Char.Custom('GetCourt')]에서 내쫓아주세요!\""
+ yearly.5050.desc.a: "\"절대로 용납할 수 없어요!\"\n\n[scoped_spouse.GetFirstName](이)가 내 [ROOT.Char.Custom('GetChamber')](을)를 박차고 들어왔다. 화가 나서 새빨개진 얼굴을 하고 [ROOT.Char.Custom('ResidenceBuilding')] 전체에 들릴 정도로 쩌렁쩌렁 고함친다. \n\n\"[slighting_courtier.GetTitledFirstName](이)가 내 명예를 더럽혔어요! 그 [slighting_courtier.Custom2('InsultAdjective', SCOPE.sC('scoped_spouse'))] [slighting_courtier.Custom2('InsultNoun', SCOPE.sC('scoped_spouse'))](을)를 [ROOT.Char.Custom('GetCourt')]에서 내쫓아주세요!\""
  yearly.5050.desc.b: "나는 내 [scoped_spouse.GetWifeHusband](이)가 서재에 숨어들어온 것을 발견하고 놀랐다. 얼굴 표정을 보니 무언가가 [scoped_spouse.GetFirstName](을)를 확연히 짜증나게 만든 것 같았다. 하지만 [scoped_spouse.GetFirstName](이)가 가진 문제를 나와 공유하도록 설득하는 데는 시간이 조금 걸렸다.\n\n\"내 사랑, [slighting_courtier.GetFirstName](이)가 나를 지독하게 모욕해왔다는 것을 이제는 말해야겠군요. 그 음탕한 [slighting_courtier.GetWomanMan]과 가까이 지내는 상상을 하는 것만으로도 참을 수가 없어요.\""
  yearly.5050.a.a: "당장 내일 내쫓겠습니다!"
  yearly.5050.b.a: "그런 허무맹랑한 말로 귀찮게 하지 마세요."

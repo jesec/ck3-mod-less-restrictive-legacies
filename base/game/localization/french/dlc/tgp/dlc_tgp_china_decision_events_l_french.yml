@@ -6,7 +6,7 @@
  exam_success_chance.tgp_local_exam_initial_success: "Bon début d’examen"
  exam_success_chance.tgp_local_exam_impressed_examiner: "Examinateur impressionné"
  exam_success_chance.tgp_local_exam_strong_finish: "Bonne fin d’examen"
- examiner_takes_bribes_tt: "Vous avez fait ce choix en fonction des traits de l’examinateur"
+ examiner_takes_bribes_tt: "Vous avez ce choix en raison des traits de l’examinateur"
  tgp_china_decision.1000.t: "Examen des enfants : le début"
  tgp_china_decision.1000.desc_new: "J’arrive à mon premier examen. La réputation de ma famille dépend de mes performances ici et maintenant. Dans ces salles, véritable puits de connaissances, j’ai l’impression que mes ancêtres me regardent et attendent de voir ce que je vais devenir."
  tgp_china_decision.1000.desc_returning: "Je suis de retour dans la salle d’étude locale et j’attends le verdict des plus brillants érudits du pays. Dans ce lieu, tous les parchemins et chaque parcelle de savoir qu’ils contiennent pèsent lourd sur mes épaules."

@@ -28,7 +28,7 @@
  gained_many_disciples: "Gained [disciple_3.GetShortUIName|U], [disciple_2.GetShortUIName], and [disciple_1.GetShortUIName|U] as [disciples|E]"
  gained_few_disciples: "Gained [disciple_2.GetShortUIName|U] and [disciple_1.GetShortUIName] as [disciples|E]"
  gained_one_disciple: "Gained [disciple_1.GetShortUIName|U] as [disciple|E]"
- gained_new_elder_tt: "Gained [ROOT.Char.MakeScope.Var('new_elder').Char.GetTitledFirstNameNotooltip] as elder"
+ gained_new_elder_tt: "Gained [guest.MakeScope.Var('new_elder').Char.GetFirstName] as elder"
  activity_window_character_honorary_guest_leader: "[Concept('movement_leader','Challenged Leader')|E]\n[Character.GetShortUINameNoTooltip|U]"
 
  ### GUEST INVITE RULES
@@ -56,7 +56,7 @@
  debate_books_normal: "Scrolls and Notes"
  debate_books_normal_desc: "$EFFECT_LIST_BULLET$Slightly increased Activity Success\n\n#weak I need only the essential texts and commentaries to make my arguments.#!"
  debate_books_good: "$adult_education_books_good$"
- debate_books_good_desc: "$EFFECT_LIST_BULLET$Increased Activity Success\n\n#weak I shall bring a veritable fount of knowledge to impress guests and back my arguments#!"
+ debate_books_good_desc: "$EFFECT_LIST_BULLET$Increased Activity Success\n\n#weak I shall bring a veritable fount of knowledge to impress guests and back my arguments.#!"
 
  debate_argument_major_decrease_desc: "#N #bold Major decrease#!#! to your #V Chance of Success#!"
  debate_argument_moderate_decrease_desc: "#N Moderate decrease#! to your #V Chance of Success#!"

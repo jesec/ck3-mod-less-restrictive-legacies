@@ -121,13 +121,15 @@ bp1_yearly.0100 = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					exists = scope:lover
+					exists = scope:lover
+
 				}
 				desc = bp1_yearly.0100.lover_welcome
 			}
 			triggered_desc = {
 				trigger = {
-					exists = scope:befriend
+					exists = scope:befriend
+
 				}
 				desc = bp1_yearly.0100.friend_welcome
 			}
@@ -211,7 +213,7 @@ bp1_yearly.0100 = {
 					government_has_flag = government_is_landless_adventurer
 					government_allows = administrative
 				}
-				capital_province = root.location
+				capital_province ?= root.location
 			}
 			add_to_list = travel_rivals
 		}

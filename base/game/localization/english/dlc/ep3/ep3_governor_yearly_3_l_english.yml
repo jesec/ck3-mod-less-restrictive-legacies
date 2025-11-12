@@ -218,7 +218,7 @@ msg_governor_supports_rule.t: "[root_scope.GetTitleAsNameNoTooltip] Defends Your
 msg_governor_supports_rule.desc: "[root_scope.GetName|V] publicly defends you against those who speak of your illegitimacy."
 
 ep3_governor_yearly.3050.t: "One of [ROOT.Char.GetFaith.NegativeAfterLife|U]'s Lesser Demons"
-ep3_governor_yearly.3050.desc: "Strange tidings abound concerning [emperor.GetFirstName] [emperor.GetHouse.GetName], our [emperor.GetTitleAsNameNoTooltip] who teeters on the edge of [emperor.GetHerHis] throne."
+ep3_governor_yearly.3050.desc: "Strange tidings abound concerning [emperor.FullNameNoTooltip], our [emperor.GetTitleAsNameNoTooltip] who teeters on the edge of [emperor.GetHerHis] throne."
 
 ep3_governor_yearly.3050.mess: "\n\nA seller of curatives came speaking of... ungodly bequests made of him by the palace. Lobster's eyes, children's' fingernails, potions of mandrake and pitch — all for the [emperor.GetTitleAsNameNoTooltip] to force into his gibbering maw! The beast shambles about the palace, nude, painted in [emperor.GetHerHis] strange medicines and cursing the name of [emperor.GetFaith.HighGodName]!"
 ep3_governor_yearly.3050.shiftless: "\n\nThose servants who've fled [emperor.GetHerHis] employ describe a Tartarian sprawl, pungent with old perfume... the [emperor.GetTitleAsNameNoTooltip] lies for long hours in the dark, supplicated beneath a muttering, slender-limbed #EMP creature#!. When [emperor.GetHerHis] ministers call, [emperor.GetFirstNameNoTooltip] hardly twitches... but when the devil moves its heavy lips, the [emperor.GetTitleAsNameNoTooltip] screams out for reprieve, for wine and cakes."

@@ -56,7 +56,7 @@
  prelude_events.0040.desc: "День был слишком приятным, и, естественно, [Select_CString(guest.IsFemale, 'моя ненавистная', 'мой ненавистный' )] [guest.Custom2('InsultAdjective', ROOT.Char)] [guest.GetTitledFirstName] [Select_CString(guest.IsFemale, 'должна была', 'должен был' )] омрачить его своим присутствием.\n\n«А, [Select_CString(ROOT.Char.IsFemale, 'госпожа', 'господин')] [ROOT.Char.GetFirstNameNoTooltip], — говорит [Select_CString(guest.IsFemale, 'она', 'он' )], делая вид, что до сих пор меня не [Select_CString(guest.IsFemale, 'замечала', 'замечал' )]. — Вы собираетесь развлекать вас на пиру? Или такие одежды носит [ROOT.Char.GetTitleAsNameNoTooltip|l] во время коронации?»"
  prelude_events.0040.a: "[Select_CString(guest.IsFemale, 'Она', 'Он' )] будет куда меньше болтать, когда я с [Select_CString(guest.IsFemale, 'ней', 'ним' )] закончу."
  prelude_events.0040.b: "«Меня вдохновляла твоя мамаша»."
- prelude_events.0040.c: "Я выслушаю все, что [guest.GetTitledFirstNameNoTooltip] скажет своим друзьям этим вечером."
+ prelude_events.0040.c: "Я запомню каждое слово, что скажет [guest.GetFirstNameNoTooltip]."
  prelude_events.0040.c.tt: "[Concept('scheme', 'Происки')|E] будут иметь #P более высокий#! [Concept('success_chance', 'шанс успеха')|E]"
  prelude_events.0040.d: "«Это не место для споров»."
  every_callous_vengeful_wrathful_guest: "Каждый гость со свойствами «[GetTrait('callous').GetName( GetNullCharacter )]», «[GetTrait('vengeful').GetName( GetNullCharacter )]» или «[GetTrait('wrathful').GetName( GetNullCharacter )]»"

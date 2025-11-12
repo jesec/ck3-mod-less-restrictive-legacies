@@ -25,7 +25,7 @@
  gained_many_disciples: "A gagné [disciple_3.Custom('FR_le_Char_U_Pi')][disciple_3.GetShortUIName], [disciple_2.Custom('FR_le_Char_U_Pi')][disciple_2.GetShortUIName] et [disciple_1.Custom('FR_le_Char_U_Pi')][disciple_1.GetShortUIName] comme [disciples|El]"
  gained_few_disciples: "A gagné [disciple_2.Custom('FR_le_Char_U_Pi')][disciple_2.GetShortUIName] et [disciple_1.Custom('FR_le_Char_U_Pi')][disciple_1.GetShortUIName] comme [disciples|El]"
  gained_one_disciple: "A gagné [disciple_1.Custom('FR_le_Char_U_Pi')][disciple_1.GetShortUIName] comme [disciple|El]"
- gained_new_elder_tt: "A gagné [ROOT.Char.MakeScope.Var('new_elder').Char.Custom('FR_le_Char_Pi')][ROOT.Char.MakeScope.Var('new_elder').Char.GetTitledFirstNameNoTooltip] comme aîné[ROOT.Char.MakeScope.Var('new_elder').Char.Custom('FR_E')]"
+ gained_new_elder_tt: "A gagné [guest.MakeScope.Var('new_elder').Char.GetFirstName] comme aîné[guest.MakeScope.Var('new_elder').Char.Custom('FR_E')]"
  activity_window_character_honorary_guest_leader: "[Concept('movement_leader','Chef défié')|E]\n[Character.GetShortUINameNoTooltip|U]"
  ### GUEST INVITE RULES
  activity_invite_rule_debate_movement_members: "Membres du [GetPlayer.Custom('GetMyMovement')|l]"

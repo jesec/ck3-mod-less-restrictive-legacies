@@ -90,15 +90,33 @@ emperor_female_korean = {
 		only_independent = yes
 	}
 }
+hegemon_male_korean = {
+	type = character
+	gender = male
+	special = holder
+	tier = hegemony
+	priority = 283
+	heritages = { heritage_korean }
+	governments = { meritocratic_government steppe_admin_government }
+}
+hegemon_female_korean = {
+	type = character
+	gender = female
+	special = holder
+	tier = hegemony
+	priority = 283
+	heritages = { heritage_korean }
+	governments = { meritocratic_government steppe_admin_government }
+}
 
 estate_holder_male_korean = {
 	type = character
 	gender = male
 	special = domicile
-    domicile_type = estate
-	priority = 10
+    domicile_type = east_asian_estate
+	priority = 15
 	governments = { meritocratic_government administrative_government }
-
+	heritages = { heritage_korean }
 	flavourization_rules = {
 		top_liege = no
 	}
@@ -107,10 +125,10 @@ estate_holder_female_korean = {
 	type = character
 	gender = female
 	special = domicile
-    domicile_type = estate
-	priority = 10
+    domicile_type = east_asian_estate
+	priority = 15
 	governments = { meritocratic_government administrative_government }
-
+	heritages = { heritage_korean }
 	flavourization_rules = {
 		top_liege = no
 	}

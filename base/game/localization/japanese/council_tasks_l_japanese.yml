@@ -1,5 +1,5 @@
 ﻿l_japanese:
- ACTIVE_COUNCIL_TASK_TT: "[ActiveCouncilTask.GetPositionType.GetName][ActiveCouncilTask.GetCouncillor.GetUIName]は[ActiveCouncilTask.GetTaskType.GetName|V]に割り当てられている"
+ ACTIVE_COUNCIL_TASK_TT: "私の[ActiveCouncilTask.GetPositionType.GetNameForPlayer]、[ActiveCouncilTask.GetCouncillor.GetFirstName|V]は[ActiveCouncilTask.GetTaskType.GetName|V]に割り当てられている"
  ACTIVE_COUNCIL_TASK_FROZEN_TT: "#T [ActiveCouncilTask.GetTaskType.GetName|V] #!\n@warning_icon! #X 誰かをこの評議会の地位に任命して任務を続行します#!"
  POTENTIAL_COUNCIL_TASK_TT: "[ActiveCouncilTask.GetCouncillor.GetUIName]は[ActiveCouncilTask.GetTaskType.GetName|V]に割り当てられる"
  COUNCIL_TASK_TT: "#T [ActiveCouncilTask.GetTaskType.GetName]#!\n[SelectLocalization( GuiPotentialCouncilTask.IsActive, 'ACTIVE_COUNCIL_TASK_TT', 'POTENTIAL_COUNCIL_TASK_TT' )]"
@@ -604,7 +604,7 @@
  kurultai_task.1356.notification: "搾取された人々"
  kurultai_task.1356.desc: "[councillor.GetShortUIName]の行動は、[county.GetNameNoTier]に住む部族に悲惨な影響を与えた。"
  kurultai_task.1401.notification: "優秀な襲撃隊"
- kurultai_task.1401.desc: "[councillor.GetShortUIName]の訓練により、我々の襲撃隊は広く恐れられる存在になった。"
+ kurultai_task.1401.desc: "[councillor.GetShortUIName]の厳しい訓練により、我々の襲撃隊は広く恐れられる存在になった。"
  kurultai_task.1406.notification: "恐るべき襲撃隊"
  kurultai_task.1406.desc: "我々の襲撃隊は国内外を問わず、広く敵を恐怖に陥れる存在になった。"
  kurultai_task.1451.notification: "平凡な襲撃隊"

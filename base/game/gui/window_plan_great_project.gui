@@ -454,12 +454,12 @@ types GreatProjectPlanWindow
 
 			}
 
-			# Only show this button when the project has been created and is not yet funded
+			# Only show this button when the project has been created and the contribution is not yet funded
 			button_standard = {
 				name = "show_contributors_button"
-
-				# Fix the visible block below with TIT-65568
-				visible = "[And( Not( ContributionItem.HasKey('master_builder') ), And( Not( ContributionItem.HasKey('dynastic_temple_complex') ),And( Not( ContributionItem.HasKey('family_temple_complex') ),And( Not( ContributionItem.HasKey('family_temple_compound') ),And( Not( ContributionItem.HasKey('family_statues') ),And( Not( ContributionItem.HasKey('family_shrine') ),And( Not( ContributionItem.HasKey('trickery_aspect') ),And( Not( ContributionItem.HasKey('destruction_aspect') ),And( Not( ContributionItem.HasKey('serenity_aspect') ),And( Not( ContributionItem.HasKey('creation_aspect') ),And( Not( ContributionItem.HasKey('rite_of_worthiness') ), And( ObjectsEqual( ContributionItem.GetProject.GetOwner, GetPlayer ), And( ContributionItem.GetProject.IsValid, Not( ContributionItem.IsFunded ) ) ) ) ) ) ) ) ) ) ) ) ) )]"
+				
+				# Only the owner can ask other people to fund Contributions, and they cannot ask people to fund Contributions that only they can fund.
+				visible = "[And( And( ObjectsEqual( ContributionItem.GetProject.GetOwner, GetPlayer ), Not( ContributionItem.IsOwnerOnly ) ), And( ContributionItem.GetProject.IsValid, Not( ContributionItem.IsFunded ) ) )]"
 				
 				size = { 60 40 }
 

@@ -1,15 +1,4 @@
 ﻿l_korean:
- ### JAPAN
- lesson_tgp_playtest_intro_japan_step_government: "정부"
- lesson_tgp_playtest_intro_japan_step_government_desc: "일본은 순수한 [feudal|E] 또는 [administrative|E] [realm|E]이 아닙니다.\n\n일본의 [vassals|E]들은 [ritsuryo_i][ritsuryo|E] 또는 [soryo_i][soryo|E] [government|E] 중 하나를 따르며, 이는 제국 관료와 지방 무장의 양분된 구조를 반영합니다.\n\n또한 일본의 [vassals|E]은 대개 단 하나의 [Concept( 'county', '영지' )|E]만을 통치합니다.\n\n#I 일본 정부 관련 정보는 정부 행정 패널에서 확인할 수 있습니다#!"
- lesson_tgp_playtest_intro_japan_step_emperor_and_regent: "천황과 섭정"
- lesson_tgp_playtest_intro_japan_step_emperor_and_regent_desc: "일본의 실제 [ruler|E]는 [tenno|E]로 흔히 알려진 [japanese_emperor|E]이 #BOLD 아닙니다#!.\n\n게임 시작 시점에서 일본은 [kampaku|E]이 통치하며, 천황은 명목상의 존재일 뿐입니다.\n\n[ritsuryo|E] 영주는 차기 [kampaku|E] 임명을 두고 경쟁할 수 있으나, [soryo|E] 영주는 #V $replace_ceremonial_regent_faction_name$#! [faction|E]을 통해서만 권력을 잡을 수 있습니다.\n\n비록 덴노가 직접 통치하지는 않지만, 그는 자신만의 [japanese_manor|E]을 보유하며, 경우에 따라 [kampaku|E]으로 임명되어 [cloistered_emperor|E]으로서 통치할 수도 있습니다.\n\n누가 통치하든 간에, 일본의 통치자는 [imperial_policy|E] [law|E]을 제정하여 제국 전체에 영향을 줄 수 있습니다."
- lesson_tgp_playtest_intro_japan_step_house_aspirations: "가문 야망"
- lesson_tgp_playtest_intro_japan_step_house_aspirations_desc: "모든 일본 [houses|E]에는 [house_aspiration|E]이 존재합니다.\n\n이 속성은 $game_concept_house$의 모든 구성원에게 영향을 미치며, 시간이 지나면서 [house_head|E]에 의해 향상될 수 있습니다.\n\n#I '$ADMINISTRATIVE_GOVERNMENT_HEADER$' 패널에서 $game_concept_house_aspiration$을 확인하고 강화할 수 있습니다."
- lesson_tgp_playtest_intro_japan_step_blocs: "일문"
- lesson_tgp_playtest_intro_japan_step_blocs_desc: "당신의 [house|E]은 [house_bloc|E]에 속해 있으며, 이는 여러 [houses|E]으로 이루어진 방어 동맹입니다.\n\n$game_concept_house_bloc$ 구성원은 일반적으로 같은 [house_aspiration|E]을 공유하며, [house_relations|E] 또한 좋습니다. 만약 그렇지 않을 경우 [bloc_cohesion|E]이 낮아지고, 논란이 되는 $game_concept_houses$을 [leading_house|E]이 $game_concept_bloc$에서 추방할 수도 있습니다.\n\n#I 강조된 버튼을 클릭하면 $game_concept_bloc$ 상태를 확인할 수 있습니다.#!"
- lesson_tgp_playtest_intro_japan_step_end: "일본"
- lesson_tgp_playtest_intro_japan_step_end_desc: "일본에서의 정치는 언제나 양 진영 간의 투쟁입니다. [house|E]을 현명하게 이끌어야 일본의 미래를 결정하는 위치에 오를 수 있습니다."
  ### MANDALA
  action_lesson_tgp_playtest_intro_mandala: "만다라 정부"
  action_lesson_tgp_playtest_intro_mandala_desc: "만다라는 신앙도와 조공국에 중점을 둔 특수한 정부 형태입니다. 이곳을 열어서 이 정부 형태에 대한 소개를 확인할 수 있습니다."

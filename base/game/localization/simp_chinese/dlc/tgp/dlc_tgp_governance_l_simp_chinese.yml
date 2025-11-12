@@ -367,7 +367,7 @@
  tgp_governor_contract_event.0027.c: "他们的船是在#EMP 我们的#!海岸失事的，因此他们的货物应当充公。"
  tgp_governor_contract_event.0027.d: "言语或许无用，但我可以试着用手势沟通。"
  tgp_governor_contract_event.0027.e: "把他们赶走，如有必要可动用武力。"
- tgp_governor_contract_event.0027.f: "让我亲自处理。看他们的模样，我正好懂他们的语言。"
+ tgp_governor_contract_event.0027.f: "$epidemic_events.5902.a$"
  task_contract_reward_effect_temporary_housing_desc: "$label_success_standard$"
  task_contract_reward_effect_search_for_translator_desc: "$label_success_standard$"
  task_contract_reward_effect_confiscate_their_goods_desc: "$label_success_standard$"
@@ -433,7 +433,7 @@
  tgp_governor_contract_event.0032.a_tt: "前往[monopoly_in_the_marketplace_destination.GetName]，重新调整市场秩序。"
  tgp_governor_contract_event.0032.b: "我所听到的，不过是一个成功商人的故事罢了。"
  tgp_governor_contract_event.0033.t: "市场上的垄断行为"
- tgp_governor_contract_event.0033.desc: "尽管商人们向来不以诚实著称，但这次他们的话似乎确有依据。\n\n我低调地在市场内游走，发现所有摊位上都印着相同的标记，表明它们都归属于同一名商人。\n\n当我接近市场最大的摊位时，那里奢华无比，装饰远超寻常商贩的身家，而那位端坐其中的[merchant_magnate.GetWomanMan]身披华服，[merchant_magnate.GetHerHis]显然是这场纷争的核心人物。"
+ tgp_governor_contract_event.0033.desc: "尽管商人们向来不以诚实著称，但这次他们的话似乎确有依据。\n\n我低调地在市场内游走，发现所有摊位上都印着相同的标记，表明它们都归属于同一名商人。\n\n我们最后去的摊位也是最大、最奢华的，器宇不凡的摊主正骄傲地微笑着，这个[merchant_magnate.GetWomanMan]显然是这场纷争的核心人物。"
  tgp_governor_contract_event.0033.a: "不允许任何商人独占多个摊位。" # (Special governor option)
  tgp_governor_contract_event.0033.b: "扩建市场空间，仅向商人协会的成员拍卖新增摊位。"
  tgp_governor_contract_event.0033.c: "[merchant_magnate.GetSheHe|U]可以留下，但[merchant_magnate.GetSheHe]必须#EMP 支付#!特许经营费。"

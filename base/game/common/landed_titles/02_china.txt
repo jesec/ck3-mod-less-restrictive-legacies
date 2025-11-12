@@ -8609,7 +8609,6 @@ h_china = {
 		can_be_named_after_dynasty = no
 		definite_form = yes
 		ruler_uses_title_name = no
-		enable_regnal_numbers = no
 
 		capital = c_jingzhao
 	}
@@ -8625,7 +8624,6 @@ h_china = {
 		can_be_named_after_dynasty = no
 		definite_form = yes
 		ruler_uses_title_name = no
-		enable_regnal_numbers = no
 
 		capital = c_jingzhao
 	}
@@ -8641,7 +8639,6 @@ h_china = {
 		can_be_named_after_dynasty = no
 		definite_form = yes
 		ruler_uses_title_name = no
-		enable_regnal_numbers = no
 
 		capital = c_jingzhao
 	}
@@ -8657,7 +8654,6 @@ h_china = {
 		can_be_named_after_dynasty = no
 		definite_form = yes
 		ruler_uses_title_name = no
-		enable_regnal_numbers = no
 
 		capital = c_jingzhao
 	}
@@ -8673,7 +8669,6 @@ h_china = {
 		can_be_named_after_dynasty = no
 		definite_form = yes
 		ruler_uses_title_name = no
-		enable_regnal_numbers = no
 
 		capital = c_jingzhao
 	}
@@ -8689,7 +8684,6 @@ h_china = {
 		can_be_named_after_dynasty = no
 		definite_form = yes
 		ruler_uses_title_name = no
-		enable_regnal_numbers = no
 
 		capital = c_jingzhao
 	}
@@ -8705,7 +8699,6 @@ h_china = {
 		can_be_named_after_dynasty = no
 		definite_form = yes
 		ruler_uses_title_name = no
-		enable_regnal_numbers = no
 
 		capital = c_jingzhao
 	}
@@ -8721,7 +8714,6 @@ h_china = {
 		can_be_named_after_dynasty = no
 		definite_form = yes
 		ruler_uses_title_name = no
-		enable_regnal_numbers = no
 
 		capital = c_jingzhao
 	}
@@ -8737,7 +8729,6 @@ h_china = {
 		can_be_named_after_dynasty = no
 		definite_form = yes
 		ruler_uses_title_name = no
-		enable_regnal_numbers = no
 
 		capital = c_jingzhao
 	}
@@ -8775,7 +8766,7 @@ d_laamp_ding_hui = { # Ding Hui, The Wayward Spears
 	ai_primary_priority = { add = @never_primary_score }
 }
 
-d_laamp_liang_zhu_quanzhong = { # Liang Zhu Quanzhong, Zhu's Iron Host
+d_laamp_zhu_quanzhong = { # Zhu Quanzhong, Zhu's Iron Host
 	color = { 100 100 100 }
 	capital = c_bianzhou
 

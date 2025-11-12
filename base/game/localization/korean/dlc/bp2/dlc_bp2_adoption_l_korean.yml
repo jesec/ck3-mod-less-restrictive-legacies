@@ -18,7 +18,7 @@
  i_am_noble_tt: "귀족임: $VALUE|=+0$"
  we_are_alike_tt: "같은 [traits|E] 보유: $VALUE|=+0$"
  we_are_NOT_alike_tt: "반대되는 [traits|E] 보유: $VALUE|=+0$"
- ambition_tt: "더 큰 야망 보유: $VALUE|=+0$"
+ ambition_tt: "더 큰 야심 보유: $VALUE|=+0$"
  every_non_content_child: "[GetTrait('content').GetName( actor )](이)가 아닌 모든 [child|E]"
  adventurer_adopt_interaction: "후계자로 입양하기"
  adventurer_adopt_interaction_desc: "모험가로서 [recipient.GetTitledFirstNameNoTooltip](을)를 당신의 [dynasty|E]에 [adopt|E]해 [designated_heir|E]로 만들 수 있음"

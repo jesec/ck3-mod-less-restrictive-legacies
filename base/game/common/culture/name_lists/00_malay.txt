@@ -63,6 +63,42 @@
 	}
 }
 
+name_list_senoi = {
+
+	#These are largely superceded by script in found_cadet_house_decision_effect when new cadet branches are formed using the decision.
+	cadet_dynasty_names = {
+		"dynn_Semai"
+		"dynn_Chewong"
+		"dynn_Temiar"
+		"dynn_Ple"
+		"dynn_Jah_Hut"
+		"dynn_Semaq_Beri"
+		"dynn_Semelai"
+		"dynn_Temoq"
+		"dynn_Mah_Meri"
+	}
+
+	dynasty_names = {
+		"dynn_Semai"
+		"dynn_Chewong"
+		"dynn_Temiar"
+		"dynn_Ple"
+		"dynn_Jah_Hut"
+		"dynn_Semaq_Beri"
+		"dynn_Semelai"
+		"dynn_Temoq"
+		"dynn_Mah_Meri"
+	}
+
+	male_names = {
+		Atok_Balu Chekedoi Rintang Bei_Luus Berchanggi_Besi Camut Cawog Cencog Chekedoi Churog Curas Grcang Hang_Tuah Jelondong Jeludang Jerangong Kalib Kang Kemaleg Klip Lang Lud Luhj Ly Mamak Mara_Semae Mat Meneh Minoor Mrlooh Nenek_Kerbau Ngah Ngah_Hari Nyenang_Raq Pagar Pegpeg Penjel Pl_iiimnh Planken Puntum Rintang Risan Rmpent Ruwek Samad Segandi Serani Seri_Alam Tangge Tenggang Tkooy
+	}
+	female_names = {
+		Andak_Jameah Busuw_Dmeet_Long Cacat Han_Luj Inak Judah Ken_Pri Kning_Ledn Manoij Merja Simin Taman Tatau Tawal Uni Wa_Rhii Yam	
+	}
+}
+
+
 name_list_cham = {
 	#Cadet Names
 	#These are largely superceded by script in found_cadet_house_decision_effect when new cadet branches are formed using the decision.

@@ -50,7 +50,7 @@
  devaraja_overlord_radiance: "[mandala|E] [overlord|E] [radiance|E]: $VALUE|0+=$"
  other_devaraja_radiance: "이웃 [mandala|E] [ruler|E] [radiance|E]: $VALUE|0+=$"
  recipient_overlord_has_greater_radiance: "[overlord|E] [recipient.GetOverlord.GetShortUIName]의 [radiance|E]가 더 높음: $VALUE|0+=$"
- actor_has_radiance: "[actor.GetShortUIName|U](이)가 [radiant|E]: $VALUE|0+=$"
+ actor_has_radiance: "[actor.GetShortUIName|U](이)가 [radiant|E] 상태임: $VALUE|0+=$"
  ASK_FOR_CONVERSION_ACTOR_IS_MANDALA: "우리가 데바라자를 따름: $VALUE|=+0$"
  ASK_FOR_CONVERSION_ACTOR_HAS_REVERENCE_DECREE: "[GetLaw('mandala_decree_reverence').GetName] 활성화: $VALUE|=+0$"
  is_mandala_tributary: "[mandala|E] [tributary|E]임: $VALUE|=+0$"

@@ -560,7 +560,7 @@
  feast_default.3010.t: "내 모자!"
  feast_default.3010.desc: "축제가 소강상태에 접어들었다. 시간이 잠시 느려진 듯했고, 세상의 걱정과 현재의 압박이 모두 사라져 버렸다.\n\n그러더니 그림자 속에서 튀어나온 독사처럼 [hat_knocker.GetName]의 손이 내 [Glossary('에보시', 'EBOSHI_GLOSS')]를 쳐냈다. 모자가 바닥을 굴러가는데도 실감이 나지 않아 바라만 보았다. 나는 얼른 수치스러운 모습을 가리려 했으나, 단정하지 못하게 드러난 내 [Glossary('모토도리', 'MOTODORI_GLOSS')]를 모두가 보고 말았다. 내 마음의 태만함이 그대로 드러난 것이다."
  feast_default.3010.a: "놈은 이날을 후회할 것이다!"
- feast_default.3010.a.flavor: "진짜 독사가 뭔지 놈에게 보여주겠다!"
+ feast_default.3010.a.flavor: "진짜 독사가 뭔지 보여주겠다!"
  feast_default.3010.a.tt: "당신의 [scheme|E]이 [GetModifier('scheme_apa_positive_2101_modifier').GetNameWithTooltip]를 획득함"
  feast_default.3010.b: "[hat_knocker.GetFirstNameNoTooltip], 과음한 것 같군."
  feast_default.3010.b.flavor: "내 평온은 깨뜨릴 수 없으니."
