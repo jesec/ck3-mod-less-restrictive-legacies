@@ -479,7 +479,7 @@
  bp1_yearly.8100.lover: "あなたが[sycophant_scope.GetHerHim]にとても親しみを感じているのはわかるけど、評議会の一員にするなんて？」\n\n"
  bp1_yearly.8100.friend: "親しい友だちであることは理解しているけど、評議会にふさわしい人を差し置いて、[sycophant_scope.GetHerHim]を器用していると考える人もいる。」\n\n"
  bp1_yearly.8100.faction: "「はっきり言うと、この侮辱が正されなければ、[ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]に何が起こるかは、[jealous_scope.GetFaith.HighGodName]のみぞ知る...」"
- bp1_yearly.8100.hostile: "「あの[sycophant_scope.GetWomanMan]がどれほどの[sycophant_scope.Custom2('InsultAdjective', SCOPE.sC('jealous_scope'))] [sycophant_scope.Custom2('InsultNoun', SCOPE.sC('jealous_scope'))]か知らないの？」"
+ bp1_yearly.8100.hostile: "「あの[sycophant_scope.GetWomanMan]がどれほどの[sycophant_scope.Custom2('InsultAdjective', SCOPE.sC('jealous_scope'))][sycophant_scope.Custom2('InsultNoun', SCOPE.sC('jealous_scope'))]か知らないの？」"
  bp1_yearly.8100.lowborn: "「平民の意見を、[ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierPossessiveNoTooltip]の最高貴族の上に、あるいは同列にするのはおかしい」"
  bp1_yearly.8100.rank: "「[jealous_scope.GetTitleAsNameNoTooltip]の意見は、ただの[sycophant_scope.GetTitleAsNameNoTooltip]の意見よりも優先されるべき！」"
  bp1_yearly.8100.faith: "「[sycophant_scope.GetFaith.GetAdjective] [jealous_scope.Custom2('GetUnbelieverTerm', sycophant_scope)]に耳を傾けるのは賢明なのかな？」"

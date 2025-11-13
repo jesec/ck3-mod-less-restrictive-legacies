@@ -66,7 +66,7 @@
  #[EmptyScope.ScriptValue('vengeful_scheme_success_chance_modifier')|0]
  east_europe.0111.t: "$east_europe.0111.t.setup$: [hof.GetTitledFirstNameNoTooltip] и письмо"
  east_europe.0111.desc: "Кто скажет, как долго так называемые [heretic.GetFaith.GetAdherentNamePluralNoTooltip|l] водили нас за нос? Десять лет? Сто? С появления святого Мартина?\n\nЭта мерзость выросла и расцвела попустительством наших предков, и терпеть это больше нельзя! [heretic.Custom2('InsultNoun', ROOT.Char)] [heretic.GetTitledFirstName] открыто и без стеснения поминает имя [accuser.GetFaith.HighGodNamePossessive], и смотреть на это нет решительно никаких сил!\n\nГоворят, они просто [accuser.GetFaith.GetAdherentNamePluralNoTooltip|l]-деревенщины, а в целом — неплохие ребята. Но я верю, что, если [hof.GetTitledFirstName] услышит достаточно красочный рассказ, все может перемениться..."
- east_europe.0111.a: "[ROOT.Char.Custom('GetWritingInstrument')|U] и [ROOT.Char.Custom('GetWritingMaterial')|l], немедленно!"
+ east_europe.0111.a: "[ROOT.Char.Custom('WritingInstrument')|U] и [ROOT.Char.Custom('GetWritingMaterial')|l], немедленно!"
  east_europe.0111.a.tt: "Письмо написано"
  east_europe.0111.b: "У меня есть дела поважнее..."
  east_europe.0112.t: "[hof.Custom2('AppropriateGreeting',accuser)]"

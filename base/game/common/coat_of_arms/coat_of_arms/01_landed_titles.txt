@@ -29263,6 +29263,61 @@ e_japan = {
 	}
 }
 
+d_ruucuu = {
+	pattern = "pattern_solid.dds"
+	color1=white
+	color2=white
+	color3=white
+	colored_emblem={
+		color1=rgb { 98 98 206 }
+		texture="ce_pagan_wolf_triskel.dds"
+		instance={
+			position={ 0.500000 0.500000 }
+			scale={ 0.900000 0.900000 }
+		}
+	}
+}
+
+k_ruucuu = {
+	pattern="pattern_tricolor_horizontal_01.dds"
+	color1=white
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=rgb { 98 98 206 }
+		texture="ce_pagan_cross_svarog_02.dds"
+		instance={
+			position={ 0.500000 0.370000 }
+			scale={ 0.700000 0.700000 }
+		}
+	}
+}
+
+e_ruucuu = {
+	pattern="pattern_tricolor_horizontal_01.dds"
+	color1=white
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=rgb { 0 0 0 }
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.510000 0.350000 }
+			scale={ 0.870000 0.870000 }
+			depth=1.010000
+		}
+	}
+	colored_emblem={
+		color1=rgb { 98 98 206 }
+		texture="ce_triskel_sassanian.dds"
+		instance={
+			position={ 0.510000 0.350000 }
+			scale={ 0.620000 -0.620000 }
+			rotation=163
+		}
+	}
+}
+
 k_chrysanthemum_throne = {
 	pattern = "pattern_solid.dds"
 	color1 = "red"
@@ -29565,11 +29620,11 @@ k_hexi={
 
 k_viet={
 	pattern="pattern_solid.dds"
-	color1=blue
+	color1=blue_dark
 	color2=green_light
 	color3=white
 	colored_emblem={
-		color1=blue
+		color1=blue_dark
 		texture="ce_seal_name_nan_5357.dds"
 		instance={
 			position={ 0.500000 0.72 }
@@ -29578,7 +29633,7 @@ k_viet={
 	}
 
 	colored_emblem={
-		color1=blue
+		color1=blue_dark
 		texture="ce_seal_name_an_5b89.dds"
 		instance={
 			position={ 0.500000 0.28 }
@@ -29588,6 +29643,37 @@ k_viet={
 	}
 	colored_emblem={
 		color1=green_light
+		texture="ce_seal_pictorial_frame_oval_full.dds"
+		instance={
+			scale={ 0.8 1.000000 }
+			depth=2.010000
+			rotation=0
+		}
+	}
+}
+
+k_dai_viet={
+	pattern="pattern_solid.dds"
+	color1=red
+	colored_emblem={
+		color1=red
+		texture="ce_seal_name_da_5927.dds"
+		instance={
+			position={ 0.500000 0.28 }
+			scale={ 0.46 0.46 }
+
+		}
+	}
+	colored_emblem={
+		color1=red
+		texture="ce_seal_name_yue_8d8a.dds"
+		instance={
+			position={ 0.500000 0.72 }
+			scale={ 0.46 0.46 }
+		}
+	}
+	colored_emblem={
+		color1=yellow
 		texture="ce_seal_pictorial_frame_oval_full.dds"
 		instance={
 			scale={ 0.8 1.000000 }
@@ -29630,6 +29716,34 @@ e_viet={
 		}
 	}
 }
+e_great_liao={
+	pattern="pattern_solid.dds"
+	color1=blue
+	colored_emblem={
+		color1=white
+		texture="ce_seal_pictorial_frame_oval_full.dds"
+		instance={
+			scale={ 0.800000 1.000000 }
+			depth=2.010000
+		}
+	}
+	colored_emblem={
+		color1=blue
+		texture="ce_seal_name_da_5927.dds"
+		instance={
+			position={ 0.500000 0.280000 }
+			scale={ 0.460000 0.460000 }
+		}
+	}
+	colored_emblem={
+		color1=blue
+		texture="ce_seal_name_liao_907c.dds"
+		instance={
+			position={ 0.500000 0.720000 }
+			scale={ 0.460000 0.460000 }
+		}
+	}
+}
 
 e_majapahit = {
 	pattern="pattern_barruly_12.dds"
@@ -29653,7 +29767,7 @@ d_qincheng={
 
 	colored_emblem={
 		color1=white
-		texture="ce_seal_name_cheng_57ce.dds"
+		texture="ce_seal_name_cheng_6210.dds"
 		instance={
 			position={ 0.500000 0.670000 }
 			scale={ 0.4000 0.4000 }
@@ -29936,7 +30050,7 @@ d_jingjiang = {
 
 	colored_emblem={
 		color1=black
-		texture="ce_seal_name_jing_9756.dds"
+		texture="ce_seal_name_jing_975c.dds"
 		instance={
 			position={ 0.500000 0.300000 }
 			scale={ 0.460000 0.460000 }
@@ -30281,6 +30395,18 @@ k_silla = {
 	}
 }
 
+d_tamna = {
+	pattern="pattern_solid.dds"
+	color1=red
+	colored_emblem={
+		color1=white
+		texture="ce_seal_pictorial_central_persimmon.dds"
+		instance={
+			scale={ 0.920000 0.920000 }
+		}
+	}
+}
+
 k_goguryeo={
 	pattern="pattern_solid.dds"
 	color1=red
@@ -30323,9 +30449,9 @@ k_baekje={
 	color3=yellow
 	colored_emblem={
 		color1=black
-		texture="ce_seal_pictorial_central_horse.dds"
+		texture="ce_seal_pictorial_central_deer.dds"
 		instance={
-			scale={ 0.620000 0.620000 }
+			scale={ 0.750000 0.750000 }
 		}
 	}
 }
@@ -30350,6 +30476,20 @@ e_suvarnabhumi={
 		instance={
 			scale={ 0.820000 0.820000 }
 		}
+	}
+}
+
+k_siam = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_elephant_02.dds"
+		color1 = "white"
+		color2 = "brown"
+		color3 = "white"
+		instance = { position = { 0.5 0.45 } scale = { 0.9 0.9 }  }
 	}
 }
 
@@ -30942,18 +31082,53 @@ e_lingnan={
 	}
 }
 
-h_china = {
+
+h_china={
 	pattern="pattern_solid.dds"
 	color1=black
 	color2=yellow
 	color3=red
+
+	colored_emblem={
+		color1=white
+		texture="ce_constellation.dds"
+		instance={
+			position={ 0.175000 0.5000 }
+			scale={ 0.175 0.175 }
+		}
+	}
+
+	colored_emblem={
+		color1=red
+		color2=white
+		texture="ce_celestial_body.dds"
+		instance={
+			position={ 0.220000 0.300000 }
+			scale={ 0.25 0.25 }
+			depth=2.010000
+		}
+	}
+
 	colored_emblem={
 		color1=yellow
 		color2=white
 		color3=red
 		texture="ce_imperial_dragon.dds"
 		instance={
-			scale={ 0.9 0.9 }
+			position={ 0.610000 0.500000 }
+			scale={ 0.65 0.65 }
+			depth=3.010000
+		}
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_celestial_body.dds"
+		instance={
+			position={ 0.22000 0.7000 }
+			scale={ 0.25 0.25 }
+			depth=1.010000
 		}
 	}
 }
@@ -31490,7 +31665,7 @@ d_yanmen = {
 		texture="ce_seal_name_dai_4ee3.dds"
 		instance={
 			position={ 0.480000 0.510000 }
-			scale={ -0.650000 0.650000 }
+			scale={ 0.650000 0.650000 }
 			depth=1.010000
 		}
 	}
@@ -31953,7 +32128,7 @@ d_hexi={
 	}
 }
 
-d_shanzhou = {
+d_longyou = {
 	pattern="pattern_solid.dds"
 	color1=red
 	color2=white
@@ -32617,7 +32792,7 @@ d_guiguan = {
 		color1=green
 		texture="ce_seal_name_gui_6842.dds"
 		instance={
-			scale={ -0.650000 0.650000 }
+			scale={ 0.650000 0.650000 }
 		}
 	}
 }
@@ -32673,12 +32848,12 @@ d_yongguan = {
 
 d_hai_dong = {
 	pattern="pattern_solid.dds"
-	color1=blue
+	color1=blue_dark
 	color2=green
 	color3=white
 
 	colored_emblem={
-		color1=blue
+		color1=blue_dark
 		texture="ce_seal_name_wu_6b66.dds"
 		instance={
 			scale={ 0.700000 0.700000 }
@@ -32702,7 +32877,7 @@ d_nghe_an = {
 	color3=white
 
 	colored_emblem={
-		color1=blue
+		color1=blue_dark
 		texture="ce_seal_pictorial_frame_circle_full.dds"
 		instance={
 			scale={ 0.770000 0.770000 }
@@ -32722,7 +32897,7 @@ d_nghe_an = {
 
 d_thang_long = {
 	pattern="pattern_solid.dds"
-	color1=blue
+	color1=blue_dark
 	color2=white
 	color3=yellow
 
@@ -32751,7 +32926,7 @@ d_lam_tay = {
 	color3=white
 
 	colored_emblem={
-		color1=blue
+		color1=blue_dark
 		texture="ce_seal_pictorial_frame_oval.dds"
 		instance={
 			scale={ 0.860000 0.860000 }
@@ -32759,7 +32934,7 @@ d_lam_tay = {
 	}
 
 	colored_emblem={
-		color1=blue
+		color1=blue_dark
 		texture="ce_seal_name_feng_5cf0.dds"
 		instance={
 			position={ 0.490000 0.490000 }
@@ -33099,7 +33274,7 @@ d_xiyuan = {
 	}
 
 	colored_emblem={
-		color1=blue
+		color1=blue_dark
 		texture="ce_seal_pictorial_frame_oval_full.dds"
 		instance={
 			scale={ 0.850000 0.850000 }
@@ -33279,6 +33454,105 @@ d_yinsheng = {
 			position={ 0.500000 0.490000 }
 			scale={ 0.670000 0.670000 }
 			depth=1.010000
+		}
+	}
+}
+
+d_yongchang = {
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=green_light
+	color3=black
+
+	colored_emblem={
+		color1=red
+		texture="ce_seal_name_nan_5357.dds"
+		instance={
+			position={ 0.510000 0.500000 }
+			scale={ 0.750000 0.750000 }
+		}
+	}
+
+	colored_emblem={
+		color1=green_light
+		texture="ce_seal_pictorial_frame_oval_full.dds"
+		instance={
+			scale={ 0.810000 0.810000 }
+			depth=1.010000
+		}
+	}
+}
+
+d_lishui = {
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=green_light
+	color3=black
+
+	colored_emblem={
+		color1=green_light
+		texture="ce_seal_frame.dds"
+		instance={
+			scale={ 0.580000 0.810000 }
+		}
+	}
+
+	colored_emblem={
+		color1=green_light
+		texture="ce_seal_name_li_9e97.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+			depth=1.010000
+		}
+	}
+}
+
+c_yangzhou = {
+	pattern="pattern_solid.dds"
+	color1=purple
+	color2=blue_light
+	color3=red
+
+	colored_emblem={
+		color1=purple
+		texture="ce_seal_name_zhou_5dde.dds"
+		instance={
+			position={ 0.500000 0.700000 }
+			scale={ 0.410000 0.410000 }
+		}
+	}
+
+	colored_emblem={
+		color1=purple
+		texture="ce_seal_name_yang_63da.dds"
+		instance={
+			position={ 0.500000 0.310000 }
+			scale={ 0.400000 0.400000 }
+			depth=1.010000
+		}
+	}
+
+	colored_emblem={
+		color1=blue_light
+		texture="ce_seal_frame_full.dds"
+		instance={
+			scale={ 0.410000 0.850000 }
+			depth=2.010000
+		}
+	}
+}
+
+k_balhae = {
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=white
+		texture="ce_seal_pictorial_central_swallow.dds"
+		instance={
+			scale={ 0.920000 0.920000 }
+			rotation=269
 		}
 	}
 }

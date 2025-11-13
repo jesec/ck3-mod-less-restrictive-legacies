@@ -90,13 +90,6 @@ select_root_vegetable_effect = {
 					}
 				}
 				20 = {
-					trigger = { province_has_vegetable_yam_bean_trigger = yes }
-					set_variable = {
-						name = root_vegetable
-						value = flag:yam_bean
-					}
-				}
-				20 = {
 					trigger = { province_has_vegetable_lotus_root_trigger = yes }
 					set_variable = {
 						name = root_vegetable

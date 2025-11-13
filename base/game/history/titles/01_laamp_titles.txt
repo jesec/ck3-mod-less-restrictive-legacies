@@ -221,10 +221,10 @@ d_laamp_ding_hui = { # The Wayward Spears
 	}
 }
 
-d_laamp_liang_zhu_quanzhong = { # The Iron Host of Zhu
+d_laamp_zhu_quanzhong = { # The Iron Host of Zhu
 	867.1.1 = {
 		liege = 0
-		holder = liang_zhu_1 # Liang Zhu Quanzhong
+		holder = zhu_quanzhong_1 # Zhu Quanzhong
 		government = landless_adventurer_government
 		succession_laws = { landless_adventurer_succession_law }
 		effect = {
@@ -241,7 +241,7 @@ d_laamp_liang_zhu_quanzhong = { # The Iron Host of Zhu
 d_laamp_miyoshi_kiyotsura = { # Kiyotsura's Inspectors
 	867.1.1 = {
 		liege = 0
-		holder = miyoshi_kiyotsura_1 # Shinzei
+		holder = japanese_miyoshi_4 # Kiyotsura_2
 		government = landless_adventurer_government
 		succession_laws = { landless_adventurer_succession_law }
 		effect = {
@@ -255,10 +255,10 @@ d_laamp_miyoshi_kiyotsura = { # Kiyotsura's Inspectors
 	}
 }
 
-d_laamp_yangs_raiders = { # Yang's Raiders
+d_laamp_hidden_valley_banner = { # Hidden Valley Banner
 	867.1.1 = {
 		liege = 0
-		holder = yang_kil_1 # Yang-kil
+		holder = ki_hwon_1 # Ki Hwon
 		government = landless_adventurer_government
 		succession_laws = { landless_adventurer_succession_law }
 		effect = {
@@ -734,7 +734,7 @@ d_laamp_munheon_disciples = { # Munheon Disciples
 d_laamp_white_tigers = { # White Tigers
 	1066.1.1 = {
 		liege = 0
-		holder = baekho_1 # Baekho of Nammhae
+		holder = baekho_1 # Baek_ho
 		government = landless_adventurer_government
 		succession_laws = { landless_adventurer_succession_law }
 		effect = {

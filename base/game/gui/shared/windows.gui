@@ -434,6 +434,7 @@ template Window_Decoration_Warfare
 			texture = "gfx/interface/skinned/component_decoration/decoration_frame_bottom.dds"
 			spriteType = Corneredtiled
 			spriteborder = { 100 0 }
+			position = { 0 -1 }
 			texture_density = 2
 			size = { 100% 20 }
 			parentanchor = bottom
@@ -473,7 +474,7 @@ template Window_Decoration_Frontend
 	icon = {
 		name = "tile_frame_top_center_part"
 		texture = "gfx/interface/component_decoration/decoration_frame_top_center.dds"
-		position = { 0 -11 }
+		position = { 0 -14 }
 		texture_density = 2
 		parentanchor = top|hcenter
 	}
@@ -496,6 +497,7 @@ template Window_Decoration_Frontend_Spike
 		spriteType = Corneredtiled
 		spriteborder = { 100 0 }
 		texture_density = 2
+		position = { 0 -1 }
 		size = { 100% 20 }
 		parentanchor = bottom
 	}
@@ -503,7 +505,7 @@ template Window_Decoration_Frontend_Spike
 	icon = {
 		name = "tile_frame_top_center_part"
 		texture = "gfx/interface/skinned/component_decoration/decoration_frame_top_center.dds"
-		position = { 0 -18 }
+		position = { 0 -38 }
 		parentanchor = top|hcenter
 		texture_density = 2
 	}
@@ -684,18 +686,20 @@ types WindowTypes
 		block "size" {
 			size = { 100 56 }
 		}
+
 		background = {
-			using = Background_Window_Header
-			margin_bottom = 8
+			using = Background_Header
 			block "header_background" {}
+
+			margin = { 2 0 }
 		}
 
 		background = {
-			using = Background_Window_Header_Pattern
-			margin_bottom = 8
+			using = Background_Header_Pattern
 			block "header_pattern" {}
-		}
 
+			margin = { 2 0 }
+		}
 
 		buttons_window_control = {
 			parentanchor = top|right
@@ -829,6 +833,8 @@ types WindowTypes
 
 			background = {
 				fittype = centercrop
+
+				block "illustration_mask" {}
 
 				block "illustration_texture" {
 					texture = "gfx/interface/illustrations/window_headers/header_military.dds"

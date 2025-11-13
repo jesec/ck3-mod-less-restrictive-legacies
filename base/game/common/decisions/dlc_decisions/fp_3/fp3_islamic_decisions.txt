@@ -1,4 +1,5 @@
-﻿avenge_the_battle_of_nahrawan_decision = {
+﻿### Avenge the Battle of Nahrawan ###
+avenge_the_battle_of_nahrawan_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp3/fp3_decision_supremacy.dds"
 	}
@@ -194,6 +195,7 @@
 }
 
 
+### Promote Persian Scriptures ###
 fp3_promote_persian_scripture_decision = {
 	title = fp3_promote_persian_scripture_decision_name
 	picture = {
@@ -351,6 +353,7 @@ fp3_promote_persian_scripture_decision = {
 	}
 }
 
+### Declare Stance in the Iranian Intermezzo ###
 fp3_name_read_in_friday_prayer_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp3/antagonistic.dds"

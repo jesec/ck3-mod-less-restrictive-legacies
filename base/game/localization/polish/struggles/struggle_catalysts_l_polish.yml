@@ -253,4 +253,4 @@
  catalyst_coronation_event_concession: "Głośny wyraz niezadowolenia podczas koronacji"
  catalyst_coronation_event_concession_desc: "Zawzięta dyskusja, którą podczas [Concept('coronation', 'koronacji')|E] toczyły ze sobą osoby znane jako $supporter_and_detractor$, zakończyła się wyrażeniem głośnego poparcia wobec znalezienia kompromisu"
  catalyst_coronation_event_stabilization: "$catalyst_coronation_event_unrest$"
- catalyst_coronation_event_stabilization_desc: "Gorąca dyskusja, którą podczas [Concept('coronation', 'koronacji')|E] toczyły ze sobą osoby znane jako $supporter_and_detractor$, zakończyła się wyrażeniem głośnego poparcia wobec stabilności"
+ catalyst_coronation_event_stabilization_desc: "Zawzięta dyskusja, którą podczas [Concept('coronation', 'koronacji')|E] toczyły ze sobą osoby znane jako $supporter_and_detractor$, zakończyła się wyrażeniem głośnego poparcia wobec stabilności"

@@ -101,6 +101,7 @@
  minister_of_revenue_desc_with_value: "[minister_of_revenue|E]: $VALUE|+0=$"
  is_a_minister_desc: "Is a [minister|E]"
  recipient_is_a_minister_desc: "[recipient.GetShortUIName|U] is a [minister|E]"
+ target_is_a_minister_desc: "[CHARACTER.GetShortUIName|U] [CharAreIs( CHARACTER )] a [minister|E]"
  you_are_not_a_minister_desc: "You are #bold not#! a [minister|E]"
  they_are_your_disciple_desc: "They are your [disciple|E]"
  is_a_civilian_governor_desc: "You are a Civilian [GetPlayer.Custom('GetGovernorConcept')]"
@@ -156,3 +157,6 @@
  appointment_timeout_desc_retired_governor: "[CHARACTER.GetShortUIName|U] recently retired as [governor|E]"
  appointment_timeout_desc_retired_estate: "[CHARACTER.GetShortUIName|U] decided to retire and live out the remainder of [CHARACTER.GetHerHis] life at the Family [estate|E]"
  appointment_timeout_desc_examinations: "[CHARACTER.GetShortUIName|U] [CharAreIs( CHARACTER )] attending [examinations|E]"
+ 
+ candidate_pool_ducal_conquest_perk_effect_first: "[civilian_career|E] [candidate_score|E]: @appointment_score![EmptyScope.ScriptValue( 'candidate_pool_ducal_conquest_perk_score_value' )|+=0]"
+ candidate_pool_loyalty_and_respect_perk_effect_first: "[military_career|E] [candidate_score|E]: @appointment_score![EmptyScope.ScriptValue( 'candidate_pool_loyalty_and_respect_perk_score_value' )|+=0]"

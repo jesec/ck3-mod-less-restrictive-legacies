@@ -367,7 +367,7 @@
  tgp_governor_contract_event.0027.c: "Leur navire s’étant brisé sur nos rives, leurs marchandises sont nôtres."
  tgp_governor_contract_event.0027.d: "La communication verbale est vaine, alors essayons les gestes."
  tgp_governor_contract_event.0027.e: "Qu’ils partent d’ici, par la force si nécessaire."
- tgp_governor_contract_event.0027.f: "Je m’en occupe moi-même. D’après leur apparence, je parle leur langue."
+ tgp_governor_contract_event.0027.f: "$epidemic_events.5902.a$"
  task_contract_reward_effect_temporary_housing_desc: "$label_success_standard$"
  task_contract_reward_effect_search_for_translator_desc: "$label_success_standard$"
  task_contract_reward_effect_confiscate_their_goods_desc: "$label_success_standard$"
@@ -433,7 +433,7 @@
  tgp_governor_contract_event.0032.a_tt: "Se rendre en [monopoly_in_the_marketplace_destination.GetName] et régler d’une façon ou d’une autre les affaires de la place du marché."
  tgp_governor_contract_event.0032.b: "J’y vois simplement un commerçant prospère."
  tgp_governor_contract_event.0033.t: "Monopole"
- tgp_governor_contract_event.0033.desc: "Bien qu’ils soient rarement un modèle d’honnêteté, les marchands semblent dire vrai dans cette affaire.\n\nAlors que nous nous déplaçons discrètement d’un étal à l’autre, tous portent la même marque, signe qu’ils appartiennent à la même personne.\n\nLe dernier étal est le plus grand et le plus somptueux, et [Select_CString(merchant_magnate.IsFemale,'la femme imposante','l’homme imposant')] qui le dirige est vêtu[merchant_magnate.Custom('FR_E')] d’un habit qui n’est pas approprié pour quelqu’un de son rang. Il s’agit sans l’ombre d’un doute [Select_CString(merchant_magnate.IsFemale,'de la rivale','du rival')] dont tout le monde a parlé."
+ tgp_governor_contract_event.0033.desc: "Bien qu’ils soient rarement un modèle d’honnêteté, les marchands semblent dire vrai dans cette affaire.\n\nAlors que nous nous déplaçons discrètement d’un étal à l’autre, tous portent la même marque, signe qu’ils appartiennent à la même personne.\n\nLe dernier étal est le plus grand et le plus somptueux, et [Select_CString(merchant_magnate.IsFemale,'la femme imposante','l’homme imposant')] qui le dirige sourit fièrement. Il s’agit sans l’ombre d’un doute [Select_CString(merchant_magnate.IsFemale,'de la rivale','du rival')] dont tout le monde parlait."
  tgp_governor_contract_event.0033.a: "Qu’aucun marchand ne possède plus d’un étal." # (Special governor option)
  tgp_governor_contract_event.0033.b: "Élargir le marché et vendre des étals uniquement aux membres de l’association."
  tgp_governor_contract_event.0033.c: "[merchant_magnate.Custom('FR_IlElle')|U] peut rester, à condition de payer pour ce privilège."

@@ -72,3 +72,22 @@ e_spain = {
 		coat_of_arms = e_spain_islamic	
 	}		
 }
+
+k_viet = {
+	item = {
+		trigger = {
+			holder.top_liege.culture = {
+				has_cultural_pillar = heritage_chinese
+			}
+		}
+		coat_of_arms = k_viet
+	}
+	item = {
+		trigger = {
+			holder.top_liege.culture = {
+				has_cultural_pillar = heritage_viet
+			}
+		}
+		coat_of_arms = k_dai_viet
+	}
+}

@@ -95,6 +95,10 @@
  artifact_wall_sword_muhammad_alqadib: "Al-Qadib, la espada que se quedó en la casa de Mahoma"
  artifact_wall_sword_attila_name: "La Espada de Dios"
  artifact_wall_sword_attila_description: "La legendaria espada de Atila, el jefe huno, el Azote de Dios. También conocida como la Espada de Marte."
+ artifact_sword_goujian_name: "Espada de Goujian"
+ artifact_sword_goujian: "Se dice que esta espada antigua perteneció a Goujian, el rey de Yue. La hoja, si bien anticuada en su diseño, muestra una factura excelente. Se puede ver un texto dorado en una escritura de sello de pájaro-gusano cerca del pomo."
+ artifact_sword_goujian_refulgence: "[gujian_sword.GetDesc]\n\nSe cree que es la espada llamada «Fulgor», que llevaba Goujian cuando pidió consejo a Confucio."
+ artifact_sword_goujian_purity: "[gujian_sword.GetDesc]\n\nSe cree que es la espada llamada «Pureza»."
  #Animals (used in ArtifactAnimalType)
  animal_type_cat: "gato"
  animal_type_dog: "perro"
@@ -730,15 +734,27 @@
  artifact_scepter_pedestal: "Cetro"
  artifact_wall_icon_court_large: "Icono grande"
  artifact_wall_icon_court_small: "Icono pequeño"
- artifact_wall_sakanoue_sword_name: "Banke no hōken"
- artifact_wall_sakanoue_sword_desc: "El famoso general $dynn_Sakanoue$ $Tamuramaro$ blandió esta espada y se dice que protege la corte imperial. La presentó $Saga_JP$ $king_tenno_male_japanese$ a la muerte de $Tamuramaro$."
- artifact_higekiri_sword_name: "Higekiri"
- artifact_higekiri_sword_desc: "La espada «cortabarbas», junto con la Hizamaru, fue un encargo de $dynn_Minamoto$ no $Mitsunaka$ y fue legada de generación en generación por la familia $Seiwa$ $dynn_Minamoto$."
- artifact_hizamaru_sword_name: "Hizamaru"
+ artifact_pedestal_sakanoue_sword_name: "Banke no hōken" #坂家宝剣
+ artifact_pedestal_sakanoue_sword_desc: "El famoso general $dynn_Sakanoue$ $Tamuramaro$ blandió esta espada y se dice que protege la corte imperial. $Saga_JP$ $king_tenno_male_japanese$ la entregó al palacio a la muerte de $Tamuramaro$."
+ artifact_higekiri_sword_name: "Higekiri" #髭切
+ artifact_higekiri_sword_desc: "«Cortabarbas», junto con la Hizamaru, fue un encargo de $dynn_Minamoto$ no $Mitsunaka$ y ha pasado de generación en generación de la familia $Seiwa$ $dynn_Minamoto$."
+ artifact_hizamaru_sword_name: "Hizamaru" #膝丸
  artifact_hizamaru_sword_desc: "Esta espada, junto con la Higekiri, fue un encargo de $dynn_Minamoto$ no $Mitsunaka$ y fue legada de generación en generación por la familia $Seiwa$ $dynn_Minamoto$."
- artifact_dojigiri_sword_name: "Dojigiri"
- artifact_dojigiri_sword_desc: "El célebre herrero $Yasutsuna_4$ forjó esta espada y ha sido legada de generación en generación por la rama $dynn_Nitta$ de la familia $Seiwa$ $dynn_Minamoto$."
- artifact_mikazuki_munechika_sword_name: "Mikazuki"
- artifact_mikazuki_munechika_sword_desc: "La espada «Luna creciente» fue forjada por el célebre herrero $dynn_SanjO_$ $Munechika_2$ durante el reinado de $IchijO_$ $king_tenno_male_japanese$."
- artifact_odenta_sword_name: "Ōtenta"
- artifact_odenta_sword_desc: "Esta espada fue forjada por el célebre herrero $Mitsuyo$ durante el reinado de $Shirakawa$ $king_tenno_male_japanese$."
+ artifact_dojigiri_sword_name: "Dojigiri" #童子切
+ artifact_dojigiri_sword_desc: "El célebre herrero $Yasutsuna_4$ forjó esta espada para $dynn_Fujiwara$ $Toshihito$ y ha pasado de generación en generación por la familia $dynn_Fujiwara$."
+ artifact_mikazuki_munechika_sword_name: "Mikazuki" #三日月
+ artifact_mikazuki_munechika_sword_desc: "«Luna creciente» fue forjada por el célebre herrero $dynn_SanjO_$ $Munechika_2$ durante el reinado de $IchijO_$ $king_tenno_male_japanese$."
+ artifact_odenta_sword_name: "Ōtenta" #大典太
+ artifact_odenta_sword_desc: "La «Gran Tenta» fue forjada por el célebre herrero $Mitsuyo$, conocido como Tenta, durante el reinado de $Shirakawa$ $king_tenno_male_japanese$."
+ artifact_pedestal_hamayumi_bow_name: "Hamayumi" #破魔弓
+ artifact_pedestal_hamayumi_bow_desc: "El «Destruyedemonios» fue usado por $dynn_Minamoto$ $Yorimasa$, a quien se convocó al palacio imperial para que eliminase espíritus malignos."
+ artifact_pedestal_seven_branched_sword_name: "Shichishitō" #七支刀
+ artifact_pedestal_seven_branched_sword_desc: "Se dice que la «Espada de siete ramas», una hoja de hierro con siete puntas como llamas, fue un regalo de amistad para el $king_tenno_male_japanese$, que el rey de Baekje envió desde la otra orilla del mar hace mucho tiempo."
+ artifact_pedestal_gyerimro_dagger_name: "Daga exótica"
+ artifact_pedestal_gyerimro_dagger_desc: "Esta daga de factura exquisita, con empuñadura y vaina, decorada con incrustaciones de oro y piedras preciosas, es una posesión valiosa de la corte de Silla y se dice que viene de tierras occidentales muy lejanas."
+ artifact_karakawa_armor_name: "Karakawa" #唐皮
+ artifact_karakawa_armor_desc: "Este ejemplo de elegante factura de armadura ō-yoroi es una reliquia de la familia Taira y se dice que fue un regalo del sobrino de $Kanmu$ $king_tenno_male_japanese$."
+ artifact_nukemaru_sword_name: "Nukemaru" #抜丸
+ artifact_nukemaru_sword_desc: "Esta espada, de la que se dice que la mismísima Amaterasu entregó a un cazador en Ise, fue adquirida por $dynn_Taira$ $Tadamori$, y se cuenta que se desenvainó sola cuando una serpiente amenazó su vida mientras dormía."
+ artifact_kogarasumaru_sword_name: "Kogarasumaru" #小烏丸
+ artifact_kogarasumaru_sword_desc: "La «Cuervecito» fue forjada por Amakuni para la corte imperial y más tarde fue entregada a $dynn_Taira$ $Sadamori$ por $Suzaku$ $king_tenno_male_japanese$ en reconocimiento a sus servicios durante la rebelión Jōhei-Tengyō."

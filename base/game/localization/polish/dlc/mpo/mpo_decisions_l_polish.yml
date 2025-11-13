@@ -321,7 +321,7 @@
  terrain_disadvantage_freeze: "– zimno zabiło wielu żołnierzy."
  terrain_disadvantage_hike: "– wędrówka była dla żołnierzy długa i trudna."
  terrain_disadvantage_endless_field: "– bezkresne pole uniemożliwiło znalezienie bandytów na czas."
- terrain_desert_mountains: "pustynne góry"
+ terrain_desert_mountains: "góry pustynne"
  mpo_decisions_events.0300.t: "Ziemski rytuał"
  mpo_decisions_events.0300.desc: "[shaman.GetTitledFirstName] wznosi wzrok ku niebu, recytując wersety opisujące [shaman.GetHerHis] uwielbienie dla [shaman.GetFaith.FertilityGodNamePossessive].\n\n– Przypomnijmy sobie, jak nasi przodkowie troszczyli się o tę ziemię – mówi, zachęcając innych do dzielenia się swoimi radami.\n\n– Czego nasi dziadkowie nauczyli się o nowo narodzonych jagniętach? Co nasze praciotki mówiły na temat gleby?"
  mpo_decisions_events.0300.tt: "Rozpoczęło się zgromadzenie w miejscu znanym jako [fertility_county.GetName]."

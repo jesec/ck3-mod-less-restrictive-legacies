@@ -4,7 +4,7 @@
  administraction_tab_families: "Благородные семейства"
  admin_vassal_tab_overview: "Обзор"
  admin_vassal_tab_appointment: "Назначение [GetPlayer.Custom('GetGovernorConceptPossessivetNoTooltip'|l)]"
- ADMINISTRATIVE_GOVERNMENT_HEADER: "Правительство [GetPlayer.GetTopLiege.GetGovernment.GetNameNoTooltip]"
+ ADMINISTRATIVE_GOVERNMENT_HEADER: "[GetPlayer.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip]ое [GetPlayer.GetTopLiege.GetGovernment.GetAdjectiveNoTooltip|l]ое правительство"
  ADMINISTRATIVE_GOVERNMENT_HOUSE_WITH_NAME: "#high Дом [DynastyHouse.GetBaseNameNoTooltip]#!"
  ADMINISTRATIVE_GOVERNMENT_HOUSE_HEAD: "[Concept('house_head_head', 'Глава')|E]: [DynastyHouse.GetHeadOfHouse.GetShortUIName|U]"
  ADMINISTRATIVE_GOVERNMENT_FAMILY_RATING: "[Concept('powerful_family_rating_mid', 'Ранг семейства')|E]: #V #underline [DynastyHouse.GetHousePower]#!#!"

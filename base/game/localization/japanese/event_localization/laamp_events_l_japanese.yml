@@ -9,7 +9,7 @@
  ep3_laamps.0001.b: "すべてを[alt_1.GetFirstNameNoTooltipRegnal]に委ねる。"
  target_character_government: "[government|E]：[TARGET_CHARACTER.GetGovernment.GetName]"
  target_character_independent: "[independent_ruler|E]"
- target_character_liege: "[Select_CString(TARGET_CHARACTER.IsIndependentRuler, '', TARGET_CHARACTER.GetLiege.GetName)][Select_CString(TARGET_CHARACTER.IsIndependentRuler, '独立', 'の封臣')]"
+ target_character_liege: "[Select_CString(TARGET_CHARACTER.IsIndependentRuler, \"\", TARGET_CHARACTER.GetLiege.GetName)][Select_CString(TARGET_CHARACTER.IsIndependentRuler, '独立', 'の封臣')]"
  ep3_laamps.0001.c: "[alt_2.GetFirstNameNoTooltipRegnal]に一族の未来を築いてもらわねばならない。"
  ep3_laamps.0001.d: "今こそ[alt_3.GetFirstNameNoTooltipRegnal]を頼ろう。"
  ep3_laamps.0001.e: "時は過ぎた…"

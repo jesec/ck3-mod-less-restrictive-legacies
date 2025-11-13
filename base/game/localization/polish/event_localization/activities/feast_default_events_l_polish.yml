@@ -560,7 +560,7 @@
  feast_default.3010.t: "Mój kapelusz!"
  feast_default.3010.desc: "Nastał okres względnego spokoju. Przez chwilę wydawało się, że czas zwolnił, a troski świata i ciężar teraźniejszości rozpłynęły się w powietrzu.\n\nNagle, niczym żmija wyłaniająca się z cienia, [hat_knocker.GetName] ręką strąca mój [Glossary('eboshi', 'EBOSHI_GLOSS')]. Patrzę w oszołomieniu, jak sunie po posadzce. Usiłuję zakryć [Glossary('motodori', 'MOTODORI_GLOSS')], ale nie da się ukryć tego zaniedbanego symbolu wstydu – moje duchowe zepsucie zostało bezlitośnie obnażone."
  feast_default.3010.a: "[hat_knocker.GetName] jeszcze tego pożałuje!"
- feast_default.3010.a.flavor: "Pokażę mu, co to znaczy być żmiją!"
+ feast_default.3010.a.flavor: "Pokażę [hat_knocker.Custom('PL_mu_jej')], co to znaczy być żmiją!"
  feast_default.3010.a.tt: "Twój [scheme|El] zyskuje modyfikator „[GetModifier('scheme_apa_positive_2101_modifier').GetNameWithTooltip]”"
  feast_default.3010.b: "[hat_knocker.GetFirstNameNoTooltip], chyba trochę za dużo trunków."
  feast_default.3010.b.flavor: "Nie dam się wyprowadzić z równowagi."

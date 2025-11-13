@@ -93,7 +93,9 @@
  scandinavian_elective_candidates_tooltip: "Aby być ważnym kandydatem w systemie tingu, postać musi spełniać jeden z poniższych warunków:\n$EFFECT_LIST_BULLET$Być prawowitym [Concept( 'extended_family', 'dalszym' )|E] członkiem rodziny obecnego władcy, który nie jest w linii dziedziczenia teokracji lub republiki. Dzieci kandydata nie mogą być nominowane.\n$EFFECT_LIST_BULLET$Być [Concept( 'claimant', 'pretendentem' )|E] do tytułu, który nie jest w linii dziedziczenia teokracji lub republiki"
  scandinavian_elective_electors: "$feudal_elective_electors$"
  scandinavian_elective_electors_tooltip: "Aby być ważnym [Concept( 'elector', 'elektorem' )|E] w systemie Tingu, wasal musi spełniać wszystkie poniższe warunki:\n$EFFECT_LIST_BULLET$Być wasalem bezpośrednim tytułu\n$EFFECT_LIST_BULLET$NIE być baronem"
- succession_laws_must_have_organised_government_tooltip: "Nie mam [Concept( 'feudal', 'feudalnej' )|E] lub [Concept( 'clan', 'klanowej' )|E] [Concept( 'government', 'formy rządów' )|E]"
+ succession_laws_must_have_organised_government_tooltip: "[SelectLocalization( HasDlcFeature( 'all_under_heaven' ), 'succession_laws_must_have_organised_government_tooltip_auh_tooltip', 'succession_laws_must_have_organised_government_tooltip_base_game_tooltip' )]"
+ succession_laws_must_have_organised_government_tooltip_auh_tooltip: "Mój [government|El] nie ma formy [Concept('feudal', 'feudalnej')|E], [Concept('clan', 'klanowej')|E] ani [japan_feudal|El]"
+ succession_laws_must_have_organised_government_tooltip_base_game_tooltip: "Nie mam [Concept( 'feudal', 'feudalnej' )|E] lub [Concept( 'clan', 'klanowej' )|E] [Concept( 'government', 'formy rządów' )|E]"
  succession_laws_must_not_be_forced_partition: "[vassal_contract|E] nie narzuca mi [Concept('succession', 'sukcesji')|E] opartej na podziale"
  succession_laws_must_have_valid_tanistry_culture: "#bold Nie#! masz goidelskiej ani brytańskiej [Concept('heritage', 'spuścizny')|E]."
  number_of_election_votes: "Liczba głosów wyborczych"
@@ -131,7 +133,7 @@
  #EP3:
  noble_family_succession_law: "Sukcesja w rodzinie szlacheckiej"
  noble_family_succession_law_subname: "Dziedziczy [player_heir|El]"
- noble_family_succession_law_effects: "[title|E] rodziny szlacheckiej otrzyma [player_heir|El]."
+ noble_family_succession_law_effects: "[title|E] rodziny szlacheckiej wraz z jej [Concept('domicile', 'miejscem zamieszkania')|E] otrzyma [player_heir|El]."
  #Appointment Succession Law
  appointment_succession_law: "Sukcesja mianowania"
  appointment_succession_law_subname: "Dziedziczy kandydat z najwyższym wynikiem"

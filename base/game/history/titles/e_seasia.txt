@@ -777,6 +777,15 @@ k_viet = {
 		government = celestial_government
 		holder = han_3310 # Jinghai Circuit
 		liege = h_china
+		effect = {
+			if = { # Chinese influence on bureaucracy and literature
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = { set_court_language = language_chinese }
+			}
+ 		}
 	}
 	938.1.1 = {
 		holder = viet_ngo_3

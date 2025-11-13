@@ -76,7 +76,7 @@
 
  martial_authority_special.1101.desc:0 "My training has served me well. A few moments later, I have [officer.GetTitledFirstName] in a firm armlock. "Let this be a lesson," I state loudly, for everyone to hear. "Your [ROOT.Char.GetTitleTierName] does not look kindly on close-minded fools. No matter their rank."
 
- martial_authority_special.1101.end.desc:0 "\n\nThe soldier beams with gratitude. "Thank you, [ROOT.Char.Custom('FormOfAddressForLiege')]. You will never know a more faithful servant than [soldier_friend.GetFirstName] [soldier_friend.GetDynastyName].""
+ martial_authority_special.1101.end.desc:0 "\n\nThe soldier beams with gratitude. "Thank you, [ROOT.Char.Custom('FormOfAddressForLiege')]. You will never know a more faithful servant than [soldier_friend.GetFullNameNoTooltip].""
  martial_authority_special.1101.a:0 "Adopt [soldier_friend.GetFirstNamePossessiveNoTooltip] strategy."
  martial_authority_special.1101.b:0 "Discuss the strategy to learn more about warfare."
  

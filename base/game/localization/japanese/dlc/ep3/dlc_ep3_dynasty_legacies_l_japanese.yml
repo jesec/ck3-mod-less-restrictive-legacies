@@ -14,6 +14,6 @@
  ep3_dynasty_legacy_add_legitimacy_effect_desc: "[activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]における[host.GetShortUINamePossessive]の[activity.GetActivityType.GetNameNoTooltip]が[reception_hall_owner.GetShortUINamePossessive]の[GetDomicileBuilding('reception_hall_01').GetName]に[legitimacy|E]を追加した"
  ep3_administrative_legacy_4_name: "永遠の都市"
  ep3_administrative_legacy_4_effect_cabinet_of_curiosities_global: "[GetDomicileBuilding('cabinet_of_curiosities_01').GetName]の[estate|E]建造物をアンロックする"
- ep3_administrative_legacy_5_name: "分断統治"
+ ep3_administrative_legacy_5_name: "分割して統治せよ"
  ep3_administrative_legacy_track_effect_claimant_factions_global: "[vassals|E]と[noble_families|E]が[claimant_factions|E]に加わる可能性や[GetScheme('depose').GetTypeName][scheme|E]を使う可能性が下がる"
  ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "[interaction|E]「#high [GetPlayer.GetPlayerInteractionName('ep3_mass_arrests_interaction')]#!」をアンロックする"

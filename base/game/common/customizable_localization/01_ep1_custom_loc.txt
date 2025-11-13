@@ -797,6 +797,41 @@ InspirationAdventureDestination = {
 		}
 		localization_key = world_burma
 	}
+
+	text = { #East Asia
+		trigger = {
+			var:adventure_destination = flag:east_asia
+		}
+		localization_key = world_asia_east
+	}
+
+	text = { #China
+		trigger = {
+			var:adventure_destination = flag:china
+		}
+		localization_key = world_asia_china
+	}
+
+	text = { #Japan
+		trigger = {
+			var:adventure_destination = flag:japan
+		}
+		localization_key = world_asia_japan
+	}
+
+	text = { #Korea
+		trigger = {
+			var:adventure_destination = flag:korea
+		}
+		localization_key = world_asia_korea
+	}
+
+	text = { #Southeast Asia
+		trigger = {
+			var:adventure_destination = flag:southeast_asia
+		}
+		localization_key = world_asia_southeast
+	}
 }
 
 GetNotableCharacteristic = {

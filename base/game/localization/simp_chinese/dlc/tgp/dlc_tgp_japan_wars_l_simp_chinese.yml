@@ -3,13 +3,14 @@
  # INSTALL REGENT FACTION WAR
  ##################################################
  JAPANESE_REGENT_FACTION_WAR: "扶持[CLAIMANT.GetTitledFirstName]成为摄政的战争"
+ replace_ceremonial_regent_faction_war_name: "扶持扶持$game_concept_ceremonial_regent$"
+ replace_ceremonial_regent_faction_war: "$replace_ceremonial_regent_faction_war_name$"
  replace_ceremonial_regent_faction_war_victory_defender_desc: "你将被[attacker.GetShortUIName][imprisoned|E]并没收所有土地。"
  replace_ceremonial_regent_faction_war_victory_desc: "[defender.GetShortUIName|U]将被[attacker.GetShortUIName][imprisoned|E]并没收所有土地。"
  replace_ceremonial_regent_faction_war_white_peace_defender_desc: "你守住你的[titles|E]，与所有叛乱[vassal|E]签署[truce|E]。"
  replace_ceremonial_regent_faction_war_white_peace_desc: "[defender.GetShortUIName|U]守住[defender.GetHerHis]的[titles|E]，并对所有叛乱的[vassal|E]获得一个[revoke_title_reason|E]。"
  replace_ceremonial_regent_faction_war_defeat_defender_desc: "你守住你的[titles|E]，囚禁所有叛乱的[vassals|E]。"
  replace_ceremonial_regent_faction_war_defeat_desc: "[defender.GetShortUIName|U]守住[defender.GetHerHis]的[titles|E]，并囚禁所有叛乱的[vassals|E]。"
- replace_ceremonial_regent_faction_war: "$replace_ceremonial_regent_faction_name$"
  ##################################################
  # RESTORE EMPEROR FACTION WAR
  ##################################################

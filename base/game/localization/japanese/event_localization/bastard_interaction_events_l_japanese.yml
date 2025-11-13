@@ -18,7 +18,7 @@
  bastard_interaction.0002.house_head: "私は[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))]の[legitimized_bastard.GetFirstName]が嫡出子であり、[actor.GetHouse.GetBaseName]家の一員であることを宣言した。この結論に至るまで多くの思索を重ねてきた。異議を唱える者もいるだろうが、正しい判断だった。"
  bastard_interaction.0002.dynast: "私は[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))]の[legitimized_bastard.GetFirstName]が[actor.GetDynasty.GetBaseName]王朝の正式な継承者であると宣言した。"
  bastard_interaction.0002.approved: "私は[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))]の[legitimized_bastard.GetFirstName]が嫡出子であり、[actor.GetHouse.GetBaseName]家の一員であることを宣言した。この結論に至るまで多くの思索を重ねてきた。異議を唱える者もいるだろうが、正しい判断だった。"
- bastard_interaction.0002.a: "お前の将来は明るいものとなるだろう、[legitimized_bastard.GetFirstNameNoTooltip]、[actor.GetHouse.GetName]よ。"
+ bastard_interaction.0002.a: "[legitimized_bastard.GetFullNameNoTooltip]よ、あなたの未来は明るい。"
  bastard_interaction.0003.t: "終わりよければすべてよし"
  bastard_interaction.0003.desc: "決断に至るまでにしばし時間を要したものの、遂に[actor.GetTitledFirstName]様が私たちの[secondary_recipient.Custom('DaughterSon')]の[secondary_recipient.GetFirstName]を認知してくださった。[actor.GetHouse.GetBaseName]家の一員として、[secondary_recipient.GetFirstName]にはかつての私が望むべくもなかったほどの明るい未来が待っている。"
  bastard_interaction.0003.a: "名誉を示せ！"

@@ -21,7 +21,7 @@
  game_concept_struggle_persia_phase_stabilisation: "안정기"
  game_concept_struggle_persia_phase_stabilisation_desc: "불안한 조짐이 들끓고 있긴 하지만, 칼리프는 여전히 존경받고 있습니다. 반란과 파벌의 할거도 줄어드는 추세이나 페르시아 영주들은 쉽사리 굴복하지 않을 것입니다.\n\n이 긴장은 [struggle_persia_phase_unrest|E]로 이어져 더욱더 큰 혼돈을 초래할 가능성이 존재합니다."
  game_concept_struggle_persia_phase_unrest: "불안기"
- game_concept_struggle_persia_phase_unrest_desc: "칼리프국이 반란과 권모술수로 무너져 내리고 있습니다. 야망에 타오르는 군벌과 교활한 행정관들은 닥치는 대로 권력에 손을 뻗으며 하루가 멀다고 신경전을 벌이고 있습니다.\n\n칼리프 지지 세력이 필사적으로 권위를 돌려놓으려 하고 있는 만큼, 시간이 흐르면 다시 [struggle_persia_phase_stabilisation|E] 국면에 돌입하게 됩니다. 물론 [ending_phase|E]으로 상황이 해결된다면 이야기가 달라지겠지요."
+ game_concept_struggle_persia_phase_unrest_desc: "칼리프국이 반란과 권모술수로 무너져 내리고 있습니다. 야심에 타오르는 군벌과 교활한 행정관들은 닥치는 대로 권력에 손을 뻗으며 하루가 멀다고 신경전을 벌이고 있습니다.\n\n칼리프 지지 세력이 필사적으로 권위를 돌려놓으려 하고 있는 만큼, 시간이 흐르면 다시 [struggle_persia_phase_stabilisation|E] 국면에 돌입하게 됩니다. 물론 [ending_phase|E]으로 상황이 해결된다면 이야기가 달라지겠지요."
  game_concept_struggle_persia_phase_concession: "소강기"
  game_concept_struggle_persia_phase_concession_desc: "시간이 흐르면서 페르시아에 만연하던 긴장은 잦아들고, 칼리프국 지지자와 반대자 모두 끝없는 유혈 사태에 염증을 느끼고 있습니다. 이 추세가 이어진다면 [persian_struggle|E]은 폭발적인 결말이 아니라 물 흐르듯 자연스럽게 마무리될지도 모릅니다."
  game_concept_fp3_request_turkic_invasion_interaction: "$fp3_request_turkic_invasion_interaction$"

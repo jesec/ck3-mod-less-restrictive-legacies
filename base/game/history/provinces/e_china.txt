@@ -99,11 +99,6 @@
 	1066.1.1 = {
 		religion = daoxue
 	}
-	1044.1.1 = {
-		buildings = {
-			powder_magazine_01
-		}
-	}
 }
 9823 = {	# FENGQIU
 	holding = city_holding
@@ -630,6 +625,12 @@
 	culture = han
 	religion = sukhavati
 	holding = castle_holding
+	
+	special_building_slot = white_deer_grotto_academy_01
+	# History
+	960.1.1 = {
+		special_building = white_deer_grotto_academy_01
+	}
 }
 12995 = {	# RUICHANG
 	holding = city_holding
@@ -2205,18 +2206,13 @@
 	holding = none
 }
 ###c_hongzhou # HONGZHOU
-8990 = {	# NANHCNAG
+8990 = {	# NANCHANG
 	culture = han
 	religion = sukhavati
 	holding = castle_holding
 	# History
 	1050.1.1 = {
 		religion = daoxue
-	}
-	special_building_slot = white_deer_grotto_academy_01
-	# History
-	960.1.1 = {
-		special_building = white_deer_grotto_academy_01
 	}
 }
 8991 = {	# WUNING

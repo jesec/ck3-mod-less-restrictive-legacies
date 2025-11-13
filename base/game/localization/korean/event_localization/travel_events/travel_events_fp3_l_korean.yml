@@ -99,7 +99,7 @@
  travel_events_fp3.0050.desc.intro: "길목을 돌아서자 흙먼지를 뒤집어쓴 일행을 만났다. 이들은 한때는 상당히 거대했을 무덤에서 나오는 길이었다. 짤그랑거리는 자루를 여럿 걸치고 있었는데, 축 처진 것이 유서 깊은 건축물에서 도굴한 장신구 무게로 어마어마해 보였다.\n\n\"먹고 살기 힘든 시기입니다! 우리 가족들 입에 풀칠은 시켜줘야지요. 그리고 누굴 다치게 한 것도 아니잖습니까.\""
  travel_events_fp3.0050.a: "과거를 등한시하는 자에게 미래는 없다."
  travel_events_fp3.0050.b: "[ROOT.Char.GetTitleAsNameNoTooltip]에게도 몫을 나눠줘야 하지 않겠나!"
- travel_events_fp3.0050.b.entourage: "당신의 여행 동료 [entourage_helper.GetName](이)가 전리품 감정을 도와줌"
+ travel_events_fp3.0050.b.entourage: "당신의 여행 동료 [entourage_helper.GetName](이)가 노획물 감정을 도와줌"
  travel_events_fp3.0050.b.success.desc: "귀중한 보물을 고름"
  travel_events_fp3.0050.b.success.tooltip: "고대의 보물을 입수함"
  travel_events_fp3.0050.b.failure.desc: "특별히 눈에 띄는 물건이 없음"

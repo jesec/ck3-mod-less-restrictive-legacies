@@ -87,6 +87,7 @@
  minister_of_revenue_desc_with_value: "[minister_of_revenue|E]: $VALUE|+0=$"
  is_a_minister_desc: "Является [Concept('minister', 'министром')|E]"
  recipient_is_a_minister_desc: "[recipient.GetShortUIName|U] — [minister|El]"
+ target_is_a_minister_desc: "[CHARACTER.GetShortUIName|U] — [Concept('minister', 'министр')|E]"
  you_are_not_a_minister_desc: "Вы #bold не#! являетесь [Concept('minister', 'министром')|E]"
  they_are_your_disciple_desc: "Это ваш [Concept('disciple', 'послушник')|E]"
  is_a_civilian_governor_desc: "Вы гражданский [GetPlayer.Custom('GetGovernorConcept')|l]"
@@ -135,3 +136,5 @@
  appointment_timeout_desc_retired_governor: "[CHARACTER.GetShortUIName|U] недавно [Select_CString(CHARACTER.IsLocalPlayer, 'покинули', Select_CString(CHARACTER.IsFemale, 'покинула', 'покинул' ))] пост [Concept('governor', 'губернатора')|E]"
  appointment_timeout_desc_retired_estate: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'решили', Select_CString(CHARACTER.IsFemale, 'решила', 'решил' ))] уйти в отставку и прожить остаток своих дней в семейном [Concept('estate', 'поместье')|E]"
  appointment_timeout_desc_examinations: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'участвуете', 'участвует' )] в [Concept('examinations', 'экзаменах')|E]"
+ candidate_pool_ducal_conquest_perk_effect_first: "[Concept('candidate_score', 'Приоритет претензий')|E] для [Concept('civilian_career', 'гражданской службы')|E]: @appointment_score![EmptyScope.ScriptValue( 'candidate_pool_ducal_conquest_perk_score_value' )|+=0]"
+ candidate_pool_loyalty_and_respect_perk_effect_first: "[Concept('candidate_score', 'Приоритет претензий')|E] для [Concept('military_career', 'военной службы')|E]: @appointment_score![EmptyScope.ScriptValue( 'candidate_pool_loyalty_and_respect_perk_score_value' )|+=0]"

@@ -108,7 +108,7 @@
  ep2_wedding.0204.a.tt.success.host: "[murder_victim.GetShortUIName](이)가 사망함"
  ep2_wedding.0204.a.tt.failure.host: "[murder_victim.GetShortUIName](이)가 살아남음"
  ep2_wedding.0204.a.spouse_2_murder.tt: "[spouse_2.GetShortUIName](이)가 사망함"
- ep2_wedding.0957.opening: "[ROOT.Char.Custom2('InsultAdjective', SCOPE.sC(avenging_family))] [ROOT.Char.GetTitledFirstName]에게"
+ ep2_wedding.0957.opening: "[ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('avenging_family'))] [ROOT.Char.GetTitledFirstName]에게"
  ep2_wedding.0957.desc.parent: "기껏 내 자식을 맡겼는데, [spouse_2.GetShortUIName]조차 제대로 지키지 못했군.$ep2_wedding.0957.desc_ending$"
  ep2_wedding.0957.desc: "내 소중한 [avenging_family.Custom2('RelationToMeShort', SCOPE.sC('spouse_2'))](은)는 그대의 보호 아래 있었소. 그런데 이딴 식으로 지킨단 말이오?$ep2_wedding.0957.desc_ending$"
  ep2_wedding.0957.desc_ending: "\n\n세상을 떠난 [spouse_2.GetShortUIName] 생각만 하면 눈물이 앞을 가리오. 하지만 이 가슴에는 증오만이 타오르고 있소.\n\n어떤 방식으로든 반드시 응징할 것이오."

@@ -33,7 +33,7 @@
  SCHEME_WINDOW_NOT_OWNED_SCHEMES: "#high $scheme_ru_desc_plural$#! [Concept( 'scheme', 'происки' )|E] не ведутся\nНачните новые через взаимодействие с другим персонажем"
  SCHEME_WINDOW_NOT_KNOWN_SCHEMES: "#weak [scheme|E] пока не обнаружены#!"
  SCHEME_WINDOW_UNKNOWN_OWNER_TOOLTIP: "Инициатор этих происков неизвестен"
- SCHEME_WINDOW_MODIFIERS: "[Concept('modifiers', 'модификаторы')|E]:"
+ SCHEME_WINDOW_MODIFIERS: "[Concept('modifiers', 'Модификаторы')|E]:"
  SCHEME_WINDOW_TT_SPEED: "[scheme_speed|E]: $SPEED|1V$"
  SCHEME_RESISTANCE_DESCRIPTION_HEADER: "[scheme_resistance|E]"
  SCHEME_PHASE_DURATION_DESCRIPTION_HEADER: "#T [scheme_speed|E]#!\nКоличество дней на одну фазу происков"

@@ -156,7 +156,7 @@
  learning_scholarship_special.3099.termination.desc.prison: "Я не могу продолжать эксперименты с трансмутацией, сидя в тюрьме."
  learning_scholarship_special.3099.termination.desc.incapable: "Я не могу продолжать эксперименты с трансмутацией в силу недееспособности."
  #Dear god, go outside by Isabella Welch
- learning_scholarship.4000.t: "Выйди уже наружу!"
+ learning_scholarship.4000.t: "Выйди на воздух!"
  learning_scholarship.4000.desc: "Уже поздно, а я все продираюсь через увлекательные трактаты по классической грамматике. Я как раз посмеиваюсь над ехидной пометкой на полях, оставленной предыдущим читателем, как в [ROOT.Char.Custom('GetRoom_RU_Acc')] входит [Select_CString(spouse_uninterested_in_study.IsFemale, 'моя', 'мой' )] [spouse_uninterested_in_study.GetWifeHusband].\n\n«Ничтожество! Ты пренебрегаешь всем, кроме своей науки, и целыми днями читаешь взаперти. Отложи эти пыльные свитки — или можешь забыть дорогу в мою постель»."
  learning_scholarship.4000.a: "Как пожелаешь."
  learning_scholarship.4000.b: "Возможно, мы могли бы вместе читать отрывки."

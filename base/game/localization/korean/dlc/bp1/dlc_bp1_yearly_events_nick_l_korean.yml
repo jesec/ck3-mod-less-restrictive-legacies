@@ -9,7 +9,7 @@
  bp1_yearly.5001.shout.tt: "누군가 듣기를 바라면서 큰 소리로 도움을 요청함"
  bp1_yearly.5001.kill.tt: "뜻대로 [sibling_murderer.GetHerHim]를 처단함"
  bp1_yearly.5001.die.tt: "싸움에서 패배함"
- bp1_yearly.5002.t: "$bp1_yearly.5001.t$: 거부된 야망"
+ bp1_yearly.5002.t: "$bp1_yearly.5001.t$: 거부된 야심"
  bp1_yearly.5002.desc: "[sibling_murderer.GetFirstName](은)는 내가 움직이는 것을 보자마자 달려들었지만, 갑자기 기운이 솟으며 온몸이 힘으로 가득 찼다. 침대 위에서 움직임이 막힌 [sibling_murderer.GetHerHim]의 턱을 내 주먹이 강타했다.\n\n[sibling_murderer.GetSheHe|U]는 비틀거리며 뒤로 물러났고, 곧장 마구잡이로 주먹질을 하자 버티지 못하겠다는 듯 땅에 쓰러져버렸다. [sibling_murderer.GetFirstNamePossessiveNoTooltip] 가슴 위에 올라타 코를 잔혹하게 박살 내고 머리를 바닥에 찧자, 완강하게 버티던 [sibling_murderer.GetHerHis] 저항은 이내 애처로운 신음으로 바뀌었다.\n\n다행히 상황을 빠르게 파악한 [guard.GetFirstName](이)가 안으로 들어와 나를 발견했다. 자초지종을 설명하는 와중에, [sibling_murderer.GetFirstNameNoTooltip](은)는 멍하니 땅만 바라보고 있다."
  bp1_yearly.5002.a: "[ROOT.Char.Custom2('RelationToMeShort', sibling_murderer)], 대체 #EMP 네가#! 어떻게 이런 짓을?"
  bp1_yearly.5003.t: "$bp1_yearly.5001.t$:"

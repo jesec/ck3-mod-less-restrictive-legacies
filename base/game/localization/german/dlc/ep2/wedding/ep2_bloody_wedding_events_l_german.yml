@@ -108,7 +108,7 @@
  ep2_wedding.0204.a.tt.success.host: "[murder_victim.GetShortUIName] stirbt"
  ep2_wedding.0204.a.tt.failure.host: "[murder_victim.GetShortUIName] überlebt"
  ep2_wedding.0204.a.spouse_2_murder.tt: "[spouse_2.GetShortUIName] stirbt"
- ep2_wedding.0957.opening: "An [ROOT.Char.Custom('DE_ART_DEF_S_A')] [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC(avenging_family))|l][ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] [ROOT.Char.GetTitledFirstName]"
+ ep2_wedding.0957.opening: "An [ROOT.Char.Custom('DE_ART_DEF_S_A')] [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('avenging_family'))|l][ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] [ROOT.Char.GetTitledFirstName]"
  ep2_wedding.0957.desc.parent: "ich gab mein Kind in Eure Obhut, doch Ihr wart nicht in der Lage, es zu beschützen. $ep2_wedding.0957.desc_ending$"
  ep2_wedding.0957.desc: "Mein[spouse_2.Custom('DE_END_PRO_S_N')] liebst[spouse_2.Custom('DE_END_ADJ_NUL_S_N')] [avenging_family.Custom2('RelationToMeShort', SCOPE.sC('spouse_2'))] war unter Euren Schutz gestellt und so beschützt Ihr [spouse_2.Custom('DE_PRO_PER_S_3P_A')]? $ep2_wedding.0957.desc_ending$"
  ep2_wedding.0957.desc_ending: "\n\nMeine Augen sind voller Tränen um [spouse_2.GetFirstNameNoTooltip], doch mein Herz ist voller Hass.\n\nIch werde meine Rache bekommen, auf welche Art auch immer."

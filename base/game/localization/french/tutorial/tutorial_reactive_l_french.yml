@@ -148,7 +148,7 @@
  ra_artifact_inventory_open_step_desc: "Les [inventory_artifacts|El] sont stockés dans votre inventaire, ouvrons-le maintenant."
  ra_artifact_inventory_open_step_open: "Ouvrir l’inventaire (mis en évidence)"
  ra_artifact_inventory_welcome: "$ra_artifact_inventory_general$"
- ra_artifact_inventory_welcome_desc: "Dans votre inventaire, vous pouvez équiper des [inventory_artifacts|El] afin d’obtenir divers avantages, comme l’augmentation d’une certaine [skill|El] ou celle de votre [prestige|El].\n\nVous pouvez également [repair|El] ou [reforge|El] les [inventory_artifacts|El], ce qui restaurera leur [durability|El] et évitera qu’ils ne soient détruits au fil du temps.\n\nVous pouvez également voir vos [artifact_claims|El] et essayer de vous emparer de ces [artifacts|El] !"
+ ra_artifact_inventory_welcome_desc: "Dans votre inventaire, vous pouvez équiper des [inventory_artifacts|El] afin d’obtenir divers avantages, comme l’augmentation d’une certaine [skill|El] ou celle de votre [prestige|El].\n\nVous pouvez également [repair|El] ou [reforge|El] les [inventory_artifacts|l], ce qui restaurera leur [durability|El] et évitera qu’ils ne soient détruits au fil du temps.\n\nVous pouvez également voir vos [artifact_claims|El] et essayer de vous emparer de ces [artifacts|El] !"
  #Station Men-at-Arms
  ra_maa_stationing_open_card_step: "Stationnement d’hommes d’armes"
  ra_maa_stationing_open_card_step_desc: "Vous avez des [men_at_arms|El] non [Concept('stationed','stationnés')|E].\n\nEn stationnant vos [regiments|El], vous les rendez plus puissants et plus aptes au combat, ce qui peut s’avérer vital pour remporter des [battles|El].\n\nStationnons un régiment maintenant !"

@@ -153,3 +153,4 @@
  NO_ROCO_NOT_ALIVE: "@warning_icon! #X あなたは死亡しています#!"
  NO_ROCO_WRONG_TIER: "@warning_icon! #X あなたは[king|E]でも[emperor|E]でもありません#!"
  NO_ROCO_WRONG_GOVERNMENT: "@warning_icon! #X あなたは[feudal|E]、[clan|E]または[tribal|E][government|E]を持っていません#!"
+ NO_ROCO_LIEGE_BLOCKS_SUBJECT_GOVERNMENT: "@warning_icon! #X あなたの主君の政府は、あなたの[government|E]が王宮を持つことを許可していません#!"

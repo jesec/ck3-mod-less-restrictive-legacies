@@ -170,3 +170,33 @@ hunt_bad_hunter_opinion = {
 	decaying = yes
 	years = 5
 }
+
+hunt_poem_dedication = {
+	opinion = 10
+	decaying = yes
+	years = 5
+}
+
+hunt_helped_with_poem = {
+	opinion = 10
+	decaying = yes
+	years = 5
+}
+
+hunt_convinced_fellow_hunter_to_stay = {
+	opinion = 10
+	decaying = yes
+	years = 5
+}
+
+hunt_released_someones_catch = {
+	opinion = -5
+	decaying = yes
+	years = 5
+}
+
+hunt_active_participation = {
+	opinion = 5
+	decaying = yes
+	years = 5
+}

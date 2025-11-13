@@ -195,3 +195,4 @@
  mpo_greatest_of_khans.0051.opening: "Всем #L [defender_primary.GetAdjective]им#! ничтожествам,"
  mpo_greatest_of_khans.0051.desc: "[Select_CString(attacker.IsFemale, 'Великая', 'Великий' )] [attacker.GetTitleAsName] — [Select_CString(attacker.IsFemale, 'та', 'тот' )], кто забрал у вашего народа всё, чьи воины заполонили ваши земли, велит:\n\n— Обратите свои заплаканные лица к ветру и скачите как можно дальше. Расскажите всем, что скоро миром будет править [attacker.GetTitleAsNameNoTooltip] и [Select_CString(attacker.IsFemale, 'ее', 'его' )] орда."
  mpo_greatest_of_khans.0051.a: "Мой сюзерен потерпел поражение... Мне конец."
+ gok_noble_army_name: "[army_culture.GetCollectiveNounNoTooltip]ие аристократы"

@@ -1284,6 +1284,16 @@ texticon = {
 }
 
 texticon = {
+	icon = reformed_kaharingan_icon
+	iconsize = {
+		texture = "gfx/interface/icons/faith/reformed_kaharingan.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
 	icon = moism_icon
 	iconsize = {
 		texture = "gfx/interface/icons/faith/moism.dds"
@@ -1387,6 +1397,26 @@ texticon = {
 	icon = utaki_icon
 	iconsize = {
 		texture = "gfx/interface/icons/faith/utaki.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = tiantai_icon
+	iconsize = {
+		texture = "gfx/interface/icons/faith/tiantai.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = mantrayana_icon
+	iconsize = {
+		texture = "gfx/interface/icons/faith/mantrayana.dds"
 		size = { 25 25 }
 		offset = { 0 6 }
 		fontsize = 16

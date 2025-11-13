@@ -93,7 +93,7 @@
  yearly.1015.a:0 "I do not know what to believe..."
  
  yearly.1020.opening:0 "[vip.Custom2('AppropriateGreeting', ROOT.Char)]"
- yearly.1020.desc:1 "In a few days' time my [enemy.Custom2('InsultAdjective', SCOPE.sC(vip))] [vip.Custom2('RelationToMeShort', SCOPE.sC('enemy'))], [enemy.GetTitledFirstName], will travel through [my_county.GetNameNoTierNoTooltip]. If you orchestrate an ambush and capture [enemy.GetHerHim], I will reward you generously.\n\nIf you accept my offer, you will get half of the money now, and the other half when you turn over [enemy.GetTitledFirstNameNoTooltip]. If [enemy.GetSheHe] should die in the fray, I will shed no tears, but I will not pay for [enemy.GetHerHis] corpse.\n\nI trust that the words on this parchment will stay between us. I look forward to your reply."
+ yearly.1020.desc:1 "In a few days' time my [enemy.Custom2('InsultAdjective', SCOPE.sC('vip'))] [vip.Custom2('RelationToMeShort', SCOPE.sC('enemy'))], [enemy.GetTitledFirstName], will travel through [my_county.GetNameNoTierNoTooltip]. If you orchestrate an ambush and capture [enemy.GetHerHim], I will reward you generously.\n\nIf you accept my offer, you will get half of the money now, and the other half when you turn over [enemy.GetTitledFirstNameNoTooltip]. If [enemy.GetSheHe] should die in the fray, I will shed no tears, but I will not pay for [enemy.GetHerHis] corpse.\n\nI trust that the words on this parchment will stay between us. I look forward to your reply."
  yearly.1020.a:0 "I know the perfect place for an ambush..."
  yearly.1020.a.rl.t:0 "In a few days"
  yearly.1020.a.capture.desc:0 "I capture [enemy.GetTitledFirstNameNoTooltip]"
@@ -107,13 +107,13 @@
  yearly.1020.b.failure.desc:0 "[vip.GetTitledFirstNameNoTooltip] finds out I warned [enemy.GetTitledFirstNameNoTooltip]"
  yearly.1020.c:0 "This deal sounds far too dangerous."
 
- yearly.1021.desc:0 "The spy I had planted in [enemy.GetTitledFirstNamePossessive] party has sent me her report. My oh my, it was a thrilling read! Surely, that smug expression is gone from [enemy.GetFirstNamePossessiveNoTooltip] face now!\n\nThe soldiers who will collect that [enemy.Custom2('InsultAdjective', SCOPE.sC(vip))] [enemy.Custom2('InsultNoun', SCOPE.sC(vip))] are already on their way, and yes, they have brought the gold.\n\nIt has been a pleasure doing business with you, [ROOT.Char.GetLadyLord|U] [ROOT.Char.GetFirstNameNoTooltip]. I hope our paths will cross again."
+ yearly.1021.desc:0 "The spy I had planted in [enemy.GetTitledFirstNamePossessive] party has sent me her report. My oh my, it was a thrilling read! Surely, that smug expression is gone from [enemy.GetFirstNamePossessiveNoTooltip] face now!\n\nThe soldiers who will collect that [enemy.Custom2('InsultAdjective', SCOPE.sC('vip'))] [enemy.Custom2('InsultNoun', SCOPE.sC('vip'))] are already on their way, and yes, they have brought the gold.\n\nIt has been a pleasure doing business with you, [ROOT.Char.GetLadyLord|U] [ROOT.Char.GetFirstNameNoTooltip]. I hope our paths will cross again."
  yearly.1021.a:0 "Oh, the pleasure is all mine."
  yearly.1021.b:0 "Actually, I think I will keep [enemy.GetHerHim]!"
  yearly.1021.b.tt:0 "[enemy.GetTitledFirstName] will remain my prisoner"
 
  yearly.1022.opening:0 "[enemy.Custom2('AppropriateGreeting', ROOT.Char)]"
- yearly.1022.desc:0 "You are a most honorable [ROOT.Char.GetWomanMan], [ROOT.Char.GetLadyLord|U] [ROOT.Char.GetFirstNameNoTooltip]. I owe you my freedom — perhaps even my life. Who knows what that [vip.Custom2('InsultAdjective', SCOPE.sC(enemy))] [vip.Custom2('InsultNoun', SCOPE.sC(enemy))] [vip.GetTitledFirstName] would have done with me, had I ended up in [vip.GetHerHis] dungeon?\n\nI will return the favor, I swear it. Until then, stay safe."
+ yearly.1022.desc:0 "You are a most honorable [ROOT.Char.GetWomanMan], [ROOT.Char.GetLadyLord|U] [ROOT.Char.GetFirstNameNoTooltip]. I owe you my freedom — perhaps even my life. Who knows what that [vip.Custom2('InsultAdjective', SCOPE.sC('enemy'))] [vip.Custom2('InsultNoun', SCOPE.sC('enemy'))] [vip.GetTitledFirstName] would have done with me, had I ended up in [vip.GetHerHis] dungeon?\n\nI will return the favor, I swear it. Until then, stay safe."
  yearly.1022.a:0 "And you, [enemy.GetLadyLord] [enemy.GetFirstNameNoTooltip]."
 
  yearly.1023.opening:0 "[vip.Custom2('AppropriateGreetingNegative', ROOT.Char)]"

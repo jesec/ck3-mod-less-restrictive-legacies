@@ -17,7 +17,7 @@
  game_concept_strategoi_possessive: "軍管区長官"
  game_concept_governorship: "属州総督位"
  game_concept_governorships: "属州総督位"
- game_concept_governor_desc: "$game_concept_governor$は[administrative_government|E]を持つ[liege|E]の主要封臣です。主君によって任命され、[governor_efficiency|E]を使って[realm|E]内の統治を行います。\n\n$game_concept_governor$の[title|E]は州内の[counties|E]も含めて[province|E]と呼ばれます。[governance_issues|E]が州内で発生することがありますが、これは$game_concept_governor$が解決しなくてはなりません。\n\n$game_concept_governors$は[influence|E]を高め、ほかの$game_concept_governorships$の[succession|E]を操ることが可能です。"
+ game_concept_governor_desc: "$game_concept_governor$は[government_bureaucratic_gov|E]を持つ[liege|E]の主要封臣です。主君によって任命され、[governor_efficiency|E]を使って[realm|E]内の統治を行います。\n\n$game_concept_governor$の[title|E]は州内の[counties|E]も含めて[province|E]と呼ばれます。[governance_issues|E]が州内で発生することがありますが、これは$game_concept_governor$が解決しなくてはなりません。\n\n$game_concept_governors$は[influence|E]を高め、ほかの$game_concept_governorships$の[succession|E]を操ることが可能です。"
  game_concept_candidate_score: "候補者スコア"
  game_concept_candidate_scores: "候補者スコア"
  game_concept_candidate_score_desc: "[administrative_government|E]の[title|E]の[line_of_succession|E]を有する[characters|E]には$game_concept_candidate_score$があります。\n\nこのスコアにより称号を[succession|E]する者が決まりますが、スコアは[scheming|E]や、[influence|E]を利用したりといったさまざまな手段で変更することができます。"

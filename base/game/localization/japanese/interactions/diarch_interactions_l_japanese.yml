@@ -180,7 +180,7 @@
  diarch_demand_despotate_interaction_stake_to_raise_major_value.tt.liege_can_refuse: "#WEAK [recipient.GetShortUIName|U]は、あなたの提供量、[EmptyScope.ScriptValue('diarch_demand_despotate_interaction_stake_to_raise_major_inverted_value')|0][influence_i]の2倍の[influence|e]を持っているため、この提案を断ることができる#!"
  diarch_demand_despotate_interaction_stake_to_raise_medium_value.tt.liege_can_refuse: "#WEAK [recipient.GetShortUIName|U]は、あなたの提供量、[EmptyScope.ScriptValue('diarch_demand_despotate_interaction_stake_to_raise_medium_inverted_value')|0][influence_i]の2倍の[influence|e]を持っているため、この提案を断ることができる#!"
  diarch_demand_despotate_interaction_stake_to_raise_minor_value.tt.liege_can_refuse: "#WEAK [recipient.GetShortUIName|U]は、あなたの提供量、[EmptyScope.ScriptValue('diarch_demand_despotate_interaction_stake_to_raise_minor_inverted_value')|0][influence_i]の2倍の[influence|e]を持っているため、この提案を断ることができる#!"
- scapegoat_counterpart_interaction: "同志の[actor.GetTopLiege.GetTitleAsNameNoTooltip]に罪を着せる"
+ scapegoat_counterpart_interaction: "共同統治者に罪を着せる"
  scapegoat_counterpart_interaction_desc: "領国の悪事のすべてが#EMP [recipient.GetFirstNamePossessive]#!の責任であると喧伝し、[opinion|E]を失う代わりに[influence_i] [influence|E]を得ます\n\n #WEAK $game_concept_influence$の獲得量は、あなたが相手よりどれだけ[diplomacy|E]や[intrigue|E]で上回っているかに比例します#!"
  is_in_scapegoating_diarchy_visibility_trigger.tt.explanation: "[scales_of_power|E]は、あまりに[actor.GetShortUIName]の方に大きく傾きすぎている。[SelectLocalization( actor.IsLocalPlayer, 'is_in_scapegoating_diarchy_visibility_trigger.tt.explanation.liege', '' )]"
  is_in_scapegoating_diarchy_visibility_trigger.tt.explanation.liege: " 相手が少なくとも権力者であると錯覚していない限り、罪を着せることはできない。"
