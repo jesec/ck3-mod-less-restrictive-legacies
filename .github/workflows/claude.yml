@@ -1,0 +1,53 @@
+name: Claude
+
+on:
+  issue_comment:
+    types: [created]
+  pull_request_review_comment:
+    types: [created]
+  issues:
+    types: [opened, assigned]
+  pull_request_review:
+    types: [submitted]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: read
+  id-token: write
+  actions: read
+
+jobs:
+  claude:
+    runs-on: ubuntu-latest
+    if: |
+      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
+      (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude')) ||
+      (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@claude')) ||
+      (github.event_name == 'issues' && (contains(github.event.issue.body, '@claude') || contains(github.event.issue.title, '@claude')))
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup base repository remote
+        run: |
+          # Add base repository as remote (if not already present)
+          if ! git remote | grep -q '^base$'; then
+            git remote add base https://github.com/jesec/ck3-mod-base.git
+          fi
+
+          # Fetch base tags - this brings in base/1.18.0, base/1.18.1, etc.
+          git fetch base --tags
+
+          echo "✅ Base repository tags fetched"
+
+      - name: Invoke Claude Code
+        uses: anthropics/claude-code-action@v1
+        env:
+          MAX_THINKING_TOKENS: "16000"
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          trigger_phrase: "@claude"
+          claude_args: "--dangerously-skip-permissions"
