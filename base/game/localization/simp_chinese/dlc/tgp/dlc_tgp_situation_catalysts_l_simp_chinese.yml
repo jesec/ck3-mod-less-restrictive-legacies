@@ -54,7 +54,7 @@
  catalyst_hegemon_above_maa_limit_yearly_desc: "年度变动：[son_of_heaven|E]超出[men_at_arms|E]上限"
  catalyst_hegemon_below_maa_limit_yearly: "低于[men_at_arms|E]上限[dynastic_cycle_catalyst|E]"
  catalyst_hegemon_below_maa_limit_yearly_desc: "年度变动：[son_of_heaven|E]低于[men_at_arms|E]上限"
- catalyst_hegemon_outdated_maa_yearly: "落后[men_at_armss|E][dynastic_cycle_catalyst|E]"
+ catalyst_hegemon_outdated_maa_yearly: "落后[men_at_arms|E][dynastic_cycle_catalyst|E]"
  catalyst_hegemon_outdated_maa_yearly_desc: "年度变动：[son_of_heaven|E]拥有落后的[men_at_arms|E][regiments|E]"
  catalyst_hegemon_lost_defensive_territorial_war: "输掉防御性领土[war|E][dynastic_cycle_catalyst|E]"
  catalyst_hegemon_lost_defensive_territorial_war_desc: "[son_of_heaven|E]在防御性[war|E]中失去领土"
@@ -69,7 +69,7 @@
  catalyst_hegemon_low_merit_vassals_yearly_desc: "年度变动：[son_of_heaven_possessive|E]超过#V 50%#!的[vassals|E]的[merit_level|E]低于$MERIT_LEVEL_LABEL_6$"
  catalyst_hegemon_appointing_low_merit_councillor: "低[merit_level|E][minister|E][dynastic_cycle_catalyst|E]"
  catalyst_hegemon_appointing_low_merit_councillor_desc: "[son_of_heaven|E]任命了[merit_level|E]低于$MERIT_LEVEL_LABEL_7$的[minister|E]"
- catalyst_hegemon_appointing_low_merit_governor: "低[merit|E][governor|E][dynastic_cycle_catalyst|E]"
+ catalyst_hegemon_appointing_low_merit_governor: "低[merit_level|E][governor|E][dynastic_cycle_catalyst|E]"
  catalyst_hegemon_appointing_low_merit_governor_desc: "[son_of_heaven|E]任命了[merit_level|E]低于[appointment_level|E]的[governor|E]"
  catalyst_imperial_examinations_gap_long_yearly: "长期未举行科举[dynastic_cycle_catalyst|E]"
  catalyst_imperial_examinations_gap_long_yearly_desc: "年度变动：#V [EmptyScope.ScriptValue('catalyst_imperial_examinations_gap_long_yearly_value')]#!年未举行[imperial_examinations|E]"
@@ -104,7 +104,7 @@
  catalyst_hegemon_gains_mandate_of_heaven_desc: "一位新[son_of_heaven|E]宣称[mandate_of_heaven|E]并持有[GetTitleByKey('h_china').GetDefinitiveName]"
  # Calamities
  catalyst_hegemon_in_civil_war: "[civil_war|E]爆发[dynastic_cycle_catalyst|E]"
- catalyst_hegemon_in_civil_war_desc: "[son_of_heaven|E]未能回应[faction|E]要求，导致[civil_war|E]发生"
+ catalyst_hegemon_in_civil_war_desc: "[son_of_heaven|E]无视了[faction|E]要求或施行[tyrant|E]，导致[civil_war|E]发生"
  catalyst_hegemon_natural_disaster: "持续中的[natural_disaster|E][dynastic_cycle_catalyst|E]"
  catalyst_hegemon_natural_disaster_desc: "年度变动：持续中的[natural_disasters|E]"
  catalyst_hegemon_natural_disaster_recovered: "从[natural_disaster|E]中恢复"
@@ -122,9 +122,9 @@
  catalyst_imperial_treasury_debt_desc: "年度变动：[imperial_treasury|E]破产"
  # Held Lands
  catalyst_hegemony_too_few_lands: "[son_of_heaven|E]持有过少[de_jure|E][titles|E][dynastic_cycle_catalyst|E]"
- catalyst_hegemony_too_few_lands_desc: "年度变动：[son_of_heaven|E][completely_controls|E]的[de_jure|E][titles|E]少于#V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#!"
+ catalyst_hegemony_too_few_lands_desc: "年度变动：[son_of_heaven|E]控制的[GetTitleByKey('h_china').GetDefinitiveName][de_jure|E][counties|E]少于#V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#!"
  catalyst_hegemony_far_too_few_lands: "[son_of_heaven|E]持有过少[de_jure|E][titles|E][dynastic_cycle_catalyst|E]"
- catalyst_hegemony_far_too_few_lands_desc: "[son_of_heaven|E][completely_controls|E]的[de_jure|E][titles|E]少于#V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#!"
+ catalyst_hegemony_far_too_few_lands_desc: "[son_of_heaven|E]控制的[GetTitleByKey('h_china').GetDefinitiveName][de_jure|E][counties|E]少于#V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#!"
  # Regency
  catalyst_diarch_mandate: "[grand_secretariat_possessive|E]自主行事[dynastic_cycle_catalyst|E]"
  catalyst_diarch_mandate_desc: "[grand_secretariat|E]在没有[son_of_heaven_possessive|E]的批准下行事"
@@ -140,6 +140,8 @@
  # Great Projects
  catalyst_grand_campaign: "[son_of_heaven|E]赢得[GetGreatProjectType('grand_campaign_project').GetName][great_project|E][dynastic_cycle_catalyst|E]"
  catalyst_grand_campaign_desc: "[son_of_heaven_possessive|E]的[GetGreatProjectType('grand_campaign_project').GetName][great_project|E]成功"
+ catalyst_grand_campaign_lost: "[son_of_heaven|E]输掉了[GetGreatProjectType('grand_campaign_project').GetName][great_project|E][dynastic_cycle_catalyst|E]"
+ catalyst_grand_campaign_lost_desc: "[son_of_heaven_possessive|E]的[GetGreatProjectType('grand_campaign_project').GetName][great_project|E]失败了"
  catalyst_minister_project_culture: "[son_of_heaven|E]完成[GetGreatProjectType('minister_project_culture').GetName][great_project|E][dynastic_cycle_catalyst|E]"
  catalyst_minister_project_culture_desc: "[son_of_heaven_possessive|E]的[GetGreatProjectType('minister_project_culture').GetName][great_project|E]成功"
  catalyst_great_wall: "$building_the_great_wall_01$建造[situation_catalyst|E]"

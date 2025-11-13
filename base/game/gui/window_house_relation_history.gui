@@ -46,15 +46,15 @@ window = {
 			# Relation overview
 			hbox_house_relation_history_info = {
 				layoutpolicy_horizontal = expanding
+				datacontext = "[GetIllustration( 'character_view_bg' )]"
+				datacontext = "[HouseRelationHistoryWindow.GetLeftHouse.GetHeadOfHouseOrLastHistoricHead]"
 
 				background = {
-					texture = "gfx/interface/illustrations/event_scenes/tgp_study_japan.dds"
-					fittype = centercrop
-					mirror = horizontal
+					texture = "[Illustration.GetTexture( Character.MakeScope )]"
 					alpha = 0.5
-					framesize = { 1599 852 }
-
+					fittype = centercrop
 					using = Mask_Rough_Edges
+					margin_top = 10
 
 					modify_texture = {
 						texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
@@ -147,6 +147,14 @@ types HouseRelationHistoryWindow
 				{
 					portrait_texture = "[Character.GetPortrait('environment_torso', 'camera_torso_left', 'idle', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
 				}
+
+				blockoverride "portrait_status_icons"
+				{
+					portrait_status_icons = {
+						parentanchor = bottom|left
+						position = { 50 -4 }
+					}
+				}
 			}
 		}
 
@@ -158,7 +166,7 @@ types HouseRelationHistoryWindow
 
 			icon = {
 				size = { 55 55 }
-				texture = "[HouseRelation.GetLevel.GetIcon]"
+				texture = "[HouseRelation.GetLevel.GetRenderedIcon]"
 			}
 
 			spacer = {
@@ -175,7 +183,6 @@ types HouseRelationHistoryWindow
 			text_single = {
 				align = center
 				text = "[HouseRelation.GetLevel.GetName]"
-				using = Text_Light_Background_Overrides
 				default_format = "#high"
 			}
 		}
@@ -189,6 +196,14 @@ types HouseRelationHistoryWindow
 				blockoverride "portrait_texture"
 				{
 					portrait_texture = "[Character.GetPortrait('environment_torso', 'camera_torso_right', 'idle', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
+				}
+
+				blockoverride "portrait_status_icons"
+				{
+					portrait_status_icons = {
+						parentanchor = bottom|left
+						position = { 50 -4 }
+					}
 				}
 			}
 		}
@@ -334,7 +349,7 @@ types HouseRelationHistoryWindow
 						layoutpolicy_horizontal = expanding
 						icon = {
 							size = { 32 32 }
-							texture = "[HouseRelationChange.GetLevel.GetIcon]"
+							texture = "[HouseRelationChange.GetLevel.GetRenderedIcon]"
 						}
 
 						spacer = {
@@ -366,7 +381,7 @@ types HouseRelationHistoryWindow
 
 				icon = {
 					size = { 52 52 }
-					texture = "[HouseRelation.GetLevel.GetIcon]"
+					texture = "[HouseRelation.GetLevel.GetRenderedIcon]"
 				}
 			}
 		}
@@ -379,6 +394,8 @@ types HouseRelationHistoryWindow
 
 		blockoverride "main_description" {
 			vbox = {
+				block "description_prefix" {}
+				
 				textbox = {
 					name = "main_description"
 					layoutpolicy_horizontal = expanding

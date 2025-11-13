@@ -1,5 +1,5 @@
 ﻿l_english:
- ACTIVE_COUNCIL_TASK_TT:2 "My [ActiveCouncilTask.GetPositionType.GetName] [ActiveCouncilTask.GetCouncillor.GetUIName] is assigned to [ActiveCouncilTask.GetTaskType.GetName|V]"
+ ACTIVE_COUNCIL_TASK_TT:2 "My [ActiveCouncilTask.GetPositionType.GetNameForPlayer] [ActiveCouncilTask.GetCouncillor.GetFirstName|V] is assigned to [ActiveCouncilTask.GetTaskType.GetName|V]"
  ACTIVE_COUNCIL_TASK_FROZEN_TT:1 "#T [ActiveCouncilTask.GetTaskType.GetName|V] #!\n@warning_icon! #X Assign a character to this council position to continue progressing the task#!"
  POTENTIAL_COUNCIL_TASK_TT:2 "[ActiveCouncilTask.GetCouncillor.GetUIName] will be assigned to [ActiveCouncilTask.GetTaskType.GetName|V]"
  COUNCIL_TASK_TT:0 "#T [ActiveCouncilTask.GetTaskType.GetName]#!\n[SelectLocalization( GuiPotentialCouncilTask.IsActive, 'ACTIVE_COUNCIL_TASK_TT', 'POTENTIAL_COUNCIL_TASK_TT' )]"
@@ -692,7 +692,7 @@
  kurultai_task.1356.desc: "[councillor.GetShortUIName] work has had disastrous effects on the local tribes living in [county.GetNameNoTier]."
 
  kurultai_task.1401.notification: "Impressive Raiders"
- kurultai_task.1401.desc: "Our raiders are feared far and wide thanks to [councillor.GetShortUIName] drilling them."
+ kurultai_task.1401.desc: "Our raiders are feared far and wide thanks to [councillor.GetShortUIName] drilling them hard."
 
  kurultai_task.1406.notification: "Dreadful Raiders"
  kurultai_task.1406.desc: "Our raiders strike fear into the heart of enemies far and wide, both inside and outside our borders."

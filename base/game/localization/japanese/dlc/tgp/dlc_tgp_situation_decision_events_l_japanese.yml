@@ -58,7 +58,7 @@
  tgp_dynastic_cycle.0056.a: "強さとは一族の絆にある。"
  ### ENTER STABILITY - NEW DYNASTY ### 0061 - 0070 ###
  tgp_dynastic_cycle.0061.t: "天の寵愛を受けた[GetTitleByKey('h_china').GetHolder.Custom('GetDaughterSon')|U]"
- tgp_dynastic_cycle.0061.desc: "天は公平であり、常に徳の高い者に味方するという。また、勝者は王になり、敗者は盗賊になるともいう。[GetTitleByKey('h_china').GetNameNoTierNoTooltip]の王座は今や#EMP 私のもの#となり、[GetTitleByKey('h_china').GetNameNoTierNoTooltip]全土を支配してよいという天からのお許しも得た。\n\n私はこれから、新しい大臣と彼らが率いる職員たちがどのような努力をすべきか、方向性を定めなければならない。"
+ tgp_dynastic_cycle.0061.desc: "曰く、「天道、是れ親しむ無し。常に善人に与す」と言う。また、「勝者は王、敗者は寇」とも言う。[GetTitleByKey('h_china').GetNameNoTierNoTooltip]の王座は今や#EMP 私のもの#となり、[GetTitleByKey('h_china').GetNameNoTierNoTooltip]全土を支配してよいという天からのお許しも得た。\n\n私はこれから、新しい大臣と彼らが率いる職員たちがどのような努力をすべきか、方向性を定めなければならない。"
  tgp_dynastic_cycle.0061.a: "道徳を促進し、悪徳を排除することが我々の義務である。"
  tgp_dynastic_cycle.0061.b: "広大な天の下では、#EMP 誰もが#![ROOT.Char.GetTitleAsNameNoTooltip]の臣民である。"
  tgp_dynastic_cycle.0061.c: "世界の頂点に立つと、他のすべてが小さくなる。"
@@ -81,18 +81,18 @@
  tgp_dynastic_cycle.0072.desc.uninvolved: "[GetTitleByKey('h_china').GetHolder.GetDynastyName]王朝はまだ活力を残していたようだ。"
  tgp_dynastic_cycle.0072.a: "春風が吹き、緑がまた生い茂る。"
  ### ENTER CONSOLIDATION ###
- tgp_dynastic_cycle.0081.t: "国は長く統一されれば分断される"
+ tgp_dynastic_cycle.0081.t: "合すること久しければ必ず分る"
  tgp_dynastic_cycle.0081.desc: "一瞬にして天は震え、世界は覆った。\n\n忠臣が新たな主君を求めて逃亡し、兵士が職務を放棄し、今や農民までもが、迫りくる動乱の時代を恐れて国を見捨てた。\n\nすべての災いが私の#EMP 不正な支配#!のせいということにされ、私は天命を失ったという話が広がってしまった！"
- tgp_dynastic_cycle.0081.a: "木が倒れると猿は散らばる。"
+ tgp_dynastic_cycle.0081.a: "樹倒れれば、猢猻散す。"
  # Notification for relevant people
  tgp_dynastic_cycle.0082.desc.involved: "民意と天意は一つの同じものだというが、その通りであることがわかった。#EMP 天命は失われてしまった#!のだ。\n\n国は砕け散り、強欲な龍と虎が玉座をめぐって争いを繰り広げる。\n\n動乱の時代がすぐそこまで来ているのだ。"
  tgp_dynastic_cycle.0082.desc.interloper: "かつてひとつの国があった地に、群雄割拠の時代が訪れた。\n\n天命が失われ、従うべき正統な支配者はいなくなった。誰もがこれまでに保っていた体裁を捨て去り、隠していた野望をむき出しにしている。\n\n勇気ある者は、目の前にある機会を掴み取らなければならない。"
  tgp_dynastic_cycle.0082.desc.uninvolved: "強大な国家が燃え尽き、民はその灰をめぐって戦うべく武器を取る。\n\n[GetTitleByKey('h_china').GetNameNoTierNoTooltip]は分断され、先の読めない状況のなかで唯一確かなのは、動乱の時代が迫っているということだけだ。この動乱のなかに身を置くということは、自ら虎の巣に入ろうとするようなものである。"
- tgp_dynastic_cycle.0082.a: "危機とはすなわち好機である。"
+ tgp_dynastic_cycle.0082.a: "吾自ら機に臨みて変を制す。"
  ### ENTER CORRUPTION ###
  tgp_dynastic_cycle.0091.t: "不幸の予兆"
  tgp_dynastic_cycle.0091.desc: "私は正しく統治しようと尽力しているが、不満の声を耳にすることが多くなった。\n\n私が天命を受けた人間だという信用が揺らぎはじめているようだ。この不吉な事実を、私は受け入れなければならない。民が疑念を抱けば、王位の強固な基盤さえ揺るがすことがあるからだ。"
- tgp_dynastic_cycle.0091.a: "水は舟を浮かべるものだが、同時に舟を転覆させもする。"
+ tgp_dynastic_cycle.0091.a: "水則ち舟を載せ、水則ち舟を覆す。"
  # Notification for relevant people
  tgp_dynastic_cycle.0092.desc.involved: "世界は病に苦しんでいる。心の病だ。\n\nかつて道徳の柱が強固にそびえていた場所に、今は悪意と不正がはびこっている。不道徳な役人が民を犠牲にして私腹を肥やし、兵士たちは民を守るより強奪した方がいいのではないかと考えるようになっている。"
  tgp_dynastic_cycle.0092.desc.interloper: "[GetTitleByKey('h_china').GetNameNoTierNoTooltip]は万事順調というわけではないようだ。\n\n日を追うごとに、新たな隊商や護送隊が、より緑豊かな牧草地を求めて国を去っていく。強欲な商人たちでさえ、こちらの土地を好むようになり、かの国で役人や武力により搾取されたという悲惨な物語を語っている。"
@@ -100,7 +100,7 @@
  tgp_dynastic_cycle.0092.a: "不道徳は薬では治せない病気だ。"
  tgp_dynastic_cycle.9001.t: "国家の創立"
  tgp_dynastic_cycle.9001.desc: "すべての川が東に向かって海に流れ込むように、天の下に住む民も今、私を君主として仰ぎ見ている。\n\n私の治世の最初の一歩は、領国の名前を発表し、皆に自分たちが属する場所をどう呼ぶべきかを知らせてやることだ。\n\n歴史の中で、我々の偉業はなんという名で語り継がれるべきだろうか？"
- tgp_dynastic_cycle.9001.a: "皆に知らせよう！" # 咸使聞知
+ tgp_dynastic_cycle.9001.a: "使咸く聞知らしむ。" # 咸使聞知
  tgp_dynastic_cycle.9002.t: "善の元素"
  tgp_dynastic_cycle.9002.desc: "天には、適切に管理し、うまく共存しなければならない5つの元素がある。\n\n木、火、土、金、水だ。\n\n古代から、新たに台頭した王朝はこれらの変化の元素のうちひとつを自国のものとし、その色で旗を彩ってきた。私も今、この選択をしなければならない。"
  tgp_dynastic_cycle.9002.yellow: "私は我らの礎である大地を象徴する色、#color:{0.82,0.77,0.5};bold 黄色#!にする。"
@@ -113,6 +113,15 @@
  tgp_dynastic_cycle_decision_event.0101.a: "[new_player.GetFirstNameNoTooltip]になら、すべてを任せられるだろう。"
  dynastic_cycle_entered_conquest_tt: "[GetSituation('dynastic_cycle').GetName]は[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability_conquest').GetName]に入った"
  dynastic_cycle_entered_chaos_tt: "[GetSituation('dynastic_cycle').GetName]は[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName]に入った"
+ dynastic_cycle_entered_chaos_changed_top_liege_tt: "[new_top_liege.GetShortUIName]があなたの新たな [top_liege|E]になった"
+ dynastic_cycle_entered_chaos_became_independent_tt: "[relevant_character.GetShortUIName|U]が[independent|E]した"
+ chaos_new_vassals_tt: "あなたの[vassals|E]になった #weak （[chaos_new_vassals_count]）#!"
+ custom.chaos_new_vassals: "$BULLET$あなたの[realm|E]に隣接する、#V あなた#!よりも[title_tier|E]が低いすべての[independent|E]した[movement|E]の参加者"
+ custom.chaos_new_vassals_disciples: "$BULLET$あなたの[realm|E]に隣接する、#V あなた#!よりも[title_tier|E]が低いすべての[independent|E]した[disciples|E]"
+ chaos_new_tributaries_tt: "あなたの[tributaries|E]になった #weak （[chaos_new_tributaries_count]）#!"
+ custom.chaos_new_tributaries: "$BULLET$#V あなた#!と同一かそれ以上の[title_tier|E]を持っているか、あなたの[realm|E]に隣接していないすべての[independent|E]した[movement|E]の参加者と[disciples|E]"
+ custom.chaos_new_tributaries_disciples: "$BULLET$#V あなた#!と同一かそれ以上の[title_tier|E]を持っているすべての[disciples|E]と、あなたの[realm|E]に隣接していないすべての[disciples|E]"
+ dynastic_cycle_entered_chaos_hunagdi_tt: "[son_of_heaven|E]が退位し、すべての[landed|E]の[titles|E]と[mandate_of_heaven|E]を失った"
  dynastic_cycle_entered_stability_advancement_past_tt: "[GetSituation('dynastic_cycle').GetName]は[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]に入った"
  dynastic_cycle_entered_stability_advancement_tt: "[GetSituation('dynastic_cycle').GetName]は[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]に入る"
  dynastic_cycle_entered_stability_expansion_past_tt: "[GetSituation('dynastic_cycle').GetName]は[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]に入った"

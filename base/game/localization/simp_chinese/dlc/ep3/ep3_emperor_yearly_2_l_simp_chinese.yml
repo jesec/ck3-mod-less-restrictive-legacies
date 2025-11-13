@@ -198,7 +198,7 @@
  ep3_emperor_yearly.2160.b.tt2: "你的[governor_efficiency|E]降低#N 5%#!"
  #Secret Tunnels
  ep3_emperor_yearly.2170.t: "暗道"
- ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier]是个困难的地区，我们对这里的控制也极其脆弱。这里的人民是坚强的幸存者，他们对这片艰苦而狂野的土地的了解和掌握无人能比。\n\n在这方面，他们得到了自己造物的帮助：一个由隧道、隐藏的安全屋和地下定居点组成的庞大网络，每当天气变得恶劣、敌人袭击或是我们的税吏接近，要求凯撒应得的东西，他们都可以很容易地消失在其中。"
+ ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier]是个困难的地区，我们对这里的控制也极其脆弱。这里的人民是坚强的幸存者，他们对这片艰苦而狂野的土地的了解和掌握无人能比。\n\n在这方面，他们得到了自己造物的帮助：一个由隧道、隐藏的安全屋和地下定居点组成的庞大网络，每当天气变得恶劣、敌人袭击或是我们的税吏接近，要求[ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]应得的东西，他们都可以很容易地消失在其中。"
  ep3_emperor_yearly.2170.a: "这可能会派上用场……"
  ep3_emperor_yearly.2170.b: "这种违法行为必须停止。"
  #A Warm Meal?
@@ -231,6 +231,7 @@
  #The Emperor's Gold
  ep3_emperor_yearly.2200.t: "皇帝的金子"
  ep3_emperor_yearly.2200.desc: "如果有人完全不配坐在皇位上，那一定是[liege.GetFirstName]。\n\n[governorship.GetName]辛苦受罪，而我们所有的税收都流向了[capital.GetNameNoTier]的懒人。除非……\n\n我们的税收并不#EMP 必须#!流向那里；我可以更好地利用这些金子……"
+ ep3_emperor_yearly.2200.desc.c_monarch: "[liege.GetTitledFirstName]根本不配领导[ceremonial_monarch.GetTitleAsName]！\n\n[governorship.GetName]在辛勤劳作和受苦，而我们所有的税收都流向了[capital.GetNameNoTier]那个懒汉。除非……\n\n我们的税收并非#EMP 必须#!流向那里；我本可以更好地利用它们……”"
  ep3_emperor_yearly.2200.a: "[liege.GetSheHe|U]不配得到我们的金子。"
  ep3_emperor_yearly.2200.b: "我忠于[ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip]，而不是[ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]。"
  ep3_emperor_yearly.2200.a.tt: "不值得的忠诚"
@@ -274,7 +275,8 @@
  ep3_emperor_yearly.2240.desc_quote_b: "“[Glossary( '生命短暂，艺术永存', 'ARS_LONGA_GLOSS')]。”[the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )]一边叹息，一边从[the_scholar.GetSheHe]杂乱的笔记中划掉一行。[the_scholar.GetSheHe]什么时候还加入过我了？！"
  ep3_emperor_yearly.2240.desc_quote_c: "“[Glossary( '智慧要清楚地显出来', 'SOPHON_GLOSS')]。”[the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )]咕哝道，而[the_scholar.GetSheHe]又一次没遵循某些基本的指令。"
  ep3_emperor_yearly.2240.desc_quote_latin: "“[Glossary( '爱情征服一切', 'AMOR_GLOSS')]。”[the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )]带着严肃的表情自负地说道。这和我们所谈的有什么关系呢？！"
- ep3_emperor_yearly.2240.desc_outro: "\n\n[the_scholar.GetSheHe|U]#EMP 老是#!这样，令我生厌！总是顾自引出古人的名言，乱塞到别人面前——经常不是语境不合，就是用词不当……\n\n我们周围许多人都在叹息和翻白眼。对于一个公众人物来说，扎实的古典教育是必不可少的，但如果没有恰当使用的智慧，就是在白费工夫。"
+ ep3_emperor_yearly.2240.desc_quote_confucius: "“[Glossary( '君子欲讷于言而敏于行。', 'CONFUCIUS_GLOSS' )]”[the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )]摆出一副严肃的表情，大谈其道。这跟我们刚才谈论的话题有什么关系？！"
+ ep3_emperor_yearly.2240.desc_outro: "\n\n[the_scholar.GetSheHe|U]#EMP 老是#!这样，总是顾自引出古人的名言，乱塞到别人面前——经常不是语境不合，就是用词不当……\n\n我们周围许多人都在叹息和翻白眼。对于一个公众人物来说，扎实的古典教育是必不可少的，但如果没有恰当使用的智慧，就是在白费工夫。"
  ep3_emperor_yearly.2240.a: "#EMP 实际上#!，这句话是这样的……"
  ep3_emperor_yearly.2240.a.flavor: "你试图通过展示[the_scholar.GetFirstNameNoTooltip]错得多离谱，来让[the_scholar.GetSheHe]回到[the_scholar.GetHerHis]的位置。"
  ep3_emperor_yearly.2240.a_success: "你的知识胜过[the_scholar.GetHersHis]"

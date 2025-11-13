@@ -147,7 +147,7 @@
  promote_persian_scripture_fundamentalist_stress: "@warning_icon! #X 당신의 [faith|E]에 [GetFaithDoctrine('doctrine_pluralism_fundamentalist').GetBaseName] [doctrine|E]가 있어 [EmptyScope.ScriptValue('promote_persian_scripture_fundamentalist_stress_value')|0]의 [stress|E] 획득"
  fp3_promoted_scriptures_caliph_angry.tt: "@warning_icon! #X 이 선택으로 당신의 [head_of_faith|E]의 분노를 살 수도 있습니다."
  fp3_rally_troops_in_rebellion_decision: "반란 병력 집결"
- fp3_rally_troops_in_rebellion_decision_desc: "난세 속에서 기회는 항상 찾아오는 법. 이 시대도 예외는 아니다. [ROOT.Char.Custom('GetCouncilOrCourtPosition')]인 나에게는 내 영지 쟁취를 도와둘 동지가 수백, 아니 수천 명은 있다. 과거 [ROOT.Char.GetLiege.GetPrimaryTitle.GetBaseName](은)는 내 능력을 인정하고 미약한 권력을 쥐여주었다. 이제 나는 칼을 들고 진정한 야망을 운명에게 보여줄 것이다."
+ fp3_rally_troops_in_rebellion_decision_desc: "난세 속에서 기회는 항상 찾아오는 법. 이 시대도 예외는 아니다. [ROOT.Char.Custom('GetCouncilOrCourtPosition')]인 나에게는 내 영지 쟁취를 도와둘 동지가 수백, 아니 수천 명은 있다. 과거 [ROOT.Char.GetLiege.GetPrimaryTitle.GetBaseName](은)는 내 능력을 인정하고 미약한 권력을 쥐여주었다. 이제 나는 칼을 들고 진정한 야심을 운명에게 보여줄 것이다."
  fp3_rally_troops_in_rebellion_decision_confirm: "행운은 용감한 자의 편이니!"
  fp3_rally_troops_in_rebellion_decision_tooltip: "주군의 영지 일부에 대한 명분 주장을 도와줄 지지자를 집결시킴"
  invite_former_slave_soldiers_decision: "부족 전사 등용"

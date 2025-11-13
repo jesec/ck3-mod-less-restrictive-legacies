@@ -339,7 +339,7 @@
 7969 = {	# 7969 - Maralbeshi
 	
 	# Misc
-	culture = sogdian
+	culture = saka
 	religion = mahayana
 	
 	holding = castle_holding
@@ -927,7 +927,7 @@
 9608 = {	#9608 - Dondan Oilik
 	
 	# Misc
-	culture = sogdian
+	culture = saka
 	religion = mahayana
 	
 	holding = castle_holding

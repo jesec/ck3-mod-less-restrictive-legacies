@@ -91,6 +91,5 @@
  tgp_aspiration_modest_salary_modifier: "昇給"
  tgp_aspiration_modest_salary_modifier_desc: "この人物は自身の職務を首尾よくこなし、給与ボーナスを得た。"
  claim_mandate_decision_modifier: "$game_concept_son_of_heaven$"
- hegemony_of_china_desc: "$game_concept_de_jure$ [GetTitleByKey('h_china').GetName] : $VALUE|+0=$"
+ hegemony_of_china_desc: "$game_concept_de_jure$[GetTitleByKey('h_china').GetName]：$VALUE|+0=$"
  is_already_administrative: "すでに$game_concept_administrative_government$である：$VALUE|+0=$"
-

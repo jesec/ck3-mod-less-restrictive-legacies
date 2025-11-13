@@ -1,5 +1,5 @@
 ﻿l_simp_chinese:
- ACTIVE_COUNCIL_TASK_TT: "我的[ActiveCouncilTask.GetPositionType.GetName][ActiveCouncilTask.GetCouncillor.GetUIName]被指派去[ActiveCouncilTask.GetTaskType.GetName|V]"
+ ACTIVE_COUNCIL_TASK_TT: "我的[ActiveCouncilTask.GetPositionType.GetNameForPlayer][ActiveCouncilTask.GetCouncillor.GetFirstName|V]被指派去[ActiveCouncilTask.GetTaskType.GetName|V]"
  ACTIVE_COUNCIL_TASK_FROZEN_TT: "#T [ActiveCouncilTask.GetTaskType.GetName|V]#!\n@warning_icon! #X 指派一名角色担任此内阁职位以继续任务进度#!"
  POTENTIAL_COUNCIL_TASK_TT: "[ActiveCouncilTask.GetCouncillor.GetUIName]会被指派去[ActiveCouncilTask.GetTaskType.GetName|V]"
  COUNCIL_TASK_TT: "#T [ActiveCouncilTask.GetTaskType.GetName]#!\n[SelectLocalization( GuiPotentialCouncilTask.IsActive, 'ACTIVE_COUNCIL_TASK_TT', 'POTENTIAL_COUNCIL_TASK_TT' )]"

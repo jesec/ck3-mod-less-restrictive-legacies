@@ -107,9 +107,17 @@ unsanctioned_deity = {
 						value = miniscule_merit_loss
 						multiply = governance_task_contract_tier_value
 					}
-					add_secret = {
-						type = secret_siphoned_treasury
-						target = top_liege
+					if = {
+						limit = {
+							secret_siphoned_treasury_is_valid_trigger = {
+								OWNER = scope:task_contract.task_contract_taker
+								TARGET = top_liege
+							}
+						}
+						add_secret = {
+							type = secret_siphoned_treasury
+							target = top_liege
+						}
 					}
 				}
 			}

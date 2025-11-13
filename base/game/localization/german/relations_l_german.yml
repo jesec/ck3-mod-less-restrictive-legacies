@@ -241,6 +241,7 @@
  relation_liege_female: "Lehnsherrin"
  relation_liege_male: "Lehnsherr"
  relation_suzerain: "Suzerän"
+ relation_suzerain_possessive: "des Suzeräns"
  relation_leader_female: "Anführerin"
  relation_leader_male: "Anführer"
  relation_ward: "Mündel"
@@ -675,3 +676,5 @@
  relation_elder: "Ältester"
  relation_disciple_possessive: "des Zöglings"
  relation_elder_possessive: "des Ältesten"
+ relation_tributary: "Tributzahler"
+ relation_tributary_possessive: "des Tributzahlers"

@@ -5569,6 +5569,7 @@ japanese_schoolhouse_02 = {
 		increased_tutor_aptitude_2 = yes
 		estate_reduced_tutor_cost = yes
 		japanese_schoolhouse_education_boost_1 = yes
+		estate_governor_efficiency_bonus_for_house_members = yes
 	}
 
 	ai_value = {
@@ -5604,6 +5605,7 @@ japanese_schoolhouse_03 = {
 		increased_tutor_aptitude_3 = yes
 		estate_reduced_tutor_cost = yes
 		japanese_schoolhouse_education_boost_1 = yes
+		estate_governor_efficiency_bonus_for_house_members = yes
 	}
 	
 	ai_value = {
@@ -5639,6 +5641,7 @@ japanese_schoolhouse_04 = {
 		increased_tutor_aptitude_4 = yes
 		estate_reduced_tutor_cost = yes
 		japanese_schoolhouse_education_boost_1 = yes
+		estate_governor_efficiency_bonus_for_house_members = yes
 	}
 	
 	ai_value = {
@@ -5674,6 +5677,7 @@ japanese_schoolhouse_05 = {
 		increased_tutor_aptitude_5 = yes
 		estate_reduced_tutor_cost = yes
 		japanese_schoolhouse_education_boost_1 = yes
+		estate_governor_efficiency_bonus_for_house_members = yes
 	}
 	
 	ai_value = {
@@ -5709,6 +5713,7 @@ japanese_schoolhouse_06 = {
 		japanese_schoolhouse_education_boost_1 = yes
 		increased_tutor_aptitude_6 = yes
 		estate_reduced_tutor_cost = yes
+		estate_governor_efficiency_bonus_for_house_members = yes
 	}
 	
 	ai_value = {
@@ -5770,6 +5775,10 @@ japanese_law_library_02 = {
 		owned_political_scheme_success_chance_growth_add = @japanese_manor_owned_scheme_success_growth_add
 	}
 
+	parameters = {
+		estate_unlock_teach_governor_interaction = yes
+	}
+
 	ai_value = {
 		value = 8
 		add = japanese_manor_building_ai_modifier_value
@@ -5799,6 +5808,10 @@ japanese_law_library_03 = {
 		owned_political_scheme_success_chance_growth_add = @japanese_manor_owned_scheme_success_growth_add
 	}
 	
+	parameters = {
+		estate_unlock_teach_governor_interaction = yes
+	}
+
 	ai_value = {
 		value = 7
 		add = japanese_manor_building_ai_modifier_value
@@ -5828,6 +5841,10 @@ japanese_law_library_04 = {
 		owned_political_scheme_success_chance_growth_add = @japanese_manor_owned_scheme_success_growth_add
 	}
 	
+	parameters = {
+		estate_unlock_teach_governor_interaction = yes
+	}
+
 	ai_value = {
 		value = 7
 		add = japanese_manor_building_ai_modifier_value
@@ -5857,6 +5874,10 @@ japanese_law_library_05 = {
 		owned_political_scheme_success_chance_growth_add = @japanese_manor_owned_scheme_success_growth_add
 	}
 	
+	parameters = {
+		estate_unlock_teach_governor_interaction = yes
+	}
+
 	ai_value = {
 		value = 7
 		add = japanese_manor_building_ai_modifier_value
@@ -5884,6 +5905,10 @@ japanese_law_library_06 = {
 
 	character_modifier = {
 		owned_political_scheme_success_chance_growth_add = @japanese_manor_owned_scheme_success_growth_add
+	}
+	
+	parameters = {
+		estate_unlock_teach_governor_interaction = yes
 	}
 	
 	ai_value = {
@@ -8371,11 +8396,11 @@ japanese_ox_breeder_03 = {
 	previous_building = japanese_ox_breeder_02
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_04 }
+		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_03 }
 	}
 
 	cost = {
-		gold = { value = japanese_manor_external_building_normal_cost_tier_4_value }
+		gold = { value = japanese_manor_external_building_normal_cost_tier_3_value }
 	}
 
 	character_modifier = {
@@ -10930,8 +10955,8 @@ japanese_bowyer_01 = {
 
 	character_modifier = {
 		archers_maintenance_mult = @japanese_manor_maa_maintenance_mult_1
-		archer_cavalry_screen_mult = @japanese_manor_maa_effectiveness_mult_1
-		archers_screen_mult = @japanese_manor_maa_effectiveness_mult_1
+		archer_cavalry_damage_mult = @japanese_manor_maa_effectiveness_mult_1
+		archers_damage_mult = @japanese_manor_maa_effectiveness_mult_1
 	}
 
 	parameters = {
@@ -10972,8 +10997,8 @@ japanese_bowyer_02 = {
 
 	character_modifier = {
 		archers_maintenance_mult = @japanese_manor_maa_maintenance_mult_1
-		archer_cavalry_screen_mult = @japanese_manor_maa_effectiveness_mult_1
-		archers_screen_mult = @japanese_manor_maa_effectiveness_mult_1
+		archer_cavalry_damage_mult = @japanese_manor_maa_effectiveness_mult_1
+		archers_damage_mult = @japanese_manor_maa_effectiveness_mult_1
 	}
 
 	parameters = {
@@ -11014,8 +11039,8 @@ japanese_bowyer_03 = {
 
 	character_modifier = {
 		archers_maintenance_mult = @japanese_manor_maa_maintenance_mult_1
-		archer_cavalry_screen_mult = @japanese_manor_maa_effectiveness_mult_1
-		archers_screen_mult = @japanese_manor_maa_effectiveness_mult_1
+		archer_cavalry_damage_mult = @japanese_manor_maa_effectiveness_mult_1
+		archers_damage_mult = @japanese_manor_maa_effectiveness_mult_1
 	}
 
 	parameters = {
@@ -11056,8 +11081,8 @@ japanese_bowyer_04 = {
 
 	character_modifier = {
 		archers_maintenance_mult = @japanese_manor_maa_maintenance_mult_1
-		archer_cavalry_screen_mult = @japanese_manor_maa_effectiveness_mult_1
-		archers_screen_mult = @japanese_manor_maa_effectiveness_mult_1
+		archer_cavalry_damage_mult = @japanese_manor_maa_effectiveness_mult_1
+		archers_damage_mult = @japanese_manor_maa_effectiveness_mult_1
 	}
 
 	parameters = {
@@ -11098,8 +11123,8 @@ japanese_bowyer_05 = {
 
 	character_modifier = {
 		archers_maintenance_mult = @japanese_manor_maa_maintenance_mult_1
-		archer_cavalry_screen_mult = @japanese_manor_maa_effectiveness_mult_1
-		archers_screen_mult = @japanese_manor_maa_effectiveness_mult_1
+		archer_cavalry_damage_mult = @japanese_manor_maa_effectiveness_mult_1
+		archers_damage_mult = @japanese_manor_maa_effectiveness_mult_1
 	}
 
 	parameters = {
@@ -11140,8 +11165,8 @@ japanese_bowyer_06 = {
 
 	character_modifier = {
 		archers_maintenance_mult = @japanese_manor_maa_maintenance_mult_1
-		archer_cavalry_screen_mult = @japanese_manor_maa_effectiveness_mult_1
-		archers_screen_mult = @japanese_manor_maa_effectiveness_mult_1
+		archer_cavalry_damage_mult = @japanese_manor_maa_effectiveness_mult_1
+		archers_damage_mult = @japanese_manor_maa_effectiveness_mult_1
 	}
 
 	parameters = {

@@ -20,7 +20,7 @@
  game_concept_japan_administrative: "$japan_administrative_government$"
  game_concept_ritsuryo_government_desc: "$japan_administrative_government_desc$"
  game_concept_soryo: "$japan_feudal_government$"
- game_concept_soryo_government: "Правительство хокен"
+ game_concept_soryo_government: "Правительство сорё"
  game_concept_soryo_i: "@government_type_soryo!"
  game_concept_japan_feudal: "$japan_feudal_government$"
  game_concept_soryo_government_desc: "$japan_feudal_government_desc$"

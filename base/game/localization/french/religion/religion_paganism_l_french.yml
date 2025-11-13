@@ -60,7 +60,7 @@
  paganism_religious_text_3: "des histoires sacrées" #Optional translation alt
  paganism_religious_head_title: "Grand chamane"
  paganism_religious_head_title_name: "Haut Conseil"
- paganism_devotee: "l’adepte"
+ paganism_devotee: "adepte"
  paganism_devoteeplural: "adeptes"
  paganism_priest: "chamane"
  paganism_priest_plural: "chamanes"
@@ -697,7 +697,7 @@
  west_african_orisha_religion_adherent_plural: "yoruba"
  west_african_orisha_religion_desc: "Bien qu’il ait créé l’univers, le principal dieu du panthéon yoruba reste distant des affaires des mortels. Les adeptes prient plutôt les orishas, d’innombrables esprits envoyés par les divinités supérieures pour guider l’humanité sur le chemin qu’elles ont choisi."
  yoruba_high_god_name: "Olorun"
- yoruba_high_god_name_2: "à Ọlọrun" #Optional translation alt
+ yoruba_high_god_name_2: "à $yoruba_high_god_name$" #Optional translation alt
  yoruba_high_god_name_possessive: "d’Olorun"
  yoruba_high_god_name_alternate: "le Souverain absolu"
  yoruba_high_god_name_alternate_possessive: "du Souverain absolu"
@@ -1505,9 +1505,9 @@
  kamuyism_knowledge_god_name: "$kamuyism_high_god_name$"
  kamuyism_knowledge_god_name_possessive: "$kamuyism_high_god_name_possessive$"
  kamuyism_war_god_name: "Kanna-kamuy" #カンナカムイ
- kamuyism_war_god_name_possessive: "$kamuyism_high_god_name_possessive$"
+ kamuyism_war_god_name_possessive: "de $kamuyism_war_god_name$"
  kamuyism_trickster_god_name: "Aynurakkur" #アイヌラックル
- kamuyism_trickster_god_name_possessive: "$kamuyism_high_god_name_possessive$"
+ kamuyism_trickster_god_name_possessive: "d’$kamuyism_trickster_god_name$"
  kamuyism_night_god_name: "$kamuyism_high_god_name$"
  kamuyism_night_god_name_possessive: "$kamuyism_high_god_name_possessive$"
  kamuyism_water_god_name: "Wakka-us-kamuy" #ワッカウシカムイ
@@ -1716,7 +1716,7 @@
  satsana_phi_adherent: "theparakiste"
  satsana_phi_adherent_plural: "theparakistes"
  satsana_phi_high_god_name: "Phi Thien"
- satsana_phi_high_god_name_2: "aux Phi"
+ satsana_phi_high_god_name_2: "à $satsana_phi_high_god_name$"
  satsana_phi_high_god_name_possessive: "de $satsana_phi_high_god_name$"
  satsana_phi_high_god_name_alternate: "$satsana_phi_high_god_name$"
  satsana_phi_high_god_name_alternate_possessive: "$satsana_phi_high_god_name_possessive$"
@@ -1778,7 +1778,7 @@
  shamanism_priest_plural: "chamanes"
  shamanism_priest_alternate_plural: "$shamanism_priest_plural$"
  shamanism_high_god_name: "Enekan Buga"
- shamanism_high_god_name_2: "au Père céleste"
+ shamanism_high_god_name_2: "à $shamanism_high_god_name$"
  shamanism_high_god_name_possessive: "d’$shamanism_high_god_name$"
  shamanism_high_god_name_alternate: "$shamanism_high_god_name$"
  shamanism_high_god_name_alternate_possessive: "$shamanism_high_god_name_possessive$"
@@ -1845,7 +1845,7 @@
  utaki_priest: "noro" #祝女
  utaki_priest_plural: "noros"
  utaki_high_god_name: "Tiida" #天道
- utaki_high_god_name_2: "$utaki_high_god_name$"
+ utaki_high_god_name_2: "à $utaki_high_god_name$"
  utaki_high_god_name_possessive: "de $utaki_high_god_name$"
  utaki_high_god_name_alternate: "$utaki_high_god_name$"
  utaki_high_god_name_alternate_possessive: "$utaki_high_god_name_possessive$"
@@ -2003,7 +2003,7 @@
  hantuism_priest_plural: "chamanes"
  hantuism_priest_alternate_plural: "$hantuism_priest_plural$"
  hantuism_high_god_name: "Ali-zu"
- hantuism_high_god_name_2: "$hantuism_high_god_name$"
+ hantuism_high_god_name_2: "à $hantuism_high_god_name$"
  hantuism_high_god_name_possessive: "de $hantuism_high_god_name$"
  hantuism_high_god_name_alternate: "$hantuism_high_god_name$"
  hantuism_high_god_name_alternate_possessive: "$hantuism_high_god_name_possessive$"

@@ -3,13 +3,14 @@
  # INSTALL REGENT FACTION WAR
  ##################################################
  JAPANESE_REGENT_FACTION_WAR: "Einsetzungskrieg für [CLAIMANT.GetTitledFirstName] als Regent"
+ replace_ceremonial_regent_faction_war_name: "$game_concept_ceremonial_regent$en-Einsetzung"
+ replace_ceremonial_regent_faction_war: "$replace_ceremonial_regent_faction_war_name$"
  replace_ceremonial_regent_faction_war_victory_defender_desc: "Ihr werdet [imprisoned|El] und all Euer Land wird von [attacker.GetShortUIName] beschlagnahmt."
  replace_ceremonial_regent_faction_war_victory_desc: "[defender.GetShortUIName|U] wird [imprisoned|El] und alles eigene Land wird von [attacker.GetShortUIName] beschlagnahmt."
  replace_ceremonial_regent_faction_war_white_peace_defender_desc: "Ihr behaltet Eure [titles|E] und erhaltet einen [truce|E] gegen alle aufständischen [vassals|E]."
  replace_ceremonial_regent_faction_war_white_peace_desc: "[defender.GetShortUIName|U] behält [defender.Custom('DE_PRO_POS_S_3P')]e [titles|E]. Ein [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E] wird gegen alle aufständischen [vassals|E] vergeben."
  replace_ceremonial_regent_faction_war_defeat_defender_desc: "Ihr behaltet Eure [titles|E] und kerkert alle aufständischen [vassals|E] ein."
  replace_ceremonial_regent_faction_war_defeat_desc: "[defender.GetShortUIName|U] behält [defender.Custom('DE_PRO_POS_S_3P')]e [titles|E] und kerkert alle aufständischen [vassals|E] ein."
- replace_ceremonial_regent_faction_war: "$replace_ceremonial_regent_faction_name$"
  ##################################################
  # RESTORE EMPEROR FACTION WAR
  ##################################################
@@ -119,8 +120,8 @@
  eradicate_house_cb_white_peace_desc: "[defender.GetShortUIName|U] wird die eigene Ehre bewahren."
  eradicate_house_cb_defeat_desc: "[house|E] von [attacker.GetShortUIName|U] wird durch [defender.GetShortUIName] ausgelöscht."
  eradicate_house_cb_ended_invalid.desc: "„$ERADICATE_HOUSE_CB_NAME$“ wurde ungültig"
- every_close_family_house_member_in_court_cb_win_desc: "Alle [house|E]-Mitglieder, die [spouse|E] sind, am [court|E] von [defender.GetShortUIName]"
- every_close_family_house_member_in_court_cb_lose_desc: "Alle [house|E]-Mitglieder, die [spouse|E] sind, am [court|E] von [attacker.GetShortUIName]"
+ every_close_family_house_member_in_court_cb_win_desc: "Alle [house|E]-Mitglieder und [spouse|E] am [court|E] von [defender.GetShortUIName]"
+ every_close_family_house_member_in_court_cb_lose_desc: "Alle [house|E]-Mitglieder und [spouse|E] am [court|E] von [attacker.GetShortUIName]"
  ##################################################
  # ESTABLISH SORYO ADMINISTRATION WAR
  ##################################################

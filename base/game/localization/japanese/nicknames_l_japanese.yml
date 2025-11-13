@@ -10,7 +10,7 @@
  nick_tanglehair_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U]は、反目するノルウェーの諸侯をまとめるまで、決して髪を梳かず、切らず、整えないと誓いを立てた。"
  nick_fairhair: "美髪"
  nick_fairhair_desc: "自らの旗の下にノルウェー諸侯をまとめ上げた[CharYouSheHe(CHARACTER)]は、髪を切り、整え、香りをつける権利を再び得た。艱難辛苦の末に手にした髪ほどに、美しいものはない。"
- nick_haardraade: "苛烈な統治者"
+ nick_haardraade: "苛烈なる"
  nick_haardraade_desc: "[CharYourHerHis(CHARACTER)]の面前では、人々は[CharYouHerHim(CHARACTER)]を$nick_haardraade$と呼ぶ。[CharYouHerHim(CHARACTER)]がいないところでは、[CharYouHerHim(CHARACTER)]のつまらない態度と苛烈な正義が、[CharYouHerHim(CHARACTER)]に$nick_the_tyrant$というレッテルを貼っている。"
  nick_hardeknud: "固結び"
  nick_hardeknud_desc: "[CharYourHerHis(CHARACTER)|U]の臣民の多くは[CharYourHerHis(CHARACTER)|U]の名前の正確な発音が統一できておらず、[CharYourHerHis(CHARACTER)|U]はこのために多様な名前で知られている。"

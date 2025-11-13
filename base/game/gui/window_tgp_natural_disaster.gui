@@ -259,7 +259,7 @@ window = {
 										size = { 40 40 }
 										texture = "[SituationPhaseType.GetIcon]"
 										tooltipwidget = {
-											using = situation_phase_type_tooltip
+											using = situation_phase_type_natural_disaster_tooltip
 										}
 										using = tooltip_se
 										parentanchor = center
@@ -284,7 +284,7 @@ window = {
 										size = { 40 40 }
 										texture = "[SituationPhaseType.GetIcon]"
 										tooltipwidget = {
-											using = situation_phase_type_tooltip
+											using = situation_phase_type_natural_disaster_tooltip
 										}
 										using = tooltip_se
 										parentanchor = center
@@ -309,7 +309,7 @@ window = {
 										size = { 40 40 }
 										texture = "[SituationPhaseType.GetIcon]"
 										tooltipwidget = {
-											using = situation_phase_type_tooltip
+											using = situation_phase_type_natural_disaster_tooltip
 										}
 										using = tooltip_se
 										parentanchor = center
@@ -371,7 +371,7 @@ window = {
 									layoutpolicy_horizontal = expanding
 
 									fixedgridbox = {
-										visible = "[DataModelHasItems(SituationSubRegion.GetCurrentPhase.GetType.GetModifierNamedSets)]"
+										visible = "[And(Not(EqualTo_string( 'impact' , Situation.GetTopCurrentPhase.GetType.GetKey )), DataModelHasItems(SituationSubRegion.GetCurrentPhase.GetType.GetModifierNamedSets))]"
 										name = "named_effect_sets"
 										layoutpolicy_horizontal = expanding
 
@@ -398,6 +398,18 @@ window = {
 
 									expand = {}
 								}
+
+								hbox = {
+									layoutpolicy_horizontal = expanding
+
+									text_single = {
+										visible = "[EqualTo_string( 'impact' , Situation.GetTopCurrentPhase.GetType.GetKey )]"
+										text = "SITUATION_NATURAL_DISASTER_IMPACT_EFFECTS"
+									}
+
+									expand = {}
+								}
+
 							}
 
 							expand = {}
@@ -656,6 +668,13 @@ types NaturalDisaster
 			header_pattern = {
 				layoutpolicy_horizontal = expanding
 
+				blockoverride "header_text"
+				{
+					layoutpolicy_horizontal = expanding
+					text = "SITUATION_NATURAL_DISASTER_PARTICIPANT_WINDOW_HEADER_SINGLE_SUBREGION"
+					max_width = 451
+				}
+
 				blockoverride "button_close"
 				{
 					onclick = "[SituationParticipantCharacterList.Close]"
@@ -665,7 +684,7 @@ types NaturalDisaster
 			text_label_left = {
 				layoutpolicy_horizontal = expanding
 				margin_left = 8
-				text = "SITUATION_PARTICIPANT_GROUPS_TITLE"
+				text = "SITUATION_NATURAL_DISASTER_PARTICIPANT_GROUPS_TITLE"
 			}
 
 			hbox = {
@@ -678,8 +697,6 @@ types NaturalDisaster
 				}
 
 				flowcontainer = {
-					layoutpolicy_vertical = expanding
-					layoutpolicy_horizontal = expanding
 					layoutstretchfactor_horizontal = 50
 
 					datamodel = "[SituationSubRegion.GetParticipantGroups]"
@@ -693,34 +710,46 @@ types NaturalDisaster
 							onclick = "[SituationParticipantCharacterList.SetSelectedParticipantGroup( SituationParticipantGroup.Self )]"
 							tooltip = "[SituationParticipantGroup.GetName]"
 
-							icon_round_button_base = {
-								size = { 100% 100% }
+							icon = {
+								visible = "[SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self )]"
 								parentanchor = center
+
+								texture = "gfx/interface/buttons/button_round_frame.dds"
+								size = { 58 58 }
+								color = { 0.75 0.75 0.65 1 }
+
+								modify_texture = {
+									texture = "gfx/interface/colors/gold.dds"
+								}
+							}
+
+							icon_round_button_base = {
+								parentanchor = center
+								size = { 100% 100% }
 								enabled = "[Not( SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self ) )]"
 							}
 
 							icon = {
-								size = { 36 36 }
 								parentanchor = center
+								size = { 36 36 }
 
 								visible = "[SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self )]"
 								texture = "[SituationParticipantGroup.GetType.GetIcon]"
-
 								modify_texture = {
 									texture = "gfx/interface/colors/colors_textured.dds"
 									framesize = { 96 96 }
-									frame = 4
+									frame = 1
 								}
+
 							}
 
-							highlight_icon = {
-								size = { 36 36 }
+							icon = {
 								parentanchor = center
+								size = { 36 36 }
 
 								visible = "[Not( SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self ) )]"
 								texture = "[SituationParticipantGroup.GetType.GetIcon]"
-								#alpha = "[Select_float(SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self ),'(float)1.0','(float)0.6')]"
-
+								alpha = "[Select_float(SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self ),'(float)1.0','(float)0.6')]"
 								modify_texture = {
 									texture = "gfx/interface/colors/colors_textured.dds"
 									framesize = { 96 96 }
@@ -793,6 +822,7 @@ types NaturalDisaster
 	type vbox_participant_group_summary = vbox
 	{
 		margin_left = 10
+		ignoreinvisible = yes
 
 		text_single = {
 			layoutpolicy_horizontal = expanding
@@ -808,8 +838,17 @@ types NaturalDisaster
 		}
 
 		text_single = {
+			visible = "[SituationParticipantGroup.IsCharacterParticipant( Character.Self )]"
 			layoutpolicy_horizontal = expanding
 			text = "SITUATION_PARTICIPANT_YOUR_GROUP_SUBTITLE"
+			align = nobaseline
+			default_format = "#Weak"
+		}
+
+		text_single = {
+			visible = "[Not(SituationParticipantGroup.IsCharacterParticipant( Character.Self ))]"
+			layoutpolicy_horizontal = expanding
+			text = "SITUATION_PARTICIPANT_NOT_YOUR_GROUP_SUBTITLE"
 			align = nobaseline
 			default_format = "#Weak"
 		}
@@ -877,6 +916,144 @@ template Severity_Background_Left
 				color = { 0.8 0 0 0.4 }
 			}
 			blend_mode = normal
+		}
+	}
+}
+template situation_phase_type_natural_disaster_tooltip {
+	container = {
+		alwaystransparent = no
+
+		object_tooltip_pop_out = {
+			blockoverride "title_text" {
+				margin = { 0 5 }
+				text = "[SituationPhaseType.GetNameNoTooltip]"
+				align = nobaseline
+				default_format = "#T"
+			}
+
+			blockoverride "main_description" {
+				vbox = {
+					name = "phase_type_desc"
+					datacontext = "[SituationPhaseType.GetParentSituationType]"
+					datacontext = "[GetSituationOfType( SituationType.Self )]"
+					layoutpolicy_horizontal = expanding
+
+					textbox = {
+						name = "main_description"
+						layoutpolicy_horizontal = expanding
+						max_width = 400
+						margin = { 0 5 }
+						using = DefaultTooltipText
+						multiline = yes
+						text = "[SituationPhaseType.GetDesc]"
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
+						alwaystransparent = no
+					}
+
+					spacer = {
+						size = { 0 10 }
+					}
+
+					vbox = {
+						visible = "[And( SituationPhaseType.IsValid, Not( SituationPhaseType.GetParentSituationType.IsGuiTooltipGroupFocused ) )]"
+						layoutpolicy_horizontal = expanding
+						spacing = 8
+
+						hbox = {
+							visible = "[And(Not(EqualTo_string( 'impact' , SituationPhaseType.GetKey )), GreaterThan_int32( GetDataModelSize(SituationPhaseType.GetModifierNamedSets), '(int32)0'))]"
+							layoutpolicy_horizontal = expanding
+							text_single = {
+								text = "SITUATION_PHASE_TYPE_MODIFIERS_LABEL"
+								default_format = "#bold;italic"
+								align = nobaseline
+							}
+							expand = {}
+						}
+						hbox = {
+							visible = "[EqualTo_string( 'impact' , SituationPhaseType.GetKey )]"
+							layoutpolicy_horizontal = expanding
+							text_single = {
+								text = "SITUATION_NATURAL_DISASTER_IMPACT_EFFECTS_HEADER"
+								align = nobaseline
+							}
+							expand = {}
+						}
+
+						hbox = {
+							visible = "[EqualTo_string( 'impact' , SituationPhaseType.GetKey )]"
+							layoutpolicy_horizontal = expanding
+
+							text_single = {
+								margin_left = 8
+								max_width = 400
+								text = "SITUATION_NATURAL_DISASTER_IMPACT_EFFECTS"
+								align = nobaseline
+							}
+							expand = {}
+						}
+						fixedgridbox = {
+							visible = "[Not(EqualTo_string( 'impact' , SituationPhaseType.GetKey ))]"
+							name = "task_items"
+							layoutpolicy_horizontal = expanding
+
+							addcolumn = 56
+							addrow = 48
+							setitemsizefromcell = yes
+							datamodel_wrap = 6
+							maxhorizontalslots = 6
+							maxverticalslots = 2
+							flipdirection = yes
+							layoutanchor = topleft
+
+							datamodel = "[SituationPhaseType.GetModifierNamedSets]"
+							item = {
+								icon_situation_phase_effect_item = {}
+							}
+						}
+					}
+
+					vbox = {
+						visible = "[And( SituationPhaseType.IsValid, SituationPhaseType.GetParentSituationType.IsGuiTooltipGroupFocused )]"
+						layoutpolicy_horizontal = expanding
+						spacing = 8
+
+						hbox = {
+							layoutpolicy_horizontal = expanding
+							text_single = {
+								text = "SITUATION_PHASE_TYPE_MODIFIERS_LABEL"
+								default_format = "#bold;italic"
+								align = nobaseline
+							}
+							expand = {}
+						}
+
+						fixedgridbox = {
+							name = "task_items"
+							layoutpolicy_horizontal = expanding
+
+							addcolumn = 56
+							addrow = 52
+							setitemsizefromcell = yes
+							datamodel_wrap = 7
+							maxhorizontalslots = 7
+							maxverticalslots = 2
+							flipdirection = yes
+							layoutanchor = topleft
+
+							datamodel = "[SituationPhaseType.GetParentSituationType.GetParticipantGroupTypes]"
+							item = {
+								icon_situation_phase_effect_participant_group_item = {
+									datacontext = "[Situation.GetTopSubRegion]"
+								}
+							}
+						}
+					}
+				}
+			}
+
+			blockoverride "concept_link" {
+				text = "SITUATION_PHASE_TYPE_CONCEPT_LINK"
+			}
 		}
 	}
 }

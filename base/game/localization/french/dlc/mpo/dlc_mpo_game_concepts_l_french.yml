@@ -75,7 +75,7 @@
  game_concept_tributary_possessive: "Tributaire"
  game_concept_tributaries_desc: "$game_concept_tributary_desc$"
  game_concept_subject: "Sujet"
- game_concept_subject_desc: "Un $game_concept_subject|l$ est tout [ruler|El] qui a juré fidélité à un autre dirigeant. Il peut être de divers types, tels que [vassals|El] ou [tributaries|El], chacun ayant ses spécificités."
+ game_concept_subject_desc: "Un $game_concept_subject|l$ est tout [ruler|El] qui a juré fidélité à un autre dirigeant. Il peut être de divers types, tels que [vassal|El] ou [tributary|El], chacun ayant ses spécificités."
  game_concept_subjects: "Sujets"
  game_concept_subjects_desc: "$game_concept_subject_desc$"
  game_concept_steppe_season: "Saison des steppes"

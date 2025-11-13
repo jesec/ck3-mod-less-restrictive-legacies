@@ -4,7 +4,7 @@
 	datacontext = "[Activity.GetCurrentPhase.GetPhase]"
 	visible = "[Or( DataModelHasItems( ActivityWindow.GetCurrentPhaseGuestSubset( 'supporter' ) ), DataModelHasItems( ActivityWindow.GetCurrentPhaseGuestSubset( 'detractor' ) ) )]"
 	visible_at_creation = no # required to make sure we trigger the '_show' state
-	size = { 275 690 }
+	size = { 275 700 }
 
 	state = {
 		name = _show
@@ -36,15 +36,61 @@
 			}
 		}
 
-		text_label_center = {
+		hbox = {
 			layoutpolicy_horizontal = expanding
+			margin = { 0 5 }
 
-			text = "SUPPORTER_WINDOW_LABEL"
-			default_format = "#high;glow_color:{0.1,0.1,0.1,1.0}"
-			fontsize = 22
-			fontsize_min = 16
-			using = Font_Type_Flavor
-			tooltip = "SUPPORTER_WINDOW_LABEL_HOVER"
+			hbox = {
+				layoutpolicy_horizontal = expanding
+
+				# NAME
+				text_single = {
+					name = "name"
+					layoutpolicy_horizontal = expanding
+					text = "SUPPORTER_WINDOW_LABEL"
+					using = Font_Type_Flavor
+					fontsize = 22
+					fontsize_min = 16
+					default_format = "#high;glow_color:{0.1,0.1,0.1,1.0}"
+					autoresize = yes
+					align = center
+					margin_left = 10
+					tooltip = "SUPPORTER_WINDOW_LABEL_HOVER"
+				}
+
+				background = {
+					using = Mask_Rough_Edges
+					alpha = 0.8
+					margin = { 2 5 }
+
+					texture = "gfx/interface/component_tiles/tile_title_bg_01.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 40 8 }
+					texture_density = 2
+
+					modify_texture = {
+						name = "mask"
+						texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
+						spriteType = Corneredstretched
+						spriteborder = { 0 0 }
+						blend_mode = alphamultiply
+						mirror = horizontal
+					}
+				}
+			}
+
+			background = {
+				tintcolor = { 0.7 0.8 1 0.8 }
+				texture = "gfx/interface/colors/blue.dds"
+
+				using = Mask_Rough_Edges
+
+				modify_texture = {
+					texture = "gfx/interface/component_masks/mask_fade_horizontal_short.dds"
+					blend_mode = alphaMultiply
+					alpha = 0.5
+				}
+			}
 		}
 
 		# 3 Supporters or More
@@ -132,17 +178,73 @@
 			layoutpolicy_horizontal = expanding
 		}
 
-		expand = {}
-
 		text_label_center = {
 			layoutpolicy_horizontal = expanding
 
-			text = "DETRACTOR_WINDOW_LABEL"
-			default_format = "#high;glow_color:{0.1,0.1,0.1,1.0}"
-			fontsize = 22
-			fontsize_min = 16
-			using = Font_Type_Flavor
-			tooltip = "DETRACTOR_WINDOW_LABEL_HOVER"
+			text = "SUPPORTER_WINDOW_OTHER_LABEL"
+			default_format = "#UND"
+			fontsize = 14
+			fontsize_min = 10
+			tooltip = "SUPPORTER_WINDOW_OTHER_LABEL_HOVER"
+		}
+
+		expand = {}
+
+		hbox = {
+			layoutpolicy_horizontal = expanding
+			margin = { 0 5 }
+
+			hbox = {
+				layoutpolicy_horizontal = expanding
+
+				# NAME
+				text_single = {
+					name = "name"
+					layoutpolicy_horizontal = expanding
+					text = "DETRACTOR_WINDOW_LABEL"
+					using = Font_Type_Flavor
+					fontsize = 22
+					fontsize_min = 16
+					default_format = "#high;glow_color:{0.1,0.1,0.1,1.0}"
+					autoresize = yes
+					align = center
+					margin_left = 10
+					tooltip = "DETRACTOR_WINDOW_LABEL_HOVER"
+				}
+
+				background = {
+					using = Mask_Rough_Edges
+					alpha = 0.8
+					margin = { 2 5 }
+
+					texture = "gfx/interface/component_tiles/tile_title_bg_01.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 40 8 }
+					texture_density = 2
+
+					modify_texture = {
+						name = "mask"
+						texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
+						spriteType = Corneredstretched
+						spriteborder = { 0 0 }
+						blend_mode = alphamultiply
+						mirror = horizontal
+					}
+				}
+			}
+
+			background = {
+				tintcolor = { 0.7 0.8 1 0.8 }
+				texture = "gfx/interface/colors/red.dds"
+
+				using = Mask_Rough_Edges
+
+				modify_texture = {
+					texture = "gfx/interface/component_masks/mask_fade_horizontal_short.dds"
+					blend_mode = alphaMultiply
+					alpha = 0.5
+				}
+			}
 		}
 
 		# 3 Detractors or More
@@ -228,6 +330,16 @@
 			name = "coronation_detractor_view_0"
 			visible = "[EqualTo_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'detractor' ) ), '(int32)0' )]"
 			layoutpolicy_horizontal = expanding
+		}
+
+		text_label_center = {
+			layoutpolicy_horizontal = expanding
+
+			text = "DETRACTOR_WINDOW_OTHER_LABEL"
+			default_format = "#UND"
+			fontsize = 14
+			fontsize_min = 10
+			tooltip = "DETRACTOR_WINDOW_OTHER_LABEL_HOVER"
 		}
 	}
 }

@@ -12,6 +12,7 @@
 # by Ewan Cowhig Croft						#
 #############################################
 
+### Raise Stele Decision ###
 raise_stele_decision = {
 	title = raise_stele_decision_name
 	picture = {
@@ -29,7 +30,7 @@ raise_stele_decision = {
 		# DLC check.
 		has_fp1_dlc_trigger = yes
 		# Landed characters only: nobody likes a mercenary.
-		is_playable_character = yes
+		is_landed = yes
 		primary_title.tier > tier_barony
 		# Holds a suitable culture at a suitable period.
 		fp1_can_raise_stele_trigger = yes

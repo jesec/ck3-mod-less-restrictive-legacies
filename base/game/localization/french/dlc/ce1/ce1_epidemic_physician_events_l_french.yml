@@ -48,7 +48,7 @@
  physician_epidemic_events.1040.a: "Qu’ils sentent le toucher royal."
  physician_epidemic_events.1040.b: "Laissons les prêtres s’occuper des pauvres."
  physician_epidemic_events.1050.t: "L’infirmerie [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"
- physician_epidemic_events.1050.desc: "Mes gardes amènent [physician.Custom2('MyCharacterIntroduction', ROOT.Char)] devant moi, enchaîné[physician.Custom('FR_E')]. [physician.Custom('FR_IlElle')|U] a soigné des soldats blessés, amis comme ennemis, lors de toutes les batailles.\n\nOn appelle son refuge « l’infirmerie [ROOT.Char.GetPrimaryTitle.GetAdjective] » et mes commandants exigent qu’elle soit fermée. Mais [physician.Custom('FR_IlElle')] répond simplement : « Ils saignent et souffrent comme les nôtres. Qui suis-je pour les rejeter ? »"
+ physician_epidemic_events.1050.desc: "Mes gardes amènent [physician.Custom2('MyCharacterIntroduction', ROOT.Char)] devant moi, enchaîné[physician.Custom('FR_E')]. [physician.Custom('FR_IlElle')|U] a soigné des soldats blessés, amis comme ennemis, lors de toutes les batailles.\n\nOn appelle son refuge « l’infirmerie [ROOT.Char.GetPrimaryTitle.GetAdjective] » et mes commandants exigent qu’elle soit fermée. Mais [physician.Custom('FR_IlElle')] répond simplement : « Ils saignent et souffrent comme les nôtres. Qui suis-je pour les rejeter ? »"
  physician_epidemic_events.1050.a: "[physician.GetSheHe|U] a ma permission pour continuer."
  physician_epidemic_events.1050.b: "Je suis [Select_CString(ROOT.Char.IsFemale,'la seule','le seul')] que vous devez servir !"
  physician_epidemic_events.1060.t: "Un bannissement désespéré"

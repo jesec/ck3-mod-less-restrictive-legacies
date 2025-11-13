@@ -2,9 +2,9 @@
  tribute_mission_header: "Бремя данника:"
  #Tributary: Fork over Tribute
  tribute_mission_suzerain_legitimacy_gain_title: "Легитимность повышается из-за дани"
- tribute_mission_tributary_subject_standing_gain_title: "[tributary_scope.Custom('SubjectStanding')] повышается"
- tribute_mission_tributary_subject_standing_gain_tt_minor: "[tributary_scope.Custom('SubjectStanding')] [Select_CString(tributary_scope.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', tributary_scope.GetShortUIName))] немного повышается"
- tribute_mission_tributary_subject_standing_gain_tt_major: "[tributary_scope.Custom('SubjectStanding')] [Select_CString(tributary_scope.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', tributary_scope.GetShortUIName))] #EMP значительно#! повышается"
+ tribute_mission_tributary_subject_standing_gain_title: "[ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')] повышается"
+ tribute_mission_tributary_subject_standing_gain_tt_minor: "[ConcatIfNeitherEmpty(tributary_scope.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')] [Select_CString(tributary_scope.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', tributary_scope.GetShortUIName))] немного повышается"
+ tribute_mission_tributary_subject_standing_gain_tt_major: "[ConcatIfNeitherEmpty(tributary_scope.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')] [Select_CString(tributary_scope.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', tributary_scope.GetShortUIName))] #EMP значительно#! повышается"
  tribute_mission.1000.t: "$tribute_mission_header$ выплата дани"
  tribute_mission.1000.intro: "Мы входим в роскошные чертоги владения [overlord_scope.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]."
  tribute_mission.1000.intro.overlord: "[overlord_scope.GetTitledFirstName|U] царственным жестом велит мне подойти поближе."
@@ -12,6 +12,7 @@
  tribute_mission.1000.intro.councillor: "[overlord_scope.GetTitledFirstName] не снисходит до того, чтобы выйти к нам лично, так что нас встречает [Select_CString(overlord_scope.IsFemale,'ее','его')] [receiving_character.Custom('CouncilPosition')] [receiving_character.GetTitledFirstName]. Вежливо кивнув, [Select_CString(receiving_character.IsFemale,'она','он')] жестом велит мне подойти поближе."
  tribute_mission.1000.intro.attendant: "[overlord_scope.GetTitledFirstName] не снисходит до того, чтобы выйти к нам лично, так что нас встречает кто-то из [Select_CString(overlord_scope.IsFemale,'ее','его')] высокопоставленных слуг. Виновато улыбнувшись, вельможа жестом велит мне подойти поближе."
  tribute_mission.1000.desc.segway: "\n\nНе теряя времени, я начинаю говорить:"
+ tribute_mission.1000.desc.bunga_mas: "«Прошу, полюбуйтесь этими великолепными творениями! Эти изысканные деревья Бунга мас были изготовлены специально для вас, о [Select_CString(overlord_scope.IsFemale, 'великая', 'великий' )] [overlord_scope.GetTitledFirstNameNoTooltip]!» В этот момент по залу начинает разноситься шепот и удивленные вздохи толпы."
  tribute_mission.1000.desc.small_gold: "«Позвольте преподнести нашу скромную дань. Размер ее невелик, зато мы предлагаем ее от чистого сердца!» Я кланяюсь, пока слуги выносят небольшие ящики с товарами."
  tribute_mission.1000.desc.adequate_gold: "«Мы доставили богатую дань, чтобы выразить уважение [Select_CString(overlord_scope.IsFemale, 'нашей госпоже', 'нашему господину')]!» Улыбнувшись, я киваю, и слуги вносят в зал множество амфор и корзин."
  tribute_mission.1000.desc.excessive_gold: "«Только полюбуйтесь на эту красоту!» Все, кто присутствует в зале, ахают и охают, глядя на наши роскошные дары: бесчисленные ряды ящиков, амфор, корзин, статуй… Я не могу сдержать гордой усмешки."
@@ -66,6 +67,8 @@
  tribute_mission.1002.d.tt: "[human_tribute.GetShortUIName] вернется к #L [tributary_scope.GetCapitalLocation.GetTitle.GetAdjective|l]ому#! двору"
  #Recipient: What do you get/give?
  tribute_mission.1005.t: "$tribute_mission_header$ дань"
+ tribute_mission.1005.t.ai.bunga_mas: "$tribute_mission_header$ [newly_created_bunga_mas.GetNameNoTooltip]"
+ tribute_mission.1005.t.bunga_mas: "$tribute_mission_header$ золотые цветы персонажа [tributary_scope.GetTitledFirstNamePossessiveNoTooltip]"
  tribute_mission.1005.t.gold: "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] предлагает золото"
  tribute_mission.1005.t.herd: "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] предлагает стада"
  tribute_mission.1005.t.concubine: "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] предлагает цветы"
@@ -73,6 +76,7 @@
  tribute_mission.1005.t.artifact: "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] предлагает артефакты"
  tribute_mission.1005.intro.human_tribute: "[tributary_scope.GetTitledFirstName|U] переминается с ноги на ногу, ожидая моего решения. Время от времени [Select_CString(tributary_scope.IsFemale, 'она', 'он')] украдкой косится туда, где стоит [human_tribute.GetTitledFirstName]."
  tribute_mission.1005.intro: "[tributary_scope.GetTitledFirstName|U] входит в тронный зал. Раболепно улыбаясь, [Select_CString(tributary_scope.IsFemale, 'она', 'он')] приближается ко мне и представляет свою дань:"
+ tribute_mission.1005.desc.bunga_mas: "\n\nЗолотое дерево! По сравнению с этим роскошным артефактом другие подношения выглядят весьма скромно. Его маленькие листочки блестят так ярко, словно они сами излучают свет, сравнимый по красоте только с моей персоной.\n\nЯ быстро успокаиваюсь, стараясь не выдавать своего изумления, и начинаю размышлять, как мне наградить своего подданного за этот великолепный дар..."
  tribute_mission.1005.desc.small_gold: "\n\nЯ приподнимаю бровь, пока слуги осматривают скромные дары — горсточку монет и мелких украшений.\n\nОни не заполнят наши сундуки, но по крайней мере [tributary_scope.GetTitledFirstNameNoTooltip] [Select_CString(tributary_scope.IsFemale, 'исполнила', 'исполнил')] свои обязательства данника. Какую же милость мне оказать взамен..."
  tribute_mission.1005.desc.adequate_gold: "\n\nЯ слегка киваю при виде солидной дани. Драгоценные металлы и ткани поблескивают в редких лучах света.\n\nПришла очередь ответных жестов — какую же милость мне оказать взамен?.."
  tribute_mission.1005.desc.excessive_gold: "\n\nЗолото, ткани, самоцветы — безвкусное, но такое #EMP приятное#! зрелище. Я тщательно слежу за выражением своего лица, чтобы не выказать излишнего восхищения.\n\nПревосходно. А теперь надо вознаградить это изобилие…"
@@ -126,6 +130,7 @@
  tribute_mission.3000.intro.councillor: "$tribute_mission.1000.intro.councillor$"
  tribute_mission.3000.intro.attendant: "$tribute_mission.1000.intro.attendant$"
  tribute_mission.3000.desc.segway: "$tribute_mission.1000.desc.segway$"
+ tribute_mission.3000.desc.bunga_mas: "$tribute_mission.1000.desc.bunga_mas$"
  tribute_mission.3000.desc.small_gold: "$tribute_mission.1000.desc.small_gold$"
  tribute_mission.3000.desc.adequate_gold: "$tribute_mission.1000.desc.adequate_gold$"
  tribute_mission.3000.desc.excessive_gold: "$tribute_mission.1000.desc.excessive_gold$"
@@ -154,7 +159,7 @@
  tribute_mission.3000.abstain.innovation.desc: "$tribute_mission.1000.abstain.innovation.desc$"
  tribute_mission.3000.abstain.development.desc: "$tribute_mission.1000.abstain.development.desc$"
  tribute_mission.3000.abstain.monk.desc: "$tribute_mission.1000.abstain.monk.desc$"
- #Recipient: Decide on the human tribute
+ #Recipient: Decide on the human tribute DECOMMISSIONED
  tribute_mission.3002.t: "$tribute_mission.1002.t$"
  tribute_mission.3002.segway: "$tribute_mission.1002.segway$"
  tribute_mission.3002.desc.concubine: "$tribute_mission.1002.desc.concubine$"
@@ -176,7 +181,7 @@
  tribute_mission.3002.c: "$tribute_mission.1002.c$"
  tribute_mission.3002.d: "$tribute_mission.1002.d$"
  tribute_mission.3002.d.tt: "$tribute_mission.1002.d.tt$"
- #Recipient: What do you get/give?
+ #Recipient: What do you get/give? DECOMISSIONED
  tribute_mission.3005.t: "$tribute_mission.1005.t$"
  tribute_mission.3005.t.gold: "$tribute_mission.1005.t.gold$"
  tribute_mission.3005.t.herd: "$tribute_mission.1005.t.herd$"
@@ -217,8 +222,8 @@
  tribute_mission.1007.desc: "После томительной паузы [receiving_character.GetTitledFirstName] церемонно поднимается. Как по сигналу, имперский писарь [scribe_character.GetShortUIName] выходит из толпы, держа в руках изысканно изготовленную печать введения в должность — с моим именем!\n\n[receiving_character.GetTitledFirstName|U] бережно принимает ее и просит меня подняться. Зал замер в ожидании.\n\nКогда я принимаю благословение Сына Неба, меня осеняет мысль: какие новые возможности откроет этот драгоценный договор?"
  tribute_mission.1007.a: "Это всё меняет."
  tribute_mission.1008.t: "$tribute_mission_header$ Непрерывная дань"
- tribute_mission.1008.desc: "Идет церемония обмена дарами, и я ощущаю, как при дворе нарастает нетерпение, словно бы в ожидании невысказанных слов. Хотя никто не высказывается прямо, ожидания становятся очевидными.\n\n[receiving_character.GetTitledFirstNameNoTooltip] рассчитывает услышать мою клятву продолжать подносить дары в обмен на милость, которую выкажет [receiving_character.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\nЕще есть время с честью отклонить предложение и сохранить независимость со всеми вытекающими последствиями."
- tribute_mission.1008.a: "«…и, разумеется, [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] продолжит регулярно отправлять дары в город [receiving_character.GetCapitalLocation.GetNameNoTooltip]»."
+ tribute_mission.1008.desc: "Идет церемония обмена дарами, и я ощущаю, как при дворе нарастает нетерпение. Никто не высказывается открыто, но все вокруг явно чего-то от меня ждут.\n\n[receiving_character.GetTitledFirstNameNoTooltip|U] рассчитывает, что в обмен на #L [receiving_character.GetLiege.GetPrimaryTitle.GetAdjective|l]ое#! покровительство я дам клятву приносить дары и впредь.\n\nЕще есть время с честью отклонить предложение и сохранить независимость со всеми вытекающими последствиями."
+ tribute_mission.1008.a: "«...и, разумеется, [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] продолжит регулярно отправлять дары в город [receiving_character.GetLiege.GetCapitalLocation.GetNameNoTooltip]»."
  tribute_mission.1008.b: "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] не склонится."
  tribute_mission.3006.t: "$tribute_mission.1006.t$"
  tribute_mission.3006.desc: "$tribute_mission.1006.desc$"
@@ -301,3 +306,8 @@
  #MODIFIERS
  suzerain_trade_post_modifier: "Торговые фактории повелителя"
  suzerain_trade_post_modifier_desc: "В это графство регулярно прибывают купцы из торговых факторий, которые принадлежат его повелителю."
+ #ARTIFACTS
+ tribute_mission_common_bunga_mas_desc: "[Glossary( 'Бунга мас', 'BUNGA_MAS_GLOSS' )], который [tributary_scope.GetTitledFirstName] [Select_CString(tributary_scope.IsFemale, 'привезла', 'привез' )] в качестве подношения персонажу [overlord_scope.GetTitledFirstName]."
+ tribute_mission_masterwork_bunga_mas_desc: "[Glossary( 'Бунга мас', 'BUNGA_MAS_GLOSS' )], который [tributary_scope.GetTitledFirstName] [Select_CString(tributary_scope.IsFemale, 'привезла', 'привез' )] в качестве подношения персонажу [overlord_scope.GetTitledFirstName]. Эти изящные деревья из драгоценных металлов чарующе блестят на солнце."
+ tribute_mission_famed_bunga_mas_desc: "[Glossary( 'Бунга мас', 'BUNGA_MAS_GLOSS' )], который [tributary_scope.GetTitledFirstName] [Select_CString(tributary_scope.IsFemale, 'привезла', 'привез' )] в качестве подношения персонажу [overlord_scope.GetTitledFirstName]. Эти деревья из золота и серебра выполнены с высочайшим мастерством, о чем свидетельствуют их искусные резные узоры."
+ tribute_mission_illustrious_bunga_mas_desc: "[Glossary( 'Бунга мас', 'BUNGA_MAS_GLOSS' )], который [tributary_scope.GetTitledFirstName] [Select_CString(tributary_scope.IsFemale, 'привезла', 'привез' )] в качестве подношения персонажу [overlord_scope.GetTitledFirstName]. Изготовленные из чистейших драгоценных металлов, эти изысканные деревья украшены великолепными металлическими цветами, которые будут радовать глаз своей красотой в любое время года."

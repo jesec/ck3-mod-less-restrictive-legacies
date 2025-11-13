@@ -161,7 +161,7 @@
  mpo_nomad_events.1060.b: "\"전부 낚아채라! #EMP 꽁지 빠지게 달려!#!\""
  mpo_nomad_events.1060.b.flavor: "초원의 진정한 [ROOT.Char.Custom('GetDaughterSon')]이라면 나약한 자들과는 상대하지 않는 법!"
  mpo_nomad_events.1060.b.success: "당신의 무리가 훔친 물건을 가지고 탈출함"
- mpo_nomad_events.1060.b.failure: "훔친 물건을 버리고 겨우 탈출함"
+ mpo_nomad_events.1060.b.failure: "노획물을 버리고 겨우 탈출함"
  mpo_nomad_events.1060.c: "\"털, 요거트, 좋은 말을 가져와라!\""
  mpo_nomad_events.1060.c.flavor: "우리 물건으로 [neighbor.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip] 정착지와 거래하면 결국 우리에게 이득이 된다."
  nomad_trading_mastery_modifier: "교역 거물"

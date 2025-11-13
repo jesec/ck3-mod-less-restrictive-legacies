@@ -195,7 +195,7 @@
  diarch_demand_despotate_interaction_stake_to_raise_medium_value.tt.liege_can_refuse: "#WEAK [recipient.GetShortUIName|U] can decline this because [recipient.GetSheHe] can afford double your [influence|e] stake, [EmptyScope.ScriptValue('diarch_demand_despotate_interaction_stake_to_raise_medium_inverted_value')|0][influence_i]#!"
  diarch_demand_despotate_interaction_stake_to_raise_minor_value.tt.liege_can_refuse: "#WEAK [recipient.GetShortUIName|U] can decline this because [recipient.GetSheHe] can afford double your [influence|e] stake, [EmptyScope.ScriptValue('diarch_demand_despotate_interaction_stake_to_raise_minor_inverted_value')|0][influence_i]#!"
 
- scapegoat_counterpart_interaction: "Scapegoat Fellow [actor.GetTopLiege.GetTitleAsNameNoTooltip]"
+ scapegoat_counterpart_interaction: "Scapegoat Co-Ruler"
  scapegoat_counterpart_interaction_desc: "Let it be publicly known that all the ills of the realm are #EMP [recipient.GetFirstNamePossessive]#! doing — burning [opinion|E] in exchange for [influence_i][influence|E]\n\n #WEAK How much $game_concept_influence$ you gain is proportional to how much more [diplomacy|E] or [intrigue|E] you have than your counterpart#!"
  is_in_scapegoating_diarchy_visibility_trigger.tt.explanation: "The [scales_of_power|E] favor [actor.GetShortUIName] too strongly[SelectLocalization( actor.IsLocalPlayer, 'is_in_scapegoating_diarchy_visibility_trigger.tt.explanation.liege', '' )]"
  is_in_scapegoating_diarchy_visibility_trigger.tt.explanation.liege: " — you cannot scapegoat your counterpart unless they have at least the illusion of power"

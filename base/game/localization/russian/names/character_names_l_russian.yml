@@ -35467,6 +35467,7 @@
  Kiyotsune_2: "Киёцунэ" #清常
  Kiyotsune_3: "Киёцунэ" #清恒
  Kiyotsura: "Киёцура" #清貫
+ Kiyotsura_2: "Киёцура" #清行
  Kiyoyasu: "Киёясу" #清康
  Kiyoyo: "Киёё" #潔世
  Kiyoyoshi: "Киёёси" #清能
@@ -39852,6 +39853,7 @@
  Baek_eun: "Пэкын" #白欣 (백흔)
  Baek_go: "Пэкко" #伯固 (백고)
  Baek_gye: "Пэккье" #伯計 (백계)
+ Baek_ho: "Пэкхо" #白虎 (백호)
  Baek_seon: "Пэксон" #伯仙 (백선)
  Bag_wi_geo: "Пагвиго" #駮位居 (박위거)
  Bal_gi: "Пальги" #發岐 (발기)
@@ -40032,6 +40034,7 @@
  Do_jeol: "Тоджоль" #都切 (도절)
  Do_mong: "Томон" #都蒙 (도몽)
  Do_ri_haeng: "Торихэн" #都利行 (도리행)
+ Do_seon: "Тосон" #道詵 (도선)
  Do_su: "Тосу" #道秀 (도수)
  Dol_go: "Тольго" #咄固 (돌고)
  Don_jung: "Тонджун" #敦中 (돈중)
@@ -40698,6 +40701,7 @@
  Mong_go: "Монго" #蒙固 (몽고)
  Mong_ju: "Монджу" #夢周 (몽주)
  Mu_6B66: "Му" #武 (무)
+ Mu_che: "Мучхе" #無滯 (무체)
  Mu_deok: "Мудок" #武德 (무덕)
  Mu_hyul: "Мухюль" #無恤 (무휼)
  Mu_ryeok: "Мурёк" #武力 (무력)
@@ -43741,18 +43745,74 @@
  Changming: "Чанмин"
  Fuwen: "Фувэнь"
  Qianyi: "Цяньи"
- Kil: "Чиль"
- Toson: "Тхосон"
  Upali: "Упали"
- Ly_Do_Doc: "Ли До Док"
+ Do_Doc: "До Док"
  Jojin: "Дзёдзин"
  Saburo: "Сабуро"
- Mu_Che: "Му-че"
- Baekho: "Пэкхо"
  Lo: "Ло"
  Nga_Yamankan: "Нга Яманкан"
  Mpu_Bharada: "Мпу Бхарада"
  Lembong: "Лембонг"
  Boc: "Бок"
- Jinul: "Чинуль"
  Tajima: "Тадзима"
+ #Senoi
+ Andak_Jameah: "Андак Джамеа"
+ Atok_Balu: "Аток Балу"
+ Bei_Luus: "Бей Луус"
+ Berchanggi_Besi: "Берчангги Беси"
+ Busuw_Dmeet_Long: "Бусув Дмит Лонг"
+ Cacat: "Чачат"
+ Camut: "Чамут"
+ Cawog: "Чавог"
+ Cencog: "Ченчог"
+ Chekedoi: "Чекедой"
+ Churog: "Чурог"
+ Curas: "Чурас"
+ Grcang: "Драчанг"
+ Han_Luj: "Хан Луй"
+ Hang_Tuah: "Ханг Туах"
+ Inak: "Инак"
+ Jelondong: "Джелондонг"
+ Jeludang: "Джелуданг"
+ Jerangong: "Джерангонг"
+ Judah: "Джудах"
+ Kalib: "Калиб"
+ Kemaleg: "Кемалег"
+ Ken_Pri: "Кен При"
+ Klip: "Клип"
+ Kning_Ledn: "Книнг Ледн"
+ Luhj: "Лухдж"
+ Mamak: "Мамак"
+ Manoij: "Манойдж"
+ Mara_Semae: "Мара Семаэ"
+ Mat: "Мат"
+ Meneh: "Менех"
+ Merja: "Мерджа"
+ Minoor: "Миноор"
+ Mrlooh: "Мрлоох"
+ Nenek_Kerbau: "Ненек Кербау"
+ Ngah: "Нгах"
+ Ngah_Hari: "Нгах Нари"
+ Nyenang_Raq: "Ньенанг Рак"
+ Pagar: "Пагар"
+ Pegpeg: "Пегпег"
+ Penjel: "Пенджел"
+ Pl_iiimnh: "Плиимнх"
+ Planken: "Планкен"
+ Puntum: "Пунтум"
+ Rintang: "Ринтанг"
+ Risan: "Рисан"
+ Rmpent: "Рмпент"
+ Ruwek: "Рувек"
+ Samad: "Самад"
+ Segandi: "Сеганди"
+ Serani: "Серани"
+ Seri_Alam: "Сери Алам"
+ Taman: "Таман"
+ Tangge: "Танге"
+ Tawal: "Тавал"
+ Tenggang: "Тенганг"
+ Tkooy: "Ткоой"
+ Wa_Rhii: "Ва Рхии"
+ Yam: "Ям"
+ Jinul: "Чинуль"

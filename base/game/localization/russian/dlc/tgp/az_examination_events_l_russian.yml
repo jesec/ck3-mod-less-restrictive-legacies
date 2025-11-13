@@ -119,7 +119,7 @@
  tgp_letter_self_reflection_modifier: "В раздумьях о себе"
  tgp_letter_self_reflection_modifier_desc: "Этот персонаж исполнен глубокой внутренней силы, рожденной из слов поддержки, написанных членами семьи."
  az_examination.0018.t: "[Select_CString(old_exam_taker.IsFemale, 'Старейшая', 'Старейший' )] среди соискателей"
- az_examination.0018.desc: "Под навесом сидит одинокая фигура. Это [old_exam_taker.Custom2('MyCharacterIntroduction', ROOT.Char)], [Select_CString(old_exam_taker.IsFemale, 'ее', 'его' )] спина чуть согнута, а в глазах, еще сохранивших былую остроту, читается усталость.\n\n«Сдавать экзамен никогда не поздно, — говорит [Select_CString(old_exam_taker.IsFemale, 'она', 'он' )], заметив мой взгляд. — Но в моем возрасте дальняя дорога дается нелегко»."
+ az_examination.0018.desc: "Под навесом сидит одинокая фигура. Это [old_exam_taker.Custom2('MyCharacterIntroduction', ROOT.Char)] [Select_CString(old_exam_taker.IsFemale, 'ее', 'его' )] спина чуть согнута, а в глазах, еще сохранивших былую остроту, читается усталость.\n\n«Сдавать экзамен никогда не поздно, — говорит [Select_CString(old_exam_taker.IsFemale, 'она', 'он' )], заметив мой взгляд. — Но в моем возрасте дальняя дорога дается нелегко»."
  az_examination.0018.b: "«Позвольте мне поделиться всем, чему меня научили»."
  az_examination.0018.c: "«Надеюсь, я никогда не стану [Select_CString(old_exam_taker.IsFemale, 'такой, как она', 'таким, как он' )]»."
  tgp_not_getting_any_younger_modifier: "Только не такое будущее"

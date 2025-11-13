@@ -5,7 +5,7 @@
  buddhism_religion_adherent_plural: "bouddhistes"
  buddhism_religion_desc: "Le bouddhisme suit les enseignements du Bouddha Gautama et des « éclairés » ultérieurs, afin de vaincre la souffrance de l’existence infligée par le cycle sans fin de la mort et de la renaissance. Atteindre l’illumination est la voie à suivre pour se libérer du Samsara, dans la non-existence du Nirvana."
  buddhism_high_god_name: "Bouddha"
- buddhism_high_god_name_2: "à Siddhartha" #Optional translation alt
+ buddhism_high_god_name_2: "à $buddhism_high_god_name$" #Optional translation alt
  buddhism_high_god_name_possessive: "de $buddhism_high_god_name$"
  buddhism_high_god_alternate: "l’Éclairé"
  buddhism_high_god_alternate_possessive: "de l’Éclairé"

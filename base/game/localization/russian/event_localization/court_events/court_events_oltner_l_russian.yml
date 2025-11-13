@@ -90,7 +90,7 @@
  court_maintenance.0011.a.tooltip: "Вы посетите [Concept('royal_court', 'монарший двор')|E]."
  court_maintenance.0011.b: "Меня сейчас волнуют другие вопросы."
  court_maintenance.0011.b.tooltip: "Вы можете открыть свой [Concept('royal_court', 'монарший двор')|E] в любое удобное время"
- court_maintenance.0011.b.tooltip.ach: "Вы сможете [Concept('host', 'провести')|E] [Concept('coronation', 'коронацию')|E] позже"
+ court_maintenance.0011.b.tooltip.ach: "Вы сможете провести [Concept('coronation', 'коронацию')|E] позднее"
  court_maintenance.0011.banner_tooltip: "[messenger.GetName] преподносит два знамени: вашего дома и вашей династии"
  court_maintenance.0011.banner_house_tooltip: "[messenger.GetName] преподносит новое знамя с эмблемой вашего дома."
  court_maintenance.0011.banner_dynasty_tooltip: "[messenger.GetName] преподносит новое знамя с эмблемой вашей династии."

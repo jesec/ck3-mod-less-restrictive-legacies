@@ -267,7 +267,7 @@
  festival.103.b: "« Faites-nous profiter de vos talents, [target_character.GetTitledFirstNameNoTooltip]. »"
  festival.103.c: "Les talents de mes amis sont bien plus grands."
  friend_defended_talents: "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName|U] a soutenu les déclarations arrogantes [TARGET_CHARACTER.Custom('FR_du_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName] lors d’une fête."
- friend_defended_talents_corresponding: "Les déclarations arrogantes [TARGET_CHARACTER.Custom('FR_du_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName] ont été soutenues par [TARGET_CHARACTER.Custom('FR_le_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName] lors d’une fête."
+ friend_defended_talents_corresponding: "Les déclarations arrogantes [TARGET_CHARACTER.Custom('FR_du_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName] ont été soutenues par [CHARACTER.Custom('FR_le_Char_U_Pi')][CHARACTER.GetShortUIName] lors d’une fête."
  festival.103.b.success: "[target_character.Custom('FR_le_Char_Pi')|U][target_character.GetTitledFirstName] se dégonfle"
  festival.103.b.failure: "Votre défi ne semble pas faire beaucoup d’effet [target_character.Custom('FR_au_Char_Pi')][target_character.GetTitledFirstName]"
  festival.103.b.success.toast: "[target_character.GetTitledFirstName] se retire précipitamment"

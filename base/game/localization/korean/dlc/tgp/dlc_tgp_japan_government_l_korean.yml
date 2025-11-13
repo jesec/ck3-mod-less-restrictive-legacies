@@ -11,7 +11,7 @@
  japan_feudal_government: "총령" # 惣領
  japan_feudal_government_adjective: "$japan_feudal_government$"
  japan_feudal_government_with_icon: "@government_type_soryo! $japan_feudal_government$"
- japan_feudal_government_desc: "\n$japan_feudal_government$은 일본 고유의 [feudal|E] [government|E] 형태입니다.\n\n$japan_feudal_government$은 중앙의 [ritsuryo|E] 체제를 폐기하거나 그 영향력을 대체한 지방 영주들이 속주를 각자의 봉토로 다스리는 체제를 말합니다.\n\n$japan_feudal_government$ 인물들은 [influence|E]을 사용하지 않지만, [noble_family|E]의 [house_head_heads|E]들은 여전히 [family_manor|E] 및 [house_aspiration|E]을 보유합니다.\n\n비록 [ceremonial_regent|E]으로 선출될 수는 없지만, $japan_feudal_government$ [rulers|E]들은 #V $replace_ceremonial_regent_faction_name$#! [faction|E]을 통해 권력을 잡고, #V 막부 공표#! [decision|E]을 사용할 수 있습니다.\n\n$japan_feudal_government$의 $game_concept_ceremonial_regents$들은 [japanese_emperor|E]을 대신해 [realm|E]을 통치하며, $single_heir_succession_law$ [succession|E]에 따라 단일 상속을 실시하고, [faction|E]의 요구로 폐위될 수도 있습니다.\n\n$japan_feudal_government$의 $game_concept_house_heads$들은 [realm|E] 내에서 [house_blocs|E]을 결성하거나 참여할 수 있습니다. $japan_government_domain_limit_help$\n\n\n\n#F $japan_feudal_government$ 체제는 헤이안 시대에 시작된 일본 봉건화의 초기 단계를 가리키며, 가마쿠라 시대의 첫 번째 막부가 점차 제도화된 형태를 일컫습니다.#!"
+ japan_feudal_government_desc: "\n$japan_feudal_government$은 일본 고유의 [feudal|E] [government|E] 형태입니다.\n\n$japan_feudal_government$은 중앙의 [ritsuryo|E] 체제를 폐기하거나 그 영향력을 대체한 지방 영주들이 속주를 각자의 봉토로 다스리는 체제를 말합니다.\n\n$japan_feudal_government$ 인물들은 [influence|E]을 사용하지 않지만, [noble_family|E]의 [house_head_heads|E]들은 여전히 [family_manor|E] 및 [house_aspiration|E]을 보유합니다.\n\n비록 [ceremonial_regent|E]으로 선출될 수는 없지만, $japan_feudal_government$ [rulers|E]들은 #V $replace_ceremonial_regent_faction_name$#! [faction|E]을 통해 권력을 잡고, #V 막부 공표#! [decision|E]을 사용할 수 있습니다.\n\n$japan_feudal_government$의 $game_concept_ceremonial_regents$들은 [japanese_emperor|E]을 대신해 [realm|E]을 통치하며, $single_heir_succession_law$ [succession|E]에 따라 단일 상속을 실시하고, [faction|E]의 요구로 폐위될 수도 있습니다.\n\n$japan_feudal_government$의 $game_concept_house_heads$들은 [realm|E] 내에서 [house_blocs|E]을 결성하거나 참여할 수 있습니다. \n\n$japan_government_domain_limit_help$\n\n#F $japan_feudal_government$ 체제는 헤이안 시대에 시작된 일본 봉건화의 초기 단계를 가리키며, 가마쿠라 시대의 첫 번째 막부가 점차 제도화된 형태를 일컫습니다.#!"
  japan_government_domain_limit_help: "@alert_icon! #HELP 일본의 $game_concept_governments$는 다른 정부 형태에 비해 [domain_limit|E]가 낮으며, 이는 $game_concept_family_manor$을 강화하여 증가시킬 수 있습니다.#!"
  tgp_is_japanese_governor_trigger: "당신이 [GetGovernment('japan_administrative_government').GetName] [governor|E]임"
  # Appointment Succession Law
@@ -50,7 +50,7 @@
  game_concept_bloc: "일문"
  game_concept_blocs: "일문"
  game_concept_bloc_possessive: "일문의"
- game_concept_house_bloc_desc: "$game_concept_house_bloc$은 [realm|E] 내 [houses|E]들로 이루어진 방어적 동맹입니다. 어떤 [member_house|E]이 공격을 받으면, 다른 모든 $game_concept_member_houses$이 함께 방어합니다.\n\n[bloc_member_houses|E]이 될지 결정하는 주체는 [house_heads|E]입니다. 봉역 내 해당 가문의 모든 지배 구성원이 그 결정을 따르게 됩니다.\n\n일문에는 언제나 [leading_house|E]이 있습니다. 이들은 다른 구성원을 추방할 수 있고, 모든 구성원에게 우대를 받는 [ceremonial_regent|E]이며, 해당 집안의 [house_aspiration|E]이 높은 [cohesion|E] 단계에서 어떤 보너스가 부여되는지 결정합니다.\n\n$game_concept_leading_house_possessive$ $game_concept_house_head$만이 [top_liege|E]에 대항하는 [factions|E]을 만들 수 있으며, 모든 $game_concept_bloc_member_houses$ 구성원들은 그들이 만든 모든 [factions|E]에 자동으로 참여합니다."
+ game_concept_house_bloc_desc: "$game_concept_house_bloc$은 하나의 [realm|E] 내 여러 [houses|E]으로 이루어진 방위 동맹입니다. 어떤 [member_house|E]이 공격을 받으면, 다른 모든 $game_concept_member_houses$이 함께 방어합니다.\n\n[bloc_member_houses|E]이 될지 결정하는 주체는 [house_heads|E]입니다. 봉역 내 해당 가문의 모든 통치 구성원이 그 결정을 따르게 됩니다.\n\n일문에는 언제나 [leading_house|E]이 있습니다. 그 $game_concept_house_head$은 다른 구성원을 추방할 수 있고, 모든 구성원에게 우대를 받는 [ceremonial_regent|E]이며, 해당 집안의 [house_aspiration|E]이 높은 [cohesion|E] 단계에서 어떤 보너스가 부여되는지 결정합니다.\n\n$game_concept_leading_house_possessive$ $game_concept_house_head$만이 [top_liege|E]에 대항하는 [factions|E]을 만들 수 있으며, 모든 $game_concept_bloc_member_houses$ 구성원은 그들이 만든 모든 [factions|E]에 자동으로 참여합니다."
  game_concept_bloc_cohesion: "일문 결속"
  game_concept_cohesion: "결속"
  game_concept_bloc_cohesion_desc: "$game_concept_cohesion$은 [house_bloc|E]의 통합 정도를 나타내는 수치입니다. [leading_house_possessive|E] [house_aspiration|E]을 기반으로 하며, 결속 단계가 높을수록 [bloc_member_houses|E] 구성원에게 더 높은 혜택을 부여합니다.\n\n이 수치의 주요 원천은 $game_concept_bloc_member_houses$ 사이의 [house_relations|E]입니다. 집안 관계는 $game_concept_cohesion$에 긍정적 및 부정적 영향을 미칠 수 있습니다. 또한 일문의 전반적인 규모나 어울리지 않는 $game_concept_house_aspirations$, 또는 구성원의 [government|E]로 인해 $game_concept_cohesion$이 감소할 수 있습니다.\n\n$game_concept_bloc_cohesion$ 수준을 유지하면 $game_concept_leading_house$의 야망에 따라 [member_houses|E]에 다양한 보너스가 부여됩니다.\n\n$game_concept_cohesion$이 #V 0#!에 도달하면 $game_concept_house_bloc$은 자동으로 해체됩니다."
@@ -83,19 +83,20 @@
  game_concept_house_bloc_leadership: "일문 주도권"
  game_concept_bloc_leadership: "일문 주도권"
  game_concept_leading_house_desc: "$game_concept_leading_house$은 [house_bloc|E] 지도자로 동의를 받은 [house|E]입니다."
+ game_concept_bloc_leader: "일문 지도자"
  JAPANESE_HOUSE_HEAD_ALLIANCE_REASON: "[noble_family|E] [house_head|E]: $VALUE|=+0$"
  japan_offensive_wars_ban_tt: "[GetTitleByKey('e_japan').GetBaseNameNoTier] 내 [rulers|E]는 [imperial_policy|E]이 [GetLaw('imperial_expansion_law').GetName]인 것이 아니라면 외부 [wars|E]을 선포할 수 없음"
  ceremonial_liege_line_cannot_be_governor_trigger: "[governorships|E]이 [ceremonial_liege|E] 또는 직접 [line_of_succession|E]에 속한 인물에게 부여될 수 없음"
  ceremonial_liege_house_can_not_be_ruler_trigger: "[ceremonial_liege|E]만이 [influence_i|E][influence|E]을 통해 [ruler|E]이 될 수 있는 유일한 [ceremonial_house|E] 구성원임"
  ceremonial_liege_only_heir_can_be_ruler_trigger: "[ceremonial_liege_possessive|E] [player_heir|E]만이 [influence_i|E][influence|E]을 통해 [ruler|E]가 될 수 있는 유일한 [ceremonial_house|E] 구성원임"
  tgp_blocked_ceremonial_title_revocation_trigger: "[ceremonial_liege|E]의 [title|E]는 박탈당할 수 없음!"
- tgp_blocked_ruler_against_ceremonial_action_trigger: "해당 행동은 [ceremonial_liege|E]을 대상으로 할 수 없음"
- tgp_blocked_ceremonial_house_matrilineal_marriage_trigger: "[ceremonial_liege|E]이 이를 받아들이지 않을 것임"
+ tgp_blocked_ruler_against_ceremonial_action_trigger: "해당 행동은 [ceremonial_liege|E]를 대상으로 할 수 없음"
+ tgp_blocked_ceremonial_house_matrilineal_marriage_trigger: "[ceremonial_liege|E]가 이를 받아들이지 않을 것임"
  tgp_is_ceremonial_liege_tt: "[THIS.Char.GetShortUIName|U](이)가 [ceremonial_liege|E]임"
  tgp_has_ceremonial_liege_title_tt: "[THIS.Char.GetShortUIName|U](이)가 [ceremonial_liege|E] [title|E]를 보유함 #weak ([THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetDefinitiveName|V])#!"
  tgp_has_ceremonial_liege_title_no_title_tt: "[THIS.Char.GetShortUIName|U](이)가 [ceremonial_liege|E] [title|E]를 보유함"
  tgp_is_in_ceremonial_house_tt: "[THIS.Char.GetShortUIName|U](이)가 [ceremonial_house|E]의 구성원임 #weak ([THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetHouse.GetName|V])#!"
- tgp_realm_has_ceremonial_liege_tt: "[THIS.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName|U](이)가 [ceremonial_liege|E]을 보유함"
+ tgp_realm_has_ceremonial_liege_tt: "[THIS.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName|U](이)가 [ceremonial_liege|E]를 보유함"
  influence_candidacy_interaction_desc_japan: "[influence|E]을 소모하여 [recipient.GetTopLiege.Custom('GetGovernorConcept')] 또는 [ceremonial_regent|E]에 대한 어떤 인물의 입후보를 홍보 또는 약화시킵니다."
  request_appointment_support_desc_japan: "[recipient.GetShortUINameNoTooltip]에게 당신 또는 [house|E] 구성원을 훗날의 [actor.GetTopLiege.Custom('GetGovernorConcept')] 또는 [ceremonial_regent|E]에 적합한 인물이라고 홍보해 달라고 요청합니다."
  demand_admin_interaction_desc_japan: "[recipient.GetShortUIName|U]에게 [recipient.GetGovernment.GetAdjective] [government|E]를 포기하고 [GetGovernment('japan_administrative_government').GetName] [governor|E]이 되도록 요청합니다."
@@ -148,8 +149,8 @@
  councillor_chancellor_japan_administrative_possessive: "별당의"
  councillor_steward_japan_administrative: "가령" # 家令
  councillor_steward_japan_administrative_possessive: "가령의"
- councillor_marshal_japan_administrative: "사무라이" # 侍
- councillor_marshal_japan_administrative_possessive: "사무라이의"
+ councillor_marshal_japan_administrative: "사부라이" # 侍
+ councillor_marshal_japan_administrative_possessive: "사부라이의"
  councillor_spymaster_japan_administrative: "목대" # 目代
  councillor_spymaster_japan_administrative_possessive: "목대의"
  japan_government_japan_kingdom_restriction_tt: "[GetGovernment('japan_administrative_government').GetName] 및 [GetGovernment('japan_feudal_government').GetName] [rulers|E]는 [independent|E] 상태이거나 [GetTitleByKey('e_japan').GetBaseNameNoTier](을)를 보유하지 않은 채 [kingdom|E] [title|E]를 보유한 경우에만 일본에서 [kingdoms|E]을 만들 수 있음"

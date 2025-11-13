@@ -66,7 +66,7 @@
  #[EmptyScope.ScriptValue('vengeful_scheme_success_chance_modifier')|0]
  east_europe.0111.t: "$east_europe.0111.t.setup$: [hof.GetTitledFirstNameNoTooltip] i list"
  east_europe.0111.desc: "Któż wie, jak długo ci tak zwani [heretic.GetFaith.GetAdherentNamePluralNoTooltip|l] byli niezauważani? Dekadę? Stulecie? Od czasu wizyty Świętego Marcina?\n\nNiezależnie od tego, jak długo pozwalano tej herezji szerzyć się w bośniackiej dziczy, pobłażliwość naszych przodków przyniosła złe owoce, a ja nie jestem w stanie tego dłużej znieść! Nie pozwolę, aby taka kreatura jak [heretic.GetTitledFirstName] dłużej wychwalała tak otwarcie nauki [accuser.GetFaith.HighGodNamePossessive]!\n\nŚwiat bezmyślnie zakłada, że w gruncie rzeczy to dobrzy, choć wiejscy [accuser.GetFaith.GetAdherentNamePluralNoTooltip|l]. Może gdy [hof.GetTitledFirstName] przeczyta parę twórczych słów, sprawa będzie wyglądała inaczej…"
- east_europe.0111.a: "[ROOT.Char.Custom('GetWritingInstrument')|U] i [ROOT.Char.Custom('GetWritingMaterial')] – przynieś je natychmiast!"
+ east_europe.0111.a: "[ROOT.Char.Custom('WritingInstrument')|U] i [ROOT.Char.Custom('GetWritingMaterial')] – przynieś je natychmiast!"
  east_europe.0111.a.tt: "List jest napisany"
  east_europe.0111.b: "Mam lepsze rzeczy do roboty…"
  east_europe.0112.t: "[hof.Custom2('AppropriateGreeting',accuser)]"

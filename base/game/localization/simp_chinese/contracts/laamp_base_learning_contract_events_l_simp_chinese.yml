@@ -309,7 +309,7 @@
  laamp_base_learning_contract_events.4100.c.stewardship.support_not_exists.tt: "你没有[stewardship|E][skill|E]足够高的[follower|E]"
  laamp_base_learning_contract_events.4100.c.intrigue.support_not_exists.tt: "你没有[intrigue|E][skill|E]足够高的[follower|E]"
  laamp_base_learning_contract_events.4100.c.learning.support_not_exists.tt: "你没有[learning|E][skill|E]足够高的[follower|E]"
- laamp_base_learning_contract_events.4100.c.prowess.support_not_exists.tt: "你没有[prowess|E]足够高的[follower|E]"
+ laamp_base_learning_contract_events.4100.c.prowess.support_not_exists.tt: "你没有[prowess|E][skill|E]足够高的[follower|E]"
  laamp_base_learning_contract_events.4100.d: "“喂！#EMP 你听着！#!”"
  laamp_base_learning_contract_events.4100.child: "这会推进[child_to_educate.GetFirstNamePossessiveNoTooltip]"
  laamp_base_learning_contract_events.4100.child_diplomacy.tt: "$laamp_base_learning_contract_events.4100.child$的[diplomacy|E][education_focus|E]"

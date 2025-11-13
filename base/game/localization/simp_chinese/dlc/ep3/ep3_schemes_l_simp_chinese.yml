@@ -306,6 +306,7 @@
  HOUSE_HEAD_SCHEME_SUPPORT_DESC: "$house_head_request_interaction$：$VALUE|+=0$"
  house_relation_personal_scheme_bonus_desc: "来自[house_relation|E]：$VALUE|+=0$"
  coronation_spouse_despised_modifier: "[owner.GetShortUINamePossessive|U]在加冕誓言中发誓要除掉[target.GetShortUIName]：$VALUE|+=0$"
+ house_relation_hostile_scheme_bonus_desc: "敌对[house_relation|E]：$VALUE|+=0$"
  #Found Despotate
  found_despotate: "晋升总督辖区"
  found_despotate_action: "晋升总督辖区至"

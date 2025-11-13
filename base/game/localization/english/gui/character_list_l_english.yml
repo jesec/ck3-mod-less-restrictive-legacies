@@ -271,7 +271,7 @@
  holy_order_government_filter_option: "$game_concept_holy_order$"
  administrative_government_filter_option: "$game_concept_administrative$"
  landless_adventurer_government_filter_option: "$game_concept_adventurer$"
- nomad_government_filter_option: "$game_concept_nomadic_government$"
+ nomad_government_filter_option: "$nomad_government$"
  herder_government_filter_option: "$game_concept_herder$"
  wanua_government_filter_option: "$game_concept_wanua$"
  celestial_government_filter_option: "$game_concept_celestial$"

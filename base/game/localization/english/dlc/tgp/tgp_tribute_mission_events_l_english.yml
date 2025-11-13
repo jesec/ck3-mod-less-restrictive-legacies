@@ -3,9 +3,9 @@
  tribute_mission_header: "Tribute Mission:"
  #Tributary: Fork over Tribute
  tribute_mission_suzerain_legitimacy_gain_title: "Gained Legitimacy from Tribute"
- tribute_mission_tributary_subject_standing_gain_title: "Gained [tributary_scope.Custom('SubjectStanding')]"
- tribute_mission_tributary_subject_standing_gain_tt_minor: "[tributary_scope.GetShortUIName|U] gained some [tributary_scope.Custom('SubjectStanding')]"
- tribute_mission_tributary_subject_standing_gain_tt_major: "[tributary_scope.GetShortUIName|U] gained a #EMP lot#! of [tributary_scope.Custom('SubjectStanding')]"
+ tribute_mission_tributary_subject_standing_gain_title: "Gained [ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')]"
+ tribute_mission_tributary_subject_standing_gain_tt_minor: "[tributary_scope.GetShortUIName|U] gained some [ConcatIfNeitherEmpty(tributary_scope.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')]"
+ tribute_mission_tributary_subject_standing_gain_tt_major: "[tributary_scope.GetShortUIName|U] gained a #EMP lot#! of [ConcatIfNeitherEmpty(tributary_scope.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')]"
  tribute_mission.1000.t: "$tribute_mission_header$ Paying Tribute"
  tribute_mission.1000.intro: "We enter the grand hall of [overlord_scope.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip] and are greeted by"
  tribute_mission.1000.intro.overlord: "[overlord_scope.GetTitledFirstName], regally motioning for us to approach."
@@ -13,6 +13,7 @@
  tribute_mission.1000.intro.councillor: "[overlord_scope.GetTitledFirstNamePossessive] [receiving_character.Custom('CouncilPosition')], [receiving_character.GetTitledFirstName], nodding [receiving_character.GetHerHis] head and motioning for us to approach."
  tribute_mission.1000.intro.attendant: "one of [overlord_scope.GetTitledFirstNamePossessive] high-ranking attendants, smiling apologetically and motioning for us to approach."
  tribute_mission.1000.desc.segway: "\n\nWithout delay, I declare:"
+ tribute_mission.1000.desc.bunga_mas: " "Admire this splendor; a set of bunga mas trees of the utmost quality, created only for the most magnificent [overlord_scope.GetTitledFirstNameNoTooltip]!" The crowd's eyes widen and several murmurs pass through the hall."
  tribute_mission.1000.desc.small_gold: " "Allow me to present a humble tribute, small in scale but large in spirit!" I bow as my servants carry over the small boxes of trade goods."
  tribute_mission.1000.desc.adequate_gold: " "We are presenting a terrific tribute, reflecting the appreciation of our [overlord_scope.GetLadyLord]!" I smile and nod as the plentiful baskets and urns are presented to the room."
  tribute_mission.1000.desc.excessive_gold: " "Feast your eyes on this magnificence!" I grin proudly as the room #EMP oo's#! and #EMP aa's#! at the sheer opulence of the presented tribute — boxes, urns, baskets, statues. #EMP Abundance.#!"
@@ -67,6 +68,8 @@
  tribute_mission.1002.d.tt: "[human_tribute.GetShortUIName] is ushered back to [tributary_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTier]"
  #Recipient: What do you get/give?
  tribute_mission.1005.t: "$tribute_mission_header$ The Tribute"
+ tribute_mission.1005.t.ai.bunga_mas: "$tribute_mission_header$ [newly_created_bunga_mas.GetNameNoTooltip]"
+ tribute_mission.1005.t.bunga_mas: "$tribute_mission_header$ [tributary_scope.GetTitledFirstNamePossessiveNoTooltip] Golden Flowers"
  tribute_mission.1005.t.gold: "$tribute_mission_header$ [tributary_scope.GetTitledFirstNamePossessiveNoTooltip] Gold"
  tribute_mission.1005.t.herd: "$tribute_mission_header$ [tributary_scope.GetTitledFirstNamePossessiveNoTooltip] Herd"
  tribute_mission.1005.t.concubine: "$tribute_mission_header$ [tributary_scope.GetTitledFirstNamePossessiveNoTooltip] Flowers"
@@ -74,6 +77,7 @@
  tribute_mission.1005.t.artifact: "$tribute_mission_header$ [tributary_scope.GetTitledFirstNamePossessiveNoTooltip] Artifacts"
  tribute_mission.1005.intro.human_tribute: "[tributary_scope.GetTitledFirstName] starts shifting from foot to foot as [tributary_scope.GetSheHe] awaits my decision, throwing the occasional side-eye towards [human_tribute.GetTitledFirstName]."
  tribute_mission.1005.intro: "[tributary_scope.GetTitledFirstName] strides into the great hall, saunters up to me and presents [tributary_scope.GetHerHis] tribute with a sycophantic smile:"
+ tribute_mission.1005.desc.bunga_mas: "\n\nA golden flower tree! The exquisite artifact towers on top of the rest of the, by comparison menial, tribute. Small leaves catch the light and appears to emit a radiance, only matched by my own.\n\nI quickly gather myself, trying not to give too much away, as I ponder what benevolence to bestow in return for this magnificent gift..."
  tribute_mission.1005.desc.small_gold: "\n\nI raise an eyebrow as the servants examine the handful of coins and ornaments that constitute this minor tribute.\n\nIt won't fill our coffers — but at least [tributary_scope.GetTitledFirstNameNoTooltip] has fulfilled [tributary_scope.GetHerHis] tributary obligations. Now, what benevolence should I bestow in return..."
  tribute_mission.1005.desc.adequate_gold: "\n\nI nod slightly at the respectable tribute; the precious metals and fabrics occasionally catches the light, shimmering ever so slightly.\n\nNow onto the next order of business: what benevolence should I bestow in return..."
  tribute_mission.1005.desc.excessive_gold: "\n\nGold, fabrics, gemstones — a garish but #EMP delightful#! display of overflow greets me. I carefully monitor my expression, trying to not appear too impressed.\n\n This will do nicely. Now, how to reward this display of opulence..."
@@ -129,6 +133,7 @@
  tribute_mission.3000.intro.councillor: "$tribute_mission.1000.intro.councillor$"
  tribute_mission.3000.intro.attendant: "$tribute_mission.1000.intro.attendant$"
  tribute_mission.3000.desc.segway: "$tribute_mission.1000.desc.segway$"
+ tribute_mission.3000.desc.bunga_mas: "$tribute_mission.1000.desc.bunga_mas$"
  tribute_mission.3000.desc.small_gold: "$tribute_mission.1000.desc.small_gold$"
  tribute_mission.3000.desc.adequate_gold: "$tribute_mission.1000.desc.adequate_gold$"
  tribute_mission.3000.desc.excessive_gold: "$tribute_mission.1000.desc.excessive_gold$"
@@ -157,7 +162,7 @@
  tribute_mission.3000.abstain.innovation.desc: "$tribute_mission.1000.abstain.innovation.desc$"
  tribute_mission.3000.abstain.development.desc: "$tribute_mission.1000.abstain.development.desc$"
  tribute_mission.3000.abstain.monk.desc: "$tribute_mission.1000.abstain.monk.desc$"
- #Recipient: Decide on the human tribute
+ #Recipient: Decide on the human tribute DECOMMISSIONED
  tribute_mission.3002.t: "$tribute_mission.1002.t$"
  tribute_mission.3002.segway: "$tribute_mission.1002.segway$"
  tribute_mission.3002.desc.concubine: "$tribute_mission.1002.desc.concubine$"
@@ -179,7 +184,7 @@
  tribute_mission.3002.c: "$tribute_mission.1002.c$"
  tribute_mission.3002.d: "$tribute_mission.1002.d$"
  tribute_mission.3002.d.tt: "$tribute_mission.1002.d.tt$"
- #Recipient: What do you get/give?
+ #Recipient: What do you get/give? DECOMISSIONED
  tribute_mission.3005.t: "$tribute_mission.1005.t$"
  tribute_mission.3005.t.gold: "$tribute_mission.1005.t.gold$"
  tribute_mission.3005.t.herd: "$tribute_mission.1005.t.herd$"
@@ -219,12 +224,12 @@
  refused_seal_of_investiture_opinion: "Refused granting a [seal_of_investiture|E]"
 
  tribute_mission.1007.t: "$tribute_mission_header$ Seal of Investiture"
- tribute_mission.1007.desc: "After a pregnant pause, [receiving_character.GetTitledFirstName] rises ceremoniously. On cue, the imperial scribe [scribe_character.GetShortUIName] emerges from the crowd, carrying a finely crafted $game_concept_seal_of_investiture$ — with my name on it!\n\n[receiving_character.GetTitledFirstName] retrieves it gingerly and begs me to rise. The audience is rapt in attention.\n\nAs I  receive the Son of Heaven's blessing, a thought strikes me: what new doors might this precious contract open?"
+ tribute_mission.1007.desc: "After a pregnant pause, [receiving_character.GetTitledFirstName] rises ceremoniously. On cue, the imperial scribe [scribe_character.GetShortUIName] emerges from the crowd, carrying a finely crafted $game_concept_seal_of_investiture$ — with my name on it!\n\n[receiving_character.GetTitledFirstName] retrieves it gingerly and begs me to rise. The audience is rapt in attention.\n\nAs I receive the Son of Heaven's blessing, a thought strikes me: what new doors might this precious contract open?"
  tribute_mission.1007.a: "This changes everything."
 
  tribute_mission.1008.t: "$tribute_mission_header$ Ongoing Tribute"
- tribute_mission.1008.desc: "As the gifts are exchanged in ceremony, I feel an anticipation build across the court as if certain words have been left unspoken. While never stated outright, the expectation on me slowly becomes plain.\n\n[receiving_character.GetTitledFirstNameNoTooltip] wishes for my vow to keep these gifts flowing, in return for [receiving_character.GetPrimaryTitle.GetNameNoTierPossessiveNoTooltip] benevolence.\n\nThere is still time to honorably decline the offer while retaining my independence, with all that may entail."
- tribute_mission.1008.a: ""...and of course, [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] would carry gifts to [receiving_character.GetCapitalLocation.GetNameNoTooltip] on the regular.""
+ tribute_mission.1008.desc: "As the gifts are exchanged in ceremony, I feel an anticipation build across the court as if certain words have been left unspoken. While never stated outright, the expectation on me slowly becomes plain.\n\n[receiving_character.GetTitledFirstNameNoTooltip] wishes for my vow to keep these gifts flowing, in return for [receiving_character.GetLiege.GetPrimaryTitle.GetNameNoTierPossessiveNoTooltip] benevolence.\n\nThere is still time to honorably decline the offer while retaining my independence, with all that may entail."
+ tribute_mission.1008.a: ""...and of course, [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] would carry gifts to [receiving_character.GetLiege.GetCapitalLocation.GetNameNoTooltip] on the regular.""
  tribute_mission.1008.b: "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] shall not bend the knee."
 
  tribute_mission.3006.t: "$tribute_mission.1006.t$"
@@ -314,3 +319,9 @@ slated_for_castration_opinion: "Slated For Castration"
 #MODIFIERS
 suzerain_trade_post_modifier: "Suzerain Trade Posts"
 suzerain_trade_post_modifier_desc: "This County is receiving a steady stream of merchants from the Suzerain's trade posts."
+
+#ARTIFACTS
+tribute_mission_common_bunga_mas_desc: "A [Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )], presented as a tribute to [overlord_scope.GetTitledFirstName] by [tributary_scope.GetTitledFirstName]."
+tribute_mission_masterwork_bunga_mas_desc: "First offered as a tribute to [overlord_scope.GetTitledFirstName] by [tributary_scope.GetTitledFirstName], this fine set of [Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )] catches the light in a spectacular manner."
+tribute_mission_famed_bunga_mas_desc: "Two exquisite golden and silver trees, these [Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )] was presented to [overlord_scope.GetTitledFirstName] by [tributary_scope.GetTitledFirstName] as a tribute. The metalwork and carvings tell the tale of fine artistry."
+tribute_mission_illustrious_bunga_mas_desc: "Offered as a tribute to [overlord_scope.GetTitledFirstName] by [tributary_scope.GetTitledFirstName], the [Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )] consists of a magnificent set of golden and silver trees, meticulously forged and carved from the finest metals; blossoms caught as perpetual flowers."

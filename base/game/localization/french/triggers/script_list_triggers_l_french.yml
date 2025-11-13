@@ -1,6 +1,7 @@
 ﻿l_french:
  ALL_CLAIMANTS: "Tous les [claimants|El]"
  ANY_CLAIMANT: "N’importe quel [claimant|El]"
+ NOT_ANY_CLAIMANT: "Le titre n’a pas de [claimants|El]"
  ANY_CHILD: "N’importe quel enfant :"
  ANY_CHILD_FIRST: "N’importe lequel de mes enfants :"
  ANY_CHILD_THIRD: "N’importe quel enfant [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUIName] :"

@@ -27,7 +27,7 @@
  lustful_2_quirk: "입술을 지긋이 깨물었다"
  chaste_quirk: "두 손을 모았다"
  temperate_quirk: "팔짱을 꼈다"
- gluttonous_quirk: "[ROOT.GetCharacter.Custom('GetSmallFoodIndef')](을)를 크게 깨어 물었다."
+ gluttonous_quirk: "[ROOT.GetCharacter.Custom('GetSmallFoodIndef')](을)를 크게 깨어 물었다"
  diligent_quirk: "자신의 [ROOT.GetCharacter.Custom('GetUpperClothingArticle')](을)를 다시 정리했다"
  lazy_quirk: "늘어졌다"
  wrathful_quirk: "손가락 관절을 꺾으며 위협했다"
@@ -575,7 +575,7 @@
  leper_quirk_adverb_1: "경직되게"
  gout_ridden_quirk_adverb_1: "경직되게"
  consumption_quirk_adverb_1: "얄팍하게"
- horse_quirk_adverb_1: "말처럼"
+ horse_quirk_adverb_1: "야생마처럼"
  fallback_quirk_adverb_1: "중립적으로"
  #NEGATIVE
  arrogant_neg_quirk_adverb_1: "오만하게"

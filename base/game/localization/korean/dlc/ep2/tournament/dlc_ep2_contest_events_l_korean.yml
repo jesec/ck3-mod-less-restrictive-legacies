@@ -775,14 +775,14 @@
  ### HORSE RACE ###
  #FALL
  contest_events.4500.t: "$tournament_contest_header$ 비극적인 낙상"
- contest_events.4500.desc: "내 경주마 #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#!(이)가 선두 그룹에서 경쟁하는 모습에 나는 거의 기뻐 날뛰고 있었다.\n\n또 한 바퀴를 다 돌던 때쯤, 갑자기 [ROOT.Char.Custom('ContestHorseRaceGender')](이)가 쓰러지고 기수가 낙마해 먼지 속으로 사라지는 모습에 심장이 철렁 내려앉았다!\n\n다른 말들이 지나간 후, 아슬아슬하게 밟히는 일만은 피한 #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#!(이)가 일어서려 애쓰고 있었다. 더 이상 달릴 상태가 아니라는 것만은 분명했다..."
+ contest_events.4500.desc: "내 경주마 #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#!(이)가 선두 집단에서 경쟁하는 모습에 나는 거의 기뻐 날뛰고 있었다.\n\n또 한 바퀴를 다 돌던 때쯤, 갑자기 [ROOT.Char.Custom('ContestHorseRaceGender')](이)가 쓰러지고 기수가 낙마해 먼지 속으로 사라지는 모습에 심장이 철렁 내려앉았다!\n\n다른 말들이 지나간 후, 아슬아슬하게 밟히는 일만은 피한 #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#!(이)가 일어서려 애쓰고 있었다. 더 이상 달릴 상태가 아니라는 것만은 분명했다..."
  contest_events.4500.unskilled: "[ROOT.Char.Custom('ContestHorseRaceSheHe')|U]가 최고의 말은 아니지만, 이 창피한 일은 경주마 사육사로서의 내 명성에 먹칠할 것이다..."
  contest_events.4500.sabotage: "도무지 이해가 안 되는군! #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#!(은)는 최고의 말이었는데! 설마... 나는 의심의 눈초리로 관중석을 바라봤다..."
  contest_events.4500.a: "빌어먹을."
  contest_horse_race_crashed_out_log_title: "낙마"
  contest_horse_race_crashed_out_log: "[CHARACTER.GetTitledFirstName] 말 [CHARACTER.Custom('GetContestHorseRaceName')](이)가 넘어져서 경주에서 탈락함"
  contest_events.4501.t: "$contest_events.1540.t$"
- contest_events.4501.desc: "자기 경주마 #EMP [contestant.Custom('GetContestHorseRaceName')]#!(이)가 선두 그룹에서 경쟁하는 모습에 [contestant.GetTitledFirstName](은)는 거의 기뻐 날뛰고 있었다.\n\n또 한 바퀴를 다 돌던 때쯤, 갑자기 [contestant.Custom('ContestHorseRaceGender')](이)가 쓰러지고 기수가 낙마해 먼지 속으로 사라졌다! [contestant.GetFirstNameNoTooltip](은)는 제대로 풀이 죽은 기색이었다.\n\n다른 말들이 지나간 후, 아슬아슬하게 밟히는 일만은 피한 #EMP [contestant.Custom('GetContestHorseRaceName')]#!(이)가 일어서려 애쓰고 있었다. 더 이상 달릴 상태가 아니라는 것만은 분명했다...\n\n"
+ contest_events.4501.desc: "자기 경주마 #EMP [contestant.Custom('GetContestHorseRaceName')]#!(이)가 선두 집단에서 경쟁하는 모습에 [contestant.GetTitledFirstName](은)는 거의 기뻐 날뛰고 있었다.\n\n또 한 바퀴를 다 돌던 때쯤, 갑자기 [contestant.Custom('ContestHorseRaceGender')](이)가 쓰러지고 기수가 낙마해 먼지 속으로 사라졌다! [contestant.GetFirstNameNoTooltip](은)는 제대로 풀이 죽은 기색이었다.\n\n다른 말들이 지나간 후, 아슬아슬하게 밟히는 일만은 피한 #EMP [contestant.Custom('GetContestHorseRaceName')]#!(이)가 일어서려 애쓰고 있었다. 더 이상 달릴 상태가 아니라는 것만은 분명했다...\n\n"
  contest_events.4501.unskilled: "앞으로 [contestant.GetTitledFirstNamePossessiveNoTooltip] 말에 돈을 걸 사람은 아무도 없을 것 같다..."
  contest_events.4501.sabotage: "[contestant.GetTitledFirstNameNoTooltip](이)가 어쩔 줄을 모르고 있다. \"도무지 이해가 안 되는군! #EMP [contestant.Custom('GetContestHorseRaceName')]#!(은)는 최고의 말이었는데!\" [contestant.GetSheHe]는 신경질을 내며 의심의 눈초리로 관중석을 바라봤다..."
  contest_events.4501.a: "그럴 수도 있지."

@@ -93,7 +93,9 @@
  scandinavian_elective_candidates_tooltip: "Um bei der Thingwahl ein zulässiger Kandidat zu sein, muss ein Charakter eine der folgenden Bedingungen erfüllen:\n$EFFECT_LIST_BULLET$Gehört zur [Concept('extended_family', 'weiteren Verwandtschaft')|E] des Herrschers und steht nicht in der Nachfolge für eine Theokratie oder Republik. Kinder eines Kandidaten können nicht nominiert werden\n$EFFECT_LIST_BULLET$Ist [claimant|E] auf den Titel und steht nicht in der Nachfolge für eine Theokratie oder Republik"
  scandinavian_elective_electors: "$feudal_elective_electors$"
  scandinavian_elective_electors_tooltip: "Um ein bei der Thingwahl stimmberechtigter [elector|E] zu sein, muss ein Vasall alle der hier folgenden Bedingungen erfüllen:\n$EFFECT_LIST_BULLET$Direkter Vasall des Titels\n$EFFECT_LIST_BULLET$KEIN Baron"
- succession_laws_must_have_organised_government_tooltip: "Ich habe weder eine [feudal|EU]- noch eine [Concept('clan', 'Clans')|E]-[government|E]"
+ succession_laws_must_have_organised_government_tooltip: "[SelectLocalization(HasDlcFeature('all_under_heaven'), 'succession_laws_must_have_organised_government_tooltip_auh_tooltip', 'succession_laws_must_have_organised_government_tooltip_base_game_tooltip')]"
+ succession_laws_must_have_organised_government_tooltip_auh_tooltip: "Ich habe keine [feudal|EU]-, [Concept('clan', 'Clans')|E]- oder [japan_feudal|E]-[government|E]"
+ succession_laws_must_have_organised_government_tooltip_base_game_tooltip: "Ich habe weder eine [feudal|EU]- noch eine [Concept('clan', 'Clans')|E]-[government|E]"
  succession_laws_must_not_be_forced_partition: "Ich bin nicht durch meine [vassal_contract|E] zu einer Erbteilungs-[succession|E] gezwungen"
  succession_laws_must_have_valid_tanistry_culture: "Ihr habt #bold nicht#! die [heritage|E] $goidelic_group$ oder $brythonic_group$."
  number_of_election_votes: "Zahl der Wahlstimmen"
@@ -131,7 +133,7 @@
  #EP3:
  noble_family_succession_law: "Adelsfamilien-Nachfolge"
  noble_family_succession_law_subname: "[player_heir|E] erbt"
- noble_family_succession_law_effects: "Der Adelsfamilien-[title|E] wird an den [Concept('player_heir', 'Spielererben')|E] vergeben."
+ noble_family_succession_law_effects: "Der Adelsfamilien-[title|E] wird zusammen mit seinem [domicile|E] an den [Concept('player_heir', 'Spielererben')|E] übergeben."
  #Appointment Succession Law
  appointment_succession_law: "Ernennungsnachfolge"
  appointment_succession_law_subname: "Kandidat mit den höchsten Punkten erbt"

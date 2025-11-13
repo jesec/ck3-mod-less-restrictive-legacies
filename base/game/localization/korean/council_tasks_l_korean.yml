@@ -1,5 +1,5 @@
 ﻿l_korean:
- ACTIVE_COUNCIL_TASK_TT: "내 [ActiveCouncilTask.GetPositionType.GetName] [ActiveCouncilTask.GetCouncillor.GetUIName](이)가 [ActiveCouncilTask.GetTaskType.GetName|V]에 배속 중입니다."
+ ACTIVE_COUNCIL_TASK_TT: "내 [ActiveCouncilTask.GetPositionType.GetNameForPlayer] [ActiveCouncilTask.GetCouncillor.GetFirstName|V](이)가 [ActiveCouncilTask.GetTaskType.GetName|V]에 배속 중입니다."
  ACTIVE_COUNCIL_TASK_FROZEN_TT: "#T [ActiveCouncilTask.GetTaskType.GetName|V] #!\n@warning_icon! #X 이 자문회 직위에 인물을 배정하여 임무를 계속 진행하십시오.#!"
  POTENTIAL_COUNCIL_TASK_TT: "[ActiveCouncilTask.GetCouncillor.GetUIName](이)가 [ActiveCouncilTask.GetTaskType.GetName|V]에 배속될 것입니다."
  COUNCIL_TASK_TT: "#T [ActiveCouncilTask.GetTaskType.GetName]#!\n[SelectLocalization( GuiPotentialCouncilTask.IsActive, 'ACTIVE_COUNCIL_TASK_TT', 'POTENTIAL_COUNCIL_TASK_TT' )]"
@@ -604,7 +604,7 @@
  kurultai_task.1356.notification: "착취당한 백성"
  kurultai_task.1356.desc: "[councillor.GetShortUIName]의 행보는 [county.GetNameNoTier] 거주 부족들에게 재앙 같은 영향을 끼쳤다."
  kurultai_task.1401.notification: "인상적인 약탈자"
- kurultai_task.1401.desc: "[councillor.GetShortUIName]의 훈련 덕분에 우리의 약탈자들이 널리 두려움의 대상이 되었다."
+ kurultai_task.1401.desc: "[councillor.GetShortUIName]의 혹독한 훈련 덕분에 우리의 약탈자들이 널리 두려움의 대상이 되었다."
  kurultai_task.1406.notification: "공포스러운 약탈자"
  kurultai_task.1406.desc: "우리의 약탈자들은 국경 안팎에서 적들에게 널리 공포를 안겨준다."
  kurultai_task.1451.notification: "초라한 약탈자"

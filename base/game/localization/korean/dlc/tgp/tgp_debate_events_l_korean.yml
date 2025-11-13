@@ -28,7 +28,7 @@
  debate_event.2010.a: "\"저 역시 동의합니다.\""
  debate_event.2010.b: "\"간과해서는 안 되는 차이도 있지요.\""
  debate_event.2020.t: "우호적인 거래"
- debate_event.2020.desc: "[my_movement.GetName]의 일원인 동료 [movement_member.GetTitledFirstName](이)가 뒤에 구부정한 사내를 데리고 오며 머리를 숙여 인사했다. \"그대가 종사단에 넣을 인재를 찾는다고 들었는데.\" [movement_member.GetFirstNameNoTooltip](이)가 말했다. \"[disciple.GetTitledFirstName](이)라면 후보로 적합할 것 같더군.\"\n\n[disciple.GetFirstNameNoTooltip](이)가 말했다. \"[ROOT.Char.GetLadyLord], 제가 섬길 수 있다면 크나큰 영광이겠습니다.\""
+ debate_event.2020.desc: "[my_movement.GetName]의 일원인 동료 [movement_member.GetTitledFirstName](이)가 뒤에 구부정한 사내를 데리고 오며 머리를 숙여 인사했다. \"그대가 종사단에 넣을 인재를 찾는다고 들었는데.\" [movement_member.GetFirstNameNoTooltip](이)가 말했다. \"[disciple.GetTitledFirstName](이)라면 후보로 적합할 것 같더군.\"\n\n[disciple.GetFirstNameNoTooltip](이)가 [disciple.Custom('quirk_pos_present')]. 그리고 입을 열었다. \"[ROOT.Char.GetLadyLord], 제가 섬길 수 있다면 크나큰 영광이겠습니다.\""
  debate_event.2020.a: "\"[disciple.GetHerHim]에게 가르칠 것이 많군.\""
  debate_event.2020.b: "\"그대의 우정만 있으면 되네.\""
  friend_given_disciple_reason: "[CHARACTER.GetShortUIName|U](이)가 토론에서 [TARGET_CHARACTER.GetShortUIName]에게 문생을 받았음"

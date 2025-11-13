@@ -399,7 +399,7 @@
  murder_outcome_reworked.0000.memories.target.note_discovered: "\n\n現場近くでくしゃくしゃになったメモが発見された。#EMP 「支払いは全額同封。[bad_memory.GetThirdPerspectiveDescription]の時に契約発行」#!"
  #Revealed (Scheme Target)
  murder_outcome_reworked.0000.revealed.scheme_target.success.1: "\n\n死が間近に迫る今、誰が私をこんな目に遭わせたのか、一瞬たりとも疑う余地はない。これは[owner.GetTitledFirstName]の仕業だ！"
- murder_outcome_reworked.0000.revealed.scheme_target.success.2: "\n\n意識がもうろうとするなかでもわかる。これは間違いなくあの[owner.Custom2('InsultAdjective', ROOT.Char)] [owner.Custom2('InsultNoun', ROOT.Char)]、[owner_to_reveal.GetTitledFirstName]の仕業だ！"
+ murder_outcome_reworked.0000.revealed.scheme_target.success.2: "\n\n意識がもうろうとするなかでもわかる。これは間違いなくあの[owner.Custom2('InsultAdjective', ROOT.Char)][owner.Custom2('InsultNoun', ROOT.Char)]、[owner_to_reveal.GetTitledFirstName]の仕業だ！"
  murder_outcome_reworked.0000.revealed.scheme_target.success.child: "\n\n私は家族が悲痛に打ちひしがれるさまを見ることも、使用人たちが「これは[owner_to_reveal.GetTitledFirstName]の仕業だ」と囁くのを聞くこともないだろう。"
  murder_outcome_reworked.0000.revealed.scheme_target.success.baby: "\n\n使用人たちが私を見つけてパニックに陥っても、彼らが「これは [owner_to_reveal.GetTitledFirstName]の仕業だ」と囁いても、私には理解できなかっただろう。"
  murder_outcome_reworked.0000.revealed.scheme_target.failure.baby: "\n\n使用人たちが私を見つけて悲鳴をあげても、彼らが「これは [owner_to_reveal.GetTitledFirstName]の仕業に違いない」と囁いても、私には理解できない。"

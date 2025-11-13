@@ -18,7 +18,7 @@
  bastard_interaction.0002.house_head: "He proclamado que mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))] [legitimized_bastard.GetFirstName] sea mi descendiente legítimo y miembro de la casa de [actor.GetHouse.GetName]. He tenido que darle muchas vueltas para llegar a esta conclusión, y aunque algunos no estarán de acuerdo, era lo correcto."
  bastard_interaction.0002.dynast: "He proclamado que mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))] [legitimized_bastard.GetFirstName] sea descendiente legítimo de la dinastía de [actor.GetDynasty.GetName]."
  bastard_interaction.0002.approved: "He proclamado que mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))] [legitimized_bastard.GetFirstName] sea mi descendiente legítimo y miembro de la casa de [actor.GetHouse.GetName]. He tenido que darle muchas vueltas para llegar a esta conclusión, y aunque algunos no estarán de acuerdo, era lo correcto."
- bastard_interaction.0002.a: "Tu futuro es brillante, [legitimized_bastard.GetFirstNameNoTooltip] [actor.GetHouse.GetNameNoTooltip]."
+ bastard_interaction.0002.a: "Tu futuro es brillante, [legitimized_bastard.GetFullNameNoTooltip]."
  bastard_interaction.0003.t: "Bien está lo que bien acaba"
  bastard_interaction.0003.desc: "Le ha costado algo de tiempo llegar a esta conclusión, pero por fin [actor.GetTitledFirstName|l] ha legitimado a nuestr[secondary_recipient.Custom('ES_OA')] [secondary_recipient.Custom('DaughterSon')] [secondary_recipient.GetFirstName]. Como miembro de la casa de [actor.GetHouse.GetName], [secondary_recipient.GetFirstName] ahora le aguarda un futuro más brillante del que jamás había osado soñar."
  bastard_interaction.0003.a: "¡Haz que nos sintamos orgullosos!"
