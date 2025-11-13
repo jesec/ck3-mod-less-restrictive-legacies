@@ -1,5 +1,5 @@
 ﻿l_polish:
- ACTIVE_COUNCIL_TASK_TT: "Mój [ActiveCouncilTask.GetPositionType.GetName] [ActiveCouncilTask.GetCouncillor.GetUINameNotMe] został[Select_CString( ActiveCouncilTask.GetCouncillor.IsFemale, 'a przydzielona', ' przydzielony' )] do zadania: [ActiveCouncilTask.GetTaskType.GetName|V]"
+ ACTIVE_COUNCIL_TASK_TT: "Osoba, którą jest [ActiveCouncilTask.GetCouncillor.GetFirstName|V], a dla mnie [ActiveCouncilTask.GetPositionType.GetNameForPlayer|l], została przydzielona do zadania: [ActiveCouncilTask.GetTaskType.GetName|Vl]"
  ACTIVE_COUNCIL_TASK_FROZEN_TT: "#T [ActiveCouncilTask.GetTaskType.GetName|V] #!\n@warning_icon! #X Nadaj postaci to stanowisko w radzie, aby kontynuować postępy w realizacji tego zadania#!"
  POTENTIAL_COUNCIL_TASK_TT: "[ActiveCouncilTask.GetCouncillor.GetUINameNotMe] zostanie przydzielon[Select_CString( ActiveCouncilTask.GetCouncillor.IsFemale, 'a', 'y' )] do zadania: [ActiveCouncilTask.GetTaskType.GetName|V]"
  COUNCIL_TASK_TT: "#T [ActiveCouncilTask.GetTaskType.GetName]#!\n[SelectLocalization( GuiPotentialCouncilTask.IsActive, 'ACTIVE_COUNCIL_TASK_TT', 'POTENTIAL_COUNCIL_TASK_TT' )]"
@@ -604,7 +604,7 @@
  kurultai_task.1356.notification: "Wyzyskiwani ludzie"
  kurultai_task.1356.desc: "Działania osoby znanej jako [councillor.GetShortUINameNotMe] miały katastrofalne skutki dla lokalnych plemion żyjących w miejscu znanym jako [county.GetNameNoTier]."
  kurultai_task.1401.notification: "Imponujący najeźdźcy"
- kurultai_task.1401.desc: "Nasi najeźdźcy budzą powszechny strach, głównie dzięki musztrze, jaką prowadzi z nimi [councillor.GetShortUINameNotMe]."
+ kurultai_task.1401.desc: "Nasi najeźdźcy budzą powszechny strach, głównie dzięki surowej musztrze, jaką prowadzi z nimi [councillor.GetShortUINameNotMe]."
  kurultai_task.1406.notification: "Straszliwi najeźdźcy"
  kurultai_task.1406.desc: "Nasi najeźdźcy napełniają serca wrogów strachem, jak świat długi i szeroki."
  kurultai_task.1451.notification: "Mało imponujący najeźdźcy"

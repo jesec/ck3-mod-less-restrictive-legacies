@@ -12,7 +12,7 @@
  adult_education_has_pandidakterion_desc: "\n#P +++ Le Pandidakterion#!"
  adult_education_has_confucian_scholars_desc: "\n#P + Centre d’éducation confucéen#!\n#weak Cela fournit de l’[Concept('trait_level_track_xp', 'expérience')|E] pour le [trait|El] [GetTrait('confucian_education').GetName( GetNullCharacter )]."
  activity_cost_hostile_faith_desc: "Ce lieu a [faith|El] [faith_hostile|El]"
- adult_education_option_books: "Matériel d’études"
+ adult_education_option_books: "Matériel d’étude"
  adult_education_books_bad: "Bouts de parchemins"
  adult_education_books_bad_desc: "$EFFECT_LIST_BULLET$Coût en [gold|El] réduit\n\n#weak Voyagez léger et gardez en mémoire ce que vous avez appris. Qui a besoin de plus ?#!"
  adult_education_books_normal: "Livres et notes"

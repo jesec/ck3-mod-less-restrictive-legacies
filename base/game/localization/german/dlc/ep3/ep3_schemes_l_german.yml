@@ -306,6 +306,7 @@
  HOUSE_HEAD_SCHEME_SUPPORT_DESC: "$house_head_request_interaction$: $VALUE|+=0$"
  house_relation_personal_scheme_bonus_desc: "Durch [house_relation|E]: $VALUE|+=0$"
  coronation_spouse_despised_modifier: "Der Krönungseid von [owner.GetShortUIName], [target.GetShortUIName] zu beseitigen: $VALUE|+=0$"
+ house_relation_hostile_scheme_bonus_desc: "Feindliche [house_relation|E]: $VALUE|+=0$"
  #Found Despotate
  found_despotate: "Statthaltertum verbessern"
  found_despotate_action: "Statthaltertum verbessern zu"

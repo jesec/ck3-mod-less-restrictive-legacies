@@ -10,8 +10,8 @@
  diarch_coup_unequal_truce_for_usurper: "$diarch_coup_unequal_truce_for_liege$"
  ##################################################
  ##Notifications
- diarchies.0000.diarch_fulfills_mandate.t: "[liege.Custom('ES_ElLa')|U] [liege.GetDiarchTitle|l] promueve el [mandate|lE]"
- diarchies.0000.diarch_fails_at_mandate.t: "[liege.Custom('ES_ElLa')|U] [liege.GetDiarchTitle|l] promueve, sin éxito, el [mandate|lE]"
+ diarchies.0000.diarch_fulfills_mandate.t: "[liege.Custom('ES_ElLa')|U] [liege.GetDiarchTitle|l] promueve el Mandato"
+ diarchies.0000.diarch_fails_at_mandate.t: "[liege.Custom('ES_ElLa')|U] [liege.GetDiarchTitle|l] fracasa en promover el Mandato"
  diarchies.0000.diarch_skims_mandate.t: "[liege.Custom('ES_ElLa')|U] [liege.GetDiarchTitle|l] elude el [mandate|lE]"
  diarchies.0000.diarch_fails_to_skim_mandate.t: "[liege.Custom('ES_ElLa')|U] [liege.GetDiarchTitle|l] no logra eludir el [mandate|lE]"
  diarchies.0000.diarch_rejects_mandate.t: "[liege.Custom('ES_ElLa')|U] [liege.GetDiarchTitle|l] rechaza el [mandate|lE] por un [personality_trait|lE]"

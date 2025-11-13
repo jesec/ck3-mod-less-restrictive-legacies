@@ -18,13 +18,14 @@ widget = {
 		using = Animation_FadeOut_Quick
 	}
 
-	background = {
-		using = Background_Area
-		margin = { 10 3 }
-    }
-
 	expand = {}
+
 	hbox = {
+		background = {
+			using = Background_Area
+			margin = { 10 3 }
+		}
+
 		expand = {}
 
 		icon = {
@@ -33,7 +34,6 @@ widget = {
 		}
 
 		vbox = {
-			margin_left = 10
 
 			text_single = {
 				text = "[exam_cheat|E]: [Character.MakeScope().ScriptValue( 'exam_cheats_count' )]"
@@ -49,6 +49,7 @@ widget = {
 
 				align = nobaseline
 				min_width = 200
+				max_width = 180
 			}
 		}
 		expand = {}

@@ -69,7 +69,7 @@
  catalyst_hegemon_low_merit_vassals_yearly_desc: "Jährliche Anpassung: Mehr als #V 50 %#! der [vassals|E] [son_of_heaven_possessive|E] haben einen [merit_level|E], der niedriger als $MERIT_LEVEL_LABEL_6$ ist"
  catalyst_hegemon_appointing_low_merit_councillor: "[dynastic_cycle_catalyst|E] „[minister|E] mit niedrigem [merit_level|E]“"
  catalyst_hegemon_appointing_low_merit_councillor_desc: "[son_of_heaven|E] ernennt einen [minister|E] mit einem [merit_level|E], der niedriger als $MERIT_LEVEL_LABEL_7$ ist"
- catalyst_hegemon_appointing_low_merit_governor: "[dynastic_cycle_catalyst|E] „[governor|E] mit niedrigem [merit|E]“"
+ catalyst_hegemon_appointing_low_merit_governor: "[dynastic_cycle_catalyst|E] „[governor|E] mit niedrigem [merit_level|E]“"
  catalyst_hegemon_appointing_low_merit_governor_desc: "[son_of_heaven|E] ernennt einen [governor|E] mit einem [merit_level|E], der niedriger als die erwartete [appointment_level|E] ist"
  catalyst_imperial_examinations_gap_long_yearly: "Jährlicher [dynastic_cycle_catalyst|E] „Prüfungsmangel (lang)“"
  catalyst_imperial_examinations_gap_long_yearly_desc: "Jährliche Anpassung: Keine [imperial_examinations|E] seit #V [EmptyScope.ScriptValue('catalyst_imperial_examinations_gap_long_yearly_value')]#! Jahren abgehalten"
@@ -104,7 +104,7 @@
  catalyst_hegemon_gains_mandate_of_heaven_desc: "Ein neuer [son_of_heaven|E] hat das [mandate_of_heaven|E] beansprucht und hält „[GetTitleByKey('h_china').GetDefinitiveName]“"
  # Calamities
  catalyst_hegemon_in_civil_war: "[dynastic_cycle_catalyst|E] „[Concept('civil_war', 'Bürgerkriegs')|E]-Ausbruch“"
- catalyst_hegemon_in_civil_war_desc: "[son_of_heaven|E] kümmert sich nicht um [Concept('faction','Fraktions')|E]-Forderungen, was zu einem [civil_war|E] führt"
+ catalyst_hegemon_in_civil_war_desc: "[son_of_heaven|E] verwirft [Concept('faction','Fraktions')|E]-Forderungen oder wird ein [tyrant|E], was zu einem [civil_war|E] führen kann"
  catalyst_hegemon_natural_disaster: "Jährlicher [dynastic_cycle_catalyst|E] „Andauernde [natural_disaster|E]“"
  catalyst_hegemon_natural_disaster_desc: "Jährliche Anpassung: Andauernde [natural_disasters|E]"
  catalyst_hegemon_natural_disaster_recovered: "Erholt von [natural_disaster|E]"
@@ -122,9 +122,9 @@
  catalyst_imperial_treasury_debt_desc: "Jährliche Anpassung: Der [imperial_treasury|E] ist bankrott"
  # Held Lands
  catalyst_hegemony_too_few_lands: "Jährlicher [dynastic_cycle_catalyst|E] „[son_of_heaven|E] hat zu wenige [Concept('de_jure', 'De-jure')|E]-[titles|E]“"
- catalyst_hegemony_too_few_lands_desc: "Jährliche Anpassung: [son_of_heaven|E] [Concept('completely_controls', 'kontrolliert')|E] weniger als #V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#! [Concept('de_jure', 'De-jure')|E]-[titles|E] vollständig"
- catalyst_hegemony_far_too_few_lands: "[dynastic_cycle_catalyst|E] „[son_of_heaven|E] hat zu wenige [Concept('de_jure', 'De-jure')|E]-[titles|E]“"
- catalyst_hegemony_far_too_few_lands_desc: "[son_of_heaven|E] [Concept('completely_controls', 'kontrolliert')|E] weniger als #V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#! [Concept('de_jure', 'De-jure')|E]-[titles|E] vollständig"
+ catalyst_hegemony_too_few_lands_desc: "Jährliche Anpassung: [son_of_heaven|E] kontrolliert weniger als #V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#! der [Concept('de_jure', 'De-jure')|E]-[titles|E] von [GetTitleByKey('h_china').GetName] vollständig"
+ catalyst_hegemony_far_too_few_lands: "[dynastic_cycle_catalyst|E] „[son_of_heaven|E] hält viel zu wenige [Concept('de_jure', 'De-jure')|E]-[titles|E]“"
+ catalyst_hegemony_far_too_few_lands_desc: "[son_of_heaven|E] kontrolliert weniger als #V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#! der [Concept('de_jure', 'De-jure')|E]-[titles|E] von [GetTitleByKey('h_china').GetName] vollständig"
  # Regency
  catalyst_diarch_mandate: "[dynastic_cycle_catalyst|E] „Autonomie [grand_secretariat_possessive|E]“"
  catalyst_diarch_mandate_desc: "Das [grand_secretariat|E] handelt ohne Zustimmung [son_of_heaven_possessive|E]"
@@ -140,6 +140,8 @@
  # Great Projects
  catalyst_grand_campaign: "[dynastic_cycle_catalyst|E] „[son_of_heaven|E] gewinnt ein ‚[GetGreatProjectType('grand_campaign_project').GetName]‘-[great_project|E]“"
  catalyst_grand_campaign_desc: "„[GetGreatProjectType('grand_campaign_project').GetName]“-[great_project|E] [son_of_heaven_possessive|E] ist erfolgreich"
+ catalyst_grand_campaign_lost: "[dynastic_cycle_catalyst|E] „[son_of_heaven|E] scheitert bei einem ‚[GetGreatProjectType('grand_campaign_project').GetName]‘-[great_project|E]“"
+ catalyst_grand_campaign_lost_desc: "„[GetGreatProjectType('grand_campaign_project').GetName]“-[great_project|E] [son_of_heaven_possessive|E] scheitert"
  catalyst_minister_project_culture: "[dynastic_cycle_catalyst|E] „[son_of_heaven|E] schließt ein [GetGreatProjectType('minister_project_culture').GetName]-[great_project|E] ab“"
  catalyst_minister_project_culture_desc: "„[GetGreatProjectType('minister_project_culture').GetName]“-[great_project|E] [son_of_heaven_possessive|E] ist erfolgreich"
  catalyst_great_wall: "[dynastic_cycle_catalyst|E] „Bau der Großen Mauer“"
@@ -174,7 +176,7 @@
  catalyst_silk_road_mpo_region_resettled: "Steppenumsiedlung"
  catalyst_silk_road_mpo_region_resettled_desc: "Ein [Concept('nomadic', 'nomadisches')|E] oder [Concept('herder', 'Hirten')|E]-[holding|E] wird feudalisiert"
  catalyst_silk_road_byzantium_blew_up: "[GetTitleByKey('e_byzantium').GetNameNoTierNoTooltip] fällt"
- catalyst_silk_road_byzantium_blew_up_desc: "„[GetTitleByKey('e_byzantium').GetDefinitiveName]“-[title|E] wird vernichtet #weak ([GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_occident').GetName])#!"
+ catalyst_silk_road_byzantium_blew_up_desc: "„[GetTitleByKey('e_byzantium').GetNameNoTier]“-[title|E] wird vernichtet #weak ([GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_occident').GetName])#!"
  catalyst_silk_road_mpo_region_to_steppe: "Steppe erweitert"
  catalyst_silk_road_mpo_region_to_steppe_desc: "[decision|E] „[GetDecisionWithKey('expand_the_steppe_decision').GetName]“ zielt auf diese [situation_sub_region|E] ab"
  catalyst_silk_road_raided: "Seidenstraße wurde überfallen"

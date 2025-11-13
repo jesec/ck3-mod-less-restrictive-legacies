@@ -53,7 +53,7 @@
  SteleCommemoratesAncestors_Brave: "$SteleCommemoratesAncestors_Intro$. [second.MakeScope.Var('stele_container').Char.GetSheHe|U]는 항상 용맹스럽게 싸웠다. 죽음을 맞닥뜨린 그 순간에도. $SteleCommemoratesCarver$"
  SteleCommemoratesAncestors_Shy: "$SteleCommemoratesAncestors_Intro$. 그 진면목을 알아본 이는 몇 없었으나, 그만한 사람은 다시 없으리. $SteleCommemoratesCarver$"
  SteleCommemoratesAncestors_Gregarious: "$SteleCommemoratesAncestors_Intro$. [second.MakeScope.Var('stele_container').Char.GetHerHim]는 수많은 친우들이 영원토록 그리워할 사람이었다. $SteleCommemoratesCarver$"
- SteleCommemoratesAncestors_Ambitious: "$SteleCommemoratesAncestors_Intro$. 그 야망을 막아설 자는 죽음뿐이었구나. $SteleCommemoratesCarver$"
+ SteleCommemoratesAncestors_Ambitious: "$SteleCommemoratesAncestors_Intro$. 그 야심을 막아설 자는 죽음뿐이었구나. $SteleCommemoratesCarver$"
  SteleCommemoratesAncestors_Content: "$SteleCommemoratesAncestors_Intro$. [second.MakeScope.Var('stele_container').Char.GetSheHe]는 어떤 일생을 살아갔더라도 후회하지 않았을 자였다. $SteleCommemoratesCarver$"
  SteleCommemoratesAncestors_Arbitrary: "$SteleCommemoratesAncestors_Intro$. [second.MakeScope.Var('stele_container').Char.GetFaith.DeathDeityName]께서 세우신 법률이 이승의 법률보다 관대하기를 바라며. $SteleCommemoratesCarver$"
  SteleCommemoratesAncestors_Just: "$SteleCommemoratesAncestors_Intro$. 한 점 오차 없이 법을 준수한 자로다. $SteleCommemoratesCarver$"

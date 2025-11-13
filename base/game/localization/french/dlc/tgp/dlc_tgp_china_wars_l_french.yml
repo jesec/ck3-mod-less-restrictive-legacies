@@ -16,7 +16,7 @@
  grand_campaign_kingdom_invasion_cb: "[GetTitleByKey('h_china').Custom('OrdinalChineseConquest')] grande campagne de [GetTitleByKey('h_china').GetNameNoTierNoTooltip]"
  GP_KINGDOM_INVASION_WAR_NAME: "$grand_campaign_kingdom_invasion_cb$"
  GP_KINGDOM_INVASION_WAR_NAME_BASE: "[DEFENDER.GetPrimaryTitle.GetName][ATTACKER.GetPrimaryTitle.GetAdjective]"
- GP_KINGDOM_INVASION_CB_NAME: "$grand_campaign_kingdom_invasion_cb$ ([great_project|El] [GetGreatProjectType('grand_campaign_project').GetName])"
+ GP_KINGDOM_INVASION_CB_NAME: "$grand_campaign_kingdom_invasion_cb$ ([great_project|El])"
  grand_campaign_kingdom_invasion_cb_victory_desc_attacker: "[attacker.GetTopLiege.Custom('FR_le_Char_U_Pi')|U][attacker.GetTopLiege.GetShortUIName] obtient les [titles|El] contestés."
  grand_campaign_kingdom_invasion_cb_victory_desc: "[attacker.GetTopLiege.Custom('FR_le_Char_U_Pi')|U][attacker.GetTopLiege.GetShortUIName|U] [attacker.GetTopLiege.LocalPlayerString( 'obtenez', 'obtient' )] le [title|El] contesté."
  ### CB for neighbors to attempt to seize the mandate of heaven and become hegemon of China

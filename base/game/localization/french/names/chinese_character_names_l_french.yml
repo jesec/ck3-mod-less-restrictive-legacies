@@ -1,12 +1,12 @@
 ﻿l_french:
- A_cang_963F_81E7: "A'cang" # (Ê阿臧)
- A_er_963F_513F: "A'er" # (阿儿)
- A_huan_963F_6B22: "A'huan" # (阿欢)
- A_lu_963F_5F8B: "A'lu" # (阿律)
- A_mei_963F_7709: "A'mei" # (阿眉)
- A_qian_963F_8654: "A'qian" # (阿虔)
- A_shen_963F_6DF1: "A'shen" # (阿深)
- A_zu_963F_8DB3: "A'zu" # (阿足)
+ A_cang_963F_81E7: "A’cang" # (Ê阿臧)
+ A_er_963F_513F: "A’er" # (阿儿)
+ A_huan_963F_6B22: "A’huan" # (阿欢)
+ A_lu_963F_5F8B: "A’lu" # (阿律)
+ A_mei_963F_7709: "A’mei" # (阿眉)
+ A_qian_963F_8654: "A’qian" # (阿虔)
+ A_shen_963F_6DF1: "A’shen" # (阿深)
+ A_zu_963F_8DB3: "A’zu" # (阿足)
  Aa_0041_0041: "Aa"
  Aba_963F_516B: "Ābā"
  Afalian: "Afalian"
@@ -7503,7 +7503,7 @@
  Xian_9591: "Xián"
  Xian_986F: "Xian"
  Xian_9C9C: "Xiān"
- Xian_ai_4ED9_7477: "Xian'ai" # (仙瑷)
+ Xian_ai_4ED9_7477: "Xian’ai" # (仙瑷)
  Xianbin_54B8_8CD3: "Xiánbīn"
  Xianchen_61B2_81E3: "Xiànchén"
  Xianchen_737B_81E3: "Xiànchén"
@@ -10536,7 +10536,7 @@
  Zi_9F12: "Zī"
  Zi_9F4D: "Zī"
  Zi_an: "Zi’an"
- Zi_ang_5B50_6602: "Zi'ang" # (子昂)
+ Zi_ang_5B50_6602: "Zi’ang" # (子昂)
  Zian_5B50_5B89: "Ziān"
  Ziang_5B50_6602: "Ziáng"
  Zibao_5B50_5BF6: "Zibao"
@@ -11282,3 +11282,26 @@
  Zhongba_4E2D_5DF4: "Zhongba"
  Yuanjie_5143_6770: "Yuánjié" # 元杰
  Yuanwo_5143_5043: "Yuánwò" # 元卧
+ Jin_9032_CN: "Jìn"
+ Hong_6D2A_CN: "Hóng"
+ Hun_6DF7: "Hùn"
+ Gui_7470: "Guī"
+ Wei_2E9F5: "Wěi"
+ Song_8BBC: "Sòng"
+ Fanzhi_7BC4_4E4B: "Fànzhī"
+ Tanzhi_66C7_4E4B: "Tánzhī"
+ Guozhen_570B_93AE: "Guózhèn"
+ Guofan_570B_74A0: "Guófán"
+ Shufan_53D4_74A0: "Shūfán"
+ Lingshou_9748_58FD: "Língshòu"
+ Huian_60E0_5B89: "Huì'ān"
+ Zuzhen_7956_73CD: "Zǔzhēn"
+ Zongpang_5B97_9F90: "Zōngpáng"
+ Zhian_76F4_5B89: "Zhí'ān"
+ Longquan_9F8D_6CC9: "Lóngquán"
+ Daoshou_9053_58FD: "Dàoshòu"
+ Zhongming_4EF2_660E: "Zhòngmíng"
+ Yanyong_5F65_9095: "Yànyōng"
+ Guangde_5EE3_5FB7: "Guangdé"
+ Yongzuo_7E7C_795A: "Yongzuò"
+ Jiong_56E7: "Jiong"

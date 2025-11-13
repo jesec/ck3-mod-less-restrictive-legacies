@@ -16,7 +16,7 @@
 			set_title_name = "cn_goryeo"
  		}
 	}
-	943.1.1 = {
+	943.7.4 = {
 		holder = korean_wang_goryeo_2 # Hye_jong
 	}
 	945.1.1 = {
@@ -163,6 +163,16 @@ k_yongson_throne = {
 	}
 	1170.9.2 = {
 		holder = korean_wang_goryeo_21 # Myeong_jong
+	}
+	1178.1.1 = {
+		effect = {
+			add_title_law = single_heir_succession_law # Regency inherited separately
+			set_variable = {
+				name = ceremonial_title
+				value = title:e_goryeo
+			}
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 }
+		}
 	}
 }
 
@@ -801,6 +811,8 @@ c_ulleong = {
 	}
 	1178.1.1 = {
 		holder = korean_gim_ulleong_1 # Yu_rip
+		government = meritocratic_government
+		liege = e_goryeo
 	}
 }
 

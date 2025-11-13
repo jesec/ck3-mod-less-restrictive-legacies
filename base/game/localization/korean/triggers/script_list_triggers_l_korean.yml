@@ -1,6 +1,7 @@
 ﻿l_korean:
  ALL_CLAIMANTS: "모든 [claimants|E]"
  ANY_CLAIMANT: "임의의 [claimant|E]"
+ NOT_ANY_CLAIMANT: "작위에 [claimants|E]가 없음"
  ANY_CHILD: "임의의 자녀:"
  ANY_CHILD_FIRST: "당신의 슬하에 있는 임의의 자녀:"
  ANY_CHILD_THIRD: "[CHARACTER.GetShortUINamePossessive] 슬하에 있는 임의의 자녀:"

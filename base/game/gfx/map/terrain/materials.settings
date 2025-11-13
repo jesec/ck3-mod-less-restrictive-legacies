@@ -102,6 +102,7 @@
 		normal   = "coastline_cliff_grey_normal.dds"
 		material = "coastline_cliff_grey_properties.dds"
 		mask     = "masks/coastline_cliff_grey_mask.png"
+		tile_factor = 500
 		id       = "coastline_cliff_grey"
 	}
 	{

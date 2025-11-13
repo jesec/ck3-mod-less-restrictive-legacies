@@ -552,7 +552,7 @@
  legend_spread_events.8180.a: "[killer.Custom('FR_le_Char')|U][killer.GetNameNoTooltip] est mon ennemi[killer.Custom('FR_E')]."
  legend_spread_events.8180.b: "Je dois apprendre à pardonner."
  8180_bonus_if_you_kill_tt: "La qualité de votre légende augmentera substantiellement si vous assassinez [killer.Custom('FR_le_Char')][killer.GetName]"
- legend_spread_events.8181.t: "[killer.Custom('FR_LeLa')|U] [killer.Custom2('InsultNoun'), ROOT.Char] enterré[killer.Custom('FR_E')]"
+ legend_spread_events.8181.t: "[killer.Custom('FR_LeLa')|U] [killer.Custom2('InsultNoun', ROOT.Char)] enterré[killer.Custom('FR_E')]"
  legend_spread_events.8181.desc.intro: "Enfin, le souffle [killer.Custom('FR_du_Char')][killer.GetName] l’a quitté[killer.Custom('FR_E')], et je jouis du sentiment de savoir qu’[killer.Custom('FR_IlElle')] ne souillera plus cette terre."
  legend_spread_events.8181.desc.mid.murder: "L’envoyer vers [ROOT.Char.GetFaith.NegativeAfterLife] de ma propre main est un grand honneur."
  legend_spread_events.8181.desc.mid.fallback: "J’espérais mettre fin aux jours [killer.Custom('FR_DuDela')] [killer.Custom2('InsultNoun', ROOT.Char)] moi-même, mais [ROOT.Char.GetFaith.HighGodName] avait visiblement ses propres plans pour [killer.Custom('FR_LuiElle')]."

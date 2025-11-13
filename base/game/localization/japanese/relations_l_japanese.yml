@@ -241,6 +241,7 @@
  relation_liege_female: "主君"
  relation_liege_male: "主君"
  relation_suzerain: "宗主"
+ relation_suzerain_possessive: "宗主"
  relation_leader_female: "主導者"
  relation_leader_male: "主導者"
  relation_ward: "被後見人"
@@ -672,6 +673,8 @@
  relation_blood_brother_female: "兄弟分"
  #EP4 custom loc
  relation_disciple: "弟子"
- relation_elder: "長老"
+ relation_elder: "導師"
  relation_disciple_possessive: "弟子"
- relation_elder_possessive: "長老"
+ relation_elder_possessive: "導師"
+ relation_tributary: "諸侯"
+ relation_tributary_possessive: "諸侯"

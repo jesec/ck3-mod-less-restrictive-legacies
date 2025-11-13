@@ -422,7 +422,7 @@
 
  CLAIMANT_IS_ATTACKER_OR_SAME_DYNASTY:1 "[TARGET_CHARACTER.GetShortUIName] is not the [claimant|E], nor belongs to the claimant's [dynasty|E]"
 
- BYZANTINE_CLAIMANT_IS_DISFIGURED:2 "[CHARACTER.GetShortUIName] [CharAreIs(CHARACTER)] disfigured or deformed"
+ BYZANTINE_CLAIMANT_IS_DISFIGURED:2 "[CHARACTER.GetShortUIName|U] [CharAreIs(CHARACTER)] disfigured or deformed"
 
  BYZANTINE_CLAIMANT_IS_CELIBATE:2 "[CHARACTER.GetShortUIName] cannot target titles belonging to characters of [TARGET_CHARACTER.GetCulture.GetName] [culture|E] because [CHARACTER.GetShortUIName] [CharAreIs(CHARACTER)] not capable of producing offspring"
 
@@ -758,7 +758,7 @@
 
  HIGHEST_HELD_TITLE_TIER_IS_TIER:0 "Highest held Title is $COMPARATOR$ $TIER|U$ [rank|E]"
  CHARACTERS_HIGHEST_HELD_TITLE_TIER_IS_TIER:1 "[CHARACTER.GetShortUINamePossessive] highest held [title|E] is $COMPARATOR$ $TIER|U$ [rank|E]"
- NOT_CHARACTERS_HIGHEST_HELD_TITLE_TIER_IS_TIER:1 "[CHARACTER.GetShortUINamePossessive] highest held [title|E] is not $COMPARATOR$ $TIER|U$ [rank|E]"
+ NOT_CHARACTERS_HIGHEST_HELD_TITLE_TIER_IS_TIER:1 "[CHARACTER.GetShortUINamePossessive] highest held [title|E] is #bold not#! $COMPARATOR$ $TIER|U$ [rank|E]"
  NOT_MY_HIGHEST_HELD_TITLE_TIER_IS_TIER:0 "Your highest held [title|E] is #bold not#! $COMPARATOR$ $TIER|U$ [rank|E]"
  MY_HIGHEST_HELD_TITLE_TIER_IS_TIER:0 "Your highest held [title|E] is $COMPARATOR$ $TIER|U$ [rank|E]"
 
@@ -869,15 +869,15 @@
  AGE_IS_AT_LEAST:0 "Is at least $NUM|V0$ years old"
  MY_AGE_IS_AT_LEAST:0 "You are at least $NUM|V0$ years old"
  THEIR_AGE_IS_AT_LEAST:0 "[CHARACTER.GetShortUIName|U] is at least $NUM|V0$ years old"
- AGE_IS_NOT_AT_LEAST:0 "Is #bold not#! at least $NUM|V0$ years old"
- MY_AGE_IS_NOT_AT_LEAST:0 "You are #bold not#! at least $NUM|V0$ years old"
- THEIR_AGE_IS_NOT_AT_LEAST:0 "[CHARACTER.GetShortUIName|U] is #bold not#! at least $NUM|V0$ years old"
+ AGE_IS_NOT_AT_LEAST: "Is younger than $NUM|V0$ years old"
+ MY_AGE_IS_NOT_AT_LEAST: "You are younger than $NUM|V0$ years old"
+ THEIR_AGE_IS_NOT_AT_LEAST: "[CHARACTER.GetShortUIName|U] is younger than $NUM|V0$ years old"
  AGE_IS_LESS_THAN:0 "Is under $NUM|V0$ years old"
  MY_AGE_IS_LESS_THAN:0 "You are under $NUM|V0$ years old"
  THEIR_AGE_IS_LESS_THAN:0 "[CHARACTER.GetShortUIName|U] is under $NUM|V0$ years old"
- AGE_IS_NOT_LESS_THAN:0 "Is #bold not#! under $NUM|V0$ years old"
- MY_AGE_IS_NOT_LESS_THAN:0 "You are #bold not#! under $NUM|V0$ years old"
- THEIR_AGE_IS_NOT_LESS_THAN:0 "[CHARACTER.GetShortUIName|U] is #bold not#! under $NUM|V0$ years old"
+ AGE_IS_NOT_LESS_THAN: "Is at least $NUM|V0$ years old"
+ MY_AGE_IS_NOT_LESS_THAN: "You are at least $NUM|V0$ years old" 
+ THEIR_AGE_IS_NOT_LESS_THAN: "[CHARACTER.GetShortUIName|U] is at least $NUM|V0$ years old"
 
  TARGET_IS_DE_JURE_LIEGE_OR_ABOVE_TRIGGER:0 "[TARGET_CHARACTER.GetShortUIName]"
 
@@ -947,6 +947,7 @@
  CANNOT_BE_ORDERED_TO_FIND_SECRETS_AT_OWN_COURT:0 "A Spymaster cannot be ordered to find Secrets at their own court"
 
  CANNOT_BE_ORDERED_TO_LIKE_YOU_MORE:0 "A Chancellor cannot be ordered to increase their own opinion of you"
+ CANNOT_BE_ORDERED_TO_LIKE_THEMSELVES_MORE:0 "A Chancellor cannot be ordered to increase their own opinion of themselves"
 
  EAGER_FOR_MORE_VASSALS:0 "[CHARACTER.GetShortUIName|U] will always accept more power"
 
@@ -1145,11 +1146,11 @@
 
  custom.not_attending_activity:0 "Is not attending an [activity|E]"
 
- SUBJECT_STANDING_TRIGGER_FIRST: "You have $COMPARATOR$ $NUM|V2$ [CHARACTER.Custom('SubjectStanding')]"
- NOT_SUBJECT_STANDING_TRIGGER_FIRST: "You do #bold not#! have $COMPARATOR$ $NUM|V2$ [CHARACTER.Custom('SubjectStanding')]"
- SUBJECT_STANDING_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|U] has $COMPARATOR$ $NUM|V2$ [CHARACTER.Custom('SubjectStanding')]"
- NOT_SUBJECT_STANDING_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|U] does #bold not#! have $COMPARATOR$ $NUM|V2$ [CHARACTER.Custom('SubjectStanding')]"
- SUBJECT_STANDING_TRIGGER_GLOBAL: "Does #bold not#! have $COMPARATOR$ $NUM|V2$ [CHARACTER.Custom('SubjectStanding')]"
+ SUBJECT_STANDING_TRIGGER_FIRST: "You have $COMPARATOR$ [ConcatIfNeitherEmpty(CHARACTER.Custom('SubjectStandingIcon'),' ')]$NUM|V2$ [CHARACTER.Custom('SubjectStanding')]"
+ NOT_SUBJECT_STANDING_TRIGGER_FIRST: "You do #bold not#! have [ConcatIfNeitherEmpty(CHARACTER.Custom('SubjectStandingIcon'),' ')]$COMPARATOR$ $NUM|V2$ [CHARACTER.Custom('SubjectStanding')]"
+ SUBJECT_STANDING_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|U] has [ConcatIfNeitherEmpty(CHARACTER.Custom('SubjectStandingIcon'),' ')]$COMPARATOR$ $NUM|V2$ [CHARACTER.Custom('SubjectStanding')]"
+ NOT_SUBJECT_STANDING_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|U] does #bold not#! have $COMPARATOR$ [ConcatIfNeitherEmpty(CHARACTER.Custom('SubjectStandingIcon'),' ')]$NUM|V0$ [CHARACTER.Custom('SubjectStanding')]"
+ SUBJECT_STANDING_TRIGGER_GLOBAL: "Does #bold not#! have [ConcatIfNeitherEmpty(CHARACTER.Custom('SubjectStandingIcon'),' ')]$COMPARATOR$ $NUM|V2$ [CHARACTER.Custom('SubjectStanding')]"
 
  #ACCOLADES
  IS_PLAYERS_ACCLAIMED_KNIGHT:0 "[CHARACTER.GetShortUIName] is another Player's [acclaimed_knight|e]"

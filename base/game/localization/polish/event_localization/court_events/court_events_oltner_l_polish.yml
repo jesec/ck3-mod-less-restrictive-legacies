@@ -90,7 +90,7 @@
  court_maintenance.0011.a.tooltip: "Wejdziesz do [Concept('royal_court', 'dworu monarszego')|E]"
  court_maintenance.0011.b: "Inne sprawy wymagają mojej uwagi."
  court_maintenance.0011.b.tooltip: "Możesz zdecydować się wejść do [Concept('royal_court', 'dworu monarszego')|E] w późniejszym terminie"
- court_maintenance.0011.b.tooltip.ach: "Będziesz mieć możliwość zostania [Concept('host', 'gospodarzem')|E] [Concept('coronation', 'koronacji')|E] w późniejszym terminie"
+ court_maintenance.0011.b.tooltip.ach: "Będzie można zorganizować [Concept('coronation', 'koronację')|E] w późniejszym terminie"
  court_maintenance.0011.banner_tooltip: "[messenger.GetName] prezentuje dwa nowe sztandary – jeden dla twojego rodu, a drugi dla twojej dynastii"
  court_maintenance.0011.banner_house_tooltip: "[messenger.GetName] prezentuje nowy sztandar z godłem twojego rodu"
  court_maintenance.0011.banner_dynasty_tooltip: "[messenger.GetName] prezentuje nowy sztandar z godłem twojej dynastii"

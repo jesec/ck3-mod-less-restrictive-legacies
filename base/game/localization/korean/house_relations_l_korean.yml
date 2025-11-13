@@ -136,3 +136,4 @@
  house_relation_damaged_minor_desc: "[CHARACTER.GetHouse.GetName] 및 [TARGET_CHARACTER.GetHouse.GetName] [houses|E]이 #N 약간 더 적대적이 됨#!"
  house_relation_damaged_medium_desc: "[CHARACTER.GetHouse.GetName] 및 [TARGET_CHARACTER.GetHouse.GetName] [houses|E]이 #N 더 적대적이 됨#!"
  house_relation_damaged_major_desc: "[CHARACTER.GetHouse.GetName] 및 [TARGET_CHARACTER.GetHouse.GetName] [houses|E]이 #N 훨씬 더 적대적이 됨#!"
+ house_relation_your_relation_with: "당신 [house|E]과 [DynastyHouse.GetName] 집안과의 관계"

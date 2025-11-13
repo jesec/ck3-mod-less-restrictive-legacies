@@ -33,6 +33,21 @@ c_nf_park_milyang = { # Milyang Park
 	}
 }
 
+c_nf_park_pyeongsan = { # Pyeongsan Park
+	867.1.1 = {
+		liege = k_silla
+		holder = korean_bak_pyeongsan_2 # Jeok_oh
+		government = meritocratic_government
+		succession_laws = { noble_family_succession_law }
+	}
+	867.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	1066.1.1 = { holder = 0 }
+}
+
 c_nf_park_silla = { # Silla Park
 	867.1.1 = {
 		liege = k_silla
@@ -435,6 +450,20 @@ c_nf_gim_gyeongju = { # Silla (Gyeongju) Gim - 경주김
 	}
 	1178.1.1 = {
 		holder = korean_gim_gyeongju_10 # Gun-su
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 }
+		}
+	}
+}
+
+c_nf_gim_ulleong = { # Ulleong Gim
+	1178.1.1 = {
+		liege = e_goryeo
+		holder = korean_gim_ulleong_1 # Yu_rip
+		government = meritocratic_government
+		succession_laws = { noble_family_succession_law }
 	}
 	1178.10.1 = {
 		effect = {
@@ -996,6 +1025,22 @@ c_nf_tak = { # 卓 (탁)
 	}
 }
 
+# SONG - 송
+
+c_nf_song = { # 宋 (송)
+	1178.1.1 = {
+		liege = e_goryeo
+		holder = korean_song_1 # Yu_in
+		government = meritocratic_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 }
+		}
+	}
+}
+
 # GANG - 강
 
 c_nf_gang_sincheon = { # Sincheon Gang - 신천강
@@ -1067,9 +1112,13 @@ c_nf_go_balhae = { # Go - 고
 			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
 		}
 	}
-	1066.1.1 = {
+	868.1.1 = {
 		holder = 0
 	}
+#	1066.1.1 = {
+#		liege = 0
+#		holder = balhae_go_8 # Gwan_74D8
+#	}
 }
 
 c_nf_wi_balhae = { # Wi - 위

@@ -90,12 +90,18 @@ petition_liege_governorship_duchy_request = {
 	is_noble_family_title = no
 	is_landless_type_title = no
 	NOT = { $LIEGE$.capital_county.duchy = this }
+	any_de_jure_county = {
+		holder = $LIEGE$
+	}
 }
 
 petition_liege_governorship_kingdom_request = {
 	tier = tier_kingdom
 	is_landless_type_title = no
 	NOT = { $LIEGE$.capital_county.kingdom = this }
+	any_de_jure_county = {
+		holder = $LIEGE$
+	}
 }
 
 needs_more_valid_compensation_options_trigger = {

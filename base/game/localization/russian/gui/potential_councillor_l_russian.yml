@@ -1,5 +1,5 @@
 ﻿l_russian:
- POTENTIAL_COUNCILLOR_TITLE: "Назначить на должность: [CouncilPositionType.GetName]"
+ POTENTIAL_COUNCILLOR_TITLE: "Назначить на должность: [CouncilPositionType.GetNameForPlayer]"
  CHARACTER_SORT_ALL_SKILLS: "Сумма всех навыков"
  POTENTIAL_COUNCILLOR_REASSIGN: "Переназначить"
  POTENTIAL_COUNCILLOR_ASSIGN: "Назначить"

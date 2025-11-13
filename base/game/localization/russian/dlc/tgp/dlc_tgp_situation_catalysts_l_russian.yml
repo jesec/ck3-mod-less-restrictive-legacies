@@ -69,7 +69,7 @@
  catalyst_hegemon_low_merit_vassals_yearly_desc: "Ежегодное изменение: более #V 50%#! [Concept('vassals', 'вассалов')|E] [Concept('son_of_heaven_possessive', 'Сына Неба')|E] обладают [Concept('merit_level', 'степенью заслуг')|E] ниже $MERIT_LEVEL_LABEL_6$"
  catalyst_hegemon_appointing_low_merit_councillor: "[Concept('dynastic_cycle_catalyst', 'Катализатор династического цикла')|E] «[Concept('minister', 'Министр')|E] с низкой [Concept('merit_level', 'степенью заслуг')|E]»"
  catalyst_hegemon_appointing_low_merit_councillor_desc: "[Concept('son_of_heaven', 'Сын Неба')|E] назначает [Concept('minister', 'министра')|E] со [Concept('merit_level', 'степенью заслуг')|E] ниже $MERIT_LEVEL_LABEL_7$"
- catalyst_hegemon_appointing_low_merit_governor: "[Concept('dynastic_cycle_catalyst', 'Катализатор династического цикла')|E] «[Concept('governor', 'Губернатор')|E] с низкими [Concept('merit', 'заслугами')|E]»"
+ catalyst_hegemon_appointing_low_merit_governor: "[Concept('dynastic_cycle_catalyst', 'Катализатор династического цикла')|E] «[Concept('governor', 'Губернатор')|E] с низкой [Concept('merit_level', 'степенью заслуг')|E]»"
  catalyst_hegemon_appointing_low_merit_governor_desc: "[Concept('son_of_heaven', 'Сын Неба')|E] назначает [Concept('governor', 'губернатора')|E] со [Concept('merit_level', 'степенью заслуг')|E] ниже ожидаемого [Concept('appointment_level', 'уровня назначения')|E]"
  catalyst_imperial_examinations_gap_long_yearly: "Ежегодный [Concept('dynastic_cycle_catalyst','катализатор династического цикла')|E] «Долгое время не проводились экзамены»"
  catalyst_imperial_examinations_gap_long_yearly_desc: "Ежегодное изменение: [Concept('imperial_examinations', 'государственные экзамены')|E] не проводились в течение #V [EmptyScope.ScriptValue('catalyst_imperial_examinations_gap_long_yearly_value')]#! лет"
@@ -104,7 +104,7 @@
  catalyst_hegemon_gains_mandate_of_heaven_desc: "Новый [Concept('son_of_heaven', 'Сын Неба')|E] захватывает [Concept('mandate_of_heaven', 'Небесный мандат')|E] и удерживает титул [GetTitleByKey('h_china').GetDefinitiveName]"
  # Calamities
  catalyst_hegemon_in_civil_war: "[Concept('dynastic_cycle_catalyst','Катализатор династического цикла')|E] «Начало [Concept('civil_war', 'гражданской войны')|E]»"
- catalyst_hegemon_in_civil_war_desc: "[Concept('son_of_heaven', 'Сын Неба')|E] не в силах выполнить требования [Concept('faction', 'фракции')|E], что привело к [Concept('civil_war', 'гражданской войне')|E]"
+ catalyst_hegemon_in_civil_war_desc: "[son_of_heaven|E] отвергает требования [Concept('faction', 'фракции')|E] или становится [Concept('tyrant', 'тираном')|E], провоцируя [Concept('civil_war', 'гражданскую войну')|E]"
  catalyst_hegemon_natural_disaster: "Ежегодный [Concept('dynastic_cycle_catalyst', 'катализатор династического цикла')|E] «Происходящий [Concept('natural_disaster', 'природный катаклизм')|E]»"
  catalyst_hegemon_natural_disaster_desc: "Ежегодное изменение: происходящие [Concept('natural_disasters', 'природные катаклизмы')|E]"
  catalyst_hegemon_natural_disaster_recovered: "Восстановление после [Concept('natural_disaster', 'природного катаклизма')|E]"
@@ -122,9 +122,9 @@
  catalyst_imperial_treasury_debt_desc: "Ежегодное изменение: [Concept('imperial_treasury', 'имперская казна')|E] банкрот"
  # Held Lands
  catalyst_hegemony_too_few_lands: "Ежегодный [Concept('dynastic_cycle_catalyst', 'катализатор династического цикла')|E] «У [Concept('son_of_heaven', 'Сына Неба')|E] слишком мало [Concept('de_jure', 'де-юре')|E]-[Concept('titles', 'титулов')|E]»"
- catalyst_hegemony_too_few_lands_desc: "Ежегодное изменение: [Concept('son_of_heaven', 'Сын Неба')|E] [Concept('completely_controls', 'полностью контролирует')|E] менее #V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#! [Concept('de_jure', 'де-юре')|E]-[Concept('titles', 'титулов')|E]"
- catalyst_hegemony_far_too_few_lands: "Ежегодный [Concept('dynastic_cycle_catalyst', 'катализатор династического цикла')|E] «У [Concept('son_of_heaven', 'Сына Неба')|E] слишком мало [Concept('de_jure', 'де-юре')|E]-[Concept('titles', 'титулов')|E]»"
- catalyst_hegemony_far_too_few_lands_desc: "[Concept('son_of_heaven', 'Сын Неба')|E] [Concept('completely_controls', 'полностью контролирует')|E] менее #V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#! [Concept('de_jure', 'де-юре')|E]-[Concept('titles', 'титулов')|E]"
+ catalyst_hegemony_too_few_lands_desc: "Ежегодное изменение: [Concept('son_of_heaven', 'Сын Неба')|E] контролирует менее #V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#! [Concept('de_jure', 'де-юре')|E] [Concept('counties', 'графств')|E] #ONCLICK:TITLE,h_china #TOOLTIP:LANDED_TITLE,h_china #L Китайской гегемонии#!#!#!"
+ catalyst_hegemony_far_too_few_lands: "[Concept('dynastic_cycle_catalyst', 'Катализатор династического цикла')|E] «У [Concept('son_of_heaven', 'Сына Неба')|E] слишком мало [Concept('de_jure', 'де-юре')|E]-[Concept('titles', 'титулов')|E]»"
+ catalyst_hegemony_far_too_few_lands_desc: "[Concept('son_of_heaven', 'Сын Неба')|E] контролирует менее #V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#! [Concept('de_jure', 'де-юре')|E] [Concept('counties', 'графств')|E] #ONCLICK:TITLE,h_china #TOOLTIP:LANDED_TITLE,h_china #L Китайской гегемонии#!#!#!"
  # Regency
  catalyst_diarch_mandate: "[Concept('dynastic_cycle_catalyst', 'Катализатор династического цикла')|E] «Автономия [Concept('grand_secretariat_possessive', 'дворцового секретариата')|E]»"
  catalyst_diarch_mandate_desc: "[Concept('grand_secretariat', 'Дворцовый секретариат')|E] действовал без одобрения [Concept('son_of_heaven_possessive', 'Сына Неба')|E]"
@@ -140,6 +140,8 @@
  # Great Projects
  catalyst_grand_campaign: "[dynastic_cycle_catalyst|EU] «Успех [Concept('son_of_heaven', 'Сына Неба')|E] в [Concept('great_project', 'грандиозном проекте')|E] „[GetGreatProjectType('grand_campaign_project').GetName]“»"
  catalyst_grand_campaign_desc: "[Concept('son_of_heaven_possessive', 'Сын Неба')|E] успешно завершает [Concept('great_project', 'грандиозный проект')|E] «[GetGreatProjectType('grand_campaign_project').GetName]»"
+ catalyst_grand_campaign_lost: "[Concept('dynastic_cycle_catalyst','Катализатор династического цикла')|E] «Неудача [Concept('son_of_heaven', 'Сына Неба')|E] в [Concept('great_project', 'грандиозном проекте')|E] „[GetGreatProjectType('grand_campaign_project').GetName]“»"
+ catalyst_grand_campaign_lost_desc: "[Concept('son_of_heaven_possessive', 'Сын Неба')|E] не в силах завершить [Concept('great_project', 'грандиозный проект')|E] «[GetGreatProjectType('grand_campaign_project').GetName]»"
  catalyst_minister_project_culture: "[dynastic_cycle_catalyst|EU] «Успех [Concept('son_of_heaven', 'Сына Неба')|E] в [Concept('great_project', 'грандиозном проекте')|E] „[GetGreatProjectType('minister_project_culture').GetName]“»"
  catalyst_minister_project_culture_desc: "[Concept('son_of_heaven_possessive', 'Сын Неба')|E] успешно завершает [Concept('great_project', 'грандиозный проект')|E] «[GetGreatProjectType('minister_project_culture').GetName]»"
  catalyst_great_wall: "[Concept('situation_catalyst', 'Катализатор ситуации')|E] «Строительство Великой стены»"

@@ -10,7 +10,7 @@
  ep3_laamps_provisions.1020.desc: "\"#EMP 더 이상은 못 하겠어!#!\"\n\n졸린 눈으로 천막에서 나오자마자 잔뜩 분노한 [leaver.GetTitledFirstName](이)가 짐을 꾸려 야영지에서 나가며 고함을 지르는 모습이 보였다.\n\n\"이젠 발에 감각도 없어. 등은 맨날 아프고, 따뜻한 음식을 먹은 게 언제인지 기억도 안 나! 배부르게 먹은 적이 언제였는지도! 이건 제대로 된 식사도 아냐! #EMP 저주나 받아라, 이 빌어먹을 [ROOT.Char.GetFirstNameNoTooltip]!#!\""
  ep3_laamps_provisions.1020.a: "가라, 겁쟁이!"
  ep3_laamps_provisions.1025.t: "돌아오지 않는 노력"
- ep3_laamps_provisions.1025.desc: "\"[ROOT.Char.GetFirstNameNoTooltip], 난 #EMP 진심으로#! 당신을 지지하려 했습니다. 최선을 다했다고요. 그런데 이건 너무 심하잖아요!\" [leaver.Custom2('MyCharacterIntroduction', ROOT.Char)](은)는 좌절감에 눈물을 흘렸다. [leaver.GetHerHis] 표정에서는 살의마저 느껴졌다.\n\n\"당신을 계속 따랐다간 모조리 죽을 겁니다! 그 어리석은 야망과 어처구니없는 인색함 때문에! 당신을 따라다니다가 요절할 생각은 없습니다! 난 이만 떠날 겁니다. 지금 당장!\""
+ ep3_laamps_provisions.1025.desc: "\"[ROOT.Char.GetFirstNameNoTooltip], 난 #EMP 진심으로#! 당신을 지지하려 했습니다. 최선을 다했다고요. 그런데 이건 너무 심하잖아요!\" [leaver.Custom2('MyCharacterIntroduction', ROOT.Char)](은)는 좌절감에 눈물을 흘렸다. [leaver.GetHerHis] 표정에서는 살의마저 느껴졌다.\n\n\"당신을 계속 따랐다간 모조리 죽을 겁니다! 그 어리석은 야심과 어처구니없는 인색함 때문에! 당신을 따라다니다가 요절할 생각은 없습니다! 난 이만 떠날 겁니다. 지금 당장!\""
  ep3_laamps_provisions.1025.a: "잘 가라."
  ep3_laamps_provisions.1030.t: "굶주린 병사"
  ep3_laamps_provisions.1030.desc: "병사들의 탈영이 이어지고 있지만, 대부분은 훌쩍 떠날 기력조차 남지 않았다.\n\n추종자들의 수가 날이 갈수록 줄어든다. 굶주림과 갈증, 온갖 질병에 버티지 못해 하나둘 쓰러지고 있었다."

@@ -326,34 +326,6 @@ conquest_oath_memory = {
 	}
 }
 
-held_coronation_object_memory = {
-	categories = { positive activity coronation }
-	icon = "activity_coronation.dds"
-	description = {
-		first_valid = {
-			desc = held_coronation_object_memory_desc
-		}
-	}
-
-	second_perspective_description = {
-		first_valid = {
-			desc = held_coronation_object_memory_desc_second_perspective
-		}
-	}
-
-	third_perspective_description = {
-		first_valid = {
-			desc = held_coronation_object_memory_desc_third_perspective
-		}
-	}
-
-	participants = { host }
-
-	duration = {
-		years = memory_default_duration
-	}
-}
-
 coronation_highlighted_memory = {
 	categories = { positive activity coronation }
 	icon = "activity_coronation.dds"
@@ -372,34 +344,6 @@ coronation_highlighted_memory = {
 	third_perspective_description = {
 		first_valid = {
 			desc = coronation_highlighted_memory_desc_third_perspective
-		}
-	}
-
-	participants = { host }
-
-	duration = {
-		years = memory_default_duration
-	}
-}
-
-found_coronation_token_memory = {
-	categories = { positive activity coronation }
-	icon = "activity_coronation.dds"
-	description = {
-		first_valid = {
-			desc = found_coronation_token_memory_desc
-		}
-	}
-
-	second_perspective_description = {
-		first_valid = {
-			desc = found_coronation_token_memory_desc_second_perspective
-		}
-	}
-
-	third_perspective_description = {
-		first_valid = {
-			desc = found_coronation_token_memory_desc_third_perspective
 		}
 	}
 
@@ -466,34 +410,6 @@ coronation_cultural_acceptance_memory = {
 	}
 }
 
-coronation_piety_memory = {
-	categories = { positive activity coronation }
-	icon = "activity_coronation.dds"
-	description = {
-		first_valid = {
-			desc = coronation_piety_memory_desc
-		}
-	}
-
-	second_perspective_description = {
-		first_valid = {
-			desc = coronation_piety_memory_desc_second_perspective
-		}
-	}
-
-	third_perspective_description = {
-		first_valid = {
-			desc = coronation_piety_memory_desc_third_perspective
-		}
-	}
-
-	participants = { host }
-
-	duration = {
-		years = memory_default_duration
-	}
-}
-
 coronation_legitimacy_memory = {
 	categories = { positive activity coronation }
 	icon = "activity_coronation.dds"
@@ -520,34 +436,6 @@ coronation_legitimacy_memory = {
 	duration = {
 		years = memory_default_duration
 	}
-}
-
-coronation_opinion_memory = {
-	categories = { positive activity coronation }
-	icon = "activity_coronation.dds"
-	description = {
-		first_valid = {
-			desc = coronation_opinion_memory_desc
-		}
-	}
-
-	second_perspective_description = {
-		first_valid = {
-			desc = coronation_opinion_memory_desc_second_perspective
-		}
-	}
-
-	third_perspective_description = {
-		first_valid = {
-			desc = coronation_opinion_memory_desc_third_perspective
-		}
-	}
-
-	participants = { host }
-
-	duration = {
-		years = memory_default_duration
-	}	
 }
 
 coronation_friend_memory = {
@@ -596,90 +484,6 @@ coronation_alliance_memory = {
 	third_perspective_description = {
 		first_valid = {
 			desc = coronation_alliance_memory_desc_third_perspective
-		}
-	}
-
-	participants = { host }
-
-	duration = {
-		years = memory_default_duration
-	}
-}
-
-coronation_development_memory = {
-	categories = { positive activity coronation }
-	icon = "activity_coronation.dds"
-	description = {
-		first_valid = {
-			desc = coronation_development_memory_desc
-		}
-	}
-
-	second_perspective_description = {
-		first_valid = {
-			desc = coronation_development_memory_desc_second_perspective
-		}
-	}
-
-	third_perspective_description = {
-		first_valid = {
-			desc = coronation_development_memory_desc_third_perspective
-		}
-	}
-
-	participants = { host }
-
-	duration = {
-		years = memory_default_duration
-	}
-}
-
-coronation_control_memory = {
-	categories = { positive activity coronation }
-	icon = "activity_coronation.dds"
-	description = {
-		first_valid = {
-			desc = coronation_control_memory_desc
-		}
-	}
-
-	second_perspective_description = {
-		first_valid = {
-			desc = coronation_control_memory_desc_second_perspective
-		}
-	}
-
-	third_perspective_description = {
-		first_valid = {
-			desc = coronation_control_memory_desc_third_perspective
-		}
-	}
-
-	participants = { host }
-
-	duration = {
-		years = memory_default_duration
-	}
-}
-
-coronation_popular_opinion_memory = {
-	categories = { positive activity coronation }
-	icon = "activity_coronation.dds"
-	description = {
-		first_valid = {
-			desc = coronation_popular_opinion_memory_desc
-		}
-	}
-
-	second_perspective_description = {
-		first_valid = {
-			desc = coronation_popular_opinion_memory_desc_second_perspective
-		}
-	}
-
-	third_perspective_description = {
-		first_valid = {
-			desc = coronation_popular_opinion_memory_desc_third_perspective
 		}
 	}
 
@@ -764,62 +568,6 @@ coronation_vassal_taxes_memory = {
 	third_perspective_description = {
 		first_valid = {
 			desc = coronation_vassal_taxes_memory_desc_third_perspective
-		}
-	}
-
-	participants = { host }
-
-	duration = {
-		years = memory_default_duration
-	}
-}
-
-coronation_gold_memory = {
-	categories = { positive activity coronation }
-	icon = "activity_coronation.dds"
-	description = {
-		first_valid = {
-			desc = coronation_gold_memory_desc
-		}
-	}
-
-	second_perspective_description = {
-		first_valid = {
-			desc = coronation_gold_memory_desc_second_perspective
-		}
-	}
-
-	third_perspective_description = {
-		first_valid = {
-			desc = coronation_gold_memory_desc_third_perspective
-		}
-	}
-
-	participants = { host }
-
-	duration = {
-		years = memory_default_duration
-	}
-}
-
-coronation_prestige_memory = {
-	categories = { positive activity coronation }
-	icon = "activity_coronation.dds"
-	description = {
-		first_valid = {
-			desc = coronation_prestige_memory_desc
-		}
-	}
-
-	second_perspective_description = {
-		first_valid = {
-			desc = coronation_prestige_memory_desc_second_perspective
-		}
-	}
-
-	third_perspective_description = {
-		first_valid = {
-			desc = coronation_prestige_memory_desc_third_perspective
 		}
 	}
 

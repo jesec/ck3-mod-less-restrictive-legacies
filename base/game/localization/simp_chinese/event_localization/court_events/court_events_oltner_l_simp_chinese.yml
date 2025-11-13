@@ -90,7 +90,7 @@
  court_maintenance.0011.a.tooltip: "你将进入[royal_court|E]"
  court_maintenance.0011.b: "还有其他事需要我注意。"
  court_maintenance.0011.b.tooltip: "你可以选择稍后进入[royal_court|E]"
- court_maintenance.0011.b.tooltip.ach: "你稍后将可以[Concept( 'host', '举办' )|E]一场[coronation|E]"
+ court_maintenance.0011.b.tooltip.ach: "你稍后将可以举办一场[coronation|E]"
  court_maintenance.0011.banner_tooltip: "[messenger.GetName]献上两面新旗帜，一面代表你的家族，一面代表你的宗族"
  court_maintenance.0011.banner_house_tooltip: "[messenger.GetName]赠送了一面绣有你家族纹章的新旗帜"
  court_maintenance.0011.banner_dynasty_tooltip: "[messenger.GetName]赠送了一面绣有你宗族纹章的新旗帜"

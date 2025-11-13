@@ -210,7 +210,7 @@ c_BAL_yeongju = {
 
 #d_BAL_moe_su
 d_BAL_moe_su = {
-	867 = {
+	867.1.1 = {
 		holder = 0
 		liege = 0
 	}

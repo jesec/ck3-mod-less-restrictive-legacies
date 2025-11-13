@@ -241,6 +241,7 @@
  relation_liege_female: "dame lige"
  relation_liege_male: "seigneur lige"
  relation_suzerain: "suzerain[second.Custom('FR_E')]"
+ relation_suzerain_possessive: "suzerain[second.Custom('FR_E')]"
  relation_leader_female: "cheffe"
  relation_leader_male: "chef"
  relation_ward: "pupille"
@@ -672,6 +673,8 @@
  relation_blood_brother_female: "sœur de sang"
  #EP4 custom loc
  relation_disciple: "disciple"
- relation_elder: "aîné"
+ relation_elder: "aîné[second.Custom('FR_E')]"
  relation_disciple_possessive: "disciple"
  relation_elder_possessive: "aîné"
+ relation_tributary: "tributaire"
+ relation_tributary_possessive: "tributaire"

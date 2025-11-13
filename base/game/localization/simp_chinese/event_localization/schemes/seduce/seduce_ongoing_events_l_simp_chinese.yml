@@ -392,7 +392,7 @@
  seduce_ongoing.5005.ending: "\n\n“我一直不知道有你相伴居然这么好，[ROOT.Char.GetFirstNameNoTooltip]！”"
  seduce_ongoing.5005.a: "我还没展示给[target.GetHerHim]看我是多么棒的伴友呢！"
  seduce_ongoing.5006.conversation: "在经过长达一个小时的尬聊之后，[target.GetFirstName]看上去比[target.GetHerHim]这辈子任何时候都要无聊。当我将话题从[target.Custom('herhis_subject_of_interest')]切到[ROOT.GetCharacter.Custom('education_conversation_subject')]时，[target.GetSheHe][target.Custom('quirk_neg_present')]，并表示[target.GetHerselfHimself]要告退。"
- seduce_ongoing.5006.mockery: "“[target.GetTitledFirstNameNoTooltip]！你敢相信吗，实际上[mocked_courtier.Custom2('InsultNoun', ROOT.Char)][mocked_courtier.GetFirstName]……”\n\n我赶紧打住了，因为[target.GetFirstNamePossessive]脸上的轻蔑之情愈发明显。"
+ seduce_ongoing.5006.mockery: "“[ROOT.Char.GetTitledFirstNameNoTooltip]！你敢相信吗，实际上[mocked_courtier.Custom2('InsultNoun', ROOT.Char)][mocked_courtier.GetFirstName]……”\n\n我赶紧打住了，因为[target.GetFirstNamePossessive]脸上的轻蔑之情愈发明显。"
  seduce_ongoing.5006.bodily: "当我靠近[target.GetFirstName]，[ROOT.Char.Custom('quirk_pos_adverb')]微笑并充满暗示地解开我的[ROOT.Char.Custom('GetUpperClothingArticle')]时，[target.GetSheHe]一脸恶心的撒腿子跑路了。"
  seduce_ongoing.5006.fallback: "当我漫无目的地，尝试寻找一些能够和[target.GetFirstName]交流的共同话题时，[target.GetHerHis]的反感似乎变得愈发浓烈了。\n\n没过多久，[target.GetSheHe]就给[target.GetHerselfHimself]自己找了个借口，从我这里溜了。"
  seduce_ongoing.5006.a: "我干嘛要睡这样一个[target.Custom2('InsultNounSexual', ROOT.Char)]？！"

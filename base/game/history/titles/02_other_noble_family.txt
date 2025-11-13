@@ -593,7 +593,13 @@ c_nf_xia_ngwemi = { # WEIMING
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
 	}
+	1066.10.15 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.10.15 } }
+	}
 	1178.1.1 = { holder = 206657 } # King Renzong_4EC1_5B97
+	1178.10.1 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.10.1 } }
+	}
 }
 
 c_nf_xia_mozang = { # MOZANG
@@ -603,8 +609,14 @@ c_nf_xia_mozang = { # MOZANG
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
 	}
+	1066.10.15 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.10.15 } }
+	}
 	1178.1.1 = {
 		holder = 206797
+	}
+	1178.10.1 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.10.1 } }
 	}
 }
 
@@ -614,6 +626,9 @@ c_nf_xia_yeli = { # YELI
 		holder = 206725 # Suogu
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
+	}
+	1066.10.15 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.10.15 } }
 	}
 	1178.1.1 = { holder = 0 }
 }
@@ -625,6 +640,9 @@ c_nf_xia_liang = { # LIANG
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
 	}
+	1066.10.15 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.10.15 } }
+	}
 	1178.1.1 = { holder = 0 }
 }
 
@@ -635,8 +653,14 @@ c_nf_xia_zhuli = { # ZHULI
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
 	}
+	1066.10.15 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.10.15 } }
+	}
 	1178.1.1 = {
 		holder = tangut0014
+	}
+	1178.10.1 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.10.1 } }
 	}
 }
 
@@ -647,8 +671,14 @@ c_nf_xia_bailan = { # BAILAN
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
 	}
+	1066.10.15 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.10.15 } }
+	}
 	1178.1.1 = {
 		holder = tangut0073
+	}
+	1178.10.1 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.10.1 } }
 	}
 }
 
@@ -658,6 +688,9 @@ c_nf_xia_mikemote = { # MIKEMOTE
 		holder = tangut0080 # Loguo
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
+	}
+	1066.10.15 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.10.15 } }
 	}
 	1178.1.1 = { holder = 0 }
 }
@@ -669,8 +702,14 @@ c_nf_xia_weimu = {
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
 	}
+	1066.10.15 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.10.15 } }
+	}
 	1178.1.1 = {
 		holder = 206807
+	}
+	1178.10.1 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.10.1 } }
 	}
 }
 
@@ -680,6 +719,9 @@ c_nf_xia_ezangquhuai = {
 		holder = 206786
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
+	}
+	1066.10.15 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.10.15 } }
 	}
 	1178.1.1 = { holder = 0 }
 }
@@ -691,6 +733,9 @@ c_nf_xia_jyekundo = {
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
 	}
+	1066.10.15 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.10.15 } }
+	}
 	1178.1.1 = { holder = 0 }
 }
 
@@ -701,8 +746,14 @@ c_nf_xia_tangwu = {
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
 	}
+	1066.10.15 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.10.15 } }
+	}
 	1178.1.1 = {
 		holder = tangut0043
+	}
+	1178.10.1 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.10.1 } }
 	}
 }
 
@@ -712,6 +763,9 @@ c_nf_xia_asha = {
 		holder = 305974
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
+	}
+	1178.1.1 = {
+		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
 	}
 }
 

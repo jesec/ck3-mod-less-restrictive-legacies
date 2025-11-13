@@ -216,6 +216,7 @@ house_bloc_desire_to_join_modifiers = {
 			exists = scope:inviter_temp.confederation
 		}
 		add = {
+			value = 0
 			scope:inviter_temp.house = {
 				every_house_member = {
 					limit = {
@@ -237,7 +238,7 @@ house_bloc_desire_to_join_modifiers = {
 					}
 				}
 			}
-			divide = 1000
+			divide = 2000
 			multiply = $MULTIPLIER$
 		}
 		desc = AI_RELATIVE_MILITARY_POWER

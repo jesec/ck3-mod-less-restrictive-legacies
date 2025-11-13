@@ -170,7 +170,7 @@
  childhood.1008.3: "朝食で[victim.GetSheHe]がパンをかじろうとした瞬間、[victim.GetHerHim]の背中を殴ってやった。テーブルの汚れ方はひどいものだったけど、[victim.GetSheHe]が出した声はかなり笑えた！"
  childhood.1008.a: "ストレス解消に役立つ！"
  childhood.1008.b: "もっと殴ろう！"
- childhood.1008.c: "[extra_bully.GetFirstNameNoTooltip]！[victim.Custom2('InsultAdjective', ROOT.Char)] [victim.Custom2('InsultNoun', ROOT.Char)]を標的にするのを手伝って！"
+ childhood.1008.c: "[extra_bully.GetFirstNameNoTooltip]！[victim.Custom2('InsultAdjective', ROOT.Char)][victim.Custom2('InsultNoun', ROOT.Char)]を標的にするのを手伝って！"
  childhood.1009.t: "友の気づかい"
  childhood.1009.opening: "[friend.GetTitledFirstName]はいい友だちだ。[friend.GetSheHe|U]は私が落ち込んでることに気づいて、私が何を考えてるか話すよう説得してくれた。\n\n"
  childhood.1009.1: "「私たちは何のためにここにいる？ [ROOT.Char.GetFaith.FateGodNamePossessive]の計画は何？」"

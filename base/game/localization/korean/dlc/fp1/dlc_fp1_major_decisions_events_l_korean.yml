@@ -1,7 +1,7 @@
 ﻿l_korean:
  #Securing the High Kingdom of the North Sea
  fp1_major_decisions.0001.t: "북부의 고왕"
- fp1_major_decisions.0001.desc: "북해에 자리한 위대한 왕국들을 불변의 왕관 아래 통일하는 것은 내 오랜 야망이었다. 각고의 세월을 견딘 끝에 각국의 지고한 통치자로서 지위를 인정받기에 이르렀으니. 마침내 꿈을 실현하게 되었구나.\n\n주요 봉신들이 신중하게 작성한 서약서에 조인하여 영원한 충성을 맹세하자... 색슨족과 노르웨이인, 데인족 역시 내 권위를 인정할 수밖에 없었다. 이로써 나는 그 누구도 부정하지 못할 북해의 지배자, 고왕으로 즉위했다.\n\n머지않아 내 후손들도 하나의 왕좌 아래 놓인 여러 왕국을 다스리게 되겠지. 그 바람이 이뤄지지 않을지도 모르지만... 지금 상황에서 그게 무슨 소용이겠는가.\n\n비천한 왕관을 쓴 권력자들은 #EMP 전부#! [founder.GetHouse.GetBaseNameNoTooltip] [founder.GetTitleAsNameNoTooltip]의 발밑에 조아리게 되었는데!"
+ fp1_major_decisions.0001.desc: "북해에 자리한 위대한 왕국들을 불변의 왕관 아래 통일하는 것은 내 오랜 야심이었다. 각고의 세월을 견딘 끝에 각국의 지고한 통치자로서 지위를 인정받기에 이르렀으니. 마침내 꿈을 실현하게 되었구나.\n\n주요 봉신들이 신중하게 작성한 서약서에 조인하여 영원한 충성을 맹세하자... 색슨족과 노르웨이인, 데인족 역시 내 권위를 인정할 수밖에 없었다. 이로써 나는 그 누구도 부정하지 못할 북해의 지배자, 고왕으로 즉위했다.\n\n머지않아 내 후손들도 하나의 왕좌 아래 놓인 여러 왕국을 다스리게 되겠지. 그 바람이 이뤄지지 않을지도 모르지만... 지금 상황에서 그게 무슨 소용이겠는가.\n\n비천한 왕관을 쓴 권력자들은 #EMP 전부#! [founder.GetHouse.GetBaseNameNoTooltip] [founder.GetTitleAsNameNoTooltip]의 발밑에 조아리게 되었는데!"
  fp1_major_decisions.0001.a: "영원하라, 강대한 왕국이여!"
  fp1_major_decisions.0002.t: "$fp1_major_decisions.0001.t$"
  fp1_major_decisions.0002.desc: "지난 몇 년간, 주군이신 [founder.GetFirstName] [founder.Custom('GetQueenKing')]께서는 자신이 서거한 이후에도 왕국이 존속하기를 바란다고 누누이 말씀하셨다.\n\n친족 관계를 맺고 분쟁을 해결하면서 하나가 되었으나, 본디 멀찍이 떨어져서 제멋대로 살아가던 왕국들이 아니던가. 아무리 봐도 주군의 바람은 이뤄지지 않을 것 같았다.\n\n한데 오늘 그런 의구심을 불식시키는 일이 벌어졌다. 각국의 봉신들이 [founder.GetFirstNameNoTooltip]께서 수년간 공들였던 상호 충성 서약서에 조인하기로 한 것이다.\n\n마침내 $e_north_sea$에도 $title_high_kingdom$이 탄생하게 되었다!"

@@ -125,7 +125,7 @@
  intrigue_temptation.3020.b: "私の好みからするとうぬぼれすぎている。"
  intrigue_temptation.3020.a.tt: "私は肖像画を取り出す"
  intrigue_temptation.3021.beauty.desc: "[potential_date.Custom2('MyCharacterIntroduction', ROOT.Char)]は目の保養であると多くの者から聞かされている！この肖像画は、[potential_date.GetHerHim]の美しさを捉えきれているのだろうか？"
- intrigue_temptation.3021.generic1.desc: "[potential_date.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]はどうだろう？[potential_date.GetSheHe|U]は[potential_date.Custom('ComplimentAdjective')][potential_date.GetWomanMan]であると広く知られている。しかし、かなり[potential_date.Custom2('InsultAdjective', ROOT.Char)]とも聞いたことがある…"
+ intrigue_temptation.3021.generic1.desc: "[potential_date.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]はどうだろう？[potential_date.GetSheHe|U]は[potential_date.Custom('ComplimentAdjective')][potential_date.GetWomanMan]であると広く知られている。しかし、かなり[potential_date.Custom2('InsultAdjective', ROOT.Char)]人間とも聞いたことがある…"
  intrigue_temptation.3021.generic2.desc: "ああ、[potential_date.Custom('ComplimentAdjective')][potential_date.GetFullName]か！私たちはお似合いだろうか？"
  intrigue_temptation.3021.ugly.desc: "これは[potential_date.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]だろう。[potential_date.GetHerHis|U]の肖像画は実によくできているが、実物とは異なるかもしれないと聞いたことがある…"
  intrigue_temptation.3021.generic3.desc: "この肖像画は[potential_date.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]にほかならない！[potential_date.GetSheHe|U]は[potential_date.Custom('ComplimentAdjective')]らしいが、一方でその[potential_date.Custom2('InsultAdjective', ROOT.Char)]気質に関する噂も聞いたことがある…"

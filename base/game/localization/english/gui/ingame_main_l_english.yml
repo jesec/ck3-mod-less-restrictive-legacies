@@ -291,7 +291,12 @@
  PLAYER_CHANGED_CHARACTER_TEXT_JOIN:1 "Player $NAME$ starts playing as [LEFT_CHARACTER.GetName]"
  DE_JURE_HIERARCHY:0 "[de_jure|E] Hierarchy"
 
- TT_AWAY_FROM_CAPITAL_WIDGET:1 "#T Away from [Character.Custom('GetRealmOrDomicile')|U]#!\nYou are currently away from your [Character.Custom('GetRealmOrDomicileConcept')] in [Character.GetCapitalLocation.GetName], [traveling|E] through [Character.GetCurrentLocation.GetName], \n\n#I Click to view [travel|E] planner#!"
+ TT_TRAVELING_GENERIC_WIDGET: "#T Away from [Character.Custom('GetRealmOrDomicile')|U]#!\nYou are currently away from your [Character.Custom('GetRealmOrDomicileConcept')] in [Character.GetCapitalLocation.GetName], [traveling|E] through [Character.GetCurrentLocation.GetName]. \n\n#I Click to view [travel|E] planner#!"
+ TT_AWAY_FROM_HOME_WIDGET: "#T Away from [Character.Custom('GetRealmOrDomicile')|U]#!\nYou are away from your [Character.Custom('GetRealmOrDomicileConcept')] in [Character.GetCapitalLocation.GetName].\n[SelectLocalization( Or( Character.IsCommandingArmy, Character.IsKnightInArmy ), 'TT_AWAY_IN_ARMY_TEXT', 'TT_AWAY_GENERIC_TEXT' )]"
+ TT_AWAY_IN_ARMY_TEXT: "You are [SelectLocalization( Character.IsCommandingArmy, 'TT_AWAY_COMMANDING_ARMY', 'TT_AWAY_KNIGHT_IN_ARMY' )] located in [SelectLocalization( Character.IsCommandingArmy, Character.GetCommandingArmy.GetLocation.GetName, Character.GetKnightArmy.GetLocation.GetName )]"
+ TT_AWAY_COMMANDING_ARMY: "commanding [Character.GetCommandingArmy.GetNameNoTooltip]"
+ TT_AWAY_KNIGHT_IN_ARMY: "serving as [Character.Custom('KnightCultureNoTooltipLowercase')] in [Character.GetKnightArmy.GetNameNoTooltip]"
+ TT_AWAY_GENERIC_TEXT: "You are currently located in [Character.GetCurrentLocation.GetName]"
  TT_TRAVELING_WITH_DOMICILE_WIDGET:1 "#T Traveling with [Character.Custom('GetRealmOrDomicile')|U]#!\nYou are currently traveling through [Character.GetCapitalLocation.GetName] with your [Character.Custom('GetRealmOrDomicileConcept')]\n\n#I Click to view [travel|E] planner#!"
  ACTIVITY_VIEW_TRAVEL:0 "View Travel"
  SELECT_VALID_OPTION: "Select a valid option"

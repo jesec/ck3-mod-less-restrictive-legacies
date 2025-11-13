@@ -613,7 +613,7 @@
  #Brahmacharya Challenged
  pilgrimage.3401.t: "$pilgrimage_header$ Brahmacharya auf die Probe gestellt"
  pilgrimage.3401.desc: "Unser Yatra hat uns an die Ufer eines Gewässers ([body_of_water.GetName]) geführt. Es funkelt wie zerrissenes Goldblatt im abendlichen Licht der Sonne, und man fühlt sich geradezu zum Baden eingeladen.\n\nMein Blick verharrt auf [bather.GetName], [Select_CString(bather.IsFemale, 'einer', 'einem')] meiner Mit-Yatri, [Select_CString(bather.IsFemale, 'deren', 'dessen')] nackter Leib nur noch in Wasser gehüllt ist.\n\nAuf unserer Unternehmung ([ROOT.Char.GetInvolvedActivity.GetShortName]) wird erwartet, dass man ein fast schon klösterliches [Glossary('Brahmacharya', 'BRAHMACHARAYA_GLOSS')] an den Tag legt und sich von allen lüsternen Gedanken und Impulsen fernhält …"
- pilgrimage.3401.a: "Mit meinem Verlangen als Führerin bade ich in der Schönheit von [bather.GetName]."
+ pilgrimage.3401.a: "Mit meinem Verlangen als Führer bade ich in der Schönheit von [bather.GetFirstNameNoTooltip]."
  pilgrimage.3401.b: "Ich trete ins kalte Wasser und kühle meine Lenden."
  pilgrimage.3401.b.flavor: "Ein Schritt näher am Nirwana."
  BRAHMACHARAYA_GLOSS: "Sanskrit für ‚die Verhaltensweise eines Brahmane einzuhalten“ oder eine Lebensart zu pflegen, die zum Streben nach geweihtem Wissen und spiritueller Befreiung passt. In Teilen erreicht man dies durch das Streben nach einem Zustand ohne Gelüste."

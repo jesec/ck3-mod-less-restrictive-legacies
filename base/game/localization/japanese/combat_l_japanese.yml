@@ -55,7 +55,7 @@
  default_maneuver_desc: "戦場に整然とした形で軍隊を配置する。"
  VICTORY_LABEL: "#P 勝利#!"
  LOSS_LABEL: "#N 敗北#!"
- SIEGE_NAME: "$NAME|V$の[siege|E]"
+ SIEGE_NAME: "$NAME|V$[siege|E]戦"
  RAID_NAME: "[PROVINCE.GetNameNoTooltip|V]の[raid|E]"
  BARTER_NAME: "[PROVINCE.GetNameNoTooltip|V]の[barter|E]任務"
  combat_action_0: "星なし"

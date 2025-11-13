@@ -71,7 +71,7 @@
  court_events.3080.d: "지금은 그대의 능력이 필요하지 않다."
  #I Want a Pony!
  court_events.3090.t: "조랑말 사주세요!"
- court_events.3090.desc: "\"[ROOT.Char.GetMotherFather|U], 말 타는 법 가르쳐 주시면 안 돼요? 세상에서 가장 센 전사가 되고 싶어요!\"\n\n내 수많은 공무 사이로 드물게 끼어 있는 휴식 시간에, 열정 어린 [child.GetFirstNamePossessive] 목소리가 들려왔다. 아이가 시기상조로 야망을 품긴 했지만, 어린아이인데 뭐 어쩌겠는가... 잠시 놀아 준다고 큰일이나 나겠는가?"
+ court_events.3090.desc: "\"[ROOT.Char.GetMotherFather|U], 말 타는 법 가르쳐 주시면 안 돼요? 세상에서 가장 센 전사가 되고 싶어요!\"\n\n내 수많은 공무 사이로 드물게 끼어 있는 휴식 시간에, 열정 어린 [child.GetFirstNamePossessive] 목소리가 들려왔다. 아이가 시기상조로 야심을 품긴 했지만, 어린아이인데 뭐 어쩌겠는가... 잠시 놀아 준다고 큰일이나 나겠는가?"
  court_events.3090.a: "그래, 가자꾸나!"
  court_events.3090.b: "공부 먼저 하거라. 조랑말은 다음에!"
  court_events.3090.b.tt: "지금 열심히 공부하면, 나중에 네가 나이를 더 먹었을 때 가장 멋진 군마를 선물해 주마. 약속이다!"

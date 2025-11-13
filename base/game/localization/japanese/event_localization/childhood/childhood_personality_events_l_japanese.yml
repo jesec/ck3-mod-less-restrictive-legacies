@@ -96,7 +96,7 @@
  child_personality.0027.a: "もうひと眠りしよう。"
  child_personality.0028.desc: "私の毎日は、鉄格子の内側でぼんやりと通り過ぎる。起きて、歩いて――願わくは――食べる…\n\n毎日を埋めるために、自分に課題を与えて、きっちりやり通すことを学んだ。"
  child_personality.0028.a: "勤勉さがカギだ！"
- child_personality.0029.desc: "私の一挙一動を監視するニヤニヤ笑いの守衛、私を閉じ込める[imprisoner.Custom2('InsultAdjective', ROOT.Char)]な[imprisoner.Custom2('InsultNoun', ROOT.Char)]の[imprisoner.GetTitledFirstName]、暗い隅でコソコソするネズミ… 私の内側で怒りが渦巻いていて、1日過ぎるごとに強くなっている！"
+ child_personality.0029.desc: "私の一挙一動を監視するニヤニヤ笑いの守衛、私を閉じ込める[imprisoner.Custom2('InsultAdjective', ROOT.Char)][imprisoner.Custom2('InsultNoun', ROOT.Char)]の[imprisoner.GetTitledFirstName]、暗い隅でコソコソするネズミ… 私の内側で怒りが渦巻いていて、1日過ぎるごとに強くなっている！"
  child_personality.0029.a: "ただ… ひたすら… ぐああ！"
  child_personality.0030.desc: "この状況を変えるために私にできることは限られている。1日単位でも、もっと広い意味でも。できることも言えることも、あまりない。"
  child_personality.0030.a: "受け流すことを学んだ。"

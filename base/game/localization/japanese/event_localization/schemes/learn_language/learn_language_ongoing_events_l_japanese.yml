@@ -51,7 +51,7 @@
  learn_language_ongoing.1060.desc: "「…怯える[target.Custom('lowly_servant_type')]に見守られながら、錬金術師は[target.Custom('RandomWeirdObject')]に手を伸ばした。すると——」突然、激怒した[offended_character.GetTitledFirstName]が割り込んでくる。\n\n「今、私の愛する[offended_character.Custom('MotherFather')]を[offended_character.Custom2('InsultNoun', SCOPE.sC('offended_character'))]、[offended_character.Custom2('InsultNounSexual', SCOPE.sC('offended_character'))]と呼んだか？」[offended_character.GetSheHe]は叫ぶ。「この重大な侮辱に対する責任を取ってもらうぞ！」\n\n[scheme.GetTargetCharacter.GetCulture.GetLanguage.GetName]をもっと練習する必要があるかもしれない…"
  learn_language_ongoing.1060.a: "大変申し訳ない！ これで足りるだろうか。"
  learn_language_ongoing.1060.b: "おっと、聞き違いだ！私は[offended_character.GetSheHe]を#EMP [offended_character.Custom('ComplimentAdjective')]#!、そして#EMP [offended_character.Custom('RomanticComplimentNoun')]#!と呼んだのだ！"
- learn_language_ongoing.1060.c: "ハハハ！そのとおり、しかも[offended_character.GetSheHe]は#EMP [offended_character.Custom2('InsultAdjective', ROOT.Char)]#!！"
+ learn_language_ongoing.1060.c: "ハハハ！そのとおり、しかも[offended_character.GetSheHe]は#EMP [offended_character.Custom2('InsultAdjective', ROOT.Char)]#!人間だ！"
  learn_language_ongoing.1060.d: "私は今、[scheme.GetTargetCharacter.GetCulture.GetLanguage.GetNameNoTooltip]を練習しているところだ！さっきのは言い間違えただけだ！"
  extra_careful_modifier: "ものすごく慎重"
  carefully_chosen_words_modifier: "選び抜かれた言葉"

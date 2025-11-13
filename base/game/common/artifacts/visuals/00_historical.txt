@@ -925,3 +925,18 @@ hydraulic_organ = {
 	icon = "artifact_icons_hydraulic_organ.dds"
 	asset = ep3_hydraulic_organ_01_a_entity
 }
+
+pedestal_sword_japan_single = {
+	icon = "tgp_japanese_sword_01_a.dds"
+	asset = tgp_japanese_sword_03_entity
+}
+
+japanese_sword = {
+	icon = "tgp_japanese_sword_01_a.dds"
+	asset = tgp_japanese_sword_01_a_portrait_entity
+}
+
+armor_japan = {
+	icon = "artifact_armor.dds"
+	asset = tgp_japanese_oyoroi_armor_entity
+}

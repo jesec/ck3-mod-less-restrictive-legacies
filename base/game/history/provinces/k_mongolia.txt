@@ -203,7 +203,7 @@
 11548 = {	#Khaldun
 	culture = mongol
 	religion = tengri_pagan
-	holding = nomad_holding
+	holding = herder_holding
 }
 11547 = {	#Ononekh
 	#Named after local river
@@ -357,7 +357,7 @@
 11551 = {	#Paljigol
 	culture = mongol
 	religion = tengri_pagan
-	holding = nomad_holding
+	holding = herder_holding
 }
 11552 = {	#Ingedei
 	holding = none
@@ -370,7 +370,7 @@
 11556 = {	#Doodonon
 	culture = mongol
 	religion = tengri_pagan
-	holding = nomad_holding
+	holding = herder_holding
 }
 11555 = {	#Kharbelcheer
 	holding = none
@@ -429,7 +429,7 @@
 11597 = {	#Ergunegol
 	culture = mongol
 	religion = tengri_pagan
-	holding = nomad_holding
+	holding = herder_holding
 }
 11598 = {	#Tazimurekh
 	holding = none
@@ -445,7 +445,7 @@
 11590 = {	#Shargazar
 	culture = mongol
 	religion = tengri_pagan
-	holding = nomad_holding
+	holding = herder_holding
 }
 11593 = {	#Toostoigol
 	holding = none
@@ -458,7 +458,7 @@
 11588 = {	#Urtolgod
 	culture = mongol
 	religion = tengri_pagan
-	holding = nomad_holding
+	holding = herder_holding
 }
 11589 = {	#Gantsaardal
 	holding = none
@@ -498,7 +498,7 @@
 11595 = {	#Khiltsaiz
 	culture = mongol
 	religion = tengri_pagan
-	holding = nomad_holding
+	holding = herder_holding
 }
 11602 = {	#Shankortsol
 	holding = none
@@ -531,7 +531,7 @@
 11558 = {	#Khoyorgol
 	culture = mongol
 	religion = tengri_pagan
-	holding = nomad_holding
+	holding = herder_holding
 }
 11557 = {	#Zatalbar
 	holding = none

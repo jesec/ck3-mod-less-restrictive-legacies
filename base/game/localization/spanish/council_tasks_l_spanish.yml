@@ -1,5 +1,5 @@
 ﻿l_spanish:
- ACTIVE_COUNCIL_TASK_TT: "Mi [ActiveCouncilTask.GetPositionType.GetName] [ActiveCouncilTask.GetCouncillor.GetUIName] tiene asignado [ActiveCouncilTask.GetTaskType.GetName|V]."
+ ACTIVE_COUNCIL_TASK_TT: "Mi [ActiveCouncilTask.GetPositionType.GetNameForPlayer|l] [ActiveCouncilTask.GetCouncillor.GetFirstName|V] se ha asignado a [ActiveCouncilTask.GetTaskType.GetName|V]"
  ACTIVE_COUNCIL_TASK_FROZEN_TT: "#T [ActiveCouncilTask.GetTaskType.GetName|V] #!\n@warning_icon! #X Asigna un personaje a este puesto del Consejo para que la tarea siga avanzando.#!"
  POTENTIAL_COUNCIL_TASK_TT: "[ActiveCouncilTask.GetCouncillor.GetUIName] se asignará a [ActiveCouncilTask.GetTaskType.GetName|V]"
  COUNCIL_TASK_TT: "#T [ActiveCouncilTask.GetTaskType.GetName]#!\n[SelectLocalization( GuiPotentialCouncilTask.IsActive, 'ACTIVE_COUNCIL_TASK_TT', 'POTENTIAL_COUNCIL_TASK_TT' )]"
@@ -604,7 +604,7 @@
  kurultai_task.1356.notification: "Gentes explotadas"
  kurultai_task.1356.desc: "El trabajo de [councillor.GetShortUIName] ha tenido efectos desastrosos sobre las tribus locales que viven en [county.GetNameNoTier]."
  kurultai_task.1401.notification: "Asaltantes impresionantes"
- kurultai_task.1401.desc: "Nuestros asaltantes son temidos en todas partes gracias a la instrucción de [councillor.GetShortUIName]."
+ kurultai_task.1401.desc: "Nuestros asaltantes son temidos en todas partes gracias a la dura instrucción de [councillor.GetShortUIName]."
  kurultai_task.1406.notification: "Asaltantes temibles"
  kurultai_task.1406.desc: "Nuestros asaltantes infunden miedo en el corazón de los enemigos en todas partes, tanto dentro como fuera de nuestras fronteras."
  kurultai_task.1451.notification: "Asaltantes normalitos"

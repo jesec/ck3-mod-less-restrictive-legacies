@@ -169,7 +169,7 @@
  yearly.5043.a.a: "なんという時間の無駄だ…"
  yearly.5043.a.b: "なぜ彼らは話さなかったのだろう？"
  yearly.5050.t: "夫婦間のいさかい"
- yearly.5050.desc.a: "「まったくもって許せません！」 \n\n[scoped_spouse.GetFirstName]が私の[ROOT.Char.Custom('GetChamber')]に飛び込んできた。怒りに顔を赤く染め、[ROOT.Char.Custom('ResidenceBuilding')]じゅうに響きそうなほど声を張り上げる。\n\n「[slighting_courtier.GetTitledFirstName]に名誉を穢されました！あんな[slighting_courtier.Custom2('InsultAdjective', SCOPE.sC(scoped_spouse))] [slighting_courtier.Custom2('InsultNoun', SCOPE.sC(scoped_spouse))]は[ROOT.Char.Custom('GetCourt')]から追い出してください！」"
+ yearly.5050.desc.a: "「まったくもって許せません！」 \n\n[scoped_spouse.GetFirstName]が私の[ROOT.Char.Custom('GetChamber')]に飛び込んできた。怒りに顔を赤く染め、[ROOT.Char.Custom('ResidenceBuilding')]じゅうに響きそうなほど声を張り上げる。\n\n「[slighting_courtier.GetTitledFirstName]に名誉を穢されました！あんな[slighting_courtier.Custom2('InsultAdjective', SCOPE.sC('scoped_spouse'))][slighting_courtier.Custom2('InsultNoun', SCOPE.sC('scoped_spouse'))]は[ROOT.Char.Custom('GetCourt')]から追い出してください！」"
  yearly.5050.desc.b: "[scoped_spouse.GetWifeHusband]が書斎に潜んでいることに気づき、驚く。[scoped_spouse.GetHerHis]の表情から、何かに憤慨しているのは明らかだ。だが、[scoped_spouse.GetHerHim]に不安事について話を共有するよう説得するのに手間取ってしまう。\n\n「愛しき方、白状せねばなりませんね。[slighting_courtier.GetFirstName]が私をひどく侮辱したのです。これ以上、あの粗暴な[slighting_courtier.GetWomanMan]の近くにいるなんて、考えるだけでもぞっとします」"
  yearly.5050.a.a: "[slighting_courtier.GetSheHe|U]は明日にはいなくなる！"
  yearly.5050.b.a: "そんなくだらないことで私を煩わせるな。"

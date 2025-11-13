@@ -87,6 +87,7 @@
  minister_of_revenue_desc_with_value: "[minister_of_revenue|E]：$VALUE|+0=$"
  is_a_minister_desc: "[minister|E]である"
  recipient_is_a_minister_desc: "[recipient.GetShortUIName|U]は[minister|E]である"
+ target_is_a_minister_desc: "[CHARACTER.GetShortUIName|U]は[minister|E]である"
  you_are_not_a_minister_desc: "あなたは[minister|E]#bold ではない#!"
  they_are_your_disciple_desc: "あなたの[disciple|E]である"
  is_a_civilian_governor_desc: "あなたは文民の[GetPlayer.Custom('GetGovernorConcept')]である"
@@ -135,3 +136,5 @@
  appointment_timeout_desc_retired_governor: "[CHARACTER.GetShortUIName|U]は最近[governor|E]を退任した"
  appointment_timeout_desc_retired_estate: "[CHARACTER.GetShortUIName|U]は退任を決め、残りの人生を一族の[estate|E]で過ごすことにした"
  appointment_timeout_desc_examinations: "[CHARACTER.GetShortUIName|U]は[examinations|E]に出席している"
+ candidate_pool_ducal_conquest_perk_effect_first: "[civilian_career|E]の[candidate_score|E]：@appointment_score![EmptyScope.ScriptValue( 'candidate_pool_ducal_conquest_perk_score_value' )|+=0]"
+ candidate_pool_loyalty_and_respect_perk_effect_first: "[military_career|E]の[candidate_score|E]：@appointment_score![EmptyScope.ScriptValue( 'candidate_pool_loyalty_and_respect_perk_score_value' )|+=0]"

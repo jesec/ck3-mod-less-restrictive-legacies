@@ -195,3 +195,4 @@
  mpo_greatest_of_khans.0051.opening: "À la vermine [defender_primary.GetAdjective],"
  mpo_greatest_of_khans.0051.desc: "[Select_CString(attacker.IsFemale,'La puissante','Le puissant')] [attacker.GetTitleAsName|l] – [attacker.Custom('FR_CeluiCelle')] qui a tout pris à votre peuple, dont les guerriers envahissent vos terres – vous ordonne :\n\nTournez votre visage en larmes vers le vent et partez loin d’ici. Dites à tous ceux que vous rencontrerez en chemin que le monde appartiendra bientôt aux hordes [attacker.Custom('FR_du_Char_L')][attacker.GetTitleAsNameNoTooltip]."
  mpo_greatest_of_khans.0051.a: "Mon seigneur a échoué... Je suis fini[ROOT.Char.Custom('FR_E')]."
+ gok_noble_army_name: "Serviteurs nobles [army_culture.GetCollectiveNounNoTooltip|l]"

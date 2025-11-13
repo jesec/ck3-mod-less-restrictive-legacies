@@ -66,7 +66,7 @@
  #[EmptyScope.ScriptValue('vengeful_scheme_success_chance_modifier')|0]
  east_europe.0111.t: "$east_europe.0111.t.setup$：[hof.GetTitledFirstNameNoTooltip]への書簡"
  east_europe.0111.desc: "いわゆる[heretic.GetFaith.GetAdherentNamePluralNoTooltip]が、これまでどれほどの期間にわたって見過ごされてきたのか、答えられる者などいるのだろうか？10年？それとも100年？聖マルティヌスが訪れて以来ずっと？\n\nボスニアの未開の地でどれだけ長くこの異端者どもがのさばっていたか知らないが、我々の祖先の慈悲深さは悪い結果を生み出してきたし、私はこのような状況に耐えることができない！[heretic.GetTitledFirstName]のような[heretic.Custom2('InsultNoun', ROOT.Char)]が堂々と[accuser.GetFaith.HighGodName]の名を語るのは許しがたいことなのだ！\n\n世界は無意識に、片田舎に住んでいる者は基本的には善良な[accuser.GetFaith.GetAdherentNamePluralNoTooltip]だと仮定してしまっている。[hof.GetTitledFirstName]にいくらか工夫を凝らした手紙を送れば、こんな思いをせずに済むようになるのかもしれないが…"
- east_europe.0111.a: "[ROOT.Char.Custom('GetWritingInstrument')]と[ROOT.Char.Custom('GetWritingMaterial')]を持て！"
+ east_europe.0111.a: "[ROOT.Char.Custom('WritingInstrument')]と[ROOT.Char.Custom('GetWritingMaterial')]を持て！"
  east_europe.0111.a.tt: "手紙がしたためられます"
  east_europe.0111.b: "もっとほかにすることがある…"
  east_europe.0112.t: "[hof.Custom2('AppropriateGreeting',accuser)]"

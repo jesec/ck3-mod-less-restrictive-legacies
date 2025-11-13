@@ -1,5 +1,5 @@
 ﻿l_french:
- POTENTIAL_COUNCILLOR_TITLE: "Nommer un [CouncilPositionType.GetName|l]"
+ POTENTIAL_COUNCILLOR_TITLE: "Nommer un [CouncilPositionType.GetNameForPlayer|l]"
  CHARACTER_SORT_ALL_SKILLS: "Total des aptitudes"
  POTENTIAL_COUNCILLOR_REASSIGN: "Réaffecter"
  POTENTIAL_COUNCILLOR_ASSIGN: "Affecter"

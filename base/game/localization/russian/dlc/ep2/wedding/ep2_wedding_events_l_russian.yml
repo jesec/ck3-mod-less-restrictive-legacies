@@ -450,7 +450,7 @@
  ep2_wedding.1210.c.success: "[talk_to.GetFirstNameNoTooltip] [Select_CString(talk_to.IsFemale, 'убеждена', 'убежден' )]"
  ep2_wedding.1210.c.failure: "[talk_to.GetFirstNameNoTooltip] думает, что дело нечисто"
  wedding_intimidation_log: "[TARGET_CHARACTER.GetUIName|U] сильно [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'запуганы', Select_CString(TARGET_CHARACTER.IsFemale, 'запугана', 'запуган' ))]. Воспользовавшись этим, [CHARACTER.GetUIName] [Select_CString(CHARACTER.IsLocalPlayer, 'получаете', 'получает' )] рычаг влияния на [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вас', Select_CString(TARGET_CHARACTER.IsFemale, 'нее', 'него' ))]."
- wedding_intimidation_log_title: "Получено влияние"
+ wedding_intimidation_log_title: "Получен рычаг влияния"
  wedding_fealty_log: "[TARGET_CHARACTER.GetUIName|U] сильно [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'запуганы', Select_CString(TARGET_CHARACTER.IsFemale, 'запугана', 'запуган' ))]. Воспользовавшись этим, [CHARACTER.GetUIName] [Select_CString(CHARACTER.IsLocalPlayer, 'убеждаете', 'убеждает' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вас', Select_CString(TARGET_CHARACTER.IsFemale, 'ее', 'его' ))] присягнуть на верность."
  wedding_fealty_log_title: "Новый вассал"
  #Poisonous Relations

@@ -209,8 +209,8 @@
  travel_events.2013.e: "真遗憾，我们赶时间。"
  #Visit a logging camp - Burn off some stress chopping wood
  travel_events.2014.t: "砍啊砍"
- travel_events.2014.desc: "[ROOT.Char.GetCurrentLocation.GetName]伐木营地中间的巨大砧板早已久经使用。似乎它一直都在那里，甚至在人类踏足这片土地之前就存在了。\n\n当我接近宏伟的木墩时，我的肩膀绷紧了，前臂因压力而微微颤抖。\n\n我小心翼翼地把一块废弃的木头放在木墩上，接着迅速举起了斧子。"
- travel_events.2014.a: "#EMP 呼啦！#!"
+ travel_events.2014.desc: "[ROOT.Char.GetCurrentLocation.GetName]伐木营地中间的巨大砧板早已久经使用。似乎它一直都在那里，甚至在人类踏足这片土地之前就存在了。\n\n我四周，工人们挥汗如雨地辛勤劳作，虽然出身低微，却似乎没有背负着世界的重担。\n\n我盯着巨型树桩上的劈木斧，因压力而紧绷的双肩渴求一次释放的契机。"
+ travel_events.2014.a: "我抓住斧柄——#EMP 呼啦！#!"
  travel_events.2014.a_flavor: "接#EMP 招#!，压力！"
  travel_events.2014.a_stress_tt: "压力降低"
  travel_events.2014.a_great_stress_desc: "你的压力大幅降低"

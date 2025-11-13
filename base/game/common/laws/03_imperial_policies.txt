@@ -202,8 +202,27 @@ imperial_policy_laws = {
 					text = imperial_policy_laws_cooldown_desc
 					NOT = { has_variable = imperial_policy_laws_cooldown }
 				}
+				# Filtered with 'trigger_if' to make nicer tooltips
+				trigger_if = {
+					limit = {
+						NOR = {
+							has_realm_law = japanese_bureaucracy_2
+							has_realm_law = japanese_bureaucracy_3
+						}
+					}
+					has_realm_law = japanese_bureaucracy_2
+				}
+				trigger_if = {
+					limit = {
+						NOR = {
+							has_realm_law = japanese_bureaucracy_2
+							has_realm_law = japanese_bureaucracy_3
+						}
+					}
+					has_realm_law = japanese_bureaucracy_3
+				}
+				is_at_war = no
 			}
-			tgp_japan_imperial_expansion_internal_peace_trigger = yes
 		}
 
 		on_pass = {

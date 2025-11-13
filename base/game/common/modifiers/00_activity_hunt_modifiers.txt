@@ -287,3 +287,16 @@ hunt_poet_romance_aptitude_modifier = {
 	attraction_opinion = 5
 	trait_track_lifestyle_poet_xp_gain_mult = 0.25
 }
+
+tgp_hunt_burnt_local_crops = {
+	icon = opinion_negative
+
+	county_opinion_add = -25
+	development_growth_factor = -0.25
+	county_fertility_growth_mult = medium_county_fertility_growth_loss
+}
+
+hunt_faith_desecrated_place_of_worship = {
+	icon = county_modifier_opinion_negative
+	county_opinion_add = -10
+}

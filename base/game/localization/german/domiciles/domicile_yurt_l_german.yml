@@ -620,7 +620,7 @@
  domicile_building_parameter_fishing_yurt_riverside_lakeside_fertility_bonus_lvl_2: "Wenn Euer [domicile|E] in einer [county|E] mit Fluss-, See- oder Meeresufer liegt, erhält diese [county|E] einen „[GetModifier('fishing_yurt_county_modifier_2').GetNameWithTooltip]“-[modifier|E]. Er verschwindet, falls der [domicile|E] verlegt wird"
  domicile_building_parameter_fishing_yurt_riverside_lakeside_fertility_bonus_lvl_3: "Wenn Euer [domicile|E] in einer [county|E] mit Fluss-, See- oder Meeresufer liegt, erhält diese [county|E] einen „[GetModifier('fishing_yurt_county_modifier_3').GetNameWithTooltip]“-[modifier|E]. Er verschwindet, falls der [domicile|E] verlegt wird"
  mpo_decisions_events.0300.a.tt.yurt: "$mystical_yurt_01_domicile_building$ in Eurem [domicile|E]:"
- nomadic_does_not_have_family_yurt: "Ihr habt keine $family_yurt_01_domicile_building$"
+ nomadic_does_not_have_family_yurt: "Ihr habt nicht $family_yurt_01_domicile_building$"
  domicile_building_parameter_unlock_maa_heavy_horse_archers: "Kann [GetMaA('heavy_horse_archers').GetName] als [men_at_arms|E] rekrutieren"
  trade_yurt_unlock_req: "Ihr grenzt nicht an ein nicht-[GetGovernment('nomad_government').GetName|l]es [realm|E]"
  YURT_DOMICILE_MARRIAGE_ACCEPTANCE_MODIFIER: "[domicile_buildings|E] von [actor.GetShortUIName|U]: $VALUE|+=0$"

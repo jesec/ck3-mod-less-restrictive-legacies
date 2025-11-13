@@ -109,7 +109,7 @@
  ep2_wedding.0204.a.tt.success.host:0 "[murder_victim.GetShortUIName] dies"
  ep2_wedding.0204.a.tt.failure.host:0 "[murder_victim.GetShortUIName] survives"
  ep2_wedding.0204.a.spouse_2_murder.tt:0 "[spouse_2.GetShortUIName] dies"
- ep2_wedding.0957.opening:0 "To the [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC(avenging_family))] [ROOT.Char.GetTitledFirstName]"
+ ep2_wedding.0957.opening:0 "To the [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('avenging_family'))] [ROOT.Char.GetTitledFirstName]"
  ep2_wedding.0957.desc.parent:0 "I offered my child into your custody, and you weren't able to protect [spouse_2.GetHerHim].$ep2_wedding.0957.desc_ending$"
  ep2_wedding.0957.desc:0 "My dear [avenging_family.Custom2('RelationToMeShort', SCOPE.sC('spouse_2'))] was put under your protection and this is how you guard [spouse_2.GetHerHim]?$ep2_wedding.0957.desc_ending$"
  ep2_wedding.0957.desc_ending:0 "\n\nMy eyes are filled with tears for [spouse_2.GetHerHis] loss, but in my heart there's only hatred.\n\nI shall get a retribution, one way or another."

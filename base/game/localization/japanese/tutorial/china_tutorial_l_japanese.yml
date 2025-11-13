@@ -96,7 +96,7 @@
  lesson_china_schemes_list: "$lesson_china_STUDY_SCHEME_SEGMENT$"
  lesson_china_schemes_list_desc: "これがあなたの「$study_confucian_classics$」[scheme|E]です。\n\nこれは繰り返される$game_concept_scheme$です。完了時には[scheme_success_chance|E]に基づいて結果が出され、その後再び開始されます。\n\nこの$game_concept_scheme$は[stress|E]を高めるため、最終的には中止しなければならないので注意してください。\n\n#I $game_concept_scheme$を中止するには、$game_concept_scheme$右上角のボタンを使用してください。"
  lesson_china_unpause: "$lesson_basics_quick_resources_time$"
- lesson_china_unpause_desc: "現在、ゲームは一時停止されています。右下から世界の時間が進む早さを調節できます。\n\n#TUT 『Crusader Kings III』は数百年の時間を経て物語が展開するゲームですから、ゆっくりご自分のペースでお楽しみください。#!\n\nゲームの一時停止を解除しないうちは、あなたが参加できる[imperial_examination|E]を誰も開催せず、あなたの「$study_confucian_classics$」[scheme|E]も進行しません。では、ゲームの一時停止を解除して、招待状を待ちましょう！"
+ lesson_china_unpause_desc: "現在、ゲームは一時停止されています。右下から世界の時間が進む早さを調節できます。\n\n#TUT 『Crusader Kings III』は数百年の時間を経て物語が展開するゲームですから、ゆっくりご自分のペースでお楽しみください。#!\n\nゲームの一時停止中は、あなたが参加できる[imperial_examination|E]を誰も開催せず、あなたの「$study_confucian_classics$」[scheme|E]も進行しません。では、ゲームの一時停止を解除して、招待状を待ちましょう！"
  lesson_china_unpause_tt: "$lesson_basics_quick_unpause_tt$"
  lesson_china_done: "$lesson_basics_quick_done$"
  lesson_china_done_desc: "ゲームの一時停止が解除され、時間が進みはじめます。この先、あなたは[GetPlayer.GetHouse.GetName]家の未来を自由に形作ることができます。\n\n#TUT 画面上部の@reactive_advice_icon! リアルタイムヒントには注目しておきましょう。\n\n今のところ、あなたの最も重要な目標は、次の[imperial_examination|E]を待ち、それに参加することです。"

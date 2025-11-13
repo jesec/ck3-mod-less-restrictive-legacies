@@ -367,7 +367,7 @@
  tgp_governor_contract_event.0027.c: "彼らの船は#EMP 我が国の#!海岸に座礁した。したがって彼らの商品は没収する。"
  tgp_governor_contract_event.0027.d: "言葉が通じずとも、身振り手振りで意思疎通できるかもしれない。"
  tgp_governor_contract_event.0027.e: "いいから追い出せ。必要ならば力ずくでもいい。"
- tgp_governor_contract_event.0027.f: "私が引き受けよう。見たところ、私が知っている言語を話すようだ。"
+ tgp_governor_contract_event.0027.f: "$epidemic_events.5902.a$"
  task_contract_reward_effect_temporary_housing_desc: "$label_success_standard$"
  task_contract_reward_effect_search_for_translator_desc: "$label_success_standard$"
  task_contract_reward_effect_confiscate_their_goods_desc: "$label_success_standard$"
@@ -433,7 +433,7 @@
  tgp_governor_contract_event.0032.a_tt: "[monopoly_in_the_marketplace_destination.GetName]に行き、市場の問題を自分が納得のいく形で解決する。"
  tgp_governor_contract_event.0032.b: "単にその商人が成功しているとしか思えないが。"
  tgp_governor_contract_event.0033.t: "市場の独占"
- tgp_governor_contract_event.0033.desc: "正直者の模範となるような商人はめったにいないものだが、あの商人の話は本当だったようだ。\n\n立ち並ぶ屋台の前を歩いていくと、どの店にも同じ屋号がでかでかと掲げられていて、ここまでに見たすべての店を一人の人間が所有していることがわかる。 \n\n最後に見た屋台は、他の屋台よりも数段規模が大きく、手の込んだものだった。店を取り仕切っている[merchant_magnate.GetWomanMan]には風格があり、商人らしくない華やかな衣服をまとっている。間違いなく、これが問題の商人だろう。"
+ tgp_governor_contract_event.0033.desc: "正直者の模範となるような商人はめったにいないものだが、あの商人の話は本当だったようだ。\n\n立ち並ぶ屋台の前を歩いていくと、どの店にも同じ屋号がでかでかと掲げられていて、ここまでに見たすべての店を一人の人間が所有していることがわかる。 \n\n最後に見た屋台は、他の屋台よりも数段規模が大きく、手の込んだものだった。店を取り仕切っている[merchant_magnate.GetWomanMan]には風格があり、誇らしげに笑っている。間違いなく、これが問題の商人だろう。"
  tgp_governor_contract_event.0033.a: "商人に複数の屋台を所有させてはならない。" # (Special governor option)
  tgp_governor_contract_event.0033.b: "市場を拡大し、新しい店を協会の会員限定で競売にかける。"
  tgp_governor_contract_event.0033.c: "このままにしておいてやってもいいが、特権にふさわしい#EMP 料金は払って#!もらおう。"

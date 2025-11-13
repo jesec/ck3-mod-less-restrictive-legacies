@@ -764,7 +764,7 @@
  host_dinner_events.1022.desc.mid.castle: "Наспех испеченный в виде #L [ROOT.Char.GetCulture.GetCollectiveNoun|l]ой#! крепости пирог — печальное зрелище: он просел под собственным весом и теперь расползается на тарелке. Это что, завуалированное оскорбление моей доблести?"
  host_dinner_events.1022.desc.mid.religious: "Пирог, который выглядит как [ROOT.Char.GetFaith.ReligiousSymbol], — возмутительное зрелище. Это богохульство мне настолько отвратительно, что я едва могу даже дотронуться до выпечки."
  host_dinner_events.1022.desc.mid.lewd: "На блюде вызывающе топорщится холмик телесного цвета, определенно напоминающий своей формой срамную часть тела. Неужели [stop_host_scope.GetName] считает, что такая непристойность вызовет у меня интерес?"
- host_dinner_events.1022.desc.outro: "\n\nЯ чувствую, что мне нанесли глубочайшее оскорбление, но [stop_host_scope.GetFirstNameNoTooltip] смотрит на меня таким пронзительным взглядом, что становится понятно: [Select_CString(stop_host_scope.IsFemale, 'она искренне хотела', 'он искренне хотел' )] меня порадовать."
+ host_dinner_events.1022.desc.outro: "\n\nЯ чувствую, что мне нанесли глубочайшее оскорбление, но [stop_host_scope.GetFirstNameNoTooltip] смотрит на меня таким трогательным взглядом, что становится понятно: [Select_CString(stop_host_scope.IsFemale, 'она искренне хотела', 'он искренне хотел' )] меня порадовать."
  host_dinner_events.1022.a: "Ох, какая прелесть!"
  host_dinner_events.1020.likes_it: "[visiting_liege.GetFirstName] в восторге"
  host_dinner_events.1022.b: "«Да как вы смеете!»"

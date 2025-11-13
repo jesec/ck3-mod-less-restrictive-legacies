@@ -40,7 +40,7 @@
  spymaster_task.0311.secret_lover.consort: "\n\n我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secret_holder'))]竟然和[lover.Custom2('MyCharacterIntroduction', ROOT.Char)]搞在了一起！"
  spymaster_task.0311.secret_lover.consort_is_lover: "\n\n[secret_holder.GetSheHe|U]夺走了我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))][lover.GetTitledFirstName]，作为[secret_holder.GetHerHis]的情人！"
  spymaster_task.0311.secret_lover.lover_close_to_me: "\n\n[secret_holder.GetSheHe|U]和我[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))]，[lover.GetTitledFirstName]，搞在了一起。没人能说得清这是怎么发生的，不过如果这件事被人知道了，他们可就丢脸丢大了！"
- spymaster_task.0311.secret_lover.lustful: "\n\n[secret_holder.GetSheHe|U]在和[lover.GetTitledFirstName]偷情。[secret_holder.GetHerHis]的手在[lover.GetTitleTierNamePossessive]身上揉搓，唇与唇在以不同的方式交织……哎呀，要是这事被公之于众，得是多大的丑闻呐！"
+ spymaster_task.0311.secret_lover.lustful: "\n\n[secret_holder.GetSheHe|U]在和[lover.GetTitledFirstName]偷情。[secret_holder.GetHerHis]的手在[lover.GetFirstNamePossessiveNoTooltip]身上揉搓，唇与唇在以不同的方式交织……哎呀，要是这事被公之于众，得是多大的丑闻呐！"
  spymaster_task.0311.secret_lover: "\n\n[secret_holder.GetSheHe|U]偷偷地和[lover.Custom2('MyCharacterIntroduction', ROOT.Char)]搞在了一起。"
  spymaster_task.0346.a.consort: "这是羞辱！"
  spymaster_task.0346.a.close: "事情越来越复杂了。"

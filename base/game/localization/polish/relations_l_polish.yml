@@ -241,6 +241,7 @@
  relation_liege_female: "seniorka"
  relation_liege_male: "senior"
  relation_suzerain: "suzeren"
+ relation_suzerain_possessive: "suzerena"
  relation_leader_female: "przywódczyni"
  relation_leader_male: "przywódca"
  relation_ward: "wychowanek"
@@ -675,3 +676,5 @@
  relation_elder: "starszy"
  relation_disciple_possessive: "adepta"
  relation_elder_possessive: "starszego"
+ relation_tributary: "trybutariusz"
+ relation_tributary_possessive: "trybutariusza"

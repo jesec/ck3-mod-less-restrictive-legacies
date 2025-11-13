@@ -79,7 +79,7 @@
  childhood.7500.participant: "\"이건 [guardian_memory.GetDescription]에 대한 이야기란다. 그래, 내 [guardian.Custom2('RelationToMe', SCOPE.sC('memory_participant'))]에 얽힌...\""
  childhood.7500.participant_dead: "\"이건 [guardian_memory.GetDescription]에 대한 이야기란다. [memory_participant.GetSheHe|U]는 나의 [guardian.Custom2('RelationToMe', SCOPE.sC('memory_participant'))](이)고 [memory_participant.GetDeathReason]로 죽었지...\""
  childhood.7500.no_participant: "\"이건 [guardian_memory.GetDescription]에 대한 이야기란다...\""
- childhood.7500.midpoint: "[guardian.GetFirstNameNoTooltip](은)는 모닥불의 불꽃이 밤하늘에 닿는 동안 계속 이야기를 이어갔다."
+ childhood.7500.midpoint: "[guardian.GetFirstNameNoTooltip](은)는 [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('guardian'))]. 그리고 모닥불의 불꽃이 밤하늘에 닿는 동안 계속 이야기를 이어갔다."
  childhood.7500.family: "\n\n\"...네 가족의 소중함을 기억하거라, [ROOT.Char.GetFirstNameNoTooltip]. 긍지를 가지고 [ROOT.Char.GetHouse.GetNameNoTooltip]의 이름을 새기고 다니거라. #EMP [ROOT.Char.GetHouse.GetMotto].#!\""
  childhood.7500.martial: "\n\n\"...전투를 통해 네 기술과 기량과 재치를 연마하거라. [ROOT.Char.GetFirstNameNoTooltip], 너는 끝도 없이 많은 적을 만나게 될 테니 이길 수 있도록 훈련하여라.\""
  childhood.7500.death: "\n\n\"...사랑하는 [ROOT.Char.GetFirstNameNoTooltip], 내 이야기의 교훈을 기억하거라. 죽음은 우리 모두에게 찾아오지만, 원수가 너보다 일찍 죽게 하거라."

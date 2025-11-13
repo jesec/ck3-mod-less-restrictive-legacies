@@ -55,7 +55,7 @@
  councillor_court_chaplain: "Nadworny kapelan"
  councillor_court_chaplain_possessive: "Nadwornego kapelana"
  councillor_court_chaplain_desc: "$game_concept_court_chaplain_desc$"
- councillor_vizier: "Bratnia dusza"
+ councillor_vizier: "Powiernik"
  councillor_vizier_desc: "Jako władca [Concept('clan_government', 'rządu klanowego')|E] możesz wyznaczyć swojego [Concept('vizier', 'wezyra')|E] lub któregokolwiek ze swoich [Concept('spouses', 'małżonków')|E] jako swojego powiernika. Ktokolwiek zostanie wybrany, będzie wspierać cię w codziennych zadaniach."
  councillor_vizier_possessive: "Powiernika"
  councillor_kurultai: "Członek kurułtaju"

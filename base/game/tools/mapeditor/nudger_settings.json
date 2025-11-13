@@ -713,32 +713,6 @@
 		}, {
 			"object_ref":	{
 				"type":	"mesh",
-				"key":	"great_wall_china_04"
-			},
-			"entry_state":	{
-				"locked":	true,
-				"base_type":	{
-					"type":	"mesh",
-					"key":	"great_wall_china_04"
-				}
-			},
-			"instances":	[]
-		}, {
-			"object_ref":	{
-				"type":	"mesh",
-				"key":	"great_wall_china_05"
-			},
-			"entry_state":	{
-				"locked":	true,
-				"base_type":	{
-					"type":	"mesh",
-					"key":	"great_wall_china_05"
-				}
-			},
-			"instances":	[]
-		}, {
-			"object_ref":	{
-				"type":	"mesh",
 				"key":	"great_wall_china_gate"
 			},
 			"entry_state":	{
@@ -873,15 +847,13 @@
 				"key":	"lakes"
 			},
 			"entry_state":	{
-				"locked":	true,
+				"locked":	false,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"lakes"
 				}
 			},
 			"instances":	[{
-					"locked":	false
-				}, {
 					"locked":	false
 				}, {
 					"locked":	false
@@ -27551,7 +27523,7 @@
 				"key":	"buildings"
 			},
 			"entry_state":	{
-				"locked":	true,
+				"locked":	false,
 				"base_type":	{
 					"type":	"locator",
 					"key":	"buildings"

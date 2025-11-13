@@ -85,7 +85,7 @@
  honorary_guest_desc_for_host: "Es wäre kein mörderisches Festmahl ohne einen $honorary_guest_for_host$. Der Gastgeber kann sich sein Opfer mit Bedacht aussuchen und dessen Leben beenden – sowie das des ganzen Gefolges, wenn er will. Doch er muss auf der Hut sein: Falls jemand das Opfer vermisst, kann dies weitere Folgen haben."
  honorary_guest_regular_desc: "$honorary_guest_desc$"
  honorary_guest_regular_desc_for_host: "$honorary_guest_desc$"
- activity_window_character_honorary_guest: "[SelectLocalization(ObjectsEqual(Activity.GetHost.Self, GetPlayer), '$honorary_guest_for_host|q$', 'honorary_guest')|E]\n[Character.GetShortUINameNoTooltip|U]"
+ activity_window_character_honorary_guest: "[SelectLocalization(ObjectsEqual(Activity.GetHost.Self, GetPlayer), 'honorary_guest_for_host', 'honorary_guest_concept')]\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_honorary_guest_regular: "[honorary_guest|E]\n[Character.GetShortUINameNoTooltip|U]"
  feast_cost_discount_longhouses: "Ort hat $building_type_longhouses_01$"
  feast_cost_discount_farm_estates: "Ort hat $building_type_farm_estates_01$"
