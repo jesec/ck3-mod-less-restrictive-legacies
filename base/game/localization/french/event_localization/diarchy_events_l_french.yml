@@ -10,8 +10,8 @@
  diarch_coup_unequal_truce_for_usurper: "$diarch_coup_unequal_truce_for_liege$"
  ##################################################
  ##Notifications
- diarchies.0000.diarch_fulfills_mandate.t: "Le [liege.GetDiarchTitle|l] remplit son [mandate|El]"
- diarchies.0000.diarch_fails_at_mandate.t: "Le [liege.GetDiarchTitle|l] n’a pas réussi à remplir son [mandate|El]"
+ diarchies.0000.diarch_fulfills_mandate.t: "Le [liege.GetDiarchTitle|l] remplit son mandat"
+ diarchies.0000.diarch_fails_at_mandate.t: "Le [liege.GetDiarchTitle|l] ne réussit pas à remplir son mandat"
  diarchies.0000.diarch_skims_mandate.t: "Le [liege.GetDiarchTitle|l] se sert du [mandate|El] pour ses intérêts personnels"
  diarchies.0000.diarch_fails_to_skim_mandate.t: "Le [liege.GetDiarchTitle|l] échoue à se servir du [mandate|El] pour ses intérêts personnels"
  diarchies.0000.diarch_rejects_mandate.t: "Le [liege.GetDiarchTitle|l] refuse de remplir son [mandate|El] en raison de [personality_traits|El]"

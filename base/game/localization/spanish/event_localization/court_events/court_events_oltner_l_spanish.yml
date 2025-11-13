@@ -90,7 +90,7 @@
  court_maintenance.0011.a.tooltip: "Entrarás en la [royal_court|lE]"
  court_maintenance.0011.b: "Otros asuntos reclaman mi atención."
  court_maintenance.0011.b.tooltip: "Puedes elegir entrar en tu [royal_court|lE] más adelante"
- court_maintenance.0011.b.tooltip.ach: "Podrás [Concept('host', 'celebrar')|E] la [coronation|lE] más tarde"
+ court_maintenance.0011.b.tooltip.ach: "Podrás celebrar una [coronation|lE] más tarde"
  court_maintenance.0011.banner_tooltip: "[messenger.GetName] te presenta dos estandartes, uno para tu casa y otro para tu dinastía"
  court_maintenance.0011.banner_house_tooltip: "[messenger.GetName] presenta un nuevo estandarte con el emblema de tu casa"
  court_maintenance.0011.banner_dynasty_tooltip: "[messenger.GetName] presenta un nuevo estandarte con el emblema de tu dinastía"

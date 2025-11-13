@@ -303,7 +303,7 @@
  tgp_child_personality.wrathful.desc: "\n\n\"저 개가 싫어요!\" [child.GetFirstNameNoTooltip](은)는 노골적으로 분노를 터뜨렸다. \"그냥 쫓아내는 게 아니라 죽여야 했어요!\""
  tgp_child_personality.7201.brave: "대담하고 꺾이지 않는 정신이다. 마음에 드는구나!"
  tgp_child_personality.7201.stubborn: "흔들림 없이 굳건히 서라. 사람에게도 짐승에게도 굴복하지 말거라."
- tgp_child_personality.7201.wrathful: "분노를 올바르게 다스리면 네 야망은 더 커질 것이다."
+ tgp_child_personality.7201.wrathful: "분노를 올바르게 다스리면 네 야심은 더 커질 것이다."
  tgp_child_personality.7201.change.brave: "용기 있게 적에게 맞서라. 그러면 승리는 반드시 뒤따르리라."
  tgp_child_personality.7201.change.stubborn: "흔들림 없이 굳건히 서야 한다. 사람에게도 짐승에게도 굴복하지 말거라."
  tgp_child_personality.7201.change.wrathful: "그 하찮은 짐승의 공격에 분노가 치밀지 않느냐?"

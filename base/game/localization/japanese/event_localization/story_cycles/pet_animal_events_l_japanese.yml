@@ -297,7 +297,7 @@
  pet_animal.3012.a: "[ROOT.Char.Custom('EagleStoryName')]よ、さようなら。"
  pet_animal.3013.t: "[ROOT.Char.Custom('EagleStoryName')]の捜索"
  pet_animal.3013.desc: "私は[ROOT.Char.Custom('EagleStoryName')]のことはよく知っている。[ROOT.Char.Custom('EagleStoryName')]が自分の意思で飛び去った可能性は低い。私は[ROOT.Char.Custom('EagleStoryName')]が最後に目撃された場所を調べ、目撃情報を調べた。\n\n取り調べをしたなかに数名、かなり緊張している様子の者たちがいた。もしかすると何か知っていて隠しているのかもしれない。思案した結果、 "
- pet_animal.3013.desc_thief_1: "私は容疑者として、[accused_thief_1.Custom2('InsultAdjective', ROOT.Char)]という性質を持つ[accused_thief_1.GetName]の名を上げた。"
+ pet_animal.3013.desc_thief_1: "私は容疑者として、[accused_thief_1.Custom2('InsultAdjective', ROOT.Char)]性質を持つ[accused_thief_1.GetName]の名を上げた。"
  pet_animal.3013.desc_thief_2: "$pet_animal.3013.desc_thief_1$だが、かなり[accused_thief_2.Custom2('InsultAdjective', ROOT.Char)][accused_thief_2.GetName]が容疑者である可能性もある…"
  pet_animal.3013.desc_thief_single: "こんなことができるのは一人しかいない…"
  pet_animal.3013.desc_thief_none: " 誰が[ROOT.Char.Custom('EagleStoryName')]を攫ったのか想像もできない。"

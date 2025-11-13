@@ -518,10 +518,11 @@ window = {
 				### SEND BUTTON
 				button_primary = {
 					name = "send_button"
-					enabled = "[MigrationWindow.GetTargetTitle.IsValid]"
+					enabled = "[And( MigrationWindow.GetTargetTitle.IsValid, CharacterInteractionConfirmationWindow.CanSend )]"
 					size = { 400 42 }
 					text = "[CharacterInteractionConfirmationWindow.GetSendName]"
 					onclick = "[MigrationWindow.OnSend]"
+					tooltip = "[CharacterInteractionConfirmationWindow.GetCanSendDescription]"
 				}
 			}
 
@@ -1381,7 +1382,7 @@ types Migration
 
 							widget = {
 								size = { 10 10 }
-								
+
 								dominance_pip = {
 									parentanchor = center
 								}

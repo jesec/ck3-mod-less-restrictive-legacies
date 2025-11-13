@@ -239,7 +239,7 @@
  court_position_desc_champion: "de vous représenter pour les questions d’honneur"
  court_position_desc_hunt: "d’organiser les chasses et protéger le gibier"
  court_position_desc_poet: "de composer des ballades et des sonnets dignes de Votre Majesté"
- court_position_desc_musician: "d’égayer votre oreille et organiser des divertissements"
+ court_position_desc_musician: "de divertir votre oreille et organiser des divertissements"
  court_position_desc_cupbearer: "de verser vos rafraîchissements et veiller à leur qualité"
  court_position_desc_lady: "de vous assister personnellement"
  court_position_desc_eunuch: "de veiller au bon fonctionnement de votre Cour"
@@ -310,7 +310,7 @@
  hold_court_8090_favorites_modifier: "Favoritisme"
  ## A Child of the Court
  hold_court.8100.t: "Un[ward.Custom('FR_E')] enfant de la Cour"
- hold_court.8100.desc.intro: "Je suis face [ward.Custom('FR_au_Char_P')][ward.GetFullNameNicknamed] qui a l’air triste, et de plus en plus au fur et à mesure que s[ward.Custom2('FR_RelationToMeShort_OnA', SCOPE.sC('advocate'))] [advocate.Custom('FR_le_Char_Pi')][advocate.GetTitledFirstName] le pousse gentiment vers mon trône. \n\n« [ROOT.Char.Custom('FR_MonseigneurMadame')|U], se lamente-t-[advocate.Custom('FR_IlElle')], c[ward.Custom('FR_EEtte')] [ward.Custom('GirlBoy')] est"
+ hold_court.8100.desc.intro: "Je suis face [ward.Custom('FR_au_Char_P')][ward.GetFullNameNicknamed] qui a l’air triste, et de plus en plus au fur et à mesure que s[ward.Custom2('FR_RelationToMeShort_OnA', SCOPE.sC('advocate'))] [advocate.Custom('FR_le_Char_Pi')][advocate.GetTitledFirstName] le pousse gentiment vers mon trône. \n\n« [ROOT.Char.Custom('FR_MonseigneurMadame')|U] », se lamente-t-[advocate.Custom('FR_IlElle')], « c[ward.Custom('FR_EEtte')] [ward.Custom('GirlBoy')] est"
  hold_court.8100.desc.vassal: "à la Cour [ward.GetLiege.Custom('FR_du_Char_Pi')][ward.GetLiege.GetTitledFirstName]"
  hold_court.8100.desc.court: "à votre Cour"
  hold_court.8100.desc.body: "sans personne pour veiller sur [ward.Custom('FR_LuiElle')] depuis [ward.Custom('get_hold_court_8100_situation')] de [ward.Custom('FR_get_hold_court_8100_parent_Son')]. Comment envisagez-vous son avenir ? »\n\n"

@@ -15,6 +15,13 @@
 				}
 				set_state_faith = faith:vajrayana
 			}
+			if = { # Chinese influence on bureaucracy and literature
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = { set_court_language = language_chinese }
+			}
 		}
 	}
 	1048.1.19 = {

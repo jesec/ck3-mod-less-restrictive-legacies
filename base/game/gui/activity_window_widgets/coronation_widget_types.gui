@@ -94,7 +94,6 @@
 
 		hbox = {
 			layoutpolicy_horizontal = expanding
-			margin_bottom = 5
 
 			portrait_head_small = {}
 
@@ -149,7 +148,7 @@
 					background = {
 						visible = "[Character.GetInvolvedActivity.GetCurrentPhase.IsCharacterInGuestSubset( Character.Self, 'supporter' )]"
 						tintcolor = { 0.7 0.8 1 0.8 }
-						texture = "gfx/interface/colors/blue.dds"
+						texture = "gfx/interface/colors/grey.dds"
 
 						using = Mask_Rough_Edges
 
@@ -163,7 +162,7 @@
 					background = {
 						visible = "[Character.GetInvolvedActivity.GetCurrentPhase.IsCharacterInGuestSubset( Character.Self, 'detractor' )]"
 						tintcolor = { 0.9 0.7 0.8 0.6 }
-						texture = "gfx/interface/colors/red.dds"
+						texture = "gfx/interface/colors/orange.dds"
 
 						margin = { 0 2 }
 
@@ -228,7 +227,6 @@
 
 		hbox = {
 			layoutpolicy_horizontal = expanding
-			margin_bottom = 5
 
 			icon = {
 				name = "portrait_unknown_head_small_glow"

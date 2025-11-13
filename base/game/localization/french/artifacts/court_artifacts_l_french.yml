@@ -95,6 +95,10 @@
  artifact_wall_sword_muhammad_alqadib: "Al-Qadib, l’épée qui est restée dans la maison de Mahomet"
  artifact_wall_sword_attila_name: "Épée de Dieu"
  artifact_wall_sword_attila_description: "L’épée légendaire d’Attila, chef des Huns et fléau de Dieu. Également connue sous le nom d’épée de Mars."
+ artifact_sword_goujian_name: "L’épée de Goujian"
+ artifact_sword_goujian: "Cette épée ancestrale aurait appartenu au roi Goujian de Yue. Bien que son style soit désuet, cette épée témoigne d’un excellent savoir-faire. Un texte doré en écriture sigillaire dans le style oiseaux et insectes est visible près de la poignée."
+ artifact_sword_goujian_refulgence: "[gujian_sword.GetDesc]\n\nOn pense qu’il s’agit de l’épée nommée « Éclat » que Goujian portait lorsqu’il sollicita les conseils de Confucius."
+ artifact_sword_goujian_purity: "[gujian_sword.GetDesc]\n\nOn pense qu’il s’agit de l’épée « Pureté »."
  #Animals (used in ArtifactAnimalType)
  animal_type_cat: "chat"
  animal_type_dog: "chien"
@@ -730,15 +734,27 @@
  artifact_scepter_pedestal: "Sceptre"
  artifact_wall_icon_court_large: "Grande icône"
  artifact_wall_icon_court_small: "Petite icône"
- artifact_wall_sakanoue_sword_name: "Banke no Hōken"
- artifact_wall_sakanoue_sword_desc: "Cette épée a été maniée par le célèbre général $dynn_Sakanoue$ $Tamuramaro$ et serait chargée de protéger la cour impériale. Elle fut remise par le $king_tenno_male_japanese|l$ $Saga_JP$ à la mort de $Tamuramaro$."
- artifact_higekiri_sword_name: "Higekiri"
- artifact_higekiri_sword_desc: "L’épée « Coupe-barbe » a été commandée en même temps que Hizamaru par $dynn_Minamoto$ no $Mitsunaka$, et transmise à la famille $Seiwa$ $dynn_Minamoto$."
- artifact_hizamaru_sword_name: "Hizamaru"
+ artifact_pedestal_sakanoue_sword_name: "Banke no hōken" #坂家宝剣
+ artifact_pedestal_sakanoue_sword_desc: "Cette épée a été maniée par le célèbre général $dynn_Sakanoue$ $Tamuramaro$ et serait chargée de protéger la Cour impériale. Elle fut remise au palais par le $king_tenno_male_japanese|l$ $Saga_JP$ à la mort de $Tamuramaro$."
+ artifact_higekiri_sword_name: "Higekiri" #髭切
+ artifact_higekiri_sword_desc: "La « Coupe-barbe » a été commandée en même temps que Hizamaru par $dynn_Minamoto$ no $Mitsunaka$, et transmise à la famille $Seiwa$ $dynn_Minamoto$."
+ artifact_hizamaru_sword_name: "Hizamaru" #膝丸
  artifact_hizamaru_sword_desc: "Cette épée a été commandée en même temps que Higekiri par $dynn_Minamoto$ no $Mitsunaka$, et transmise à la famille $Seiwa$ $dynn_Minamoto$."
- artifact_dojigiri_sword_name: "Dojigiri"
- artifact_dojigiri_sword_desc: "Cette épée a été forgée par le célèbre forgeron $Yasutsuna_4$ et transmise à la branche $dynn_Nitta$ de la famille $Seiwa$ $dynn_Minamoto$."
- artifact_mikazuki_munechika_sword_name: "Mikazuki"
- artifact_mikazuki_munechika_sword_desc: "L’épée « Croissant de lune » a été forgée par le célèbre forgeron $dynn_SanjO_$ $Munechika_2$ sous le règne du $king_tenno_male_japanese|l$ $IchijO_$."
- artifact_odenta_sword_name: "Ōtenta"
- artifact_odenta_sword_desc: "Cette épée a été forgée par le célèbre forgeron $Mitsuyo$ sous le règne du $king_tenno_male_japanese|l$ $Shirakawa$."
+ artifact_dojigiri_sword_name: "Dojigiri" #童子切
+ artifact_dojigiri_sword_desc: "Cette épée a été forgée par le célèbre forgeron $Yasutsuna_4$ pour $dynn_Fujiwara$ $Toshihito$ et transmise à la famille $dynn_Fujiwara$."
+ artifact_mikazuki_munechika_sword_name: "Mikazuki" #三日月
+ artifact_mikazuki_munechika_sword_desc: "Le « Croissant de lune » a été forgé par le célèbre forgeron $dynn_SanjO_$ $Munechika_2$ sous le règne du $king_tenno_male_japanese|l$ $IchijO_$."
+ artifact_odenta_sword_name: "Ōtenta" #大典太
+ artifact_odenta_sword_desc: "La « grande tenta » a été forgée par le célèbre forgeron $Mitsuyo$ sous le règne du $king_tenno_male_japanese|l$ $Shirakawa$."
+ artifact_pedestal_hamayumi_bow_name: "Hamayumi" #破魔弓
+ artifact_pedestal_hamayumi_bow_desc: "La « destructrice du mal » a été utilisée par $dynn_Minamoto$ $Yorimasa$, alors convoqué au palais impérial pour chasser les mauvais esprits."
+ artifact_pedestal_seven_branched_sword_name: "Shichishitō" #七支刀
+ artifact_pedestal_seven_branched_sword_desc: "L’« épée à sept branches », une lame en fer dotée de sept fourches en forme de flammes, aurait été offerte en signe d’amitié au $king_tenno_male_japanese|l$ par le roi de Baekje il y a très longtemps."
+ artifact_pedestal_gyerimro_dagger_name: "Dague exotique"
+ artifact_pedestal_gyerimro_dagger_desc: "Cette dague de belle fabrication, dont la poignée et le fourreau sont finement incrustés d’or et de pierres précieuses, est un objet précieux de la Cour de Silla. Elle proviendrait de contrées lointaines situées à l’ouest."
+ artifact_karakawa_armor_name: "Karakawa" #唐皮
+ artifact_karakawa_armor_desc: "Cette armure ō-yoroi finement ouvragée est un héritage de la famille Taira. Elle aurait été offerte par le neveu du $king_tenno_male_japanese|l$ $Kanmu$."
+ artifact_nukemaru_sword_name: "Nukemaru" #抜丸
+ artifact_nukemaru_sword_desc: "Cette épée, qui aurait été remise par Amaterasu à un chasseur à Ise, fut acquise par $dynn_Taira$ $Tadamori$, et on raconte qu’elle se dégaina d’elle-même lorsqu’un serpent le menaça pendant son sommeil."
+ artifact_kogarasumaru_sword_name: "Kogarasumaru" #小烏丸
+ artifact_kogarasumaru_sword_desc: "Le « petit corbeau » a été forgé par Amakuni pour la Cour impériale, puis offert à $dynn_Taira$ $Sadamori$ par le $king_tenno_male_japanese|l$ $Suzaku$ pour ses services lors de la rébellion Jōhei-Tengyō."

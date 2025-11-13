@@ -9,7 +9,7 @@
 			name = "background"
 			alwaystransparent = no
 			size = { 100% 100% }
-			using = DefaultTooltipBackground
+			using = DefaultTooltipBackgroundNoLockedFrame
 		}
 
 		vbox = {
@@ -27,11 +27,11 @@
 				spacing = 10
 
 				background = {
-					using = Background_Window_Header
+					using = Background_Header
 				}
 
 				background = {
-					using = Background_Window_Header_Pattern
+					using = Background_Header_Pattern
 				}
 
 				hbox = {
@@ -212,6 +212,13 @@
 					using = court_position_tooltip_text_format
 				}
 			}
+		}
+
+		widget = {
+			name = "locked_frame"
+			size = { 100% 100% }
+			using = TooltipLockedFrame
+			alwaystransparent = yes
 		}
 	}
 

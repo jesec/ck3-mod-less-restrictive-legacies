@@ -35,7 +35,7 @@
  suggestion_increase_opinion_click: "#I クリックして懐柔工作を開始#!"
  suggestion_raid_label: "襲撃"
  suggestion_raid: "提案：[landed_title.GetNameNoTierNoTooltip]を襲撃しましょう"
- suggestion_raid_desc: "軍勢を[landed_title.GetNameNoTierNoTooltip]に送って[raid|E]すると、[loot|E]を得られます。"
+ suggestion_raid_desc: "軍勢を[landed_title.GetNameNoTierNoTooltip]に送って[raid|E]すると、[loot|E]を獲得できます。"
  suggestion_raid_click: "#I クリックして軍を表示#!"
  suggestion_grant_title_label: "称号の授与"
  suggestion_grant_title: "提案：[recipient.GetShortUINameNoTooltip]に[landed_title.GetNameNoTierNoTooltip]を授与しましょう"

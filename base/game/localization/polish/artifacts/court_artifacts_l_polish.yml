@@ -95,6 +95,10 @@
  artifact_wall_sword_muhammad_alqadib: "Al-Kadib – miecz, który pozostał w domu Mahometa"
  artifact_wall_sword_attila_name: "Miecz Boży"
  artifact_wall_sword_attila_description: "Legendarny miecz wodza Hunów Attyli, Bicza Bożego. Znany również jako Miecz Marsa."
+ artifact_sword_goujian_name: "Miecz Goujiana"
+ artifact_sword_goujian: "Mówi się, że ten starożytny miecz należał niegdyś do króla Goujiana, władcy królestwa Yue. Chociaż jego konstrukcja jest staromodna, miecz charakteryzuje się doskonałym wykonaniem. W pobliżu rękojeści widoczny jest złocony napis skreślony pieczęciowym pismem ptasim."
+ artifact_sword_goujian_refulgence: "[gujian_sword.GetDesc]\n\nUważa się, że jest to miecz o nazwie „Blask”, który Goujian miał przy sobie, gdy zwracał się o radę do Konfucjusza."
+ artifact_sword_goujian_purity: "[gujian_sword.GetDesc]\n\nUważa się, że jest to miecz o nazwie „Czystość”."
  #Animals (used in ArtifactAnimalType)
  animal_type_cat: "kot"
  animal_type_dog: "pies"
@@ -730,15 +734,27 @@
  artifact_scepter_pedestal: "Berło"
  artifact_wall_icon_court_large: "Duża ikona"
  artifact_wall_icon_court_small: "Mała ikona"
- artifact_wall_sakanoue_sword_name: "Banke no Hōken"
- artifact_wall_sakanoue_sword_desc: "Miecz ten należał do słynnego generała $Tamuramaro$ z dynastii $dynn_Sakanoue$. Mówi się, że chronił on cesarski dwór. Został zaprezentowany po śmierci generała $Tamuramaro$ przez ten’nō znanego jako $Saga_JP$."
- artifact_higekiri_sword_name: "Higekiri"
- artifact_higekiri_sword_desc: "Miecz nazywany również „Przycinaczem do brody” został zamówiony wraz z mieczem Hizamaru przez osobę znaną jako $dynn_Minamoto$ no $Mitsunaka$ i był przekazywany kolejnym pokoleniom rodziny $Seiwa$ $dynn_Minamoto$."
- artifact_hizamaru_sword_name: "Hizamaru"
+ artifact_pedestal_sakanoue_sword_name: "Banke no Hōken" #坂家宝剣
+ artifact_pedestal_sakanoue_sword_desc: "Miecz ten należał do słynnego generała $Tamuramaro$ z rodu $dynn_Sakanoue$. Mówi się, że chronił on cesarski dwór. Został zaprezentowany mieszkańcom pałacu po śmierci generała $Tamuramaro$ przez ten’nō znanego jako $Saga_JP$."
+ artifact_higekiri_sword_name: "Higekiri" #髭切
+ artifact_higekiri_sword_desc: "„Przycinacz do brody” został zamówiony wraz z mieczem Hizamaru przez osobę znaną jako $Mitsunaka$ z rodu $dynn_Minamoto$ i był przekazywany kolejnym pokoleniom rodziny $Seiwa$ $dynn_Minamoto$."
+ artifact_hizamaru_sword_name: "Hizamaru" #膝丸
  artifact_hizamaru_sword_desc: "Miecz ten został zamówiony wraz z mieczem Higekiri przez osobę znaną jako $dynn_Minamoto$ no $Mitsunaka$ i był przekazywany kolejnym pokoleniom rodziny $Seiwa$ $dynn_Minamoto$."
- artifact_dojigiri_sword_name: "Dojigiri"
- artifact_dojigiri_sword_desc: "Miecz ten został wykuty przez słynnego kowala znanego jako $Yasutsuna_4$ i był przekazywany kolejnym pokoleniom dynastii $dynn_Nitta$ z rodziny $Seiwa$ $dynn_Minamoto$."
- artifact_mikazuki_munechika_sword_name: "Mikazuki"
- artifact_mikazuki_munechika_sword_desc: "Miecz nazywany również „Półksiężycem” został wykuty przez słynnego kowala znanego jako $Munechika_2$ z dynastii $dynn_SanjO_$ w czasach panowania ten’nō, którym był $IchijO_$."
- artifact_odenta_sword_name: "Ōtenta"
- artifact_odenta_sword_desc: "Miecz ten został wykuty przez słynnego kowala znanego jako $Mitsuyo$ w czasach panowania ten’nō, którym był $Shirakawa$."
+ artifact_dojigiri_sword_name: "Dojigiri" #童子切
+ artifact_dojigiri_sword_desc: "Miecz ten został wykuty przez słynnego kowala znanego jako $Yasutsuna_4$ dla osoby o imieniu $Toshihito$ z rodu $dynn_Fujiwara$, a później był przekazywany kolejnym pokoleniom rodziny $dynn_Fujiwara$."
+ artifact_mikazuki_munechika_sword_name: "Mikazuki" #三日月
+ artifact_mikazuki_munechika_sword_desc: "„Półksiężyc” został wykuty przez słynnego kowala znanego jako $Munechika_2$ z rodu $dynn_SanjO_$ w czasach panowania ten’nō, którym był $IchijO_$."
+ artifact_odenta_sword_name: "Ōtenta" #大典太
+ artifact_odenta_sword_desc: "„Wielki Tenta” został wykuty przez słynnego kowala znanego jako $Mitsuyo$ w czasach panowania ten’nō, którym był $Shirakawa$."
+ artifact_pedestal_hamayumi_bow_name: "Hamayumi" #破魔弓
+ artifact_pedestal_hamayumi_bow_desc: "„Niszczyciel zła” był używany przez osobę znaną jako $Yorimasa$ z rodu $dynn_Minamoto$, która została wezwana do pałacu, by odpędzić złe duchy."
+ artifact_pedestal_seven_branched_sword_name: "Shichishitō" #七支刀
+ artifact_pedestal_seven_branched_sword_desc: "„Miecz o siedmiu rozgałęzieniach”, żelazne ostrze z siedmioma odnogami przypominającymi płomienie, miało być darem przyjaźni dla ten’nō, wysłanym drogą morską dawno temu przez władcę królestwa Baekje."
+ artifact_pedestal_gyerimro_dagger_name: "Egzotyczny sztylet"
+ artifact_pedestal_gyerimro_dagger_desc: "Ten znakomicie wykonany sztylet, z rękojeścią i pochwą pokrytymi kunsztownymi złotymi inkrustacjami oraz kamieniami szlachetnymi, stanowi cenny nabytek dworu Silla i rzekomo pochodzi z dalekich ziem na zachodzie."
+ artifact_karakawa_armor_name: "Karakawa" #唐皮
+ artifact_karakawa_armor_desc: "Ta misternie wykonana zbroja ō-yoroi jest pamiątką rodzinną rodu Tairów i podobno stanowiła prezent od siostrzeńca ten’nō $Kanmu$."
+ artifact_nukemaru_sword_name: "Nukemaru" #抜丸
+ artifact_nukemaru_sword_desc: "Mówi się, że miecz ten został podarowany myśliwemu w Ise przez samą Amaterasu. Zakupił go $Tadamori$ z rodu $dynn_Taira$; wedle przekazu miecz sam wysunął się z pochwy, gdy wąż zaatakował jego właściciela w trakcie snu."
+ artifact_kogarasumaru_sword_name: "Kogarasumaru" #小烏丸
+ artifact_kogarasumaru_sword_desc: "„Mały Kruk” został wykuty przez Amakuni dla dworu cesarskiego, a następnie podarowany osobie znanej jako $Sadamori$ z rodu $dynn_Taira$ przez ten’nō $Suzaku$ za zasługi w powstaniu Jōhei-Tengyō."

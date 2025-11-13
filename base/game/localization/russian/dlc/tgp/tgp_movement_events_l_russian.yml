@@ -91,7 +91,7 @@
  tgp_movement_events.0100.desc: "«[Select_CString(ROOT.Char.IsFemale, 'Великая', 'Великий' )] [ROOT.Char.GetTitleAsNameNoTooltip|l], — из темноты говорит [Select_CString(spymaster.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spymaster'))] [spymaster.GetTitledFirstName]. Под [Select_CString(spymaster.IsFemale, 'ее', 'его' )] ногами чуть слышно скрипят половицы.\n\n«До нас дошли сведения, что [rival.GetTitledFirstName], глава движения „[rival_movement.GetName]“, не так уж и [Select_CString(rival.IsFemale, 'принципиальна', 'принципиален' )] в своих взглядах. [Select_CString(rival.IsFemale, 'Ее', 'Его' )] можно… переубедить»."
  tgp_movement_events.0100.aa: "[Select_CString(rival.IsFemale, 'Она', 'Он' )] понимает, что лучше для [Select_CString(rival.IsFemale, 'нее', 'него' )]."
  tgp_movement_events.0100.a: "«Тогда действуйте»."
- tgp_movement_events.0100.a.success: "[rival.GetShortUIName] покидает движение «[rival_movement.GetName]»"
+ tgp_movement_events.0100.a.success: "[rival.GetShortUIName] [Select_CString(rival.IsLocalPlayer, 'покидаете', 'покидает')] движение «[rival_movement.GetName]»"
  tgp_movement_events.0100.a.failure: "Все узнают, что у вас нет чести"
  tgp_movement_events.0100.b: "Золото — это лучший аргумент."
  tgp_movement_events.0100.c: "Не нужно отрубать голову, достаточно повредить тело."

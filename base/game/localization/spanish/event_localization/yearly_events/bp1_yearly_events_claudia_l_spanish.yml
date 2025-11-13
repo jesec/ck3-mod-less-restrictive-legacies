@@ -51,7 +51,7 @@
  bp1_yearly.1021.c: "Descansad en paz, mi querid[friend.Custom('ES_OA')] [friend.GetFirstNameNoTooltip]."
  #Till the Bitter End
  bp1_yearly.1030.t: "Hasta el amargo final"
- bp1_yearly.1030.desc: "\n\n«¡JA! ¡Miraos ahora! Ya no dais tanto miedo, ¿verdad? ¿Me reconocéis acaso, so [ROOT.Char.Custom2('InsultNoun', SCOPE.sC(rival))] [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC(rival))]? ¡Soy yo, [rival.GetFirstName]! ¡Tanto tiempo he ansiado veros tan hundid[ROOT.Char.Custom('ES_OA')]!»."
+ bp1_yearly.1030.desc: "\n\n«¡JA! ¡Miraos ahora! Ya no dais tanto miedo, ¿verdad? ¿Me reconocéis acaso, so [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('rival'))] [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('rival'))]? ¡Soy yo, [rival.GetFirstName]! ¡Tanto tiempo he ansiado veros tan hundid[ROOT.Char.Custom('ES_OA')]!»."
  bp1_yearly.1030.desc_nemesis: "\n\n«No solo», replica. Ni siquiera capto el brillo peligroso de sus ojos antes que [nemesis.GetFirstNameNoTooltip] se encuentre junto a mi lecho, con una sonrisa helada en el rostro."
  bp1_yearly.1030.desc_nemesis_guard: "He perdido toda esperanza ¡cuando mi [GetCourtPositionType('bodyguard_court_position').GetName()] [guard.GetFirstName] irrumpe en la alcoba!"
  bp1_yearly.1030.desc_nemesis_no_guard: "Intento moverme, escapar, gritar, #EMP lo que sea#!, pero mi frágil cuerpo hace tiempo que dejó de escucharme…"

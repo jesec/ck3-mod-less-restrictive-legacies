@@ -90,7 +90,7 @@
  court_maintenance.0011.a.tooltip: "Vous allez entrer dans la [royal_court|E]"
  court_maintenance.0011.b: "D’autres sujets requièrent mon attention."
  court_maintenance.0011.b.tooltip: "Vous pouvez choisir d’entrer dans votre [royal_court|E] à un moment ultérieur"
- court_maintenance.0011.b.tooltip.ach: "Vous pourrez [Concept('host', 'organiser')|E] un [coronation|El] ultérieurement"
+ court_maintenance.0011.b.tooltip.ach: "Vous pourrez organiser un [coronation|El] ultérieurement"
  court_maintenance.0011.banner_tooltip: "[messenger.Custom('FR_le_Char')|U][messenger.GetName] présente deux nouvelles bannières, une pour votre Maison et une pour votre dynastie"
  court_maintenance.0011.banner_house_tooltip: "[messenger.Custom('FR_le_Char')|U][messenger.GetName] présente une nouvelle bannière comme emblème de votre Maison"
  court_maintenance.0011.banner_dynasty_tooltip: "[messenger.Custom('FR_le_Char')|U][messenger.GetName] présente une nouvelle bannière comme emblème de votre dynastie"

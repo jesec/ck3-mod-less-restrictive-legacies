@@ -10,8 +10,8 @@
  diarch_coup_unequal_truce_for_usurper: "$diarch_coup_unequal_truce_for_liege$"
  ##################################################
  ##Notifications
- diarchies.0000.diarch_fulfills_mandate.t: "[liege.GetDiarchTitle|U]推进[mandate|E]"
- diarchies.0000.diarch_fails_at_mandate.t: "[liege.GetDiarchTitle|U]未能成功推进[mandate|E]"
+ diarchies.0000.diarch_fulfills_mandate.t: "[liege.GetDiarchTitle|U]推进天命"
+ diarchies.0000.diarch_fails_at_mandate.t: "[liege.GetDiarchTitle|U]未能成功推进天命"
  diarchies.0000.diarch_skims_mandate.t: "[liege.GetDiarchTitle|U]从[mandate|E]中捞了一笔"
  diarchies.0000.diarch_fails_to_skim_mandate.t: "[liege.GetDiarchTitle|U]没能从[mandate|E]中捞一笔"
  diarchies.0000.diarch_rejects_mandate.t: "[liege.GetDiarchTitle|U]因[personality_trait|E]拒受[mandate|E]"

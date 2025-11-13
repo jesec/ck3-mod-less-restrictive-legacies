@@ -198,7 +198,7 @@
  ep3_emperor_yearly.2160.b.tt2: "Votre [Concept('governor_efficiency','efficacité de gouverneur')|E] diminue de #N 5%#!"
  #Secret Tunnels
  ep3_emperor_yearly.2170.t: "Galeries souterraines secrètes"
- ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier] est une région difficile et notre contrôle y est ténu dans le meilleur des cas. Ses habitants sont des survivants endurcis, dont la connaissance et la maîtrise de leur terre dure et sauvage sont sans égales.\n\nProfondément enfouis sous la surface de la terre, ils ont creusé un réseau de tunnels, de refuges secrets et de lieux de vie souterrains. Ils s’y abritent des intempéries, des attaques ennemies et des collecteurs d’impôts qui viennent leur réclamer ce qu’ils doivent à César."
+ ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier] est une région difficile et notre contrôle y est ténu dans le meilleur des cas. Ses habitants sont des survivants endurcis, dont la connaissance et la maîtrise de la terre dure et sauvage sont sans égales.\n\nProfondément enfouis sous la surface de la terre, ils ont creusé un réseau de tunnels, de refuges secrets et de lieux de vie souterrains. Ils s’y abritent des intempéries, des attaques ennemies et des collecteurs d’impôts qui viennent leur réclamer ce qu’ils doivent [ROOT.Char.GetTopLiege.Custom('FR_au_Char_L')][ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip|l]."
  ep3_emperor_yearly.2170.a: "Nous pourrions faire de même..."
  ep3_emperor_yearly.2170.b: "Cette pratique illégale doit cesser."
  #A Warm Meal?
@@ -231,6 +231,7 @@
  #The Emperor's Gold
  ep3_emperor_yearly.2200.t: "L’or de l’Empereur"
  ep3_emperor_yearly.2200.desc: "Si quelqu’un n’est pas digne du trône impérial, c’est bien [liege.GetFirstName].\n\nTous nos impôts vont à [Select_CString(liege.IsFemale,'cette paresseuse','ce paresseux')]. [capital.GetNameNoTier] s’enrichit pendant que le [governorship.GetName] vit dans la pauvreté.\n\nCependant, nous ne sommes pas obligés de partager l’or avec [liege.Custom('FR_LuiElle')]. Je pourrais le dépenser bien plus sagement..."
+ ep3_emperor_yearly.2200.desc.c_monarch: "[liege.Custom('FR_le_Char_Pi')|U][liege.GetTitledFirstName] n’est pas digne de guider [ceremonial_monarch.Custom('FR_le_Char_L')][ceremonial_monarch.GetTitleAsName|l].\n\nTous nos impôts vont à [Select_CString(liege.IsFemale,'cette paresseuse','ce paresseux')]. [capital.GetNameNoTier] s’enrichit pendant que [governorship.GetName] vit dans la pauvreté.\n\nCependant, nous ne sommes pas obligés de partager l’or avec [liege.Custom('FR_LuiElle')]. Je pourrais le dépenser bien plus sagement..."
  ep3_emperor_yearly.2200.a: "[liege.GetSheHe|U] ne mérite pas notre or."
  ep3_emperor_yearly.2200.b: "Ma loyauté va au [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip], pas [ROOT.Char.GetTopLiege.Custom('FR_au_Char_L')][ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]."
  ep3_emperor_yearly.2200.a.tt: "Loyauté indigne"
@@ -274,7 +275,8 @@
  ep3_emperor_yearly.2240.desc_quote_b: "« [Glossary( 'Ho bíos brakhús, he dè tékhne makré', 'ARS_LONGA_GLOSS')] » soupire [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )] en rayant une ligne de quelques notes. Quand est-ce qu’[the_scholar.GetSheHe] m’a rejoint[ROOT.Char.Custom('FR_E')] ?!"
  ep3_emperor_yearly.2240.desc_quote_c: "« [Glossary('Sophòn to saphés', 'SOPHON_GLOSS')] », grommelle [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )] alors qu’[the_scholar.GetSheHe] ne parvient pas – une fois de plus – à suivre des instructions élémentaires."
  ep3_emperor_yearly.2240.desc_quote_latin: "« [Glossary('Omnia vincit amor', 'AMOR_GLOSS')] » pontifie [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )] avec une expression solennelle. Quel est le rapport avec ce dont nous parlions ?!"
- ep3_emperor_yearly.2240.desc_outro: "\n\nQue je déteste quand [the_scholar.GetSheHe] emploie à tort et à travers des citations prétendument antiques !\n\nDes gens autour de nous gémissent et lèvent les yeux au ciel, quel embarras ! Avoir une solide formation classique est certes prestigieux, voire nécessaire, pour une personnalité publique, mais elle est vaine en l’absence de sagesse."
+ ep3_emperor_yearly.2240.desc_quote_confucius: "« [Glossary( 'L’homme supérieur est modeste dans ses paroles, mais excelle dans ses actions', 'CONFUCIUS_GLOSS' )] » pontifie [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )] avec une expression solennelle. Quel est le rapport avec ce dont nous parlions ?!"
+ ep3_emperor_yearly.2240.desc_outro: "\n\n[the_scholar.GetSheHe|U] ne cesse d’employer à tort et à travers des citations prétendument antiques.\n\nDes gens autour de nous gémissent et lèvent les yeux au ciel, quel embarras ! Avoir une solide formation classique est certes prestigieux, voire nécessaire, pour une personnalité publique, mais elle est vaine en l’absence de sagesse."
  ep3_emperor_yearly.2240.a: "En fait, la citation appropriée est la suivante..."
  ep3_emperor_yearly.2240.a.flavor: "Vous essayez de remettre [the_scholar.GetFirstNameNoTooltip] à sa place en montrant à quel point [the_scholar.GetSheHe] est dans l’erreur."
  ep3_emperor_yearly.2240.a_success: "Vos connaissances surpassent les siennes"

@@ -62,7 +62,7 @@
  activity_hunt_host_desc_recent: "\n@warning_icon!#negative_value 所有しているすべての[counties|E]が最近[GetActivityType('activity_hunt').GetName]を主催しました"
  #Conclusion Desc
  activity_hunt_conclusion_desc_legendary_success: "伝説の[activity.Custom('GetLegendaryColor')] [activity.Custom('GetAnimalType')]の狩りがついに完了した！この日のことやこれほどの獣を打ち倒すのに必要とした才が詩文にて歌い継がれるだろう！"
- activity_hunt_conclusion_desc_legendary: "素早い[activity.Custom('GetLegendaryColor')] [activity.Custom('GetAnimalType')]の狩りは、まだ終わりが見えないまま続いている…"
+ activity_hunt_conclusion_desc_legendary: "素早い[activity.Custom('GetLegendaryColor')][activity.Custom('GetAnimalType')]の狩りは、まだ終わりが見えないまま続いている…"
  activity_hunt_conclusion_desc_falconry_success: "[activity.Custom('GetRaptorPlural')]は、誇らしく終わりを告げた！"
  activity_hunt_conclusion_desc_falconry: "[activity.Custom('GetRaptorPlural')]は、狩りに成功しなかった…"
  activity_hunt_conclusion_desc_standard_success: "[activity.Custom('GetAnimalPlural')]の狩りから栄光とともに故郷へ帰還した！"
@@ -320,7 +320,7 @@
  hunt_completed_success_log_title: "狩りの結果"
  hunt_completed_success_log: "[CHARACTER.GetShortUINamePossessive|U]の一団は[CHARACTER.GetInvolvedActivity.Custom('GetAnimalType')]を殺した"
  hunt_completed_failure_log_title: "$hunt_completed_success_log_title$"
- hunt_completed_failure_log: "[CHARACTER.GetShortUINamePossessive|U]の一団は[CHARACTER.GetInvolvedActivity.Custom('GetAnimalType')]を殺せなかった"
+ hunt_completed_failure_log: "[CHARACTER.GetShortUINamePossessive|U] の一団は[CHARACTER.GetInvolvedActivity.Custom('GetAnimalType')]を殺せなかった"
  #APA
  hunt_tracks_character_title: "[hunter.GetShortUINameNoTooltip|U]の発見した痕跡"
  hunt_tracks_option_title: "出席者が興奮した獲物"

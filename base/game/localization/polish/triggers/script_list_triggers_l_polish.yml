@@ -1,6 +1,7 @@
 ﻿l_polish:
  ALL_CLAIMANTS: "Wszyscy [claimants|El]"
  ANY_CLAIMANT: "Dowolny [claimant|El]"
+ NOT_ANY_CLAIMANT: "Nie ma [Concept('claimants', 'pretendentów')|E] do tego tytułu"
  ANY_CHILD: "Dowolne dziecko:"
  ANY_CHILD_FIRST: "Dowolne z moich dzieci:"
  ANY_CHILD_THIRD: "Dowolne z dzieci postaci [CHARACTER.GetShortUINameNotMe]:"

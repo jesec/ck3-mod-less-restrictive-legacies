@@ -943,7 +943,7 @@ types ActivityPlannerNewTypes
 		datacontext = "[ActivityPlanner.GetActivityType]"
 
 		background = {
-			texture = "gfx/interface/component_tiles/tile_window_background_subwindow.dds"
+			texture = "gfx/interface/skinned/tile_window_background_subwindow.dds"
 			spriteType = Corneredtiled
 			spriteborder = { 18 18 }
 			texture_density = 2
@@ -1282,12 +1282,12 @@ types ActivityPlannerNewTypes
 		size = { 100 56 }
 
 			background = {
-				using = Background_Window_Header
+				using = Background_Header
 				margin_left = 30
 			}
 
 			background = {
-				using = Background_Window_Header_Pattern
+				using = Background_Header_Pattern
 				margin_left = 30
 			}
 
@@ -1326,7 +1326,7 @@ types ActivityPlannerNewTypes
 			allow_outside = yes
 
 			background = {
-				texture = "gfx/interface/window_activities/activity_planning/tile_window_background_subwindow_rounded.dds"
+				texture = "gfx/interface/skinned/tile_window_background_subwindow_rounded.dds"
 				spriteType = Corneredtiled
 				spriteborder = { 96 0 }
 				margin = { 0 16 }

@@ -2,7 +2,7 @@
  ### SETUP
  activity_debate: "Debate"
  activity_debate_plural: "Debates"
- activity_debate_destination_selection: "Solo puedes celebrar un $activity_debate$ en una [capital|El] que te pertenezca a ti, al [Concept('movement_leader', 'líder de tu movimiento' )|E], a tu [liege|lE] o a [GetTitleByKey('h_china').GetName]."
+ activity_debate_destination_selection: "Solo puedes celebrar un $activity_debate$ en una [capital|El] que te pertenezca a ti, al [Concept('movement_leader', 'líder de tu movimiento' )|E], a tu [liege|lE] o al [GetTitleByKey('h_china').GetName]."
  activity_debate_selection_tooltip: "Celebra un [GetActivityType('activity_debate').GetName|l] para competir por el poder político: hazte con el poder para ti o para tu movimiento $activity_debate_host_rewards$"
  activity_debate_desc: "Mérito, influencia, #EMP poder#!. Poco importan si somos incapaces de presentar argumentos válidos para nosotros o nuestra causa.\n\nOrganiza un debate para convencer a los otros de que somos dignos de más poder, o para desafiar a otro movimiento y así colocar el tuyo en una posición más favorable."
  activity_debate_host_desc: "$activity_debate_host_rewards$$activity_debate_guest_rewards$"
@@ -16,7 +16,7 @@
  activity_debate_province_kaifeng_palace_desc: "#P ++ $building_type_kaifeng_palace_01$#!"
  activity_debate_province_desc_leader_capital_desc: "#P + [capital|lE] de [GetSituation('dynastic_cycle').GetParticipantGroupByCharacter(host.Self).MakeScope.Var('movement_leader').Char.GetShortUIName|U] ([Concept('movement_leader', 'líder de tu movimiento' )|E])#!"
  activity_debate_province_desc_liege_capital_desc: "#P + [capital|lE] de tu [liege|lE]#!"
- debate_location_validity_desc: "No es una [capital|E] que te pertenezca a ti, al [Concept('movement_leader', 'líder de tu movimiento' )|E], a tu [liege|lE] o a [GetTitleByKey('h_china').GetName]"
+ debate_location_validity_desc: "No es una [capital|E] que te pertenezca a ti, al [Concept('movement_leader', 'líder de tu movimiento' )|E], a tu [liege|lE] o al [GetTitleByKey('h_china').GetName]"
  ### TOOLTIPS
  activity_debate_guest_help_text: "Los [activity_guests|lE] que acudan observarán o participarán en el debate. Los argumentos convincentes otorgan [movement_power|El] o restan poder al otro movimiento. Asistir a los debates es una buena forma de obtener [merit|El], aumentar tu [trait_level_track_xp|El] de [GetTrait('confucian_education').GetName( GetNullCharacter )|l] y asegurar un posible [elder|El]"
  reached_disciple_limit: "Has alcanzado la cantidad máxima de discípulos"
@@ -25,7 +25,7 @@
  gained_many_disciples: "Se ganó a [disciple_3.GetShortUIName|U], [disciple_2.GetShortUIName] y [disciple_1.GetShortUIName|U] como [disciples|lE]"
  gained_few_disciples: "Se ganó a [disciple_2.GetShortUIName|U] y [disciple_1.GetShortUIName] como [Concept('disciples',Select_CString(Or(disciple_2.IsFemale, disciple_1.IsFemale), 'discípulas', 'discípulos' ))|E]"
  gained_one_disciple: "Se ganó a [disciple_1.GetShortUIName|U] como [Concept('disciple',Select_CString(disciple_1.IsFemale,'discípula', 'discípulo' ))|E]"
- gained_new_elder_tt: "Se ganó [new_elder.Custom('ES_AlAla')] [ROOT.Char.MakeScope.Var('new_elder').Char.GetTitledFirstNameNotooltip] como ancian[new_elder.Custom('ES_OA')]"
+ gained_new_elder_tt: "Se ganó a [guest.MakeScope.Var('new_elder').Char.GetFirstName] como ancian[guest.Custom('ES_OA')]"
  activity_window_character_honorary_guest_leader: "[Concept('movement_leader','Líder desafiado')|E]\n[Character.GetShortUINameNoTooltip|U]"
  ### GUEST INVITE RULES
  activity_invite_rule_debate_movement_members: "Miembros de [GetPlayer.Custom('GetMyMovement')]"

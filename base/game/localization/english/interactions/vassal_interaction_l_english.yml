@@ -156,7 +156,7 @@
  pardon_interaction:0 "Grant Pardon"
  pardon_interaction_desc:1 "You consider [recipient.GetName] to be a [criminal|E] ([recipient.GetImprisonmentReasons( actor.Self )]), allowing you to [imprison|E] them at any time without gaining [tyranny|E].\n\nIf you would prefer that they remain free, you can choose to pardon them. This will remove any and all reasons you have to [imprison|E] them and increase their [opinion|E] of you."
  pardon_interaction_minister_desc:1 "[recipient.GetLiege.GetShortUIName] considers [recipient.GetName] to be a [criminal|E] ([recipient.GetImprisonmentReasons( recipient.GetLiege.Self )]), allowing you to [imprison|E] them at any time without gaining [tyranny|E].\n\nIf you would prefer that they remain free, you can choose to pardon them. This will remove any and all reasons [recipient.GetLiege.GetTitleAsNameNoTooltip] has to [imprison|E] them and increase their [opinion|E] of you."
- pardon_interaction_has_jirga_desc: "You will gain prestige due to your $tradition_fp3_jirga_name$#! tradition."
+ pardon_interaction_has_jirga_desc: "You will gain prestige due to your #high $tradition_fp3_jirga_name$#! tradition."
  pardon_interaction_toast:0 "Your benevolent liege, [actor.GetFirstName], has pardoned your crimes!"
  pardon_interaction_toast_minister: "Your benevolent [minister_of_justice|E], [actor.GetFirstName], has pardoned your crimes!"
  pardon_interaction_toast_minister_liege: "[minister_of_justice|E], [actor.GetFirstName], has pardoned [recipient.GetShortUIName] crimes!"

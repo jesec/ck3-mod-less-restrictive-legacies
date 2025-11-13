@@ -198,7 +198,7 @@
  ep3_emperor_yearly.2160.b.tt2: "Ваша [Concept( 'governor_efficiency', 'эффективность губернатора' )|E] снижается на #N 5%#!"
  #Secret Tunnels
  ep3_emperor_yearly.2170.t: "Потайные тоннели"
- ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier] — регион непростой, и наша власть над ним всегда была непрочной. Здесь обитает суровое племя, в совершенстве освоившее все секреты своего дикого и сурового края.\n\nГлубоко под поверхностью земли они вырыли целую сеть тоннелей, потайных убежищ и целых подземных поселений. Там они укрываются от погодных невзгод, от вражеских набегов — и от сборщиков налогов, явившихся забрать то, что причитается кесарю."
+ ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier] — регион непростой, и наша власть над ним всегда была непрочной. Здесь обитает суровое племя, в совершенстве освоившее все секреты своего дикого и сурового края.\n\nГлубоко под поверхностью земли они вырыли целую сеть тоннелей, потайных убежищ и подземных поселений. Там они укрываются от погодных невзгод, от вражеских набегов — и от сборщиков налогов, явившихся забрать то, что [Select_CString(ROOT.Char.GetTopLiege.IsFemale, 'должна', 'должен' )] получить [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip|l]."
  ep3_emperor_yearly.2170.a: "Это может нам пригодиться…"
  ep3_emperor_yearly.2170.b: "Немедленно запретить незаконное строительство!"
  #A Warm Meal?
@@ -231,6 +231,7 @@
  #The Emperor's Gold
  ep3_emperor_yearly.2200.t: "Золото императора"
  ep3_emperor_yearly.2200.desc: "Трудно представить себе человека, более недостойного власти и почестей, чем [liege.GetFirstName].\n\nВсе наши налоги уходят [Select_CString(liege.IsFemale, 'этой лежебоке', 'этому бездельнику' )]. [capital.GetNameNoTier] жирует, пока [governorship.GetName] прозябает в нищете. Впрочем…\n\nНам #EMP не обязательно#! делиться с [Select_CString(liege.IsFemale, 'ней', 'ним' )] золотом. Ему найдется и более разумное применение…"
+ ep3_emperor_yearly.2200.desc.c_monarch: "Трудно представить себе человека, менее достойного власти и почестей, чем [liege.GetTitledFirstName]. [ceremonial_monarch.GetTitleAsName|U] нуждается в более способном распорядителе!\n\nВсе наши налоги уходят [Select_CString(liege.IsFemale, 'этой лежебоке', 'этому бездельнику' )]. [capital.GetNameNoTier] жирует, пока [governorship.GetName] прозябает в нищете. Впрочем…\n\nНам #EMP не обязательно#! делиться с [Select_CString(liege.IsFemale, 'ней', 'ним' )] золотом. Ему найдется и более разумное применение…"
  ep3_emperor_yearly.2200.a: "[liege.GetSheHe|U] не [Select_CString(liege.IsFemale, 'достойна', 'достоин' )] нашего золота."
  ep3_emperor_yearly.2200.b: "[ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip] — мой сюзерен. [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip|l] не властвует надо мной."
  ep3_emperor_yearly.2200.a.tt: "Недостойный сюзерен"
@@ -274,7 +275,8 @@
  ep3_emperor_yearly.2240.desc_quote_b: "«[Glossary( 'Ho bíos brakhús, he dè tékhne makré', 'ARS_LONGA_GLOSS')]», — вздыхает [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )|l], вымарывая из своих записей какие-то строчки. Откуда [the_scholar.GetSheHe] вообще при моем дворе?!"
  ep3_emperor_yearly.2240.desc_quote_c: "«[Glossary( 'Sophòn to saphés', 'SOPHON_GLOSS')]», ворчит под нос [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )|l], когда у [Select_CString(the_scholar.IsFemale, 'нее', 'него' )] в очередной раз не получается выполнить простейшие указания."
  ep3_emperor_yearly.2240.desc_quote_latin: "«[Glossary( 'Omnia vincit amor', 'AMOR_GLOSS')]», — с важным видом заявляет [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )|l]. Какое отношение это имеет к нашей беседе?!"
- ep3_emperor_yearly.2240.desc_outro: "\n\n[the_scholar.GetSheHe|U] #EMP всё время#! так делает, и это выводит меня из себя! Сколько можно цитировать изречения древних мудрецов, причем всегда с ошибками или по неверному поводу?\n\nДругие придворные лишь молча закатывают глаза. Конечно, всякое должностное лицо обязано получить классическое образование, но какой с него прок, если ему не хватает ума использовать знания с толком?"
+ ep3_emperor_yearly.2240.desc_quote_confucius: "«[Glossary( 'Выдающийся человек скромен в своих речах, но превосходит других в своих действиях', 'CONFUCIUS_GLOSS')]», — с важным видом заявляет [the_scholar.Custom2('MyCharacterIntroduction', ROOT.Char )|l]. Какое отношение это имеет к нашей беседе?!"
+ ep3_emperor_yearly.2240.desc_outro: "\n\n[the_scholar.GetSheHe|U] #EMP всё время#! цитирует изречения древних мудрецов, причем всегда с ошибками или по неверному поводу.\n\nДругие придворные лишь молча закатывают глаза. Конечно, всякое должностное лицо обязано получить классическое образование, но какой с него прок, если ему не хватает ума использовать знания с толком?"
  ep3_emperor_yearly.2240.a: "#EMP На самом деле#! там говорится…"
  ep3_emperor_yearly.2240.a.flavor: "Вы указываете на [the_scholar.GetHerHis] ошибку. [the_scholar.GetFirstNameNoTooltip] [Select_CString(the_scholar.IsFemale, 'должна', 'должен' )] знать свое место."
  ep3_emperor_yearly.2240.a_success: "Ваши знания явно превосходят [the_scholar.GetHerHis]"

@@ -167,6 +167,7 @@
  tgp_interaction_event.0030.a_new_elder: "[new_elder.GetFirstNameNoTooltip] is bewitching my pupils?"
  find_elder_interaction: "Find Elder"
  find_elder_interaction_desc: "Find a [character|E] in [recipient.GetShortUINamePossessive] [court|E] to be your [elder|E]"
+ find_elder_interaction_existing_elder_desc: "\n\n@alert_icon! #alert_trial Your current [elder|E] will be replaced"
  recipient_secondary_find_elder_interaction: "New Elder"
  find_elder_interaction_secondary_recipient_decides: "[CHARACTER.GetShortUIName] decides: $VALUE|+=0$"
  find_elder_interaction_yes_key: "[SelectLocalization( ObjectsEqual( CharacterInteractionConfirmationWindow.GetSecondaryRecipient.Self, CharacterInteractionConfirmationWindow.GetRecipient.Self ), 'ANSWER_YES', 'find_elder_interaction_secondary_recipient_accepts' )]"
@@ -235,6 +236,7 @@
  invite_to_house_bloc_interaction: "Invite House to Bloc"
  invite_to_house_bloc_interaction_desc: "Ask [house|E] [recipient.GetHouse.GetBaseName|V] to join your [bloc|E]"
  invite_to_house_bloc_interaction_desc_create: "Found a new [bloc|E] with [house|E] [recipient.GetHouse.GetBaseName]"
+ invite_to_house_bloc_interaction_extra_icon: "$hook_extra_icon$"
  invite_to_house_bloc_leader_tt: "Only the [house_head|E] of the [leading_house|E] may invite [bloc|E] members"
  invite_to_house_bloc_tt: "You must be a [ruler|E] and a [house_head|E]"
  INVITE_TO_HOUSE_BLOC_NOTIFICATION: "Come, you must see the interests of your House align with those of my own — together we are stronger."
@@ -267,13 +269,17 @@
  kicked_from_house_bloc_opinion: "Removed from House Bloc"
 
  set_bloc_leader_tt: "[house|E] [house_temp.GetBaseName] becomes leader of the [bloc_temp.GetName]"
+ 
+ forced_bloc_membership_showing_failures_tt: "You were forced to join the [bloc|E] with a [hook|E] and must remain for #V 10 years#!"
+ bloc_expansion_won_forced_membership_var_tt: "Your [house|E] was forced to join the [bloc|E] after losing a #high $japan_install_bloc_member_cb$#! [war|E] #weak (Expires on [GetCurrentDateWithDiff( GetVarTimeRemaining( THIS.Char.GetHouse.MakeScope, 'bloc_expansion_won_forced_membership_var') )])#!"
 
  join_house_bloc_interaction: "Join House Bloc"
  join_house_bloc_interaction_desc: "Ask [recipient.GetShortUINamePossessive] permission to join the [recipient.GetConfederation.GetName|V]"
+ join_house_bloc_interaction_extra_icon: "$hook_extra_icon$"
  JOIN_HOUSE_BLOC_NOTIFICATION: "My House and yours have many interests in common. We seek the wisdom of your leadership and the company of your friends."
  join_bloc_already_leading_another_tt: "A [leading_house|E] cannot join another [bloc|E]\n#HELP Leave your current $game_concept_bloc$, or give away $game_concept_bloc_leadership$"
  join_bloc_left_cooldown_tt: "Your [house|E] has left or been removed from this [bloc|E] within the last #V 5 years#!"
- join_bloc_vassal_house_tt: "[vassal|E] [houses|E] cannot leave their [liege_possessive|E] [bloc|E]" #[vassal|E] [houses|E] cannot join a [bloc|E] without their [liege|E] in it.
+ join_bloc_vassal_house_tt: "[vassal|E] [houses|E] cannot join a [bloc|E] without their [liege|E] in it"
  join_bloc_war_tt: "You must not be at [war|E] with anyone besides [recipient.GetShortUIName]"
  join_bloc_recent_house_join_tt: "[houses|E] cannot join another [bloc|E] within #V 5 years#! of joining #weak ([GetTimeDifferenceWithDays( recipient.GetHouse.MakeScope.VarRemaining( 'recently_joined_bloc' ) )] remaining)#!"
 
@@ -290,6 +296,10 @@
  sub_vassal_forced_confederation_tt: "Sub-[vassals|E] may not leave their [liege_possessive|E] [house_bloc|E]"
  sub_vassal_leadership_blocked_tt: "Must not be a [vassal|E] of the [leading_house|E] [house_head|E]"
  assume_house_bloc_recent_house_join_tt: "[house|E] members cannot assume [bloc|E] leadership within #V 5 years#! of joining #weak ([GetTimeDifferenceWithDays( actor.GetHouse.MakeScope.VarRemaining( 'recently_joined_bloc' ) )] remaining)#!"
+ join_bloc_bloc_leader_tt: "You cannot invite a [bloc_leader|E] to your [bloc|E]"
+ 
+ house_confederation_faction_blocker_tt: "You cannot form a [faction|E] against a member of your same [bloc|E]\n#I Use the #high $leave_house_bloc_interaction$#! [character_interaction|E] to attack them#!"
+ house_confederation_join_faction_blocker_tt: "You cannot join a [faction|E] against a member of your same [bloc|E]\n#I Use the #high $leave_house_bloc_interaction$#! [character_interaction|E] to attack them#!"
 
  assume_house_bloc_leadership_interaction: "Claim House Bloc Leadership"
  assume_house_bloc_leadership_interaction_desc: "Raise your [house|E] as leader of the [recipient.GetConfederation.GetName|V]"

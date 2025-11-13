@@ -9,7 +9,7 @@
  ep1_flavor.1000.c.success: "[eunuch_target.GetFirstNameNoTooltip](을)를 설득하여 머무르게 함"
  ep1_flavor.1000.c.failure: "[eunuch_target.GetFirstNameNoTooltip](이)가 당신을 수전노라 부르며 떠남"
  ep1_flavor.1200.t: "$tradition_header$ 영업 비밀"
- ep1_flavor.1200.desc: "환관 [eunuch_target.GetFirstName](이)가 대뜸 내게로 다가왔다.\n\n\"위대하신 영주님은 참으로 박학하십니다. 그러나 인지를 초월하는 영주님의 정신조차 아우르지 못하는 지식은 있기 마련입니다. 그런 지식의 비밀을 영주님께 알려드릴 의향이 있습니다.\" [eunuch_target.GetSheHe]가 속삭였다.\n\n\"물론 무료는 아니랍니다.\"\n\n아무렴 그렇겠지. 어쨌든 흥미가 동하는 제안이야."
+ ep1_flavor.1200.desc: "환관 [eunuch_target.GetFirstName](이)가 대뜸 다가오더니 [eunuch_target.Custom('quirk_pos_pp')].\n\n\"위대하신 영주님은 참으로 박학하십니다. 그러나 인지를 초월하는 영주님의 정신조차 아우르지 못하는 지식은 있기 마련입니다. 그런 지식의 비밀을 영주님께 알려드릴 의향이 있습니다.\" [eunuch_target.GetSheHe]가 속삭였다.\n\n\"물론 무료는 아니랍니다.\"\n\n아무렴 그렇겠지. 어쨌든 흥미가 동하는 제안이야."
  ep1_flavor.1200.a: "언어의 비밀을 안다고 들었소만?"
  ep1_flavor.1200.b: "난 적이 많소. 어찌하면 그자들을 무찌를 수 있겠소?"
  ep1_flavor.1200.c: "난 봉역을 부흥시킬 의무가 있소. 그 비밀을 알려주시오."

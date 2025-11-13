@@ -54,7 +54,7 @@
  fp1_rotting_longships_modifier: "썩어가는 랑스킵"
  fp1_rotting_longships_modifier_desc: "해당 인물의 함선은 항해하기에 적합해 보이지 않습니다."
  fp1_flagship_leviathan_modifier: "거대 기함"
- fp1_flagship_leviathan_modifier_desc: "해당 인물이 소유한 랑스킵은 매우 #EMP 거대#!합니다. 어마어마한 양의 전리품을 보관하고도 남을 정도입니다."
+ fp1_flagship_leviathan_modifier_desc: "해당 인물이 소유한 랑스킵은 매우 #EMP 거대#!합니다. 어마어마한 양의 노획물을 보관하고도 남을 정도입니다."
  fp1_flagship_monster_modifier: "무시무시한 기함"
  fp1_flagship_monster_modifier_desc: "해당 인물이 소유한 랑스킵은 짐승과 괴물, 신화, 역경을 묘사한 조각으로 장식되어 있습니다. 조각상 중에는 자신의 봉신이나 적을 닮은 물건도 여럿 있습니다."
  fp1_flagship_dragon_modifier: "고룡의 기함"

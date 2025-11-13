@@ -45,6 +45,15 @@ target_is_not_war_leader = {
 	third_not = target_is_not_war_leader
 }
 
+target_is_a_minister_desc = {
+	global = target_is_a_minister_desc
+	global_not = target_is_a_minister_desc
+	first = target_is_a_minister_desc
+	first_not = target_is_a_minister_desc
+	third = target_is_a_minister_desc
+	third_not = target_is_a_minister_desc
+}
+
 participant_group_type = {
 	global = participant_group_type_global
 	first = participant_group_type_global

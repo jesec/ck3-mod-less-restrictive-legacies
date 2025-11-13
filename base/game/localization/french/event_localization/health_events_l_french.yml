@@ -37,7 +37,7 @@
  #Disease Contraction, by Mathilda Bjarnehed
  health.1001.t: "[SCOPE.Custom('EventTitleDisease')] : mon corps mortel"
  health.1001.desc: "[ROOT.Char.GetTitleAsNameNoTooltip] ou paysa[ROOT.Char.Custom('FR_NNne')], de haute noblesse ou de basse extraction, peu importe. En fin de compte, nous ne sommes que de simples mortels.\n\nC’est ce que je me suis dit tôt ce matin lorsque je me suis réveillé[ROOT.Char.Custom('FR_E')] avec de la toux et une douleur sourde qui me martelait la tête et la gorge. Mon corps est parcouru de frissons et ma tête fuit par tous les orifices.\n\n"
- health.1001.nophysician.desc: "Je devrais bien pouvoir trouver quelqu’un capable de remédier à cette maudite condition..."
+ health.1001.nophysician.desc: "Il doit bien y avoir quelqu’un à qui je peux demander de remédier à cette maudite condition..."
  health.1001.court_physician.desc: "« J’ai entendu votre respiration sifflante depuis l’autre bout [ROOT.Char.Custom('FR_GetCourt_Du')], [ROOT.Char.Custom('FR_MonseigneurMadame')|U] ! » [physician.GetFirstName], m[physician.Custom('FR_OnA')] médecin, passe la tête dans ma [ROOT.Char.Custom('GetChamber')]. « Si vous le souhaitez, je connais plusieurs remèdes appropriés. »"
  health.1001.a: "Tout ce que je veux, c’est rester au lit..."
  health.1001.b: "Je dois immédiatement rentrer !"

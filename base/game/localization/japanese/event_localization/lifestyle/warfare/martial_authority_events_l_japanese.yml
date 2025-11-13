@@ -67,7 +67,7 @@
  martial_authority_special.1100.c: "見せしめに罰する。"
  martial_authority_special.1100.d: "こっそりその場を離れ、兵士の発案を自分の手柄にする。"
  martial_authority_special.1101.desc: "訓練の成果が現れている。数秒後には、私は[officer.GetTitledFirstName]の腕をしっかりと捕らえていた。「これを教訓にしろ」皆に聞こえるよう私は叫ぶ。「お前たちの[ROOT.Char.GetTitleTierName]は狭量な愚か者を嫌う。階級など関係ない」"
- martial_authority_special.1101.end.desc: "\n\n兵士は感謝し、満面の笑みを見せる。「ありがとうございました。[soldier_friend.GetFirstName]・[soldier_friend.GetDynastyName]は、あなたの最も忠実な下僕となりましょう」"
+ martial_authority_special.1101.end.desc: "\n\n兵士は感謝し、満面の笑みを見せる。「[ROOT.Char.Custom('FormOfAddressForLiege')]、ありがとうございます。[soldier_friend.GetFullNameNoTooltip]は、あなたの最も忠実な下僕となりましょう」"
  martial_authority_special.1101.a: "[soldier_friend.GetFirstNamePossessiveNoTooltip]の戦略を採用する。"
  martial_authority_special.1101.b: "戦争についてより深く知るために戦略を議論する。"
  martial_authority_special.1102.desc: "指揮官を傷つけるとどうなるのかを知っている兵士は、攻撃から身を守ろうとはしなかった。血が流れ出すと、私は2人の間に割って入った。\n\n熟練の戦士と乱闘したのは間違いだった。最終的には、[officer.GetTitledFirstName]に解放してもらうために正体を明かす羽目になった。話が広まる前に、私はこそこそと天幕へ戻った…"

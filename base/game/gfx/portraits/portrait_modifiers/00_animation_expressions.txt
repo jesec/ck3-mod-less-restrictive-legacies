@@ -1165,4 +1165,16 @@ animations = {
 			}
 		}
 	}
+
+	bloodshot_decal = {
+		dna_modifiers = {
+			accessory = {
+				mode = modify
+				gene = eye_accessory
+				template = bloodshot_eyes
+				value = 0.5
+			}
+		}
+	}
+
 }

@@ -14,7 +14,7 @@
  tgp_japan_establish_house_fief_centralization_trigger: "У вашего [Concept('top_liege', 'верховного сюзерена')|E] не должно быть [Concept('law', 'закона')|E] «[GetLaw('japanese_bureaucracy_3').GetName]»"
  tgp_japan_establish_house_fief_direct_descendent_position_trigger: "У вас не должно быть прямого потомка, являющегося [Concept('governor', 'губернатором')|E]"
  tgp_japan_establish_house_fief_found_house_effect: "Ваш [Concept('dynast', 'глава династии')|E] — [Concept('administrative', 'бюрократ')|E], поэтому вы создаете новую [Concept('dynasty', 'династию')|E]"
- tgp_japan_establish_house_fief_change_government_type_effect: "Вы принимаете [Concept('soryo_government', 'правительство хокен')|E]"
+ tgp_japan_establish_house_fief_change_government_type_effect: "Вы принимаете [Concept('soryo_government', 'правительство сорё')|E]"
  tgp_japan_establish_house_fief_direct_descendents_effect: "Все прямые потомки станут членами вашего [Concept('house', 'дома')|E]"
  tgp_japan_establish_house_fief_kampaku_crime_effect: "@warning_icon! #X Этот поступок станет [crime_i|E][Concept('crime', 'преступлением')|E] в глазах [Concept('ceremonial_regent', 'церемониального регента')|E]-[Concept('ritsuryo', 'рицурё')|E]#!\n#HELP Вы можете получить разрешение посредством [Concept('petition_liege', 'обращения')|E] к сюзерену#!"
  tgp_japan_establish_house_fief_castle_effect: "Каждое контролируемое [Concept('capital', 'столичное')|E] [Concept('holding', 'владение')|E] [Concept('county', 'графства')|E] заменяется на [Concept('castle', 'замок')|E]"
@@ -149,4 +149,3 @@
  tgp_japan_emperor_war_decision: "Начать войну за восстановление"
  tgp_japan_emperor_war_decision_desc: "Империя моя по праву рождения, и я не побоюсь применить силу, чтобы она стала моей на деле, а не на словах. Я отказываюсь молча смотреть, как [ROOT.Char.GetTopLiege.GetShortUIName|l] губит мои земли."
  tgp_japan_emperor_war_decision_tooltip: "Ваша [Concept('faction', 'фракция')|E] начнет [Concept('war', 'войну')|E], чтобы возвести вас на трон #L [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetAdjective]ой#! державы."
-

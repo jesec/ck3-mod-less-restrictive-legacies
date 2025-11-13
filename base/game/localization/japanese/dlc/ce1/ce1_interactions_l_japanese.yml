@@ -1,6 +1,6 @@
 ﻿l_japanese:
  PROMOTE_LEGEND_NOTIFICATION: "私の伝説を聞いたことがあるだろう？ほかの者にも伝えるべきだ。"
- TRADE_GOLD_FOR_BETTER_AI_ACCEPTANCE: "[gold_i] [gold|E]を送って受諾率を上昇させる"
+ TRADE_GOLD_FOR_BETTER_AI_ACCEPTANCE: "[gold_i] [gold|E]を贈る"
  TRADE_GOLD_FOR_BETTER_AI_ACCEPTANCE_TT: "送った[gold_i] [gold|E]：$VALUE|+0=$"
  LEGEND_HOOK_USED: "使用した[hook|E]：$VALUE|+0=$"
  ce1_ask_to_promote_legend_interaction: "伝説を宣伝するよう頼む"

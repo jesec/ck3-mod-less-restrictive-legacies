@@ -18,7 +18,7 @@
  bastard_interaction.0002.house_head: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))] [legitimized_bastard.GetFirstName](을)를 적자로 만드는 것, 또한 [legitimized_bastard.GetFirstName](이)가 [actor.GetHouse.GetBaseName] 집안의 일원이 되었음을 선언했다. 이 결론을 도출해내기까지 많이 생각해봐야 했다. 또 몇몇은 이 결정에 반대할 것이다. 하지만 이건 옳은 일이다."
  bastard_interaction.0002.dynast: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))][legitimized_bastard.GetFirstName](을)를 [actor.GetDynasty.GetBaseName] 가문의 적법한 자손으로 선언하였다."
  bastard_interaction.0002.approved: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))][legitimized_bastard.GetFirstName](을)를 한 명의 적자이자 [actor.GetHouse.GetBaseName] 가문의 일원으로 선포했다. 이 결론을 도출해내기까지 많은 생각이 필요했다. 몇몇은 이 결정에 반대할 것이다. 하지만 옳은 일이다."
- bastard_interaction.0002.a: "네 미래는 밝을 것이다, [legitimized_bastard.GetFirstNameNoTooltip] [actor.GetHouse.GetNameNoTooltip]."
+ bastard_interaction.0002.a: "네 장래는 밝을 것이다, [legitimized_bastard.GetFullNameNoTooltip]."
  bastard_interaction.0003.t: "끝이 좋으면 다 좋으니"
  bastard_interaction.0003.desc: "결론을 도출할 때까지 시간이 좀 걸리기는 했지만, [actor.GetTitledFirstName]께서 드디어 우리의 [secondary_recipient.Custom('DaughterSon')] [secondary_recipient.GetFirstName](을)를 입적하셨다. [actor.GetHouse.GetBaseName] 가문의 [secondary_recipient.GetFirstName](이)가 되었으니, 내가 꿈도 꾸지 못했던 더 밝은 미래를 누릴 수 있을 테지."
  bastard_interaction.0003.a: "가족의 자랑스러운 일원이 되려무나!"

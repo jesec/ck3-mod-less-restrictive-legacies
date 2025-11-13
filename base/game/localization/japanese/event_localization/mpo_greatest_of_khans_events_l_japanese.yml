@@ -195,3 +195,4 @@
  mpo_greatest_of_khans.0051.opening: "[defender_primary.GetAdjective]の惨めな者どもよ、"
  mpo_greatest_of_khans.0051.desc: "偉大なる[attacker.GetTitleAsName]はお前の臣民からすべてを奪い、その領土を戦士たちで溢れさせた。それゆえ、命じよう。\n\nその涙で濡れた顔を風にさらし、逃げるがいい。世界はまもなく[attacker.GetTitleAsNamePossessiveNoTooltip]軍のものになると、出会う者すべてに伝えよ。"
  mpo_greatest_of_khans.0051.a: "我が主君は敗れた…もう終わりだ。"
+ gok_noble_army_name: "高貴なる[army_culture.GetNameNoTooltip]家臣団"

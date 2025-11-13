@@ -396,8 +396,8 @@ window = {
 										effectname = "PdxGuiDefault"
 										shaderfile = "gfx/FX/pdxgui_default.shader"
 
-										camera_position = { 0 5 -12 }
-										camera_look_at = { 0 5 0 }
+										camera_position = { 0 5 -15 }
+										camera_look_at = { 0 7 0 }
 										gfx_environment_file = "gfx/map/environment/environment_unit_preview.txt"
 										camera_rotation_pitch_limits = { 0 0 }
 										camera_zoom_limits = { 1.0 1.0 }
@@ -425,8 +425,8 @@ window = {
 										effectname = "PdxGuiDefault"
 										shaderfile = "gfx/FX/pdxgui_default.shader"
 
-										camera_position = { 0 5 -12 }
-										camera_look_at = { 0 5 0 }
+										camera_position = { 0 5 -15 }
+										camera_look_at = { 0 7 0 }
 										gfx_environment_file = "gfx/map/environment/environment_unit_preview.txt"
 										camera_rotation_pitch_limits = { 0 0 }
 										camera_zoom_limits = { 1.0 1.0 }
@@ -566,6 +566,43 @@ window = {
 										blockoverride "text"
 										{
 											text = "[Culture.GetNamingListName]"
+										}
+									}
+								}
+							}
+
+							text_label_center = {
+								layoutpolicy_horizontal = expanding
+								text = "CULTURE_CREATION_NAMING_ORDER"
+								default_format = "#low"
+							}
+
+							hbox = {
+								spacing = 5
+
+								vbox = {
+									spacing = 10
+
+									button_generic_selection = {
+										down = "[HybridizationWindow.HasLeftNamingStyle]"
+										onclick = "[HybridizationWindow.SetLeftNamingStyle]"
+
+										blockoverride "text" {
+											text = "[GetPlayer.GetCulture.GetNamingAestheticName]"
+										}
+									}
+								}
+
+								vbox = {
+									visible = "[Not( And( HybridizationWindow.HasLeftNamingStyle, HybridizationWindow.HasRightNamingStyle ) )]"
+									spacing = 10
+
+									button_generic_selection = {
+										down = "[HybridizationWindow.HasRightNamingStyle]"
+										onclick = "[HybridizationWindow.SetRightNamingStyle]"
+
+										blockoverride "text" {
+											text = "[Culture.GetNamingAestheticName]"
 										}
 									}
 								}

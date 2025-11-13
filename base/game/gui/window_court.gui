@@ -28,7 +28,7 @@
 	margin_widget = {
 		size = { 100% 100% }
 		margin_top = 30
-		margin_bottom = 25
+		margin_bottom = 20
 		margin_right = 13
 
 		widget = {
@@ -712,6 +712,12 @@
 						layoutpolicy_horizontal = expanding
 						datacontext = "[CharacterSelectionList.GetFilter('culture_filter')]"
 					}
+
+					filter_item = {
+						layoutpolicy_horizontal = expanding
+						datacontext = "[CharacterSelectionList.GetFilter('trait_filter')]"
+					}
+					
 					filter_item = {
 						layoutpolicy_horizontal = expanding
 						datacontext = "[CharacterSelectionList.GetFilter('hook_filter')]"

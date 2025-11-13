@@ -105,7 +105,7 @@
  seduce_outcome.3901.t: "宫廷里的蛇"
  seduce_outcome.3901.desc: "我看出了仆人脸上焦急的表情。[dummy_servant_gender.GetSheHe|U]给我带来了坏消息。\n\n“[ROOT.Char.Custom('FormOfAddressForLiege')|U]，你快点来！刚刚有人看到[owner.Custom2('YourCharacterIntroduction', ROOT.Char)|U]从[target.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]的房间离开！”"
  seduce_outcome.3900.a: "这只意味着一件事！"
- seduce_outcome.3000.desc: "尽管我们，最高司祭和我，是在私下见面的，我的身体却充满着一股畏惧和渴望，这是一股肉体上的本能冲动而非精神上的。当然，在我之前想必也没有人会以这种方式接受陛下[SCOPE.sC(owner).GetHerHis|U]的赐福。\n\n[owner.GetHerHis|U]伸出双手，我闭上眼睛，跪了下来……"
+ seduce_outcome.3000.desc: "尽管我们，最高司祭和我，是在私下见面的，我的身体却充满着一股畏惧和渴望，这是一股肉体上的本能冲动而非精神上的。当然，在我之前想必也没有人会以这种方式接受陛下[SCOPE.sC('owner').GetHerHis|U]的赐福。\n\n[owner.GetHerHis|U]伸出双手，我闭上眼睛，跪了下来……"
  seduce_outcome.3000.a: "[owner.GetSheHe|U]掌握着我的王国的钥匙。"
  seduce_outcome.3010.desc: "[owner.GetTitledFirstName ]来到了我的房间，胸中蕴含着两种欲望。为了抚平第一种欲望，带了一大堆的酒。要不了什么功夫，[owner.GetSheHe]就意识到我的想法一致。\n\n第一吻缔结了契约，接下来的一天一夜，我们不断地喝了做，做了喝，如此往复……"
  seduce_outcome.3020.desc: "厕所的空间很小，而且秽物散发出来的臭气郁结在这个地方。不过这里很私密，嗯，超级私密。\n\n我饥渴地望着[owner.GetTitledFirstName]，开始脱我的衣服。[owner.GetSheHe|U]也照做。当我们吻在一块时，一股欲情喷涌而出，我们顿时忘却了狭窄的房间，以及周遭难闻的气味和狼藉的景色。"

@@ -17,7 +17,7 @@
  SW_TT_FORT_LEVEL_MULT: "[fort_level|E]"
  SW_TT_MORALE_LOSS_LABEL: "Progreso diario: $VALUE|+=1$"
  SW_TT_MORALE_LOSS_LABEL_MINIMUM: "#! #weak (mín $VALUE|=1$)#!"
- SIEGE_WINDOW_END_DATE: "Con el progreso actual, el asedio durará al menos $TIME$ más ([DATE.GetString|V])"
+ SIEGE_WINDOW_END_DATE: "Con el [siege_progress|El] actual, los sitiadores ganarán el [siege|El] en $TIME$ #weak ([DATE.GetString])#!\n\nLos eventos de asedio pueden aumentar el $game_concept_siege_progress$ y terminar el $game_concept_siege$ antes incluso."
  SIEGE_WINDOW_END_DATE_SHORT: "Resta un máximo de $TIME$"
  SW_TT_SIEGING_REALM_TOOLTIP: "#T Sitiador: [Character.GetPrimaryTitle.GetName|VU]#!\n#I Haz clic para ver#!"
  SW_TT_DEFENDING_REALM_TOOLTIP: "#T Defensor: [Character.GetPrimaryTitle.GetName|VU]#!\n#I Haz clic para ver#!"

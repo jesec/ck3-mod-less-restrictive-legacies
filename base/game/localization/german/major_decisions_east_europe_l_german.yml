@@ -66,7 +66,7 @@
  #[EmptyScope.ScriptValue('vengeful_scheme_success_chance_modifier')|0]
  east_europe.0111.t: "$east_europe.0111.t.setup$: Ein Schreiben an [hof.GetTitledFirstNameNoTooltip]"
  east_europe.0111.desc: "Wer vermag schon zu sagen, wie lang man diese [heretic.GetFaith.GetAdherentNamePluralNoTooltip] übersehen hat? Ein Jahrzehnt? Ein Jahrhundert? Seit dem Besuch des gesegneten Sankt Martin?\n\nDoch ganz gleich, wie lange diese Ketzerei schon in der Wildnis Bosniens schwärt: Die Nachlässigkeit unserer Ahnen trägt faule Früchte, und ich werde das nicht dulden! Einen solchen Halunken wie [heretic.GetTitledFirstName] zu sehen, der ganz offen die höchste Macht ([accuser.GetFaith.HighGodName]) ins Lächerliche zieht!\n\nDie Welt nimmt fälschlicherweise an, sie wären im Herzen gute, wenn auch sehr ländliche [accuser.GetFaith.GetAdherentNamePluralNoTooltip]. Vielleicht können ein paar einfallsreiche Worte an [hof.GetTitledFirstName] dafür sorgen, dass sich das ändert …"
- east_europe.0111.a: "Bringt mir [ROOT.Char.Custom('GetWritingInstrument')] und [ROOT.Char.Custom('GetWritingMaterial')]!"
+ east_europe.0111.a: "Bringt mir [ROOT.Char.Custom('WritingInstrument')] und [ROOT.Char.Custom('GetWritingMaterial')]!"
  east_europe.0111.a.tt: "Ein Brief wird verfasst"
  east_europe.0111.b: "Ich habe Besseres zu tun …"
  east_europe.0112.t: "[hof.Custom2('AppropriateGreeting',accuser)]"

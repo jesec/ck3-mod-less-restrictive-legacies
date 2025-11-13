@@ -367,7 +367,7 @@
  tgp_governor_contract_event.0027.c: "Su barco naufragó en #EMP nuestras#! costas, lo que significa que sus productos quedan incautados."
  tgp_governor_contract_event.0027.d: "Las palabras habrán fallado, pero puedo intentar comunicarme con gestos."
  tgp_governor_contract_event.0027.e: "Sacadlos de aquí sin más y usad la fuerza si es necesario."
- tgp_governor_contract_event.0027.f: "Yo me encargaré personalmente. A juzgar por su aspecto, conozco su idioma."
+ tgp_governor_contract_event.0027.f: "$epidemic_events.5902.a$"
  task_contract_reward_effect_temporary_housing_desc: "$label_success_standard$"
  task_contract_reward_effect_search_for_translator_desc: "$label_success_standard$"
  task_contract_reward_effect_confiscate_their_goods_desc: "$label_success_standard$"
@@ -433,7 +433,7 @@
  tgp_governor_contract_event.0032.a_tt: "Viajar a [monopoly_in_the_marketplace_destination.GetName] y arreglar los asuntos del mercado como más te satisfaga."
  tgp_governor_contract_event.0032.b: "No oigo nada fuera de lo normal para un comerciante exitoso."
  tgp_governor_contract_event.0033.t: "Monopolio en el mercado"
- tgp_governor_contract_event.0033.desc: "Aunque no suelen ser ejemplos de honradez, las palabras de los comerciantes parecen ser ciertas en esta ocasión.\n\nSegún deambulamos discretamente de un puesto a otro, hasta ahora todos aparecen marcados descaradamente con el mismo emblema, que los señala como propiedad colectiva de un solo dueño.\n\nEl último de los puestos al que nos acercamos es el mayor y más decorado a distintos niveles de magnitud y [merchant_magnate.Custom('ES_ElLa')] [merchant_magnate.GetWomanMan] que lo preside majestuosamente viste con unas galas claramente inapropiadas para su posición. Est[merchant_magnate.Custom('ES_EA')], obviamente, es [merchant_magnate.Custom('ES_ElLa')] rival de quien hablan."
+ tgp_governor_contract_event.0033.desc: "Aunque no suelen ser ejemplos de honradez, las palabras de los comerciantes parecen ser ciertas en esta ocasión.\n\nSegún deambulamos discretamente de un puesto a otro, hasta ahora todos aparecen marcados descaradamente con el mismo emblema, que los señala como propiedad colectiva de un solo dueño.\n\nEl último de los puestos al que nos acercamos es el mayor y más decorado de ellos, y [merchant_magnate.Custom('ES_ElLa')] [merchant_magnate.GetWomanMan] que lo preside majestuosamente sonríe orgullos[merchant_magnate.Custom('ES_OA')]. Est[merchant_magnate.Custom('ES_EA')], obviamente, es [merchant_magnate.Custom('ES_ElLa')] rival de quien hablan."
  tgp_governor_contract_event.0033.a: "Que ningún comerciante pueda poseer más de un puesto." # (Special governor option)
  tgp_governor_contract_event.0033.b: "Ampliad el mercado y subastad los puestos nuevos solo a miembros de la asociación."
  tgp_governor_contract_event.0033.c: "[merchant_magnate.GetSheHe|U] se puede quedar, siempre que esté dispuest[merchant_magnate.Custom('ES_OA')] a #EMP pagar#! por el privilegio."

@@ -620,7 +620,7 @@
  domicile_building_parameter_fishing_yurt_riverside_lakeside_fertility_bonus_lvl_2: "Если ваше [Concept('domicile', 'имение')|E] расположено в приречном, приозерном или приморском [Concept('county', 'графстве')|E], это [Concept('county', 'графство')|E] получит [Concept('modifier', 'модификатор')|E] «[GetModifier('fishing_yurt_county_modifier_2').GetNameWithTooltip]». Он исчезнет, если [Concept('domicile', 'имение')|E] переместится"
  domicile_building_parameter_fishing_yurt_riverside_lakeside_fertility_bonus_lvl_3: "Если ваше [Concept('domicile', 'имение')|E] расположено в приречном, приозерном или приморском [Concept('county', 'графстве')|E], это [Concept('county', 'графство')|E] получит [Concept('modifier', 'модификатор')|E] «[GetModifier('fishing_yurt_county_modifier_3').GetNameWithTooltip]». Он исчезнет, если [Concept('domicile', 'имение')|E] переместится"
  mpo_decisions_events.0300.a.tt.yurt: "$mystical_yurt_01_domicile_building$ в вашем [Concept('domicile', 'имении')|E]:"
- nomadic_does_not_have_family_yurt: "У вас нет семейной юрты"
+ nomadic_does_not_have_family_yurt: "У вас нет постройки «$family_yurt_01_domicile_building$»"
  domicile_building_parameter_unlock_maa_heavy_horse_archers: "Доступны [Concept('men_at_arms', 'профессионалы')|E] — [GetMaA('heavy_horse_archers').GetName|l]"
  trade_yurt_unlock_req: "Вы не граничите с [Concept('realm', 'державой')|E], не являющейся #TOOLTIP:GOVERNMENT_TYPE,nomad_government #L кочевой#!#!"
  YURT_DOMICILE_MARRIAGE_ACCEPTANCE_MODIFIER: "Принадлежащие [Select_CString(actor.IsLocalPlayer, 'вам', Concatenate('персонажу ',actor.GetShortUIName))] [Concept('domicile_buildings', 'постройки в имении')|E]: $VALUE|+=0$"

@@ -209,8 +209,8 @@
  travel_events.2013.e: "Malheureusement, nous sommes pressés."
  #Visit a logging camp - Burn off some stress chopping wood
  travel_events.2014.t: "Un coup de hache après l’autre"
- travel_events.2014.desc: "L’énorme tronc à découper au milieu du camp de bûcherons de [ROOT.Char.GetCurrentLocation.GetName] a beaucoup servi. On dirait qu’il a toujours été là, même avant que l’homme foule cette terre.\n\nAlors que je m’approche du magnifique tronc d’arbre, mes épaules sont tendues et mon avant-bras tremble légèrement à cause du stress accumulé.\n\nJe place soigneusement un morceau de bois de rebut sur le monticule et, d’un geste rapide, je lève ma hache."
- travel_events.2014.a: "Et de un !"
+ travel_events.2014.desc: "L’énorme tronc à découper au milieu du camp de bûcherons de [ROOT.Char.GetCurrentLocation.GetName] a beaucoup servi. On dirait qu’il a toujours été là, même avant que l’homme foule cette terre.\n\nAutour de moi, les ouvriers travaillent et brillent de sueur, et bien qu’issus d’un milieu modeste, ils semblent libérés du poids du monde.\n\nJe regarde la hache plantée dans la souche géante. Mes épaules sont tendues par le stress et implorent une chance de soulagement."
+ travel_events.2014.a: "Je saisis le manche et abats violemment ma hache."
  travel_events.2014.a_flavor: "Prends ça, le stress !"
  travel_events.2014.a_stress_tt: "Diminution du stress"
  travel_events.2014.a_great_stress_desc: "Vous réduisez considérablement votre stress"

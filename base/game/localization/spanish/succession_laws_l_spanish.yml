@@ -93,7 +93,9 @@
  scandinavian_elective_candidates_tooltip: "Para ser un candidato válido en el Thing, un personaje debe cumplir una de estas condiciones:\n$EFFECT_LIST_BULLET$Ser [Concept( 'extended_family', 'pariente lejano' )|E] y legítimo del gobernante, sin estar en la línea para heredar una teocracia o república. No se puede nombrar a los vástagos de un candidato\n$EFFECT_LIST_BULLET$Ser [claimant|lE] al título, sin estar en la línea para heredar una teocracia o república"
  scandinavian_elective_electors: "$feudal_elective_electors$"
  scandinavian_elective_electors_tooltip: "Para ser un [elector|lE] válido en el Thing, un vasallo debe cumplir todas estas condiciones:\n$EFFECT_LIST_BULLET$Ser vasallo directo del título\n$EFFECT_LIST_BULLET$No ser barón"
- succession_laws_must_have_organised_government_tooltip: "No tengo un [government|lE] [feudal|lE] o [government|lE] de [clan|lE]"
+ succession_laws_must_have_organised_government_tooltip: "[SelectLocalization( HasDlcFeature( 'all_under_heaven' ), 'succession_laws_must_have_organised_government_tooltip_auh_tooltip', 'succession_laws_must_have_organised_government_tooltip_base_game_tooltip' )]"
+ succession_laws_must_have_organised_government_tooltip_auh_tooltip: "No tengo un [government|lE] [feudal|lE], [japan_feudal|lE] o de [clan|lE]"
+ succession_laws_must_have_organised_government_tooltip_base_game_tooltip: "No tengo un [government|lE] [feudal|lE] o [government|lE] de [clan|lE]"
  succession_laws_must_not_be_forced_partition: "Mi [vassal_contract|lE] no me obliga a una [succession|lE] de reparto"
  succession_laws_must_have_valid_tanistry_culture: "#bold No#! tienes la [heritage|lE] $goidelic_group$ ni $brythonic_group$."
  number_of_election_votes: "Número de votos"
@@ -131,7 +133,7 @@
  #EP3:
  noble_family_succession_law: "Sucesión de familia noble"
  noble_family_succession_law_subname: "[player_heir|E] hereda"
- noble_family_succession_law_effects: "El [title|lE] de la familia noble se entregará al [player_heir|lE]."
+ noble_family_succession_law_effects: "El [title|El] de familia noble que va con su [domicile|El] se entregará al [player_heir|El]."
  #Appointment Succession Law
  appointment_succession_law: "Sucesión de nombramiento"
  appointment_succession_law_subname: "El candidato con la puntuación más alta hereda"

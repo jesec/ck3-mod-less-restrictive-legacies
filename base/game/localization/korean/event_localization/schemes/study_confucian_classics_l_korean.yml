@@ -25,7 +25,7 @@
  study_confucian_classics_outcome.200.c: "[poet.GetFirstNameNoTooltip]에게 존경의 서신을 보내야 마땅하다."
  study_confucian_classics_outcome.200.d: "[ROOT.Char.Custom('GetRandomPoetryPassage')](을)를 다시 읽어야겠다."
  friend_praised_privately: "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 칭찬함"
- friend_praised_privately_corresponding: "[TARGET_CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 칭찬함"
+ friend_praised_privately_corresponding: "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](을)를 칭찬함"
  study_confucian_classics_outcome.300.t: "$study_confucian_classics_title$[ROOT.Char.Custom('GetSeason')|U]의 영감"
  study_confucian_classics_outcome.300.desc: "[location_province.Custom('ProvinceCompliment')] [ROOT.Char.Custom('GetSeason')] 정원을 바라보며 위대한 시인인 [ROOT.Char.Custom('GetRandomAncientChinesePoet')]의 구절을 떠올려 보았다. 바람이 내 옷소매를 스치며 내 손을 붓으로 이끌었다. 하늘이 내게 글을 쓰라 하시는 듯했다.\n\n내 앞에는 종이가 놓여 있었다. 말없이 기대감에 가득 찬 백지가 내 글을 기다리고 있었다."
  study_confucian_classics_outcome.300.a: "노력한다면 나 또한 언젠가는 위대해지리!"

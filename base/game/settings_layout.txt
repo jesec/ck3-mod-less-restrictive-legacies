@@ -45,8 +45,8 @@ page = {
 		name = "SETTINGS_CATEGORY_MAP"
 		order = {
 			"map_highlight_intensity"
-			"flat_map_brightness_intensity"
 			"map_overlord_border"
+			"flat_map_brightness_intensity"
 			"winter_particle_effects"
 			"cloud_shadow_enabled"
 			"tree_dithering_enabled"

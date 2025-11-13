@@ -66,7 +66,7 @@
  travel_danger_events.6011.clash: "멀찍이 떨어진 [ROOT.Char.GetCurrentLocation.Custom('GetTerrainLandPlural')]에서 격돌하고 있었다."
  travel_danger_events.6011.war: "[battle_war.Custom('WarCasusBelliShort')](을)를 두고 결판을 내고 있었다."
  travel_danger_events.6011.raid_both: "몇 안 되는 약탈품을 두고 싸우고 있었다."
- travel_danger_events.6011.raid: "전리품과 비축물을 두고 싸우고 있었다."
+ travel_danger_events.6011.raid: "노획물과 비축물을 두고 싸우고 있었다."
  travel_danger_events.6011.hostile: "웬 사소한 다툼을 해소하고 있었다."
  travel_danger_events.6011.end: "\n\n탈영병이나 용병으로 보이는 처량한 행색의 사람들이 은밀하게 우리 방향으로 다가오고 있었다."
  travel_danger_events.6011.b: "[ROOT.Char.GetTitleAsNameNoTooltip](을)를 방해하게 두지 않겠다!"
