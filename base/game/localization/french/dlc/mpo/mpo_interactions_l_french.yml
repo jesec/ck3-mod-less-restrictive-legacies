@@ -117,7 +117,7 @@
  mpo_interaction_grant_paiza_desc: "Accordez un [Concept('artifact','païza')|E] [recipient.Custom('FR_au_Char_U_Pi')][recipient.GetShortUIName] et rendez-[recipient.Custom('FR_LeLa')], si possible, [Concept('obedient',Select_CString(recipient.IsFemale,'obéissante','obéissant'))|E] envers vous"
  mpo_character_interaction_gurkhan: "Vous n’êtes pas le [gurkhan|El]"
  mpo_character_interaction_obedient: "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUIName] vous [Concept('obedient','obéit')|E] déjà"
- mpo_character_interaction_established_paiza_system: "Vous n’avez pas pris la [decision|El] $mpo_establish_paiza_system_decision$"
+ mpo_character_interaction_established_paiza_system: "Vous n’avez pas pris la [decision|El] d’$mpo_establish_paiza_system_decision|l$"
  mpo_interaction_ask_for_paiza: "Demander un païza"
  mpo_interaction_ask_for_paiza_desc: "Vous rend [obedient|El] et vous accorde un artefact païza"
  mpo_interaction_leverage_khan_authority: "Tirer parti de l’autorité du khan"

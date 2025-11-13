@@ -69,7 +69,7 @@
  catalyst_hegemon_low_merit_vassals_yearly_desc: "年間変動：#V 50%#!以上の[son_of_heaven_possessive|E]の[vassals|E]の[merit_level|E]が$MERIT_LEVEL_LABEL_6$を下回る"
  catalyst_hegemon_appointing_low_merit_councillor: "[dynastic_cycle_catalyst|E]「低[merit|E]の[minister|E]」"
  catalyst_hegemon_appointing_low_merit_councillor_desc: "[son_of_heaven|E]は[merit_level|E]が$MERIT_LEVEL_LABEL_7$未満の[minister|E]を任命する"
- catalyst_hegemon_appointing_low_merit_governor: "[dynastic_cycle_catalyst|E]「低[merit|E]の[governor|E]」"
+ catalyst_hegemon_appointing_low_merit_governor: "[dynastic_cycle_catalyst|E]「[merit_level|E]の低い[governor|E]」"
  catalyst_hegemon_appointing_low_merit_governor_desc: "[son_of_heaven|E]は[merit_level|E]が期待される[appointment_level|E]未満の[governor|E]を任命する"
  catalyst_imperial_examinations_gap_long_yearly: "[dynastic_cycle_catalyst|E]「年間での長期試験なし」"
  catalyst_imperial_examinations_gap_long_yearly_desc: "年間変動：[imperial_examinations|E]は#V [EmptyScope.ScriptValue('catalyst_imperial_examinations_gap_long_yearly_value')]#!年間実施されない"
@@ -104,7 +104,7 @@
  catalyst_hegemon_gains_mandate_of_heaven_desc: "新たな[son_of_heaven|E]は[mandate_of_heaven|E]を獲得し、[GetTitleByKey('h_china').GetDefinitiveName]を保持する"
  # Calamities
  catalyst_hegemon_in_civil_war: "[dynastic_cycle_catalyst|E]「[civil_war|E]勃発」"
- catalyst_hegemon_in_civil_war_desc: "[son_of_heaven|E]は[faction|E]の要求への対応に失敗し、[civil_war|E]を招く"
+ catalyst_hegemon_in_civil_war_desc: "[son_of_heaven|E]が[faction|E]の要求を退けるか、[tyrant|E]となって[civil_war|E]を招く"
  catalyst_hegemon_natural_disaster: "[dynastic_cycle_catalyst|E]「年間の進行中の[natural_disaster|E]」"
  catalyst_hegemon_natural_disaster_desc: "年間変動：進行中の[natural_disasters|E]"
  catalyst_hegemon_natural_disaster_recovered: "[natural_disaster|E]から復興した"
@@ -120,11 +120,11 @@
  catalyst_imperial_treasury_raided_desc: "[imperial_treasury|E]は[raided|E]または[besieged|E]される"
  catalyst_imperial_treasury_debt: "[imperial_treasury|E]は破産する"
  catalyst_imperial_treasury_debt_desc: "年間変動：[imperial_treasury|E]は破産する"
- # Held lands
+ # Held Lands
  catalyst_hegemony_too_few_lands: "[dynastic_cycle_catalyst|E]「年間の[son_of_heaven|E]が持つ[de_jure|E][titles|E]が低すぎる」"
- catalyst_hegemony_too_few_lands_desc: "年間変動：[son_of_heaven|E]が[completely_controls|E]している[de_jure|E][titles|E]は##V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#!未満である"
- catalyst_hegemony_far_too_few_lands: "[dynastic_cycle_catalyst|E]「[son_of_heaven|E]が持つ[de_jure|E][titles|E]が低すぎる」"
- catalyst_hegemony_far_too_few_lands_desc: "[son_of_heaven|E]が[completely_controls|E]している[de_jure|E][titles|E]は##V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#!未満である"
+ catalyst_hegemony_too_few_lands_desc: "年間変動：[son_of_heaven|E]が支配している[GetTitleByKey('h_china').GetDefinitiveName]の[de_jure|E][counties|E]は#V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#!未満である"
+ catalyst_hegemony_far_too_few_lands: "[dynastic_cycle_catalyst|E]「[son_of_heaven|E]が持つ[de_jure|E][titles|E]が少なすぎる」"
+ catalyst_hegemony_far_too_few_lands_desc: "[son_of_heaven|E]が支配している[GetTitleByKey('h_china').GetDefinitiveName]の[de_jure|E][counties|E]は#V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#!未満である"
  # Regency
  catalyst_diarch_mandate: "[grand_secretariat_possessive|E]の[dynastic_cycle_catalyst|E]「自治権」"
  catalyst_diarch_mandate_desc: "[grand_secretariat|E]は[son_of_heaven_possessive|E]の承認なく行動を起こした"
@@ -140,6 +140,8 @@
  # Great Projects
  catalyst_grand_campaign: "[dynastic_cycle_catalyst|E]「[son_of_heaven|E]が[great_project|E]、[GetGreatProjectType('grand_campaign_project').GetName]で勝利する」"
  catalyst_grand_campaign_desc: "[son_of_heaven_possessive|E]の[great_project|E]「[GetGreatProjectType('grand_campaign_project').GetName]」が成功する"
+ catalyst_grand_campaign_lost: "[dynastic_cycle_catalyst|E]「[son_of_heaven|E]が[great_project|E]、[GetGreatProjectType('grand_campaign_project').GetName]で失敗する」"
+ catalyst_grand_campaign_lost_desc: "[son_of_heaven_possessive|E]の[great_project|E]「[GetGreatProjectType('grand_campaign_project').GetName]」が失敗する"
  catalyst_minister_project_culture: "[dynastic_cycle_catalyst|E]「[son_of_heaven|E]が[great_project|E]、[GetGreatProjectType('minister_project_culture').GetName]を完了する」"
  catalyst_minister_project_culture_desc: "[son_of_heaven_possessive|E]の[great_project|E]「[GetGreatProjectType('minister_project_culture').GetName]」が成功する"
  catalyst_great_wall: "[situation_catalyst|E]「$building_the_great_wall_01$建設」"

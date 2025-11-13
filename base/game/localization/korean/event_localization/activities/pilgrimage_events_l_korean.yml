@@ -613,7 +613,7 @@
  #Brahmacharya Challenged
  pilgrimage.3401.t: "$pilgrimage_header$ 도전받은 브라마차리아"
  pilgrimage.3401.desc: "야트라의 여정이 우리를 [body_of_water.GetName] 물가로 인도했다. 오후의 햇살을 받은 물이 술렁이는 황금빛 잎처럼 반짝이며, 몸을 담그라고 손짓하는 듯했다.\n\n나는 순례자 동료 중 한 명인 [bather.GetName](을)를 바라보았다. [bather.GetHerHis] 벌거벗은 몸은 물이 묻어 부드럽게 빛나고 있었다.\n\n[ROOT.Char.GetInvolvedActivity.GetShortName] 중인 이는 수도와 같은 [Glossary('브라마차리야', 'BRAHMACHARAYA_GLOSS')]의 길을 받아들이고, 음탕한 생각과 충동을 삼가야 하는 법인데..."
- pilgrimage.3401.a: "욕망에 이끌려 [bather.GetName]의 아름다움을 만끽한다."
+ pilgrimage.3401.a: "욕망에 이끌려 [bather.GetFirstNamePossessiveNoTooltip] 아름다움을 만끽한다."
  pilgrimage.3401.b: "차가운 물에 들어서니 열정도 사라져 버렸다."
  pilgrimage.3401.b.flavor: "열반에 한 발짝 더 가까워졌다."
  BRAHMACHARAYA_GLOSS: "산스크리트어로 '브라만의 행동에 참여하다'라는 뜻이며, 신성한 지식과 정신적 해방 추구에 도움이 되는 삶의 방식을 실행하는 모습을 이르기도 합니다. 이는 욕망이 없는 상태에 다다르려는 노력으로 일부 성취할 수 있습니다."

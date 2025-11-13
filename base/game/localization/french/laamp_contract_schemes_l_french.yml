@@ -1309,7 +1309,7 @@
  laamp_base_contract_schemes.1301.t: "$laamp_base_contract_schemes.1004.t$"
  laamp_base_contract_schemes.1301.desc.intro.preamble.first: "Nous rencontrons [recidivist.GetFirstNameNicknamed] pour la première fois"
  laamp_base_contract_schemes.1301.desc.intro.preamble: "Nous retrouvons [recidivist.GetFirstNameNicknamed]"
- laamp_base_contract_schemes.1301.desc.intro.plains: "dans les plaines vallonées de [current_county.GetBaseNameNoTier]."
+ laamp_base_contract_schemes.1301.desc.intro.plains: "dans les plaines vallonnées de [current_county.GetBaseNameNoTier]."
  laamp_base_contract_schemes.1301.desc.intro.farmlands: "dans les terres arables et luxuriantes de [current_county.GetBaseNameNoTier]."
  laamp_base_contract_schemes.1301.desc.intro.hills: "dans les collines escarpées de [current_county.GetBaseNameNoTier]."
  laamp_base_contract_schemes.1301.desc.intro.mountains: "dans les imposantes montagnes de [current_county.GetBaseNameNoTier]."

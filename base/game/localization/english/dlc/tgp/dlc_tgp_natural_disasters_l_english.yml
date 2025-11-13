@@ -98,7 +98,7 @@
  # Great Project
 
  great_project_type_great_project_earthquake: "[GreatProject.MakeScope.Var('situation').Situation.MakeScope.Var('epicenter_county').Title.GetNameNoTierNoTooltip] Earthquake Relief"
- great_project_type_great_project_earthquake_desc: "Earthquake Relief"
+ great_project_type_great_project_earthquake_desc: "Measures must be taken to alleviate the impact of the [earthquake|E]. To protect the realm and its people, rulers must fund [great_project_contributions|E] and rally other [situation_participant_groups|E] to support the relief effort."
  great_project_type_great_project_earthquake_contribution_recovery: "Survivor Recovery"
  great_project_type_great_project_earthquake_contribution_cleanup: "Debris Removal"
  great_project_type_great_project_earthquake_contribution_reconstruction: "Housing Reconstruction"
@@ -107,7 +107,7 @@
  great_project_type_great_project_earthquake_contribution_memorial: "Memorial Fortifications"
 
  great_project_type_great_project_flood: "[GreatProject.MakeScope.Var('situation').Situation.MakeScope.Var('river_region').GeographicalRegion.GetNameNoTooltip] Flood Relief"
- great_project_type_great_project_flood_desc: "Flood Relief"
+ great_project_type_great_project_flood_desc: "Measures must be taken to alleviate the impact of the [flood|E]. To protect the realm and its people, rulers must fund [great_project_contributions|E] and rally other [situation_participant_groups|E] to support the relief effort."
  great_project_type_great_project_flood_contribution_recovery: "Survivor Recovery"
  great_project_type_great_project_flood_contribution_drainage: "Land Drainage"
  great_project_type_great_project_flood_contribution_cleanup: "Debris Removal"
@@ -120,7 +120,7 @@
  great_project_contribution_cost_situation_severity: "From [disaster|E] Severity"
  great_project_contribution_discount: "From effective disaster management"
  great_project_contribution_total_development_factor: "From [development|E] across affected [counties|E]"
- natural_disaster_realm_counties_steward_stewardship_skill_cost_factor: "From [ROOT.Char.GetCouncillor('councillor_steward').GetShortUIName] [stewardship|E] skill"
+ natural_disaster_realm_counties_steward_stewardship_skill_cost_factor: "From [ROOT.Char.Custom('GetCouncillorForDisasterRecovery')] [stewardship|E] skill"
 
  great_project_contribution_cost_innovation_court_officials: "#weak $innovation_court_officials$ negate tax consequences#!"
  great_project_contribution_cost_innovation_ledger: "#weak Improved due to $innovation_ledger$:#!"
@@ -234,3 +234,8 @@
  councillor_is_available_for_disaster_recovery_minister_of_works: "[minister_of_works|E]"
  councillor_is_available_for_disaster_recovery_entourage: "[entourage|E] member"
  councillor_is_available_for_disaster_recovery_steward: "[steward|E]"
+
+ SITUATION_NATURAL_DISASTER_IMPACT_EFFECTS_HEADER: "#bold #italic Effects#!#!"
+ SITUATION_NATURAL_DISASTER_IMPACT_EFFECTS: "$BULLET$#weak Events resulting in potential #N $game_concept_fatalities$#! will occur#!\n$BULLET$#weak Events resulting in potential #N $game_concept_development$ Loss#! will occur#!"
+ SITUATION_NATURAL_DISASTER_PARTICIPANT_WINDOW_HEADER_SINGLE_SUBREGION: "Characters affected by [Situation.GetNameNoTooltip]"
+ SITUATION_NATURAL_DISASTER_PARTICIPANT_GROUPS_TITLE: "Affected Characters"

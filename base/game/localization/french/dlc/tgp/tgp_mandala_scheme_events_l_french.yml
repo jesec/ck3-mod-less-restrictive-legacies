@@ -55,7 +55,7 @@
  scheme_critical_moments.1225.desc: "L’envoyé de m[target.Custom('FR_OnA')] tributaire, [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName], arrive à ma Cour avec un message des plus clairs.\n\n[owner.Custom('FR_le_Char_Pi')|U][owner.GetTitledFirstName], c[owner.Custom('FR_EEtte')] [owner.Custom2('InsultNoun', ROOT.Char)], l’a monté[target.Custom('FR_E')] contre moi au point qu’[target.Custom('FR_IlElle')] souhaite quitter mon giron, en cessant de verser son tribut et en rejetant ma suzeraineté."
  scheme_critical_moments.1225.a: "Mieux vaut mettre en place des mesures d’incitation..."
  scheme_critical_moments.1225.b: "#EMP C’est ce que nous verrons.#!"
- scheme_potential_suzerain_might_join_war_tt: "\n@alert_icon! #alert_trial [CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] pourrait devenir [CHARACTER.Custom('FR_LeLa')] [suzerain|El][CHARACTER.Custom('FR_E')] [TARGET_CHARACTER.Custom('FR_du_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName] et rejoindre la guerre en défense !#!"
+ scheme_potential_suzerain_might_join_war_tt: "\n@alert_icon! #alert_trial [CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] pourrait devenir [CHARACTER.Custom('FR_LeLa')] [suzerain|El][CHARACTER.Custom('FR_E')|E] [TARGET_CHARACTER.Custom('FR_du_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName] et rejoindre la guerre en défense !#!"
  scheme_critical_moments.1225.c: "Ainsi soit-il."
  scheme_critical_moments.1226.t_incentivizing: "[scheme.GetNameNoTooltip] : parfois on gagne, parfois on perd"
  scheme_critical_moments.1226.t_warring: "[scheme.GetNameNoTooltip] : en guerre"

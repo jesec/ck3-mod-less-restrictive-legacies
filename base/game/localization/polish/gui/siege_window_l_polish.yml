@@ -17,7 +17,7 @@
  SW_TT_FORT_LEVEL_MULT: "[fort_level|E]"
  SW_TT_MORALE_LOSS_LABEL: "Dzienny postęp: $VALUE|+=1$"
  SW_TT_MORALE_LOSS_LABEL_MINIMUM: "#! #weak (min. $VALUE|=1$)#!"
- SIEGE_WINDOW_END_DATE: "Przy obecnym tempie oblężenie potrwa jeszcze maksymalnie $TIME$ (do [DATE.GetString|V])"
+ SIEGE_WINDOW_END_DATE: "Przy bieżącym [Concept('siege_progress', 'postępie oblężenia')|E] oblegający zakończą [siege|El] sukcesem za $TIME$ #weak ([DATE.GetString])#!\n\nWydarzenia oblężnicze mogą doprowadzić do zwiększenia postępu oblężenia i jeszcze wcześniejszego zakończenia oblężenia."
  SIEGE_WINDOW_END_DATE_SHORT: "Pozostało maks. $TIME$"
  SW_TT_SIEGING_REALM_TOOLTIP: "#T Oblegający: [Character.GetPrimaryTitle.GetName|VU]#!\n#I Kliknij, aby zobaczyć#!"
  SW_TT_DEFENDING_REALM_TOOLTIP: "#T Obrońca: [Character.GetPrimaryTitle.GetName|VU]#!\n#I Kliknij, aby zobaczyć#!"

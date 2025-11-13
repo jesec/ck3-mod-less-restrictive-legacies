@@ -2,9 +2,9 @@
  tribute_mission_header: "朝贡任务："
  #Tributary: Fork over Tribute
  tribute_mission_suzerain_legitimacy_gain_title: "获得来自贡品的正统性"
- tribute_mission_tributary_subject_standing_gain_title: "获得[tributary_scope.Custom('SubjectStanding')]"
- tribute_mission_tributary_subject_standing_gain_tt_minor: "[tributary_scope.GetShortUIName|U]获得一些[tributary_scope.Custom('SubjectStanding')]"
- tribute_mission_tributary_subject_standing_gain_tt_major: "[tributary_scope.GetShortUIName|U]获得#EMP 大量#![tributary_scope.Custom('SubjectStanding')]"
+ tribute_mission_tributary_subject_standing_gain_title: "获得[ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')]"
+ tribute_mission_tributary_subject_standing_gain_tt_minor: "[tributary_scope.GetShortUIName|U]获得一些[ConcatIfNeitherEmpty(tributary_scope.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')]"
+ tribute_mission_tributary_subject_standing_gain_tt_major: "[tributary_scope.GetShortUIName|U]获得#EMP 大量#![ConcatIfNeitherEmpty(tributary_scope.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')]"
  tribute_mission.1000.t: "$tribute_mission_header$进贡"
  tribute_mission.1000.intro: "我们走进[overlord_scope.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]的大厅，见到了"
  tribute_mission.1000.intro.overlord: "威严地示意我们向前的[overlord_scope.GetTitledFirstName]。"
@@ -12,6 +12,7 @@
  tribute_mission.1000.intro.councillor: "[overlord_scope.GetTitledFirstNamePossessive]的[receiving_character.Custom('CouncilPosition')][receiving_character.GetTitledFirstName]，正点着[receiving_character.GetHerHis]的头，示意我们上前。"
  tribute_mission.1000.intro.attendant: "一位[overlord_scope.GetTitledFirstNamePossessive]的高级随从微笑着，带着歉意示意我们上前。"
  tribute_mission.1000.desc.segway: "\n\n我没有拖延，开口说道："
+ tribute_mission.1000.desc.bunga_mas: "“请欣赏这辉煌的作品——一套品质绝佳的金银花树，专为尊贵的[overlord_scope.GetTitledFirstNameNoTooltip]打造！”人群睁大了双眼，大厅里响起阵阵低语。"
  tribute_mission.1000.desc.small_gold: "“请允许我献上一份谦卑的贡品，虽小却饱含诚意！”我躬身行礼，仆人们抬着装在小箱子里的贸易货物呈上去。"
  tribute_mission.1000.desc.adequate_gold: "“我们呈上隆重的贡品，以表达对[overlord_scope.GetLadyLord]的敬意！”我微笑着点头，大量篮子与瓮被依次摆放到大厅之中。"
  tribute_mission.1000.desc.excessive_gold: "“请尽情欣赏这无与伦比的华美！”我自豪地咧嘴一笑，房间里响起一片#EMP 哦~#!和#EMP 啊~#!的惊叹之声——箱子、瓮、篮子、雕像。#EMP 丰饶至极。#!"
@@ -66,6 +67,8 @@
  tribute_mission.1002.d.tt: "[human_tribute.GetShortUIName]被送回[tributary_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTier]"
  #Recipient: What do you get/give?
  tribute_mission.1005.t: "$tribute_mission_header$贡品"
+ tribute_mission.1005.t.ai.bunga_mas: "$tribute_mission_header$[newly_created_bunga_mas.GetNameNoTooltip]"
+ tribute_mission.1005.t.bunga_mas: "$tribute_mission_header$[tributary_scope.GetTitledFirstNamePossessiveNoTooltip]的金花"
  tribute_mission.1005.t.gold: "$tribute_mission_header$[tributary_scope.GetTitledFirstNamePossessiveNoTooltip]的黄金"
  tribute_mission.1005.t.herd: "$tribute_mission_header$[tributary_scope.GetTitledFirstNamePossessiveNoTooltip]的牧群"
  tribute_mission.1005.t.concubine: "$tribute_mission_header$[tributary_scope.GetTitledFirstNamePossessiveNoTooltip]的花朵"
@@ -73,6 +76,7 @@
  tribute_mission.1005.t.artifact: "$tribute_mission_header$[tributary_scope.GetTitledFirstNamePossessiveNoTooltip]的宝物"
  tribute_mission.1005.intro.human_tribute: "[tributary_scope.GetTitledFirstName]在等待我的决定时，[tributary_scope.GetSheHe]来回挪动双脚，时不时瞟一眼[human_tribute.GetTitledFirstName]。"
  tribute_mission.1005.intro: "[tributary_scope.GetTitledFirstName]迈步进入大殿，带着奉承的笑容向我呈上[tributary_scope.GetHerHis]的贡品："
+ tribute_mission.1005.desc.bunga_mas: "\n\n一棵黄金打造的花树！这件精美的器物在其余相形见绌的贡品中显得格外突出。细小的叶片捕捉着光线，仿佛散发出光芒，唯有我自身的光彩可与之媲美。\n\n我迅速镇定下来，尽量不显露太多心思，同时思索着该赐予什么恩惠赏赐这份精美的礼物……"
  tribute_mission.1005.desc.small_gold: "\n\n我挑了挑眉，看着仆从清点这份微薄的贡品。\n\n这填不满我的钱库——但至少[tributary_scope.GetTitledFirstNameNoTooltip]履行了[tributary_scope.GetHerHis]的朝贡义务。现在，我该赐予怎样的赏赐作为回报……"
  tribute_mission.1005.desc.adequate_gold: "\n\n我对着这份颇具分量的贡品轻轻点头；贵金属与织物不时掠过光线，泛起一丝微光。\n\n接下来处理下一件事：我该赐予怎样的赏赐作为回报……"
  tribute_mission.1005.desc.excessive_gold: "\n\n黄金、织物、宝石——花哨却#EMP 令人愉悦#!的奢华景象展现在我眼前。我小心翼翼地控制着自己的表情，尽量不显得太过惊叹。\n\n这倒是挺合我心意。现在，该如何奖赏这份奢华的展示……"
@@ -126,6 +130,7 @@
  tribute_mission.3000.intro.councillor: "$tribute_mission.1000.intro.councillor$"
  tribute_mission.3000.intro.attendant: "$tribute_mission.1000.intro.attendant$"
  tribute_mission.3000.desc.segway: "$tribute_mission.1000.desc.segway$"
+ tribute_mission.3000.desc.bunga_mas: "$tribute_mission.1000.desc.bunga_mas$"
  tribute_mission.3000.desc.small_gold: "$tribute_mission.1000.desc.small_gold$"
  tribute_mission.3000.desc.adequate_gold: "$tribute_mission.1000.desc.adequate_gold$"
  tribute_mission.3000.desc.excessive_gold: "$tribute_mission.1000.desc.excessive_gold$"
@@ -154,7 +159,7 @@
  tribute_mission.3000.abstain.innovation.desc: "$tribute_mission.1000.abstain.innovation.desc$"
  tribute_mission.3000.abstain.development.desc: "$tribute_mission.1000.abstain.development.desc$"
  tribute_mission.3000.abstain.monk.desc: "$tribute_mission.1000.abstain.monk.desc$"
- #Recipient: Decide on the human tribute
+ #Recipient: Decide on the human tribute DECOMMISSIONED
  tribute_mission.3002.t: "$tribute_mission.1002.t$"
  tribute_mission.3002.segway: "$tribute_mission.1002.segway$"
  tribute_mission.3002.desc.concubine: "$tribute_mission.1002.desc.concubine$"
@@ -176,7 +181,7 @@
  tribute_mission.3002.c: "$tribute_mission.1002.c$"
  tribute_mission.3002.d: "$tribute_mission.1002.d$"
  tribute_mission.3002.d.tt: "$tribute_mission.1002.d.tt$"
- #Recipient: What do you get/give?
+ #Recipient: What do you get/give? DECOMISSIONED
  tribute_mission.3005.t: "$tribute_mission.1005.t$"
  tribute_mission.3005.t.gold: "$tribute_mission.1005.t.gold$"
  tribute_mission.3005.t.herd: "$tribute_mission.1005.t.herd$"
@@ -217,8 +222,8 @@
  tribute_mission.1007.desc: "一阵漫长的沉默后，[receiving_character.GetTitledFirstName]庄重起身。御用文书[scribe_character.GetShortUIName]适时从人群中现身，手捧精心雕琢的$game_concept_seal_of_investiture$——上面镌刻着我的名字！\n\n[receiving_character.GetTitledFirstName]郑重接过，并恳请我起身。在场众人都屏息凝神。\n\n当我领受天子的敕封时，一个念头闪过我的脑海：这份珍贵的契约将为我打开怎样的新局面？"
  tribute_mission.1007.a: "这改变了一切。"
  tribute_mission.1008.t: "$tribute_mission_header$进行中的朝贡"
- tribute_mission.1008.desc: "当礼物在仪式中交换时，我能感受到宫廷中弥漫着某种未言明的期待。尽管从未直言，但众人对我的期望逐渐变得清晰起来。\n\n[receiving_character.GetTitledFirstNameNoTooltip]希望我立下誓言，承诺持续进献贡品，以换取[receiving_character.GetPrimaryTitle.GetNameNoTierPossessiveNoTooltip]的善意。\n\n现在还有时间体面地拒绝这一提议，以保持我的独立，但我也将承担相应后果。"
- tribute_mission.1008.a: "“……当然，[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]会定期向[receiving_character.GetCapitalLocation.GetNameNoTooltip]进献礼物。”"
+ tribute_mission.1008.desc: "当礼物在仪式中交换时，我能感受到宫廷中弥漫着某种未言明的期待。尽管从未直言，但众人对我的期望逐渐变得清晰起来。\n\n[receiving_character.GetTitledFirstNameNoTooltip]希望我立下誓言，承诺持续进献贡品，以换取[receiving_character.GetLiege.GetPrimaryTitle.GetNameNoTierPossessiveNoTooltip]的善意。\n\n现在还有时间体面地拒绝这一提议，以保持我的独立，但我也将承担相应后果。"
+ tribute_mission.1008.a: "“……当然，[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]会定期向[receiving_character.GetLiege.GetCapitalLocation.GetNameNoTooltip]进献礼物。”"
  tribute_mission.1008.b: "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]不会屈膝臣服。"
  tribute_mission.3006.t: "$tribute_mission.1006.t$"
  tribute_mission.3006.desc: "$tribute_mission.1006.desc$"
@@ -301,3 +306,8 @@
  #MODIFIERS
  suzerain_trade_post_modifier: "宗主的贸易站"
  suzerain_trade_post_modifier_desc: "该伯爵领正在接收来自宗主的贸易站的稳定商贸流通。"
+ #ARTIFACTS
+ tribute_mission_common_bunga_mas_desc: "一尊[Glossary( '金银花树', 'BUNGA_MAS_GLOSS' )]，由[tributary_scope.GetTitledFirstName]作为贡品献给[overlord_scope.GetTitledFirstName]。"
+ tribute_mission_masterwork_bunga_mas_desc: "这组精美的[Glossary( '金银花树', 'BUNGA_MAS_GLOSS' )]最初由[tributary_scope.GetTitledFirstName]作为贡品献给[overlord_scope.GetTitledFirstName]，它们以极为夺目的方式捕捉着光线。"
+ tribute_mission_famed_bunga_mas_desc: "这两株精美的[Glossary( '金银花树', 'BUNGA_MAS_GLOSS' )]，由[tributary_scope.GetTitledFirstName]作为贡品进献给[overlord_scope.GetTitledFirstName]。其金属工艺与雕刻技艺尽显精湛艺术。"
+ tribute_mission_illustrious_bunga_mas_desc: "这套[Glossary( '金银花树', 'BUNGA_MAS_GLOSS' )]由[tributary_scope.GetTitledFirstName]进献给[overlord_scope.GetTitledFirstName]，它们是由金银精心打造而成的华美树雕，花朵被定格在永远绽放的姿态。"

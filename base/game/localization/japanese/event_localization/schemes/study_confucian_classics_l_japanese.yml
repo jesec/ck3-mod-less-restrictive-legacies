@@ -25,7 +25,7 @@
  study_confucian_classics_outcome.200.c: "[poet.GetFirstNameNoTooltip]は称賛の手紙を送るに値する。"
  study_confucian_classics_outcome.200.d: "「[ROOT.Char.Custom('GetRandomPoetryPassage')]」を再読すべきだ。"
  friend_praised_privately: "[CHARACTER.GetShortUIName|U]は[TARGET_CHARACTER.GetShortUIName]を称えた。"
- friend_praised_privately_corresponding: "[TARGET_CHARACTER.GetShortUIName|U]は[TARGET_CHARACTER.GetShortUIName]を称えた。"
+ friend_praised_privately_corresponding: "[TARGET_CHARACTER.GetShortUIName|U]は[CHARACTER.GetShortUIName]を称えた。"
  study_confucian_classics_outcome.300.t: "$study_confucian_classics_title$[ROOT.Char.Custom('GetSeason')|U]のひらめき"
  study_confucian_classics_outcome.300.desc: "私は[location_province.Custom('ProvinceCompliment')][ROOT.Char.Custom('GetSeason')]の庭を眺めながら、偉大な詩人[ROOT.Char.Custom('GetRandomAncientChinesePoet')]の詩に思いを馳せた。そよ風が私の衣の袖を揺らし、筆へと手を導いていく。まるで、天に筆を取るよう誘われているようだ。\n\n目の前の紙が静かに、そして期待に満ちて、私の言葉を待ち詫びている。"
  study_confucian_classics_outcome.300.a: "努力すれば、いつか私も偉大な詩人になれるだろう！"

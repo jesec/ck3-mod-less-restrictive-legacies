@@ -1053,7 +1053,6 @@ petition_liege.9020 = {
 				trigger_else_if = {
 					limit = { var:petition_type = flag:appointment }
 					government_allows = administrative
-					is_independent_ruler = no
 				}
 				trigger_else_if = {
 					limit = { var:petition_type = flag:wedding }
@@ -1248,7 +1247,7 @@ petition_liege.0001 = {
 		name = petition_liege.0001.a
 		if = {
 			limit = {
-				tgp_top_liege_is_not_royal_trigger = yes
+				tgp_is_ceremonial_regent_trigger = yes
 			}
 			custom_tooltip = petition_liege.0001.a.tt_non_royal
 		}
@@ -1543,7 +1542,7 @@ petition_liege.0101 = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					tgp_top_liege_is_not_royal_trigger = yes
+					tgp_is_ceremonial_regent_trigger = yes
 				}
 				desc = petition_liege.0101.desc_non_royal
 			}
@@ -1587,7 +1586,7 @@ petition_liege.0101 = {
 				trigger = {
 					scope:petition_vassal.var:petition_type = flag:title_liege
 					liege = {
-						tgp_top_liege_is_not_royal_trigger = yes
+						tgp_is_ceremonial_regent_trigger = yes
 					}
 				}
 				desc = petition_liege.0101.desc.title_liege_non_royal
@@ -1596,7 +1595,7 @@ petition_liege.0101 = {
 				trigger = {
 					scope:petition_vassal.var:petition_type = flag:title_liege
 					liege = {
-						tgp_top_liege_is_not_royal_trigger = no
+						tgp_is_ceremonial_regent_trigger = no
 					}
 				}
 				desc = petition_liege.0101.desc.title_liege
@@ -3527,7 +3526,7 @@ petition_liege.0201 = {
 					triggered_desc = {
 						trigger = {
 							liege = {
-								tgp_top_liege_is_not_royal_trigger = yes
+								tgp_is_ceremonial_regent_trigger = yes
 							}
 						}
 						desc = petition_liege.0201.a_non_royal
@@ -3804,7 +3803,7 @@ petition_liege.0205 = {
 		}
 		if = {
 			limit = {
-				liege = { tgp_top_liege_is_not_royal_trigger = yes }
+				liege = { tgp_is_ceremonial_regent_trigger = yes }
 			}
 			custom_tooltip = petition_liege_skillcheck_counter_tt_non_royal
 		}
@@ -4150,9 +4149,7 @@ petition_liege.0209 = {
 		trigger_event = { on_action = petition_liege_0401 }
 		if = {
 			limit = {
-				liege = {
-					tgp_top_liege_is_not_royal_trigger = yes
-				}
+				liege = { tgp_is_ceremonial_regent_trigger = yes }
 			}
 			custom_tooltip = petition_liege_skillcheck_counter_tt_non_royal
 		}
@@ -5663,9 +5660,7 @@ petition_liege.0601 = {
 				scope:petition_liege = { is_alive = no }
 				exists = liege
 				liege != root
-				liege = {
-					tgp_top_liege_is_not_royal_trigger = no
-				}
+				liege = { tgp_is_ceremonial_regent_trigger = no }
 			}
 			desc = petition_liege.0601.desc.new_liege
 		}
@@ -5782,7 +5777,7 @@ petition_liege.0621 = {
 				scope:petition_liege = { is_alive = no }
 				exists = liege
 				liege != root
-				liege = { tgp_top_liege_is_not_royal_trigger = no }
+				liege = { tgp_is_ceremonial_regent_trigger = no }
 			}
 			desc = petition_liege.0601.desc.new_liege
 		}

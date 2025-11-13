@@ -66,7 +66,7 @@
  #[EmptyScope.ScriptValue('vengeful_scheme_success_chance_modifier')|0]
  east_europe.0111.t: "$east_europe.0111.t.setup$: [hof.GetTitledFirstNameNoTooltip]께 드리는 서한 작성"
  east_europe.0111.desc: "저 [heretic.GetFaith.GetAdherentNamePluralNoTooltip](이)라는 작자들이 얼마나 묵인됐던 것인가? 십 년? 백 년? 아니면 성 마르티누스께서 축복하신 그 후부터 계속?\n\n저 이단자들이 거친 보스니아에서 얼마나 창궐했는지는 몰라도, 결국 우리 조상님들의 아량이 낳은 불손한 산물이니, 내 어찌 두고만 보겠는가! [heretic.Custom2('InsultNoun', ROOT.Char)] 같은 [heretic.GetTitledFirstName] 녀석이 노골적으로 [accuser.GetFaith.HighGodName]의 이름을 떠들어대는 꼴이란!\n\n무지한 변방에서는 [accuser.GetFaith.GetAdherentNamePluralNoTooltip](을)를 덮어놓고 좋게만 볼 뿐이다. 그러나, [hof.GetTitledFirstName]께 몇 자 적어 올리면 이런 상황을 타개할 수 있을지도..."
- east_europe.0111.a: "[ROOT.Char.Custom('GetWritingInstrument')](와)과 [ROOT.Char.Custom('GetWritingMaterial')](을)를 가져와라!"
+ east_europe.0111.a: "[ROOT.Char.Custom('WritingInstrument')](와)과 [ROOT.Char.Custom('GetWritingMaterial')](을)를 가져와라!"
  east_europe.0111.a.tt: "편지를 작성함"
  east_europe.0111.b: "더 중요한 일부터 처리해야겠다..."
  east_europe.0112.t: "[hof.Custom2('AppropriateGreeting',accuser)]"

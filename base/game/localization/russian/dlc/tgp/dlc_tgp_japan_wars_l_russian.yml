@@ -3,13 +3,14 @@
  # INSTALL REGENT FACTION WAR
  ##################################################
  JAPANESE_REGENT_FACTION_WAR: "Война за установления персонажа [CLAIMANT.GetTitledFirstName] регентом"
+ replace_ceremonial_regent_faction_war_name: "Установление церемониального регента"
+ replace_ceremonial_regent_faction_war: "$replace_ceremonial_regent_faction_war_name$"
  replace_ceremonial_regent_faction_war_victory_defender_desc: "Вы будете [Concept('imprisoned', 'арестованы')|E], и [attacker.GetShortUIName] конфискует все ваши земли"
  replace_ceremonial_regent_faction_war_victory_desc: "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'окажетесь', 'окажется')] [Concept('imprisoned', 'в заключении')|E], и [attacker.GetShortUIName] [Select_CString(attacker.IsLocalPlayer, 'конфискуете', 'конфискует' )] все [Select_CString(defender.IsLocalPlayer, 'ваши', Select_CString(defender.IsFemale, 'ее', 'его' ))] земли"
  replace_ceremonial_regent_faction_war_white_peace_defender_desc: "Вы сохраняете все [Concept('titles', 'титулы')|E] и заключаете [Concept('truce', 'перемирие')|E] со всеми мятежными [Concept('vassal', 'вассалами')|E]."
  replace_ceremonial_regent_faction_war_white_peace_desc: "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'сохранили', Select_CString(defender.IsFemale, 'сохранила', 'сохранил'))] свои [Concept('titles', 'титулы')|E] и [Select_CString(defender.IsLocalPlayer, 'получили', Select_CString(defender.IsFemale, 'получила', 'получил'))] [revoke_title_reason|El] каждого мятежного [Concept('vassal', 'вассала')|E]."
  replace_ceremonial_regent_faction_war_defeat_defender_desc: "Вы сохраняете [Concept('titles', 'титулы')|E] и заключаете всех мятежных [Concept('vassals', 'вассалов')|E] в тюрьму."
  replace_ceremonial_regent_faction_war_defeat_desc: "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'сохранили', Select_CString(defender.IsFemale, 'сохранила', 'сохранил' ))] свои [Concept('titles', 'титулы')|E] и [Select_CString(defender.IsLocalPlayer, 'заключили', Select_CString(defender.IsFemale, 'заключила', 'заключил' ))] всех мятежных [Concept('vassals', 'вассалов')|E] в тюрьму."
- replace_ceremonial_regent_faction_war: "$replace_ceremonial_regent_faction_name$"
  ##################################################
  # RESTORE EMPEROR FACTION WAR
  ##################################################
@@ -101,7 +102,7 @@
  ##################################################
  # MAINTAIN SORYO WAR
  ##################################################
- JAPAN_REFUSED_RITSURYO_WAR_NAME: "Война за сохранение правительства хокен"
+ JAPAN_REFUSED_RITSURYO_WAR_NAME: "Война за сохранение правительства сорё"
  japan_refused_ritsuryo_cb_victory_desc_defender: "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'становитесь', 'становится' )] [Concept('ceremonial_regent', 'церемониальным регентом')|E]."
  japan_refused_ritsuryo_cb_victory_desc: "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'становитесь', 'становится' )] [Concept('ceremonial_regent', 'церемониальным регентом')|E]."
  japan_refused_ritsuryo_cb_white_peace_desc_defender: "Вы заключили мир с персонажем [attacker.GetShortUIName] и получили [Concept('revoke_title_reason', 'повод для лишения')|E] [Select_CString(attacker.IsFemale, 'ее', 'его' )] титула."
@@ -119,8 +120,8 @@
  eradicate_house_cb_white_peace_desc: "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'сохраните', 'сохранит')] свою честь."
  eradicate_house_cb_defeat_desc: "[Concept('house', 'Дом')|E] [Select_CString(attacker.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',attacker.GetShortUIName))] будет уничтожен рукой [Select_CString(defender.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',defender.GetShortUIName))]."
  eradicate_house_cb_ended_invalid.desc: "Повод для войны «$ERADICATE_HOUSE_CB_NAME$» более не действителен"
- every_close_family_house_member_in_court_cb_win_desc: "Каждый [Concept('spouse', 'супруг')|E] из членов [Concept('house', 'дома')|E] при [Concept('court', 'дворе')|E] [Select_CString(defender.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',defender.GetShortUIName))]"
- every_close_family_house_member_in_court_cb_lose_desc: "Каждый [Concept('spouse', 'супруг')|E] из членов [Concept('house', 'дома')|E] при [Concept('court', 'дворе')|E] [Select_CString(attacker.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',attacker.GetShortUIName))]"
+ every_close_family_house_member_in_court_cb_win_desc: "Каждый [Concept('spouse', 'супруг')|E] и член [Concept('house', 'дома')|E] при [Concept('court', 'дворе')|E] [Select_CString(defender.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',defender.GetShortUIName))]"
+ every_close_family_house_member_in_court_cb_lose_desc: "Каждый [Concept('spouse', 'супруг')|E] и член [Concept('house', 'дома')|E] при [Concept('court', 'дворе')|E] [Select_CString(attacker.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',attacker.GetShortUIName))]"
  ##################################################
  # ESTABLISH SORYO ADMINISTRATION WAR
  ##################################################

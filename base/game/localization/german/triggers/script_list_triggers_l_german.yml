@@ -1,6 +1,7 @@
 ﻿l_german:
  ALL_CLAIMANTS: "Alle [claimants|E]"
  ANY_CLAIMANT: "Ein beliebiger [claimant|E]"
+ NOT_ANY_CLAIMANT: "Titel hat keine [claimants|E]"
  ANY_CHILD: "Beliebiges Kind:"
  ANY_CHILD_FIRST: "Ein beliebiges meiner Kinder:"
  ANY_CHILD_THIRD: "Ein beliebiges Kind von [CHARACTER.GetShortUIName]:"

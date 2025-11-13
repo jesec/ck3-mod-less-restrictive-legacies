@@ -21,7 +21,7 @@
  sway_ongoing.1006.a: "\"이 돈을 받고, 나의 자비로움을 널리 전하라.\""
  sway_ongoing.1006.b: "굳이 애쓸 필요가 있나."
  sway_ongoing.5001.t: "감화: 사적인 영역"
- sway_ongoing.5001.desc: "최근에 [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)](와)과 주고받은 서신에는 자신의 야망과 관심사에 더 집중하고 싶다는 의사가 담겨 있었다.\n\n앞으로 나눌 편지에서는 [target.GetSheHe]가 원하는 주제에 대해 이야기해도 #EMP 괜찮겠는데#!..."
+ sway_ongoing.5001.desc: "최근에 [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)](와)과 주고받은 서신에는 자신의 야심과 관심사에 더 집중하고 싶다는 의사가 담겨 있었다.\n\n앞으로 나눌 편지에서는 [target.GetSheHe]가 원하는 주제에 대해 이야기해도 #EMP 괜찮겠는데#!..."
  sway_ongoing.5001.diplomacy_lifestyle: "외교 문제에 집중하면 좋아하지 않을까."
  sway_ongoing.5001.martial_lifestyle: "전장에서 세운 무공을 높이 산다고 들었어."
  sway_ongoing.5001.stewardship_lifestyle: "통치에 관한 이야기를 하면 흥미로워할 거야."

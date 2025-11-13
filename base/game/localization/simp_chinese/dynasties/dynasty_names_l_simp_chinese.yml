@@ -10794,7 +10794,7 @@
  dynn_Fujiwara_Namba: "$dynn_Namba$" #難波
  dynn_Fujiwara_Nan_ke: "南家" #南家藤原
  dynn_Fujiwara_O_inomikado: "$dynn_O_inomikado$" #大炊御門
- dynn_Fujiwara_O_shU_: "奥州" #奥州藤原
+ dynn_Fujiwara_O_shU_: "$dynn_O_shU_$" #奥州藤原
  dynn_Fujiwara_Ononomiya: "小野宫流" #小野宮流藤原
  dynn_Fujiwara_RokujO_: "$dynn_RokujO_$" #六条
  dynn_Fujiwara_Saionji: "西园寺" #西園寺
@@ -11025,7 +11025,7 @@
  dynn_Minamoto_Murakami: "$Murakami$" #村上源
  dynn_Minamoto_Murakami_Shinano: "$Murakami$" #村上源
  dynn_Minamoto_NinmyO_: "$NinmyO_$" #仁明源
- dynn_Minamoto_O_shU__Ishikawa: "奥州$dynn_Ishikawa$" #奥州石川
+ dynn_Minamoto_O_shU__Ishikawa: "$dynn_O_shU_$$dynn_Ishikawa$" #奥州石川
  dynn_Minamoto_Saga: "$Saga_JP$" #嵯峨源
  dynn_Minamoto_SanjO_: "$SanjO_$" #三条源
  dynn_Minamoto_Sasaki: "$dynn_Sasaki$"
@@ -11122,6 +11122,7 @@
  dynn_O_nakatomi: "大中臣" #大中臣
  dynn_O_no: "小野" #大野
  dynn_O_shikO_chi: "凡河内" #凡河内
+ dynn_O_shU_: "奥州" #奥州
  dynn_O_suga: "大须贺" #大須賀
  dynn_O_ta: "太田" #太田
  dynn_O_tawa: "大多和" #大多和
@@ -11505,7 +11506,6 @@
  dynn_Zongbao: "宗保"
  dynn_Hiei: "比睿"
  dynn_Tsukushi: "筑紫"
- dynn_Nammhae: "南海"
  dynn_Shailendra: "夏连特拉"
  dynn_Tian: "田"
  dynn_Cheng: "程"
@@ -12080,3 +12080,13 @@
  dynn_Holchu: "霍尔丘"
  #Custom Character
  dynn_Noble_Family: "世族"
+ #Senoi
+ dynn_Semai: "闪迈"
+ dynn_Chewong: "知翁"
+ dynn_Temiar: "特米亚尔"
+ dynn_Ple: "普莱"
+ dynn_Jah_Hut: "贾胡特"
+ dynn_Semaq_Beri: "塞莫克贝里"
+ dynn_Semelai: "舍弥来"
+ dynn_Temoq: "特莫"
+ dynn_Mah_Meri: "玛美里"

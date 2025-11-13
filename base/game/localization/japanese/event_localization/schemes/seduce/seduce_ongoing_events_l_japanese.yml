@@ -392,7 +392,7 @@
  seduce_ongoing.5005.ending: "\n\n「あなたがこれほど素晴らしい話し相手とは知らなかったですよ、[ROOT.Char.GetFirstNameNoTooltip]！」"
  seduce_ongoing.5005.a: "[target.GetHerHim]には、まだまだ私がどれだけいい話し相手になれるか見せてやろう！"
  seduce_ongoing.5006.conversation: "一時間近く気まずい会話を交わした後、[target.GetFirstName]の表情はこれまでになく退屈しているように見える話題を[target.Custom('herhis_subject_of_interest')]から[ROOT.GetCharacter.Custom('education_conversation_subject')]に変えると、[target.GetSheHe]は[target.Custom('quirk_neg_present')]して、一言断ってから立ち去った"
- seduce_ongoing.5006.mockery: "「[target.GetTitledFirstNameNoTooltip]！信じられますか？あの[mocked_courtier.Custom2('InsultNoun', ROOT.Char)][mocked_courtier.GetFirstName]が実は…」\n\n[target.GetFirstNamePossessive]の顔に浮かぶ軽蔑の表情がますます顕著になり、私ははたと後ずさってしまう。"
+ seduce_ongoing.5006.mockery: "「[ROOT.Char.GetTitledFirstNameNoTooltip]！信じられますか？あの[mocked_courtier.Custom2('InsultNoun', ROOT.Char)][mocked_courtier.GetFirstName]が実は…」\n\n[target.GetFirstNamePossessive]の顔に浮かぶ軽蔑の表情がますます顕著になり、私ははたと後ずさってしまう。"
  seduce_ongoing.5006.bodily: "私が[ROOT.Char.Custom('quirk_pos_adverb')]に微笑みながら[target.GetFirstName]に近づき、誘惑的に自分の[ROOT.Char.Custom('GetUpperClothingArticle')]を持ち上げると、[target.GetSheHe]は露骨に嫌悪の表情をして後ずさる"
  seduce_ongoing.5006.fallback: "私が口ごもり、[target.GetFirstName]との共通の話題を見つけようとしていると、[target.GetHerHis]の軽蔑の表情は刻一刻と顕著になっていった\n\n[target.GetSheHe]はすぐに一言断って、私のもとから立ち去った"
  seduce_ongoing.5006.a: "なぜこんな[target.Custom2('InsultNounSexual', ROOT.Char)]と同衾しようとしているのだろう！？"

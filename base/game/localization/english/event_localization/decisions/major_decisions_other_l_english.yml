@@ -53,3 +53,42 @@
  major_decisions.5001.desc: "My counselors have told me about the establishment of the island empire of [founder.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\nAlthough they claim that its [founder.GetTitleAsNameNoTooltip] is viewed by [founder.GetHerHis] people as a savior of their faith and culture, we don't yet know what to expect regarding their motives going forward.\n\nI will see if they decide to act friendly or not towards my domain."
  major_decisions.5001.a: "For now, we have our own problems."
  major_decisions.5001.b: "Just another contender of power, in the end."
+
+ #Ryukyu (Ruucuu)
+ major_decisions.6000.t: "A Ryukyuan Heirloom"
+ major_decisions.6000.desc: ""All islanders sing your praises, my [founder.GetTitleAsNameNoTooltip]. Word has been sent forth to all clan leaders, your humble subjects regarding the establishment of our new banner. The Ryukyuan throne awaits impatiently for you to sit," [antiquarian.GetTitledFirstName] exclaims, after a lengthy speech.\n\nIt is good to be an [founder.GetTitleAsNameNoTooltip], yet my time in this world is limited, as is my children's. I must strengthen and immortalize our rule with an heirloom that shall last for countless generations."
+ major_decisions.6000.a: "Craft an artifact that inspires my people."
+ major_decisions.6000.b: "Bring me a relic that symbolizes our imperial strength."
+ ryukyu_artifact_regalia_craft_tt: "A #italic regalia#! [artifact|E] will be delivered #bold within one year#!:\n[GetModifier( 'ryukyu_empire_shaku_modifier' ).GetNameWithTooltip]"
+ ryukyu_artifact_crown_craft_tt: "A #italic crown#! [artifact|E] will be delivered #bold within one year#!:\n[GetModifier( 'ryukyu_empire_crown_modifier' ).GetNameWithTooltip]"
+ ryukyu_empire_shaku_modifier: "Shaku of the Three Mountains"
+ ryukyu_empire_crown_modifier: "Crown of the Dragon"
+
+ major_decisions.6001.t: "Shaku of the Emperor"
+ major_decisions.6001.desc: "The long-awaited shaku, befitting a true [ROOT.Char.GetTitleAsNameNoTooltip] has been crafted according to my specifications. It exceeded all predictions and will undoubtedly emphasize my role as a mediator between the subjects and the divine spirits.\n\nMy people will experience no laziness or sorrow while building my magnificent empire. Surely, working for such a divine purpose removes all hindrances."
+ major_decisions.6001.a: "As one, we shall lift the Three Mountains to the skies!"
+
+ major_decisions.6002.t: "The Dragon's Crown"
+ major_decisions.6002.desc: "As arranged, [antiquarian.GetTitledFirstName] presents my new crown, symbolizing my empire's willingness to explore the unknown and stand firm against the dangers of inaction.\n\nThe whole world will soon recognize and praise the Ryukyuans, and my name will be remembered with awe and splendor. My descendants will wear this symbol of courage with pride and defy their enemies."
+ major_decisions.6002.a: "Our might will resonate for eternity."
+
+ major_decisions.6003.t: "Awakening of the Ryukyuan"
+ major_decisions.6003.desc: "It has come to my attention that an emperor has risen from the Ryukyuan islands, asserting dominance over the lush plains and fabled mountains, uniting their clans under a single banner.\n\nIt is not easy to hold an empire together, especially when resources are limited. We will observe what results from this."
+ major_decisions.6003.a: "Commendable for such humble beginnings."
+ major_decisions.6003.b: "Even so, I am not impressed."
+
+ #Siam
+ major_decisions.7000.t: "Dawn of Happiness"
+ major_decisions.7000.desc: "As I walk into the hall, the scent of incense fills the air, and the sound of bronze gongs echoes through the space, announcing my arrival. My council members and royal scribes greet me from their low benches.\n\nAfter exchanging formal pleasantries, several council members offer their advice on the priority of my kingship: selecting an area of investment that will define the Tai legacy.\n\nAs they fail to reach a conclusion, I begin gathering my final thoughts on the matter."
+ major_decisions.7000.a: "We should support the sangkhalok ceramic workshops of [kingdom_capital.GetNameNoTier]."
+ major_decisions.7000.b: "Our warriors deserve better if we wish to outlast our rivals."
+ major_decisions.7000.c: "Promoting the Tai values should be my constant effort."
+ siam_kingdom_sangkhalok_workshops_county_modifier: "Supported Sangkhalok Workshops"
+ siam_kingdom_sangkhalok_workshops_province_modifier: "Thriving Sanghalok Trade"
+ siam_kingdom_military_modifier: "Funded Military Grounds"
+ siam_kingdom_culture_modifier: "Cultural Radiant"
+
+ major_decisions.7001.t: "Rise of the Tai"
+ major_decisions.7001.desc: "Deep in the wilderness, known to some as the Golden Land, [founder.GetNameNoTierNoTooltip] ascended to power as the [founder.GetTitleAsNameNoTooltip] of [founder.GetPrimaryTitle.GetNameNoTierNoTooltip] and challenged the fate of [founder.GetHerHis] people.\n\nThe Tai people spent years searching for a homeland, roaming with pride as the region's nomads and gradually making their way south.\n\nWill their influence endure the passage of time?"
+ major_decisions.7001.a: "Another one thrown into the hurricane."
+ major_decisions.7001.b: "Are they a threat us? We will see."

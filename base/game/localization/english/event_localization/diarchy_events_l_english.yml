@@ -12,8 +12,8 @@
 
  ##################################################
  # #Notifications
- diarchies.0000.diarch_fulfills_mandate.t:1 "[liege.GetDiarchTitle|U] furthers [mandate|E]"
- diarchies.0000.diarch_fails_at_mandate.t:1 "[liege.GetDiarchTitle|U] unsuccessfully furthers [mandate|E]"
+ diarchies.0000.diarch_fulfills_mandate.t:1 "[liege.GetDiarchTitle|U] furthers Mandate"
+ diarchies.0000.diarch_fails_at_mandate.t:1 "[liege.GetDiarchTitle|U] fails to further Mandate"
  diarchies.0000.diarch_skims_mandate.t:1 "[liege.GetDiarchTitle|U] skims from [mandate|E]"
  diarchies.0000.diarch_fails_to_skim_mandate.t:1 "[liege.GetDiarchTitle|U] fails to skim from [mandate|E]"
  diarchies.0000.diarch_rejects_mandate.t:1 "[liege.GetDiarchTitle|U] rejects [mandate|E] due to [personality_trait|E]"

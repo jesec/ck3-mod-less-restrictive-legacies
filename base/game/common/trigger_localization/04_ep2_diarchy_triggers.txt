@@ -21,16 +21,20 @@ is_diarchy_successor = {
 has_active_diarchy = {
 	first = I_HAVE_ACTIVE_DIARCHY
 	third = THEY_HAVE_ACTIVE_DIARCHY
+	global = THEY_HAVE_ACTIVE_DIARCHY
 }
 
 is_diarch_of_target = {
 	first = I_AM_DIARCH_OF_TARGET
 	third = THEY_ARE_DIARCH_OF_TARGET
+	global = THEY_ARE_DIARCH_OF_TARGET
+	none = ARE_DIARCH_OF_TARGET
 }
 
 is_diarch = {
 	first = I_AM_DIARCH
 	third = THEY_ARE_DIARCH
+	global = THEY_ARE_DIARCH
 }
 
 strife_opinion = {
@@ -80,6 +84,8 @@ time_after_designated_diarch = {
 has_diarchy_type = {
 	first = I_HAVE_DIARCHY_TYPE
 	third = THEY_HAVE_DIARCHY_TYPE
+	global = THEY_HAVE_DIARCHY_TYPE
+	none  = HAVE_DIARCHY_TYPE
 }
 
 diarch_interactions_tt_is_able = {

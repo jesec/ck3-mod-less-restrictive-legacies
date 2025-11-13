@@ -1,4 +1,5 @@
 ﻿#Create the Empire of Outremer
+### Form the Outremer Empire ###
 create_outremer_empire_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
@@ -88,6 +89,7 @@ create_outremer_empire_decision = {
 	}
 }
 
+### Restore the Ash'ari Caliphate ###
 restore_sunni_caliphate_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
@@ -155,6 +157,7 @@ restore_sunni_caliphate_decision = {
 	}
 }
 
+### Embrace Outremer Culture ###
 embrace_outremer_culture_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
@@ -277,6 +280,7 @@ embrace_outremer_culture_decision = {
 	}
 }
 
+### Restore Israel ###
 create_israel_kingdom_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -359,6 +363,7 @@ create_israel_kingdom_decision = {
 	}
 }
 
+### Restore the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] High Priesthood ###
 jewish_restore_high_priesthood_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
@@ -429,6 +434,7 @@ jewish_restore_high_priesthood_decision = {
 	}
 }
 
+### Restore the [ROOT.Char.GetFaith.AltPriestTermPlural] ###
 zoroastrian_restore_high_priesthood_decision = { #Updated for FP3 by Ola 
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp3/fp3_decision_foundation.dds"
@@ -507,6 +513,7 @@ zoroastrian_restore_high_priesthood_decision = { #Updated for FP3 by Ola
 	}
 }
 
+### Become the Saoshyant ###
 become_saoshyant_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp3/fp3_decision_foundation.dds"
@@ -576,6 +583,7 @@ become_saoshyant_decision = {
 }
 
 #Refound the long-lapsed & short-lived Armenian Empire - by Ewan Cowhig Croft
+### Revive Greater Armenia ###
 create_armenian_empire_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
@@ -667,6 +675,7 @@ create_armenian_empire_decision = {
 # by Anna Johansson				
 #################################
 
+### Found Empire Of Beth Nahrain Decision ###
 found_empire_of_beth_nahrain_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
@@ -860,6 +869,7 @@ found_empire_of_beth_nahrain_decision = {
 # Dar al-Islam
 ##############
 
+### Establish the Dar al-Islam ###
 create_dar_al_islam_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp3/fp3_decision_foundation.dds"

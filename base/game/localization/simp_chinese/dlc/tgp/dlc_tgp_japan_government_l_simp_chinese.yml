@@ -11,7 +11,7 @@
  japan_feudal_government: "总领制" # 惣領
  japan_feudal_government_adjective: "$japan_feudal_government$"
  japan_feudal_government_with_icon: "@government_type_soryo!$japan_feudal_government$"
- japan_feudal_government_desc: "\n$japan_feudal_government$是日本特有的[feudal|E][government|E]。\n\n$japan_feudal_government$意味着本地领主抛弃或篡夺了中央[ritsuryo|E]政府的掌控力，将令制国作为自己的采邑统治。\n\n$japan_feudal_government$角色不使用[influence|E]，但[noble_family|E][house_head_heads|E]保留其[family_manor|E]和[house_aspiration|E]。\n\n$japan_feudal_government$[rulers|E]尽管不能被选举为[ceremonial_regent|E]，却可以通过#V $replace_ceremonial_regent_faction_name$#![faction|E]夺权，并使用#V 建立幕府#![decision|E]。\n\n$japan_feudal_government$$game_concept_ceremonial_regents$代表[japanese_emperor|E]统治[realm|E]，[succession|E]按照$single_heir_succession_law$进行，并可以被[faction|E]要求推翻。\n\n$japan_feudal_government$$game_concept_house_heads$在[realm|E]内可以创建或加入[house_blocs|E]。$japan_government_domain_limit_help$\n\n\n\n#F $japan_feudal_government$指代的是日本封建化早期阶段，自平安时代开始的，并于镰仓幕府时期愈发正式化。#!"
+ japan_feudal_government_desc: "\n$japan_feudal_government$是日本特有的[feudal|E][government|E]。\n\n$japan_feudal_government$意味着本地领主抛弃或篡夺了中央[ritsuryo|E]政府的掌控力，将令制国作为自己的采邑统治。\n\n$japan_feudal_government$角色不使用[influence|E]，但[noble_family|E][house_head_heads|E]保留其[family_manor|E]和[house_aspiration|E]。\n\n$japan_feudal_government$[rulers|E]尽管不能被选举为[ceremonial_regent|E]，却可以通过#V $replace_ceremonial_regent_faction_name$#![faction|E]夺权，并使用#V 建立幕府#![decision|E]。\n\n$japan_feudal_government$$game_concept_ceremonial_regents$代表[japanese_emperor|E]统治[realm|E]，[succession|E]按照$single_heir_succession_law$进行，并可以被[faction|E]要求推翻。\n\n$japan_feudal_government$$game_concept_house_heads$在[realm|E]内可以创建或加入[house_blocs|E]。\n\n$japan_government_domain_limit_help$\n\n#F $japan_feudal_government$指代的是日本封建化早期阶段，自平安时代开始的，并于镰仓幕府时期愈发正式化。#!"
  japan_government_domain_limit_help: "@alert_icon!#HELP 日本$game_concept_governments$的[domain_limit|E]比其他地区低，通过升级$game_concept_family_manor$可能得到提升。#!"
  tgp_is_japanese_governor_trigger: "你是一位[GetGovernment('japan_administrative_government').GetName][governor|E]"
  # Appointment Succession Law
@@ -50,7 +50,7 @@
  game_concept_bloc: "集团"
  game_concept_blocs: "集团"
  game_concept_bloc_possessive: "集团"
- game_concept_house_bloc_desc: "$game_concept_house_bloc$是[realm|E]中[houses|E]组成的防御同盟。任何受攻击的[member_house|E]都会由所有其他$game_concept_member_houses$共同防御。\n\n各[house_heads|E]决定是否成为[bloc_member_houses|E]，领地内其家族所有统治者成员都会跟随。\n\n集团有一个[leading_house|E]，可以驱逐其他成员，是受到所有成员青睐的[ceremonial_regent|E]，其[house_aspiration|E]决定了高等级[cohesion|E]时获得的增益。\n\n只有$game_concept_leading_house_possessive$的$game_concept_house_head$可以发起针对[top_liege|E]的[factions|E]，且所有$game_concept_bloc_member_houses$成员将加入其发起的任何[factions|E]。"
+ game_concept_house_bloc_desc: "$game_concept_house_bloc$是[realm|E]中[houses|E]组成的防御同盟。任何受攻击的[member_house|E]都会由所有其他$game_concept_member_houses$共同防御。\n\n各[house_heads|E]决定是否成为[bloc_member_houses|E]，领地内其家族所有统治者成员都会跟随。\n\n集团有一个[leading_house|E]，其$game_concept_house_head$可以驱逐其他成员，是受到所有成员青睐的[ceremonial_regent|E]，其[house_aspiration|E]决定了高等级[cohesion|E]时获得的增益。\n\n只有$game_concept_leading_house_possessive$的$game_concept_house_head$可以发起针对[top_liege|E]的[factions|E]，且所有$game_concept_bloc_member_houses$成员将加入其发起的任何[factions|E]。"
  game_concept_bloc_cohesion: "集团凝聚力"
  game_concept_cohesion: "凝聚力"
  game_concept_bloc_cohesion_desc: "$game_concept_cohesion$衡量着一个[house_bloc|E]的团结程度，凝聚力水平越高，[bloc_member_houses|E]基于[leading_house_possessive|E]的[house_aspiration|E]获得的增益就越多。\n\n$game_concept_cohesion$的主要来源是$game_concept_bloc_member_houses$之间的[house_relations|E]，这种关系可能对其产生正面或负面影响。此外，集团整体规模过大，或是成员的$game_concept_house_aspirations$或[government|E]不匹配，都会降低$game_concept_cohesion$。\n\n维持一定水平的$game_concept_bloc_cohesion$将为[member_houses|E]带来各种增益，具体取决于$game_concept_leading_house$的志向。\n\n当达到#V 0#!$game_concept_cohesion$时，$game_concept_house_bloc$将自动解散。"
@@ -83,6 +83,7 @@
  game_concept_house_bloc_leadership: "家族集团领导权"
  game_concept_bloc_leadership: "集团领导权"
  game_concept_leading_house_desc: "$game_concept_leading_house$是公认为[house_bloc|E]领袖的[house|E]。"
+ game_concept_bloc_leader: "集团领袖"
  JAPANESE_HOUSE_HEAD_ALLIANCE_REASON: "[noble_family|E][house_head|E]：$VALUE|=+0$"
  japan_offensive_wars_ban_tt: "[GetTitleByKey('e_japan').GetBaseNameNoTier][rulers|E]无法发动对外[wars|E]，除非[imperial_policy|E]为[GetLaw('imperial_expansion_law').GetName]"
  ceremonial_liege_line_cannot_be_governor_trigger: "[governorships|E]职位不能授予[ceremonial_liege|E]或在其直接[line_of_succession|E]中的角色"

@@ -641,7 +641,7 @@ bloc_member_ruler = {
 leading_house ={
 	requires_dlc_flag = all_under_heaven
 	parent = house_bloc
-	alias = { leading_houses leading_house_possessive house_bloc_leadership bloc_leadership }
+	alias = { leading_houses leading_house_possessive house_bloc_leadership bloc_leadership bloc_leader }
 }
 
 ###################################

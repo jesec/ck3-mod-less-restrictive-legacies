@@ -2,7 +2,7 @@
  ##### TOURNAMENT #####
  tournament_events.0050.t: "토너먼트 도착"
  tournament_events.0050.desc: "토너먼트가 열리는 [activity.GetCurrentPhase.GetLocation.GetName]에 도착했다!\n\n참가자 전원이 도착하진 않았지만 수많은 사람들이 형형색색으로 꾸며진 현장을 돌아다니고 있다. 실력과 기량을 뽐내는 대회를 기대하는 기색이 완연하다.\n\n"
- tournament_events.0050.murder: "나는 단순히 즐기는 것보다 좀 더 원대한 야망이 있다. 계획대로만 된다면 [starting_intent.GetFirstName](은)는 살아서 폐회식을 감상하지 못하리라..."
+ tournament_events.0050.murder: "나는 단순히 즐기는 것보다 좀 더 원대한 야심이 있다. 계획대로만 된다면 [starting_intent.GetFirstName](은)는 살아서 폐회식을 감상하지 못하리라..."
  tournament_events.0050.seduce: "물론 내가 가장 먼저 할 일은[starting_intent.GetFirstName]의 마음을 사로잡는 것이다!"
  tournament_events.0050.befriend: "[starting_intent.GetFirstName](와)과 굳건한 우정을 쌓기에 이보다 더 좋은 환경이 있을까!"
  tournament_events.0050.win: "낭비할 시간이 없다. 슬슬 준비를 시작해야 한다! 어떤 대가를 치르더라도 반드시 우승하고 말 테다!"

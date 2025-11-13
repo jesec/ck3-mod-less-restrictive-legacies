@@ -767,7 +767,7 @@
  tournament_conclusion_winner_duel: "\n#BOL 결투#! 우승자: [activity.MakeScope.Var('duel_winner').Char.GetFirstName]"
  tournament_conclusion_winner_board_game: "\n#BOL 보드게임#! 우승자: [activity.MakeScope.Var('board_game_winner').Char.GetFirstName]"
  tournament_contest_reward_toast_title: "당신의 포상"
- tournament_contest_reward_toast_desc: "[Artifact.GetNameNoTooltip](을)를 포상으로 받음"
+ tournament_contest_reward_toast_desc: "[Artifact.GetNameNoTooltip](을)를 포상으로 받았습니다"
  #Contest Cultural Variations
  tournament_melee_german: "부후르트"
  tournament_melee_fallback: "모의전"

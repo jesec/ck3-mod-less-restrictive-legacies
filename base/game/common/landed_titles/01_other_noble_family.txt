@@ -2731,7 +2731,6 @@ d_laamp_pongyi_thaing_fellowship = {
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
 	no_automatic_claims = yes
-	noble_family = yes
 	destroy_if_invalid_heir = yes
 
 	ai_primary_priority = { add = @never_primary_score }
@@ -2746,7 +2745,6 @@ d_laamp_ravine_lords = {
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
 	no_automatic_claims = yes
-	noble_family = yes
 	destroy_if_invalid_heir = yes
 
 	ai_primary_priority = { add = @never_primary_score }
@@ -2761,7 +2759,6 @@ d_laamp_sirafi_mariners = {
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
 	no_automatic_claims = yes
-	noble_family = yes
 	destroy_if_invalid_heir = yes
 
 	ai_primary_priority = { add = @never_primary_score }
@@ -2776,7 +2773,6 @@ d_laamp_pathwalkers = {
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
 	no_automatic_claims = yes
-	noble_family = yes
 	destroy_if_invalid_heir = yes
 
 	ai_primary_priority = { add = @never_primary_score }
@@ -2791,7 +2787,6 @@ d_laamp_delta_company = {
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
 	no_automatic_claims = yes
-	noble_family = yes
 	destroy_if_invalid_heir = yes
 
 	ai_primary_priority = { add = @never_primary_score }
@@ -2806,7 +2801,6 @@ d_laamp_leaf_hermits = {
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
 	no_automatic_claims = yes
-	noble_family = yes
 	destroy_if_invalid_heir = yes
 
 	ai_primary_priority = { add = @never_primary_score }
@@ -2821,7 +2815,6 @@ d_laamp_lembongs_band = {
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
 	no_automatic_claims = yes
-	noble_family = yes
 	destroy_if_invalid_heir = yes
 
 	ai_primary_priority = { add = @never_primary_score }
@@ -2836,7 +2829,6 @@ d_laamp_stormbringers = {
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
 	no_automatic_claims = yes
-	noble_family = yes
 	destroy_if_invalid_heir = yes
 
 	ai_primary_priority = { add = @never_primary_score }
@@ -2851,7 +2843,6 @@ d_laamp_ordinators = {
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
 	no_automatic_claims = yes
-	noble_family = yes
 	destroy_if_invalid_heir = yes
 
 	ai_primary_priority = { add = @never_primary_score }

@@ -55,7 +55,7 @@
  tgp_southeast_asia_legacy_track_desc: "体现神王之精髓"
  tgp_sea_legacy_1_name: "圣化"
  tgp_sea_legacy_2_name: "罗阇曼荼罗"
- tgp_sea_legacy_2_modifier_desc: "$tgp_sea_legacy_2_name$: $VALUE|=+0$"
+ tgp_sea_legacy_2_modifier_desc: "$tgp_sea_legacy_2_name$：$VALUE|=+0$"
  tgp_sea_legacy_3_name: "侍奉与献身"
  tgp_sea_legacy_4_name: "正法守护"
  tgp_sea_legacy_5_name: "转轮圣王"

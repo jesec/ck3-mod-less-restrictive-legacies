@@ -4,7 +4,7 @@
  feast_default_laurence.100.a: "让你的刀刃畅饮鲜血！"
  feast_default_laurence.100.a.tt.success: "[intent_target.GetTitledFirstName]像祭品一样流干了血"
  feast_default_laurence.100.a.tt.failure: "[intent_target.GetTitledFirstName]过于狡猾"
- feast_default_laurence.100.b: "想到让他死，我心头一动，但还是先观望吧。"
+ feast_default_laurence.100.b: "想到让[intent_target.GetHerHis]死，我心头一动，但还是先观望吧。"
  feast_default_laurence.100.c: "忘掉这些蠢话吧，但这件事我记下了。"
  feast_default_laurence.101.desc: "我的东道主竭尽所能准备了一桌佳肴。虽说与[intent_target.GetCapitalLocation.GetName]的奢华盛宴相比显得朴素，但我还是感激我的封臣对款待宾客的诚意。\n\n我突然注意到大厅的人变少了。没错，守卫们似乎都离开了。\n\n我肋间一阵刺痛！是跳蚤吗？某个温热的东西缓解了瘙痒感。低头看去，一把刀的刀柄从我肋骨间冒了出来。这是怎么回事……"
  feast_default_laurence.101.a: "死神找上了我。"

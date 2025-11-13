@@ -142,7 +142,7 @@
  pardon_interaction: "사면 승인"
  pardon_interaction_desc: "[recipient.GetName](을)를 [criminal|E]([recipient.GetImprisonmentReasons( actor.Self )]) 로 치부하고 있으므로, 해당 인물을 언제 [imprison|E]하더라도 [tyranny|E](으)로 간주되지 않습니다.\n\n범죄자에게 자유를 선사하고 싶다면, 사면을 승인하는 방법도 있습니다. 그럴 경우에는 해당 인물을 [imprison|E]해야 할 사유가 전부 사라지게 되며, 해당 인물이 당신에게 가지는 [opinion|E]이 향상됩니다."
  pardon_interaction_minister_desc: "[recipient.GetLiege.GetShortUIName](이)가 [recipient.GetName](을)를 [criminal|E]([recipient.GetImprisonmentReasons( recipient.GetLiege.Self )])로 치부하고 있으므로, 해당 인물을 언제 [imprison|E]하더라도 [tyranny|E](으)로 간주되지 않습니다.\n\n범죄자에게 자유를 선사하고 싶다면, 사면을 승인하는 방법도 있습니다. 그럴 경우에는 [recipient.GetLiege.GetTitleAsNameNoTooltip](이)가 해당 인물을 [imprison|E]해야 할 사유가 전부 사라지게 되며, 당신을 향한 해당 인물의 [opinion|E]이 향상됩니다."
- pardon_interaction_has_jirga_desc: "당신이 $tradition_fp3_jirga_name$#! 전통으로 인해 위신을 획득합니다."
+ pardon_interaction_has_jirga_desc: "당신이 #high $tradition_fp3_jirga_name$#! 전통으로 인해 위신을 획득합니다."
  pardon_interaction_toast: "자애로운 주군, [actor.GetFirstName](이)가 당신의 죄를 사함"
  pardon_interaction_toast_minister: "자애로운 [minister_of_justice|E], [actor.GetFirstName](이)가 당신의 죄를 사함"
  pardon_interaction_toast_minister_liege: "[actor.GetFirstName] [minister_of_justice|E]가 [recipient.GetShortUIName]의 죄를 사함"

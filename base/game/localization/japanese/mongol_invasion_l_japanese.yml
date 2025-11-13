@@ -50,7 +50,7 @@
  mongol_invasion.2002.opening: "栄光ある世界の統治者よ、"
  mongol_invasion.2002.desc: "あなたの正統で慈悲深い好意に従おう。あなたの運命に逆らう者に対して、共に立ち向かおう。"
  mongol_invasion.2002.a: "懸命な選択だ、我がしもべよ。"
- mongol_invasion.2003.opening: "[mongol_emperor.Custom2('InsultAdjective', SCOPE.sC('demand_recipient'))]な[mongol_emperor.GetTitleAsNameNoTooltip]の偽物よ、"
+ mongol_invasion.2003.opening: "[mongol_emperor.Custom2('InsultAdjective', SCOPE.sC('demand_recipient'))][mongol_emperor.GetTitleAsNameNoTooltip]の偽物よ、"
  mongol_invasion.2003.desc: "脅しに屈するとでも思ったのか？無敵と呼ばれるお前の騎兵部隊に、真の統治者がどう立ち向かうか見ておけ！"
  mongol_invasion.2003.a: "そうか、では戦って死ね。"
  mongol_invasion.2101.desc: "貴殿はこれまで我がよき友であり、よき家臣だった。その奉仕を正式なものにする時が来た。世界の統治者への忠誠を誓え。"

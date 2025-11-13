@@ -10,8 +10,8 @@
  diarch_coup_unequal_truce_for_usurper: "$diarch_coup_unequal_truce_for_liege$"
  ##################################################
  ##Notifications
- diarchies.0000.diarch_fulfills_mandate.t: "[liege.GetDiarchTitle|U](이)가 [mandate|E]을 수행함"
- diarchies.0000.diarch_fails_at_mandate.t: "[liege.GetDiarchTitle|U](이)가 [mandate|E]을 수행하는 데 실패함"
+ diarchies.0000.diarch_fulfills_mandate.t: "[liege.GetDiarchTitle|U](이)가 하명을 수행함"
+ diarchies.0000.diarch_fails_at_mandate.t: "[liege.GetDiarchTitle|U](이)가 하명 수행에 실패함"
  diarchies.0000.diarch_skims_mandate.t: "[liege.GetDiarchTitle|U]의 [mandate|E]을 통해 이익을 편취함"
  diarchies.0000.diarch_fails_to_skim_mandate.t: "[liege.GetDiarchTitle|U]의 [mandate|E]을 통해 이익을 편취하는 데 실패함"
  diarchies.0000.diarch_rejects_mandate.t: "[liege.GetDiarchTitle|U](이)가 [personality_trait|E]으로 인해 [mandate|E]을 거부함"
@@ -210,7 +210,7 @@
  diarchy.1711.e: "아, 없던 걸로 하지. 괜히 열 낼 필요도 없는 일이니."
  diarchy.1711.e.t: "$diarchies.0000.diarch_lax_with_mandate.t$"
  diarchy.1721.t: "고충 해결"
- diarchy.1721.desc: "\"왜 그렇게 끼어들려 하는지 도무지 모르겠군요, [diarch.GetFirstName].\" [exploitable_vassal.GetTitledFirstName](은)는 한숨을 내쉰다. \"당신께 불만이 있는 게 아닙니다.\"\n\n[exploitable_vassal.GetTitleAsNameNoTooltip](이)가 [liege.GetTitledFirstName]의 의지를 거스르려 한다는 사실은 비밀조차 아니다. 저 야망을 이대로 방치하면 파멸적인 내전이 일어날지도 모른다.\n\n주군의 [liege.GetDiarchTitle](으)로서, 둘 사이의 긴장감을 해소하려 노력하는 건 내 정당한 권한이다. 하지만 [exploitable_vassal.GetSheHe]는 귀를 열 생각이 전혀 없는 듯하다."
+ diarchy.1721.desc: "\"왜 그렇게 끼어들려 하는지 도무지 모르겠군요, [diarch.GetFirstName].\" [exploitable_vassal.GetTitledFirstName](은)는 한숨을 내쉰다. \"당신께 불만이 있는 게 아닙니다.\"\n\n[exploitable_vassal.GetTitleAsNameNoTooltip](이)가 [liege.GetTitledFirstName]의 의지를 거스르려 한다는 사실은 비밀조차 아니다. 저 야심을 이대로 방치하면 파멸적인 내전이 일어날지도 모른다.\n\n주군의 [liege.GetDiarchTitle](으)로서, 둘 사이의 긴장감을 해소하려 노력하는 건 내 정당한 권한이다. 하지만 [exploitable_vassal.GetSheHe]는 귀를 열 생각이 전혀 없는 듯하다."
  diarchy.1721.a: "우리 둘 다 [liege.GetTitledFirstNameNoTooltip]께 충성의 서약을 맺지 않았던가?"
  diarchy.1721.a.t: "$diarchies.0000.diarch_fulfills_mandate.t$"
  diarchy.1721.b: "하긴, 어차피 공성전을 내 성에서 치르게 되지는 않을 테니까."
@@ -542,7 +542,7 @@
  #Diplomacy: Liege won, liege-side.
  diarchy.9004.t: "$diarchy.9001.t$"
  diarchy.9004.desc.proxy.proxy_fought: "[proxy.GetTitledFirstName](이)가 입을 열기 무섭게 배신자들은 사분오열하기 시작했다.\n\n진지한 충성심이 아닌 권력을 향한 맹목적인 욕망으로 뭉친 자들이다. 머잖아 [usurper.GetTitledFirstNamePossessive] 명분은 그 당사자가 보는 앞에서 해체되고 말았다."
- diarchy.9004.desc.proxy.self_fought: "나는 빠르게 표적을 찾아 섬세하고 치밀한 언변으로 [usurper.GetTitledFirstNamePossessive] 일당을 하나로 묶던 탐욕과 야망의 결속을 녹이기 시작했다.\n\n단결이 흐트러진 찬탈자들은 명분을 잃고 말았고, 배신자와 용병들은 너 나 할 것 없이 [usurper.GetFirstNameNoTooltip]의 곁에서 멀찍이 떨어졌다."
+ diarchy.9004.desc.proxy.self_fought: "나는 빠르게 표적을 찾아 섬세하고 치밀한 언변으로 [usurper.GetTitledFirstNamePossessive] 일당을 하나로 묶던 탐욕과 야심의 결속을 녹이기 시작했다.\n\n단결이 흐트러진 찬탈자들은 명분을 잃고 말았고, 배신자와 용병들은 너 나 할 것 없이 [usurper.GetFirstNameNoTooltip]의 곁에서 멀찍이 떨어졌다."
  diarchy.9004.desc.scuffled: "내 외침에 낮은 계층의 기사와 희망에 찬 병사들이 우르르 회당에 몰려 들었다. [usurper.GetTitledFirstNamePossessive] 일당 따위가 감당할 수 있는 숫자가 아니었다.\n\n곧이어 일어난 짧고 격렬한 교전에서 음모자들을 죽거나 사로잡혔고, 주동자는 무장이 해제되었다."
  diarchy.9004.desc.outro: "\n\n나는 경비병들에게 잡혀가는 [usurper.GetFirstNameNoTooltip]에게 조소를 보여주며 손을 흔들어 주었다."
  diarchy.9004.a: "경멸스러운 배신자 놈."

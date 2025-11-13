@@ -8,7 +8,7 @@
  playdate_header: "또래 회합"
  playdate.0010.desc: "내 초대를 받아들이고선 [other_host.GetTitledFirstNamePossessive] 또래 회합에 참석하는 이유가 뭐요? 이번 일은 가슴에 담아둘 터이니, 그리 아시오."
  playdate.0010.a: "어이쿠, 이런."
- playdate.1001.opening_desc: "[barony.GetNameNoTier]에 있는 나의 궁정으로 또래를 만나러 오시오!"
+ playdate.1001.opening_desc: "[barony.GetNameNoTier]에 있는 나의 궁정으로 동료를 만나러 오시오!"
  playdate.1001.host_likes_me: "그대를 만날 기회를 손꼽아 기다려왔으니 꼭 참석해 주시오."
  playdate.1001.host_dislikes_me: "이름난 사람을 모두 초대하다 보니, 애석하게도 그대까지 부르게 되었소."
  playdate.1001.host_gets_along_with_me: "꼭 참석해 주시오. 그러지 않으면 너무나 보고 싶을 것 같으니!"

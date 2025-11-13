@@ -1,5 +1,5 @@
 ﻿l_russian:
- ACTIVE_COUNCIL_TASK_TT: "Мой [ActiveCouncilTask.GetPositionType.GetName] [ActiveCouncilTask.GetCouncillor.GetUIName] выполняет следующее задание: [ActiveCouncilTask.GetTaskType.GetName|V]"
+ ACTIVE_COUNCIL_TASK_TT: "Мой [ActiveCouncilTask.GetPositionType.GetNameForPlayer] [ActiveCouncilTask.GetCouncillor.GetFirstName|V] выполняет следующее задание: [ActiveCouncilTask.GetTaskType.GetName|V]"
  ACTIVE_COUNCIL_TASK_FROZEN_TT: "#T [ActiveCouncilTask.GetTaskType.GetName|V] #!\n@warning_icon! #X Чтобы продолжить выполнение задания, назначьте соответствующего советника#!"
  POTENTIAL_COUNCIL_TASK_TT: "[ActiveCouncilTask.GetCouncillor.GetUIName] выполнит следующее задание: «[ActiveCouncilTask.GetTaskType.GetName|V]»"
  COUNCIL_TASK_TT: "#T [ActiveCouncilTask.GetTaskType.GetName]#!\n[SelectLocalization( GuiPotentialCouncilTask.IsActive, 'ACTIVE_COUNCIL_TASK_TT', 'POTENTIAL_COUNCIL_TASK_TT' )]"
@@ -604,7 +604,7 @@
  kurultai_task.1356.notification: "Угнетенные люди"
  kurultai_task.1356.desc: "[Select_CString(councillor.IsLocalPlayer, 'Ваши действия', Concatenate('Действия персонажа ',councillor.GetShortUIName))] катастрофически повлияли на жизнь племен в графстве [county.GetNameNoTier]."
  kurultai_task.1401.notification: "Впечатляющие налетчики"
- kurultai_task.1401.desc: "Благодаря тому, что наших налетчиков [Select_CString(councillor.IsLocalPlayer, 'обучаете вы', Concatenate('обучает персонаж ',councillor.GetShortUIName))], слава о них разносится широко."
+ kurultai_task.1401.desc: "Благодаря тому, что [councillor.GetShortUIName] энергично [Select_CString(CHARACTER.IsLocalPlayer, 'муштруете', 'муштрует' )] наших налетчиков, их набегов уже боятся повсюду."
  kurultai_task.1406.notification: "Ужасающие налетчики"
  kurultai_task.1406.desc: "Наши налетчики приводят врагов в ужас как в наших, так и в чужих краях."
  kurultai_task.1451.notification: "Посредственные налетчики"

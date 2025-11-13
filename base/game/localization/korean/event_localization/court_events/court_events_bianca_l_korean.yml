@@ -98,7 +98,7 @@
  court.3040.d: "감정이야 본인 문제지요. 제 궁정에 괜히 분란 일으키지 마십시오."
  #Chief Eunuch
  court.3050.t: "중상 모략의 편지"
- court.3050.desc: "\"영주님, 획기적인 제안이 하나 있습니다.\" $chief_eunuch_court_position$ [chief_eunuch.GetFirstName](이)가 무언가 음모가 있는 듯한 목소리로 말했다.\n\n\"영주님을 음해하는 데 혈안이 되어 있는 [target.GetTitledFirstName](이)가 오늘 궁정에 와 있습니다. 분부만 내려 주시면 그 작자를 모함하는 편지를 만들어 내겠습니다. 그런 다음 [target.GetHerHim]를 공개적인 조롱의 대상으로 삼는 겁니다.\"\n\n[chief_eunuch.GetFirstNameNoTooltip](이)가 웃음소리가 새어 나가지 않도록 억누르면서도 미소를 지어 보였다. \"서신에는 어떤 내용을 넣을까요?\""
+ court.3050.desc: "\"영주님, 획기적인 제안이 하나 있습니다.\" $chief_eunuch_court_position$ [chief_eunuch.GetFirstName](이)가 무언가 음모가 있는 듯한 목소리로 말했다.\n\n\"영주님을 음해하는 데 혈안이 되어 있는 [target.GetTitledFirstName](이)가 오늘 궁정에 와 있습니다. 분부만 내려 주시면 그 작자를 모함하는 편지를 만들어 내겠습니다. 그런 다음 [target.GetHerHim]를 공개적인 조롱의 대상으로 삼는 겁니다.\"\n\n[chief_eunuch.GetFirstNameNoTooltip](이)가 웃음소리가 새어 나가지 않도록 억누르면서도 [chief_eunuch.Custom('quirk_neg_adjective')] 미소를 지어 보였다. \"서신에는 어떤 내용을 넣을까요?\""
  court.3050.a: "내가 그 얼간이의 비밀을 알고 있다는 걸 주지시키면 식은땀을 뻘뻘 흘리겠지."
  court.3050.b: "품행 불량을 명목으로 [target.GetTitledFirstNameNoTooltip](을)를 조롱하는 거절서를 위조한다."
  court.3050.c: "[target.GetFirstNameNoTooltip](이)가 다른 사람을 중상 모략하는 증거를 심어둔다."

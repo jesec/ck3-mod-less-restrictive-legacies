@@ -3,7 +3,7 @@
  # STRUGGLE EVENTS
  ##################################################
  tgp_dynastic_cycle.0051.t: "$dynastic_cycle$ — [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip]"
- tgp_dynastic_cycle.0051.desc.intro: "[GetSituation('dynastic_cycle').GetTopSubRegion.GetName](은)는 거대한 번영의 땅이다. 천상으로부터 통치할 권리를 하명 받은 이 땅의 군주는 신의 은총을 받으려면 공정한 통치를 이어가야 하며, 폭정을 저지르면 하늘의 진노와 맞서야 한다.\n\n이"
+ tgp_dynastic_cycle.0051.desc.intro: "[GetSituation('dynastic_cycle').GetTopSubRegion.GetName](은)는 거대한 번영의 땅이다. 천상으로부터 통치할 권리를 하명 받은 이 땅의 군주는 하늘의 은총을 받으려면 공정한 통치를 이어가야 하며, 폭정을 저지르면 하늘의 진노와 맞서야 한다.\n\n이"
  tgp_dynastic_cycle.0051.desc.advancement: "$tgp_dynastic_cycle.0051.desc.intro$ [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip|l]에는 봉역의 모두가 위대한 기술적 진보와 부의 축적을 기대한다."
  tgp_dynastic_cycle.0051.desc.expansion: "$tgp_dynastic_cycle.0051.desc.intro$ [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip|l]에는 봉역의 모두가 위대한 정복과 강력한 위업을 기대한다."
  tgp_dynastic_cycle.0051.desc.conquest: "$tgp_dynastic_cycle.0051.desc.intro$ [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip|l]에는 봉역의 모두가 불확실한 운명을 맞이한다."
@@ -57,7 +57,7 @@
  tgp_dynastic_cycle.0056.desc.instability: "[ROOT.Char.GetTopLiege.GetName](은)는 많은 신뢰를 잃었다. [ROOT.Char.GetTopLiege.GetHerHis] 은총을 되찾는 길은 우리 가문을 따르는 길뿐이다."
  tgp_dynastic_cycle.0056.a: "힘은 가족의 유대에서 나온다."
  ### ENTER STABILITY - NEW DYNASTY ### 0061 - 0070 ###
- tgp_dynastic_cycle.0061.t: "하늘의 총애 [GetTitleByKey('h_china').GetHolder.Custom('GetDaughterSon')|U]"
+ tgp_dynastic_cycle.0061.t: "총애받는 하늘의 [GetTitleByKey('h_china').GetHolder.Custom('GetDaughterSon')|U]"
  tgp_dynastic_cycle.0061.desc: "하늘은 공정하며, 언제나 선한 이들의 편을 든다고 알려져 있다. 마찬가지로 승자는 왕이 되며, 패배자는 도적이 되는 것 역시 자명한 이치다. 이제 [GetTitleByKey('h_china').GetNameNoTierNoTooltip]의 왕좌가 #EMP 내 것#!이 되었다. 천상에서 내게 [GetTitleByKey('h_china').GetNameNoTierNoTooltip] 전역을 통치할 권리를 주신 것이다.\n\n이제 새로운 관리들과 그 아래 관리들의 능력을 어디에 집중시킬 것인지 결정해야 한다."
  tgp_dynastic_cycle.0061.a: "미덕을 장려하며 악을 근절하는 것이 우리의 의무다."
  tgp_dynastic_cycle.0061.b: "드넓은 하늘 아래 #EMP 모두가#! [ROOT.Char.GetTitleAsNameNoTooltip]의 신하로다."
@@ -76,7 +76,7 @@
  tgp_dynastic_cycle.0072.desc.advancement: "크나큰 난관과 혼란의 시기를 견뎌낸 [GetTitleByKey('h_china').GetNameNoTierNoTooltip]에 다시 한번 평화가 찾아왔다. 하늘에서 보낸 시련도 극복해 냈으니, [GetTitleByKey('h_china').GetHolder.GetTitledFirstName]에게는 아직 하늘의 은혜가 내리는 것이 확실하다."
  tgp_dynastic_cycle.0072.desc.expansion: "$tgp_dynastic_cycle.0051.desc.advancement$"
  tgp_dynastic_cycle.0072.desc.conquest: "$tgp_dynastic_cycle.0051.desc.advancement$"
- tgp_dynastic_cycle.0072.desc.involved: "누군가에게는 자기 야망의 끝을 알리는 소식이겠지만, 많은 이는 이 소식을 듣고 안도의 한숨을 내쉰다."
+ tgp_dynastic_cycle.0072.desc.involved: "누군가에게는 자기 야심의 끝을 알리는 소식이겠지만, 많은 이는 이 소식을 듣고 안도의 한숨을 내쉰다."
  tgp_dynastic_cycle.0072.desc.interloper: "평화로운 시대에는 용맹한 영웅이 능력을 발휘할 기회가 몇 없을 것이다. 그러나 이제 다른 발전으로의 길이 열릴 수도 있다."
  tgp_dynastic_cycle.0072.desc.uninvolved: "[GetTitleByKey('h_china').GetHolder.GetDynastyName] 가문에 활력이 아직 남아 있는 듯하다."
  tgp_dynastic_cycle.0072.a: "봄바람이 불어오니 풀이 다시 자라는구나."
@@ -86,7 +86,7 @@
  tgp_dynastic_cycle.0081.a: "나무가 쓰러지면 원숭이도 도망치는 법이니."
  # Notification for relevant people
  tgp_dynastic_cycle.0082.desc.involved: "사람의 의지와 하늘의 의지는 모두 하나로 같다. 이번 경우에도 그 속담이 옳았다. #EMP 천명을 잃은 것이다#!.\n\n국가가 분리되고, 수많은 용과 호랑이가 왕좌를 두고 탐욕스럽게 싸운다.\n\n난세가 다가오고 있다."
- tgp_dynastic_cycle.0082.desc.interloper: "한때 하나가 있던 자리를 이제 수많은 이들이 차지했다.\n\n천명을 잃었으니 복종해야 할 적법한 통치자도 없으며, 모든 가식도 사라지고 숨겨져 있던 야망도 전부 다 드러났다.\n\n대담한 자는 보이는 대로 기회를 포착해야 한다."
+ tgp_dynastic_cycle.0082.desc.interloper: "한때 하나가 있던 자리를 이제 수많은 이들이 차지했다.\n\n천명을 잃었으니 복종해야 할 적법한 통치자도 없으며, 모든 가식도 사라지고 숨겨져 있던 야심도 전부 다 드러났다.\n\n대담한 자는 보이는 대로 기회를 포착해야 한다."
  tgp_dynastic_cycle.0082.desc.uninvolved: "강력한 국가가 불탄다. 무장을 갖춘 신하들이 그 잿더미를 두고 싸워댄다.\n\n[GetTitleByKey('h_china').GetNameNoTierNoTooltip]은 분열되었고, 다가올 미래는 이제 격변뿐이다. 이 분란에 휘말리고자 하는 이는 호랑이의 굴속으로 발을 들여놓아야 한다."
  tgp_dynastic_cycle.0082.a: "위기는 곧 기회다."
  ### ENTER CORRUPTION ###
@@ -113,6 +113,15 @@
  tgp_dynastic_cycle_decision_event.0101.a: "나는 [new_player.GetFirstNameNoTooltip](이)가 모든 것을 잘 해낼 것으로 믿는다."
  dynastic_cycle_entered_conquest_tt: "[GetSituation('dynastic_cycle').GetName]가 [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability_conquest').GetName]에 진입했음"
  dynastic_cycle_entered_chaos_tt: "[GetSituation('dynastic_cycle').GetName]가 [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName]에 진입했음"
+ dynastic_cycle_entered_chaos_changed_top_liege_tt: "[new_top_liege.GetShortUIName](이)가 당신의 새로운 [top_liege|E]이 됨"
+ dynastic_cycle_entered_chaos_became_independent_tt: "[relevant_character.GetShortUIName|U](이)가 [independent|E] 상태가 됨"
+ chaos_new_vassals_tt: "당신의 [vassals|E]이 되었음 #weak ([chaos_new_vassals_count])#!"
+ custom.chaos_new_vassals: "$BULLET$당신의 [realm|E]과 인접하며 #V 당신#!보다 [title_tier|E]이 낮은 모든 [independent|E] [movement|E] 구성원과 [disciples|E]"
+ custom.chaos_new_vassals_disciples: "$BULLET$당신의 [realm|E]과 인접하며 #V 당신#!보다 [title_tier|E]이 낮은 모든 [independent|E] [disciples|E]"
+ chaos_new_tributaries_tt: "당신의 [tributaries|E]이 되었음 #weak ([chaos_new_tributaries_count])#!"
+ custom.chaos_new_tributaries: "$BULLET$당신의 [realm|E]과 인접하지 않거나 #V 당신#!과 [title_tier|E]이 같거나 더 높은 모든 [independent|E] [movement|E] 구성원과 [disciples|E]"
+ custom.chaos_new_tributaries_disciples: "$BULLET$당신의 [realm|E]과 인접하지 않고 #V 당신#!과 [title_tier|E]이 같거나 더 높은 모든 [disciples|E]"
+ dynastic_cycle_entered_chaos_hunagdi_tt: "[son_of_heaven|E]가 물러나며 모든 [landed|E] [titles|E] 및 [mandate_of_heaven|E]을 잃었음"
  dynastic_cycle_entered_stability_advancement_past_tt: "[GetSituation('dynastic_cycle').GetName]가 [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]에 진입했음"
  dynastic_cycle_entered_stability_advancement_tt: "[GetSituation('dynastic_cycle').GetName]가 [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]에 진입함"
  dynastic_cycle_entered_stability_expansion_past_tt: "[GetSituation('dynastic_cycle').GetName]가 [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]에 진입했음"

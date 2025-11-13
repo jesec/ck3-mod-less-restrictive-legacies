@@ -108,7 +108,7 @@
  ep2_wedding.0204.a.tt.success.host: "[murder_victim.GetShortUIName]死了"
  ep2_wedding.0204.a.tt.failure.host: "[murder_victim.GetShortUIName]活了下来"
  ep2_wedding.0204.a.spouse_2_murder.tt: "[spouse_2.GetShortUIName]死了"
- ep2_wedding.0957.opening: "致[ROOT.Char.Custom2('InsultAdjective', SCOPE.sC(avenging_family))][ROOT.Char.GetTitledFirstName]"
+ ep2_wedding.0957.opening: "致[ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('avenging_family'))][ROOT.Char.GetTitledFirstName]"
  ep2_wedding.0957.desc.parent: "我把我的孩子交给了你，你却没能保护好[spouse_2.GetHerHim]。$ep2_wedding.0957.desc_ending$"
  ep2_wedding.0957.desc: "我亲爱的[avenging_family.Custom2('RelationToMeShort', SCOPE.sC('spouse_2'))]被交给你保护，你就是这样守护[spouse_2.GetHerHim]的？$ep2_wedding.0957.desc_ending$"
  ep2_wedding.0957.desc_ending: "\n\n一想到[spouse_2.GetHerHis]的离去，我的眼中就满是泪水，而我的心中只有仇恨。\n\n不管怎样，我会复仇的。"

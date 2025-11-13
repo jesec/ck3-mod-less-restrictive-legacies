@@ -10672,7 +10672,6 @@
  dynn_BoseH: "Босе Хольмквист"
  dynn_Kopparvall: "Коппарвалль"
  dynn_freddi: "Фредди"
- 
  dynn_collinder: "Коллиндер"
  #TGP
  dynn_Tang: "Тан"
@@ -10795,7 +10794,7 @@
  dynn_Fujiwara_Namba: "$dynn_Namba$" #難波
  dynn_Fujiwara_Nan_ke: "Нан-кэ" #南家藤原
  dynn_Fujiwara_O_inomikado: "$dynn_O_inomikado$" #大炊御門
- dynn_Fujiwara_O_shU_: "Осю" #奥州藤原
+ dynn_Fujiwara_O_shU_: "$dynn_O_shU_$" #奥州藤原
  dynn_Fujiwara_Ononomiya: "Онономия-рю" #小野宮流藤原
  dynn_Fujiwara_RokujO_: "$dynn_RokujO_$" #六条
  dynn_Fujiwara_Saionji: "Сайондзи" #西園寺
@@ -11026,7 +11025,7 @@
  dynn_Minamoto_Murakami: "$Murakami$" #村上源
  dynn_Minamoto_Murakami_Shinano: "$Murakami$" #村上源
  dynn_Minamoto_NinmyO_: "$NinmyO_$" #仁明源
- dynn_Minamoto_O_shU__Ishikawa: "Осю $dynn_Ishikawa$" #奥州石川
+ dynn_Minamoto_O_shU__Ishikawa: "$dynn_O_shU_$ $dynn_Ishikawa$" #奥州石川
  dynn_Minamoto_Saga: "$Saga_JP$" #嵯峨源
  dynn_Minamoto_SanjO_: "$SanjO_$" #三条源
  dynn_Minamoto_Sasaki: "$dynn_Sasaki$"
@@ -11123,6 +11122,7 @@
  dynn_O_nakatomi: "Онакатоми" #大中臣
  dynn_O_no: "Оно" #大野
  dynn_O_shikO_chi: "Осикоти" #凡河内
+ dynn_O_shU_: "Осю" #奥州
  dynn_O_suga: "Осуга" #大須賀
  dynn_O_ta: "Ота" #太田
  dynn_O_tawa: "Отава" #大多和
@@ -11388,7 +11388,7 @@
  dynn_Usori: "Усори" #宇曽利
  dynn_Waga: "Вага" #和我
  #Ainu
- dynn_Akam: "//// Далее //// Айнские" #アカム
+ dynn_Akam: "Акам" #アカム
  dynn_Amamsuke: "Амамсукэ" #アママスケ
  dynn_Aptapet: "Аптапэт" #アプタペッ
  dynn_Atkeusi: "Аткэуши" #アッケウシ
@@ -11506,7 +11506,6 @@
  dynn_Zongbao: "Цзунбао"
  dynn_Hiei: "Хиэй"
  dynn_Tsukushi: "Цукуси"
- dynn_Nammhae: "Намхэ"
  dynn_Shailendra: "Шайлендра"
  dynn_Tian: "Тянь"
  dynn_Cheng: "Чэн"
@@ -12081,3 +12080,13 @@
  dynn_Holchu: "Холчу"
  #Custom Character
  dynn_Noble_Family: "Благородное семейство"
+ #Senoi
+ dynn_Semai: "Семай"
+ dynn_Chewong: "Чевонг"
+ dynn_Temiar: "Темиар"
+ dynn_Ple: "Пле"
+ dynn_Jah_Hut: "Джа Хут"
+ dynn_Semaq_Beri: "Семак Бери"
+ dynn_Semelai: "Семелай"
+ dynn_Temoq: "Темок"
+ dynn_Mah_Meri: "Ма Мери"

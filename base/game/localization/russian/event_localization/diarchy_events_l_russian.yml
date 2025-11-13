@@ -10,8 +10,8 @@
  diarch_coup_unequal_truce_for_usurper: "$diarch_coup_unequal_truce_for_liege$"
  ##################################################
  ##Notifications
- diarchies.0000.diarch_fulfills_mandate.t: "[liege.GetDiarchTitle|U] исполняет [mandate|El]"
- diarchies.0000.diarch_fails_at_mandate.t: "[liege.GetDiarchTitle|U] неудачно исполняет [mandate|El]"
+ diarchies.0000.diarch_fulfills_mandate.t: "[liege.GetDiarchTitle|U] исполняет мандат"
+ diarchies.0000.diarch_fails_at_mandate.t: "[liege.GetDiarchTitle|U] безуспешно пытается исполнить мандат"
  diarchies.0000.diarch_skims_mandate.t: "[liege.GetDiarchTitle|U] злоупотребляет [Concept( 'mandate', 'мандатом' )|E]"
  diarchies.0000.diarch_fails_to_skim_mandate.t: "[liege.GetDiarchTitle|U] безуспешно пытается злоупотреблять [Concept( 'mandate', 'мандатом' )|E]"
  diarchies.0000.diarch_rejects_mandate.t: "[liege.GetDiarchTitle|U] отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"

@@ -17,7 +17,7 @@
  SW_TT_FORT_LEVEL_MULT: "[fort_level|E]"
  SW_TT_MORALE_LOSS_LABEL: "一日ごとの進展：$VALUE|+=1$"
  SW_TT_MORALE_LOSS_LABEL_MINIMUM: "#! #weak (下限値 $VALUE|=1$)#!"
- SIEGE_WINDOW_END_DATE: "包囲は現在の進捗率では最大であと$TIME$間続く（[DATE.GetString|V]）"
+ SIEGE_WINDOW_END_DATE: "現在の[siege_progress|E]では、包囲軍が[siege|E]戦に$TIME$で勝利する#weak （[DATE.GetString]）#!\n\n包囲イベントは$game_concept_siege_progress$を進め、$game_concept_siege$戦をさらに早く終結させる可能性がある。"
  SIEGE_WINDOW_END_DATE_SHORT: "残り最大$TIME$"
  SW_TT_SIEGING_REALM_TOOLTIP: "#T 包囲軍: [Character.GetPrimaryTitle.GetName|VU]#!\n#I クリックして表示#!"
  SW_TT_DEFENDING_REALM_TOOLTIP: "#T 防衛側：[Character.GetPrimaryTitle.GetName|VU]#!\n#I クリックして表示#!"

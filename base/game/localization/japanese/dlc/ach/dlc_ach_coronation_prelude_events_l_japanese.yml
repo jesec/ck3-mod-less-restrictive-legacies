@@ -56,7 +56,7 @@
  prelude_events.0040.desc: "その日はあまりにも穏やかだったが、当然のように、忌まわしい好敵手である[guest.Custom2('InsultAdjective', ROOT.Char)][guest.GetTitledFirstName]の姿を見て、私の良い気分は台無しにされた。\n\n「ああ、[ROOT.Char.GetFirstNameNoTooltip]さま」[guest.GetSheHe]は私が必要以上に近付くまで、私のことが見えないふりをした。「夕食の時に何か出し物でもされるつもりですか？それとも、[ROOT.Char.GetTitleAsNameNoTooltip]はそのような衣装を戴冠式に着用するのですか？」"
  prelude_events.0040.a: "事が済んだら[guest.GetSheHe|U]も静かになるだろう。"
  prelude_events.0040.b: "「君の母上を参考にしたのだ」"
- prelude_events.0040.c: "今夜[guest.GetTitledFirstNameNoTooltip]が仲間に何を話すのか、ひとつ残らず盗み聞きしよう。"
+ prelude_events.0040.c: "[guest.GetFirstNameNoTooltip]がここで話す一言一句に耳を傾けよう。"
  prelude_events.0040.c.tt: "[scheme|E]の[success_chance|E]が#P 増加する#!"
  prelude_events.0040.d: "「ここは口論する場所ではない」"
  every_callous_vengeful_wrathful_guest: "すべての[GetTrait('callous').GetName( GetNullCharacter )]、[GetTrait('vengeful').GetName( GetNullCharacter )]、または[GetTrait('wrathful').GetName( GetNullCharacter )]の客人"

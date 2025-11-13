@@ -1,4 +1,5 @@
 ﻿
+### Find a New Faith for Persia ###
 adopt_a_new_faith_for_persia_decision = {
 	ai_check_interval_by_tier = {
 		barony = 0

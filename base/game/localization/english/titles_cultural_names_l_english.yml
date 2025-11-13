@@ -2795,7 +2795,7 @@
  cn_east_hoewon_adj: "$cn_east_hoewon$"
  cn_south_hoewon: "South Hoewon" # 懷遠 (회원)
  cn_south_hoewon_adj: "$cn_south_hoewon$"
- cn_dongpyeong: "Dongpyeong"" # 東平 (동평)
+ cn_dongpyeong: "Dongpyeong" # 東平 (동평)
  cn_dongpyeong_adj: "$cn_dongpyeong$"
  cn_cheolli: "Cheolli" # 鐵利 (철리)
  cn_cheolli_adj: "$cn_cheolli$"

@@ -14,6 +14,7 @@
 # by Ewan Cowhig Croft						#
 #############################################
 
+### Secure the High Kingdom of the North Sea ###
 secure_high_kingdom_north_sea_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp1_decision_raise_runestone.dds"
@@ -185,6 +186,7 @@ secure_high_kingdom_north_sea_decision = {
 # by Ewan Cowhig Croft						#
 #############################################
 
+### Found the Capital of the Rus' ###
 found_capital_of_the_rus_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp1_decision_raise_runestone.dds"
@@ -346,6 +348,7 @@ found_capital_of_the_rus_decision = {
 #############################################
 
 # This decision is intentionally fairly whimsical, and in no way intended to reflect historical reality or possibility, nor is it in any way affiliated with affiliated with the Isle of Mann Tourism Board.
+### Elevate the Kingdom of Mann & the Isles ###
 elevate_mann_and_the_isles_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -472,6 +475,7 @@ elevate_mann_and_the_isles_decision = {
 # by Ewan Cowhig Croft						#
 #############################################
 
+### Forge the Jomsvikings ###
 forge_the_jomsvikings_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp1_decision_forge_jomsvikings.dds"

@@ -800,7 +800,7 @@ environment_ep3_byzantine_throne_room = {
 			type = "point_light"	# Valid types are "spot_light", "point_light", and "directional_light"
 			affected_by_shadow = yes
 
-			color = hsv{ 0.1 .45 3.5 }	# Hue, saturation, value. Increase value for more intense lights
+			color = hsv{ 0.1 .45 2.0 }	# Hue, saturation, value. Increase value for more intense lights
 			position = cylindrical{ 180 200 -55 } # Radius, height, angle
 
 			# For spot lights and directional lights
@@ -1516,7 +1516,7 @@ environment_ep3_relaxing_room = {
 			type = "spot_light"
 			affected_by_shadow = yes
 
-			color = hsv{ 0.08 0.6 4 }
+			color = hsv{ 0.08 0.6 2 }
 			position = cylindrical{ @main_light_radius @main_light_height -125 }
 
 			look_at = { 0 0 0 }

@@ -99,7 +99,7 @@ types HouseAspirations
 			max_width = 450
 			autoresize = yes
 
-			text = "[HouseAspiration.GetLevelDesc( PdxGuiWidget.GetIndexInDataModel )]"
+			text = "[HouseAspiration.GetLevelDesc( DynastyHouse.Self, PdxGuiWidget.GetIndexInDataModel )]"
 		}
 	}
 
@@ -214,14 +214,6 @@ types HouseAspirations
 			layoutpolicy_vertical = expanding
 
 			hbox = {
-				text_label_center = {
-					layoutpolicy_horizontal = expanding
-					fontsize = 20
-					text = "FAMILY_ATTRIBUTE_WINDOW_SELECTED"
-				}
-			}
-
-			hbox = {
 				name = "level_track"
 				datamodel = "[HouseAspiration.GetLevels]"
 				visible = "[GreaterThan_int32( GetDataModelSize( HouseAspiration.GetLevels ), '(int32)1' )]"
@@ -326,7 +318,16 @@ types HouseAspirations
 				}
 
 				text_multi = {
-					visible = "[DynastyHouse.IsHouseAttributeInactive]"
+					visible = "[And(GreaterThan_int32( GetDataModelSize( HouseAspiration.GetLevels ), '(int32)1' ), DynastyHouse.IsHouseAttributeInactive)]"
+					layoutpolicy_horizontal = expanding
+
+					text = "FAMILY_ATTRIBUTE_WINDOW_HOUSE_ASPIRATION_ALERT"
+					max_width = 450
+					autoresize = yes
+				}
+
+				text_multi = {
+					visible = "[And(Not(GreaterThan_int32( GetDataModelSize( HouseAspiration.GetLevels ), '(int32)1' )), DynastyHouse.IsHouseAttributeInactive)]"
 					layoutpolicy_horizontal = expanding
 
 					text = "FAMILY_ATTRIBUTE_WINDOW_ALERT"
@@ -556,7 +557,16 @@ types HouseAspirations
 				}
 
 				text_multi = {
-					visible = "[DynastyHouse.IsHouseAttributeInactive]"
+					visible = "[And(GreaterThan_int32( GetDataModelSize( HouseAspiration.GetLevels ), '(int32)1' ), DynastyHouse.IsHouseAttributeInactive)]"
+					layoutpolicy_horizontal = expanding
+
+					text = "FAMILY_ATTRIBUTE_WINDOW_HOUSE_ASPIRATION_ALERT"
+					max_width = 450
+					autoresize = yes
+				}
+
+				text_multi = {
+					visible = "[And(Not(GreaterThan_int32( GetDataModelSize( HouseAspiration.GetLevels ), '(int32)1' )), DynastyHouse.IsHouseAttributeInactive)]"
 					layoutpolicy_horizontal = expanding
 
 					text = "FAMILY_ATTRIBUTE_WINDOW_ALERT"

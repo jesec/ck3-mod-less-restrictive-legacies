@@ -143,12 +143,12 @@
  heartless_behavior: "비정함"
  #InsultSentence
  insult_sentence_arrogant: "네놈은 자신을 위대하다고 여기는 외톨이에 불과해."
- insult_sentence_lustful: "당신 곁에 없을 때면 너무 비참합니다. 곁에 있을 때처럼 말입니다."
- insult_sentence_subtle: "당신은 음흉하기가 길 모퉁이의 창부 같습니다."
- insult_sentence_highgod: "당신의 얼굴이야말로 [ROOT.GetCharacter.GetFaith.HighGodName]께서 항상 선하신 건 아니라는 증거입니다."
- insult_sentence_beauty_bad: "자연을 사랑한다고 들었습니다. 자연은 당신에게 그런 짓을 했는데도 말입니다."
- insult_sentence_shiver: "몸을 떠는 당신의 모습이 어디 도망갈 곳이라도 찾는 듯합니다."
- insult_sentence_evening: "좋은 친구들과 완벽한 저녁을 보내고 있었습니다. 방금까지는."
+ insult_sentence_lustful: "네 곁에 없을 때면 너무 비참해. 곁에 있을 때도 그렇듯이."
+ insult_sentence_subtle: "넌 음흉하기가 길 모퉁이의 창부 같구나."
+ insult_sentence_highgod: "네 얼굴이야말로 [ROOT.GetCharacter.GetFaith.HighGodName]께서 항상 선하신 건 아니라는 증거다."
+ insult_sentence_beauty_bad: "자연을 사랑한다고 들었어. 자연은 당신에게 그런 짓을 했는데도 말이다."
+ insult_sentence_shiver: "몸을 떠는 그 모습이 어디 도망갈 곳이라도 찾는 듯하네."
+ insult_sentence_evening: "좋은 친구들과 완벽한 저녁을 보내고 있었지. 방금까지는."
  #PointOfRidicule
  foolishness: "멍청함"
  sensitive_soul: "예민한 영혼"

@@ -4,7 +4,7 @@
  administraction_tab_families: "Familles nobles"
  admin_vassal_tab_overview: "Aperçu"
  admin_vassal_tab_appointment: "Nomination de [GetPlayer.Custom('GetGovernorConceptNoTooltip')|l]"
- ADMINISTRATIVE_GOVERNMENT_HEADER: "Gouvernement [GetPlayer.GetTopLiege.GetGovernment.GetAdjectiveNoTooltip|l]"
+ ADMINISTRATIVE_GOVERNMENT_HEADER: "Gouvernement [GetPlayer.GetTopLiege.GetGovernment.GetAdjectiveNoTooltip|l] [GetPlayer.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip]"
  ADMINISTRATIVE_GOVERNMENT_HOUSE_WITH_NAME: "#high Maison [DynastyHouse.GetBaseNameNoTooltip]#!"
  ADMINISTRATIVE_GOVERNMENT_HOUSE_HEAD: "[house_head_head|E] : [DynastyHouse.GetHeadOfHouse.GetShortUIName]"
  ADMINISTRATIVE_GOVERNMENT_FAMILY_RATING: "[powerful_family_rating_mid|E] : #V #underline [DynastyHouse.GetHousePower]#!#!"

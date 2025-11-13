@@ -228,7 +228,7 @@
  lover_moonlit_evening_on_the_road_corresponding: "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]作为[TARGET_CHARACTER_2.GetFirstNamePossessive]旅团的成员在[PROVINCE.GetName]一同仰望星空后相爱了。"
  i_saw_nothing: "不。我什么都没看见。什么#EMP 都没有#!。最好忘掉这一切。"
  travel_events_oltner_2.1190.t: "偷来的信物"
- travel_events_oltner_2.1190.desc: "在[location.GetName]附近我们营地一片宁静，突如其来的一场惊叫却打破了这片平静。我的[ROOT.Char.Custom2('RelationToMeShort', entourage_member_1 )][entourage_member_1.GetFirstName]用责备的语气与我的[ROOT.Char.Custom2('RelationToMeShort', entourage_member_2 )][entourage_member_2.GetFirstName]对质，还拿着一件珍藏的[entourage_member_1.Custom('GetRandomSmallPreciousItem')]。\n\n“你这小偷！这是我母亲的！”[entourage_member_1.GetFirstNameNoTooltip]喊道，眼里怒火中烧。[entourage_member_2.GetFirstNameNoTooltip]断然否认这一宣称：“你这撒谎的[entourage_member_1.Custom2('InsultNoun', SCOPE.sC(entourage_member_2))]，这一直都是我的！”"
+ travel_events_oltner_2.1190.desc: "在[location.GetName]附近我们营地一片宁静，突如其来的一场惊叫却打破了这片平静。我的[ROOT.Char.Custom2('RelationToMeShort', entourage_member_1 )][entourage_member_1.GetFirstName]用责备的语气与我的[ROOT.Char.Custom2('RelationToMeShort', entourage_member_2 )][entourage_member_2.GetFirstName]对质，还拿着一件珍藏的[entourage_member_1.Custom('GetRandomSmallPreciousItem')]。\n\n“你这小偷！这是我母亲的！”[entourage_member_1.GetFirstNameNoTooltip]喊道，眼里怒火中烧。[entourage_member_2.GetFirstNameNoTooltip]断然否认这一宣称：“你这撒谎的[entourage_member_1.Custom2('InsultNoun', SCOPE.sC('entourage_member_2'))]，这一直都是我的！”"
  travel_events_oltner_2.1190.a: "“这个归[entourage_member_1.GetFirstNameNoTooltip]所有。”"
  travel_events_oltner_2.1190.b: "“应该由[entourage_member_2.GetFirstNameNoTooltip]留着它。”"
  travel_events_oltner_2.1190.c: "“你俩都是小孩，把它交过来！”"

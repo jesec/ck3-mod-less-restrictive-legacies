@@ -51,7 +51,7 @@
  game_concept_ritual_tier: "Niveau de rituel"
  game_concept_mandala_ritual_tier_desc: "Le [ritual_tier|El] d’un [mandala_ritual|El] est un indicateur de la manière dont la destination bénéficiera de vos sermons et dont vous serez personnellement récompensé."
  #Tribute Mission
- game_concept_tribute_mission: "Mission de tribut"
+ game_concept_tribute_mission: "Mission de tributaire"
  game_concept_tribute_missions: "Missions de tribut"
  game_concept_tribute_mission_desc: "En tant que [tributary|El], on doit régulièrement rendre hommage à son [suzerain|El].\n\nNe pas le faire peut avoir de nombreuses conséquences. La moins grave est de perdre de la [legitimacy|El]."
  game_concept_tribute: "Tribut"

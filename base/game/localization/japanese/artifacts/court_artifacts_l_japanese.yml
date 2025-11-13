@@ -95,6 +95,10 @@
  artifact_wall_sword_muhammad_alqadib: "アル・カディブ――長きにわたりムハンマド家が所有していた剣"
  artifact_wall_sword_attila_name: "神の剣"
  artifact_wall_sword_attila_description: "フン族の首長アッティラの伝説の剣、「神の鞭」。別名「火星の剣」。"
+ artifact_sword_goujian_name: "越王勾践剣"
+ artifact_sword_goujian: "この古代の剣は、かつて越王句践が所有していたと伝えられている。その造りは古風ながら、鍛造の技は極めて精緻である。鍔の近くには鳥虫篆の金文字が刻まれている。"
+ artifact_sword_goujian_refulgence: "[gujian_sword.GetDesc]\n\nこれは、句践が孔子に教えを請うた際に佩用していた「燿光」の剣であると考えられている。"
+ artifact_sword_goujian_purity: "[gujian_sword.GetDesc]\n\nこれは、「清浄」と呼ばれる剣であると考えられている。"
  #Animals (used in ArtifactAnimalType)
  animal_type_cat: "猫"
  animal_type_dog: "犬"
@@ -730,15 +734,27 @@
  artifact_scepter_pedestal: "王笏"
  artifact_wall_icon_court_large: "大きなイコン"
  artifact_wall_icon_court_small: "小さなイコン"
- artifact_wall_sakanoue_sword_name: "坂家宝剣"
- artifact_wall_sakanoue_sword_desc: "著名な将軍、$dynn_Sakanoue$$Tamuramaro$が使用していた剣で、朝廷を守護するものとされている。$Tamuramaro$が死亡した際に、$Saga_JP$$king_tenno_male_japanese$から献上された。"
- artifact_higekiri_sword_name: "髭切"
- artifact_higekiri_sword_desc: "髭切は、膝丸とともに$dynn_Minamoto$$Mitsunaka$の命で作られた刀で、$Seiwa$$dynn_Minamoto$氏へ相伝された。"
- artifact_hizamaru_sword_name: "膝丸"
+ artifact_pedestal_sakanoue_sword_name: "坂家宝剣" #坂家宝剣
+ artifact_pedestal_sakanoue_sword_desc: "著名な将軍、$dynn_Sakanoue$$Tamuramaro$が使用していた剣で、朝廷を守護するものとされている。$Tamuramaro$が死亡した際に、$Saga_JP$$king_tenno_male_japanese$から宮中へ献上された。"
+ artifact_higekiri_sword_name: "髭切" #髭切
+ artifact_higekiri_sword_desc: "髭切は、膝丸とともに$dynn_Minamoto$$Mitsunaka$の命で作られ、$Seiwa$$dynn_Minamoto$氏に相伝された。"
+ artifact_hizamaru_sword_name: "膝丸" #膝丸
  artifact_hizamaru_sword_desc: "膝丸は、髭切とともに$dynn_Minamoto$$Mitsunaka$の命で作られた刀で、$Seiwa$$dynn_Minamoto$氏へ相伝された。"
- artifact_dojigiri_sword_name: "童子切"
- artifact_dojigiri_sword_desc: "名のある刀工、$Yasutsuna_4$により作られた刀で、$Seiwa$$dynn_Minamoto$氏の一流である$dynn_Nitta$氏に相伝された。"
- artifact_mikazuki_munechika_sword_name: "三日月宗近"
- artifact_mikazuki_munechika_sword_desc: "三日月宗近は$IchijO_$$king_tenno_male_japanese$の時代に名のある刀工、$dynn_SanjO_$$Munechika_2$により作られた刀。"
- artifact_odenta_sword_name: "大典太"
- artifact_odenta_sword_desc: "$Shirakawa$$king_tenno_male_japanese$の時代に名のある刀工、$Mitsuyo$により作られた刀。"
+ artifact_dojigiri_sword_name: "童子切" #童子切
+ artifact_dojigiri_sword_desc: "名のある刀工、$Yasutsuna_4$により$dynn_Fujiwara$$Toshihito$のために作られた刀で、$dynn_Fujiwara$氏に相伝された。"
+ artifact_mikazuki_munechika_sword_name: "三日月宗近" #三日月
+ artifact_mikazuki_munechika_sword_desc: "三日月宗近は$IchijO_$$king_tenno_male_japanese$の時代に、名のある刀工、$dynn_SanjO_$$Munechika_2$により作られた。"
+ artifact_odenta_sword_name: "大典太" #大典太
+ artifact_odenta_sword_desc: "大典太は$Shirakawa$$king_tenno_male_japanese$の時代に、名のある刀工であり、三池典太としても知られる$Mitsuyo$により作られた。"
+ artifact_pedestal_hamayumi_bow_name: "破魔弓" #破魔弓
+ artifact_pedestal_hamayumi_bow_desc: "破魔弓は、邪悪な霊魂を払うために宮中に召喚された$dynn_Minamoto$$Yorimasa$が用いたとされている。"
+ artifact_pedestal_seven_branched_sword_name: "七支刀" #七支刀
+ artifact_pedestal_seven_branched_sword_desc: "7つの炎のような枝刃を持つ鉄の剣で、遠い昔に百済の王が友好の証として$king_tenno_male_japanese$に贈ったと伝えられている。"
+ artifact_pedestal_gyerimro_dagger_name: "異国の短剣"
+ artifact_pedestal_gyerimro_dagger_desc: "この精巧に作られた短剣は、柄と鞘が宝石をちりばめた緻密な金の象嵌細工で飾られており、新羅王宮の至宝のひとつとされている。遥か西方の地からもたらされたものと伝えられている。"
+ artifact_karakawa_armor_name: "唐皮" #唐皮
+ artifact_karakawa_armor_desc: "この精緻な大鎧は平家に伝わる家宝であり、$Kanmu$$king_tenno_male_japanese$の甥から贈られたものと伝えられている。"
+ artifact_nukemaru_sword_name: "抜丸" #抜丸
+ artifact_nukemaru_sword_desc: "天照大神自身が伊勢の猟師に授けたとされるこの剣は、後に$dynn_Taira$$Tadamori$が買い求めた。彼が眠っている間に蛇が襲ってきた際、この剣は自ら鞘から抜け出したと伝えられている。"
+ artifact_kogarasumaru_sword_name: "小烏丸" #小烏丸
+ artifact_kogarasumaru_sword_desc: "小烏丸は、天国が朝廷のために鍛造し、その後承平天慶の乱での功績により$Suzaku$$king_tenno_male_japanese$から$dynn_Taira$$Sadamori$へ下賜された。"
