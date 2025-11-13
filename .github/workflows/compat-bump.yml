@@ -1,0 +1,695 @@
+name: Compatibility Bump
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: compat-bump
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  id-token: write
+  actions: read
+
+jobs:
+  check-version:
+    runs-on: ubuntu-latest
+    outputs:
+      needs_update: ${{ steps.check.outputs.needs_update }}
+      current: ${{ steps.check.outputs.current }}
+      latest: ${{ steps.check.outputs.latest }}
+      pr_exists: ${{ steps.check_pr.outputs.exists }}
+      pr_number: ${{ steps.check_pr.outputs.number }}
+      branch_exists: ${{ steps.check_branch.outputs.exists }}
+    steps:
+      - name: Check versions via API
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BASE_REPO="jesec/ck3-mod-base"
+
+          # Get current version from our base/.ck3-version.json
+          CURRENT_VERSION=$(gh api "repos/${{ github.repository }}/contents/base/.ck3-version.json" \
+            --jq '.content' | base64 -d | jq -r '.version')
+
+          # Get latest version from base repo's base/.ck3-version.json
+          LATEST_VERSION=$(gh api "repos/$BASE_REPO/contents/base/.ck3-version.json" \
+            --jq '.content' | base64 -d | jq -r '.version')
+
+          echo "current=$CURRENT_VERSION" >> $GITHUB_OUTPUT
+          echo "latest=$LATEST_VERSION" >> $GITHUB_OUTPUT
+
+          # Compare versions using sort -V
+          NEWER=$(printf "%s\n%s" "$CURRENT_VERSION" "$LATEST_VERSION" | sort -V | tail -1)
+
+          if [ "$NEWER" = "$LATEST_VERSION" ] && [ "$CURRENT_VERSION" != "$LATEST_VERSION" ]; then
+            echo "needs_update=true" >> $GITHUB_OUTPUT
+            echo "📦 Update available: $CURRENT_VERSION → $LATEST_VERSION"
+          else
+            echo "needs_update=false" >> $GITHUB_OUTPUT
+            echo "✅ Already on latest: $CURRENT_VERSION"
+          fi
+
+      - name: Check existing PR
+        id: check_pr
+        if: steps.check.outputs.needs_update == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="compat/${{ steps.check.outputs.latest }}"
+          REPO_OWNER="${{ github.repository_owner }}"
+
+          # Security: Only accept PRs that:
+          # 1. Are created by app/claude (Claude Code bot)
+          # 2. Are from THIS repository (not a fork)
+          # 3. Have the correct branch name
+          # 4. Target master branch
+          PR_DATA=$(gh pr list -R "${{ github.repository }}" \
+            --label "compat-bump" \
+            --state open \
+            --json number,author,headRefName,headRepositoryOwner,baseRefName \
+            -q "[.[] | select(
+              .author.login == \"app/claude\" and
+              .headRepositoryOwner.login == \"$REPO_OWNER\" and
+              .headRefName == \"$BRANCH\" and
+              .baseRefName == \"master\"
+            )][0]")
+
+          if [ -n "$PR_DATA" ] && [ "$PR_DATA" != "null" ]; then
+            PR_NUMBER=$(echo "$PR_DATA" | jq -r '.number')
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "number=$PR_NUMBER" >> $GITHUB_OUTPUT
+            echo "✅ Found valid PR #$PR_NUMBER from app/claude on branch $BRANCH"
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "✅ No valid PR found (will create new one after merge)"
+          fi
+
+      - name: Check existing branch
+        id: check_branch
+        if: steps.check.outputs.needs_update == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="compat/${{ steps.check.outputs.latest }}"
+          REPO_URL="https://github.com/${{ github.repository }}.git"
+
+          if git ls-remote --heads "$REPO_URL" "$BRANCH" | grep -q "$BRANCH"; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "⏭️  Branch $BRANCH already exists - skipping"
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "✅ Branch $BRANCH does not exist - will proceed"
+          fi
+
+  claude-merge:
+    needs: check-version
+    # Security: Skip if branch exists (human might be working on it, or previous run may have failed)
+    # Only proceed if update needed AND branch doesn't exist
+    if: needs.check-version.outputs.needs_update == 'true' && needs.check-version.outputs.branch_exists != 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Setup base repository remote
+        run: |
+          # Add base repository as remote (if not already present)
+          if ! git remote | grep -q '^base$'; then
+            git remote add base https://github.com/jesec/ck3-mod-base.git
+          fi
+
+          # Fetch base tags - this brings in base/1.18.0, base/1.18.1, etc.
+          git fetch base --tags
+
+          echo "✅ Base repository tags fetched"
+
+      - name: Invoke Claude Code
+        uses: anthropics/claude-code-action@v1
+        env:
+          MAX_THINKING_TOKENS: "16000"
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: "--dangerously-skip-permissions"
+          prompt: |
+            CONTEXT: CI Automation - compat-bump workflow
+            Repository: CK3 "Less Restrictive Legacies" mod
+            TASK: Perform compatibility bump from base/${{ needs.check-version.outputs.current }} to base/${{ needs.check-version.outputs.latest }}
+
+            ═══════════════════════════════════════════════════════════════════
+
+            YOUR TASK:
+
+            Merge base/${{ needs.check-version.outputs.latest }} into this mod and ensure everything still works.
+
+            You have unlimited time. Use it to understand the problem, verify thoroughly, and fix intelligently.
+
+            Read CLAUDE.md - it contains critical thinking principles, mod philosophy, and merge guidance.
+
+            The phases below provide examples and techniques. Use them as guidance, not a rigid checklist.
+            Think about what makes sense for THIS specific update. What could break? What needs verification?
+
+            ═══════════════════════════════════════════════════════════════════
+
+            IMPORTANT CONTEXT:
+
+            This repository has TWO git remotes:
+            - origin: jesec/ck3-mod-less-restrictive-legacies (this mod)
+            - base: jesec/ck3-mod-base (vanilla CK3 game files)
+
+            The base remote has already been fetched with all tags (base/1.18.0, base/1.18.1, etc.)
+            These tags represent vanilla CK3 versions that you will merge from.
+
+            ═══════════════════════════════════════════════════════════════════
+
+            PHASE 0: BRANCH AND PR SETUP
+
+            Target version: base/${{ needs.check-version.outputs.latest }}
+            Branch name: compat/${{ needs.check-version.outputs.latest }}
+
+            Steps:
+            1. Create new branch from master: git checkout -b compat/${{ needs.check-version.outputs.latest }}
+
+            2. Create empty placeholder commit: git commit --allow-empty -m "WIP: Compatibility bump to base/${{ needs.check-version.outputs.latest }}"
+
+            3. Push placeholder to create the branch: git push -u origin compat/${{ needs.check-version.outputs.latest }}
+
+            4. Create draft PR (see PR creation below)
+
+            5. IMMEDIATELY remove the WIP commit (so it won't be in final history):
+               git reset --hard HEAD^
+               (Don't push - the real commits will be force-pushed later)
+
+            **PR Creation:**
+
+            ```bash
+            gh pr create --draft --title "Compatibility bump to base/${{ needs.check-version.outputs.latest }}" \
+              --label "compat-bump" \
+              --body "## CK3 Compatibility Bump
+
+            **Target:** base/${{ needs.check-version.outputs.latest }}
+            **Status:** 🔄 Automated merge in progress...
+
+            Claude Code is currently performing the compatibility bump. This PR body will be updated with results when complete.
+
+            **Workflow:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            ```
+
+            Now proceed with the actual merge work. You'll force push the real commits later.
+
+            ═══════════════════════════════════════════════════════════════════
+
+            PHASE 1: DISCOVER CURRENT STATE
+
+            Before merging, understand what you're working with.
+
+            Example commands to discover the mod's current state:
+            ```bash
+            # Find current base version
+            git describe --tags --match "base/*" HEAD
+
+            # List all modified files
+            git diff --name-only base/X.Y.Z HEAD
+
+            # Examine changes in each file
+            git diff base/X.Y.Z HEAD -- path/to/file
+
+            # Extract game element references dynamically
+            # (These are examples - discover what patterns the mod actually uses)
+            grep -oh "tradition_[a-z_0-9]*" <modified_files> | sort -u
+            grep -oh "heritage_[a-z_0-9]*" <modified_files> | sort -u
+            grep -oh "government_has_[a-z_0-9_]*" <modified_files> | sort -u
+            grep -oh "ethos_[a-z_0-9]*" <modified_files> | sort -u
+            grep -oh "has_[a-z_0-9]*_dlc" <modified_files> | sort -u
+            ```
+
+            Don't just run these mechanically. Think:
+            - What does this mod actually modify?
+            - What game elements does it depend on?
+            - What could break when base game updates?
+
+            ═══════════════════════════════════════════════════════════════════
+
+            PHASE 2: ANALYZE BASE GAME CHANGES
+
+            Understand what Paradox changed in this update.
+
+            Example commands:
+            ```bash
+            # Overall changes between versions
+            git diff --stat base/OLD..base/NEW
+
+            # Did base modify files we also modified?
+            git diff base/OLD..base/NEW -- <your_modified_files>
+
+            # Read the official patch notes
+            cat base/.ck3-version.json  # Contains URL to release notes
+            ```
+
+            Think about implications:
+            - What changed in the base game?
+            - Does this affect our mod?
+            - Could this break our dependencies?
+            - What does this mean thematically?
+
+            ═══════════════════════════════════════════════════════════════════
+
+            PHASE 3: PERFORM MERGE
+
+            Execute the merge and handle any conflicts intelligently.
+
+            ```bash
+            git merge base/${{ needs.check-version.outputs.latest }}
+            ```
+
+            If conflicts occur:
+            - Don't panic - analyze each conflict
+            - Goal: BASE structure + BASE conditions + MOD conditions (union, not intersection)
+            - Never remove access paths - the mod EXPANDS access, never restricts
+            - See CLAUDE.md for conflict resolution principles
+            - Mark resolved: git add <files>
+
+            ═══════════════════════════════════════════════════════════════════
+
+            PHASE 4: INTELLIGENT PROBLEM SOLVING
+
+            Don't just report problems - investigate and fix them.
+
+            Think like a CK3 mod developer who cares about the game:
+            - Why does the mod use this element?
+            - What is it trying to achieve thematically?
+            - If something broke, what's the equivalent in the new version?
+            - How can I preserve the mod's intent?
+
+            Example approach to a broken reference:
+
+            "tradition_seafaring is missing"
+
+            Don't just report it. Think:
+            - Why does the mod use this? (Read the file, understand the context)
+            - What does seafaring represent? (Naval traditions, coastal cultures?)
+            - Did Paradox rename it, remove it, or replace it with something else?
+            - Search the new base game for naval/coastal traditions
+            - Read their definitions, find what fits thematically
+            - Update the mod to use the right reference
+            - Document what you did and why
+
+            Your goal: make intelligent fixes that preserve the mod's purpose.
+
+            ═══════════════════════════════════════════════════════════════════
+
+            PHASE 5: VALIDATION
+
+            Verify nothing broke. Think about what could be wrong and check for it.
+
+            Example validation techniques:
+            ```bash
+            # Validate game element references still exist
+            for tradition in $(grep -oh "tradition_[a-z_0-9]*" <files> | sort -u); do
+              if grep -rq "^${tradition}[[:space:]]*=" base/game/common/culture/traditions/; then
+                echo "✓ $tradition"
+              else
+                echo "✗ MISSING: $tradition"
+              fi
+            done
+
+            # Check file structure (brace balance)
+            for file in <modified_files>; do
+              OPEN=$(grep -o '{' "$file" | wc -l)
+              CLOSE=$(grep -o '}' "$file" | wc -l)
+              if [ $OPEN -eq $CLOSE ]; then
+                echo "✓ $file: $OPEN pairs"
+              else
+                echo "✗ $file: $OPEN open, $CLOSE close (MISMATCH)"
+              fi
+            done
+
+            # Build test
+            ./build.sh
+
+            # Verify mod philosophy preserved
+            # (Read actual files - is it still expanding access, not restricting?)
+            ```
+
+            These are examples. Think about what THIS update needs:
+            - What specifically changed that could cause problems?
+            - What would break that standard checks won't catch?
+            - How would I know if something subtle is wrong?
+            - Did I verify everything that could affect the mod?
+
+            ═══════════════════════════════════════════════════════════════════
+
+            PHASE 6: UPDATE DOCUMENTATION
+
+            Documentation must reflect reality, not just have updated version numbers.
+
+            Think about what changed:
+            1. Read Paradox patch notes (URL in base/.ck3-version.json)
+            2. Did they rename/remove/add anything the mod uses or documents?
+            3. Are the documented examples still accurate?
+
+            Files that may need updates:
+            - **mod/README.md**: Lists specific traditions, heritages, governments, mechanics
+              If Paradox renamed/changed any of these, update all mentions
+            - **README.md** (root): Game version badge
+            - **mod/descriptor.mod**: supported_version and mod version
+            - Any other docs referencing game content
+
+            Verification commands:
+            ```bash
+            # Find old version strings
+            grep -r "1\.18" . --include="*.md" --include="*.mod"
+
+            # Check game element mentions in docs
+            grep -r "tradition_\|heritage_\|government_" mod/*.md
+            ```
+
+            Don't just find-replace version numbers. Think: is the content still accurate?
+
+            Write a commit message explaining what you did:
+            ```
+            Merge base/${{ needs.check-version.outputs.latest }}: <brief description>
+
+            ## What Changed in Base Game
+            <What Paradox actually changed - be specific>
+
+            ## Merge Result
+            <Clean merge / Conflicts in X files - how resolved>
+
+            ## Issues Fixed
+            <Broken references, missing elements - what you fixed and why>
+
+            ## Validation
+            <What you checked and verified - be specific>
+            - Modified files: X
+            - Reference check: extracted Y, validated against base game
+            - Build: result
+            - Mod philosophy: how verified it's preserved
+
+            ## Documentation Updated
+            <Specific changes made>
+
+            ## Testing Notes
+            <Anything humans should verify in-game>
+            ```
+
+            Report what you did and found. Show your work, don't self-assess.
+
+            ═══════════════════════════════════════════════════════════════════
+
+            PHASE 7: FINALIZE PR
+
+            Once merge, validation, fixes, and documentation are complete:
+
+            **Step 1: Force push the real commits**
+
+            Replace the empty placeholder commit with your actual merge commits:
+            ```bash
+            git push --force origin compat/${{ needs.check-version.outputs.latest }}
+            ```
+
+            **Step 2: Find the PR number**
+
+            The PR should exist (created in Phase 0). Find it:
+            ```bash
+            gh pr list -R "${{ github.repository }}" \
+              --label "compat-bump" \
+              --state open \
+              --json number,author,headRefName,headRepositoryOwner,baseRefName \
+              -q "[.[] | select(
+                .author.login == \"app/claude\" and
+                .headRepositoryOwner.login == \"${{ github.repository_owner }}\" and
+                .headRefName == \"compat/${{ needs.check-version.outputs.latest }}\" and
+                .baseRefName == \"master\"
+              )][0].number"
+            ```
+
+            **Step 3: Update PR body**
+
+            Write a PR description that communicates what happened.
+
+            **Success template** (adapt based on what you actually found):
+            ```bash
+            gh pr edit $PR_NUM --body "$(cat <<'EOF'
+            ## CK3 Compatibility Bump
+
+            **Target:** base/${{ needs.check-version.outputs.latest }}
+            **Status:** ✅ Merge completed
+
+            ### Summary
+
+            <Brief 2-3 sentence summary of what you did>
+
+            ### What Changed in Base Game
+
+            <Key changes from Paradox - be specific about what actually changed>
+
+            ### Issues Resolved
+
+            <Broken references you fixed, conflicts you resolved, etc.>
+            <If clean merge: "Clean merge - no issues found">
+
+            ### Validation
+
+            <Report what you actually checked - be specific>
+            - Files modified: X (list or count them)
+            - References checked: Y traditions, Z heritages, etc.
+            - Missing references: (list any, or "none found")
+            - Build: (successful/failed)
+            - Mod philosophy: (how you verified it's preserved)
+
+            ### Documentation Changes
+
+            - README.md: <specific changes>
+            - mod/README.md: <specific changes>
+            - mod/descriptor.mod: <version updates>
+
+            ### Ready for Review
+
+            <Any specific in-game testing recommendations>
+
+            ---
+
+            <!--
+            CONTEXT FOR FUTURE CLAUDE SESSIONS:
+
+            [Fill with context a future Claude session would need:
+            - What you did and why
+            - Key findings (what changed, what broke, how fixed)
+            - Current state (versions, any warnings)
+            - Useful commands and information sources
+            - Anything else helpful for continuing work]
+
+            Workflow: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            -->
+
+            EOF
+            )"
+            ```
+
+            **Failure template** (very rare - only if you genuinely cannot proceed):
+            ```bash
+            gh pr edit $PR_NUM --body "$(cat <<'EOF'
+            ## CK3 Compatibility Bump
+
+            **Target:** base/${{ needs.check-version.outputs.latest }}
+            **Status:** ❌ Cannot complete merge
+
+            ### Why I Could Not Complete
+
+            <Specific reason - e.g., "Cannot resolve conflicts in dynasty_legacies without understanding design intent">
+
+            ### What I Tried
+
+            - <your research steps>
+            - <attempted fixes>
+            - <what git commands you ran>
+
+            ### Why I'm Stuck
+
+            <what you don't understand or what decision requires human knowledge>
+
+            ### Human Action Needed
+
+            <specific guidance, context, or decisions required>
+
+            ### Repository State
+
+            - Branch exists: compat/${{ needs.check-version.outputs.latest }}
+            - Merge aborted: working tree is clean
+            - Can be retried after providing guidance
+
+            ---
+
+            <!--
+            CONTEXT FOR FUTURE CLAUDE SESSIONS:
+
+            [Fill this with whatever context a future Claude session would need to understand what went wrong and help fix it.
+
+            Consider including:
+            - What you were trying to do and where it failed
+            - What you investigated and what you found (or didn't find)
+            - Why you couldn't proceed (missing reference? unclear decision? breaking change?)
+            - Current state (branch exists, merge aborted, working tree clean)
+            - What specific help is needed from humans
+            - Useful commands and where to find information]
+
+            Workflow: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            -->
+            EOF
+            )"
+            ```
+
+            ═══════════════════════════════════════════════════════════════════
+
+            KEY PRINCIPLES (from CLAUDE.md):
+
+            - Mod EXPANDS access, never restricts (union operation)
+            - Preserve vanilla paths AND mod alternatives
+            - Accept base structure changes
+            - Never remove unlock conditions
+            - Discover dynamically, don't hardcode
+            - If uncertain, abort and report
+
+            ═══════════════════════════════════════════════════════════════════
+
+            Context provided by workflow:
+            - Current base: base/${{ needs.check-version.outputs.current }}
+            - Target base: base/${{ needs.check-version.outputs.latest }}
+            - PR exists: ${{ needs.check-version.outputs.pr_exists }}
+            - PR number: ${{ needs.check-version.outputs.pr_number }}
+
+            BEGIN EXECUTION.
+
+      - name: Build mod package
+        run: |
+          # Build the mod
+          ./build.sh
+          echo "✅ Built mod package"
+
+      - name: Prepare mod package
+        run: |
+          # Get mod name from descriptor.mod
+          MOD_NAME=$(grep -o 'name="[^"]*"' mod/descriptor.mod | sed 's/name="\(.*\)"/\1/' | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+
+          # Create package directory structure (upload-artifact will zip it)
+          mkdir -p package
+
+          # Create .mod descriptor file with relative path
+          cat mod/descriptor.mod > "package/$MOD_NAME.mod"
+          echo "path=\"mod/$MOD_NAME\"" >> "package/$MOD_NAME.mod"
+
+          # Copy mod content
+          mkdir -p "package/$MOD_NAME"
+          cp -r out/* "package/$MOD_NAME/"
+
+          echo "✅ Prepared drop-in mod package"
+
+      - name: Upload mod package
+        id: upload_package
+        uses: actions/upload-artifact@v4
+        with:
+          name: mod-package
+          path: package/
+          retention-days: 90
+
+      - name: Create mod changes commit
+        run: |
+          VERSION="${{ needs.check-version.outputs.latest }}"
+          REPO="${{ github.repository }}"
+
+          # Start from base version (clean vanilla)
+          git checkout base/$VERSION
+
+          # Remove base/game to properly capture deletions
+          git rm -r base/game
+
+          # Overlay mod changes from compat branch (captures adds, mods, deletes, renames)
+          git checkout compat/$VERSION -- base/game
+
+          # Commit the changes
+          git commit -m "Mod changes for CK3 base/$VERSION" \
+                     -m "Shows all modifications made by the Less Restrictive Legacies mod compared to vanilla CK3 base/$VERSION." \
+                     -m "View this commit to see the diff in GitHub's interface."
+
+          # Push the commit and get its SHA
+          CHANGES_SHA=$(git rev-parse HEAD)
+          git push origin $CHANGES_SHA
+
+          echo "CHANGES_URL=https://github.com/$REPO/commit/$CHANGES_SHA" >> $GITHUB_ENV
+
+          echo "✅ Created mod changes commit: $CHANGES_SHA"
+
+      - name: Append artifacts to PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Find the PR
+          PR_NUM=$(gh pr list -R "${{ github.repository }}" \
+            --label "compat-bump" \
+            --state open \
+            --json number,author,headRefName,headRepositoryOwner,baseRefName \
+            -q "[.[] | select(
+              .author.login == \"app/claude\" and
+              .headRepositoryOwner.login == \"${{ github.repository_owner }}\" and
+              .headRefName == \"compat/${{ needs.check-version.outputs.latest }}\" and
+              .baseRefName == \"master\"
+            )][0].number")
+
+          if [ -z "$PR_NUM" ] || [ "$PR_NUM" = "null" ]; then
+            echo "⚠️  PR not found, skipping artifact links"
+            exit 0
+          fi
+
+          echo "📝 Updating artifact links in PR #$PR_NUM"
+
+          # Get URLs: changes commit from env, package from upload action
+          CHANGES_URL="${{ env.CHANGES_URL }}"
+          PKG_URL="${{ steps.upload_package.outputs.artifact-url }}"
+
+          # Get current PR body
+          gh pr view $PR_NUM --json body -q .body > current_body.txt
+
+          # Split body at HTML comment (artifacts should go BEFORE the comment)
+          awk '/^<!--/ {exit} {print}' current_body.txt > before_comment.txt
+          awk '/^<!--/,0 {print}' current_body.txt > after_comment.txt
+
+          # Clean the "before" section: remove artifacts and trailing separators/whitespace
+          # This sed command removes:
+          # 1. Existing artifacts section (\n---\n\n### 📦 Artifacts...)
+          # 2. Trailing --- separators (\n\n*---\n*$)
+          # 3. Trailing whitespace (\n\n*$)
+          sed ':a; N; $!ba; s/\n---\n\n### 📦 Artifacts[^\n]*.*$//g; s/\n\n*---\n*$//g; s/\n\n*$//g' before_comment.txt > before_cleaned.txt
+
+          # Reconstruct PR body: cleaned content + artifacts + HTML comment
+          {
+            cat before_cleaned.txt
+            printf '\n\n---\n\n### 📦 Artifacts\n\n- 📄 [Mod Changes](%s) ([diff](%s.diff))\n- 📦 [Mod Package](%s)\n' \
+              "$CHANGES_URL" \
+              "$CHANGES_URL" \
+              "$PKG_URL"
+            # Append HTML comment section if it exists (with separator)
+            if [ -s after_comment.txt ]; then
+              printf '\n---\n\n'
+              cat after_comment.txt
+            fi
+          } | gh pr edit $PR_NUM --body-file -
+
+          rm current_body.txt before_comment.txt after_comment.txt before_cleaned.txt
+
+          echo "✅ Appended artifact links to PR #$PR_NUM"
