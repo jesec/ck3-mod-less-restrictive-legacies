@@ -1,7 +1,9 @@
 ﻿fp3_khvarenah_legacy_1 = { # Sense of Purpose
 	legacy = fp3_khvarenah_legacy_track
 
-	can_be_picked = { eligible_for_fp3_khvarenah_legacy_trigger = yes }
+	can_be_picked = {
+		has_fp3_dlc_trigger = yes
+	}
 
 	effect = {
 		custom_description_no_bullet = { text = fp3_khvarenah_legacy_court_positions_effect	}
@@ -31,7 +33,9 @@
 fp3_khvarenah_legacy_2 = { # Lofty Ambitions 
 	legacy = fp3_khvarenah_legacy_track
 
-	can_be_picked = { eligible_for_fp3_khvarenah_legacy_trigger = yes }
+	can_be_picked = {
+		has_fp3_dlc_trigger = yes
+	}
 
 	effect = {
 		custom_description_no_bullet = { text = fp3_khvarenah_legacy_2_hostile_effect }
@@ -51,7 +55,9 @@ fp3_khvarenah_legacy_2 = { # Lofty Ambitions
 fp3_khvarenah_legacy_3 = { # Light of Glory 
 	legacy = fp3_khvarenah_legacy_track
 
-	can_be_picked = { eligible_for_fp3_khvarenah_legacy_trigger = yes }
+	can_be_picked = {
+		has_fp3_dlc_trigger = yes
+	}
 
 	effect = {
 		custom_description_no_bullet = { 
@@ -75,7 +81,9 @@ fp3_khvarenah_legacy_3 = { # Light of Glory
 fp3_khvarenah_legacy_4 = { # Ancient Authority
 	legacy = fp3_khvarenah_legacy_track
 
-	can_be_picked = { eligible_for_fp3_khvarenah_legacy_trigger = yes }
+	can_be_picked = {
+		has_fp3_dlc_trigger = yes
+	}
 
 
 	effect = {
@@ -101,7 +109,9 @@ fp3_khvarenah_legacy_4 = { # Ancient Authority
 fp3_khvarenah_legacy_5 = { # Splendor Reborn 
 	legacy = fp3_khvarenah_legacy_track
 
-	can_be_picked = { eligible_for_fp3_khvarenah_legacy_trigger = yes }
+	can_be_picked = {
+		has_fp3_dlc_trigger = yes
+	}
 
 	effect = {
 		custom_description_no_bullet = { text = fp3_khvarenah_legacy_5_decision_effect }	
