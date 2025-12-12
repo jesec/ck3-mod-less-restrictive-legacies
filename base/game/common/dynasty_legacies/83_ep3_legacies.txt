@@ -6,6 +6,8 @@
 			dynasty = {
 				has_dynasty_perk = ep3_administrative_legacy_1
 			}
+
+			government_has_flag = government_has_influence
 		}
 	}
 }

@@ -6,6 +6,18 @@
 			dynasty = {
 				has_dynasty_perk = mpo_nomad_legacy_1
 			}
+
+			AND = {
+				dynasty = {
+					dynast = {
+						OR = {
+							culture = { has_cultural_tradition = tradition_horse_lords }
+							culture = { has_cultural_tradition = tradition_steppe_tolerance }
+							culture = { has_cultural_pillar = heritage_mongolic }
+						}
+					}
+				}
+			}
 		}
 	}
 }

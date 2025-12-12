@@ -14,6 +14,13 @@
 					}
 				}
 				has_dynasty_perk = fp3_khvarenah_legacy_1
+
+				dynast = {
+					OR = {
+						faith = { religion = religion:zoroastrianism_religion }
+						culture = { has_cultural_tradition = tradition_fp3_enlightened_magnates }
+					}
+				}
 			}
 		}
 	}

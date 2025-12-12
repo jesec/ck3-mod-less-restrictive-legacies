@@ -19,6 +19,14 @@ fp2_urbanism_legacy_track = {
 					}
 				}
 				has_dynasty_perk = fp2_urbanism_legacy_1
+
+				dynast = {
+					OR = {
+						culture = { has_cultural_tradition = tradition_republican_legacy }
+						culture = { has_cultural_tradition = tradition_parochialism }
+						culture = { has_cultural_tradition = tradition_city_keepers }
+					}
+				}
 			}
 		}
 	}
@@ -45,6 +53,16 @@ fp2_coterie_legacy_track = {
 					}
 				}
 				has_dynasty_perk = fp2_coterie_legacy_1
+
+				dynast = {
+					OR = {
+						culture = { has_cultural_tradition = tradition_family_entrepreneurship }
+						culture = { has_cultural_tradition = tradition_tribe_unity }
+						culture = { has_cultural_tradition = tradition_strong_kinship }
+						culture = { has_cultural_tradition = tradition_mystical_ancestors }
+						culture = { has_cultural_pillar = ethos_communal }
+					}
+				}
 			}
 		}
 	}

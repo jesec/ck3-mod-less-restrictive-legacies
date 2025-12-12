@@ -3,7 +3,6 @@
 
 	can_be_picked = {
 		has_mpo_dlc_trigger = yes
-		government_has_flag = government_is_nomadic
 	}
 
 	character_modifier = {
@@ -33,7 +32,6 @@ mpo_nomad_legacy_2 = { # Scorched Earth
 
 	can_be_picked = {
 		has_mpo_dlc_trigger = yes
-		government_has_flag = government_is_nomadic
 	}
 
 	character_modifier = {
@@ -50,7 +48,6 @@ mpo_nomad_legacy_3 = { # The Secret History
 
 	can_be_picked = {
 		has_mpo_dlc_trigger = yes
-		government_has_flag = government_is_nomadic
 	}
 	
 	character_modifier = {
@@ -69,7 +66,6 @@ mpo_nomad_legacy_4 = { # The Punishment of God
 
 	can_be_picked = {
 		has_mpo_dlc_trigger = yes
-		government_has_flag = government_is_nomadic
 	}
 	
 	character_modifier = {
@@ -90,7 +86,6 @@ mpo_nomad_legacy_5 = { # Pax Mongolica
 
 	can_be_picked = {
 		has_mpo_dlc_trigger = yes
-		government_has_flag = government_is_nomadic
 	}
 	
 	character_modifier = {
