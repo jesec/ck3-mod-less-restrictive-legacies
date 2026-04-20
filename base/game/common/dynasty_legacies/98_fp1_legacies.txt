@@ -1,27 +1,34 @@
 ﻿fp1_adventure_legacy_track = {
 	is_shown = {
 		has_dlc_feature = the_northern_lords
-		dynasty = {
-			OR = {
-				dynast = {
-					culture = {
-						OR = {
-							this = culture:norse
-							any_parent_culture_or_above = {
+		OR = {
+			has_game_rule = unrestricted_dynasty_legacies_all
+			AND = {
+				has_game_rule = unrestricted_dynasty_legacies_player_only
+				is_ai = no
+			}
+			dynasty = {
+				OR = {
+					dynast = {
+						culture = {
+							OR = {
 								this = culture:norse
+								any_parent_culture_or_above = {
+									this = culture:norse
+								}
 							}
 						}
 					}
-				}
-				has_dynasty_perk = fp1_adventure_legacy_1
+					has_dynasty_perk = fp1_adventure_legacy_1
 
-				dynast = {
-					OR = {
-						culture = { has_cultural_tradition = tradition_practiced_pirates }
-						culture = { has_cultural_tradition = tradition_seafaring }
-						culture = { has_cultural_tradition = tradition_diasporic }
-						culture = { has_cultural_tradition = tradition_druzhina }
-						culture = { has_cultural_pillar = heritage_north_germanic }
+					dynast = {
+						OR = {
+							culture = { has_cultural_tradition = tradition_practiced_pirates }
+							culture = { has_cultural_tradition = tradition_seafaring }
+							culture = { has_cultural_tradition = tradition_diasporic }
+							culture = { has_cultural_tradition = tradition_druzhina }
+							culture = { has_cultural_pillar = heritage_north_germanic }
+						}
 					}
 				}
 			}
@@ -32,27 +39,34 @@
 fp1_pillage_legacy_track = {
 	is_shown = {
 		has_dlc_feature = the_northern_lords
-		dynasty = {
-			OR = {
-				dynast = {
-					culture = {
-						OR = {
-							this = culture:norse
-							any_parent_culture_or_above = {
+		OR = {
+			has_game_rule = unrestricted_dynasty_legacies_all
+			AND = {
+				has_game_rule = unrestricted_dynasty_legacies_player_only
+				is_ai = no
+			}
+			dynasty = {
+				OR = {
+					dynast = {
+						culture = {
+							OR = {
 								this = culture:norse
+								any_parent_culture_or_above = {
+									this = culture:norse
+								}
 							}
 						}
 					}
-				}
-				has_dynasty_perk = fp1_pillage_legacy_1
+					has_dynasty_perk = fp1_pillage_legacy_1
 
-				dynast = {
-					OR = {
-						culture = { has_cultural_tradition = tradition_practiced_pirates }
-						culture = { has_cultural_tradition = tradition_seafaring }
-						culture = { has_cultural_tradition = tradition_battlefield_looters }
-						culture = { has_cultural_pillar = heritage_north_germanic }
-						has_government = tribal_government
+					dynast = {
+						OR = {
+							culture = { has_cultural_tradition = tradition_practiced_pirates }
+							culture = { has_cultural_tradition = tradition_seafaring }
+							culture = { has_cultural_tradition = tradition_battlefield_looters }
+							culture = { has_cultural_pillar = heritage_north_germanic }
+							has_government = tribal_government
+						}
 					}
 				}
 			}
