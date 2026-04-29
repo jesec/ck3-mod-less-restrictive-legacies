@@ -692,3 +692,46 @@ jobs:
           rm current_body.txt before_comment.txt after_comment.txt before_cleaned.txt
 
           echo "✅ Appended artifact links to PR #$PR_NUM"
+
+      - name: Promote draft to ready and auto-merge if Claude verified
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Find the bot's PR for this version
+          PR_NUM=$(gh pr list -R "${{ github.repository }}" \
+            --label "compat-bump" \
+            --state open \
+            --json number,author,headRefName,headRepositoryOwner,baseRefName,isDraft \
+            -q "[.[] | select(
+              .author.login == \"app/claude\" and
+              .headRepositoryOwner.login == \"${{ github.repository_owner }}\" and
+              .headRefName == \"compat/${{ needs.check-version.outputs.latest }}\" and
+              .baseRefName == \"master\"
+            )][0].number")
+
+          if [ -z "$PR_NUM" ] || [ "$PR_NUM" = "null" ]; then
+            echo "⚠️  No PR found for compat/${{ needs.check-version.outputs.latest }} — nothing to promote"
+            exit 0
+          fi
+
+          # Read the current PR body status. Claude writes either:
+          #   "**Status:** ✅ Merge completed"     → verification passed, safe to merge
+          #   "**Status:** ❌ Cannot complete merge" → needs human, leave draft
+          #   anything else                          → assume blocked, leave draft
+          BODY=$(gh pr view "$PR_NUM" -R "${{ github.repository }}" --json body -q .body)
+          if echo "$BODY" | grep -qF '**Status:** ✅ Merge completed'; then
+            echo "✅ PR #$PR_NUM has 'Merge completed' status — promoting and merging"
+            gh pr ready "$PR_NUM" -R "${{ github.repository }}" 2>&1 | tail -3 || true
+            # Merge with delete-branch; allow either merge-commit or rebase based on repo settings
+            if gh pr merge "$PR_NUM" -R "${{ github.repository }}" --merge --delete-branch --auto 2>&1 | tee /tmp/merge.log; then
+              echo "✅ PR #$PR_NUM merge enqueued (auto-merge)"
+            else
+              # If --auto isn't allowed (no branch protection requiring it), fall back to immediate merge
+              echo "auto-merge not available; attempting immediate merge"
+              gh pr merge "$PR_NUM" -R "${{ github.repository }}" --merge --delete-branch
+            fi
+          else
+            echo "⏸  PR #$PR_NUM is not in '✅ Merge completed' state — leaving as draft for human review"
+            echo "    Status header detected:"
+            echo "$BODY" | grep -E '^\*\*Status:\*\*' || echo "    (no Status header found)"
+          fi
