@@ -1,6 +1,6 @@
 # CK3 - Less Restrictive Legacies
 
-[![Game Version](https://img.shields.io/badge/CK3-1.19.*-blue.svg)](https://github.com/jesec/ck3-mod-base/blob/base/1.19.0.4/base/release-notes/1_19_0_4_2026-04-23.md)
+[![Game Version](https://img.shields.io/badge/CK3-1.19.*-blue.svg)](https://github.com/jesec/ck3-mod-base/blob/base/1.19.0.5/base/release-notes/1_19_0_5_2026-05-07.md)
 [![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-green.svg)](https://steamcommunity.com/sharedfiles/filedetails/?id=3601134767)
 
 A Crusader Kings III mod that expands access to dynasty legacy tracks from all major DLCs, making them available based on thematic fit and mechanical benefit rather than strict ethnic or regional restrictions.

@@ -79,7 +79,7 @@ This mod relaxes the cultural and governmental restrictions on dynasty legacy tr
 
 ## Compatibility
 
-- **Game Version:** 1.18.* (Majesty update and later)
+- **Game Version:** 1.19.* (Scribe update and later)
 - **DLC Required:** Each legacy track requires its respective DLC:
   - Northern Lords (FP1): Adventure and Pillage legacies
   - Fate of Iberia (FP2): Metropolitan and Coterie legacies
@@ -113,6 +113,6 @@ Based on the original Steam Workshop mods:
 - "Less Restricted Northern Legacies" (Workshop ID: 2861054654)
 - "Less Restricted Iberian Legacies" (Workshop ID: 2861053969)
 
-Extended and updated for CK3 v1.18 to include all DLC legacy tracks.
+Extended and updated for CK3 v1.19 to include all DLC legacy tracks.
 
 **Steam Workshop:** https://steamcommunity.com/sharedfiles/filedetails/?id=3601134767
