@@ -618,6 +618,15 @@ jobs:
           # Overlay mod changes from compat branch (captures adds, mods, deletes, renames)
           git checkout compat/$VERSION -- base/game
 
+          # Keep .github identical to the default branch. A base update can modify
+          # base/.github/workflows/*, but this commit is pushed with the Actions
+          # GITHUB_TOKEN, which lacks `workflows` permission — any create/update of a
+          # workflow file (relative to master) would reject the whole push and, before
+          # this guard, fail the job and orphan the verified PR as an unmerged draft.
+          git rm -r --quiet --ignore-unmatch .github
+          git checkout origin/master -- .github 2>/dev/null || true
+          git add -A .github 2>/dev/null || true
+
           # Commit the changes
           git commit -m "Mod changes for CK3 base/$VERSION" \
                      -m "Shows all modifications made by the Less Restrictive Legacies mod compared to vanilla CK3 base/$VERSION." \
